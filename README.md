@@ -138,8 +138,8 @@ will automatically trigger a Nikola build and deploy.
 In the meantime, here is how Nikola can be run manually. This
 assumes you are running as me on the server however.
 
-   source ~/PythonEnvs/nikola-611/bin/activate
-   cd ~/Websites/mate-desktop.org
-   nikola build
-   nikola deploy
+    source ~/PythonEnvs/nikola-611/bin/activate
+    cd ~/Websites/mate-desktop.org
+    nikola build
+    nikola deploy
 
