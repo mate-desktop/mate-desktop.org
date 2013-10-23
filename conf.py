@@ -6,7 +6,7 @@ import time
 # Configuration, please edit
 
 # Data about this site
-BLOG_AUTHOR = "The MATE Developers"
+BLOG_AUTHOR = "The MATE Team"
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link
@@ -93,16 +93,16 @@ NAVIGATION_LINKS = {
 #
 
 POSTS = (
-            ("posts/*.md", "posts", "post.tmpl"),
+            ("blog/*.md", "blog", "post.tmpl"),
         )
 PAGES = (
-            ("stories/*.md", "stories", "story.tmpl"),
+            ("pages/*.md", "pages", "story.tmpl"),
         )
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
 # Default is:
-# FILES_FOLDERS = {'files': '' }
+FILES_FOLDERS = {'files': '' }
 # Which means copy 'files' into 'output'
 
 # A mapping of languages to file-extensions that represent that language.
@@ -116,8 +116,7 @@ COMPILERS = {
         "rest": ('.txt', '.rst'),
         "markdown": ('.md', '.mdown', '.markdown'),
         "html": ('.html', '.htm')
-        }
-        
+}        
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -297,12 +296,13 @@ INDEX_TEASERS = False
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
 LICENSE = """
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">mate-desktop.org</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">mate-desktop.org</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br/>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
 """
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com">Nikola</a>         {license}'
+CONTENT_FOOTER = '<div align="center">Contents &copy; {date} <a href="mailto:{email}">{author}</a>. {license}</div>'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
@@ -328,14 +328,14 @@ COMMENT_SYSTEM_ID = False
 # Create index.html for story folders?
 STORY_INDEX = False
 # Enable comments on story pages?
-# COMMENTS_IN_STORIES = False
+COMMENTS_IN_STORIES = False
 # Enable comments on picture gallery pages?
-# COMMENTS_IN_GALLERIES = False
+COMMENTS_IN_GALLERIES = False
 
 # What file should be used for directory indexes?
 # Defaults to index.html
 # Common other alternatives: default.html for IIS, index.php
-# INDEX_FILE = "index.html"
+INDEX_FILE = "index.html"
 
 # If a link ends in /index.html,  drop the index.html part.
 # http://mysite/foo/bar/index.html => http://mysite/foo/bar/
@@ -343,7 +343,7 @@ STORY_INDEX = False
 # it will instead /foo/default.html => /foo)
 # (Note: This was briefly STRIP_INDEX_HTML in v 5.4.3 and 5.4.4)
 # Default = False
-# STRIP_INDEXES = False
+STRIP_INDEXES = True
 
 # Should the sitemap list directories which only include other directories
 # and no files.
@@ -351,18 +351,18 @@ STORY_INDEX = False
 # If this is False
 # e.g. /2012 includes only /01, /02, /03, /04, ...: don't add it to the sitemap
 # if /2012 includes any files (including index.html)... add it to the sitemap
-# SITEMAP_INCLUDE_FILELESS_DIRS = True
+SITEMAP_INCLUDE_FILELESS_DIRS = True
 
 # Instead of putting files in <slug>.html, put them in
 # <slug>/index.html. Also enables STRIP_INDEXES
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata
-# PRETTY_URLS = False
+PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
-# FUTURE_IS_NOW = False
+FUTURE_IS_NOW = False
 
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
@@ -411,25 +411,26 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
-SOCIAL_BUTTONS_CODE = """
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-<li><a class="addthis_button_google_plusone_share"></a>
-<li><a class="addthis_button_linkedin"></a>
-<li><a class="addthis_button_twitter"></a>
-</ul>
-</div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- End of social buttons -->
-"""
+SOCIAL_BUTTONS_CODE = ""
+#SOCIAL_BUTTONS_CODE = """
+#<!-- Social buttons -->
+#<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+#<a class="addthis_button_more">Share</a>
+#<ul><li><a class="addthis_button_facebook"></a>
+#<li><a class="addthis_button_google_plusone_share"></a>
+#<li><a class="addthis_button_linkedin"></a>
+#<li><a class="addthis_button_twitter"></a>
+#</ul>
+#</div>
+#<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
+#<!-- End of social buttons -->
+#"""
 
 # Hide link to source for the posts?
-# HIDE_SOURCELINK = False
+HIDE_SOURCELINK = True
 # Copy the source files for your pages?
 # Setting it to False implies HIDE_SOURCELINK = True
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -480,30 +481,31 @@ RSS_TEASERS = False
 # Also, there is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
 
-# SEARCH_FORM = """
-# <span class="navbar-form pull-left">
-# <input type="text" id="tipue_search_input">
-# </span>"""
-#
-# BODY_END = """
-# <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
-# <script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
-# <script type="text/javascript">
-# $(document).ready(function() {
-    # $('#tipue_search_input').tipuesearch({
-        # 'mode': 'json',
-        # 'contentLocation': '/assets/js/tipuesearch_content.json',
-        # 'showUrl': false
-    # });
-# });
-# </script>
-# """
+SEARCH_FORM = """
+<span class="navbar-form pull-left">
+<input type="text" id="tipue_search_input" placeholder="Search..." class="input-medium search-query search-margin" />
+</span>"""
 
-# EXTRA_HEAD_DATA = """
-# <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
-# <div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
-# """
-# ENABLED_EXTRAS = ['local_search']
+BODY_END = """
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        'show': 5,
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+});
+</script>
+"""
+
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+"""
+ENABLED_EXTRAS = ['local_search']
 #
 
 
@@ -512,7 +514,7 @@ RSS_TEASERS = False
 # is served from the NetDNA CDN
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-# USE_CDN = False
+USE_CDN = False
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
@@ -572,7 +574,7 @@ RSS_TEASERS = False
 # TIMEZONE = 'Europe/Zurich'
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
