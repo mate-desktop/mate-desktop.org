@@ -1,0 +1,34 @@
+<html><body><p>The team is proud to announce the release of MATE 1.4.
+
+
+<img class="alignnone" title="Mate 1.4.0" src="http://i.imgur.com/V5ab0.png" alt="" width="456" height="274">
+
+
+
+ 
+
+
+
+<strong>Changes in 1.4:</strong>
+
+</p><ul><li>Numerous bug fixes</li>
+	<li>mate-keyring and libmatekeyring backends updated and now integrate properly</li>
+	<li>caja-dropbox package now available</li>
+	<li>New themes added to mate-notification-daemon</li>
+	<li>Removed indicator-applet-session</li>
+	<li>File sharing now available via bluetooth</li>
+	<li>Added option to use fast alt-tabbing when compositing is enabled in marco</li>
+	<li>mate-icon-theme-faenza now available</li>
+	<li>mate-character-map now available</li>
+	<li>mate-screensaver now supports GDM user switching</li>
+	<li>Removed nyancat from the mate-desktop about dialog</li>
+	<li>Forked libwnck (now libmatewnck)</li>
+	<li>Caja improvements:
+<ul><li>Restored toggle button for text based location bar</li>
+	<li>Bookmarks can now be opened in the places side pane via the enter and space keys</li>
+	<li>Added a button to get the difference between files in the file conflict dialog</li>
+</ul></li></ul><strong>Important:</strong>
+
+We are experiencing difficult with packages.mate-desktop.org. During the update process, if you encounter connection problems, please use repo.mate-desktop.org instead of packages.mate-desktop.org/repo/. Also, please note that it is repo.mate-desktop.org and <strong>NOT</strong> repo.mate-desktop.org/repo/. If you are a Linux Mint user and make this change, remember to change /etc/apt/preferences as well.
+
+</body></html>

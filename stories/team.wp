@@ -1,0 +1,82 @@
+<html><body><p>MATE is brought to you by:
+<style>
+
+table#team td {
+  vertical-align:middle;
+}
+
+</style></p><div>
+
+<table id="team"><tbody><tr><td colspan="3"><strong>Founders</strong></td></tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Argentina.png" width="32" height="32"></td>
+
+<td>Perberos</td>
+
+<td>Project founder, development, packaging for Archlinux</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Italy.png" width="32" height="32"></td>
+
+<td>Stefano Karapetsas (stefano-k)</td>
+
+<td>Lead Developer, packaging for Debian and Ubuntu</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/France.png" width="32" height="32"></td>
+
+<td>Clement Lefebvre (clem)</td>
+
+<td>Project management, releases, communication, hosting</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/USA.png" width="32" height="32"></td>
+
+<td>Steve Zesch (amanas)</td>
+
+<td>Lead Developer, packaging for Debian and Ubuntu</td>
+
+</tr><tr><td colspan="3"><strong>Contributors</strong></td></tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/USA.png" width="32" height="32"></td>
+
+<td>Adam Bickley (bickman2k)</td>
+
+<td>Packaging for Archlinux</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/USA.png" width="32" height="32"></td>
+
+<td>Dan Mashal (dan408)</td>
+
+<td>Packaging for Fedora</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Greece.png" width="32" height="32"></td>
+
+<td>Efstathios Iosifidis (diamond_gr)</td>
+
+<td>Social media, promotion</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Italy.png" width="32" height="32"></td>
+
+<td>Giovanni Ricciardi (talorno)</td>
+
+<td>Sysadmin, packaging for Archlinux</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/USA.png" width="32" height="32"></td>
+
+<td>Joseph Krieger (Rowen_Stipe)</td>
+
+<td>Sysadmin, artwork &amp; graphics</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Portugal.png" width="32" height="32"></td>
+
+<td>Nelson Marques (nmarques)</td>
+
+<td>Development, packaging for openSUSE</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Canada.png" width="32" height="32"></td>
+
+<td>Scott Balneaves (sbalneav)</td>
+
+<td>Development</td>
+
+</tr><tr><td><img style="border: 0pt none;" alt="" src="/artwork/flags/32/Germany.png" width="32" height="32"></td>
+
+<td>Wolfgang Ulbrich (raveit65)</td>
+
+<td>Development, packaging for Fedora</td>
+
+</tr></tbody></table></div></body></html>

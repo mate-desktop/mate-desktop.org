@@ -1,0 +1,21 @@
+<html><body><p>The team is proud to announce the release of <strong>MATE 1.2</strong>. This release is a huge step forward since the 1.0 and 1.1 development releases. MATE is more stable than ever and it includes support for many more applications, applets and backends.
+
+
+<a href="/martin/Migration/files/wp-content/uploads/2012/04/mate-about-1.2.0.png"><img class="alignnone size-medium wp-image-116" title="mate-about-1.2.0" src="/martin/Migration/files/wp-content/uploads/2012/04/mate-about-1.2.0-300x207.png" alt="" width="300" height="207"></a>
+
+
+
+Here are the main changes and improvements in this release:
+
+</p><ul><li>Numerous bug fixes</li>
+	<li>All conflicts with GNOME were fixed</li>
+	<li>All configuration files were moved to ~/.config/mate</li>
+	<li>An undo/redo feature was added in Caja</li>
+	<li>Libmate's mate-open command is now faster to open applications.</li>
+	<li>Mate settings daemon now supports the PulseAudio and GStreamer backends</li>
+	<li>New applications: mozo (alacarte fork), python-caja, caja-gksu, caja-image-converter</li>
+	<li>Artwork:</li>
+<ul><li>Mate themes were renamed to avoid conflicts with GNOME</li>
+	<li>A new MATE wallpaper was added</li>
+	<li>MATE now features its own icon</li>
+</ul></ul></body></html>

@@ -1,0 +1,26 @@
+<html><body><h2>What is MATE?</h2>
+MATE is a fork of GNOME 2.
+
+It provides an intuitive and attractive desktop to Linux users using traditional metaphors.
+
+
+
+<img class=" " alt="" src="http://library.gnome.org/misc/release-notes/2.32/figures/gnome-2-32.png.en_GB" width="432" height="270"> Gnome 2.32
+
+<h2>Where does the name come from?</h2>
+
+The name "MATE" comes from <a href="http://en.wikipedia.org/wiki/Yerba_mate">yerba maté</a>, a species of holly native to subtropical South America. Its leaves contain caffeine and are used to make infusions and a beverage called mate.
+
+
+
+<img class="  " alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg" width="154" height="223"> Yerba Maté
+
+<h2>Which distributions provide MATE?</h2>
+
+<ul><li><a href="http://www.fedoraproject.org/">Fedora</a></li>
+	<li><a href="http://linuxmint.com/">Linux Mint</a></li>
+	<li><a href="http://www.sabayon.org/">Sabayon</a></li>
+	<li><a href="http://www.salixos.org/">Salix</a></li>
+</ul>
+
+MATE Community provides packages for a lot of other distributions. You can see the full list <a href="http://wiki.mate-desktop.org/download">here</a>.</body></html>

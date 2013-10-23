@@ -1,0 +1,9 @@
+# Python byte-code and libraries
+*.py[cdo]
+
+# Nikola cache and output directories
+cache
+output
+
+# Nikola database
+.doit.db
