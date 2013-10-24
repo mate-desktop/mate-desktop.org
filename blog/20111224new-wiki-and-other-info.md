@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-24 21:58:49
+.. title: New wiki and other info
+.. slug: 20111224new-wiki-and-other-info
+-->
+
 We've recently switched from our old github based wiki to our new wiki at
 [wiki.mate-desktop.org](http://wiki.mate-desktop.org). Please reference this
 wiki from here on out. Naturally, anyone is welcome to contribute. For those

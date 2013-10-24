@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-05 07:25:21
+.. title: Team
+.. slug: team
+-->
+
 MATE is brought to you by:
 
 **Founders**

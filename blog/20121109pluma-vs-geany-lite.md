@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2012-11-09 18:53:24
+.. title: Pluma vs Geany Lite
+.. slug: 20121109pluma-vs-geany-lite
+-->
+
 Recently, Clement Lefebvre of Linux Mint has had discussions with the
 developers of Geany about possibly creating a lightweight version of Geany
 (we'll call it Geany Lite in this post). At this point, Geany Lite is nothing

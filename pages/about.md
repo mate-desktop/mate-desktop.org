@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-05 11:31:12
+.. title: About
+.. slug: about
+-->
+
 ## What is MATE?
 
 MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop to

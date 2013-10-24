@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-05 07:14:07
+.. title: Support
+.. slug: support
+-->
+
 **IRC** Come and join us and discuss the future of MATE with us on IRC at: 
 
 > #mate @ irc.freenode.net

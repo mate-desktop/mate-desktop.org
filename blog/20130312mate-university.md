@@ -1,4 +1,13 @@
-![c-file](/martin/Migration/files/wp-content/uploads/2013/03/c-file.png) We're
+<!--
+.. link:
+.. description:
+.. tags: News
+.. date: 2013-03-12 18:58:22
+.. title: MATE University
+.. slug: 20130312mate-university
+-->
+
+![c-file](/wp-content/uploads/2013/03/c-file.png) We're
 proud to announce our newest package on GitHub: [MATE
 University](https://github.com/mate-desktop/mate-university)! It will be
 targeted at all levels of developers (including beginners) to learn how to

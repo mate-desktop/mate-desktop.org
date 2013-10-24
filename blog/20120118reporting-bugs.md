@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2012-01-18 21:22:52
+.. title: Reporting Bugs
+.. slug: 20120118reporting-bugs
+-->
+
 We are currently in the process of switching to handling all our issues on the
 mate-desktop github [page](https://github.com/mate-desktop) instead of
 Perberos' [page](https://github.com/perberos/Mate-Desktop-

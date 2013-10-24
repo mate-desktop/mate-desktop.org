@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-05 12:00:30
+.. title: Development
+.. slug: development
+-->
+
 The GIT repositories for MATE are located at:
 
 > <https://github.com/mate-desktop>

@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2012-07-30 14:22:50
+.. title: MATE 1.4 released
+.. slug: 20120730mate-1-4-released
+-->
+
 The team is proud to announce the release of MATE 1.4.
 ![](http://i.imgur.com/V5ab0.png)   **Changes in 1.4:**
 

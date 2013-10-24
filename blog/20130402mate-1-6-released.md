@@ -1,8 +1,17 @@
+<!--
+.. link:
+.. description:
+.. tags: Releases
+.. date: 2013-04-02 19:23:50
+.. title: MATE 1.6 released
+.. slug: 20130402mate-1-6-released
+-->
+
 The team is proud to announce the release of MATE Desktop 1.6. This release is
 a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
-every MATE contributor and user. ![about](/martin/Migration/files/wp-
+every MATE contributor and user. ![about](/wp-
 content/uploads/2013/03/about.png) Main changes in 1.6 are:
 
   * **Systemd-logind support:** Added support for systemd-logind in mate-session-manager, mate-screensaver and mate-power-manager (now you can reboot/shutdown without ConsoleKit) 

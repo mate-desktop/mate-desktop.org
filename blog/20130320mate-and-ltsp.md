@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2013-03-20 11:30:13
+.. title: MATE and LTSP
+.. slug: 20130320mate-and-ltsp
+-->
+
 There are a lot of people in the world who get access to their GNU/Linux
 desktops via thin clients, and one of the longest running thin client projects
 out there is the [LTSP](http://ltsp.org) project. The MATE desktop offers a

@@ -1,3 +1,12 @@
+<!--
+.. link:
+.. description:
+.. tags: 
+.. date: 2011-12-05 12:00:30
+.. title: Hello world!
+.. slug: 20111205hello-world
+-->
+
 Hello World! Gnome 2 was the most popular Linux desktop but it's no longer
 available... MATE is here to provide that same desktop to you :) Perberos
 initially forked Gnome 2 and called the project MATE. Users and developers
