@@ -10,8 +10,10 @@
 The team is proud to announce the release of **MATE 1.2**. This release is a huge step forward 
 since the 1.0 and 1.1 development releases. MATE is more stable than ever and it includes support 
 for many more applications, applets and backends. 
-![](/wp-content/uploads/2012/04/mate-about-1.2.0-300x207.png) Here are the main changes and 
-improvements in this release:
+
+![](/wp-content/uploads/2012/04/mate-about-1.2.0-300x207.png)
+
+Here are the main changes and improvements in this release:
 
   * Numerous bug fixes
   * All conflicts with GNOME were fixed
