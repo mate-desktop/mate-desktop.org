@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases
+.. tags: Releases,Salix,Linux Mint,Sabayon,Fedora
 .. date: 2013-04-02 19:23:50
 .. title: MATE 1.6 released
 .. slug: 20130402mate-1-6-released
@@ -11,8 +11,9 @@ The team is proud to announce the release of MATE Desktop 1.6. This release is
 a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
-every MATE contributor and user. ![about](/wp-
-content/uploads/2013/03/about.png) Main changes in 1.6 are:
+every MATE contributor and user. ![about](/wp-content/uploads/2013/03/about.png)
+
+Main changes in 1.6 are:
 
   * **Systemd-logind support:** Added support for systemd-logind in mate-session-manager, mate-screensaver and mate-power-manager (now you can reboot/shutdown without ConsoleKit) 
   * **Caja (file manager) improvements:** Improved places sidebar Added support for new thumbnailers specification Added a new frame for thumbnails Wallpapers are now cached for a better memory management New connect server dialog from Nautilus 3 Added support for freedesktop.org File Manager DBus Interface Fixed back vs parent directory selection 
@@ -29,14 +30,18 @@ content/uploads/2013/03/about.png) Main changes in 1.6 are:
   * **Netbook applet improvements:** Enable maximus only when window picker applet is added to the panel 
   * **Dropped packages:** Replaced MateConf with GSettings Replaced MateCorba/MateComponent with DBus Replaced MateVfs with GIO/GVFS Replaced libmatenotify with libnotify Removed deprecated packages: libmateui, libmatecanvas, libmatecomponentui, mate-mime-data Removed libmate (mate-open replaced with gvfs-open, GSettings schemas moved to mate-desktop package 
   * **Other improvements:** Fixed a lot of code deprecations Fixed a lot of bugs Added and improved a lot of translations 
+
 We asked people from distributions that ship MATE what they think about our
-Desktop Environment. George Vlahavas, [Salix](http://www.salixos.org/) founder
-and project leader: "We believe MATE is a perfect match for Salix. MATE
+Desktop Environment.
+
+**George Vlahavas**, [Salix](http://www.salixos.org/) founder
+and project leader: _"We believe MATE is a perfect match for Salix. MATE
 provides us with a familiar desktop environment that is powerful, solid and
 fast. Also, the MATE team are very friendly and a pleasure to work with and
 this means a lot to us. Thanks for giving us the choice of sticking with our
-favourite desktop guys." Clement Lefebvre, [Linux
-Mint](http://www.linuxmint.com/) founder and project leader: "It's extremely
+favourite desktop guys."_
+
+**Clement Lefebvre**, [Linux Mint](http://www.linuxmint.com/) founder and project leader: _"It's extremely
 important to us that people are happy with their computer. When that
 environment we all loved and worked hard to improve since 2006 was
 discontinued we weren't happy to let it go and to ask people to migrate to
@@ -48,12 +53,16 @@ the relationship between the teams is excellent. Mint played an important role
 in the promotion and backing of MATE and we continue to help with its
 development. We're very pleased with MATE, it's exactly what we wanted, it
 started where GNOME left off and with each new iteration it keeps getting
-better." Joost Ruis, strategy consultant of
-[Sabayon](http://www.sabayon.org/): "We don't like how upstream forced changes
+better."_
+
+**Joost Ruis**, strategy consultant of
+[Sabayon](http://www.sabayon.org/): _"We don't like how upstream forced changes
 to users and want our users to have the option to decide what to use. With
 MATE in our repositories we are certain our users can always choose what works
-best for them." Dan Mashal, MATE maintainer in
-[Fedora](https://fedoraproject.org/): "Ever since the release of Fedora 15 was
+best for them."_
+
+**Dan Mashal**, MATE maintainer in
+[Fedora](https://fedoraproject.org/): _"Ever since the release of Fedora 15 was
 released I was extremely unhappy and frustrated with my desktop experience
 until I discovered MATE. Now on Fedora I can finally have a desktop that is
 sane, stable, fast and most importantly easy to use. With the hard work the
@@ -65,9 +74,11 @@ myself. Now with MATE I don't have to worry about what is going to break with
 the next Gnome release and what crazy design ideas they are going to have
 making me have to relearn a desktop interface every single Fedora release.
 With MATE 1.6 I can feel right back at home on my favorite Linux distribution
-and get back to work." We also asked for a comment from the company who
-donated the server where we host MATE services. Martin Verges, CEO of [First
-Colo GmbH](http://www.first-colo.net/EN/index.php): "We are really happy to
+and get back to work."_
+
+We also asked for a comment from the company who
+donated the server where we host MATE services. **Martin Verges**, CEO of [First
+Colo GmbH](http://www.first-colo.net/EN/index.php): _"We are really happy to
 use the MATE Desktop Environment. This way we can keep a clean and well
 working desktop without lots of useless and distracting stuff. Until the end
 of 2012 our whole company were working with Ubuntu, but with the Unity Desktop
@@ -78,10 +89,15 @@ that just works as we know it from years. We hope that the MATE Team will keep
 our classic Linux Desktop and bring to it new life some with new features, but
 with the good workflow kept in hand. So far, they have done great job, and we
 hope that soon the Debian Maintainers will add the MATE Desktop to their
-mirrors (and of course, that many others will use MATE too!)." MATE 1.6 is the
+mirrors (and of course, that many others will use MATE too!)."_
+
+MATE 1.6 is the
 result of 8 months of intense development and contains 1800 contributions by
-39 people, and more than 150 translators.  [gallery
+39 people, and more than 150 translators. 
+
+<!--
+[gallery
 ids="350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366"]
 Download the [screenshots pack](http://mate-
 desktop.org/download/mate-1.6-screenshots.tar.xz) (5,6 mb).
-
+-->

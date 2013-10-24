@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags: LTSP
 .. date: 2013-03-20 11:30:13
 .. title: MATE and LTSP
 .. slug: 20130320mate-and-ltsp
@@ -14,7 +14,7 @@ fantastic desktop experience on thin clients; fast, stable, and efficient.
 Libraries, schools, and businesses looking for a GNU/Linux desktop using
 traditional paradigms their users are used to will find MATE a excellent
 alternative to going to a Unity/Gnome 3 desktop. As both an LTSP and MATE
-developer, I put together a short
-[video](http://www.youtube.com/watch?v=pnL47bbFN68) on some of the
-developments in both.
+developer, I put together a short [video](http://www.youtube.com/watch?v=pnL47bbFN68)
+on some of the developments in both.
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/pnL47bbFN68" frameborder="0" allowfullscreen></iframe>
