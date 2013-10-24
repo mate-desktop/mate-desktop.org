@@ -112,16 +112,19 @@ Install [html2text](https://github.com/aaronsw/html2text).
 
     pip install https://github.com/aaronsw/html2text/archive/master.zip
 
-Convert the Wordpress `.wp` faux HTML files to [Markdown](http://daringfireball.net/projects/markdown/).
+Convert the Wordpress `.wp` faux HTML files to [Markdown](http://daringfireball.net/projects/markdown/)
+and correct the image links.
 
     cd ~/Websites/mate-desktop.org/posts
     for FILE in *.wp; do html2text ${FILE} > `basename ${FILE} .wp`.md; done
+    for FILE in *.md; do sed -i 's/\/martin\/Migration//g' ${FILE}; done
     rm *.wp
     cd ~/Websites/mate-desktop.org/stories
     for FILE in *.wp; do html2text ${FILE} > `basename ${FILE} .wp`.md; done
+    for FILE in *.md; do sed -i 's/\/martin\/Migration//g' ${FILE}; done
     rm *.wp
 
-Use `git` to add, commit and push.
+The meta data and content were merged using `scripts/merge_meta.sh`.
 
 # The clean up
 
