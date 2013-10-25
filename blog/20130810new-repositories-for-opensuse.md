@@ -7,7 +7,7 @@
 .. slug: 20130810new-repositories-for-opensuse
 -->
 
-![MATE_opensuse_black](/wp-content/uploads/2013/08/MATE_opensuse_black-150x150.png)
+<img style="float: left; margin-right: 8px;" src="/wp-content/uploads/2013/08/MATE_opensuse_black-150x150.png" /)
 On the way to get MATE officially available on [openSUSE](http://www.opensuse.org),
 the community repositories have to be changed in YaST. For that,
 go to _YaST -> Software -> Software Repositories_ and remove the _X11:MATE:Factory_
