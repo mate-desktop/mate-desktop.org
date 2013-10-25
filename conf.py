@@ -62,11 +62,20 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/archive.html', 'Archives'),
-        ('/categories/index.html', 'Tags'),
-        ('/rss.xml', 'RSS'),
+		('/pages/about/', 'About'),
+		('/pages/applications/', 'Applications'),
+		('/pages/development/', 'Development'),
+		('/pages/donate/', 'Donate'),
+		('/pages/feedback/', 'Feedback'),
+		('/pages/install/', 'Install'),
+		('/pages/support/', 'Support'),
+		('/pages/team/', 'Team'),		
     ),
 }
+
+#		('/archive.html', 'Archives'),
+#        ('/categories/index.html', 'Tags'),
+#        ('/rss.xml', 'RSS'),
 
 # Below this point, everything is optional
 
@@ -276,10 +285,10 @@ THEME = "MATE"
 # <link rel="name" href="file" sizes="size"/>
 # For creating favicons, take a look at:
 # http://www.netmagazine.com/features/create-perfect-favicon
-# FAVICONS = {
-#     ("icon", "/favicon.ico", "16x16"),
-#     ("icon", "/icon_128x128.png", "128x128"),
-# }
+FAVICONS = {
+	("icon", "/favicon.ico", "16x16"),	
+    ("icon", "/mate-128.png", "128x128"),
+}
 
 # Show only teasers in the index pages? Defaults to False.
 INDEX_TEASERS = False
@@ -445,41 +454,7 @@ COPY_SOURCES = False
 # Show only teasers in the RSS feed? Default to True
 RSS_TEASERS = False
 
-# A search form to search this site, for the sidebar. You can use a google
-# custom search (http://www.google.com/cse/)
-# Or a duckduckgo search: https://duckduckgo.com/search_box.html
-# Default is no search form.
-# SEARCH_FORM = ""
-#
-# This search form works for any site and looks good in the "site" theme where
-# it appears on the navigation bar:
-#
-#SEARCH_FORM = """
-#<!-- Custom search -->
-#<form method="get" id="search" action="http://duckduckgo.com/"
-# class="navbar-form pull-left">
-#<input type="hidden" name="sites" value="%s"/>
-#<input type="hidden" name="k8" value="#444444"/>
-#<input type="hidden" name="k9" value="#D51920"/>
-#<input type="hidden" name="kt" value="h"/>
-#<input type="text" name="q" maxlength="255"
-# placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
-#<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-#</form>
-#<!-- End of custom search -->
-#""" % SITE_URL
-#
-# If you prefer a google search form, here's an example that should just work:
-#SEARCH_FORM = """
-#<!-- Custom search with google-->
-#<form id="search" action="http://google.com/search" method="get" class="navbar-form pull-left">
-#<input type="hidden" name="q" value="site:%s" />
-#<input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
-#</form>
-#<!-- End of custom search -->
-#""" % SITE_URL
-
-# Also, there is a local search plugin you can use, based on Tipue, but it requires setting several
+# There is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
 
 #<form class="form-search" method="get" id="s" action="/">
@@ -497,10 +472,6 @@ SEARCH_FORM = """
 SEARCH_RESULTS = """
 <div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
 """
-
-ENABLED_EXTRAS = ['local_search']
-#
-
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
 # If this is True, jquery is served from the Google CDN and twitter-bootstrap
@@ -581,7 +552,7 @@ $(document).ready(function() {
 # Also, if you want to use a different timezone in some of your posts, 
 # you can use W3C-DTF Format (ex. 2012-03-30T23:00:00+02:00)
 #
-# TIMEZONE = 'Europe/Zurich'
+TIMEZONE = 'Europe/London'
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 USE_BUNDLES = True
@@ -592,12 +563,9 @@ USE_BUNDLES = True
 # Experimental plugins - use at your own risk.
 # They probably need some manual adjustments - please see their respective
 # readme.
-# ENABLED_EXTRAS = [
-#     'planetoid',
-#     'ipynb',
-#     'local_search',
-#     'render_mustache',
-# ]
+ENABLED_EXTRAS = [
+	'local_search'
+]
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
