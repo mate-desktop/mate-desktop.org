@@ -8,6 +8,7 @@ import time
 # Data about this site
 BLOG_AUTHOR = "The MATE Team"
 BLOG_TITLE = "MATE"
+BLOG_LOGO = "mate.png"
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "http://mate-desktop.org/"
@@ -481,13 +482,41 @@ RSS_TEASERS = False
 # Also, there is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
 
+#<form class="form-search" method="get" id="s" action="/">
+#    <div class="input-append">
+#        <input type="text" class="input-medium search-query" name="s" placeholder="Search" value="">
+#        <button type="submit" class="add-on"><i class="icon-search"></i></button>
+#    </div>
+#</form>
+
 SEARCH_FORM = """
-<span class="navbar-form pull-left">
-<input type="text" id="tipue_search_input" placeholder="Search" />
+<span class="navbar-search pull-right">
+	<input class="input-medium search-query search-margin" type="search" placeholder="Search" id="tipue_search_input"></input>
 </span>"""
 
-#class="input-medium search-query search-margin" />
+SEARCH_RESULTS = """
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+"""
 
+ENABLED_EXTRAS = ['local_search']
+#
+
+
+# Use content distribution networks for jquery and twitter-bootstrap css and js
+# If this is True, jquery is served from the Google CDN and twitter-bootstrap
+# is served from the NetDNA CDN
+# Set this to False if you want to host your site without requiring access to
+# external resources.
+USE_CDN = False
+
+# Extra things you want in the pages HEAD tag. This will be added right
+# before </HEAD>
+
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuecustom.css">
+"""
+# Google analytics or whatever else you use. Added to the bottom of <body>
+# in the default template (base.tmpl).
 
 BODY_END = """
 <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
@@ -503,28 +532,6 @@ $(document).ready(function() {
 });
 </script>
 """
-
-EXTRA_HEAD_DATA = """
-<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
-"""
-ENABLED_EXTRAS = ['local_search']
-#
-
-
-# Use content distribution networks for jquery and twitter-bootstrap css and js
-# If this is True, jquery is served from the Google CDN and twitter-bootstrap
-# is served from the NetDNA CDN
-# Set this to False if you want to host your site without requiring access to
-# external resources.
-USE_CDN = False
-
-# Extra things you want in the pages HEAD tag. This will be added right
-# before </HEAD>
-# EXTRA_HEAD_DATA = ""
-# Google analytics or whatever else you use. Added to the bottom of <body>
-# in the default template (base.tmpl).
-# BODY_END = ""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
@@ -602,4 +609,7 @@ USE_BUNDLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    'search_results': SEARCH_RESULTS,
+    'blog_logo': BLOG_LOGO
+}
