@@ -40,7 +40,12 @@ Development, packaging for openSUSE.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
 
-Development, packaging for Fedora
+Development, packaging for Fedora.
+
+### ![](http://mate-desktop.org/artwork/flags/32/Netherland.png) Sander Sweers (infirit)
+
+Development, packaging for Gentoo.
+
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Dan Mashal (dan408)
 

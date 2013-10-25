@@ -11,7 +11,7 @@ The team is proud to announce the release of MATE Desktop 1.6. This release is
 a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
-every MATE contributor and user. ![about](/wp-content/uploads/2013/03/about.png)
+every MATE contributor and user. ![about](/screens/about.png)
 
 Main changes in 1.6 are:
 

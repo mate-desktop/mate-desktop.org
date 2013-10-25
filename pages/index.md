@@ -12,7 +12,7 @@ MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
 environment using traditional metaphors for Linux and other Unix-like
 operating systems.
 
-![](/gallery/themes/1.6/theme-menta.png)
+![](/screens/screenshot.png)
 
 You can find more [screenshots of MATE](/gallery/1.6/) in our [gallery](/gallery/).
 
