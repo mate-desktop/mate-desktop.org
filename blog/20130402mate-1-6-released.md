@@ -95,9 +95,4 @@ MATE 1.6 is the
 result of 8 months of intense development and contains 1800 contributions by
 39 people, and more than 150 translators. 
 
-<!--
-[gallery
-ids="350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366"]
-Download the [screenshots pack](http://mate-
-desktop.org/download/mate-1.6-screenshots.tar.xz) (5,6 mb).
--->
+  * [MATE 1.6 Screenshots](/gallery/1.6/)

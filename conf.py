@@ -63,13 +63,12 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/pages/about/', 'About'),
-		('/pages/applications/', 'Applications'),
-		('/pages/development/', 'Development'),
-		('/pages/donate/', 'Donate'),
-		('/pages/feedback/', 'Feedback'),
-		('/pages/install/', 'Install'),
-		('/pages/support/', 'Support'),
+		('/pages/install/', 'Install'),		
+		('/gallery/1.6/', 'Screenshots'),		
+		('/pages/development/', 'Development'),		
+		('/pages/community/', 'Community'),
 		('/pages/team/', 'Team'),		
+		('/pages/donate/', 'Donate'),
     ),
 }
 
@@ -241,13 +240,13 @@ CACHE_FOLDER = 'cache'
 
 # Galleries are folders in galleries/
 # Final location of galleries will be output / GALLERY_PATH / gallery_name
-GALLERY_PATH = "galleries"
-THUMBNAIL_SIZE = 480
-MAX_IMAGE_SIZE = 800
+GALLERY_PATH = "gallery"
+THUMBNAIL_SIZE = 360
+MAX_IMAGE_SIZE = 1280
 USE_FILENAME_AS_TITLE = True
 #
 # If set to False, it will sort by filename instead. Defaults to True
-# GALLERY_SORT_BY_DATE = True
+GALLERY_SORT_BY_DATE = False
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
