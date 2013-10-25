@@ -57,6 +57,7 @@ Nikola was created.
 
 Create an environment for Nikola.
 
+    mkdir ~/PythonEnvs
     virtualenv -p python2.7 ~/PythonEnvs/nikola-611
 
 Activate the environment.
