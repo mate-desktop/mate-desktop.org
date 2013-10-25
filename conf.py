@@ -62,13 +62,13 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-		('/pages/about/', 'About'),
-		('/pages/install/', 'Install'),		
+		('/blog/', 'Blog'),
+		('/install/', 'Install'),		
 		('/gallery/1.6/', 'Screenshots'),		
-		('/pages/development/', 'Development'),		
-		('/pages/community/', 'Community'),
-		('/pages/team/', 'Team'),		
-		('/pages/donate/', 'Donate'),
+		('/development/', 'Development'),		
+		('/community/', 'Community'),
+		('/team/', 'Team'),		
+		('/donate/', 'Donate'),
     ),
 }
 
@@ -105,7 +105,7 @@ POSTS = (
             ("blog/*.md", "blog", "post.tmpl"),
         )
 PAGES = (
-            ("pages/*.md", "pages", "story.tmpl"),
+            ("pages/*.md", "", "story.tmpl"),
         )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -144,14 +144,14 @@ HIDE_UNTRANSLATED_POSTS = False
 # output / TRANSLATION[lang] / TAG_PATH / index.html (list of tags)
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
-# TAG_PATH = "categories"
+TAG_PATH = "tags"
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
 # TAG_PAGES_ARE_INDEXES = True
 
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -159,8 +159,8 @@ HIDE_UNTRANSLATED_POSTS = False
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
-# ARCHIVE_PATH = ""
-# ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_PATH = "archive"
+#ARCHIVE_FILENAME = "archive.html"
 
 # Final locations are:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
@@ -180,7 +180,29 @@ HIDE_UNTRANSLATED_POSTS = False
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [(u'2013/03/12/mate-university/index.html', u'/posts/20130312mate-university.html'), (u'install/index.html', u'/stories/install.html'), (u'2012/12/27/thank-you-first-colo/index.html', u'/posts/20121227thank-you-first-colo.html'), (u'team/index.html', u'/stories/team.html'), (u'2013/03/20/mate-and-ltsp/index.html', u'/posts/20130320mate-and-ltsp.html'), (u'2012/11/10/fedora-repo/index.html', u'/posts/20121110fedora-repo.html'), (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/posts/20130721stefano-at-opensuse-conference.html'), (u'about/index.html', u'/stories/about.html'), (u'2012/05/22/156/index.html', u'/stories/20120522156.html'), (u'2012/07/30/mate-1-4-released/index.html', u'/posts/20120730mate-1-4-released.html'), (u'2013/04/02/mate-1-6-released/index.html', u'/posts/20130402mate-1-6-released.html'), (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/posts/20130810new-repositories-for-opensuse.html'), (u'applications/index.html', u'/stories/applications.html'), (u'2012/02/10/98/index.html', u'/stories/2012021098.html'), (u'support/index.html', u'/stories/support.html'), (u'2012/04/17/131/index.html', u'/stories/20120417131.html'), (u'2011/12/05/hello-world/index.html', u'/posts/20111205hello-world.html'), (u'2012/04/16/mate-1-2-released/index.html', u'/posts/20120416mate-1-2-released.html'), (u'2011/12/26/73/index.html', u'/stories/2011122673.html'), (u'2011/12/26/71/index.html', u'/stories/2011122671.html'), (u'2012/01/18/reporting-bugs/index.html', u'/posts/20120118reporting-bugs.html'), (u'2012/10/16/mate-quantal-repo-available/index.html', u'/posts/20121016mate-quantal-repo-available.html'), (u'development/index.html', u'/stories/development.html'), (u'2011/12/26/74/index.html', u'/stories/2011122674.html'), (u'donate/index.html', u'/stories/donate.html'), (u'2011/12/24/new-wiki-and-other-info/index.html', u'/posts/20111224new-wiki-and-other-info.html'), (u'2013/03/26/new-themes/index.html', u'/posts/20130326new-themes.html'), (u'2011/12/26/72/index.html', u'/stories/2011122672.html'), (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/posts/20130120changes-to-mate-notification-daemon.html'), (u'feedback/index.html', u'/stories/feedback.html'), (u'2012/07/28/packages-mate-desktop-org-repo/index.html', u'/posts/20120728packages-mate-desktop-org-repo.html'), (u'2011/12/26/70/index.html', u'/stories/2011122670.html'), (u'2012/11/09/pluma-vs-geany-lite/index.html', u'/posts/20121109pluma-vs-geany-lite.html')]
+REDIRECTIONS = [
+	(u'2013/03/12/mate-university/index.html', u'/blog/20130312mate-university.html'), 
+    (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo.html'),
+    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/20130320mate-and-ltsp.html'), 
+    (u'2012/11/10/fedora-repo/index.html', u'/blog/20121110fedora-repo.html'),
+    (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/20130721stefano-at-opensuse-conference.html'),     
+    (u'2012/07/30/mate-1-4-released/index.html', u'/blog/20120730mate-1-4-released.html'),
+    (u'2013/04/02/mate-1-6-released/index.html', u'/blog/20130402mate-1-6-released.html'),
+    (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/20130810new-repositories-for-opensuse.html'),    
+    (u'2011/12/05/hello-world/index.html', u'/blog/20111205hello-world.html'),
+    (u'2012/04/16/mate-1-2-released/index.html', u'/blog/20120416mate-1-2-released.html'),
+    (u'2012/01/18/reporting-bugs/index.html', u'/blog/20120118reporting-bugs.html'),
+    (u'2012/10/16/mate-quantal-repo-available/index.html', u'/blog/20121016mate-quantal-repo-available.html'),
+    (u'2011/12/24/new-wiki-and-other-info/index.html', u'/blog/20111224new-wiki-and-other-info.html'),
+    (u'2013/03/26/new-themes/index.html', u'/blog/20130326new-themes.html'), 
+    (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/blog/20130120changes-to-mate-notification-daemon.html'),
+    (u'2012/07/28/packages-mate-desktop-org-repo/index.html', u'/index.html'),
+    (u'2012/11/09/pluma-vs-geany-lite/index.html', u'/index.html'),
+    (u'feedback/index.html', u'/index.hmtl'),
+	#(u'applications/index.html', u'/index.html'),        
+    (u'support/index.html', u'/community/index.html'),    
+    (u'about/index.html', u'/index.html')]
+    
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
