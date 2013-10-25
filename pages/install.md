@@ -7,9 +7,5 @@
 .. slug: install
 -->
 
-To install MATE Desktop, follow the guidelines on the [Download](http://wiki
-.mate-desktop.org/download) page of the wiki.  
-  
-  
-  
-
+The MATE community has documented how to install MATE on many distributions,
+please follow the [install guidelines](http://wiki.mate-desktop.org/download).  

@@ -7,22 +7,38 @@
 .. slug: support
 -->
 
-**IRC** Come and join us and discuss the future of MATE with us on IRC at: 
+You can seek support for MATE using the following resources.
 
-> #mate @ irc.freenode.net
+## Wiki
 
-**Wiki** Our wiki is currently located at: 
+You'll find lots of useful material on our wiki, but we also encouage you
+to help improve it.
 
-  * [http://wiki.mate-desktop.org/](http://wiki.mate-desktop.org)
-**Mailing list** The MATE mailing list is located at: 
+  * <http://wiki.mate-desktop.org>
+  
+## Mailing list
+
+You're old school, we get that. Come and join the debate on our mailing
+list.
 
   * <http://ml.mate-desktop.org/listinfo/>
-**Forums** The MATE forum is located at: 
+  
+## Forums
 
-  * [http://forums.mate-desktop.org/](http://forums.mate-desktop.org)
-We have also official threads in distribution forums:
+You don't do email, we get that too. Come and join our community forums.
+
+  * <http://forums.mate-desktop.org>
+
+### Official forum threads
+
+We have also official threads in various distribution forums:
 
   * [MATE thread on Archlinux forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
   * [MATE thread on Ubuntu forum](http://ubuntuforums.org/showthread.php?p=11333073)
   * [MATE thread on Linux Mint forum](http://forums.linuxmint.com/viewtopic.php?t=86481)
 
+## IRC
+
+You're an Internet guru. We've got you covered, come and join us on IRC.
+
+  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
