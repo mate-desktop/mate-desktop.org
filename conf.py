@@ -241,10 +241,10 @@ CACHE_FOLDER = 'cache'
 
 # Galleries are folders in galleries/
 # Final location of galleries will be output / GALLERY_PATH / gallery_name
-# GALLERY_PATH = "galleries"
-# THUMBNAIL_SIZE = 180
-# MAX_IMAGE_SIZE = 1280
-# USE_FILENAME_AS_TITLE = True
+GALLERY_PATH = "galleries"
+THUMBNAIL_SIZE = 480
+MAX_IMAGE_SIZE = 800
+USE_FILENAME_AS_TITLE = True
 #
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
@@ -278,7 +278,7 @@ THEME = "MATE"
 
 # date format used to display post dates.
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%Y-%m-%d'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used for create favicon link like this:
