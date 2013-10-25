@@ -3,7 +3,7 @@
 .. description:
 .. tags: Applications,Screenshots
 .. date: 2011-12-05 11:31:12
-.. title: About
+.. title: MATE Desktop Environment
 .. slug: index
 .. pretty_url: False
 -->
