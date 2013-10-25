@@ -42,10 +42,9 @@ Development, packaging for openSUSE.
 
 Development, packaging for Fedora.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Netherland.png) Sander Sweers (infirit)
+### ![](http://mate-desktop.org/artwork/flags/32/Netherlands.png) Sander Sweers (infirit)
 
 Development, packaging for Gentoo.
-
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Dan Mashal (dan408)
 
