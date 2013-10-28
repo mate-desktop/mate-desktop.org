@@ -7,7 +7,9 @@
 .. slug: community
 -->
 
-You can seek support for MATE using the following resources.
+You can engage with the MATE community in a number of different ways. The
+resources on this page will help you learn more about MATE or help you seek
+support from the community.
 
 ## Wiki
 
