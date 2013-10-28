@@ -10,7 +10,8 @@ MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
 environment using traditional metaphors for Linux and other Unix-like
 operating systems.
 
-.. image:: /screens/screenshot.png
+.. image:: /wp-content/uploads/2011/12/cropped-Untitled.png
+    :align: center
 
 You can find more `screenshots of MATE </gallery/1.6/>`_ in our `gallery </gallery/>`_.
 
@@ -53,7 +54,8 @@ distributions in the `install guidelines <http://wiki.mate-desktop.org/download>
 Applications
 ------------
 
-MATE is composed from a number of applications.
+MATE is composed from a number of applications. The renaming is necessary to avoid
+conflicts with GNOME components.
 
 Caja
 ====
@@ -131,7 +133,7 @@ Terminal is a fork of GNOME Terminal.
 Where does the name come from?
 ------------------------------
 
-The name *"MATE"* comes from `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_,
+The name *"MATE"*, pronounced *Ma-Tay*, comes from `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_,
 a species of holly native to subtropical South America. Its leaves contain
 caffeine and are used to make infusions and a beverage called mate.
 

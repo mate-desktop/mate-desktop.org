@@ -156,7 +156,15 @@ assumes you are running as me on the server however.
   * ~~Posted date on newline.~~
   * ~~Update donation page.~~
   * Add more text the homepage.
+    * Floating MATE logo
     * More background.
     * Recent accomplishments and future direction.
-    * Pronunciation.
+    * ~~Pronunciation.~~
     * All the applications, with improved layout.
+    * Update screenshot using MATE 1.6
+  * Team links to social profiles
+  * Navingation to include drop down on Blog for RSS, Tags and Archives and Planet.
+  * ~~Community page needs link to IRC wiki and Planet.~~
+  * ~~Development page needs links to additional resources.~~
+  * ~~Add social media buttons.~~
+  * Add footer with site links?

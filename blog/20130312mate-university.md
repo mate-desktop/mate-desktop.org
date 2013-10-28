@@ -1,6 +1,6 @@
 <!--
 .. link:
-.. description:
+.. description: Development
 .. tags: News
 .. date: 2013-03-12 18:58:22
 .. title: MATE University

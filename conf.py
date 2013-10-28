@@ -200,6 +200,7 @@ REDIRECTIONS = [
     (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference.html'),     
     (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse.html'),    
     (u'feedback/index.html', u'/index.hmtl'),
+    (u'applications/index.html', u'/index.hmtl'),
     (u'support/index.html', u'/community/index.html'),    
     (u'about/index.html', u'/index.html')]
     
@@ -331,7 +332,7 @@ LICENSE = """
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = '<div align="center">Contents &copy; {date} <a href="mailto:{email}">{author}</a>. {license}</div>'
+CONTENT_FOOTER = '<div align="center"><small>Contents &copy; {date} <a href="mailto:{email}">{author}</a>. {license}</small></div>'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
@@ -503,7 +504,7 @@ USE_CDN = False
 # before </HEAD>
 
 EXTRA_HEAD_DATA = """
-<link rel="stylesheet" type="text/css" href="/assets/css/tipuecustom.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 """
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
@@ -596,7 +597,16 @@ ENABLED_EXTRAS = [
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
+SOCIAL_ICONS="""
+<a class="social-icon" href="/rss.xml" title="MATE RSS feed"><img src="/assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
+<a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="/assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
+<a class="social-icon" href="https://plus.google.com/u/0/communities/103904770310171205536" title="MATE Google+ Community"><img src="/assets/img/icons/gplus.png" alt="Google+" class="small-margin"></a>
+<a class="social-icon" href="https://plus.google.com/105251070079435964338/posts" title="MATE Google+ Page"><img src="/assets/img/icons/gplus.png" alt="Google+" class="small-margin"></a>
+<a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="/assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
+"""
+
 GLOBAL_CONTEXT = {
+    'blog_logo': BLOG_LOGO,
     'search_results': SEARCH_RESULTS,
-    'blog_logo': BLOG_LOGO
+    'social_icons': SOCIAL_ICONS
 }
