@@ -9,8 +9,6 @@
 
 MATE Desktop Environment is totally free and everyone involved are volunteers.
 
-# Donate
-
 Please consider donating to the MATE project. It is nice to have the effort
 we've put into it recognised. Any money raised will be used to cover hosting
 costs, any hardware procurement and possibly travel expenses so that

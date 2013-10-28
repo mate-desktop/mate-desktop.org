@@ -53,24 +53,24 @@ Nikola was created.
     cd virtualenv-1.10.1
     sudo python setup.py install
 
-### Install Nikola 6.1.1
+### Install Nikola 6.2.0
 
 Create an environment for Nikola.
 
     mkdir ~/PythonEnvs
-    virtualenv -p python2.7 ~/PythonEnvs/nikola-611
+    virtualenv -p python2.7 ~/PythonEnvs/nikola-620
 
 Activate the environment.
 
-    source ~/PythonEnvs/nikola-611/bin/activate
+    source ~/PythonEnvs/nikola-620/bin/activate
 
-Download Nikola 6.1.1.
+Download Nikola 6.2.0
 
     mkdir -p ${VIRTUAL_ENV}/src
-    wget https://github.com/getnikola/nikola/archive/v6.1.1.tar.gz -O ${VIRTUAL_ENV}/src/nikola-611.tar.gz
+    wget https://github.com/getnikola/nikola/archive/v6.2.0.tar.gz -O ${VIRTUAL_ENV}/src/nikola-620.tar.gz
     cd ${VIRTUAL_ENV}/src
-    tar zxvf nikola-611.tar.gz
-    cd nikola-6.1.1/    
+    tar zxvf nikola-620.tar.gz
+    cd nikola-6.2.0/    
 
 Install the Nikola requirements.
 

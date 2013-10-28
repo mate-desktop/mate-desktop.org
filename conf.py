@@ -102,9 +102,11 @@ NAVIGATION_LINKS = {
 #
 
 POSTS = (
+	    ("blog/*.rst", "blog", "post.tmpl"),
             ("blog/*.md", "blog", "post.tmpl"),
         )
 PAGES = (
+            ("pages/*.rst", "", "story.tmpl"),
             ("pages/*.md", "", "story.tmpl"),
         )
 
@@ -181,7 +183,7 @@ ARCHIVE_PATH = "archive"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
-	(u'2013/03/12/mate-university/index.html', u'/blog/20130312mate-university.html'), 
+    (u'2013/03/12/mate-university/index.html', u'/blog/20130312mate-university.html'), 
     (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo.html'),
     (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/20130320mate-and-ltsp.html'), 
     (u'2012/11/10/fedora-repo/index.html', u'/blog/20121110fedora-repo.html'),
@@ -199,7 +201,6 @@ REDIRECTIONS = [
     (u'2012/07/28/packages-mate-desktop-org-repo/index.html', u'/index.html'),
     (u'2012/11/09/pluma-vs-geany-lite/index.html', u'/index.html'),
     (u'feedback/index.html', u'/index.hmtl'),
-	#(u'applications/index.html', u'/index.html'),        
     (u'support/index.html', u'/community/index.html'),    
     (u'about/index.html', u'/index.html')]
     
@@ -211,7 +212,6 @@ REDIRECTIONS = [
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
 	'rsync -a --delete output/ /var/www/new-site/',
-	'#chown -R martin:www-data /var/www/new-site'
 ]
 
 # Where the output site should be located
@@ -307,7 +307,7 @@ DATE_FORMAT = '%Y-%m-%d'
 # For creating favicons, take a look at:
 # http://www.netmagazine.com/features/create-perfect-favicon
 FAVICONS = {
-	("icon", "/favicon.ico", "16x16"),	
+    ("icon", "/favicon.ico", "16x16"),	
     ("icon", "/mate-128.png", "128x128"),
 }
 
