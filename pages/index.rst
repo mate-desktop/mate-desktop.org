@@ -1,6 +1,6 @@
 .. link:
 .. description:
-.. tags: Applications,Screenshots
+.. tags: About,Applications,Screenshots
 .. date: 2011-12-05 11:31:12
 .. title: MATE Desktop Environment
 .. slug: index
@@ -21,6 +21,9 @@ News
 
 .. post-list::
     :stop: 5
+
+Take a look a [Planet MATE](http://planet.mate-desktop.org) to see what the
+wider MATE community are blogging about.
 
 ---------------------------------
 Which distributions provide MATE?
