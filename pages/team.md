@@ -14,25 +14,25 @@ translators, packagers, artists and systems administrators.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/Argentina.png) Perberos
 
-Project founder, development, packaging for Archlinux
+Project founder, development, packaging for Archlinux.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
 
-Lead Developer, packaging for Debian and Ubuntu
+Lead Developer, packaging for Debian and Ubuntu.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Steve Zesch (amanas)
 
-Lead Developer, packaging for Debian and Ubuntu
+Lead Developer, packaging for Debian and Ubuntu.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/France.png) Clement Lefebvre (clem)
 
-Project management, development
+Project management, development.
 
 ## Contributors
 
 ### ![](http://mate-desktop.org/artwork/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
-Development
+Development.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/Portugal.png) Nelson Marques (nmarques)
 
@@ -48,7 +48,7 @@ Development, packaging for Gentoo.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Dan Mashal (dan408)
 
-Packaging for Fedora
+Packaging for Fedora.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
@@ -60,7 +60,7 @@ Packaging for Arch Linux, systems administration.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Adam Bickley (bickman2k)
 
-Packaging for Arch Linux
+Packaging for Arch Linux.
 
 ### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
