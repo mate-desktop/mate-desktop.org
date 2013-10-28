@@ -199,8 +199,8 @@ REDIRECTIONS = [
     (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released/index..html'),
     (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference/index.html'),     
     (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse/index.html'),
-    (u'feedback/index.html', u'/index.hmtl'),
-    (u'applications/index.html', u'/index.hmtl'),
+    (u'feedback/index.html', u'/index.html'),
+    (u'applications/index.html', u'/index.html'),
     (u'support/index.html', u'/community/index.html'),    
     (u'about/index.html', u'/index.html')]
     
