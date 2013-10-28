@@ -4,7 +4,7 @@
 .. tags: News,Themes
 .. date: 2013-03-26 16:53:32
 .. title: New themes
-.. slug: 20130326new-themes
+.. slug: 2013-03-26-new-themes
 -->
 
 The team is proud to announce the new themes for MATE 1.6.

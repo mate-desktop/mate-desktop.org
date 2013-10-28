@@ -72,9 +72,9 @@ NAVIGATION_LINKS = {
     ),
 }
 
-#		('/archive.html', 'Archives'),
-#        ('/categories/index.html', 'Tags'),
-#        ('/rss.xml', 'RSS'),
+#    ('/archive.html', 'Archives'),
+#    ('/categories/index.html', 'Tags'),
+#    ('/rss.xml', 'RSS'),
 
 # Below this point, everything is optional
 
@@ -183,28 +183,26 @@ ARCHIVE_PATH = "archive"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
-    (u'2013/03/12/mate-university/index.html', u'/blog/20130312mate-university.html'), 
-    (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo.html'),
-    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/20130320mate-and-ltsp.html'), 
-    (u'2012/11/10/fedora-repo/index.html', u'/blog/20121110fedora-repo.html'),
-    (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/20130721stefano-at-opensuse-conference.html'),     
-    (u'2012/07/30/mate-1-4-released/index.html', u'/blog/20120730mate-1-4-released.html'),
-    (u'2013/04/02/mate-1-6-released/index.html', u'/blog/20130402mate-1-6-released.html'),
-    (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/20130810new-repositories-for-opensuse.html'),    
-    (u'2011/12/05/hello-world/index.html', u'/blog/20111205hello-world.html'),
-    (u'2012/04/16/mate-1-2-released/index.html', u'/blog/20120416mate-1-2-released.html'),
-    (u'2012/01/18/reporting-bugs/index.html', u'/blog/20120118reporting-bugs.html'),
-    (u'2012/10/16/mate-quantal-repo-available/index.html', u'/blog/20121016mate-quantal-repo-available.html'),
-    (u'2011/12/24/new-wiki-and-other-info/index.html', u'/blog/20111224new-wiki-and-other-info.html'),
-    (u'2013/03/26/new-themes/index.html', u'/blog/20130326new-themes.html'), 
-    (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/blog/20130120changes-to-mate-notification-daemon.html'),
+    (u'2011/12/05/hello-world/index.html', u'/blog/2011-12-05-introducing-mate-desktop.html'),
+    (u'2011/12/24/new-wiki-and-other-info/index.html', u'/blog/2011-12-24-new-wiki-and-new-distributions-supported.html'),
+    (u'2012/01/18/reporting-bugs/index.html', u'/blog/2012-01-18-reporting-bugs.html'),
+    (u'2012/04/16/mate-1-2-released/index.html', u'/blog/2012-04-16-mate-1-2-released.html'),
     (u'2012/07/28/packages-mate-desktop-org-repo/index.html', u'/index.html'),
-    (u'2012/11/09/pluma-vs-geany-lite/index.html', u'/index.html'),
+    (u'2012/07/30/mate-1-4-released/index.html', u'/blog/2012-07-30-mate-1-4-released.html'),
+    (u'2012/10/16/mate-quantal-repo-available/index.html', u'/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal.html'),
+    (u'2012/11/10/fedora-repo/index.html', u'/blog/2012-11-10-mate-package-repository-for-fedora.html'),
+    (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo.html'),
+    (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/blog/2013-01-20-changes-to-mate-notification-daemon.html'),
+    (u'2013/03/12/mate-university/index.html', u'/blog/2013-03-12-mate-university.html'), 
+    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/2013-03-20-mate-and-ltsp.html'), 
+    (u'2013/03/26/new-themes/index.html', u'/blog/2013-03-26-new-themes.html'), 
+    (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released.html'),
+    (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference.html'),     
+    (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse.html'),    
     (u'feedback/index.html', u'/index.hmtl'),
     (u'support/index.html', u'/community/index.html'),    
     (u'about/index.html', u'/index.html')]
     
-
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
 # "rsync -rav output/* joe@my.site:/srv/www/site"

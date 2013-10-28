@@ -32,12 +32,13 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 
-MATE is available via *unofficial* repositories for the following Linux distributions:
+MATE is available via *unofficial* repositories for the following Linux distributions, but
+inclusion in their official repositories is planned:
 
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Gentoo <http://www.gentoo.org>`_
-* `openSUSE <http://www.opensuse.org>`_  
+* `Arch Linux <http://www.archlinux.org>`_ 
+* `Debian <http://www.debian.org>`_ 
+* `Gentoo <http://www.gentoo.org>`_ 
+* `openSUSE <http://www.opensuse.org>`_ 
 * `Ubuntu <http://www.ubuntu.com>`_
 
 Maybe you prefer \*BSD?

@@ -147,3 +147,16 @@ assumes you are running as me on the server however.
     nikola build
     nikola deploy
 
+# TODO
+
+  * Document how to create posts
+  * Clean all content. 
+    * ~~Improve some titles, but retain rediections to old slugs.~~
+  * ~~Fix all broken images.~~
+  * ~~Posted date on newline.~~
+  * ~~Update donation page.~~
+  * Add more text the homepage.
+    * More background.
+    * Recent accomplishments and future direction.
+    * Pronunciation.
+    * All the applications, with improved layout.

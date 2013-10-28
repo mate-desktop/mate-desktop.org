@@ -53,10 +53,10 @@ We don't ask for much, it is at your discretion.
 
 ## Donors
 
-Many thanks to the following who have all generously dontated.
-
-  * None yet `:-(`
+Many of your have generously donated to the MATE project. We will be publishing
+a full list here very soon.
 
 ## How we spent the donations
 
-We will disclose how the donations were spent here.
+We will disclose how the donations were spent here. Full details will be published
+soon.

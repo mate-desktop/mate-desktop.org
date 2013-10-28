@@ -1,10 +1,10 @@
 <!--
-.. link:
+.. link: http://www.youtube.com/watch?v=pnL47bbFN68
 .. description:
 .. tags: LTSP
 .. date: 2013-03-20 11:30:13
 .. title: MATE and LTSP
-.. slug: 20130320mate-and-ltsp
+.. slug: 2013-03-20-mate-and-ltsp
 -->
 
 There are a lot of people in the world who get access to their GNU/Linux
@@ -17,4 +17,4 @@ alternative to going to a Unity/Gnome 3 desktop. As both an LTSP and MATE
 developer, I put together a short [video](http://www.youtube.com/watch?v=pnL47bbFN68)
 on some of the developments in both.
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/pnL47bbFN68" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/embed/pnL47bbFN68" frameborder="0" allowfullscreen></iframe>
