@@ -150,7 +150,7 @@ assumes you are running as me on the server however.
 # TODO
 
   * Document how to create posts
-  * Clean all content. 
+  * ~~Clean all content.~~
     * ~~Improve some titles, but retain rediections to old slugs.~~
   * ~~Fix all broken images.~~
   * ~~Posted date on newline.~~
