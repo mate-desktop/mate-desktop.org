@@ -12,60 +12,66 @@ translators, packagers, artists and systems administrators.
 
 ## Founders
 
-### ![](http://mate-desktop.org/artwork/flags/32/Argentina.png) Perberos
+### ![](/assets/img/flags/32/Argentina.png) Perberos
 
 Project founder, development, packaging for Archlinux.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
+### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
 
 Lead Developer, packaging for Debian and Ubuntu.
 
-### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Steve Zesch (amanas)
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
 
 Lead Developer, packaging for Debian and Ubuntu.
 
-### ![](http://mate-desktop.org/artwork/flags/32/France.png) Clement Lefebvre (clem)
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
 
 Project management, development.
 
 ## Contributors
 
-### ![](http://mate-desktop.org/artwork/flags/32/Canada.png) Scott Balneaves (sbalneav)
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
 Development.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Portugal.png) Nelson Marques (nmarques)
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
 
 Development, packaging for openSUSE.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
 
 Development, packaging for Fedora.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Netherlands.png) Sander Sweers (infirit)
+### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers (infirit)
 
 Development, packaging for Gentoo.
 
-### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Dan Mashal (dan408)
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
 Packaging for Fedora.
 
-### ![](http://mate-desktop.org/artwork/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
+### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
 Packaging for Arch Linux, systems administration.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Italy.png) Giovanni Ricciardi (talorno)
+### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
 
 Packaging for Arch Linux, systems administration.
 
-### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Adam Bickley (bickman2k)
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
 Packaging for Arch Linux.
 
-### ![](http://mate-desktop.org/artwork/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
+### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
 Artwork & graphics, systems administration.
 
-### ![](http://mate-desktop.org/artwork/flags/32/Greece.png) Efstathios Iosifidis (diamond_gr)
+### ![](/assets/img/flags/32/Greece.png) Efstathios Iosifidis (diamond_gr)
 
 Social media, promotion.
+
+---------------------------------------
+
+<small>
+The flags used in the page were provided by <http://www.icondrawer.com>.
+</small>

@@ -8,7 +8,7 @@ import time
 # Data about this site
 BLOG_AUTHOR = "The MATE Team"
 BLOG_TITLE = "MATE"
-BLOG_LOGO = "mate.png"
+BLOG_LOGO = "/assets/img/icons/mate.png"
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "http://mate-desktop.org/"
