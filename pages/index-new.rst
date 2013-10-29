@@ -33,7 +33,7 @@ MATE is available via the **official** and *unofficial* repositories for
 the following Linux distributions. 
 
 +-------------------------------------------------------------+------------------------------------------+
-| **Official*                                                 | *Unofficial*                             | 
+| **Official**                                                 | *Unofficial*                             | 
 +=============================================================+==========================================+
 | `Fedora <http://www.fedoraproject.org>`_                    | `Arch Linux <http://www.archlinux.org>`_ |
 +-------------------------------------------------------------+------------------------------------------|
