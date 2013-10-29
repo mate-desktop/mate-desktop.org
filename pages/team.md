@@ -81,8 +81,6 @@ Artwork & graphics, systems administration.
 
 Social media, promotion.
 
----------------------------------------
-
 <small>
-The flags used in the page were provided by <http://www.icondrawer.com>.
+The flags used in this page were provided by <http://www.icondrawer.com>.
 </small>
