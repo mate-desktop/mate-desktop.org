@@ -22,27 +22,31 @@ News
 .. post-list::
     :stop: 5
 
-Take a look a [Planet MATE](http://planet.mate-desktop.org) to see what the
+Take a look a `Planet MATE <http://planet.mate-desktop.org>`_ to see what the
 wider MATE community are blogging about.
 
 ---------------------------------
-Which distributions provide MATE?
+Which distributions support MATE?
 ---------------------------------
 
 MATE is available via the **official** repositories for the following Linux distributions:
 
 * `Fedora <http://www.fedoraproject.org>`_
 * `Linux Mint <http://linuxmint.com>`_
+* `Mageia <https://www.mageia.org/en/>`_
+* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 
 MATE is available via *unofficial* repositories for the following Linux distributions, but
 inclusion in their official repositories is planned:
 
-* `Arch Linux <http://www.archlinux.org>`_ 
-* `Debian <http://www.debian.org>`_ 
-* `Gentoo <http://www.gentoo.org>`_ 
-* `openSUSE <http://www.opensuse.org>`_ 
+* `Arch Linux <http://www.archlinux.org>`_
+* `Debian <http://www.debian.org>`_
+* `Gentoo <http://www.gentoo.org>`_
+* `Manjaro <http://manjaro.org/>`_
+* `openSUSE <http://www.opensuse.org>`_
+* `Slackware <http://www.slackware.com>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 
 Maybe you prefer \*BSD?
