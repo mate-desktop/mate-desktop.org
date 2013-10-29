@@ -3,7 +3,7 @@
 .. tags: About,Applications,Screenshots
 .. date: 2011-12-05 11:31:12
 .. title: MATE Desktop Environment
-.. slug: index
+.. slug: test
 .. pretty_url: False
 
 MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
@@ -29,24 +29,29 @@ wider MATE community are blogging about.
 Which distributions support MATE?
 ---------------------------------
 
-MATE is available via the **official** repositories for the following Linux distributions:
+MATE is available via the **official** and *unofficial* repositories for
+the following Linux distributions. 
 
-* `Fedora <http://www.fedoraproject.org>`_
-* `Linux Mint <http://linuxmint.com>`_
-* `Mageia <https://www.mageia.org/en/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
++-------------------------------------------------------------+------------------------------------------+
+| **Official*                                                 | *Unofficial*                             | 
++=============================================================+==========================================+
+| `Fedora <http://www.fedoraproject.org>`_                    | `Arch Linux <http://www.archlinux.org>`_ |
++-------------------------------------------------------------+------------------------------------------|
+| `Linux Mint <http://linuxmint.com>`_                        | `Debian <http://www.debian.org>`_        |
++-------------------------------------------------------------+------------------------------------------|
+| `Mageia <https://www.mageia.org/en/>`_                      | `Gentoo <http://www.gentoo.org>`_        |
++-------------------------------------------------------------+------------------------------------------|
+| `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_ | `openSUSE <http://www.opensuse.org>`_    |
++-------------------------------------------------------------+------------------------------------------|
+| `Sabayon <http://www.sabayon.org>`_                         | `Slackware <http://www.slackware.com>`_  |
++-------------------------------------------------------------+------------------------------------------|
+|`Salix <http://www.salixos.org>`_                            | `Ubuntu <http://www.ubuntu.com>`_        |
++-------------------------------------------------------------+------------------------------------------+
 
-MATE is available via *unofficial* repositories for the following Linux distributions, but
-inclusion in their official repositories is planned:
+The MATE team is planning to get MATE included in the official
+repositiries for all the distributions listed above.
 
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Gentoo <http://www.gentoo.org>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Slackware <http://www.slackware.com>`_
-* `Ubuntu <http://www.ubuntu.com>`_
+MATE is available via *unofficial* repositories for the following Linux distributions, 
 
 Maybe you prefer \*BSD?
 
