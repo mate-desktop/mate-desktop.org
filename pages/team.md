@@ -12,6 +12,8 @@ translators, packagers, artists and systems administrators.
 
 ## Founders
 
+The MATE Desktop Environment was founded by the following people:
+
 ### ![](/assets/img/flags/32/Argentina.png) Perberos
 
 Project founder, development, packaging for Archlinux.
@@ -28,7 +30,16 @@ Lead Developer, packaging for Debian and Ubuntu.
 
 Project management, development.
 
+## Board
+
+The MATE Desktop Environment has a Board of Directors. The
+[MATE Board wiki page](http://wiki.mate-desktop.org/board)
+lists the current members and outlines their duties.
+
 ## Contributors
+
+The MATE Desktop Environment continues to improve and develop thanks
+to the tireless efforts of the following fine people.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
