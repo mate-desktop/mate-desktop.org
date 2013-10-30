@@ -16,6 +16,10 @@ MATE is *the traditional Desktop Environment*.
     :align: center
 
 You can find more `screenshots of MATE </gallery/1.6/>`_ in our `gallery </gallery/>`_.
+MATE is under active development and focused on preseving a traditional desktop
+experience while adding support for new technologies. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_
+or `Stefano's presentation at the OpenSUS conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
+to see how MATE has evolved and what is planned for the future.
 
 ----
 News

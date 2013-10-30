@@ -161,7 +161,7 @@ assumes you are running as me on the server however.
     * Recent accomplishments and future direction.
     * ~~Pronunciation.~~
     * All the applications, with improved layout.
-    * Update screenshot using MATE 1.6
+    * ~~Update screenshot using MATE 1.6~~
   * Team links to social profiles
   * Navingation to include drop down on Blog for RSS, Tags and Archives and Planet.
   * ~~Community page needs link to IRC wiki and Planet.~~
