@@ -3,7 +3,7 @@
 .. description: 
 .. tags: News
 .. date: 2013/10/31 12:15:00
-.. title: Website redesign
+.. title: Website re-design
 .. slug: website-redesign
 .. author: Martin Wimpress
 -->

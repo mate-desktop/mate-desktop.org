@@ -8,15 +8,14 @@
 
 MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
 environment using traditional metaphors for Linux and other Unix-like
-operating systems. MATE is *the traditional desktop environment*.
+operating systems.
 
-MATE is under active development and focused on preseving a traditional
-desktop experience while adding support for new technologies. See the
-`Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
+MATE is under active development to add support for new technologies while
+preseving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
 `Stefano's presentation at the OpenSUSE conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
-to see how MATE has evolved and what is planned for the future. You can
-find out more about the principles that guide the project in the
-`MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_.
+to find out more about how MATE has evolved and what is planned for the
+future. The `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_
+outlines some of the principles that guide the project.
 
 .. image:: /screens/screenshot.jpg
     :align: center
