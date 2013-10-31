@@ -162,3 +162,5 @@ assumes you are running as me on the server however.
   * ~~Community page needs link to IRC wiki and Planet.~~
   * ~~Development page needs links to additional resources.~~
   * ~~Add social media buttons.~~
+  * Integrate SocialSharePrivacy
+    * https://github.com/panzi/SocialSharePrivacy
