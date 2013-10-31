@@ -182,23 +182,25 @@ REDIRECTIONS = [
     (u'2011/12/05/hello-world/index.html', u'/blog/2011-12-05-introducing-mate-desktop/index.html'),
     (u'2011/12/24/new-wiki-and-other-info/index.html', u'/blog/2011-12-24-new-wiki-and-new-distributions-supported/index.html'),
     (u'2012/01/18/reporting-bugs/index.html', u'/blog/2012-01-18-reporting-bugs/index.html'),
-    (u'2012/04/16/mate-1-2-released/index.html', u'/blog/2012-04-16-mate-1-2-released.html'),
+    (u'2012/04/16/mate-1-2-released/index.html', u'/blog/2012-04-16-mate-1-2-released/index.html'),
     (u'2012/07/28/packages-mate-desktop-org-repo/index.html', u'/index.html'),
-    (u'2012/07/30/mate-1-4-released/index.html', u'/blog/2012-07-30-mate-1-4-released/index..html'),
+    (u'2012/07/30/mate-1-4-released/index.html', u'/blog/2012-07-30-mate-1-4-released/index.html'),
     (u'2012/10/16/mate-quantal-repo-available/index.html', u'/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/index.html'),
     (u'2012/11/10/fedora-repo/index.html', u'/blog/2012-11-10-mate-package-repository-for-fedora/index.html'),
-    (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo/index..html'),
+    (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo/index.html'),
     (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/blog/2013-01-20-changes-to-mate-notification-daemon/index.html'),
-    (u'2013/03/12/mate-university/index.html', u'/blog/2013-03-12-mate-university/index..html'), 
-    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/2013-03-20-mate-and-ltsp/index..html'), 
+    (u'2013/03/12/mate-university/index.html', u'/blog/2013-03-12-mate-university/index.html'), 
+    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/2013-03-20-mate-and-ltsp/index.html'), 
     (u'2013/03/26/new-themes/index.html', u'/blog/2013-03-26-new-themes/index.html'), 
-    (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released/index..html'),
+    (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released/index.html'),
     (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference/index.html'),     
     (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse/index.html'),
-    (u'feedback/index.html', u'/index.html'),
+    (u'feedback/index.html', u'/index.html'),	
     (u'applications/index.html', u'/index.html'),
     (u'support/index.html', u'/community/index.html'),    
-    (u'about/index.html', u'/index.html')]
+    (u'about/index.html', u'/index.html'),
+    (u'feed/', u'/rss.xml')
+    ]
     
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
