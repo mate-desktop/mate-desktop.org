@@ -1,8 +1,8 @@
 <!-- 
 .. link: 
 .. description: 
-.. tags: News,draft
-.. date: 2010/10/31 19:15:00
+.. tags: News
+.. date: 2010/10/31 12:15:00
 .. title: Website redesign
 .. slug: website-redesign
 .. author: Martin Wimpress
@@ -41,5 +41,5 @@ drive more readers to a forums and will hope fully help grow and develop
 the community. We hope you understand our decision.
 
 <div class="alert alert-success">
-<strong>Discussion</strong> We hope you like the new site, <a href="#" class="alert-link">please let us know what you think</a>.
+<strong>Discussion</strong> We hope you like the new site, <a href="http://forums.mate-desktop.org/viewforum.php?f=20" class="alert-link">please let us know what you think</a>.
 </div>
