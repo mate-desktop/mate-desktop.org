@@ -438,10 +438,11 @@ MARKDOWN_EXTENSIONS = ['extra', 'codehilite', 'toc']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
-SOCIAL_BUTTONS_CODE = """<div id="shareNice" data-share-label="Share"
-data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"
-data-services="plus.google.com,facebook.com,linkedin.com,twitter.com"
-style="position: absolute; left: 20px; top: 60px;"></div>"""
+SOCIAL_BUTTONS_CODE = ""
+#SOCIAL_BUTTONS_CODE = """<div id="shareNice" data-share-label="Share"
+#data-color-scheme="black" data-icon-size="32" data-panel-bottom="plain"
+#data-services="plus.google.com,facebook.com,linkedin.com,twitter.com"
+#style="position: absolute; left: 20px; top: 20px;"></div>"""
 
 # Hide link to source for the posts?
 HIDE_SOURCELINK = True

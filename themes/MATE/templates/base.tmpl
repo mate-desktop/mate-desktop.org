@@ -72,7 +72,7 @@ lang="${lang}">
 <div class="container-fluid" id="container-fluid">
     <!--Body content-->
     <div class="row-fluid">
-    	<div class="span2">${base.html_social()}</div>
+    	<div class="span2"></div>
     	<div class="span8">
     		<%block name="content"></%block>
     	</div>
@@ -85,6 +85,7 @@ lang="${lang}">
     ${content_footer}
 </div>
 
+${base.html_social()}
 ${bootstrap.late_load_js()}
     <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
     $(window).on('hashchange', function(){
