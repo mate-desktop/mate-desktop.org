@@ -1,7 +1,3 @@
-# W.I.P
-
-**Currently this migration is a work in progress!**
-
 # mate-desktop.org
 
 This repository contains the [Nikola](http://getnikola.com) configuration and content
@@ -157,14 +153,12 @@ assumes you are running as me on the server however.
   * ~~Update donation page.~~
   * Add more text the homepage.
     * Floating MATE logo
-    * More background.
-    * Recent accomplishments and future direction.
+    * ~~More background~~
+    * ~~Recent accomplishments and future direction.~~
     * ~~Pronunciation.~~
     * All the applications, with improved layout.
     * ~~Update screenshot using MATE 1.6~~
-  * Team links to social profiles
-  * Navingation to include drop down on Blog for RSS, Tags and Archives and Planet.
+  * ~~Navingation to include drop down on Blog for RSS, Tags and Archives and Planet.~~
   * ~~Community page needs link to IRC wiki and Planet.~~
   * ~~Development page needs links to additional resources.~~
   * ~~Add social media buttons.~~
-  * Add footer with site links?
