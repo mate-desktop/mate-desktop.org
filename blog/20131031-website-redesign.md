@@ -34,11 +34,12 @@ merged and published here. The are some
 Unfortunately, we have decided not to migrate comments from the old
 website. From this point forward each new blog post will be linked to 
 a topic in the [MATE forums](http://forums.mate-desktop.org/). We are
-doing this because we already have a dedicated team of forum moderators
-and didn't want to draw on their limited time by asking them to moderate
-blog comments via a 3rd party comment provider. Besides, this approach will
-drive more readers to a forums and will hope fully help grow and develop
-the community. We hope you understand our decision.
+doing this because we already have a
+[dedicated team of forum moderators](http://forums.mate-desktop.org/memberlist.php?mode=leaders)
+and don't want to draw on their limited time by asking them to moderate
+blog comments on a 3rd party comment provider. Besides, this approach will
+drive more readers to the MATE forums and will hope fully help grow and
+develop the community. We hope you understand our decision.
 
 <div class="alert alert-success">
 <strong>Discussion</strong> We hope you like the new site, <a href="http://forums.mate-desktop.org/viewforum.php?f=20" class="alert-link">please let us know what you think</a>.

@@ -8,18 +8,20 @@
 
 MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
 environment using traditional metaphors for Linux and other Unix-like
-operating systems. You can find out more about the principles that guide
-the project in the `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_.
-MATE is *the traditional Desktop Environment*.
+operating systems.
+
+MATE is under active development and focused on preseving a traditional
+desktop experience while adding support for new technologies. See the
+`Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
+`Stefano's presentation at the OpenSUSE conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
+to see how MATE has evolved and what is planned for the future. You can
+find out more about the principles that guide the project in the
+`MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
 
 You can find more `screenshots of MATE </gallery/1.6/>`_ in our `gallery </gallery/>`_.
-MATE is under active development and focused on preseving a traditional desktop
-experience while adding support for new technologies. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_
-or `Stefano's presentation at the OpenSUS conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
-to see how MATE has evolved and what is planned for the future.
 
 ----
 News
@@ -28,8 +30,10 @@ News
 .. post-list::
     :stop: 5
 
-Take a look a `Planet MATE <http://planet.mate-desktop.org>`_ to see what the
-wider MATE community are blogging about.
+Blog posts are also indexed by `tag </categories/index.html>`_ and
+`archived by date </archive.html>`_. You might also want to take a look
+at `Planet MATE <http://planet.mate-desktop.org>`_ to see what the wider
+MATE community are blogging about. 
 
 ---------------------------------
 Which distributions support MATE?

@@ -72,10 +72,6 @@ NAVIGATION_LINKS = {
     ),
 }
 
-#    ('/archive.html', 'Archives'),
-#    ('/categories/index.html', 'Tags'),
-#    ('/rss.xml', 'RSS'),
-
 # Below this point, everything is optional
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
@@ -601,11 +597,11 @@ ENABLED_EXTRAS = [
 
 SOCIAL_ICONS="""
 <a class="social-icon" href="/rss.xml" title="MATE RSS feed"><img src="/assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
+<a class="social-icon" href="http://wiki.mate-desktop.org/" title="MATE Wiki"><img src="/assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
 <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="/assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
 <a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="/assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
 <a class="social-icon" href="https://plus.google.com/u/0/communities/103904770310171205536" title="MATE Google+ Community"><img src="/assets/img/icons/gplus.png" alt="Google+" class="small-margin"></a>
 <a class="social-icon" href="https://plus.google.com/105251070079435964338/posts" title="MATE Google+ Page"><img src="/assets/img/icons/gplus.png" alt="Google+" class="small-margin"></a>
-<a class="social-icon" href="http://wiki.mate-desktop.org/" title="MATE Wiki"><img src="/assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
 """
 
 GLOBAL_CONTEXT = {
