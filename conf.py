@@ -441,7 +441,7 @@ MARKDOWN_EXTENSIONS = ['extra', 'codehilite', 'toc']
 SOCIAL_BUTTONS_CODE = """<div id="shareNice" data-share-label="Share"
     data-color-scheme="green" data-icon-size="32" data-panel-bottom="plain"
     data-services="plus.google.com,facebook.com,digg.com,email,delicious.com,twitter.com"
-    style="float:right"></div>"""
+    style="float:left"></div>"""
 
 # Hide link to source for the posts?
 HIDE_SOURCELINK = True
@@ -463,14 +463,6 @@ RSS_TEASERS = False
 
 # There is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
-
-#<form class="form-search" method="get" id="s" action="/">
-#    <div class="input-append">
-#        <input type="text" class="input-medium search-query" name="s" placeholder="Search" value="">
-#        <button type="submit" class="add-on"><i class="icon-search"></i></button>
-#    </div>
-#</form>
-
 SEARCH_FORM = """
 <span class="navbar-search pull-right">
 	<input class="input-medium search-query search-margin" type="search" placeholder="Search" id="tipue_search_input"></input>
