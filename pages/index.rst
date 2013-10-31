@@ -1,14 +1,14 @@
 .. link:
 .. description:
 .. tags: About,Applications,Screenshots
-.. date: 2011-12-05 11:31:12
+.. date: 2013-10-31 12:29:57
 .. title: MATE Desktop Environment
 .. slug: index
 .. pretty_url: False
 
 MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop
 environment using traditional metaphors for Linux and other Unix-like
-operating systems.
+operating systems. MATE is ***the** traditional desktop environment*.
 
 MATE is under active development and focused on preseving a traditional
 desktop experience while adding support for new technologies. See the
