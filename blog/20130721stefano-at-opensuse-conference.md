@@ -5,6 +5,7 @@
 .. date: 2013-07-21 14:46:13
 .. title: Stefano presents at openSUSE conference
 .. slug: 2013-07-21-stefano-presents-at-opensuse-conference
+.. author: Steve Zesch
 -->
 
 On July 20th 2013 [Stefano Karapetsas](https://github.com/stefano-k) presented his

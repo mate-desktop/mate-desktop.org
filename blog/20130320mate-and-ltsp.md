@@ -5,6 +5,7 @@
 .. date: 2013-03-20 11:30:13
 .. title: MATE and LTSP
 .. slug: 2013-03-20-mate-and-ltsp
+.. author: Scott Balneaves
 -->
 
 There are a lot of people in the world who get access to their GNU/Linux

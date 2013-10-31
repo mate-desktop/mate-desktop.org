@@ -5,6 +5,7 @@
 .. date: 2013-08-10 09:58:21
 .. title: New repositories for openSUSE
 .. slug: 2013-08-10-mate-package-repository-for-opensuse
+.. author: Stefano Karapetsas
 -->
 
 ![openSUSE](/wp-content/uploads/2013/08/MATE_opensuse_black-150x150.png)

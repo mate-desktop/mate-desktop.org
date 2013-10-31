@@ -5,6 +5,7 @@
 .. date: 2013-03-26 16:53:32
 .. title: New themes
 .. slug: 2013-03-26-new-themes
+.. author: Stefano Karapetsas
 -->
 
 The team is proud to announce the new themes for MATE 1.6.

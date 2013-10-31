@@ -5,6 +5,7 @@
 .. date: 2011-12-05 12:00:30
 .. title: Introducing MATE Desktop
 .. slug: 2011-12-05-introducing-mate-desktop
+.. author: Clement Lefebvre
 -->
 
 Welcome to the MATE Desktop Environment!

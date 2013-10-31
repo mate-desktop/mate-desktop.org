@@ -5,6 +5,7 @@
 .. date: 2012-12-27 17:06:02
 .. title: Thank you First Colo!
 .. slug: 2012-12-27-thank-you-first-colo
+.. author: Stefano Karapetsas
 -->
 
 ![FirstColo](/wp-content/uploads/2012/12/first-colo.gif)

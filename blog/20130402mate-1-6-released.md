@@ -5,6 +5,7 @@
 .. date: 2013-04-02 19:23:50
 .. title: MATE 1.6 released
 .. slug: 2013-04-02-mate-1-6-released
+.. author: Stefano Karapetsas
 -->
 
 The team is proud to announce the release of MATE Desktop 1.6. This release is

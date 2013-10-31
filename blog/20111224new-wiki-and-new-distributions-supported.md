@@ -5,6 +5,7 @@
 .. date: 2011-12-24 21:58:49
 .. title: New wiki and other info
 .. slug: 2011-12-24-new-wiki-and-new-distributions-supported
+.. author: Steve Zesch
 -->
 
 We've recently switched from a wiki at [GitHub](http://github.com/) to a our own

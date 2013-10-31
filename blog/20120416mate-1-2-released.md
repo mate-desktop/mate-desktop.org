@@ -5,6 +5,7 @@
 .. date: 2012-04-16 03:48:11
 .. title: MATE 1.2 released
 .. slug: 2012-04-16-mate-1-2-released
+.. author: Stefano Karapetsas
 -->
 
 The team is proud to announce the release of **MATE 1.2**. This release is a

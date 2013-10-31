@@ -5,6 +5,7 @@
 .. date: 2013-01-20 19:07:12
 .. title: Changes to mate-notification-daemon
 .. slug: 2013-01-20-changes-to-mate-notification-daemon
+.. author: Steve Zesch
 -->
 
 The `mate-notification-daemon` has a new feature in  MATE 1.6 that allows

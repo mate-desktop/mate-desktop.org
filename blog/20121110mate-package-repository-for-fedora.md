@@ -5,6 +5,7 @@
 .. date: 2012-11-10 20:51:28
 .. title: MATE package repository for Fedora
 .. slug: 2012-11-10-mate-package-repository-for-fedora
+.. author: Steve Zesch
 -->
 
 We are now directing users to use the official Fedora package repository now.

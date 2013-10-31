@@ -5,6 +5,7 @@
 .. date: 2012-10-16 21:52:18
 .. title: MATE package repository for Ubuntu Quantal
 .. slug: 2012-10-16-mate-package-repository-for-ubuntu-quantal
+.. author: Steve Zesch
 -->
 
 An [Ubuntu](http://www.ubuntu.org) package repository for Ubuntu 12.10 Quantal Quetzal

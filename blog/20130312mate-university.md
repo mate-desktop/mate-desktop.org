@@ -5,6 +5,7 @@
 .. date: 2013-03-12 18:58:22
 .. title: MATE University
 .. slug: 2013-03-12-mate-university
+.. author: Stefano Karapetsas
 -->
 
 ![c-file](/wp-content/uploads/2013/03/c-file.png)

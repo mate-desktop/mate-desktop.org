@@ -5,6 +5,7 @@
 .. date: 2012-01-18 21:22:52
 .. title: Reporting Bugs
 .. slug: 2012-01-18-reporting-bugs
+.. author: Steve Zesch
 -->
 
 We are currently in the process of switching to handling all our issues via
