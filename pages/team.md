@@ -81,6 +81,12 @@ Artwork & graphics, systems administration.
 
 Social media, promotion.
 
+## Forum Moderators
+
+The dedicated team of forum moderators can be found below:
+
+  * <http://forums.mate-desktop.org/memberlist.php?mode=leaders>
+
 <small>
 The flags used in this page were provided by <http://www.icondrawer.com>.
 </small>
