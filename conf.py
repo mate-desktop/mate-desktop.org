@@ -199,8 +199,7 @@ REDIRECTIONS = [
     (u'applications/index.html', u'/index.html'),
     (u'support/index.html', u'/community/index.html'),    
     (u'about/index.html', u'/index.html'),
-    (u'feed/', u'/rss.xml')
-    ]
+    (u'feed/index.html', u'/rss.xml')]
     
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
