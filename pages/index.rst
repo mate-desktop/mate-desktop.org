@@ -32,7 +32,7 @@ News
 Blog posts are also indexed by `tag </categories/index.html>`_ and
 `archived by date </archive.html>`_. You might also want to take a look
 at `Planet MATE <http://planet.mate-desktop.org>`_ to see what the wider
-MATE community are blogging about. 
+MATE community are blogging about.
 
 ---------------------------------
 Which distributions support MATE?
@@ -63,8 +63,10 @@ Maybe you prefer \*BSD?
 * `GhostBSD <http://ghostbsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
-The MATE community has documented how to install MATE on these and many other
-distributions in the `install guidelines <http://wiki.mate-desktop.org/download>`_.
+You can also `query DistroWatch.com for all the distributions that support MATE` <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+
+The MATE community has documented how to install MATE on many distributions in the
+`install guidelines <http://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applications
