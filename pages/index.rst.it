@@ -20,7 +20,7 @@ outlines some of the principles that guide the project.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-You can find more `screenshots of MATE </gallery/1.6/>`_ in our `gallery </gallery/>`_.
+You can find more `screenshots of MATE <gallery/1.6/>`_ in our `gallery <gallery/>`_.
 
 ------
 Novità
@@ -29,7 +29,7 @@ Novità
 .. post-list::
     :stop: 5
 
-Blog posts are also indexed by `tag </tags/>`_ and `archived by date </archive/>`_.
+Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
 You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
 to see what the wider MATE community are blogging about.
 
