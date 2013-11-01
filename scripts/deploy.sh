@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NIKOLA_ENV="nikola-620"
+NIKOLA_ENV="nikola-621"
 
 echo "Deploying mate-desktop.org"
 
