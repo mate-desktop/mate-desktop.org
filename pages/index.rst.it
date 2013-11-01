@@ -63,7 +63,7 @@ Maybe you prefer \*BSD?
 * `GhostBSD <http://ghostbsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
-You can also `query DistroWatch.com for all the distributions that support MATE` <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 The MATE community has documented how to install MATE on many distributions in the
 `install guidelines <http://wiki.mate-desktop.org/download>`_.
