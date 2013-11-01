@@ -36,6 +36,7 @@ if [ "${1}" == "clean" ]; then
 	nikola clean
 	nikola forget
 	rm -rfv cache/*
+	rm -rfv output/*
 fi
 
 nikola build

@@ -132,7 +132,7 @@ COMPILERS = {
         "rest": ('.txt', '.rst'),
         "markdown": ('.md', '.mdown', '.markdown'),
         "html": ('.html', '.htm')
-}        
+}
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -167,7 +167,7 @@ INDEX_PATH = "blog"
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 ARCHIVE_PATH = "archive"
-#ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_FILENAME = "index.html"
 
 # Final locations are:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
@@ -204,12 +204,12 @@ REDIRECTIONS = [
     (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released/index.html'),
     (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference/index.html'),     
     (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse/index.html'),
-    (u'feedback/index.html', u'/index.html'),	
+    (u'feedback/index.html', u'/index.html'),
     (u'applications/index.html', u'/index.html'),
-    (u'support/index.html', u'/community/index.html'),    
+    (u'support/index.html', u'/community/index.html'),
     (u'about/index.html', u'/index.html'),
     (u'feed/index.html', u'/rss.xml')]
-    
+
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
 # "rsync -rav output/* joe@my.site:/srv/www/site"
