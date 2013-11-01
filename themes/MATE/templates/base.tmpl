@@ -42,22 +42,34 @@ lang="${lang}">
 				<div class="nav-collapse collapse">
 					<ul class="nav">
                     ${bootstrap.html_navigation_links()}
+                    <li class="dropdown">                      
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/assets/img/icons/translate.png" alt="Language" title="Language"></a>                      
+                      <ul class="dropdown-menu">
+                        <li><a href="/"><img src="/assets/img/flags/32/United%20Kingdom(Great%20Britain).png" title="English" /></a></li>
+                        <li><a href="/it/"><img src="/assets/img/flags/32/Italy.png" title="Italiano" /></a></li>
+                      </ul>
+                    </li>
 					</ul>
-					%if search_form:
-						${search_form}
-					%endif
+                    
 					<ul class="nav pull-right">
-					<%block name="belowtitle">
-					%if len(translations) > 1:
-						<li>${base.html_translations()}</li>
-					%endif
-					</%block>
-					% if not hide_sourcelink:
-						<li><%block name="sourcelink"></%block></li>
-					%endif
-					<!-- MATE social icons -->
-        				${social_icons}
+                        <!-- MATE social icons -->
+                        ${social_icons}           
+                        
+                        <!-- Disable auto translation links         
+                        <%block name="belowtitle">					
+                        %if len(translations) > 1000:
+                            <li>${base.html_translations()}</li>
+                        %endif
+                        </%block>
+                        -->
+                        
+                        % if not hide_sourcelink:
+                            <li><%block name="sourcelink"></%block></li>
+                        %endif					
 					</ul>
+                    %if search_form:
+						${search_form}
+					%endif                    
 				</div>
 			</div>
 		</div>

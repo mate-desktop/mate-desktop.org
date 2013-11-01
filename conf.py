@@ -55,7 +55,7 @@ DEFAULT_LANG = "en"
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     # Example for another language:
-    # "es": "./es",
+    "it": "./it",
 }
 
 # Links for the sidebar / navigation bar.
@@ -63,12 +63,21 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/blog/', 'Blog'),
-		('/install/', 'Install'),		
-		('/gallery/1.6/', 'Screenshots'),		
-		('/development/', 'Development'),		
+		('/install/', 'Install'),
+		('/gallery/1.6/', 'Screenshots'),
+		('/development/', 'Development'),
 		('/community/', 'Community'),
-		('/team/', 'Team'),		
+		('/team/', 'Team'),
 		('/donate/', 'Donate'),
+    ),
+    "it": (
+		('/it/blog/', 'Blog'),
+		('/it/install/', 'Installazione'),
+		('/gallery/1.6/', 'Schermate'),
+		('/it/development/', 'Sviluppo'),
+		('/it/community/', 'Comunità'),
+		('/it/team/', 'Team'),
+		('/it/donate/', 'Donazioni'),
     ),
 }
 
@@ -98,7 +107,7 @@ NAVIGATION_LINKS = {
 #
 
 POSTS = (
-	    ("blog/*.rst", "blog", "post.tmpl"),
+            ("blog/*.rst", "blog", "post.tmpl"),
             ("blog/*.md", "blog", "post.tmpl"),
         )
 PAGES = (
