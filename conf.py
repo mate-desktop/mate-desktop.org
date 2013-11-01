@@ -73,7 +73,7 @@ NAVIGATION_LINKS = {
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
-		('/gallery/1.6/', 'Schermate'),
+		('/it/gallery/1.6/', 'Schermate'),
 		('/it/development/', 'Sviluppo'),
 		('/it/community/', 'Comunità'),
 		('/it/team/', 'Team'),
