@@ -44,6 +44,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Point Linux <http://pointlinux.org>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 
