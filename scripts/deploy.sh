@@ -21,20 +21,21 @@ if [ -d ${HOME}/Websites/mate-desktop.org/.git ]; then
 	fi
 else
 	echo " - Cloning mate-desktop.org Git repository..."
-	${HOME}/Websites
+	cd ${HOME}/Websites
 	git clone https://github.com/mate-desktop/mate-desktop.org
 	if [ $? -ne 0 ]; then
 		echo " - ERROR! 'git clone' encountered problems. Exitting."
 		exit 1
 	fi
-	cd ${HOME}/Websites/mate-desktop.org
 fi
 
+cd ${HOME}/Websites/mate-desktop.org
 
 # Optionally deep clean before the build.
 if [ "${1}" == "clean" ]; then
 	nikola clean
 	nikola forget
+	rm -rfv cache/*
 fi
 
 nikola build
