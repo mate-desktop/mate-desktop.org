@@ -29,7 +29,7 @@ The following are required to build `pillow`, the Python imaging library.
   * libfreetype6-dev
 
 The following are required to build `lxml`, a Python XML library.
-  
+
   * libxml2-dev
   * libxslt1-dev
 
@@ -49,24 +49,24 @@ Nikola was created.
     cd virtualenv-1.10.1
     sudo python setup.py install
 
-### Install Nikola 6.2.0
+### Install Nikola 6.2.1
 
 Create an environment for Nikola.
 
     mkdir ~/PythonEnvs
-    virtualenv -p python2.7 ~/PythonEnvs/nikola-620
+    virtualenv -p python2.7 ~/PythonEnvs/nikola-621
 
 Activate the environment.
 
-    source ~/PythonEnvs/nikola-620/bin/activate
+    source ~/PythonEnvs/nikola-621/bin/activate
 
-Download Nikola 6.2.0
+Download Nikola 6.2.1
 
     mkdir -p ${VIRTUAL_ENV}/src
-    wget https://github.com/getnikola/nikola/archive/v6.2.0.tar.gz -O ${VIRTUAL_ENV}/src/nikola-620.tar.gz
     cd ${VIRTUAL_ENV}/src
-    tar zxvf nikola-620.tar.gz
-    cd nikola-6.2.0/    
+    wget https://github.com/getnikola/nikola/archive/v6.2.1.tar.gz -O nikola-621.tar.gz
+    tar zxvf nikola-621.tar.gz
+    cd nikola-6.2.1
 
 Install the Nikola requirements.
 
