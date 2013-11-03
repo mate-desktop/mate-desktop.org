@@ -27,6 +27,7 @@ News
 ----
 
 .. post-list::
+    :lang: en
     :stop: 5
 
 Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
