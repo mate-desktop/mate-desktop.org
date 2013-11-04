@@ -9,7 +9,7 @@
 -->
 
 We have given the MATE website a make-over and also migrated from
-[Wordpress](http://www.wordpress.org) to [Nikola](http://getnikola.org)
+[Wordpress](http://www.wordpress.org) to [Nikola](http://getnikola.com)
 in the process.
 
 The main objective of the re-design is to create simple, elegant site
