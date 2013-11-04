@@ -13,7 +13,7 @@ the Wordpress site was migrated to Nikola.
 
 ## Python 2.7
 
-Nikola is being power by Poython 2.7 and some additional packages were required
+Nikola is being power by Python 2.7 and some additional packages were required
 on the server.
 
     sudo apt-get install python2.7-dev libfreetype6-dev libjpeg8-dev libxslt1-dev libxml2-dev libyaml-dev
