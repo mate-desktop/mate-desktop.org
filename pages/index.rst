@@ -11,7 +11,7 @@ environment using traditional metaphors for Linux and other Unix-like
 operating systems.
 
 MATE is under active development to add support for new technologies while
-preseving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
+preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
 `Stefano's presentation at the OpenSUSE conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
 to find out more about how MATE has evolved and what is planned for the
 future. The `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_
@@ -93,7 +93,7 @@ Pluma
 
 Pluma is a text editor which supports most standard editor 
 features, extending this basic functionality with other features 
-not usually found in simple text editors. pluma is a graphical 
+not usually found in simple text editors. Pluma is a graphical 
 application which supports editing multiple text files in one 
 window (known sometimes as tabs or MDI). Pluma fully supports 
 international text through its use of the Unicode UTF-8 encoding in 
