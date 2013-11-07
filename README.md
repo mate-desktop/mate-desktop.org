@@ -3,8 +3,87 @@
 This repository contains the [Nikola](http://getnikola.com) configuration and content
 for <http://mate-desktop.org>.
 
+# Contributing content to mate-desktop.org
+
 If you want to add or edit content on <http://mate-desktop.org> then please submit a
 [pull-request](https://help.github.com/articles/using-pull-requests).
+
+## Contributing a new post
+
+The simplest way to contribute a new blog post to the mate-desktop.org
+website is to:
+
+  * [Fork](https://help.github.com/articles/fork-a-repo) this repository.
+  
+  * Copy `blog/20991231template-markdown.md` to a new file, for example:
+
+    cp blog/20991231template-markdown.md blog/20131107my-cool-blog-post.md
+
+  * Edit your new file making sure to change the meta data in the file header.
+  The meta data in the template looks like this:
+
+    link:
+    description:
+    tags: draft
+    date: 2099/12/31 23:59:59
+    title: Markdown template
+    slug: template-markdown
+    author: Webmaster
+
+    * `link` is optional but should include the URL to the original article if there is one.
+    * `description` is optional an should brefily describe the post.
+    * `tags` any tags that are relevant. You **must include the `draft` tag**
+    * `date is the intended publication date of the post in the format YYYY/MM/DD HH:MML:SS
+    * `title` is the post title
+    * `slug` is how the post name will be represented in the URL.
+    * `author` is your full name.
+
+  * Commit you changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
+  and one of the website maintainers will review your submission and
+  publish it if it is suitable.
+
+If you prefer ReStructuredText to Markdown, then follow the same process
+as above but use `blog/20991231template-rest.rst` template file.
+
+## Contributing a translation
+
+To contribute a translated page or blog pot the mate-desktop.org website do the followingl::
+
+  * [Fork](https://help.github.com/articles/fork-a-repo) this repository.
+
+  * Copy the blog post or page you wish to translate to a new file
+  with the same filename but ending with the short country code (see below).
+  For example, if you want to translate the home page to German you would
+  do the following:
+
+    cp pages/index.md pages/index.md.de
+
+  * Translate the meta data as well as the content. However, **do not change the date format**.
+
+  * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
+  and one of the website maintainers will review your submission.
+
+Currently supported languages are:
+
+  * bg     Bulgarian
+  * ca     Catalan
+  * de     German
+  * el     Greek [NOT gr!]
+  * en     English
+  * eo     Esperanto
+  * es     Spanish
+  * fa     Persian
+  * fr     French
+  * hr     Croatian
+  * it     Italian
+  * jp     Japanese
+  * nl     Dutch
+  * pt_br  Portuguese (Brasil)
+  * pl     Polish
+  * ru     Russian
+  * tr_tr  Turkish (Turkey)
+  * zh_cn  Chinese (Simplified)
+
 
 # The migration
 
