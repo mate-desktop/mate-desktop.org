@@ -23,7 +23,7 @@ website is to:
     * `link` is optional but should include the URL to the original article if there is one.
     * `description` is optional an should brefily describe the post.
     * `tags` any tags that are relevant. You **must include the `draft` tag**
-    * `date is the intended publication date of the post in the format YYYY/MM/DD HH:MML:SS
+    * `date` is the intended publication date of the post in the format YYYY/MM/DD HH:MML:SS
     * `title` is the post title
     * `slug` is how the post name will be represented in the URL.
     * `author` is your full name.
