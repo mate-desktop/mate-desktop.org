@@ -55,25 +55,24 @@ To contribute a translated page or blog pot the mate-desktop.org website do the 
 
 Currently supported languages are:
 
-  * bg     Bulgarian
-  * ca     Catalan
-  * de     German
-  * el     Greek [NOT gr!]
-  * en     English
-  * eo     Esperanto
-  * es     Spanish
-  * fa     Persian
-  * fr     French
-  * hr     Croatian
-  * it     Italian
-  * jp     Japanese
-  * nl     Dutch
-  * pt_br  Portuguese (Brasil)
-  * pl     Polish
-  * ru     Russian
-  * tr_tr  Turkish (Turkey)
-  * zh_cn  Chinese (Simplified)
-
+  * `bg`     Bulgarian
+  * `ca`     Catalan
+  * `de`     German
+  * `el`     Greek [NOT gr!]
+  * `en`     English
+  * `eo`     Esperanto
+  * `es`     Spanish
+  * `fa`     Persian
+  * `fr`     French
+  * `hr`     Croatian
+  * `it`     Italian
+  * `jp`     Japanese
+  * `nl`     Dutch
+  * `pt_br`  Portuguese (Brasil)
+  * `pl`     Polish
+  * `ru`     Russian
+  * `tr_tr`  Turkish (Turkey)
+  * `zh_cn`  Chinese (Simplified)
 
 # The migration
 
@@ -214,22 +213,8 @@ assumes you are running as me on the server however.
 
 # TODO
 
-  * Document how to create posts
-  * ~~Clean all content.~~
-    * ~~Improve some titles, but retain rediections to old slugs.~~
-  * ~~Fix all broken images.~~
-  * ~~Posted date on newline.~~
-  * ~~Update donation page.~~
   * Add more text the homepage.
     * Floating MATE logo
-    * ~~More background~~
-    * ~~Recent accomplishments and future direction.~~
-    * ~~Pronunciation.~~
     * All the applications, with improved layout.
-    * ~~Update screenshot using MATE 1.6~~
-  * ~~Navingation to include drop down on Blog for RSS, Tags and Archives and Planet.~~
-  * ~~Community page needs link to IRC wiki and Planet.~~
-  * ~~Development page needs links to additional resources.~~
-  * ~~Add social media buttons.~~
   * Integrate SocialSharePrivacy
     * https://github.com/panzi/SocialSharePrivacy
