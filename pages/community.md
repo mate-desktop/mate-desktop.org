@@ -13,7 +13,7 @@ support from the community.
 
 ## Wiki
 
-You'll find lots of useful material on our wiki, but we also encouage you
+You'll find lots of useful material on our wiki, but we also encourage you
 to help improve it.
 
   * <http://wiki.mate-desktop.org>
@@ -55,11 +55,11 @@ You're an Internet guru. We've got you covered, come and join us on IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 There are several IRC channels available. You can find all the details on
-out [IRC wiki page](http://wiki.mate-desktop.org/irc).
+our [IRC wiki page](http://wiki.mate-desktop.org/irc).
 
 ## Planet
 
-Blog posts from members of the MATE community are aggregated on out Planet.
+Blog posts from members of the MATE community are aggregated on our Planet.
 
   * [Planet MATE](http://planet.mate-desktop.org)
 
