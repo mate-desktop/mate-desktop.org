@@ -3,7 +3,7 @@
 This repository contains the [Nikola](http://getnikola.com) configuration and content
 for <http://mate-desktop.org>.
 
-# Contributing content to mate-desktop.org
+# Contributing content
 
 If you want to add or edit content on <http://mate-desktop.org> then please submit a
 [pull-request](https://help.github.com/articles/using-pull-requests).
@@ -30,6 +30,7 @@ website is to:
     slug: template-markdown
     author: Webmaster
 
+  * The meta data fields are:
     * `link` is optional but should include the URL to the original article if there is one.
     * `description` is optional an should brefily describe the post.
     * `tags` any tags that are relevant. You **must include the `draft` tag**
