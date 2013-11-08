@@ -3,7 +3,7 @@
 .. tags: draft
 .. date: 2099/12/31 23:59:59
 .. title: reStructured Text template
-.. slug: 2099-12-31-template
+.. slug: 2099-12-31-restructure-test-template
 .. author: Webmaster
 
 Write your post here, making sure you submit your pull-request with the
