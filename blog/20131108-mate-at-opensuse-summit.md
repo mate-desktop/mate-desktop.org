@@ -16,3 +16,7 @@ at [openSUSE Summit 2013](http://summit.opensuse.org/) in Orlando, Florida,
 on Sunday, November 17 at 10:15.
 
 The talk will be available at [this page](https://conference.opensuse.org/osem/conference/summit13/proposal/150).
+
+<div class="alert alert-success">
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2074" class="alert-link">Comments</a>
+</div>
