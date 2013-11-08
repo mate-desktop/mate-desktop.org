@@ -34,6 +34,21 @@ Contributing a new blog post to the mate-desktop.org website is simple.
 If you prefer ReStructuredText to Markdown, then follow the same process
 as above but use `blog/20991231rest-template.rst` template file.
 
+### Embedding images
+
+Markdown and reStructured Test both have markup for embedding images. To embed
+an image just drop your correctly resized image into `files/assets/img/blog/`
+and then link to it.
+
+#### Markdown image example
+
+    ![MATE](/files/assets/mate-128.png)
+
+#### reStructured Text image example
+
+    .. image:: /files/assets/mate-128.png
+        :align: center
+
 ### Submitting posts for future publication
 
 The `date` field in the meta data also controls when a post will be published. 
@@ -41,14 +56,14 @@ If you have created a post that should be published at a specific date or time
 the set the date/time accordingly and that post will not be published until that
 time.
 
-The mate-desktop.org is redeployed every 10 minutes, so the actual publication
-will be accurate to the nearest 10 minutes.
+The mate-desktop.org website is redeployed every 10 minutes, so the actual
+publication time will be accurate to the nearest 10 minutes.
 
 ### Preventing a post from being published
 
 If you have a post your are working on but do not wish to publish just add
-*draft* to the list of `tags` in the meta data. Posts tagged as *draft* will not
-be published.
+**draft** to the list of `tags` in the meta data. Posts tagged as *draft* will
+not be published.
 
 ## Contributing a translation
 
