@@ -28,6 +28,7 @@ Nouveautés
 ----------
 
 .. post-list::
+    :lang: it
     :stop: 5
 
 Les billets de blog sont aussi indexés par des `étiquettes <tags/>`_ et `archivés par date <archive/>`_.
