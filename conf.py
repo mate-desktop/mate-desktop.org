@@ -54,7 +54,11 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
+    "de": "./de",
+    "es": "./es",
+    "fr": "./fr",
     "it": "./it",
+    "nl": "./nl",
 }
 
 # Links for the sidebar / navigation bar.
@@ -69,6 +73,33 @@ NAVIGATION_LINKS = {
 		('/team/', 'Team'),
 		('/donate/', 'Donate'),
     ),
+    "de": (
+		('/de/blog/', 'Blog'),
+		('/de/install/', 'Installation'),
+		('/de/gallery/1.6/', 'Screenshots'),
+		('/de/development/', 'Entwicklung'),
+		('/de/community/', 'Community'),
+		('/de/team/', 'Team'),
+		('/de/donate/', 'Spenden'),
+    ),
+    "es": (
+		('/es/blog/', 'Blog'),
+		('/es/install/', 'Instalar'),
+		('/es/gallery/1.6/', 'Imágenes'),
+		('/es/development/', 'Desarrollo'),
+		('/es/community/', 'Comunidad'),
+		('/es/team/', 'Team'),
+		('/es/donate/', 'Donar'),
+    ),    
+    "fr": (
+		('/fr/blog/', 'Blog'),
+		('/fr/install/', 'Installez'),
+		('/fr/gallery/1.6/', 'Screenshots'),
+		('/fr/development/', 'Développement'),
+		('/fr/community/', 'Communauté'),
+		('/fr/team/', 'Team'),
+		('/fr/donate/', 'Donner'),
+    ),        
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
@@ -78,6 +109,15 @@ NAVIGATION_LINKS = {
 		('/it/team/', 'Team'),
 		('/it/donate/', 'Donazioni'),
     ),
+    "nl": (
+		('/nl/blog/', 'Blog'),
+		('/nl/install/', 'Installatie'),
+		('/nl/gallery/1.6/', 'Screenshots'),
+		('/nl/development/', 'Ontwikkeling'),
+		('/nl/community/', 'Community'),
+		('/nl/team/', 'Team'),
+		('/nl/donate/', 'Doneren'),
+    ),       
 }
 
 # Below this point, everything is optional
