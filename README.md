@@ -37,16 +37,17 @@ as above but use `blog/20991231rest-template.rst` template file.
 ### Embedding images
 
 Markdown and reStructured Test both have markup for embedding images. To embed
-an image just drop your correctly resized image into `files/assets/img/blog/`
-and then link to it.
+an image just drop your correctly sized image into the `files/assets/img/blog/`
+directory and then link to it. When linking to an image assets you drop the
+`'files` prefix from the Markdown and reStructured Text markup.
 
 #### Markdown image example
 
-    ![MATE](/files/assets/mate-128.png)
+    ![MATE](/assets/mate-128.png)
 
 #### reStructured Text image example
 
-    .. image:: /files/assets/mate-128.png
+    .. image:: /assets/mate-128.png
         :align: center
 
 ### Submitting posts for future publication
