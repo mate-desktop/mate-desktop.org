@@ -14,7 +14,7 @@ Contributing a new blog post to the mate-desktop.org website is simple.
 
   * [Fork](https://help.github.com/articles/fork-a-repo) this repository.
   
-  * Copy `blog/20991231template.md` to a new file, for example:
+  * Copy `blog/20991231markdown-template.md` to a new file, for example:
 
     cp blog/20991231template-markdown.md blog/20131107my-cool-blog-post.md
 
@@ -32,7 +32,7 @@ Contributing a new blog post to the mate-desktop.org website is simple.
   publish it if it is suitable.
 
 If you prefer ReStructuredText to Markdown, then follow the same process
-as above but use `blog/20991231template.rst` template file.
+as above but use `blog/20991231rest-template.rst` template file.
 
 ### Submitting posts for future publication
 
