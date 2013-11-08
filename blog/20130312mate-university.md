@@ -8,7 +8,7 @@
 .. author: Stefano Karapetsas
 -->
 
-![c-file](/wp-content/uploads/2013/03/c-file.png)
+![c-file](/assets/img/blog/c-file.png)
 
 We're proud to announce our newest package on GitHub:
 

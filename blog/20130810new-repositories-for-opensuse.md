@@ -8,7 +8,7 @@
 .. author: Stefano Karapetsas
 -->
 
-![openSUSE](/wp-content/uploads/2013/08/MATE_opensuse_black-150x150.png)
+![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png)
 
 On the way to getting MATE officially available on [openSUSE](http://www.opensuse.org),
 the community repositories have to be changed in YaST. For that,

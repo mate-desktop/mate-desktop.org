@@ -24,7 +24,10 @@ A big thanks to:
   * [Vangelis Mouhtsis](http://gnugr-blog.info/)
   * [Kees Cook](http://outflux.net/)
 
-If you want to join the team, please reach the members on IRC at #debian-mate @ freenode.
+
+If you want to join the team, please reach the members on IRC in the
+[#debian-mate](https://webchat.freenode.net/?channels=#debian-mate) channel @
+freenode.
 
 <div class="alert alert-success">
 <strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2075" class="alert-link">Comments</a>

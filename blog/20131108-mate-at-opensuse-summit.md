@@ -8,7 +8,7 @@
 .. author: Stefano Karapetsas
 -->
 
-![openSUSE](/wp-content/uploads/2013/08/MATE_opensuse_black-150x150.png) ![Summit](/opensuse-summit.png)
+![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png) ![Summit](/assets/img/blog/opensuse-summit.png)
 
 Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show [openSUSE MATE](http://en.opensuse.org/Portal:MATE)

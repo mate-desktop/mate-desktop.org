@@ -13,7 +13,7 @@ huge step forward since the 1.0 and 1.1 development releases. MATE is more
 stable than ever and it includes support for many more applications, applets
 and backends. 
 
-![](/wp-content/uploads/2012/04/mate-about-1.2.0-300x207.png)
+![MATE 1.2](/assets/img/blog/about-mate-1.2.png)
 
 Here are the main changes and improvements in this release:
 

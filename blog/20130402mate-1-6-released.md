@@ -14,7 +14,7 @@ many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
 every MATE contributor and user.
 
-![about](/screens/about.png)
+![about](/assets/img/blog/about-mate-1.6.png)
 
 Main changes in 1.6 are:
 

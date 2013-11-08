@@ -78,7 +78,7 @@ conflicts with GNOME components.
 Caja
 ====
 
-.. image:: /wp-content/uploads/2011/12/file-manager.png
+.. image:: /assets/img/mate/caja.png
 
 Caja is the official file manager for the MATE desktop. It allows to 
 browse directories, preview files and launch applications 
@@ -89,7 +89,7 @@ is a fork of Nautilus.
 Pluma
 =====
 
-.. image:: /wp-content/uploads/2011/12/accessories-text-editor.png
+.. image:: /assets/img/mate/pluma.png
 
 Pluma is a text editor which supports most standard editor 
 features, extending this basic functionality with other features 
@@ -104,7 +104,7 @@ support. Pluma is a fork of Gedit.
 Eye of MATE
 ===========
 
-.. image:: /wp-content/uploads/2011/12/eom.png
+.. image:: /assets/img/mate/eom.png
 
 eom or the Eye of MATE is a simple graphics viewer for the MATE 
 desktop which uses the gdk-pixbuf library. It can deal with large 
@@ -115,7 +115,7 @@ Eye of GNOME.
 Atril
 =====
 
-.. image:: /wp-content/uploads/2011/12/atril.png
+.. image:: /assets/img/mate/atril.png
 
 Atril is a simple multi-page document viewer. It can display and 
 print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, 
@@ -127,7 +127,7 @@ Atril is a fork of Evince.
 Engrampa
 ========
 
-.. image:: /wp-content/uploads/2011/12/engrampa.png
+.. image:: /assets/img/mate/engrampa.png
 
 
 Engrampa is an archive manager for the MATE environment. It allows
@@ -138,7 +138,7 @@ Engrampa is a fork of File-Roller.
 MATE Terminal
 =============
 
-.. image:: /wp-content/uploads/2011/12/gnome-terminal.png
+.. image:: /assets/img/mate/terminal.png
 
 MATE Terminal is a terminal emulation application that you can use to perform the 
 following actions: access a UNIX shell in the MATE environment, run 
