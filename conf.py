@@ -59,6 +59,7 @@ TRANSLATIONS = {
     "fr": "./fr",
     "it": "./it",
     "nl": "./nl",
+    "tr_tr": "./tr_tr",    
 }
 
 # Links for the sidebar / navigation bar.
@@ -117,6 +118,15 @@ NAVIGATION_LINKS = {
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
 		('/nl/donate/', 'Doneren'),
+    ),       
+    "tr_tr": (
+		('/tr_tr/blog/', 'Blog'),
+		('/tr_tr/install/', 'Kurulum'),
+		('/tr_tr/gallery/1.6/', 'Screenshots'),
+		('/tr_tr/development/', 'Geliştirme'),
+		('/tr_tr/community/', 'Topluluk'),
+		('/tr_tr/team/', 'Ekip'),
+		('/tr_tr/donate/', 'Bağış'),
     ),       
 }
 
