@@ -59,7 +59,7 @@ mais l'inclusion dans leurs dépôts officiels est prévue :
 * `Slackware <http://www.slackware.com>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 
-Peut-être préférez-vous \*BSD?
+Peut-être préférez-vous \*BSD ?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
@@ -67,14 +67,14 @@ Peut-être préférez-vous \*BSD?
 Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La communauté MATE a documenté la façon d'installer mATE sur de nombreuses
-distributions dans les `notes d'installations <http://wiki.mate-desktop.org/download>`_.
+distributions dans les `notes d'installation <http://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applications
 ------------
 
 MATE est composé d'un certain nombre d'applications. Le renommage est
-nécessaire pour éviter avec les composants de GNOME.
+nécessaire pour éviter les conflits avec les composants de GNOME.
 
 Caja
 ====

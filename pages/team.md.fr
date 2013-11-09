@@ -10,7 +10,7 @@
 MATE est publié par un groupe international de développeurs, traducteurs,
 empaqueteurs, artistes et d'administrateurs système.
 
-## Foundateurs
+## Fondateurs
 
 L'environnement de bureau MATE a été fondé par les personnes suivantes :
 
