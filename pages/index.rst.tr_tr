@@ -6,7 +6,7 @@
 .. slug: index
 .. pretty_url: False
 
-MATE GNOME 2 çatallamasıdır. Klasik metaforları kullanarak GNU/Linux ve
+MATE, GNOME 2 çatallamasıdır. Klasik metaforları kullanarak GNU/Linux ve
 diğer UNIX benzeri işletim sistemlerine sezgisel ve çekici bir masaüstü
 ortamı sağlar.
 
@@ -15,7 +15,7 @@ desteklenmesi için etkin bir şekilde geliştirilmektedir. MATE'nin
 nasıl geliştiği ve gelecekte nelerin beklediğini öğrenmek için
 `yol haritasına <http://wiki.mate-desktop.org/roadmap>`_ ya da
 `Stefano'nun OpenSUSE konferansındaki sunumuna </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
-bakınız. `MATE anifestosu <http://wiki.mate-desktop.org/board:manifesto>`_
+bakınız. `MATE manifestosu <http://wiki.mate-desktop.org/board:manifesto>`_
 projeye rehberlik eden bazı ilkelerin altını çizer.
 
 .. image:: /screens/screenshot.jpg
