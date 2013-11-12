@@ -84,25 +84,25 @@ following:
   * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
   and one of the website maintainers will review your submission.
 
-Currently supported languages are:
+Nikola supported languages are, the one in bold are already in the site navigation::
 
   * `bg`     Bulgarian
   * `ca`     Catalan
-  * `de`     German
-  * `el`     Greek [NOT gr!]
-  * `en`     English
+  * `de`     **German**
+  * `el`     Greek
+  * `en`     **English**
   * `eo`     Esperanto
-  * `es`     Spanish
+  * `es`     **Spanish**
   * `fa`     Persian
-  * `fr`     French
+  * `fr`     **French**
   * `hr`     Croatian
-  * `it`     Italian
+  * `it`     **Italian**
   * `jp`     Japanese
-  * `nl`     Dutch
+  * `nl`     **Dutch**
   * `pt_br`  Portuguese (Brasil)
   * `pl`     Polish
   * `ru`     Russian
-  * `tr_tr`  Turkish (Turkey)
+  * `tr_tr`  **Turkish** (Turkey)
   * `zh_cn`  Chinese (Simplified)
 
 ## Markdown vs. ReStructured Text
