@@ -34,6 +34,17 @@ Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_
 You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
 to see what the wider MATE community are blogging about.
 
+-------------------
+Support Linux Voice
+-------------------
+
+.. image:: /assets/img/blog/LinuxVoice-header.png
+    :align: center
+    :target: http://www.indiegogo.com/projects/linux-voice
+
+The MATE team encourages you to head over to `Linux Voice on indiegogo <http://www.indiegogo.com/projects/linux-voice>`_
+and find out why you, as an Open Source user and enthusiast, should back their project.
+
 ---------------------------------
 Which distributions support MATE?
 ---------------------------------
