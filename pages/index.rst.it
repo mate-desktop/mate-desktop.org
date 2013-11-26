@@ -62,6 +62,7 @@ Maybe you prefer \*BSD?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
+* `FreeBSD <http://freebsd.org>`_
 
 You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
