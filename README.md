@@ -6,7 +6,7 @@ content for <http://mate-desktop.org>.
 # Contributing content
 
 If you want to add or edit content on <http://mate-desktop.org>, please submit
-a [pull-request](https://help.github.com/articles/using-pull-requests).
+a [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Contributing a new post
 
@@ -27,7 +27,7 @@ Contributing a new blog post to the mate-desktop.org website is simple.
     * `slug` is how the post name will be represented in the URL. **Make sure you modify the ``date`` prefix**.
     * `author` is your full name.
 
-  * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request) and one of the website maintainers will review your submission and publish it if it is suitable.
+  * Commit your changes, [submit a pull request](https://help.github.com/articles/creating-a-pull-request) and one of the website maintainers will review your submission and publish it if it is suitable.
 
 If you prefer ReStructuredText to Markdown, then follow the same process as
 above, but use `blog/20991231rest-template.rst` as the template file.
@@ -80,7 +80,7 @@ the following:
 
   * Translate the metadata as well as the content. However, **do not change the date format**.
 
-  * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
+  * Commit your changes, [submit a pull request](https://help.github.com/articles/creating-a-pull-request)
   and one of the website maintainers will review your submission.
 
 Nikola supported languages are, the one in bold are already in the site navigation::
