@@ -5,8 +5,8 @@ content for <http://mate-desktop.org>.
 
 # Contributing content
 
-If you want to add or edit content on <http://mate-desktop.org> then please
-submit a [pull-request](https://help.github.com/articles/using-pull-requests).
+If you want to add or edit content on <http://mate-desktop.org>, please submit
+a [pull-request](https://help.github.com/articles/using-pull-requests).
 
 ## Contributing a new post
 
@@ -14,32 +14,31 @@ Contributing a new blog post to the mate-desktop.org website is simple.
 
   * [Fork](https://help.github.com/articles/fork-a-repo) this repository.
   
-  * Copy `blog/20991231markdown-template.md` to a new file, for example:
+  * Copy `blog/20991231markdown-template.md` to a new file. For example:
 
     cp blog/20991231template-markdown.md blog/20131107my-cool-blog-post.md
 
-  * Edit your new file making sure to change the meta data in the file header. The meta data fields are:
-    * `link` is optional but should include the URL to the original article if there is one.
-    * `description` is optional an should brefily describe the post.
-    * `tags` any tags that are relevant. You **must include the `draft` tag**
+  * Edit your new file, making sure to change the metadata in the file header. The following are valid metadata fields and what they do. 
+    * `link` is optional, but should include the URL to the original article if there is one.
+    * `description` is optional, and should briefly describe the post.
+    * `tags` are any tags that are relevant. **You must include the `draft` tag.**
     * `date` is the intended publication date of the post in the format YYYY/MM/DD HH:MML:SS
     * `title` is the post title
-    * `slug` is how the post name will be represented in the URL. Mark sure you **modify date the date prefix**.
+    * `slug` is how the post name will be represented in the URL. **Make sure you modify the ``date`` prefix**.
     * `author` is your full name.
 
-  * Commit you changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
-  and one of the website maintainers will review your submission and
-  publish it if it is suitable.
+  * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request) and one of the website maintainers will review your submission and publish it if it is suitable.
 
-If you prefer ReStructuredText to Markdown, then follow the same process
-as above but use `blog/20991231rest-template.rst` template file.
+If you prefer ReStructuredText to Markdown, then follow the same process as
+above, but use `blog/20991231rest-template.rst` as the template file.
 
 ### Embedding images
 
 Markdown and reStructured Test both have markup for embedding images. To embed
-an image just drop your correctly sized image into the `files/assets/img/blog/`
-directory and then link to it. When linking to an image assets you drop the
-`'files` prefix from the Markdown and reStructured Text markup.
+an image, just drop your correctly sized image into the
+`files/assets/img/blog/` directory and then link to it. When linking to an
+image assets you drop the `'files` prefix from the Markdown and reStructured
+Text markup.
 
 #### Markdown image example
 
@@ -52,9 +51,9 @@ directory and then link to it. When linking to an image assets you drop the
 
 ### Submitting posts for future publication
 
-The `date` field in the meta data also controls when a post will be published. 
-If you have created a post that should be published at a specific date or time 
-the set the date/time accordingly and that post will not be published until that
+The `date` field in the metadata also controls when a post will be published.
+If you have created a post that should be published at a specific date or time,
+set the date/time accordingly and that post will not be published until that
 time.
 
 The mate-desktop.org website is redeployed every 10 minutes, so the actual
@@ -62,14 +61,14 @@ publication time will be accurate to the nearest 10 minutes.
 
 ### Preventing a post from being published
 
-If you have a post your are working on but do not wish to publish just add
+If you have a post you are working on but do not wish to publish, just add
 **draft** to the list of `tags` in the meta data. Posts tagged as *draft* will
 not be published.
 
 ## Contributing a translation
 
-To contribute a translated page or blog post the mate-desktop.org website do the
-following:
+To contribute a translated page or blog post to the mate-desktop.org website do
+the following:
 
   * [Fork](https://help.github.com/articles/fork-a-repo) this repository.
 
@@ -79,7 +78,7 @@ following:
 
     cp pages/index.md pages/index.md.de
 
-  * Translate the meta data as well as the content. However, **do not change the date format**.
+  * Translate the metadata as well as the content. However, **do not change the date format**.
 
   * Commit your changes, [submit a pull-request](https://help.github.com/articles/creating-a-pull-request)
   and one of the website maintainers will review your submission.
@@ -107,16 +106,16 @@ Nikola supported languages are, the one in bold are already in the site navigati
 
 ## Markdown vs. ReStructured Text
 
-mate-desktop.org converts Markdown or reStructured Text into HTML. In general we
-recommend Markdown, but some of the Nikola advanced features are only exposed
-via reStructured Text extension.
+mate-desktop.org converts Markdown or reStructured Text into HTML. In general
+we recommend Markdown, but some of the Nikola advanced features are only
+exposed via reStructured Text extension.
 
 ### Markdown
 
-Nikola follows the [syntax rules](http://daringfireball.net/projects/markdown/syntax)
-of the original `markdown.pl` with the following
-[extensions](http://pythonhosted.org/Markdown/extensions/index.html)
-enabled:
+Nikola follows the [syntax
+rules](http://daringfireball.net/projects/markdown/syntax) of the original
+`markdown.pl` with the following
+[extensions](http://pythonhosted.org/Markdown/extensions/index.html) enabled:
 
   * `extra`
   * `codehilite`
@@ -129,8 +128,8 @@ the [reStructured Text extensions](http://getnikola.com/handbook.html#restructur
 
 # The migration
 
-For the benefit of the MATE developers and admins, here is a run down of how
-the Wordpress site was migrated to Nikola.
+For the benefit of the MATE developers and admins, here is a rundown of how the
+WordPress site was migrated to Nikola.
 
 ## Python 2.7
 
@@ -160,9 +159,9 @@ The following are required to build `python-coveralls`.
 
 ### virtualenv
 
-[`virtualenv`](http://www.virtualenv.org/en/latest/) is used to create a sandboxed Python
-environments, so you don't pollute the system Python. This is how a the `virtualenv` for
-Nikola was created.
+[`virtualenv`](http://www.virtualenv.org/en/latest/) is used to create
+sandboxed Python environments, so you don't pollute the system Python. This is
+how the `virtualenv` for Nikola was created.
 
     cd ~
     curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.10.1.tar.gz
@@ -198,9 +197,9 @@ Actually install nikola.
 
     python setup.py install
 
-## Migrate Wordpress to Nikola
+## Migrate WordPress to Nikola
 
-Export the Wordpress content.
+Export the WordPress content.
 
   * `Tools -> Export -> All Content`
 
@@ -230,8 +229,9 @@ Install [html2text](https://github.com/aaronsw/html2text).
 
     pip install https://github.com/aaronsw/html2text/archive/master.zip
 
-Convert the Wordpress `.wp` faux HTML files to [Markdown](http://daringfireball.net/projects/markdown/)
-and correct the image links.
+Convert the WordPress `.wp` faux HTML files to
+[Markdown](http://daringfireball.net/projects/markdown/) and correct the image
+links.
 
     cd ~/Websites/mate-desktop.org/posts
     for FILE in *.wp; do html2text ${FILE} > `basename ${FILE} .wp`.md; done
@@ -242,22 +242,21 @@ and correct the image links.
     for FILE in *.md; do sed -i 's/\/martin\/Migration//g' ${FILE}; done
     rm *.wp
 
-The meta data and content were merged using `scripts/merge_meta.sh`.
+The metadata and content were merged using `scripts/merge_meta.sh`.
 
 # The clean up
 
-At this point you have a basic Nikola site that preserves all the 
-content (but not the comments) from the Wordpress site. Now the
-hacking begins...
+At this point you have a basic Nikola site that preserves all the content (but
+not the comments) from the WordPress site. Now the hacking begins.
 
 # Building and deploying the site
 
-When the site cleanup is complete, Nikola will be integrated with
-Git so that any new pushes to the mate-desktop.org Git repository
-will automatically trigger a Nikola build and deploy.
+When the site cleanup is complete, Nikola will be integrated with Git so that
+any new pushes to the mate-desktop.org Git repository will automatically
+trigger a Nikola build and deploy.
 
-In the meantime, here is how Nikola can be run manually. This
-assumes you are running as me on the server however.
+In the meantime, here is how Nikola can be run manually. This assumes you are
+running as me on the server, however.
 
     source ~/PythonEnvs/nikola-621/bin/activate
     cd ~/Websites/mate-desktop.org
@@ -266,7 +265,7 @@ assumes you are running as me on the server however.
 
 # TODO
 
-  * Add more text the homepage.
+  * Add more text to the homepage.
     * Floating MATE logo
     * All the applications, with improved layout.
   * Integrate SocialSharePrivacy
