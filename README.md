@@ -62,7 +62,7 @@ publication time will be accurate to the nearest 10 minutes.
 ### Preventing a post from being published
 
 If you have a post you are working on but do not wish to publish, just add
-**draft** to the list of `tags` in the meta data. Posts tagged as *draft* will
+**draft** to the list of `tags` in the metadata. Posts tagged as *draft* will
 not be published.
 
 ## Contributing a translation
