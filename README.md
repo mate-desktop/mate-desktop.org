@@ -18,7 +18,7 @@ Contributing a new blog post to the mate-desktop.org website is simple.
 
     cp blog/20991231template-markdown.md blog/20131107my-cool-blog-post.md
 
-  * Edit your new file, making sure to change the metadata in the file header. The following are valid metadata fields and what they do. 
+  * Edit your new file, making sure to change the metadata in the file header. The following are valid metadata fields and what they're for. 
     * `link` is optional, but should include the URL to the original article if there is one.
     * `description` is optional, and should briefly describe the post.
     * `tags` are any tags that are relevant. **You must include the `draft` tag.**
