@@ -34,17 +34,6 @@ Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_
 You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
 to see what the wider MATE community are blogging about.
 
--------------------
-Support Linux Voice
--------------------
-
-.. image:: /assets/img/blog/LinuxVoice-header.png
-    :align: center
-    :target: http://www.indiegogo.com/projects/linux-voice
-
-The MATE team encourages you to head over to `Linux Voice on indiegogo <http://www.indiegogo.com/projects/linux-voice>`_
-and find out why you, as an Open Source user and enthusiast, should back their project.
-
 ---------------------------------
 Which distributions support MATE?
 ---------------------------------
@@ -54,6 +43,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Fedora <http://www.fedoraproject.org>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
+* `openSUSE <http://www.opensuse.org>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `Point Linux <http://pointlinux.org>`_
 * `Sabayon <http://www.sabayon.org>`_
@@ -65,7 +55,6 @@ inclusion in their official repositories is planned:
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
 * `Gentoo <http://www.gentoo.org>`_
-* `openSUSE <http://www.opensuse.org>`_
 * `Slackware <http://www.slackware.com>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 
