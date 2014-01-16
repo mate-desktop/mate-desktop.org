@@ -42,6 +42,7 @@ Hangi dağıtımlar MATE'yi destekler?
 
 MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttur.
 
+* `Arch Linux <http://www.archlinux.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
@@ -54,7 +55,6 @@ MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttu
 MATE, aşağıdaki GNU/Linux dağıtımlarını için *gayri resmî* depolarda mevcuttur
 ancak bu dağıtımların resmî depolarına eklenmesi planlanmaktadır.
 
-* `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
 * `Gentoo <http://www.gentoo.org>`_
 * `Slackware <http://www.slackware.com>`_
