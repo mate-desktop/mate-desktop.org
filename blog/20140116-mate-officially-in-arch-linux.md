@@ -28,11 +28,11 @@ So go and update `/etc/pacman.conf` and remove the `[mate]` package
 repository.
 
 The other advantage of getting MATE into the official Arch Linux package
-repository is that MATE will also features in the [Arch Linux ARM](http://archlinuxarm.org/)
-package repository. I can finally retire my Raspberry Pi and Cubox Pro
-build *"servers"*. I'm not sure how long it will take for all the MATE
-packages to appear in the Arch Linux ARM package repositories but I have
-already seen some packages are built.
+repository is that MATE will now also feature in the [Arch Linux ARM](http://archlinuxarm.org/)
+package repository. I can finally retire my Raspberry Pi (armv6h) and
+Cubox Pro (armv7h) build *"servers"*. I'm not sure how long it will take
+for all the MATE packages to appear in the Arch Linux ARM package
+repository but I have already seen that some packages are built.
 
 MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
 you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
