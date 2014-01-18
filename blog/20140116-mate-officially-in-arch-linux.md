@@ -11,7 +11,7 @@
 MATE has finally found it's way home.
 
 As some of you may know MATE was created by an [Arch Linux](http://www.archlinux.org)
-user, Perberos. It is somewhat ironic that then MATE has never featured
+user, Perberos. It is somewhat ironic then that MATE has never featured
 in the official Arch Linux package repository until now. That's right,
 MATE is finally available in the Arch Linux `[community]` package
 repository!
