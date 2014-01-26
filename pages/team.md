@@ -81,6 +81,10 @@ Artwork & graphics, systems administration.
 
 Social media, promotion.
 
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+Packaging for openSUSE.
+
 ## Forum Moderators
 
 The dedicated team of forum moderators can be found below:

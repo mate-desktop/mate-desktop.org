@@ -81,6 +81,10 @@ Graphiques et travail artistique, administration système.
 
 Réseaux sociaux, promotion.
 
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+Empaquetage pour openSUSE.
+
 ## Modérateurs des forums
 
 La liste des modérateurs des forums peut être trouvée ci-dessous :
