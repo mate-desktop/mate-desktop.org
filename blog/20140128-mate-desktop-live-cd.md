@@ -70,9 +70,27 @@ We have bundled the following Creative Commons licensed content.
   * Nine in Nails Ghosts I - IV album   - To listen to with Xnoise
   * Nine in Nails Ghosts I - IV photos  - To view with Eye of MATE
 
+Changing language
+=================
+
+Be default the Live CD is configured to use the `en_US` locale but if you
+want to activate another language here is how to do it. In the example below,
+we will enable Italian.
+
+Edit `/etc/locale.gen` an uncomment your locale, in this case `it_IT.UTF-8 UTF-8`
+and rebuild the locales.
+
+    sudo locale-gen
+
+Edit `/etc/locale.conf` and change the `LANG=` to reflect your locale, in
+this case `LANG=it_IT.UTF-8`. Finally restart the display manager and you
+will be logged back into a MATE session using your prefered language.
+
+    sudo systemctl restart lightdm
+
 We hope you give the Live CD a test drive and enjoy the speed and simplicity
-the MATE Desktop provides. Once you've take the MATE Desktop Live CD for a
-spin let us know what you think in the comments or use the Live CD joins us
+the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a
+spin let us know what you think in the comments or use the Live CD to join us
 in the [#mate IRC channel](https://webchat.freenode.net/?channels=#mate).
 
 <div class="alert alert-success">
