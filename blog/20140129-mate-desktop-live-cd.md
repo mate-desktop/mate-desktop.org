@@ -35,10 +35,10 @@ checksum.
 ## Compatibility
 
 The Live CD is built using [Arch Linux](http://www.archlinux.org) and MATE 
-1.6. The Live CD 32-bit so should work on any i686 or x86_64 computer and we 
-recommend at least 512MB RAM. Xorg drivers are included for Intel (`i915`), 
-AMD/ATI (`radeon`) and nvidia (`nouveau`) with a fall back to VESA. Drivers 
-for Virtual Box and VMware are also included so that evaluation via these 
+1.6. The Live CD 32-bit so should work on any i686 or x86_64 computer with at 
+least 512MB RAM. Xorg drivers are included for Intel (`i915`), AMD/ATI 
+(`radeon`) and nvidia (`nouveau`) with a fall back to VESA. Drivers for 
+Virtual Box and VMware are also included so that evaluation via these 
 virtualization solutions is simple.
 
 All common file systems, including [ZFS](http://open-zfs.org), are supported 
