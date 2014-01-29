@@ -1,7 +1,7 @@
 <!-- 
 .. link: 
 .. description: 
-.. tags: Arch Linux,News,draft
+.. tags: LiveCD,Arch Linux,News,draft
 .. date: 2014/01/29 18:19:40
 .. title: MATE desktop Live CD
 .. slug: 2014-01-29-mate-desktop-live-cd
@@ -10,10 +10,10 @@
 
 We've made a Live CD that boots into a full MATE desktop.
 
-We created this Live CD so that potential new users can evaluate the MATE
-desktop in a non-destructive fashion. The image can be burned to a DVD, mounted
-as an ISO file, or be directly written to a USB stick using a utility like
-`dd`. You can download it below:
+This Live CD was created so that potential new users can evaluate the MATE 
+desktop in a non-destructive fashion. The image can be burned to a DVD, 
+mounted as an ISO file, or be directly written to a USB stick using a utility 
+like `dd`. You can download it below:
 
 ### BitTorrent download (recommended)
 
@@ -25,20 +25,21 @@ recommended for fastest download speeds.*
 
 ### HTTP direct download
 
-In addition to the BitTorrent link above, Live CD images can also be downloaded
-via HTTP. Please ensure the downloaded file matches the SHA1 checksum.
+In addition to the BitTorrent link above, Live CD images can also be 
+downloaded via HTTP. Please ensure the downloaded file matches the SHA1 
+checksum.
 
   * [matelivecd-2014.01.29.iso](http://repo.mate-desktop.org/livecd/matelivecd-2014.01.29.iso) [ ~888MB ]
-    * SHA1: `???`
+    * SHA1: `a8f675f2eb1bf48d6f120b0031c5f02a6df25160`
 
 ## Compatibility
 
-The Live CD is built using [Arch Linux](http://www.archlinux.org) and MATE 1.6.
-The Live CD 32-bit so should work on any i686 or x86_64 computer and we recommend
-at least 512MB RAM. Xorg drivers are included for Intel (`i915`), AMD/ATI
-(`radeon`) and nvidia (`nouveau`) with a fall back to VESA. Drivers for Virtual
-Box and VMware are also included so that evaluation via these virtualization
-solutions is simple.
+The Live CD is built using [Arch Linux](http://www.archlinux.org) and MATE 
+1.6. The Live CD 32-bit so should work on any i686 or x86_64 computer and we 
+recommend at least 512MB RAM. Xorg drivers are included for Intel (`i915`), 
+AMD/ATI (`radeon`) and nvidia (`nouveau`) with a fall back to VESA. Drivers 
+for Virtual Box and VMware are also included so that evaluation via these 
+virtualization solutions is simple.
 
 All common file systems, including [ZFS](http://open-zfs.org), are supported 
 and some data recovery and backup tools are included. If you plug in your 
