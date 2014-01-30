@@ -1,10 +1,10 @@
 <!-- 
 .. link: 
 .. description: 
-.. tags: LiveCD,Arch Linux,News,draft
-.. date: 2014/01/29 18:19:40
+.. tags: LiveCD,Arch Linux,News
+.. date: 2014/01/30 00:17:32
 .. title: MATE desktop Live CD
-.. slug: 2014-01-29-mate-desktop-live-cd
+.. slug: 2014-01-30-mate-desktop-live-cd
 .. author: Martin Wimpress
 -->
 
@@ -21,25 +21,25 @@ If you can spare the bytes, please leave the client open after your download
 is finished, so you can seed it back to others. *A web-seed capable client is 
 recommended for fastest download speeds.*
 
-  * [matelivecd-2014.01.29.iso.torrent](http://repo.mate-desktop.org/livecd/matelivecd-2014.01.29.iso.torrent)
+  * [matelivecd-14.029.2321.iso.torrent](http://repo.mate-desktop.org/livecd/matelivecd-14.029.2321.iso.torrent)
 
 ### HTTP direct download
 
-In addition to the BitTorrent link above, Live CD images can also be 
+In addition to the BitTorrent link above, Live CD .iso can also be 
 downloaded via HTTP. Please ensure the downloaded file matches the SHA1 
 checksum.
 
-  * [matelivecd-2014.01.29.iso](http://repo.mate-desktop.org/livecd/matelivecd-2014.01.29.iso) [ ~888MB ]
-    * SHA1: `a8f675f2eb1bf48d6f120b0031c5f02a6df25160`
+  * [matelivecd-14.029.2321.iso](http://repo.mate-desktop.org/livecd/matelivecd-14.029.2321.iso) [ ~889MB ]
+    * SHA1: `d925500e782d1821d1ebecbab4f81e8fa931fea3`
 
 ## Compatibility
 
 The Live CD is built using [Arch Linux](http://www.archlinux.org) and MATE 
-1.6. The Live CD 32-bit so should work on any i686 or x86_64 computer with at 
-least 512MB RAM. Xorg drivers are included for Intel (`i915`), AMD/ATI 
-(`radeon`) and nvidia (`nouveau`) with a fall back to VESA. Drivers for 
-Virtual Box and VMware are also included so that evaluation via these 
-virtualization solutions is simple.
+1.6. The Live CD is 32-bit so should work on any i686 or x86_64 computer
+with at least 512MB RAM. Xorg drivers are included for Intel (`i915`),
+AMD/ATI (`radeon`) and nvidia (`nouveau`) with a fall back to VESA.
+Drivers for Virtual Box and VMware are also included so that evaluation
+using these virtualization solutions is simple.
 
 All common file systems, including [ZFS](http://open-zfs.org), are supported 
 and some data recovery and backup tools are included. If you plug in your 
@@ -98,11 +98,13 @@ logged back into a MATE session using your prefered language.
 
     sudo systemctl restart lightdm
 
+## Feedback
+
 We hope you give the Live CD a test drive and enjoy the speed and simplicity 
 the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
 spin let us know what you think in the comments or use the Live CD to join us 
 in the [#mate IRC channel](https://webchat.freenode.net/?channels=#mate).
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=0000" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2917" class="alert-link">Comments</a>
 </div>
