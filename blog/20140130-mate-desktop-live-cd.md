@@ -64,14 +64,14 @@ The Live CD is primarily designed to showcase the MATE desktop, however we've
 included some additional applications that are not part of the MATE desktop in 
 order to make the LiveCD a little more useful and enjoyable.
 
-  * Firefox   - Standalone web browser from mozilla.org
-  * GParted   - A Partition Magic clone, frontend to GNU Parted
-  * HardInfo  - A system information and benchmark tool
-  * Hexchat   - IRC client configured to auto-connect to [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
-  * Orca      - Screen reader for individuals who are blind or visually impaired
-  * Pidgin    - Multi-protocol instant messaging client
-  * Truecrypt - Free open-source cross-platform disk encryption software
-  * Xnoise    - Media player with a slick GUI, great speed and lots of features
+  * [Firefox](https://www.mozilla.org/firefox/)   - Standalone web browser from mozilla.org
+  * [GParted](http://gparted.sourceforge.net)   - A Partition Magic clone, frontend to GNU Parted
+  * [HardInfo](http://hardinfo.berlios.de/wiki/index.php/Main_Page)  - A system information and benchmark tool
+  * [Hexchat](http://hexchat.github.io/)   - IRC client configured to auto-connect to [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
+  * [Orca](http://www.gnome.org/projects/orca)      - Screen reader for individuals who are blind or visually impaired
+  * [Pidgin](http://pidgin.im/)    - Multi-protocol instant messaging client
+  * [Truecrypt](http://www.truecrypt.org/) - Free open-source cross-platform disk encryption software
+  * [Xnoise](http://www.xnoise-media-player.com/)    - Media player with a slick GUI, great speed and lots of features
 
 ## Creative Commons content
 
