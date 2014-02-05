@@ -98,6 +98,22 @@ logged back into a MATE session using your prefered language.
 
     sudo systemctl restart lightdm
 
+## Linux Action Show Feature
+
+The MATE Desktop LiveCD and MATE itself we featured on the [Linux Action 
+Show](http://www.jupiterbroadcasting.com/show/linuxactionshow/) in the [CuBox 
+Linux Review](http://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/) 
+episode. Two clips are embedded below, the first a quick look at the MATE 
+Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.
+
+### MATE Desktop LiveCD
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=608" frameborder="0" allowfullscreen></iframe>
+
+### CuBox i4 Pro Review
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=1925" frameborder="0" allowfullscreen></iframe>
+
 ## Feedback
 
 We hope you give the Live CD a test drive and enjoy the speed and simplicity 
