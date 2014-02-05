@@ -27,5 +27,5 @@ weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you
 may find something that interests you.
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2917" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2925" class="alert-link">Comments</a>
 </div>
