@@ -63,7 +63,7 @@ Empaquetage pour Fedora.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Empaquetage pour Arch Linux, administration système.
+Empaquetage pour Arch Linux, administration système, MATE LiveCD maintainer.
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
 

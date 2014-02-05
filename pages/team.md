@@ -63,7 +63,7 @@ Packaging for Fedora.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Packaging for Arch Linux, systems administration.
+Packaging for Arch Linux, systems administration, MATE LiveCD maintainer.
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
 
