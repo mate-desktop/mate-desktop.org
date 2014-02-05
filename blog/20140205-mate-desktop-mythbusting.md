@@ -1,7 +1,7 @@
 <!-- 
-.. link: 
+.. link: http://www.jupiterbroadcasting.com/50947/mate-mythbusting-lup-26/
 .. description: 
-.. tags: News,draft
+.. tags: News
 .. date: 2014/02/05 00:17:32
 .. title: MATE Desktop Mythbusting
 .. slug: 2014-02-05-mate-desktop-mythbusting
