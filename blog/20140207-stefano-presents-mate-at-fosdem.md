@@ -22,5 +22,5 @@ projects that benefit from MATE such as [Sonar](http://sonar-project.org),
 <iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen></iframe>
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2925" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2928" class="alert-link">Comments</a>
 </div>
