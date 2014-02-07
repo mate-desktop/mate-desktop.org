@@ -12,7 +12,7 @@ operating systems.
 
 MATE is under active development to add support for new technologies while
 preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
-`Stefano's presentation at the OpenSUSE conference </blog/2013-07-21-stefano-presents-at-opensuse-conference/>`_
+`Stefano's presentation at FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
 to find out more about how MATE has evolved and what is planned for the
 future. The `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_
 outlines some of the principles that guide the project.
