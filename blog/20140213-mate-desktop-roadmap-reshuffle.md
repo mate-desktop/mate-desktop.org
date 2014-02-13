@@ -22,7 +22,7 @@ wiki:
 
 This decision was made because the current development version of MATE is stable,
 incorporates many new features, improvements and bug fixes. We want to get all
-that *"good stuff" &#0153;* out to our users so they can benefit from the
+that *"good stuff"* &trade; out to our users so they can benefit from the
 advancements we've made sooner.
 
 You can read the original mailing post and follow-up comments below:
