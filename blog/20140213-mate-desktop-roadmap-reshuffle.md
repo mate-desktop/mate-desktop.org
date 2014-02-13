@@ -1,7 +1,7 @@
 <!-- 
 .. link: http://ml.mate-desktop.org/pipermail/mate-dev/2014-February/000228.html
 .. description: 
-.. tags: News,draft
+.. tags: News
 .. date: 2014/02/13 06:43:12
 .. title: MATE Desktop Roadmap Reshuffle
 .. slug: 2014-02-13-mate-desktop-roadmap-reshuffle
