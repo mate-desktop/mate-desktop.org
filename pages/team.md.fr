@@ -65,7 +65,7 @@ Empaquetage pour Fedora.
 
 Empaquetage pour Arch Linux, administration système, MATE LiveCD maintainer, project advocacy and out reach.
 
-### ![](/assets/img/flags/32/USA.png) Adam Pandorah (hekel)
+### ![](/assets/img/flags/32/USA.png) Adam Erdman (hekel)
 
 Empaquetage pour Arch Linux, documentation.
 

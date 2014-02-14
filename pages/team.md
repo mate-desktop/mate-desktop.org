@@ -65,7 +65,7 @@ Packaging for Fedora.
 
 Packaging for Arch Linux, systems administration, MATE LiveCD maintainer, project advocacy and out reach.
 
-### ![](/assets/img/flags/32/USA.png) Adam Pandorah (hekel)
+### ![](/assets/img/flags/32/USA.png) Adam Erdman (hekel)
 
 Packaging for Arch Linux, documentation.
 
