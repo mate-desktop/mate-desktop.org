@@ -44,7 +44,7 @@ The main changes in 1.8 are:
 
 **Engrampa (file archiver)**
 
-  * Added “extract to” context menu to Caja
+  * Always display “extract to” context menu to Caja
 
 **Screensaver**
 
