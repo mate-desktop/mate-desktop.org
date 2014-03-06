@@ -68,7 +68,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/blog/', 'Blog'),
 		('/install/', 'Install'),
-		('/gallery/1.6/', 'Screenshots'),
+		('/gallery/1.8/', 'Screenshots'),
 		('/development/', 'Development'),
 		('/community/', 'Community'),
 		('/team/', 'Team'),
@@ -77,7 +77,7 @@ NAVIGATION_LINKS = {
     "de": (
 		('/de/blog/', 'Blog'),
 		('/de/install/', 'Installation'),
-		('/de/gallery/1.6/', 'Screenshots'),
+		('/de/gallery/1.8/', 'Screenshots'),
 		('/de/development/', 'Entwicklung'),
 		('/de/community/', 'Community'),
 		('/de/team/', 'Team'),
@@ -86,7 +86,7 @@ NAVIGATION_LINKS = {
     "es": (
 		('/es/blog/', 'Blog'),
 		('/es/install/', 'Instalar'),
-		('/es/gallery/1.6/', 'Imágenes'),
+		('/es/gallery/1.8/', 'Imágenes'),
 		('/es/development/', 'Desarrollo'),
 		('/es/community/', 'Comunidad'),
 		('/es/team/', 'Team'),
@@ -95,7 +95,7 @@ NAVIGATION_LINKS = {
     "fr": (
 		('/fr/blog/', 'Blog'),
 		('/fr/install/', 'Installez'),
-		('/fr/gallery/1.6/', 'Screenshots'),
+		('/fr/gallery/1.8/', 'Screenshots'),
 		('/fr/development/', 'Développement'),
 		('/fr/community/', 'Communauté'),
 		('/fr/team/', 'Team'),
@@ -104,7 +104,7 @@ NAVIGATION_LINKS = {
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
-		('/it/gallery/1.6/', 'Schermate'),
+		('/it/gallery/1.8/', 'Schermate'),
 		('/it/development/', 'Sviluppo'),
 		('/it/community/', 'Comunità'),
 		('/it/team/', 'Team'),
@@ -113,7 +113,7 @@ NAVIGATION_LINKS = {
     "nl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Installatie'),
-		('/nl/gallery/1.6/', 'Screenshots'),
+		('/nl/gallery/1.8/', 'Screenshots'),
 		('/nl/development/', 'Ontwikkeling'),
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
@@ -122,7 +122,7 @@ NAVIGATION_LINKS = {
     "tr_tr": (
 		('/tr_tr/blog/', 'Blog'),
 		('/tr_tr/install/', 'Kurulum'),
-		('/tr_tr/gallery/1.6/', 'Screenshots'),
+		('/tr_tr/gallery/1.8/', 'Screenshots'),
 		('/tr_tr/development/', 'Geliştirme'),
 		('/tr_tr/community/', 'Topluluk'),
 		('/tr_tr/team/', 'Ekip'),
