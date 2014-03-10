@@ -80,7 +80,7 @@ TRANSLATIONS = {
 # this pattern is also used for metadata:
 #     something.meta -> something.meta.pl
 
-TRANSLATIONS_PATTERN = ${TRANSLATIONS_PATTERN}
+#TRANSLATIONS_PATTERN = ${TRANSLATIONS_PATTERN}
 
 # If you don't want your Polish files to be considered Perl code, use this:
 # TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
@@ -568,6 +568,7 @@ MARKDOWN_EXTENSIONS = ['extra', 'codehilite', 'toc']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
+SOCIAL_BUTTONS_CODE = ""
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
