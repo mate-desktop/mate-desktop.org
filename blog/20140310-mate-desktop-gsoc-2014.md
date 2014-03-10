@@ -63,5 +63,5 @@ interact with the MATE mentors is via:
 We look forward to reviewing your applications!
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=XXXX" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2952" class="alert-link">Comments</a>
 </div>
