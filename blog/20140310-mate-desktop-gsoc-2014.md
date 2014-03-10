@@ -1,7 +1,7 @@
 <!-- 
 .. link: 
 .. description: MATE Desktop Google Summer of Code (GSoC) 2014 participation with openSUSE
-.. tags: GSoC,openSUSE
+.. tags: GSoC,openSUSE,News
 .. date: 2014/03/10 13:14:31
 .. title: MATE is participating in GSoC 2014
 .. slug: 2014-03-10-mate-desktop-gsoc-2014

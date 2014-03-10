@@ -1,7 +1,7 @@
 <!-- 
 .. link: 
 .. description: MATE Desktop collaborates with Blueman
-.. tags: Bluman,BlueZ,Bluetooth,draft
+.. tags: Blueman,BlueZ,Bluetooth,News,draft
 .. date: 2014/03/11 21:45:00
 .. title: MATE Desktop collaborates with Blueman
 .. slug: 2014-03-11-mate-desktop-collaborates-with-blueman
@@ -12,7 +12,7 @@ The MATE team are delighted to announce that we are collaborating with the
 [Blueman project](https://github.com/blueman-project/blueman) and helping to
 update Blueman to BlueZ 5.x.
 
-## Why ditch `mate-bluetooth`?
+## Why ditch mate-bluetooth?
 
 `mate-bluetooth` supports BlueZ 4.x which has been discontinued and many
 distributions have, or are about to, replace BlueZ 4.x with BlueZ 5.x in their
@@ -36,7 +36,8 @@ has not yet been released. Yeah, we suck! Sorry about that.
 
 While we acknowledge that we suck, we are actively contributing to the effort of
 porting Blueman to BlueZ 5.x and GObject introspection. We are hoping to have it
-ready in time for MATE 1.8.1 which is primarily intended as a bug fix.
+ready in time for MATE 1.8.1 which is primarily intended as a bug fix
+release.
 
 ## Can't you do it faster, damn it?!
 
