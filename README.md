@@ -169,24 +169,24 @@ how the `virtualenv` for Nikola was created.
     cd virtualenv-1.10.1
     sudo python setup.py install
 
-### Install Nikola 6.2.1
+### Install Nikola 6.4.0
 
 Create an environment for Nikola.
 
     mkdir ~/PythonEnvs
-    virtualenv -p python2.7 ~/PythonEnvs/nikola-621
+    virtualenv -p python2.7 ~/PythonEnvs/nikola-64
 
 Activate the environment.
 
-    source ~/PythonEnvs/nikola-621/bin/activate
+    source ~/PythonEnvs/nikola-64/bin/activate
 
-Download Nikola 6.2.1
+Download Nikola 6.4.0
 
     mkdir -p ${VIRTUAL_ENV}/src
     cd ${VIRTUAL_ENV}/src
-    wget https://github.com/getnikola/nikola/archive/v6.2.1.tar.gz -O nikola-621.tar.gz
-    tar zxvf nikola-621.tar.gz
-    cd nikola-6.2.1
+    wget https://github.com/getnikola/nikola/archive/v6.4.0.tar.gz -O nikola-640.tar.gz
+    tar zxvf nikola-640.tar.gz
+    cd nikola-6.4.0
 
 Install the Nikola requirements.
 
@@ -205,7 +205,7 @@ Export the WordPress content.
 
 Make sure the Nikola environment is activated.
 
-    source ~/PythonEnvs/nikola-621/bin/activate
+    source ~/PythonEnvs/nikola-64/bin/activate
 
 Clone the mate-desktop.org Git repository.
 
@@ -258,7 +258,7 @@ trigger a Nikola build and deploy.
 In the meantime, here is how Nikola can be run manually. This assumes you are
 running as me on the server, however.
 
-    source ~/PythonEnvs/nikola-621/bin/activate
+    source ~/PythonEnvs/nikola-64/bin/activate
     cd ~/Websites/mate-desktop.org
     nikola build
     nikola deploy
