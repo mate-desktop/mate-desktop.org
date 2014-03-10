@@ -8,12 +8,15 @@
 .. author: Martin Wimpress
 -->
 
-We've made a Live CD that boots into a full MATE desktop.
+The MATE team have made a Live CD that boots into a full MATE desktop.
+
+<div class="alert alert-info"><strong>Update</strong> The LiveCD was updated to MATE 1.8 on March 10th 2014.</div>
 
 This Live CD was created so that potential new users can evaluate the MATE 
 desktop in a non-destructive fashion. The image can be burned to a DVD, 
 mounted as an ISO file, or be directly written to a USB stick using a utility 
-like `dd`. You can download it below:
+like `dd`. [Linux Luddites](http://linuxluddites.com/) beware, `unetbootin` is
+not supported. You can download it below:
 
 ### BitTorrent download (recommended)
 
@@ -21,21 +24,21 @@ If you can spare the bytes, please leave the client open after your download
 is finished, so you can seed it back to others. *A web-seed capable client is 
 recommended for fastest download speeds.*
 
-  * [matelivecd-14.029.2321.iso.torrent](http://repo.mate-desktop.org/livecd/matelivecd-14.029.2321.iso.torrent)
+  * [matelivecd-14.069.1449.iso.torrent](http://repo.mate-desktop.org/livecd/matelivecd-14.069.1449.iso.torrent)
 
 ### HTTP direct download
 
-In addition to the BitTorrent link above, Live CD .iso can also be 
-downloaded via HTTP. Please ensure the downloaded file matches the SHA1 
+In addition to the BitTorrent link above, the Live CD .iso can also be
+downloaded via HTTP. Please ensure the downloaded file matches the SHA1
 checksum.
 
-  * [matelivecd-14.029.2321.iso](http://repo.mate-desktop.org/livecd/matelivecd-14.029.2321.iso) [ ~889MB ]
-    * SHA1: `d925500e782d1821d1ebecbab4f81e8fa931fea3`
+  * [matelivecd-14.069.1449.iso](http://repo.mate-desktop.org/livecd/matelivecd-14.069.1449.iso) [ ~964MB ]
+    * SHA1: `12b529d17d1ecef39d9b0e1122fb5271e0534c0a`
 
 ## Compatibility
 
 The Live CD is built using [Arch Linux](http://www.archlinux.org) and MATE 
-1.6. The Live CD is 32-bit so should work on any i686 or x86_64 computer
+1.8. The Live CD is 32-bit so should work on any i686 or x86_64 computer
 with at least 512MB RAM. Xorg drivers are included for Intel (`i915`),
 AMD/ATI (`radeon`) and nvidia (`nouveau`) with a fall back to VESA.
 Drivers for Virtual Box and VMware are also included so that evaluation
@@ -68,7 +71,8 @@ order to make the LiveCD a little more useful and enjoyable.
   * [GParted](http://gparted.sourceforge.net)   - A Partition Magic clone, frontend to GNU Parted
   * [HardInfo](http://hardinfo.berlios.de/wiki/index.php/Main_Page)  - A system information and benchmark tool
   * [Hexchat](http://hexchat.github.io/)   - IRC client configured to auto-connect to [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
-  * [Orca](http://www.gnome.org/projects/orca)      - Screen reader for individuals who are blind or visually impaired
+  * [Onboard](http://www.gnome.org/projects/orca)      - Screen reader for individuals who are blind or visually impaired  
+  * [Orca](http://www.gnome.org/projects/orca)      - On-screen keyboard useful for mobility impaired individuals
   * [Pidgin](http://pidgin.im/)    - Multi-protocol instant messaging client
   * [Truecrypt](http://www.truecrypt.org/) - Free open-source cross-platform disk encryption software
   * [Xnoise](http://www.xnoise-media-player.com/)    - Media player with a slick GUI, great speed and lots of features
