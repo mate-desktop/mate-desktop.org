@@ -21,25 +21,33 @@ BLOG_DESCRIPTION = "The traditional Desktop Environment"
 # Nikola is multilingual!
 #
 # Currently supported languages are:
-# bg     Bulgarian
-# ca     Catalan
-# de     German
-# el     Greek [NOT gr!]
-# en     English
-# eo     Esperanto
-# es     Spanish
-# fa     Persian
-# fr     French
-# hr     Croatian
-# it     Italian
-# jp     Japanese
-# nl     Dutch
-# pt_br  Portuguese (Brasil)
-# pl     Polish
-# ru     Russian
-# tr_tr  Turkish (Turkey)
-# zh_cn  Chinese (Simplified)
-#
+# bg Bulgarian
+# ca Catalan
+# cs Czech [ALTERNATIVELY cz]
+# de German
+# el Greek [NOT gr!]
+# en English
+# eo Esperanto
+# es Spanish
+# et Estonian
+# eu Basque
+# fa Persian
+# fi Finnish
+# fr French
+# hi Hindi
+# hr Croatian
+# it Italian
+# ja Japanese [NOT jp!]
+# nb Norwegian Bokmål
+# nl Dutch
+# pt_br Portuguese (Brasil)
+# pl Polish
+# ru Russian
+# sl Slovenian [NOT sl_si!]
+# tr Turkish (Turkey) [NOT tr_tr!]
+# ur Urdu
+# zh_cn Chinese (Simplified)
+
 # If you want to use Nikola with a non-supported language you have to provide
 # a module containing the necessary translations
 # (p.e. look at the modules at: ./nikola/data/themes/default/messages/fr.py).
@@ -59,7 +67,7 @@ TRANSLATIONS = {
     "fr": "./fr",
     "it": "./it",
     "nl": "./nl",
-    "tr_tr": "./tr_tr",    
+    "tr": "./tr",    
 }
 
 # Links for the sidebar / navigation bar.
@@ -119,7 +127,7 @@ NAVIGATION_LINKS = {
 		('/nl/team/', 'Team'),
 		('/nl/donate/', 'Doneren'),
     ),       
-    "tr_tr": (
+    "tr": (
 		('/tr_tr/blog/', 'Blog'),
 		('/tr_tr/install/', 'Kurulum'),
 		('/tr_tr/gallery/1.8/', 'Screenshots'),
