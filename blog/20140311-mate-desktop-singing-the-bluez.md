@@ -1,10 +1,10 @@
 <!-- 
 .. link: 
-.. description: MATE Desktop collaborates with Blueman
-.. tags: Blueman,BlueZ,Bluetooth,News,draft
-.. date: 2014/03/11 21:45:00
-.. title: MATE Desktop collaborates with Blueman
-.. slug: 2014-03-11-mate-desktop-collaborates-with-blueman
+.. description: MATE Desktop collaborates with Blueman project.
+.. tags: Blueman,BlueZ,Bluetooth,News
+.. date: 2014/03/11 07:45:00
+.. title: MATE Desktop singing the BlueZ
+.. slug: 2014-03-11-mate-desktop-singing-the-bluez
 .. author: Martin Wimpress
 -->
 
@@ -45,5 +45,5 @@ Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
 to contribute via the [Blueman GitHub repository](https://github.com/blueman-project/blueman).
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=XXXX" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2953" class="alert-link">Comments</a>
 </div>

@@ -54,7 +54,7 @@ its inclusion in MATE will grow the galcualtor user base, raise awareness
 about galcualtor and attract new contributors to the project. To that
 end the MATE team will host the galcualtor translations as a resource on
 the [MATE transifex project](https://www.transifex.com/organization/mate/dashboard/MATE).
-We are hopeful that our ~300 heroic translators will embrace glacualtor
+We are hopeful that our ~300 heroic translators will embrace galculator
 and add to the ~20 languages it currently supports.
 
 ## I am a packager. What does this mean for me?
