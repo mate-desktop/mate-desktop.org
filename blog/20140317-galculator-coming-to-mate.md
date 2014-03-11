@@ -49,13 +49,13 @@ galculator is a perfect fit in this regard.
 
 ## What's in it for the galculator team?
 
-galcualtor will remain an entirely independant project but we hope that
-its inclusion in MATE will grow the galcualtor user base, raise awareness
-about galcualtor and attract new contributors to the project. To that
-end the MATE team will host the galcualtor translations as a resource on
-the [MATE transifex project](https://www.transifex.com/organization/mate/dashboard/MATE).
-We are hopeful that our ~300 heroic translators will embrace galculator
-and add to the ~20 languages it currently supports.
+galcualtor will remain an entirely independant project but we hope that its 
+inclusion in MATE will grow the galcualtor user base, raise awareness about 
+galcualtor and attract new contributors to their project. To that end the 
+MATE team will host the galcualtor translations as a resource on the
+[MATE transifex project](https://www.transifex.com/organization/mate/dashboard/MATE).
+We are hopeful that the ~300 heroic MATE translators will embrace galculator and
+add to the ~20 languages galculator currently supports.
 
 ## I am a packager. What does this mean for me?
 
