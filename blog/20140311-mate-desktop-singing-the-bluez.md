@@ -29,7 +29,7 @@ will provide a far better Bluetooth interface for MATE.
 
 ## When will the updated Blueman be ready?
 
-The observant among you may have noticed that the [MATE 1.8 release announcement](/blog/20140304-mate-1-8-released/)
+The observant among you may have noticed that the [MATE 1.8 release announcement](/blog/2014-03-04-mate-1-8-released/)
 already mentioned that `mate-bluetooth` has been replaced with Blueman and the 
 the even more observant will also have noticed than a fresh version of Blueman
 has not yet been released. Yeah, we suck! Sorry about that.
