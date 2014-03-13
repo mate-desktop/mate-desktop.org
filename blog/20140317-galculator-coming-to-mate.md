@@ -2,14 +2,14 @@
 .. link: http://galculator.sourceforge.net/
 .. description: galculator is replacing mate-calc in MATE 1.10
 .. tags: News,draft
-.. date: 2014/03/16 22:38:45
+.. date: 2014/03/17 22:38:45
 .. title: galculator is coming to MATE 1.10
-.. slug: 2014-03-16-galculator-is-coming-to-mate
+.. slug: 2014-03-17-galculator-is-coming-to-mate
 .. author: Martin Wimpress
 -->
 
 The MATE team is proud to announce collabortaion with the
-[galcualtor](http://galculator.sourceforge.net/) team and that galculator
+[galculator](http://galculator.sourceforge.net/) team and that galculator
 will replace `mate-calc` in MATE 1.10.
 
 ## What is galculator?
@@ -49,17 +49,17 @@ galculator is a perfect fit in this regard.
 
 ## What's in it for the galculator team?
 
-galcualtor will remain an entirely independant project but we hope that its 
-inclusion in MATE will grow the galcualtor user base, raise awareness about 
-galcualtor and attract new contributors to their project. To that end the 
-MATE team will host the galcualtor translations as a resource on the
+galculator will remain an entirely independent project but we hope that its 
+inclusion in MATE will grow the galculator user base, raise awareness about 
+galculator and attract new contributors to their project. To that end the 
+MATE team will host the galculator translations as a resource on the
 [MATE transifex project](https://www.transifex.com/organization/mate/dashboard/MATE).
 We are hopeful that the ~300 heroic MATE translators will embrace galculator and
 add to the ~20 languages galculator currently supports.
 
 ## I am a packager. What does this mean for me?
 
-If you are a MATE package maintainer then start creating galcualtor
+If you are a MATE package maintainer then start creating galculator
 packages for your distribution if they do not already exist and add
 galculator to your MATE meta packages or package groups. MATE 1.10 is a
 way off yet, so you have plenty of time.
