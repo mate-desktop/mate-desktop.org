@@ -46,6 +46,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Mageia <https://www.mageia.org/en/>`_
 * `openSUSE <http://www.opensuse.org>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `PLD Linux <https://www.pld-linux.org/>_`
 * `Point Linux <http://pointlinux.org>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
@@ -61,8 +62,8 @@ inclusion in their official repositories is planned:
 Maybe you prefer \*BSD?
 
 * `GhostBSD <http://ghostbsd.org>`_
-* `PC-BSD <http://www.pcbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `PC-BSD <http://www.pcbsd.org>`_
 
 You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
