@@ -1,14 +1,14 @@
 <!-- 
 .. link: http://galculator.sourceforge.net/
 .. description: galculator is replacing mate-calc in MATE 1.10
-.. tags: News,draft
-.. date: 2014/03/17 22:38:45
+.. tags: News
+.. date: 2014/03/17 07:38:45
 .. title: galculator is coming to MATE 1.10
 .. slug: 2014-03-17-galculator-is-coming-to-mate
 .. author: Martin Wimpress
 -->
 
-The MATE team is proud to announce collabortaion with the
+The MATE team is proud to announce that we are collaborting with the
 [galculator](http://galculator.sourceforge.net/) team and that galculator
 will replace `mate-calc` in MATE 1.10.
 
@@ -68,5 +68,5 @@ Hopefully you undertand our reasoning and can see the mutual advantages
 for this partnership. Let us know what you think in the comments.
   
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=XXXX" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2959" class="alert-link">Comments</a>
 </div>
