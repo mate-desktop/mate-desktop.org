@@ -69,7 +69,8 @@ TRANSLATIONS = {
     "fr": "./fr",
     "it": "./it",
     "nl": "./nl",
-    "tr": "./tr",    
+    "pl": "./pl",
+    "tr": "./tr",
 }
 
 # What will translated input files be named like?
@@ -115,7 +116,7 @@ NAVIGATION_LINKS = {
 		('/es/community/', 'Comunidad'),
 		('/es/team/', 'Team'),
 		('/es/donate/', 'Donar'),
-    ),    
+    ),
     "fr": (
 		('/fr/blog/', 'Blog'),
 		('/fr/install/', 'Installez'),
@@ -124,7 +125,7 @@ NAVIGATION_LINKS = {
 		('/fr/community/', 'Communauté'),
 		('/fr/team/', 'Team'),
 		('/fr/donate/', 'Donner'),
-    ),        
+    ),
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
@@ -142,7 +143,15 @@ NAVIGATION_LINKS = {
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
 		('/nl/donate/', 'Doneren'),
-    ),       
+    "pl": (
+		('/nl/blog/', 'Blog'),
+		('/nl/install/', 'Install'),
+		('/nl/gallery/1.8/', 'Screenshots'),
+		('/nl/development/', 'Development'),
+		('/nl/community/', 'Community'),
+		('/nl/team/', 'Team'),
+		('/nl/donate/', 'Donate'),
+    ),
     "tr": (
 		('/tr_tr/blog/', 'Blog'),
 		('/tr_tr/install/', 'Kurulum'),
@@ -151,7 +160,7 @@ NAVIGATION_LINKS = {
 		('/tr_tr/community/', 'Topluluk'),
 		('/tr_tr/team/', 'Ekip'),
 		('/tr_tr/donate/', 'Bağış'),
-    ),       
+    ),
 }
 
 ##############################################
