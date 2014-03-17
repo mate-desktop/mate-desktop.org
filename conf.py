@@ -143,6 +143,7 @@ NAVIGATION_LINKS = {
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
 		('/nl/donate/', 'Doneren'),
+    ),
     "pl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Install'),
