@@ -42,7 +42,9 @@ Quelles distributions supportent MATE ?
 MATE est disponible via les dépôts **officiels** des distributions GNU/Linux suivantes :
 
 * `Arch Linux <http://www.archlinux.org>`_
+* `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
+* `Gentoo <http://www.gentoo.org>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `openSUSE <http://www.opensuse.org>`_
@@ -51,14 +53,12 @@ MATE est disponible via les dépôts **officiels** des distributions GNU/Linux s
 * `Point Linux <http://pointlinux.org>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
+* `Ubuntu <http://www.ubuntu.com>`_
 
 MATE est disponible via des dépôts *non officiels* pour les distributions GNU/Linux suivantes,
 mais l'inclusion dans leurs dépôts officiels est prévue :
 
-* `Debian <http://www.debian.org>`_
-* `Gentoo <http://www.gentoo.org>`_
-* `Slackware <http://www.slackware.com>`_
-* `Ubuntu <http://www.ubuntu.com>`_
+* `Slackware <http://www.slackware.com>`
 
 Peut-être préférez-vous \*BSD ?
 
