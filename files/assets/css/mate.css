@@ -1,0 +1,19 @@
+
+/* Small margin for social icon in navbar */
+.small-margin {
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+/* Fading for social icons */
+.social-icon {
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+
+.social-icon:hover {
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
