@@ -22,7 +22,8 @@ if [ -d ${HOME}/Websites/mate-desktop.org/.git ]; then
 else
 	echo " - Cloning mate-desktop.org Git repository..."
 	cd ${HOME}/Websites
-	git clone https://github.com/mate-desktop/mate-desktop.org
+	rm -rf "mate-desktop.org"
+	git clone --depth=1 https://github.com/mate-desktop/mate-desktop.org
 	if [ $? -ne 0 ]; then
 		echo " - ERROR! 'git clone' encountered problems. Exitting."
 		exit 1
