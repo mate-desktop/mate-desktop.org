@@ -2,6 +2,20 @@
 
 NIKOLA_ENV="nikola-701"
 
+clone ()
+{
+	echo " - Cloning mate-desktop.org Git repository..."
+	if [ -d mate-desktop.org ]; then
+		rm -rf "mate-desktop.org"
+	fi
+
+	git clone --depth=1 https://github.com/mate-desktop/mate-desktop.org
+	if [ $? -ne 0 ]; then
+		echo " - ERROR! 'git clone' encountered problems. Exitting."
+		exit 1
+	fi
+}
+
 echo "Deploying mate-desktop.org"
 
 if [ -d ${HOME}/PythonEnvs/${NIKOLA_ENV} ]; then
@@ -19,14 +33,19 @@ if [ -d ${HOME}/Websites/mate-desktop.org/.git ]; then
 	if [ $? -ne 0 ]; then
 		echo " - WARNING! 'git pull' encountered problems."
 	fi
-else
-	echo " - Cloning mate-desktop.org Git repository..."
-	cd ${HOME}/Websites
-	git clone https://github.com/mate-desktop/mate-desktop.org
-	if [ $? -ne 0 ]; then
-		echo " - ERROR! 'git clone' encountered problems. Exitting."
-		exit 1
+
+	git fsck-objects --full
+	if [$? -ne 0 ]; then
+		echo " - WARNING! 'git fsck-objects' failed."
+		echo " - WARNING! attempting to do a fresh clone."
+		clone
 	fi
+
+	# Discard any file modifications
+	git checkout master -f
+else
+	cd ${HOME}/Websites
+	clone
 fi
 
 cd ${HOME}/Websites/mate-desktop.org
