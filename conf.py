@@ -515,7 +515,7 @@ LICENSE = """
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = '<div align="center"><small>Contents &copy; {date} <a href="mailto:{email}">{author}</a>. {license}<br/>Hosted by <a href="http://www.first-colo.net/EN/">First Colo</a></small></div>'
+CONTENT_FOOTER = '<div align="center"><small>Contents &copy; {date} <a href="mailto:{email}">{author}</a>. {license}<br/>Hosted by <a href="http://www.first-colo.com/">First Colo</a></small></div>'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
