@@ -20,9 +20,9 @@ descreve alguns dos princípios que norteiam o projeto.
 
 Você pode encontrar mais`fotos do MATE <gallery/1.8/>`_ em nossa `galeria <gallery/>`_.
 
-----
+---------
 Novidades
-----
+---------
 
 .. post-list::
     :lang: pt
@@ -31,9 +31,9 @@ Novidades
 Você deve também dar uma olhada em `Planet MATE <http://planet.mate-desktop.org>`_
 para ver o que a comunidade MATE está blogando.
 
----------------------------------
+----------------------------
 Quais distros suportam MATE?
----------------------------------
+----------------------------
 
 Mate está disponível através dos repositórios **officiais** das distribuições Linux abaixo:
 
@@ -65,9 +65,9 @@ Você pode também `consultar DistroWatch.com para saber quais distribuições s
 
 A comunidade MATE documentou como instalar MATE em muitas distribuições nos guia de `Instalação <http://wiki.mate-desktop.org/download>`_.
 
-------------
+-----------
 Aplicativos
-------------
+-----------
 
 MATE é composto de uma série de aplicações. A renomeação foi necessária
 para evitar conflitos com os componentes do GNOME.
@@ -123,9 +123,9 @@ the ability to use multiple terminals in a single window (tabs) and supports
 management of different configurations (profiles). MATE Terminal is a fork of
 GNOME Terminal.
 
-------------------------------
+----------------------
 De onde vem esse nome?
-------------------------------
+----------------------
 
 O nome *"MATE"*, vem de `erva mate
 <https://www.pt.wikipedia.org/wiki/Erva-mate>`_, uma espécie de azevinho nativa da América do Sul subtropical. Suas folhas contêm cafeína e são usados ​​para fazer infusões e bebidas.
