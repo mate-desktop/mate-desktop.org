@@ -79,7 +79,7 @@ TRANSLATIONS = {
     "it": "./it",
     "nl": "./nl",
     "pl": "./pl",
-    "pt_br": "./pt_br",
+    #"pt_br": "./pt_br",
     "tr": "./tr",
 }
 
