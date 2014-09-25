@@ -1,0 +1,167 @@
+.. link:
+.. description:
+.. tags: Info,Anwendungen,Screenshots
+.. date: 2013-10-31 12:29:57
+.. title: MATE Desktopumgebung
+.. slug: index
+.. pretty_url: False
+
+Die MATE-Desktopumgebung ist die Fortführung von GNOME 2. Sie bietet für Linux und andere 
+Unix-artige Betriebsysteme eine intuitive und attraktive Desktopumgebung, 
+welche sich der traditionell verwendeten Metaphern bedient.
+
+MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
+an der traditionellen Desktop-Erfahrung festgehalten wird. Unter `Roadmap [en] <http://wiki.mate-desktop.org/roadmap>`_ oder
+`Stefanos Vortrag auf der FOSDEM 2014 [en] </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_ 
+erfahren Sie mehr darüber, wie MATE sich bisher entwickelte, und was für die Zukunft geplant ist.
+Das `MATE-Manifest [en] <http://wiki.mate-desktop.org/board:manifesto>`_
+erörtert einige der Prinzipien, die das Projekt leiten.
+
+.. image:: /screens/screenshot.jpg
+    :align: center
+
+Weitere `Screenshots von MATE  <gallery/1.8/>`_ finden Sie in unserer `Galerie <gallery/>`_. 
+
+----
+Neuigkeiten
+----
+
+.. post-list::
+    :lang: en
+    :stop: 5
+
+Die Blog-Einträge finden sich indiziert nach `Stichwörtern <tags/>`_ und `archiviert nach dem Datum <archive/>`_.
+Außerdem finden sich unter `Planet MATE <http://planet.mate-desktop.org>`_ englischsprachige Blog-Einträge
+der weiteren MATE-Community.
+
+---------------------------------
+Welche distributionen unterstützen MATE?
+---------------------------------
+
+Mate ist in den **offiziellen** Repositorien der folgenden Linux-Distributionen erhältlich:
+
+* `Arch Linux <http://www.archlinux.org>`_
+* `Debian <http://www.debian.org>`_
+* `Fedora <http://www.fedoraproject.org>`_
+* `Gentoo <http://www.gentoo.org>`_
+* `Linux Mint <http://linuxmint.com>`_
+* `Mageia <https://www.mageia.org/en/>`_
+* `openSUSE <http://www.opensuse.org>`_
+* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `PLD Linux <https://www.pld-linux.org/>`_
+* `Point Linux <http://pointlinux.org>`_
+* `Sabayon <http://www.sabayon.org>`_
+* `Salix <http://www.salixos.org>`_
+* `Ubuntu <http://www.ubuntu.com>`_
+
+Weiterhin ist MATE in den *inoffiziellen* Repositorien der folgenden Linux-Distributionen erhältlich,
+wobei eine Aufnahme in die offiziellen Repositorien geplant ist:
+
+* `Slackware <http://www.slackware.com>`_
+
+Vielleicht bevorzugen Sie \*BSD?
+
+* `GhostBSD <http://ghostbsd.org>`_
+* `FreeBSD <http://freebsd.org>`_
+* `PC-BSD <http://www.pcbsd.org>`_
+
+Sie können sich auch auf `DistroWatch.com informieren über alle Distributionen, die Unterstützung bieten für MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+
+Die MATE-Community hat Anleitungen veröffentlicht, wie MATE auf diversen Distributionen installierbar ist unter
+`install guidelines <http://wiki.mate-desktop.org/download>`_.
+
+------------
+Anwendungen
+------------
+
+MATE besteht aus einer Sammlung von Anwendungen. Die Umbenennung ist nötig,
+um Konflikte mit den entsprechenden GNOME-Anwendungen zu vermeiden.
+
+Caja
+====
+
+.. image:: /assets/img/mate/caja.png
+
+Caja ist der offiziellen Datei-Manager für den MATE-Desktop. Er ermöglicht das 
+Stöbern in Verzeichnissen sowie das Voranschauen von Dateien bzw. das Starten von
+ihnen zugeordneten Anwendungen. Er ist auch für die Verwaltung von den Icons auf
+dem MATE-Desktop zuständig. Lokale wie nicht-lokale Dateisysteme werden unterstützt.
+Caja ist ein Fork des Programms Nautilus.
+
+
+Pluma
+=====
+
+.. image:: /assets/img/mate/pluma.png
+
+Pluma ist ein Texteditor, welcher die meisten zum Standard gehörenden Fähigkeiten
+eines Editors mitbringt. Darüber hinaus hat er Erweiterungen zu bieten, die man
+in einfachen Texteditoren für gewöhnlich nicht findet. Pluma ist eine grafische 
+Anwendung, die das Editieren von mehreren Textdateien in einem Fenster erlaubt 
+(manchmal bezeichnet als Tabs oder MDI). Pluma unterstützt das Editieren von internationalen
+Text-Formaten vollständig, indem diese im Format Unicode UTF-8 kodiert werden.
+Zu den grundsätzlichen Fähigkeiten zählen das Syntax-Highlighting in Quelltexten,
+die automatische Einrückung und die Druckunterstützung (inklusive Vorschau).
+Pluma ist ein Fork des Programms Gedit.
+
+
+Eye of MATE
+===========
+
+.. image:: /assets/img/mate/eom.png
+
+eom, oder "Eye of MATE", ist ein einfacher Grafik-Betrachter für den MATE-Desktop,
+der die Bibliothek gdk-pixbuf benutzt. Das Programm kann mit großen Bildern umgehen
+und mit konstantem Speicherbedarf zoomen und scrollen. Seine Ziele sind Einfachheit
+und Standardkonformität. Eye of MATE ist ein Form von Eye of GNOME.
+
+
+Atril
+=====
+
+.. image:: /assets/img/mate/atril.png
+
+Atril ist ein einfacher Mehrfachseiten-Dokumentenbetrachter. Er ist in der Lage,
+Dateien der Formate PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS und 
+Portable Document Format (PDF) anzuzeigen und zu drucken. Wenn durch das Dokument
+untstützt, erlaubt das Programm die Textsuche, das Kopieren von Text in die Zwischenablage,
+Hypertext-Navigation und erstellt Lesezeichen aus dem Inhaltsverzeichnis. 
+Atril ist ein Fork des Programms Evince.
+
+
+Engrampa
+========
+
+.. image:: /assets/img/mate/engrampa.png
+
+Engrampa ist ein Archiv-Manager for die MATE-Umgebung. Er ermöglicht es, 
+Archive zu erstellen und zu bearbeiten, deren Inhalt anzuzeigen sowie
+enthaltene Dateien zu betrachten und aus dem Archiv extrahieren. 
+Engrampa ist ein Fork des Programms File Roller.
+
+
+MATE Terminal
+=============
+
+.. image:: /assets/img/mate/terminal.png
+
+MATE Terminal ist ein Terminalemulator, der Zugriff auf die UNIX-Shell aus
+der MATE-Umgebung heraus bietet. Damit ist es möglich, jede Anwendung auszuführen,
+die darauf ausgelegt ist, mit VT102-, VT220- und xterm-Terminals zu laufen. MATE Terminal hat 
+außerdem die Fähigkeit, mehrere Terminals in einem einzelnen Fenster zu benutzen (Tabs) und
+unterstützt die Verwaltung verschiedener Konfigurationen (Profile). MATE Terminal ist ein Fork 
+des Programms GNOME Terminal.
+
+------------------------------
+Woher kommt der Name?
+------------------------------
+
+Der Name *"MATE"*, ausgesprochen *Ma-Tee*, stammt von dem `Mate-Strauch
+<http://de.wikipedia.org/wiki/Mate-Strauch>`_,
+einer Pflanzenart aus der Gattung der Stechpalmen, die im subtropischen Südamerika heimisch ist.
+
+Die Blätter enthalten Koffein. Sie dienen zur Herstellung von Infusionen und Mate-Tee.
+
+
+.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+    :align: center
