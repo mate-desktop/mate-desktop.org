@@ -28,5 +28,5 @@ months. Therefore, as of now, the Debian and Ubuntu package
 repositories hosted on mate-desktop.org have been removed. 
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=XXXX" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3267" class="alert-link">Comments</a>
 </div>
