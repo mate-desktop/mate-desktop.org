@@ -7,7 +7,7 @@
 .. pretty_url: False
 
 Die MATE-Desktopumgebung ist die Fortführung von GNOME 2. Sie bietet für Linux und andere 
-Unix-artige Betriebsysteme eine intuitive und attraktive Desktopumgebung, 
+Unix-artige Betriebssysteme eine intuitive und attraktive Desktopumgebung, 
 welche sich der traditionell verwendeten Metaphern bedient.
 
 MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
@@ -38,7 +38,7 @@ der weiteren MATE-Community.
 Welche distributionen unterstützen MATE?
 ---------------------------------
 
-Mate ist in den **offiziellen** Repositorien der folgenden Linux-Distributionen erhältlich:
+MATE ist in den **offiziellen** Repositorien der folgenden Linux-Distributionen erhältlich:
 
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
@@ -59,7 +59,7 @@ wobei eine Aufnahme in die offiziellen Repositorien geplant ist:
 
 * `Slackware <http://www.slackware.com>`_
 
-Vielleicht bevorzugen Sie \*BSD?
+Eventuell bevorzugen Sie \*BSD?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
@@ -67,14 +67,14 @@ Vielleicht bevorzugen Sie \*BSD?
 
 Sie können sich auch auf `DistroWatch.com informieren über alle Distributionen, die Unterstützung bieten für MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-Die MATE-Community hat Anleitungen veröffentlicht, wie MATE auf diversen Distributionen installierbar ist unter
-`install guidelines <http://wiki.mate-desktop.org/download>`_.
+Die MATE-Community hat Anleitungen veröffentlicht, wie MATE auf diversen Distributionen installierbar ist unter der
+`Installations-Anleitung [en] <http://wiki.mate-desktop.org/download>`_.
 
 ------------
 Anwendungen
 ------------
 
-MATE besteht aus einer Sammlung von Anwendungen. Die Umbenennung ist nötig,
+MATE besteht aus einer Reihe von Anwendungen. Die Umbenennung ist nötig,
 um Konflikte mit den entsprechenden GNOME-Anwendungen zu vermeiden.
 
 Caja
@@ -113,7 +113,7 @@ Eye of MATE
 eom, oder "Eye of MATE", ist ein einfacher Grafik-Betrachter für den MATE-Desktop,
 der die Bibliothek gdk-pixbuf benutzt. Das Programm kann mit großen Bildern umgehen
 und mit konstantem Speicherbedarf zoomen und scrollen. Seine Ziele sind Einfachheit
-und Standardkonformität. Eye of MATE ist ein Form von Eye of GNOME.
+und Standardkonformität. Eye of MATE ist ein Fork des Programms Eye of GNOME.
 
 
 Atril
@@ -124,8 +124,8 @@ Atril
 Atril ist ein einfacher Mehrfachseiten-Dokumentenbetrachter. Er ist in der Lage,
 Dateien der Formate PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS und 
 Portable Document Format (PDF) anzuzeigen und zu drucken. Wenn durch das Dokument
-untstützt, erlaubt das Programm die Textsuche, das Kopieren von Text in die Zwischenablage,
-Hypertext-Navigation und erstellt Lesezeichen aus dem Inhaltsverzeichnis. 
+unterstützt, erlaubt das Programm die Textsuche, das Kopieren von Text in die Zwischenablage,
+Hypertext-Navigation und die automatische Generierung von Lesezeichen aus dem Inhaltsverzeichnis. 
 Atril ist ein Fork des Programms Evince.
 
 
@@ -147,8 +147,8 @@ MATE Terminal
 
 MATE Terminal ist ein Terminalemulator, der Zugriff auf die UNIX-Shell aus
 der MATE-Umgebung heraus bietet. Damit ist es möglich, jede Anwendung auszuführen,
-die darauf ausgelegt ist, mit VT102-, VT220- und xterm-Terminals zu laufen. MATE Terminal hat 
-außerdem die Fähigkeit, mehrere Terminals in einem einzelnen Fenster zu benutzen (Tabs) und
+die darauf ausgelegt ist, mit VT102-, VT220- und xterm-Terminals zu laufen. Außerdem hat MATE Terminal  
+die Fähigkeit, mehrere Terminals in einem einzelnen Fenster zu benutzen (Tabs), und es
 unterstützt die Verwaltung verschiedener Konfigurationen (Profile). MATE Terminal ist ein Fork 
 des Programms GNOME Terminal.
 
