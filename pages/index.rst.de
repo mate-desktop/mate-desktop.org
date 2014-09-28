@@ -22,9 +22,9 @@ erörtert einige der Prinzipien, die das Projekt leiten.
 
 Weitere `Screenshots von MATE  <gallery/1.8/>`_ finden Sie in unserer `Galerie <gallery/>`_. 
 
-----
+-----------
 Neuigkeiten
-----
+-----------
 
 .. post-list::
     :lang: en
@@ -34,9 +34,9 @@ Die Blog-Einträge finden sich indiziert nach `Stichwörtern <tags/>`_ und `arch
 Außerdem finden sich unter `Planet MATE <http://planet.mate-desktop.org>`_ englischsprachige Blog-Einträge
 der weiteren MATE-Community.
 
----------------------------------
+----------------------------------------
 Welche distributionen unterstützen MATE?
----------------------------------
+----------------------------------------
 
 MATE ist in den **offiziellen** Repositorien der folgenden Linux-Distributionen erhältlich:
 
@@ -70,9 +70,9 @@ Sie können sich auch auf `DistroWatch.com informieren über alle Distributionen
 Die MATE-Community hat Anleitungen veröffentlicht, wie MATE auf diversen Distributionen installierbar ist unter der
 `Installations-Anleitung [en] <http://wiki.mate-desktop.org/download>`_.
 
-------------
+-----------
 Anwendungen
-------------
+-----------
 
 MATE besteht aus einer Reihe von Anwendungen. Die Umbenennung ist nötig,
 um Konflikte mit den entsprechenden GNOME-Anwendungen zu vermeiden.
@@ -152,9 +152,9 @@ die Fähigkeit, mehrere Terminals in einem einzelnen Fenster zu benutzen (Tabs),
 unterstützt die Verwaltung verschiedener Konfigurationen (Profile). MATE Terminal ist ein Fork 
 des Programms GNOME Terminal.
 
-------------------------------
+---------------------
 Woher kommt der Name?
-------------------------------
+---------------------
 
 Der Name *"MATE"*, ausgesprochen *Ma-Tee*, stammt von dem `Mate-Strauch
 <http://de.wikipedia.org/wiki/Mate-Strauch>`_,
