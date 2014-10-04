@@ -23,7 +23,7 @@ das Programm bietet nicht den Funktionsumfang, der in Blueman zu finden ist.
 
 ## Warum Blueman? Ist es nicht tot?
 
-Obwohl das originale Blueman-Projekt stagniert ist, hat [Christopher Schramm](https://github.com/cschramm)
+Obwohl das originale Blueman-Projekt stagnierte, hat [Christopher Schramm](https://github.com/cschramm)
 die Entwicklung wieder angetrieben und damit begonnen, Blueman auf BlueZ 5.x zu portieren. 
 Während es durchaus auch einige Mühen kosten wird, Blueman für eine Unterstützung von BlueZ 5.x weiterzuentwickeln,
 haben wir das Gefühl, es wird ein deutlich besseres Bluetooth-Interface für MATE bieten.

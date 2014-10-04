@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-Das MATE-Team verkündet voller Stolz die Zusammenarbeit mit dem 
+Das MATE-Team verkündet stolz die Zusammenarbeit mit dem 
 [galculator](http://galculator.sourceforge.net/)-Team, und dass galculator
 das Programm `mate-calc` in MATE 1.10 ersetzen wird.
 
@@ -34,7 +34,7 @@ Zu galculators wesentlichen Merkmalen gehören:
   * Vierfache Genauigkeit für Gleitkomma-Arithmetik
   * 112-Bit Binär-Arithmetik
   * Kopieren und Einfügen
-  * Verfügbar in mehr als 20 Übersetzungen
+  * Verfügbar in mehr als 20 Sprachen
 
 Wie MATE auch, ist galculator GTK2 und GTK3 verbunden und wird aktiv
 weiterentwickelt.
@@ -42,28 +42,25 @@ weiterentwickelt.
 ## Warum wird mate-calc fallengelassen?
 
 Obwohl `mate-calc` funktioniert, fehlen ihm viele Funktionen, die von
-einem modernen Desktop-Taschenrechner erwarted werden. Das MATE-Team ist klein
+einem modernen Desktop-Taschenrechner erwartet werden. Das MATE-Team ist klein
 und verfügt über wenig Resourcen. Und wenn möglich, suchen wir die Zusammenarbeit
 mit anderen Projekten, die MATE bereichern und den Entwicklungsaufwand 
-für das MATE-Team reduzieren.
-galculator passt in dieser Hinsicht perfekt.
+für das MATE-Team reduzieren. galculator passt in dieser Hinsicht perfekt.
 
 ## Was hat das galculator-Team davon?
 
 galculator bleibt ein völlig eigenständiges Projekt, aber wir hoffen,
 dass die Aufnahme in MATE den galculator-Nutzerkreis erweitert, seine Bekanntheit
-steigen lässt und neue Mitwirkende zu ihrem Projekt lockt.
+steigert und neue Mitwirkende zu dem Projekt lockt.
 Zu diesem Zweck wird das MATE-Team die galculator-Übersetzungen als eine Resource im
 [MATE-Transifex Projekt](https://www.transifex.com/organization/mate/dashboard/MATE) hosten.
-Wir sind guter Hoffnung, dass die etwa 300 
-
-We are hopeful that the ~300 heroische MATE-Übersetzer galculator bereitwillig einbeziehen
+Wir sind guter Hoffnung, dass die etwa 300 heroischen MATE-Übersetzer galculator bereitwillig einbeziehen
 und zu den circa ~20 bereits von galculator unterstützen Sprachen weitere Beiträge leisten werden.
 
 ## Ich erstelle Pakete. Was bedeutet das für mich?
 
 Wenn Sie ein MATE-Paketverwalter sind, dann beginnen Sie mit dem Erstellen
-von galculator-Paketen für Ihre Distribution an für den Fall, dass sie noch
+von galculator-Paketen für Ihre Distribution, falls sie noch
 nicht existieren. Fügen Sie galculator dem MATE-Meta-Paketen bzw. Paketgruppen
 hinzu. MATE 1.10 ist noch ein gutes Stück entfernt, Sie haben also noch reichlich Zeit.
 

@@ -3,25 +3,25 @@
 .. description: 
 .. tags: News
 .. date: 2014/02/05 00:17:32
-.. title: MATE-Desktop Mythbusting
+.. title: Mythen über den MATE-Desktop aufgeklärt
 .. slug: 2014-02-05-mate-desktop-mythbusting
 .. author: Martin Wimpress
 -->
 
-Ich kam in die glückliche Situation, zu der Episode 26 des 
-[Linux Unplugged](http://www.jupiterbroadcasting.com/show/linuxun/)-Podcasts
+Ich geriet in die glückliche Situation, zu der Episode 26 des 
+[Linux-Unplugged](http://www.jupiterbroadcasting.com/show/linuxun/)-Podcasts
 eingeladen zu werden, um dort ein wenig über den MATE-Desktop, und wohin er sich
-entwickelt, zu sprechen. Das MATE-Mytbusting-Video finded sich unten eingebettet.
+entwickelt, zu sprechen. Das MATE-Mythbusting-Video finded sich unten eingebettet.
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/sRNK9QnnvCo?start=603" frameborder="0" allowfullscreen></iframe>
 
 Es gelang mir nicht, alle Entwicklungs-Ziele für MATE 1.8 in der verfügbaren
-Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht 
-[MATE Roadmap](http://wiki.mate-desktop.org/roadmap) anzuschauen.
+Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht die
+[MATE-Roadmap](http://wiki.mate-desktop.org/roadmap) anzuschauen.
 
 Sollten Sie weitere Fragen haben, oder zu dem Projekt beitragen wollen,
 dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel](https://webchat.freenode.net/?channels=#mate)
-oder auf die Dursicht Ihrer [Pull-Requests auf GitHub](https://github.com/mate-desktop).
+oder auf die Durchsicht Ihrer [Pull-Requests auf GitHub](https://github.com/mate-desktop).
 
 [Jupiter Broadcasting](http://www.jupiterbroadcasting.com) produziert mehrere
 wöchentliche Videocasts und Podcasts, welche sich hauptsächlich um FLOSS drehen.

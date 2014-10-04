@@ -1,0 +1,109 @@
+<!--
+.. link:
+.. description:
+.. tags: Releases
+.. date: 2014-09-29 21:39:36
+.. title: MATE 1.8 aktualisiert
+.. slug: 2014-09-29-mate-1-8-updated
+.. author: Martin Wimpress
+-->
+
+Sander Sweers hat mehrere aktualisierte Pakete für die MATE-1.8-Reihe released,
+welche diverse Bug-Fixes und kleinere Updates beinhalten. Einige Distributionen
+haben diese Updates bereits aufgenommen, und die anderen werden bald nachziehen.
+Die Änderungen finden Sie untenstehend:
+
+## atril 1.8.1
+
+  * Beheben des Absturzes wenn auf leere Zeichenfläche während des Ladens geklickt wurde
+  * Beheben des FTBFS (gescheiterter Compile) auf dem clang-Compiler
+  * Ergänzen von "Keywords"-Einträgen in der .desktop-Datei
+
+## caja 1.8.2
+
+  * Reparatur der Textdarstellung ohne Hintergrund
+  * Der rekursive Zähler (Inhalte und Größe von Ordnern) wurde auf ein Dateisystem begrenzt.
+  * Löschen von Metadaten-Keys
+  * Weitersenden des "button-release"-Events beim Eject-Knopf
+
+## engrampa 1.8.1
+
+  * Fehlerbehebung beim Öffnen von Dateien in `.rar`-Archiven
+  * Behebung potentieller Fehler bei bestimmten passwortgeschützten `.rar`-Archiven
+  * Hinzufügen des "Keywords"-Eintrags zur .desktop-Datei
+  * Aktualisieren mehrerer Man-Pages
+  * Selektierte Applikation wird nicht mehr als System-Voreinstellung verwendet
+
+## eom 1.8.1
+
+  * Beheben von Bindestrich-als-Minuszeichen-Problemen
+  * Die Scrollbalken erhalten ein Update, wenn die Displaygröße im "normal size"-Modus verändert wird
+
+## marco 1.8.2
+
+  * Beheben von Problemen mit maximierten Java-Anwendungen
+  * Hinzufügen von "_GTK_FRAME_EXTENTS"-Hints für GTK3
+
+## mate-applets 1.8.1
+
+  * Fehlerbehebung beim Datei-Encoding
+  * Hinzufügen und Aktualisieren mehrerer Man-Pages
+  * Aktualisieren der policykit-Vendor-URL
+
+## mate-control-center 1.8.3
+
+  * Beheben eines Tippfehlers in "togglekeys-enable" (a11y)
+  * Beheben einer Schutzverletzung bei der angepassten Tastaturbelegung
+  * metacity-2-Themes werden nun im Erscheinungsbild-Applet unterstützt.
+  * Hinzufügen mehrerer Man-Pages
+  * Ergänzen von "Keywords"-Einträgen in der .desktop-Datei
+  * Anpassen des Marco-WM-Namens
+
+## mate-netbook 1.8.1
+
+  * Beheben einer Schutzverletzung beim Laden eines Applets
+  * Hinzufügen einer Man-Page
+
+## mate-panel 1.8.1
+
+  * Fehlerbehebung beim "Zum Panel hinzufügen"-Kontextmenüs bei der Verwendung mehrerer Monitore
+
+## mate-power-manager 1.8.1
+
+  * Beheben der "levels is 0"-Warnung wenn kein kbd-Backlight existiert
+  * Neue Unterstützung für die upower-0.99-API
+  * Ergänzen von "Keywords"-Einträgen in der .desktop-Datei
+  * Entfernen der *"Batterie-Rückruf"*-Abhandlung
+
+## mate-screen-saver 1.8.1
+
+  * Beheben einer Schutzverletzung bei fehlendem XRANDR
+
+## mate-settings-daemon 1.8.2
+
+  * googlemusicframe wurde durch nuvolaplayer ersetzt.
+  * Aktualisieren des Schemas zum Nutzen des Toggle-Shell-Skripts
+
+## mate-system-tools 1.8.1
+
+  * liboobs-Fehler werden nun in der Callback-Function von `mate-users-admin` korrekt behandelt.
+  * Entfernen einer potentiellen Schutzverletzung beim Beenden von `mate-users-admin`
+
+## mate-terminal 1.8.1
+
+  * Fehlerbehebung beim Öffnen eines neuen Terminals in einem Tab
+  * Doppelpunkt zu PATHCHARS_CLASS für die URL-Erkennung hinzugefügt
+
+## mate-utils 1.8.1
+
+  * Ergänzen von "Keywords"-Einträgen in der .desktop-Datei
+  * Korrektur mehrerer Man-Pages
+  * Behebung der  format-security-Warnung in `gsearchtool`
+
+## python-caja 1.8.1
+
+  * Verwendet jetzt `pkg-config` für Python-Erkennung und Variablen
+
+<div class="alert alert-success">
+<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3277" class="alert-link">Kommentare</a>
+</div>

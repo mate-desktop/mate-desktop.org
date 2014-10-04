@@ -18,7 +18,7 @@ Die wesentlichen Änderungen in 1.8 sind:
 **Caja (Datei-Manager)**
 
   * Option hinzugefügt, um IEC-Einheiten anstatt von SI-Einheiten zu verwenden
-  * Option “Übergeordneten Ort öffnen” hinzugefügt im Kontextmenü der Suchansicht
+  * Option “Übergeordneten Ort öffnen” im Kontextmenü der Suchansicht hinzugefügt
 
 **Marco (Window-Manager)**
 
@@ -26,7 +26,7 @@ Die wesentlichen Änderungen in 1.8 sind:
 
 **Panel**
 
-  * Unterstützung für Metacity-Tastaturbelegung hinzugefügt im "Start"-Dialog und Hauptmenü
+  * Unterstützung für Metacity-Tastaturbelegung im "Start"-Dialog und Hauptmenü hinzugefügt
   * Hinzufügen eines Fortschrittsbalkens zum Logout-Dialog
 
 **Kontrollcenter**
@@ -44,7 +44,7 @@ Die wesentlichen Änderungen in 1.8 sind:
 
 **Engrampa (Datei-Packprogramm)**
 
-  * Das “Extrahieren nach” Kontextmenu erscheint nun immer in Caja.
+  * Das “Extrahieren nach”-Kontextmenu erscheint nun immer in Caja.
 
 **Bildschirmschoner**
 
