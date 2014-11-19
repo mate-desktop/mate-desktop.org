@@ -55,8 +55,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Salix <http://www.salixos.org>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 
-MATE is available via *unofficial* repositories for the following Linux distributions, but
-inclusion in their official repositories is planned:
+MATE is available via *unofficial* repositories for the following Linux distributions:
 
 * `Slackware <http://www.slackware.com>`_
 
