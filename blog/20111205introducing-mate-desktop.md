@@ -3,27 +3,24 @@
 .. description:
 .. tags: Arch Linux,Debian,Linux Mint
 .. date: 2011-12-05 12:00:30
-.. title: Introducing MATE Desktop
-.. slug: 2011-12-05-introducing-mate-desktop
+.. title: Presentando el escritorio MATE
+.. slug: 2014-12-01-presentando-el-escritorio-mate
 .. author: Clement Lefebvre
 -->
 
-Welcome to the MATE Desktop Environment!
+Bienvenido al entorno de escritorio MATE!
 
-Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
-is here to provide that same desktop to you `:)`
+Gnome 2 fue el escritorio mas popular en Linux, pero ya no esta disponible...
+MATE
+esta aqui para proveerte ese mismo escritorio `:)` 
 
-Perberos initially forked Gnome 2 and called the project MATE. Users and
-developers have successfully run MATE on [Arch Linux](http://www.archlinux.org)
-and due to popular demand Perberos made it easier for MATE to compile under
-[Debian](http://www.debian.org).
+Perberos inicialmente bifurcó Gnome 2 y llamó al proyecto MATE. Usuarios y
+desarrolladores ejecutaron exitosamente MATE en [Arch Linux](http://www.archlinux.org)
+y, debido a la demanda popular, Perberos hizo que MATE sea mas facil de compilar bajo [Debian](http://www.debian.org).
 
-[Stefano Karapetsas](https://github.com/stefano-k) and [Clement Lefebvre](https://github.com/clefebvre)
-then joined the project and packaged it for Debian and [Linux Mint](http://www.linuxmint.com).
-The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.
+[Stefano Karapetsas](https://github.com/stefano-k) y [Clement Lefebvre](https://github.com/clefebvre)
+entonces se unieron al proyecto y lo empaquetaron para Debian y [Linux Mint¡(http://www.linuxmint.com).
+El escritorio MATE fue incluido en Linux Mint 12 y esta ganando popularidad.
 
-Our top priority is to improve MATE and for it to be on par, in terms of features
-and stability, with Gnome 2.32. We'll port themes, applets, and applications which
-were developed for Gnome 2, and help developers port their applications to this
-new desktop.
+Nuestra principal prioridad es mejorar MATE y para ello, igualarlo con, en terminos de características y estabilidad, con Gnome 2.32. Portaremos temas, applets, aplicaciones que fueron desarrolladas para Gnome 2 y ayudar a los desarrolladores a portar sus aplicaciones hacia este nuevo escritorio.
 
