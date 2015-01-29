@@ -76,9 +76,9 @@ TRANSLATIONS = {
     "de": "./de",
     "es": "./es",
     "fr": "./fr",
-    #"it": "./it",
+    "it": "./it",
     "nl": "./nl",
-    #"pl": "./pl",
+    "pl": "./pl",
     #"pt_br": "./br",
     "tr": "./tr",
 }
@@ -362,7 +362,7 @@ REDIRECTIONS = [
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
-	'rsync -a --delete output/ /var/www/new-site/',
+	#'rsync -a --delete output/ /var/www/new-site/',
 ]
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch
