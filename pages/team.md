@@ -47,6 +47,10 @@ Development, packaging for Debian, documentation maintainer.
 The MATE Desktop Environment continues to improve and develop thanks
 to the tireless efforts of the following fine people.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
+
+Development.
+
 ### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
 Packaging for Fedora.
@@ -54,6 +58,10 @@ Packaging for Fedora.
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
 Packaging for Slackware.
+
+### ![](/assets/img/flags/32/Greece.png) Vangelis Mouhtsis (gnugr)
+
+Packaging for Debian.
 
 ### ![](/assets/img/flags/32/USA.png) Adam Erdman (hekel)
 
