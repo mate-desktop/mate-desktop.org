@@ -41,6 +41,7 @@ Which distributions support MATE?
 MATE is available via the **official** repositories for the following Linux distributions:
 
 * `Arch Linux <http://www.archlinux.org>`_
+* `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
 * `Gentoo <http://www.gentoo.org>`_
