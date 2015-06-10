@@ -161,13 +161,13 @@ NAVIGATION_LINKS = {
 		('/nl/donate/', 'Donate'),
     ),
     "tr": (
-		('/tr_tr/blog/', 'Blog'),
-		('/tr_tr/install/', 'Kurulum'),
-		('/tr_tr/gallery/1.8/', 'Screenshots'),
-		('/tr_tr/development/', 'Geliştirme'),
-		('/tr_tr/community/', 'Topluluk'),
-		('/tr_tr/team/', 'Ekip'),
-		('/tr_tr/donate/', 'Bağış'),
+		('/tr/blog/', 'Blog'),
+		('/tr/install/', 'Kurulum'),
+		('/tr/gallery/1.8/', 'Screenshots'),
+		('/tr/development/', 'Geliştirme'),
+		('/tr/community/', 'Topluluk'),
+		('/tr/team/', 'Ekip'),
+		('/tr/donate/', 'Bağış'),
     ),
 }
 
