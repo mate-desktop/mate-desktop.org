@@ -1,8 +1,10 @@
 
 Mate-1.10 desktop compiled with GTK3 for f22/21.
+
 Do not use use a mix of GTK2 packages from fedora stable, and GTK3 packages from this repo.
 
 Installation instructions:
+
 Install the repo file and do a 'yum update'.
 
 f22:
@@ -26,7 +28,9 @@ Or use dnf command:
 
 
 Bug reporting:
+
 https://github.com/mate-desktop
+
 Please include GTK3 and fedora in topic header.
 
 Some notes:
