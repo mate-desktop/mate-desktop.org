@@ -1,0 +1,113 @@
+<!--
+.. link:
+.. description:
+.. tags: Releases
+.. date: 2014-09-29 21:39:36
+.. title: MATE 1.8 actualizado
+.. slug: 2014-09-29-mate-1-8-updated
+.. author: Martin Wimpress
+-->
+
+Sander Sweers ha lanzado varios paquetes actualizados para la serie MATE 1.8
+que se trata de una variedad de correcciones de errores y actualizaciones menores. 
+Algunas distribuciones ya han incorporado estas actualizaciones y otras lo haran
+a su debido tiempo. Lea aqui abajo para ver los cambios:
+distributions have already incorporated these updates and the others will 
+follow in due course. See below for the changes:
+
+## atril 1.8.1
+  
+  * Solucionado bloqueo cuando se hace click sobre un lienzo vacio mientras carga
+  * Solucionado FTBFS cuando se complica con clang
+  * Se agregaron palabras clave a los ficheros .desktop
+
+
+## caja 1.8.2
+
+  * Solucionado render de texto sobre fondo vacio
+  * Scount profundo limitado (contenido y tamaño de carpetas) a un sistema de ficheros
+  * Se agrego manejador de borrado de llaves de metadata
+  * Propagar evento de soltar botón cuando se esta eyectando
+  
+## engrampa 1.8.1
+
+  * Solucionado abrir ficheros dentro de archivos `.rar`
+  * Solucionados posibles errores con algunos ficheros `.rar` protegidos por contraseña
+  * Se agregaron palabras clave a los ficheros .desktop
+  * Se han actualizado varias paginas man
+  * No selecciona la aplicación elegida como por defecto del sistema
+  
+## eom 1.8.1
+
+  * Solucionado inconvenientes con hyphen-as-minus-sign
+  * Actualiza las barras laterales cuando la pantalla se pone en modo "tamaño normal"
+  
+## marco 1.8.2
+
+  * Solucionado inconveniente con aplicaciones Java maximizadas
+  * Se agregaron pistas _GTK_FRAME_EXTENTS para GTK3
+  
+## mate-applets 1.8.1
+
+  * Solucionado encondificacion de ficheros
+  * Se agregaron y actualizaron varias paginas man
+  * Se actualizó 
+  * Actualizado URL del proveedor policykit
+  
+## mate-control-center 1.8.3
+
+  * Solucionado error de tipeo en togglekeys-activo (a11y)
+  * Solucionado segfault con teclas personalizadas
+  * Se agregó soporte para temas de metacity-2 en capplet de apariencia
+  * Se agregaron varias paginas man
+  * Se agregaron palabras clave a los ficheros .desktop
+  * Se actualizó el nombre de Marco WM
+
+## mate-netbook 1.8.1
+
+  * Solucionado segfault en la carga de applet
+  * Se agregó pagina man
+
+## mate-panel 1.8.1
+
+  * Solucionado menu contextual "Agregar al Panel" con múltiples monitores
+
+## mate-power-manager 1.8.1
+
+  * Solucionado advertencia "niveles es 0" si no hay retroiluminación del teclado presente
+  * Se agregó soporte para el API upower-0.99
+  * Se agregaron palabras clave a los ficheros .desktop
+  * Eliminada lógica de *"bateria removida"*
+
+## mate-screen-saver 1.8.1
+
+  * Solucionado segfault en ausencia de XRANDR
+
+## mate-settings-daemon 1.8.2
+
+  * Reemplazado googlemusicframe con nuvolaplayer
+  * Esquema actualizado para usar secuencia de comandos de shell
+  
+## mate-system-tools 1.8.1
+
+  * Solucionado errores del proceso liboobs en la funcion de devolución de `mate-users-admin` 
+  * Solucionado posible segfault en la salida para `mate-users-admin`
+  
+## mate-terminal 1.8.1
+
+  * Solucionado abrir nueva terminal en una pestaña
+  * Se agregó colon a PATHCHARS_CLASS para la detección de URL
+  
+## mate-utils 1.8.1
+
+  * Se agregaron palabras clave a los ficheros .desktop
+  * Se corrigieron varias paginas man
+  * Solucionado advertencia format-secury en `gsearchtool`
+  
+## python-caja 1.8.1
+
+  * Ahora usa `pkg-config` para la deteccion python y variables
+  
+<div class="alert alert-success">
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3277" class="alert-link">Comments</a>
+</div>
