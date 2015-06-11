@@ -1,10 +1,10 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases
-.. date: 2015-06-10 20:39:36
+.. tags: Releases,draft
+.. date: 2015-06-11 20:40:40
 .. title: MATE 1.10 released
-.. slug: 2015-06-10-mate-1-10-released
+.. slug: 2015-06-11-mate-1-10-released
 .. author: Martin Wimpress
 -->
 
