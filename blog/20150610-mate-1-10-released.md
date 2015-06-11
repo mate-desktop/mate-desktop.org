@@ -1,15 +1,16 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases,draft
-.. date: 2015-06-11 20:40:40
+.. tags: Releases
+.. date: 2015-06-11 22:40:40
 .. title: MATE 1.10 released
 .. slug: 2015-06-11-mate-1-10-released
 .. author: Martin Wimpress
 -->
 
-The team is proud to announce the release of MATE Desktop 1.10. We would like to
-thank every MATE contributor and user.
+After 15 months of development the MATE Desktop team are proud to announce
+the release of MATE Desktop 1.10. We would like to thank every MATE contributor
+and user.
 
 ![about](/assets/img/blog/about-mate-1.10.png)
 
@@ -30,7 +31,13 @@ The headline changes in MATE 1.10 are:
 
 The various components of MATE 1.10 are available for download here:
 
-  * <http://pub.mate-desktop.org/releases/1.10>
+  * <http://pub.mate-desktop.org/releases/1.10/>
+
+## Screenshots
+
+  * [MATE 1.10 Screenshots](/gallery/1.10/)
+
+## Changelog
 
 Here is a more detailed break down of what has changed.
 
@@ -313,20 +320,9 @@ and OSS sound systems.
   * Added About Extension button to the Extensions tab in Caja 
   * Assorted bug fixes
 
-<br/><br/>
-
-As usual, we asked people from distributions that ship MATE what they think
-about our Desktop Environment.
-
-<br/><br/>
-
-MATE 1.10 is the result of 15 months of intense development and contains xxxx
-contributions by yy people, and more than 291 translators.
-
-  * [MATE 1.10 Screenshots](/gallery/1.10/)
 
 <br/><br/>
 
 <div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2948" class="alert-link">Comments</a>
+<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3620" class="alert-link">Comments</a>
 </div>

@@ -1,8 +1,8 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases,Fedora,draft
-.. date: 2015-06-11 20:30:30
+.. tags: Releases,Fedora
+.. date: 2015-06-11 22:30:30
 .. title: MATE 1.10 with GTK3 for Fedora 21 and 22
 .. slug: 2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22
 .. author: Wolfgang Ulbrich
