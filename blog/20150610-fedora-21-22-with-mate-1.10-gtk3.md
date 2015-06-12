@@ -31,7 +31,7 @@ Install the repo file and do a `yum update`.
 Or use `dnf` command:
 
     sudo dnf copr enable raveit65/Mate-GTK3
-    sudo yum update
+    sudo dnf update
 
 ## Reporting issues
 
