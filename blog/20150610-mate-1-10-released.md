@@ -201,7 +201,7 @@ and OSS sound systems.
   * Updated translations 
   * Assorted bug fixes
 
-#### Atril 
+### Atril 
 
   * Added epub support
   * Added xz compression support
