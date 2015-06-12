@@ -21,7 +21,7 @@ genehmigt.
 Es freut mich, unsere GSoC-Studenten für 2014 bekanntzugeben:
 
   * Avishkar Gupta wird daran arbeiten, Atril -- den Dokumentenbetrachter des MATE-Desktops -- 
-    um Fähigkeiten zur Darstellung von ePub zu erweitern.
+    um Fähigkeiten zur Darstellung von EPUB zu erweitern.
   * Michal Ratajsky wird daran arbeiten, Unterstützung für GStreamer 1.0 in
     den MATE-Desktop einzubauen, um dadurch die Abhängigkeit zu der veralteten Version 0.10
     dieser Bibliothek zu ersetzen.

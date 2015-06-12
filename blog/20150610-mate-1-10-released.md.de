@@ -1,0 +1,49 @@
+<!--
+.. link:
+.. description:
+.. tags: Releases
+.. date: 2015-06-11 22:40:40
+.. title: MATE 1.10 released
+.. slug: 2015-06-11-mate-1-10-released
+.. author: Martin Wimpress
+-->
+
+Nach 15 Monaten Entwicklungszeit freut sich das MATE-Desktop Team, den Release
+des MATE-Desktop 1.10 bekanntzugeben. Wir möchten uns bei allen Unterstützern
+und Nutzern von MATE bedanken.
+
+![about](/assets/img/blog/about-mate-1.10.png)
+
+## Die Neuerungen in MATE 1.10
+
+Die auffälligsten Änderungen in MATE 1.10:
+
+  * Jede Komponente von MATE kann jetzt sowohl für GTK2 als auch für GTK3 gebaut werden.
+    * Die Unterstützung von GTK3 wird weiterhin als *experimentell* angesehen.
+    * Arch Linux und Fedora bieten derzeit alternative GTK3-Builds an.
+  * [GSoC 2014] Caja bietet einen "Extension-Manager", mit dem Plugins zur Laufzeit (de)aktiviert werden können.
+  * [GSoC 2014] Atril unterstützt jetzt das [EPUB-Format](http://de.wikipedia.org/wiki/EPUB).
+  * [GSoC 2014] Einführung von `libmatemixer`, einer Audio-Mixer-Bibliothek für den MATE-Desktop.
+    * Die Bibliothek bietet ein abstraktes API, das den Zugriff auf die Mixer-Funktionalitäten in den 
+    Sound-Systemen PulseAudio, ALSA and OSS ermöglicht.
+  * Mithilfe statischer Codeanalyse wurden viele Speicherlecks geschlossen.
+  * Die Theme-Unterstützung wurde auf GTK 3.16 ausgeweitet, inklusive Unterstützung von CSD und "Pop-Overs".
+
+Alle Komponenten von MATE 1.10 können hier heruntergeladen werden:
+
+  * <http://pub.mate-desktop.org/releases/1.10/>
+
+## Screenshots
+
+  * [MATE 1.10 Screenshots](/gallery/1.10/)
+
+## Changelog
+
+Für eine detaillierte Auflistung der Änderungen besuchen Sie bitte den englischsprachigen [Beitrag](/blog/2015-06-11-mate-1-10-released/).
+
+
+<br/><br/>
+
+<div class="alert alert-success">
+<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3620" class="alert-link">Kommentare</a>
+</div>
