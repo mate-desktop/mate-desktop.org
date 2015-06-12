@@ -19,7 +19,7 @@ und Nutzern von MATE bedanken.
 Die auffälligsten Änderungen in MATE 1.10:
 
   * Jede Komponente von MATE kann jetzt sowohl für GTK2 als auch für GTK3 gebaut werden.
-    * Die Unterstützung für GTK3 wird weiterhin als *experimentell* angesehen.
+    * Die Unterstützung von GTK3 wird weiterhin als *experimentell* angesehen.
     * Arch Linux und Fedora bieten derzeit alternative GTK3-Builds an.
   * [GSoC 2014] Caja bietet einen "Extension-Manager", mit dem Plugins zur Laufzeit (de)aktiviert werden können.
   * [GSoC 2014] Atril unterstützt jetzt das [EPUB-Format](http://de.wikipedia.org/wiki/EPUB).
@@ -27,7 +27,7 @@ Die auffälligsten Änderungen in MATE 1.10:
     * Die Bibliothek bietet ein abstraktes API, das den Zugriff auf die Mixer-Funktionalitäten in den 
     Sound-Systemen PulseAudio, ALSA and OSS ermöglicht.
   * Mithilfe statischer Codeanalyse wurden viele Speicherlecks geschlossen.
-  * Die Theme-Unterstützung wurde auf GTK 3.16 ausgeweitet, inclusive Unterstützung von CSD und "Pop-Overs".
+  * Die Theme-Unterstützung wurde auf GTK 3.16 ausgeweitet, inklusive Unterstützung von CSD und "Pop-Overs".
 
 Alle Komponenten von MATE 1.10 können hier heruntergeladen werden:
 
@@ -39,7 +39,7 @@ Alle Komponenten von MATE 1.10 können hier heruntergeladen werden:
 
 ## Changelog
 
-Für eine detaillierte Auflistung der Änderungen besuchen Sie bitte den englischsprachige [Beitrag](/blog/2015-06-11-mate-1-10-released/).
+Für eine detaillierte Auflistung der Änderungen besuchen Sie bitte den englischsprachigen [Beitrag](/blog/2015-06-11-mate-1-10-released/).
 
 
 <br/><br/>
