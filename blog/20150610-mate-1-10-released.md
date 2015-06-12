@@ -53,7 +53,7 @@ Here is a more detailed break down of what has changed.
   * Migrated `MateRRScreen`, `GnomeRRConfig` and `GnomeOutputInfo` to GObject.
   * Added GObject Introspection
   * Added automatic-mnemonics key for GTK `xsetting`
-  * Added MateAboutDialog class to have traditional about dialog with GTK3
+  * Added `MateAboutDialog` class to have traditional about dialog with GTK3
   * Added `MateColorButton` class to have traditional color selection dialog with GTK3
   * Added `org.mate.debug` GSettings schema
   * Uses `GDK_WINDOW_XID` for inter-GTK compatibility
@@ -227,7 +227,7 @@ and OSS sound systems.
   * Fixed several accessibility issues.
   * Fixed segmentation faults and many memory leaks
   * Updated to `poppler` 0.16.0 API changes
-  * Use MateAboutDialog from libmate-desktop.
+  * Migrated to `MateAboutDialog` from `libmate-desktop`
   * Updated translations 
   * Assorted bug fixes
 
