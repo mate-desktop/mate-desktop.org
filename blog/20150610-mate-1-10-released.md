@@ -152,7 +152,7 @@ and OSS sound systems.
   * Enable window shadows for CSD applications
   * Enable regular icons for window controls
   * Disable use of symbolic icons
-  * Disable spinner animation to avoid high cpu load
+  * Use mate logo for spinner animation
   * Refactor GreenLaguna
   * Refactor ContrastHigh themes
   * TraditionalOKTest is installable with normal configure flags
