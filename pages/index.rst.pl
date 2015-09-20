@@ -145,7 +145,7 @@ Skąd się wzięła nazwa?
 ------------------------------
 
 Nazwa  *"MATE"*, wymawiane *Mate*, pochodzi od `yerba maté
-<https://pl.wikipedia.org/wiki/Yerba_mate>`_, gatunku ostrokrzewu paragwajskiego pochodzącego gównie z krajów Ameryki Południowej. 
+<https://pl.wikipedia.org/wiki/Yerba_mate>`_, gatunku ostrokrzewu paragwajskiego pochodzącego głównie z krajów Ameryki Południowej. 
 Jej liście zawierają kofeinę i są  używane do tworzenia naparu i napoju zwanego mate.
 
 
