@@ -3,63 +3,58 @@
 .. description:
 .. tags: Mailing List,Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
-.. title: Community
-.. slug: community
+.. title: Społeczność
+.. slug: społeczność
 -->
 
-You can engage with the MATE community in a number of different ways. The
-resources on this page will help you learn more about MATE or help you seek
-support from the community.
+Możesz dołączyć do społeczności MATE na wiele sposobów. Źródła na tej stronie 
+pozwolą Ci nauczyć się więcej na temat MATE oraz pozwolą Ci szukać pomocy w społeczności. 
 
 ## Wiki
 
-You'll find lots of useful material on our wiki, but we also encourage you
-to help improve it.
+Znajdziesz wiele użytecznych materiałów na naszym wiki, ale zachęcamy Cię również do udoskonalenia go.
 
   * <http://wiki.mate-desktop.org>
 
-## Mailing list
+## Lista mailingowa
 
-You're old school, we get that. Come and join the debate on the MATE mailing
-list.
+Jesteśmy staroświeccy, posiadamy ją. Przyjdź i dołącz do dyskusji na liście mailingowej MATE.
 
   * <http://ml.mate-desktop.org/listinfo/>
 
-## Forums
+## Fora
 
-You don't do email, we get that too. Come and join our community forums.
+Nie wysyłamy maili, też to mamy. Chodź i dołącz do forów naszej społeczności.
 
   * <http://forums.mate-desktop.org>
   
-### Official forum threads
+### Oficjane wątki forów
 
-We have also official threads in various distribution forums:
+Mamy również oficjalne wątki na forach różnych dystrybucji:
 
-  * [MATE thread on Archlinux forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE thread on Linux Mint forum](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [MATE thread on SalixOS forum](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [MATE thread on Ubuntu forum](http://ubuntuforums.org/showthread.php?p=11333073)
+  * [wątek MATE na forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
+  * [wątek MATE na forum Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=86481)
+  * [wątek MATE na forum SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
+  * [wątek MATE na forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Social Media
 
-You're the social type right?
+Jesteś towarzyski, prawda?
 
-  * [MATE Google+ Community](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE Google+ Page](https://plus.google.com/105251070079435964338/)
-  * [MATE Twitter Profile](https://twitter.com/mate_desktop) 
+  * [Społeczność MATE Google+](https://plus.google.com/u/0/communities/103904770310171205536)
+  * [strona MATE Google+ ](https://plus.google.com/105251070079435964338/)
+  * [profil MATE na Twitterze](https://twitter.com/mate_desktop) 
 
 ## IRC
 
-You're an Internet guru. We've got you covered, come and join us on IRC.
+
+Jesteś guru Internetu. Zadbamy o to, chodź i dołącz do nas na IRC.
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-There are several IRC channels available. You can find all the details on
-our [IRC wiki page](http://wiki.mate-desktop.org/irc).
+Jest dostępnych kilka kanałów IRC. Możesz znaleźć szczegóły na naszej [stonie wiki IRC](http://wiki.mate-desktop.org/irc).
 
-## Planet
-
-Blog posts from members of the MATE community are aggregated on our Planet.
-
-  * [Planet MATE](http://planet.mate-desktop.org)
+## Planeta
+Posty blogów członków społeczności MATE są zebrane na naszej Planecie. 
+  * [Planeta MATE](http://planet.mate-desktop.org)
 
