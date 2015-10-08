@@ -18,10 +18,6 @@ This is the core MATE team.
 
 Lead Developer, packaging for Debian, GSoC mentor.
 
-### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers (infirit)
-
-Development, packaging for Gentoo, release engineer, documentation maintainer.
-
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
 Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management.
