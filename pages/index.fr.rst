@@ -21,7 +21,7 @@ souligne certains des principes qui guident le projet.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Vous pouvez trouver davantage de `captures d'écran de MATE <gallery/1.8/>`_ dans notre `galérie <gallery/>`_.
+Vous pouvez trouver davantage de `captures d'écran de MATE <gallery/1.12/>`_.
 
 ----------
 Nouveautés

@@ -137,7 +137,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/blog/', 'Blog'),
 		('/install/', 'Install'),
-		('/gallery/1.10/', 'Screenshots'),
+		('/gallery/1.12/', 'Screenshots'),
 		('/development/', 'Development'),
 		('/community/', 'Community'),
 		('/team/', 'Team'),
@@ -146,7 +146,7 @@ NAVIGATION_LINKS = {
     "de": (
 		('/de/blog/', 'Blog'),
 		('/de/install/', 'Installation'),
-		('/de/gallery/1.10/', 'Screenshots'),
+		('/de/gallery/1.12/', 'Screenshots'),
 		('/de/development/', 'Entwicklung'),
 		('/de/community/', 'Community'),
 		('/de/team/', 'Team'),
@@ -155,7 +155,7 @@ NAVIGATION_LINKS = {
     "es": (
 		('/es/blog/', 'Blog'),
 		('/es/install/', 'Instalar'),
-		('/es/gallery/1.10/', 'Imágenes'),
+		('/es/gallery/1.12/', 'Imágenes'),
 		('/es/development/', 'Desarrollo'),
 		('/es/community/', 'Comunidad'),
 		('/es/team/', 'Team'),
@@ -164,7 +164,7 @@ NAVIGATION_LINKS = {
     "fr": (
 		('/fr/blog/', 'Blog'),
 		('/fr/install/', 'Installez'),
-		('/fr/gallery/1.10/', 'Screenshots'),
+		('/fr/gallery/1.12/', 'Screenshots'),
 		('/fr/development/', 'Développement'),
 		('/fr/community/', 'Communauté'),
 		('/fr/team/', 'Team'),
@@ -173,7 +173,7 @@ NAVIGATION_LINKS = {
     "id": (
 		('/id/blog/', 'Blog'),
 		('/id/install/', 'Install'),
-		('/id/gallery/1.10/', 'Gallery'),
+		('/id/gallery/1.12/', 'Gallery'),
 		('/id/development/', 'Development'),
 		('/id/community/', 'Community'),
 		('/id/team/', 'Team'),
@@ -182,7 +182,7 @@ NAVIGATION_LINKS = {
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
-		('/it/gallery/1.10/', 'Schermate'),
+		('/it/gallery/1.12/', 'Schermate'),
 		('/it/development/', 'Sviluppo'),
 		('/it/community/', 'Comunità'),
 		('/it/team/', 'Team'),
@@ -191,7 +191,7 @@ NAVIGATION_LINKS = {
     "nl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Installatie'),
-		('/nl/gallery/1.10/', 'Screenshots'),
+		('/nl/gallery/1.12/', 'Screenshots'),
 		('/nl/development/', 'Ontwikkeling'),
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
@@ -200,7 +200,7 @@ NAVIGATION_LINKS = {
     "pl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Install'),
-		('/nl/gallery/1.10/', 'Screenshots'),
+		('/nl/gallery/1.12/', 'Screenshots'),
 		('/nl/development/', 'Development'),
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
@@ -209,7 +209,7 @@ NAVIGATION_LINKS = {
     "pt": (
 		('/pt/blog/', 'Blog'),
 		('/pt/install/', 'Install'),
-		('/pt/gallery/1.10/', 'Screenshots'),
+		('/pt/gallery/1.12/', 'Screenshots'),
 		('/pt/development/', 'Development'),
 		('/pt/community/', 'Community'),
 		('/pt/team/', 'Team'),
@@ -218,7 +218,7 @@ NAVIGATION_LINKS = {
     "tr": (
 		('/tr/blog/', 'Blog'),
 		('/tr/install/', 'Kurulum'),
-		('/tr/gallery/1.10/', 'Screenshots'),
+		('/tr/gallery/1.12/', 'Screenshots'),
 		('/tr/development/', 'Geliştirme'),
 		('/tr/community/', 'Topluluk'),
 		('/tr/team/', 'Ekip'),

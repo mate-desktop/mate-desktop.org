@@ -20,7 +20,7 @@ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.10/>`_.
+Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.12/>`_.
 
 ------
 Berita
