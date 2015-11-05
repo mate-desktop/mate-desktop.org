@@ -35,7 +35,7 @@ if [ -d ${HOME}/Websites/mate-desktop.org/.git ]; then
 	fi
 
 	git fsck-objects --full
-	if [$? -ne 0 ]; then
+	if [ $? -ne 0 ]; then
 		echo " - WARNING! 'git fsck-objects' failed."
 		echo " - WARNING! attempting to do a fresh clone."
 		clone
