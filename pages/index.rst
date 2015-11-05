@@ -20,7 +20,7 @@ outlines some of the principles that guide the project.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-You can find more `screenshots of MATE <gallery/1.8/>`_ in our `gallery <gallery/>`_.
+You can find more `screenshots of MATE <gallery/1.10/>`_.
 
 ----
 News
@@ -51,6 +51,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `openSUSE <http://www.opensuse.org>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
+* `Point Linux <http://pointlinux.org/>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 * `Ubuntu <http://www.ubuntu.com>`_

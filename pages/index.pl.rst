@@ -49,6 +49,7 @@ Mate jest dostępne przez **oficjalne** repozytoria dla następujących dystrybu
 * `openSUSE <http://www.opensuse.org>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
+* `Point Linux <http://pointlinux.org/>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 * `Ubuntu <http://www.ubuntu.com>`_

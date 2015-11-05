@@ -22,9 +22,9 @@ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
 
 Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.8/>`_ pada `Galeri <gallery/>`_.
 
-----
+------
 Berita
-----
+------
 
 .. post-list::
     :lang: en
@@ -34,9 +34,9 @@ Tulisan blog juga di-index oleh `tag <tags/>`_ dan `diarsip berdasarkan tanggal 
 Anda juga bisa melihat pada `Planet MATE <http://planet.mate-desktop.org>`_
 untuk melihat apa yang ditulis pada blog komunitas MATE.
 
----------------------------------
+-------------------------------
 Distribusi yang mendukung MATE?
----------------------------------
+-------------------------------
 
 MATE tersedia melalui repositori **resmi** untuk distribusi Linux berikut:
 
@@ -71,9 +71,9 @@ Anda juga bisa `melihat DistroWatch.com untuk semua distribusi yang mendukung MA
 Komunitas MATE telah mendokumentasikan bagaimana cara menginstall MATE pada banyak distribusi pada
 `panduan installasi <http://wiki.mate-desktop.org/download>`_.
 
-------------
+--------
 Aplikasi
-------------
+--------
 
 MATE terdiri dari beberapa aplikasi. Perubahan nama diperlukan untuk menghindari konflik dengan 
 komponen GNOME.
@@ -141,9 +141,9 @@ berjalan pada terminal VT102, VT220, dan xterm. MATE Terminal juga memiliki kema
 banyak terminal dalam satu jendela (tab) dan mendukung banyak konfigurasi yang berbeda (profil). 
 MATE Terminal adalah fork dari GNOME Terminal.
 
-------------------------------
+-------------------------
 Dari mana asal usul nama?
-------------------------------
+-------------------------
 
 Nama *"MATE"*, diucapkan *Ma-Tay*, berasal dari `yerba maté
 <http://en.wikipedia.org/wiki/Yerba_mate>`_, sebuah spesies tanaman asli di daerah subtropis Amerika Selatan.
