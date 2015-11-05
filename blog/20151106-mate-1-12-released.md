@@ -27,7 +27,7 @@ The headline changes in MATE 1.12 are:
   * Extended systemd support.
   * Long standing bugs and many little usability paper-cuts were fixed.
     * For example, panel applets are no longer reordered when changing screen resolutions.
-  * Translations updated and a number of compoents now retrieve strings directly from `gschema` (requires intltool 0.50.1).
+  * Translations updated and a number of components now retrieve strings directly from `gschema` (requires intltool 0.50.1).
   * Dropped support for `win32` and `osx`.
 
 The various components of MATE 1.12 are available for download here:
