@@ -1,9 +1,6 @@
-# Python byte-code and libraries
-*.py[cdo]
-
-# Nikola cache and output directories
-cache
-output
-
-# Nikola database
 .doit.db
+*.pyc
+www/
+output/
+cache/
+__pycache__/

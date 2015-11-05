@@ -39,17 +39,14 @@ ${template_hooks['extra_head']()}
                         ${base.html_navigation_links()}
 		    </ul>
                     
-		    <ul class="nav pull-right">
-                        <!-- MATE social icons -->
-                        ${social_icons}           
-                        
-                        <!-- Disable auto translation links         
+		    <ul class="nav pull-right">                        
+						<!-- disable translation dropdown
                         <%block name="belowtitle">					
                         %if len(translations) > 1000:
                             <li>${base.html_translations()}</li>
                         %endif
                         </%block>
-                        -->
+						-->
                         
                         % if not hide_sourcelink:
                             <li><%block name="sourcelink"></%block></li>
@@ -87,6 +84,10 @@ ${template_hooks['extra_head']()}
 <div class="footerbox">
     ${content_footer}
     ${template_hooks['page_footer']()}
+
+    <!-- MATE social icons -->
+	<br />
+    ${social_icons}           
 </div>
 ${base.late_load_js()}
     <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
