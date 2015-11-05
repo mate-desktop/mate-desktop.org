@@ -20,7 +20,7 @@ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.8/>`_ pada `Galeri <gallery/>`_.
+Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.10/>`_.
 
 ------
 Berita
@@ -55,8 +55,7 @@ MATE tersedia melalui repositori **resmi** untuk distribusi Linux berikut:
 * `Salix <http://www.salixos.org>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 
-MATE tersedia melalui repository *tidak resmi* untuk distribusi Linux berikut, tetapi rencana untuk
-memasukkan kedalam repository resmi sudah direncanakan:
+MATE tersedia melalui repository *tidak resmi* untuk distribusi Linux berikut:
 
 * `Slackware <http://www.slackware.com>`_
 
