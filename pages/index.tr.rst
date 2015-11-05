@@ -56,6 +56,7 @@ MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttu
 * `Salix <http://www.salixos.org>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Void Linux <http://www.voidlinux.eu/>`_
 * `Vector Linux <http://vectorlinux.com>`_
 
 MATE, aşağıdaki GNU/Linux dağıtımlarını için *gayri resmî* depolarda mevcuttur

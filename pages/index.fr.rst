@@ -57,6 +57,7 @@ MATE est disponible via les dépôts **officiels** des distributions GNU/Linux s
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
 * `Vector Linux <http://vectorlinux.com>`_
+* `Void Linux <http://www.voidlinux.eu/>`_
 
 MATE est disponible via des dépôts *non officiels* pour les distributions GNU/Linux suivantes,
 mais l'inclusion dans leurs dépôts officiels est prévue :

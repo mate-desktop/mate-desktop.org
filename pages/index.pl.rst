@@ -55,6 +55,7 @@ Mate jest dostępne przez **oficjalne** repozytoria dla następujących dystrybu
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
 * `Vector Linux <http://vectorlinux.com>`_
+* `Void Linux <http://www.voidlinux.eu/>`_
 
 Mate jest dostępne przez **nieoficjalne** repozytoria dla następujących dystrybucji Linux 
 (zawarcie ich w oficjalnych repozytoriach jest planowane):

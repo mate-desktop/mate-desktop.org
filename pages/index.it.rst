@@ -56,6 +56,7 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
 * `Vector Linux <http://vectorlinux.com>`_
+* `Void Linux <http://www.voidlinux.eu/>`_
 
 MATE is available via *unofficial* repositories for the following Linux distributions, but
 inclusion in their official repositories is planned:
