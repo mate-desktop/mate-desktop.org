@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NIKOLA_ENV="nikola-701"
+NIKOLA_ENV="nikola-773"
 
 clone ()
 {
@@ -18,9 +18,9 @@ clone ()
 
 echo "Deploying mate-desktop.org"
 
-if [ -d ${HOME}/PythonEnvs/${NIKOLA_ENV} ]; then
+if [ -d ${HOME}/Snakepit/${NIKOLA_ENV} ]; then
 	echo " - Found Nikola stack."
-	source ${HOME}/PythonEnvs/${NIKOLA_ENV}/bin/activate
+	source ${HOME}/Snakepit/${NIKOLA_ENV}/bin/activate
 else
 	echo " - ERROR! I couldn't find the Nikola stack. Exitting."
 	exit 1
@@ -60,3 +60,4 @@ fi
 
 nikola build
 nikola deploy
+nikola deploy local
