@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-deploy
+
 
 from __future__ import unicode_literals
 import time
@@ -639,8 +640,13 @@ DEPLOY_COMMANDS = {
     'default': [
          'find output -type d -exec chmod 755 {} \;',
          'find output -type f -exec chmod 644 {} \;',
-	     'rsync -a --delete output/ martin@mate-desktop.org:/var/www/new-site/',
-    ]
+	],
+	'local': [
+	     'rsync -a --delete output/ /var/www/new-site/',
+    ],
+	'remote': [
+	     'rsync -av --delete output/ martin@mate-desktop.org:/var/www/new-site/',
+    ],
 }
 
 # For user.github.io OR organization.github.io pages, the DEPLOY branch
@@ -690,7 +696,9 @@ FILTERS = {
     ".js":   [filters.yui_compressor],
     ".jpg":  [filters.jpegoptim],
     ".jpeg": [filters.jpegoptim],
+    ".json": [filters.jsonminify],
     ".png":  [filters.optipng],
+    ".xml":  [filters.xmlminify],
 }
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
