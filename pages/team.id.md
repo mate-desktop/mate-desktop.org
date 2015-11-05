@@ -1,98 +1,130 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags:
 .. date: 2011-12-05 07:25:21
 .. title: Tim
 .. slug: team
 -->
 
-MATE dihadirkan untuk Anda oleh grup kelompok pengembang, penterjemah, pemaket, artis, dan administrator 
+MATE dihadirkan untuk Anda oleh grup kelompok pengembang, penterjemah, pemaket, artis, dan administrator
 sistem internasional.
 
-## Pendiri
+## Core Team
 
-Lingkungan Desktop MATE diciptakan oleh orang-orang berikut:
-
-### ![](/assets/img/flags/32/Argentina.png) Perberos
-
-Pendiri proyek, pengembangan, pemaket untuk Archlinux.
+This is the core MATE team.
 
 ### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
 
-Pengembang utama, pemaket untuk Debian dan Ubuntu.
-
-### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
-
-Pengembang utama, pemaket untuk Debian dan Ubuntu.
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
-Manajemen proyek, pengembangan.
-
-## Dewan
-
-Lingkungan Desktop MATE memiliki Dewan Direktur. 
-[halaman wiki MATE Board](http://wiki.mate-desktop.org/board)
-mendata anggota dan tugas-tugasnya.
-
-## Kontributor
-
-Lingkungan Desktop MATE terus berkembang berkat adanya orang-orang dibawah ini.
-
-### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
-
-Pengembangan.
-
-### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
-
-Pengembangan, pemaket untuk openSUSE.
-
-### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
-
-Pengembangan, pemaket untuk Fedora.
-
-### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers (infirit)
-
-Pengembangan, pemaket untuk Gentoo.
-
-### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
-
-pemaket untuk Fedora.
+Lead Developer, packaging for Debian, GSoC mentor.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-pemaket untuk Arch Linux, administrasi sistem,pengelola LiveCD MATE, dan advokasi proyek.
+Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management.
+
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+
+Development, packaging for Fedora, theme maintainer.
+
+### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
+
+Development, packaging for Linux Mint.
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+Development, packaging for Debian and Ubuntu.
+
+### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
+
+Development, packaging for Debian, X2Go integration.
+
+## Contributors
+
+The MATE Desktop Environment continues to improve and develop thanks
+to the tireless efforts of the following fine people.
+
+### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
+
+Development.
+
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
+
+Packaging for Fedora.
+
+### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
+
+Packaging for Slackware.
+
+### ![](/assets/img/flags/32/Greece.png) Vangelis Mouhtsis (gnugr)
+
+Packaging for Debian.
 
 ### ![](/assets/img/flags/32/USA.png) Adam Erdman (hekel)
 
-pemaket untuk Arch Linux, dokumentasi.
-
-### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
-
-pemaket untuk Arch Linux, administrasi sistem.
-
-### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
-
-pemaket untuk Arch Linux.
-
-### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
-
-Karya seni & grafis, administrasi sistem.
+Packaging for Arch Linux, man pages.
 
 ### ![](/assets/img/flags/32/Greece.png) Efstathios Iosifidis (diamond_gr)
 
-Media sosial, promosi.
+Social media and promotion.
 
 ### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
 
-pemaket untuk openSUSE.
+Packaging for openSUSE.
 
 ## Moderator Forum
 
 Tim moderator forum dapat ditemukan di bawah ini:
 
   * <http://forums.mate-desktop.org/memberlist.php?mode=leaders>
+
+## Translators
+
+MATE is translated, or partially translated, for 140 languages.
+
+  * <https://www.transifex.com/organization/mate/team/13566/>
+
+## Past contributors
+
+We'd like to acknowledge the efforts of the following people who
+helped bootstrap MATE in the early days.
+
+### ![](/assets/img/flags/32/Argentina.png) Perberos
+
+MATE Desktop founder, development, packaging for Archlinux.
+
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
+
+Development.
+
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
+
+Development.
+
+### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
+
+Development, packaging for Debian, documentation maintainer.
+
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+
+Development, packaging for openSUSE.
+
+### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
+
+Packaging for Arch Linux.
+
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
+
+Packaging for Arch Linux.
+
+### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
+
+Artwork & design.
+
+## Board
+
+The MATE Desktop Environment has a Board of Directors. The
+[MATE Board wiki page](http://wiki.mate-desktop.org/board)
+lists the current members and outlines their duties.
 
 <small>
 Bendera yang digunakan pada halaman ini disediakan oleh <http://www.icondrawer.com>.

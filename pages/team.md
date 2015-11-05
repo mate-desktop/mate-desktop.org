@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags:
 .. date: 2011-12-05 07:25:21
 .. title: Team
 .. slug: team
@@ -28,15 +28,15 @@ Development, packaging for Fedora, theme maintainer.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
 
-Development, packaging for Debian and Linux Mint.
+Development, packaging for Linux Mint.
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+Development, packaging for Debian and Ubuntu.
 
 ### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
 Development, packaging for Debian, X2Go integration.
-
-### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
-
-Development, packaging for Debian, documentation maintainer.
 
 ## Contributors
 
@@ -94,15 +94,15 @@ MATE Desktop founder, development, packaging for Archlinux.
 
 ### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
 
-Development, packaging for Debian and Ubuntu.
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
 Development.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
 Development.
+
+### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
+
+Development, packaging for Debian, documentation maintainer.
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
 
