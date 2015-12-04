@@ -11,10 +11,10 @@ intuitive and attractive desktop environment using traditional metaphors for
 Linux and other Unix-like operating systems.
 
 MATE is under active development to add support for new technologies while
-preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
+preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ or
 `Stefano's presentation at FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
 to find out more about how MATE has evolved and what is planned for the
-future. The `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_
+future. The `MATE Manifesto <http://wiki.mate-desktop.com/board:manifesto>`_
 outlines some of the principles that guide the project.
 
 .. image:: /screens/screenshot.jpg
@@ -31,7 +31,7 @@ News
     :stop: 5
 
 Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
-You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
+You might also want to take a look at `Planet MATE <http://planet.mate-desktop.com>`_
 to see what the wider MATE community are blogging about.
 
 ---------------------------------
@@ -72,7 +72,7 @@ Maybe you prefer \*BSD?
 You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 The MATE community has documented how to install MATE on many distributions in the
-`install guidelines <http://wiki.mate-desktop.org/download>`_.
+`install guidelines <http://wiki.mate-desktop.com/download>`_.
 
 ------------
 Applications

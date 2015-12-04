@@ -22,11 +22,11 @@ BLOG_AUTHOR = "The MATE Team"
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://mate-desktop.org/"
+SITE_URL = "http://mate-desktop.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://mate-desktop.org"
-BLOG_EMAIL = "webmaster@mate-desktop.org"
+# BASE_URL = "http://mate-desktop.com"
+BLOG_EMAIL = "webmaster@mate-desktop.com"
 BLOG_DESCRIPTION = "The traditional Desktop Environment"
 
 # Nikola is multilingual!
@@ -645,7 +645,7 @@ DEPLOY_COMMANDS = {
 	     'rsync -a --delete output/ /var/www/new-site/',
     ],
 	'remote': [
-	     'rsync -av --delete output/ martin@mate-desktop.org:/var/www/new-site/',
+	     'rsync -av --delete output/ martin@mate-desktop.com:/var/www/new-site/',
     ],
 }
 
@@ -1285,7 +1285,7 @@ ADDITIONAL_METADATA = {
 
 SOCIAL_ICONS="""
 <a class="social-icon" href="/rss.xml" title="MATE RSS feed"><img src="/assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
-<a class="social-icon" href="http://wiki.mate-desktop.org/" title="MATE Wiki"><img src="/assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
+<a class="social-icon" href="http://wiki.mate-desktop.com/" title="MATE Wiki"><img src="/assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
 <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="/assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
 <a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="/assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
 <a class="social-icon" href="https://plus.google.com/u/0/communities/103904770310171205536" title="MATE Google+ Community"><img src="/assets/img/icons/gplus.png" alt="Google+" class="small-margin"></a>

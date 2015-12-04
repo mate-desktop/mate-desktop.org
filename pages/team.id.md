@@ -75,7 +75,7 @@ Packaging for openSUSE.
 
 Tim moderator forum dapat ditemukan di bawah ini:
 
-  * <http://forums.mate-desktop.org/memberlist.php?mode=leaders>
+  * <http://forums.mate-desktop.com/memberlist.php?mode=leaders>
 
 ## Translators
 
@@ -123,7 +123,7 @@ Artwork & design.
 ## Board
 
 The MATE Desktop Environment has a Board of Directors. The
-[MATE Board wiki page](http://wiki.mate-desktop.org/board)
+[MATE Board wiki page](http://wiki.mate-desktop.com/board)
 lists the current members and outlines their duties.
 
 <small>
