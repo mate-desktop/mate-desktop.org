@@ -58,7 +58,8 @@ MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuz
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
-MATE è disponibile tramite i repository **non ufficiali** per le seguenti distribuzioni Linux, ma l'inclusione nei loro repository ufficiali è stato pianificato:
+MATE è disponibile tramite i repository **non ufficiali** per le seguenti distribuzioni Linux, ma l'inclusione nei loro 
+repository ufficiali è stato pianificato:
 
 
 * `Slackware <http://www.slackware.com>`
