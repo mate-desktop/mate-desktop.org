@@ -2,7 +2,7 @@
 .. description:
 .. tags: About,Applications,Screenshots
 .. date: 2013-10-31 12:29:57
-.. title: MATE Desktop Environment
+.. title: Ambiente Desktop MATE
 .. slug: index
 .. pretty_url: False
 
@@ -10,17 +10,17 @@ MATE è un fork di GNOME 2. MATE fornisce un desktop intuitivo e gradevole
 per gli utenti Linux e di altri sistemi operativi stile Unix, usando le
 metafore tradizionali.
 
-MATE is under active development to add support for new technologies while
-preseving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ or
-`Stefano's presentation at FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-to find out more about how MATE has evolved and what is planned for the
-future. The `MATE Manifesto <http://wiki.mate-desktop.org/board:manifesto>`_
-outlines some of the principles that guide the project.
+MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie mentre
+preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ o la
+`Presentazione di Stefano al FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
+per vedere come MATE si è evoluto e vedere che cosa è stato pianificato per il
+futuro. Il `Manifesto di MATE <http://wiki.mate-desktop.org/board:manifesto>`_
+delinea alcuni dei principi che guidano il progetto.
 
 .. image:: /screens/screenshot.jpg
     :align: center
 
-You can find more `screenshots of MATE <gallery/1.12/>`_.
+Puoi trovare altri `screenshot di MATE <gallery/1.12/>`_.
 
 ------
 Novità
@@ -30,15 +30,15 @@ Novità
     :lang: it
     :stop: 5
 
-Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
-You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
-to see what the wider MATE community are blogging about.
+I post dei blog sono indicizzati per `tag <tags/>`_ e `archiviati per data <archive/>`_.
+Puoi anche dare un occhiata al `Planet MATE <http://planet.mate-desktop.org>`_
+per vedere su cosa la grande community di MATE sta bloggando.
 
 ------------------------------------
 Quali distribuzioni supportano MATE?
 ------------------------------------
 
-MATE is available via the **official** repositories for the following Linux distributions:
+MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuzioni Linux:
 
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
@@ -58,64 +58,64 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
-MATE is available via *unofficial* repositories for the following Linux distributions, but
-inclusion in their official repositories is planned:
+MATE è disponibile tramite i repository **non ufficiali** per le seguenti distribuzioni Linux, ma l'inclusione nei loro repository ufficiali è stato pianificato:
+
 
 * `Slackware <http://www.slackware.com>`
 
-Maybe you prefer \*BSD?
+Preferisci \*BSD?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
-You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Puoi anche `interrogare DistroWatch.com per tutte le distribuzioni che supportano MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-The MATE community has documented how to install MATE on many distributions in the
-`install guidelines <http://wiki.mate-desktop.org/download>`_.
+La community di MATE ha documentato come installare MATE su diverse distribuzioni nella
+`linee guida installazione <http://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applicazioni
 ------------
 
-MATE is composed from a number of applications. The renaming is necessary to avoid
-conflicts with GNOME components.
+MATE è composto da un certo numero di applicazioni. Le applicazioni sono state rinominate per evitare
+conflitti con i componenti di GNOME.
 
 Caja
 ====
 
 .. image:: /assets/img/mate/caja.png
 
-Caja is the official file manager for the MATE desktop. It allows to 
-browse directories, preview files and launch applications 
-associated with them. It is also responsible for handling the icons 
-on the MATE desktop. It works on local and remote filesystems. Caja 
-is a fork of Nautilus. 
+Caja è il file manager ufficiale per il desktop MATE.Permette di 
+sfogliare le cartelle, vedere un anteprima dei file e lanciare le applicazioni
+associate. Inoltre è anche responsabile per la gestione delle icone 
+sul desktop MATE. Funziona sia sui filesystem locali che remoti.Caja 
+è un fork di Nautilus. 
 
 Pluma
 =====
 
 .. image:: /assets/img/mate/pluma.png
 
-Pluma is a text editor which supports most standard editor 
-features, extending this basic functionality with other features 
-not usually found in simple text editors. pluma is a graphical 
-application which supports editing multiple text files in one 
-window (known sometimes as tabs or MDI). Pluma fully supports 
-international text through its use of the Unicode UTF-8 encoding in 
-edited files. Its core feature set includes syntax highlighting of 
-source code, auto indentation and printing and print preview 
-support. Pluma is a fork of Gedit. 
+Pluma è un editor di testo che supporta le caratteristiche standard della maggior parte degli editor,
+estendendo queste funzionalità basiche con altre caratteristiche 
+che non si trovano facilmente si un semplice editor di testo.Pluma è un applicazione 
+grafica che supporta l'editing di molti file di testo in una
+finestra ( conosciuto a volte come tab o MDI). Pluma supporta completamente 
+il testo internazionale attraverso l'utilizzo dell'encoding UTF-8 nei 
+file modificati. La sua caratteristica principale include l'evidenziazione della sintassi del 
+codice sorgente, auto indentazione e la stampa e il supporto all'anterpima di 
+stampa. Pluma è un fork di Gedit. 
 
 Eye of MATE
 ===========
 
 .. image:: /assets/img/mate/eom.png
 
-eom or the Eye of MATE is a simple graphics viewer for the MATE 
-desktop which uses the gdk-pixbuf library. It can deal with large 
-images, and zoom and scroll with constant memory usage. Its goals 
-are simplicity and standards compliance. Eye of MATE is a fork of 
+eom o Eye of MATE è un semplice visualizzatore di grafica per il desktop
+MATE che utilizza la libreria gdk-pixbuf. Può gestire grandi
+immagini, e zoomare e scrollare con un utilizzo di memoria costante.I suoi obiettivi
+sono semplicità e standard di conformità. Eye of MATE è un fork di
 Eye of GNOME.
 
 Atril
@@ -123,12 +123,12 @@ Atril
 
 .. image:: /assets/img/mate/atril.png
 
-Atril is a simple multi-page document viewer. It can display and 
-print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, 
-XPS and Portable Document Format (PDF) files. When supported by the 
-document, it also allows searching for text, copying text to the 
-clipboard, hypertext navigation, and table-of-contents bookmarks. 
-Atril is a fork of Evince. 
+Atril è un semplice visualizzatore di documenti multi-pagina. Può visualizzare e
+stampare file PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, 
+XPS e Portable Document Format (PDF). Quando supportato dal
+documento, permette anche la ricerca del testo, la copia del testo nella 
+clipboard, navigazione ipertestuale, e i segnalibri della tabella dei contenuti. 
+Atril è un fork di Evince. 
 
 Engrampa
 ========
@@ -136,30 +136,30 @@ Engrampa
 .. image:: /assets/img/mate/engrampa.png
 
 
-Engrampa is an archive manager for the MATE environment. It allows
-you to: create and modify archives, view the content of an archive,
-view a file contained in an archive, extract files from the archive.
-Engrampa is a fork of File-Roller. 
+Engrampa è un gestore di archivi per l'ambiente MATE. Ti permette
+di: creare e modificare archivi, visualizzare il contenuto di un archivio,
+visualizzare un file contenuto in un archivio, estrarre file da un archivio.
+Engrampa è un fork di File-Roller. 
 
 MATE Terminal
 =============
 
 .. image:: /assets/img/mate/terminal.png
 
-MATE Terminal is a terminal emulation application that you can use to perform the 
-following actions: access a UNIX shell in the MATE environment, run 
-any application that is designed to run on VT102, VT220, and xterm 
-terminals. MATE Terminal features the ability to use multiple 
-terminals in a single window (tabs) and profiles support. MATE 
-Terminal is a fork of GNOME Terminal.
+MATE Terminal è un applicazione di emulazione terminale che puoi usare per eseguire le
+seguenti azioni: accedere ad una UNIX shell nell'ambiente MATE, avviare
+qualsiasi applicazione che è progettata per essere avviata su qualsiasi terminale VT102, VT220, e 
+xterm.MATE Terminal include inoltre la capacità di usare diversi
+terminali in una singola finestra (tab) e supporta i profili. MATE 
+Terminal è un fork di GNOME Terminal.
 
 -------------------------
 Da dove proviene il nome?
 -------------------------
 
-The name *"MATE"*, pronounced *Ma-Tay*, comes from `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_,
-a species of holly native to subtropical South America. Its leaves contain
-caffeine and are used to make infusions and a beverage called mate.
+Il nome *"MATE"*, pronunciato *Ma-Tay*, viene da `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_,
+una specie di agrifoglio nativo del Sud America subtropicale. Le sue foglie contengono
+caffeina e sono usati per fare infusioni e una bevanda chiamate mate.
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
     :align: center
