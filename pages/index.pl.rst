@@ -2,12 +2,12 @@
 .. description:
 .. tags: About,Applications,Screenshots
 .. date: 2013-10-31 12:29:57
-.. title: MATE Desktop Environment
+.. title: Środowisko graficzne MATE
 .. slug: index
 .. pretty_url: False
 
 Środowisko graficzne MATE jest kontynuacją GNOME 2. 
-Dostarcza intuicyjne i atrakcyjne środowisko graficzne wykorzystując tradycyjne 
+Dostarcza intuicyjne i atrakcyjne środowisko wykorzystując tradycyjne 
 metafory dla Linuxa oraz innych unixopodobnych systemów operacyjnych.
 
 MATE jest rozwijane przez aktywnych programistów, którzy wspierają nowe technologie 
@@ -21,9 +21,9 @@ Zajrzyj na `harmonogram <http://wiki.mate-desktop.org/roadmap>`_,  lub obejrzyj 
 
 Więcej `zrzutów ekranu <gallery/1.12/>`_.
 
-----
+-----
 Newsy
-----
+-----
 
 .. post-list::
     :lang: en
@@ -33,51 +33,51 @@ Posty na blogu są również `otagowane <tags/>`_ oraz `zarchiwizowane według d
 Zachęcamy również do zajrzenia na Planety MATE, 
 tam można zobaczyć wpisy społeczności MATE.
 
----------------------------------
+------------------------------------------
 Które dystrybucje są wspierane przez MATE?
----------------------------------
+------------------------------------------
 
-Mate jest dostępne przez **oficjalne** repozytoria dla następujących dystrybucji LINUX:
+Mate jest dostępne przez **oficjalne** repozytoria dla następujących dystrybucji Linuxa:
 
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Arch Linux <http://www.archlinux.org/>`_
+* `Alpine Linux <https://www.alpinelinux.org/>`_
+* `Debian <http://www.debian.org/>`_
+* `Fedora <http://www.fedoraproject.org/>`_
+* `Gentoo <http://www.gentoo.org/>`_
+* `Linux Mint <http://linuxmint.com/>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
+* `openSUSE <http://www.opensuse.org/>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
 * `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
-* `Vector Linux <http://vectorlinux.com>`_
+* `Sabayon <http://www.sabayon.org/>`_
+* `Salix <http://www.salixos.org/>`_
+* `Ubuntu <http://www.ubuntu.com/>`_
+* `Ubuntu MATE <http://www.ubuntu-mate.org/>`_
+* `Vector Linux <http://vectorlinux.com/>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
-Mate jest dostępne przez **nieoficjalne** repozytoria dla następujących dystrybucji Linux 
+Mate jest dostępne przez *nieoficjalne* repozytoria dla następujących dystrybucji Linuxa 
 (zawarcie ich w oficjalnych repozytoriach jest planowane):
 
-* `Slackware <http://www.slackware.com>`
+* `Slackware <http://www.slackware.com/>`_
 
-Może preferujesz \*BSD?
+Może wolisz \*BSD?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
-* `PC-BSD <http://www.pcbsd.org>`_
+* `GhostBSD <http://ghostbsd.org/>`_
+* `FreeBSD <http://freebsd.org/>`_
+* `PC-BSD <http://www.pcbsd.org/>`_
 
-Możesz również na Distro Watch `query DistroWatch.com
-zapytać o wszystkie dystrybucje LINUX wspierane przez 
-Mate <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Możesz również na Distro Watch `poszukać wszystkich dystrybucji Linuxa wspieranych 
+przez Mate <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 Społeczność MATE stworzyła instrukcję instalacji MATE dla wielu dystrybucji. Jest ona dostępna w 
 `Przewodniku instalacji <http://wiki.mate-desktop.org/download>`_.
 
-------------
+---------
 Aplikacje
-------------
+---------
 
 MATE jest utworzone z ogromnej ilości aplikacji. Zmiana nazw jest konieczna, by uniknąć konfliktu z komponentami GNOME.
 
