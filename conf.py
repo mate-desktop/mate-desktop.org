@@ -226,13 +226,13 @@ NAVIGATION_LINKS = {
 		('/tr/donate/', 'Bağış'),
     ),
     "zh_cn": (
-                ('/tr/blog/', '博客'),
-                ('/tr/install/', '安装'),
-                ('/tr/gallery/1.14/', '截图'),
-                ('/tr/development/', '开发'),
-                ('/tr/community/', '社区'),
-                ('/tr/team/', '团队'),
-                ('/tr/donate/', '捐赠'),
+                ('/zh_cn/blog/', '博客'),
+                ('/zh_cn/install/', '安装'),
+                ('/zh_cn/gallery/1.14/', '截图'),
+                ('/zh_cn/development/', '开发'),
+                ('/zh_cn/community/', '社区'),
+                ('/zh_cn/team/', '团队'),
+                ('/zh_cn/donate/', '捐赠'),
     ),
 }
 
