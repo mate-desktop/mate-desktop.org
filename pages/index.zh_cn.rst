@@ -18,7 +18,7 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 .. image:: /screens/screenshot.jpg
     :align: center
 
-你可以在此处获取更多 `MATE 截图 <gallery/1.12/>`_.
+你可以在此处获取更多 `MATE 截图 <gallery/1.14/>`_.
 
 ----
 新闻
