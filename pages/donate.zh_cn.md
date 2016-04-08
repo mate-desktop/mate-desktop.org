@@ -1,20 +1,18 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags:
 .. date: 2016-04-08 11:54:14
 .. title: 捐助
 .. slug: donate
 -->
 
-MATE 桌面环境是完全自由的, 每个参与者都是我们可敬的志愿者。
+MATE 桌面环境是完全免费的, 每个参与者均为可敬的志愿者。
 
-请您考虑对 MATE 项目进行捐助。 It is nice to have the effort
-we've put into it recognised. Any money raised will be used to cover hosting
-costs, any hardware procurement and possibly travel expenses so that
-members of the MATE team can attend relevant conferences.
+请您考虑对 MATE 项目进行捐助。我们也希望自己为这个项目付出的努力得到肯定。来自捐赠的
+款项将用于支付站点托管、硬件采购和用于 MATE 团队成员前往相关会议的出行费用。
 
-我们不会向您索取很多, 捐助的数额完全取决于您。
+我们充分尊重你的捐款意愿及数量。
 
 <table width="50%" padding="16px" align="center">
 <tbody>
@@ -64,9 +62,8 @@ members of the MATE team can attend relevant conferences.
 
 ## 捐献者
 
-Many of your have generously donated to the MATE project. We will be publishing
-a full list here very soon.
+许多人已为 MATE 项目慷慨捐赠。我们将在近期内在此处公布捐赠者列表。
 
-## 我们是怎么使用的捐助的款项的呢
+## 捐款使用情况
 
-我们将会在这里公布捐助款项的使用情况。 更为详尽的使用细节也将会很快公布于此。
+我们将会在这里公布捐助款项的使用情况。详尽的款项使用细节也将在近期于此处公布。
