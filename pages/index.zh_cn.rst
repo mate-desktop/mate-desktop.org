@@ -7,19 +7,18 @@
 .. pretty_url: False
 
 MATE 桌面环境是 GNOME 2 的延续。通过传统的隐喻设计，MATE 为 Linux 或其他类
-Unix 操作系统提供一个直观且吸引人的桌面环境。
+Unix 操作系统提供直观且吸引人的桌面环境。
 
-MATE is under active development to add support for new technologies while
-preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ or
-`Stefano's presentation at FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-to find out more about how MATE has evolved and what is planned for the
-future. The `MATE Manifesto <http://wiki.mate-desktop.com/board:manifesto>`_
-outlines some of the principles that guide the project.
+MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
+`开发计划 <http://wiki.mate-desktop.com/roadmap>`_ 或
+`Stefano 在 FOSDEM 2014 的演示文稿 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
+以了解 MATE 的进化过程及未来计划。`MATE 宣言 <http://wiki.mate-desktop.com/board:manifesto>`_
+简要概括了指引本项目发展的各项准则。
 
 .. image:: /screens/screenshot.jpg
     :align: center
 
-You can find more `screenshots of MATE <gallery/1.12/>`_.
+你可以在此处获取更多 `MATE 截图 <gallery/1.12/>`_.
 
 ----
 新闻
@@ -29,15 +28,14 @@ You can find more `screenshots of MATE <gallery/1.12/>`_.
     :lang: en
     :stop: 5
 
-Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
-You might also want to take a look at `Planet MATE <http://planet.mate-desktop.com>`_
-to see what the wider MATE community are blogging about.
+博文使用 `标签 <tags/>`_ 及 `根据日期的归档 <archive/>`_ 进行索引。
+我们推荐访问 `MATE 星球 <http://planet.mate-desktop.com>`_ 以了解 MATE 社区的各类动态。
 
 -----------------------
 有什么发行版支持 MATE？
 -----------------------
 
-MATE is available via the **official** repositories for the following Linux distributions:
+你可以从如下发行版的 **官方软件源** 获取 MATE：
 
 * `Arch Linux <http://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
@@ -58,11 +56,12 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
-MATE is available via *unofficial* repositories for the following Linux distributions:
+你可以从如下发行版的 **非官方软件源** 获取 MATE：
 
 * `Slackware <http://www.slackware.com>`_
 
-Maybe you prefer \*BSD?
+<!-- 也许 \*BSD 才是你的菜？-->
+也许 \*BSD 更符合你的口味？
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
@@ -77,84 +76,70 @@ The MATE community has documented how to install MATE on many distributions in t
 应用程序
 --------
 
-MATE is composed of a number of applications. The renaming is necessary to
-avoid conflicts with GNOME components.
+MATE 由诸多应用程序组成。为了避免和一些 GNOME 组件的冲突，我们重命名了部分应用程序。
 
 Caja
 ====
 
 .. image:: /assets/img/mate/caja.png
 
-Caja is the official file manager for the MATE desktop. It allows for browsing
-directories, as well as previewing files and launching applications associated
-with them. It is also responsible for handling the icons on the MATE desktop.
-It works on local and remote filesystems. Caja is a fork of Nautilus. 
+<!-- 避免了 fork 词汇的使用以防迷惑 -->
+Caja 是 MATE 桌面的官方文件管理器。Caja 允许你浏览目录、预览和启动已绑定运行方式的文件。
+Caja 更管理着 MATE 桌面的图标。它也可用于远程文件系统。Caja 是基于 Nautilus 的修改版本。
 
 Pluma
 =====
 
 .. image:: /assets/img/mate/pluma.png
 
-Pluma is a text editor which supports most standard editor features. It also
-extends this basic functionality with other features not usually found in
-simple text editors. Pluma is a graphical application which supports editing
-multiple text files in one window (known sometimes as tabs or MDI). Pluma fully
-supports international text through its use of the Unicode UTF-8 encoding in
-edited files. Its core feature set includes syntax highlighting of source code,
-auto indentation, and printing support (with print preview). Pluma is a fork of
-Gedit. 
+Pluma 是一个功能完整的文本编辑器。Pluma 在一般文本编辑器的基础功能之上附加了一些不常见
+的特性。Pluma 作为图形应用程序支持在单窗口编辑多个文本文件（或称标签页）。Pluma 通过在
+编辑文件时使用 Unicode UTF-8 编码实现了对国际文本的支持。Pluma 的核心特性包含源代码语法
+高亮、自动缩进和打印支持（包含打印预览功能）。Pluma 是基于 Gedit 的修改版本。
 
-Eye of MATE
-===========
+MATE 之眼
+=========
 
 .. image:: /assets/img/mate/eom.png
 
-eom or the Eye of MATE is a simple graphics viewer for the MATE desktop which
-uses the gdk-pixbuf library. It can deal with large images, and can zoom and
-scroll with constant memory usage. Its goals are simplicity and standards
-compliance. Eye of MATE is a fork of Eye of GNOME.
+MATE 之眼（或称 eom）是用于 MATE 桌面的，基于 gdk-pixbuf 图形库的简易图像查看器。MATE 之眼
+支持处理大型图像，并且可以在保持稳定内存占用的同时缩放和滚动图像。MATE 之眼的目标是简易性
+及标准的符合。MATE 之眼是基于 GNOME 之眼的修改版本。
 
 Atril
 =====
 
 .. image:: /assets/img/mate/atril.png
 
-Atril is a simple multi-page document viewer. It can display and print
-PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS and Portable
-Document Format (PDF) files. When supported by the document, it also allows
-searching for text, copying text to the clipboard, hypertext navigation, and
-table-of-contents bookmarks. Atril is a fork of Evince.
+Atril 是一个简易的文档阅览器。Atril 支持显示和打印 PostScript (PS)，Encapsulated
+PostScript (EPS), DJVU, DVI, XPS 和便携式文档格式 (PDF) 文件。文档支持的情况下，Atril
+可提供文本搜索、文本剪贴板操作、超文本导航及目录与标签功能。Atril 是基于 Evince 的
+修改版本。
 
 Engrampa
 ========
 
 .. image:: /assets/img/mate/engrampa.png
 
-Engrampa is an archive manager for the MATE environment. It allows you to
-create and modify archives, view the contents of an archive, view a file
-contained in an archive, and extract files from archive. Engrampa is a fork of
-File Roller.
+Engrampa 是 MATE 桌面环境的归档管理器。Engrampa 允许你创建及修改归档，显示归档内容，显示
+归档中文件的内容或从归档提取文件。Engrampa 是基于 File Roller 的修改版本。
 
-MATE Terminal
-=============
+MATE 终端
+=========
 
 .. image:: /assets/img/mate/terminal.png
 
-MATE Terminal is a terminal emulation application that you can use to access a
-UNIX shell in the MATE environment. With it, you can run any application that
-is designed to run on VT102, VT220, and xterm terminals. MATE Terminal also has
-the ability to use multiple terminals in a single window (tabs) and supports
-management of different configurations (profiles). MATE Terminal is a fork of
-GNOME Terminal.
+MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使用 MATE 终端运行设计给 VT102，
+VT220 及 xterm 终端的应用程序。MATE 终端支持在单个窗口中使用多个终端（标签页功能），也支持
+管理多个不同的配置（配置档案）。MATE 终端是基于 GNOME 终端的修改版本。
 
 ------------------
 这个名字怎么来的？
 ------------------
 
-The name *"MATE"*, pronounced **马忒**, comes from `yerba maté
-<http://en.wikipedia.org/wiki/Yerba_mate>`_, a species of holly native to
-subtropical South America. Its leaves contain caffeine and are used to make
-infusions and a beverage called mate.
+本项目的名称 *"MATE"*，可读作 **马忒** (*Ma-Tay*)，源自一种来自亚热带南美洲的本地冬青物种
+`yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_。其枝叶含有咖啡因，一般用来制作
+浸剂和一种称为 mate 的饮品。
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
     :align: center
