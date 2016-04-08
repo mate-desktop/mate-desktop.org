@@ -1,14 +1,13 @@
 .. link:
 .. description:
-.. tags: About,Applications,Screenshots
-.. date: 2013-10-31 12:29:57
-.. title: MATE Desktop Environment
+.. tags: About,Applications,Screenshots,关于,应用,截图
+.. date: 2016-04-08 15:29:57
+.. title: MATE 桌面环境
 .. slug: index
 .. pretty_url: False
 
-The MATE Desktop Environment is the continuation of GNOME 2. It provides an 
-intuitive and attractive desktop environment using traditional metaphors for 
-Linux and other Unix-like operating systems.
+MATE 桌面环境是 GNOME 2 的延续。通过传统的隐喻设计，MATE 为 Linux 或其他类
+Unix 操作系统提供一个直观且吸引人的桌面环境。
 
 MATE is under active development to add support for new technologies while
 preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ or
@@ -23,7 +22,7 @@ outlines some of the principles that guide the project.
 You can find more `screenshots of MATE <gallery/1.12/>`_.
 
 ----
-News
+新闻
 ----
 
 .. post-list::
@@ -34,9 +33,9 @@ Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_
 You might also want to take a look at `Planet MATE <http://planet.mate-desktop.com>`_
 to see what the wider MATE community are blogging about.
 
----------------------------------
-Which distributions support MATE?
----------------------------------
+-----------------------
+有什么发行版支持 MATE？
+-----------------------
 
 MATE is available via the **official** repositories for the following Linux distributions:
 
@@ -74,9 +73,9 @@ You can also `query DistroWatch.com for all the distributions that support MATE 
 The MATE community has documented how to install MATE on many distributions in the
 `install guidelines <http://wiki.mate-desktop.com/download>`_.
 
-------------
-Applications
-------------
+--------
+应用程序
+--------
 
 MATE is composed of a number of applications. The renaming is necessary to
 avoid conflicts with GNOME components.
@@ -148,11 +147,11 @@ the ability to use multiple terminals in a single window (tabs) and supports
 management of different configurations (profiles). MATE Terminal is a fork of
 GNOME Terminal.
 
-------------------------------
-Where does the name come from?
-------------------------------
+------------------
+这个名字怎么来的？
+------------------
 
-The name *"MATE"*, pronounced *Ma-Tay*, comes from `yerba maté
+The name *"MATE"*, pronounced **马忒**, comes from `yerba maté
 <http://en.wikipedia.org/wiki/Yerba_mate>`_, a species of holly native to
 subtropical South America. Its leaves contain caffeine and are used to make
 infusions and a beverage called mate.
