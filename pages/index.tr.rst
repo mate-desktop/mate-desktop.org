@@ -21,7 +21,7 @@ projeye rehberlik eden bazı ilkelerin altını çizer.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Daha fazla `MATE ekran fotoğraflarını <gallery/1.12/>`_.
+Daha fazla `MATE ekran fotoğraflarını <gallery/1.14/>`_.
 
 --------
 Haberler

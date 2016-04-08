@@ -20,7 +20,7 @@ delinea alcuni dei principi che guidano il progetto.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Puoi trovare altri `screenshot di MATE <gallery/1.12/>`_.
+Puoi trovare altri `screenshot di MATE <gallery/1.14/>`_.
 
 ------
 Novità
