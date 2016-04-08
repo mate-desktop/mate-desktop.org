@@ -2,19 +2,19 @@
 .. link:
 .. description:
 .. tags: 
-.. date: 2012-05-22 11:54:14
-.. title: Donate
+.. date: 2016-04-08 11:54:14
+.. title: 捐助
 .. slug: donate
 -->
 
-MATE Desktop Environment is totally free and everyone involved are volunteers.
+MATE 桌面环境是完全自由的, 每个参与者都是我们可敬的志愿者。
 
-Please consider donating to the MATE project. It is nice to have the effort
+请您考虑对 MATE 项目进行捐助。 It is nice to have the effort
 we've put into it recognised. Any money raised will be used to cover hosting
 costs, any hardware procurement and possibly travel expenses so that
 members of the MATE team can attend relevant conferences.
 
-We don't ask for much, it is at your discretion.
+我们不会向您索取很多, 捐助的数额完全取决于您。
 
 <table width="50%" padding="16px" align="center">
 <tbody>
@@ -62,12 +62,11 @@ We don't ask for much, it is at your discretion.
 </tbody>
 </table>
 
-## Donors
+## 捐献者
 
 Many of your have generously donated to the MATE project. We will be publishing
 a full list here very soon.
 
-## How we spent the donations
+## 我们是怎么使用的捐助的款项的呢
 
-We will disclose how the donations were spent here. Full details will be published
-soon.
+我们将会在这里公布捐助款项的使用情况。 更为详尽的使用细节也将会很快公布于此。

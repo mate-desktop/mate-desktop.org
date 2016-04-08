@@ -1,26 +1,26 @@
 <!--
 .. link:
 .. description:
-.. tags: Development
-.. date: 2011-12-05 12:00:30
-.. title: Development
+.. tags: Development, 开发
+.. date:2016-04-08 15:29:57
+.. title: 开发
 .. slug: development
 -->
 
-The git repositories for MATE are hosted at GitHub.
+MATE  的 Git 源代码仓库托管在 GitHub 上。
 
   * <https://github.com/mate-desktop>
 
-You can browse the code with cgit here too:
+你也可以在以下网站使用 cgit 在线查看源代码:
 
   * <http://git.mate-desktop.org>
 
- Other useful links:
+ 其他有用的链接:
 
-  * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE Development](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE Roadmap](http://wiki.mate-desktop.org/roadmap)
+  * [MATE 大学](/blog/2013-03-12-mate-university/)
+  * [MATE 开发](http://wiki.mate-desktop.org/dev-doc)
+  * [MATE 指南](http://wiki.mate-desktop.org/roadmap)
   * <http://wiki.mate-desktop.org/contribute>
   * <http://wiki.mate-desktop.org/translation>
   
-Don't hesitate to contribute and have fun improving MATE!
+不要犹豫, 加入我们, 让我们一起快乐地改进 MATE 吧!
