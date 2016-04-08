@@ -1,9 +1,9 @@
 <!--
 .. link:
 .. description:
-.. tags: Backgrounds
+.. tags: Backgrounds,背景,壁纸
 .. date: 2014-02-24 17:32:07
-.. title: Backgrounds
+.. title: 桌面壁纸
 .. slug: backgrounds
 -->
 
