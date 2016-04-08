@@ -19,7 +19,7 @@ Zajrzyj na `harmonogram <http://wiki.mate-desktop.org/roadmap>`_,  lub obejrzyj 
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Więcej `zrzutów ekranu <gallery/1.12/>`_.
+Więcej `zrzutów ekranu <gallery/1.14/>`_.
 
 -----
 Newsy
