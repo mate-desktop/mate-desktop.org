@@ -3,129 +3,125 @@
 .. description:
 .. tags:
 .. date: 2011-12-05 07:25:21
-.. title: Team
+.. title: 团队
 .. slug: team
 -->
 
-MATE is brought to you by an international group of developers,
-translators, packagers, artists and systems administrators.
+MATE 贡献者包含来自世界各地的开发者、翻译者、打包者、艺术家和系统管理员。
 
-## Core Team
+## 核心团队
 
-This is the core MATE team.
+如下是 MATE 的核心团队。
 
 ### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
 
-Lead Developer, packaging for Debian, GSoC mentor.
+领衔开发者，Debian 打包者，GSoC 导师。
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management.
+Arch Linux、Debian 及 Ubuntu 打包者，GSoC 导师，社区管理。
 
 ### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
 
-Development, packaging for Fedora, theme maintainer.
+开发者，Fedora 打包者，主题维护者。
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
 
-Development, packaging for Linux Mint.
+开发者，Linux Mint 打包者。
 
 ### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
 
-Development, packaging for Debian and Ubuntu.
+开发者，Debian 及 Ubuntu 打包者。
 
 ### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
-Development, packaging for Debian, X2Go integration.
+开发者，Debian 打包者，X2Go 集成。
 
-## Contributors
+## 贡献者
 
-The MATE Desktop Environment continues to improve and develop thanks
-to the tireless efforts of the following fine people.
+多亏了如下贡献者的不懈努力，MATE 桌面环境才得以不断开发和改进。
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
-Development.
+开发者。
 
 ### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
-Packaging for Fedora.
+Fedora 打包者。
 
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
-Packaging for Slackware.
+Slackware 打包者。
 
 ### ![](/assets/img/flags/32/Greece.png) Vangelis Mouhtsis (gnugr)
 
-Packaging for Debian.
+Debian 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Adam Erdman (hekel)
 
-Packaging for Arch Linux, man pages.
+Arch Linux 打包者，Man 手册编撰。
 
 ### ![](/assets/img/flags/32/Greece.png) Efstathios Iosifidis (diamond_gr)
 
-Social media and promotion.
+社交媒体及宣传。
 
 ### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
 
-Packaging for openSUSE.
+openSUSE 打包者。
 
-## Forum Moderators
+## 论坛管理员
 
-Our dedicated team of forum moderators can be found below:
+我们的论坛管理团队名单如下：
 
   * <http://forums.mate-desktop.com/memberlist.php?mode=leaders>
 
-## Translators
+## 翻译者
 
-MATE is translated, or partially translated, for 140 languages.
+MATE 在不同程度上已被翻译到了 140 种语言。
 
   * <https://www.transifex.com/organization/mate/team/13566/>
 
-## Past contributors
+## 前任贡献者
 
-We'd like to acknowledge the efforts of the following people who
-helped bootstrap MATE in the early days.
+我们希望向为 MATE 早期中开发作出贡献的各位开发者表示感谢。
 
 ### ![](/assets/img/flags/32/Argentina.png) Perberos
 
-MATE Desktop founder, development, packaging for Archlinux.
+MATE 桌面环境发起人，开发者，Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
 
-Development.
+开发者。
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
-Development.
+开发者。
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
-Development, packaging for Debian, documentation maintainer.
+开发者，Debian 打包者，文档维护者。
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
 
-Development, packaging for openSUSE.
+开发者，openSUSE 打包者。
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
 
-Packaging for Arch Linux.
+Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
-Packaging for Arch Linux.
+Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
-Artwork & design.
+美工及设计。
 
-## Board
+## 理事会
 
-The MATE Desktop Environment has a Board of Directors. The
-[MATE Board wiki page](http://wiki.mate-desktop.com/board)
-lists the current members and outlines their duties.
+MATE 桌面环境由我们的理事会管理。[MATE 理事会 wiki 页面](http://wiki.mate-desktop.com/board)
+包含当前理事会人员的列表及他们的职责描述。
 
 <small>
-The flags used in this page were provided by <http://www.icondrawer.com>.
+此页面中使用的国旗由 <http://www.icondrawer.com> 提供。
 </small>
