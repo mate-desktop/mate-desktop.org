@@ -32,7 +32,7 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 我们推荐访问 `MATE 星球 <http://planet.mate-desktop.com>`_ 以了解 MATE 社区的各类动态。
 
 -----------------------
-有什么发行版支持 MATE？
+哪些发行版支持 MATE？
 -----------------------
 
 你可以从如下发行版的 **官方软件源** 获取 MATE：
@@ -67,10 +67,10 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 * `FreeBSD <http://freebsd.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
-You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+你还可以 `在 DistroWatch.com 网站上查询所有支持 MATE 的发行版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-The MATE community has documented how to install MATE on many distributions in the
-`install guidelines <http://wiki.mate-desktop.com/download>`_.
+MATE 社区在 `安装指南  <http://wiki.mate-desktop.com/download>`_ 中说明了如何在不同发行版中安装 MATE。
+
 
 --------
 应用程序
@@ -129,8 +129,8 @@ MATE 终端
 
 .. image:: /assets/img/mate/terminal.png
 
-MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使用 MATE 终端运行设计给 VT102，
-VT220 及 xterm 终端的应用程序。MATE 终端支持在单个窗口中使用多个终端（标签页功能），也支持
+MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使用 MATE 终端运行为 VT102，VT220 
+及 xterm 终端而设计的应用程序。MATE 终端支持在单个窗口中使用多个终端（标签页功能），也支持
 管理多个不同的配置（配置档案）。MATE 终端是基于 GNOME 终端的修改版本。
 
 ------------------
@@ -138,7 +138,7 @@ VT220 及 xterm 终端的应用程序。MATE 终端支持在单个窗口中使�
 ------------------
 
 本项目的名称 *"MATE"*，可读作 **马忒** (*Ma-Tay*)，源自一种来自亚热带南美洲的本地冬青物种
-`yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_。其枝叶含有咖啡因，一般用来制作
+`yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_ 。其枝叶含有咖啡因，一般用来制作
 浸剂和一种称为 mate 的饮品。
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
