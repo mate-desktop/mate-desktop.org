@@ -28,7 +28,7 @@ Stefano στην FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>
 ----
 
 .. post-list::
-    :lang: el
+    :lang: en
     :stop: 5
 
 Οι αναρτήσεις είναι ταξινομημένες κατά `ετικέτα <tags/>`_ και `ημερομηνία αρχειοθέτησης <archive/>`_.
