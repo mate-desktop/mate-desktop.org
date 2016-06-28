@@ -81,7 +81,7 @@ Our dedicated team of forum moderators can be found below:
 
 MATE is translated, or partially translated, for 140 languages.
 
-  * <https://www.transifex.com/organization/mate/team/13566/>
+  * <https://www.transifex.com/projects/p/MATE/>
 
 ## Past contributors
 
