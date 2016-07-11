@@ -108,6 +108,3 @@ follow in due course. See below for the changes:
 
   * Ahora usa `pkg-config` para la deteccion python y variables
   
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3277" class="alert-link">Comments</a>
-</div>
