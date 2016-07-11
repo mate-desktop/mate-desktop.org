@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-deploy
 
-
 from __future__ import unicode_literals
 import time
 
@@ -89,6 +88,7 @@ DEFAULT_LANG = "en"
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     "de": "./de",
+    "el": "./el",
     "es": "./es",
     "fr": "./fr",
     "id": "./id",
@@ -98,6 +98,7 @@ TRANSLATIONS = {
     "pt": "./pt",
     "tr": "./tr",
     "zh_cn": "./zh_cn",
+    "zh_tw": "./zh_tw",
 }
 
 # What will translated input files be named like?
@@ -152,7 +153,16 @@ NAVIGATION_LINKS = {
 		('/de/community/', 'Community'),
 		('/de/team/', 'Team'),
 		('/de/donate/', 'Spenden'),
-    ),
+   ),
+    "el": (
+		('/el/blog/', 'Blog'),
+		('/el/install/', 'Install'),
+		('/el/gallery/1.14/', 'Gallery'),
+		('/el/development/', 'Development'),
+		('/el/community/', 'Community'),
+		('/el/team/', 'Team'),
+		('/el/donate/', 'Donate'),
+   ),
     "es": (
 		('/es/blog/', 'Blog'),
 		('/es/install/', 'Instalar'),
@@ -161,7 +171,7 @@ NAVIGATION_LINKS = {
 		('/es/community/', 'Comunidad'),
 		('/es/team/', 'Team'),
 		('/es/donate/', 'Donar'),
-    ),
+   ),
     "fr": (
 		('/fr/blog/', 'Blog'),
 		('/fr/install/', 'Installez'),
@@ -170,7 +180,7 @@ NAVIGATION_LINKS = {
 		('/fr/community/', 'Communauté'),
 		('/fr/team/', 'Team'),
 		('/fr/donate/', 'Donner'),
-    ),
+   ),
     "id": (
 		('/id/blog/', 'Blog'),
 		('/id/install/', 'Install'),
@@ -188,7 +198,7 @@ NAVIGATION_LINKS = {
 		('/it/community/', 'Comunità'),
 		('/it/team/', 'Team'),
 		('/it/donate/', 'Donazioni'),
-    ),
+   ),
     "nl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Installatie'),
@@ -198,14 +208,14 @@ NAVIGATION_LINKS = {
 		('/nl/team/', 'Team'),
 		('/nl/donate/', 'Doneren'),
     ),
-    "pl": (
-		('/nl/blog/', 'Blog'),
-		('/nl/install/', 'Install'),
-		('/nl/gallery/1.14/', 'Screenshots'),
-		('/nl/development/', 'Development'),
-		('/nl/community/', 'Community'),
-		('/nl/team/', 'Team'),
-		('/nl/donate/', 'Donate'),
+   "pl": (
+		('/pl/blog/', 'Blog'),
+		('/pl/install/', 'Install'),
+		('/pl/gallery/1.14/', 'Screenshots'),
+		('/pl/development/', 'Development'),
+		('/pl/community/', 'Community'),
+		('/pl/team/', 'Team'),
+		('/pl/donate/', 'Donate'),
     ),
     "pt": (
 		('/pt/blog/', 'Blog'),
@@ -224,15 +234,24 @@ NAVIGATION_LINKS = {
 		('/tr/community/', 'Topluluk'),
 		('/tr/team/', 'Ekip'),
 		('/tr/donate/', 'Bağış'),
-    ),
+   ),
     "zh_cn": (
-                ('/zh_cn/blog/', '博客'),
-                ('/zh_cn/install/', '安装'),
-                ('/zh_cn/gallery/1.14/', '截图'),
-                ('/zh_cn/development/', '开发'),
-                ('/zh_cn/community/', '社区'),
-                ('/zh_cn/team/', '团队'),
-                ('/zh_cn/donate/', '捐赠'),
+        ('/zh_cn/blog/', '博客'),
+        ('/zh_cn/install/', '安装'),
+        ('/zh_cn/gallery/1.14/', '截图'),
+        ('/zh_cn/development/', '开发'),
+        ('/zh_cn/community/', '社区'),
+        ('/zh_cn/team/', '团队'),
+        ('/zh_cn/donate/', '捐赠'),
+    ),
+    "zh_tw": (
+        ('/zh_tw/blog/', '博客'),
+        ('/zh_tw/install/', '安装'),
+        ('/zh_tw/gallery/1.14/', '截图'),
+        ('/zh_tw/development/', '开发'),
+        ('/zh_tw/community/', '社区'),
+        ('/zh_tw/team/', '团队'),
+        ('/zh_tw/donate/', '捐赠'),
     ),
 }
 
@@ -702,7 +721,7 @@ DEPLOY_COMMANDS = {
 from nikola import filters
 FILTERS = {
     ".css":  [filters.yui_compressor],
-    ".html": [filters.typogrify, filters.html_tidy_nowrap],
+    ".html": [filters.typogrify],
     ".js":   [filters.yui_compressor],
     ".jpg":  [filters.jpegoptim],
     ".jpeg": [filters.jpegoptim],
