@@ -6,16 +6,12 @@
 .. slug: index
 .. pretty_url: False
 
-The MATE Desktop Environment is the continuation of GNOME 2. It provides an 
-intuitive and attractive desktop environment using traditional metaphors for 
-Linux and other Unix-like operating systems.
+The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop 
+environment using traditional metaphors for Linux and other Unix-like operating systems.
 
-MATE is under active development to add support for new technologies while
-preserving a traditional desktop experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ or
-`Stefano's presentation at FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-to find out more about how MATE has evolved and what is planned for the
-future. The `MATE Manifesto <http://wiki.mate-desktop.com/board:manifesto>`_
-outlines some of the principles that guide the project.
+MATE is under active development to add support for new technologies while preserving a traditional desktop 
+experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ The `MATE Manifesto 
+<http://wiki.mate-desktop.com/board:manifesto>`_ outlines some of the principles that guide the project.
 
 .. image:: /screens/screenshot.jpg
     :align: center

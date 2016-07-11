@@ -10,9 +10,9 @@ MATE 桌面环境是 GNOME 2 的延续。通过传统的隐喻设计，MATE 为 
 Unix 操作系统提供直观且吸引人的桌面环境。
 
 MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
-`开发计划 <http://wiki.mate-desktop.com/roadmap>`_ 或
-`Stefano 在 FOSDEM 2014 的演示文稿 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-以了解 MATE 的进化过程及未来计划。`MATE 宣言 <http://wiki.mate-desktop.com/board:manifesto>`_
+`开发计划 <http://wiki.mate-desktop.com/roadmap>`_
+
+`MATE 宣言 <http://wiki.mate-desktop.com/board:manifesto>`_
 简要概括了指引本项目发展的各项准则。
 
 .. image:: /screens/screenshot.jpg

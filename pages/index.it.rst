@@ -11,10 +11,9 @@ per gli utenti Linux e di altri sistemi operativi stile Unix, usando le
 metafore tradizionali.
 
 MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie mentre
-preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ o la
-`Presentazione di Stefano al FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-per vedere come MATE si è evoluto e vedere che cosa è stato pianificato per il
-futuro. Il `Manifesto di MATE <http://wiki.mate-desktop.org/board:manifesto>`_
+preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ 
+
+Il `Manifesto di MATE <http://wiki.mate-desktop.org/board:manifesto>`_
 delinea alcuni dei principi che guidano il progetto.
 
 .. image:: /screens/screenshot.jpg

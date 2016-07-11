@@ -10,12 +10,11 @@ Lingkungan Desktop MATE adalah kelanjutan dari GNOME 2. MATE menyediakan sebuah
 lingkungan desktop yang intuitif dan atraktif menggunakan metafor tradisional untuk
 sistem operasi Linux dan Unix-like.
 
-MATE menggunakan model pengembangan yang aktif untuk menambahkan dukungan terhadap teknologi baru sekaligus
-mempertahankan pengalaman desktop tradisional. Silahkan melihat `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ atau
-`presentasi Stefano pada FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-untuk mendapatkan informasi lebih lanjut tentang bagaimana MATE telah berkembang dan apa yang direncanakan di
-masa depan. `Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>`_
-menggambarkan beberapa prinsip yang mengarahkan proyek ini.
+MATE menggunakan model pengembangan yang aktif untuk menambahkan dukungan terhadap teknologi baru sekaligus 
+mempertahankan pengalaman desktop tradisional. Silahkan melihat `Roadmap 
+<http://wiki.mate-desktop.org/roadmap>`_ 
+
+`Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>`_ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
 
 .. image:: /screens/screenshot.jpg
     :align: center

@@ -12,10 +12,7 @@ Desktop-Umgebung, die sich der traditionell verwendeten Metaphern bedient.
 
 MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
 der traditionelle Umgang mit dem Desktop erhalten bleibt. Unter `Roadmap [en]
-<http://wiki.mate-desktop.org/roadmap>`_ oder `Stefanos Vortrag auf der FOSDEM
-2014 [en] </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_ erfahren Sie
-mehr darüber, wie MATE sich bisher entwickelt hat und was für die Zukunft
-geplant ist.  Das `MATE-Manifest [en]
+<http://wiki.mate-desktop.org/roadmap>`_ Das `MATE-Manifest [en]
 <http://wiki.mate-desktop.org/board:manifesto>`_ erläutert einige der
 Prinzipien, die das Projekt leiten.
 

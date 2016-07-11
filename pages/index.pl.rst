@@ -12,9 +12,10 @@ metafory dla Linuxa oraz innych unixopodobnych systemów operacyjnych.
 
 MATE jest rozwijane przez aktywnych programistów, którzy wspierają nowe technologie 
 równocześnie kultywując dotychczasowe osiągnięcia desktopowe. 
-Zajrzyj na `harmonogram <http://wiki.mate-desktop.org/roadmap>`_,  lub obejrzyj `prezentację Stefana z Fosdem 2014 
-</blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_, by dowiedzieć się więcej na temat tego, jak MATE ewoluowało i jakie są plany na przyszłość. 
-`Manifest MATE <http://wiki.mate-desktop.org/board:manifesto>`_ jest zarysem głównych zasad kierujących projektem.
+Zajrzyj na `harmonogram <http://wiki.mate-desktop.org/roadmap>`_.
+
+`Manifest MATE <http://wiki.mate-desktop.org/board:manifesto>`_ 
+jest zarysem głównych zasad kierujących projektem.
 
 .. image:: /screens/screenshot.jpg
     :align: center

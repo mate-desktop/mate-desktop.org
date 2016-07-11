@@ -13,9 +13,9 @@ ortamı sağlar.
 MATE geleneksel masaüstü deneyimini koruyarak yeni teknolojilerin
 desteklenmesi için etkin bir şekilde geliştirilmektedir. MATE'nin 
 nasıl geliştiği ve gelecekte nelerin beklediğini öğrenmek için
-`yol haritasına <http://wiki.mate-desktop.org/roadmap>`_ ya da
-`Stefano'nun FOSDEM 2014 sunumuna </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-bakınız. `MATE manifestosu <http://wiki.mate-desktop.org/board:manifesto>`_
+`yol haritasına <http://wiki.mate-desktop.org/roadmap>`_.
+
+`MATE manifestosu <http://wiki.mate-desktop.org/board:manifesto>`_
 projeye rehberlik eden bazı ilkelerin altını çizer.
 
 .. image:: /screens/screenshot.jpg

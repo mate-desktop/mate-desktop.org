@@ -12,10 +12,9 @@
 
 Το MATE είναι υπό ενεργή ανάπτυξη για να παρέχει υποστήριξη σε καινούργιες τεχνολογίες ενώ
 διατηρεί την παραδοσιακή επιφάνεια εργασίας.
-Δείτε την `Πορεία λογισμικού <http://wiki.mate-desktop.com/roadmap>`_ ή την `Παρουσίαση του
-Stefano στην FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_ 
-για να μάθετε περισσότερα για πως έχει εξελιχθεί το ΜΑΤΕ και ποιοί είναι οι στόχοι του
-για το μέλλον. Το `προκύρηξη του MATE <http://wiki.mate-desktop.com/board:manifesto>`_
+Δείτε την `Πορεία λογισμικού <http://wiki.mate-desktop.com/roadmap>`_ 
+
+Το `προκύρηξη του MATE <http://wiki.mate-desktop.com/board:manifesto>`_
 περιγράφει μερικές από τις βασικές αρχές του project.
 
 .. image:: /screens/screenshot.jpg

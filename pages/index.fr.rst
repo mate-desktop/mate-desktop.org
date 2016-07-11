@@ -12,9 +12,8 @@ d'autres systèmes d'exploitation similaires à Unix.
 
 MATE connaît un développement soutenu pour ajouter le support des technologies
 nouvelles tout en préservant l'expérience d'un bureau traditionnel.
-Voyez `la feuille de route <http://wiki.mate-desktop.org/roadmap>`_ ou
-`la présentation de Stefano à la FOSDEM 2014 </blog/2014-02-07-stefano-presents-mate-at-fosdem/>`_
-pour savoir comment MATE a évolué et ce qui est prévu pour l'avenir.
+Voyez `la feuille de route <http://wiki.mate-desktop.org/roadmap>`_ 
+
 Le `manifeste MATE <http://wiki.mate-desktop.org/board:manifesto>`_
 souligne certains des principes qui guident le projet.
 
