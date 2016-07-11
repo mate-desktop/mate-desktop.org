@@ -97,6 +97,7 @@ TRANSLATIONS = {
     "pl": "./pl",
     "pt": "./pt",
     "tr": "./tr",
+    "zh_cn": "./zh_cn",
 }
 
 # What will translated input files be named like?
@@ -223,6 +224,15 @@ NAVIGATION_LINKS = {
 		('/tr/community/', 'Topluluk'),
 		('/tr/team/', 'Ekip'),
 		('/tr/donate/', 'Bağış'),
+    ),
+    "zh_cn": (
+                ('/zh_cn/blog/', '博客'),
+                ('/zh_cn/install/', '安装'),
+                ('/zh_cn/gallery/1.14/', '截图'),
+                ('/zh_cn/development/', '开发'),
+                ('/zh_cn/community/', '社区'),
+                ('/zh_cn/team/', '团队'),
+                ('/zh_cn/donate/', '捐赠'),
     ),
 }
 
