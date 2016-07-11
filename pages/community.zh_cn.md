@@ -24,9 +24,15 @@
 
 ## 论坛
 
-如果你不喜欢使用邮件交流，来加入我们的社区论坛吧。
+如果你不喜欢使用邮件交流。
 
-  * <http://forums.mate-desktop.org>
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
 
 ### 发行版论坛上的官方帖子
 

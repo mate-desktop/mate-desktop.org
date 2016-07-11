@@ -27,16 +27,21 @@ list.
 
 ## Forums
 
-You don't do email, we get that too. Come and join our community forums.
+You don't do email, we get that too. Come and join one of the community forums.
 
-  * <http://forums.mate-desktop.org>
-  
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
+
 ### Official forum threads
 
 We have also official threads in various distribution forums:
 
   * [MATE thread on Archlinux forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE thread on Linux Mint forum](http://forums.linuxmint.com/viewtopic.php?t=86481)
   * [MATE thread on SalixOS forum](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
   * [MATE thread on Ubuntu forum](http://ubuntuforums.org/showthread.php?p=11333073)
 

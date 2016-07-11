@@ -24,9 +24,15 @@ Jesteśmy staroświeccy, posiadamy ją. Przyjdź i dołącz do dyskusji na liśc
 
 ## Fora
 
-Nie wysyłamy maili, też to mamy. Chodź i dołącz do forów naszej społeczności.
+Nie wysyłamy maili, też to mamy.
 
-  * <http://forums.mate-desktop.org>
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
 ### Oficjane wątki forów
 

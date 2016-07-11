@@ -27,9 +27,15 @@
 
 ## 論壇
 
-您不想用電子郵件，這我們也知道。來加入我們的社群論壇。
+您不想用電子郵件，這我們也知道
 
-  * <http://forums.mate-desktop.org>
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
 ### 官方論壇討論串
 

@@ -27,9 +27,15 @@ bei und diskutieren Sie mit.
 
 ## Foren
 
-Sie mailen nicht -- verstehen wir auch. Besuchen Sie unsere Community-Foren.
+Sie mailen nicht -- verstehen wir auch.
 
-  * <http://forums.mate-desktop.org>
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
 ### Offizielle Foren-Threads
 
@@ -46,7 +52,7 @@ Sie sind der soziale Typ, stimmt's?
 
   * [MATE Google+-Community](https://plus.google.com/u/0/communities/103904770310171205536)
   * [MATE Google+-Seite](https://plus.google.com/105251070079435964338/)
-  * [MATE Twitter-Profil](https://twitter.com/mate_desktop) 
+  * [MATE Twitter-Profil](https://twitter.com/mate_desktop)
 
 ## IRC
 

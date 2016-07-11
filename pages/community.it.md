@@ -28,7 +28,13 @@ Ci sono diverse liste di distribuzioni che è possibile utilizzare.
 
 Per chi non usa l'email, è possibile unirsi al nostro forum.
 
-  * <http://forums.mate-desktop.org>
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
 ### Thread ufficiali nei forum
 

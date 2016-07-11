@@ -26,10 +26,16 @@
 
 ## Forums
 
-Δεν το έχετε με τα emails, το έχουμε και αυτό. Ελάτε να συμμετάσχετε στα forums της κοινότητάς μας.
+Δεν το έχετε με τα emails, το έχουμε και αυτό.
 
-  * <http://forums.mate-desktop.org>
-  
+  * [Arch Linux Forum](https://bbs.archlinux.org/)
+  * [Debian User Forums](http://forums.debian.net/)
+  * [Fedora Forum](http://fedoraforum.org/)
+  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
+
 ### Επίσημο νήμα forum
 
 Έχουμε επίσης επίσημα νήματα σε forums από διάφορες διανομές:
