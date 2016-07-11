@@ -71,12 +71,6 @@ Packaging για τη Arch Linux, συντηρητής σελίδων man .
 
 Packaging για την openSUSE.
 
-## Διαχειριστές του Forum
-
-Η αφοσιωμένη ομάδα των διαχειριστών του forum βρίσκεται στον σύνδεσμο:
-
-  * <http://forums.mate-desktop.com/memberlist.php?mode=leaders>
-
 ## Μεταφραστές
 
 Το MATE έχει μεταφραστεί ή μερικώς μεταφραστεί σε 140 γλώσσες.

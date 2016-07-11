@@ -71,12 +71,6 @@ Social media and promotion.
 
 Packaging for openSUSE.
 
-## Moderator Forum
-
-Tim moderator forum dapat ditemukan di bawah ini:
-
-  * <http://forums.mate-desktop.com/memberlist.php?mode=leaders>
-
 ## Translators
 
 MATE is translated, or partially translated, for 140 languages.

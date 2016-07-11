@@ -69,12 +69,6 @@ Arch Linux 打包者，Man 手册编撰。
 
 openSUSE 打包者。
 
-## 论坛管理员
-
-我们的论坛管理团队名单如下：
-
-  * <http://forums.mate-desktop.com/memberlist.php?mode=leaders>
-
 ## 翻译者
 
 MATE 在不同程度上已被翻译到了 140 种语言。
