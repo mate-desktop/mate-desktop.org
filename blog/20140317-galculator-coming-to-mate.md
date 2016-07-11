@@ -66,7 +66,3 @@ way off yet, so you have plenty of time.
 
 Hopefully you undertand our reasoning and can see the mutual advantages
 for this partnership. Let us know what you think in the comments.
-  
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2959" class="alert-link">Comments</a>
-</div>

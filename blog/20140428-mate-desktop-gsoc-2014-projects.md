@@ -35,7 +35,3 @@ On behalf on the entire MATE team I'd also like to extend our thanks and
 gratitude to [openSUSE](http://www.opensuse.org) who are our GSoC organiser for
 2014. They did a fantastic job in helping secure these GSoC placements for the
 MATE team that will provide much need development resources to the project.
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3035" class="alert-link">Comments</a>
-</div>

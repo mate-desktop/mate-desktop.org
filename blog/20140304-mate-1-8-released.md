@@ -161,7 +161,3 @@ contributions by 57 people, and more than 291 translators.
   * [MATE 1.8 Screenshots](/gallery/1.8/)
 
 <br/><br/>
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2948" class="alert-link">Comments</a>
-</div>

@@ -125,6 +125,3 @@ the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a
 spin let us know what you think in the comments or use the Live CD to join us 
 in the [#mate IRC channel](https://webchat.freenode.net/?channels=#mate).
 
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2917" class="alert-link">Comments</a>
-</div>

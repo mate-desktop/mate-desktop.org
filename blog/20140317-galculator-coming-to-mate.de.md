@@ -66,7 +66,3 @@ hinzu. MATE 1.10 ist noch ein gutes Stück entfernt, Sie haben also noch reichli
 
 Hoffentlich können Sie unserer Begründung folgen und sehen die gegenseitigen
 Vorteile dieser Partnerschaft. Teilen Sie uns Ihre Meinung in den Kommentaren mit.
-  
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2959" class="alert-link">Kommentare</a>
-</div>

@@ -26,7 +26,3 @@ We've removed the package repositories hosted on mate-desktop.org
 because some were unsigned and others have not been maintained for many 
 months. Therefore, as of now, the Debian and Ubuntu package 
 repositories hosted on mate-desktop.org have been removed. 
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3267" class="alert-link">Comments</a>
-</div>

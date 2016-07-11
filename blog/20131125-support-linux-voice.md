@@ -22,7 +22,3 @@ Here are some of the reasons we are endorsing this project:
 You can also find out more about how the campaign is progressing by visiting the [Linux Voice](http://www.linuxvoice.com/) website.
 
   * <http://www.linuxvoice.com/>
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2487" class="alert-link">Comments</a>
-</div>

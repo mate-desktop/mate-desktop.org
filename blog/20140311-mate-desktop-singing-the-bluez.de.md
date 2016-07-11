@@ -44,6 +44,3 @@ rechtzeitig fertig zu haben für MATE 1.8.1, das primär als Bugfix-Release geda
 Klar. Jeder mit BlueZ 4.x/5.x, dbus, PyGObject und PyGTK ist dazu aufgefordert,
 beizutragen zu dem [Blueman-GitHub-Repositorium](https://github.com/blueman-project/blueman).
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2953" class="alert-link">Kommentare</a>
-</div>

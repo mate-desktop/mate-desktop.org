@@ -38,7 +38,3 @@ MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
 you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
 blog post about how install Arch Linux and MATE on the Raspberry Pi with
 some useful performance tweaks in the near future.
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2904" class="alert-link">Comments</a>
-</div>

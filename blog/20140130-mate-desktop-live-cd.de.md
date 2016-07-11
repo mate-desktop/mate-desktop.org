@@ -128,7 +128,3 @@ die Geschwindigkeit und Einfachheit, die der MATE-Desktop bietet. Sobald
 Sie zurück sind, lassen Sie uns wissen, was Sie darüber denken. Benutzen
 Sie dazu bitte die Kommentarfunktion oder treffen Sie uns im 
 [#mate IRC channel](https://webchat.freenode.net/?channels=#mate).
-
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2917" class="alert-link">Kommentare</a>
-</div>

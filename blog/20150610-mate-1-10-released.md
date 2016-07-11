@@ -323,6 +323,3 @@ and OSS sound systems.
 
 <br/><br/>
 
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3620" class="alert-link">Comments</a>
-</div>

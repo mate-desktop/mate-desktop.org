@@ -31,7 +31,3 @@ You can read the original mailing post and follow-up comments below:
 
 The feedback we've had so far about this decision has been positive. What do you
 think?
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2931" class="alert-link">Comments</a>
-</div>

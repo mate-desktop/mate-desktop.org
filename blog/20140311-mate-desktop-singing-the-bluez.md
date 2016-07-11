@@ -43,7 +43,3 @@ release.
 
 Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
 to contribute via the [Blueman GitHub repository](https://github.com/blueman-project/blueman).
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2953" class="alert-link">Comments</a>
-</div>

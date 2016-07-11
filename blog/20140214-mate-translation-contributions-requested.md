@@ -26,7 +26,3 @@ so you can start contributing to MATE, we'd really appreciate it!
 
 There are currently 6 languages with 100% coverage, so lets see how many more
 can get 100% coverage before the MATE 1.8 release.
-
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2934" class="alert-link">Comments</a>
-</div>

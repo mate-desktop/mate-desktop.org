@@ -40,7 +40,3 @@ and don't want to draw on their limited time by asking them to moderate
 blog comments on a 3rd party comment provider. Besides, this approach will
 drive more readers to the MATE forums and will hope fully help grow and
 develop the community. We hope you understand our decision.
-
-<div class="alert alert-success">
-<strong>Discussion</strong> We hope you like the new site, <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2061" class="alert-link">please let us know what you think</a>.
-</div>

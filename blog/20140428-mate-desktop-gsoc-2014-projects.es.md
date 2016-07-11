@@ -35,6 +35,3 @@ gratitud a [openSUSE](http://www.opensuse.org) quienes son nuestros organizadore
 de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
 para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
 
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3035" class="alert-link">Comments</a>
-</div>

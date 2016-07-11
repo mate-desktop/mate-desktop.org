@@ -64,6 +64,3 @@ mit den MATE-Mentoren in Kontakt zu treten ist:
 
 Wir freuen uns auf eure Bewerbungen!
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2952" class="alert-link">Kommentare</a>
-</div>

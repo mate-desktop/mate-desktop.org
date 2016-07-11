@@ -26,6 +26,3 @@ reviewing your [pull-requests on GitHub](https://github.com/mate-desktop).
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
 may find something that interests you.
 
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3422" class="alert-link">Comments</a>
-</div>

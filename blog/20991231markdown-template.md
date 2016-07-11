@@ -13,6 +13,3 @@ Write your post here, making sure you submit your pull-request with the
 
 See `README.md` for Markdown syntax and extension references.
   
-<div class="alert alert-success">
-<strong>Discussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=XXXX" class="alert-link">Comments</a>
-</div>

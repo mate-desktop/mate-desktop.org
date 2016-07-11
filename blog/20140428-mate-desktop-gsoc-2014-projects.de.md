@@ -38,6 +38,3 @@ für 2014. Sie haben fantastische Arbeit dabei geleistet, das MATE-Team bei
 der Sicherung dieser GSoC-Platzierungen zu unterstützen, welche dringend benötigte
 Entwicklungstätigkeiten in das Projekt einfließen lassen werden.
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3035" class="alert-link">Kommentare</a>
-</div>

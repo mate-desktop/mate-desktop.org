@@ -22,7 +22,3 @@ Wenn Sie die MATE-Pakete für Debian oder Ubuntu benötigen, dann sind die obens
 Wir haben die auf mate-desktop.org gehosteten Paket-Repositorien entfernt, 
 da einige unsigniert waren und andere seit Monaten nicht gepflegt wurden.
 Daher werden die Debian- und Ubuntu-Paket-Repositorien nun nicht länger auf mate-desktop.org angeboten.
-
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=3267" class="alert-link">Kommentare</a>
-</div>
