@@ -1,7 +1,7 @@
 <!-- 
 .. link: 
 .. description: MATE Desktop discussion forums are closing
-.. tags: MATE,forums,draft
+.. tags: MATE,forums,private
 .. date: 2016/07/11 13:00:00
 .. title: Markdown template
 .. slug: 2016-07-11-mate-forums-are-closing
@@ -30,6 +30,12 @@ MATE Desktop also has official threads in various distribution forums:
   * [MATE thread on Arch Linux topic](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
   * [MATE thread on SalixOS topic](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
   * [MATE thread on Ubuntu topic](http://ubuntuforums.org/showthread.php?p=11333073)
+
+MATE Desktop discussion can also be found on Google+ and Twitter.
+
+  * [MATE Desktop Google+ Community](https://plus.google.com/u/0/communities/103904770310171205536)
+  * [MATE Desktop Google+ Page](https://plus.google.com/105251070079435964338/)
+  * [MATE Desktop Twitter](https://twitter.com/mate_desktop)
 
 We'd like to thank the MATE Desktop forum moderators, past and present, for all the time and effort they've 
 invested into the forums over the years and hope to see them find moderator roles in some of the discussion 
