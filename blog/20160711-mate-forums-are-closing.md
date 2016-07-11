@@ -14,7 +14,7 @@ effect.**
 For sometime now the forum moderators have struggled to keep up with the pace of discussion, combatting spam
 and new registrations. The original forum administrators are no longer actively participating in the MATE 
 Desktop forums either. It is therefore unfortunate that we have decided to close the MATE Desktop forums
-and we encourage anyone seeking MATE support to head to one of the followin distribution specific forums:
+and we encourage anyone seeking MATE support to head to one of the following distribution specific forums:
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
