@@ -245,13 +245,13 @@ NAVIGATION_LINKS = {
         ('/zh_cn/donate/', '捐赠'),
     ),
     "zh_tw": (
-        ('/zh_tw/blog/', '博客'),
-        ('/zh_tw/install/', '安装'),
-        ('/zh_tw/gallery/1.14/', '截图'),
-        ('/zh_tw/development/', '开发'),
-        ('/zh_tw/community/', '社区'),
-        ('/zh_tw/team/', '团队'),
-        ('/zh_tw/donate/', '捐赠'),
+        ('/zh_tw/blog/', '部落格'),
+        ('/zh_tw/install/', '安裝'),
+        ('/zh_tw/gallery/1.14/', '螢幕截圖'),
+        ('/zh_tw/development/', '開發'),
+        ('/zh_tw/community/', '社群'),
+        ('/zh_tw/team/', '團隊'),
+        ('/zh_tw/donate/', '捐款'),
     ),
 }
 

@@ -3,7 +3,7 @@
 .. description:
 .. tags: Backgrounds
 .. date: 2014-02-24 17:32:07
-.. title: Backgrounds
+.. title: 背景
 .. slug: backgrounds
 -->
 
