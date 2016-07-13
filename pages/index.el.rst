@@ -14,13 +14,13 @@
 διατηρεί την παραδοσιακή επιφάνεια εργασίας.
 Δείτε την `Πορεία λογισμικού <http://wiki.mate-desktop.com/roadmap>`_ 
 
-Το `προκήρυξη του MATE <http://wiki.mate-desktop.com/board:manifesto>`_
+Η `προκήρυξη του MATE <http://wiki.mate-desktop.com/board:manifesto>`_
 περιγράφει μερικές από τις βασικές αρχές του project.
 
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Μπορείτε να δείτε περισσότερα `στιγμιότυπα του MATE <gallery/1.14/>`_.
+Μπορείτε να δείτε περισσότερα `στιγμιότυπα του MATE εδώ<gallery/1.14/>`_.
 
 ---
 Νέα
