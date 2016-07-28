@@ -667,14 +667,10 @@ REDIRECTIONS = [
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
     'default': [
-         'find output -type d -exec chmod 755 {} \;',
-         'find output -type f -exec chmod 644 {} \;',
-	],
-	'local': [
-	     'rsync -a --delete output/ /var/www/new-site/',
-    ],
-	'remote': [
-	     'rsync -av --delete output/ martin@mate-desktop.com:/var/www/new-site/',
+        'rsync -a --delete output/ www/',
+        'find www -type d -exec chmod 755 {} \;',
+        'find www -type f -exec chmod 644 {} \;',
+        'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ martin@mate-desktop.org:/var/www/new-site/',
     ],
 }
 
