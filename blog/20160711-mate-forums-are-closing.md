@@ -3,7 +3,7 @@
 .. description: MATE Desktop discussion forums are closing
 .. tags: MATE,forums,private
 .. date: 2016/07/28 13:00:00
-.. title: ATE Desktop discussion forums are closing
+.. title: MATE Desktop discussion forums are closing
 .. slug: 2016-07-28-mate-forums-are-closing
 .. author: Webmaster
 -->
