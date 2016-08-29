@@ -42,7 +42,6 @@ You don't do email, we get that too. Come and join one of the community forums.
 We have also official threads in various distribution forums:
 
   * [MATE thread on Archlinux forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE thread on SalixOS forum](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
   * [MATE thread on Ubuntu forum](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Social Media
