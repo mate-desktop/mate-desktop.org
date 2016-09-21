@@ -54,6 +54,7 @@ MATE tersedia melalui repositori **resmi** untuk distribusi Linux berikut:
 * `Point Linux <http://pointlinux.org>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
+* `Solus <https://solus-project.com/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
