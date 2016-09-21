@@ -40,6 +40,8 @@ MATE 正在積極開發中，在保留傳統桌面體驗的同時
 
 MATE 在以下的 Linux 散佈版的 **官方** 套件庫中提供：
 
+* `Alpine Linux <https://www.alpinelinux.org/>`_
+* `AOSC <https://aosc.io/>`_
 * `Arch Linux <http://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Debian <http://www.debian.org>`_

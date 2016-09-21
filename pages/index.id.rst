@@ -39,6 +39,8 @@ Distribusi yang mendukung MATE?
 
 MATE tersedia melalui repositori **resmi** untuk distribusi Linux berikut:
 
+* `Alpine Linux <https://www.alpinelinux.org/>`_
+* `AOSC <https://aosc.io/>`_
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_

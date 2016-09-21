@@ -36,6 +36,8 @@ Quais distros suportam MATE?
 
 Mate está disponível através dos repositórios **officiais** das distribuições Linux abaixo:
 
+* `Alpine Linux <https://www.alpinelinux.org/>`_
+* `AOSC <https://aosc.io/>`_
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_

@@ -37,6 +37,8 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 
 你可以从如下发行版的 **官方软件源** 获取 MATE：
 
+* `Alpine Linux <https://www.alpinelinux.org/>`_
+* `AOSC <https://aosc.io/>`_
 * `Arch Linux <http://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Debian <http://www.debian.org>`_
