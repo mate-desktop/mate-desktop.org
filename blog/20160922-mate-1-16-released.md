@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-After 5 months of development the MATE Desktop team are proud to
+After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
 MATE contributor for their help making this release possible.
 
