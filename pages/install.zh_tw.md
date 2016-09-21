@@ -3,7 +3,7 @@
 .. description:
 .. tags: 
 .. date: 2012-04-17 06:32:31
-.. title: Install
+.. title: 安裝
 .. slug: install
 -->
 
