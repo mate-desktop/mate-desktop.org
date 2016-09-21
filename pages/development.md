@@ -7,13 +7,28 @@
 .. slug: development
 -->
 
-The git repositories for MATE are hosted at GitHub.
+## Releases
+
+You can download MATE Desktop release tarballs from our archive:
+
+  * <http://pub.mate-desktop.org/releases/>
+
+You'll also require a MATE Themes packages that matches the GTK3+ version
+shipped in your distro:
+
+  * <http://pub.mate-desktop.org/releases/themes/>
+
+## Code
+
+The git repositories for MATE Desktop are hosted on GitHub.
 
   * <https://github.com/mate-desktop>
 
 You can browse the code with cgit here too:
 
   * <http://git.mate-desktop.org>
+
+## Resources
 
  Other useful links:
 
