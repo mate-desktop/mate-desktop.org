@@ -1,52 +1,51 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases,draft
-.. date: 2016-09-22 13:00:00
+.. tags: Releases
+.. date: 2016-09-21 21:00:00
 .. title: MATE 1.16 released
-.. slug: 2016-09-22-mate-1-16-released
+.. slug: 2016-09-21-mate-1-16-released
 .. author: Martin Wimpress
 -->
 
 After 5 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
-MATE contributor and user.
+MATE contributor for their help making this release possible.
 
 ![about](/assets/img/blog/about-mate-1.16.png)
 
 ## What's new in MATE 1.16
 
-The headline changes in MATE Desktop 1.16 are:
+The release is focused on improving GTK3+ compatibility, migrating
+components to newer libraries, fixing bugs and code hygene. The
+headline changes in MATE Desktop 1.16 are:
 
-  * Improved GTK+3 support across the entire MATE Desktop.
-  * Full GTK 3.22 support in all MATE themes.
-  * The following applications now build against GTK3+ only:
+  * Improved GTK3+ support across the entire MATE Desktop.
+  * Application and theme support for GTK+ 3.22.
+  * More applications build against GTK3+ only:
     * Engrampa
     * MATE Notification Daemon
     * MATE PolKit
     * MATE Session Manager
     * MATE Terminal
-  * Several applications have been uncoupled from `libmate-desktop`:
+  * Some applications have been decoupled from `libmate-desktop`:
     * Engrampa
     * MATE Applets
     * MATE Netbook
     * MATE Power Manager
     * MATE Terminal
     * Pluma
-  * The following applications have been ported to GApplcation:
+  * Work has started to port applications to GApplcation:
     * Engrampa
     * MATE Applets
     * MATE Netbook
-    * MATE User Share 
-  * Translations are updated. Thank you to our team of translators!  
+    * MATE User Share
+  * Many bugs and deprecations are fixed.
+  * Translations are updated. *Thank you to our team of translators!*
 
-The various components of MATE 1.16 are available for download here:
+The various components of MATE Desktop 1.16 are available for download here:
 
   * <http://pub.mate-desktop.org/releases/1.16/>
-
-## Screenshots
-
-  * [MATE 1.16 Screenshots](/gallery/1.16/)
 
 ## Changelog
 
@@ -100,8 +99,8 @@ Here is a more detailed break down of what has changed.
 
 ### mate-polkit
 
-  - Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and `--with-gtk` build option
-  - Translations update
+  * Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and `--with-gtk` build option
+  * Translations update
 
 ### Marco
 
@@ -141,7 +140,7 @@ Here is a more detailed break down of what has changed.
 
 ### mate-themes
 
-
+  * Comprehensive support for GTK3+ 3.20 and 3.22.
 
 ### mate-notification-daemon
 
