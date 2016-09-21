@@ -183,12 +183,12 @@ NAVIGATION_LINKS = {
    ),
     "id": (
 		('/id/blog/', 'Blog'),
-		('/id/install/', 'Install'),
-		('/id/gallery/1.14/', 'Gallery'),
-		('/id/development/', 'Development'),
-		('/id/community/', 'Community'),
-		('/id/team/', 'Team'),
-		('/id/donate/', 'Donate'),
+		('/id/install/', 'Installasi'),
+		('/id/gallery/1.14/', 'Galeri'),
+		('/id/development/', 'Pengembangan'),
+		('/id/community/', 'Komunitas'),
+		('/id/team/', 'Tim'),
+		('/id/donate/', 'Donasi'),
     ),
     "it": (
 		('/it/blog/', 'Blog'),
