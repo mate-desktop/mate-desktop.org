@@ -64,10 +64,11 @@ Mate jest dostępne przez *nieoficjalne* repozytoria dla następujących dystryb
 
 * `Slackware <http://www.slackware.com/>`_
 
-Może wolisz \*BSD?
+Może wolisz UNIX?
 
 * `GhostBSD <http://ghostbsd.org/>`_
 * `FreeBSD <http://freebsd.org/>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org/>`_
 
 Możesz również na Distro Watch `poszukać wszystkich dystrybucji Linuxa wspieranych 

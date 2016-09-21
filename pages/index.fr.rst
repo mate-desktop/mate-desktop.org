@@ -63,10 +63,11 @@ mais l'inclusion dans leurs dépôts officiels est prévue :
 
 * `Slackware <http://www.slackware.com>`
 
-Peut-être préférez-vous \*BSD ?
+Peut-être préférez-vous UNIX?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.

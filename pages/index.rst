@@ -59,10 +59,11 @@ MATE is available via *unofficial* repositories for the following Linux distribu
 
 * `Slackware <http://www.slackware.com>`_
 
-Maybe you prefer \*BSD?
+Maybe you prefer UNIX?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.

@@ -63,10 +63,11 @@ MATE 在以下的 Linux 散佈版的 *非官方* 套件庫中提供：
 
 * `Slackware <http://www.slackware.com>`_
 
-也許您比較喜歡 \*BSD？
+也許您比較喜歡 UNIX？
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 您也可以 `在 DistroWatch.com 上查詢所有支援 MATE 的散佈版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_ 。

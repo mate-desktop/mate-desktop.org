@@ -64,10 +64,11 @@ ancak bu dağıtımların resmî depolarına eklenmesi planlanmaktadır.
 
 * `Slackware <http://www.slackware.com>`
 
-\*BSD'yi mi tercih edersiniz?
+UNIX'yi mi tercih edersiniz?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 Ayrıca MATE'yi destekleyen tüm dağıtımları `DistroWatch.com sitesinde 

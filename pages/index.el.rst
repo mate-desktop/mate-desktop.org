@@ -63,10 +63,11 @@
 
 * `Slackware <http://www.slackware.com>`_
 
-Μήπως προτιμάτε \*BSD?
+Μήπως προτιμάτε UNIX?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 Μπορείτε επίσης να `εξετάσετε όλες τις διανομές που υποστηρίζουν το MATE στο DistroWatch.com <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.

@@ -60,11 +60,12 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 
 * `Slackware <http://www.slackware.com>`_
 
-<!-- 也许 \*BSD 才是你的菜？-->
+<!-- 也许 UNIX 才是你的菜？-->
 也许 \*BSD 更符合你的口味？
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 你还可以 `在 DistroWatch.com 网站上查询所有支持 MATE 的发行版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.

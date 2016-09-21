@@ -58,10 +58,11 @@ MATE está disponível repositórios via *não oficiais* dessas dustros, mas sua
 
 * `Slackware <http://www.slackware.com>`_
 
-Você prefere \*BSD?
+Você prefere UNIX?
 
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
+* `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
 
 Você pode também `consultar DistroWatch.com para saber quais distribuições suportam MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
