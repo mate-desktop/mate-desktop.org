@@ -16,8 +16,8 @@ MATE contributor for their help making this release possible.
 
 ## What's new in MATE 1.16
 
-The release is focused on improving GTK+3 compatibility, migrating
-components to newer libraries, fixing bugs and code hygene. The
+The release is focused on improving GTK3+ compatibility, migrating
+components to newer libraries, fixing bugs and code hygiene. The
 headline changes in MATE Desktop 1.16 are:
 
   * Improved GTK+3 support across the entire MATE Desktop.
