@@ -16,13 +16,13 @@ MATE contributor for their help making this release possible.
 
 ## What's new in MATE 1.16
 
-The release is focused on improving GTK3+ compatibility, migrating
+The release is focused on improving GTK+3 compatibility, migrating
 components to newer libraries, fixing bugs and code hygene. The
 headline changes in MATE Desktop 1.16 are:
 
-  * Improved GTK3+ support across the entire MATE Desktop.
+  * Improved GTK+3 support across the entire MATE Desktop.
   * Application and theme support for GTK+ 3.22.
-  * More applications build against GTK3+ only:
+  * More applications build against GTK+3 only:
     * Engrampa
     * MATE Notification Daemon
     * MATE PolKit
@@ -35,7 +35,7 @@ headline changes in MATE Desktop 1.16 are:
     * MATE Power Manager
     * MATE Terminal
     * Pluma
-  * Work has started to port applications to GApplcation:
+  * Work has started to port applications to GApplication or GtkApplication:
     * Engrampa
     * MATE Applets
     * MATE Netbook
@@ -140,7 +140,7 @@ Here is a more detailed break down of what has changed.
 
 ### mate-themes
 
-  * Comprehensive support for GTK3+ 3.20 and 3.22.
+  * Comprehensive support for GTK+ 3.20 and 3.22.
 
 ### mate-notification-daemon
 
