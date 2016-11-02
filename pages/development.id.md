@@ -13,7 +13,7 @@ Anda bisa mendapatkan rilis tarball MATE Desktop dari arsip kami:
 
   * <http://pub.mate-desktop.org/releases/>
 
-Anda juga membutuhkan paket MATE Themes yang sesuai dengan versi GTK3+ yang
+Anda juga membutuhkan paket MATE Themes yang sesuai dengan versi GTK+3 yang
 tersedia pada distro Anda:
 
   * <http://pub.mate-desktop.org/releases/themes/>
