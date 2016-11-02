@@ -41,8 +41,6 @@ Silahkan bergabung dengan forum komunitas kami.
 Kami juga memiliki thread resmi pada beberapa forum distribusi:
 
   * [thread MATE pada forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [thread MATE pada forum Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [thread MATE pada forum SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
   * [thread MATE pada forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Media Sosial
