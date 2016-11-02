@@ -9,3 +9,6 @@
 
 Komunitas MATE telah mendokumentasikan bagaimana menginstall MATE pada banyak distribusi,
 harap melihat pada [panduan installasi](http://wiki.mate-desktop.org/download).  
+
+Jika Anda merupakan pemaket distribusi yang mencari tarbal, maka silahkan lihat halaman
+[Pengembangan](/development/) kami.
