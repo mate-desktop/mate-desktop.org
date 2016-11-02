@@ -10,7 +10,7 @@
 Most themes designed for GTK 2.x and GTK 3.x will work with MATE. Head over the
 [GNOME-Look](http://gnome-look.org) to see what you can find.
 
-  * [GTK 2.x themes](http://gnome-look.org/index.php?xcontentmode=100)
-  * [GTK 3.x themes](http://gnome-look.org/index.php?xcontentmode=167)
+  * [GTK 2.x themes](https://www.gnome-look.org/browse/cat/136)
+  * [GTK 3.x themes](https://www.gnome-look.org/browse/cat/135)
 
 
