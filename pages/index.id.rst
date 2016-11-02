@@ -10,8 +10,8 @@ Lingkungan Desktop MATE adalah kelanjutan dari GNOME 2. MATE menyediakan sebuah
 lingkungan desktop yang intuitif dan atraktif menggunakan metafor tradisional untuk
 sistem operasi Linux dan Unix-like.
 
-MATE menggunakan model pengembangan yang aktif untuk menambahkan dukungan terhadap teknologi baru sekaligus 
-mempertahankan pengalaman desktop tradisional. Silahkan melihat `Roadmap 
+MATE menggunakan model pengembangan yang aktif untuk menambahkan dukungan terhadap teknologi baru sekaligus
+mempertahankan pengalaman desktop tradisional. Silahkan melihat `Rencana Pengembangan 
 <http://wiki.mate-desktop.org/roadmap>`_ 
 
 `Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>`_ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
@@ -19,7 +19,7 @@ mempertahankan pengalaman desktop tradisional. Silahkan melihat `Roadmap
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Anda bisa mendapatkan lebih banyak `screenshot dari MATE <gallery/1.14/>`_.
+Anda bisa mendapatkan lebih banyak `galeri dari MATE <gallery/1.14/>`_.
 
 ------
 Berita
@@ -56,6 +56,8 @@ MATE tersedia melalui repositori **resmi** untuk distribusi Linux berikut:
 * `Salix <http://www.salixos.org>`_
 * `Solus <https://solus-project.com/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
+* `Ubuntu MATE <http://www.ubuntu-mate.org/>`_
+* `Vector Linux <http://vectorlinux.com/>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
 MATE tersedia melalui repository *tidak resmi* untuk distribusi Linux berikut:
@@ -89,14 +91,14 @@ Caja
 Caja adalah manajer file resmi untuk desktop MATE. Caja memungkinkan untuk menjelajahi
 direktori, juga mem-preview file serta menjalankan aplikasi yang sudah terasosiasikan.
 Caja juga bertanggung jawab untuk menangani ikon pada desktop MATE.
-Caja bekerja pada sistem berkas lokal dan remote. Caja adalah fork dari Nautilus. 
+Caja bekerja pada sistem file lokal dan remote. Caja adalah fork dari Nautilus.
 
 Pluma
 =====
 
 .. image:: /assets/img/mate/pluma.png
 
-Pluma adalah editor teks yang mendukung sebagian besar fitur editor standar. Ia juga
+Pluma adalah editor teks yang mendukung sebagian besar fitur editor standar. Pluma juga
 memperluas fungsionalitas dasar dengan fitur lain yang biasanya tidak ditemukan pada
 editor teks dasar. Pluma adalah aplikasi grafis yang mendukung pengeditan
 banyak file teks dalam satu jendela (sering disebut tab atau MDI). Pluma mendukung
@@ -109,8 +111,8 @@ Eye of MATE
 
 .. image:: /assets/img/mate/eom.png
 
-eom atau the Eye of MATE adalah viewer citra sederhana untuk desktop MATE desktop yang
-menggunakan pustaka gdk-pixbuf. eom dapat menangani citra yang besar, melalukan zoom dan
+eom atau the Eye of MATE adalah penampil citra sederhana untuk desktop MATE desktop yang
+menggunakan pustaka gdk-pixbuf. eom dapat menangani citra yang besar, melakukan zoom dan
 scroll dengan penggunaan memori yang konstan. Tujuannya adalah kesederhanaan dan kesesuaian
 dengan standar. Eye of MATE adalah fork dari Eye of GNOME.
 
@@ -119,7 +121,7 @@ Atril
 
 .. image:: /assets/img/mate/atril.png
 
-Atril adalah viewer dokumen. Atril dapat menampilkan dan mencetak file dengan tipe
+Atril adalah penampil dokumen. Atril dapat menampilkan dan mencetak file dengan tipe
 PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS dan Portable
 Document Format (PDF). Ketika didukung oleh dokumen, Atril juga dapat mencari, menyalin
 teks pada clipboard, navigasi hypertext, dan bookmark daftar isi. Atril adalah fork dari Evince.
