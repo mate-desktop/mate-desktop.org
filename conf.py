@@ -670,7 +670,7 @@ DEPLOY_COMMANDS = {
         'rsync -a --delete output/ www/',
         'find www -type d -exec chmod 755 {} \;',
         'find www -type f -exec chmod 644 {} \;',
-        'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ martin@mate-desktop.org:/var/www/new-site/',
+        'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ matey@yerba.mate-desktop.org:mate-desktop.org/',
     ],
 }
 
