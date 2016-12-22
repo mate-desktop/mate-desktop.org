@@ -2,4 +2,4 @@
 
 sudo apt-get -y install rsync
 nikola deploy
-data
+date
