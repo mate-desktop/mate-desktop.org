@@ -1,0 +1,35 @@
+<!--
+.. link:
+.. description:
+.. tags: Outages
+.. date: 2016-12-22 01:00:00
+.. title: Server Outage
+.. slug: 2016-12-22-server-outage
+.. author: Martin Wimpress
+-->
+
+The server that runs this website went offline without notice yesterday.
+We don't know why and we've had no contact from our server host. **We do
+have complete backups, no data has been lost.** We've started to restore
+services and the outstanding service will be reinstated as time permits
+over the holiday period.
+
+We will update this page as services come back online.
+
+## What is the impact?
+
+This services are currently down, listed in order od restore priority
+
+  * `mail.mate-desktop.org` - Mail server for developers.
+  * `git.mate-desktop.org` - This is a mirror of the [MATE Desktop GitHub](https://github.com/mate-desktop).
+  * `wiki.mate-desktop.org` - The developer wiki.
+  * `planet.mate-desktop.org` - The MATE Desktop planet.
+  * `ml.mate-desktop.org` - The mailing lists, which are rarely used.
+  * `forums.mate-desktop.org` - The forums, which we started shutting down earlier in the year and are locked.
+
+## What has been restored?
+
+  * <http://www.mate-desktop.org> - This website
+  * <http://pub.mate-desktop.org> - Where you can find the tarballs of MATE Desktop releases.
+
+We apologise for any inconvenience this may have caused.
