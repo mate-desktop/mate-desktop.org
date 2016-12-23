@@ -18,7 +18,7 @@ We will update this page as services come back online.
 
 ## What is the impact?
 
-This services are currently down, listed in order od restore priority
+This services are currently down, listed in order of restore priority
 
   * `mail.mate-desktop.org` - Mail server for developers.
   * `ml.mate-desktop.org` - The mailing lists, which are rarely used.
