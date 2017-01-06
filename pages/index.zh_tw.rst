@@ -161,5 +161,5 @@ GNOME 終端機的一個分支。
 亞熱帶南美洲的冬青品種。它的葉子含有咖啡因，並可用於製造
 沖泡式飲品與稱作 mate 的飲料。
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

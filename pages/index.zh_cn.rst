@@ -145,5 +145,5 @@ MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使
 `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_ 。其枝叶含有咖啡因，一般用来制作
 浸剂和一种称为 mate 的饮品。
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

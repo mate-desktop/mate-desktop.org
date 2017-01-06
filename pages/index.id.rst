@@ -154,5 +154,5 @@ Nama *"MATE"*, diucapkan *Ma-Tay*, berasal dari `yerba maté
 <http://en.wikipedia.org/wiki/Yerba_mate>`_, sebuah spesies tanaman asli di daerah subtropis Amerika Selatan.
 Daunnya mengandung kafein dan digunakan untuk membuat sebuah minuman disebut mate.
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

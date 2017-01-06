@@ -137,5 +137,5 @@ De onde vem esse nome?
 O nome *"MATE"*, vem de `erva mate
 <https://www.pt.wikipedia.org/wiki/Erva-mate>`_, uma espécie de azevinho nativa da América do Sul subtropical. Suas folhas contêm cafeína e são usados ​​para fazer infusões e bebidas.
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

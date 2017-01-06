@@ -165,5 +165,5 @@ Il nome *"MATE"*, pronunciato *Ma-Tay*, viene da `yerba maté <http://en.wikiped
 una specie di agrifoglio nativo del Sud America subtropicale. Le sue foglie contengono
 caffeina e sono usati per fare infusioni e una bevanda chiamate mate.
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

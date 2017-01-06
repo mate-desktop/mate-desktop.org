@@ -168,5 +168,5 @@ une espèce de houx de l'Amérique du Sud subtropicale. Ses feuilles
 contiennent de la caféine et sont utilisées pour faire des infusions
 et une boisson appelée maté.
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

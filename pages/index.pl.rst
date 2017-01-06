@@ -156,5 +156,5 @@ Nazwa  *"MATE"*, wymawiane *Mate*, pochodzi od `yerba maté
 Jej liście zawierają kofeinę i są  używane do tworzenia naparu i napoju zwanego mate.
 
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center

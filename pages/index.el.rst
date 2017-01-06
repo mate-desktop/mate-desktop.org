@@ -165,5 +165,5 @@ To MATE Terminal είναι fork του GNOME Terminal.
 που παράγεται στην Νότια Αμερική. Τα φύλλα του περιέχουν καφεϊνη και χρησιμοποιούνται
 για τη δημιουργία εγχύσεων και ποτών που ονομάζονται mate.
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg/220px-Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg
+.. image:: /assets/img/mate/yerba.jpg
     :align: center
