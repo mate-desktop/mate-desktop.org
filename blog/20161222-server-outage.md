@@ -20,7 +20,6 @@ We will update this page as services come back online.
 
 This services are currently down, listed in order of restore priority
 
-  * `mail.mate-desktop.org` - Mail server for developers.
   * `ml.mate-desktop.org` - The mailing lists, which are rarely used.
   * `forums.mate-desktop.org` - The forums, which we started shutting down earlier in the year and are locked.
 
@@ -31,6 +30,7 @@ This services are currently down, listed in order of restore priority
   * <http://wiki.mate-desktop.org> - The developer wiki.
   * <http://git.mate-desktop.org> - This is a mirror of the [MATE Desktop GitHub](https://github.com/mate-desktop).
   * <http://planet.mate-desktop.org> - The MATE Desktop planet.
+  * `mail.mate-desktop.org` - Mail server for developers.
 
 ## Update
 
@@ -47,5 +47,9 @@ This services are currently down, listed in order of restore priority
 ### 23nd December
 
   * Restored `planet.mate-desktop.org`.
+
+### 2nd January
+
+  * Restored `mail.mate-desktop.org`.
 
 We apologise for any inconvenience this may have caused.
