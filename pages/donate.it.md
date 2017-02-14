@@ -10,7 +10,7 @@
 L'ambiente Desktop MATE è totalmente gratuito e tutte le persone coinvolte sono volontari.
 
 Considera la possibilità di fare una donazione al progetto MATE. E' bello aver riconosciuti gli sforzi che abbiamo
-messo nel progetto riconosciuti. Il denaro raccolto verrà usato per coprire i costi
+messo nel progetto. Il denaro raccolto verrà usato per coprire i costi
 di hosting, qualsiasi hardware acquistato e possibilmente le spese di volo in modo che
 i membri del team MATE possano partecipare alle conferenze più rilevanti.
 
