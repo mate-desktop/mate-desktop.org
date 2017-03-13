@@ -28,31 +28,31 @@ The headline changes in MATE Desktop 1.18 are:
   * Completed the migration to `GtkApplication` from `libunique`.
   * **Added `libinput` support for mouse and touchpad.**
     * Separate settings for handedness (left/right-handed) and motion acceleration/threshold.
-  * **Much improved accessibility support (particularly for visually impaired users)** across the MATE Desktop suite of applications.
+  * **Much improved accessibility support (particularly for visually impaired users).**
      * Many thanks to our friends at [Hypra.fr](http://hypra.fr/-Home-17-.html?lang=en) for their contribution!    
   * **Caja adds several new features** including:
       * Added a copy queue and copy pausing.
       * Asking confirmation before moving files to the Trash.
       * Support for back/forward mouse buttons for directory navigation.
-      * Notification when ejected drives are safe to unplug.    
+      * Notification when ejected drives are safe to unplug.
+  * **Lock screen will load the users selected background** instead of the system defined default.
   * MATE Panel gets several improvements, including:
     * **Added [desktop actions](https://standards.freedesktop.org/desktop-entry-spec/latest/ar01s10.html) support for additional launch options**.
     * Added StatusNotifier support.
     * **Added support for [Menulibre](https://smdavis.us/projects/menulibre/) menu editor**, if installed it is prefered over Mozo.
-  * **Notifications now implement action icons support**, for example playback control icons used by media players.
   * Engrampa, the archive manager, includes a number of improvements:
     * Added `ear` and `war` to the supported types list.
     * Check the rar/unrar version to the correct date is shown.
     * Fixed compress rar adn 7z split into volumes.
+  * **Notifications now implement action icons support**, for example playback control icons used by media players.    
+  * Reworked the font viewer to add font browsing mode, support for TTC fonts and expose it in the menus by default.
   * **Replaced deprecated `upower` suspend/hibernate functions with ConsoleKit2 equivalents**.
-  * Reworked the font viewer to add font browsing mode, support for TTC fonts and show it in menu by default.
-  * **Lock screen will load user's background instead of the system defined default**.
-  * **Atril, the document viewer, has much improves page load times** adds support for unarchiver used by some comics.
-  * MATE Terminal adds the ability to close tabs with middle mouse button.
-  * **The plugin systems, and all C and Python plugins, in Eye of MATE and Pluma have been ported to `libpeas`.**
+  * MATE Terminal adds the ability to close tabs with middle mouse button. 
+  * **Atril, the document viewer, has much improved page load times** and adds support for `unarchiver` used by some comics.  
   * Lots of deprecated GTK+ methods have been replaced and many bugs have been fixed.
-  * A number of **memory leaks have been plugged**.
+  * **The plugin systems, and all C and Python plugins, in Eye of MATE and Pluma have been ported to `libpeas`.**  
   * Translations are updated. *Thank you to our team of translators!*
+  * A number of **memory leaks have been plugged**.
   * *A-n-d most exciting of all...* **MATE Calulator is back and has been ported to GTK3+** `:-D`
 
 The various components of MATE Desktop 1.18 are available for download here:
