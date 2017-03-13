@@ -15,7 +15,7 @@
 <div class="bs-component">
     <div class="jumbotron">
         <h1>謝謝！</h1>
-        <p>您可以感覺到的這溫暖且模湖的感覺是
+        <p>您可以感覺到的這溫暖且模糊的感覺是
         網際網路推崇您擁有 <b>MATE 桌面的超級英雄</b>的地位。</p>
         <a href="/" class="btn btn-primary btn-lg">回到首頁</a>
         </p>
