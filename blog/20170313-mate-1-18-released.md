@@ -22,7 +22,7 @@ Desktop 1.16 still replied on.
 
 The headline changes in MATE Desktop 1.18 are:
 
-  * **The entire MATE Desktop suite of applications and componets is now GTK3+ only!**
+  * **The entire MATE Desktop suite of applications and components is now GTK3+ only!**
     * Requires GTK+ >= 3.14.
     * All GTK2+ code has been dropped including the `--with-gtk` build option.
   * Completed the migration to `GtkApplication` from `libunique`.
@@ -53,7 +53,7 @@ The headline changes in MATE Desktop 1.18 are:
   * **The plugin systems, and all C and Python plugins, in Eye of MATE and Pluma have been ported to `libpeas`.**  
   * Translations are updated. *Thank you to our team of translators!*
   * A number of **memory leaks have been plugged**.
-  * *A-n-d most exciting of all...* **MATE Calulator is back and has been ported to GTK3+** `:-D`
+  * *A-n-d most exciting of all...* **MATE Calculator is back and has been ported to GTK3+** `:-D`
 
 The various components of MATE Desktop 1.18 are available for download here:
 
