@@ -49,6 +49,7 @@ MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuz
 * `Mageia <https://www.mageia.org/en/>`_
 * `Manjaro <http://manjaro.org/>`_
 * `openSUSE <http://www.opensuse.org>`_
+* `Parrot Security OS <http://www.parrotsec.org/>`_
 * `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
 * `Point Linux <http://pointlinux.org/>`_
