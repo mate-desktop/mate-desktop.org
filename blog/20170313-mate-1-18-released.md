@@ -18,7 +18,7 @@ MATE contributor for their help making this release possible.
 
 The release is focused on completing the migration to GTK3+ and
 adopting new technologies to replace some of deprecated components MATE
-Desktop 1.16 still replied on.
+Desktop 1.16 still relied on.
 
 The headline changes in MATE Desktop 1.18 are:
 
@@ -39,11 +39,11 @@ The headline changes in MATE Desktop 1.18 are:
   * MATE Panel gets several improvements, including:
     * **Added [desktop actions](https://standards.freedesktop.org/desktop-entry-spec/latest/ar01s10.html) support for additional launch options**.
     * Added StatusNotifier support.
-    * **Added support for [Menulibre](https://smdavis.us/projects/menulibre/) menu editor**, if installed it is prefered over Mozo.
+    * **Added support for [Menulibre](https://smdavis.us/projects/menulibre/) menu editor**, if installed it is preferred over Mozo.
   * Engrampa, the archive manager, includes a number of improvements:
     * Added `ear` and `war` to the supported types list.
     * Check the rar/unrar version to the correct date is shown.
-    * Fixed compress rar adn 7z split into volumes.
+    * Fixed compress rar and 7z split into volumes.
   * **Notifications now implement action icons support**, for example playback control icons used by media players.    
   * Reworked the font viewer to add font browsing mode, support for TTC fonts and expose it in the menus by default.
   * **Replaced deprecated `upower` suspend/hibernate functions with ConsoleKit2 equivalents**.
