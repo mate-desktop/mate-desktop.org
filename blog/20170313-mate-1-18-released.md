@@ -340,6 +340,12 @@ Here is a more detailed break down of what changed.
   * zip: added ear and war to the supported types list
   * Update engrampa NEWS to use consistent, project wide, markdown-like 
     formatting.
+  * Build: require Caja >= 1.17.1 to build against GTK+3 version
+    of libcaja-extension
+  * tar: add support for pixz for .tar.xz files
+  * tar: add support for lbzip2 on .tar.bz2 files
+  * lha: add support for Amiga files
+  * Some corrections in GSettings schema
   * Translations update
 
 ### eom 1.18.0
