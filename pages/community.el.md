@@ -3,7 +3,7 @@
 .. description:
 .. tags: Mailing List,Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
-.. title: Community
+.. title: Κοινότητα
 .. slug: community
 -->
 
