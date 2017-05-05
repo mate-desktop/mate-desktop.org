@@ -7,13 +7,30 @@
 .. slug: development
 -->
 
+
+## Κυκλοφορίες
+
+
+Μπορείτε να κατεβάσετε τα τελευταίων πηγαίων αρχείων του MATE Desktop από την αρχειοθήκη μας: Κυκλοφορία στην διανομή σας:
+
+
+  * <http://pub.mate-desktop.org/releases/themes/>
+
+
+##Κώδικας
+
+
 Τα αποθετήρια git του MATE φιλοξενούνται στο GitHub.
+
 
   * <https://github.com/mate-desktop>
 
+
 Μπορείτε να πλοηγηθείτε στον κώδικα με το cgit στο:
 
+
   * <http://git.mate-desktop.org>
+
 
  Άλλοι χρήσιμοι σύνδεσμοι:
 
@@ -23,4 +40,4 @@
   * <http://wiki.mate-desktop.org/contribute>
   * <http://wiki.mate-desktop.org/translation>
   
-Μην διστάζεις να συμβάλεις, διασκέδασε βελτιώνοντας το MATE!
+Μην διστάσετε να συνεισφέρετε, διασκεδάστε βελτιώνοντας το MATE!
