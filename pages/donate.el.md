@@ -3,7 +3,7 @@
 .. description:
 .. tags: 
 .. date: 2012-05-22 11:54:14
-.. title: Donate
+.. title: Δωρεά
 .. slug: donate
 -->
 
