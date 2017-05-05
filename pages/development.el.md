@@ -17,7 +17,7 @@
   * <http://pub.mate-desktop.org/releases/themes/>
 
 
-##Κώδικας
+## Κώδικας
 
 
 Τα αποθετήρια git του MATE φιλοξενούνται στο GitHub.
