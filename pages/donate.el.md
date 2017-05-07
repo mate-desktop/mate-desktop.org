@@ -30,7 +30,7 @@ img.centered {
 θα είναι πάντα καλυμμένα και μας επιτρέπει να προγραμματίζουμε καλύτερα πώς μπορούμε
 επιβραβεύουμε τους συνεισφέροντες μας και να είμαστε χορηγοί σε άλλα έργα Ανοιχτού Κώδικα.
 
-div class="bs-docs-section">
+<div class="bs-docs-section">
   <div class="row">
     <div class="col-lg-6">
       <div class="well bs-component">
