@@ -18,7 +18,7 @@ img.centered {
 
 <div class="bs-component">
     <div class="jumbotron">
-        <h1>Oh well!</h1>
+        <h1>Ευχαριστούμε!</h1>
         <p>Έχετε έλλειψη σε μετρητά; Σας καταλαβαίνουμε. Δωρίστε ξανά όταν θα σας περισσέυουν χρήματα.</p>
         <a href="/" class="btn btn-primary btn-lg">Επιστροφή στην σελίδα</a>
         </p>
