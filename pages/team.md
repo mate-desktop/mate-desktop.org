@@ -71,6 +71,10 @@ Social media and promotion.
 
 Packaging for openSUSE.
 
+### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
+
+
+
 ## Translators
 
 MATE is translated, or partially translated, for 140 languages.
