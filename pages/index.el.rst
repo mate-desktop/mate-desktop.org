@@ -9,9 +9,9 @@
 Το Γραφικό Περιβάλλον Desktop MATE είναι η συνέχεια του GNOME 2. Παρέχει μια εύληπτη και ελκυστική επιφάνεια εργασίας,χρησιμοποιώντας παραδοσιακά σύμβολα για Linux και άλλα λειτουργικά συστήματα που μοιάζουν με Unix.
 
 To Mate αναπτύσσεται ενεργά ώστε να υποστηρίζει νέες τεχνολογίες, διατηρώντας ταυτόχρονα μια παραδοσιακή επιφάνεια εργασίας
-Δείτε την [Πορεία λογισμικού](http://wiki.mate-desktop.com/roadmap). 
+Δείτε την Πορεία λογισμικού (http://wiki.mate-desktop.com/roadmap). 
 
-Η [προκήρυξη του MATE](http://wiki.mate-desktop.com/board:manifesto)
+Η προκήρυξη του MATE (http://wiki.mate-desktop.com/board:manifesto)
 περιγράφει μερικές από τις βασικές αρχές του project.
 
 .. image:: /screens/screenshot.jpg
