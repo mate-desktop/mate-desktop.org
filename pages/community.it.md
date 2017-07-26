@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Comunità
 .. slug: community
@@ -17,12 +17,6 @@ Nel nostro wiki si trova già molto materiale utile, ma siete incoraggiati
 a migliorarlo.
 
   * <http://wiki.mate-desktop.org>
-
-## Mailing list
-
-Ci sono diverse liste di distribuzioni che è possibile utilizzare.
-
-  * <http://ml.mate-desktop.org/listinfo/>
 
 ## Forum
 

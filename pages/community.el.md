@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Community
 .. slug: community
@@ -17,12 +17,6 @@
 να συμβάλεται στη βελτιστοποίηση του.
 
   * <http://wiki.mate-desktop.org>
-
-## Λίστα Ηλ. Ταχυδρομείου
-
-Είσαι "παλιός", το έχουμε. Έλα να συμμετάσχεις στην συζήτηση των εγγεγραμένων χρηστών της λίστας ηλ. ταχυδρομείου του MATE.
-
-  * <http://ml.mate-desktop.org/listinfo/>
 
 ## Forums
 

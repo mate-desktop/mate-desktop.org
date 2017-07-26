@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Społeczność
 .. slug: społeczność
@@ -17,13 +17,6 @@ Możesz znaleźć wiele użytecznych materiałów na naszej wiki, jednak zachęc
 Cię także do ich udoskonalania.
 
 * <http://wiki.mate-desktop.org>
-
-## Lista mailingowa
-
-Wolisz tradycyjny kontakt? Przyjdź i dołącz do dyskusji na liście mailingowej 
-MATE.
-
-* <http://ml.mate-desktop.org/listinfo/>
 
 ## Fora
 

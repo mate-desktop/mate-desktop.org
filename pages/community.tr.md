@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: E-posta listesi,Forum,Viki,IRC,Planet
+.. tags: Forum,Viki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Topluluk
 .. slug: community
@@ -16,13 +16,6 @@ Vikimizde yararlı çok malzeme bulabilirsiniz, ama bununla kalmayıp vikiyi
 geliştirmenizi de öneririz.
 
   * <http://wiki.mate-desktop.org>
-
-## E-posta listesi
-
-Eski okuldan bir kullanıcısınız, bu bir sorun değildir. Gelin MATE e-posta
-listesindeki görüşmelere katılın.
-
-  * <http://ml.mate-desktop.org/listinfo/>
 
 ## Forumlar
 

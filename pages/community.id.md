@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forum,Wiki,IRC,Planet
+.. tags: Forum,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Komunitas
 .. slug: community
@@ -17,12 +17,6 @@ Anda bisa menemukan banyak materi yang berguna pada wiki, tetapi kami juga mendu
 membantu mengembangkannya.
 
   * <http://wiki.mate-desktop.org>
-
-## Mailing list
-
-Silahkan bergabung dan berdebat pada mailing list MATE.
-
-  * <http://ml.mate-desktop.org/listinfo/>
 
 ## Forum
 

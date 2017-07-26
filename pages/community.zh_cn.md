@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet,邮件列表,论坛,文档,群组,博客,动态
+.. tags: Forums,Wiki,IRC,Planet,论坛,文档,群组,博客,动态
 .. date: 2011-12-05 07:14:07
 .. title: 社区
 .. slug: community
@@ -15,12 +15,6 @@
 我们的文档 (Wiki) 站点中包含许多有用的信息，我们也鼓励你帮助我们改善文档。
 
   * <http://wiki.mate-desktop.org>
-
-## 邮件列表
-
-我们也欢迎各路老司机。欢迎在邮件列表中参与我们的辩论。
-
-  * <http://ml.mate-desktop.org/listinfo/>
 
 ## 论坛
 
