@@ -30,15 +30,6 @@ Per chi non usa l'email, è possibile unirsi al nostro forum.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Thread ufficiali nei forum
-
-Abbiamo anche thread uffuciali in alcuni forum delle distribuzioni:
-
-  * [Thread su MATE nel forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Thread su MATE nel forum Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [Thread su MATE nel forum SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Thread su MATE nel forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Social Media
 
 MATE è presente anche nei social media!

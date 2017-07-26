@@ -30,13 +30,6 @@ Silahkan bergabung dengan forum komunitas kami.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Forum Resmi
-
-Kami juga memiliki thread resmi pada beberapa forum distribusi:
-
-  * [thread MATE pada forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [thread MATE pada forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Media Sosial
 
 Anda tipe sosial bukan?

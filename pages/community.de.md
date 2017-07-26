@@ -30,15 +30,6 @@ Sie mailen nicht -- verstehen wir auch.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Offizielle Foren-Threads
-
-Wir haben auch offizielle Threads in diversen Distributions-Foren:
-
-  * [MATE-Thread im Archlinux-Forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE-Thread im Linux-Mint-Forum](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [MATE-Thread im SalixOS-Forum](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [MATE-Thread im Ubuntu-Forum](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Soziale Medien
 
 Sie sind der soziale Typ, stimmt's?

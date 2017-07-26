@@ -30,15 +30,6 @@ Jeśli nie przepadasz za listami, zajrzyj na fora naszych użytkowników:
 * [subreddit MATE Desktop](https://www.reddit.com/r/MATEDesktop)
 * [Ubuntu MATE Forums](https://ubuntu-mate.community)
 
-### Oficjane wątki forów
-
-Polecamy również oficjalne wątki na forach różnych dystrybucji:
-
-* [wątek MATE na forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-* [wątek MATE na forum Linux Mint](https://forums.linuxmint.com/viewtopic.php?t=86481)
-* [wątek MATE na forum SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-* [wątek MATE na forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Sieci społecznościowe
 
 Jesteś towarzyski, prawda?

@@ -30,15 +30,6 @@
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### 官方論壇討論串
-
-我們在多個不同的散佈版論壇上也有官方討論串：
-
-  * [Archlinux 論壇上的 MATE 討論串](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Linux Mint 論壇上的 MATE 討論串](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [SalixOS 論壇上的 MATE 討論串](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Ubuntu 論壇上的 MATE 討論串](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## 社群媒體
 
 您喜歡接觸很多人對吧？

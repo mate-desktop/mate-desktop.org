@@ -28,15 +28,6 @@
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
 
-### 发行版论坛上的官方帖子
-
-我们也在数个发行版的论坛中发起了官方帖子：
-
-  * [Archlinux 论坛上的 MATE 帖子](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Linux Mint 论坛上的 MATE 帖子](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [SalixOS 论坛上的 MATE 帖子](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Ubuntu 论坛上的 MATE 帖子 ](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## 社交媒体
 
 现在是社交媒体的时代了，对吧？
