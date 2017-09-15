@@ -44,6 +44,7 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
 * `Gentoo <http://www.gentoo.org>`_
+* `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `Manjaro <http://manjaro.org/>`_
