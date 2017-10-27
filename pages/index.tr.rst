@@ -43,6 +43,7 @@ Hangi dağıtımlar MATE'yi destekler?
 MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttur.
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
+* `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
 * `Arch Linux <http://www.archlinux.org>`_
 * `Debian <http://www.debian.org>`_
