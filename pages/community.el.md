@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Community
 .. slug: community
@@ -18,12 +18,6 @@
 
   * <http://wiki.mate-desktop.org>
 
-## Λίστα Ηλ. Ταχυδρομείου
-
-Είσαι "παλιός", το έχουμε. Έλα να συμμετάσχεις στην συζήτηση των εγγεγραμένων χρηστών της λίστας ηλ. ταχυδρομείου του MATE.
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
 ## Forums
 
 Δεν το έχετε με τα emails, το έχουμε και αυτό.
@@ -35,15 +29,6 @@
   * [Linux Mint Forums](http://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-
-### Επίσημο νήμα forum
-
-Έχουμε επίσης επίσημα νήματα σε forums από διάφορες διανομές:
-
-  * [Το MATE στο forum τής Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Το MATE στο forum του Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [Το MATE στο forum του SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Το MATE στο forum των Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Κοινώνικά δίκτυα
 

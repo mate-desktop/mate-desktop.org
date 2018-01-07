@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet,邮件列表,论坛,文档,群组,博客,动态
+.. tags: Forums,Wiki,IRC,Planet,论坛,文档,群组,博客,动态
 .. date: 2011-12-05 07:14:07
 .. title: 社区
 .. slug: community
@@ -16,12 +16,6 @@
 
   * <http://wiki.mate-desktop.org>
 
-## 邮件列表
-
-我们也欢迎各路老司机。欢迎在邮件列表中参与我们的辩论。
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
 ## 论坛
 
 如果你不喜欢使用邮件交流。
@@ -33,15 +27,6 @@
   * [Linux Mint Forums](http://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-
-### 发行版论坛上的官方帖子
-
-我们也在数个发行版的论坛中发起了官方帖子：
-
-  * [Archlinux 论坛上的 MATE 帖子](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Linux Mint 论坛上的 MATE 帖子](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [SalixOS 论坛上的 MATE 帖子](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Ubuntu 论坛上的 MATE 帖子 ](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## 社交媒体
 

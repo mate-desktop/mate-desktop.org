@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Społeczność
 .. slug: społeczność
@@ -18,13 +18,6 @@ Cię także do ich udoskonalania.
 
 * <http://wiki.mate-desktop.org>
 
-## Lista mailingowa
-
-Wolisz tradycyjny kontakt? Przyjdź i dołącz do dyskusji na liście mailingowej 
-MATE.
-
-* <http://ml.mate-desktop.org/listinfo/>
-
 ## Fora
 
 Jeśli nie przepadasz za listami, zajrzyj na fora naszych użytkowników:
@@ -36,15 +29,6 @@ Jeśli nie przepadasz za listami, zajrzyj na fora naszych użytkowników:
 * [Linux Mint Forums](https://forums.linuxmint.com/)
 * [subreddit MATE Desktop](https://www.reddit.com/r/MATEDesktop)
 * [Ubuntu MATE Forums](https://ubuntu-mate.community)
-
-### Oficjane wątki forów
-
-Polecamy również oficjalne wątki na forach różnych dystrybucji:
-
-* [wątek MATE na forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-* [wątek MATE na forum Linux Mint](https://forums.linuxmint.com/viewtopic.php?t=86481)
-* [wątek MATE na forum SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-* [wątek MATE na forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Sieci społecznościowe
 

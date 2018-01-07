@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: E-posta listesi,Forum,Viki,IRC,Planet
+.. tags: Forum,Viki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Topluluk
 .. slug: community
@@ -17,13 +17,6 @@ geliştirmenizi de öneririz.
 
   * <http://wiki.mate-desktop.org>
 
-## E-posta listesi
-
-Eski okuldan bir kullanıcısınız, bu bir sorun değildir. Gelin MATE e-posta
-listesindeki görüşmelere katılın.
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
 ## Forumlar
 
 E-mail kullanmıyorsanız bu da bir sorun değildir.
@@ -36,15 +29,6 @@ E-mail kullanmıyorsanız bu da bir sorun değildir.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Resmi forum konuları
-
-Çeşitli dağıtım forumlarında resmi konularımız da vardır:
-
-  * [Archlinux forumunda MATE konusu](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Linux Mint forumunda MATE konusu](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [SalixOS forumunda MATE konusu](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Ubuntu forumunda MATE konusu](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Sosyal ağlar
 
 Sosyal birisiniz, değil mi?
