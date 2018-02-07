@@ -42,7 +42,7 @@ The headline changes in MATE Desktop 1.20 are:
   * **MATE Themes have seen significant improvements** to fully implement all style classes exposed by GTK 3.22
   * Engrampa, the archive viewer, has improved support for encrypted 7z archives.
   * MATE Sensors Applet (finally) supports udisks2.
-  * OpenBSD authentication is supported in MATE Screensaver and minizip in Engrampa supports more BSD variants.
+  * OpenBSD authentication is supported in MATE Screensaver and minizip in Atril supports more BSD variants.
   * Translations are updated. *Thank you to our team of translators!*
   * A-n-d for distro maintainers we've bumped the minimum GTK3+ and GLib requirements.
     * GTK 3.22 and GLib 2.50 or newer are required to build MATE Desktop 1.20.
