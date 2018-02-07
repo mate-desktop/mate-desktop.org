@@ -412,8 +412,17 @@ Here are all the gory details.
    * Drop ancient gnome leftovers
    * Translations update
 
-### mate-themes 3.22.8 to 3.22.14
+### mate-themes 3.22.8 to 3.22.15
 
+  * Submarine themes: remove a box-shadow at engrampa toolbar
+  * submarine themes: remove padding from caja-sidebar treeview
+  * all themes caja: remove right-border from scrolledwindow.frame
+  * Menta metacity themes: remove left/right-border for maximised windows
+  * BlackMATE: write the border on scrollbar trough
+  * all themes: remove right-border from scrolledwindow.frame
+  * submarine themes: fix fg color of button.suggested-action in headerbars
+  * BlackMATE: Workaround for Yelp/Lireoffice/Firefox scrollbar issue
+  * Revert "Gtk+-3.20 all themes: fix redraw issue with yelp"
   * TOK/TG: sliders: keep the original size
   * Gtk+-3.20 submarine: reduce border radius for treeview.selected/hover in sidebars
   * Gtk+-3.20 submarine: set font color for spinbutton entry
