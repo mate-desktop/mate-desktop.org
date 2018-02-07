@@ -16,10 +16,10 @@ contributor for their help making this release possible.
 
 ## What's new in MATE 1.20
 
-The development theme for this release has been stablising the MATE Desktop by 
+The development theme for this release has been stabilising the MATE Desktop by 
 replacing deprecated code and modernising most of the code base. We've also 
 improved our window manager (Marco) and added support for HiDPI. Along the way 
-we've fixed hundreads of bugs. Squished 'em dead!
+we've fixed hundreds of bugs. Squished 'em dead!
 
 The headline changes in MATE Desktop 1.20 are:
 
@@ -34,7 +34,7 @@ The headline changes in MATE Desktop 1.20 are:
   * MATE Terminal now supports background images, adds solarised themes and keybindings to switch tabs.
   * **Bookmarks now support GTK3+ locations**.
   * Atril, the document viewer, has had a massive overhaul and is better in every way. Yes, all ways. Better!
-    * In particular accessibility support for visually impaired users is considerably imporved.
+    * In particular accessibility support for visually impaired users is considerably improved.
   * The **Invest applet has been dropped** from MATE Applets.
     * The API, provided by Yahoo, has been discontinued and there is no reputable drop in replacement available.
   * Applets now size correctly based on the units displayed in the panel and many graphs are dynamically scaled graphs.
