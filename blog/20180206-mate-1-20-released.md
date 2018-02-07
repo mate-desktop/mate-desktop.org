@@ -16,8 +16,8 @@ contributor for their help making this release possible.
 
 ## What's new in MATE 1.20
 
-The development theme for this release has been stabilising the MATE Desktop by 
-replacing deprecated code and modernising most of the code base. We've also 
+The theme for this release has been stabilising the MATE Desktop by replacing 
+deprecated code and modernising large sections of the code base. We've also 
 improved our window manager (Marco) and added support for HiDPI. Along the way 
 we've fixed hundreds of bugs. Squished 'em dead!
 
