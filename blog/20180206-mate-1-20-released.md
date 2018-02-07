@@ -28,7 +28,7 @@ The headline changes in MATE Desktop 1.20 are:
     * Toggling HiDPI modes triggers dynamic resize and scale, no log out/in required.
   * **Marco now supports [DRI3 and XPresent](https://lwn.net/Articles/569701/)**, if available.
      * Frame rates in games are significantly increased when using Marco.
-  * Marco now supports **drag to quadrant window tiling**, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>tab</kbd> switcher and keyboard shourtcuts to move windows to another monitor were added.
+  * Marco now supports **drag to quadrant window tiling**, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>tab</kbd> switcher and keyboard shortcuts to move windows to another monitor were added.
   * **Support for Global Menu** providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) has been added.
   * MATE Panel has much improved [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) support.
   * **Bookmarks now support GTK3+ locations**.
