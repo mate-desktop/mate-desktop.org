@@ -8,19 +8,18 @@
 .. author: Martin Wimpress
 -->
 
-经过将近 11 个月的开发，MATE Desktop 团队很高兴能在此发布 MATE Desktop 1.20。 
+经过将近 11 个月的开发，MATE Desktop 团队很高兴能在此发布 MATE Desktop 1.20。
 我们非常感激每一个 MATE 贡献者为这个版本付出的辛勤劳动。
 
 ![about](/assets/img/blog/about-mate-1.20.png)
 
-## What's new in MATE 1.20
+## MATE 1.20 的新特性
 
-The theme for this release has been stabilising the MATE Desktop by replacing 
-deprecated code and modernising large sections of the code base. We've also 
-improved our window manager (Marco) and added support for HiDPI. Along the way 
-we've fixed hundreds of bugs. Squished 'em dead!
+本次更新的主要任务在于通过现代化老旧代码来提高 MATE Desktop 的稳定性。与此同时
+我们还改进了 MATE 的窗口管理器 (Marco) 并添加了 HiDPI 支持。除此之外，我们还
+修复了相当数量的已知问题。
 
-The headline changes in MATE Desktop 1.20 are:
+MATE Desktop 1.20 包含如下主要更改：
 
   * **MATE Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.**
     * HiDPI hints for Qt applications are also pushed to the environment to improve cross toolkit integration.
