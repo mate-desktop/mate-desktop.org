@@ -28,22 +28,23 @@ The headline changes in MATE Desktop 1.20 are:
     * Toggling HiDPI modes triggers dynamic resize and scale, no log out/in required.
   * **Marco now supports [DRI3 and XPresent](https://lwn.net/Articles/569701/)**, if available.
      * Frame rates in games are significantly increased when using Marco.
-  * Marco now support **drag to quadrant window tiling**, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>tab</kbd> switcher and keyboard shourtcuts to move windows to another monitor were added.
-  * **Support for Global Menu** providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu).
-  * MATE Panel now supports [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/).
-  * MATE Terminal now supports background images, adds solarised themes and keybindings to switch tabs.
+  * Marco now supports **drag to quadrant window tiling**, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>tab</kbd> switcher and keyboard shourtcuts to move windows to another monitor were added.
+  * **Support for Global Menu** providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) has been added.
+  * MATE Panel has much improved [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) support.
   * **Bookmarks now support GTK3+ locations**.
-  * Atril, the document viewer, has had a massive overhaul and is better in every way. Yes, all ways. Better!
+  * MATE Terminal now supports background images, adds solarised themes and keybindings to switch tabs.
+  * **Atril, the document viewer, has had a massive overhaul** and is better in every single way. Yes, all ways. Better!
     * In particular accessibility support for visually impaired users is considerably improved.
+    * Caret navigation has been added.
   * The **Invest applet has been dropped** from MATE Applets.
     * The API, provided by Yahoo, has been discontinued and there is no reputable drop in replacement available.
-  * Applets now size correctly based on the units displayed in the panel and many graphs are dynamically scaled graphs.
-  * MATE Themes have seen significant improvements to fully implement all style classes exposed by GTK 3.22
+  * Panel applets now size correctly based on the units being displayed and many graphs are dynamically scaled.
+  * **MATE Themes have seen significant improvements** to fully implement all style classes exposed by GTK 3.22
   * Engrampa, the archive viewer, has improved support for encrypted 7z archives.
   * MATE Sensors Applet (finally) supports udisks2.
   * OpenBSD authentication is supported in MATE Screensaver and minizip in Engrampa supports more BSD variants.
   * Translations are updated. *Thank you to our team of translators!*
-  * A-n-d for distro maintainers we've bumped the minimum GTK3+ and Glib requirements.
+  * A-n-d for distro maintainers we've bumped the minimum GTK3+ and GLib requirements.
     * GTK 3.22 and GLib 2.50 or newer are required to build MATE Desktop 1.20.
   * You might see some references to Wayland in the changelog below, don't get too excited. It's not what you think `:-)`
 
