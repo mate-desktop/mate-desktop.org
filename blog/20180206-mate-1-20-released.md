@@ -8,38 +8,36 @@
 .. author: Martin Wimpress
 -->
 
-After 11 months of development the MATE Desktop team are proud to announce the 
-release of MATE Desktop 1.20. We'd like to thank every MATE contributor for 
-their help making this release possible.
+After 11 months of development the MATE Desktop team are pleased as punch to 
+announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
+contributor for their help making this release possible.
 
 ![about](/assets/img/blog/about-mate-1.20.png)
 
 ## What's new in MATE 1.20
 
-The development theme for this release has been stablising the MATE Desktop 
-since it's move to GTK3+ by replacing deprecated code and modernising most of 
-the code base. We've also improved our window manager (Marco) and added 
-support for HiDPI. Along the way we've fixed hundreads of bugs. Squished 'em 
-dead!
+The development theme for this release has been stablising the MATE Desktop by 
+replacing deprecated code and modernising most of the code base. We've also 
+improved our window manager (Marco) and added support for HiDPI. Along the way 
+we've fixed hundreads of bugs. Squished 'em dead!
 
 The headline changes in MATE Desktop 1.20 are:
 
-  * MATE Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.
+  * **MATE Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.**
     * HiDPI hints for Qt applications are also pushed to the environment to improve cross toolkit integration.
     * Toggling HiDPI modes triggers dynamic resize and scale, no log out/in required.
-  * Marco now supports [DRI3 and XPresent](https://lwn.net/Articles/569701/), if available.
+  * **Marco now supports [DRI3 and XPresent](https://lwn.net/Articles/569701/)**, if available.
      * Frame rates in games are significantly increased when using Marco.
-  * Marco now support drag to quadrant window tiling and cursor keys can be used to navigate the Alt + tab switcher.
-  * Support for Global Menu providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu).
+  * Marco now support **drag to quadrant window tiling** and cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>tab</kbd> switcher.
+  * **Support for Global Menu** providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu).
   * MATE Panel now supports [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/).
   * MATE Terminal now supports background images, adds solarised themes and keybindings to switch tabs.
+  * **Bookmarks now support GTK3+ locations**.
   * Atril, the document viewer, has had a massive overhaul and is better in every way. Yes, all ways. Better!
     * In particular accessibility support for visually impaired users is considerably imporved.
-  * Bookmarks now support GTK3+ locations
-  * The Invest applet has been dropped from MATE Applets.
+  * The **Invest applet has been dropped** from MATE Applets.
     * The API, provided by Yahoo, has been discontinued and there is no reputable drop in replacement available.
   * Applets now size correctly based on the units displayed in the panel and many graphs are dynamically scaled graphs.
-  * The weather library add support for many new locations around the world.
   * Engrampa, the archive viewer, has improved support for encrypted 7z archives.
   * MATE Sensors Applet (finally) supports udisks2.
   * OpenBSD authentication is supported in MATE Screensaver and minizip in Engrampa supports more BSD variants.
@@ -54,7 +52,7 @@ The various components of MATE Desktop 1.20 are available for download here:
 
 ## Changelog
 
-Here are all the gory details of what changed.
+Here are all the gory details.
 
 ### mate-desktop 1.20.0
 
