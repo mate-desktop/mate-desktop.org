@@ -1,16 +1,15 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases
+.. tags: Releases,发布
 .. date: 2018-02-07 09:00:00
-.. title: MATE 1.20 released
+.. title: MATE 1.20 发布
 .. slug: 2018-02-07-mate-1-20-released
 .. author: Martin Wimpress
 -->
 
-After 11 months of development the MATE Desktop team are pleased as punch to 
-announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
-contributor for their help making this release possible.
+经过将近 11 个月的开发，MATE Desktop 团队很高兴能在此发布 MATE Desktop 1.20。 
+我们非常感激每一个 MATE 贡献者为这个版本付出的辛勤劳动。
 
 ![about](/assets/img/blog/about-mate-1.20.png)
 
