@@ -1,8 +1,8 @@
 <!--
 .. link:
 .. description:
-.. tags: Releases,draft
-.. date: 2018-02-07 23:30:00
+.. tags: Releases
+.. date: 2018-02-07 09:00:00
 .. title: MATE 1.20 released
 .. slug: 2018-02-07-mate-1-20-released
 .. author: Martin Wimpress
