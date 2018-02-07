@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forum,Wiki,IRC,Planet
+.. tags: Forum,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Komunitas
 .. slug: community
@@ -18,12 +18,6 @@ membantu mengembangkannya.
 
   * <http://wiki.mate-desktop.org>
 
-## Mailing list
-
-Silahkan bergabung dan berdebat pada mailing list MATE.
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
 ## Forum
 
 Silahkan bergabung dengan forum komunitas kami.
@@ -36,13 +30,6 @@ Silahkan bergabung dengan forum komunitas kami.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Forum Resmi
-
-Kami juga memiliki thread resmi pada beberapa forum distribusi:
-
-  * [thread MATE pada forum Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [thread MATE pada forum Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Media Sosial
 
 Anda tipe sosial bukan?

@@ -47,6 +47,7 @@ MATE 在以下的 Linux 散佈版的 **官方** 套件庫中提供：
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
 * `Gentoo <http://www.gentoo.org>`_
+* `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `Manjaro <http://manjaro.org/>`_

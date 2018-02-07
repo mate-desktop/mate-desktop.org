@@ -42,6 +42,7 @@ Mate está disponível através dos repositórios **officiais** das distribuiç�
 * `Debian <http://www.debian.org>`_
 * `Fedora <http://www.fedoraproject.org>`_
 * `Gentoo <http://www.gentoo.org>`_
+* `GNU Guix e GNU GuixSD <https://gnu.org/s/guix>`_
 * `Linux Mint <http://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
 * `Manjaro <http://manjaro.org/>`_

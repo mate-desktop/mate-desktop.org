@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Community
 .. slug: community
@@ -18,13 +18,6 @@ ermutigen, bei der Verbesserung mitzuwirken.
 
   * <http://wiki.mate-desktop.org>
 
-## Mailing-Liste
-
-Sie sind vom alten Schlage -- verstehen wir. Treten Sie den Mailing-Listen von MATE 
-bei und diskutieren Sie mit.
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
 ## Foren
 
 Sie mailen nicht -- verstehen wir auch.
@@ -37,15 +30,6 @@ Sie mailen nicht -- verstehen wir auch.
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
-### Offizielle Foren-Threads
-
-Wir haben auch offizielle Threads in diversen Distributions-Foren:
-
-  * [MATE-Thread im Archlinux-Forum](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE-Thread im Linux-Mint-Forum](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [MATE-Thread im SalixOS-Forum](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [MATE-Thread im Ubuntu-Forum](http://ubuntuforums.org/showthread.php?p=11333073)
-
 ## Soziale Medien
 
 Sie sind der soziale Typ, stimmt's?

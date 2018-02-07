@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Mailing List,Forums,Wiki,IRC,Planet
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Κοινότητα
 .. slug: community
@@ -17,26 +17,6 @@
 να συμβάλεται στη βελτιστοποίηση του.
 
   * <http://wiki.mate-desktop.org>
-
-## Λίστα Ηλ. Ταχυδρομείου
-
-Είσαι της παλιάς σχολής, το έχουμε. Ελάτε να συμμετάσχετε στην συζήτηση
-στη λίστας ηλ. ταχυδρομείου του MATE.
-
-  * <http://ml.mate-desktop.org/listinfo/>
-
-## Forums
-
-Δεν χρησιμοποιείτε ηλ.ταχυδρομείο, μπορείτε να συμμετάσχετε στα forums των κοινοτήτων.
-
-  * [Arch Linux Forum](https://bbs.archlinux.org/)
-  * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
-  * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
-  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
-  * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  * [openSUSE forums](https://forums.opensuse.org/)
 
 ### Επίσημο νήμα forum
 
