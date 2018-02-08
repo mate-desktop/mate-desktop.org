@@ -25,13 +25,13 @@ MATE Desktop 1.20 包含如下主要更改：
     * 与此同时，提交 Qt 应用程序的 HiDPI 设置信息到桌面环境以改善基于多个图形库的应用程序之
     间的外观统一。
     * HiDPI 开关直接触发动态界面缩放和大小调整，无需重新登录。
-  * **Marco（在可用时）新增 [DRI3 及 XPresent](https：//lwn.net/Articles/569701/) 支持。**
+  * **Marco（在可用时）新增 [DRI3 及 XPresent](https://lwn.net/Articles/569701/) 支持。**
      * 使用 Marco 时的游戏性能明显提高。
   * Marco 新增 **¼ 平铺支持**，方向键现在可用于控制 <kbd>Alt</kbd> + <kbd>Tab</kbd>
     窗口切换，并且新增了用于移动窗口到其他显示屏。
-  * 新增 **全局菜单支持**，可配合 [vala-panel-appmenu](https：//github.com/rilian-la-te/vala-panel-appmenu)
+  * 新增 **全局菜单支持**，可配合 [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu)
     一类的服务使用。
-  * MATE 面板的 [状态通知项 (SNI)](https：//www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) 支持大大增强。
+  * MATE 面板的 [状态通知项 (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) 支持大大增强。
   * **书签栏现在支持 GTK+3 位置。**
   * MATE 终端新增背景图像支持、Solarized 主题及用于切换标签页的组合键。
   * **Atril，MATE 的默认文档阅读器已完全整修**，该程序的许多方面都得到了相当的改善。
@@ -52,7 +52,7 @@ MATE Desktop 1.20 包含如下主要更改：
 
 MATE Desktop 的大量组件现可通过如下链接下载：
 
-  * <http：//pub.mate-desktop.org/releases/1.20/>
+  * <http://pub.mate-desktop.org/releases/1.20/>
 
 ## 变更日志
 
