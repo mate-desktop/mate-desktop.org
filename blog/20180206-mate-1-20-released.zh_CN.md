@@ -11,7 +11,7 @@
 经过将近 11 个月的开发，MATE Desktop 团队很高兴能在此发布 MATE Desktop 1.20。
 我们非常感激每一个 MATE 贡献者为这个版本付出的辛勤劳动。
 
-![about](/assets/img/blog/about-mate-1.20.png)
+![about](/assets/img/blog/about-mate-1.20.zh_CN.png)
 
 ## MATE 1.20 的新特性
 
