@@ -38,6 +38,10 @@ Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理。
 
 開發、Debian 打包者、整合 X2Go。
 
+### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
+
+開發。
+
 ## 貢獻者
 
 MATE 桌面環境一直不斷的改進與開發著，這都要歸功
