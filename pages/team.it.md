@@ -37,6 +37,10 @@ Sviluppatore, pacchettizzazione per Debian e Ubuntu.
 
 Sviluppatore, pacchettizzazione per Debian, integrazione X2Go.
 
+### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
+
+Sviluppo.
+
 ## Contributors
 
 L'ambiente Desktop MATE continua a migliorare e a svilupparsi grazie

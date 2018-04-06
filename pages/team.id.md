@@ -38,6 +38,10 @@ Pengembangan, pemaket untuk Debian dan Ubuntu.
 
 Pengembangan, pemaket untuk Debian, integrasi X2Go.
 
+### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
+
+Pengembangan.
+
 ## Kontributor
 
 Lingkungan Desktop MATE terus meningkat dan berkembang berkat usaha tanpa mengenal lelah

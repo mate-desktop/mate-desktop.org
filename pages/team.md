@@ -38,6 +38,10 @@ Development, packaging for Debian and Ubuntu.
 
 Development, packaging for Debian, X2Go integration.
 
+### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
+
+Development.
+
 ## Contributors
 
 The MATE Desktop Environment continues to improve and develop thanks
