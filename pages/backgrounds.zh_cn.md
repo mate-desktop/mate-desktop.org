@@ -7,6 +7,6 @@
 .. slug: backgrounds
 -->
 
-你可以从 [GNOME-Look](http://gnome-look.org) 海量的壁纸库中获取你心仪的壁纸。
+你可以从 [MATE-Look](https://www.mate-look.org) 海量的壁纸库中获取你心仪的壁纸。
 
-  * [桌面壁纸](http://gnome-look.org/index.php?xcontentmode=170x171x172x173x174x175x176x177x178x179)
+  * [桌面壁纸](https://www.mate-look.org/browse/cat/359)

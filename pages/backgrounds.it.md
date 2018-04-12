@@ -7,6 +7,6 @@
 .. slug: backgrounds
 -->
 
-Puoi trovare una gran selezione di sfondi su [GNOME-Look](http://gnome-look.org)
+Puoi trovare una gran selezione di sfondi su [MATE-Look](https://www.mate-look.org)
 
-  * [Backgrounds](http://gnome-look.org/index.php?xcontentmode=170x171x172x173x174x175x176x177x178x179)
+  * [Backgrounds](https://www.mate-look.org/browse/cat/359)

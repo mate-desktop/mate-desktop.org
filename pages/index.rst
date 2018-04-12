@@ -10,8 +10,8 @@ The MATE Desktop Environment is the continuation of GNOME 2. It provides an intu
 environment using traditional metaphors for Linux and other Unix-like operating systems.
 
 MATE is under active development to add support for new technologies while preserving a traditional desktop 
-experience. See the `Roadmap <http://wiki.mate-desktop.com/roadmap>`_ The `MATE Manifesto 
-<http://wiki.mate-desktop.com/board:manifesto>`_ outlines some of the principles that guide the project.
+experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ The `MATE Manifesto 
+<http://wiki.mate-desktop.org/board:manifesto>`_ outlines some of the principles that guide the project.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -27,7 +27,7 @@ News
     :stop: 5
 
 Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
-You might also want to take a look at `Planet MATE <http://planet.mate-desktop.com>`_
+You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
 to see what the wider MATE community are blogging about.
 
 ---------------------------------
@@ -74,7 +74,7 @@ Maybe you prefer UNIX?
 You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 The MATE community has documented how to install MATE on many distributions in the
-`install guidelines <http://wiki.mate-desktop.com/download>`_.
+`install guidelines <http://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applications
