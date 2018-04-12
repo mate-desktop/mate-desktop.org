@@ -8,9 +8,9 @@
 -->
 
 大多數設計給 GTK 2.x 與 GTK 3.x 使用的主題都可以在 MATE 上運作。到
-[GNOME-Look](http://gnome-look.org)看看您要找的是哪一種。
+[MATE-Look](http://mate-look.org)看看您要找的是哪一種。
 
-  * [GTK 2.x 主題](https://www.gnome-look.org/browse/cat/136/)
-  * [GTK 3.x 主題](https://www.gnome-look.org/browse/cat/135/)
+  * [GTK 2.x 主題](https://www.mate-look.org/browse/cat/136)
+  * [GTK 3.x 主題](https://www.mate-look.org/browse/cat/135)
 
 

@@ -8,7 +8,7 @@
 -->
 
 La mayoría de los temas diseñados para GTK 2.x y GTK 3.x funcionarán con MATE.
-Vé al website de [GNOME-Look](http://gnome-look.org) a ver que encuentas.
+Vé al website de [MATE-Look](http://mate-look.org) a ver que encuentas.
 
-  * [Temas para GTK 2.x](https://www.gnome-look.org/browse/cat/136)
-  * [Temas para GTK 3.x](https://www.gnome-look.org/browse/cat/135)
+  * [Temas para GTK 2.x](https://www.mate-look.org/browse/cat/136)
+  * [Temas para GTK 3.x](https://www.mate-look.org/browse/cat/135)

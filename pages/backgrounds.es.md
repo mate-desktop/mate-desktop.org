@@ -7,6 +7,6 @@
 .. slug: backgrounds
 -->
 
-Puedes encontrar una gran selección de fondos de pantalla en [GNOME-Look](http://gnome-look.org)
+Puedes encontrar una gran selección de fondos de pantalla en [MATE-Look](https://www.mate-look.org)
 
-  * [Fondos de pantalla](http://gnome-look.org/index.php?xcontentmode=170x171x172x173x174x175x176x177x178x179)
+  * [Fondos de pantalla](https://www.mate-look.org/browse/cat/359)
