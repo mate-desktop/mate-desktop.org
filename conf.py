@@ -139,7 +139,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/blog/', 'Blog'),
 		('/install/', 'Install'),
-		('/gallery/1.14/', 'Screenshots'),
+		('/gallery/1.20/', 'Screenshots'),
 		('/development/', 'Development'),
 		('/community/', 'Community'),
 		('/team/', 'Team'),
@@ -166,7 +166,7 @@ NAVIGATION_LINKS = {
     "es": (
 		('/es/blog/', 'Blog'),
 		('/es/install/', 'Instalar'),
-		('/es/gallery/1.14/', 'Imágenes'),
+		('/es/gallery/1.20/', 'Imágenes'),
 		('/es/development/', 'Desarrollo'),
 		('/es/community/', 'Comunidad'),
 		('/es/team/', 'Team'),
