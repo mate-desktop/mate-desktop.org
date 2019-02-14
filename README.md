@@ -134,6 +134,58 @@ for Ubuntu (also works in Debian Jessie) here:
 
   * https://flexion.org/posts/2015-11-installing-nikola-on-ubuntu/
 
+## Fedora, Debian, Ubuntu
+
+### STEP 1: Install the following packages on your system
+
+On Ubuntu/Debian:
+```
+sudo apt-get install python3 python3-pip asciidoctor virtualenv
+```
+
+On Fedora:
+```
+sudo dnf install python3 python3-pip asciidoctor virtualenv
+```
+
+### STEP 2: Create a new virtualenv named nikola in ~/MyVirtualEnvs folder
+```
+mkdir -p ~/MyVirtualEnvs
+cd ~/MyVirtualEnvs
+virtualenv -p $(which python3) nikola
+```
+
+### STEP 3: Activate the virtualenv created in STEP 2
+```
+source nikola/bin/activate
+```
+
+### STEP 4: Install the following python packages in the virtualenv
+```
+(nikola) pip install --upgrade pip
+(nikola) pip install --upgrade "Nikola[extras]"
+(nikola) pip install --upgrade python-Levenshtein
+(nikola) pip install --upgrade pathlib
+(nikola) pip install --upgrade beautifulsoup4
+```
+(nikola) is part of your shell prompt for the virtualenv named nikola, not part of the command.
+
+### STEP 5: Build and test the web site
+```
+(nikola) cd ~/mate-desktop.org
+(nikola) nikola build -c
+(nikola) nikola serve
+```
+
+### STEP 6: Open the site in a web browser
+Open the URI displayed in the previous step using your favorite web browser.
+
+### STEP 7: Exit virtualenv
+Press ^C to close nikola serve
+```
+(nikola) deactivate
+```
+
 # TODO
 
   * Add more text to the homepage.
