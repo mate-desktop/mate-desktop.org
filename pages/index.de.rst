@@ -1,17 +1,17 @@
 .. link:
 .. description:
-.. tags: Info,Anwendungen,Screenshots
+.. tags: Info,Anwendungen,Bildschirmfotos,Screenshots
 .. date: 2013-10-31 12:29:57
-.. title: MATE-Desktop-Umgebung
+.. title: MATE-Arbeitsumgebung
 .. slug: index
 .. pretty_url: False
 
-Die MATE-Desktop-Umgebung ist die Fortführung von GNOME 2. Sie bietet für Linux
+Die MATE-Arbeitsumgebung ist die Fortführung von GNOME 2. Sie bietet für Linux
 und andere Unix-artige Betriebssysteme eine intuitive und attraktive
-Desktop-Umgebung, die sich der traditionell verwendeten Metaphern bedient.
+Arbeitsumgebung, die sich der traditionell verwendeten Metaphern bedient.
 
 MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
-der traditionelle Umgang mit dem Desktop erhalten bleibt. Unter `Roadmap [en]
+der traditionelle Umgang mit dem Schreibtisch erhalten bleibt. Unter `Roadmap [en]
 <http://wiki.mate-desktop.org/roadmap>`_ Das `MATE-Manifest [en]
 <http://wiki.mate-desktop.org/board:manifesto>`_ erläutert einige der
 Prinzipien, die das Projekt leiten.
@@ -38,7 +38,7 @@ weiteren MATE-Community.
 Welche Distributionen unterstützen MATE?
 ----------------------------------------
 
-MATE ist in den **offiziellen** Repositorien der folgenden Linux-Distributionen
+MATE ist in den **offiziellen** Paketquellen der folgenden Linux-Distributionen
 erhältlich:
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
@@ -64,9 +64,9 @@ erhältlich:
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
-Weiterhin ist MATE in den *inoffiziellen* Repositorien der folgenden
+Weiterhin ist MATE in den *inoffiziellen* Paketquellen der folgenden
 Linux-Distributionen erhältlich, wobei eine Aufnahme in die offiziellen
-Repositorien geplant ist:
+Paketquellen geplant ist:
 
 * `Slackware <http://www.slackware.com>`_
 
@@ -78,10 +78,10 @@ Eventuell bevorzugen Sie UNIX?
 * `PC-BSD <http://www.pcbsd.org>`_
 
 Sie können sich auch auf `DistroWatch.com über alle Distributionen informieren,
-die Unterstützung für MATE bieten
+welche die Unterstützung für MATE bieten
 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-Die MATE-Community hat in der `Installations-Anleitung [en]
+Die MATE-Gemeinschafft hat in der `Installationsanleitung [en]
 <http://wiki.mate-desktop.org/download>`_ dokumentiert, wie MATE auf diversen
 Distributionen installiert wird.
 
@@ -97,10 +97,10 @@ Caja
 
 .. image:: /assets/img/mate/caja.png
 
-Caja ist der offizielle Dateimanager für den MATE-Desktop. Er ermöglicht das
+Caja ist der offizielle Dateimanager für den MATE-Schreibtisch. Er ermöglicht das
 Stöbern in Verzeichnissen sowie das Voranschauen von Dateien und das Starten von
-ihnen zugeordneten Anwendungen. Er ist auch für die Verwaltung der Icons auf dem
-MATE-Desktop zuständig. Lokale und nicht-lokale Dateisysteme werden unterstützt.
+ihnen zugeordneten Anwendungen. Er ist auch für die Verwaltung der Symbole auf dem
+MATE-Schreibtisch zuständig. Lokale und nicht lokale Dateisysteme werden unterstützt.
 Caja ist ein Fork des Programms Nautilus.
 
 
@@ -125,7 +125,7 @@ Eye of MATE
 
 .. image:: /assets/img/mate/eom.png
 
-eom, oder "Eye of MATE", ist ein einfacher Grafikbetrachter für den
+eom, oder »Eye of MATE«, ist ein einfacher Grafikbetrachter für den
 MATE-Desktop, der die Bibliothek gdk-pixbuf benutzt. Das Programm kann mit
 großen Bildern umgehen und mit konstantem Speicherbedarf zoomen und
 scrollen. Seine Ziele sind Einfachheit und Standardkonformität. Eye of MATE ist
@@ -151,7 +151,7 @@ Engrampa
 
 .. image:: /assets/img/mate/engrampa.png
 
-Engrampa ist ein Archiv-Manager für die MATE-Umgebung. Er ermöglicht es, Archive
+Engrampa ist ein Archiv-Manager für die MATE-Arbeitsumgebung. Er ermöglicht es, Archive
 zu erstellen und zu bearbeiten, den Inhalt eines Archivs anzuzeigen, eine in
 einem Archiv enthaltene Datei anzuzeigen und Dateien aus Archiven zu
 extrahieren.  Engrampa ist ein Fork des Programms File Roller.
@@ -167,13 +167,13 @@ MATE-Umgebung heraus bietet. Mit ihm es möglich, jede Anwendung auszuführen, d
 darauf ausgelegt ist, auf VT102-, VT220- und xterm-Terminals zu laufen. Außerdem
 hat MATE Terminal die Fähigkeit, mehrere Terminals in einem einzelnen Fenster zu
 benutzen (Tabs), und es unterstützt die Verwaltung verschiedener Konfigurationen
-(Profile). MATE Terminal ist ein Fork des Programms GNOME Terminal.
+(Profile). MATE-Terminal ist ein Fork des Programms GNOME-Terminal.
 
 ---------------------
 Woher kommt der Name?
 ---------------------
 
-Der Name *"MATE"*, ausgesprochen *Ma-Tee*, stammt von dem `Mate-Strauch
+Der Name *»MATE«*, ausgesprochen *Ma-Tee*, stammt von dem `Mate-Strauch
 <http://de.wikipedia.org/wiki/Mate-Strauch>`_, einer Pflanzenart aus der Gattung
 der Stechpalmen, die im subtropischen Südamerika heimisch ist.
 
