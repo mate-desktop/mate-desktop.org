@@ -59,7 +59,7 @@ MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttu
 * `PLD Linux <https://www.pld-linux.org/>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
-* `Solus <https://solus-project.com/>`_
+* `Solus <https://getsol.us/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
 * `Void Linux <http://www.voidlinux.eu/>`_

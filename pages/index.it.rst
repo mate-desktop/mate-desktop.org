@@ -56,7 +56,7 @@ MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuz
 * `Point Linux <http://pointlinux.org/>`_
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
-* `Solus <https://solus-project.com/>`_
+* `Solus <https://getsol.us/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
 * `Vector Linux <http://vectorlinux.com>`_
