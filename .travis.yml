@@ -90,6 +90,9 @@ before_scripts:
   #- fi
 
 build_scripts:
+  - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
+  -     sed -i '/SITE_URL/s!//mate-desktop.org/!//preview.mate-desktop.dev/!' conf.py
+  - fi
   - if [ -f cache/.doit.db ];then
   -     cp cache/.doit.db .      # Restore from cache
   - fi
