@@ -23,6 +23,28 @@ install:
 script:
   - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
 
+deploy:
+  #preview website
+  - provider: pages
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    skip_cleanup: true
+    committer-from-gh: true
+    target-branch: gh-pages
+    local-dir: www
+    on:
+      all_branches: true
+      condition: '$TRAVIS_BRANCH != master'
+
+after_success:
+  - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+        URL="https://preview.mate-desktop.dev";
+        COMMENT="Preview website deployed.";
+        curl -H "Authorization: token $GITHUB_TOKEN" -X POST
+           -d "{\"state\": \"success\", \"description\": \"$COMMENT\", \"context\":\"nikola-build\", \"target_url\": \"$URL\"}"
+           https://api.github.com/repos/${TRAVIS_REPO_SLUG}/statuses/${TRAVIS_PULL_REQUEST_SHA};
+     fi'
+
 env:
   - DISTRO="archlinux/base"
 
@@ -77,3 +99,6 @@ after_scripts:
   - cd ${START_DIR}
   - rsync -a --delete output/ www/
   - cp .doit.db cache
+  - find www -type d -exec chmod 755 {} \;
+  - find www -type f -exec chmod 644 {} \;
+  - echo 'preview.mate-desktop.dev' > www/CNAME
