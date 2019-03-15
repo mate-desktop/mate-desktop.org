@@ -27,7 +27,6 @@ deploy:
   #preview website
   - provider: pages
     github-token: $GITHUB_TOKEN
-    keep-history: true
     skip_cleanup: true
     committer-from-gh: true
     target-branch: gh-pages
@@ -76,18 +75,6 @@ before_scripts:
   -     install -D -m644  yuicompressor-2.4.8.jar /usr/share/java/yuicompressor-2.4.8.jar
   -     install -D -m755  yuicompressor.sh /usr/bin/yuicompressor
   - fi
-
-  #- cd ${START_DIR}
-  #- mkdir -p closure-compiler-builds
-  #- cd closure-compiler-builds
-  #- if [ ! -f compiler-latest.zip ];then
-  #-     curl -Ls -o compiler-latest.zip https://dl.google.com/closure-compiler/compiler-latest.zip
-  #-     unzip compiler-latest.zip
-  #-     install -Dm644 closure-compiler-v*.jar /usr/share/java/closure-compiler/closure-compiler.jar
-  #-     echo "#!/bin/sh" > /usr/bin/closure-compiler
-  #-     echo 'PATH="/usr/lib/jvm/java-8-openjdk/bin:$PATH" java -jar /usr/share/java/closure-compiler/closure-compiler.jar $@' >> /usr/bin/closure-compiler
-  #-     chmod +x /usr/bin/closure-compiler
-  #- fi
 
 build_scripts:
   - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
