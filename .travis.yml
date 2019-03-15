@@ -1,0 +1,79 @@
+# vim: set ts=2 sts=2 sw=2 expandtab :
+dist: xenial
+sudo: required
+language: bash
+services:
+  - docker
+
+cache:
+  directories:
+  - cache/
+  - output/
+
+before_install:
+  - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
+  - chmod +x docker-build
+
+install:
+  - sudo apt-get install -y python3-pip python3-setuptools
+  - sudo pip3 install --upgrade pip
+  - sudo pip install PyGithub
+  - ./docker-build --name ${DISTRO} --config .travis.yml --install
+
+script:
+  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
+
+env:
+  - DISTRO="archlinux/base"
+
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+requires:
+  archlinux:
+    - java-runtime-headless
+    - java-runtime=8
+    - jpegoptim
+    - nikola
+    - openssh
+    - optipng
+    - python-ghp-import
+    - python-typogrify
+    - rsync
+    - tar
+    - unzip
+
+before_scripts:
+  - cd ${START_DIR}
+  - mkdir -p yui-compressor-builds
+  - cd yui-compressor-builds
+  - if [ ! -f yuicompressor-2.4.8.jar ];then
+  -     curl -Ls -o yuicompressor-2.4.8.jar https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
+  -     curl -Ls -o yuicompressor.sh https://aur.archlinux.org/cgit/aur.git/plain/yuicompressor.sh?h=yuicompressor
+  -     sed -i "s|x\.y\.z|2.4.8|" yuicompressor.sh
+  -     install -D -m644  yuicompressor-2.4.8.jar /usr/share/java/yuicompressor-2.4.8.jar
+  -     install -D -m755  yuicompressor.sh /usr/bin/yuicompressor
+  - fi
+
+  #- cd ${START_DIR}
+  #- mkdir -p closure-compiler-builds
+  #- cd closure-compiler-builds
+  #- if [ ! -f compiler-latest.zip ];then
+  #-     curl -Ls -o compiler-latest.zip https://dl.google.com/closure-compiler/compiler-latest.zip
+  #-     unzip compiler-latest.zip
+  #-     install -Dm644 closure-compiler-v*.jar /usr/share/java/closure-compiler/closure-compiler.jar
+  #-     echo "#!/bin/sh" > /usr/bin/closure-compiler
+  #-     echo 'PATH="/usr/lib/jvm/java-8-openjdk/bin:$PATH" java -jar /usr/share/java/closure-compiler/closure-compiler.jar $@' >> /usr/bin/closure-compiler
+  #-     chmod +x /usr/bin/closure-compiler
+  #- fi
+
+build_scripts:
+  - if [ -f cache/.doit.db ];then
+  -     cp cache/.doit.db .      # Restore from cache
+  - fi
+  - nikola build
+
+after_scripts:
+  - cd ${START_DIR}
+  - rsync -a --delete output/ www/
+  - cp .doit.db cache
