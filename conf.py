@@ -1347,6 +1347,7 @@ SEARCH_RESULTS = """
 # can set this to False.
 # USE_CDN_WARNING = True
 
+WEBSITE_PREVIEW=False
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
@@ -1361,14 +1362,31 @@ EXTRA_HEAD_DATA = """
 BODY_END = """
 <script src="/assets/js/tipuesearch_set.js"></script>
 <script src="/assets/js/tipuesearch.js"></script>
+<script src="/assets/js/jquery.watermark.js"></script>
 <script>
 $(document).ready(function() {
+"""
+BODY_END += """
     $('#tipue_search_input').tipuesearch({
         'show': 5,
         'mode': 'json',
         'contentLocation': '/assets/js/tipuesearch_content.json',
         'showUrl': false
     });
+"""
+if WEBSITE_PREVIEW:
+    BODY_END += """
+$('body').watermark({
+    texts : ["Preview Website", "Mate Desktop", "PREVIEW_COMMITID"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 100,
+    height : 100,
+    textRotate : -30
+});
+"""
+
+BODY_END += """
 });
 </script>
 """
