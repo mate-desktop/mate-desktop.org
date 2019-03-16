@@ -1380,8 +1380,8 @@ $('body').watermark({
     texts : ["Preview Website", "Mate Desktop", "PREVIEW_COMMITID"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
-    width : 100,
-    height : 100,
+    width : 150,
+    height : 150,
     textRotate : -30
 });
 """

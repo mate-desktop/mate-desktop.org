@@ -80,7 +80,7 @@ build_scripts:
   - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
   -     sed -i '/SITE_URL/s!//mate-desktop.org/!//preview.mate-desktop.dev/!' conf.py
   -     sed -i '/WEBSITE_PREVIEW/s!False!True!' conf.py
-  -     sed -i 's!PREVIEW_COMMITID!'$TRAVIS_COMMIT'!' conf.py
+  -     sed -i 's!PREVIEW_COMMITID!'${TRAVIS_COMMIT:0:12}'!' conf.py
   - fi
   - if [ -f cache/.doit.db ];then
   -     cp cache/.doit.db .      # Restore from cache
