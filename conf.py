@@ -1377,7 +1377,7 @@ BODY_END += """
 if WEBSITE_PREVIEW:
     BODY_END += """
 $('body').watermark({
-    texts : ["Preview Website", "Mate Desktop", "PREVIEW_COMMITID"],
+    texts : ["Preview Website", "MATE Desktop", "PREVIEW_COMMITID"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
