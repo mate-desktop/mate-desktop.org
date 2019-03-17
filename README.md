@@ -132,8 +132,8 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `uk`     Ukrainian
   * `ur`     Urdu
   * `vi`     Vietnamese
-  * `zh_cn`  **Chinese** (Simplified)
-  * `zh_tw`  **Chinese** (Traditional)
+  * `zh_cn`  **Chinese (Simplified)**
+  * `zh_tw`  **Chinese (Traditional)**
 
 ## Markdown vs. ReStructured Text
 
