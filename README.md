@@ -124,6 +124,7 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `sl`     Slovene
   * `sq`     Albanian
   * `sr`     Serbian (Cyrillic)
+  * `sr_latin`  Serbian (Latin)
   * `sv`     Swedish
   * `te`     Telugu
   * `th`     Thai
