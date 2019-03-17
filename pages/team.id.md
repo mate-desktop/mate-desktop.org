@@ -42,6 +42,10 @@ Pengembangan, pemaket untuk Debian, integrasi X2Go.
 
 Pengembangan.
 
+### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
+
+Pengembangan.
+
 ## Kontributor
 
 Lingkungan Desktop MATE terus meningkat dan berkembang berkat usaha tanpa mengenal lelah

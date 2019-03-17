@@ -42,6 +42,10 @@ Development, packaging for Debian, X2Go integration.
 
 Development.
 
+### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
+
+Development.
+
 ## Contributors
 
 The MATE Desktop Environment continues to improve and develop thanks
