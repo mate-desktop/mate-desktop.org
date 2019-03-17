@@ -85,55 +85,55 @@ the following:
 
 Nikola supported languages are, the one in bold are already in the site navigation::
 
-  * `ar`     Arabic
-  * `az`     Azerbaijani
-  * `bg`     Bulgarian
-  * `bs`     Bosnian
-  * `ca`     Catalan
-  * `cs`     Czech [ALTERNATIVELY cz]
-  * `da`     Danish
-  * `de`     **German**
-  * `el`     **Greek** [NOT gr]
-  * `en`     **English**
-  * `eo`     Esperanto
-  * `es`     **Spanish**
-  * `et`     Estonian
-  * `eu`     Basque
-  * `fa`     Persian
-  * `fi`     Finnish
-  * `fr`     **French**
-  * `gl`     Galician
-  * `he`     Hebrew
-  * `hi`     Hindi
-  * `hr`     Croatian
-  * `hu`     Hungarian
-  * `id`     **Indonesian**
-  * `it`     **Italian**
-  * `ja`     Japanese [NOT jp]
-  * `ko`     Korean
-  * `lt`     Lithuanian
-  * `ml`     Malayalam
-  * `nb`     Norwegian (Bokmål)
-  * `nl`     Dutch
-  * `pa`     Punjabi
-  * `pl`     **Polish**
-  * `pt`     **Portuguese**
-  * `pt_br`  Portuguese (Brazil)
-  * `ru`     Russian
-  * `sk`     Slovak
-  * `sl`     Slovene
-  * `sq`     Albanian
-  * `sr`     Serbian (Cyrillic)
+  * `ar`        Arabic
+  * `az`        Azerbaijani
+  * `bg`        Bulgarian
+  * `bs`        Bosnian
+  * `ca`        Catalan
+  * `cs`        Czech [ALTERNATIVELY cz]
+  * `da`        Danish
+  * `de`        **German**
+  * `el`        **Greek** [NOT gr]
+  * `en`        **English**
+  * `eo`        Esperanto
+  * `es`        **Spanish**
+  * `et`        Estonian
+  * `eu`        Basque
+  * `fa`        Persian
+  * `fi`        Finnish
+  * `fr`        **French**
+  * `gl`        Galician
+  * `he`        Hebrew
+  * `hi`        Hindi
+  * `hr`        Croatian
+  * `hu`        Hungarian
+  * `id`        **Indonesian**
+  * `it`        **Italian**
+  * `ja`        Japanese [NOT jp]
+  * `ko`        Korean
+  * `lt`        Lithuanian
+  * `ml`        Malayalam
+  * `nb`        Norwegian (Bokmål)
+  * `nl`        Dutch
+  * `pa`        Punjabi
+  * `pl`        **Polish**
+  * `pt`        **Portuguese**
+  * `pt_br`     Portuguese (Brazil)
+  * `ru`        Russian
+  * `sk`        Slovak
+  * `sl`        Slovene
+  * `sq`        Albanian
+  * `sr`        Serbian (Cyrillic)
   * `sr_latin`  Serbian (Latin)
-  * `sv`     Swedish
-  * `te`     Telugu
-  * `th`     Thai
-  * `tr`     **Turkish** [NOT tr_TR]
-  * `uk`     Ukrainian
-  * `ur`     Urdu
-  * `vi`     Vietnamese
-  * `zh_cn`  **Chinese (Simplified)**
-  * `zh_tw`  **Chinese (Traditional)**
+  * `sv`        Swedish
+  * `te`        Telugu
+  * `th`        Thai
+  * `tr`        **Turkish** [NOT tr_TR]
+  * `uk`        Ukrainian
+  * `ur`        Urdu
+  * `vi`        Vietnamese
+  * `zh_cn`     **Chinese (Simplified)**
+  * `zh_tw`     **Chinese (Traditional)**
 
 ## Markdown vs. ReStructured Text
 
