@@ -43,6 +43,9 @@ Desarrollador, empaquetador para Debian, integración con X2Go.
 
 Desarrollador.
 
+### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
+
+Desarrollador.
 
 ## Colaboradores
 

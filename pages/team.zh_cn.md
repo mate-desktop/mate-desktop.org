@@ -41,6 +41,10 @@ Arch Linux、Debian 及 Ubuntu 打包者，GSoC 导师，社区管理。
 
 开发者。
 
+### ![](/assets/img/flags/32/China.png) 武校田 (yetist)
+
+开发者。
+
 ## 贡献者
 
 多亏了如下贡献者的不懈努力，MATE 桌面环境才得以不断开发和改进。
