@@ -7,8 +7,8 @@
 .. pretty_url: False
 
 MATE est un fork de GNOME 2. Il fournit un environnement de bureau attractif
-et intuitif en se basant sur les métaphores traditionnels pour GNU/Linux et
-d'autres systèmes d'exploitation similaires à Unix.
+et intuitif en se basant sur les métaphores traditionnelles pour GNU/Linux et
+d’autres systèmes d’exploitation similaires à Unix.
 
 MATE connaît un développement soutenu pour ajouter le support des technologies
 nouvelles tout en préservant l'expérience d'un bureau traditionnel.
