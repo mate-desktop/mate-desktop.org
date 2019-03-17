@@ -93,7 +93,7 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `cs`     Czech [ALTERNATIVELY cz]
   * `da`     Danish
   * `de`     **German**
-  * `el`     Greek [NOT gr]
+  * `el`     **Greek** [NOT gr]
   * `en`     **English**
   * `eo`     Esperanto
   * `es`     **Spanish**
@@ -107,17 +107,17 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `hi`     Hindi
   * `hr`     Croatian
   * `hu`     Hungarian
-  * `id`     Indonesian
+  * `id`     **Indonesian**
   * `it`     **Italian**
   * `ja`     Japanese [NOT jp]
   * `ko`     Korean
   * `lt`     Lithuanian
   * `ml`     Malayalam
   * `nb`     Norwegian (Bokmål)
-  * `nl`     **Dutch**
+  * `nl`     Dutch
   * `pa`     Punjabi
-  * `pl`     Polish
-  * `pt`     Portuguese
+  * `pl`     **Polish**
+  * `pt`     **Portuguese**
   * `pt_br`  Portuguese (Brazil)
   * `ru`     Russian
   * `sk`     Slovak
@@ -131,8 +131,8 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `uk`     Ukrainian
   * `ur`     Urdu
   * `vi`     Vietnamese
-  * `zh_cn`  Chinese (Simplified)
-  * `zh_tw`  Chinese (Traditional)
+  * `zh_cn`  **Chinese** (Simplified)
+  * `zh_tw`  **Chinese** (Traditional)
 
 ## Markdown vs. ReStructured Text
 
