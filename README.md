@@ -85,24 +85,55 @@ the following:
 
 Nikola supported languages are, the one in bold are already in the site navigation::
 
-  * `bg`     Bulgarian
-  * `ca`     Catalan
-  * `de`     **German**
-  * `el`     Greek
-  * `en`     **English**
-  * `eo`     Esperanto
-  * `es`     **Spanish**
-  * `fa`     Persian
-  * `fr`     **French**
-  * `hr`     Croatian
-  * `it`     **Italian**
-  * `jp`     Japanese
-  * `nl`     **Dutch**
-  * `pt_br`  Portuguese (Brasil)
-  * `pl`     Polish
-  * `ru`     Russian
-  * `tr_tr`  **Turkish** (Turkey)
-  * `zh_cn`  Chinese (Simplified)
+  * `ar`        Arabic
+  * `az`        Azerbaijani
+  * `bg`        Bulgarian
+  * `bs`        Bosnian
+  * `ca`        Catalan
+  * `cs`        Czech [ALTERNATIVELY cz]
+  * `da`        Danish
+  * `de`        **German**
+  * `el`        **Greek** [NOT gr]
+  * `en`        **English**
+  * `eo`        Esperanto
+  * `es`        **Spanish**
+  * `et`        Estonian
+  * `eu`        Basque
+  * `fa`        Persian
+  * `fi`        Finnish
+  * `fr`        **French**
+  * `gl`        Galician
+  * `he`        Hebrew
+  * `hi`        Hindi
+  * `hr`        Croatian
+  * `hu`        Hungarian
+  * `id`        **Indonesian**
+  * `it`        **Italian**
+  * `ja`        Japanese [NOT jp]
+  * `ko`        Korean
+  * `lt`        Lithuanian
+  * `ml`        Malayalam
+  * `nb`        Norwegian (Bokmål)
+  * `nl`        Dutch
+  * `pa`        Punjabi
+  * `pl`        **Polish**
+  * `pt`        **Portuguese**
+  * `pt_br`     Portuguese (Brazil)
+  * `ru`        Russian
+  * `sk`        Slovak
+  * `sl`        Slovene
+  * `sq`        Albanian
+  * `sr`        Serbian (Cyrillic)
+  * `sr_latin`  Serbian (Latin)
+  * `sv`        Swedish
+  * `te`        Telugu
+  * `th`        Thai
+  * `tr`        **Turkish** [NOT tr_TR]
+  * `uk`        Ukrainian
+  * `ur`        Urdu
+  * `vi`        Vietnamese
+  * `zh_cn`     **Chinese (Simplified)**
+  * `zh_tw`     **Chinese (Traditional)**
 
 ## Markdown vs. ReStructured Text
 
@@ -133,6 +164,58 @@ for testing/deployment the installation process is documentation
 for Ubuntu (also works in Debian Jessie) here:
 
   * https://flexion.org/posts/2015-11-installing-nikola-on-ubuntu/
+
+## Fedora, Debian, Ubuntu
+
+### STEP 1: Install the following packages on your system
+
+On Ubuntu/Debian:
+```
+sudo apt-get install python3 python3-pip asciidoctor virtualenv
+```
+
+On Fedora:
+```
+sudo dnf install python3 python3-pip asciidoctor virtualenv
+```
+
+### STEP 2: Create a new virtualenv named nikola in ~/MyVirtualEnvs folder
+```
+mkdir -p ~/MyVirtualEnvs
+cd ~/MyVirtualEnvs
+virtualenv -p $(which python3) nikola
+```
+
+### STEP 3: Activate the virtualenv created in STEP 2
+```
+source nikola/bin/activate
+```
+
+### STEP 4: Install the following python packages in the virtualenv
+```
+(nikola) pip install --upgrade pip
+(nikola) pip install --upgrade "Nikola[extras]"
+(nikola) pip install --upgrade python-Levenshtein
+(nikola) pip install --upgrade pathlib
+(nikola) pip install --upgrade beautifulsoup4
+```
+(nikola) is part of your shell prompt for the virtualenv named nikola, not part of the command.
+
+### STEP 5: Build and test the web site
+```
+(nikola) cd ~/mate-desktop.org
+(nikola) nikola build -c
+(nikola) nikola serve
+```
+
+### STEP 6: Open the site in a web browser
+Open the URI displayed in the previous step using your favorite web browser.
+
+### STEP 7: Exit virtualenv
+Press ^C to close nikola serve
+```
+(nikola) deactivate
+```
 
 # TODO
 

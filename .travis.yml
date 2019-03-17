@@ -1,0 +1,96 @@
+# vim: set ts=2 sts=2 sw=2 expandtab :
+dist: xenial
+sudo: required
+language: bash
+services:
+  - docker
+
+cache:
+  directories:
+  - cache/
+  - output/
+
+before_install:
+  - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
+  - chmod +x docker-build
+
+install:
+  - sudo apt-get install -y python3-pip python3-setuptools
+  - sudo pip3 install --upgrade pip
+  - sudo pip install PyGithub
+  - ./docker-build --name ${DISTRO} --config .travis.yml --install
+
+script:
+  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
+
+deploy:
+  #preview website
+  - provider: pages
+    github-token: $GITHUB_TOKEN
+    skip_cleanup: true
+    committer-from-gh: true
+    target-branch: gh-pages
+    local-dir: www
+    on:
+      all_branches: true
+      condition: '$TRAVIS_BRANCH != master'
+
+after_success:
+  - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+        URL="https://preview.mate-desktop.dev";
+        COMMENT="Preview website deployed.";
+        curl -H "Authorization: token $GITHUB_TOKEN" -X POST
+           -d "{\"state\": \"success\", \"description\": \"$COMMENT\", \"context\":\"nikola-build\", \"target_url\": \"$URL\"}"
+           https://api.github.com/repos/${TRAVIS_REPO_SLUG}/statuses/${TRAVIS_PULL_REQUEST_SHA};
+     fi'
+
+env:
+  - DISTRO="archlinux/base"
+
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+requires:
+  archlinux:
+    - java-runtime-headless
+    - java-runtime=8
+    - jpegoptim
+    - nikola
+    - openssh
+    - optipng
+    - python-ghp-import
+    - python-typogrify
+    - rsync
+    - tar
+    - unzip
+
+before_scripts:
+  - cd ${START_DIR}
+  - mkdir -p yui-compressor-builds
+  - cd yui-compressor-builds
+  - if [ ! -f yuicompressor-2.4.8.jar ];then
+  -     curl -Ls -o yuicompressor-2.4.8.jar https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
+  -     curl -Ls -o yuicompressor.sh https://aur.archlinux.org/cgit/aur.git/plain/yuicompressor.sh?h=yuicompressor
+  -     sed -i "s|x\.y\.z|2.4.8|" yuicompressor.sh
+  -     install -D -m644  yuicompressor-2.4.8.jar /usr/share/java/yuicompressor-2.4.8.jar
+  -     install -D -m755  yuicompressor.sh /usr/bin/yuicompressor
+  - fi
+
+build_scripts:
+  - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
+  -     sed -i '/SITE_URL/s!//mate-desktop.org/!//preview.mate-desktop.dev/!' conf.py
+  -     sed -i '/WEBSITE_PREVIEW/s!False!True!' conf.py
+  -     sed -i 's!PREVIEW_COMMITID!'${TRAVIS_COMMIT:0:12}'!' conf.py
+  - fi
+  - if [ -f cache/.doit.db ];then
+  -     cp cache/.doit.db .      # Restore from cache
+  - fi
+  - nikola build
+
+after_scripts:
+  - cd ${START_DIR}
+  - rsync -a --delete output/ www/
+  - cp .doit.db cache
+  - find www -type d -exec chmod 755 {} \;
+  - find www -type f -exec chmod 644 {} \;
+  - echo 'preview.mate-desktop.dev' > www/CNAME

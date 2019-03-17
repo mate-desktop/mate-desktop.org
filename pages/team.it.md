@@ -41,6 +41,10 @@ Sviluppatore, pacchettizzazione per Debian, integrazione X2Go.
 
 Sviluppo.
 
+### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
+
+Sviluppatore.
+
 ## Contributors
 
 L'ambiente Desktop MATE continua a migliorare e a svilupparsi grazie

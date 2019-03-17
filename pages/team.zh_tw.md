@@ -40,7 +40,11 @@ Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理。
 
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
-開發。
+開發者。
+
+### ![](/assets/img/flags/32/China.png) 武校田 (yetist)
+
+開發者。
 
 ## 貢獻者
 
