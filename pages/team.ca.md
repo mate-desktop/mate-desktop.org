@@ -38,6 +38,10 @@ Desenvolupament, empaquetatge per a Debian i Ubuntu.
 
 Desenvolupament, empaquetatge per a Debian, integració amb X2Go.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Desenvolupament, empaquetatge per a Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Desenvolupament.

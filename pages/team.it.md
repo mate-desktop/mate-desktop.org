@@ -37,6 +37,10 @@ Sviluppatore, pacchettizzazione per Debian e Ubuntu.
 
 Sviluppatore, pacchettizzazione per Debian, integrazione X2Go.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Sviluppatore, pacchettizzazione per Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Sviluppo.
