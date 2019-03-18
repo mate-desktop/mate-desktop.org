@@ -9,7 +9,7 @@
 .. author: Martin Wimpress
 -->
 
-[Linux Luddites](http://linuxluddites.com) waren so freundlich, mich
+[Linux Luddites](https://linuxluddites.com) waren so freundlich, mich
 letzte Woche zu interviewen. Wir diskutierten die Ursprünge des [MATE-Desktops](https://mate-desktop.org),
 seine zukünftige Ausrichtung, wie [Ubuntu MATE](https://ubuntu-mate.org) entstand und wohin es sich entwickelt.
 

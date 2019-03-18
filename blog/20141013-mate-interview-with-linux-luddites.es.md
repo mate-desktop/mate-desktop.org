@@ -9,7 +9,7 @@
 .. author: Martin Wimpress
 -->
 
-[Linux Luddites](http://linuxluddites.com) fueron lo suficientemente amables de entrevistarmewere kind enough to interview
+[Linux Luddites](https://linuxluddites.com) fueron lo suficientemente amables de entrevistarmewere kind enough to interview
 la semana pasada. Discutimos los origenes del [escritorio MATE](https://mate-desktop.org),
 su futuro y como [Ubuntu MATE](https://ubuntu-mate.org) llegó a ser y hacia donde se dirige.
 
