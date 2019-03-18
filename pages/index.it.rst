@@ -57,8 +57,10 @@ MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuz
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
+* `Trisquel GNU/Linux <https://trisquel.info/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 

@@ -56,8 +56,10 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 * `Sabayon <http://www.sabayon.org>`_
 * `Salix <http://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
+* `Trisquel GNU/Linux <https://trisquel.info/>`_
 * `Ubuntu <http://www.ubuntu.com>`_
 * `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
 * `Void Linux <http://www.voidlinux.eu/>`_
 
