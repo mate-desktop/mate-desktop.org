@@ -16,13 +16,14 @@ After about a year of development, the MATE Desktop team have finally released M
 
 This release contains plenty of critical bug fixes and under-the-hood improvements. Some of the big highlights include:
 
-* the **MATE panel** has gotten a crazy amount of rework to make it work with [Wayland](https://wayland.freedesktop.org/) display backend
+* The **MATE panel** has gotten a crazy amount of rework to make it work with [Wayland](https://wayland.freedesktop.org/) display backend
     * The **display applet** got a full revamp, allowing for better monitor control directly from the panel
     * The **timer applet** now has much better mouse interaction
     * **Wanda the Fish** now works properly on HiDPI displays (fish image is still pixelated, keeping to its original design)
 * Support for [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) has finally been upgraded to version 3 in the **marco** window manager
     * We've also modernized the window and desktop switchers to make them more visually appealing
 * The **session manager** now properly terminates all processes on [systemd](https://freedesktop.org/wiki/Software/systemd/). Also, apps can be auto-started after a user-selected delay
+* We've fully ported a number of programs to Python 3, including the **eye of MATE** and **python-caja** plugin libraries, as well as the **mate-menus** library
 * **Eye of MATE** has a reworked sidebar and better image metadata support
 * Tabs in **pluma** now have the ability to be switched with keyboard shortcuts and mouse scrolling
 * **Calculator** can now support up to 15 characters of accuracy. Copy/paste support was also improved a bit
