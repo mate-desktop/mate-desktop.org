@@ -20,7 +20,7 @@ MATE 正在積極開發中，在保留傳統桌面體驗的同時
 .. image:: /screens/screenshot.jpg
     :align: center
 
-您可以找到更多 `MATE 的截圖 <gallery/1.14/>`_ 。
+您可以找到更多 `MATE 的截圖 <gallery/1.22/>`_ 。
 
 ----
 新聞

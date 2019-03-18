@@ -20,7 +20,7 @@ jest zarysem głównych zasad kierujących projektem.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Więcej `zrzutów ekranu <gallery/1.14/>`_.
+Więcej `zrzutów ekranu <gallery/1.22/>`_.
 
 -----
 Newsy

@@ -16,7 +16,7 @@ experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ The `MATE 
 .. image:: /screens/screenshot.jpg
     :align: center
 
-You can find more `screenshots of MATE <gallery/1.14/>`_.
+You can find more `screenshots of MATE <gallery/1.22/>`_.
 
 ----
 News
