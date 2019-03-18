@@ -24,6 +24,7 @@ This release contains plenty of critical bug fixes and under-the-hood improvemen
     * We've also modernized the window and desktop switchers to make them more visually appealing
 * The **session manager** now properly terminates all processes on [systemd](https://freedesktop.org/wiki/Software/systemd/). Also, apps can be auto-started after a user-selected delay
 * We've fully ported a number of programs to Python 3, including the **eye of MATE** and **python-caja** plugin libraries, as well as the **mate-menus** library
+* The **caja** file manager can now optionally display desktop notifications for long-running file operations
 * **Eye of MATE** has a reworked sidebar and better image metadata support
 * Tabs in **pluma** now have the ability to be switched with keyboard shortcuts and mouse scrolling
 * **Calculator** can now support up to 15 characters of accuracy. Copy/paste support was also improved a bit

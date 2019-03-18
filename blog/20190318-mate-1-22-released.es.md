@@ -24,6 +24,7 @@ Luego de casi un año de trabajo, el equipo del Entorno de Escritorio MATE ha la
     * También hemos modernizado el cambiador de ventanas y espacios para que se vean mejor
 * El **manejador de sesiones** ahora termina los processos correctamente en [systemd](https://freedesktop.org/wiki/Software/systemd/). También las aplicaciones pueden ser auto-iniciadas luego de un tiempo selecionado por el usuario
 * Hemos convertido algunos de nuestros programas a Python 3, incluyendo las bibliotecas de plug-ins de **eye of MATE** y **python-caja**, en adición a la biblioteca de **mate-menus**
+* El manejador de ficheros **caja** ahora puede mostrar notificaciones cuando hay operaciones largas
 * **Eye of MATE** tiene muchas mejoras para ver los detalles y metadata de la imagen
 * Las pestañas en **pluma** ahora pueden ser cambiadas con teclas rápidas y con desplazamiento vertical del ratón
 * La **calculadora** ahora puede desplegar hasta 15 caractéres de precisión. También hay mejoras en las acciones de copiar y pegar
