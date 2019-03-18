@@ -38,6 +38,10 @@ Pengembangan, pemaket untuk Debian dan Ubuntu.
 
 Pengembangan, pemaket untuk Debian, integrasi X2Go.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Pengembangan, pemaket untuk Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Pengembangan.

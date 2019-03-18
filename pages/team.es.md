@@ -39,6 +39,10 @@ Desarrollador, empaquetador para Debian y Ubuntu.
 
 Desarrollador, empaquetador para Debian, integración con X2Go.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Desarrollador, empaquetador para Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Desarrollador.

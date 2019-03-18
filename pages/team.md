@@ -38,6 +38,10 @@ Development, packaging for Debian and Ubuntu.
 
 Development, packaging for Debian, X2Go integration.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Development, packaging for Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Development.

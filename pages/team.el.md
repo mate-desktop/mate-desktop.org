@@ -38,6 +38,10 @@
 
 Προγραμματιστής για το Debian, ενσωμάτωση X2Go.
 
+### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
+
+Προγραμματιστής για το Debian.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Προγραμματιστής.
