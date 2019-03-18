@@ -159,7 +159,7 @@ NAVIGATION_LINKS = {
     "ca": (
 		('/ca/blog/', 'Blog'),
 		('/ca/install/', 'Instal·lació'),
-		('/ca/gallery/1.22/english/', 'Captures'),
+		('/ca/gallery/1.22/catalan/', 'Captures'),
 		('/ca/development/', 'Desenvolupament'),
 		('/ca/community/', 'Comunitat'),
 		('/ca/team/', 'Equip'),
