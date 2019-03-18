@@ -17,7 +17,7 @@ El `manifest de MATE <http://wiki.mate-desktop.org/board:manifesto>`_ descriu al
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Podeu trobar més `captures de MATE <gallery/1.14/>`_.
+Podeu trobar més `captures de MATE <gallery/1.22/>`_.
 
 --------
 Notícies

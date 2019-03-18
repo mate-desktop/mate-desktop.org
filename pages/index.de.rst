@@ -19,7 +19,7 @@ Prinzipien, die das Projekt leiten.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Weitere `Screenshots von MATE  <gallery/1.14/>`_. 
+Weitere `Screenshots von MATE  <gallery/1.22/>`_. 
 
 -----------
 Neuigkeiten

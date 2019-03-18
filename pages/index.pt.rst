@@ -17,7 +17,7 @@ norteiam o projeto.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Você pode encontrar mais`fotos do MATE <gallery/1.14/>`_ em nossa `galeria <gallery/>`_.
+Você pode encontrar mais`fotos do MATE <gallery/1.22/>`_ em nossa `galeria <gallery/>`_.
 
 ---------
 Novidades

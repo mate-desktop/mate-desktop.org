@@ -17,7 +17,7 @@ que guían el proyecto.
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Puedes encontrar más `capturas de pantalla de MATE <gallery/1.14/>`_.
+Puedes encontrar más `capturas de pantalla de MATE <gallery/1.22/>`_.
 
 --------
 Noticias

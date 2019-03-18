@@ -19,7 +19,7 @@ mempertahankan pengalaman desktop tradisional. Silahkan melihat `Rencana Pengemb
 .. image:: /screens/screenshot.jpg
     :align: center
 
-Anda bisa mendapatkan lebih banyak `galeri dari MATE <gallery/1.14/>`_.
+Anda bisa mendapatkan lebih banyak `galeri dari MATE <gallery/1.22/>`_.
 
 ------
 Berita
