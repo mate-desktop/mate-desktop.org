@@ -8,42 +8,42 @@
 .. author: Victor Kareh
 -->
 
-After about a year of development, the MATE Desktop team have finally released MATE 1.22. A big thank you to all contributors who helped to make this happen.
+След около година разработка, екипът на MATE Desktop официално издаде MATE 1.22. Големи благодарности на всички, благодарение на които това стана възможно.
 
 ![about](/assets/img/blog/about-mate-1.22.png)
 
-## What's new in MATE 1.22
+## Новости в MATE 1.22
 
-This release contains plenty of critical bug fixes and under-the-hood improvements. Some of the big highlights include:
+Това издание съдържа много подобрения и поправки на критични бъгове. Някои от по-важните такива са:
 
-* The **MATE panel** has gotten a crazy amount of rework to make it work with [Wayland](https://wayland.freedesktop.org/) display backend
-    * The **display applet** got a full revamp, allowing for better monitor control directly from the panel
-    * The **timer applet** now has much better mouse interaction
-    * **Wanda the Fish** now works properly on HiDPI displays (fish image is still pixelated, keeping to its original design)
-* Support for [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) has finally been upgraded to version 3 in the **marco** window manager
-    * We've also modernized the window and desktop switchers to make them more visually appealing
-* The **session manager** now properly terminates all processes on [systemd](https://freedesktop.org/wiki/Software/systemd/). Also, apps can be auto-started after a user-selected delay
-* We've fully ported a number of programs to Python 3, including the **eye of MATE** and **python-caja** plugin libraries, as well as the **mate-menus** library
-* The **caja** file manager can now optionally display desktop notifications for long-running file operations
-* **Eye of MATE** has a reworked sidebar and better image metadata support
-* Tabs in **pluma** now have the ability to be switched with keyboard shortcuts and mouse scrolling
-* **Calculator** can now support up to 15 characters of accuracy. Copy/paste support was also improved a bit
-* **Engrampa** has had support added for several new compression formats, as well as a new pause/restart functionality
-* A few new **key shortcuts** have been added, including support for different types of media keys like Bluetooth, WiFi, touchpads, and global killswitches
-* A bunch of internal housekeeping tasks have been taken care of:
-    * Most of our projects have now migrated from [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) to [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)
-    * We've improved stability across many of our projects by closing memory leaks and build warnings
-    * We've removed old deprecated code to keep up with the latest versions of [GTK](https://developer.gnome.org/gtk3/stable/)
-    * A lot of new and updated documentation was added/corrected
-    * All of our projects now use [Travis CI](https://travis-ci.org/) to ensure clean builds on some of our major distros
+* По **панела на MATE** беше извършена голяма преработка, за да работи с [Wayland](https://wayland.freedesktop.org/)
+    * **Дисплей аплетът** вече позволява по-добър контрол над мониторите, директно от панела
+    * **Таймер аплетът** е по-добре интегриран с мишката
+    * **Рибата Уанда** вече работи добре на HiDPI дисплеи
+* Поддръжката на [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) беше обновена до версия 3 в мениджъра на прозорци **marco**
+    * Също така модернизирахме превключвателите на прозорците и десктопите, за да ги направим по-привлекателни
+* **Мениджърът на сесии** вече правилно прекратява всички процеси при [systemd](https://freedesktop.org/wiki/Software/systemd/). Също така, приложенията могат да бъдат автоматично пускани след определено време
+* Прехвърлихме много от програмите към Python 3, включително **eye of MATE** и **python-caja** плъгини, както и библиотеката **mate-menus**
+* Файловият мениджър **caja** вече може да показва известия, при изпълняване на продължителни файлови операции
+* **Eye of MATE** има преработен страничен панел и по-добра поддръжка на метаданни
+* Табовете в **pluma** вече могат да бъдат превключвани с клавишни комбинации или чрез скрола на мишката
+* **Калкулаторът** вече поддържа точност до 15 символа. Поддръжката за копиране и поставяне също е подобрена
+* Към **Engrampa** беше добавена поддръжка за няколко нови формата, както и нова функционалност за паузиране
+* Няколко нови **клавишни комбинации** бяха добавени, включително поддръжка за различни видове медийни клавиши като Bluetooth, WiFi, touchpads, и RFKill
+* Много вътрешна работа (по проектите и инфраструктурата) беше свършена:
+    * Повечето от проектите ни бяха мигрирани от [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) към [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)
+    * Подобрихме стабилността на много от нашите проекти, като поправихме "memory leak"-ове и предупреждения при компилация 
+    * Премахнахме стар код, за да се придържаме към последните версии на [GTK](https://developer.gnome.org/gtk3/stable/)
+    * Много нова и обновена документация беше добавена/поправена
+    * Всички наши проекти вече използват [Travis CI](https://travis-ci.org/) за да се осигурят чисти билдове за основните дистрибуции
 
-The various components of MATE Desktop 1.22 are available for download here:
+Компонентите на MATE Desktop 1.22 са налични за сваляне тук:
 
   * <http://pub.mate-desktop.org/releases/1.22/>
 
 ## Changelog
 
-Here are all the gory details.
+Пълен списък с всички промени в това издание (на английски, в оригиналния им вид):
 
 ### atril
 * [9031100](https://github.com/mate-desktop/atril/commit/9031100) Add update-authors.pl script which helps to update atril.about
