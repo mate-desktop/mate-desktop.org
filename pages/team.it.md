@@ -41,6 +41,10 @@ Sviluppatore, pacchettizzazione per Debian, integrazione X2Go.
 
 Sviluppatore, pacchettizzazione per Debian.
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+Sviluppo.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Sviluppo.

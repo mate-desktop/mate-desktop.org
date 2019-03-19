@@ -43,6 +43,10 @@ Desarrollador, empaquetador para Debian, integración con X2Go.
 
 Desarrollador, empaquetador para Debian.
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+Desarrollador.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Desarrollador.

@@ -42,6 +42,10 @@ Desenvolupament, empaquetatge per a Debian, integració amb X2Go.
 
 Desenvolupament, empaquetatge per a Debian.
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+Desenvolupament.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Desenvolupament.
