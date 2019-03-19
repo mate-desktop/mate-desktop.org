@@ -12,7 +12,7 @@ Després de gairebé un any de desenvolupament, l’equip de MATE Desktop ha lla
 
 ![about](/assets/img/blog/about-mate-1.22.ca.png)
 
-## What's new in MATE 1.22
+## Novetats a MATE 1.22
 
 Aquest llançament conté correccions d’errors crítics i millores adjacents. Alguns dels aspectes més destacats són:
 
