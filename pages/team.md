@@ -16,7 +16,7 @@ This is the core MATE team.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management, infrastructure.
+Packaging for Ubuntu-MATE and Debian, GSoC mentor, community management, infrastructure.
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
@@ -76,6 +76,10 @@ MATE Desktop founder, Development.
 The MATE Desktop Environment continues to improve and develop thanks
 to the tireless efforts of the following fine people.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
+
+Development, Packaging for openSUSE, Compiz-Reloaded Maintainer.
+
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
 Development.
@@ -99,10 +103,6 @@ Packaging for Arch Linux, man pages.
 ### ![](/assets/img/flags/32/Greece.png) Efstathios Iosifidis (diamond_gr)
 
 Social media and promotion.
-
-### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
-
-Packaging for openSUSE.
 
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
@@ -143,6 +143,10 @@ Artwork & design.
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
 
 Development, packaging for openSUSE.
+
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+Packaging for openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
