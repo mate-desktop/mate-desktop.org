@@ -14,29 +14,13 @@
 
 Αυτή είναι η κύρια ομάδα του MATE.
 
-### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
-
-Πρώτος προγραμματιστής, packaging για το Debian, μέντορας στο GSoC .
-
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Προγραμματιστής για τα Arch Linux, Debian και Ubuntu, μέντορας στο GSoC, διαχειριστής κοινότητας.
+Προγραμματιστής για τα Ubuntu-MATE και Debian, μέντορας στο GSoC, διαχειριστής κοινότητας.
 
-### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-Προγραμματιστής για το Fedora, συντηρητής θεμάτων.
-
-### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
-
-Προγραμματιστής για το Linux Mint.
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
-Προγραμματιστής για τα Debian, Ubuntu.
-
-### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
-
-Προγραμματιστής για το Debian, ενσωμάτωση X2Go.
+Development.
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -50,9 +34,41 @@
 
 Προγραμματιστής.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
+
+Προγραμματιστής για το Linux Mint.
+
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+
+Προγραμματιστής για το Fedora, συντηρητής θεμάτων.
+
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
 
 Προγραμματιστής.
+
+
+
+## MATE Desktop founder
+
+Θα θέλαμε να αναγνωρίσουμε την προσπάθεια των παρακάτω ανθρώπων, 
+που βοήθησουν στα πρώτα βήματα του MATE.
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής, Προγραμματιστής για τα Debian, Ubuntu.
+
+### ![](/assets/img/flags/32/Argentina.png) Perberos
+
+Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής για το Archlinux.
+
+### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
+
+Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής, packaging για το Debian, μέντορας στο GSoC.
+
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
+
+Ιδρυτής της επιφάνειας εργασίας του MATE, Προγραμματιστής.
+
 
 
 ## Συντελεστές
@@ -60,13 +76,17 @@
 Το MATE συνεχίζει να βελτιώνεται και να αναπτύσεται, χάρις στις ακούραστες προσπάθειες
 των παρακάτω ατόμων.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
+
+Development, Packaging for openSUSE, Compiz-Reloaded Maintainer.
+
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
 Προγραμματιστής.
 
-### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
+### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
-Προγραμματιστής για το Fedora.
+Προγραμματιστής για το Debian, ενσωμάτωση X2Go.
 
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
@@ -84,13 +104,11 @@
 
 Κοινωνική δικτύωση και προώθηση.
 
-### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
-
-Προγραμματιστής για το openSUSE.
-
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
 Προγραμματιστής για το Parrotsec.
+
+
 
 ## Μεταφραστές
 
@@ -98,42 +116,43 @@
 
   * <https://www.transifex.com/organization/mate/team/13566/>
 
+
+
 ## Παλαιοί συνεργάτες
 
-Θα θέλαμε να αναγνωρίσουμε την προσπάθεια των παρακάτω ανθρώπων, 
-που βοήθησουν στα πρώτα βήματα του MATE.
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos
-
-Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής για το Archlinux.
-
-### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
-
-Προγραμματιστής.
-
-### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
-
-Προγραμματιστής.
+Προγραμματιστής για το Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
 Προγραμματιστής για το Debian, συντηρητής κειμένων τεκμηρίωσης.
 
-### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
-Προγραμματιστής για το openSUSE.
+Προγραμματιστής για το Fedora.
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
-
-Προγραμματιστής για το Arch Linux.
-
-### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
 Προγραμματιστής για το Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
 Καλλιτεχνικά & Σχεδίαση.
+
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+
+Προγραμματιστής για το openSUSE.
+
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+Προγραμματιστής για το openSUSE.
+
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
+
+Προγραμματιστής.
+
+
 
 ## Διοικητικό συμβούλιο
 
