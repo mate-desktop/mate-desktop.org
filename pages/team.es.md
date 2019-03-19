@@ -16,7 +16,7 @@ Este es el equipo de trabajo principal de MATE.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Empaquetador para Arch Linux, Debian y Ubuntu, mentor de GSoC, manejo de comunidad.
+Empaquetador para Ubuntu-MATE y Debian, mentor de GSoC, manejo de comunidad.
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
@@ -75,6 +75,10 @@ Fundador del escritorio MATE, desarrollador.
 
 El ambiente de escritorio de MATE continúa mejorando gracias
 a los esfuerzos incansables de las siguientes personas.
+
+### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
+
+Desarrollador, empaquetador para OpenSUSE, mantenedor para Compiz-Reloaded.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
@@ -143,6 +147,10 @@ Arte y diseño.
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
 
 Desarrollador, empaquetador para openSUSE.
+
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+Empaquetador para openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
 
