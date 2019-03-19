@@ -77,7 +77,7 @@ Eventuell bevorzugen Sie UNIX?
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
-* `PC-BSD <http://www.pcbsd.org>`_
+* `TrueOS <https://www.trueos.org/>`_
 
 Sie können sich auch auf `DistroWatch.com über alle Distributionen informieren,
 welche die Unterstützung für MATE bieten
