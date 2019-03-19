@@ -10,7 +10,7 @@
 
 經過大約一年的開發，MATE Desktop 團隊終於發佈了 MATE 1.22。非常感謝幫助實現這一目標的所有貢獻者。
 
-![about](/assets/img/blog/about-mate-1.22.png)
+![about](/assets/img/blog/about-mate-1.22.zh_tw.png)
 
 ## MATE 1.22 的新特性
 
