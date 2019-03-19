@@ -20,7 +20,7 @@ Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management, 
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-Development,
+Development.
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -45,6 +45,7 @@ Development, packaging for Fedora, theme maintainer, infrastructure.
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
 
 Development, infrastructure.
+
 
 
 ## MATE Desktop founder
@@ -113,10 +114,9 @@ MATE is translated, or partially translated, for 140 languages.
 
   * <https://www.transifex.com/projects/p/MATE/>
 
-## Past contributors
 
-We'd like to acknowledge the efforts of the following people who
-helped bootstrap MATE in the early days.
+
+## Past contributors
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 

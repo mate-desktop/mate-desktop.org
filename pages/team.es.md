@@ -10,34 +10,17 @@
 MATE es creado para ti por un grupo internacional de desarrolladores,
 traductores, empaquetadores, artistas y administradores de sistema.
 
-
 ## Equipo Principal
 
 Este es el equipo de trabajo principal de MATE.
-
-### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
-
-Desarrollador Principal, empaquetador para Debian, mentor de GSoC.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
 Empaquetador para Arch Linux, Debian y Ubuntu, mentor de GSoC, manejo de comunidad.
 
-### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-Desarrollador, empaquetador para Fedora, mantenedor de temas.
-
-### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
-
-Desarrollador, empaquetador para Linux Mint.
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
-Desarrollador, empaquetador para Debian y Ubuntu.
-
-### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
-
-Desarrollador, empaquetador para Debian, integración con X2Go.
+Desarrollador.
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -51,9 +34,42 @@ Desarrollador.
 
 Desarrollador.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
+
+Desarrollador, empaquetador para Linux Mint.
+
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+
+Desarrollador, empaquetador para Fedora, mantenedor de temas, infraestructura.
+
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
 
-Desarrollador.
+Desarrollador, infraestructura.
+
+
+
+## Fundadores del escritorio MATE
+
+Nos gustaría mencionar los esfuerzos de las siguientes personas
+que ayudaron en la formación de MATE en sus inicios.
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+Fundador del escritorio MATE, desarrollador, empaquetador para Debian y Ubuntu.
+
+### ![](/assets/img/flags/32/Argentina.png) Perberos
+
+Fundador del escritorio MATE, desarrollador, empaquetador para Arch Linux.
+
+### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
+
+Fundador del escritorio MATE, desarrollador, empaquetador para Debian, mentor de GSoC.
+
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
+
+Fundador del escritorio MATE, desarrollador.
+
+
 
 ## Colaboradores
 
@@ -64,9 +80,9 @@ a los esfuerzos incansables de las siguientes personas.
 
 Desarrollador.
 
-### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
+### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
-Empaquetador para Fedora.
+Desarrollador, empaquetador para Debian, integración con X2Go.
 
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
@@ -91,6 +107,7 @@ Empaquetador para openSUSE.
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
 
+
 ## Traductores
 
 MATE está traducido, completa or parcialmente, en 140 idiomas.
@@ -98,42 +115,37 @@ MATE está traducido, completa or parcialmente, en 140 idiomas.
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-## Contribuidores pasados
 
-Nos gustaría mencionar los esfuerzos de las siguientes personas
-que ayudaron en la formación de MATE en sus inicios.
+## Colaboradores pasados
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
-Fundador del escritorio MATE, desarrollador, empaquetador para Arch Linux.
-
-### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
-
-Desarrollador.
-
-### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
-
-Desarrollador.
+Empaquetador para Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
 Desarrollador, empaquetador para Debian, mantenedor de documentación.
 
-### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
-Desarrollador, empaquetador para openSUSE.
+Empaquetador para Fedora.
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
-
-Empaquetador para Arch Linux.
-
-### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
 Empaquetador para Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
 Arte y diseño.
+
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+
+Desarrollador, empaquetador para openSUSE.
+
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
+
+Desarrollador.
+
 
 
 ## Junta de directores
