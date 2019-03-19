@@ -8,7 +8,7 @@
 -->
 
 Το MATE παρέχεται σε εσάς από μία παγκόσμια ομάδα προγραμματιστών, μεταφραστών,
-προγραμματιστών πακέτων, καλλιτεχνών και διαχειριστών συστημάτων.
+συντηρητών πακέτων, καλλιτεχνών και διαχειριστών συστημάτων.
 
 ## Κύρια ομάδα
 
@@ -20,7 +20,7 @@
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-Development.
+Προγραματιστής.
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -55,30 +55,30 @@ Development.
 
 ### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
 
-Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής, Προγραμματιστής για τα Debian, Ubuntu.
+Ιδρυτής του γραφικού περιβάλοντος MATE, προγραμματιστής για Linux Mint.
 
 ### ![](/assets/img/flags/32/Argentina.png) Perberos
 
-Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής για το Archlinux.
+Ιδρυτής του γραφικού περιβάλοντος MATE, προγραμματιστής για το Archlinux.
 
 ### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
 
-Ιδρυτής της επιφάνειας εργασίας του MATE, προγραμματιστής, packaging για το Debian, μέντορας στο GSoC.
+Ιδρυτής του γραφικού περιβάλοντος MATE, προγραμματιστής, packaging για το Debian, μέντορας στο GSoC.
 
 ### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
 
-Ιδρυτής της επιφάνειας εργασίας του MATE, Προγραμματιστής.
+Ιδρυτής του γραφικού περιβάλοντος MATE, Προγραμματιστής.
 
 
 
 ## Συντελεστές
 
-Το MATE συνεχίζει να βελτιώνεται και να αναπτύσεται, χάρις στις ακούραστες προσπάθειες
+Το MATE συνεχίζει να βελτιώνεται και να αναπτύσσεται, χάριν στις ακούραστες προσπάθειες
 των παρακάτω ατόμων.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
 
-Development, Packaging for openSUSE, Compiz-Reloaded Maintainer.
+Προγραμματιστής, Packaging for openSUSE, Compiz-Reloaded Maintainer.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
@@ -106,7 +106,7 @@ Development, Packaging for openSUSE, Compiz-Reloaded Maintainer.
 
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
-Προγραμματιστής για το Parrotsec.
+Μεταφραστής για το MATE.
 
 
 
