@@ -11,7 +11,7 @@ cache:
   - output/
 
 before_install:
-  - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
+  - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/travis/travis/docker-build
   - chmod +x docker-build
 
 install:
@@ -34,6 +34,13 @@ deploy:
     on:
       all_branches: true
       condition: '$TRAVIS_BRANCH != master'
+
+  #deploy offical website
+  - provider: script
+    script: ./docker-build --config .travis.yml --release scripts
+    skip_cleanup: true
+    on:
+      branch: master
 
 after_success:
   - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" ]]; then
@@ -93,4 +100,25 @@ after_scripts:
   - cp .doit.db cache
   - find www -type d -exec chmod 755 {} \;
   - find www -type f -exec chmod 644 {} \;
-  - echo 'preview.mate-desktop.dev' > www/CNAME
+  - if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_BRANCH" != "master" ]]; then
+  -     echo 'preview.mate-desktop.dev' > www/CNAME
+  - fi
+
+releases:
+  scripts_release:
+    - cd $TRAVIS_BUILD_DIR
+    - if [ ! -d ~/.ssh ];then
+    -     mkdir -p ~/.ssh/
+    -     chmod 700 ~/.ssh/
+    - fi
+    - openssl aes-256-cbc -K $KEY_KB4VKL2L4TA5APOT -iv $IVS_WD0JIBOJGJW5QPAH -in scripts/data.bin -out ~/.ssh/id_rsa -d
+    - chmod 600 ~/.ssh/id_rsa
+    - if [ -f ~/.ssh/config ];then
+    -     mv ~/.ssh/config ~/.config.bak
+    - fi
+    - echo -e "Host *\n\tStrictHostKeyChecking=no\n\tUserKnownHostsFile=/dev/null\n" > ~/.ssh/config
+    -     'rsync -a -e "ssh -o StrictHostKeyChecking=no" --delete www/ matey@yerba.mate-desktop.org:mate-desktop.org/'
+    - rm -f ~/.ssh/id_rsa
+    - if [ -f ~/.config.bak ];then
+    -     mv ~/.config.bak ~/.ssh/config
+    - fi
