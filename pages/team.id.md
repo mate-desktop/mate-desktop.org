@@ -42,6 +42,10 @@ Pengembangan, pemaket untuk Debian, integrasi X2Go.
 
 Pengembangan, pemaket untuk Debian.
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+Pengembangan.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Pengembangan.

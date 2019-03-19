@@ -42,6 +42,10 @@ Development, packaging for Debian, X2Go integration.
 
 Development, packaging for Debian.
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+Development.
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 Development.

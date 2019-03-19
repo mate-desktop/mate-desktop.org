@@ -42,6 +42,10 @@ Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理。
 
 開發者、Debian 打包者。
 
+### ![](/assets/img/flags/32/Catalonia.png) Robert Buj (rbuj)
+
+開發者。
+
 ### ![](/assets/img/flags/32/Puerto%20Rico.png) Victor Kareh (vkareh)
 
 開發者。
