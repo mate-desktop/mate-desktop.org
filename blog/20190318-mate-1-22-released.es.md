@@ -8,42 +8,42 @@
 .. author: Victor Kareh
 -->
 
-Luego de casi un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.22. Un millón de gracias a todos los contribuyentes que ayudaron a hacer esto posible.
+Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.22. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.
 
 ![about](/assets/img/blog/about-mate-1.22.png)
 
 ## ¿Qué hay de nuevo en MATE 1.22?
 
-Ésta versión contiene muchas mejoras en los sistemas críticos de MATE. Algunos de los ejemplos más visibles incluyen:
+Esta versión contiene muchas mejoras y soluciona muchos problemas. Algunos de los ejemplos más visibles son:
 
 * Se han hecho muchos cambios en el **panel de MATE** para que funcione con [Wayland](https://wayland.freedesktop.org/)
-    * El applet de **configuración de pantalla** ahora tiene mejores controles para los monitores desde el mismo panel
-    * El applet del **temporizador** ahora tiene mejor interacción con el ratón
-    * El **pez Wanda** funciona correctamente con despliegues de alta resolución
-* Soporte para la version 3 de [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) finalmente ha llegado al administrador de ventanas **marco**
-    * También hemos modernizado el cambiador de ventanas y espacios para que se vean mejor
-* El **manejador de sesiones** ahora termina los processos correctamente en [systemd](https://freedesktop.org/wiki/Software/systemd/). También las aplicaciones pueden ser auto-iniciadas luego de un tiempo selecionado por el usuario
-* Hemos convertido algunos de nuestros programas a Python 3, incluyendo las bibliotecas de plug-ins de **eye of MATE** y **python-caja**, en adición a la biblioteca de **mate-menus**
-* El manejador de ficheros **caja** ahora puede mostrar notificaciones cuando hay operaciones largas
-* **Eye of MATE** tiene muchas mejoras para ver los detalles y metadata de la imagen
-* Las pestañas en **pluma** ahora pueden ser cambiadas con teclas rápidas y con desplazamiento vertical del ratón
-* La **calculadora** ahora puede desplegar hasta 15 caractéres de precisión. También hay mejoras en las acciones de copiar y pegar
-* A **Engrampa** se le ha añadido soporte para varios nuevos formatos de compresión, en adición a una funcionalidad nueva de pausa y reinicio
-* Algunos nuevos **atajos de teclado** fueron añadidos, incluyendo teclas como Bluetooth, WiFi, touchpads, y RFKill
+    * El applet de **configuración de pantalla** ahora tiene mejores controles para los monitores desde el mismo panel.
+    * El applet del **temporizador** ahora tiene mejor interacción con el ratón.
+    * El **pez Wanda** funciona correctamente con despliegues de alta resolución.
+* El soporte para la versión 3 de [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) finalmente ha llegado al administrador de ventanas **marco**
+    * También hemos modernizado el gestor de ventanas y espacios para que se vean mejor.
+* El **manejador de sesiones** ahora termina los processos correctamente en [systemd](https://freedesktop.org/wiki/Software/systemd/). También las aplicaciones pueden ser auto-iniciadas luego de un tiempo selecionado por el usuario.
+* Hemos convertido algunos de nuestros programas a Python 3, incluyendo las bibliotecas de plugins de **eye of MATE** y **python-caja**, en adición a la biblioteca de **mate-menus**
+* El administrador de archivos **caja** ahora puede mostrar notificaciones con operaciones de larga duración.
+* **Eye of MATE** tiene muchas mejoras para ver los detalles y metadatos de la imagen.
+* Las pestañas en **pluma** ahora pueden ser cambiadas con /ctrl + tab/ y con desplazamiento vertical del ratón.
+* La **calculadora** ahora puede desplegar hasta 15 caractéres de precisión. También hay mejoras en las acciones de copiar y pegar.
+* A **Engrampa** se le ha añadido soporte para varios nuevos formatos de compresión, en adición a una funcionalidad nueva de pausa en el diálogo de progreso.
+* Algunos nuevos **atajos de teclado** fueron añadidos, incluyendo teclas como Bluetooth, WiFi, touchpads, y RFKill.
 * Muchas tareas internas:
     * La mayoría de nuestros proyectos han sido migrados de [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) a [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)
-    * Hemos mejorado la estabilidad a través de varios proyectos al cerrar fugas de memorias y problemas de compilación
-    * Hemos removido código deprecado para seguir compatibles con las últimas versiones de [GTK](https://developer.gnome.org/gtk3/stable/)
-    * Mucha documentación ha sido añadida o correjida
-    * Todos nuestros proyectos ahora usan [Travis CI](https://travis-ci.org/) para asegurar compilaciones limpias en algunos de nuestras distribuciones
+    * Hemos mejorado la estabilidad a través de varios proyectos al corregir pérdidas de memoria y problemas de compilación.
+    * Hemos removido código obsoleto para estar actualizados con las últimas versiones de [GTK](https://developer.gnome.org/gtk3/stable/)
+    * Mucha documentación ha sido añadida o correjida.
+    * Todos nuestros proyectos ahora usan [Travis CI](https://travis-ci.org/) para asegurar compilaciones limpias en algunas de nuestras distribuciones.
 
-Los varios componentes del Entorno de Escritorio MATE 1.22 están disponibles para descargar aquí:
+Los componentes del Entorno de Escritorio MATE 1.22 están disponibles para descargar aquí:
 
   * <http://pub.mate-desktop.org/releases/1.22/>
 
 ## Changelog
 
-Aquí están todos los cambios con lujo de detalle (con sus mensajes originales en inglés):
+Aquí están todos los cambios detalladamente (con sus mensajes originales en inglés):
 
 ### atril
 * [9031100](https://github.com/mate-desktop/atril/commit/9031100) Add update-authors.pl script which helps to update atril.about
