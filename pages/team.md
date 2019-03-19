@@ -106,6 +106,8 @@ Packaging for openSUSE.
 
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
+Development, translator.
+
 
 
 ## Translators
