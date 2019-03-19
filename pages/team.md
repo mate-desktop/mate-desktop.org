@@ -14,29 +14,13 @@ translators, packagers, artists and systems administrators.
 
 This is the core MATE team.
 
-### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
-
-Lead Developer, packaging for Debian, GSoC mentor.
-
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management.
+Packaging for Arch Linux, Debian and Ubuntu, GSoC mentor, community management, infrastructure.
 
-### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-Development, packaging for Fedora, theme maintainer.
-
-### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
-
-Development, packaging for Linux Mint.
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
-Development, packaging for Debian and Ubuntu.
-
-### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
-
-Development, packaging for Debian, X2Go integration.
+Development,
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -50,9 +34,41 @@ Development.
 
 Development.
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
+
+Development, packaging for Linux Mint.
+
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+
+Development, packaging for Fedora, theme maintainer, infrastructure.
+
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
 
-Development.
+Development, infrastructure.
+
+
+## MATE Desktop founder
+
+We'd like to acknowledge the efforts of the following people who
+helped bootstrap MATE in the early days.
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+MATE Desktop founder, Development, packaging for Debian and Ubuntu.
+
+### ![](/assets/img/flags/32/Argentina.png) Perberos
+
+MATE Desktop founder, development, packaging for Archlinux.
+
+### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
+
+MATE Desktop founder, Developer, packaging for Debian, GSoC mentor.
+
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
+
+MATE Desktop founder, Development.
+
+
 
 ## Contributors
 
@@ -63,9 +79,9 @@ to the tireless efforts of the following fine people.
 
 Development.
 
-### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
+### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
-Packaging for Fedora.
+Development, packaging for Debian, X2Go integration.
 
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
@@ -102,37 +118,35 @@ MATE is translated, or partially translated, for 140 languages.
 We'd like to acknowledge the efforts of the following people who
 helped bootstrap MATE in the early days.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
-MATE Desktop founder, development, packaging for Archlinux.
-
-### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
-
-Development.
-
-### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
-
-Development.
+Packaging for Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
 Development, packaging for Debian, documentation maintainer.
 
-### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
-Development, packaging for openSUSE.
+Packaging for Fedora.
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
-
-Packaging for Arch Linux.
-
-### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
 Packaging for Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
 Artwork & design.
+
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+
+Development, packaging for openSUSE.
+
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
+
+Development.
+
+
 
 ## Board
 
