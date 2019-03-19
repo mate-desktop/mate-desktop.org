@@ -106,6 +106,8 @@ Empaquetador para openSUSE.
 
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
+Desarrollador, traductor.
+
 
 
 ## Traductores
