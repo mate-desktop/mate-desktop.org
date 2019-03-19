@@ -96,6 +96,7 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
+    "bg": "./bg",
     "ca": "./ca",
     "de": "./de",
     "el": "./el",
@@ -156,6 +157,15 @@ NAVIGATION_LINKS = {
 		('/team/', 'Team'),
 		('/donate/', 'Donate'),
     ),
+    "bg": (
+		('/bg/blog/', 'Блог'),
+		('/bg/install/', 'Инсталация'),
+		('/bg/gallery/1.22/english/', 'Екранни снимки'),
+		('/bg/development/', 'Разработка'),
+		('/bg/community/', 'Общност'),
+		('/bg/team/', 'Екип'),
+		('/bg/donate/', 'Дарения'),
+   ),
     "ca": (
 		('/ca/blog/', 'Blog'),
 		('/ca/install/', 'Instal·lació'),
