@@ -72,7 +72,7 @@ MATE está disponible a través de los repositorios *no oficiales* de las siguie
 * `GhostBSD <http://ghostbsd.org>`_
 * `FreeBSD <http://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
-* `PC-BSD <http://www.pcbsd.org>`_
+* `TrueOS <https://www.trueos.org/>`_
 
 También puedes buscar en `DistroWatch.com todas las distribuciones compatibles con MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
