@@ -14,29 +14,13 @@ MATE 由一組國際化的開發者、翻譯者、打包者、
 
 這是 MATE 的核心團隊。
 
-### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
-
-首席開發者、Debian 打包者、GSoC 導師。
-
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理。
+Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理，基礎設施。
 
-### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
-開發、Fedora 打包者、主題維護者。
-
-### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
-
-開發、Linux Mint 打包者。
-
-### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
-
-開發、Debian/Ubuntu 打包者。
-
-### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
-
-開發、Debian 打包者、整合 X2Go。
+开发者。
 
 ### ![](/assets/img/flags/32/Galicia.png) Pablo Barciela (sc0w)
 
@@ -50,22 +34,57 @@ Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理。
 
 開發者。
 
+### ![](/assets/img/flags/32/Russian%20Federation.png) Vlad Orlov (monsta)
+
+開發、Linux Mint 打包者。
+
+### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
+
+開發、Fedora 打包者、主題維護者，基礎設施。
+
 ### ![](/assets/img/flags/32/China.png) 武校田 (yetist)
 
-開發者。
+開發者，基礎設施。
+
+
+
+## MATE 桌面創始人
+
+我們要感謝以下在早期幫助引導 MATE 的人所做的努力。
+
+### ![](/assets/img/flags/32/France.png) Clement Lefebvre (clem)
+
+MATE 桌面創始人、開發者、Debian 及 Ubuntu 打包者。
+
+### ![](/assets/img/flags/32/Argentina.png) Perberos
+
+MATE 桌面創始人、開發者、Archlinux 打包者。
+
+### ![](/assets/img/flags/32/Italy.png) Stefano Karapetsas (stefano-k)
+
+MATE 桌面創始人、開發者，Debian 打包者、GSoC 導師。
+
+### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
+
+MATE 桌面創始人、開發者。
+
+
 
 ## 貢獻者
 
-MATE 桌面環境一直不斷的改進與開發著，這都要歸功
-於下列這些好人們孜孜不倦的努力。
+MATE 桌面環境一直不斷的改進與開發著，這都要歸功於下列這些好人們孜孜不倦的努力。
+
+### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
+
+開發者，openSUSE 打包者，Compiz-Reloaded 維護者。
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
-開發。
+開發者。
 
-### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
+### ![](/assets/img/flags/32/Germany.png) Mike Gabriel (sunweaver)
 
-Fedora 打包者。
+開發、Debian 打包者、整合 X2Go。
 
 ### ![](/assets/img/flags/32/Indonesia.png) Willy Sudiarto Raharjo (willysr)
 
@@ -83,52 +102,55 @@ Arch Linux 打包者、手冊頁面撰寫。
 
 社群媒體與推廣。
 
-### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
-openSUSE 打包者。
+開發者，翻譯者。
+
+
 
 ## 翻譯者
 
 MATE 已被翻譯或部份翻譯為 140 種語言。
 
-  * <https://www.transifex.com/organization/mate/team/13566/>
+  * <https://www.transifex.com/projects/p/MATE/>
+
+
 
 ## 過去的貢獻者
 
-我們想感謝下面這些人在早期的那些日子裡協助讓
-MATE 得以茁壯的努力。
+### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos
-
-MATE 桌面創始人、開發、Archlinux 打包者。
-
-### ![](/assets/img/flags/32/USA.png) Steve Zesch (amanas)
-
-開發。
-
-### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
-
-開發。
+Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
 開發、Debian 打包者、文件維護者。
 
-### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
-開發、openSUSE 打包者。
+Fedora 打包者。
 
 ### ![](/assets/img/flags/32/Italy.png) Giovanni Ricciardi (talorno)
-
-Arch Linux 打包者。
-
-### ![](/assets/img/flags/32/USA.png) Adam Bickley (bickman2k)
 
 Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger (Rowen_Stipe)
 
 藝術品 & 設計。
+
+### ![](/assets/img/flags/32/Portugal.png) Nelson Marques (nmarques)
+
+開發、openSUSE 打包者。
+
+### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
+
+openSUSE 打包者。
+
+### ![](/assets/img/flags/32/Canada.png) Scott Balneaves (sbalneav)
+
+開發。
+
+
 
 ## 董事會
 
