@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE"}
+BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE"}
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -26,7 +26,7 @@ SITE_URL = "https://mate-desktop.org/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://mate-desktop.com"
 BLOG_EMAIL = "webmaster@mate-desktop.org"
-BLOG_DESCRIPTION = {"en": "The traditional Desktop Environment", "ca": "L'entorn d'escriptori tradicional"}
+BLOG_DESCRIPTION = {"en": "The traditional Desktop Environment", "ca": "L'entorn d'escriptori tradicional", "es": "El entorno de escritorio tradicional"}
 
 # Nikola is multilingual!
 #
@@ -199,7 +199,7 @@ NAVIGATION_LINKS = {
 		('/es/gallery/1.14/', 'Imágenes'),
 		('/es/development/', 'Desarrollo'),
 		('/es/community/', 'Comunidad'),
-		('/es/team/', 'Team'),
+		('/es/team/', 'Equipo'),
 		('/es/donate/', 'Donar'),
    ),
     "fr": (
