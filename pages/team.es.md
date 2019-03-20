@@ -104,10 +104,6 @@ Empaquetador para Arch Linux, páginas de manuales.
 
 Medios sociales y promoción.
 
-### ![](/assets/img/flags/32/France.png) Benjamin Denisart (posophe)
-
-Empaquetador para openSUSE.
-
 ### ![](/assets/img/flags/32/Greece.png) Alexandros Mouhtsis (alexandros)
 
 Desarrollador, traductor.
