@@ -16,7 +16,7 @@ Este es el equipo de trabajo principal de MATE.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress (flexiondotorg)
 
-Empaquetador para Ubuntu-MATE y Debian, mentor de GSoC, manejo de comunidad.
+Empaquetador para Ubuntu-MATE y Debian, mentor de GSoC, gestión de la comunidad.
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn (lukefromdc)
 
@@ -40,7 +40,7 @@ Desarrollador, empaquetador para Linux Mint.
 
 ### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich (raveit65)
 
-Desarrollador, empaquetador para Fedora, mantenedor de temas, infraestructura.
+Desarrollador, empaquetador para Fedora, mantenimiento de temas, infraestructura.
 
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian (yetist)
 
@@ -78,7 +78,7 @@ a los esfuerzos incansables de las siguientes personas.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin (XRevan86)
 
-Desarrollador, empaquetador para OpenSUSE, mantenedor para Compiz-Reloaded.
+Desarrollador, empaquetador para OpenSUSE, mantenimiento de Compiz-Reloaded.
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev (dnk)
 
@@ -116,7 +116,7 @@ Desarrollador, traductor.
 
 ## Traductores
 
-MATE está traducido, completa or parcialmente, en 140 idiomas.
+MATE está traducido, completa o parcialmente, en 140 idiomas.
 
   * <https://www.transifex.com/projects/p/MATE/>
 
@@ -130,7 +130,7 @@ Empaquetador para Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Abel McClendon (MotoHoss)
 
-Desarrollador, empaquetador para Debian, mantenedor de documentación.
+Desarrollador, empaquetador para Debian, mantenimiento de la documentación.
 
 ### ![](/assets/img/flags/32/USA.png) Dan Mashal (dan408)
 
@@ -158,10 +158,10 @@ Desarrollador.
 
 
 
-## Junta de directores
+## Junta directiva
 
-El entorno de escritorio MATE tiene una junta de directores. El
-[wiki de la junta de MATE](http://wiki.mate-desktop.com/board)
+El entorno de escritorio MATE tiene una junta directiva. El
+[wiki de la junta directiva de MATE](http://wiki.mate-desktop.com/board)
 tiene un listado de los miembros actuales y descripciones de sus
 responsabilidades.
 
