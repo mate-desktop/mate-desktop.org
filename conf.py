@@ -160,7 +160,7 @@ NAVIGATION_LINKS = {
     "bg": (
 		('/bg/blog/', 'Блог'),
 		('/bg/install/', 'Инсталация'),
-		('/bg/gallery/1.22/catalan/', 'Екранни снимки'),
+		('/bg/gallery/1.22/english/', 'Екранни снимки'),
 		('/bg/development/', 'Разработка'),
 		('/bg/community/', 'Общност'),
 		('/bg/team/', 'Екип'),
