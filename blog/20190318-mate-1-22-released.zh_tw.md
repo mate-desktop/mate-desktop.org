@@ -63,7 +63,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [19c3072](https://github.com/mate-desktop/atril/commit/19c3072) tiff: fix possible NULL pointer dereference
 * [6457c82](https://github.com/mate-desktop/atril/commit/6457c82) pdf: add missing break statement
 * [70ba1fb](https://github.com/mate-desktop/atril/commit/70ba1fb) libdocument: drop useless freeing of NULL pointer
-* [1b95162](https://github.com/mate-desktop/atril/commit/1b95162) comics: fix incorrect mimetype saying to open and thumbnail all rarfiles
+* [1b95162](https://github.com/mate-desktop/atril/commit/1b95162) comics: fix incorrect mimetype saying to open and thumbnail all RAR files
 * [3c75360](https://github.com/mate-desktop/atril/commit/3c75360) disable deprecation warnings for distcheck
 * [eaae975](https://github.com/mate-desktop/atril/commit/eaae975) Use make functions for HELP_LINGUAS
 * [7d9dab7](https://github.com/mate-desktop/atril/commit/7d9dab7) comics: support application/vnd.rar MIME type
@@ -103,9 +103,9 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [dc77310](https://github.com/mate-desktop/atril/commit/dc77310) Allow changing the page of a presentation
 * [b0ea2c7](https://github.com/mate-desktop/atril/commit/b0ea2c7) libview: Fix goto window in presentation mode
 * [0c160a1](https://github.com/mate-desktop/atril/commit/0c160a1) libview: avoid deprecated gdk_screen_get_monitor
-* [557d371](https://github.com/mate-desktop/atril/commit/557d371) EvPresentationView: Render correctly on hi-dpi displays
+* [557d371](https://github.com/mate-desktop/atril/commit/557d371) EvPresentationView: Render correctly on HiDPI displays
 * [5345f83](https://github.com/mate-desktop/atril/commit/5345f83) libview: Fix g_return condition in set_device_scale_on_surface()
-* [2cae078](https://github.com/mate-desktop/atril/commit/2cae078) EvView: render correctly on hi-dpi displays
+* [2cae078](https://github.com/mate-desktop/atril/commit/2cae078) EvView: render correctly on HiDPI displays
 * [1d90b70](https://github.com/mate-desktop/atril/commit/1d90b70) libview: use css to draw the background of presentations
 * [1b1f2c5](https://github.com/mate-desktop/atril/commit/1b1f2c5) Move custom css to a file compiled as a gresource
 * [11fc5dc](https://github.com/mate-desktop/atril/commit/11fc5dc) shell: Use GResource for data files
@@ -142,7 +142,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [f16828c](https://github.com/mate-desktop/atril/commit/f16828c) Remove generated files
 * [31b0fe8](https://github.com/mate-desktop/atril/commit/31b0fe8) Add pixbuf, tiff and xps TypeDescription to POTFILES.in
 * [966e36f](https://github.com/mate-desktop/atril/commit/966e36f) move appdata to metainfo directory
-* [7332ba8](https://github.com/mate-desktop/atril/commit/7332ba8) comics: fix incorrect mimetype saying to open and thumbnail all rarfiles
 * [a440818](https://github.com/mate-desktop/atril/commit/a440818) disable deprecation warnings for distcheck
 * [8bf0fa7](https://github.com/mate-desktop/atril/commit/8bf0fa7) Use make functions for HELP_LINGUAS
 * [413f6cc](https://github.com/mate-desktop/atril/commit/413f6cc) comics: support application/vnd.rar MIME type
@@ -172,9 +171,9 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [50bdf3f](https://github.com/mate-desktop/atril/commit/50bdf3f) Allow changing the page of a presentation
 * [454ca8b](https://github.com/mate-desktop/atril/commit/454ca8b) libview: Fix goto window in presentation mode
 * [b9dcc2a](https://github.com/mate-desktop/atril/commit/b9dcc2a) libview: avoid deprecated gdk_screen_get_monitor
-* [c0cf2c6](https://github.com/mate-desktop/atril/commit/c0cf2c6) EvPresentationView: Render correctly on hi-dpi displays
+* [c0cf2c6](https://github.com/mate-desktop/atril/commit/c0cf2c6) EvPresentationView: Render correctly on HiDPI displays
 * [14c88f2](https://github.com/mate-desktop/atril/commit/14c88f2) libview: Fix g_return condition in set_device_scale_on_surface()
-* [58486bb](https://github.com/mate-desktop/atril/commit/58486bb) EvView: render correctly on hi-dpi displays
+* [58486bb](https://github.com/mate-desktop/atril/commit/58486bb) EvView: render correctly on HiDPI displays
 * [02970c6](https://github.com/mate-desktop/atril/commit/02970c6) libview: use css to draw the background of presentations
 * [1e531cb](https://github.com/mate-desktop/atril/commit/1e531cb) Move custom css to a file compiled as a gresource
 * [c7fcfa1](https://github.com/mate-desktop/atril/commit/c7fcfa1) shell: Use GResource for data files
@@ -220,7 +219,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [7a26045](https://github.com/mate-desktop/caja/commit/7a26045) [Security] eel-string: Use 'g_strlcat' instead of 'strcat'
 * [fede367](https://github.com/mate-desktop/caja/commit/fede367) [Security] Use 'g_strlcpy' instead of 'strcpy'
 * [da3b634](https://github.com/mate-desktop/caja/commit/da3b634) Add update-authors.pl script which helps to update caja.about
-* [5379181](https://github.com/mate-desktop/caja/commit/5379181) Read authors and documenters fom caja.about file
+* [5379181](https://github.com/mate-desktop/caja/commit/5379181) Read authors and documenters from caja.about file
 * [f5e08dd](https://github.com/mate-desktop/caja/commit/f5e08dd) Ensure proper translation of the about dialog title
 * [65aaac0](https://github.com/mate-desktop/caja/commit/65aaac0) Prepare for docker-build 0.1.1 merge into master
 * [222fcc0](https://github.com/mate-desktop/caja/commit/222fcc0) Update authors
@@ -277,7 +276,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [a8de3bb](https://github.com/mate-desktop/caja/commit/a8de3bb) fm-properties-window: Fix memory leaks
 * [09eda67](https://github.com/mate-desktop/caja/commit/09eda67) caja-desktop-link-monitor: Fix memory leak
 * [056832f](https://github.com/mate-desktop/caja/commit/056832f) eel-gtk-extensions: Fix memory leaks
-* [6dbdc90](https://github.com/mate-desktop/caja/commit/6dbdc90) GSettings should init beforce use it.
+* [6dbdc90](https://github.com/mate-desktop/caja/commit/6dbdc90) GSettings should init before use it.
 * [74d2b19](https://github.com/mate-desktop/caja/commit/74d2b19) sync with transifex
 * [2676eaf](https://github.com/mate-desktop/caja/commit/2676eaf) Fix case-insensitive comparison in running_in_mate
 * [0bffad7](https://github.com/mate-desktop/caja/commit/0bffad7) monitor: fix crash on unmounting remote filesystems
@@ -291,13 +290,13 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [6c423bc](https://github.com/mate-desktop/caja/commit/6c423bc) Caja-icon-info: Optimize icon lookups by GIcon.
 * [021ff2a](https://github.com/mate-desktop/caja/commit/021ff2a) fm-directory-view.c:  Decrease minimum update interval.
 * [336f351](https://github.com/mate-desktop/caja/commit/336f351) Remove dead code, fix a memory leak
-* [6a31ce6](https://github.com/mate-desktop/caja/commit/6a31ce6) add option to open multiple uri in tabs at startup
-* [fb9a3cf](https://github.com/mate-desktop/caja/commit/fb9a3cf) Revert "add option to open multiple uri in tabs at startup"
+* [6a31ce6](https://github.com/mate-desktop/caja/commit/6a31ce6) add option to open multiple URIs in tabs at startup
+* [fb9a3cf](https://github.com/mate-desktop/caja/commit/fb9a3cf) Revert "add option to open multiple URIs in tabs at startup"
 * [0d7a79d](https://github.com/mate-desktop/caja/commit/0d7a79d) Revert "Memory leak fix"
 * [e362fef](https://github.com/mate-desktop/caja/commit/e362fef) Revert "Fix indents, update docs to reflect ability to open URIs in tabs"
 * [424cf44](https://github.com/mate-desktop/caja/commit/424cf44) Fix indents, update docs to reflect ability to open URIs in tabs
 * [04f7e80](https://github.com/mate-desktop/caja/commit/04f7e80) Memory leak fix
-* [fd1f45f](https://github.com/mate-desktop/caja/commit/fd1f45f) add option to open multiple uri in tabs at startup
+* [fd1f45f](https://github.com/mate-desktop/caja/commit/fd1f45f) add option to open multiple URIs in tabs at startup
 * [3619f72](https://github.com/mate-desktop/caja/commit/3619f72) pathbar: Activate pane when changing location
 * [c455418](https://github.com/mate-desktop/caja/commit/c455418) add the ability to switch tabs using [ctrl+tab] and [ctrl+shift+tab]
 * [e740a98](https://github.com/mate-desktop/caja/commit/e740a98) caja-window: Fix: mouse doesn't work with [ctrl] + [.] or [ctrl] + [;]
@@ -365,7 +364,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [bc1405c](https://github.com/mate-desktop/caja/commit/bc1405c) Support HiDpi icons
 * [779e0af](https://github.com/mate-desktop/caja/commit/779e0af) canvas-container: listen to scale factor to invalidate icons
 * [a864855](https://github.com/mate-desktop/caja/commit/a864855) canvas-item: use gtk_render_icon_surface for the DnD surface
-* [35eb416](https://github.com/mate-desktop/caja/commit/35eb416) desktop-canvas-view: scale desktop workarea
+* [35eb416](https://github.com/mate-desktop/caja/commit/35eb416) desktop-canvas-view: scale desktop work area
 * [37ebfa8](https://github.com/mate-desktop/caja/commit/37ebfa8) pre-bump version
 * [d20ceac](https://github.com/mate-desktop/caja/commit/d20ceac) caja-side-pane.c: avoid deprecated GtkImageMenuItem
 * [ffb953f](https://github.com/mate-desktop/caja/commit/ffb953f) caja-navigation-window-pane.c: avoid deprecated GtkImageMenuItem
@@ -389,7 +388,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [d66b717](https://github.com/mate-desktop/caja/commit/d66b717) caja-bookmarks-window.ui: avoid deprecated:
 * [ed46e15](https://github.com/mate-desktop/caja/commit/ed46e15) rename mate_dialog_add_button to eel_dialog_add_button
 * [4901253](https://github.com/mate-desktop/caja/commit/4901253) use development version
-* [20fe122](https://github.com/mate-desktop/caja/commit/20fe122) pre-bumb version
+* [20fe122](https://github.com/mate-desktop/caja/commit/20fe122) pre-bump version
 * [7763ec9](https://github.com/mate-desktop/caja/commit/7763ec9) avoid eel_create_question_dialog with stock ids
 * [f0ab0d4](https://github.com/mate-desktop/caja/commit/f0ab0d4) avoid eel_run_simple_dialog with stock ids
 * [9778a3a](https://github.com/mate-desktop/caja/commit/9778a3a) eel-stock-dialogs: avoid gtk_dialog_add_button with stock ids
@@ -435,7 +434,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [4bf67ac](https://github.com/mate-desktop/caja/commit/4bf67ac) Support HiDpi icons
 * [35c4dc6](https://github.com/mate-desktop/caja/commit/35c4dc6) canvas-container: listen to scale factor to invalidate icons
 * [52d44de](https://github.com/mate-desktop/caja/commit/52d44de) canvas-item: use gtk_render_icon_surface for the DnD surface
-* [efb0d54](https://github.com/mate-desktop/caja/commit/efb0d54) desktop-canvas-view: scale desktop workarea
 * [7f22b30](https://github.com/mate-desktop/caja/commit/7f22b30) modify code error: end the statement with a semicolon
 * [6082649](https://github.com/mate-desktop/caja/commit/6082649) remove runtime warning in usage of caja_clipboard_set_up_editable
 * [d885694](https://github.com/mate-desktop/caja/commit/d885694) can selected all the search keywords with Ctrl+a.
@@ -500,7 +498,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [cd7f17a](https://github.com/mate-desktop/engrampa/commit/cd7f17a) Replace -Dokumentationteam
 * [dd11160](https://github.com/mate-desktop/engrampa/commit/dd11160) Replace -Dokumentationsprojekt with Documentation Project
 * [9b4ba7a](https://github.com/mate-desktop/engrampa/commit/9b4ba7a) Manual: Update file format descriptions using shared-mime-info
-* [2c9e615](https://github.com/mate-desktop/engrampa/commit/2c9e615) Fix url of ulinks to point to mate-user-guide
+* [2c9e615](https://github.com/mate-desktop/engrampa/commit/2c9e615) Fix URL of ulinks to point to mate-user-guide
 * [2c60ca9](https://github.com/mate-desktop/engrampa/commit/2c60ca9) UNIX and Linux systems -> Linux and UNIX-like systems
 * [2804b35](https://github.com/mate-desktop/engrampa/commit/2804b35) update engrampa.pot
 * [fa7097c](https://github.com/mate-desktop/engrampa/commit/fa7097c) fr-window: fix typo
@@ -540,7 +538,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [ad74b5d](https://github.com/mate-desktop/engrampa/commit/ad74b5d) Replace -Dokumentationteam
 * [d7d22b4](https://github.com/mate-desktop/engrampa/commit/d7d22b4) Replace -Dokumentationsprojekt with Documentation Project
 * [6c451b3](https://github.com/mate-desktop/engrampa/commit/6c451b3) Manual: Update file format descriptions using shared-mime-info
-* [ce3a347](https://github.com/mate-desktop/engrampa/commit/ce3a347) Fix url of ulinks to point to mate-user-guide
 * [3b890f9](https://github.com/mate-desktop/engrampa/commit/3b890f9) UNIX and Linux systems -> Linux and UNIX-like systems
 * [0c6a7a0](https://github.com/mate-desktop/engrampa/commit/0c6a7a0) update engrampa.pot
 * [fc73b13](https://github.com/mate-desktop/engrampa/commit/fc73b13) fr-window: fix typo
@@ -571,7 +568,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [e3a9345](https://github.com/mate-desktop/eom/commit/e3a9345) Update the appdata XML file
 * [5e245f8](https://github.com/mate-desktop/eom/commit/5e245f8) Use make functions for HELP_LINGUAS
 * [0b573f4](https://github.com/mate-desktop/eom/commit/0b573f4) Fix url of ulink to point to mate-user-guide
-* [8eca711](https://github.com/mate-desktop/eom/commit/8eca711) Update Catalan screenhots
+* [8eca711](https://github.com/mate-desktop/eom/commit/8eca711) Update Catalan screenshots
 * [7af7c3b](https://github.com/mate-desktop/eom/commit/7af7c3b) Fix spelling and grammar mistakes
 * [1e17920](https://github.com/mate-desktop/eom/commit/1e17920) Update eom_start_window.png
 * [e148897](https://github.com/mate-desktop/eom/commit/e148897) Reduce the number of g_file_query_info calls at start-up
@@ -604,7 +601,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [6319bb3](https://github.com/mate-desktop/eom/commit/6319bb3) EomSidebar: Center and reformat page selector
 * [ece3c97](https://github.com/mate-desktop/eom/commit/ece3c97) EomMetadataSidebar: Fix leaked strings
 * [a29a5d1](https://github.com/mate-desktop/eom/commit/a29a5d1) metadata-sidebar: add the details button again
-* [6b0c2ae](https://github.com/mate-desktop/eom/commit/6b0c2ae) EogMetadataSidebar: Try to unclutter and improve the sidebar's look
+* [6b0c2ae](https://github.com/mate-desktop/eom/commit/6b0c2ae) EomMetadataSidebar: Try to unclutter and improve the sidebar's look
 * [3d80a86](https://github.com/mate-desktop/eom/commit/3d80a86) GResource: free css_file
 * [6d164b4](https://github.com/mate-desktop/eom/commit/6d164b4) Initial GResource migration
 * [e12f285](https://github.com/mate-desktop/eom/commit/e12f285) EomExifUtil: Fix build with newer GCC
@@ -637,7 +634,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [fe21ccd](https://github.com/mate-desktop/eom/commit/fe21ccd) Reformat Exif tags for GPS position to be better understandable
 * [32f2e6f](https://github.com/mate-desktop/eom/commit/32f2e6f) Make sure GPS Exif tags are named and ordered correctly
 * [017f7e5](https://github.com/mate-desktop/eom/commit/017f7e5) Use GdkPixbuf's "orientation" feature as fallback for autorotation
-* [7eec54c](https://github.com/mate-desktop/eom/commit/7eec54c) EogScrollView: Implement simple two-pass filtering
+* [7eec54c](https://github.com/mate-desktop/eom/commit/7eec54c) EomScrollView: Implement simple two-pass filtering
 * [7f38bf6](https://github.com/mate-desktop/eom/commit/7f38bf6) EomScrollView: Use better downscaling filter
 * [f607cda](https://github.com/mate-desktop/eom/commit/f607cda) Remove unneeded finalize() from EomListStore
 * [9b79e09](https://github.com/mate-desktop/eom/commit/9b79e09) Update plugins to use EomWindowActivatable interface
@@ -657,7 +654,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [d328203](https://github.com/mate-desktop/eom/commit/d328203) Fix build when not building with libexif and/or exempi
 * [09fea91](https://github.com/mate-desktop/eom/commit/09fea91) Don't force-enable the sidebar on startup once a page is added
 * [b1c0911](https://github.com/mate-desktop/eom/commit/b1c0911) Make Exif/XMP summaries available as sidebar
-* [28fbd14](https://github.com/mate-desktop/eom/commit/28fbd14) Drop now unneeded TotemScrSaver
+* [28fbd14](https://github.com/mate-desktop/eom/commit/28fbd14) Drop now unneeded TotemScreenSaver
 * [4817ee9](https://github.com/mate-desktop/eom/commit/4817ee9) Use GtkApplication to inhibit the screensaver during slideshows
 * [9e687fa](https://github.com/mate-desktop/eom/commit/9e687fa) Ensure UI action sensitivity is set at least once
 * [bc859fd](https://github.com/mate-desktop/eom/commit/bc859fd) Remove leftover DBus service description file
@@ -693,7 +690,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [0d1a90a](https://github.com/mate-desktop/eom/commit/0d1a90a) EomImage: Remove unused constructor
 * [49a85ee](https://github.com/mate-desktop/eom/commit/49a85ee) Use make functions for HELP_LINGUAS
 * [d434d35](https://github.com/mate-desktop/eom/commit/d434d35) Fix url of ulink to point to mate-user-guide
-* [0a4ed8a](https://github.com/mate-desktop/eom/commit/0a4ed8a) Update Catalan screenhots
 * [9b628a8](https://github.com/mate-desktop/eom/commit/9b628a8) Fix spelling and grammar mistakes
 * [9b033ce](https://github.com/mate-desktop/eom/commit/9b033ce) Update eom_start_window.png
 * [5376650](https://github.com/mate-desktop/eom/commit/5376650) fix a memory leak
@@ -703,7 +699,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [87d59bd](https://github.com/mate-desktop/eom/commit/87d59bd) Reformat Exif tags for GPS position to be better understandable
 * [af9cd83](https://github.com/mate-desktop/eom/commit/af9cd83) Make sure GPS Exif tags are named and ordered correctly
 * [7e9dc52](https://github.com/mate-desktop/eom/commit/7e9dc52) EomPropertiesDialog: Make details view expand vertically
-* [baa4e0b](https://github.com/mate-desktop/eom/commit/baa4e0b) EogScrollView: Implement simple two-pass filtering
 * [bbf490b](https://github.com/mate-desktop/eom/commit/bbf490b) EomScrollView: Use better downscaling filter
 * [433c776](https://github.com/mate-desktop/eom/commit/433c776) reload: ensure that pending updates to UI are complete
 * [16f5b2c](https://github.com/mate-desktop/eom/commit/16f5b2c) fix some -Wincompatible-pointer-types warnings
@@ -718,13 +713,12 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [dc04e96](https://github.com/mate-desktop/libmatekbd/commit/dc04e96) rename g_strv_equal to matekbd_strv_equal
 * [c3a62d4](https://github.com/mate-desktop/libmatekbd/commit/c3a62d4) sync with transifex
 * [b11e6ca](https://github.com/mate-desktop/libmatekbd/commit/b11e6ca) pre-bump version
-* [a95a4f4](https://github.com/mate-desktop/libmatekbd/commit/a95a4f4) transifex: add missing optins to config file
+* [a95a4f4](https://github.com/mate-desktop/libmatekbd/commit/a95a4f4) correct scaling on HiDPI displays
 * [81034cf](https://github.com/mate-desktop/libmatekbd/commit/81034cf) transifex: set minimum_perc and type in config file
 * [05c064e](https://github.com/mate-desktop/libmatekbd/commit/05c064e) Use gdk screen resolution for font in keyboard status notification icon, to get correct scaling on HiPDI displays.
 * [3fa26b6](https://github.com/mate-desktop/libmatekbd/commit/3fa26b6) add Travis-CI support
 * [c36d3ec](https://github.com/mate-desktop/libmatekbd/commit/c36d3ec) sync with transifex
 * [8740018](https://github.com/mate-desktop/libmatekbd/commit/8740018) fix po files
-* [7d0f55c](https://github.com/mate-desktop/libmatekbd/commit/7d0f55c) transifex: add missing optins to config file
 * [e6cd5be](https://github.com/mate-desktop/libmatekbd/commit/e6cd5be) transifex: set minimum_perc and type in config file
 * [90dba6e](https://github.com/mate-desktop/libmatekbd/commit/90dba6e) Use gdk screen resolution for font in keyboard status notification icon, to get correct scaling on HiPDI displays.
 
@@ -736,7 +730,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [3c87f89](https://github.com/mate-desktop/libmatemixer/commit/3c87f89) pre-bump version
 * [d6a79fd](https://github.com/mate-desktop/libmatemixer/commit/d6a79fd) require PulseAudio 5.0 and drop some old code
 * [e6a5518](https://github.com/mate-desktop/libmatemixer/commit/e6a5518) transifex: set minimum_perc and type in config file
-* [2fb29e6](https://github.com/mate-desktop/libmatemixer/commit/2fb29e6) add Travic-CI support
+* [2fb29e6](https://github.com/mate-desktop/libmatemixer/commit/2fb29e6) add Travis-CI support
 * [f60062b](https://github.com/mate-desktop/libmatemixer/commit/f60062b) sync with transifex
 * [8afb1b3](https://github.com/mate-desktop/libmatemixer/commit/8afb1b3) transifex: set minimum_perc and type in config file
 
@@ -844,13 +838,13 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 ### mate-applets
 * [cb5ffc11](https://github.com/mate-desktop/mate-applets/commit/cb5ffc11) add Travis-CI support
 * [c6259e49](https://github.com/mate-desktop/mate-applets/commit/c6259e49) Issues reported by translators
-* [3b5b33a0](https://github.com/mate-desktop/mate-applets/commit/3b5b33a0) multiload: ignore priviledged mount points
+* [3b5b33a0](https://github.com/mate-desktop/mate-applets/commit/3b5b33a0) multiload: ignore privileged mount points
 * [3e05a6ff](https://github.com/mate-desktop/mate-applets/commit/3e05a6ff) Silent output when building.
 * [39d005b1](https://github.com/mate-desktop/mate-applets/commit/39d005b1) disable deprecation warnings for distcheck
 * [43a64acc](https://github.com/mate-desktop/mate-applets/commit/43a64acc) Use make functions for HELP_LINGUAS
 * [339fb827](https://github.com/mate-desktop/mate-applets/commit/339fb827) Netspeed Manual: clean up
 * [eea28bc7](https://github.com/mate-desktop/mate-applets/commit/eea28bc7) Manual: Linux and UNIX systems -> Linux and other Unix-like systems
-* [b233ee48](https://github.com/mate-desktop/mate-applets/commit/b233ee48) Use orderedlist to describe the steps to add the applet to a panel
+* [b233ee48](https://github.com/mate-desktop/mate-applets/commit/b233ee48) Use ordered list to describe the steps to add the applet to a panel
 * [f211627e](https://github.com/mate-desktop/mate-applets/commit/f211627e) Manual: Fix Add to Panel dialog title
 * [41b743ee](https://github.com/mate-desktop/mate-applets/commit/41b743ee) Eyes Applet: Fix window title and factory name
 * [e03b4852](https://github.com/mate-desktop/mate-applets/commit/e03b4852) Manual: OK -> Add (Add to Panel dialog)
@@ -879,7 +873,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [2b103078](https://github.com/mate-desktop/mate-applets/commit/2b103078) Enable Travis CI for all branches
 * [a57ce1e1](https://github.com/mate-desktop/mate-applets/commit/a57ce1e1) Initialize Travis CI support
 * [ada156c7](https://github.com/mate-desktop/mate-applets/commit/ada156c7) Issues reported by translators
-* [26b05baf](https://github.com/mate-desktop/mate-applets/commit/26b05baf) multiload: ignore priviledged mount points
 * [7a8e4de6](https://github.com/mate-desktop/mate-applets/commit/7a8e4de6) disable deprecation warnings for distcheck
 * [cefd5e90](https://github.com/mate-desktop/mate-applets/commit/cefd5e90) Silent output when building.
 * [dfad0318](https://github.com/mate-desktop/mate-applets/commit/dfad0318) Add git.mk file
@@ -888,7 +881,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [3caf2ace](https://github.com/mate-desktop/mate-applets/commit/3caf2ace) Use make functions for HELP_LINGUAS
 * [867b495e](https://github.com/mate-desktop/mate-applets/commit/867b495e) Netspeed Manual: clean up
 * [8d94f956](https://github.com/mate-desktop/mate-applets/commit/8d94f956) Manual: Linux and UNIX systems -> Linux and other Unix-like systems
-* [e8317992](https://github.com/mate-desktop/mate-applets/commit/e8317992) Use orderedlist to describe the steps to add the applet to a panel
 * [0412e78e](https://github.com/mate-desktop/mate-applets/commit/0412e78e) Manual: Fix Add to Panel dialog title
 * [df8e737e](https://github.com/mate-desktop/mate-applets/commit/df8e737e) Eyes Applet: Fix window title and factory name
 * [62c6b2bf](https://github.com/mate-desktop/mate-applets/commit/62c6b2bf) Manual: OK -> Add (Add to Panel dialog)
@@ -904,7 +896,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [4e15c188](https://github.com/mate-desktop/mate-applets/commit/4e15c188) accessx-status: fix another leak
 * [6c34117f](https://github.com/mate-desktop/mate-applets/commit/6c34117f) Fix memory leak on accessx-status.
 * [246f078f](https://github.com/mate-desktop/mate-applets/commit/246f078f) sticky-notes: fix a memory leak
-* [ebabac90](https://github.com/mate-desktop/mate-applets/commit/ebabac90) timerapplet: Allow reseting timer when inactive
+* [ebabac90](https://github.com/mate-desktop/mate-applets/commit/ebabac90) timerapplet: Allow resetting timer when inactive
 * [43b16f78](https://github.com/mate-desktop/mate-applets/commit/43b16f78) Weather: apply a widget name to the textview
 * [1cd86c77](https://github.com/mate-desktop/mate-applets/commit/1cd86c77) weather: add cssprovider for widget not for screen
 * [a15746b9](https://github.com/mate-desktop/mate-applets/commit/a15746b9) mateweather-dialog.c: avoid deprecated 'gtk_widget_override_font'
@@ -962,7 +954,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [b85ea87](https://github.com/mate-desktop/mate-calc/commit/b85ea87) math-converter: avoid deprecated 'g_type_class_add_private'
 * [f9e4e7e](https://github.com/mate-desktop/mate-calc/commit/f9e4e7e) math-buttons: avoid deprecated 'g_type_class_add_private'
 * [8c5611d](https://github.com/mate-desktop/mate-calc/commit/8c5611d) math-window: avoid deprecated 'g_type_class_add_private'
-* [9ac7540](https://github.com/mate-desktop/mate-calc/commit/9ac7540) Remove dublicated assignment
+* [9ac7540](https://github.com/mate-desktop/mate-calc/commit/9ac7540) Remove duplicated assignment
 * [49f81fb](https://github.com/mate-desktop/mate-calc/commit/49f81fb) Fix typo
 * [d0a089f](https://github.com/mate-desktop/mate-calc/commit/d0a089f) disable deprecation warnings for distcheck
 * [f13a023](https://github.com/mate-desktop/mate-calc/commit/f13a023) math-display: avoid deprecated 'g_type_class_add_private'
@@ -1025,7 +1017,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [99b0d3e](https://github.com/mate-desktop/mate-control-center/commit/99b0d3e) capplets/mouse: .svg files instead .png in doubleclick artwork
 * [7ebacdb](https://github.com/mate-desktop/mate-control-center/commit/7ebacdb) capplets/mouse: New doubleclick artwork with mate logo
 * [8f4dc20](https://github.com/mate-desktop/mate-control-center/commit/8f4dc20) disable deprecation warnings for distcheck
-* [9482529](https://github.com/mate-desktop/mate-control-center/commit/9482529) default-applications: Fix assertion failture on g_icon_to_string
+* [9482529](https://github.com/mate-desktop/mate-control-center/commit/9482529) default-applications: Fix assertion failure on g_icon_to_string
 * [08d1e4e](https://github.com/mate-desktop/mate-control-center/commit/08d1e4e) default-applications: Add a widget for a default calculator application
 * [a8d6bbb](https://github.com/mate-desktop/mate-control-center/commit/a8d6bbb) default-applications: Use the selected word processor for RTF as well
 * [3a3f389](https://github.com/mate-desktop/mate-control-center/commit/3a3f389) require mate-settings-daemon-1.21.2
@@ -1223,7 +1215,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [1190fa5](https://github.com/mate-desktop/mate-menus/commit/1190fa5) fix transifex bullshit
 * [15c1f94](https://github.com/mate-desktop/mate-menus/commit/15c1f94) sync with transifex
 * [047e1d2](https://github.com/mate-desktop/mate-menus/commit/047e1d2) update version to 1.21.0
-* [6399b84](https://github.com/mate-desktop/mate-menus/commit/6399b84) udpate examples
+* [6399b84](https://github.com/mate-desktop/mate-menus/commit/6399b84) update examples
 * [524d3e4](https://github.com/mate-desktop/mate-menus/commit/524d3e4) backport from gnome-menus
 * [b642c7c](https://github.com/mate-desktop/mate-menus/commit/b642c7c) use G_BEGIN/END_DECLS
 * [9294083](https://github.com/mate-desktop/mate-menus/commit/9294083) require gio-unix, drop python example
@@ -1318,7 +1310,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [0831806](https://github.com/mate-desktop/mate-panel/commit/0831806) Allow for enabling and disabling a backend without affecting the other
 * [c13a54c](https://github.com/mate-desktop/mate-panel/commit/c13a54c) Remove generated Wayland files on make clean
 * [9b8511a](https://github.com/mate-desktop/mate-panel/commit/9b8511a) Replace wayland-scanner private-code option with code
-* [3e73d66](https://github.com/mate-desktop/mate-panel/commit/3e73d66) clock.c: Force negative margin, not passing on clockbutton
+* [3e73d66](https://github.com/mate-desktop/mate-panel/commit/3e73d66) clock.c: Force negative margin, not passing on 'clockbutton'
 * [a0d3068](https://github.com/mate-desktop/mate-panel/commit/a0d3068) Link with Wayland protocols and libraries
 * [b0fb7b5](https://github.com/mate-desktop/mate-panel/commit/b0fb7b5) Include Wayland protocol generating makefile in build system
 * [8dd32e8](https://github.com/mate-desktop/mate-panel/commit/8dd32e8) Add wayland protocol generating makefile
@@ -1378,7 +1370,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [a5df21b](https://github.com/mate-desktop/mate-panel/commit/a5df21b) po: bring back pt_BR to LINGUAS
 * [f8cbb7b](https://github.com/mate-desktop/mate-panel/commit/f8cbb7b) sync with transifex
 * [0c93617](https://github.com/mate-desktop/mate-panel/commit/0c93617) update mate-panel.pot
-* [89e8e62](https://github.com/mate-desktop/mate-panel/commit/89e8e62) update mate-menus requiremnt
+* [89e8e62](https://github.com/mate-desktop/mate-panel/commit/89e8e62) update mate-menus requirement
 * [ac2778a](https://github.com/mate-desktop/mate-panel/commit/ac2778a) panel-menu-button.c: Force use basename for compare
 * [2631577](https://github.com/mate-desktop/mate-panel/commit/2631577) Support new mate-menus api
 * [10b2021](https://github.com/mate-desktop/mate-panel/commit/10b2021) Convert launcher icons to cairo surfaces
@@ -1400,7 +1392,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [cfe0603](https://github.com/mate-desktop/mate-panel/commit/cfe0603) clock: Convert to GResource
 * [c61d371](https://github.com/mate-desktop/mate-panel/commit/c61d371) fish: Convert to GResource
 * [b6372ca](https://github.com/mate-desktop/mate-panel/commit/b6372ca) libpanel-applet: Add panel_applet_setup_menu_from_resource() API
-* [45b2541](https://github.com/mate-desktop/mate-panel/commit/45b2541) Theme: consistant theming for applet drag handles in all themes
+* [45b2541](https://github.com/mate-desktop/mate-panel/commit/45b2541) Theme: consistent theming for applet drag handles in all themes
 * [b060d2a](https://github.com/mate-desktop/mate-panel/commit/b060d2a) Revert "panel-toplevel: Remove pointer boundary check in panel_toplevel_queue_auto_hide()"
 * [8670151](https://github.com/mate-desktop/mate-panel/commit/8670151) panel-context-menu.c: avoid deprecated GtkImageMenuItem
 * [49a3b4a](https://github.com/mate-desktop/mate-panel/commit/49a3b4a) avoid 'gtk_file_chooser_dialog_new' with stock ids
@@ -1485,7 +1477,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [dcb6025](https://github.com/mate-desktop/mate-panel/commit/dcb6025) clock: Convert to GResource
 * [0e8b631](https://github.com/mate-desktop/mate-panel/commit/0e8b631) fish: Convert to GResource
 * [0b9863f](https://github.com/mate-desktop/mate-panel/commit/0b9863f) libpanel-applet: Add panel_applet_setup_menu_from_resource() API
-* [36a36dd](https://github.com/mate-desktop/mate-panel/commit/36a36dd) Theme: consistant theming for applet drag handles in all themes
 * [cbdb7a5](https://github.com/mate-desktop/mate-panel/commit/cbdb7a5) Revert "panel-toplevel: Remove pointer boundary check in panel_toplevel_queue_auto_hide()"
 * [37ae832](https://github.com/mate-desktop/mate-panel/commit/37ae832) Accessibility: white/black applet handles in GNOME high contrast themes
 * [5f38df2](https://github.com/mate-desktop/mate-panel/commit/5f38df2) Theme: show applet handles on non-MATE themes
@@ -1730,7 +1721,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [05d1d3c](https://github.com/mate-desktop/mate-settings-daemon/commit/05d1d3c) xrandr-applet-popup: show icon only if "menus-have-icons" is not turned off
 * [0630644](https://github.com/mate-desktop/mate-settings-daemon/commit/0630644) xrandr-applet-popup: handle Greybird (etc) XFCE themes
 * [2aa4cec](https://github.com/mate-desktop/mate-settings-daemon/commit/2aa4cec) Xrandr-applet-popup: Special case the GNOME themes for black text on monitor labels
-* [7bc681f](https://github.com/mate-desktop/mate-settings-daemon/commit/7bc681f) xrander-applet-popup: remove draw callback
+* [7bc681f](https://github.com/mate-desktop/mate-settings-daemon/commit/7bc681f) xrandr-applet-popup: remove draw callback
 * [0ca8f6d](https://github.com/mate-desktop/mate-settings-daemon/commit/0ca8f6d) xrandr:fix indent
 * [6bc54f1](https://github.com/mate-desktop/mate-settings-daemon/commit/6bc54f1) xrandr-applet-popup: allow themes to override monitor label colors
 * [c6f5693](https://github.com/mate-desktop/mate-settings-daemon/commit/c6f5693) xrandr-applet-popup: add a border to colored monitor labels
@@ -1796,7 +1787,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [7fc129f](https://github.com/mate-desktop/mate-terminal/commit/7fc129f) Add update-authors.pl which helps to update terminal.about
 * [fb2f2e8](https://github.com/mate-desktop/mate-terminal/commit/fb2f2e8) Update authors
 * [7ab20eb](https://github.com/mate-desktop/mate-terminal/commit/7ab20eb) Update Documenters
-* [550b622](https://github.com/mate-desktop/mate-terminal/commit/550b622) drop umtp suport
+* [550b622](https://github.com/mate-desktop/mate-terminal/commit/550b622) drop umtp support
 * [69f4814](https://github.com/mate-desktop/mate-terminal/commit/69f4814) Help - Window title when MATE Terminal is started for first time
 * [d07810d](https://github.com/mate-desktop/mate-terminal/commit/d07810d) Help - alternative text for tabbed window picture
 * [b0c0b20](https://github.com/mate-desktop/mate-terminal/commit/b0c0b20) Help - TERM=xterm-256color
@@ -1939,7 +1930,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [3a9e118](https://github.com/mate-desktop/mate-utils/commit/3a9e118) dictionary: replace deprecated gtk_menu_popup
 * [c0800ef](https://github.com/mate-desktop/mate-utils/commit/c0800ef) dictionary: Replace deprecated GtkFontButton accessors
 * [1a5e0dd](https://github.com/mate-desktop/mate-utils/commit/1a5e0dd) disk-usage-analyzer: replace deprecated gtk_menu_popup
-* [360512a](https://github.com/mate-desktop/mate-utils/commit/360512a) Update Catalan sceenshots of mate-dictionary
+* [360512a](https://github.com/mate-desktop/mate-utils/commit/360512a) Update Catalan screenshots of mate-dictionary
 * [ecb6203](https://github.com/mate-desktop/mate-utils/commit/ecb6203) Add Catalan screenshots
 * [9d98cf2](https://github.com/mate-desktop/mate-utils/commit/9d98cf2) Baobab help: Terminal command updated to 'mate-disk-usage-analyzer'
 * [8f04ddd](https://github.com/mate-desktop/mate-utils/commit/8f04ddd) baobab-chart: avoid deprecated 'gtk_style_context_set_background'
@@ -1958,7 +1949,6 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [8c38ae6](https://github.com/mate-desktop/mate-utils/commit/8c38ae6) Use make functions for HELP_LINGUAS
 * [c4dc6a6](https://github.com/mate-desktop/mate-utils/commit/c4dc6a6) Replace -Dokumentationsprojekt with Documentation Project
 * [443e6fa](https://github.com/mate-desktop/mate-utils/commit/443e6fa) Fix spelling and grammar mistakes
-* [3d0c90d](https://github.com/mate-desktop/mate-utils/commit/3d0c90d) Update Catalan sceenshots of mate-dictionary
 * [78cd274](https://github.com/mate-desktop/mate-utils/commit/78cd274) Add Catalan screenshots
 * [c4875f6](https://github.com/mate-desktop/mate-utils/commit/c4875f6) sync with transifex
 * [9a7733d](https://github.com/mate-desktop/mate-utils/commit/9a7733d) transifex: set minimum_perc and type in config file
@@ -2021,7 +2011,7 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [18eb46c](https://github.com/mate-desktop/pluma/commit/18eb46c) fix a few introspection and doc warnings
 * [239f0d3](https://github.com/mate-desktop/pluma/commit/239f0d3) Fix search backwards with regex
 * [813e1ff](https://github.com/mate-desktop/pluma/commit/813e1ff) pluma-document: fix possible memory leak
-* [4d26225](https://github.com/mate-desktop/pluma/commit/4d26225) pluma-view: Fix: Don't loss the PRIMARY clipboard
+* [4d26225](https://github.com/mate-desktop/pluma/commit/4d26225) pluma-view: Fix: Don't lose the PRIMARY clipboard
 * [4a74dc6](https://github.com/mate-desktop/pluma/commit/4a74dc6) pluma-document: Fix: don't crash using files with 'bom'
 * [bc64980](https://github.com/mate-desktop/pluma/commit/bc64980) make the 'close confirmation dialog' bigger with multiple files
 * [b52da1a](https://github.com/mate-desktop/pluma/commit/b52da1a) pluma-view: Fix: unexpectedly switch between tabs
@@ -2029,13 +2019,13 @@ MATE Desktop 1.22 的組件可通過以下鏈接下載：
 * [957fc58](https://github.com/mate-desktop/pluma/commit/957fc58) pluma-sort-plugin: avoid extra empty line
 * [ca00615](https://github.com/mate-desktop/pluma/commit/ca00615) pluma-view: Fix bold and italic fonts in menus
 * [eb7a39b](https://github.com/mate-desktop/pluma/commit/eb7a39b) spell plugin: Autocheck spelling with [control + F7]
-* [03238f8](https://github.com/mate-desktop/pluma/commit/03238f8) add the option to hide the frist tab if there is only one tab
+* [03238f8](https://github.com/mate-desktop/pluma/commit/03238f8) add the option to hide the first tab if there is only one tab
 * [323d3a3](https://github.com/mate-desktop/pluma/commit/323d3a3) notebook: drop unused 'pluma_notebook_set_always_show_tabs'
 * [06d6e5d](https://github.com/mate-desktop/pluma/commit/06d6e5d) pluma-view: Fix possible memory leak
 * [d3757df](https://github.com/mate-desktop/pluma/commit/d3757df) pluma-view: use static variables for cssprovider and settings
 * [b2ca8c4](https://github.com/mate-desktop/pluma/commit/b2ca8c4) pluma-view: sync the font in context-menu with gsettings key
 * [f952be3](https://github.com/mate-desktop/pluma/commit/f952be3) pluma-window: make sure some resources are freed
-* [98edfd3](https://github.com/mate-desktop/pluma/commit/98edfd3) add the abbility to switch tabs using [ctrl+tab] and [ctrl+shift+tab]
+* [98edfd3](https://github.com/mate-desktop/pluma/commit/98edfd3) add the ability to switch tabs using [ctrl+tab] and [ctrl+shift+tab]
 * [9fa3649](https://github.com/mate-desktop/pluma/commit/9fa3649) pluma-view: Fix font in context menu
 * [e451bfe](https://github.com/mate-desktop/pluma/commit/e451bfe) pluma-view: pluma_override_font: add the provider only one time
 * [8f3b1d6](https://github.com/mate-desktop/pluma/commit/8f3b1d6) pluma-view: Fix: Bold and Italic fonts don't work
