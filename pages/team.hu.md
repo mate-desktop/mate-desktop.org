@@ -103,7 +103,7 @@ A MATE teljesen vagy részlegesen 140 nyelvre van lefordítva.
 Szeretnénk megemlíteni a következő emberek erőfeszítéseit, akik segítettek
 a MATE beindításában a kezdeti napokban.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 MATE asztali környezet alapító, fejlesztés, Arch Linux csomagolás.
 

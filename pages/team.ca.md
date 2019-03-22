@@ -57,7 +57,7 @@ MATE en els primers dies.
 
 Fundador de l'escriptori MATE, desenvolupament, empaquetatge per a Debian i Ubuntu.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 Fundador de l'escriptori MATE, desenvolupament, empaquetatge per a Arch Linux.
 

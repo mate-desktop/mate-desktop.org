@@ -57,7 +57,7 @@ hanno aiutato ad avviare MATE nei primi giorni di vita.
 
 Fondatore Desktop MATE, Sviluppo, pacchettizzazione per Debian e Ubuntu.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 Fondatore Desktop MATE, Sviluppo, pacchettizzazione per Arch Linux.
 
