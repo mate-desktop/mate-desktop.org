@@ -57,7 +57,7 @@ helped bootstrap MATE in the early days.
 
 MATE Desktop founder, Development, packaging for Debian and Ubuntu.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 MATE Desktop founder, development, packaging for Arch Linux.
 

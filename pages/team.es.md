@@ -57,7 +57,7 @@ que ayudaron en la formación de MATE en sus inicios.
 
 Fundador del escritorio MATE, desarrollador, empaquetador para Debian y Ubuntu.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 Fundador del escritorio MATE, desarrollador, empaquetador para Arch Linux.
 

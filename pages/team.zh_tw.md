@@ -56,7 +56,7 @@ Arch Linux/Debian/Ubuntu 打包者、GSoC 導師、社群管理，基礎設施�
 
 MATE 桌面創始人、開發者、Debian 及 Ubuntu 打包者。
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 MATE 桌面創始人、開發者、Arch Linux 打包者。
 

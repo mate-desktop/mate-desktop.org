@@ -57,7 +57,7 @@
 
 Ιδρυτής του γραφικού περιβάλοντος MATE, προγραμματιστής για Linux Mint.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 Ιδρυτής του γραφικού περιβάλοντος MATE, προγραμματιστής για το Arch Linux.
 

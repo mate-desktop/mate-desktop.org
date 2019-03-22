@@ -55,7 +55,7 @@ Ubuntu-MATE 和 Debian 打包者，GSoC 导师，社区管理，基础设施。
 
 MATE 桌面创始人，开发者，Debian 及 Ubuntu 打包者。
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 MATE 桌面创始人，开发者，Arch Linux 打包者。
 

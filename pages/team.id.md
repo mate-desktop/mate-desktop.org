@@ -58,7 +58,7 @@ pengembangan MATE di awal.
 
 Pemrakarsa MATE Desktop, Pengembangan, pemaket untuk Debian dan Ubuntu.
 
-### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos]((https://github.com/perberos))
+### ![](/assets/img/flags/32/Argentina.png) Perberos ([perberos](https://github.com/perberos))
 
 Pemrakarsa MATE Desktop, pengembangan, pemaket untuk Arch Linux.
 
