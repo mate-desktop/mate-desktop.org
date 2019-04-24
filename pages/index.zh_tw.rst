@@ -76,6 +76,7 @@ MATE 在以下的 Linux 散佈版的 *非官方* 套件庫中提供：
 * `FreeBSD <http://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
+* `OS108 <https://OS108.org/>`_
 
 您也可以 `在 DistroWatch.com 上查詢所有支援 MATE 的散佈版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_ 。
 

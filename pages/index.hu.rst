@@ -73,6 +73,7 @@ Vagy inkább a UNIX-ot kedveli?
 * `FreeBSD <http://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `PC-BSD <http://www.pcbsd.org>`_
+* `OS108 <https://OS108.org/>`_
 
 Valamint a `DistroWatch.com-on is lekérdezheti azon disztribúciókat, melyek támogatják a MATE asztali környezetet <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
