@@ -74,6 +74,7 @@ Mungkin Anda memilih UNIX?
 * `FreeBSD <http://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
+* `OS108 <https://OS108.org/>`_
 
 Anda juga bisa `melihat DistroWatch.com untuk semua distribusi yang mendukung MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
