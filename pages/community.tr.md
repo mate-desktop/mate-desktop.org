@@ -15,7 +15,7 @@ kaynaklar MATE hakkında daha fazla bilgi ve yardım almanıza yardımcı olacak
 Vikimizde yararlı çok malzeme bulabilirsiniz, ama bununla kalmayıp vikiyi
 geliştirmenizi de öneririz.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://mate-desktop.github.io/mate-wiki/>
 
 ## Forumlar
 
@@ -43,7 +43,7 @@ Sosyal birisiniz, değil mi?
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-Birden çok İRC kanalımız vardır. Tüm ayrıntıları [IRC wiki sayfamızda](http://wiki.mate-desktop.org/irc)
+Birden çok İRC kanalımız vardır. Tüm ayrıntıları [IRC wiki sayfamızda](https://mate-desktop.github.io/mate-wiki/#!pages/irc.md)
 bulabilirsiniz.
 
 ## Planet

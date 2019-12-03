@@ -38,9 +38,9 @@
  Άλλοι χρήσιμοι σύνδεσμοι:
 
   * [Πανεπιστήμιο MATE](/blog/2013-03-12-mate-university/)
-  * [Ανάπτυξη του MATE](http://wiki.mate-desktop.org/dev-doc)
-  * [Πορεία λογισμικού MATE](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [Ανάπτυξη του MATE](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [Πορεία λογισμικού MATE](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
   
 Μην διστάσετε να συνεισφέρετε, διασκεδάστε βελτιώνοντας το MATE!

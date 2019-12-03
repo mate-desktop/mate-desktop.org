@@ -8,4 +8,4 @@
 -->
 
 The MATE community has documented how to install MATE on many distributions,
-please follow the [install guidelines](http://wiki.mate-desktop.org/download).  
+please follow the [install guidelines](https://mate-desktop.github.io/mate-wiki/#!pages/download.md).  

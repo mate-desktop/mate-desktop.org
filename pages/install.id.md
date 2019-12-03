@@ -8,7 +8,7 @@
 -->
 
 Komunitas MATE telah mendokumentasikan bagaimana menginstall MATE pada banyak distribusi,
-harap melihat pada [panduan installasi](http://wiki.mate-desktop.org/download).  
+harap melihat pada [panduan installasi](https://mate-desktop.github.io/mate-wiki/#!pages/download.md).  
 
 Jika Anda merupakan pemaket distribusi yang mencari tarbal, maka silahkan lihat halaman
 [Pengembangan](/development/) kami.

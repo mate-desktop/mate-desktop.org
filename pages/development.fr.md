@@ -18,9 +18,9 @@ Vous pouvez aussi parcourir le code avec cgit ici :
  Autres liens utiles :
 
   * [Université MATE](/blog/2013-03-12-mate-university/)
-  * [Développement de MATE](http://wiki.mate-desktop.org/dev-doc)
-  * [Feuille de route de MATE](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [Développement de MATE](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [Feuille de route de MATE](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
   
 N'hésitez pas à contribuer et amusez-vous bien en améliorant MATE !

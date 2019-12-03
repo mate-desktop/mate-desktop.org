@@ -12,7 +12,7 @@ Arbeitsumgebung, die sich der traditionell verwendeten Metaphern bedient.
 
 MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
 der traditionelle Umgang mit dem Schreibtisch erhalten bleibt. Unter `Roadmap [en]
-<http://wiki.mate-desktop.org/roadmap>`_ Das `MATE-Manifest [en]
+<https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md>`_ Das `MATE-Manifest [en]
 <http://wiki.mate-desktop.org/board:manifesto>`_ erläutert einige der
 Prinzipien, die das Projekt leiten.
 
@@ -84,7 +84,7 @@ welche die Unterstützung für MATE bieten
 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 Die MATE-Gemeinschafft hat in der `Installationsanleitung [en]
-<http://wiki.mate-desktop.org/download>`_ dokumentiert, wie MATE auf diversen
+<https://mate-desktop.github.io/mate-wiki/#!pages/download.md>`_ dokumentiert, wie MATE auf diversen
 Distributionen installiert wird.
 
 -----------

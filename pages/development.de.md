@@ -18,10 +18,10 @@ Sie können auch mit cgit im Quellcode browsen:
  Weitere nützliche Links:
 
   * [MATE-Universität](/blog/2013-03-12-mate-university/)
-  * [MATE-Entwicklung](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE-Roadmap](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [MATE-Entwicklung](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [MATE-Roadmap](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
   
 Zögern Sie nicht, zum Projekt beizutragen.
 Wir wünschen Ihnen bei der weiteren Verbesserung von MATE viel Freude.

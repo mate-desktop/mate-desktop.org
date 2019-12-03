@@ -12,7 +12,7 @@ sistem operasi Linux dan Unix-like.
 
 MATE menggunakan model pengembangan yang aktif untuk menambahkan dukungan terhadap teknologi baru sekaligus
 mempertahankan pengalaman desktop tradisional. Silahkan melihat `Rencana Pengembangan 
-<http://wiki.mate-desktop.org/roadmap>`_ 
+<https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md>`_ 
 
 `Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>`_ menggambarkan beberapa prinsip yang mengarahkan proyek ini.
 
@@ -78,7 +78,7 @@ Mungkin Anda memilih UNIX?
 Anda juga bisa `melihat DistroWatch.com untuk semua distribusi yang mendukung MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 Komunitas MATE telah mendokumentasikan bagaimana cara menginstall MATE pada banyak distribusi pada
-`panduan installasi <http://wiki.mate-desktop.org/download>`_.
+`panduan installasi <https://mate-desktop.github.io/mate-wiki/#!pages/download.md>`_.
 
 --------
 Aplikasi

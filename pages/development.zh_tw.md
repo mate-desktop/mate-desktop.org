@@ -18,9 +18,9 @@ MATE 的 git 倉庫托管於 GitHub 上。
  其他有用的連結：
 
   * [MATE 大學](/blog/2013-03-12-mate-university/)
-  * [MATE 開發](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE 路線圖](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [MATE 開發](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [MATE 路線圖](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
   
 不要猶豫，來貢獻並盡情享受改善 MATE 的樂趣吧！

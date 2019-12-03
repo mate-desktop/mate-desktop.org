@@ -33,9 +33,9 @@ Anda juga bisa melihat kode dengan cgit:
 Link lainnya:
 
   * [MATE Universitas](/blog/2013-03-12-mate-university/)
-  * [Pengembangan MATE](http://wiki.mate-desktop.org/dev-doc)
-  * [Rencana Pengembangan MATE](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [Pengembangan MATE](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [Rencana Pengembangan MATE](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
   
 Jangan ragu untuk berkontribusi dan meningkatkan MATE!

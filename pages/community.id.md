@@ -16,7 +16,7 @@ Anda mendapatkan dukungan dari komunitas.
 Anda bisa menemukan banyak materi yang berguna pada wiki, tetapi kami juga mendukung Anda untuk
 membantu mengembangkannya.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://mate-desktop.github.io/mate-wiki/>
 
 ## Forum
 
@@ -45,7 +45,7 @@ Silahkan bergabung di IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Terdapat beberapa channel IRC yang tersedia. Anda bisa menemukan semua detailnya pada 
-[halaman wiki IRC](http://wiki.mate-desktop.org/irc).
+[halaman wiki IRC](https://mate-desktop.github.io/mate-wiki/#!pages/irc.md).
 
 ## Planet
 

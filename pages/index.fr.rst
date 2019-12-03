@@ -12,7 +12,7 @@ d'autres systèmes d'exploitation similaires à Unix.
 
 MATE connaît un développement soutenu pour ajouter le support des technologies
 nouvelles tout en préservant l'expérience d'un bureau traditionnel.
-Voyez `la feuille de route <http://wiki.mate-desktop.org/roadmap>`_ 
+Voyez `la feuille de route <https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md>`_ 
 
 Le `manifeste MATE <http://wiki.mate-desktop.org/board:manifesto>`_
 souligne certains des principes qui guident le projet.
@@ -80,7 +80,7 @@ Peut-être préférez-vous UNIX?
 Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La communauté MATE a documenté la façon d'installer mATE sur de nombreuses
-distributions dans les `notes d'installation <http://wiki.mate-desktop.org/download>`_.
+distributions dans les `notes d'installation <https://mate-desktop.github.io/mate-wiki/#!pages/download.md>`_.
 
 ------------
 Applications

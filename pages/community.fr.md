@@ -16,7 +16,7 @@ davantage sur MATE.
 Vous trouverez beaucoup d'informations utiles sur notre wiki, mais nous vous
 encourageons également à l'améliorer.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://mate-desktop.github.io/mate-wiki/>
 
 ## Forums
 
@@ -46,7 +46,7 @@ rejoindre sur IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Plusieurs canaux IRC sont disponibles. Vous pouvez trouver tous les détails
-sur [notre page IRC sur le wiki](http://wiki.mate-desktop.org/irc).
+sur [notre page IRC sur le wiki](https://mate-desktop.github.io/mate-wiki/#!pages/irc.md).
 
 ## Planète
 

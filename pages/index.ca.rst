@@ -11,7 +11,7 @@ d'escriptori intuïtiu i atractiu minjançant metàfores tradicionals per a Linu
 altres sistemes operatius similars a Unix.
 
 MATE està en desenvolupament actiu per afegir suport per a les noves tecnologies
-mentre es conserva una experiència d'escriptori tradicional. Consulteu el `full de ruta <http://wiki.mate-desktop.org/roadmap>`_
+mentre es conserva una experiència d'escriptori tradicional. Consulteu el `full de ruta <https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md>`_
 El `manifest de MATE <http://wiki.mate-desktop.org/board:manifesto>`_ descriu algunes de les directrius que guien el projecte.
 
 .. image:: /screens/screenshot.jpg
@@ -78,7 +78,7 @@ Potser preferiu UNIX?
 Tambe podeu `consultar a DistroWatch.com totes les distribucions que suporten MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La comunitat de MATE ha documentat com instal·lar MATE en moltes distribucions a les
-`directrius d'instal·lació <http://wiki.mate-desktop.org/download>`_.
+`directrius d'instal·lació <https://mate-desktop.github.io/mate-wiki/#!pages/download.md>`_.
 
 -----------
 Aplicacions

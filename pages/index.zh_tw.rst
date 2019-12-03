@@ -12,7 +12,7 @@ MATE 桌面環境是 GNOME 2 的延續。它提供了一個
 類 Unix 作業系統的傳統隱喻。
 
 MATE 正在積極開發中，在保留傳統桌面體驗的同時
-加入對新技術的支援。見 `路線圖 <http://wiki.mate-desktop.org/roadmap>`_ 
+加入對新技術的支援。見 `路線圖 <https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md>`_ 
 
 `MATE 宣言 <http://wiki.mate-desktop.org/board:manifesto>`_
 列出了一些指引專案前進的原則。
@@ -80,7 +80,7 @@ MATE 在以下的 Linux 散佈版的 *非官方* 套件庫中提供：
 您也可以 `在 DistroWatch.com 上查詢所有支援 MATE 的散佈版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_ 。
 
 MATE 社群已經寫好了關於如何在許多散佈版上安裝 MATE 的文件，可在
-`安裝指南 <http://wiki.mate-desktop.org/download>`_ 內看到。
+`安裝指南 <https://mate-desktop.github.io/mate-wiki/#!pages/download.md>`_ 內看到。
 
 ------------
 應用程式

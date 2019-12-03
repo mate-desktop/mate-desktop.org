@@ -18,9 +18,9 @@ MATE 的 Git 源代码仓库托管在 GitHub 上。
 其他有用的链接：
 
   * [MATE 大学](/blog/2013-03-12-mate-university/)
-  * [MATE 开发](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE 指南](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [MATE 开发](https://mate-desktop.github.io/mate-wiki/#!pages/dev-doc.md)
+  * [MATE 指南](https://mate-desktop.github.io/mate-wiki/#!pages/roadmap.md)
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/contribute.md>
+  * <https://mate-desktop.github.io/mate-wiki/#!pages/translation.md>
 
 不要犹豫，和我们一起快乐地改进 MATE 吧！

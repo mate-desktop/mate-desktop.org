@@ -8,4 +8,4 @@
 -->
 
 MATE topluluğu birçok dağıtım için MATE'nin nasıl kurulacağını belgelemiştir,
-lütfen [kurulum yönergelerini](http://wiki.mate-desktop.org/download) okuyunuz.
+lütfen [kurulum yönergelerini](https://mate-desktop.github.io/mate-wiki/#!pages/download.md) okuyunuz.

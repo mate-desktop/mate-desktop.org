@@ -15,7 +15,7 @@ a obtenir suport de la comunitat.
 
 Trobareu molts materials útils a la nostra wiki, però també us animem a millorar-la.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://mate-desktop.github.io/mate-wiki/>
 
 ## Fòrums
 
@@ -46,7 +46,7 @@ l'IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Hi ha diversos canals d'IRC disponibles. Podeu trobar tots els detalls a la nostra
-[pàgina wiki IRC](http://wiki.mate-desktop.org/irc).
+[pàgina wiki IRC](https://mate-desktop.github.io/mate-wiki/#!pages/irc.md).
 
 ## Planeta
 
