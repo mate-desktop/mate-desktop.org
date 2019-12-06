@@ -12,8 +12,8 @@ Arbeitsumgebung, die sich der traditionell verwendeten Metaphern bedient.
 
 MATE wird aktiv weiterentwickelt, um neue Technologien zu unterstützen, während
 der traditionelle Umgang mit dem Schreibtisch erhalten bleibt. Unter `Roadmap [en]
-<http://wiki.mate-desktop.org/roadmap>`_ Das `MATE-Manifest [en]
-<http://wiki.mate-desktop.org/board:manifesto>`_ erläutert einige der
+<https://wiki.mate-desktop.org/roadmap>`_ Das `MATE-Manifest [en]
+<https://wiki.mate-desktop.org/board:manifesto>`_ erläutert einige der
 Prinzipien, die das Projekt leiten.
 
 .. image:: /screens/screenshot.jpg
@@ -31,7 +31,7 @@ Neuigkeiten
 
 Die Blog-Einträge sind darüber hinaus nach `Stichwörtern <tags/>`_ indiziert und
 `nach dem Datum archiviert <archive/>`_.  Außerdem befinden sich unter `Planet
-MATE <http://planet.mate-desktop.org>`_ englischsprachige Blog-Einträge der
+MATE <https://planet.mate-desktop.org>`_ englischsprachige Blog-Einträge der
 weiteren MATE-Community.
 
 ----------------------------------------
@@ -43,28 +43,27 @@ erhältlich:
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix und GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 Weiterhin ist MATE in den *inoffiziellen* Paketquellen der folgenden
 Linux-Distributionen erhältlich, wobei eine Aufnahme in die offiziellen
@@ -74,18 +73,18 @@ Paketquellen geplant ist:
 
 Eventuell bevorzugen Sie UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
 Sie können sich auch auf `DistroWatch.com über alle Distributionen informieren,
 welche die Unterstützung für MATE bieten
-<http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+<https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 Die MATE-Gemeinschafft hat in der `Installationsanleitung [en]
-<http://wiki.mate-desktop.org/download>`_ dokumentiert, wie MATE auf diversen
+<https://wiki.mate-desktop.org/download>`_ dokumentiert, wie MATE auf diversen
 Distributionen installiert wird.
 
 -----------
@@ -177,7 +176,7 @@ Woher kommt der Name?
 ---------------------
 
 Der Name *»MATE«*, ausgesprochen *Ma-Tee*, stammt von dem `Mate-Strauch
-<http://de.wikipedia.org/wiki/Mate-Strauch>`_, einer Pflanzenart aus der Gattung
+<https://de.wikipedia.org/wiki/Mate-Strauch>`_, einer Pflanzenart aus der Gattung
 der Stechpalmen, die im subtropischen Südamerika heimisch ist.
 
 Die Blätter enthalten Koffein. Sie dienen zur Herstellung von Aufgüssen und

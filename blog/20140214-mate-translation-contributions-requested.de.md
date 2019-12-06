@@ -1,5 +1,4 @@
 <!-- 
-.. link: http://ml.mate-desktop.org/pipermail/mate-i18n/2014-February/000021.html
 .. description: 
 .. tags: News,i18n
 .. date: 2014/02/14 12:51:31
@@ -28,6 +27,3 @@ so dass Sie anfangen können, zu MATE beizusteuern. Wir würden es wirklich sch�
 Es gibt momentan sechs Sprachen mit einer Abdeckung von 100%. Wir sind gespannt,
 wie viele weitere Sprachen eine vollständige Abdeckung vor dem Release von MATE 1.8 erreichen. 
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2934" class="alert-link">Kommentare</a>
-</div>

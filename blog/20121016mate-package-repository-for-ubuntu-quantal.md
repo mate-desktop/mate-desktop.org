@@ -8,8 +8,8 @@
 .. author: Steve Zesch
 -->
 
-An [Ubuntu](http://www.ubuntu.org) package repository for Ubuntu 12.10 Quantal Quetzal
-is now available for our 1.4 release. As usual, follow [these instructions](http://wiki.mate-desktop.org/download/).
+An [Ubuntu](https://www.ubuntu.com) package repository for Ubuntu 12.10 Quantal Quetzal
+is now available for our 1.4 release. As usual, follow [these instructions](https://wiki.mate-desktop.org/download/).
 
 If you're upgrading from an older release please make sure that you remove the old
 repositories and add the new ones, otherwise you will encounter problems.

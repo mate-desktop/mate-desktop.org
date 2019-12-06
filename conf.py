@@ -24,7 +24,7 @@ BLOG_TITLE = "MATE"
 SITE_URL = "https://mate-desktop.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://mate-desktop.com"
+# BASE_URL = "https://mate-desktop.com"
 BLOG_EMAIL = "webmaster@mate-desktop.org"
 BLOG_DESCRIPTION = {"en": "The traditional Desktop Environment", "ca": "L'entorn d'escriptori tradicional", "es": "El entorno de escritorio tradicional"}
 
@@ -393,7 +393,7 @@ TIMEZONE = "UTC"
 # FORCE_ISO8601 = False
 
 # Date format used to display post dates. (translatable)
-# Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
+# Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time-1/date-time-patterns
 # You can also use 'full', 'long', 'medium', or 'short'
 # DATE_FORMAT = 'YYYY-MM-dd HH:mm'
 
@@ -1093,7 +1093,7 @@ LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 LICENSE = """
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
 <img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
 src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>"""
@@ -1159,7 +1159,7 @@ COMMENT_SYSTEM_ID = ""
 # INDEX_FILE = "index.html"
 
 # If a link ends in /index.html,  drop the index.html part.
-# http://mysite/foo/bar/index.html => http://mysite/foo/bar/
+# https://mysite/foo/bar/index.html => https://mysite/foo/bar/
 # (Uses the INDEX_FILE setting, so if that is, say, default.html,
 # it will instead /foo/default.html => /foo)
 STRIP_INDEXES = True
@@ -1189,7 +1189,7 @@ DEPLOY_FUTURE = False
 DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
-# Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
+# Specify an iCal Recurrence Rule: https://www.kanzaki.com/docs/ical/rrule.html
 # SCHEDULE_RULE = ''
 # If True, use the scheduling rule to all posts (not pages!) by default
 # SCHEDULE_ALL = False

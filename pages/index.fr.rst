@@ -12,9 +12,9 @@ d'autres systèmes d'exploitation similaires à Unix.
 
 MATE connaît un développement soutenu pour ajouter le support des technologies
 nouvelles tout en préservant l'expérience d'un bureau traditionnel.
-Voyez `la feuille de route <http://wiki.mate-desktop.org/roadmap>`_ 
+Voyez `la feuille de route <https://wiki.mate-desktop.org/roadmap>`_ 
 
-Le `manifeste MATE <http://wiki.mate-desktop.org/board:manifesto>`_
+Le `manifeste MATE <https://wiki.mate-desktop.org/board:manifesto>`_
 souligne certains des principes qui guident le projet.
 
 .. image:: /screens/screenshot.jpg
@@ -31,7 +31,7 @@ Nouveautés
     :stop: 5
 
 Les billets de blog sont aussi indexés par des `étiquettes <tags/>`_ et `archivés par date <archive/>`_.
-Vous pouvez également jeter un coup d'œil à la `Planète MATE <http://planet.mate-desktop.org>`_
+Vous pouvez également jeter un coup d'œil à la `Planète MATE <https://planet.mate-desktop.org>`_
 pour savoir ce que la communauté élargie de MATE publie comme billets.
 
 ---------------------------------------
@@ -42,28 +42,27 @@ MATE est disponible via les dépôts **officiels** des distributions GNU/Linux s
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix et GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE est disponible via des dépôts *non officiels* pour les distributions GNU/Linux suivantes,
 mais l'inclusion dans leurs dépôts officiels est prévue :
@@ -72,16 +71,16 @@ mais l'inclusion dans leurs dépôts officiels est prévue :
 
 Peut-être préférez-vous UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La communauté MATE a documenté la façon d'installer mATE sur de nombreuses
-distributions dans les `notes d'installation <http://wiki.mate-desktop.org/download>`_.
+distributions dans les `notes d'installation <https://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applications

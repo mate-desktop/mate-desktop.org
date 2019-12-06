@@ -14,12 +14,12 @@ Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
 is here to provide that same desktop to you `:)`
 
 Perberos initially forked Gnome 2 and called the project MATE. Users and
-developers have successfully run MATE on [Arch Linux](http://www.archlinux.org)
+developers have successfully run MATE on [Arch Linux](https://www.archlinux.org)
 and due to popular demand Perberos made it easier for MATE to compile under
-[Debian](http://www.debian.org).
+[Debian](https://www.debian.org).
 
 [Stefano Karapetsas](https://github.com/stefano-k) and [Clement Lefebvre](https://github.com/clefebvre)
-then joined the project and packaged it for Debian and [Linux Mint](http://www.linuxmint.com).
+then joined the project and packaged it for Debian and [Linux Mint](https://www.linuxmint.com).
 The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.
 
 Our top priority is to improve MATE and for it to be on par, in terms of features

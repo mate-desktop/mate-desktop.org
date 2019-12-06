@@ -10,14 +10,14 @@
 
 ![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png)
 
-On the way to getting MATE officially available on [openSUSE](http://www.opensuse.org),
+On the way to getting MATE officially available on [openSUSE](https://www.opensuse.org),
 the community repositories have to be changed in YaST. For that,
 go to _YaST -> Software -> Software Repositories_ and remove the _X11:MATE:Factory_
 repo and next, click on the following links in function of your openSUSE
 version:
 
-  * <http://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/openSUSE_12.2/X11:MATE:STABLE:1.6.repo> for OpenSUSE 12.2
-  * <http://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/openSUSE_12.3/X11:MATE:STABLE:1.6.repo> for OpenSUSE 12.3
-  * <http://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/openSUSE_Tumbleweed/X11:MATE:STABLE:1.6.repo> for OpenSUSE Tumbleweed
+  * <https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/> for OpenSUSE 12.2
+  * <https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/> for OpenSUSE 12.3
+  * <https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/> for OpenSUSE Tumbleweed
 
 Thank you!

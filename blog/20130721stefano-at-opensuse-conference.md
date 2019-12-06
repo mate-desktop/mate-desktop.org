@@ -1,5 +1,5 @@
 <!--
-.. link: http://www.youtube.com/watch?v=H-2WSt5cbR4
+.. link: https://www.youtube.com/watch?v=H-2WSt5cbR4
 .. description:
 .. tags: News,openSUSE
 .. date: 2013-07-21 14:46:13
@@ -9,7 +9,7 @@
 -->
 
 On July 20th 2013 [Stefano Karapetsas](https://github.com/stefano-k) presented his
-talk on MATE at [openSUSE](http://www.opensuse.org) Conference!
+talk on MATE at [openSUSE](https://www.opensuse.org) Conference!
 
 The talk introduces MATE to those who haven't heard of it, explains the reasons for
 creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,

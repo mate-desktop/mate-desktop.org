@@ -39,7 +39,7 @@
 
 MATE Desktop 1.22 的组件可通过以下链接下载：
 
-  * <http://pub.mate-desktop.org/releases/1.22/>
+  * <https://pub.mate-desktop.org/releases/1.22/>
 
 ## 变更日志
 

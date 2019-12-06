@@ -15,7 +15,7 @@ a obtenir suport de la comunitat.
 
 Trobareu molts materials útils a la nostra wiki, però també us animem a millorar-la.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## Fòrums
 
@@ -24,9 +24,10 @@ fòrums de la comunitat.
 
   * [Fòrums d'Arch Linux](https://bbs.archlinux.org/)
   * [Fòrums d'usuaris de Debian](http://forums.debian.net/)
-  * [Fòrums de Fedora](http://fedoraforum.org/)
+  * [Fòrums de Fedora](https://fedoraforum.org/)
+  * [Fòrums de Fedora](https://ask.fedoraproject.org/)
   * [Fòrums de Gentoo](https://forums.gentoo.org/)
-  * [Fòrums de Linux Mint](http://forums.linuxmint.com/)
+  * [Fòrums de Linux Mint](https://forums.linuxmint.com/)
   * [Fòrums d'Ubuntu MATE](https://ubuntu-mate.community)
   * [Subreddit de l'escriptori MATE](https://www.reddit.com/r/MATEDesktop)
 
@@ -34,8 +35,6 @@ fòrums de la comunitat.
 
 Utilitzeu les xarxes socials?
 
-  * [Comunitat de MATE a Google+](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [Pàgina de MATE a Google+](https://plus.google.com/105251070079435964338/)
   * [Perfil de MATE a Twitter](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -46,12 +45,12 @@ l'IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Hi ha diversos canals d'IRC disponibles. Podeu trobar tots els detalls a la nostra
-[pàgina wiki IRC](http://wiki.mate-desktop.org/irc).
+[pàgina wiki IRC](https://wiki.mate-desktop.org/irc).
 
 ## Planeta
 
 Les entrades dels blogs dels membres de la comunitat de MATE s'afegeixen al nostre
 planeta.
 
-  * [Planeta de MATE](http://planet.mate-desktop.org)
+  * [Planeta de MATE](https://planet.mate-desktop.org)
 

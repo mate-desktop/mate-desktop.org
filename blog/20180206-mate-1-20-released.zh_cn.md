@@ -52,7 +52,7 @@ MATE Desktop 1.20 包含如下主要更改：
 
 MATE Desktop 的大量组件现可通过如下链接下载：
 
-  * <http://pub.mate-desktop.org/releases/1.20/>
+  * <https://pub.mate-desktop.org/releases/1.20/>
 
 ## 变更日志
 

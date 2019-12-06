@@ -10,8 +10,8 @@ The MATE Desktop Environment is the continuation of GNOME 2. It provides an intu
 environment using traditional metaphors for Linux and other Unix-like operating systems.
 
 MATE is under active development to add support for new technologies while preserving a traditional desktop 
-experience. See the `Roadmap <http://wiki.mate-desktop.org/roadmap>`_. The `MATE Manifesto 
-<http://wiki.mate-desktop.org/board:manifesto>`_ outlines some of the principles that guide the project.
+experience. See the `Roadmap <https://wiki.mate-desktop.org/roadmap>`_. The `MATE Manifesto 
+<https://wiki.mate-desktop.org/board:manifesto>`_ outlines some of the principles that guide the project.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -27,7 +27,7 @@ News
     :stop: 5
 
 Blog posts are also indexed by `tag <tags/>`_ and `archived by date <archive/>`_.
-You might also want to take a look at `Planet MATE <http://planet.mate-desktop.org>`_
+You might also want to take a look at `Planet MATE <https://planet.mate-desktop.org>`_
 to see what the wider MATE community are blogging about.
 
 ---------------------------------
@@ -39,29 +39,28 @@ MATE is available via the **official** repositories for the following Linux dist
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Hamara Linux <http://hamaralinux.org/>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Hamara Linux <https://hamaralinux.org/>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE is available via *unofficial* repositories for the following Linux distributions:
 
@@ -69,16 +68,16 @@ MATE is available via *unofficial* repositories for the following Linux distribu
 
 Maybe you prefer UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-You can also `query DistroWatch.com for all the distributions that support MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+You can also `query DistroWatch.com for all the distributions that support MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 The MATE community has documented how to install MATE on many distributions in the
-`install guidelines <http://wiki.mate-desktop.org/download>`_.
+`install guidelines <https://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applications
@@ -159,7 +158,7 @@ Where does the name come from?
 ------------------------------
 
 The name *"MATE"*, pronounced *Ma-Tay*, comes from `yerba maté
-<http://en.wikipedia.org/wiki/Yerba_mate>`_, a species of holly native to
+<https://en.wikipedia.org/wiki/Yerba_mate>`_, a species of holly native to
 subtropical South America. Its leaves contain caffeine and are used to make
 infusions and a beverage called mate.
 

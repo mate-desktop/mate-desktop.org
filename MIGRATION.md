@@ -31,7 +31,7 @@ The following are required to build `python-coveralls`.
 
 ### virtualenv
 
-[`virtualenv`](http://www.virtualenv.org/en/latest/) is used to create
+[`virtualenv`](https://virtualenv.pypa.io/en/latest/) is used to create
 sandboxed Python environments, so you don't pollute the system Python. This is
 how the `virtualenv` for Nikola was created.
 
@@ -102,7 +102,7 @@ Install [html2text](https://github.com/aaronsw/html2text).
     pip install https://github.com/aaronsw/html2text/archive/master.zip
 
 Convert the WordPress `.wp` faux HTML files to
-[Markdown](http://daringfireball.net/projects/markdown/) and correct the image
+[Markdown](https://daringfireball.net/projects/markdown/) and correct the image
 links.
 
     cd ~/Websites/mate-desktop.org/posts

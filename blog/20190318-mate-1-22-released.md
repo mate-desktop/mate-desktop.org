@@ -39,7 +39,7 @@ This release contains plenty of critical bug fixes and under-the-hood improvemen
 
 The various components of MATE Desktop 1.22 are available for download here:
 
-  * <http://pub.mate-desktop.org/releases/1.22/>
+  * <https://pub.mate-desktop.org/releases/1.22/>
 
 ## Changelog
 

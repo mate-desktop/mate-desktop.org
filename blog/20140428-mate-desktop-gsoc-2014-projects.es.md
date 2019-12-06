@@ -31,7 +31,7 @@ Por favor unanse a mi en la bienvenida a estos nuevos contribuyentes al equipo M
 y desearles éxito en sus respectivos proyectos para este veráno.
 
 En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimiento y
-gratitud a [openSUSE](http://www.opensuse.org) quienes son nuestros organizadores
+gratitud a [openSUSE](https://www.opensuse.org) quienes son nuestros organizadores
 de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
 para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
 

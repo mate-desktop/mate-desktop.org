@@ -16,7 +16,7 @@
 您將會在我們的 wiki 上找到許多有用的資源，
 不過我們也鼓勵您改善它。
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## 論壇
 
@@ -24,9 +24,9 @@
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
@@ -34,8 +34,6 @@
 
 您喜歡接觸很多人對吧？
 
-  * [MATE Google+ 社群](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE Google+ 專頁](https://plus.google.com/105251070079435964338/)
   * [MATE Twitter 個人檔案](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -44,12 +42,12 @@
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-這裡提供了許多 IRC 頻道。您可以在我們的 [IRC wiki 頁面](http://wiki.mate-desktop.org/irc)
+這裡提供了許多 IRC 頻道。您可以在我們的 [IRC wiki 頁面](https://wiki.mate-desktop.org/irc)
 找到所有的詳細資訊。
 
 ## 星球
 
 MATE 社群成員的部落格貼文都會集中到我們的星球上。
 
-  * [Planet MATE](http://planet.mate-desktop.org)
+  * [Planet MATE](https://planet.mate-desktop.org)
 

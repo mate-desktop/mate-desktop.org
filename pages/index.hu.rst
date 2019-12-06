@@ -10,8 +10,8 @@ A MATE asztali környezet a GNOME 2 folytatása. Intuitív és vonzó asztali k�
 amely a Linux és más Unix-szerű operációs rendszereken megszokott hagyományos metaforákat használja.
 
 A MATE aktív fejlesztés alatt áll, hogy támogatást nyújtson az új technológiákhoz, miközben
-megőrzi a hagyományos asztali környezet élményét. Lásd az `Ütemtervet <http://wiki.mate-desktop.org/roadmap>`_. A `MATE kiáltvány 
-<http://wiki.mate-desktop.org/board:manifesto>`_ körvonalazza a projektet vezérlő elveket.
+megőrzi a hagyományos asztali környezet élményét. Lásd az `Ütemtervet <https://wiki.mate-desktop.org/roadmap>`_. A `MATE kiáltvány 
+<https://wiki.mate-desktop.org/board:manifesto>`_ körvonalazza a projektet vezérlő elveket.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -27,7 +27,7 @@ News
     :stop: 5
 
 A blogbejegyzések `címke <tags/>`_ szerint indexeltek, és `dátum szerint archiváltak <archive/>`_.
-Megnézheti a `Planet MATE <http://planet.mate-desktop.org>`_ oldalt is,
+Megnézheti a `Planet MATE <https://planet.mate-desktop.org>`_ oldalt is,
 hogy lássa miről blogol a szélesebb MATE közösség.
 
 ---------------------------------------------------------
@@ -39,29 +39,28 @@ A MATE a következő Linux disztribúciók **hivatalos** tárolóiban érhető e
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Hamara Linux <http://hamaralinux.org/>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Hamara Linux <https://hamaralinux.org/>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 A MATE a következő Linux disztribúciók *nem hivatalos* tárolóiban érhető el:
 
@@ -69,16 +68,16 @@ A MATE a következő Linux disztribúciók *nem hivatalos* tárolóiban érhető
 
 Vagy inkább a UNIX-ot kedveli?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
-* `PC-BSD <http://www.pcbsd.org>`_
+* `PC-BSD <https://www.trueos.org>`_
 * `OS108 <https://OS108.org/>`_
 
-Valamint a `DistroWatch.com-on is lekérdezheti azon disztribúciókat, melyek támogatják a MATE asztali környezetet <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Valamint a `DistroWatch.com-on is lekérdezheti azon disztribúciókat, melyek támogatják a MATE asztali környezetet <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 A MATE közösség számos disztribúció esetén dokumentálta a MATE telepítését,
-kövesse a `telepítési útmutatót <http://wiki.mate-desktop.org/download>`_.
+kövesse a `telepítési útmutatót <https://wiki.mate-desktop.org/download>`_.
 
 ------------
 Alkalmazások

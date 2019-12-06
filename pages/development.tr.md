@@ -13,14 +13,14 @@ MATE'nin git depoları GitHub'da barındırılmaktadır.
 
 Kodu cgit ile şurada da tarayabilirsiniz:
 
-  * <http://git.mate-desktop.org>
+  * <https://git.mate-desktop.org>
 
  Diğer yararlı bağlantılar:
 
   * [MATE Üniversitesi](/blog/2013-03-12-mate-university/)
-  * [MATE Geliştirmesi](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE yol haritası](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [MATE Geliştirmesi](https://wiki.mate-desktop.org/dev-doc)
+  * [MATE yol haritası](https://wiki.mate-desktop.org/roadmap)
+  * <https://wiki.mate-desktop.org/contribute>
+  * <https://wiki.mate-desktop.org/translation>
   
 Katkıda bulunmaya çekinmeyin, MATE'yi geliştiriken eğlenmenizi umuyoruz!

@@ -50,7 +50,7 @@ The headline changes in MATE Desktop 1.20 are:
 
 The various components of MATE Desktop 1.20 are available for download here:
 
-  * <http://pub.mate-desktop.org/releases/1.20/>
+  * <https://pub.mate-desktop.org/releases/1.20/>
 
 ## Changelog
 

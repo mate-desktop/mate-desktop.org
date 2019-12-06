@@ -8,7 +8,7 @@
 -->
 
 The MATE community has documented how to install MATE on many distributions,
-please follow the [install guidelines](http://wiki.mate-desktop.org/download).  
+please follow the [install guidelines](https://wiki.mate-desktop.org/download).
 
 If you're a distro packager looking for release tarballs then see our
 [Development](/development/) page.

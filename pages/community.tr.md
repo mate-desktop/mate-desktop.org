@@ -15,7 +15,7 @@ kaynaklar MATE hakkında daha fazla bilgi ve yardım almanıza yardımcı olacak
 Vikimizde yararlı çok malzeme bulabilirsiniz, ama bununla kalmayıp vikiyi
 geliştirmenizi de öneririz.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## Forumlar
 
@@ -23,9 +23,9 @@ E-mail kullanmıyorsanız bu da bir sorun değildir.
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
@@ -33,8 +33,6 @@ E-mail kullanmıyorsanız bu da bir sorun değildir.
 
 Sosyal birisiniz, değil mi?
 
-  * [MATE Google+ topluluğu](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE Google+ sayfası](https://plus.google.com/105251070079435964338/)
   * [MATE Twitter Profili](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -43,12 +41,12 @@ Sosyal birisiniz, değil mi?
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-Birden çok İRC kanalımız vardır. Tüm ayrıntıları [IRC wiki sayfamızda](http://wiki.mate-desktop.org/irc)
+Birden çok İRC kanalımız vardır. Tüm ayrıntıları [IRC wiki sayfamızda](https://wiki.mate-desktop.org/irc)
 bulabilirsiniz.
 
 ## Planet
 
 MATE topluluğunun blog mesajları Planetimizde toplanır.
 
-  * [Planet MATE](http://planet.mate-desktop.org)
+  * [Planet MATE](https://planet.mate-desktop.org)
 

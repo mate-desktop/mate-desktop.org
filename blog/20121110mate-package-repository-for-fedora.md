@@ -10,11 +10,11 @@
 
 We are now directing users to use the official Fedora package repository now.
 For instructions on using this repository please consult [our installation
-guide for Fedora](http://wiki.mate-desktop.org/download#fedora).
+guide for Fedora](https://wiki.mate-desktop.org/download#fedora).
 
 For more information about MATE's official inclusion in Fedora, see the following:
  
-  * <http://fedoraproject.org/wiki/Features/MATE-Desktop>
+  * <https://fedoraproject.org/wiki/Features/MATE-Desktop>
 
 If you have any questions regarding installing MATE on Fedora then please ask
 for help in our [#fedora-mate IRC channel](https://webchat.freenode.net/?channels=#fedora-mate)

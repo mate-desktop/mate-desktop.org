@@ -158,7 +158,7 @@ Fejlesztés.
 ## Igazgatótanács
 
 A MATE asztali környezetnek van egy igazgatótanácsa. A
-[MATE igazgatótanács wiki oldala](http://wiki.mate-desktop.com/board)
+[MATE igazgatótanács wiki oldala](https://wiki.mate-desktop.com/board)
 sorolja fel a jelenlegi tagokat, és vázolja a feladataikat.
 
 <small>

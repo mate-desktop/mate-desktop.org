@@ -33,7 +33,7 @@ Heißen wir diese neuen Mitwirkenden gemeinsam willkommen im MATE-Team, und
 wünschen wir ihnen größtmöglichen Erfolg bei ihren jeweiligen Projekten im Sommer. 
 
 Im Namen des gesamten MATE-Teams möchte ich ferner meinen Dank und meine Wertschätzung
-aussprechen gegenüber [openSUSE](http://www.opensuse.org), unsere GSoC-Organisatoren 
+aussprechen gegenüber [openSUSE](https://www.opensuse.org), unsere GSoC-Organisatoren 
 für 2014. Sie haben fantastische Arbeit dabei geleistet, das MATE-Team bei
 der Sicherung dieser GSoC-Platzierungen zu unterstützen, welche dringend benötigte
 Entwicklungstätigkeiten in das Projekt einfließen lassen werden.

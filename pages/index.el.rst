@@ -9,9 +9,9 @@
 Το Γραφικό Περιβάλλον Desktop MATE είναι η συνέχεια του GNOME 2. Παρέχει μια εύληπτη και ελκυστική επιφάνεια εργασίας,χρησιμοποιώντας παραδοσιακά σύμβολα για Linux και άλλα λειτουργικά συστήματα που μοιάζουν με Unix.
 
 To Mate αναπτύσσεται ενεργά ώστε να υποστηρίζει νέες τεχνολογίες, διατηρώντας ταυτόχρονα μια παραδοσιακή επιφάνεια εργασίας
-Δείτε την Πορεία λογισμικού (http://wiki.mate-desktop.org/roadmap). 
+Δείτε την Πορεία λογισμικού (https://wiki.mate-desktop.org/roadmap). 
 
-Η προκήρυξη του MATE (http://wiki.mate-desktop.org/board:manifesto)
+Η προκήρυξη του MATE (https://wiki.mate-desktop.org/board:manifesto)
 περιγράφει μερικές από τις βασικές αρχές του project.
 
 .. image:: /screens/screenshot.jpg
@@ -30,7 +30,7 @@ To Mate αναπτύσσεται ενεργά ώστε να υποστηρίζε
 
 Οι αναρτήσεις είναι ταξινομημένες κατά `ετικέτα <tags/>`_ και `ημερομηνία αρχειοθέτησης <archive/>`_.
 Μπορείτε επίσης να τα δείτε τι αναρτά η ευρύτερη κοινότητα του ΜΑΤΕ 
-στο `Planet MATE <http://planet.mate-desktop.org>`_.
+στο `Planet MATE <https://planet.mate-desktop.org>`_.
 
 ------------------------------------
 Ποιές διανομές υποστηρίζουν το MATE?
@@ -40,29 +40,28 @@ To Mate αναπτύσσεται ενεργά ώστε να υποστηρίζε
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 Το MATE είναι διαθέσιμο μέσω των **ανεπίσημων** αποθετηρίων στις ακόλουθες διανομές Linux:
 
@@ -70,15 +69,15 @@ To Mate αναπτύσσεται ενεργά ώστε να υποστηρίζε
 
 Μήπως προτιμάτε UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-Μπορείτε επίσης να `εξετάσετε όλες τις διανομές που υποστηρίζουν το MATE στο DistroWatch.com <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Μπορείτε επίσης να `εξετάσετε όλες τις διανομές που υποστηρίζουν το MATE στο DistroWatch.com <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-Η κοινότητα του MATE έχει δημιουργήσει `οδηγούς εγκατάστασης <http://wiki.mate-desktop.org/download>`_
+Η κοινότητα του MATE έχει δημιουργήσει `οδηγούς εγκατάστασης <https://wiki.mate-desktop.org/download>`_
 για το πως μπορείτε να εγκαταστήσετε το MATE σε πολλές διανομές.
 
 ---------------------
@@ -161,7 +160,7 @@ To MATE Terminal είναι fork του GNOME Terminal.
 ------------------------------
 
 Η ονομασία *"MATE"*, προφέρεται *μα-τέι*, προέρχεται από το `yerba maté
-<http://en.wikipedia.org/wiki/Yerba_mate>`_, ένα είδος από πουρνάρι 
+<https://en.wikipedia.org/wiki/Yerba_mate>`_, ένα είδος από πουρνάρι 
 που παράγεται στην Νότια Αμερική. Τα φύλλα του περιέχουν καφεϊνη και χρησιμοποιούνται
 για τη δημιουργία εγχύσεων και ποτών που ονομάζονται mate.
 

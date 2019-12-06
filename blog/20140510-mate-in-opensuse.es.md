@@ -21,4 +21,4 @@ hay un lugar, X11:MATE:Current.
 
 Para instalarlo, por favor reemplace o agregue nuestro repositorio:
 
-[http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_12.3/X11:MATE:Current.repo](http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_12.3/X11:MATE:Current.repo)
+[https://download.opensuse.org/repositories/X11:/MATE:/Current/](https://download.opensuse.org/repositories/X11:/MATE:/Current/)

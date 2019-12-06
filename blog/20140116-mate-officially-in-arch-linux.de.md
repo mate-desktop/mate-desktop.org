@@ -10,7 +10,7 @@
 
 MATE ist endlich zuhause angekommen.
 
-Wie manche von Ihnen wohl wissen, wurde MATE von einem [Arch-Linux](http://www.archlinux.org)-Nutzer
+Wie manche von Ihnen wohl wissen, wurde MATE von einem [Arch-Linux](https://www.archlinux.org)-Nutzer
 erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
 in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde -- bis jetzt.
 Richtig gelesen, MATE ist endlich in den Arch-Linux-`[community]`-Paketrepositorien verfügbar!
@@ -18,8 +18,7 @@ Richtig gelesen, MATE ist endlich in den Arch-Linux-`[community]`-Paketrepositor
 Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
 auf den folgenden Wiki-Seiten:
 
-  * <http://wiki.mate-desktop.org/archlinux_custom_repo>
-  * <https://wiki.archlinux.org/index.php/MATE>  
+  * <https://wiki.archlinux.org/index.php/MATE>
 
 Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
 MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
@@ -27,7 +26,7 @@ synchronisiert wurden. Updaten Sie daher `/etc/pacman.conf`,
 und entfernen Sie das `[mate]`-Paket-Repositorium.
 
 Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
-ist, dass MATE nun auch im [Arch-Linux-ARM](http://archlinuxarm.org/)-Repositorium
+ist, dass MATE nun auch im [Arch-Linux-ARM](https://archlinuxarm.org/)-Repositorium
 erscheinen wird. Ich kann endlich meine Build-*"Server"* für Raspberry Pi (armv6h) und
 Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
 wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber
@@ -38,6 +37,3 @@ Falls Sie also einen "Pi" und eine SDCARD rumliegen haben, probieren Sie's aus. 
 einen Blog-Beitrag schreiben, wie man Arch Linux und MATE auf dem Raspberry Pi 
 mit einigen nützlichen Performance-Tricks installiert.
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2904" class="alert-link">Kommentare</a>
-</div>

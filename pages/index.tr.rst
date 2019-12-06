@@ -13,9 +13,9 @@ ortamı sağlar.
 MATE geleneksel masaüstü deneyimini koruyarak yeni teknolojilerin
 desteklenmesi için etkin bir şekilde geliştirilmektedir. MATE'nin 
 nasıl geliştiği ve gelecekte nelerin beklediğini öğrenmek için
-`yol haritasına <http://wiki.mate-desktop.org/roadmap>`_.
+`yol haritasına <https://wiki.mate-desktop.org/roadmap>`_.
 
-`MATE manifestosu <http://wiki.mate-desktop.org/board:manifesto>`_
+`MATE manifestosu <https://wiki.mate-desktop.org/board:manifesto>`_
 projeye rehberlik eden bazı ilkelerin altını çizer.
 
 .. image:: /screens/screenshot.jpg
@@ -33,7 +33,7 @@ Haberler
 
 Blog mesajları `etiketlerle <tags/>`_ endesklenir ve `tarihlerine göre arşivlenir <archive/>`_. 
 Geniş MATE topluluğunun hangi konularda blog mesajları yayınladığını görmek
-için `MATE Planetine <http://planet.mate-desktop.org>`_ bakmak
+için `MATE Planetine <https://planet.mate-desktop.org>`_ bakmak
 isteyebilirsiniz.
 
 -----------------------------------
@@ -45,26 +45,26 @@ MATE aşağıdaki GNU/Linux dağıtımlarının **resmî** depolarında mevcuttu
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix ve GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 * `Vector Linux <http://vectorlinux.com>`_
 
 MATE, aşağıdaki GNU/Linux dağıtımlarını için *gayri resmî* depolarda mevcuttur
@@ -74,18 +74,18 @@ ancak bu dağıtımların resmî depolarına eklenmesi planlanmaktadır.
 
 UNIX'yi mi tercih edersiniz?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
 Ayrıca MATE'yi destekleyen tüm dağıtımları `DistroWatch.com sitesinde 
-<http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_
+<https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_
 arayabilirsiniz.
 
 MATE topluluğu, MATE'nin nasıl kurulacağını birçok dağıtım için
-`kurulum yönergelerinde <http://wiki.mate-desktop.org/download>`_ belgelemiştir.
+`kurulum yönergelerinde <https://wiki.mate-desktop.org/download>`_ belgelemiştir.
 
 -----------
 Uygulamalar

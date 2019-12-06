@@ -8,7 +8,7 @@
 -->
 
 La comunitat de MATE ha documentat com instal·lar MATE en moltes distribucions,
-seguiu les [directrius d'instal·lació](http://wiki.mate-desktop.org/download).  
+seguiu les [directrius d'instal·lació](https://wiki.mate-desktop.org/download).  
 
 Si sou un empaquetador de distribució que busqueu els tarballs dels llançaments,
 consulteu la pàgina [Desenvolupament](/development/).
