@@ -16,7 +16,7 @@ Anda mendapatkan dukungan dari komunitas.
 Anda bisa menemukan banyak materi yang berguna pada wiki, tetapi kami juga mendukung Anda untuk
 membantu mengembangkannya.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## Forum
 
@@ -24,9 +24,9 @@ Silahkan bergabung dengan forum komunitas kami.
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
@@ -34,8 +34,6 @@ Silahkan bergabung dengan forum komunitas kami.
 
 Anda tipe sosial bukan?
 
-  * [Komunitas MATE Google+](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [Halaman MATE Google+](https://plus.google.com/105251070079435964338/)
   * [Profil Twitter MATE](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -45,11 +43,11 @@ Silahkan bergabung di IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Terdapat beberapa channel IRC yang tersedia. Anda bisa menemukan semua detailnya pada 
-[halaman wiki IRC](http://wiki.mate-desktop.org/irc).
+[halaman wiki IRC](https://wiki.mate-desktop.org/irc).
 
 ## Planet
 
 Tulisan blog dari anggota komunitas MATE akan diaggregasi pada Planet kami.
 
-  * [Planet MATE](http://planet.mate-desktop.org)
+  * [Planet MATE](https://planet.mate-desktop.org)
 

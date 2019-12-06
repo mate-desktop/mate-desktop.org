@@ -13,15 +13,15 @@ Die Git-Repositorien für MATE werden auf GitHub gehostet.
 
 Sie können auch mit cgit im Quellcode browsen: 
 
-  * <http://git.mate-desktop.org>
+  * <https://git.mate-desktop.org>
 
  Weitere nützliche Links:
 
   * [MATE-Universität](/blog/2013-03-12-mate-university/)
-  * [MATE-Entwicklung](http://wiki.mate-desktop.org/dev-doc)
-  * [MATE-Roadmap](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [MATE-Entwicklung](https://wiki.mate-desktop.org/dev-doc)
+  * [MATE-Roadmap](https://wiki.mate-desktop.org/roadmap)
+  * <https://wiki.mate-desktop.org/contribute>
+  * <https://wiki.mate-desktop.org/translation>
   
 Zögern Sie nicht, zum Projekt beizutragen.
 Wir wünschen Ihnen bei der weiteren Verbesserung von MATE viel Freude.

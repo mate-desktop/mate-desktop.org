@@ -39,7 +39,7 @@ Esta versión contiene muchas mejoras y soluciona muchos problemas. Algunos de l
 
 Los componentes del Entorno de Escritorio MATE 1.22 están disponibles para descargar aquí:
 
-  * <http://pub.mate-desktop.org/releases/1.22/>
+  * <https://pub.mate-desktop.org/releases/1.22/>
 
 ## Changelog
 

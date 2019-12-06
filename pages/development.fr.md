@@ -13,14 +13,14 @@ Les dépôts git de MATE sont hébérgés sur GitHub.
 
 Vous pouvez aussi parcourir le code avec cgit ici :
 
-  * <http://git.mate-desktop.org>
+  * <https://git.mate-desktop.org>
 
  Autres liens utiles :
 
   * [Université MATE](/blog/2013-03-12-mate-university/)
-  * [Développement de MATE](http://wiki.mate-desktop.org/dev-doc)
-  * [Feuille de route de MATE](http://wiki.mate-desktop.org/roadmap)
-  * <http://wiki.mate-desktop.org/contribute>
-  * <http://wiki.mate-desktop.org/translation>
+  * [Développement de MATE](https://wiki.mate-desktop.org/dev-doc)
+  * [Feuille de route de MATE](https://wiki.mate-desktop.org/roadmap)
+  * <https://wiki.mate-desktop.org/contribute>
+  * <https://wiki.mate-desktop.org/translation>
   
 N'hésitez pas à contribuer et amusez-vous bien en améliorant MATE !

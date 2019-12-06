@@ -1,5 +1,5 @@
 <!--
-.. link: http://www.youtube.com/watch?v=iwQ7iqNwRKs
+.. link: https://www.youtube.com/watch?v=iwQ7iqNwRKs
 .. description:
 .. tags: News,FOSDEM
 .. date: 2014-02-07 14:16:13
@@ -16,7 +16,7 @@ projects origins. The differences between MATE and other traditional GTK based
 desktops is covered and then Stefano goes on to explain how MATE has evolved
 since it was forked from GNOME2. A brief run down of the recent improvements 
 is covered followed by an overview of the MATE roadmap and other
-projects that benefit from MATE such as [Sonar](http://sonar-project.org),
-[Raspberry Pi](http://www.raspberrypi.org/) and [LTSP](http://www.ltsp.org/).
+projects that benefit from MATE such as [Sonar](https://sonar-project.org),
+[Raspberry Pi](https://www.raspberrypi.org/) and [LTSP](http://www.ltsp.org/).
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen></iframe>

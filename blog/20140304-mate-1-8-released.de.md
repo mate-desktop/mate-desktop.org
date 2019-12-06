@@ -36,7 +36,6 @@ Die wesentlichen Änderungen in 1.8 sind:
 **MATE-Desktop-Bibliothek**
 
   * MATE-Bedienungsanleitung hinzugefügt
-  * mpaste-Tool für <http://paste.mate-desktop.org> hinzugefügt
 
 **Eye Of MATE (Bildbetrachter)**
 
@@ -79,11 +78,11 @@ Die wesentlichen Änderungen in 1.8 sind:
 Wie gewöhlich fragten wir Mitarbeiter von Distributionen, die MATE anbieten, 
 was sie von unserer Desktop-Umgebung halten.
 
-**Mike Gabriel**, [Debian](http://www.debian.org/) Entwickler und MATE-Maintainer:
+**Mike Gabriel**, [Debian](https://www.debian.org/) Entwickler und MATE-Maintainer:
 
 > I forsee MATE being one of the most used desktop environments in Debian Jessie (and beyond).
 
-**Tom Wijsman**, [Gentoo](http://www.gentoo.org) Entwickler und MATE-Maintainer:
+**Tom Wijsman**, [Gentoo](https://www.gentoo.org) Entwickler und MATE-Maintainer:
 
 > Some of our users express that they want to stay with GNOME 2; because they
 like how things used to be, they run older hardware or they want a more
@@ -93,7 +92,7 @@ security issues; MATE brings back all the glory with an active development team.
 Their continuation of GNOME 2's development fixes outstanding issues, brings new
 and useful features and keeps the good old experience alive and kicking.
 
-**Willy Sudiarto Raharjo**, Co-Entwickler des [MATE-SlackBuilds-Projekts](http://mateslackbuilds.github.io/):
+**Willy Sudiarto Raharjo**, Co-Entwickler des [MATE-SlackBuilds-Projekts](https://mateslackbuilds.github.io/):
 
 > MATE shared the same basic philosophies of Slackware, such as simplicity,
 stability, and no fixed release schedule. It will be released when it's ready
@@ -104,7 +103,7 @@ fill the need of GNOME-based Desktop Environment which Slackware lack of since
 2005. I'm looking forward for the evolutionary changes that MATE developers
 will integrate for the next major release of MATE.
 
-**Chess Griffin**, Co-Entwickler des [MATE-SlackBuilds-Projekts](http://mateslackbuilds.github.io/):
+**Chess Griffin**, Co-Entwickler des [MATE-SlackBuilds-Projekts](https://mateslackbuilds.github.io/):
 
 > MATE is a great desktop environment for those who like the old GNOME 2
 experience.  I greatly appreciate all the hard work that is put into MATE
@@ -114,7 +113,7 @@ operating system or distribution is also to be applauded.  I enjoy being a
 part of the MATE SlackBuilds project, which aims to bring the MATE desktop
 to the Slackware Linux community.  Thanks to the entire MATE team!
 
-**Benjamin Denisart**, [openSUSE](http://www.opensuse.org/) MATE-Maintainer:
+**Benjamin Denisart**, [openSUSE](https://www.opensuse.org/) MATE-Maintainer:
 
 > The openSUSE team wants to thank the MATE developers for their efforts in
 providing this new version and is proud to announce the availability
@@ -122,7 +121,7 @@ of `gnome-main-menu`, which will please users attracted by a traditional and
 easy to use desktop. It's a pleasure for us to work with the MATE team and we
 want to send them our congratulations.
 
-**Clement Lefebvre**, [Linux Mint](http://www.linuxmint.com/)-Gründer und Projektleiter:
+**Clement Lefebvre**, [Linux Mint](https://www.linuxmint.com/)-Gründer und Projektleiter:
 
 > MATE proudly carries the colors of GNOME 2 and continues where the project
 left off. In many ways and for many people MATE just feels like home.
@@ -145,13 +144,13 @@ later we have a stable and usable MATE 1.6 desktop solution in Fedora 20. MATE
 1.8 is currently in Fedora rawhide and will be released with Fedora 21 in the
 summer of 2014.
 
-**Martin Wimpress**, MATE-Maintainer für [Arch Linux](http://www.archlinux.org/):
+**Martin Wimpress**, MATE-Maintainer für [Arch Linux](https://www.archlinux.org/):
 
 > MATE was originally created by an Arch Linux user and I am delighted that MATE
 is now available in the official Arch Linux and Arch Linux ARM package
 repositories. MATE provides a complete, fully integrated, responsive traditional
 desktop experience and consistent work flow on my [Raspberry Pi](www.raspberrypi.org),
-[CuBox Pro](http://www.solid-run.com/cubox), laptop and desktop. Brilliant!
+[CuBox Pro](https://www.solid-run.com/cubox), laptop and desktop. Brilliant!
 
 <br/><br/>
 

@@ -1,5 +1,4 @@
 <!-- 
-.. link: http://ml.mate-desktop.org/pipermail/mate-i18n/2014-February/000021.html
 .. description: 
 .. tags: News,i18n
 .. date: 2014/02/14 12:51:31
@@ -26,3 +25,4 @@ so you can start contributing to MATE, we'd really appreciate it!
 
 There are currently 6 languages with 100% coverage, so lets see how many more
 can get 100% coverage before the MATE 1.8 release.
+

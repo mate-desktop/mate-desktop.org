@@ -10,8 +10,8 @@ El entorno de escritorio MATE es la continuación de GNOME 2. Provee un entorno 
 usando las metáforas tradicionales de Linux y otros sistemas operativos estilo Unix.
 
 MATE está siendo desarrollado activamente para añadir apoyo para tecnologías nuevas, y a la misma vez
-preservar la experiencia tradicional de un escritorio. Vea el `Roadmap <http://wiki.mate-desktop.org/roadmap>`_.
-El `Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>`_ resume algunos de los principios
+preservar la experiencia tradicional de un escritorio. Vea el `Roadmap <https://wiki.mate-desktop.org/roadmap>`_.
+El `Manifesto MATE <https://wiki.mate-desktop.org/board:manifesto>`_ resume algunos de los principios
 que guían el proyecto.
 
 .. image:: /screens/screenshot.jpg
@@ -28,7 +28,7 @@ Noticias
     :stop: 5
 
 Las entradas del blog también son indexadas por `tag <tags/>`_ y `archivadas por fecha <archive/>`_.
-También puedes ver el `Planeta MATE <http://planet.mate-desktop.org>`_
+También puedes ver el `Planeta MATE <https://planet.mate-desktop.org>`_
 para ver de qué está bloggeando la comunidad de MATE.
 
 ---------------------------------------------
@@ -40,28 +40,27 @@ MATE está disponible a través de los repositorios **oficiales** de las siguien
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE está disponible a través de los repositorios *no oficiales* de las siguientes distribuciones Linux:
 
@@ -69,16 +68,16 @@ MATE está disponible a través de los repositorios *no oficiales* de las siguie
 
 ¿Quizás prefieres UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-También puedes buscar en `DistroWatch.com todas las distribuciones compatibles con MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+También puedes buscar en `DistroWatch.com todas las distribuciones compatibles con MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La comunidad de MATE ha documentado como instalar MATE en varias distribuciones en
-la `guía de instalación <http://wiki.mate-desktop.org/download>`_.
+la `guía de instalación <https://wiki.mate-desktop.org/download>`_.
 
 ---------
 Programas
@@ -157,7 +156,7 @@ direcciones URL. Terminal de MATE es una bifurcación de GNOME Terminal.
 ----------------------------------
 
 El nombre de *"MATE"* viene de la `yerba mate
-<http://es.wikipedia.org/wiki/Yerba_mate>`_, una a especie de acebo nativo a
+<https://es.wikipedia.org/wiki/Yerba_mate>`_, una a especie de acebo nativo a
 las partes sub-tropicales de América del Sur. Sus hojas contienen cafeina y
 son usadas para hacer una infusión, también llamada mate.
 

@@ -10,7 +10,7 @@
 
 ![FirstColo](/assets/img/blog/first-color.gif)
 
-[FirstColo](http://www.first-colo.net/EN/), gestore di un moderno data center in Germania,
+[FirstColo](https://www.first-colo.net/en/), gestore di un moderno data center in Germania,
 ha pianificato di migrare a MATE Desktop nei loro uffici. FirstColo ha donato al progetto
 un nuovo server dedicato, per supportare il suo sviluppo.
 

@@ -40,13 +40,13 @@ from nikola.utils import config_changed, copy_tree, makedirs
 #         Search is a site search engine jQuery plugin. It's free for both commercial and
 #         non-commercial use and released under the MIT License. Tipue Search includes
 #         features such as word stemming and word replacement.", "tags": "JavaScript",
-#         "loc": "http://www.tipue.com/search"},
+#         "loc": "https://www.tipue.com/search"},
 #     {"title": "Tipue Search demo", "text": "Tipue Search demo. Tipue Search is
 #         a site search engine jQuery plugin.", "tags": "JavaScript", "loc":
-#         "http://www.tipue.com/search/demo"},
+#         "https://www.tipue.com/search/demo"},
 #     {"title": "About Tipue", "text": "Tipue is a small web development/design
 #         studio based in North London. We've been around for over a decade.", "tags": "",
-#         "loc": "http://www.tipue.com/about"}
+#         "loc": "https://tipue.com/is/"}
 # ]};
 
 

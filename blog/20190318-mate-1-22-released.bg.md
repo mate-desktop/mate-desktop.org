@@ -39,7 +39,7 @@
 
 Компонентите на MATE Desktop 1.22 са налични за сваляне тук:
 
-  * <http://pub.mate-desktop.org/releases/1.22/>
+  * <https://pub.mate-desktop.org/releases/1.22/>
 
 ## Changelog
 

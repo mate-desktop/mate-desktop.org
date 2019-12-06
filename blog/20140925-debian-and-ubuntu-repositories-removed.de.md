@@ -8,8 +8,8 @@
 .. author: Martin Wimpress
 -->
 
-Dank der Arbeit der [MATE-Paketverwalter für Debian](https://alioth.debian.org/projects/pkg-mate)
-ist MATE 1.8.1 in Debian Jessie (Testing) und in [Debian backports](http://backports.debian.org) für Wheezy verfügbar.
+Dank der Arbeit der [MATE-Paketverwalter für Debian](https://salsa.debian.org/groups/debian-mate-team/-/group_members)
+ist MATE 1.8.1 in Debian Jessie (Testing) und in [Debian backports](https://backports.debian.org) für Wheezy verfügbar.
 
 Als Folge der Aufnahme von MATE 1.8.1 in die Repositorien von Debian Testing in diesem Jahr
 findet sich MATE 1.8.1 auch in dem offiziellen Archiv von Ubuntu 14.10 Utopic Unicorn.

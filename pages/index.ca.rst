@@ -11,8 +11,8 @@ d'escriptori intuïtiu i atractiu minjançant metàfores tradicionals per a Linu
 altres sistemes operatius similars a Unix.
 
 MATE està en desenvolupament actiu per afegir suport per a les noves tecnologies
-mentre es conserva una experiència d'escriptori tradicional. Consulteu el `full de ruta <http://wiki.mate-desktop.org/roadmap>`_
-El `manifest de MATE <http://wiki.mate-desktop.org/board:manifesto>`_ descriu algunes de les directrius que guien el projecte.
+mentre es conserva una experiència d'escriptori tradicional. Consulteu el `full de ruta <https://wiki.mate-desktop.org/roadmap>`_
+El `manifest de MATE <https://wiki.mate-desktop.org/board:manifesto>`_ descriu algunes de les directrius que guien el projecte.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -28,7 +28,7 @@ Notícies
     :stop: 5
 
 Les publicacions del blog també estan indexades per `etiquetes <tags/>`_ i `data d'arxivament <archive/>`_.
-També podeu donar un cop d'ull al `Planeta de MATE <http://planet.mate-desktop.org>`_
+També podeu donar un cop d'ull al `Planeta de MATE <https://planet.mate-desktop.org>`_
 per veure quina és la comunitat més àmplia de MATE que fa més publicacions.
 
 -----------------------------------
@@ -40,28 +40,27 @@ MATE està disponible a través de dipòsits **oficials** per a les distribucion
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `Antergos <https://antergos.com/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix i GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
-* `Solus <https://solus-project.com/>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
+* `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE està disponible a través de dipòsits *no oficials* per a les distribucions
 de Linux següents:
@@ -70,16 +69,16 @@ de Linux següents:
 
 Potser preferiu UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-Tambe podeu `consultar a DistroWatch.com totes les distribucions que suporten MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Tambe podeu `consultar a DistroWatch.com totes les distribucions que suporten MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La comunitat de MATE ha documentat com instal·lar MATE en moltes distribucions a les
-`directrius d'instal·lació <http://wiki.mate-desktop.org/download>`_.
+`directrius d'instal·lació <https://wiki.mate-desktop.org/download>`_.
 
 -----------
 Aplicacions
@@ -161,7 +160,7 @@ D'on ve el nom?
 ---------------
 
 El nom *"MATE"*, que es pronuncia *Ma-Tay*, ve de `yerba maté
-<http://en.wikipedia.org/wiki/Yerba_mate>`_, és un arbre o arbust de la família
+<https://en.wikipedia.org/wiki/Yerba_mate>`_, és un arbre o arbust de la família
 de les aquifoliàcies, originari de Sud-amèrica. Les seves fulles contenen cafeïna
 i s'utilitzen per fer infusions i una beguda anomenada mate.
 

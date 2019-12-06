@@ -14,7 +14,7 @@
 
 我们的文档 (Wiki) 站点中包含许多有用的信息，我们也鼓励你帮助我们改善文档。
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## 论坛
 
@@ -22,9 +22,9 @@
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
 
@@ -32,8 +32,6 @@
 
 现在是社交媒体的时代了，对吧？
 
-  * [MATE 的 Google+ 社群](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE 的 Google+ 页面](https://plus.google.com/105251070079435964338/)
   * [MATE 的 Twitter 帐号页](https://twitter.com/mate_desktop)
 
 ## IRC 频道
@@ -42,10 +40,10 @@
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-我们还提供了其他数个 IRC 频道。你可以通过 [IRC wiki 页面](http://wiki.mate-desktop.org/irc) 获取更多信息。
+我们还提供了其他数个 IRC 频道。你可以通过 [IRC wiki 页面](https://wiki.mate-desktop.org/irc) 获取更多信息。
 
 ## MATE 星球
 
 你可以在此处查阅 MATE 社区成员的发表的博文。
 
-  * [MATE 星球](http://planet.mate-desktop.org)
+  * [MATE 星球](https://planet.mate-desktop.org)

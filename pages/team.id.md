@@ -158,7 +158,7 @@ Pengembangan.
 ## Board
 
 Lingkungan Desktop MATE memiliki Dewan Direktur. 
-[MATE Board wiki page](http://wiki.mate-desktop.com/board)
+[MATE Board wiki page](https://wiki.mate-desktop.com/board)
 berisi daftar anggota dan tugasnya.
 
 <small>

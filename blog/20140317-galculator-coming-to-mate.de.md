@@ -1,5 +1,5 @@
 <!-- 
-.. link: http://galculator.sourceforge.net/
+.. link: http://galculator.mnim.org/
 .. description: galculator ersetzt mate-calc in MATE 1.10
 .. tags: News
 .. date: 2014/03/17 07:38:45
@@ -9,7 +9,7 @@
 -->
 
 Das MATE-Team verkündet stolz die Zusammenarbeit mit dem 
-[galculator](http://galculator.sourceforge.net/)-Team, und dass galculator
+[galculator](http://galculator.mnim.org/)-Team, und dass galculator
 das Programm `mate-calc` in MATE 1.10 ersetzen wird.
 
 ## Was ist galculator?

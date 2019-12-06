@@ -16,7 +16,7 @@ ed a ricevere supporto dalla comunità.
 Nel nostro wiki si trova già molto materiale utile, ma siete incoraggiati
 a migliorarlo.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ## Forum
 
@@ -24,9 +24,9 @@ Per chi non usa l'email, è possibile unirsi al nostro forum.
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
   
@@ -34,8 +34,6 @@ Per chi non usa l'email, è possibile unirsi al nostro forum.
 
 MATE è presente anche nei social media!
 
-  * [MATE Google+ Community](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE Google+ Page](https://plus.google.com/105251070079435964338/)
   * [MATE Twitter Profile](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -45,11 +43,11 @@ Per i guru di internet, venite a trovarci su IRC.
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Ci sono più canali IRC disponibili. Potete trovare la lista nella
-[pagina wiki IRC](http://wiki.mate-desktop.org/irc).
+[pagina wiki IRC](https://wiki.mate-desktop.org/irc).
 
 ## Planet
 
 Tutti i post dei membri della comunità di MATE sono aggregati nel nostro Planet.
 
-  * [Planet MATE](http://planet.mate-desktop.org)
+  * [Planet MATE](https://planet.mate-desktop.org)
 

@@ -33,7 +33,7 @@ The headline changes in MATE 1.14 are:
 
 The various components of MATE 1.14 are available for download here:
 
-  * <http://pub.mate-desktop.org/releases/1.14/>
+  * <https://pub.mate-desktop.org/releases/1.14/>
 
 ## Screenshots
 

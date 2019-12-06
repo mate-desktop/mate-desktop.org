@@ -39,7 +39,7 @@ Aquest llançament conté correccions d’errors crítics i millores adjacents. 
 
 Els diversos components de MATE Desktop 1.22 estan disponibles per a la baixada en aquest enllaç:
 
-  * <http://pub.mate-desktop.org/releases/1.22/>
+  * <https://pub.mate-desktop.org/releases/1.22/>
 
 ## Registre de canvis
 

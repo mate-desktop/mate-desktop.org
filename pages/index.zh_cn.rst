@@ -10,9 +10,9 @@ MATE 桌面环境是 GNOME 2 的延续。通过传统的隐喻设计，MATE 为 
 Unix 操作系统提供直观且吸引人的桌面环境。
 
 MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
-`开发计划 <http://wiki.mate-desktop.org/roadmap>`_
+`开发计划 <https://wiki.mate-desktop.org/roadmap>`_
 
-`MATE 宣言 <http://wiki.mate-desktop.org/board:manifesto>`_
+`MATE 宣言 <https://wiki.mate-desktop.org/board:manifesto>`_
 简要概括了指引本项目发展的各项准则。
 
 .. image:: /screens/screenshot.jpg
@@ -29,7 +29,7 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
     :stop: 5
 
 博文使用 `标签 <tags/>`_ 及 `根据日期的归档 <archive/>`_ 进行索引。
-我们推荐访问 `MATE 星球 <http://planet.mate-desktop.org>`_ 以了解 MATE 社区的各类动态。
+我们推荐访问 `MATE 星球 <https://planet.mate-desktop.org>`_ 以了解 MATE 社区的各类动态。
 
 -----------------------
 哪些发行版支持 MATE？
@@ -39,29 +39,28 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 你可以从如下发行版的 **非官方软件源** 获取 MATE：
 
@@ -70,15 +69,15 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 <!-- 也许 UNIX 才是你的菜？-->
 也许 \*BSD 更符合你的口味？
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-你还可以 `在 DistroWatch.com 网站上查询所有支持 MATE 的发行版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+你还可以 `在 DistroWatch.com 网站上查询所有支持 MATE 的发行版 <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-MATE 社区在 `安装指南  <http://wiki.mate-desktop.org/download>`_ 中说明了如何在不同发行版中安装 MATE。
+MATE 社区在 `安装指南  <https://wiki.mate-desktop.org/download>`_ 中说明了如何在不同发行版中安装 MATE。
 
 
 --------
@@ -147,7 +146,7 @@ MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使
 ------------------
 
 本项目的名称 *"MATE"*，可读作 **马忒** (*Ma-Tay*)，源自一种来自亚热带南美洲的本地冬青物种
-`yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_ 。其枝叶含有咖啡因，一般用来制作
+`yerba maté <https://en.wikipedia.org/wiki/Yerba_mate>`_ 。其枝叶含有咖啡因，一般用来制作
 浸剂和一种称为 mate 的饮品。
 
 .. image:: /assets/img/mate/yerba.jpg

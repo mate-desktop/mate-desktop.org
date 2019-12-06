@@ -9,8 +9,8 @@
 -->
 
 The MATE team are very pleased to announce that we are participatiing in 
-[Google Summer of Code](http://www.google-melange.com/). We are doing this 
-in partnership with our good friends at [openSUSE](http://www.opensuse.org)
+[Google Summer of Code](https://www.google-melange.com/archive/). We are doing this 
+in partnership with our good friends at [openSUSE](https://www.opensuse.org)
 
 ## About Google Summer of Code
 
@@ -34,11 +34,11 @@ the use and benefit of all.
 **The student application period is open from March 10th 2014 until March 21st 2014.**
 
 For assistance in how to apply please read the [Google Summer of Code 2014 
-FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page). 
+FAQ](https://developers.google.com/open-source/gsoc/faq). 
 If you are a student who wants to contribute to MATE via the openSUSE GSoC 
 participation you'll what to check out the following:
 
-  * [MATE Google Summer of Code 2014 Ideas](http://wiki.mate-desktop.org/gsoc:2014)
+  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/gsoc:2014)
   * [openSUSE Google Summer of Code 2014 Ideas](https://en.opensuse.org/openSUSE:GSOC_ideas)
   * [openSUSE participates in GSoC 2014](https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
 
@@ -57,7 +57,6 @@ Martin Wimpress (`flexiondotorg` on IRC). The best way to communicate and
 interact with the MATE mentors is via:
 
   * [#mate IRC channel on Freenode](https://webchat.freenode.net/?channels=#mate)
-  * [mate-dev mailing list](http://ml.mate-desktop.org/listinfo/)
   * [MATE on GitHub](https://github.com/mate-desktop)
 
 We look forward to reviewing your applications!

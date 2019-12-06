@@ -11,9 +11,9 @@ per gli utenti Linux e di altri sistemi operativi stile Unix, usando le
 metafore tradizionali.
 
 MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie mentre
-preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <http://wiki.mate-desktop.org/roadmap>`_ 
+preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <https://wiki.mate-desktop.org/roadmap>`_ 
 
-Il `Manifesto di MATE <http://wiki.mate-desktop.org/board:manifesto>`_
+Il `Manifesto di MATE <https://wiki.mate-desktop.org/board:manifesto>`_
 delinea alcuni dei principi che guidano il progetto.
 
 .. image:: /screens/screenshot.jpg
@@ -30,7 +30,7 @@ Novità
     :stop: 5
 
 I post dei blog sono indicizzati per `tag <tags/>`_ e `archiviati per data <archive/>`_.
-Puoi anche dare un occhiata al `Planet MATE <http://planet.mate-desktop.org>`_
+Puoi anche dare un occhiata al `Planet MATE <https://planet.mate-desktop.org>`_
 per vedere su cosa la grande community di MATE sta bloggando.
 
 ------------------------------------
@@ -41,28 +41,27 @@ MATE è disponibile tramite i repository **ufficiali** per le seguenti distribuz
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix e GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE è disponibile tramite i repository **non ufficiali** per le seguenti distribuzioni Linux, ma l'inclusione nei loro 
 repository ufficiali è stato pianificato:
@@ -72,16 +71,16 @@ repository ufficiali è stato pianificato:
 
 Preferisci UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-Puoi anche `interrogare DistroWatch.com per tutte le distribuzioni che supportano MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Puoi anche `interrogare DistroWatch.com per tutte le distribuzioni che supportano MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La community di MATE ha documentato come installare MATE su diverse distribuzioni nella
-`linee guida installazione <http://wiki.mate-desktop.org/download>`_.
+`linee guida installazione <https://wiki.mate-desktop.org/download>`_.
 
 ------------
 Applicazioni
@@ -166,7 +165,7 @@ Terminal è un fork di GNOME Terminal.
 Da dove proviene il nome?
 -------------------------
 
-Il nome *"MATE"*, pronunciato *Ma-Tay*, viene da `yerba maté <http://en.wikipedia.org/wiki/Yerba_mate>`_,
+Il nome *"MATE"*, pronunciato *Ma-Tay*, viene da `yerba maté <https://en.wikipedia.org/wiki/Yerba_mate>`_,
 una specie di agrifoglio nativo del Sud America subtropicale. Le sue foglie contengono
 caffeina e sono usati per fare infusioni e una bevanda chiamate mate.
 

@@ -9,9 +9,9 @@
 O MATE Desktop Environment é a continuação do GNOME 2. Ele fornece um ambiente de trabalho intuitivo e atraente usando metáforas tradicionais para Gnu/Linux e outros sistemas operacionais Unix-like.
 
 MATE está em desenvolvimento ativo para adicionar suporte para novas tecnologias, preservando uma experiência 
-de desktop tradicional. Veja nosso `Roteiro <http://wiki.mate-desktop.org/roadmap>`_.
+de desktop tradicional. Veja nosso `Roteiro <https://wiki.mate-desktop.org/roadmap>`_.
 
-O `Manifesto MATE <http://wiki.mate-desktop.org/board:manifesto>` _ descreve alguns dos princípios que 
+O `Manifesto MATE <https://wiki.mate-desktop.org/board:manifesto>` _ descreve alguns dos princípios que 
 norteiam o projeto.
 
 .. image:: /screens/screenshot.jpg
@@ -27,7 +27,7 @@ Novidades
     :lang: pt
     :stop: 5
 
-Você deve também dar uma olhada em `Planet MATE <http://planet.mate-desktop.org>`_
+Você deve também dar uma olhada em `Planet MATE <https://planet.mate-desktop.org>`_
 para ver o que a comunidade MATE está blogando.
 
 ----------------------------
@@ -38,28 +38,27 @@ Mate está disponível através dos repositórios **officiais** das distribuiç�
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix e GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <https://www.voidlinux.org/>`_
 
 MATE está disponível repositórios via *não oficiais* dessas dustros, mas sua inclusão está sendo planejada:
 
@@ -67,15 +66,15 @@ MATE está disponível repositórios via *não oficiais* dessas dustros, mas sua
 
 Você prefere UNIX?
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-Você pode também `consultar DistroWatch.com para saber quais distribuições suportam MATE <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
+Você pode também `consultar DistroWatch.com para saber quais distribuições suportam MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-A comunidade MATE documentou como instalar MATE em muitas distribuições nos guia de `Instalação <http://wiki.mate-desktop.org/download>`_.
+A comunidade MATE documentou como instalar MATE em muitas distribuições nos guia de `Instalação <https://wiki.mate-desktop.org/download>`_.
 
 -----------
 Aplicativos
@@ -140,7 +139,7 @@ De onde vem esse nome?
 ----------------------
 
 O nome *"MATE"*, vem de `erva mate
-<https://www.pt.wikipedia.org/wiki/Erva-mate>`_, uma espécie de azevinho nativa da América do Sul subtropical. Suas folhas contêm cafeína e são usados ​​para fazer infusões e bebidas.
+<https://pt.wikipedia.org/wiki/Erva-mate>`_, uma espécie de azevinho nativa da América do Sul subtropical. Suas folhas contêm cafeína e são usados ​​para fazer infusões e bebidas.
 
 .. image:: /assets/img/mate/yerba.jpg
     :align: center

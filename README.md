@@ -1,11 +1,11 @@
 # mate-desktop.org
 
-This repository contains the [Nikola](http://getnikola.com) configuration and
-content for <http://mate-desktop.org>.
+This repository contains the [Nikola](https://getnikola.com) configuration and
+content for <https://mate-desktop.org>.
 
 # Contributing content
 
-If you want to add or edit content on <http://mate-desktop.org>, please submit
+If you want to add or edit content on <https://mate-desktop.org>, please submit
 a [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Contributing a new post
@@ -144,9 +144,9 @@ exposed via reStructured Text extension.
 ### Markdown
 
 Nikola follows the [syntax
-rules](http://daringfireball.net/projects/markdown/syntax) of the original
+rules](https://daringfireball.net/projects/markdown/syntax) of the original
 `markdown.pl` with the following
-[extensions](http://pythonhosted.org/Markdown/extensions/index.html) enabled:
+[extensions](https://pypi.org/) enabled:
 
   * `extra`
   * `codehilite`
@@ -154,8 +154,8 @@ rules](http://daringfireball.net/projects/markdown/syntax) of the original
 
 ### reStructured Text
 
-See the Nikola [reStructuredText Primer](http://getnikola.com/quickstart.html) and
-the [reStructured Text extensions](http://getnikola.com/handbook.html#restructuredtext-extensions).
+See the Nikola [reStructuredText Primer](https://getnikola.com/quickstart.html) and
+the [reStructured Text extensions](https://getnikola.com/handbook.html#restructuredtext-extensions).
 
 # Creating a Nikola stack
 

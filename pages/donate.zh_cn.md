@@ -77,8 +77,8 @@ img.centered {
           <input type="hidden" name="t3" value="M">
           <input type="hidden" name="src" value="1">
           <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="http://mate-desktop.org/zh_tw/donation-completed/">
-          <input type="hidden" name="cancel_return" value="http://mate-desktop.org/zh_tw/donation-cancelled/">
+          <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
+          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
         </form>
       </div>
     </div>
@@ -128,8 +128,8 @@ img.centered {
           <input type="hidden" name="amount" value="">
           <input type="hidden" name="src" value="1">
           <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="http://mate-desktop.org/zh_tw/donation-completed/">
-          <input type="hidden" name="cancel_return" value="http://mate-desktop.org/zh_tw/donation-cancelled/">
+          <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
+          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
         </form>
       </div>
     </div>

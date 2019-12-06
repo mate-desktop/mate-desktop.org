@@ -18,23 +18,21 @@ and we encourage anyone seeking MATE support to head to one of the following dis
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
-  * [Fedora Forum](http://fedoraforum.org/)
+  * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
-  * [Linux Mint Forums](http://forums.linuxmint.com/)
-  * [Salix Forums](http://www.salixos.org/)
+  * [Linux Mint Forums](https://forums.linuxmint.com/)
+  * [Salix Forums](https://www.salixos.org/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
 
 MATE Desktop also has official threads in various distribution forums:
 
   * [MATE thread on Arch Linux topic](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [MATE thread on SalixOS topic](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [MATE thread on Ubuntu topic](http://ubuntuforums.org/showthread.php?p=11333073)
+  * [MATE thread on SalixOS topic](https://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
+  * [MATE thread on Ubuntu topic](https://ubuntuforums.org/showthread.php?p=11333073)
 
 MATE Desktop discussion can also be found on Google+ and Twitter.
 
-  * [MATE Desktop Google+ Community](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [MATE Desktop Google+ Page](https://plus.google.com/105251070079435964338/)
   * [MATE Desktop Twitter](https://twitter.com/mate_desktop)
 
 We'd like to thank the MATE Desktop forum moderators, past and present, for all the time and effort they've 
@@ -43,6 +41,5 @@ forums we've highlighted above.
 
 Should anyone want to take on the administration and moderation of the MATE Desktop forums then please come 
 and chat with the [MATE Desktop team](/team/) in the `#mate-dev` IRC channel on Freenode. We can potentially 
-reactivate the forums, but for now you can find an archive here:
+reactivate the forums.
 
-  * [MATE Desktop Forum Archive](http://forum_archive.mate-desktop.com)

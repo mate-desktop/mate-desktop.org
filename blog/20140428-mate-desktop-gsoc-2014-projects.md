@@ -32,6 +32,6 @@ Please join me in welcoming these new contributors to the MATE team and wish
 them every success with their respective projects for the summer.
 
 On behalf on the entire MATE team I'd also like to extend our thanks and
-gratitude to [openSUSE](http://www.opensuse.org) who are our GSoC organiser for
+gratitude to [openSUSE](https://www.opensuse.org) who are our GSoC organiser for
 2014. They did a fantastic job in helping secure these GSoC placements for the
 MATE team that will provide much need development resources to the project.

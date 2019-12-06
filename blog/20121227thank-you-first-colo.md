@@ -10,7 +10,7 @@
 
 ![FirstColo](/assets/img/blog/first-color.gif)
 
-[FirstColo](http://www.first-colo.net/EN/), operate a modern data center in Germany, and
+[FirstColo](https://www.first-colo.net/en/), operate a modern data center in Germany, and
 are planning to migrate to MATE Desktop on their office workstations. FirstColo have
 kindly donated a new dedicated server to support MATE.
 

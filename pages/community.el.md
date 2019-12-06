@@ -16,23 +16,21 @@
 Θα βρείτε πολύ χρήσιμο υλικό στο wiki μας, αλλά επίσης σας ενθαρύνουμε 
 να συμβάλεται στη βελτιστοποίηση του.
 
-  * <http://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org>
 
 ### Επίσημο νήμα forum
 
 Έχουμε επίσης επίσημα νήματα σε διάφορα forums των διανομών:
 
   * [Το MATE στο forum τής Archlinux](https://bbs.archlinux.org/viewtopic.php?id=121162&p=1)
-  * [Το MATE στο forum του Linux Mint](http://forums.linuxmint.com/viewtopic.php?t=86481)
-  * [Το MATE στο forum του SalixOS](http://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
-  * [Το MATE στο forum των Ubuntu](http://ubuntuforums.org/showthread.php?p=11333073)
+  * [Το MATE στο forum του Linux Mint](https://forums.linuxmint.com/viewtopic.php?t=86481)
+  * [Το MATE στο forum του SalixOS](https://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
+  * [Το MATE στο forum των Ubuntu](https://ubuntuforums.org/showthread.php?p=11333073)
 
 ## Κοινώνικά δίκτυα
 
 Έιστε στα μέσα κοινωνικής δικτύωσης?
 
-  * [Κοινότητα MATE Google+](https://plus.google.com/u/0/communities/103904770310171205536)
-  * [Σελίδα MATE Google+](https://plus.google.com/105251070079435964338/)
   * [Προφίλ MATE Twitter](https://twitter.com/mate_desktop) 
 
 ## IRC
@@ -41,10 +39,10 @@
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-Ύπάρχουν πολλά IRC κανάλια διαθέσιμα. Μπορείτε να βρείτε όλες τις λεπτομέρειες στη [wiki σελίδα του IRC μας](http://wiki.mate-desktop.org/irc).
+Ύπάρχουν πολλά IRC κανάλια διαθέσιμα. Μπορείτε να βρείτε όλες τις λεπτομέρειες στη [wiki σελίδα του IRC μας](https://wiki.mate-desktop.org/irc).
 
 ## Planet
 
 Αναρτήσεις από μέλη της κοινότητας του MATE είναι συγκεντρωμένα στο Planet.
 
-  * [Planet MATE](http://planet.mate-desktop.org)
+  * [Planet MATE](https://planet.mate-desktop.org)

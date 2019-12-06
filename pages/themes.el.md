@@ -8,7 +8,7 @@
 -->
 
 Τα περισσότερα θέματα που είναι σχεδιασμένα για GTK 2.x και GTK 3.x λειτουργούν στο περιβάλλον MATE. 
-Μπείτε στο [MATE-Look](http://mate-look.org) για να δείτε τι μπορείτε να βρείτε.
+Μπείτε στο [MATE-Look](https://mate-look.org) για να δείτε τι μπορείτε να βρείτε.
 
   * [GTK 2.x θέματα](https://www.mate-look.org/browse/cat/136)
   * [GTK 3.x θέματα](https://www.mate-look.org/browse/cat/135)

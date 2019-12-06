@@ -16,7 +16,7 @@ Diese Live-CD wurde erstellt, damit potentielle neue Nutzer den MATE-Desktop
 ausprobieren können, ohne Änderungen an Ihrem System vornehmen zu müssen.
 Das Image kann auf eine DVD gebrannt, als ISO eingehangen oder
 direkt auf einen USB-Stick (mittels eines Utilitys wie `dd`) geschrieben werden.
-[Linux Luddites](http://linuxluddites.com/) aufgepasst: `unetbootin` wird nicht unterstützt.
+[Linux Luddites](https://luddites.latenightlinux.com/) aufgepasst: `unetbootin` wird nicht unterstützt.
 
 Sie können es wie folgt herunterladen:
 
@@ -26,7 +26,7 @@ Wenn Sie die zusätzlichen Bytes verschmerzen können, lassen Sie bitte den Clie
 nachdem der Download beendet ist, damit Sie es an andere zurück "seeden" können.
 *Für höchste Download-Geschwindigkeit wird ein "web-seed-fähiger" Client empfohlen.
 
-  * [matelivecd-14.069.1449.iso.torrent](http://repo.mate-desktop.org/livecd/matelivecd-14.069.1449.iso.torrent)
+  * [matelivecd-14.069.1449.iso.torrent]
 
 ### Direkter HTTP-Download
 
@@ -34,12 +34,12 @@ Zusätzlich zu dem BitTorrent-Link oben, kann das ".iso" der Live-CD auch
 über HTTP heruntergeladen werden. Bitte vergewissern Sie sich, dass die heruntergeladene
 Datei zu der SHA1-Checksum passt.
 
-  * [matelivecd-14.069.1449.iso](http://repo.mate-desktop.org/livecd/matelivecd-14.069.1449.iso) [ ~964MB ]
+  * [matelivecd-14.069.1449.iso]
     * SHA1: `12b529d17d1ecef39d9b0e1122fb5271e0534c0a`
 
 ## Kompatibilität
 
-Die Live-CD wurde mit [Arch Linux](http://www.archlinux.org) und MATE 1.8 gebaut. 
+Die Live-CD wurde mit [Arch Linux](https://www.archlinux.org) und MATE 1.8 gebaut. 
 Die Live-CD ist 32-Bit und sollte daher auf jedem i686- oder x86_64-Rechner mit
 mindestens 512MB RAM laufen. X.Org-Treiber sind enthalten für Intel (`i915`),
 AMD/ATI (`radeon`) und nvidia (`nouveau`) mit einer Ausweichlösung mittels VESA.
@@ -70,22 +70,19 @@ aber wir haben einige zusätzliche nicht zum MATE-Desktop gehörenden Anwendunge
 um die Live-CD ein wenig nützlicher und unterhaltsamer zu machen.
 
   * [Firefox](https://www.mozilla.org/firefox/)   - Stand-Alone Web-Browser von mozilla.org
-  * [GParted](http://gparted.sourceforge.net)   - Ein Klon von Partition Magic, Front-End für GNU Parted
-  * [HardInfo](http://hardinfo.berlios.de/wiki/index.php/Main_Page)  - Ein System-Informations- und Benchmark-Tool
-  * [Hexchat](http://hexchat.github.io/)   - IRC-Client, konfiguriert für die automatischen Verbindung zu [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
-  * [Onboard](http://www.gnome.org/projects/orca)      - Screen-Reader für blinde bzw. sehbeinträchtigte Personen
-  * [Orca](http://www.gnome.org/projects/orca)      - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen
-  * [Pidgin](http://pidgin.im/)    - Multi-Protokoll Instant-Messaging Client
-  * [Truecrypt](http://www.truecrypt.org/) - Freie, quelloffene, cross-plattform Festplatten-Verschlüsselungs-Software
+  * [GParted](https://gparted.sourceforge.io/)   - Ein Klon von Partition Magic, Front-End für GNU Parted
+  * [HardInfo](https://www.berlios.de/software/hardinfo/)  - Ein System-Informations- und Benchmark-Tool
+  * [Hexchat](https://hexchat.github.io/)   - IRC-Client, konfiguriert für die automatischen Verbindung zu [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
+  * [Onboard](https://www.gnome.org/projects/orca)      - Screen-Reader für blinde bzw. sehbeinträchtigte Personen
+  * [Orca](https://www.gnome.org/projects/orca)      - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen
+  * [Pidgin](https://pidgin.im/)    - Multi-Protokoll Instant-Messaging Client
   * [Xnoise](http://www.xnoise-media-player.com/)    - Medien-Player mit einer schicken GUI, hoher Geschwindigkeit und vielen Features
 
 ## Creative-Commons-Inhalte
 
 Wir haben die folgenden Inhalte, lizensiert unter Creative-Commons, hinzugepackt:
 
-  * [Think Python](http://www.greenteapress.com/thinkpython/)                        - Zum Lesen mit Atril
-  * [Nine in Nails Ghosts I - IV](http://ghosts.nin.com/main/home) Ein Album - Zum Hören mit Xnoise
-  * [Nine in Nails Ghosts I - IV](http://ghosts.nin.com/main/home) Photos  - Zum Betrachten mit "Eye of MATE"
+  * [Think Python](https://www.greenteapress.com/thinkpython/)                        - Zum Lesen mit Atril
 
 ## Die Sprache ändern
 
@@ -108,8 +105,8 @@ in Ihre MATE-Session, die nun Ihre bevorzugte Sprache verwendet:
 ## Vorstellung in der Linux-Action-Show
 
 Die MATE-Desktop-Live-CD und MATE selbst haben wir
-auf der [Linux Action Show](http://www.jupiterbroadcasting.com/show/linuxactionshow/) vorgestellt
-in der [CuBox-Linux-Review](http://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/)-Episode.
+auf der [Linux Action Show](https://www.jupiterbroadcasting.com/show/linuxactionshow/) vorgestellt
+in der [CuBox-Linux-Review](https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/)-Episode.
 Zwei Videos sind unten eingebettet. Das erste bietet einen kurzen Einblick in die MATE-Desktop-Live-CD,
 das zweite eine Besprechung der CuBox i4, auf der MATE läuft.
 

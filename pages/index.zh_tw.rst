@@ -12,9 +12,9 @@ MATE 桌面環境是 GNOME 2 的延續。它提供了一個
 類 Unix 作業系統的傳統隱喻。
 
 MATE 正在積極開發中，在保留傳統桌面體驗的同時
-加入對新技術的支援。見 `路線圖 <http://wiki.mate-desktop.org/roadmap>`_ 
+加入對新技術的支援。見 `路線圖 <https://wiki.mate-desktop.org/roadmap>`_ 
 
-`MATE 宣言 <http://wiki.mate-desktop.org/board:manifesto>`_
+`MATE 宣言 <https://wiki.mate-desktop.org/board:manifesto>`_
 列出了一些指引專案前進的原則。
 
 .. image:: /screens/screenshot.jpg
@@ -31,7 +31,7 @@ MATE 正在積極開發中，在保留傳統桌面體驗的同時
     :stop: 5
 
 部落格貼文也以 `標籤 <tags/>`_ 來索引，並 `按日期存檔 <archive/>`_ 。
-您也可能想要看一看 `MATE 星球 <http://planet.mate-desktop.org>`_
+您也可能想要看一看 `MATE 星球 <https://planet.mate-desktop.org>`_
 來看看廣大的 MATE 社群在部落格上發表了什麼東西。
 
 ---------------------------------
@@ -42,46 +42,45 @@ MATE 在以下的 Linux 散佈版的 **官方** 套件庫中提供：
 
 * `Alpine Linux <https://www.alpinelinux.org/>`_
 * `AOSC <https://aosc.io/>`_
-* `Arch Linux <http://www.archlinux.org>`_
+* `Arch Linux <https://www.archlinux.org>`_
 * `Alpine Linux <https://www.alpinelinux.org/>`_
-* `Debian <http://www.debian.org>`_
-* `Fedora <http://www.fedoraproject.org>`_
-* `Gentoo <http://www.gentoo.org>`_
+* `Debian <https://www.debian.org>`_
+* `Fedora <https://www.fedoraproject.org>`_
+* `Gentoo <https://www.gentoo.org>`_
 * `GNU Guix and GNU GuixSD <https://gnu.org/s/guix>`_
-* `Linux Mint <http://linuxmint.com>`_
+* `Linux Mint <https://linuxmint.com>`_
 * `Mageia <https://www.mageia.org/en/>`_
-* `Manjaro <http://manjaro.org/>`_
-* `openSUSE <http://www.opensuse.org>`_
-* `Parrot Security OS <http://www.parrotsec.org/>`_
-* `PCLinuxOS <http://www.pclinuxos.com/get-pclinuxos/mate/>`_
+* `Manjaro <https://manjaro.org/>`_
+* `openSUSE <https://www.opensuse.org>`_
+* `Parrot Security OS <https://www.parrotsec.org/>`_
+* `PCLinuxOS <https://www.pclinuxos.com/get-pclinuxos/mate/>`_
 * `PLD Linux <https://www.pld-linux.org/>`_
-* `Point Linux <http://pointlinux.org/>`_
-* `Sabayon <http://www.sabayon.org>`_
-* `Salix <http://www.salixos.org>`_
+* `Sabayon <https://www.sabayon.org>`_
+* `Salix <https://www.salixos.org>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
-* `Ubuntu <http://www.ubuntu.com>`_
-* `Ubuntu MATE <http://www.ubuntu-mate.org>`_
+* `Ubuntu <https://www.ubuntu.com>`_
+* `Ubuntu MATE <https://www.ubuntu-mate.org>`_
 * `Uruk GNU/Linux <https://urukproject.org/dist/>`_
 * `Vector Linux <http://vectorlinux.com>`_
-* `Void Linux <http://www.voidlinux.eu/>`_
+* `Void Linux <http://www.voidlinux.org/>`_
 
 MATE 在以下的 Linux 散佈版的 *非官方* 套件庫中提供：
 
-* `Slackware <http://www.slackware.com>`_
+* `Slackware <https://www.slackware.com>`_
 
 也許您比較喜歡 UNIX？
 
-* `GhostBSD <http://ghostbsd.org>`_
-* `FreeBSD <http://freebsd.org>`_
+* `GhostBSD <https://ghostbsd.org>`_
+* `FreeBSD <https://freebsd.org>`_
 * `OpenIndiana <https://www.openindiana.org>`_
 * `TrueOS <https://www.trueos.org/>`_
 * `OS108 <https://OS108.org/>`_
 
-您也可以 `在 DistroWatch.com 上查詢所有支援 MATE 的散佈版 <http://distrowatch.org/search.php?desktop=MATE#distrosearch>`_ 。
+您也可以 `在 DistroWatch.com 上查詢所有支援 MATE 的散佈版 <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_ 。
 
 MATE 社群已經寫好了關於如何在許多散佈版上安裝 MATE 的文件，可在
-`安裝指南 <http://wiki.mate-desktop.org/download>`_ 內看到。
+`安裝指南 <https://wiki.mate-desktop.org/download>`_ 內看到。
 
 ------------
 應用程式

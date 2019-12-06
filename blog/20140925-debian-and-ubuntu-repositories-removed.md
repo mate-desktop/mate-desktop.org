@@ -8,9 +8,9 @@
 .. author: Martin Wimpress
 -->
 
-Thanks to the efforts of the [MATE package maintainers for Debian](https://alioth.debian.org/projects/pkg-mate)
+Thanks to the efforts of the [MATE package maintainers for Debian](https://salsa.debian.org/groups/debian-mate-team/-/group_members)
 MATE 1.8.1 is available in Debian Jessie (testing) and also
-[Debian backports](http://backports.debian.org) for Wheezy.
+[Debian backports](https://backports.debian.org) for Wheezy.
 
 As a result of MATE 1.8.1 hitting the Debian testing repositories
 earlier this year, MATE 1.8.1 is also in the official archive

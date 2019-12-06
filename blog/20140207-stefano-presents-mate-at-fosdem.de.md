@@ -1,5 +1,5 @@
 <!--
-.. link: http://www.youtube.com/watch?v=iwQ7iqNwRKs
+.. link: https://www.youtube.com/watch?v=iwQ7iqNwRKs
 .. description:
 .. tags: News,FOSDEM
 .. date: 2014-02-07 14:16:13
@@ -17,11 +17,8 @@ zwischen MATE und anderen herkömmlichen GTK-basierenden Desktop-Umgebungen erö
 Danach erklärt Stefano, wie MATE sich entwickelt hat, seit es von GNOME2 geforkt wurde.
 Eine kurze Auswertung der jüngeren Verbesserungen findet statt, gefolgt von 
 einer Übersicht über der MATE-Roadmap und anderen Projekten, die 
-von MATE profitieren, z.B. [Sonar](http://sonar-project.org),
-[Raspberry Pi](http://www.raspberrypi.org/) und [LTSP](http://www.ltsp.org/).
+von MATE profitieren, z.B. [Sonar](https://sonar-project.org),
+[Raspberry Pi](https://www.raspberrypi.org/) und [LTSP](http://www.ltsp.org/).
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen></iframe>
 
-<div class="alert alert-success">
-<strong>Diskussion</strong> <a href="http://forums.mate-desktop.org/viewtopic.php?f=20&t=2928" class="alert-link">Kommentare</a>
-</div>

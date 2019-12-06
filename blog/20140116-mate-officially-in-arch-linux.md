@@ -10,7 +10,7 @@
 
 MATE has finally found it's way home.
 
-As some of you may know MATE was created by an [Arch Linux](http://www.archlinux.org)
+As some of you may know MATE was created by an [Arch Linux](https://www.archlinux.org)
 user, Perberos. It is somewhat ironic then that MATE has never featured
 in the official Arch Linux package repository until now. That's right,
 MATE is finally available in the Arch Linux `[community]` package
@@ -19,8 +19,7 @@ repository!
 You can find out everything you need to know about installing MATE
 on Arch Linux from the following wiki pages:
 
-  * <http://wiki.mate-desktop.org/archlinux_custom_repo>
-  * <https://wiki.archlinux.org/index.php/MATE>  
+  * <https://wiki.archlinux.org/index.php/MATE>
 
 It is also worth noting that the now obsolete unofficial MATE package
 repository will be removed once all the Arch Linux mirrors are synced.
@@ -28,7 +27,7 @@ So go and update `/etc/pacman.conf` and remove the `[mate]` package
 repository.
 
 The other advantage of getting MATE into the official Arch Linux package
-repository is that MATE will now also feature in the [Arch Linux ARM](http://archlinuxarm.org/)
+repository is that MATE will now also feature in the [Arch Linux ARM](https://archlinuxarm.org/)
 package repository. I can finally retire my Raspberry Pi (armv6h) and
 Cubox Pro (armv7h) build *"servers"*. I'm not sure how long it will take
 for all the MATE packages to appear in the Arch Linux ARM package
