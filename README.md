@@ -176,7 +176,7 @@ sudo apt-get install python3 python3-pip asciidoctor virtualenv
 
 On Fedora:
 ```
-sudo dnf install python3 python3-pip asciidoctor virtualenv
+sudo dnf install python3 python3-pip asciidoctor optipng yuicompressor jpegoptim virtualenv
 ```
 
 ### STEP 2: Create a new virtualenv named nikola in ~/MyVirtualEnvs folder
@@ -198,6 +198,7 @@ source nikola/bin/activate
 (nikola) pip install --upgrade python-Levenshtein
 (nikola) pip install --upgrade pathlib
 (nikola) pip install --upgrade beautifulsoup4
+(nikola) pip install --upgrade webassets
 ```
 (nikola) is part of your shell prompt for the virtualenv named nikola, not part of the command.
 
