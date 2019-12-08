@@ -18,20 +18,20 @@ Install the repo file and do a `yum update`.
 
 ### Fedora 22
 
-    wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
-    sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
-    sudo yum update
+    $ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+    $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
+    $ sudo yum update
 
 ### Fedora 21
 
-    wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
-    sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
-    sudo yum update
+    $ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+    $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
+    $ sudo yum update
 
 Or use `dnf` command:
 
-    sudo dnf copr enable raveit65/Mate-GTK3
-    sudo dnf update
+    $ sudo dnf copr enable raveit65/Mate-GTK3
+    $ sudo dnf update
 
 ## Reporting issues
 
