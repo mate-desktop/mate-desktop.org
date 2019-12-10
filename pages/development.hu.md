@@ -33,9 +33,9 @@ A kódot itt is böngészheti a cgit segítségével:
  Egyéb hasznos hivatkozások:
 
   * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE fejlesztés](https://wiki.mate-desktop.org/dev-doc)
-  * [MATE ütemterv](https://wiki.mate-desktop.org/roadmap)
-  * <https://wiki.mate-desktop.org/contribute>
-  * <https://wiki.mate-desktop.org/translation>
+  * [MATE fejlesztés](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
+  * [MATE ütemterv](https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
+  * <https://wiki.mate-desktop.org/#!pages/translation.md>
 
 Nyugodtan működjön közre, és érezze jól magát a MATE fejlesztésekor!

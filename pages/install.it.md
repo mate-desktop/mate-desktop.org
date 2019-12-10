@@ -8,5 +8,5 @@
 -->
 
 La comunità di MATE ha documentato come installare MATE su molte distribuzioni,
-leggere la [guida all'installazione](https://wiki.mate-desktop.org/download)
+leggere la [guida all'installazione](https://wiki.mate-desktop.org/#!pages/download.md)
 per conoscere come fare.

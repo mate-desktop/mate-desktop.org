@@ -13,10 +13,7 @@ ortamı sağlar.
 MATE geleneksel masaüstü deneyimini koruyarak yeni teknolojilerin
 desteklenmesi için etkin bir şekilde geliştirilmektedir. MATE'nin 
 nasıl geliştiği ve gelecekte nelerin beklediğini öğrenmek için
-`yol haritasına <https://wiki.mate-desktop.org/roadmap>`_.
-
-`MATE manifestosu <https://wiki.mate-desktop.org/board:manifesto>`_
-projeye rehberlik eden bazı ilkelerin altını çizer.
+`yol haritasına <https://wiki.mate-desktop.org/#!pages/roadmap.md>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -85,7 +82,7 @@ Ayrıca MATE'yi destekleyen tüm dağıtımları `DistroWatch.com sitesinde
 arayabilirsiniz.
 
 MATE topluluğu, MATE'nin nasıl kurulacağını birçok dağıtım için
-`kurulum yönergelerinde <https://wiki.mate-desktop.org/download>`_ belgelemiştir.
+`kurulum yönergelerinde <https://wiki.mate-desktop.org/#!pages/download.md>`_ belgelemiştir.
 
 -----------
 Uygulamalar

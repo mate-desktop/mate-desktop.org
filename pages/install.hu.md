@@ -8,7 +8,7 @@
 -->
 
 A MATE közösség számos disztribúció esetén dokumentálta a MATE telepítését,
-kövesse a [telepítési útmutatót](https://wiki.mate-desktop.org/download).
+kövesse a [telepítési útmutatót](https://wiki.mate-desktop.org/#!pages/download.md).
 
 Ha Ön egy csomagoló egy disztribúciónál, és a tar archívumokat keresi, akkor
 keresse fel a [Fejlesztés](/development/) oldalt.

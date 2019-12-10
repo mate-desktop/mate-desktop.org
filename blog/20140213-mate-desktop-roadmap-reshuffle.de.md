@@ -17,7 +17,7 @@ Daher wird MATE 1.8 weiterhin auf GTK2 basieren, obwohl GTK3-Applikationen sich
 genauso sauber einfügen wie schon unter MATE 1.6. Die aktualisierte Roadmap findet
 sich in unserer Wiki:
 
-  * [MATE-Roadmap](https://wiki.mate-desktop.org/roadmap)
+  * [MATE-Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
 
 Diese Entscheidung wurde deshalb getroffen, weil die momentane Entwicklungs-Version
 von MATE stabil ist, viele neue Features sowie Verbesserungen und Bug-Fixes beeinhaltet.

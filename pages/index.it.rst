@@ -11,10 +11,7 @@ per gli utenti Linux e di altri sistemi operativi stile Unix, usando le
 metafore tradizionali.
 
 MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie mentre
-preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <https://wiki.mate-desktop.org/roadmap>`_ 
-
-Il `Manifesto di MATE <https://wiki.mate-desktop.org/board:manifesto>`_
-delinea alcuni dei principi che guidano il progetto.
+preserva un'esperienza desktop tradizionale. Vedi la `Roadmap <https://wiki.mate-desktop.org/#!pages/roadmap.md>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -80,7 +77,7 @@ Preferisci UNIX?
 Puoi anche `interrogare DistroWatch.com per tutte le distribuzioni che supportano MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La community di MATE ha documentato come installare MATE su diverse distribuzioni nella
-`linee guida installazione <https://wiki.mate-desktop.org/download>`_.
+`linee guida installazione <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
 ------------
 Applicazioni

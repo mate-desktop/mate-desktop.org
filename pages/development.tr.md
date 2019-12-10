@@ -18,9 +18,9 @@ Kodu cgit ile şurada da tarayabilirsiniz:
  Diğer yararlı bağlantılar:
 
   * [MATE Üniversitesi](/blog/2013-03-12-mate-university/)
-  * [MATE Geliştirmesi](https://wiki.mate-desktop.org/dev-doc)
-  * [MATE yol haritası](https://wiki.mate-desktop.org/roadmap)
-  * <https://wiki.mate-desktop.org/contribute>
-  * <https://wiki.mate-desktop.org/translation>
+  * [MATE Geliştirmesi](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
+  * [MATE yol haritası](https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
+  * <https://wiki.mate-desktop.org/#!pages/translation.md>
   
 Katkıda bulunmaya çekinmeyin, MATE'yi geliştiriken eğlenmenizi umuyoruz!

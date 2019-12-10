@@ -8,4 +8,4 @@
 -->
 
 MATE 社区提供了关于在许多发行版中安装 MATE 桌面环境的方式，
-请参阅 [安装指南](https://wiki.mate-desktop.org/download)。
+请参阅 [安装指南](https://wiki.mate-desktop.org/#!pages/download.md)。

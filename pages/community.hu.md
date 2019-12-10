@@ -16,7 +16,7 @@ hogy kaphat támogatást a közösségtől.
 Sok hasznos anyagot találhat a wikinkben, de arra bátorítjuk, hogy segítsen
 a jobbá tételében.
 
-  * <https://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org/#!index.md>
 
 ## Fórumok
 
@@ -43,7 +43,7 @@ Közösségi típus?
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
 Számos IRC csatorna érhető el. A részeleteket az
-[IRC wiki oldalon](https://wiki.mate-desktop.org/irc) találja.
+[IRC wiki oldalon](https://wiki.mate-desktop.org/#!pages/irc.md) találja.
 
 ## Planet
 

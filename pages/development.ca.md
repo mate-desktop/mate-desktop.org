@@ -33,9 +33,9 @@ També podeu navegar pel codi amb cgit:
 Altres enllaços útils:
 
   * [Universitat de MATE](/blog/2013-03-12-mate-university/)
-  * [Desenvolupament de MATE](https://wiki.mate-desktop.org/dev-doc)
-  * [Full de ruta de MATE](https://wiki.mate-desktop.org/roadmap)
-  * <https://wiki.mate-desktop.org/contribute>
-  * <https://wiki.mate-desktop.org/translation>
+  * [Desenvolupament de MATE](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
+  * [Full de ruta de MATE](https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
+  * <https://wiki.mate-desktop.org/#!pages/translation.md>
   
 No dubteu a contribuir i divertir-vos millorant MATE!

@@ -10,9 +10,7 @@ El entorno de escritorio MATE es la continuación de GNOME 2. Provee un entorno 
 usando las metáforas tradicionales de Linux y otros sistemas operativos estilo Unix.
 
 MATE está siendo desarrollado activamente para añadir apoyo para tecnologías nuevas, y a la misma vez
-preservar la experiencia tradicional de un escritorio. Vea el `Roadmap <https://wiki.mate-desktop.org/roadmap>`_.
-El `Manifesto MATE <https://wiki.mate-desktop.org/board:manifesto>`_ resume algunos de los principios
-que guían el proyecto.
+preservar la experiencia tradicional de un escritorio. Vea el `Roadmap <https://wiki.mate-desktop.org/#!pages/roadmap.md>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -77,7 +75,7 @@ MATE está disponible a través de los repositorios *no oficiales* de las siguie
 También puedes buscar en `DistroWatch.com todas las distribuciones compatibles con MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 La comunidad de MATE ha documentado como instalar MATE en varias distribuciones en
-la `guía de instalación <https://wiki.mate-desktop.org/download>`_.
+la `guía de instalación <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
 ---------
 Programas

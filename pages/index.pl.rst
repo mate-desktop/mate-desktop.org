@@ -12,10 +12,7 @@ metafory dla Linuxa oraz innych unixopodobnych systemów operacyjnych.
 
 MATE jest rozwijane przez aktywnych programistów, którzy wspierają nowe technologie 
 równocześnie kultywując dotychczasowe osiągnięcia desktopowe. 
-Zajrzyj na `harmonogram <https://wiki.mate-desktop.org/roadmap>`_.
-
-`Manifest MATE <https://wiki.mate-desktop.org/board:manifesto>`_ 
-jest zarysem głównych zasad kierujących projektem.
+Zajrzyj na `harmonogram <https://wiki.mate-desktop.org/#!pages/roadmap.md>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -82,7 +79,7 @@ Możesz również na Distro Watch `poszukać wszystkich dystrybucji Linuxa wspie
 przez Mate <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 Społeczność MATE stworzyła instrukcję instalacji MATE dla wielu dystrybucji. Jest ona dostępna w 
-`Przewodniku instalacji <https://wiki.mate-desktop.org/download>`_.
+`Przewodniku instalacji <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
 ---------
 Aplikacje
