@@ -10,8 +10,7 @@ A MATE asztali környezet a GNOME 2 folytatása. Intuitív és vonzó asztali k�
 amely a Linux és más Unix-szerű operációs rendszereken megszokott hagyományos metaforákat használja.
 
 A MATE aktív fejlesztés alatt áll, hogy támogatást nyújtson az új technológiákhoz, miközben
-megőrzi a hagyományos asztali környezet élményét. Lásd az `Ütemtervet <https://wiki.mate-desktop.org/roadmap>`_. A `MATE kiáltvány 
-<https://wiki.mate-desktop.org/board:manifesto>`_ körvonalazza a projektet vezérlő elveket.
+megőrzi a hagyományos asztali környezet élményét. Lásd az `Ütemtervet <https://wiki.mate-desktop.org/#!pages/roadmap.md>`_.
 
 .. image:: /screens/screenshot.jpg
     :align: center
@@ -77,7 +76,7 @@ Vagy inkább a UNIX-ot kedveli?
 Valamint a `DistroWatch.com-on is lekérdezheti azon disztribúciókat, melyek támogatják a MATE asztali környezetet <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
 A MATE közösség számos disztribúció esetén dokumentálta a MATE telepítését,
-kövesse a `telepítési útmutatót <https://wiki.mate-desktop.org/download>`_.
+kövesse a `telepítési útmutatót <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
 ------------
 Alkalmazások

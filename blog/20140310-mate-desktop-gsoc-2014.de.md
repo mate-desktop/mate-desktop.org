@@ -40,7 +40,7 @@ Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of C
 Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme 
 beitragen wollen, sollten Sie das folgende lesen:
 
-  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/gsoc:2014)
+  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/pages/gsoc-2014)
   * [openSUSE Google Summer of Code 2014 Ideas](https://en.opensuse.org/openSUSE:GSOC_ideas)
   * [openSUSE participates in GSoC 2014](https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
 

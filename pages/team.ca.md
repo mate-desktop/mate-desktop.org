@@ -157,7 +157,7 @@ Desenvolupament.
 ## Consell
 
 L'entorn d'escriptori MATE té un consell directiu. La
-[pàgina wiki del consell de MATE](https://wiki.mate-desktop.com/board)
+[pàgina wiki del consell de MATE](https://wiki.mate-desktop.org/#!pages/users.md)
 llista els membres actuals i descriu els seus deures.
 
 <small>

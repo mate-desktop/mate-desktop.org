@@ -10,7 +10,7 @@
 
 We are now directing users to use the official Fedora package repository now.
 For instructions on using this repository please consult [our installation
-guide for Fedora](https://wiki.mate-desktop.org/download#fedora).
+guide for Fedora](https://wiki.mate-desktop.org/#!pages/download.md#Fedora).
 
 For more information about MATE's official inclusion in Fedora, see the following:
  

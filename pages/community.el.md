@@ -16,7 +16,7 @@
 Θα βρείτε πολύ χρήσιμο υλικό στο wiki μας, αλλά επίσης σας ενθαρύνουμε 
 να συμβάλεται στη βελτιστοποίηση του.
 
-  * <https://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org/#!index.md>
 
 ### Επίσημο νήμα forum
 
@@ -39,7 +39,7 @@
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-Ύπάρχουν πολλά IRC κανάλια διαθέσιμα. Μπορείτε να βρείτε όλες τις λεπτομέρειες στη [wiki σελίδα του IRC μας](https://wiki.mate-desktop.org/irc).
+Ύπάρχουν πολλά IRC κανάλια διαθέσιμα. Μπορείτε να βρείτε όλες τις λεπτομέρειες στη [wiki σελίδα του IRC μας](https://wiki.mate-desktop.org/#!pages/irc.md).
 
 ## Planet
 

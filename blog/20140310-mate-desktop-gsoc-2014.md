@@ -38,7 +38,7 @@ FAQ](https://developers.google.com/open-source/gsoc/faq).
 If you are a student who wants to contribute to MATE via the openSUSE GSoC 
 participation you'll what to check out the following:
 
-  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/gsoc:2014)
+  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/pages/gsoc-2014)
   * [openSUSE Google Summer of Code 2014 Ideas](https://en.opensuse.org/openSUSE:GSOC_ideas)
   * [openSUSE participates in GSoC 2014](https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
 

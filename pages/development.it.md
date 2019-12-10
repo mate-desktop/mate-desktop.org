@@ -18,9 +18,9 @@ I repository git per MATE sono ospitati su GitHub.
  Altri link utili:
 
   * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE Development](https://wiki.mate-desktop.org/dev-doc)
-  * [MATE Roadmap](https://wiki.mate-desktop.org/roadmap)
-  * <https://wiki.mate-desktop.org/contribute>
-  * <https://wiki.mate-desktop.org/translation>
+  * [MATE Development](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
+  * [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
+  * <https://wiki.mate-desktop.org/#!pages/translation.md>
 
 Non esitare a contribuire e divertirti migliorando MATE!

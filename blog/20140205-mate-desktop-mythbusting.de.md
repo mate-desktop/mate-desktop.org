@@ -17,7 +17,7 @@ entwickelt, zu sprechen. Das MATE-Mythbusting-Video finded sich unten eingebette
 
 Es gelang mir nicht, alle Entwicklungs-Ziele für MATE 1.8 in der verfügbaren
 Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht die
-[MATE-Roadmap](https://wiki.mate-desktop.org/roadmap) anzuschauen.
+[MATE-Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md) anzuschauen.
 
 Sollten Sie weitere Fragen haben, oder zu dem Projekt beitragen wollen,
 dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel](https://webchat.freenode.net/?channels=#mate)

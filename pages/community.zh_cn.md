@@ -14,7 +14,7 @@
 
 我们的文档 (Wiki) 站点中包含许多有用的信息，我们也鼓励你帮助我们改善文档。
 
-  * <https://wiki.mate-desktop.org>
+  * <https://wiki.mate-desktop.org/#!index.md>
 
 ## 论坛
 
@@ -40,7 +40,7 @@
 
   * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
 
-我们还提供了其他数个 IRC 频道。你可以通过 [IRC wiki 页面](https://wiki.mate-desktop.org/irc) 获取更多信息。
+我们还提供了其他数个 IRC 频道。你可以通过 [IRC wiki 页面](https://wiki.mate-desktop.org/#!pages/irc.md) 获取更多信息。
 
 ## MATE 星球
 
