@@ -145,7 +145,7 @@ Here are all the gory details.
   * zoom-control: change zoom with mousewheel scroll over button
   * View -> Visible Columns: fix vertical expand of dialog content
   * reword Size on Disk column description a bit
-  * Fix: wrong <Shift+Del> behavior while renaming files
+  * Fix: wrong <kbd>shift</kbd> + <kbd>del</kbd> behavior while renaming files
   * icon-dnd: remove hardcoded highlight frame
   * Fix: high cpu while loading background image
   * list view: fix large icon margins on zooming out
