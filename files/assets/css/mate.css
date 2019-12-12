@@ -28,3 +28,5 @@ a, a:hover,a:focus,
 .navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus{
     color: #97bb72;
 }
+
+.footerbox {padding: 15px; text-align: center; margin-bottom: 15px;}
