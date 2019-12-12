@@ -378,7 +378,7 @@ MATE Desktop 1.22 的组件可通过以下链接下载：
 * [e031d4f](https://github.com/mate-desktop/caja/commit/e031d4f) fm-tree-view.c: avoid deprecated GtkImageMenuItem
 * [8bebf06](https://github.com/mate-desktop/caja/commit/8bebf06) rename 'mate_image_menu_item...' to 'eel_image_menu_item_new_from_icon'
 * [ffc9106](https://github.com/mate-desktop/caja/commit/ffc9106) eel-editable-label.c: avoid 'append_action_signal' with stock ids
-* [7991810](https://github.com/mate-desktop/caja/commit/7991810) caja-query-editor.c: add #include <eel/eel-stock-dialogs.h>
+* [7991810](https://github.com/mate-desktop/caja/commit/7991810) caja-query-editor.c: add #include &lt;eel/eel-stock-dialogs.h&gt;
 * [7c9b80c](https://github.com/mate-desktop/caja/commit/7c9b80c) avoid 'gtk_file_chooser_dialog_new' with stock ids
 * [4fb3590](https://github.com/mate-desktop/caja/commit/4fb3590) avoid gtk_dialog_new_with_buttons with stock ids
 * [d4711ef](https://github.com/mate-desktop/caja/commit/d4711ef) add caja.pot for auto-update translations
