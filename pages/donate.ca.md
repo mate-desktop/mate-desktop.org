@@ -71,8 +71,8 @@ Dit això, les donacions úniques també s'accepten amb gratitud.
       <input type="hidden" name="t3" value="M">
       <input type="hidden" name="src" value="1">
       <input type="hidden" name="sra" value="1">
-      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
-      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
+      <input type="hidden" name="return" value="https://mate-desktop.org/ca/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/ca/donation-cancelled/">
     </form>
   </div>
 
@@ -111,8 +111,8 @@ Dit això, les donacions úniques també s'accepten amb gratitud.
       <input type="hidden" name="amount" value="">
       <input type="hidden" name="src" value="1">
       <input type="hidden" name="sra" value="1">
-      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
-      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
+      <input type="hidden" name="return" value="https://mate-desktop.org/ca/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/ca/donation-cancelled/">
     </form>
   </div>
 </div>

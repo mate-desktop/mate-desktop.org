@@ -46,7 +46,8 @@ img.centered {
         </div>
         <div class="row">
           <label for="monthly-currency" class="control-label">货币</label>
-          <select id="monthly-currency" class="form-control" name="currency_code"><option>EUR</option>
+          <select id="monthly-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
             <option>USD</option>
             <option selected>GBP</option>
           </select>
@@ -87,7 +88,8 @@ img.centered {
         </div>
         <div class="row">
           <label for="one-time-currency" class="control-label">货币</label>
-          <select id="one-time-currency" class="form-control" name="currency_code"><option>EUR</option>
+          <select id="one-time-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
             <option>USD</option>
             <option selected>GBP</option></select>
         </div>
