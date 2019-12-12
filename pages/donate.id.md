@@ -33,132 +33,105 @@ dan mensponsori proyek Open Source lainnya.
 Meski demikian, donasi satu kali juga kami hargai.
 
 <div class="bs-docs-section">
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="well bs-component">
-        <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
-          <fieldset>
-            <legend>Pendukung PayPal bulanan</legend>
-            <div class="form-group">
-              <label for="donationAmount" class="col-lg-4 control-label">Pilih nominal</label>
-              <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
-                <input type="radio" name="amt" value="25" />25
-                <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="specifyAmount" class="col-lg-4 control-label">Tentukan jumlah Anda sendiri</label>
-              <div class="col-lg-6">
-                <input type="text" name="other" value="" size="5" maxlength="5">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="select" class="col-lg-4 control-label">Mata uang</label>
-              <div class="col-lg-6">
-                <select class="form-control" name="currency_code">
-                  <option>EUR</option>
-                  <option>USD</option>
-                  <option selected="">GBP</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-6">
-                <button type="submit" class="btn btn-primary">Donasi Bulanan</button>
-              </div>
-            </div>
-          </fieldset>
-          <input type="hidden" name="cmd" value="_xclick-subscriptions">
-          <input type="hidden" name="business" value="6282B4CZGVCB6">
-          <input type="hidden" name="item_name" value="MATE Desktop Monthly Supporter">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="charset" value="UTF-8">
-          <input type="hidden" name="a3" value="">
-          <input type="hidden" name="p3" value="1">
-          <input type="hidden" name="t3" value="M">
-          <input type="hidden" name="src" value="1">
-          <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
-          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
-        </form>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <div class="well bs-component">
-        <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
-          <fieldset>
-            <legend>Donasi PayPal satu kali</legend>
-            <div class="form-group">
-              <label for="donationAmount" class="col-lg-4 control-label">Pilih nominal</label>
-              <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
-                <input type="radio" name="amt" value="25" />25
-                <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="specifyAmount" class="col-lg-4 control-label">Tentukan jumlah Anda sendiri</label>
-              <div class="col-lg-6">
-                <input type="text" name="other" value="" size="5" maxlength="5">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="select" class="col-lg-4 control-label">Mata uang</label>
-              <div class="col-lg-6">
-                <select class="form-control" name="currency_code">
-                  <option>EUR</option>
-                  <option>USD</option>
-                  <option selected="">GBP</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-6">
-                <button type="submit" class="btn btn-primary">Donasi Tunggal</button>
-              </div>
-            </div>
-          </fieldset>
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="6282B4CZGVCB6">
-          <input type="hidden" name="item_name" value="MATE Desktop One-time Donation">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="charset" value="UTF-8">
-          <input type="hidden" name="amount" value="">
-          <input type="hidden" name="src" value="1">
-          <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
-          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
-        </form>
-      </div>
-    </div>
+  <div class="well">
+    <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
+      <fieldset>
+        <legend>Pendukung PayPal bulanan</legend>
+        <div class="row">
+          <label class="control-label">Pilih nominal</label>
+          <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
+          <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
+          <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
+          <label class="badge badge-important btn-mini"><input type="radio" name="amt" value="50">50</label>
+          <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
+        </div>
+        <div class="row">
+          <label for="monthly-specifyAmount" class="control-label">Tentukan jumlah Anda sendiri</label>
+          <input type="text" id="monthly-specifyAmount" name="other" value="" size="5" maxlength="5"/>
+        </div>
+        <div class="row">
+          <label for="monthly-currency" class="control-label">Mata uang</label>
+          <select id="monthly-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
+            <option>USD</option>
+            <option selected="">GBP</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Donasi Bulanan</button>
+      </fieldset>
+      <input type="hidden" name="cmd" value="_xclick-subscriptions">
+      <input type="hidden" name="business" value="6282B4CZGVCB6">
+      <input type="hidden" name="item_name" value="MATE Desktop Monthly Supporter">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="charset" value="UTF-8">
+      <input type="hidden" name="a3" value="">
+      <input type="hidden" name="p3" value="1">
+      <input type="hidden" name="t3" value="M">
+      <input type="hidden" name="src" value="1">
+      <input type="hidden" name="sra" value="1">
+      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
+    </form>
+  </div>
+
+  <div class="well">
+    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
+      <fieldset>
+        <legend>Donasi PayPal satu kali</legend>
+        <div class="row">
+          <label class="control-label">Pilih nominal</label>
+          <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
+          <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
+          <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
+          <label class="badge badge-important btn-mini"><input type="radio" name="amt" value="50">50</label>
+          <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
+        </div>
+        <div class="row">
+          <label for="one-time-specifyAmount" class="control-label">Tentukan jumlah Anda sendiri</label>
+          <input id="one-time-specifyAmount" type="text" name="other" value="" size="5" maxlength="5">
+        </div>
+        <div class="row">
+          <label for="one-time-currency" class="control-label">Mata uang</label>
+          <select id="one-time-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
+            <option>USD</option>
+            <option selected="">GBP</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Donasi Tunggal</button>
+      </fieldset>
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="6282B4CZGVCB6">
+      <input type="hidden" name="item_name" value="MATE Desktop One-time Donation">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="charset" value="UTF-8">
+      <input type="hidden" name="amount" value="">
+      <input type="hidden" name="src" value="1">
+      <input type="hidden" name="sra" value="1">
+      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
+    </form>
   </div>
 </div>
 
 ## Bitcoin
 
 <div class="bs-docs-section">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="well bs-component">
-        <legend>Bitcoin</legend>
-          <p>Klik atau scan kode QR dibawah untuk menjalankan Bitcoin client dan
-          mendonasikan 0.02 btc kepada MATE Desktop. Alternatif lain, salin dan paste
-          alamat Bitcoin pada Bitcoin client Anda untuk mendonasikan jumlah yang Anda kehendaki.</p>
-          <p align="center">
-            <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=MATE%20Desktop">
-            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_MATE_Desktop" /></a>
-            <br />
-            <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
-          </p>
-      </div>
-    </div>
+  <div class="well">
+    <fieldset>
+      <legend>Bitcoin</legend>
+      <p>Klik atau scan kode QR dibawah untuk menjalankan Bitcoin client dan
+      mendonasikan 0.02 btc kepada MATE Desktop. Alternatif lain, salin dan paste
+      alamat Bitcoin pada Bitcoin client Anda untuk mendonasikan jumlah yang Anda kehendaki.</p>
+      <p align="center">
+      <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=MATE%20Desktop">
+        <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_MATE_Desktop" /></a>
+      <br />
+      <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
+      </p>
+    </fieldset>
   </div>
 </div>
 

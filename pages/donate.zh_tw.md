@@ -33,133 +33,106 @@ img.centered {
 當然，我們也還是可以接受一次性的捐款。
 
 <div class="bs-docs-section">
-  <div class="row">
-    <div class="col-lg-6">
-      <div class="well bs-component">
-        <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
-          <fieldset>
-            <legend>PayPal 每月支持者</legend>
-            <div class="form-group">
-              <label for="donationAmount" class="col-lg-4 control-label">選擇捐款額度</label>
-              <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
-                <input type="radio" name="amt" value="25" />25
-                <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="specifyAmount" class="col-lg-4 control-label">或是輸入您想要捐款的額度</label>
-              <div class="col-lg-6">
-                <input type="text" name="other" value="" size="5" maxlength="5">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="select" class="col-lg-4 control-label">貨幣</label>
-              <div class="col-lg-6">
-                <select class="form-control" name="currency_code">
-                  <option>EUR</option>
-                  <option>USD</option>
-                  <option selected="">GBP</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-6">
-                <button type="submit" class="btn btn-primary">每月捐款</button>
-              </div>
-            </div>
-          </fieldset>
-          <input type="hidden" name="cmd" value="_xclick-subscriptions">
-          <input type="hidden" name="business" value="6282B4CZGVCB6">
-          <input type="hidden" name="item_name" value="MATE Desktop Monthly Supporter">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="charset" value="UTF-8">
-          <input type="hidden" name="a3" value="">
-          <input type="hidden" name="p3" value="1">
-          <input type="hidden" name="t3" value="M">
-          <input type="hidden" name="src" value="1">
-          <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
-          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
-        </form>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <div class="well bs-component">
-        <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
-          <fieldset>
-            <legend>PayPal 一次性捐款</legend>
-            <div class="form-group">
-              <label for="donationAmount" class="col-lg-4 control-label">選擇捐款額度</label>
-              <div class="col-lg-6">
-                <input type="radio" name="amt" value="5" />5
-                <input type="radio" name="amt" value="10" checked="" />10
-                <input type="radio" name="amt" value="25" />25
-                <input type="radio" name="amt" value="50" />50
-                <input type="radio" name="amt" value="100" />100
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="specifyAmount" class="col-lg-4 control-label">或是輸入您想要捐款的額度</label>
-              <div class="col-lg-6">
-                <input type="text" name="other" value="" size="5" maxlength="5">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="select" class="col-lg-4 control-label">貨幣</label>
-              <div class="col-lg-6">
-                <select class="form-control" name="currency_code">
-                  <option>EUR</option>
-                  <option>USD</option>
-                  <option selected="">GBP</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-6">
-                <button type="submit" class="btn btn-primary">一次性捐款</button>
-              </div>
-            </div>
-          </fieldset>
-          <input type="hidden" name="cmd" value="_xclick">
-          <input type="hidden" name="business" value="6282B4CZGVCB6">
-          <input type="hidden" name="item_name" value="MATE Desktop One-time Donation">
-          <input type="hidden" name="no_shipping" value="1">
-          <input type="hidden" name="no_note" value="1">
-          <input type="hidden" name="charset" value="UTF-8">
-          <input type="hidden" name="amount" value="">
-          <input type="hidden" name="src" value="1">
-          <input type="hidden" name="sra" value="1">
-          <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
-          <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
-        </form>
-      </div>
-    </div>
+  <div class="well bs-component">
+    <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
+      <fieldset>
+        <legend>PayPal 每月支持者</legend>
+        <div class="row">
+          <label class="control-label">選擇捐款額度</label>
+          <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
+          <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
+          <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
+          <label class="badge badge-important btn-mini"><input type="radio" name="amt" value="50">50</label>
+          <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
+        </div>
+        <div class="row">
+          <label for="monthly-specifyAmount" class="control-label">或是輸入您想要捐款的額度</label>
+          <input type="text" id="monthly-specifyAmount" name="other" value="" size="5" maxlength="5"/>
+        </div>
+        <div class="row">
+          <label for="monthly-currency" class="control-label">貨幣</label>
+          <select id="monthly-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
+            <option>USD</option>
+            <option selected="">GBP</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">每月捐款</button>
+      </fieldset>
+      <input type="hidden" name="cmd" value="_xclick-subscriptions">
+      <input type="hidden" name="business" value="6282B4CZGVCB6">
+      <input type="hidden" name="item_name" value="MATE Desktop Monthly Supporter">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="charset" value="UTF-8">
+      <input type="hidden" name="a3" value="">
+      <input type="hidden" name="p3" value="1">
+      <input type="hidden" name="t3" value="M">
+      <input type="hidden" name="src" value="1">
+      <input type="hidden" name="sra" value="1">
+      <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
+    </form>
+  </div>
+
+  <div class="well">
+    <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
+      <fieldset>
+        <legend>PayPal 一次性捐款</legend>
+        <div class="row">
+          <label class="control-label">選擇捐款額度</label>
+          <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
+          <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
+          <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
+          <label class="badge badge-important btn-mini"><input type="radio" name="amt" value="50">50</label>
+          <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
+        </div>
+        <div class="row">
+          <label for="one-time-specifyAmount" class="control-label">或是輸入您想要捐款的額度</label>
+          <input id="one-time-specifyAmount" type="text" name="other" value="" size="5" maxlength="5">
+        </div>
+        <div class="row">
+          <label for="one-time-currency" class="control-label">貨幣</label>
+          <select id="one-time-currency" class="form-control" name="currency_code">
+            <option>EUR</option>
+            <option>USD</option>
+            <option selected="">GBP</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">一次性捐款</button>
+      </fieldset>
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="6282B4CZGVCB6">
+      <input type="hidden" name="item_name" value="MATE Desktop One-time Donation">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="charset" value="UTF-8">
+      <input type="hidden" name="amount" value="">
+      <input type="hidden" name="src" value="1">
+      <input type="hidden" name="sra" value="1">
+      <input type="hidden" name="return" value="https://mate-desktop.org/zh_tw/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/zh_tw/donation-cancelled/">
+    </form>
   </div>
 </div>
 
 ## Bitcoin
 
 <div class="bs-docs-section">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="well bs-component">
-        <legend>Bitcoin</legend>
-          <p>點選或掃描下方的二維條碼以執行您的 Bitcoin 客戶端並
-          捐 0.02 btc 給 MATE 桌面環境。或者您也可以複製並貼上
-          Bitcoin 地址到您的 Bitcoin 客戶端來以您想要的額度
-          捐款。</p>
-          <p align="center">
-            <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=MATE%20Desktop">
-            <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_MATE_Desktop" /></a>
-            <br />
-            <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
-          </p>
-      </div>
-    </div>
+  <div class="well">
+    <fieldset>
+      <legend>Bitcoin</legend>
+      <p>點選或掃描下方的二維條碼以執行您的 Bitcoin 客戶端並
+      捐 0.02 btc 給 MATE 桌面環境。或者您也可以複製並貼上
+      Bitcoin 地址到您的 Bitcoin 客戶端來以您想要的額度
+      捐款。</p>
+      <p align="center">
+      <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=MATE%20Desktop">
+        <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_MATE_Desktop" /></a>
+      <br />
+      <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
+      </p>
+    </fieldset>
   </div>
 </div>
 
