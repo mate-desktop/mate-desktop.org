@@ -155,12 +155,6 @@ Pengembangan.
 
 
 
-## Board
-
-Lingkungan Desktop MATE memiliki Dewan Direktur. 
-[MATE Board wiki page](https://wiki.mate-desktop.org/#!pages/users.md)
-berisi daftar anggota dan tugasnya.
-
 <small>
 Bendera yang digunakan pada halaman ini disediakan oleh <http://www.icondrawer.com>.
 </small>

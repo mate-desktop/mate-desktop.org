@@ -154,13 +154,6 @@ Desarrollador.
 
 
 
-## Junta directiva
-
-El entorno de escritorio MATE tiene una junta directiva. El
-[wiki de la junta directiva de MATE](https://wiki.mate-desktop.org/#!pages/users.md)
-tiene un listado de los miembros actuales y descripciones de sus
-responsabilidades.
-
 <small>
 Las banderas usadas en esta página provienen de <http://www.icondrawer.com>.
 </small>
