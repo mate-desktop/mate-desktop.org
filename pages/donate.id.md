@@ -129,7 +129,7 @@ Meski demikian, donasi satu kali juga kami hargai.
       <a href="bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&label=MATE%20Desktop">
         <img src="https://chart.googleapis.com/chart?chs=384x384&cht=qr&chl=bitcoin:1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB?amount=0.02&message=Donate_0.02_btc_to_MATE_Desktop" /></a>
       <br />
-      <tt>1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</tt>
+      <span style="font-family: monospace;">1Mpan6eExzNKdS8JnFAod5Pwt49aR6JsDB</span>
       </p>
     </fieldset>
   </div>
