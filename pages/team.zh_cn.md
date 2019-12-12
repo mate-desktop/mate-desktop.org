@@ -151,12 +151,6 @@ openSUSE 打包者。
 
 
 
-## 理事会
-
-MATE 桌面环境由我们的理事会管理。
-[MATE 理事会 wiki 页面](https://wiki.mate-desktop.org/#!pages/users.md)
-包含当前理事会人员的列表及他们的职责描述。
-
 <small>
 此页面中使用的国旗由 <http://www.icondrawer.com> 提供。
 </small>

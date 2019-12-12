@@ -152,12 +152,6 @@ openSUSE 打包者。
 
 
 
-## 董事會
-
-MATE 桌面環境有一個董事會。
-[MATE 董事會 wiki 頁面](https://wiki.mate-desktop.org/#!pages/users.md)
-列出了目前的成員並概述了他們的職責。
-
 <small>
 這個頁面中所使用的旗幟由 <http://www.icondrawer.com> 提供。
 </small>

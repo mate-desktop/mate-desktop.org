@@ -154,12 +154,6 @@ Sviluppo.
 
 
 
-## Board
-
-L'ambiente Desktop MATE ha un Consiglio di Amministrazione. Il
-[MATE Board wiki page](https://wiki.mate-desktop.org/#!pages/users.md)
-elenca i membri correnti e sottolinea i loro compiti.
-
 <small>
 The flags used in this page were provided by <http://www.icondrawer.com>.
 </small>

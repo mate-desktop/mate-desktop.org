@@ -154,12 +154,6 @@ Development.
 
 
 
-## Board
-
-The MATE Desktop Environment has a Board of Directors. The
-[MATE Board wiki page](https://wiki.mate-desktop.org/#!pages/users.md)
-lists the current members and outlines their duties.
-
 <small>
 The flags used in this page were provided by <http://www.icondrawer.com>.
 </small>
