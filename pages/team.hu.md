@@ -139,7 +139,7 @@ Arch Linux csomagolás.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Grafika és dizájn.
+Grafika és dizájn. ([Részletek](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -150,6 +150,14 @@ Fejlesztés, openSUSE csomagolás.
 OpenSUSE csomagolás.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
+
+Fejlesztés. ([Részletek](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+
+### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
+
+Fejlesztés.
+
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
 
 Fejlesztés.
 

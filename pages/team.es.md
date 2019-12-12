@@ -138,7 +138,7 @@ Empaquetador para Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Arte y diseño.
+Arte y diseño. ([Detalles](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -149,6 +149,14 @@ Desarrollador, empaquetador para openSUSE.
 Empaquetador para openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
+
+Desarrollador. ([Detalles](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+
+### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
+
+Desarrollador.
+
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
 
 Desarrollador.
 
