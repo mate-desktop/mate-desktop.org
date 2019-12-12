@@ -138,7 +138,7 @@ Packaging for Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Artwork & design.
+Artwork & design. ([Details](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -149,6 +149,14 @@ Development, packaging for openSUSE.
 Packaging for openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
+
+Development. ([Details](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+
+### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
+
+Development.
+
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
 
 Development.
 

@@ -135,7 +135,7 @@ Arch Linux 打包者。
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-美工及设计。
+美工及设计。 ([细节](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -146,6 +146,14 @@ Arch Linux 打包者。
 openSUSE 打包者。
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
+
+开发者。 ([细节](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+
+### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
+
+开发者。
+
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
 
 开发者。
 
