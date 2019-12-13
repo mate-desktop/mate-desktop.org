@@ -47,3 +47,8 @@ kbd {
 	-webkit-border-radius: 3px;
 	text-shadow: 0 1px 0 #fff;
 }
+
+div.footerbox {
+	text-align: center;
+	margin-bottom: 15px;
+}
