@@ -1560,6 +1560,7 @@ SOCIAL_ICONS="""
 <a class="social-icon" href="/rss.xml" title="MATE RSS feed"><img src="/assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
 <a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="/assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
 <a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="/assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
+<a class="social-icon" href="https://wiki.mate-desktop.org/#!index.md" title="MATE Wiki"><img src="/assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
 """
 
 # Put in global_context things you want available on all your templates.
