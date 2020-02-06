@@ -14,30 +14,39 @@ After about a year of development, the MATE Desktop team have finally released M
 
 ## What's new in MATE 1.24
 
-   ****Template****
+This release contains plenty of new features, bug-fixes, and general improvements. Some of the most important highlights include:
 
-This release contains plenty of critical bug fixes and under-the-hood improvements. Some of the big highlights include:
-
-* The **MATE panel** has gotten a crazy amount of rework to make it work with [Wayland](https://wayland.freedesktop.org/) display backend
-    * The **display applet** got a full revamp, allowing for better monitor control directly from the panel
-    * The **timer applet** now has much better mouse interaction
-    * **Wanda the Fish** now works properly on HiDPI displays (fish image is still pixelated, keeping to its original design)
-* Support for [metacity-themes](https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) has finally been upgraded to version 3 in the **marco** window manager
-    * We've also modernized the window and desktop switchers to make them more visually appealing
-* The **session manager** now properly terminates all processes on [systemd](https://freedesktop.org/wiki/Software/systemd/). Also, apps can be auto-started after a user-selected delay
-* We've fully ported a number of programs to Python 3, including the **eye of MATE** and **python-caja** plugin libraries, as well as the **mate-menus** library
-* The **caja** file manager can now optionally display desktop notifications for long-running file operations
-* **Eye of MATE** has a reworked sidebar and better image metadata support
-* Tabs in **pluma** now have the ability to be switched with keyboard shortcuts and mouse scrolling
-* **Calculator** can now support up to 15 characters of accuracy. Copy/paste support was also improved a bit
-* **Engrampa** has had support added for several new compression formats, as well as a new pause/restart functionality
-* A few new **key shortcuts** have been added, including support for different types of media keys like Bluetooth, Wi-Fi, touchpads, and global killswitches
-* A bunch of internal housekeeping tasks have been taken care of:
-    * Most of our projects have now migrated from [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) to [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)
-    * We've improved stability across many of our projects by closing memory leaks and build warnings
-    * We've removed old deprecated code to keep up with the latest versions of [GTK](https://developer.gnome.org/gtk3/stable/)
-    * A lot of new and updated documentation was added/corrected
-    * All of our projects now use [Travis CI](https://travis-ci.org/) to ensure clean builds on some of our major distros
+* **Engrampa** now has support for a handful of extra formats, as well as fixed support for passwords and unicode characters in some of them.
+* **Eye of MATE** now has support for [Wayland](https://wayland.freedesktop.org/) and we've added support for embedded color profiles.
+    * The thumbnail generation has been reworked and fixed in several places.
+    * Added support for webp files.
+* Our window manager, **marco**, has gotten quite a few changes:
+    * We've brought a bunch of window decorations from the past to feed your nostalgia.
+    * Finally added invisible resize borders. No more struggling to find a border to grab with your mouse!
+    * All window controls (you know, the min, max, close buttons) are now rendered in HiDPI.
+    * The Alt+Tab and Workspace Switcher popups have been _entirely_ reworked. Now they render in beautiful OSD style, are more configurable, and can respond to keyboard arrows.
+    * Tiling windows with the keyboard now allows you to cycle through different window sizes. You no longer need to feel constrained by only half of your screen.
+* The **System Monitor** panel applet now has support for NVMe drives.
+* **Calculator** now supports using either "pi" or "π".
+    * Scientific notation has been improved.
+    * Some fixes for supporting pre-defined physical constants.
+* The **Control Center** now displays its icons correctly on HiDPI displays.
+* A brand new **Time And Date Manager** app has been added.
+* The **Mouse** app now supports acceleration profiles.
+* The **Preferred Applications** app has been improved for accessibility, as well as better support for integration with IM clients.
+* The **Indicator Applet** has slightly better interaction with oddly-sized icons.
+* Speaking of icons, the network manager applet icons in our own themes have been entirely redesigned and can now be enjoyed on HiDPI displays.
+* If you're the type of person that does not like to be disturbed when busy, or giving a presentation, or watching a movie, you'll be happy to know that the **notification daemon** now supports a Do-Not-Disturb mode.
+* The **MATE Panel** had several bugs that caused crashes in the past when changing layouts. Those are now fixed!
+    * Support for [Wayland](https://wayland.freedesktop.org/) compatibility has improved considerably.
+    * Status icons (a.k.a. **notification area**, or **system tray**) have support for HiDPI displays.
+    * **Wanda the Fish** got a make-over and now you can enjoy her in full HiDPI glory.
+    * The **window list** applet now supports window thumbnails on hover.
+    * Various accessibility improvements throughout the panel and its core applets.
+* If your system doesn't, uh, support [systemd](https://freedesktop.org/wiki/Software/systemd/) you might be interested in knowing that we've added support for [elogind](https://github.com/elogind/elogind) to both the **MATE Screensaver** and the **MATE Session**.
+* We've also added a brand new **MATE Disk Image Mounter** utility.
+* **Mozo**, the menu editor, now supports Undo and Redo actions.
+* **Pluma** plugins have now fully switched to Python 3.
 
 The various components of MATE Desktop 1.24 are available for download here:
 
