@@ -47,6 +47,9 @@ This release contains plenty of new features, bug-fixes, and general improvement
 * We've also added a brand new **MATE Disk Image Mounter** utility.
 * **Mozo**, the menu editor, now supports Undo and Redo actions.
 * **Pluma** plugins have now fully switched to Python 3.
+* **Pluma** no longer has to envy anything from other complex editors, since it can now show the formatting marks.
+
+
 
 The various components of MATE Desktop 1.24 are available for download here:
 
@@ -547,14 +550,13 @@ Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master
 Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
 
 ### pluma
-* Add the ability to show the non-printable characters
+* Add the ability to show the non-printable characters (spaces/tabs/newlines)
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * window: Do not override GdkWindowState
 * Fix some memory leaks
 * Fix build with GtkSourceView 3.22
 * spell-checker plugin: Add missing translation (i18n)
 * Add the support for checking the accessibility of the UI files using gla11y
-* Add draw spaces/tabs/newlines options
 * Add snippet to toggle comment/uncomment
 * pluma-print-preview: Fix warning: identical expressions
 * Switch to Python 3
