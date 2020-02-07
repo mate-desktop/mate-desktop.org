@@ -3,7 +3,7 @@
 .. description:
 .. tags: Releases
 .. date: 2020-02-04 09:00:00
-.. title: MATE 1.24 actualizado
+.. title: Llançament de MATE 1.24
 .. slug: 2020-02-04-mate-1-24-released
 .. author: Wolfgang Ulbrich
 -->
@@ -16,7 +16,7 @@ Després d'un any de treball, l'equip de MATE ha llançat l'entorn d'escriptori 
 
 Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afegeix moltes millores en general. Alguns dels exemples més visibles són:
 
-* Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitzar, des de l’usuari inicia la sessió. Voleu amagar l’inici d’aplicacions? Ara podeu definir quines aplicacions es mostraran a l’inici.
+* Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitzar, des de què l’usuari inicia la sessió. Voleu amagar l’inici d’aplicacions? Ara podeu definir quines aplicacions es mostraran a l’inici.
 * **Engrampa** ara és compatible amb alguns formats d'arxius nous, i també és compatible amb contrasenyes i caràcters Unicode amb alguns tipus d'arxius.
 * **Eye of MATE** ara funciona a [Wayland](https://wayland.freedesktop.org/) i hem afegit compatibilitat per als perfils de colors incrustats.
     * La generació de les imatges de les miniatures ha estat modificada i corregida des de l'aplicació
