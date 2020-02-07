@@ -10,7 +10,7 @@
 
 Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.24. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.
 
-![Acerca de MATE](/assets/img/blog/about-mate-1.24.png){ width=50% }
+![Acerca de MATE](/assets/img/blog/about-mate-1.24.es.png){ width=50% }
 
 ## ¿Qué hay de nuevo en MATE 1.24?
 
