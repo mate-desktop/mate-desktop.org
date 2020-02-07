@@ -16,6 +16,7 @@ After about a year of development, the MATE Desktop team have finally released M
 
 This release contains plenty of new features, bug-fixes, and general improvements. Some of the most important highlights include:
 
+* We did it again, the MATE desktop environment is easier to use than before, once the user starts the session. Do you want to hide applications startup? Now you can set which applications to show on startup.
 * **Engrampa** now has support for a handful of extra formats, as well as fixed support for passwords and unicode characters in some of them.
 * **Eye of MATE** now has support for [Wayland](https://wayland.freedesktop.org/) and we've added support for embedded color profiles.
     * The thumbnail generation has been reworked and fixed in several places.
