@@ -16,6 +16,7 @@ Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanz
 
 En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hechos muchas mejoras en general. Algunos de los ejemplos más visibles son:
 
+* Lo hicimos nuevamente, el entorno de escritorio MATE es más fácil de usar desde que el usuario inicia la sesión. ¿Quieres ocultar el inicio de aplicaciones? Ahora puede establecer qué aplicaciones mostrar al inicio.
 * **Engrampa** ahora tiene soporte para algunos formatos de archivos nuevos
     * También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de ellos.
 * **Eye of MATE** ahora funciona en [Wayland](https://wayland.freedesktop.org/) y hemos añadido soporte para perfiles de colores.
