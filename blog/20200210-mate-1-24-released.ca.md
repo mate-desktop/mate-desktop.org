@@ -49,6 +49,7 @@ Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afeg
 * **Mozo**, l'editor de menús, ara us permet desfer i refer els canvis.
 * Ara tots els connectors de **Pluma** estan escrits amb Python 3.
 * A més, **pluma** ja no té res a envejar d'altres editors de text més complets, ja que ara pot mostrar les marques de format.
+* i18n: S'han migrat totes les aplicacions d'intltools a gettext.
 
 
 
