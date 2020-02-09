@@ -49,6 +49,7 @@ This release contains plenty of new features, bug-fixes, and general improvement
 * **Mozo**, the menu editor, now supports Undo and Redo actions.
 * **Pluma** plugins have now fully switched to Python 3.
 * **Pluma** no longer has to envy anything from other complex editors, since it can now show the formatting marks.
+* i18n: All applications have been migrated from intltools to gettext.
 
 
 
