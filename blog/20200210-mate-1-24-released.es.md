@@ -2,9 +2,9 @@
 .. link:
 .. description:
 .. tags: Releases
-.. date: 2020-02-04 09:00:00
+.. date: 2020-02-10 09:00:00
 .. title: MATE 1.24 actualizado
-.. slug: 2020-02-04-mate-1-24-released
+.. slug: 2020-02-10-mate-1-24-released
 .. author: Wolfgang Ulbrich
 -->
 
