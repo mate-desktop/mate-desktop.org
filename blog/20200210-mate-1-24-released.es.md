@@ -50,6 +50,7 @@ En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hec
 * **Mozo**, nuestro editor de menus, ahora te permite hacer deshacer y rehacer tus cambios.
 * Los plugins de **Pluma** ahora están todos escritos en Python 3.
   * Además, **pluma** ya no tiene nada que envidiarle a otros editores de texto más complejos, ya que ahora puede mostrar marcas de formateo.
+* i18n: Todas las aplicaciones han sido migradas de intltools a gettext.
 
 
 
