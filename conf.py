@@ -152,7 +152,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
 		('/blog/', 'Blog'),
 		('/install/', 'Install'),
-		('/gallery/1.22/english/', 'Screenshots'),
+		('/gallery/1.24/english/', 'Screenshots'),
 		('/development/', 'Development'),
 		('/community/', 'Community'),
 		('/team/', 'Team'),
@@ -161,7 +161,7 @@ NAVIGATION_LINKS = {
     "bg": (
 		('/bg/blog/', 'Блог'),
 		('/bg/install/', 'Инсталация'),
-		('/bg/gallery/1.22/english/', 'Екранни снимки'),
+		('/bg/gallery/1.24/english/', 'Екранни снимки'),
 		('/bg/development/', 'Разработка'),
 		('/bg/community/', 'Общност'),
 		('/bg/team/', 'Екип'),
@@ -179,7 +179,7 @@ NAVIGATION_LINKS = {
     "de": (
 		('/de/blog/', 'Blog'),
 		('/de/install/', 'Installation'),
-		('/de/gallery/1.22/english/', 'Screenshots'),
+		('/de/gallery/1.24/english/', 'Screenshots'),
 		('/de/development/', 'Entwicklung'),
 		('/de/community/', 'Community'),
 		('/de/team/', 'Team'),
@@ -188,7 +188,7 @@ NAVIGATION_LINKS = {
     "el": (
 		('/el/blog/', 'Ιστολόγιο'),
 		('/el/install/', 'Εγκατάσταση'),
-		('/el/gallery/1.22/english/', 'Εικόνες'),
+		('/el/gallery/1.24/english/', 'Εικόνες'),
 		('/el/development/', 'Ανάπτυξη'),
 		('/el/community/', 'Κοινότητα'),
 		('/el/team/', 'Ομάδα'),
@@ -206,7 +206,7 @@ NAVIGATION_LINKS = {
     "fr": (
 		('/fr/blog/', 'Blog'),
 		('/fr/install/', 'Installez'),
-		('/fr/gallery/1.22/english/', 'Screenshots'),
+		('/fr/gallery/1.24/english/', 'Screenshots'),
 		('/fr/development/', 'Développement'),
 		('/fr/community/', 'Communauté'),
 		('/fr/team/', 'Team'),
@@ -215,7 +215,7 @@ NAVIGATION_LINKS = {
     "hu": (
 		('/hu/blog/', 'Blog'),
 		('/hu/install/', 'Telepítés'),
-		('/hu/gallery/1.22/english/', 'Képernyőképek'),
+		('/hu/gallery/1.24/english/', 'Képernyőképek'),
 		('/hu/development/', 'Fejlesztés'),
 		('/hu/community/', 'Közösség'),
 		('/hu/team/', 'Csapat'),
@@ -224,7 +224,7 @@ NAVIGATION_LINKS = {
     "id": (
 		('/id/blog/', 'Blog'),
 		('/id/install/', 'Installasi'),
-		('/id/gallery/1.22/english/', 'Galeri'),
+		('/id/gallery/1.24/english/', 'Galeri'),
 		('/id/development/', 'Pengembangan'),
 		('/id/community/', 'Komunitas'),
 		('/id/team/', 'Tim'),
@@ -233,7 +233,7 @@ NAVIGATION_LINKS = {
     "it": (
 		('/it/blog/', 'Blog'),
 		('/it/install/', 'Installazione'),
-		('/it/gallery/1.22/english/', 'Schermate'),
+		('/it/gallery/1.24/english/', 'Schermate'),
 		('/it/development/', 'Sviluppo'),
 		('/it/community/', 'Comunità'),
 		('/it/team/', 'Team'),
@@ -242,7 +242,7 @@ NAVIGATION_LINKS = {
     "nl": (
 		('/nl/blog/', 'Blog'),
 		('/nl/install/', 'Installatie'),
-		('/nl/gallery/1.22/english/', 'Screenshots'),
+		('/nl/gallery/1.24/english/', 'Screenshots'),
 		('/nl/development/', 'Ontwikkeling'),
 		('/nl/community/', 'Community'),
 		('/nl/team/', 'Team'),
@@ -251,7 +251,7 @@ NAVIGATION_LINKS = {
    "pl": (
 		('/pl/blog/', 'Blog'),
 		('/pl/install/', 'Install'),
-		('/pl/gallery/1.22/english/', 'Screenshots'),
+		('/pl/gallery/1.24/english/', 'Screenshots'),
 		('/pl/development/', 'Development'),
 		('/pl/community/', 'Community'),
 		('/pl/team/', 'Team'),
@@ -260,7 +260,7 @@ NAVIGATION_LINKS = {
     "pt": (
 		('/pt/blog/', 'Blog'),
 		('/pt/install/', 'Install'),
-		('/pt/gallery/1.22/english/', 'Screenshots'),
+		('/pt/gallery/1.24/english/', 'Screenshots'),
 		('/pt/development/', 'Development'),
 		('/pt/community/', 'Community'),
 		('/pt/team/', 'Team'),
@@ -269,7 +269,7 @@ NAVIGATION_LINKS = {
     "tr": (
 		('/tr/blog/', 'Blog'),
 		('/tr/install/', 'Kurulum'),
-		('/tr/gallery/1.22/english/', 'Screenshots'),
+		('/tr/gallery/1.24/english/', 'Screenshots'),
 		('/tr/development/', 'Geliştirme'),
 		('/tr/community/', 'Topluluk'),
 		('/tr/team/', 'Ekip'),
@@ -278,7 +278,7 @@ NAVIGATION_LINKS = {
     "zh_cn": (
         ('/zh_cn/blog/', '博客'),
         ('/zh_cn/install/', '安装'),
-        ('/zh_cn/gallery/1.22/english/', '截图'),
+        ('/zh_cn/gallery/1.24/english/', '截图'),
         ('/zh_cn/development/', '开发'),
         ('/zh_cn/community/', '社区'),
         ('/zh_cn/team/', '团队'),
@@ -287,7 +287,7 @@ NAVIGATION_LINKS = {
     "zh_tw": (
         ('/zh_tw/blog/', '部落格'),
         ('/zh_tw/install/', '安裝'),
-        ('/zh_tw/gallery/1.22/english/', '螢幕截圖'),
+        ('/zh_tw/gallery/1.24/english/', '螢幕截圖'),
         ('/zh_tw/development/', '開發'),
         ('/zh_tw/community/', '社群'),
         ('/zh_tw/team/', '團隊'),
