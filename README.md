@@ -114,7 +114,7 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `lt`        Lithuanian
   * `ml`        Malayalam
   * `nb`        Norwegian (Bokmål)
-  * `nl`        Dutch
+  * `nl`        **Dutch**
   * `pa`        Punjabi
   * `pl`        **Polish**
   * `pt`        **Portuguese**
