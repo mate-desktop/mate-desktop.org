@@ -3,7 +3,7 @@
 .. description:
 .. tags: Development
 .. date: 2020-03-04 12:00:30
-.. title: Development
+.. title: Ontwikkeling
 .. slug: development
 -->
 

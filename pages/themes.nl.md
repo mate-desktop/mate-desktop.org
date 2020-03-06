@@ -3,7 +3,7 @@
 .. description:
 .. tags: Themes
 .. date: 202O-03-04 17:32:07
-.. title: Themes
+.. title: Themas
 .. slug: themes
 -->
 

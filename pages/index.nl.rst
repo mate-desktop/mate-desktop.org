@@ -2,7 +2,7 @@
 .. description:
 .. tags: About,Applications,Screenshots
 .. date: 2020-02-30 12:29:57
-.. title: MATE Desktop Environment
+.. title: MATE Desktop Omgeving
 .. slug: index
 .. pretty_url: False
 

@@ -3,7 +3,7 @@
 .. description:
 .. tags:
 .. date: 2020-03-03 23:55:31
-.. title: Install
+.. title: Installeren
 .. slug: install
 -->
 
