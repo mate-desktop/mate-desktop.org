@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE"}
+BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE", "nl": "Het MATE team"}
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -26,7 +26,7 @@ SITE_URL = "https://mate-desktop.org/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://mate-desktop.com"
 BLOG_EMAIL = "webmaster@mate-desktop.org"
-BLOG_DESCRIPTION = {"en": "The traditional Desktop Environment", "ca": "L'entorn d'escriptori tradicional", "es": "El entorno de escritorio tradicional"}
+BLOG_DESCRIPTION = {"en": "The traditional Desktop Environment", "ca": "L'entorn d'escriptori tradicional", "es": "El entorno de escritorio tradicional", "nl": "De traditionele desktop omgeving"}
 
 # Nikola is multilingual!
 #
@@ -768,11 +768,11 @@ REDIRECTIONS = [
     (u'2012/11/10/fedora-repo/index.html', u'/blog/2012-11-10-mate-package-repository-for-fedora/index.html'),
     (u'2012/12/27/thank-you-first-colo/index.html', u'/blog/20121227thank-you-first-colo/index.html'),
     (u'2013/01/20/changes-to-mate-notification-daemon/index.html', u'/blog/2013-01-20-changes-to-mate-notification-daemon/index.html'),
-    (u'2013/03/12/mate-university/index.html', u'/blog/2013-03-12-mate-university/index.html'), 
-    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/2013-03-20-mate-and-ltsp/index.html'), 
-    (u'2013/03/26/new-themes/index.html', u'/blog/2013-03-26-new-themes/index.html'), 
+    (u'2013/03/12/mate-university/index.html', u'/blog/2013-03-12-mate-university/index.html'),
+    (u'2013/03/20/mate-and-ltsp/index.html', u'/blog/2013-03-20-mate-and-ltsp/index.html'),
+    (u'2013/03/26/new-themes/index.html', u'/blog/2013-03-26-new-themes/index.html'),
     (u'2013/04/02/mate-1-6-released/index.html', u'/blog/2013-04-02-mate-1-6-released/index.html'),
-    (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference/index.html'),     
+    (u'2013/07/21/stefano-at-opensuse-conference/index.html', u'/blog/2013-07-21-stefano-presents-at-opensuse-conference/index.html'),
     (u'2013/08/10/new-repositories-for-opensuse/index.html', u'/blog/2013-08-10-mate-package-repository-for-opensuse/index.html'),
     (u'feedback/index.html', u'/index.html'),
     (u'applications/index.html', u'/index.html'),
