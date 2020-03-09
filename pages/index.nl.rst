@@ -17,21 +17,21 @@ bekijk de roadmap hier: `Roadmap <https://wiki.mate-desktop.org/#!pages/roadmap.
 
 Hier vind je meer `screenshots van MATE <gallery/1.22/>`_.
 
-----
+-----
 Niews
-----
+-----
 
 .. post-list::
-    :lang: nl
+    :lang: en
     :stop: 5
 
 Blogposts zijn ook geïndexeerd door `tags <tags/>`_ en `gearchiveerd op datum <archive/>`_.
 Je kan ook steeds een kijkje nemen op `Planet MATE <https://planet.mate-desktop.org>`_
 daar kan je zien waar de gehele MATE community over blogt.
 
----------------------------------
+-------------------------------------
 Welke distributies ondersteunen MATE?
----------------------------------
+-------------------------------------
 
 MATE is beschikbaar via de **officiele** repositories van deze linux distributies:
 
@@ -78,9 +78,9 @@ Je kan ook via `DistroWatch.com alle distributies opzoeken die MATE ondersteunen
 De MATE community heeft gedocumenteerd hoe je MATE kan installeren op distributies via
 `install guidelines <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
-------------
+-----------
 Applicaties
-------------
+-----------
 
 MATE bestaat uit meerdere applicaties. Deze zijn hernoemd om conflicten met GNOME-applicaties te vermijden
 
@@ -149,9 +149,9 @@ is ontworpen voor VT102-, VT220- en xterm-terminals. MATE Terminal heeft ook
 de mogelijkheid om meerdere terminals in één venster (tabbladen) te ondersteunen. Er kan ook gebruik gemaakt worden
 van verschillende configuraties (profielen). MATE Terminal is geforked van GNOME-terminal.
 
-------------------------------
+----------------------
 Waar komt de naam van?
-------------------------------
+----------------------
 
 Da naam **MATE**, is uitgesproken als *Ma-Tay*, het komt van `yerba maté
 <https://en.wikipedia.org/wiki/Yerba_mate>`_, een soort hulst afkomstig uit
