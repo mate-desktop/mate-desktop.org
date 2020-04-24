@@ -1,9 +1,13 @@
 # vim: set ts=2 sts=2 sw=2 expandtab :
-dist: xenial
-sudo: required
-language: bash
+dist: bionic
+language: shell
+os: linux
 services:
   - docker
+addons:
+  apt:
+    packages:
+      - python3-github
 
 cache:
   directories:
@@ -15,9 +19,6 @@ before_install:
   - chmod +x docker-build
 
 install:
-  - sudo apt-get install -y python3-pip python3-setuptools
-  - sudo pip3 install --upgrade pip
-  - sudo pip install PyGithub
   - ./docker-build --name ${DISTRO} --config .build.yml --install
 
 script:
