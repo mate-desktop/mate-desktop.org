@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="zh_cn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporting Bugs | MATE</title>
+<link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (bg)" href="../../../bg/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ca)" href="../../../ca/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (de)" href="../../../de/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (el)" href="../../../el/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../../../es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (fr)" href="../../../fr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (hu)" href="../../../hu/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (id)" href="../../../id/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (it)" href="../../../it/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (nl)" href="../../../nl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" href="../../../pl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt)" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (tr)" href="../../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" href="../../../zh_tw/rss.xml">
+<link rel="canonical" href="https://preview.mate-desktop.dev/zh_cn/blog/2012-01-18-reporting-bugs/">
+<link rel="icon" href="../../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../../mate-128.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
+<link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
+<meta name="author" content="Steve Zesch">
+<link rel="prev" href="../2011-12-24-new-wiki-and-new-distributions-supported/" title="New wiki and other info" type="text/html">
+<link rel="next" href="../2012-04-16-mate-1-2-released/" title="MATE 1.2 released" type="text/html">
+<meta property="og:site_name" content="MATE">
+<meta property="og:title" content="Reporting Bugs">
+<meta property="og:url" content="https://preview.mate-desktop.dev/zh_cn/blog/2012-01-18-reporting-bugs/">
+<meta property="og:description" content="We are currently in the process of switching to handling all our issues via
+the mate-desktop project on GitHub instead
+of Perberos' page. The reason is simple: when Perberos is away none of the
+other ">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2012-01-18T21:22:52Z">
+<link rel="alternate" hreflang="bg" href="../../../bg/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="ca" href="../../../ca/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="de" href="../../../de/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="el" href="../../../el/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="en" href="../../../blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="es" href="../../../es/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="fr" href="../../../fr/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="hu" href="../../../hu/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="id" href="../../../id/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="it" href="../../../it/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="nl" href="../../../nl/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="pl" href="../../../pl/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="pt" href="../../../pt/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="tr" href="../../../tr/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="zh_tw" href="../../../zh_tw/blog/2012-01-18-reporting-bugs/">
+</head>
+<body style="padding-top: 10px;">
+
+<!-- Menubar -->
+<div class="container-fluid">
+    <div class="navbar">
+	<div class="navbar-inner">
+            <div class="container">
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
+               	    <img src="../../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title">MATE</span>
+          	</a>
+
+		<!-- Everything you want hidden at 940px or less, place within here -->
+		<div class="nav-collapse collapse">
+		    <ul class="nav">
+<li class="nav-item">
+<a href="../" class="nav-link">博客</a>
+                </li>
+<li class="nav-item">
+<a href="../../install/" class="nav-link">安装</a>
+                </li>
+<li class="nav-item">
+<a href="../../gallery/1.24/english/" class="nav-link">截图</a>
+                </li>
+<li class="nav-item">
+<a href="../../development/" class="nav-link">开发</a>
+                </li>
+<li class="nav-item">
+<a href="../../community/" class="nav-link">社区</a>
+                </li>
+<li class="nav-item">
+<a href="../../team/" class="nav-link">团队</a>
+                </li>
+<li class="nav-item">
+<a href="../../donate/" class="nav-link">捐赠</a>
+
+
+		    </li>
+</ul>
+<ul class="nav pull-right"><!-- disable translation dropdown
+                        					
+                        
+						--></ul>
+<span class="navbar-search pull-right">
+    <input class="input-medium search-query search-margin" type="search" placeholder="Search" id="tipue_search_input"></span>
+		</div>
+	    </div>
+	</div>
+    </div>
+</div>
+<!-- End of Menubar -->
+
+	
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto;"></div>
+
+
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    	<div class="span2"></div>
+    	<div class="span8">
+		
+    	
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Reporting&nbsp;Bugs</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    <a class="u-url" href="../../authors/steve-zesch/">Steve&nbsp;Zesch</a>
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2012-01-18T21:22:52Z" itemprop="datePublished" title="2012-01-18 21:22">2012-01-18 21:22</time></a>
+            </p>
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>We are currently in the process of switching to handling all our issues via
+the <a href="https://github.com/mate-desktop">mate-desktop project on GitHub</a> instead
+of Perberos&#8217; page. The reason is simple: when Perberos is away none of the
+other developers can close tickets. This creates a bit of a&nbsp;mess.</p>
+<p>Now, when you go to report a bug you must chose the correct GitHub repository
+to report the issue in. It&#8217;s pretty simple. If there&#8217;s a bug with <code>mate-panel</code>,
+then submit the issue on the <code>mate-panel</code> issue&nbsp;tracker.</p>
+<p>We&#8217;ll are no longer monitoring Perberos&#8217; issue tracker, so we ask that you
+refrain from opening new bugs&nbsp;there.</p>
+<p>Thanks for your&nbsp;cooperation.</p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../2011-12-24-new-wiki-and-new-distributions-supported/" rel="prev" title="New wiki and other info">上一篇文章</a>
+            </li>
+            <li class="next">
+                <a href="../2012-04-16-mate-1-2-released/" rel="next" title="MATE 1.2 released">下一篇文章</a>
+            </li>
+        </ul></nav></aside></article>
+</div>
+    </div>
+    <!--End of body content-->
+</div>
+
+<hr>
+<div class="footerbox" align="center">
+    Contents © 2020 <a href="mailto:webmaster@mate-desktop.org">The MATE Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
+    
+
+    <!-- MATE social icons -->
+	<br><a class="social-icon" href="../../../rss.xml" title="MATE RSS feed"><img src="../../../assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
+<a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="../../../assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
+<a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="../../../assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
+<a class="social-icon" href="https://wiki.mate-desktop.org/#!index.md" title="MATE Wiki"><img src="../../../assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
+           
+</div>
+
+        <script src="../../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#container-fluid', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><script src="../../../assets/js/tipuesearch_set.js"></script><script src="../../../assets/js/tipuesearch.js"></script><script src="../../../assets/js/jquery.watermark.js"></script><script>
+$(document).ready(function() {
+
+    $('#tipue_search_input').tipuesearch({
+        'show': 5,
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "a06556273db3"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
+
+});
+</script>
+</body>
+</html>

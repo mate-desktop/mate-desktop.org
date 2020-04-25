@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Публикации от Steve Zesch)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/bg/authors/steve-zesch.xml" rel="self" type="application/rss+xml"/><language>bg</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/bg/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
+talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
+&lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
+creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
+and describes the features and changes added after the fork.&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Changes to mate-notification-daemon</title><link>https://preview.mate-desktop.dev/bg/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The &lt;code&gt;mate-notification-daemon&lt;/code&gt; has a new feature in  MATE 1.6 that allows
+users to select which monitor they want to display notifications on. The
+current behavior only displays notifications on the monitor which is currently
+active (where the pointer is). The behavior will default to as it has always
+been, but the user can change the settings by modifying the "use-active-monitor"
+and "monitor-number" keys in via &lt;code&gt;dconf-editor&lt;/code&gt; or they can run
+&lt;code&gt;mate-notification-properties&lt;/code&gt; and edit their settings via a GUI.&lt;/p&gt;
+&lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
+to be displayed on an active monitor. Note that "Use Active Monitor" is selected,
+which disables the combobox for selecting a monitor.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="active" src="https://preview.mate-desktop.dev/assets/img/blog/active-300x235.png"&gt;&lt;/p&gt;
+&lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
+to be displayed on a specific monitor. Note that "Use Active Monitor" is &lt;strong&gt;not&lt;/strong&gt;
+selected, which enables the combobox for selecting the monitor to be enabled.
+The monitor number is set to 2. This will display on my third monitor, since
+counting starts at 0 instead of 1.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="monitor" src="https://preview.mate-desktop.dev/assets/img/blog/monitor-300x235.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2013-01-20-changes-to-mate-notification-daemon/</guid><pubDate>Sun, 20 Jan 2013 19:07:12 GMT</pubDate></item><item><title>MATE package repository for Fedora</title><link>https://preview.mate-desktop.dev/bg/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We are now directing users to use the official Fedora package repository now.
+For instructions on using this repository please consult &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;our installation
+guide for Fedora&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information about MATE's official inclusion in Fedora, see the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/wiki/Features/MATE-Desktop"&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
+for help in our &lt;a href="https://webchat.freenode.net/?channels=#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
+or for general MATE questions join us in &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/bg/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;An &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
+is now available for our 1.4 release. As usual, follow &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you're upgrading from an older release please make sure that you remove the old
+repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/bg/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://i.imgur.com/V5ab0.png"&gt;&lt;/p&gt;
+&lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerous bug fixes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; and &lt;code&gt;libmatekeyring&lt;/code&gt; backends updated and now integrate properly&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; package now available&lt;/li&gt;
+&lt;li&gt;New themes added to &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Removed &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;File sharing now available via Bluetooth&lt;/li&gt;
+&lt;li&gt;Added option to use fast alt-tabbing when compositing is enabled in &lt;code&gt;marco&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; now available&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; now available&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; now supports GDM user switching&lt;/li&gt;
+&lt;li&gt;Removed nyancat from the mate-desktop about dialog&lt;/li&gt;
+&lt;li&gt;Forked &lt;code&gt;libwnck&lt;/code&gt; as &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Caja improvements: &lt;ul&gt;
+&lt;li&gt;Restored toggle button for text based location bar&lt;/li&gt;
+&lt;li&gt;Bookmarks can now be opened in the places side pane via the enter and space keys&lt;/li&gt;
+&lt;li&gt;Added a button to get the difference between files in the file conflict dialog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Reporting Bugs</title><link>https://preview.mate-desktop.dev/bg/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We are currently in the process of switching to handling all our issues via
+the &lt;a href="https://github.com/mate-desktop"&gt;mate-desktop project on GitHub&lt;/a&gt; instead
+of Perberos' page. The reason is simple: when Perberos is away none of the
+other developers can close tickets. This creates a bit of a mess.&lt;/p&gt;
+&lt;p&gt;Now, when you go to report a bug you must chose the correct GitHub repository
+to report the issue in. It's pretty simple. If there's a bug with &lt;code&gt;mate-panel&lt;/code&gt;,
+then submit the issue on the &lt;code&gt;mate-panel&lt;/code&gt; issue tracker.&lt;/p&gt;
+&lt;p&gt;We'll are no longer monitoring Perberos' issue tracker, so we ask that you
+refrain from opening new bugs there.&lt;/p&gt;
+&lt;p&gt;Thanks for your cooperation.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/bg/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
+reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
+&lt;p&gt;For those of you who aren't already aware, you can
+&lt;a href="https://github.com/mate-desktop/"&gt;report issues on github&lt;/a&gt;. At the moment, this
+is all we have in terms of bug reporting, but we do have a bugtracker in the works.
+We'll announce it here when it's ready.&lt;/p&gt;
+&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
+&lt;p&gt;For those of you using &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
+and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of 
+our packages using the tridex repository. Check out &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;the download page&lt;/a&gt;
+on the wiki for more info. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; also has our 
+1.0.x release packages in their repository. If anyone is still using Amanas' PPA,
+it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
+repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
+&lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
+Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;our IRC channel&lt;/a&gt;
+and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
+we are looking for people who are willing to set these up.&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

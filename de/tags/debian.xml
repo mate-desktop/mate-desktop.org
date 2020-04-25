@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über Debian)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/debian.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian- und Ubuntu-Pakete auf mate-desktop.org entfernt</title><link>https://preview.mate-desktop.dev/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dank der Arbeit der &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE-Paketverwalter für Debian&lt;/a&gt;
+ist MATE 1.8.1 in Debian Jessie (Testing) und in &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; für Wheezy verfügbar.&lt;/p&gt;
+&lt;p&gt;Als Folge der Aufnahme von MATE 1.8.1 in die Repositorien von Debian Testing in diesem Jahr
+findet sich MATE 1.8.1 auch in dem offiziellen Archiv von Ubuntu 14.10 Utopic Unicorn.
+Das &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu-MATE-Team&lt;/a&gt; hat kürzlich einen &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"&gt;MATE 1.8.1 PPA für Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
+erstellt, der Aufforderung des &lt;a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html"&gt;Ubuntu Technical Board&lt;/a&gt;
+folgend. Weiterhin erstellte das Team einen &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"&gt;MATE 1.8.1 PPA für Ubuntu 12.04 Precise Pangolin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wenn Sie die MATE-Pakete für Debian oder Ubuntu benötigen, dann sind die obenstehenden Paket-Repositorien die offiziellen Quellen.&lt;/p&gt;
+&lt;p&gt;Wir haben die auf mate-desktop.org gehosteten Paket-Repositorien entfernt, 
+da einige unsigniert waren und andere seit Monaten nicht gepflegt wurden.
+Daher werden die Debian- und Ubuntu-Paket-Repositorien nun nicht länger auf mate-desktop.org angeboten.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Debian MATE Packaging Team</title><link>https://preview.mate-desktop.dev/de/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
+&lt;p&gt;The MATE Team is very happy to say hello to the new Debian MATE Packaging
+Team, that is &lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31"&gt;working hard&lt;/a&gt;
+to get MATE included into the next release of Debian.&lt;/p&gt;
+&lt;p&gt;First packages are already in the repositories and there are many others
+in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A big thanks to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://users.physik.fu-berlin.de/~glaubitz/"&gt;John Paul Adrian Glaubitz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sunweavers.net/blog/"&gt;Mike Gabriel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Vangelis Mouhtsis]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outflux.net/"&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want to join the team, please reach the members on IRC in the
+&lt;a href="https://webchat.freenode.net/?channels=#debian-mate"&gt;#debian-mate&lt;/a&gt; channel @
+freenode.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
+reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
+&lt;p&gt;For those of you who aren't already aware, you can
+&lt;a href="https://github.com/mate-desktop/"&gt;report issues on github&lt;/a&gt;. At the moment, this
+is all we have in terms of bug reporting, but we do have a bugtracker in the works.
+We'll announce it here when it's ready.&lt;/p&gt;
+&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
+&lt;p&gt;For those of you using &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
+and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of 
+our packages using the tridex repository. Check out &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;the download page&lt;/a&gt;
+on the wiki for more info. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; also has our 
+1.0.x release packages in their repository. If anyone is still using Amanas' PPA,
+it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
+repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
+&lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
+Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;our IRC channel&lt;/a&gt;
+and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
+we are looking for people who are willing to set these up.&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/de/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
+&lt;p&gt;Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
+is here to provide that same desktop to you &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos initially forked Gnome 2 and called the project MATE. Users and
+developers have successfully run MATE on &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+and due to popular demand Perberos made it easier for MATE to compile under
+&lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; and &lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt;
+then joined the project and packaged it for Debian and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;.
+The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.&lt;/p&gt;
+&lt;p&gt;Our top priority is to improve MATE and for it to be on par, in terms of features
+and stability, with Gnome 2.32. We'll port themes, applets, and applications which
+were developed for Gnome 2, and help developers port their applications to this
+new desktop.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

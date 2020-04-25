@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Textos publicados sobre Themes)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pt/tags/themes.xml" rel="self" type="application/rss+xml"/><language>pt</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New themes</title><link>https://preview.mate-desktop.dev/pt/blog/2013-03-26-new-themes/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the new themes for MATE 1.6.&lt;/p&gt;
+&lt;p&gt;Menta will be the default theme for the upcoming new release. It consists of a nice GTK2/3
+theme (based on Mint-Z Improved, no longer maintained, customized for MATE and
+updated for GTK3.6) and a child theme of mate-icon-theme with green folders.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Menta theme" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-menta.png"&gt;&lt;/p&gt;
+&lt;p&gt;There will be also other two new themes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BlackMATE&lt;/strong&gt;: A black based theme, without green.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GreenLaguna&lt;/strong&gt;: A nice theme based on green color.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We would like to thank Wolfgang Ulbrich and Marcel Dijkstra for this great
+job.&lt;/p&gt;
+&lt;h4&gt;BlackMATE theme&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="BlackMATE theme" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-blackmate.png"&gt;&lt;/p&gt;
+&lt;h4&gt;GreenLaguna theme&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="GreenLaguna theme" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-greenlaguna.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pt/blog/2013-03-26-new-themes/</guid><pubDate>Tue, 26 Mar 2013 16:53:32 GMT</pubDate></item></channel></rss>

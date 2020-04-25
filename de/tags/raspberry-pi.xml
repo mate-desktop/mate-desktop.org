@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über Raspberry Pi)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/raspberry-pi.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE offiziell in Arch Linux verfügbar</title><link>https://preview.mate-desktop.dev/de/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE ist endlich zuhause angekommen.&lt;/p&gt;
+&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href="https://www.archlinux.org"&gt;Arch-Linux&lt;/a&gt;-Nutzer
+erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
+in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde -- bis jetzt.
+Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/code&gt;-Paketrepositorien verfügbar!&lt;/p&gt;
+&lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
+auf den folgenden Wiki-Seiten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/MATE"&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
+MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
+synchronisiert wurden. Updaten Sie daher &lt;code&gt;/etc/pacman.conf&lt;/code&gt;,
+und entfernen Sie das &lt;code&gt;[mate]&lt;/code&gt;-Paket-Repositorium.&lt;/p&gt;
+&lt;p&gt;Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
+ist, dass MATE nun auch im &lt;a href="https://archlinuxarm.org/"&gt;Arch-Linux-ARM&lt;/a&gt;-Repositorium
+erscheinen wird. Ich kann endlich meine Build-&lt;em&gt;"Server"&lt;/em&gt; für Raspberry Pi (armv6h) und
+Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
+wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber
+gesehen, dass einige Pakete bereits gebaut wurden.&lt;/p&gt;
+&lt;p&gt;MATE läuft ziemlich ordentlich auf dem Raspberry Pi Model B mit 512MB RAM.
+Falls Sie also einen "Pi" und eine SDCARD rumliegen haben, probieren Sie's aus. Ich werde
+einen Blog-Beitrag schreiben, wie man Arch Linux und MATE auf dem Raspberry Pi 
+mit einigen nützlichen Performance-Tricks installiert.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/de/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>MATE 1.6 packages for Arch Linux</title><link>https://preview.mate-desktop.dev/de/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE 1.6 packages have been available for &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+for a good while now. So why the blog post?&lt;/p&gt;
+&lt;p&gt;Over the last few months the MATE 1.6 packages for Arch Linux have been
+fixed, cleaned up and enhanced. Here is an overview of what we've been
+working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All Arch Linux specific bugs have been fixed.&lt;/li&gt;
+&lt;li&gt;New automated build scripts and build cluster.&lt;/li&gt;
+&lt;li&gt;Full support for the following platforms:&lt;ul&gt;
+&lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;armv7h&lt;/li&gt;
+&lt;li&gt;i686&lt;/li&gt;
+&lt;li&gt;x86_64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Packaged 9 additional applications/applets contributed by the MATE community.&lt;/li&gt;
+&lt;li&gt;Choice of Pulse Audio or GStreamer backends.&lt;/li&gt;
+&lt;li&gt;Cherry picked some &lt;code&gt;systemd&lt;/code&gt; and &lt;code&gt;logind&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry picked some &lt;code&gt;upower&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry picked miscellaneous bug fixes from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;MATE 1.6 PKGBUILDs now automatically synced to the AUR.&lt;/li&gt;
+&lt;li&gt;The Arch Linux package repository for MATE is now signed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find out everything you need to know about installing MATE 1.6
+on Arch Linux from the following wiki page:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md"&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'd like to say a special thank you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; for working with
+  the Fedora development team to hunt down &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; and &lt;code&gt;upower&lt;/code&gt;
+  fixes that are hugely beneficial for Arch Linux and also for
+  contributing a good number of the community applications.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/infirit"&gt;Sander Sweers&lt;/a&gt; and &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
+  for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that the MATE 1.6 packages are in good shape I will start the process
+of getting MATE into the official Arch Linux repositories. You can help
+with that by voting for MATE packages in the AUR.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item></channel></rss>

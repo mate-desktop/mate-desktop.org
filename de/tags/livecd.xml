@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über LiveCD)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/livecd.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE-Desktop Live-CD</title><link>https://preview.mate-desktop.dev/de/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Das MATE-Team hat eine Live-CD erstellt, die einen vollständigen MATE-Desktop bootet.&lt;/p&gt;
+&lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt;Die Live-CD wurde am 10. März 2014 auf MATE 1.8 aktualisiert.&lt;/div&gt;
+
+&lt;p&gt;Diese Live-CD wurde erstellt, damit potentielle neue Nutzer den MATE-Desktop 
+ausprobieren können, ohne Änderungen an Ihrem System vornehmen zu müssen.
+Das Image kann auf eine DVD gebrannt, als ISO eingehangen oder
+direkt auf einen USB-Stick (mittels eines Utilitys wie &lt;code&gt;dd&lt;/code&gt;) geschrieben werden.
+&lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; aufgepasst: &lt;code&gt;unetbootin&lt;/code&gt; wird nicht unterstützt.&lt;/p&gt;
+&lt;p&gt;Sie können es wie folgt herunterladen:&lt;/p&gt;
+&lt;h4&gt;BitTorrent-Download (empfohlen)&lt;/h4&gt;
+&lt;p&gt;Wenn Sie die zusätzlichen Bytes verschmerzen können, lassen Sie bitte den Client geöffnet,
+nachdem der Download beendet ist, damit Sie es an andere zurück "seeden" können.
+*Für höchste Download-Geschwindigkeit wird ein "web-seed-fähiger" Client empfohlen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Direkter HTTP-Download&lt;/h4&gt;
+&lt;p&gt;Zusätzlich zu dem BitTorrent-Link oben, kann das ".iso" der Live-CD auch
+über HTTP heruntergeladen werden. Bitte vergewissern Sie sich, dass die heruntergeladene
+Datei zu der SHA1-Checksum passt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso]&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Kompatibilität&lt;/h3&gt;
+&lt;p&gt;Die Live-CD wurde mit &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; und MATE 1.8 gebaut. 
+Die Live-CD ist 32-Bit und sollte daher auf jedem i686- oder x86_64-Rechner mit
+mindestens 512MB RAM laufen. X.Org-Treiber sind enthalten für Intel (&lt;code&gt;i915&lt;/code&gt;),
+AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) und nvidia (&lt;code&gt;nouveau&lt;/code&gt;) mit einer Ausweichlösung mittels VESA.
+Treiber für Virtual Box und VMware sind ebenso enthalten, damit das Ausprobieren
+auf diesen Virtualisierungs-Lösungen einfach ist.&lt;/p&gt;
+&lt;p&gt;Alle gängigen Dateisysteme, inclusive &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, werden 
+unterstützt, und einige Tools zur Datenrettung und zum Backup sind auch dabei.
+Wenn Sie Ihr mobiles Endgerät anstecken, wird es mit großer Wahrscheinlichkeit erkannt,
+und Sie werden in der Lage sein, auf die sich darauf befindlichen Daten zuzugreifen.
+NetworkManager gehört auch zum Lieferumfang, zusammen mit all den unterstützten VPN-Clients.&lt;/p&gt;
+&lt;h3&gt;Nutzernamen und Passwörter&lt;/h3&gt;
+&lt;p&gt;Auf der MATE-Desktop-Live-CD sind die folgenden Accounts konfiguriert.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - Das Passwort ist &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - Das Passwort ist &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Der &lt;code&gt;root&lt;/code&gt;-Account entspricht offensichtlich &lt;code&gt;root&lt;/code&gt;. Der &lt;code&gt;mate&lt;/code&gt;-Account
+ist ein regulärer Benutzer, der volle passwortlose &lt;code&gt;sudo&lt;/code&gt;-Rechte besitzt. 
+Die Live-CD loggt automatisch mit dem &lt;code&gt;mate&lt;/code&gt;-Account ein.&lt;/p&gt;
+&lt;h3&gt;Anwendungen&lt;/h3&gt;
+&lt;p&gt;Die Live-CD wurde in erster Linie als Demonstration des MATE-Desktops erstellt,
+aber wir haben einige zusätzliche nicht zum MATE-Desktop gehörenden Anwendungen aufgenommen,
+um die Live-CD ein wenig nützlicher und unterhaltsamer zu machen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   - Stand-Alone Web-Browser von mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   - Ein Klon von Partition Magic, Front-End für GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  - Ein System-Informations- und Benchmark-Tool&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;Hexchat&lt;/a&gt;   - IRC-Client, konfiguriert für die automatischen Verbindung zu &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate@freenode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;      - Screen-Reader für blinde bzw. sehbeinträchtigte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    - Multi-Protokoll Instant-Messaging Client&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    - Medien-Player mit einer schicken GUI, hoher Geschwindigkeit und vielen Features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Creative-Commons-Inhalte&lt;/h3&gt;
+&lt;p&gt;Wir haben die folgenden Inhalte, lizensiert unter Creative-Commons, hinzugepackt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        - Zum Lesen mit Atril&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Die Sprache ändern&lt;/h3&gt;
+&lt;p&gt;Standardmäßig ist bei der Live-CD das &lt;code&gt;en_US&lt;/code&gt;-Locale (Gebietsschema) eingestellt, aber falls
+Sie eine andere Sprache aktivierten möchten, erklären wir hier, wie es geht.
+Im untenstehenden Beispiel aktivieren wir Deutsch.&lt;/p&gt;
+&lt;p&gt;Editieren Sie &lt;code&gt;/etc/locale.gen&lt;/code&gt;, entfernen Sie bei Ihrem Gebietsschema (in diesem Fall&lt;code&gt;de_DE.UTF-8 UTF-8&lt;/code&gt;) 
+die Kommentarzeichen (#) und veranlassen Sie einen Rebuild der Gebietsschemata mit:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;sudo locale-gen&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Editieren Sie &lt;code&gt;/etc/locale.conf&lt;/code&gt; und ändern Sie &lt;code&gt;LANG=&lt;/code&gt; dahingehend, 
+dass die Zeile ihrer Sprachwahl entspricht -- in diesem Fall &lt;code&gt;LANG=de_DE.UTF-8&lt;/code&gt;.
+Zum Schluss starten Sie den DisplayManager wie folgt neu, damit Sie neu eingeloggt werden
+in Ihre MATE-Session, die nun Ihre bevorzugte Sprache verwendet:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;sudo systemctl restart lightdm&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;h3&gt;Vorstellung in der Linux-Action-Show&lt;/h3&gt;
+&lt;p&gt;Die MATE-Desktop-Live-CD und MATE selbst haben wir
+auf der &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux Action Show&lt;/a&gt; vorgestellt
+in der &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox-Linux-Review&lt;/a&gt;-Episode.
+Zwei Videos sind unten eingebettet. Das erste bietet einen kurzen Einblick in die MATE-Desktop-Live-CD,
+das zweite eine Besprechung der CuBox i4, auf der MATE läuft.&lt;/p&gt;
+&lt;h4&gt;MATE-Desktop Live-CD&lt;/h4&gt;
+&lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=608" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h4&gt;CuBox i4 Pro Review&lt;/h4&gt;
+&lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=1925" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;Feedback&lt;/h3&gt;
+&lt;p&gt;Wir hoffen, Sie lassen sich auf eine Testfahrt mit der Live-CD ein und mögen
+die Geschwindigkeit und Einfachheit, die der MATE-Desktop bietet. Sobald
+Sie zurück sind, lassen Sie uns wissen, was Sie darüber denken. Benutzen
+Sie dazu bitte die Kommentarfunktion oder treffen Sie uns im 
+&lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>LiveCD</category><category>News</category><guid>https://preview.mate-desktop.dev/de/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>

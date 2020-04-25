@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Tulisan tentang Outages)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/id/tags/outages.xml" rel="self" type="application/rss+xml"/><language>id</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Server Outage</title><link>https://preview.mate-desktop.dev/id/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The server that runs this website went offline without notice yesterday.
+We don't know why and we've had no contact from our server host. &lt;strong&gt;We do
+have complete backups, no data has been lost.&lt;/strong&gt; We've started to restore
+services and the outstanding service will be reinstated as time permits
+over the holiday period.&lt;/p&gt;
+&lt;p&gt;We will update this page as services come back online.&lt;/p&gt;
+&lt;h3&gt;What is the impact?&lt;/h3&gt;
+&lt;p&gt;This services are currently down, listed in order of restore priority&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; - The mailing lists, which are rarely used.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; - The forums, which we started shutting down earlier in the year and are locked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What has been restored?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mate-desktop.org"&gt;https://www.mate-desktop.org&lt;/a&gt; - This website&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pub.mate-desktop.org"&gt;https://pub.mate-desktop.org&lt;/a&gt; - Where you can find the tarballs of MATE Desktop releases.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;https://wiki.mate-desktop.org/#!index.md&lt;/a&gt; - The developer wiki.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://git.mate-desktop.org"&gt;https://git.mate-desktop.org&lt;/a&gt; - This is a mirror of the &lt;a href="https://github.com/mate-desktop"&gt;MATE Desktop GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://planet.mate-desktop.org"&gt;https://planet.mate-desktop.org&lt;/a&gt; - The MATE Desktop planet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - Mail server for developers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Update&lt;/h3&gt;
+&lt;h4&gt;21st December&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bytemark.co.uk/r/ubuntu-mate/"&gt;Bytemark&lt;/a&gt; offer to sponsor MATE Desktop hosting to help us overcome the server outage with our previous provider.&lt;/li&gt;
+&lt;li&gt;Restored &lt;code&gt;www.mate-desktop.org&lt;/code&gt; and &lt;code&gt;pub.mate-desktop.org&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;22nd December&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;wiki.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Restored &lt;code&gt;git.mate-desktop.org&lt;/code&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;23nd December&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;planet.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2nd January&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/id/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item></channel></rss>

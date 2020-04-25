@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über openSUSE)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/opensuse.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE in openSUSE</title><link>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+&lt;p&gt;Das openSUSE-MATE-Team ist stolz, die Verfügbarkeit von MATE 1.8 für openSUSE
+bekanntgeben zu können. Die Pattern sind nicht mehr verfügbar und werden es auch
+nicht mehr werden, da MATE nun offiziell in openSUSE aufgenommen wurde.
+Wir können openSUSE 12.2 nicht mehr unterstützen. Die Abhängigkeiten liegen 
+dort nicht in der benötigten Version vor.
+Wir haben die Struktur unserer Repositorien geändert, damit niemand seine
+Repositorien für jedes Update extra anpassen muss. 
+Jetzt gibt es nur einen Ort, X11:MATE:Current.&lt;/p&gt;
+&lt;p&gt;Zur Installation ersetzen oder ergänzen Sie bitte unser Repository:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>openSUSE</category><guid>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</guid><pubDate>Sat, 10 May 2014 10:03:06 GMT</pubDate></item><item><title>MATE-Projekte akzeptiert für GSoC 2014</title><link>https://preview.mate-desktop.dev/de/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Nach mehreren Wochen der Prüfung ist die Bewerbungs- und Auswahlrunde für
+den 2014 Google Summer of Code (GSoC) vorbei. 4.420 Studenten schlugen insgesamt
+6.313 Projekte für diesen Sommer vor. Aus diesem Kreise wurden 1.307 Studenten akzeptiert,
+und das MATE-Desktop-Projekt ist eines der 190 OpenSource-Projekte, die mit 
+Studenten in diesem Jahr zusammenarbeiten werden.&lt;/p&gt;
+&lt;p&gt;In unserem zweiten Jahr als GSoC-Mentororganisation erhielt das MATE-Team
+vier Studenten-Vorschläge, und drei Plätze wurden für die studentischen Projekte
+genehmigt.&lt;/p&gt;
+&lt;p&gt;Es freut mich, unsere GSoC-Studenten für 2014 bekanntzugeben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avishkar Gupta wird daran arbeiten, Atril -- den Dokumentenbetrachter des MATE-Desktops -- 
+    um Fähigkeiten zur Darstellung von ePub zu erweitern.&lt;/li&gt;
+&lt;li&gt;Michal Ratajsky wird daran arbeiten, Unterstützung für GStreamer 1.0 in
+    den MATE-Desktop einzubauen, um dadurch die Abhängigkeit zu der veralteten Version 0.10
+    dieser Bibliothek zu ersetzen.&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij wird an Verbesserungen der Caja-Extensions arbeiten, damit
+    diese während der Laufzeit eingebunden werden können. Er wird auch 
+    ein gemeinsames User Interface für die Konfiguration der Caja-Extensions erstellen. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Heißen wir diese neuen Mitwirkenden gemeinsam willkommen im MATE-Team, und
+wünschen wir ihnen größtmöglichen Erfolg bei ihren jeweiligen Projekten im Sommer. &lt;/p&gt;
+&lt;p&gt;Im Namen des gesamten MATE-Teams möchte ich ferner meinen Dank und meine Wertschätzung
+aussprechen gegenüber &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;, unsere GSoC-Organisatoren 
+für 2014. Sie haben fantastische Arbeit dabei geleistet, das MATE-Team bei
+der Sicherung dieser GSoC-Platzierungen zu unterstützen, welche dringend benötigte
+Entwicklungstätigkeiten in das Projekt einfließen lassen werden.&lt;/p&gt;&lt;/div&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/de/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>MATE nimmt am GSoC 2014 teil</title><link>https://preview.mate-desktop.dev/de/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Das MATE-Team freut sich sehr, die Teilnahme am 
+&lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt; bekanntzugeben. 
+Dies geschieht in Partnerschaft mit unseren guten Freunden von &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Über Google Summer of Code&lt;/h3&gt;
+&lt;p&gt;Google Summer of Code (meist "GSoC" genannt) ist ein weltweites Programm,
+das studierenden Entwicklern Stipendien anbietet, um Programmcode für verschiedene
+quelloffende Software-Projekte zu schreiben.  GSoC arbeitet zusammen mit vielen Open-Source-,
+Freie-Software- und technikbezogenen Gruppen daran, Projekte auszumachen und 
+über eine Zeitspanne von drei Monate zu finanzieren. Seit den Anfängen in 2005
+hat das Programm weltweit über 7500 erfolgreiche studentische Teilnehmer aus 97 Ländern mit
+über 7000 Mentoren aus über 100 Ländern zusammengebracht, um mehr als 50 Millionen Zeilen
+Programmcode zu schreiben. Durch Google Summer of Code werden akzeptierte studierende Bewerber
+einem oder mehreren Mentoren von teilnehmenden Projekten anvertraut, wodurch
+sie Einblicke in die professionelle Softwareentwicklung erhalten und
+sich in Beziehung mit ihrer akademischen Laufbahn stehende Anstellungsmöglichkeiten aufzeigen.
+Den teilnehmenden Projekte wiederum haben es einfacher, neue Entwickler zu entdecken und
+anzuwerben. Zu guter Letzt wird mehr Quellcode geschrieben und veröffentlicht,
+zum Nutzen und Wohle aller.&lt;/p&gt;
+&lt;h3&gt;Für Studenten&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
+(https://developers.google.com/open-source/gsoc/faq).&lt;/p&gt;
+&lt;p&gt;Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme 
+beitragen wollen, sollten Sie das folgende lesen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zusammengefasst lauten die MATE-Projektideen für GSoC 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ePub-Format-Unterstützung in Atril&lt;/li&gt;
+&lt;li&gt;GStreamer-1.0-Unterstützung&lt;/li&gt;
+&lt;li&gt;Plugin-System für Caja&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wie immer ist es wichtig, frühzeitig zu starten und mit den Mentoren und der weiteren
+Community in Kontakt zu treten. Das Beheben von Bugs, das Setzen von "pull requests" und
+die Arbeit an Machbarkeitsstudien (Proof of Concepts) bieten sich für den Anfang an.&lt;/p&gt;
+&lt;p&gt;Die GSoC-2014-Mentoren für MATE sind Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; auf IRC)
+und Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; auf IRC). Der beste Weg,
+mit den MATE-Mentoren in Kontakt zu treten ist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC-Channel auf Freenode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE auf GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wir freuen uns auf eure Bewerbungen!&lt;/p&gt;&lt;/div&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/de/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE at openSUSE Summit</title><link>https://preview.mate-desktop.dev/de/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
+&lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
+media team, will show &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
+at &lt;a href="https://summit.opensuse.org/"&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
+on Sunday, November 17 at 10:15.&lt;/p&gt;
+&lt;p&gt;The talk will be available at &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;this page&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>New repositories for openSUSE</title><link>https://preview.mate-desktop.dev/de/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+&lt;p&gt;On the way to getting MATE officially available on &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
+the community repositories have to be changed in YaST. For that,
+go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
+repo and next, click on the following links in function of your openSUSE
+version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/de/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
+talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
+&lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
+creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
+and describes the features and changes added after the fork.&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
+reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
+&lt;p&gt;For those of you who aren't already aware, you can
+&lt;a href="https://github.com/mate-desktop/"&gt;report issues on github&lt;/a&gt;. At the moment, this
+is all we have in terms of bug reporting, but we do have a bugtracker in the works.
+We'll announce it here when it's ready.&lt;/p&gt;
+&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
+&lt;p&gt;For those of you using &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
+and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of 
+our packages using the tridex repository. Check out &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;the download page&lt;/a&gt;
+on the wiki for more info. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; also has our 
+1.0.x release packages in their repository. If anyone is still using Amanas' PPA,
+it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
+repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
+&lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
+Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;our IRC channel&lt;/a&gt;
+and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
+we are looking for people who are willing to set these up.&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

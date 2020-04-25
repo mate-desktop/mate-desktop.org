@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über FOSDEM)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/fosdem.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano stellt MATE auf der FOSDEM 2014 vor</title><link>https://preview.mate-desktop.dev/de/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Am 1. Februar 2014 hielt &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
+seine Präsentation über MATE auf der &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Die Präsentation macht MATE denjenigen bekannt, welche davon noch nicht gehört
+haben, und erläutert den Ursprung des Projekts. Zunächst werden die Unterschiede 
+zwischen MATE und anderen herkömmlichen GTK-basierenden Desktop-Umgebungen erörtert.
+Danach erklärt Stefano, wie MATE sich entwickelt hat, seit es von GNOME2 geforkt wurde.
+Eine kurze Auswertung der jüngeren Verbesserungen findet statt, gefolgt von 
+einer Übersicht über der MATE-Roadmap und anderen Projekten, die 
+von MATE profitieren, z.B. &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
+&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; und &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/de/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item></channel></rss>

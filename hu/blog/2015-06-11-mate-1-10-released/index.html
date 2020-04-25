@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MATE 1.10 released | MATE</title>
+<link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (bg)" href="../../../bg/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ca)" href="../../../ca/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (de)" href="../../../de/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (el)" href="../../../el/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../../../es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (fr)" href="../../../fr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (hu)" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (id)" href="../../../id/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (it)" href="../../../it/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (nl)" href="../../../nl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" href="../../../pl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt)" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (tr)" href="../../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" href="../../../zh_cn/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" href="../../../zh_tw/rss.xml">
+<link rel="canonical" href="https://preview.mate-desktop.dev/hu/blog/2015-06-11-mate-1-10-released/">
+<link rel="icon" href="../../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../../mate-128.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
+<link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
+<meta name="author" content="Martin Wimpress">
+<link rel="prev" href="../2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" title="MATE 1.10 with GTK3 for Fedora 21 and 22" type="text/html">
+<link rel="next" href="../2015-11-05-mate-1-12-released/" title="MATE 1.12 released" type="text/html">
+<meta property="og:site_name" content="MATE">
+<meta property="og:title" content="MATE 1.10 released">
+<meta property="og:url" content="https://preview.mate-desktop.dev/hu/blog/2015-06-11-mate-1-10-released/">
+<meta property="og:description" content="After 15 months of development the MATE Desktop team are proud to announce
+the release of MATE Desktop 1.10. We would like to thank every MATE contributor
+and user.
+
+What's new in MATE 1.10
+The headli">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-06-11T22:40:40Z">
+<meta property="article:tag" content="Releases">
+<link rel="alternate" hreflang="bg" href="../../../bg/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="ca" href="../../../ca/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="de" href="../../../de/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="el" href="../../../el/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="en" href="../../../blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="es" href="../../../es/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="fr" href="../../../fr/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="id" href="../../../id/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="it" href="../../../it/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="nl" href="../../../nl/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="pl" href="../../../pl/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="pt" href="../../../pt/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="tr" href="../../../tr/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2015-06-11-mate-1-10-released/">
+<link rel="alternate" hreflang="zh_tw" href="../../../zh_tw/blog/2015-06-11-mate-1-10-released/">
+</head>
+<body style="padding-top: 10px;">
+
+<!-- Menubar -->
+<div class="container-fluid">
+    <div class="navbar">
+	<div class="navbar-inner">
+            <div class="container">
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
+               	    <img src="../../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title">MATE</span>
+          	</a>
+
+		<!-- Everything you want hidden at 940px or less, place within here -->
+		<div class="nav-collapse collapse">
+		    <ul class="nav">
+<li class="nav-item">
+<a href="../" class="nav-link">Blog</a>
+                </li>
+<li class="nav-item">
+<a href="../../install/" class="nav-link">Telepítés</a>
+                </li>
+<li class="nav-item">
+<a href="../../gallery/1.24/english/" class="nav-link">Képernyőképek</a>
+                </li>
+<li class="nav-item">
+<a href="../../development/" class="nav-link">Fejlesztés</a>
+                </li>
+<li class="nav-item">
+<a href="../../community/" class="nav-link">Közösség</a>
+                </li>
+<li class="nav-item">
+<a href="../../team/" class="nav-link">Csapat</a>
+                </li>
+<li class="nav-item">
+<a href="../../donate/" class="nav-link">Adományozás</a>
+
+
+		    </li>
+</ul>
+<ul class="nav pull-right"><!-- disable translation dropdown
+                        					
+                        
+						--></ul>
+<span class="navbar-search pull-right">
+    <input class="input-medium search-query search-margin" type="search" placeholder="Search" id="tipue_search_input"></span>
+		</div>
+	    </div>
+	</div>
+    </div>
+</div>
+<!-- End of Menubar -->
+
+	
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto;"></div>
+
+
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    	<div class="span2"></div>
+    	<div class="span8">
+		
+    	
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">MATE 1.10&nbsp;released</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    <a class="u-url" href="../../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2015-06-11T22:40:40Z" itemprop="datePublished" title="2015-06-11 22:40">2015-06-11 22:40</time></a>
+            </p>
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>After 15 months of development the MATE Desktop team are proud to announce
+the release of MATE Desktop 1.10. We would like to thank every MATE contributor
+and&nbsp;user.</p>
+<p><img alt="about" src="../../../assets/img/blog/about-mate-1.10.png"></p>
+<h3>What&#8217;s new in MATE&nbsp;1.10</h3>
+<p>The headline changes in MATE 1.10&nbsp;are:</p>
+<ul>
+<li>Every component of MATE can now be built with GTK2 and GTK3.<ul>
+<li>GTK3 support is still considered <em>experimental</em>
+</li>
+<li>Arch Linux and Fedora currently offer alternative GTK3&nbsp;builds.</li>
+</ul>
+</li>
+<li>[GSoC 2014] Caja now has an extension manager so plugin can be enabled/disabled at&nbsp;run-time.</li>
+<li>[GSoC 2014] Atril now supports <a href="https://en.wikipedia.org/wiki/EPUB">ePub</a>.</li>
+<li>[GSoC 2014] <code>libmatemixer</code>, an audio mixer library for MATE desktop, has been introduced.<ul>
+<li>Provides an abstract API allowing access to mixer functionality available
+in the PulseAudio, ALSA and OSS sound&nbsp;systems.</li>
+</ul>
+</li>
+<li>Static code analysis has resulted in many memory leaks being&nbsp;plugged.</li>
+<li>Theme support has been expanded to GTK 3.8 to 3.16 including CSD and pop-over&nbsp;support.</li>
+</ul>
+<p>The various components of MATE 1.10 are available for download&nbsp;here:</p>
+<ul>
+<li><a href="https://pub.mate-desktop.org/releases/1.10/">https://pub.mate-desktop.org/releases/1.10/</a></li>
+</ul>
+<h3>Screenshots</h3>
+<ul>
+<li><a href="../../../gallery/1.10/">MATE 1.10&nbsp;Screenshots</a></li>
+</ul>
+<h3>Changelog</h3>
+<p>Here is a more detailed break down of what has&nbsp;changed.</p>
+<h4>mate-common</h4>
+<ul>
+<li>Added support for <code>automake</code> 1.15</li>
+<li>Added support for <code>lcov</code> 1.11</li>
+<li>Migrated to <code>glib-gettexize</code> if using GLib <code>gettext</code>
+</li>
+<li>Check for <code>appdata-xml.m4</code> with <code>APPDATA_XML</code>
+</li>
+</ul>
+<h4>mate-desktop</h4>
+<ul>
+<li>Migrated <code>MateRRScreen</code>, <code>GnomeRRConfig</code> and <code>GnomeOutputInfo</code> to&nbsp;GObject.</li>
+<li>Added GObject&nbsp;Introspection</li>
+<li>Added automatic-mnemonics key for GTK <code>xsetting</code>
+</li>
+<li>Added <code>MateAboutDialog</code> class to have traditional about dialog with&nbsp;GTK3</li>
+<li>Added <code>MateColorButton</code> class to have traditional color selection dialog with&nbsp;GTK3</li>
+<li>Added <code>org.mate.debug</code> GSettings&nbsp;schema</li>
+<li>Uses <code>GDK_WINDOW_XID</code> for inter-GTK&nbsp;compatibility</li>
+<li>Updated <code>mpaste</code> for website&nbsp;change</li>
+<li>Updated&nbsp;translations </li>
+<li>Removed&nbsp;desktop-docs</li>
+<li>Removed user&nbsp;guide</li>
+<li>Removed <code>libunique</code> optional&nbsp;dependency</li>
+<li>Assorted RANDR&nbsp;fixes</li>
+</ul>
+<h4>libmatekbd</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>libmatemixer</h4>
+<p><code>libmatemixer</code> is a new mixer library for MATE desktop. It provides an abstract
+API allowing access to mixer functionality available in the PulseAudio, ALSA
+and OSS sound&nbsp;systems.</p>
+<ul>
+<li>Initial&nbsp;release</li>
+</ul>
+<h4>libmateweather</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-icon-theme</h4>
+<ul>
+<li>Added more&nbsp;icons</li>
+<li>Added new symbolic&nbsp;icons</li>
+</ul>
+<h4>Caja</h4>
+<ul>
+<li>Added a plugin manage to allow extensions to be enabled/disabled at&nbsp;runtime</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-polkit</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Marco</h4>
+<ul>
+<li>Use <code>zenity</code> instead of <code>mate-dialogs</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-settings-daemon</h4>
+<ul>
+<li>Migrated to <code>MateRR*</code> API&nbsp;changes.</li>
+<li>Migrated media-keys plugin to <code>libmatemixer</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Removed GStreamer and made <code>libmatemixer</code>, <code>libcanberra</code> and PulseAudio optional&nbsp;dependencies</li>
+</ul>
+<h4>mate-session-manager</h4>
+<ul>
+<li>Disabled <code>upower</code> support by default, use <code>--enable-upower</code> if you need&nbsp;it</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-menus</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-panel</h4>
+<ul>
+<li>Fixed the size of the <code>showdesktop</code> icon.</li>
+<li>Fixed deprecated use of GDK pointer API&nbsp;(GTK3)</li>
+<li>Migrated all <code>GtkStyle</code> to <code>GtkStyleContext</code> (GTK3)</li>
+<li>Migrated <code>gtk_rc_parse_string</code> to <code>GtkCssProvider</code> (GTK3)</li>
+<li>
+<code>GDK_KEY_*</code> is also used in Gtk+&nbsp;2.24.x</li>
+<li>Removed the vbox from <code>panel-addto</code> as it is&nbsp;deprecated</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug fixes<ul>
+<li>Check allocated size before creating the shadow pixbuf in the&nbsp;clock.</li>
+<li>Disconnect show and deactivate menu signals before destroying the applet&nbsp;menu</li>
+<li>Handling of <code>SYSTEM_TRAY_CANCEL_MESSAGE</code>
+</li>
+<li>Correct implicit declaration of function of <code>gdk_x11_set_sm_client_id</code>
+</li>
+<li>Added a gtkimage with the current pixbuf to&nbsp;button-widget</li>
+<li>Use gtk icon cache instead of custom&nbsp;one</li>
+</ul>
+</li>
+</ul>
+<h4>mate-backgrounds</h4>
+<ul>
+<li>Added Ubuntu MATE wallpapers without&nbsp;branding</li>
+<li>Added new MATE-Stripes-Dark.png, MATE-Stripes-Light.png&nbsp;wallpapers</li>
+</ul>
+<h4>mate-themes</h4>
+<ul>
+<li>Added support for GTK 3.16, 3.14, 3.12, 3.10 and&nbsp;3.8.</li>
+<li>Added many improvements for MATE GTK3&nbsp;applications</li>
+<li>Added transition effects to buttons and menuitems when using&nbsp;GTK3</li>
+<li>Added support for CSD&nbsp;applications</li>
+<li>Added support for&nbsp;popovers</li>
+<li>Enable window shadows for CSD&nbsp;applications</li>
+<li>Enable regular icons for window&nbsp;controls</li>
+<li>Disable use of symbolic&nbsp;icons</li>
+<li>Use mate logo for spinner&nbsp;animation</li>
+<li>Refactor&nbsp;GreenLaguna</li>
+<li>Refactor ContrastHigh&nbsp;themes</li>
+<li>TraditionalOKTest is installable with normal configure&nbsp;flags</li>
+<li>Many other fixes and&nbsp;refinements</li>
+</ul>
+<h4>mate-notification-daemon</h4>
+<ul>
+<li>Assorted bug&nbsp;fixes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-control-center</h4>
+<ul>
+<li>Added option to configure titlebar buttons&nbsp;layout</li>
+<li>Added support for <code>metacity-theme-2.xml</code>
+</li>
+<li>Added support for office applications in Preferred&nbsp;Applications</li>
+<li>Migrated to <code>MateRR*</code> API&nbsp;changes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-screensaver</h4>
+<ul>
+<li>Migrated to <code>MateRR*</code> API&nbsp;changes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-media</h4>
+<ul>
+<li>Removed PulseAudio&nbsp;dependency</li>
+<li>Removed <code>gst-mixer</code> and <code>gst-mixer-applet</code>
+</li>
+<li>Updated mate-volume-control:<ul>
+<li>Migrated from PulseAudio to <code>libmatemixer</code>
+</li>
+<li>Allow selecting input and output&nbsp;connectors</li>
+<li>Speaker test widget now contains a Close&nbsp;button</li>
+<li>Device and stream lists are now&nbsp;sorted</li>
+<li>Do not show icons when on a vertical&nbsp;panel</li>
+<li>Allow clicking in the popup&nbsp;window</li>
+</ul>
+</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-power-manager</h4>
+<ul>
+<li>Added support for <code>upower</code> 0.99+</li>
+<li>Updated&nbsp;translations</li>
+<li>Removed <code>udisks</code> dependency</li>
+</ul>
+<h4>mate-system-monitor</h4>
+<ul>
+<li>Back ported improvements from GNOME System&nbsp;Monitor</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Atril</h4>
+<ul>
+<li>Added epub&nbsp;support</li>
+<li>Added xz compression&nbsp;support</li>
+<li>Added rotate with CTRL+left and CTRL+right in presentation&nbsp;mode</li>
+<li>Added support for <code>bsdtar</code> to the comics&nbsp;backend.</li>
+<li>Added support <code>pdf.xz</code> files to the PDF&nbsp;backend.</li>
+<li>Added support for external links to&nbsp;EvViewPresentation</li>
+<li>Added EvBookmarks to handle internal document&nbsp;bookmarks</li>
+<li>Added support for OCG State actions to the PDF&nbsp;backend</li>
+<li>Added saving the zoom factor in default settings when sizing mode is&nbsp;free</li>
+<li>Added <code>png</code> extension when saving images using drag <span class="amp">&amp;</span>&nbsp;drop</li>
+<li>Added timestamp parameter to&nbsp;SyncView</li>
+<li>Added ini file for Caja&nbsp;extension</li>
+<li>Added appdata&nbsp;file</li>
+<li>Implemented <code>document_links_find_link_page()</code> in the PDF&nbsp;backend</li>
+<li>Implemented document_links_find_link_page()` in the djvu&nbsp;backend</li>
+<li>Migrated to <code>find_link_page()</code> instead of <code>find_link_dest()</code> in <code>get_dest_page()</code>
+</li>
+<li>Fixed remembering the current page when document is reloaded in presentation&nbsp;mode</li>
+<li>Fixed resolving named destinations in the PDF&nbsp;backend</li>
+<li>Fixed sidebar-thumbnails to connect to job finished signal before scheduling the&nbsp;job</li>
+<li>Fixed drawing glyphs with transparency in the DVI&nbsp;backend</li>
+<li>Fixed several security issues in the DVI&nbsp;backend</li>
+<li>Fixed several accessibility&nbsp;issues.</li>
+<li>Fixed segmentation faults and many memory&nbsp;leaks</li>
+<li>Updated to <code>poppler</code> 0.16.0 API&nbsp;changes</li>
+<li>Migrated to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>caja-extensions</h4>
+<ul>
+<li>Added new &#8216;Set as wallpaper&#8217;&nbsp;extension</li>
+<li>Re-introduced the option to select <code>send-to</code> plugins to&nbsp;build</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Engrampa</h4>
+<ul>
+<li>Added compressing of iso images and tar archives from the Caja&nbsp;menu</li>
+<li>Added overwrite confirmation dialog when extracting files with drag <span class="amp">&amp;</span>&nbsp;drop</li>
+<li>Added keywords key to <code>.desktop</code> file</li>
+<li>Added ini file for Caja&nbsp;extension</li>
+<li>Added <code>engrampa.appdata.xml</code>
+</li>
+<li>Fixed opening RAR files inside a RAR&nbsp;file</li>
+<li>Fixed errors with some password protected&nbsp;files</li>
+<li>Fixed loading of multi-volume RAR archives with&nbsp;7zip</li>
+<li>Fixed crash when clicking Cancel in Add&nbsp;Files</li>
+<li>Fixed hyphen-as-minus-sign issues for <code>engrampa.1</code> man&nbsp;page</li>
+<li>Fixed memory&nbsp;leaks</li>
+<li>Removed support for Gtk+ &lt;&nbsp;2.24</li>
+<li>Removed support for Glib &lt;&nbsp;2.32</li>
+<li>Use Caja GSettings schema&nbsp;optionally</li>
+<li>Use <code>g_get_user_config_dir</code> instead of hardcoded <code>~/.config/mate</code>
+</li>
+<li>Use <code>GtkRecentAction objects</code> to create the recent file&nbsp;choosers</li>
+<li>Do not set the selected app as the system&nbsp;default</li>
+<li>Do not set the &#8220;last output&#8221; dialog as modal to allow the user to resize&nbsp;it</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Eye of&nbsp;MATE</h4>
+<ul>
+<li>Back ported improvements from Eye of&nbsp;GNOME</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-applets</h4>
+<ul>
+<li>Migrated to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-netbook</h4>
+<ul>
+<li>Fixed Windows Picker applet forcibly changing Maximus&nbsp;settings</li>
+<li>Migrated to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-netspeed</h4>
+<ul>
+<li>Added network load graph made similar to MATE System Monitor&nbsp;graphs</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-sensors-applet</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-terminal</h4>
+<ul>
+<li>Migrated to common function in <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-user-share</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-utils</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Mozo</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Pluma</h4>
+<ul>
+<li>Migrated to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>python-caja</h4>
+<ul>
+<li>Added About Extension button to the Extensions tab in&nbsp;Caja </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<p><br><br></p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../tags/releases/" rel="tag">Releases</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" rel="prev" title="MATE 1.10 with GTK3 for Fedora 21 and 22">Az előző&nbsp;bejegyzés </a>
+            </li>
+            <li class="next">
+                <a href="../2015-11-05-mate-1-12-released/" rel="next" title="MATE 1.12 released">A következő&nbsp;bejegyzés</a>
+            </li>
+        </ul></nav></aside></article>
+</div>
+    </div>
+    <!--End of body content-->
+</div>
+
+<hr>
+<div class="footerbox" align="center">
+    Contents © 2020 <a href="mailto:webmaster@mate-desktop.org">The MATE Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
+    
+
+    <!-- MATE social icons -->
+	<br><a class="social-icon" href="../../../rss.xml" title="MATE RSS feed"><img src="../../../assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
+<a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="../../../assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
+<a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="../../../assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
+<a class="social-icon" href="https://wiki.mate-desktop.org/#!index.md" title="MATE Wiki"><img src="../../../assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
+           
+</div>
+
+        <script src="../../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#container-fluid', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><script src="../../../assets/js/tipuesearch_set.js"></script><script src="../../../assets/js/tipuesearch.js"></script><script src="../../../assets/js/jquery.watermark.js"></script><script>
+$(document).ready(function() {
+
+    $('#tipue_search_input').tipuesearch({
+        'show': 5,
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "a06556273db3"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
+
+});
+</script>
+</body>
+</html>

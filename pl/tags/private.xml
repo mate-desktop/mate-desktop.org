@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posty o private)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pl/tags/private.xml" rel="self" type="application/rss+xml"/><language>pl</language><copyright>Contents © 2020 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 25 Apr 2020 13:51:31 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop discussion forums are closing</title><link>https://preview.mate-desktop.dev/pl/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;It is with regret that we are informing you all that the MATE Desktop forums are closing with immediate 
+effect.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For sometime now the forum moderators have struggled to keep up with the pace of discussion, combatting spam
+and new registrations. The original forum administrators are no longer actively participating in the MATE 
+Desktop forums either. It is therefore unfortunate that we have decided to close the MATE Desktop forums
+and we encourage anyone seeking MATE support to head to one of the following distribution specific forums:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bbs.archlinux.org/"&gt;Arch Linux Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forums.debian.net/"&gt;Debian User Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoraforum.org/"&gt;Fedora Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://forums.gentoo.org/"&gt;Gentoo Discussion Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://forums.linuxmint.com/"&gt;Linux Mint Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.salixos.org/"&gt;Salix Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntu-mate.community"&gt;Ubuntu MATE Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/MATEDesktop"&gt;MATE Desktop subreddit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MATE Desktop also has official threads in various distribution forums:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bbs.archlinux.org/viewtopic.php?id=121162&amp;amp;p=1"&gt;MATE thread on Arch Linux topic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.salixos.org/forum/viewtopic.php?f=17&amp;amp;t=3371"&gt;MATE thread on SalixOS topic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntuforums.org/showthread.php?p=11333073"&gt;MATE thread on Ubuntu topic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MATE Desktop discussion can also be found on Google+ and Twitter.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/mate_desktop"&gt;MATE Desktop Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We'd like to thank the MATE Desktop forum moderators, past and present, for all the time and effort they've 
+invested into the forums over the years and hope to see them find moderator roles in some of the discussion 
+forums we've highlighted above.&lt;/p&gt;
+&lt;p&gt;Should anyone want to take on the administration and moderation of the MATE Desktop forums then please come 
+and chat with the &lt;a href="https://preview.mate-desktop.dev/team/"&gt;MATE Desktop team&lt;/a&gt; in the &lt;code&gt;#mate-dev&lt;/code&gt; IRC channel on Freenode. We can potentially 
+reactivate the forums.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,4 @@
+Sitemap: https://preview.mate-desktop.dev/sitemapindex.xml
+
+User-Agent: *
+Host: preview.mate-desktop.dev
