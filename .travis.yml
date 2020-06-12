@@ -39,8 +39,8 @@ notifications:
 deploy:
   #preview website
   - provider: pages
+    edge: true
     github-token: $GITHUB_TOKEN
-    skip_cleanup: true
     committer-from-gh: true
     target-branch: gh-pages
     local-dir: www
@@ -50,8 +50,8 @@ deploy:
 
   #deploy offical website
   - provider: script
+    edge: true
     script: ./docker-build --config .build.yml --release scripts
-    skip_cleanup: true
     on:
       branch: master
 
