@@ -40,10 +40,11 @@ deploy:
   #preview website
   - provider: pages
     edge: true
-    github-token: $GITHUB_TOKEN
-    committer-from-gh: true
-    target-branch: gh-pages
-    local-dir: www
+    token: $GITHUB_TOKEN
+    committer_from_gh: true
+    target_branch: gh-pages
+    local_dir: www
+    strategy: git
     on:
       all_branches: true
       condition: '$TRAVIS_BRANCH != master'
@@ -65,4 +66,4 @@ after_success:
      fi'
 
 env:
-  - DISTRO="archlinux/base"
+  - DISTRO="archlinux:latest"
