@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE", "nl": "Het MATE team"}
+BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE", "ca": "L'équipe de MATE", "nl": "Het MATE team"}
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -205,12 +205,12 @@ NAVIGATION_LINKS = {
    ),
     "fr": (
 		('/fr/blog/', 'Blog'),
-		('/fr/install/', 'Installez'),
-		('/fr/gallery/1.24/english/', 'Screenshots'),
+		('/fr/install/', 'Installation'),
+		('/fr/gallery/1.24/english/', 'Captures d\'écran'),
 		('/fr/development/', 'Développement'),
 		('/fr/community/', 'Communauté'),
-		('/fr/team/', 'Team'),
-		('/fr/donate/', 'Donner'),
+		('/fr/team/', 'Équipe'),
+		('/fr/donate/', 'Donation'),
    ),
     "hu": (
 		('/hu/blog/', 'Blog'),
