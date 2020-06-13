@@ -76,7 +76,7 @@ Peut-être préférez-vous UNIX ?
 
 Vous pouvez aussi `rechercher sur DistroWatch.com toutes les distributions qui supportent MATE <https://distrowatch.org/search.php?desktop=MATE#distrosearch>`_.
 
-La communauté MATE a documenté la façon d'installer mATE sur de nombreuses
+La communauté MATE a documenté la façon d'installer MATE sur de nombreuses
 distributions dans les `notes d'installation <https://wiki.mate-desktop.org/#!pages/download.md>`_.
 
 ------------
