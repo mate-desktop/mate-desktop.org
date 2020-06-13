@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE", "ca": "L'équipe de MATE", "nl": "Het MATE team"}
+BLOG_AUTHOR = {"en": "The MATE Team", "ca": "L'equip de MATE", "es": "El equipo de MATE", "fr": "L'équipe de MATE", "nl": "Het MATE team"}
 BLOG_TITLE = "MATE"
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
