@@ -66,7 +66,7 @@ mais l'inclusion dans leurs dépôts officiels est prévue :
 
 * `Slackware <http://www.slackware.com>`
 
-Peut-être préférez-vous UNIX?
+Peut-être préférez-vous UNIX ?
 
 * `GhostBSD <https://ghostbsd.org>`_
 * `FreeBSD <https://freebsd.org>`_
@@ -91,10 +91,10 @@ Caja
 
 .. image:: /assets/img/mate/caja.png
 
-Caja est le gestionnaire de fichiers officiel du bureau MATE. Il permet 
+Caja est le gestionnaire de fichiers officiel du bureau MATE. Il permet
 de parcourir les répertoires, de prévisualiser les fichiers et de lancer
-les applications qui leur sont associées. Il gère également les icônes 
-du bureau MATE. Il peut travailler sur des systèmes de fichiers locaux 
+les applications qui leur sont associées. Il gère également les icônes
+du bureau MATE. Il peut travailler sur des systèmes de fichiers locaux
 ou distants. Caja est un fork de Nautilus.
 
 Pluma
@@ -109,7 +109,7 @@ d'autres fonctionnalités qui ne sont d'habitude pas présentes dans les
 l'édition de fichiers textes multiples dans une fenêtre (aussi connu sous
 le nom d'onglets). Pluma supporte entièrement les textes internationaux
 grâce à l'utilisation de l'encodage UTF-8 dans les fichiers édités.
-Ses principales fonctionnalités comprennent la coloration syntaxique 
+Ses principales fonctionnalités comprennent la coloration syntaxique
 du code source, l'indentation automatique, l'impression et l'aperçu
 avant impression. Pluma est un fork de Gedit.
 
@@ -135,7 +135,7 @@ PostScript (EPS), DJVU, DVI, XPS et Portable Document Format (PDF).
 Si cela est supporté par le document, il permet également de rechercher
 du texte, copier du texte dans le presse-papiers, la navigation
 hypertexte et les gérer les signets des tables de matières. Atril est
-un fork d'Evince. 
+un fork d'Evince.
 
 Engrampa
 ========
@@ -148,13 +148,13 @@ Il permet de créer et de modifier les archives, d'afficher le contenu
 d'une archive, d'afficher un fichier contenu dans une archive et
 d'extraire des fichiers de l'archive. Engrampa est un fork de File-Roller.
 
-MATE Terminal
+Terminal MATE
 =============
 
 .. image:: /assets/img/mate/terminal.png
 
 Le terminal MATE est une application d'émulation de terminal que vous
-pouvez utiliser pour les actions suivantes : accéder à un shell UNIX 
+pouvez utiliser pour les actions suivantes : accéder à un shell UNIX
 dans l'environnement MATE, exécuter toutes les applications qui sont
 conçues pour les terminaux VT120, VT220 et xterm. Le terminal MATE peut
 afficher de multiples terminaux dans une seule fenêtre (onglets) et
