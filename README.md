@@ -179,19 +179,19 @@ On Fedora:
 sudo dnf install python3 python3-pip asciidoctor optipng yuicompressor jpegoptim virtualenv
 ```
 
-### STEP 2: Create a new virtualenv named nikola in ~/MyVirtualEnvs folder
+### STEP 2: Create a new virtual environment named nikola in ~/MyVirtualEnvs folder
 ```
 mkdir -p ~/MyVirtualEnvs
 cd ~/MyVirtualEnvs
 virtualenv -p $(which python3) nikola
 ```
 
-### STEP 3: Activate the virtualenv created in STEP 2
+### STEP 3: Activate the virtual environment created in STEP 2
 ```
 source nikola/bin/activate
 ```
 
-### STEP 4: Install the following python packages in the virtualenv
+### STEP 4: Install the following python packages in the virtual environment
 ```
 (nikola) pip install --upgrade pip
 (nikola) pip install --upgrade "Nikola[extras]"
@@ -212,7 +212,7 @@ source nikola/bin/activate
 ### STEP 6: Open the site in a web browser
 Open the URI displayed in the previous step using your favorite web browser.
 
-### STEP 7: Exit virtualenv
+### STEP 7: Exit virtual environment
 Press ^C to close nikola serve
 ```
 (nikola) deactivate
