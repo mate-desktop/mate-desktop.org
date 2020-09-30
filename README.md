@@ -5,7 +5,7 @@ content for <https://mate-desktop.org>.
 
 # Contributing content
 
-If you want to add or edit content on <https://mate-desktop.org>, please submit
+If you want to add or edit the content on <https://mate-desktop.org>, please submit
 a [pull request](https://help.github.com/articles/using-pull-requests).
 
 ## Contributing a new post
@@ -19,7 +19,7 @@ Contributing a new blog post to the mate-desktop.org website is simple.
     cp blog/20991231template-markdown.md blog/20131107my-cool-blog-post.md
 
   * Edit your new file, making sure to change the metadata in the file header. The following are valid metadata fields and what they're for. 
-    * `link` is optional, but should include the URL to the original article if there is one.
+    * `link` is optional but should include the URL to the original article if there is one.
     * `description` is optional, and should briefly describe the post.
     * `tags` are any tags that are relevant. **You must include the `draft` tag.**
     * `date` is the intended publication date of the post in the format YYYY/MM/DD HH:MML:SS
@@ -160,7 +160,7 @@ the [reStructured Text extensions](https://getnikola.com/handbook.html#restructu
 # Creating a Nikola stack
 
 For the MATE Desktop core team, if you need to create a Nikola stack
-for testing/deployment the installation process is documentation
+for testing/deployment, the installation process is documentation
 for Ubuntu (also works in Debian Jessie) here:
 
   * https://flexion.org/posts/2015-11-installing-nikola-on-ubuntu/
@@ -222,6 +222,6 @@ Press ^C to close nikola serve
 
   * Add more text to the homepage.
     * Floating MATE logo
-    * All the applications, with improved layout.
+    * All the applications, with an improved layout.
   * Integrate SocialSharePrivacy
     * https://github.com/panzi/SocialSharePrivacy
