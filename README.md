@@ -1,4 +1,4 @@
-# mate-desktop.org
+# mate-desktop.org -An amazing project
 
 This repository contains the [Nikola](https://getnikola.com) configuration and
 content for <https://mate-desktop.org>.
