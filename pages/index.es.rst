@@ -52,6 +52,7 @@ MATE está disponible a través de los repositorios **oficiales** de las siguien
 * `PLD Linux <https://www.pld-linux.org/>`_
 * `Sabayon <https://www.sabayon.org>`_
 * `Salix <https://www.salixos.org>`_
+* `Slint <https://slint.fr>`_
 * `Solus <https://getsol.us/>`_
 * `Trisquel GNU/Linux <https://trisquel.info/>`_
 * `Ubuntu <https://www.ubuntu.com>`_
