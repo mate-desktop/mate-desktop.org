@@ -40,7 +40,7 @@ Sie sind der soziale Typ, stimmt's?
 
 Sie sind ein Internet-Guru. Da haben wir das Richtige -- kommen Sie in unseren IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Es gibt mehrere IRC-Channels. Die Details finden Sie auf unserer [IRC-Wiki-Seite](https://wiki.mate-desktop.org/#!pages/irc.md).
 

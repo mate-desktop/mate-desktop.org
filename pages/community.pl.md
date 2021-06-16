@@ -40,7 +40,7 @@ Jesteś towarzyski, prawda?
 
 Jesteś guru Internetu. Zadbamy o to, chodź i dołącz do nas na IRC.
 
-* [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+* [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Jest dostępnych kilka kanałów IRC. Możesz znaleźć szczegóły na naszej [wiki](https://wiki.mate-desktop.org/#!pages/irc.md).
 

@@ -39,7 +39,7 @@ Sosyal birisiniz, değil mi?
 
 İnternet piri iseniz size gereken vardır, gelin IRC'de görüşelim.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Birden çok İRC kanalımız vardır. Tüm ayrıntıları [IRC wiki sayfamızda](https://wiki.mate-desktop.org/#!pages/irc.md)
 bulabilirsiniz.

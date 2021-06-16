@@ -30,7 +30,7 @@ repositories. Future releases (eg. 1.2.0) will be hosted here.
 We are proud to announce that packing for [openSUSE](https://www.opensuse.org) has begun.
 Once we have more information we will add it to our wiki and make an announcement.
 
-Lastly, we have had several individuals join [our IRC channel](https://webchat.freenode.net/?channels=#mate)
+Lastly, we have had several individuals join [our IRC channel](https://web.libera.chat/?#mate)
 and ask about [Gentoo](https://www.gentoo.org) ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.
 

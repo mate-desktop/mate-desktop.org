@@ -58,7 +58,8 @@ Die GSoC-2014-Mentoren für MATE sind Stefano Karapetsas (`stefano-k` auf IRC)
 und Martin Wimpress (`flexiondotorg` auf IRC). Der beste Weg,
 mit den MATE-Mentoren in Kontakt zu treten ist:
 
-  * [#mate IRC-Channel auf Freenode](https://webchat.freenode.net/?channels=#mate)
+  * [#mate IRC-Channel auf Libera Chat](https://web.libera.chat/?#mate)
+  * [#mate:libera.chat Matrix-Room](https://matrix.to/#/#mate:libera.chat)
   * [MATE auf GitHub](https://github.com/mate-desktop)
 
 Wir freuen uns auf eure Bewerbungen!

@@ -20,7 +20,7 @@ Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht die
 [MATE-Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md) anzuschauen.
 
 Sollten Sie weitere Fragen haben, oder zu dem Projekt beitragen wollen,
-dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel](https://webchat.freenode.net/?channels=#mate)
+dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel](https://web.libera.chat/?#mate)
 oder auf die Durchsicht Ihrer [Pull-Requests auf GitHub](https://github.com/mate-desktop).
 
 [Jupiter Broadcasting](https://www.jupiterbroadcasting.com) produziert mehrere

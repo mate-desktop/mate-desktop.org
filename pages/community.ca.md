@@ -42,7 +42,7 @@ Utilitzeu les xarxes socials?
 Sou un gurú d'Internet. També ho tenim previst, veniu i uniu-vos a nosaltres a
 l'IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Hi ha diversos canals d'IRC disponibles. Podeu trobar tots els detalls a la nostra
 [pàgina wiki IRC](https://wiki.mate-desktop.org/#!pages/irc.md).

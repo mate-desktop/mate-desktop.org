@@ -40,7 +40,7 @@ Jij bent wel een social media type, right?
 
 Je bent een internet guru? Dan kan je ons ook joinen op IRC
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Er zijn meerdere IRC channels beschikbaar, je kan hier meer details vinden:
 [IRC wiki pagina](https://wiki.mate-desktop.org/#!pages/irc.md).

@@ -37,7 +37,7 @@
 
 Είσαι δεινός χρήστης του Internet. Μπορούμε να σε καλύψουμε, έλα να συμμετάσχεις στις συζητήσεις μας στο IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Ύπάρχουν πολλά IRC κανάλια διαθέσιμα. Μπορείτε να βρείτε όλες τις λεπτομέρειες στη [wiki σελίδα του IRC μας](https://wiki.mate-desktop.org/#!pages/irc.md).
 

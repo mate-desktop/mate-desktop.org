@@ -38,7 +38,7 @@
 
 我们也为诸位长老级的互联网用户提供了 IRC 频道用于交流。加入频道和我们聊聊吧。
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 我们还提供了其他数个 IRC 频道。你可以通过 [IRC wiki 页面](https://wiki.mate-desktop.org/#!pages/irc.md) 获取更多信息。
 

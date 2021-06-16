@@ -17,5 +17,5 @@ For more information about MATE's official inclusion in Fedora, see the followin
   * <https://fedoraproject.org/wiki/Features/MATE-Desktop>
 
 If you have any questions regarding installing MATE on Fedora then please ask
-for help in our [#fedora-mate IRC channel](https://webchat.freenode.net/?channels=#fedora-mate)
-or for general MATE questions join us in [#mate IRC channel](https://webchat.freenode.net/?channels=#mate).
+for help in our [#fedora-mate IRC channel](https://web.libera.chat/?#fedora-mate)
+or for general MATE questions join us in [#mate IRC channel](https://web.libera.chat/?#mate).

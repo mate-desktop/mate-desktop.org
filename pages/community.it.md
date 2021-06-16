@@ -40,7 +40,7 @@ MATE è presente anche nei social media!
 
 Per i guru di internet, venite a trovarci su IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Ci sono più canali IRC disponibili. Potete trovare la lista nella
 [pagina wiki IRC](https://wiki.mate-desktop.org/#!pages/irc.md).

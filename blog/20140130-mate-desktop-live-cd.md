@@ -70,7 +70,7 @@ order to make the LiveCD a little more useful and enjoyable.
   * [Firefox](https://www.mozilla.org/firefox/)   - Standalone web browser from mozilla.org
   * [GParted](https://gparted.sourceforge.io/)   - A Partition Magic clone, frontend to GNU Parted
   * [HardInfo](https://www.berlios.de/software/hardinfo/)  - A system information and benchmark tool
-  * [Hexchat](https://hexchat.github.io/)   - IRC client configured to auto-connect to [#mate@freenode](https://webchat.freenode.net/?channels=#mate)
+  * [HexChat](https://hexchat.github.io/)   - IRC client configured to auto-connect to [#mate@libera](https://web.libera.chat/?#mate)
   * [Onboard](https://www.gnome.org/projects/orca)      - Screen reader for individuals who are blind or visually impaired
   * [Orca](https://www.gnome.org/projects/orca)      - On-screen keyboard useful for mobility impaired individuals
   * [Pidgin](https://pidgin.im/)    - Multi-protocol instant messaging client

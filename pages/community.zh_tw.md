@@ -40,7 +40,7 @@
 
 您是網際網路大師。我們邀請您在 IRC 上加入我們。
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 這裡提供了許多 IRC 頻道。您可以在我們的 [IRC wiki 頁面](https://wiki.mate-desktop.org/#!pages/irc.md)
 找到所有的詳細資訊。

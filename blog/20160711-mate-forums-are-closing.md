@@ -31,7 +31,7 @@ MATE Desktop also has official threads in various distribution forums:
   * [MATE thread on SalixOS topic](https://www.salixos.org/forum/viewtopic.php?f=17&t=3371)
   * [MATE thread on Ubuntu topic](https://ubuntuforums.org/showthread.php?p=11333073)
 
-MATE Desktop discussion can also be found on Google+ and Twitter.
+MATE Desktop discussion can also be found on Twitter.
 
   * [MATE Desktop Twitter](https://twitter.com/mate_desktop)
 
@@ -40,6 +40,5 @@ invested into the forums over the years and hope to see them find moderator role
 forums we've highlighted above.
 
 Should anyone want to take on the administration and moderation of the MATE Desktop forums then please come 
-and chat with the [MATE Desktop team](/team/) in the `#mate-dev` IRC channel on Freenode. We can potentially 
-reactivate the forums.
-
+and chat with the [MATE Desktop team](/team/) in the `#mate-dev` IRC and Matrix channel on Libera Chat. We
+can potentially reactivate the forums.

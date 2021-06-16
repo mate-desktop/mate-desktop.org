@@ -41,7 +41,7 @@ Vous êtes du genre social, n'est-ce pas ?
 Vous êtes un gourou d'Internet. Nous avons ce qu'il vous faut, venez nous 
 rejoindre sur IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Plusieurs canaux IRC sont disponibles. Vous pouvez trouver tous les détails
 sur [notre page IRC sur le wiki](https://wiki.mate-desktop.org/#!pages/irc.md).

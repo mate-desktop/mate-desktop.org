@@ -26,5 +26,4 @@ A big thanks to:
 
 
 If you want to join the team, please reach the members on IRC in the
-[#debian-mate](https://webchat.freenode.net/?channels=#debian-mate) channel @
-freenode.
+[#debian-mate](https://webchat.oftc.net/?channels=debian-mate) channel @ OFTC.

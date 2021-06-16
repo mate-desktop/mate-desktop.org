@@ -19,7 +19,7 @@ I wasn't able to cover all the development objectives of MATE 1.10 in the time
 available so I recommend you take a look at the [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
 for a complete overview. If you should have any additional questions, or would
 like to contribute to the project, then we look forward to chatting with
-you in the [#mate IRC channel](https://webchat.freenode.net/?channels=#mate) or 
+you in the [#mate IRC channel](https://web.libera.chat/?#mate) or
 reviewing your [pull-requests on GitHub](https://github.com/mate-desktop). 
 
 [Jupiter Broadcasting](https://www.jupiterbroadcasting.com) produce a number of 

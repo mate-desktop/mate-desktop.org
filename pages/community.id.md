@@ -40,7 +40,7 @@ Anda tipe sosial bukan?
 
 Silahkan bergabung di IRC.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Terdapat beberapa channel IRC yang tersedia. Anda bisa menemukan semua detailnya pada 
 [halaman wiki IRC](https://wiki.mate-desktop.org/#!pages/irc.md).

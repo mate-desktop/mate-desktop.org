@@ -40,7 +40,7 @@ Közösségi típus?
 
 Ön egy Internet guru. Jöjjön és csatlakozzon hozzánk IRC-n.
 
-  * [#mate @ irc.freenode.net](https://webchat.freenode.net/?channels=#mate)
+  * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 Számos IRC csatorna érhető el. A részeleteket az
 [IRC wiki oldalon](https://wiki.mate-desktop.org/#!pages/irc.md) találja.
