@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 15 Jun 2021 19:39:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Proyectos MATE aceptados para el GSoC 2014</title><link>https://preview.mate-desktop.dev/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Despues de varias semanas de revisar la aplicación y selección para la edición 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 09 Jul 2021 15:23:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Proyectos MATE aceptados para el GSoC 2014</title><link>https://preview.mate-desktop.dev/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Despues de varias semanas de revisar la aplicación y selección para la edición 
 2014 del Google Summer Of Code (GSoC) ha terminado. 4,420 estudiantes han aceptado
 y el proyecto Escritorio MATE es uno de los 190 proyectos Open Source que estarán
 trabajando con los estudiantes este año.&lt;/p&gt;
@@ -67,7 +67,8 @@ of Concepts is a good way to get started.&lt;/p&gt;
 Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; on IRC). The best way to communicate and 
 interact with the MATE mentors is via:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel on Freenode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel on Libera Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/es/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item></channel></rss>

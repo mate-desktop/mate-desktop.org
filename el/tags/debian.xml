@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 15 Jun 2021 19:39:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/el/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 09 Jul 2021 15:23:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/el/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
@@ -31,8 +31,7 @@ in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&l
 &lt;li&gt;&lt;a href="https://outflux.net/"&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you want to join the team, please reach the members on IRC in the
-&lt;a href="https://webchat.freenode.net/?channels=#debian-mate"&gt;#debian-mate&lt;/a&gt; channel @
-freenode.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/el/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/el/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+&lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt; channel @ OFTC.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/el/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/el/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
 available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
 reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
@@ -49,7 +48,7 @@ it is no longer supported. The rest of our 1.1.x releases will be hosted on the 
 repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
 &lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
 Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
-&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;our IRC channel&lt;/a&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
 &lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/el/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/el/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;

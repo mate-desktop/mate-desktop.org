@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 15 Jun 2021 19:39:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/de/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 09 Jul 2021 15:23:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/de/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; to
 talk a little about MATE Desktop, where it came from and where it is headed.
 The interview with me is embedded below.&lt;/p&gt;
@@ -13,7 +13,7 @@ The interview with me is embedded below.&lt;/p&gt;
 available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
 for a complete overview. If you should have any additional questions, or would
 like to contribute to the project, then we look forward to chatting with
-you in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt; or 
+you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
 reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
@@ -176,8 +176,7 @@ in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&l
 &lt;li&gt;&lt;a href="https://outflux.net/"&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you want to join the team, please reach the members on IRC in the
-&lt;a href="https://webchat.freenode.net/?channels=#debian-mate"&gt;#debian-mate&lt;/a&gt; channel @
-freenode.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>MATE at openSUSE Summit</title><link>https://preview.mate-desktop.dev/de/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
+&lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt; channel @ OFTC.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>MATE at openSUSE Summit</title><link>https://preview.mate-desktop.dev/de/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href="https://summit.opensuse.org/"&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,

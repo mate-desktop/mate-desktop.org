@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 15 Jun 2021 19:39:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/hu/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 09 Jul 2021 15:23:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/hu/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
 talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
 &lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
 creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
@@ -32,8 +32,8 @@ guide for Fedora&lt;/a&gt;.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://fedoraproject.org/wiki/Features/MATE-Desktop"&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
-for help in our &lt;a href="https://webchat.freenode.net/?channels=#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/hu/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/hu/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;An &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
+for help in our &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
+or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/hu/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/hu/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;An &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
 is now available for our 1.4 release. As usual, follow &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you're upgrading from an older release please make sure that you remove the old
 repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/hu/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/hu/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
@@ -84,7 +84,7 @@ it is no longer supported. The rest of our 1.1.x releases will be hosted on the 
 repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
 &lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
 Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
-&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;our IRC channel&lt;/a&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
 &lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/hu/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>
