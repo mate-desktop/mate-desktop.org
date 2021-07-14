@@ -50,3 +50,4 @@ Er zijn meerdere IRC channels beschikbaar, je kan hier meer details vinden:
 Blog posts van de MATE community zijn verzameld op planet MATE.
 
   * [Planet MATE](https://planet.mate-desktop.org)
+
