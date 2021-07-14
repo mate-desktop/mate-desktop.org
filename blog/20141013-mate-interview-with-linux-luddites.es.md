@@ -16,7 +16,7 @@ su futuro y como [Ubuntu MATE](https://ubuntu-mate.org) llegó a ser y hacia don
 [Linux Luddites Episodio #26](https://linuxluddites.com/shows/episode-26)
 Fue publicado hoy temprano y le sugerimos que se diriga al sitio web de Linux Luddites y lo escuchen.
 
- * [Linux Luddites Episodio #26](https://linuxluddites.com/shows/episode-26)
+  * [Linux Luddites Episodio #26](https://linuxluddites.com/shows/episode-26)
 
 Si usted no escuchó los Linux Luddites anteriormente, entonces usted debería revisar
 su catalogo. Ha sido uno de mis podcasts FLOSS desde hace algunos meses que mezcla buena discusión
