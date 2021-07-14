@@ -37,5 +37,5 @@ Altres enllaços útils:
   * [Full de ruta de MATE](https://wiki.mate-desktop.org/#!pages/roadmap.md)
   * <https://wiki.mate-desktop.org/#!pages/contribute.md>
   * <https://wiki.mate-desktop.org/#!pages/translation.md>
-  
+
 No dubteu a contribuir i divertir-vos millorant MATE!
