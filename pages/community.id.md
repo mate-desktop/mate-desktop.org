@@ -29,7 +29,7 @@ Silahkan bergabung dengan forum komunitas kami.
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## Media Sosial
 
 Anda tipe sosial bukan?
