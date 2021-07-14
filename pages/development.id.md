@@ -37,5 +37,5 @@ Link lainnya:
   * [Rencana Pengembangan MATE](https://wiki.mate-desktop.org/#!pages/roadmap.md)
   * <https://wiki.mate-desktop.org/#!pages/contribute.md>
   * <https://wiki.mate-desktop.org/#!pages/translation.md>
-  
+
 Jangan ragu untuk berkontribusi dan meningkatkan MATE!
