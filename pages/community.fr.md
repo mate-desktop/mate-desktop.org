@@ -29,7 +29,7 @@ Vous n'utilisez pas le courrier électronique, nous le comprenons aussi.
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## Réseau sociaux
 
 Vous êtes du genre social, n'est-ce pas ?
