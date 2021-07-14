@@ -14,7 +14,6 @@ pemaket, artis, dan administrator sistem internasional.
 
 Ini adalah tim inti MATE.
 
-
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
 Pemaket untuk Ubuntu-MATE dan Debian, mentor GSoC, manajemen komunitas.
