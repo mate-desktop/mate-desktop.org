@@ -50,3 +50,4 @@ en nuestra [página de wiki de IRC](https://wiki.mate-desktop.org/#!pages/irc.md
 Entradas de blog de miembros de la comunidad MATE están agregados en nuestro Planeta.
 
   * [Planeta MATE](https://planet.mate-desktop.org)
+
