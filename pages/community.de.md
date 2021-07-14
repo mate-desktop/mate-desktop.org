@@ -29,7 +29,7 @@ Sie mailen nicht -- verstehen wir auch.
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## Soziale Medien
 
 Sie sind der soziale Typ, stimmt's?
