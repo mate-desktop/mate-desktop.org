@@ -28,7 +28,7 @@ E-mail kullanmıyorsanız bu da bir sorun değildir.
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## Sosyal ağlar
 
 Sosyal birisiniz, değil mi?
