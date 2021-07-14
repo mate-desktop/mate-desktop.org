@@ -29,7 +29,7 @@ Per chi non usa l'email, è possibile unirsi al nostro forum.
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## Social Media
 
 MATE è presente anche nei social media!
