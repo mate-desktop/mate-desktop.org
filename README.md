@@ -109,7 +109,7 @@ Nikola supported languages are, the one in bold are already in the site navigati
   * `hu`        Hungarian
   * `id`        **Indonesian**
   * `it`        **Italian**
-  * `ja`        Japanese [NOT jp]
+  * `ja`        **Japanese [NOT jp]**
   * `ko`        Korean
   * `lt`        Lithuanian
   * `ml`        Malayalam
