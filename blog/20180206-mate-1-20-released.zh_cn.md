@@ -23,43 +23,43 @@ MATE Desktop 1.20 包含如下主要更改：
 
   * **MATE Desktop 1.20 支持 HiDPI 显示器，且支持动态探测和缩放。**
     * 与此同时，提交 Qt 应用程序的 HiDPI 设置信息到桌面环境以改善基于多个图形库的应用程序之
-    间的外观统一。
-    * HiDPI 开关直接触发动态界面缩放和大小调整，无需重新登录。
-  * **Marco（在可用时）新增 [DRI3 及 XPresent](https://lwn.net/Articles/569701/) 支持。**
-     * 使用 Marco 时的游戏性能明显提高。
+    * 间的外观统一。
+  * HiDPI 开关直接触发动态界面缩放和大小调整，无需重新登录。
+     * **Marco（在可用时）新增 [DRI3 及 XPresent](https://lwn.net/Articles/569701/) 支持。**
+  * 使用 Marco 时的游戏性能明显提高。
   * Marco 新增 **¼ 平铺支持**，方向键现在可用于控制 <kbd>Alt</kbd> + <kbd>Tab</kbd>
-    窗口切换，并且新增了用于移动窗口到其他显示屏。
+  * 窗口切换，并且新增了用于移动窗口到其他显示屏。
   * 新增 **全局菜单支持**，可配合 [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu)
-    一类的服务使用。
+  * 一类的服务使用。
   * MATE 面板的 [状态通知项 (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) 支持大大增强。
-  * **书签栏现在支持 GTK+3 位置。**
-  * MATE 终端新增背景图像支持、Solarized 主题及用于切换标签页的组合键。
+    * **书签栏现在支持 GTK+3 位置。**
+    * MATE 终端新增背景图像支持、Solarized 主题及用于切换标签页的组合键。
   * **Atril，MATE 的默认文档阅读器已完全整修**，该程序的许多方面都得到了相当的改善。
     * 大幅度改善了无障碍支持，尤其对于视力受损的用户。
-    * 新增光标导航支持。
+  * 新增光标导航支持。
   * **移除了 MATE 小挂件中的“投资”挂件。**
-    * 由雅虎 (Yahoo) 提供的 API 已不再受到维护，且没有任何功能均等的替代品。
+  * 由雅虎 (Yahoo) 提供的 API 已不再受到维护，且没有任何功能均等的替代品。
   * 面板小挂件现在通过显示单位来正确调整大小，与此同时许多图表现已支持动态缩放。
   * **MATE 主题得到了大量改进**，并已完全支持 GTK+ 3.22 新增的组件和样式类型。
   * Engrampa，MATE 默认归档管理器的加密 7z 归档支持得到增强。
   * MATE 传感器挂件（终于）添加了 udisks2 支持。
-  * MATE 屏幕保护程序新增 OpenBSD 认证支持，Atril 中的 minizip 也新增了许多 BSD 变种的
-    支持。
-  * 翻译已更新。 *感谢各位翻译贡献者！*
-  * 发行版维护者请注意，我们提高了 GTK+3 和 GLib 版本要求。
-    * MATE Desktop 现在需要 GTK 3.22 和 GLib 2.50 的更新版本才能构建。
-  * 你可能会在变更日志里面看到有关 Wayland 的信息，不过不要激动：这些改动可能跟你想的不太一样 `：-)`
+    * MATE 屏幕保护程序新增 OpenBSD 认证支持，Atril 中的 minizip 也新增了许多 BSD 变种的
+  * 支持。
 
-MATE Desktop 的大量组件现可通过如下链接下载：
+翻译已更新。 *感谢各位翻译贡献者！*
+
+  * 发行版维护者请注意，我们提高了 GTK+3 和 GLib 版本要求。
+
+## MATE Desktop 现在需要 GTK 3.22 和 GLib 2.50 的更新版本才能构建。
+
+你可能会在变更日志里面看到有关 Wayland 的信息，不过不要激动：这些改动可能跟你想的不太一样 `：-)`
+
+### MATE Desktop 的大量组件现可通过如下链接下载：
 
   * <https://pub.mate-desktop.org/releases/1.20/>
-
-## 变更日志
-
-如下是各个组件的详细更改记录。
-
-### mate-desktop 1.20.0
-
+  * 变更日志
+  * 如下是各个组件的详细更改记录。
+  * mate-desktop 1.20.0
   * Add gsettings for window scaling factor
   * drop additional checks for min GLib version
   * remove < gtk+-3.22 bits and bump required gtk+ version
@@ -76,17 +76,17 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * avoid deprecated `gdk_screen_make_display_name`
   * avoid deprecated `gdk_screen_get_number`
   * Correct little imprecision in `man mate-about`
-  * Fix broken fallback cursor in `mate-colorsel.c`
+
+### Fix broken fallback cursor in `mate-colorsel.c`
+
   * mate-colorsel: don't use deprecated `GTK_STOCK_COLOR_PICKER`
-  * Add Global Menu support
-  * Translations update
 
-### mate-user-guide 1.20.0
+### Add Global Menu support
 
   * Translations update
-
-### libmatekbd 1.20.0
-
+  * mate-user-guide 1.20.0
+  * Translations update
+  * libmatekbd 1.20.0
   * remove < gtk+-3.22 bits and bump required gtk+
   * WidthOfScreen and HeightOfScreen implementation
   * matekbd-status: Fix Gdk-CRITICAL warning on creating status bar icon
@@ -102,37 +102,37 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * matekbd-keyboard-drawing: Don't unset double buffering
   * matekbd-keyboard-drawing: Handle `XkbGetKeyboard()` failing
   * matekbd-keyboard-drawing: Prevent gtk+ keynav from taking focus away
-  * fix some introspection warnings
+
+### fix some introspection warnings
+
   * show-layout.ui: don't use deprecated widgets
   * UI: expand kbdraw vertical
   * Translations update
-
-### libmateweather 1.20.0
-
+  * libmateweather 1.20.0
   * locations: Add Radom, Poland
-  * Locations: add Zhukovsky airport (Moscow, Russia)
-  * Locations: fix Sheremetyevo airport name (Moscow, Russia)
+    Locations: add Zhukovsky airport (Moscow, Russia)
+    Locations: fix Sheremetyevo airport name (Moscow, Russia)
   * Add timeout, actully invalidate session in weather_info_abort
   * Start reducing weather spam by creating intial cut of `weather_info_equal()`
-    function that will help apps determine if two WeatherInfo instances are 'the same'
-    enough to not bother with a notification
+  * function that will help apps determine if two WeatherInfo instances are 'the same'
+  * enough to not bother with a notification
   * remove warning on unused bsun by actually testing value
   * Fix `soup_session_async_new()` deprecation warning
   * Add missing Polish cities with airports
   * Fix Novosibirsk timezone
   * Add Ceiba in Puerto Rico
-  * doc: drop ancient MateConf references and some other stuff
+
+### doc: drop ancient MateConf references and some other stuff
+
   * Update cities of Kazakhstan.
   * actually check the `$GIO_REQUIRED` variable's value
-  * Translations update
 
-### mate-icon-theme 1.20.0
+### Translations update
 
+  * mate-icon-theme 1.20.0
   * Replace same broken flags
   * Translations update
-
-### caja 1.20.0
-
+  * caja 1.20.0
   * drop CSS for GTK+ 3.14
   * Fix tasklist icon change when opening new tab
   * Include local files with "" instead of <>
@@ -195,22 +195,22 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * fix build warning (no const needed there)
   * fix build with gcc 4.9.2 (looks like it's in c89 mode by default)
   * search: added tag support (xattr::xdg.tags).
-  * Fix broken rename in list view by selectin file name cell.
+
+### Fix broken rename in list view by selectin file name cell.
+
   * property-browser: add style class frame to scrolledwindows
   * caja-application.c: Fix uninitialized variable
   * Translations update
-
-### mate-polkit 1.20.0
-
+  * mate-polkit 1.20.0
   * drop polkitgtkmate library and its docs
   * Fix reshow/hide icon with statusnotifier
-  * status-icon: don't use stock icons
+
+### status-icon: don't use stock icons
+
   * polkitmateauthenticationdialog: avoid deprecated GtkAlignment
   * polkitmateauthenticationdialog: replace a GTK_STOCK deprecation
   * Translations update
-
-### marco 1.20.0
-
+  * marco 1.20.0
   * build: drop unneeded pangoxft requirement
   * Small bugfix for the move_to_X keybinds
   * Bugfix for monitors of different sizes
@@ -252,31 +252,33 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * Allow use of arrows while in <kbd>Alt</kbd> + <kbd>Tab</kbd> popup
   * ui: Fix invalid object construction in frames
   * README: fix names of GSettings keys
-  * keybindings: remove uppercase from "current workspace"
+
+### keybindings: remove uppercase from "current workspace"
+
   * Added hotkey to rename current workspace
   * fix code deprecations
   * Translations update
-
-### mate-settings-daemon 1.20.0
-
+  * mate-settings-daemon 1.20.0
   * HiDPI: Load xsettings during initialization phase
   * Add HiDPI configuration in XSettings
   * Add support for HiDPI displays
   * plugins: `G_GNUC_UNUSED` in unused but needed variables
   * xsettings: drop CanChangeAccels which won't work with GTK+3
-  * msd-datetime-mechanism.c: Fix build warnings:
+
+### msd-datetime-mechanism.c: Fix build warnings:
+
   * msd-mpris-manager.c: Fix build warning:
   * configure.ac: drop `GLIB_VERSION_MAX_ALLOWED`
   * Translations update
-
-### mate-session-manager 1.20.0
-
+  * mate-session-manager 1.20.0
   * gsm-manager.c: Fix build warning:
   * don't lose focus when displaying logout or shutdown dialog
   * add style class `logout-dialog`
   * avoid deprecated `gdk_screen_make_display_name`
   * don't use deprecated `gtk_show_uri`
-  * avoid deprecated `gdk_screen_get_number`
+
+### avoid deprecated `gdk_screen_get_number`
+
   * systemd user-session needs to be updated to get all user-defined enviroment when the session starts.
   * dbus needs to be updated to get all user-defined environment when the session starts.
   * Translations update
@@ -286,9 +288,7 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * bump gio version to 2.50.0
   * make mate-applications-merged symlink
   * Translations update
-
-### mate-panel 1.20.0
-
+  * mate-panel 1.20.0
   * Support panel auto-scaling for HiDPI displays
   * bump minimum required libwnck version to 3.4.6
   * status-notifier: don't crash if tooltip has wrong type
@@ -404,18 +404,18 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * status-notifier: Plug a memory leak
   * remove deprecated `sys/timeb.h` header, as nothing uses it
   * status-notifier-watcher: Allow re-registration of registered items
-  * setup custom icon
-  * status-notifier: Plug a memory leak
-  * notification area: Fix memory leak sorting items
+
+### setup custom icon
+
+   * status-notifier: Plug a memory leak
+   * notification area: Fix memory leak sorting items
+
+### Translations update
+
+  * mate-backgrounds 1.20.0
+  * Drop ancient gnome leftovers
   * Translations update
-
-### mate-backgrounds 1.20.0
-
-   * Drop ancient gnome leftovers
-   * Translations update
-
-### mate-themes 3.22.8 to 3.22.15
-
+  * mate-themes 3.22.8 to 3.22.15
   * Submarine themes: remove a box-shadow at engrampa toolbar
   * submarine themes: remove padding from caja-sidebar treeview
   * all themes caja: remove right-border from scrolledwindow.frame
@@ -542,23 +542,23 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * Traditional themes: add a border-image for some applets
   * Gtk+-3.20 Traditional themes: use a border for the whole GtkInfobar
   * Gtk+-3.20 Traditional themes: workaround, fix some borders in firefox
-  * Gtk+-3.20 Traditional themes: fix jumping combobox button
+
+### Gtk+-3.20 Traditional themes: fix jumping combobox button
+
   * Gtk+-3.20 most themes: fix sidebar of GtkAssistant
   * Gtk+-3.20 Submarine themes: fix sidebar of GtkAssistant
   * Gtk+-3 all themes: don't set NaTrayApplet-icon-size
-
-### mate-notification-daemon 1.20.0
-
+  * mate-notification-daemon 1.20.0
   * WidthOfScreen and HeightOfScreen implementation
   * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions:
   * avoid deprecated `gdk_screen_get_width/height`
-  * avoid deprecated `gdk_screen_get_n_monitors`
+
+### avoid deprecated `gdk_screen_get_n_monitors`
+
   * Fixes high cpu usage with large timeouts
   * unescape URI-encode paths for icon files
   * Translations update
-
-### mate-control-center 1.20.0
-
+  * mate-control-center 1.20.0
   * Scale font DPI for HiDPI displays
   * Add support for HiDPI displays
   * theme-installer.c: missing `g_object_unref` in `mate_theme_install_real`
@@ -567,13 +567,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * drop unused variables
   * eggcellrendererkeys.c: Fix build warnings:
   * remove some leftovers related to MacOS support
-  * theme-thumbnail.c: Fix build warnings with `write` and `pipe`:
+
+### theme-thumbnail.c: Fix build warnings with `write` and `pipe`:
+
   * libslab: store search entry widget as `GtkEntry`
   * libslab: fix search icon misaligned
   * Translations update
-
-### mate-screensaver 1.20.0
-
+  * mate-screensaver 1.20.0
   * Add HiDPI support for lock screen
   * gs-lock-plug.c: Fix build warning:
   * WidthOfScreen and HeightOfScreen implementation
@@ -587,13 +587,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * Bug Fix: `g_get_real_name` will never return NULL pointer
   * lock-dialog UI: avoid deprecated widgets
   * Bug fix: screensaver and lock screen not correctly displayed in configurations with overlapping monitor geometries
-  * [GTK+3.20] Switch to GdkSeat
+
+### [GTK+3.20] Switch to GdkSeat
+
   * Set input purpose for the password entry widget
   * copy theme dialog: fix build warning about wrong variable type
   * Translations update
-
-### mate-media 1.20.0
-
+  * mate-media 1.20.0
   * gvc-applet: don't try to increase refcount of a NULL object
   * gvc-combo-box: fix signal arguments
   * applet: restore icon for "Sound Preferences" menu item
@@ -604,13 +604,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * refresh tray icon on icon theme change
   * mixer-dialog: remove style class .frame from a scrolledwindow
   * volume-control-dialog: avoid deprecated GtkAlignment
-  * applet: show volume in popup even when muted
+
+### applet: show volume in popup even when muted
+
   * applet: improve volume increments
   * enable deprecation warnings by default
   * Translations update
-
-### mate-power-manager 1.20.0
-
+  * mate-power-manager 1.20.0
   * avoid deprecated GtkStock
   * inhibit: fix error that spammed logs from previous commit
   * inhibit applet: fix rendering of icon
@@ -622,26 +622,26 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * avoid deprecated `gdk_screen_get_width/height`
   * avoid deprecated `gdk_display_get_screen`
   * don't use deprecated `gtk_show_uri`
-  * refresh tray icon on icon theme change
+
+### refresh tray icon on icon theme change
+
   * actually check the `$XPROTO_REQUIRED` variable's value
   * statistics UI: add style class mpm-statistics
   * Translations update
-
-### mate-system-monitor 1.20.0
-
+  * mate-system-monitor 1.20.0
   * procman.cpp: Fix build warning: argument 1 null where non-null expected
   * sysinfo.cpp: Fix build warning: this ‘if’ clause does not guard...
   * proctable.cpp: Fix build warning: this ‘else’ clause does not guard...
   * Fix system logo alignment
   * WidthOfScreen and HeightOfScreen implementation
   * process table: make search case-insensitive
-  * sysinfo: disable focus in all labels
+
+### sysinfo: disable focus in all labels
+
   * avoid deprecated `gdk_screen_width/height`
   * sysinfo: avoid deprecated GtkAlignment
   * Translations update
-
-### atril 1.20.0
-
+  * atril 1.20.0
   * build: remove pre-GTK+3 option
   * epub: make minizip support more BSD variants
   * previewer: add style class atril-previewer-window
@@ -846,13 +846,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * egg-editable-toolbar: avoid deprecated `gtk_drag_begin`
   * message-area: replace some `GtkStock` deprecations
   * ev-sidebar: avoid deprecated `GTK_STOCK_CLOSE` icon
-  * password-view: replace some `GtkStock` deprecations
+
+### password-view: replace some `GtkStock` deprecations
+
   * password-view: don't use deprecated `GtkAlignment`
   * toolbar-editor: don't use deprecated `GtkAlignment`
   * Translations update
-
-### caja-extensions 1.20.0
-
+  * caja-extensions 1.20.0
   * xattr-tags: use better English in extension description
   * po: add missing translatable strings from xattrs extension
   * xattr-tags: fix extension description
@@ -861,13 +861,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * sendto burn: avoid deprecated `gtk_show_uri`
   * xattr-tags: remove hack, it's not needed now
   * xattr-tags: fix typo causing undefined reference
-  * fix the `libcaja_gksu_la_LDFLAGS` variable declaration
+
+### fix the `libcaja_gksu_la_LDFLAGS` variable declaration
+
   * xattr-tags: add missing newline to startup message
   * xattr-tags: unescaping stored attributes.
   * Translations update
-
-### engrampa 1.20.0
-
+  * engrampa 1.20.0
   * build: use `PKG_CONFIG` to fix cross-build
   * Add our copyright to About dialog and Caja extension
   * 7z: Fix: rename files with password without the list encrypted
@@ -886,13 +886,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * gtk-utils: avoid deprecated gtk_icon_size_lookup_for_settings
   * fr-window: fix some `GTK_STOCK` deprecations
   * add style class frame to scrolledwindows
-  * fr-window: avoid deprecated `GtkMisc` and `GtkAlignment`
+
+### fr-window: avoid deprecated `GtkMisc` and `GtkAlignment`
+
   * dlg-add-folder: avoid deprecated `gtk_alignment_new()`
   * build: use variable instead of hardcoded file name when cleaning
   * Translations update
-
-### eom 1.20.0
-
+  * eom 1.20.0
   * drop CSS for GTK+ 3.18
   * egg-editable-toolbar.c/egg-toolbars-model.c: drop unused variables
   * print-preview: replace custom code with GDK function call
@@ -925,13 +925,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * EomPrintPreview: Avoid unnecessary color parsing
   * Fix a few GtkStock deprecations
   * EomCloseConfirmationDialog: replace deprecated `GTK_STOCK_DIALOG_WARNING`
-  * toolbar-editor: avoid deprecated GtkAlignment
+
+### toolbar-editor: avoid deprecated GtkAlignment
+
   * Bring eom-image.c's SVG handling up to date, properly recognize svgz filetypes
   * eom_uri_converter: GList leak fix
   * Translations update
-
-### mate-applets 1.20.0
-
+  * mate-applets 1.20.0
   * multiload: Scaling network graph using thresholds defined by user
   * multiload: fix tabs/spaces mix in more places
   * multiload: fix spacing in some places
@@ -970,41 +970,41 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * stickynotes: create parent dir for `stickynotes-applet.xml` if it does not exist.
   * Load graph scales automatically according to average load
   * trashapplet: remove unused code
-  * cpufreq: set frequency on all cores
+
+### cpufreq: set frequency on all cores
+
   * Fix GError memory leak
   * Fix for crasher in Command applet.
   * Translations update
-
-### mate-calc 1.20.0
-
+  * mate-calc 1.20.0
   * Add icon image on close button in preferences dialog
-  * avoid deprecated GtkStock
+
+### avoid deprecated GtkStock
+
   * add missing window icon to About dialog
   * math-window: don't use deprecated `gtk_show_uri`
-  * Translations update
 
-### mate-icon-theme-faenza 1.20.0
+### Translations update
 
+  * mate-icon-theme-faenza 1.20.0
   * Change license to GPL3, as per the original project.
-  * Fix to use MATE logo for dark theme
 
-### mate-indicator-applet 1.20.0
+### Fix to use MATE logo for dark theme
 
+  * mate-indicator-applet 1.20.0
   * Support building against Ayatana Indicators and Ubuntu Indicators alike.
   * Translations update
-
-### mate-netbook 1.20.0
-
+  * mate-netbook 1.20.0
   * WidthOfScreen and HeightOfScreen implementation
   * window picker: disconnect signal handlers in dispose function
   * window picker: add icon to prefs dialog
-  * window picker: disable vertical expand of button in prefs dialog
+
+### window picker: disable vertical expand of button in prefs dialog
+
   * window picker: add icon for taskbar to About dialog
   * maximus: don't crash on invalid window ID
   * Translations update
-
-### mate-sensors-applet 1.20.0
-
+  * mate-sensors-applet 1.20.0
   * build: enable udisk2 plugin again
   * Remove deprecated udisks plugin
   * udisks plugin: fix memory management for GValue variables
@@ -1025,13 +1025,13 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * sensor-config-dialog: avoid deprecated GtkAlignment
   * sensor-config-dialog: don't use deprecated GtkColorButton
   * prefs-dialog: add style class frame to scrolledwindow
-  * prefs-dialog: avoid deprecated GtkAlignment
+
+### prefs-dialog: avoid deprecated GtkAlignment
+
   * prefs-dialog: avoid deprecated `GTK_VBUTTON_BOX`, `GTK_TYPE_{H,V}BOX`
   * use `GTK_ALIGN_CENTER` for the `sensor_applet` grid
   * Translations update
-
-### mate-terminal 1.20.0
-
+  * mate-terminal 1.20.0
   * require VTE 0.46
   * screen: stop setting `TERM` and `COLORTERM` environment variables
   * schema: fix summary and description of some keys
@@ -1055,7 +1055,9 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * avoid deprecated `gdk_screen_get_width/height`
   * avoid deprecated `gdk_screen_make_display_name`
   * terminal-util: avoid `deprecated gtk_show_uri`
-  * avoid deprecated `gdk_display_get_screen`
+
+### avoid deprecated `gdk_display_get_screen`
+
   * avoid deprecated `gdk_screen_get_number`
   * Fix: Double click with right button causes Xorg to crash
   * Translations update
@@ -1065,9 +1067,7 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * build: use correct macros to fix cross-build
   * don't use deprecated `gtk_show_uri`
   * Translations update
-
-### mate-utils 1.20.0
-
+  * mate-utils 1.20.0
   * Add screenshot support for HiDPI displays
   * mate-screenshot: added New button
   * screenshot-save.c: Fix build warnings with `pipe` `write` and `read`:
@@ -1093,17 +1093,17 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * don't use deprecated `gtk_show_uri`
   * avoid deprecated `gdk_screen_get_number`
   * searchtool & logview: avoid deprecated GtkAlignment
-  * mate-screenshot: fix showing busy cursor when saving area screenshot
+
+### mate-screenshot: fix showing busy cursor when saving area screenshot
+
   * screenshot: don't translate the timestamp in the filename
-  * mate-dictionary: include correct header to fix occasional FTBFS
-  * Translations update
 
-### mozo 1.20.0
+### mate-dictionary: include correct header to fix occasional FTBFS
 
   * Translations update
-
-### pluma 1.20.0
-
+  * mozo 1.20.0
+  * Translations update
+  * pluma 1.20.0
   * put `peas_engine_enable_loader` in the correct place
   * Fix: make the list of recently used files working again
   * drop unused variables
@@ -1155,11 +1155,7 @@ MATE Desktop 的大量组件现可通过如下链接下载：
   * filebrowser: don't parse .hidden files - GIO does it since 2.36
   * close confirm dialog: enable selection + disable focus in all labels
   * close confirm dialog: set max width for labels
-  * fix typo in code comments
+
+### fix typo in code comments
+
   * fix running under wayland
-  * modelines: fix random crash on closing one of several Pluma windows
-  * Translations update
-
-### python-caja 1.20.0
-
-  * Translations update
