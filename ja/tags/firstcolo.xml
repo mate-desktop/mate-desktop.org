@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (FirstColoについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/firstcolo.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 11:28:52 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Thank you First Colo!</title><link>https://preview.mate-desktop.dev/ja/blog/2012-12-27-thank-you-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
+are planning to migrate to MATE Desktop on their office workstations. FirstColo have
+kindly donated a new dedicated server to support MATE.&lt;/p&gt;
+&lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2012-12-27-thank-you-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item></channel></rss>
