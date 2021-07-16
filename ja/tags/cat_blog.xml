@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (blogについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/cat_blog.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (blogについての記事)</title><link>https://mate-desktop.org/</link><description/><atom:link href="https://mate-desktop.org/ja/tags/cat_blog.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 11:28:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 released</title><link>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.24. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.24.png" width="50%"&gt;&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 15 Jul 2021 20:22:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 released</title><link>https://mate-desktop.org/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.24. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MATE About dialog" src="https://mate-desktop.org/assets/img/blog/about-mate-1.24.png" width="50%"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.24&lt;/h3&gt;
 &lt;p&gt;This release contains plenty of new features, bug-fixes, and general improvements. Some of the most important highlights include:&lt;/p&gt;
 &lt;ul&gt;
@@ -571,8 +571,8 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 released</title><link>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.22. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.png"&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 released</title><link>https://mate-desktop.org/ja/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.22. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.22.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.22&lt;/h3&gt;
 &lt;p&gt;This release contains plenty of critical bug fixes and under-the-hood improvements. Some of the big highlights include:&lt;/p&gt;
 &lt;ul&gt;
@@ -2731,10 +2731,10 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/a9c2545"&gt;a9c2545&lt;/a&gt; disable deprecation warnings for distcheck&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/7ff7438"&gt;7ff7438&lt;/a&gt; sync with transifex&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/27019fc"&gt;27019fc&lt;/a&gt; transifex: set minimum_perc and type in config file&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item><item><title>MATE 1.20 released</title><link>https://mate-desktop.org/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
 announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
 contributor for their help making this release possible.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.20&lt;/h3&gt;
 &lt;p&gt;The theme for this release has been stabilising the MATE Desktop by replacing 
 deprecated code and modernising large sections of the code base. We've also 
@@ -3888,10 +3888,10 @@ we've fixed hundreds of bugs. Squished 'em dead!&lt;/p&gt;
 &lt;h4&gt;python-caja 1.20.0&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 released</title><link>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 released</title><link>https://mate-desktop.org/ja/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.18. We'd like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.18.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.18.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.18&lt;/h3&gt;
 &lt;p&gt;The release is focused on completing the migration to GTK3+ and
 adopting new technologies to replace some of deprecated components MATE
@@ -4355,7 +4355,7 @@ Desktop 1.16 still relied on.&lt;/p&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
 &lt;li&gt;support GTK+3 only: require Caja 1.17.1 and pygobject-3.0&lt;/li&gt;
 &lt;li&gt;drop ancient check for Python 2.5, not needed these days&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Server Outage</title><link>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The server that runs this website went offline without notice yesterday.
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Server Outage</title><link>https://mate-desktop.org/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The server that runs this website went offline without notice yesterday.
 We don't know why and we've had no contact from our server host. &lt;strong&gt;We do
 have complete backups, no data has been lost.&lt;/strong&gt; We've started to restore
 services and the outstanding service will be reinstated as time permits
@@ -4395,10 +4395,10 @@ over the holiday period.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Restored &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
+&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://mate-desktop.org/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.16&lt;/h3&gt;
 &lt;p&gt;The release is focused on improving GTK3+ compatibility, migrating
 components to newer libraries, fixing bugs and code hygiene. The
@@ -4715,7 +4715,7 @@ headline changes in MATE Desktop 1.16 are:&lt;/p&gt;
 &lt;li&gt;Examples: fix Caja crash on loading background-image extension&lt;/li&gt;
 &lt;li&gt;Examples: various fixes&lt;/li&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE Desktop discussion forums are closing</title><link>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;It is with regret that we are informing you all that the MATE Desktop forums are closing with immediate 
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE Desktop discussion forums are closing</title><link>https://mate-desktop.org/ja/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;It is with regret that we are informing you all that the MATE Desktop forums are closing with immediate 
 effect.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;For sometime now the forum moderators have struggled to keep up with the pace of discussion, combatting spam
 and new registrations. The original forum administrators are no longer actively participating in the MATE 
@@ -4745,11 +4745,11 @@ and we encourage anyone seeking MATE support to head to one of the following dis
 invested into the forums over the years and hope to see them find moderator roles in some of the discussion 
 forums we've highlighted above.&lt;/p&gt;
 &lt;p&gt;Should anyone want to take on the administration and moderation of the MATE Desktop forums then please come 
-and chat with the &lt;a href="https://preview.mate-desktop.dev/team/"&gt;MATE Desktop team&lt;/a&gt; in the &lt;code&gt;#mate-dev&lt;/code&gt; IRC and Matrix channel on Libera Chat. We
-can potentially reactivate the forums.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE 1.14 released</title><link>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to
+and chat with the &lt;a href="https://mate-desktop.org/team/"&gt;MATE Desktop team&lt;/a&gt; in the &lt;code&gt;#mate-dev&lt;/code&gt; IRC and Matrix channel on Libera Chat. We
+can potentially reactivate the forums.&lt;/p&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE 1.14 released</title><link>https://mate-desktop.org/ja/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.14. We'd like to thank every
 MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.14.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.14.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.14&lt;/h3&gt;
 &lt;p&gt;The headline changes in MATE 1.14 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -4772,7 +4772,7 @@ MATE contributor and user.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Screenshots&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.14/"&gt;MATE 1.14 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mate-desktop.org/gallery/1.14/"&gt;MATE 1.14 Screenshots&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Changelog&lt;/h3&gt;
 &lt;p&gt;Here is a more detailed break down of what has changed.&lt;/p&gt;
@@ -5032,10 +5032,10 @@ want categories in the preferences menu or not.&lt;/p&gt;
 &lt;h4&gt;caja-dropbox&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Minor cleanups&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 released</title><link>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to announce the 
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 released</title><link>https://mate-desktop.org/ja/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to announce the 
 release of MATE Desktop 1.12. We'd like to thank every MATE contributor and 
 user.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.12.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.12.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.12&lt;/h3&gt;
 &lt;p&gt;The headline changes in MATE 1.12 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -5061,7 +5061,7 @@ user.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Screenshots&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.12/"&gt;MATE 1.12 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mate-desktop.org/gallery/1.12/"&gt;MATE 1.12 Screenshots&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Changelog&lt;/h3&gt;
 &lt;p&gt;Here is a more detailed break down of what has changed.&lt;/p&gt;
@@ -5274,10 +5274,10 @@ user.&lt;/p&gt;
 &lt;li&gt;Adjust the default caja extensions dir&lt;/li&gt;
 &lt;li&gt;Include autogen.sh in tarball&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>MATE 1.10 released</title><link>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 15 months of development the MATE Desktop team are proud to announce
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>MATE 1.10 released</title><link>https://mate-desktop.org/ja/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 15 months of development the MATE Desktop team are proud to announce
 the release of MATE Desktop 1.10. We would like to thank every MATE contributor
 and user.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.10.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://mate-desktop.org/assets/img/blog/about-mate-1.10.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.10&lt;/h3&gt;
 &lt;p&gt;The headline changes in MATE 1.10 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -5302,7 +5302,7 @@ in the PulseAudio, ALSA and OSS sound systems.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Screenshots&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.10/"&gt;MATE 1.10 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mate-desktop.org/gallery/1.10/"&gt;MATE 1.10 Screenshots&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Changelog&lt;/h3&gt;
 &lt;p&gt;Here is a more detailed break down of what has changed.&lt;/p&gt;
@@ -5588,4 +5588,4 @@ and OSS sound systems.&lt;/p&gt;
 &lt;li&gt;Added About Extension button to the Extensions tab in Caja &lt;/li&gt;
 &lt;li&gt;Assorted bug fixes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://mate-desktop.org/ja/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item></channel></rss>
