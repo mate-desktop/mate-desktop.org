@@ -29,7 +29,7 @@
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [Ubuntu MATE Forums](https://ubuntu-mate.community)
   * [MATE Desktop subreddit](https://www.reddit.com/r/MATEDesktop)
-  
+
 ## 社群媒體
 
 您喜歡接觸很多人對吧？
