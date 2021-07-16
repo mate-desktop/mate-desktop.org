@@ -47,3 +47,4 @@
 你可以在此处查阅 MATE 社区成员的发表的博文。
 
   * [MATE 星球](https://planet.mate-desktop.org)
+
