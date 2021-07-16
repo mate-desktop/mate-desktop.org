@@ -19,19 +19,19 @@
 * 我们再次这样做，一旦用户启动会话，MATE桌面环境将比以前更易于使用。 您要隐藏应用程序吗？ 现在，您可以设置要在启动时显示的应用程序。
 * **Engrampa** 现在支持一些其它格式，并且其中一些密码和Unicode字符支持得到了修复。
 * **MATE之眼** 现在支持[Wayland](https://wayland.freedesktop.org/)，并且增加了对嵌入式颜色配置文件的支持。
-    * 缩略图生成器已在多处进行了修复。
-    * 添加了对 webp 文件的支持。
+    *     * 缩略图生成器已在多处进行了修复。
+    *     * 添加了对 webp 文件的支持。
 * 窗口管理器 **marco** 进行了很多更改：
     * 我们带来了一堆过去的窗口装饰，以满足您的怀旧情怀。
     * 最后添加了不可见的调整大小边框。无需再为寻找不到边框而费劲了！
-    * 所有窗口控件（最小、最大、关闭按钮）现在都以 HiDPI 呈现。
+    *     * 所有窗口控件（最小、最大、关闭按钮）现在都以 HiDPI 呈现。
     * Alt_Tab 和工作区切换器弹出窗口已完全重写。现在，它们以精美的OSD样式进行渲染，更易于配置，并且可以响应键盘箭头。
     * 现在，使用键盘平铺窗口允许您循环浏览不同的窗口大小。您不再只受限于一半的屏幕。
 * **系统监视器** 面板小程序现在支持 NVMe 驱动器。
 * **Calculator** now supports using either "pi" or "π".
-* **计算器** 现在支持使用“ pi”或“π”。
-    * 科学记数法得到了改进。
-    * 一些预定义物理常数支持得到了修复。
+    * **计算器** 现在支持使用“ pi”或“π”。
+    *     * 科学记数法得到了改进。
+*     * 一些预定义物理常数支持得到了修复。
 * **控制中心** 现在可以在HiDPI显示屏上正确显示其图标。
 * 添加了一个全新的 **时间和日期管理器** 应用程序。
 * **鼠标** 应用程序现在支持加速配置文件。
@@ -39,28 +39,30 @@
 * The **Indicator Applet** has slightly better interaction with oddly-sized icons.
 * 说到图标，网络管理器小程序图标在我们自己的主题已经完全重新设计，现在可以在 HiDPI 显示器中享受。
 * 如果您是那种在忙碌、演讲或看电影时不喜欢被打扰的人，您会很高兴知道 **通知守护程序** 现在支持了“请勿打扰” 模式。
-* **MATE 面板** 有几个错误在过去更改布局时导致崩溃。这些现在已经修好了！
+    * **MATE 面板** 有几个错误在过去更改布局时导致崩溃。这些现在已经修好了！
     * 对 [Wayland](https：//wayland.freedesktop.org/) 兼容性的支持已大为改善。
     * 状态图标（即 **通知区域** 或 **系统托盘**）支持 HiDPI 显示。
     * **万达鱼** 得到了一个改造，现在你可以享受她完全的 HiDPI 支持。
     * **窗口列表** 小程序现在支持悬停时的窗口缩略图。
-    * 整个面板及其核心小程序的各种辅助功能改进。
+* 整个面板及其核心小程序的各种辅助功能改进。
 * 如果您的系统不支持 [systemd](https：//freedesktop.org/wiki/Softwre/systemd/)，您可能有兴趣知道我们已经将对 [elogind](https：//github.com/elogind/elogind) 的支持添加到了 **MATE 屏幕保护程序** 和 **MATE 会话** 中。
 * 我们还添加了一个全新的 **MATE 磁盘映像安装器** 实用程序。
 * **菜单编辑器Mozo** 现在支持撤消和重做操作。
 * **Pluma** 插件现已完全切换到 Python 3。
 * **Pluma** 不再需要羡慕其他复杂编辑器的任何内容，因为它现在可以显示格式标记。
-* i18n：所有应用已从 intltools 迁移到 gettext。
 
-MATE Desktop 1.24 的组件可通过以下链接下载：
 
-  * <https://pub.mate-desktop.org/releases/1.24/>
 
-## 变更日志
+i18n：所有应用已从 intltools 迁移到 gettext。
 
-Here are more gory details.
+  * MATE Desktop 1.24 的组件可通过以下链接下载：
 
-### atril
+## <https://pub.mate-desktop.org/releases/1.24/>
+
+变更日志
+
+### Here are more gory details.
+* atril
 * Fix high memory consumption when zooming
 * Fix memory leak when making thumbnails and annotating texts
 * Drag and Drop: Reset the `pressed_button` action at the beginning of the drag-and-drop operation
@@ -76,11 +78,11 @@ Here are more gory details.
 * Require Cairo 1.14.0 or newer
 * Drop WebKitGTK-3.0 support
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
+g10n: Update the translations
 
-### caja
+### Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
+* caja
 * Ready for using gcc 10
 * fm-properties: Remove the use of mate-desktop-thumbnail helper
 * Don't hyphenate the filenames
@@ -108,17 +110,17 @@ Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
 * Fix several memory leaks all over the place
 * i18n: Allow the translation of more elements of the graphic interface
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
+g10n: Update the translations
 
-### caja-dropbox
+### Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
+* caja-dropbox
 * Use CAJA_EXTENSION_DIR_SYS to save and show system caja extension dir
-* Show full path of caja-extension-dir
 
-Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/master/>
+Show full path of caja-extension-dir
 
-### caja-extensions
+### Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/master/>
+* caja-extensions
 * caja-wallpaper-extension: Fix memory leak
 * image-converter: Rewrite caja-image-resize.ui from scratch fixing deprecations
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -126,11 +128,11 @@ Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/mast
 * image-converter: Don't use non-existing icons in context menu
 * i18n image-converter: Allow the translation of select an angle drop-down list
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/master/>
+g10n: Update the translations
 
-### engrampa
+### Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/master/>
+* engrampa
 * Ready for using gcc 10
 * fr-command-rpm: Use rpm2cpio binary shipped with rpm package
 * Add source rpm to supported mime-types
@@ -150,11 +152,11 @@ Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/m
 * Support the .udeb package format
 * Show the application version on the command line
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
+g10n: Update the translations
 
-### eom
+### Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
+* eom
 * Add eom-thumbnailer for webp files
 * thumbnail: Remove use of mate-desktop-thumbnail helper
 * Enable Wayland support
@@ -166,35 +168,35 @@ Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
 * Upgrade the manual to docbook 5.0
 * Use persistent page setup
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/eom/commits/master/>
+g10n: Update the translations
 
-### libmatekbd
+### Complete changelog at <https://github.com/mate-desktop/eom/commits/master/>
+* libmatekbd
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Use gresources for UI files
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmatekbd/commits/master/>
+g10n: Update the translations
 
-### libmatemixer
+### Complete changelog at <https://github.com/mate-desktop/libmatekbd/commits/master/>
+* libmatemixer
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmatemixer/commits/master/>
+g10n: Update the translations
 
-### libmateweather
+### Complete changelog at <https://github.com/mate-desktop/libmatemixer/commits/master/>
+* libmateweather
 * Locations: Add Lleida–Alguaire Airport weather station
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * locations: Change weather station for Rostov-on-Don, Russia
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/master/>
+g10n: Update the translations
 
-### marco
+### Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/master/>
+* marco
 * theme: Fix window control hidpi rendering for all themes.
 * tabpopup: Complete rework
 * window: Add optional tile size cycling
@@ -211,11 +213,11 @@ Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/ma
 * Allow use of up/down arrow keys in alt+tab popup
 * Fix several memleaks
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
+g10n: Update the translations
 
-### mate-applets
+### Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
+* mate-applets
 * Ready for using gcc 10
 * Use ${datadir}/dbus-1/system.d as the default D-Bus config dir
 * Make the dbus directory configurable
@@ -228,19 +230,19 @@ Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
 * Make translatable copyright info in about dialog
 * Ensure proper translation of the about dialog title
 * i18n: Migrate from intltools to gettext
-* g10n: Update translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-applets/commits/master/>
+g10n: Update translations
 
-### mate-backgrounds
+### Complete changelog at <https://github.com/mate-desktop/mate-applets/commits/master/>
+* mate-backgrounds
 * Enable the support for the meson build system
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+g10n: Update the translations
 
-### mate-calc
+### Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
 
+* mate-calc
 * Fix scientific presentation of complex numbers
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * mp-equation: Update values from physical constants to match with tooltip values in math-buttons
@@ -253,19 +255,19 @@ Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/
 * mate-calc: Fix memory leak
 * Add support for "pi" in addition to "π"
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-calc/commits/master/>
+g10n: Update the translations
 
-### mate-common
+### Complete changelog at <https://github.com/mate-desktop/mate-calc/commits/master/>
+* mate-common
 * Update MATE_CXX_WARNINGS macro
 * Set compiler debug flags in MATE_DEBUG_CHECK
 * Check if AX_APPEND_FLAG and AX_CHECK_COMPILE_FLAG are available
-* Update mate-compiler-flags macro
 
-Complete changelog at <https://github.com/mate-desktop/mate-common/commits/master/>
+Update mate-compiler-flags macro
 
-### mate-control-center
+### Complete changelog at <https://github.com/mate-desktop/mate-common/commits/master/>
+* mate-control-center
 * Search system themes in system data dirs
 * display: Enable the help button
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -288,11 +290,11 @@ Complete changelog at <https://github.com/mate-desktop/mate-common/commits/maste
 * Use system data dirs to locate key bindings
 * default-applications: Improve UI accessibility
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-control-center/commits/master/>
+g10n: Update the translations
 
-### mate-desktop
+### Complete changelog at <https://github.com/mate-desktop/mate-control-center/commits/master/>
+* mate-desktop
 * Drop mate_desktop_thumbnail_scale_down_pixbuf()
 * Increase the size of thumbnails to 256
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -304,11 +306,11 @@ Complete changelog at <https://github.com/mate-desktop/mate-control-center/commi
 * Fix some memory leaks
 * MateHSV implementation (GtkHSV fork)
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/master/>
+g10n: Update the translations
 
-### mate-icon-theme
+### Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/master/>
+* mate-icon-theme
 * Add status icons for mobile network connections
 * Rework volume-status icons
 * Add vpn network status icons
@@ -325,18 +327,18 @@ Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/mast
 * Generate png icons from source - Mate theme, apps, categories & devices
 * Update terminal icons for mate theme
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+g10n: Update the translations
 
-### mate-indicator-applet
+### Complete changelog at <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+* mate-indicator-applet
 * Resize indicator icons to fit panel
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+g10n: Update the translations
 
-### mate-media
+### Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+* mate-media
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * gvc applet: Add missing translations (i18n)
 * Scroll the volume in configurable steps same as media-keys
@@ -345,36 +347,36 @@ Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/com
 * Enable a mute menuitem for the output
 * Add a new real panel-applet
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master/>
+g10n: Update the translations
 
-### mate-menus
+### Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master/>
+* mate-menus
 * Use datadir and libdir variables when installing gir files
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-menus/commits/master/>
+g10n: Update the translations
 
-### mate-netbook
+### Complete changelog at <https://github.com/mate-desktop/mate-menus/commits/master/>
+* mate-netbook
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Add an option to disable the bold face of the window title in applet
 * Make the 'show-home-title' feature work again
 * Change preference label for the window picker applet, and add a tooltip
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/master/>
+g10n: Update the translations
 
-### mate-notification-daemon
+### Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/master/>
+* mate-notification-daemon
 * Use gresource for mate-notification-properties.ui
 * mate-notification-properties: Add do-not-disturb feature
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+g10n: Update the translations
 
-### mate-panel
+### Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+* mate-panel
 * Avoid double a11y description on panel toplevels
 * clock applet: Add a call to ATK to provide the current displayed time
 * status-notifier: Improve HIDPI support
@@ -396,19 +398,19 @@ Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/
 * window-list: Show window previews on hover
 * Fix panel applet keyboard focus trap
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-panel/commits/master/>
+g10n: Update the translations
 
-### mate-polkit
+### Complete changelog at <https://github.com/mate-desktop/mate-panel/commits/master/>
+* mate-polkit
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Migrate from GSimpleAsyncResult to GTask
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/master/>
+g10n: Update the translations
 
-### mate-power-manager
+### Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/master/>
+* mate-power-manager
 * icons: Add higher resolution icons
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Require upower-0.99.8 or newer
@@ -417,27 +419,27 @@ Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/maste
 * Add scroll interface tabs with mouse wheel
 * Add conf option to disable warnings for low mouse power
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commits/master/>
+g10n: Update the translations
 
-### mate-screensaver
+### Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commits/master/>
+* mate-screensaver
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Ensure lock on suspend and unlock on resume
 * Use gresources for ui files
 * Drop libXxf86 dependency
 * Add ELOGIND support
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/master/>
+g10n: Update the translations
 
-### mate-sensors-applet
+### Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/master/>
+* mate-sensors-applet
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+g10n: Update the translations
 
-### mate-session-manager
+### Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+* mate-session-manager
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Fix timeout with gnome-keyring 3.34
 * Remove GNOME_KEYRING_LIFETIME_FD
@@ -451,11 +453,11 @@ Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commi
 * Add mate_session_check_accelerated helpers
 * Add ELOGIND support
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-session-manager/commits/master/>
+g10n: Update the translations
 
-### mate-settings-daemon
+### Complete changelog at <https://github.com/mate-desktop/mate-session-manager/commits/master/>
+* mate-settings-daemon
 * Require DBUS 1.10.0 or newer
 * Default DBUS_SYS_DIR to ${datadir}/dbus-1/system.d
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -469,12 +471,12 @@ Complete changelog at <https://github.com/mate-desktop/mate-session-manager/comm
 * media-keys: Execute default instant messaging application defined by schema
 * locate-pointer: Do not grab pointer button when trying to locate
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+g10n: Update the translations
 
-### mate-system-monitor
+### Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
 
+* mate-system-monitor
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Require GLib 2.56.0 or newer
 * Improve the support for HiDPI
@@ -488,11 +490,11 @@ Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/comm
 * Show FreeBSD sysname, release, version in System tab
 * Fix openSUSE Tumbleweed rolling release info
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+g10n: Update the translations
 
-### mate-terminal
+### Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+* mate-terminal
 * Ready for using gcc 10
 * Fix several memory leaks
 * terminal-screen: Fix warning when closing window
@@ -501,29 +503,29 @@ Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commi
 * Show confirmation dialog if there are multiple open tabs on closing
 * Upgrade the manual to docbook 5.0
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-terminal/commits/master/>
+g10n: Update the translations
 
-### mate-user-guide
+### Complete changelog at <https://github.com/mate-desktop/mate-terminal/commits/master/>
+* mate-user-guide
 * Update reporting-bugs section
 * Remove the custom-command-options section and address the syntax
 * Update preferred applications section
 * Replace the docbook links with xref and fix a linkend attribute (#30)
 * Upgrade the manual to docbook 5.0
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-user-guide/commits/master/>
+g10n: Update the translations
 
-### mate-user-share
+### Complete changelog at <https://github.com/mate-desktop/mate-user-guide/commits/master/>
+* mate-user-share
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Fix HTTPD config notice
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/master/>
+g10n: Update the translations
 
-### mate-utils
+### Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/master/>
+* mate-utils
 * Ready for using gcc 10
 * Use gresources for UI files
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -535,22 +537,22 @@ Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/m
 * Regenerate png icons from svg files
 * Update the documenters in the about dialog
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master/>
+g10n: Update the translations
 
-### mozo
+### Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master/>
+* mozo
 * Add Undo and Redo buttons
 * Fix item drag & drop creating copies, fix undo, redo and a crash when refreshing
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * Add the support for the meson build system
 * Fix creating new menus and items
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
+g10n: Update the translations
 
-### pluma
+### Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
+* pluma
 * Add the ability to show the non-printable characters (spaces/tabs/newlines)
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * window: Do not override GdkWindowState
@@ -564,15 +566,14 @@ Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
 * Manual: Update how pluma can be opened from menu
 * Upgrade the manual to docbook 5.0
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/pluma/commits/master/>
+g10n: Update the translations
 
-### python-caja
+### Complete changelog at <https://github.com/mate-desktop/pluma/commits/master/>
+* python-caja
 * Ready for using gcc 10
 * Drop the support for Python 2
 * Add the support to build using Python 3.9
 * i18n: Migrate from intltools to gettext
-* g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/python-caja/commits/master/>
+g10n: Update the translations
