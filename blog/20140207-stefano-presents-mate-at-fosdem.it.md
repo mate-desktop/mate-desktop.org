@@ -20,4 +20,3 @@ di MATE, per esempio [Sonar](https://sonar-project.org),
 [Raspberry Pi](https://www.raspberrypi.org/) e [LTSP](http://www.ltsp.org/).
 
 Tradotto con www.DeepL.com/Translator (versione gratuita)
-
