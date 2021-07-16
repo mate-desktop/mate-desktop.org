@@ -3,21 +3,21 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 15:47:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
-Action Show&lt;/a&gt; to
-talk a little about MATE Desktop, where it came from and where it is headed.
-The interview with me is embedded below.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 21:47:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+Action Show&lt;/a&gt; per
+parlare un po' del Desktop MATE, da dove ha avuto origine e dove è diretto.
+L'intervista con me è inserita qui sotto.&lt;/p&gt;
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/OwW9jaVKjSw?start=1945" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.10 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the project, then we look forward to chatting with
-you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+&lt;p&gt;Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.10 nel tempo
+che mi è stato concesso quindi vi consiglio di dare uno sguardo alla  &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;Roadmap di MATE&lt;/a&gt;
+per una visione generale. Se doveste avere ulteriori domande, o magari
+contribuire al progetto, siamo ansiosi di chattare con
+voi sul &lt;a href="https://web.libera.chat/?#mate"&gt;canale #mate di IRC&lt;/a&gt; o
+recensire le vostre &lt;a href="https://github.com/mate-desktop"&gt;pull-requests su GitHub&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di 
+videocasts e podcasts settimanali principalmente orientati su FLOSS. Date un'occhiata,
+potreste trovare qualcosa che vi può interessare.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
@@ -207,27 +207,27 @@ advancements we've made sooner.&lt;/p&gt;
 &lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;On February 1st 2014 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
-presented his talk on MATE at &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;The talk introduces MATE to those who haven't heard of it and explains the
-projects origins. The differences between MATE and other traditional GTK based
-desktops is covered and then Stefano goes on to explain how MATE has evolved
-since it was forked from GNOME2. A brief run down of the recent improvements 
-is covered followed by an overview of the MATE roadmap and other
-projects that benefit from MATE such as &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
-&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
-Unplugged&lt;/a&gt; podcast to talk a 
-little about MATE Desktop and where it is headed. The MATE Mythbusting clip is
-embedded below.&lt;/p&gt;
+think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 1° febbraio 2014, &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
+la sua presentazione su MATE al &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;La Presentazione introduce MATE a coloro che non ne hanno sentito parlare e spiega le Origini del Progetto. In primo luogo, le differenze tra 
+tra MATE e altri ambienti desktop tradizionali basati su GTK.
+Stefano spiega poi come MATE si è evoluto da quando è stato biforcato da GNOME2.
+Viene data una breve valutazione dei recenti miglioramenti, seguita da 
+una panoramica della roadmap di MATE e degli altri Progetti che beneficiano 
+di MATE, per esempio &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
+&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; e &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tradotto con www.DeepL.com/Translator (versione gratuita)&lt;/p&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio podcast 26 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
+Unplugged&lt;/a&gt; per
+parlare un po' del Desktop MATE, e dove è diretto.
+La Clip MATE Mythbusting è inserita qui sotto.&lt;/p&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/sRNK9QnnvCo?start=603" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.8 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the the project, then we look for to chatting with you 
-in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.8 nel tempo
+che mi è stato concesso quindi vi consiglio di dare uno sguardo alla &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;Roadmap di MATE&lt;/a&gt;
+per una visione completa. Se doveste avere ulteriori domande, o magari
+volete contribuire al progetto, siamo ansiosi di chattare con
+voi sul &lt;a href="https://web.libera.chat/?#mate"&gt;canale #mate di IRC&lt;/a&gt; o
+recensire le vostre &lt;a href="https://github.com/mate-desktop"&gt;pull-requests su GitHub&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di 
+videocasts e podcasts settimanali principalmente orientati su FLOSS. Date un'occhiata,
+potreste trovare qualcosa che vi può interessare.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>

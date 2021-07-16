@@ -25,7 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../../zh_tw/rss.xml">
-<link rel="canonical" href="https://mate-desktop.org/ja/blog/2014-05-10-mate-in-opensuse/">
+<link rel="canonical" href="https://preview.mate-desktop.dev/ja/blog/2014-05-10-mate-in-opensuse/">
 <link rel="icon" href="../../../favicon.ico" sizes="16x16">
 <link rel="icon" href="../../../mate-128.png" sizes="128x128">
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
@@ -35,7 +35,7 @@
 <link rel="next" href="../2014-09-25-debian-and-ubuntu-repositories-removed/" title="Debian and Ubuntu package repositories removed from mate-desktop.org" type="text/html">
 <meta property="og:site_name" content="MATE">
 <meta property="og:title" content="MATE in openSUSE">
-<meta property="og:url" content="https://mate-desktop.org/ja/blog/2014-05-10-mate-in-opensuse/">
+<meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2014-05-10-mate-in-opensuse/">
 <meta property="og:description" content="The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won't be in
 the future due to official inclusion of MATE in openSUSE.">
@@ -74,7 +74,7 @@ the future due to official inclusion of MATE in openSUSE.">
 			<span class="icon-bar"></span>
 		</a>
 
-       		<a class="brand" href="https://mate-desktop.org/">
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
                	    <img src="../../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title"><span class="caps">MATE</span></span>
           	</a>
 
@@ -210,6 +210,15 @@ $(document).ready(function() {
         'contentLocation': '/assets/js/tipuesearch_content.json',
         'showUrl': false
     });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "657c95bf09d7"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
 
 });
 </script>

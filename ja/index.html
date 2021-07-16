@@ -25,7 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../zh_tw/rss.xml">
-<link rel="canonical" href="https://mate-desktop.org/ja/">
+<link rel="canonical" href="https://preview.mate-desktop.dev/ja/">
 <link rel="icon" href="../favicon.ico" sizes="16x16">
 <link rel="icon" href="../mate-128.png" sizes="128x128">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../assets/css/mate.css">
@@ -33,7 +33,7 @@
 <meta name="author" content="The MATE Team">
 <meta property="og:site_name" content="MATE">
 <meta property="og:title" content="MATE デスクトップ環境">
-<meta property="og:url" content="https://mate-desktop.org/ja/">
+<meta property="og:url" content="https://preview.mate-desktop.dev/ja/">
 <meta property="og:description" content="MATE デスクトップ環境はGNOME 2 開発の延長線上にあります。Linux や他のUnix ライクな OS 向けの伝統的な手法を用いた、直感的で魅力的なデスクトップ環境を提供します。
 MATE は、従来のデスクトップ体験を維持しながらも、新しい技術をサポートするために積極的な開発を行っています。
 [ロードマップ] (https://wiki.mate-desktop.org/#!pages/">
@@ -74,7 +74,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 			<span class="icon-bar"></span>
 		</a>
 
-       		<a class="brand" href="https://mate-desktop.org/">
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
                	    <img src="../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title"><span class="caps">MATE</span></span>
           	</a>
 
@@ -160,9 +160,9 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 <p><a href="gallery/1.22/">MATEのスクリーンショット</a>&nbsp;を多数用意しています。</p>
 <h2>ニュース</h2>
 <p>
-<!-- Begin post-list post_list_05751c3789ef4ff0bc43a045dae813a1 -->
+<!-- Begin post-list post_list_d92d3a1e7a0947a8be19450d1bb20a24 -->
 </p>
-<div id="post_list_05751c3789ef4ff0bc43a045dae813a1" class="post-list">
+<div id="post_list_d92d3a1e7a0947a8be19450d1bb20a24" class="post-list">
     <ul class="post-list">
 <li class="post-list-item">
             2020-02-10 09:00
@@ -191,7 +191,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
             </li>
     </ul>
 </div>
-<!-- End post-list post_list_05751c3789ef4ff0bc43a045dae813a1 -->
+<!-- End post-list post_list_d92d3a1e7a0947a8be19450d1bb20a24 -->
 
 
 <p>また、ブログ記事には <a href="tags/">タグ</a> と <a href="archive/">日別のアーカイブ</a> というインデックスも付けられています。<a href="https://planet.mate-desktop.org">プラネット <span class="caps">MATE</span></a> を見て、<span class="caps">MATE</span>&nbsp;コミュニティで何をブログしているのか知りたい人もことでしょう。</p>
@@ -301,6 +301,15 @@ $(document).ready(function() {
         'contentLocation': '/assets/js/tipuesearch_content.json',
         'showUrl': false
     });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "657c95bf09d7"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
 
 });
 </script>
