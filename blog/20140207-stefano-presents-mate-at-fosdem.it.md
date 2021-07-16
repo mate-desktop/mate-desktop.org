@@ -21,5 +21,3 @@ di MATE, per esempio [Sonar](https://sonar-project.org),
 
 Tradotto con www.DeepL.com/Translator (versione gratuita)
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen></iframe>
-
