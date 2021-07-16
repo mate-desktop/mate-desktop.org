@@ -25,7 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../../zh_tw/rss.xml">
-<link rel="canonical" href="https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/">
+<link rel="canonical" href="https://preview.mate-desktop.dev/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/">
 <link rel="icon" href="../../../favicon.ico" sizes="16x16">
 <link rel="icon" href="../../../mate-128.png" sizes="128x128">
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
@@ -35,7 +35,7 @@
 <link rel="next" href="../2012-01-18-reporting-bugs/" title="Reporting Bugs" type="text/html">
 <meta property="og:site_name" content="MATE">
 <meta property="og:title" content="New wiki and other info">
-<meta property="og:url" content="https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/">
+<meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/">
 <meta property="og:description" content="We've recently switched from a wiki at GitHub to a our own
 available from wiki.mate-desktop.org. Please
 reference this wiki from now on. Naturally, anyone is welcome to contribute.
@@ -79,7 +79,7 @@ For those of you wh">
 			<span class="icon-bar"></span>
 		</a>
 
-       		<a class="brand" href="https://mate-desktop.org/">
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
                	    <img src="../../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title"><span class="caps">MATE</span></span>
           	</a>
 
@@ -223,6 +223,15 @@ $(document).ready(function() {
         'contentLocation': '/assets/js/tipuesearch_content.json',
         'showUrl': false
     });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "569e40e9833a"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
 
 });
 </script>

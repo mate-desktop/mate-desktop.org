@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 11:29:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE in openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 16 Jul 2021 14:45:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE in openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won't be in
 the future due to official inclusion of MATE in openSUSE.
@@ -83,11 +83,11 @@ interact with the MATE mentors is via:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE at openSUSE Summit</title><link>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
-&lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
-media team, will show &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
-at &lt;a href="https://summit.opensuse.org/"&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
-on Sunday, November 17 at 10:15.&lt;/p&gt;
-&lt;p&gt;The talk will be available at &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;this page&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>New repositories for openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+&lt;p&gt;Alexandros Vennos, ambasciatore openSUSE e membro del openSUSE MATE social
+media team, mostrerà &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
+al &lt;a href="https://summit.opensuse.org/"&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà in Orlando, Florida,
+Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
+&lt;p&gt;La discussione sarà disponibile su &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;questa pagina&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>New repositories for openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;On the way to getting MATE officially available on &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
 the community repositories have to be changed in YaST. For that,
 go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
@@ -98,12 +98,12 @@ version:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Thank you!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
-talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
-&lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
-creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
-and describes the features and changes added after the fork.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+&lt;p&gt;Thank you!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 20 Luglio 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; ha presentato la sua discussione
+su MATE alla Conferenza  &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
+le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioni, GNOME Classic e GNOME Fallback,
+e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
 available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
 reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can

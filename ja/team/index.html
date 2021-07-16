@@ -25,7 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../zh_tw/rss.xml">
-<link rel="canonical" href="https://mate-desktop.org/ja/team/">
+<link rel="canonical" href="https://preview.mate-desktop.dev/ja/team/">
 <link rel="icon" href="../../favicon.ico" sizes="16x16">
 <link rel="icon" href="../../mate-128.png" sizes="128x128">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../assets/css/mate.css">
@@ -33,7 +33,7 @@
 <meta name="author" content="The MATE Team">
 <meta property="og:site_name" content="MATE">
 <meta property="og:title" content="チーム">
-<meta property="og:url" content="https://mate-desktop.org/ja/team/">
+<meta property="og:url" content="https://preview.mate-desktop.dev/ja/team/">
 <meta property="og:description" content="MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等からなる国際的なグループによって提供されています。
 主要メンバー
 以下が MATE チームの主要メンバーです。
@@ -74,7 +74,7 @@ Ubuntu MATE と Debian のパッケージャ、GSoC メンター、コミュニ�
 			<span class="icon-bar"></span>
 		</a>
 
-       		<a class="brand" href="https://mate-desktop.org/">
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
                	    <img src="../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title"><span class="caps">MATE</span></span>
           	</a>
 
@@ -293,6 +293,15 @@ $(document).ready(function() {
         'contentLocation': '/assets/js/tipuesearch_content.json',
         'showUrl': false
     });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "569e40e9833a"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
 
 });
 </script>
