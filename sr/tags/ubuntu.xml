@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Ubuntu)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/ubuntu.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 12:08:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+MATE 1.8.1 is available in Debian Jessie (testing) and also
+&lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
+&lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
+earlier this year, MATE 1.8.1 is also in the official archive
+for Ubuntu 14.10 Utopic Unicorn. The &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt;
+team have recently created a &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
+at the request of the &lt;a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html"&gt;Ubuntu Technical Board&lt;/a&gt;
+and also a &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you require MATE packages for Debian or Ubuntu then the package 
+repositories above are the official repositories to use.&lt;/p&gt;
+&lt;p&gt;We've removed the package repositories hosted on mate-desktop.org 
+because some were unsigned and others have not been maintained for many 
+months. Therefore, as of now, the Debian and Ubuntu package 
+repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Ризница Мејтових пакета за „Ubuntu Quantal“</title><link>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Ризница &lt;a href="https://www.ubuntu.com"&gt;Убунту&lt;/a&gt; пакета за Убунту 12.10 „Quantal Quetzal“
+је сада доступна за наше издање 1.4. Као обично, пратите &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;ова упутства&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ако надограђујете са старијег издања, обавезно уклоните старије
+ризнице и додајте нове, иначе ћете наићи на проблеме.&lt;/p&gt;&lt;/div&gt;</description><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
+reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
+&lt;p&gt;For those of you who aren't already aware, you can
+&lt;a href="https://github.com/mate-desktop/"&gt;report issues on github&lt;/a&gt;. At the moment, this
+is all we have in terms of bug reporting, but we do have a bugtracker in the works.
+We'll announce it here when it's ready.&lt;/p&gt;
+&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
+&lt;p&gt;For those of you using &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
+and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of 
+our packages using the tridex repository. Check out &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;the download page&lt;/a&gt;
+on the wiki for more info. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; also has our 
+1.0.x release packages in their repository. If anyone is still using Amanas' PPA,
+it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
+repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
+&lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
+Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
+and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
+we are looking for people who are willing to set these up.&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

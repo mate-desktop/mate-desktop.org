@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Clement Lefebvre)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/clement-lefebvre.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 12:08:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
+&lt;p&gt;Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
+is here to provide that same desktop to you &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos initially forked Gnome 2 and called the project MATE. Users and
+developers have successfully run MATE on &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+and due to popular demand Perberos made it easier for MATE to compile under
+&lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; and &lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt;
+then joined the project and packaged it for Debian and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;.
+The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.&lt;/p&gt;
+&lt;p&gt;Our top priority is to improve MATE and for it to be on par, in terms of features
+and stability, with Gnome 2.32. We'll port themes, applets, and applications which
+were developed for Gnome 2, and help developers port their applications to this
+new desktop.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

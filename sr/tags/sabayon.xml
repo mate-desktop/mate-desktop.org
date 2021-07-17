@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Sabayon)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/sabayon.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
+&lt;img alt="Creative Commons License BY-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 12:07:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/sr/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
+a giant step forward from the 1.4 release. In this release, we have replaced
+many deprecated packages and libraries with new technologies available in
+GLib. We have also added a lot of new features to MATE. We would like to thank
+every MATE contributor and user.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
+&lt;p&gt;Main changes in 1.6 are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;systemd &amp;amp; logind support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for &lt;code&gt;systemd-logind&lt;/code&gt; in &lt;code&gt;mate-session-manager&lt;/code&gt;, &lt;code&gt;mate-screensaver&lt;/code&gt;
+  and &lt;code&gt;mate-power-manager&lt;/code&gt; (now you can reboot/shutdown without ConsoleKit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved places sidebar&lt;/li&gt;
+&lt;li&gt;Added support for new thumbnailers specification&lt;/li&gt;
+&lt;li&gt;Added a new frame for thumbnails &lt;/li&gt;
+&lt;li&gt;Wallpapers are now cached for a better memory management&lt;/li&gt;
+&lt;li&gt;New connect server dialog from Nautilus 3&lt;/li&gt;
+&lt;li&gt;Added support for freedesktop.org&lt;/li&gt;
+&lt;li&gt;File Manager DBus Interface&lt;/li&gt;
+&lt;li&gt;Fixed back vs parent directory selection&lt;/li&gt;
+&lt;li&gt;Open terminal extension now support opening a remote terminal &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Panel&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;--run-dialog&lt;/code&gt; option to open the run dialog window Window list: you can 
+  use the mouse middle click button to close a window Workspace switcher: &lt;/li&gt;
+&lt;li&gt;Added an option to wrap around between workspaces with the mouse wheel&lt;/li&gt;
+&lt;li&gt;Added a simple way for distributions to override the default panel layout
+  Unfortunately, due to migration to GSettings, you will lose your current panel layout.
+  All other settings will be migrated if you have MateConf 1.4 installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt; Marco (window manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added option to open new windows on the center of the screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Control center&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added option to enable Marco compositing manager and fast alt-tab in window preferences&lt;/li&gt;
+&lt;li&gt;Set GSettings/GConf metacity theme if compiz or metacity are running&lt;/li&gt;
+&lt;li&gt;Use same GNOME proxy settings of &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; package&lt;/li&gt;
+&lt;li&gt;Default applications: allow to set default terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Atril (document viewer)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added XPS backend &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Calc&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated codebase&lt;/li&gt;
+&lt;li&gt;Added buttons to support inverse trigonomic functions &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Notification daemon&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added option to &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specify which screen to display notifications on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Show always a notification if it has 'expires never' as timeout (also if screensaver is active or there are active fullscreen windows) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Themes&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-03-26-new-themes/"&gt;New GTK2/3 themes&lt;/a&gt; (Menta, BlackMATE, GreenLaguna, TraditionalGreen)&lt;/li&gt;
+&lt;li&gt;Added GTK3 support for other GTK2 themes (TraditionalOk, TraditionalOkTest, ContrastHigh) &lt;/li&gt;
+&lt;li&gt;Enabled text preview for text files&lt;/li&gt;
+&lt;li&gt;Added some new icons &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Settings daemon&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added support for MPRIS2 to send media keys to media players&lt;/li&gt;
+&lt;li&gt;Added option to draw the background if Caja is not active&lt;/li&gt;
+&lt;li&gt;The daemon is now restarted by &lt;code&gt;mate-session&lt;/code&gt; if it crashes &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Netbook applet&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable maximus only when window picker applet is added to the panel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dropped packages&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Replaced MateConf with GSettings&lt;/li&gt;
+&lt;li&gt;Replaced MateCorba/MateComponent with DBus&lt;/li&gt;
+&lt;li&gt;Replaced MateVfs with GIO/GVFS&lt;/li&gt;
+&lt;li&gt;Replaced &lt;code&gt;libmatenotify&lt;/code&gt; with &lt;code&gt;libnotify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Removed &lt;code&gt;libmate&lt;/code&gt; (mate-open replaced with gvfs-open, GSettings schemas moved to mate-desktop package &lt;/li&gt;
+&lt;li&gt;Removed deprecated packages&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;libmateui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatecanvas&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatecomponentui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-mime-data&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a lot of code deprecations&lt;/li&gt;
+&lt;li&gt;Fixed a lot of bugs&lt;/li&gt;
+&lt;li&gt;Added and improved a lot of translations &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We asked people from distributions that ship MATE what they think about our
+Desktop Environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href="https://www.salixos.org/"&gt;Salix&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We believe MATE is a perfect match for Salix. MATE provides us with a familiar
+desktop environment that is powerful, solid and fast. Also, the MATE team are
+very friendly and a pleasure to work with and this means a lot to us. Thanks for
+giving us the choice of sticking with our favourite desktop guys&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It's extremely important to us that people are happy with their computer. When that
+environment we all loved and worked hard to improve since 2006 was
+discontinued we weren't happy to let it go and to ask people to migrate to
+something new or something different. We worked really hard on making sure our
+users could continue to use their computer the way they wanted and we met a
+team of like-minded people who had taken the initiative to support that
+environment and to develop it even further. Mint and MATE go hand in hand and
+the relationship between the teams is excellent. Mint played an important role
+in the promotion and backing of MATE and we continue to help with its
+development. We're very pleased with MATE, it's exactly what we wanted, it
+started where GNOME left off and with each new iteration it keeps getting better.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, strategy consultant of &lt;a href="https://www.sabayon.org/"&gt;Sabayon&lt;/a&gt;: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We don't like how upstream forced changes to users and want our users to have
+the option to decide what to use. With MATE in our repositories we are certain
+our users can always choose what works best for them.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, MATE maintainer in &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt;: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ever since the release of Fedora 15 was released I was extremely unhappy and
+frustrated with my desktop experience until I discovered MATE. Now on Fedora I
+can finally have a desktop that is sane, stable, fast and most importantly easy
+to use. With the hard work the team has done to also patch compiz to work on
+the newer releases of Fedora I can now have my Fedora 14 (considered by most to
+be the best release of Fedora) experience back with wobbly windows, desktop
+cube, animations, and 3d effects. I can't stress how big of a loss this was to many users including
+myself. Now with MATE I don't have to worry about what is going to break with
+the next Gnome release and what crazy design ideas they are going to have
+making me have to relearn a desktop interface every single Fedora release.
+With MATE 1.6 I can feel right back at home on my favorite Linux distribution
+and get back to work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We also asked for a comment from the
+&lt;a href="https://preview.mate-desktop.dev/blog/2012-12-27-thank-you-first-colo/"&gt;company who donated the server where we host MATE services&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO of &lt;a href="https://www.first-colo.net/en/"&gt;FirstColo GmbH&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are really happy to use the MATE Desktop Environment. This way we can keep a clean and well
+working desktop without lots of useless and distracting stuff. Until the end
+of 2012 our whole company were working with Ubuntu, but with the Unity Desktop
+and many other "end user features", we were searching for new ways to get a
+desktop, free of software that pretends to make our lives easier. With MATE
+Desktop on Debian 7 Wheezy, we found a good working, high performance desktop
+that just works as we know it from years. We hope that the MATE Team will keep
+our classic Linux Desktop and bring to it new life some with new features, but
+with the good workflow kept in hand. So far, they have done great job, and we
+hope that soon the Debian Maintainers will add the MATE Desktop to their
+mirrors (and of course, that many others will use MATE too!).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;MATE 1.6 is the result of 8 months of intense development and contains 1800
+contributions by 39 people, and more than 150 translators. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.6/"&gt;MATE 1.6 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item></channel></rss>

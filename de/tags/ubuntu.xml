@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 11:31:28 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian- und Ubuntu-Pakete auf mate-desktop.org entfernt</title><link>https://preview.mate-desktop.dev/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dank der Arbeit der &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE-Paketverwalter für Debian&lt;/a&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 12:08:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian- und Ubuntu-Pakete auf mate-desktop.org entfernt</title><link>https://preview.mate-desktop.dev/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dank der Arbeit der &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE-Paketverwalter für Debian&lt;/a&gt;
 ist MATE 1.8.1 in Debian Jessie (Testing) und in &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; für Wheezy verfügbar.&lt;/p&gt;
 &lt;p&gt;Als Folge der Aufnahme von MATE 1.8.1 in die Repositorien von Debian Testing in diesem Jahr
 findet sich MATE 1.8.1 auch in dem offiziellen Archiv von Ubuntu 14.10 Utopic Unicorn.
