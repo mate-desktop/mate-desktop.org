@@ -4,7 +4,7 @@
 .. tags: 
 .. date: 2012-04-17 06:32:31
 .. title: Instalace
-.. slug: instalace
+.. slug: install
 -->
 
 Komunita MATE zdokumentovala, jak nainstalovat MATE na mnoho distribucí,
