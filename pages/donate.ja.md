@@ -11,7 +11,7 @@ MATE デスクトップ環境は完全に無料で提供されています。こ
 
 MATE プロジェクトへの寄付を検討してください。私たちが行った努力が認めらるのであれば幸いです。調達された資金は、ホスティング費用、ハードウェアの調達、および MATE チームのメンバーが関連会議に出席可能とするための旅費に充てられます。
 
-私たちはたくさんお願いしません、それはあなたのご判断にお任せします。
+私たちはたくさんをお願いはしません。それはあなたのご判断にお任せします。
 
 <style>
 img.centered {
@@ -30,7 +30,7 @@ img.centered {
   <div class="well">
     <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
       <fieldset>
-        <legend>月々の PayPal 支援者</legend>
+        <legend>月ぎめの PayPal 支援者</legend>
         <div class="row">
           <label class="control-label">金額の選択</label>
           <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
@@ -40,7 +40,7 @@ img.centered {
           <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
         </div>
         <div class="row">
-          <label for="monthly-specifyAmount" class="control-label">金額を指定してください</label>
+          <label for="monthly-specifyAmount" class="control-label">金額を指定</label>
           <input type="text" id="monthly-specifyAmount" name="other" value="" size="5" maxlength="5"/>
         </div>
         <div class="row">
@@ -51,7 +51,7 @@ img.centered {
             <option selected="">GBP</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary">月毎の寄付</button>
+        <button type="submit" class="btn btn-primary">毎月の定期寄付</button>
       </fieldset>
       <input type="hidden" name="cmd" value="_xclick-subscriptions">
       <input type="hidden" name="business" value="6282B4CZGVCB6">
