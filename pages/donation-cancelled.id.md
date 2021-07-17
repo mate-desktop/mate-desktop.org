@@ -19,8 +19,7 @@ img.centered {
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Sayang sekali!</h1>
-        <p>Keterbatasan dana? Ya, kami memahaminta. Silahkan datang kembali dan berdonasi ketika
-	Anda memiliki sisa dana.</p>
+        <p>Keterbatasan dana? Ya, kami memahaminta. Silahkan datang kembali dan berdonasi ketika anda memiliki sisa dana.</p>
         <a href="/" class="btn btn-primary btn-lg">Kembali ke situs</a>
         </p>
     </div>
