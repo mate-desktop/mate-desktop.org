@@ -2,7 +2,7 @@
 .. title: Pracovní prostředí MATE
 .. slug: index
 .. date: 2013-10-31 12:29:57
-.. tags: O MATE,Aplikace,Snímky 
+.. tags: About,Applications,Screenshots
 .. link: 
 .. description:
 -->
