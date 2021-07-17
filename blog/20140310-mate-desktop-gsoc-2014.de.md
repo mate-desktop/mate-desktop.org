@@ -29,14 +29,12 @@ Den teilnehmenden Projekte wiederum haben es einfacher, neue Entwickler zu entde
 anzuwerben. Zu guter Letzt wird mehr Quellcode geschrieben und veröffentlicht,
 zum Nutzen und Wohle aller.
 
-
 ## Für Studenten
 
 **Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.**
 
 Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
 (https://developers.google.com/open-source/gsoc/faq).
-
 Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme 
 beitragen wollen, sollten Sie das folgende lesen:
 
@@ -46,21 +44,20 @@ beitragen wollen, sollten Sie das folgende lesen:
 
 Zusammengefasst lauten die MATE-Projektideen für GSoC 2014:
 
+  * Zusammengefasst lauten die MATE-Projektideen für GSoC 2014:
   * ePub-Format-Unterstützung in Atril
   * GStreamer-1.0-Unterstützung
-  * Plugin-System für Caja
+
+Plugin-System für Caja
 
 Wie immer ist es wichtig, frühzeitig zu starten und mit den Mentoren und der weiteren
 Community in Kontakt zu treten. Das Beheben von Bugs, das Setzen von "pull requests" und
 die Arbeit an Machbarkeitsstudien (Proof of Concepts) bieten sich für den Anfang an.
 
-Die GSoC-2014-Mentoren für MATE sind Stefano Karapetsas (`stefano-k` auf IRC)
+  * Die GSoC-2014-Mentoren für MATE sind Stefano Karapetsas (`stefano-k` auf IRC)
 und Martin Wimpress (`flexiondotorg` auf IRC). Der beste Weg,
 mit den MATE-Mentoren in Kontakt zu treten ist:
-
   * [#mate IRC-Channel auf Libera Chat](https://web.libera.chat/?#mate)
   * [#mate:libera.chat Matrix-Room](https://matrix.to/#/#mate:libera.chat)
-  * [MATE auf GitHub](https://github.com/mate-desktop)
 
-Wir freuen uns auf eure Bewerbungen!
-
+[MATE auf GitHub](https://github.com/mate-desktop)
