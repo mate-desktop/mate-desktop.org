@@ -10,7 +10,7 @@
 MATE デスクトップ環境はGNOME 2 開発の延長線上にあります。Linux や他のUnix ライクな OS 向けの伝統的な手法を用いた、直感的で魅力的なデスクトップ環境を提供します。
 
 MATE は、従来のデスクトップ体験を維持しながらも、新しい技術をサポートするために積極的な開発を行っています。
-[ロードマップ] (https://wiki.mate-desktop.org/#!pages/roadmap.md) をご覧ください。
+[ロードマップ](https://wiki.mate-desktop.org/#!pages/roadmap.md) をご覧ください。
 
 ![image](/screens/screenshot.jpg){.align-center}
 
