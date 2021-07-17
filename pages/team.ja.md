@@ -7,7 +7,7 @@
 .. slug: team
 -->
 
-MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等からなる国際的なグループによって提供されています。
+MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等で構成された、国際的なグループによって提供されています。
 
 ## 主要メンバー
 
@@ -15,7 +15,7 @@ MATE は、開発者、翻訳者、パッケージャ、アーティスト、シ
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
-Ubuntu MATE と Debian のパッケージャ、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
+Ubuntu MATE と Debian 用のパッケージ化、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn ([lukefromdc](https://github.com/lukefromdc))
 
@@ -39,7 +39,7 @@ Ubuntu MATE と Debian のパッケージャ、GSoC メンター、コミュニ�
 
 ### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich ([raveit65](https://github.com/raveit65))
 
-開発、Fedora 用パッケージング、テーマメンテナ、インフラストラクチャ。
+開発、Fedora 用のパッケージ化、テーマメンテナ、インフラストラクチャ。
 
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian ([yetist](https://github.com/yetist))
 
@@ -75,7 +75,7 @@ MATE デスクトップ環境は、次のような優秀な方々のたゆまぬ
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin ([XRevan86](https://github.com/XRevan86))
 
-開発、openSUSE 用のパッケージ化、Compiz-Reloaded メンテナナ。
+開発、openSUSE 用のパッケージ化、Compiz-Reloaded メンテナ。
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev ([dnk](https://github.com/dnk))
 
