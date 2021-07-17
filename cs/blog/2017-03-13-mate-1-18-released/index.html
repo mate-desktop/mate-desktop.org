@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MATE 1.18 released | MATE</title>
+<link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS (cs)" hreflang="cs" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (bg)" hreflang="bg" href="../../../bg/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ca)" hreflang="ca" href="../../../ca/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (de)" hreflang="de" href="../../../de/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (el)" hreflang="el" href="../../../el/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" hreflang="es" href="../../../es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (fr)" hreflang="fr" href="../../../fr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (he)" hreflang="he" href="../../../he/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (hu)" hreflang="hu" href="../../../hu/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (id)" hreflang="id" href="../../../id/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (it)" hreflang="it" href="../../../it/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" hreflang="ja" href="../../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../../zh_tw/rss.xml">
+<link rel="canonical" href="https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/">
+<link rel="icon" href="../../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../../mate-128.png" sizes="128x128">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
+<link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
+<meta name="author" content="Martin Wimpress">
+<link rel="prev" href="../2016-12-22-server-outage/" title="Server Outage" type="text/html">
+<link rel="next" href="../2018-02-07-mate-1-20-released/" title="MATE 1.20 released" type="text/html">
+<meta property="og:site_name" content="MATE">
+<meta property="og:title" content="MATE 1.18 released">
+<meta property="og:url" content="https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/">
+<meta property="og:description" content="After 6 months of development the MATE Desktop team are proud to
+announce the release of MATE Desktop 1.18. We'd like to thank every
+MATE contributor for their help making this release possible.
+
+What">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-03-13T23:30:00Z">
+<meta property="article:tag" content="Releases">
+<link rel="alternate" hreflang="bg" href="../../../bg/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="ca" href="../../../ca/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="de" href="../../../de/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="el" href="../../../el/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="en" href="../../../blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="es" href="../../../es/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="fr" href="../../../fr/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="he" href="../../../he/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="hu" href="../../../hu/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="id" href="../../../id/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="it" href="../../../it/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="ja" href="../../../ja/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="nl" href="../../../nl/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="pl" href="../../../pl/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="pt" href="../../../pt/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="sr" href="../../../sr/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="tr" href="../../../tr/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2017-03-13-mate-1-18-released/">
+<link rel="alternate" hreflang="zh_tw" href="../../../zh_tw/blog/2017-03-13-mate-1-18-released/">
+</head>
+<body style="padding-top: 10px;">
+
+<!-- Menubar -->
+<div class="container-fluid">
+    <div class="navbar">
+	<div class="navbar-inner">
+            <div class="container">
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+
+       		<a class="brand" href="https://preview.mate-desktop.dev/">
+               	    <img src="../../../assets/img/icons/mate.png" alt="MATE" id="logo"><span id="blog-title"><span class="caps">MATE</span></span>
+          	</a>
+
+		<!-- Everything you want hidden at 940px or less, place within here -->
+		<div class="nav-collapse collapse">
+		    <ul class="nav">
+<li class="nav-item">
+<a href="../" class="nav-link">Blog</a>
+                </li>
+<li class="nav-item">
+<a href="../../install/" class="nav-link">Installation</a>
+                </li>
+<li class="nav-item">
+<a href="../../gallery/1.24/english/" class="nav-link">Screenshots</a>
+                </li>
+<li class="nav-item">
+<a href="../../development/" class="nav-link">Development</a>
+                </li>
+<li class="nav-item">
+<a href="../../community/" class="nav-link">Community</a>
+                </li>
+<li class="nav-item">
+<a href="../../team/" class="nav-link">Team</a>
+                </li>
+<li class="nav-item">
+<a href="../../donate/" class="nav-link">Donate</a>
+
+
+		    </li>
+</ul>
+<ul class="nav pull-right"><!-- disable translation dropdown
+                        					
+                        
+						--></ul>
+<span class="navbar-search pull-right">
+    <input class="input-medium search-query search-margin" type="search" placeholder="Search" id="tipue_search_input"></span>
+		</div>
+	    </div>
+	</div>
+    </div>
+</div>
+<!-- End of Menubar -->
+
+	
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto;"></div>
+
+
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    	<div class="span2"></div>
+    	<div class="span8">
+		
+    	
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.18&nbsp;released</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    <a class="u-url" href="../../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2017-03-13T23:30:00Z" itemprop="datePublished" title="2017-03-13 23:30">2017-03-13 23:30</time></a>
+            </p>
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>After 6 months of development the <span class="caps">MATE</span> Desktop team are proud to
+announce the release of <span class="caps">MATE</span> Desktop 1.18. We&#8217;d like to thank every
+<span class="caps">MATE</span> contributor for their help making this release&nbsp;possible.</p>
+<p><img alt="about" src="../../../assets/img/blog/about-mate-1.18.png"></p>
+<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.18</h3>
+<p>The release is focused on completing the migration to <span class="caps">GTK3</span>+ and
+adopting new technologies to replace some of deprecated components <span class="caps">MATE</span>
+Desktop 1.16 still relied&nbsp;on.</p>
+<p>The headline changes in <span class="caps">MATE</span> Desktop 1.18&nbsp;are:</p>
+<ul>
+<li>
+<strong>The entire <span class="caps">MATE</span> Desktop suite of applications and components is now <span class="caps">GTK3</span>+ only!</strong><ul>
+<li>Requires <span class="caps">GTK</span>+ &gt;=&nbsp;3.14.</li>
+<li>All <span class="caps">GTK2</span>+ code has been dropped including&nbsp;the <code>--with-gtk</code> build&nbsp;option.</li>
+</ul>
+</li>
+<li>Completed the migration&nbsp;to <code>GtkApplication</code> from <code>libunique</code>.</li>
+<li>
+<strong>Added <code>libinput</code> support for mouse and touchpad.</strong><ul>
+<li>Separate settings for handedness (left/right-handed) and motion&nbsp;acceleration/threshold.</li>
+</ul>
+</li>
+<li>
+<strong>Much improved accessibility support (particularly for visually impaired users).</strong><ul>
+<li>Many thanks to our friends at <a href="https://hypra.fr/-Home-17-.html?lang=en">Hypra.fr</a> for their&nbsp;contribution!</li>
+</ul>
+</li>
+<li>
+<strong>Caja adds several new features</strong> including:<ul>
+<li>Added a copy queue and copy&nbsp;pausing.</li>
+<li>Asking confirmation before moving files to the&nbsp;Trash.</li>
+<li>Support for back/forward mouse buttons for directory&nbsp;navigation.</li>
+<li>Notification when ejected drives are safe to&nbsp;unplug.</li>
+</ul>
+</li>
+<li>
+<strong>Lock screen will load the users selected background</strong> instead of the system defined&nbsp;default.</li>
+<li><span class="caps">MATE</span> Panel gets several improvements, including:<ul>
+<li>
+<strong>Added <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">desktop actions</a> support for additional launch options</strong>.</li>
+<li>Added StatusNotifier&nbsp;support.</li>
+<li>
+<strong>Added support for <a href="https://smdavis.us/projects/menulibre/">Menulibre</a> menu editor</strong>, if installed it is preferred over&nbsp;Mozo.</li>
+</ul>
+</li>
+<li>Engrampa, the archive manager, includes a number of improvements:<ul>
+<li>Added <code>ear</code> and <code>war</code> to the supported types&nbsp;list.</li>
+<li>Check the rar/unrar version to the correct date is&nbsp;shown.</li>
+<li>Fixed compress rar and 7z split into&nbsp;volumes.</li>
+</ul>
+</li>
+<li>
+<strong>Notifications now implement action icons support</strong>, for example playback control icons used by media&nbsp;players.</li>
+<li>Reworked the font viewer to add font browsing mode, support for <span class="caps">TTC</span> fonts and expose it in the menus by&nbsp;default.</li>
+<li>
+<strong>Replaced&nbsp;deprecated <code>upower</code> suspend/hibernate functions with ConsoleKit2 equivalents</strong>.</li>
+<li><span class="caps">MATE</span> Terminal adds the ability to close tabs with middle mouse&nbsp;button. </li>
+<li>
+<strong>Atril, the document viewer, has much improved page load times</strong> and adds support&nbsp;for <code>unarchiver</code> used by some&nbsp;comics.</li>
+<li>Lots of deprecated <span class="caps">GTK</span>+ methods have been replaced and many bugs have been&nbsp;fixed.</li>
+<li><strong>The plugin systems, and all C and Python plugins, in Eye of <span class="caps">MATE</span> and Pluma have been ported&nbsp;to <code>libpeas</code>.</strong></li>
+<li>Translations are updated. <em>Thank you to our team of&nbsp;translators!</em>
+</li>
+<li>A number of <strong>memory leaks have been plugged</strong>.</li>
+<li>
+<em>A-n-d most exciting of all&#8230;</em> <strong><span class="caps">MATE</span> Calculator is back and has been ported to&nbsp;<span class="caps">GTK3</span>+</strong> <code>:-D</code>
+</li>
+</ul>
+<p>The various components of <span class="caps">MATE</span> Desktop 1.18 are available for download&nbsp;here:</p>
+<ul>
+<li><a href="https://pub.mate-desktop.org/releases/1.18/">https://pub.mate-desktop.org/releases/1.18/</a></li>
+</ul>
+<h3>Changelog</h3>
+<p>Here is a more detailed break down of what&nbsp;changed.</p>
+<h4>mate-common&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+</ul>
+<h4>mate-desktop&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Drop mpaste tool (won&#8217;t work without the website&nbsp;anyway)</li>
+<li>Background: fix crossfade issues with recent <span class="caps">GTK</span>+&nbsp;versions</li>
+<li>Background: fix more graphics issues to allow Caja to use background
+    for directory&nbsp;windows</li>
+<li>Background: fix memleaks and other misc&nbsp;issues</li>
+<li>Color select: fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Schemas: some fixes and&nbsp;cleanups</li>
+<li>mate-about: update copyright&nbsp;year</li>
+<li>mate-about: fix <span class="caps">URL</span>&nbsp;centering</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-user-guide&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>libmatekbd&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>libmatemixer&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>libmateweather&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Drop Python bindings and &#8212;enable-python build option (won&#8217;t
+    work with&nbsp;<span class="caps">GTK</span>+3)</li>
+<li>Locations: add Dunedin, New&nbsp;Zealand</li>
+<li>Locations: add Yogyakarta,&nbsp;Indonesia</li>
+<li>Locations: move Indonesia under Asia&nbsp;region</li>
+<li>Locations: correct coordinates for Pune,&nbsp;India</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-icon-theme&nbsp;1.18.0</h4>
+<ul>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>caja&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require libmate-desktop &gt;=&nbsp;1.17.3</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Port from libunique to&nbsp;GtkApplication</li>
+<li>Implement copy queue and&nbsp;pausing</li>
+<li>Add option for asking confirmation before moving files to&nbsp;trash</li>
+<li>Add support for back/forward mouse buttons for directory&nbsp;navigation</li>
+<li>Add notification when ejected drives are safe to unplug (and require
+    libnotify at build&nbsp;time)</li>
+<li>Add &#8212;force-desktop command line option to make Caja always manage
+    the&nbsp;desktop</li>
+<li>Add ability to get feedback from Orca when additional icons are&nbsp;selected/deselected</li>
+<li>Drop metadata converting&nbsp;tool</li>
+<li>Fix crossfade issues with recent <span class="caps">GTK</span>+&nbsp;versions</li>
+<li>Fix more graphics issues to allow Caja to use background for directory&nbsp;windows</li>
+<li>Fix some more <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
+<li>Schema: some fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-polkit&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>marco&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Theme viewer: fix build for <span class="caps">GTK</span>+3 and fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Add ability to disable showing preselected window border on&nbsp;alt-tab</li>
+<li>Add ability to ignore applications when show-desktop is&nbsp;triggered</li>
+<li>Schema: make compositing on by&nbsp;default</li>
+<li>Workspaces: switch wrapping behavior for &#8216;classic&#8217; and &#8216;toroidal&#8217;
+    modes (it was reversed&nbsp;somehow)</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-settings-daemon&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require XInput&nbsp;unconditionally</li>
+<li>Build: require libmatemixer &gt;= 1.10, libxklavier &gt;= 5.2, dconf &gt;=&nbsp;0.13</li>
+<li>Build: require libmatekbd and libmate-desktop &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Add libinput support for mouse and&nbsp;touchpad</li>
+<li>Touchpad: add separate settings for handedness (left/right-handed)
+    and motion&nbsp;acceleration/threshold</li>
+<li>Background: restore option to let Caja draw background with <span class="caps">GTK</span>+&nbsp;3.22</li>
+<li>Some fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-session-manager&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Replace deprecated upower suspend/hibernate functions with ConsoleKit2
+    equivalents (and drop &#8212;enable-upower build&nbsp;option)</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-menus&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-panel&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require libmate-menu &gt;= 1.10 and dconf &gt;=&nbsp;0.13.4</li>
+<li>Build: require libmateweather and libmate-desktop &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Launchers: add desktop actions support for additional launch&nbsp;options</li>
+<li>Menu applets: add support for Menulibre menu editor, and prefer
+    it to Mozo if both are&nbsp;installed</li>
+<li>Notification area: add StatusNotifier&nbsp;support</li>
+<li>Fix lots of <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
+<li>Don&#8217;t spam accessible name changes when it is&nbsp;translated</li>
+<li>Some code&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-backgrounds&nbsp;1.18.0</h4>
+<ul>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-notification-daemon&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Implement action icons support (e.g. playback control icons
+    used by media&nbsp;players)</li>
+<li>Themes: fix some pie countdown&nbsp;issues</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-control-center&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require libmatekbd, libmate-desktop, marco, m-s-d &gt;=&nbsp;1.17</li>
+<li>Build: require XCursor and XInput&nbsp;unconditionally</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Port from libunique to&nbsp;GtkApplication</li>
+<li>Rework font-viewer: add font browsing mode, support for <span class="caps">TTC</span> fonts,
+    and make it appear in the&nbsp;menus</li>
+<li>Add libinput support for mouse and&nbsp;touchpad</li>
+<li>Mouse: add separate touchpad motion settings on touchpad&nbsp;tab</li>
+<li>Mouse: change tab label from General to&nbsp;Mouse</li>
+<li>Mouse: change natural scroll mnemonic from &#8216;a&#8217; to&nbsp;&#8216;n&#8217;</li>
+<li>Fix lots of <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Some more fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-screensaver&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require libmate-menu &gt;=&nbsp;1.10</li>
+<li>Build: require libmatekbd and libmate-desktop &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Lock screen: load user&#8217;s background instead of system&nbsp;one</li>
+<li>Preferences: fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-media&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require libmatemixer &gt;= 1.10 and libmate-desktop &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Port from libunique to GApplication and&nbsp;GtkApplication</li>
+<li>Some&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-power-manager&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require xproto &gt;=&nbsp;7.0.15</li>
+<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Replace deprecated upower suspend/hibernate functions with
+    ConsoleKit2&nbsp;equivalents</li>
+<li>Use manpages as is instead of generating them from sgml (and
+    don&#8217;t require docbook2man for build&nbsp;anymore)</li>
+<li>Some more fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-system-monitor&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Add <code>pkexec</code> support for&nbsp;using <code>kill</code> and <code>renice</code> on other users&#8217;
+    processes and try using it before&nbsp;trying <code>gksu</code>
+</li>
+<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>atril&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require caja &gt;=&nbsp;1.17.1</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>[comics] add support for unarchiver (unar and&nbsp;lsar)</li>
+<li>[libview] increase page cache size to reduce number of page&nbsp;reloads</li>
+<li>Remove metadata migration&nbsp;code</li>
+<li>Force X11&nbsp;backend</li>
+<li>Fix lots of <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Fix some a11y&nbsp;issues</li>
+<li>Some more fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>caja-dropbox&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require libcaja-extension 1.17.1 and GLib&nbsp;2.36</li>
+</ul>
+<h4>caja-extensions&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require caja &gt;= 1.17.1 and libmate-desktop &gt;=&nbsp;1.17.0</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+<li>Add xattr-tags extension to show xattr tags in a new&nbsp;column</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>engrampa&nbsp;1.18.0</h4>
+<ul>
+<li>check the rar/unrar version to work the new date style with all&nbsp;versions</li>
+<li>Fix: rar file listing now shows correct date with recent&nbsp;binary</li>
+<li>Fix: open the 7z first split volume after&nbsp;compress</li>
+<li>Fix typo in <span class="caps">NEWS</span>: engrampa instead&nbsp;engramp</li>
+<li>Fix: compress rar split into&nbsp;volumes</li>
+<li>Fix: compress 7z split into&nbsp;volumes</li>
+<li>build: remove option that disables deprecated&nbsp;stuff</li>
+<li>zip: added ear and war to the supported types&nbsp;list</li>
+<li>Update engrampa <span class="caps">NEWS</span> to use consistent, project wide, markdown-like&nbsp;formatting.</li>
+<li>Build: require Caja &gt;= 1.17.1 to build against <span class="caps">GTK</span>+3 version
+    of&nbsp;libcaja-extension</li>
+<li>tar: add support for pixz for .tar.xz&nbsp;files</li>
+<li>tar: add support for lbzip2 on .tar.bz2&nbsp;files</li>
+<li>lha: add support for Amiga&nbsp;files</li>
+<li>Some corrections in GSettings&nbsp;schema</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>eom&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require libmate-desktop &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Drop Python bindings and &#8212;enable-python build&nbsp;option</li>
+<li>Port plugin system and plugins to&nbsp;libpeas</li>
+<li>Some code and docs&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-applets&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require libmateweather and mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Weather: fix temperature label&nbsp;placement</li>
+<li>Weather: show proper help section for each tab of prefs&nbsp;dialog</li>
+<li>Fix some <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
+<li>Some code&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-calc&nbsp;1.18.0</h4>
+<ul>
+<li>Add&nbsp;AppData.</li>
+</ul>
+<h4>mate-icon-theme-faenza&nbsp;1.18.0</h4>
+<ul>
+<li>Bump&nbsp;version</li>
+</ul>
+<h4>mate-indicator-applet&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: show new style indicator support status in&nbsp;summary</li>
+<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-netbook&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-sensors-applet&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
+<li>Some more fixes and&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-terminal&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Add ability to close tabs with middle mouse&nbsp;button</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mate-user-share&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
+    generating release announcements&nbsp;easier</li>
+<li>Build: require caja &gt;=&nbsp;1.17.1</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
+    build&nbsp;option</li>
+</ul>
+<h4>mate-utils&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Fix occasional distcheck&nbsp;breakage</li>
+<li>Some code&nbsp;cleanups</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>mozo&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>pluma&nbsp;1.18.0</h4>
+<ul>
+<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
+    to make generating release announcements&nbsp;easier</li>
+<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
+    &#8212;with-gtk build&nbsp;option</li>
+<li>Build: actually build GObject introspection&nbsp;data</li>
+<li>Build: remove &#8212;enable-deprecations option - it actually
+    disabled all deprecated&nbsp;stuff</li>
+<li>Add ability to search/replace text using regular&nbsp;expressions</li>
+<li>Drop Python bindings and &#8212;enable-python build&nbsp;option</li>
+<li>Port plugin system and both C and Python plugins to&nbsp;libpeas</li>
+<li>Snippets plugin: stop exposing functions on Pluma message bus
+    (doesn&#8217;t work with GObject&nbsp;introspection)</li>
+<li>Snippets plugin: fix snippet parts staying after&nbsp;Ctrl-Z</li>
+<li>Fix unexpected closing of the first tab with middle-click
+    under the line numbers&nbsp;column</li>
+<li>Fix some runtime warnings in&nbsp;plugins</li>
+<li>Some more fixes and cleanups in code and&nbsp;docs</li>
+<li>Translations&nbsp;update</li>
+</ul>
+<h4>python-caja&nbsp;1.18.0</h4>
+<ul>
+<li>Translations&nbsp;update</li>
+<li>support <span class="caps">GTK</span>+3 only: require Caja 1.17.1 and&nbsp;pygobject-3.0</li>
+<li>drop ancient check for Python 2.5, not needed these&nbsp;days</li>
+</ul>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../tags/releases/" rel="tag">Releases</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../2016-12-22-server-outage/" rel="prev" title="Server Outage">Předchozí&nbsp;příspěvek</a>
+            </li>
+            <li class="next">
+                <a href="../2018-02-07-mate-1-20-released/" rel="next" title="MATE 1.20 released">Další&nbsp;příspěvek</a>
+            </li>
+        </ul></nav></aside></article>
+</div>
+    </div>
+    <!--End of body content-->
+</div>
+
+<hr>
+<div class="footerbox" align="center">
+    Contents © 2021 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
+    
+
+    <!-- MATE social icons -->
+	<br><a class="social-icon" href="../../../rss.xml" title="MATE RSS feed"><img src="../../../assets/img/icons/rss.png" alt="RSS" class="small-margin"></a>
+<a class="social-icon" href="https://github.com/mate-desktop/" title="MATE GitHub"><img src="../../../assets/img/icons/github.png" alt="GitHub" class="small-margin"></a>
+<a class="social-icon" href="https://twitter.com/Mate_desktop" title="@Mate_Desktop Twitter"><img src="../../../assets/img/icons/twitter.png" alt="Twitter" class="small-margin"></a>
+<a class="social-icon" href="https://wiki.mate-desktop.org/#!index.md" title="MATE Wiki"><img src="../../../assets/img/icons/wiki.png" alt="Wiki" class="small-margin"></a>
+           
+</div>
+
+        <script src="../../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#container-fluid', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><script src="../../../assets/js/tipuesearch_set.js"></script><script src="../../../assets/js/tipuesearch.js"></script><script src="../../../assets/js/jquery.watermark.js"></script><script>
+$(document).ready(function() {
+
+    $('#tipue_search_input').tipuesearch({
+        'show': 5,
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+
+$('body').watermark({
+    texts : ["Preview Website", "MATE Desktop", "a604e8d515cc"],
+    textColor : "#d2d2d2",
+    textFont : '14px Sans',
+    width : 150,
+    height : 150,
+    textRotate : -30
+});
+
+});
+</script>
+</body>
+</html>
