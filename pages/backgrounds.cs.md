@@ -1,10 +1,10 @@
 <!--
 .. link:
 .. description:
-.. tags: Pozadí
+.. tags: Backgrounds
 .. date: 2014-02-24 17:32:07
 .. title: Pozadí
-.. slug: pozadí
+.. slug: backgrounds
 -->
 
 Velký výběr pozadí najdete na [MATE-Look](https://www.mate-look.org)
