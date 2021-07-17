@@ -217,12 +217,12 @@ NAVIGATION_LINKS = {
    ),
     "he": (
         ('/he/blog/', 'Blog'),
-        ('/he/install/', 'Telepítés'),
-        ('/he/gallery/1.24/english/', 'Képernyőképek'),
-        ('/he/development/', 'Fejlesztés'),
-        ('/he/community/', 'Közösség'),
-        ('/he/team/', 'Csapat'),
-        ('/he/donate/', 'Adományozás'),
+        ('/he/install/', 'Installation'),
+        ('/he/gallery/1.24/english/', 'Screenshots'),
+        ('/he/development/', 'Development'),
+        ('/he/community/', 'Community'),
+        ('/he/team/', 'Team'),
+        ('/he/donate/', 'Donate'),
    ),
     "hu": (
         ('/hu/blog/', 'Blog'),
