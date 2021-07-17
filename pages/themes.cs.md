@@ -1,10 +1,10 @@
 <!--
 .. link:
 .. description:
-.. tags: Motivy
+.. tags: Themes
 .. date: 2014-02-24 17:32:07
 .. title: Motivy
-.. slug: motivy
+.. slug: themes
 -->
 
 Většina motivů určených pro GTK 2.x a GTK 3.x bude s MATE fungovat.
