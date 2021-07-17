@@ -4,7 +4,7 @@
 .. tags:
 .. date: 2011-12-05 07:25:21
 .. title: Tým
-.. slug: tým
+.. slug: team
 -->
 
 MATE vám přináší mezinárodní skupina vývojářů, překladatelů, tvůrců balíčků,
