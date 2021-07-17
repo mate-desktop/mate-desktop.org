@@ -102,6 +102,7 @@ TRANSLATIONS = {
     "el": "./el",
     "es": "./es",
     "fr": "./fr",
+    "he": "./he",
     "hu": "./hu",
     "id": "./id",
     "ja": "./ja",
@@ -213,6 +214,15 @@ NAVIGATION_LINKS = {
         ('/fr/community/', 'Communauté'),
         ('/fr/team/', 'Équipe'),
         ('/fr/donate/', 'Donation'),
+   ),
+    "he": (
+        ('/he/blog/', 'Blog'),
+        ('/he/install/', 'Telepítés'),
+        ('/he/gallery/1.24/english/', 'Képernyőképek'),
+        ('/he/development/', 'Fejlesztés'),
+        ('/he/community/', 'Közösség'),
+        ('/he/team/', 'Csapat'),
+        ('/he/donate/', 'Adományozás'),
    ),
     "hu": (
         ('/hu/blog/', 'Blog'),
