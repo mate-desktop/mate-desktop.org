@@ -10,7 +10,7 @@
 MATE デスクトップ環境はGNOME 2 開発の延長線上にあります。Linux や他のUnix ライクな OS 向けの伝統的な手法を用いた、直感的で魅力的なデスクトップ環境を提供します。
 
 MATE は、従来のデスクトップ体験を維持しながらも、新しい技術をサポートするために積極的な開発を行っています。
-[ロードマップ] (https://wiki.mate-desktop.org/#!pages/roadmap.md) をご覧ください。
+[ロードマップ](https://wiki.mate-desktop.org/#!pages/roadmap.md) をご覧ください。
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -19,9 +19,9 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 ニュース
 ====
 
-{{% post-list lang="en" stop=5 %}}{{% /post-list %}}
+{{% post-list lang="ja" stop=5 %}}{{% /post-list %}}
 
-また、ブログ記事には [タグ](tags/) と [日別のアーカイブ](archive/) というインデックスも付けられています。[プラネット MATE](https://planet.mate-desktop.org) を見て、MATE コミュニティで何をブログしているのか知りたい人もことでしょう。
+また、ブログの記事は [タグ](tags/) や [日付順アーカイブ](archive/) より検索できます。[プラネット MATE](https://planet.mate-desktop.org) を見て、MATE コミュニティで何をブログしているのかもっと知りたい人もいることでしょう。
 
 MATE に対応しているディストリビューションはどれですか？
 =================================
