@@ -25,7 +25,6 @@ fòrums de la comunitat.
   * [Fòrums d'Arch Linux](https://bbs.archlinux.org/)
   * [Fòrums d'usuaris de Debian](http://forums.debian.net/)
   * [Fòrums de Fedora](https://fedoraforum.org/)
-  * [Fòrums de Fedora](https://ask.fedoraproject.org/)
   * [Fòrums de Gentoo](https://forums.gentoo.org/)
   * [Fòrums de Linux Mint](https://forums.linuxmint.com/)
   * [Fòrums d'Ubuntu MATE](https://ubuntu-mate.community)
@@ -52,5 +51,6 @@ Hi ha diversos canals d'IRC disponibles. Podeu trobar tots els detalls a la nost
 Les entrades dels blogs dels membres de la comunitat de MATE s'afegeixen al nostre
 planeta.
 
-  * [Planeta de MATE](https://planet.mate-desktop.org)
+  * Les entrades dels blogs dels membres de la comunitat de MATE s'afegeixen al nostre
+planeta.
 
