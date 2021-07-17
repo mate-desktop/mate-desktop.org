@@ -1,10 +1,10 @@
 <!--
 .. link:
 .. description:
-.. tags: Fórum,Wiki,IRC,Planeta
+.. tags: Forums,Wiki,IRC,Planet
 .. date: 2011-12-05 07:14:07
 .. title: Komunita
-.. slug: komunita
+.. slug: community
 -->
 
 S komunitou MATE se můžete spojit mnoha různými způsoby. Prostředky na této
