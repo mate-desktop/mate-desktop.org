@@ -4,7 +4,7 @@
 .. tags: 
 .. date: 2012-04-17 06:32:31
 .. title: インストール
-.. slug: install
+.. slug: インストール
 -->
 
 MATE コミュニティは、多くのディストリビューションへの MATE のインストール方法を文書で説明しています。どうか [インストールガイド](https://wiki.mate-desktop.org/#!pages/download.md) をご覧ください。
