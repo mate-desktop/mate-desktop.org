@@ -1,10 +1,10 @@
 <!--
 .. link:
 .. description:
-.. tags: Vývoj
+.. tags: Development
 .. date: 2011-12-05 12:00:30
 .. title: Vývoj
-.. slug: vývoj
+.. slug: development
 -->
 
 ## Vydání
