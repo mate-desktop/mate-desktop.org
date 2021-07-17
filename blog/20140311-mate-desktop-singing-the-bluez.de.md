@@ -15,32 +15,30 @@ und dabei helfen, Blueman auf BlueZ 5.x zu aktualisieren.
 ## Warum wird mate-bluetooth fallengelassen?
 
 `mate-bluetooth` unterstützt BlueZ 4.x, das nicht weiter entwickelt wird. 
-Außerdem haben viele Distributionen in ihren Repositorien BlueZ 4.x mit BlueZ 5.x ersetzt,
-oder sie sind im Begriff, es zu tun. 
-
-`mate-bluetooth` nach BlueZ 5.x zu migrieren stellte sich als sehr mühselig heraus, und
-das Programm bietet nicht den Funktionsumfang, der in Blueman zu finden ist.
+Außerdem haben viele Distributionen in ihren Repositorien BlueZ 4.x mit BlueZ 5.x ersetzt, oder sie sind im Begriff, es zu tun. 
+`mate-bluetooth`  nach BlueZ 5.x zu migrieren stellte sich als sehr mühselig heraus, und das Programm bietet nicht den Funktionsumfang, der in Blueman zu finden ist.
 
 ## Warum Blueman? Ist es nicht tot?
 
 Obwohl das originale Blueman-Projekt stagnierte, hat [Christopher Schramm](https://github.com/cschramm)
+die Entwicklung wieder angetrieben und damit begonnen, Blueman auf BlueZ 5.x zu portieren.
+Während es durchaus auch einige Mühen kosten wird, Blueman für eine Unterstützung von BlueZ 5.x weiterzuentwickeln,
+haben wir das Gefühl, es wird ein deutlich besseres Bluetooth-Interface für MATE bieten.
+
+## Obwohl das originale Blueman-Projekt stagnierte, hat [Christopher Schramm](https://github.com/cschramm)
 die Entwicklung wieder angetrieben und damit begonnen, Blueman auf BlueZ 5.x zu portieren. 
 Während es durchaus auch einige Mühen kosten wird, Blueman für eine Unterstützung von BlueZ 5.x weiterzuentwickeln,
 haben wir das Gefühl, es wird ein deutlich besseres Bluetooth-Interface für MATE bieten.
 
-## Wann wird der aktualisierte Blueman verfügbar sein?
+Wann wird der aktualisierte Blueman verfügbar sein?
 
 Die Aufmerksamen unter Ihnen werden bemerkt haben, dass die [MATE1.8 Release-Ankündigung](/blog/2014-03-04-mate-1-8-released/)
 bereits erwähnte, dass `mate-bluetooth` durch Blueman ersetzt wurde, und die besonders
 Aufmerksamen werden ferner bemerkt haben, dass eine neue Version von Blueman bis jetzt nicht
 veröffentlicht wurde. Ja -- wir sind schlecht. Es tut uns leid.
 
-Auch wenn wir zugeben, schlecht zu sein, steuern wir aktiv zu den Anstrengungen bei,
+## Auch wenn wir zugeben, schlecht zu sein, steuern wir aktiv zu den Anstrengungen bei,
 Blueman für BlueZ 5.x und GObject-Introspektion anzupassen. Wir hoffen, es
 rechtzeitig fertig zu haben für MATE 1.8.1, das primär als Bugfix-Release gedacht ist.
 
-## Könnt ihr nicht schneller arbeiten, verdammt?!
-
-Klar. Jeder mit BlueZ 4.x/5.x, dbus, PyGObject und PyGTK ist dazu aufgefordert,
-beizutragen zu dem [Blueman-GitHub-Repositorium](https://github.com/blueman-project/blueman).
-
+Könnt ihr nicht schneller arbeiten, verdammt?!
