@@ -29,14 +29,12 @@ Den teilnehmenden Projekte wiederum haben es einfacher, neue Entwickler zu entde
 anzuwerben. Zu guter Letzt wird mehr Quellcode geschrieben und veröffentlicht,
 zum Nutzen und Wohle aller.
 
-
 ## Für Studenten
 
 **Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.**
 
 Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
 (https://developers.google.com/open-source/gsoc/faq).
-
 Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme 
 beitragen wollen, sollten Sie das folgende lesen:
 
@@ -60,7 +58,6 @@ mit den MATE-Mentoren in Kontakt zu treten ist:
 
   * [#mate IRC-Channel auf Libera Chat](https://web.libera.chat/?#mate)
   * [#mate:libera.chat Matrix-Room](https://matrix.to/#/#mate:libera.chat)
-  * [MATE auf GitHub](https://github.com/mate-desktop)
+  * [#mate:libera.chat Matrix-Room](https://matrix.to/#/#mate:libera.chat)
 
-Wir freuen uns auf eure Bewerbungen!
-
+[MATE auf GitHub](https://github.com/mate-desktop)
