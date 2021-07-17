@@ -13,7 +13,7 @@ MATE デスクトップの各リリースの tarball は、次のアーカイブ
 
   * <https://pub.mate-desktop.org/releases/>
 
-また、お使いのディストリビューションに同梱されている GTK3+ バージョンに合致する MATE Theme パッケージも必要です。
+また、お使いのディストリビューションに同梱されている GTK3+ バージョンに合致する MATE テーマパッケージも必要です。
 
   * <https://pub.mate-desktop.org/releases/themes/>
 
@@ -29,7 +29,7 @@ MATE デスクトップの git リポジトリは GitHub 上でホストされ�
 
 ## リソース
 
-その他の有用なリンク集
+他のお役立ちリンク集
 
   * [MATE ユニバーシティ](/blog/2013-03-12-mate-university/)
   * [MATE 開発](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
