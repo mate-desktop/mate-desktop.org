@@ -13,7 +13,7 @@ MATE デスクトップの各リリースの tarball は、次のアーカイブ
 
   * <https://pub.mate-desktop.org/releases/>
 
-また、お使いのディストリビューションに同梱されている GTK3+ バージョンに合致する MATE Theme パッケージも必要です。
+また、お使いのディストリビューションに同梱されている GTK3+ バージョンに合致する MATE テーマパッケージも必要です。
 
   * <https://pub.mate-desktop.org/releases/themes/>
 
