@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 18:58:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 19:21:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
 представе] (https://www.jupiterbroadcasting.com/show/linuxactionshow/) да
 мало поразговарамо о Мејтовој радној површи, одакле је потекао и куда иде.
 Интервју са мном можете видети у наставку.&lt;/p&gt;
@@ -364,11 +364,11 @@ job.&lt;/p&gt;
 научили како да развијају нове програмчиће панела, проширења Цаје (управника датотека),
 прикључке Плуме (уређивача текста) и Мејтовог Ока (прегледника слика) итд., да би проширили
 већ моћно искуство Мејтове радне површи. Биће једноставног и добро коментарисаног кôда,
-датотека  стварања (makefiles) и савета за коришћење налик одскочној дасци за нове Мејтове програме.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Thank you First Colo!</title><link>https://preview.mate-desktop.dev/sr/blog/2012-12-27-thank-you-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
-are planning to migrate to MATE Desktop on their office workstations. FirstColo have
-kindly donated a new dedicated server to support MATE.&lt;/p&gt;
-&lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-12-27-thank-you-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>MATE 1.2 released</title><link>https://preview.mate-desktop.dev/sr/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of &lt;strong&gt;MATE 1.2&lt;/strong&gt;. This release is a
+датотека  стварања (makefiles) и савета за коришћење налик одскочној дасци за нове Мејтове програме.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Хвала ти „First Colo“!</title><link>https://preview.mate-desktop.dev/sr/blog/2012-12-27-thank-you-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;„FirstColo“&lt;/a&gt;, управља модерним центром података у Немачкој и
+планира да пређе на Мејтову радну површ на својим канцеларијским радним станицама. „FirstColo“
+је љубазно донирао нови наменски сервер као подршку Мејту.&lt;/p&gt;
+&lt;p&gt;Читав тим жели да се захвали Мартину Вергесу и његовом особљу за ову дивну вест!&lt;/p&gt;&lt;/div&gt;</description><category>FirstColo</category><category>Вести</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-12-27-thank-you-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>MATE 1.2 released</title><link>https://preview.mate-desktop.dev/sr/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of &lt;strong&gt;MATE 1.2&lt;/strong&gt;. This release is a
 huge step forward since the 1.0 and 1.1 development releases. MATE is more
 stable than ever and it includes support for many more applications, applets
 and backends. &lt;/p&gt;
