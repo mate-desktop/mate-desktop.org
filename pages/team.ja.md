@@ -7,7 +7,7 @@
 .. slug: team
 -->
 
-MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等からなる国際的なグループによって提供されています。
+MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等で構成された、国際的なグループによって提供されています。
 
 ## 主要メンバー
 
@@ -15,7 +15,7 @@ MATE は、開発者、翻訳者、パッケージャ、アーティスト、シ
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
-Ubuntu MATE と Debian のパッケージャ、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
+Ubuntu MATE と Debian 用のパッケージ化、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn ([lukefromdc](https://github.com/lukefromdc))
 
