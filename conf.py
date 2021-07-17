@@ -98,6 +98,7 @@ TRANSLATIONS = {
     DEFAULT_LANG: "",
     "bg": "./bg",
     "ca": "./ca",
+    "cs": "./cs",
     "de": "./de",
     "el": "./el",
     "es": "./es",
@@ -178,6 +179,15 @@ NAVIGATION_LINKS = {
         ('/ca/community/', 'Comunitat'),
         ('/ca/team/', 'Equip'),
         ('/ca/donate/', 'Donatius'),
+   ),
+    "cs": (
+        ('/cs/blog/', 'Blog'),
+        ('/cs/install/', 'Installation'),
+        ('/cs/gallery/1.24/english/', 'Screenshots'),
+        ('/cs/development/', 'Development'),
+        ('/cs/community/', 'Community'),
+        ('/cs/team/', 'Team'),
+        ('/cs/donate/', 'Donate'),
    ),
     "de": (
         ('/de/blog/', 'Blog'),
