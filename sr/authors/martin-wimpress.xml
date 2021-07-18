@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 19:21:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/sr/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 09:02:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/sr/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
 announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
 contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
@@ -2829,20 +2829,20 @@ and OSS sound systems.&lt;/p&gt;
 &lt;li&gt;Added About Extension button to the Extensions tab in Caja &lt;/li&gt;
 &lt;li&gt;Assorted bug fixes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>MATE interview with Linux Luddites</title><link>https://preview.mate-desktop.dev/sr/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
-me last week. We discussed the origins of &lt;a href="https://mate-desktop.org"&gt;MATE Desktop&lt;/a&gt;,
-it's future direction, how &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt; came to
-be and where it is headed.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://linuxluddites.com/shows/episode-26"&gt;Linux Luddites Episode #26&lt;/a&gt;
-was published earlier today and I suggest you head over to the Linux Luddites
-website and give it a listen.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>Мејтов интервју са Линукс Лудистима</title><link>https://preview.mate-desktop.dev/sr/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Линукс Лудисти&lt;/a&gt; су били врло љубазни да направе интервју
+са мном прошле недеље. Разговарали смо о пореклу &lt;a href="https://mate-desktop.org"&gt;Мејтове радне површи&lt;/a&gt;,
+њеном будућем правцу, како је настао &lt;a href="https://ubuntu-mate.org"&gt;Убунту Мејт&lt;/a&gt; и
+куда се креће.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linuxluddites.com/shows/episode-26"&gt;Линукс Лудисти 26. епизода&lt;/a&gt;
+је објављена рано данс и ја вам предлажем да одете на веб сајт Линукс Лудиста
+и да је одслушате.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://linuxluddites.com/shows/episode-26"&gt;Linux Luddites Episode #26&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://linuxluddites.com/shows/episode-26"&gt;Линукс Лудисти 26. епизода&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you've not listened to the Linux Luddites before then you should checkout
-their back catalog. It has been one of my favourite FLOSS podcasts for some
-months now that blends good discussion and insight with useful distro reviews
-and first impressions.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>MATE 1.8 updated</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sander Sweers has released several updated packages for the MATE 1.8 series 
+&lt;p&gt;Ако до сада нисте слушали Линукс Лудисте, требало би да проверите њихов
+последњи каталог. Био је то један од мојих омиљених ФЛОСС подкастова
+неколико месеци који спаја добру расправу и даје увид у корисне рецензије
+дистрибуције и прве утиске.&lt;/p&gt;&lt;/div&gt;</description><category>interview</category><category>Linux Luddites</category><category>MATE</category><category>Ubuntu MATE</category><guid>https://preview.mate-desktop.dev/sr/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>MATE 1.8 updated</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sander Sweers has released several updated packages for the MATE 1.8 series 
 that addresses an assortment of bug fixes and minor updates. Some 
 distributions have already incorporated these updates and the others will 
 follow in due course. See below for the changes:&lt;/p&gt;
@@ -2936,27 +2936,18 @@ follow in due course. See below for the changes:&lt;/p&gt;
 &lt;h3&gt;python-caja 1.8.1&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Now uses &lt;code&gt;pkg-config&lt;/code&gt; for python detection and variables&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the MATE Desktop project is one of the 190 Open Source projects that will
-be  working with students this year.&lt;/p&gt;
-&lt;p&gt;In our second year as a GSoC mentor organisation the MATE team received 4
-student proposals we were allocated 3 slots for student projects.&lt;/p&gt;
-&lt;p&gt;I'm delighted to introduce our GSoC students for 2014:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the MATE desktop.&lt;/li&gt;
-&lt;li&gt;Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  MATE desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10 library.&lt;/li&gt;
-&lt;li&gt;Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension configuration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please join me in welcoming these new contributors to the MATE team and wish
-them every success with their respective projects for the summer.&lt;/p&gt;
-&lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
-gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
+Мејт 1.8.1 је доступан у Дебиан „Jessie“-у (тестирање) и такође у
+&lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; за „Wheezy“.&lt;/p&gt;
+&lt;p&gt;Као резултат Мејта 1.8.1 који погађа ризнице Дебиан тестирања
+раније ове године, Мејт 1.8.1 је такође званична архива за
+Убунту 14.10 „Utopic Unicorn“. Тим &lt;a href="https://ubuntu-mate.org"&gt;Убунту Мејта&lt;/a&gt;
+је недавно направио &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"&gt;ППА Мејта 1.8.1 за Убунту 14.04 „Trusty Tahr“&lt;/a&gt;
+на захтев &lt;a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html"&gt;Убунтуовог техничког одбора&lt;/a&gt;
+и такође и &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"&gt;ППА Мејта 1.8.1 за Убунту 12.04 „Precise Pangolin“&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ако су вам потребни Мејтови пакети за Дебиан и Убунту тада су
+горње ризнице пакета званичне ризнице за коришћење.&lt;/p&gt;
+&lt;p&gt;Уклонили смо ризнице пакета удомљене на „mate-desktop.org“-у 
+јер су неки били непотписани а други нису одржавани више месеци.
+Стога су, од сада, уклоњене су ризнице пакета Дебиана и Убунтуа
+удомљене на „mate-desktop.org“. &lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item></channel></rss>
