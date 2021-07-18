@@ -28,7 +28,7 @@ data](archive/). Si può anche dare un occhiata a [Planet
 MATE](https://planet.mate-desktop.org) per vedere di cosa la vasta comunità di MATE sta bloggando.
 
 Quali distribuzioni supportano MATE?
-====================================
+===================================
 
 MATE è disponibile tramite i repository **ufficiali** per le seguenti
 distribuzioni Linux:
@@ -83,7 +83,7 @@ distribuzioni nelle [linee guida all'installazione](https://wiki.mate-desktop.or
 Applicazioni
 ============
 
-Mate è composto da diverse applicazioni. La rinominazione è necessaria
+MATE è composto da diverse applicazioni. La rinominazione è necessaria
 per evitare conflitti con i componenti GNOME.
 
 Caja
