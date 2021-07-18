@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:17:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:20:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; per
 parlare un po' del Desktop MATE, da dove ha avuto origine e dove è diretto.
 L'intervista con me è inserita qui sotto.&lt;/p&gt;
@@ -11,12 +11,12 @@ L'intervista con me è inserita qui sotto.&lt;/p&gt;
 
 &lt;p&gt;Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.10 nel tempo
 che mi è stato concesso quindi vi consiglio di dare uno sguardo alla  &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;Roadmap di MATE&lt;/a&gt;
-per una visione generale. Se doveste avere ulteriori domande, o magari
+per una visione generale. Se doveste avere ulteriori domande, o magari volete
 contribuire al progetto, siamo ansiosi di chattare con
 voi sul &lt;a href="https://web.libera.chat/?#mate"&gt;canale #mate di IRC&lt;/a&gt; o
 recensire le vostre &lt;a href="https://github.com/mate-desktop"&gt;pull-requests su GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di 
-videocasts e podcasts settimanali principalmente orientati su FLOSS. Date un'occhiata,
+videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
 potreste trovare qualcosa che vi può interessare.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
