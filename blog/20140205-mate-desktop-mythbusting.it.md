@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-Sono stato piuttosto fortunato da essere invitato all'Episodio podcast 26 del [Linux 
+Sono stato piuttosto fortunato ad essere invitato all'Episodio podcast 26 del [Linux 
 Unplugged](https://www.jupiterbroadcasting.com/show/linuxun/) per
 parlare un po' del Desktop MATE, e dove è diretto.
 La Clip MATE Mythbusting è inserita qui sotto.
@@ -23,5 +23,5 @@ voi sul [canale #mate di IRC](https://web.libera.chat/?#mate) o
 recensire le vostre [pull-requests su GitHub](https://github.com/mate-desktop). 
 
 [Jupiter Broadcasting](https://www.jupiterbroadcasting.com) produce un certo numero di 
-videocasts e podcasts settimanali principalmente orientati su FLOSS. Date un'occhiata,
+videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
 potreste trovare qualcosa che vi può interessare.
