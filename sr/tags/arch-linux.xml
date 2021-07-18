@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 04:43:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 05:01:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
 
 &lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
@@ -163,17 +163,17 @@ of getting MATE into the official Arch Linux repositories. You can help
 with that by voting for MATE packages in the AUR.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Представљање Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
-&lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан... Сада
-је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
-програмери су успешно покретали Мејт на [„Arch Linux“]-у(https://www.archlinux.org)
-и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
-&lt;a href="https://www.debian.org"&gt;Дебианом&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt;
-су затим приступили пројекту и запакивали су га за Дебиан и &lt;a href="https://www.linuxmint.com"&gt;Линукс Минт&lt;/a&gt;.
-Мејтова радна површ је представљена у Линукс Минту 12 и сада брзо узима маха.&lt;/p&gt;
-&lt;p&gt;Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика
-и стабилност, са Гномом 2.32. Пребацићемо теме, програмчиће и програме који
-су развијани за Гноме 2 и помоћи програмерима да пренесу своје програме на ову
-нову радну површ.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
+&lt;p&gt;Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
+is here to provide that same desktop to you &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos initially forked Gnome 2 and called the project MATE. Users and
+developers have successfully run MATE on &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+and due to popular demand Perberos made it easier for MATE to compile under
+&lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; and &lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt;
+then joined the project and packaged it for Debian and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;.
+The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.&lt;/p&gt;
+&lt;p&gt;Our top priority is to improve MATE and for it to be on par, in terms of features
+and stability, with Gnome 2.32. We'll port themes, applets, and applications which
+were developed for Gnome 2, and help developers port their applications to this
+new desktop.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
