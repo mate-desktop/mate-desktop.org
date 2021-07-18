@@ -1,11 +1,11 @@
 <!--
 .. link: https://www.youtube.com/watch?v=iwQ7iqNwRKs
 .. description:
-.. tags: Вести,FOSDEM
-.. date: 07.02.2014. 14:16:13
+.. tags: News,FOSDEM
+.. date: 2014-02-07 14:16:13
 .. title: Стефано представља Мејт на „FOSDEM“-у 2014.
 .. slug: 2014-02-07-stefano-presents-mate-at-fosdem
-.. author: Мартин Вимпрес
+.. author: Martin Wimpress
 -->
 
 фебруара 2014. [Стефано Карапетсас](https://github.com/stefano-k)
