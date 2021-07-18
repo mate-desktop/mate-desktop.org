@@ -13,14 +13,14 @@ ed a ricevere supporto dalla comunità.
 
 ## Wiki
 
-Nel nostro wiki si trova già molto materiale utile, ma siete incoraggiati
+Nel nostro wiki si trova già molto materiale utile, ma vi incoraggiamo
 a migliorarlo.
 
   * <https://wiki.mate-desktop.org/#!index.md>
 
 ## Forum
 
-Per chi non usa l'email, è possibile unirsi al nostro forum.
+Se non usate l'email abbiamo pensato anche a questo. Unitevi ad uno dei nostri forum comunitari.
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
