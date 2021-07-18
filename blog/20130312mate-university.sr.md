@@ -1,6 +1,6 @@
 <!--
 .. link:
-.. description: Development
+.. description: Developement
 .. tags: News
 .. date: 2013-03-12 18:58:22
 .. title: Мејтов Универзитет
