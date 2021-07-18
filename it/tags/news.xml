@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:12:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:15:51 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; per
 parlare un po' del Desktop MATE, da dove ha avuto origine e dove è diretto.
 L'intervista con me è inserita qui sotto.&lt;/p&gt;
@@ -207,17 +207,16 @@ advancements we've made sooner.&lt;/p&gt;
 &lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 1° febbraio 2014, &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
+think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 1° febbraio 2014, &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; ha tenuto
 la sua presentazione su MATE al &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;La Presentazione introduce MATE a coloro che non ne hanno sentito parlare e spiega le Origini del Progetto. In primo luogo, le differenze tra 
-tra MATE e altri ambienti desktop tradizionali basati su GTK.
-Stefano spiega poi come MATE si è evoluto da quando è stato biforcato da GNOME2.
+&lt;p&gt;La Presentazione introduce MATE a coloro che non ne hanno mai sentito parlare e spiega le Origini del Progetto. In primo luogo, le differenze tra 
+tra MATE e gli altri ambienti desktop tradizionali basati su GTK.
+Stefano spiega poi come MATE si è evoluto da quando è stato derivato da GNOME2.
 Viene data una breve valutazione dei recenti miglioramenti, seguita da 
 una panoramica della roadmap di MATE e degli altri Progetti che beneficiano 
 di MATE, per esempio &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
 &lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; e &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Tradotto con www.DeepL.com/Translator (versione gratuita)&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all'Episodio podcast 26 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato da essere invitato all'Episodio podcast 26 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
 Unplugged&lt;/a&gt; per
 parlare un po' del Desktop MATE, e dove è diretto.
 La Clip MATE Mythbusting è inserita qui sotto.&lt;/p&gt;
@@ -230,5 +229,5 @@ volete contribuire al progetto, siamo ansiosi di chattare con
 voi sul &lt;a href="https://web.libera.chat/?#mate"&gt;canale #mate di IRC&lt;/a&gt; o
 recensire le vostre &lt;a href="https://github.com/mate-desktop"&gt;pull-requests su GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di 
-videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
+videocasts e podcasts settimanali principalmente orientati su FLOSS. Date un'occhiata,
 potreste trovare qualcosa che vi può interessare.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>
