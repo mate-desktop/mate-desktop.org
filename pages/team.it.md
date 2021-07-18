@@ -16,7 +16,7 @@ Questo è il team principale di MATE.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
-Pacchettizzazione per Ubuntu-MATE e Debian, mentore GSoC, gestione community.
+Pacchettizzazione per Ubuntu-MATE e Debian, mentore GSoC, gestione community, infrastruttura.
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn ([lukefromdc](https://github.com/lukefromdc))
 
