@@ -7,7 +7,7 @@
 .. slug: backgrounds
 -->
 
-Можете наћи велики избор позадина на [MATE-Look](https://www.mate-look.org)
+Можете наћи велики избор позадина на [„MATE-Look“]-у(https://www.mate-look.org)
 
   * [Позадине](https://www.mate-look.org/browse/cat/359)
 
