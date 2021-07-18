@@ -1,6 +1,6 @@
 <!-- 
 .. description: 
-.. tags: News,i18n
+.. tags: Вести,i18n
 .. date: 2014/02/14 12:51:31
 .. title: Потребни су доприноси у превођењу Мејта
 .. slug: 2014-02-14-mate-translation-contributions-requested
