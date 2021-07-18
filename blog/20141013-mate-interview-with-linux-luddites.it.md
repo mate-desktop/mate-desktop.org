@@ -9,9 +9,9 @@
 .. author: Martin Wimpress
 -->
 
-[Linux Luddites](https://linuxluddites.com) sono stati molto gentili ad intervistarmi
+[Linux Luddites](https://linuxluddites.com) sono stati così gentili da intervistarmi
 la scorsa settimana. Abbiamo discusso le Origini del [Desktop MATE](https://mate-desktop.org),
-le sue indicazioni future, come [Ubuntu MATE](https://ubuntu-mate.org) è venuto alla luce
+i suoi sviluppi futuri, come [Ubuntu MATE](https://ubuntu-mate.org) è venuto alla luce
 e dove è diretto.
 
 [Linux Luddites Episode #26](https://linuxluddites.com/shows/episode-26) è stato pubblicato quest'oggi stesso e vi suggerisco di andare sul sito web dei Linux Luddites
