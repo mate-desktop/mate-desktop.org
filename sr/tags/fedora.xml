@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 04:19:34 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 with GTK3 for Fedora 21 and 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE Desktop maintainers for Fedora are pleased to announce that experimental
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 04:28:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 with GTK3 for Fedora 21 and 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE Desktop maintainers for Fedora are pleased to announce that experimental
 GTK3 builds are available for testing on Fedora 21 and Fedora 22. These GTK3 build
 do work but have some minor rendering issues, we'd value your feedback.&lt;/p&gt;
 &lt;h3&gt;Installation&lt;/h3&gt;
@@ -200,13 +200,13 @@ mirrors (and of course, that many others will use MATE too!).&lt;/p&gt;
 contributions by 39 people, and more than 150 translators. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.6/"&gt;MATE 1.6 Screenshots&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item><item><title>MATE package repository for Fedora</title><link>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We are now directing users to use the official Fedora package repository now.
-For instructions on using this repository please consult &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;our installation
-guide for Fedora&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For more information about MATE's official inclusion in Fedora, see the following:&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item><item><title>Ризница пакета Мејта за Федору</title><link>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Сада упућујемо кориснике да користе званичну ризницу пакета за Федору.
+За упутства о коришћењу ове ризнице, погледајте &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;наш водич инсталације
+за Федору&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;За више информација о Мејтовом званичном укључењу у Федиру, погледајте следеће:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://fedoraproject.org/wiki/Features/MATE-Desktop"&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
-for help in our &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Ако имате било какво питање у вези инсталације Мејта на Федори затражите
+помоћ на нашем &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate ИРЦ каналу&lt;/a&gt;
+или за општа питања о Мејту придружите нам се на &lt;a href="https://web.libera.chat/?#mate"&gt;#mate ИРЦ каналу&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>Fedora</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item></channel></rss>
