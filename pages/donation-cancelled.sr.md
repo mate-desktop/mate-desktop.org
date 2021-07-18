@@ -1,7 +1,7 @@
 <!--
 .. title: Отказана донација
 .. slug: donation-cancelled
-.. date: 04.11.2014. 22:23:23
+.. date: 2014-11-04 22:23:23
 .. tags: 
 .. link: 
 .. description:
