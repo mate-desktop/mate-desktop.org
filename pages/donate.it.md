@@ -9,12 +9,12 @@
 
 L'ambiente Desktop MATE è totalmente gratuito e tutte le persone coinvolte sono volontari.
 
-Considera la possibilità di fare una donazione al progetto MATE. E' bello aver riconosciuti gli sforzi che abbiamo
+Per favore, considerate la possibilità di fare una donazione al progetto MATE. E' bello aver riconosciuti gli sforzi che abbiamo
 messo nel progetto. Il denaro raccolto verrà usato per coprire i costi
-di hosting, qualsiasi hardware acquistato e possibilmente le spese di volo in modo che
+di hosting, qualsiasi hardware acquistato e possibilmente le spese di viaggio in modo che
 i membri del team MATE possano partecipare alle conferenze più rilevanti.
 
-Non ti chiediamo tanto, è a tua completa discrezione.
+Non chiediamo tanto, è a tua completa discrezione.
 
 <style>
 img.centered {
@@ -27,10 +27,10 @@ img.centered {
 
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 
-Preferiremmo che tu impostassi un pagamento ricorrente per aiutare ad assicurare che i costi
-mensili siano sempre coperti e questo inoltre ci permette di pianificare meglio come
+Preferiremmo che si utilizzasse un supporto continuativo per aiutare ad assicurare che i costi
+mensili siano sempre coperti e questo ci consentirebbe inoltre di pianificare meglio come
 premiare i nostri contributori e sponsorizzare altri progetti Open Source.
-Detto questo, anche le singole donazioni sono molto ben accette.
+Detto questo, anche le singole donazioni sono ben accette.
 
 <div class="bs-docs-section">
   <div class="well">
