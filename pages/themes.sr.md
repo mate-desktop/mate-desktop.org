@@ -2,7 +2,7 @@
 .. link:
 .. description:
 .. tags: Теме
-.. date: 24.02.2014. 17:32:07
+.. date: 2014-02-24 17:32:07
 .. title: Теме
 .. slug: themes
 -->
