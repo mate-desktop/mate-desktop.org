@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:21:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Нове ризнице за „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Стефано Карапетстаа</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:24:28 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Нове ризнице за „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Стефано Карапетстаа</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;Да би Мејт постао званично доступан у &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
 ризнице заједнице се морају изменити у „YaST“-у. Да то урадите, идите на
 „&lt;em&gt;YaST -&amp;gt; Софтвер -&amp;gt; Ризнице софтвера&lt;/em&gt;“ и уклоните „&lt;em&gt;X11:MATE:Factory&lt;/em&gt;“
