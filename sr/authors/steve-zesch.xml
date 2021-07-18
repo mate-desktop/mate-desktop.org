@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 05:34:30 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио свој&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 05:43:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио свој&lt;/p&gt;
 &lt;p&gt;говор о Мејту на &lt;a href="https://www.opensuse.org"&gt;„openSUSE“&lt;/a&gt; конференцији!&lt;/p&gt;
 &lt;p&gt;Говор је представио Мејта онима који нису чули за њега, објашњава разлоге за
 стварање Мејта, објашњава разлику са сесијама Класичног Гнома и Гномовог Назађења,
@@ -57,16 +57,16 @@ or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#m
 &lt;li&gt;Added a button to get the difference between files in the file conflict dialog&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Reporting Bugs</title><link>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We are currently in the process of switching to handling all our issues via
-the &lt;a href="https://github.com/mate-desktop"&gt;mate-desktop project on GitHub&lt;/a&gt; instead
-of Perberos' page. The reason is simple: when Perberos is away none of the
-other developers can close tickets. This creates a bit of a mess.&lt;/p&gt;
-&lt;p&gt;Now, when you go to report a bug you must chose the correct GitHub repository
-to report the issue in. It's pretty simple. If there's a bug with &lt;code&gt;mate-panel&lt;/code&gt;,
-then submit the issue on the &lt;code&gt;mate-panel&lt;/code&gt; issue tracker.&lt;/p&gt;
-&lt;p&gt;We'll are no longer monitoring Perberos' issue tracker, so we ask that you
-refrain from opening new bugs there.&lt;/p&gt;
-&lt;p&gt;Thanks for your cooperation.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Пријављивање грешака</title><link>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Тренутно смо у процесу преласка на решавање свих наших проблема путем
+[пројекта мејтове-радне-површи на ГитХаб-у](https://github.com/mate-desktop
+уместо на Перберосовој страници. Разлог је једноставан: када Пербероса нема,
+нико од других програмера не може затворити купоне. Ово ствара мало нереда.&lt;/p&gt;
+&lt;p&gt;Сада, када идете да пријавите грешку, морате одабрати исправну ГитХаб ризницу
+да бисте пријавили проблем. Прилично је једноставно. Ако постоји грешка са &lt;code&gt;mate-panel&lt;/code&gt;,
+тада пошаљите проблем на пратиоцу проблема за &lt;code&gt;mate-panel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Нећемо више пратити Перберосов програм за праћење проблема, зато вас молимо да
+тамо више не отварате нове грешке.&lt;/p&gt;
+&lt;p&gt;Хвала на сарадњи.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
 available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
 reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
