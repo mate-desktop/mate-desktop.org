@@ -16,7 +16,7 @@ Questo è il team principale di MATE.
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
-Pacchettizzazione per Ubuntu-MATE e Debian, mentore GSoC, gestione community.
+Pacchettizzazione per Ubuntu-MATE e Debian, mentore GSoC, gestione community, infrastruttura.
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn ([lukefromdc](https://github.com/lukefromdc))
 
@@ -40,7 +40,7 @@ Sviluppo, pacchettizzazione per Linux Mint.
 
 ### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich ([raveit65](https://github.com/raveit65))
 
-Sviluppo, pacchettizazione per Fedora, manutentore tema.
+Sviluppo, pacchettizzazione per Fedora, manutentore dei temi, infrastruttura.
 
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian ([yetist](https://github.com/yetist))
 
@@ -71,7 +71,7 @@ Fondatore Desktop MATE, Sviluppo.
 
 
 
-## Contributors
+## Collaboratori
 
 L'ambiente Desktop MATE continua a migliorare e a svilupparsi grazie
 agli instancabili sforzi della seguente brava gente.
@@ -110,7 +110,7 @@ Development, translator.
 
 
 
-## Translators
+## Traduttori
 
 MATE è tradotto, o parzialmente tradotto, in 140 lingue.
 
@@ -118,7 +118,7 @@ MATE è tradotto, o parzialmente tradotto, in 140 lingue.
 
 
 
-## Past contributors
+## Collaboratori precedenti
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley ([bickman2k](https://github.com/bickman2k))
 
