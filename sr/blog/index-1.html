@@ -136,7 +136,7 @@
 датотека  стварања (makefiles) и савета за коришћење налик одскочној дасци за нове Мејтове&nbsp;програме.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-01-20-changes-to-mate-notification-daemon/" class="u-url">Changes to&nbsp;mate-notification-daemon</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-01-20-changes-to-mate-notification-daemon/" class="u-url">Измене у мејтовом позадинцу&nbsp;обавештења</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -148,22 +148,22 @@
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The <code>mate-notification-daemon</code> has a new feature in  <span class="caps">MATE</span> 1.6 that allows
-users to select which monitor they want to display notifications on. The
-current behavior only displays notifications on the monitor which is currently
-active (where the pointer is). The behavior will default to as it has always
-been, but the user can change the settings by modifying the &#8220;use-active-monitor&#8221;
-and &#8220;monitor-number&#8221; keys in&nbsp;via <code>dconf-editor</code> or they can&nbsp;run
-<code>mate-notification-properties</code> and edit their settings via a&nbsp;<span class="caps">GUI</span>.</p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on an active monitor. Note that &#8220;Use Active Monitor&#8221; is selected,
-which disables the combobox for selecting a&nbsp;monitor.</p>
+<p><code>mate-notification-daemon</code> има нову функцију у Мејту 1.6 која омогућава
+корисницима да изаберу на којем монитору желе да приказују обавештења.
+Тренутно понашање приказује обавештења само на монитору који је тренутно
+активан (где је показивач). Понашање ће се подразумевати као да је увек и
+било, али корисник може да измени поставке тако што ће изменити кључеве
+„користи-радни-монитор“ и „број-монитора“&nbsp;путем <code>dconf-editor</code> или могу&nbsp;покренути
+<code>mate-notification-properties</code> и уредити своје поставке путем&nbsp;ГКС-а.</p>
+<p>Испод је снимак&nbsp;екрана <code>mate-notification-properties</code> постављеног за приказивање
+обавештења на радном монитору. Приметите да је изабрано „Користи радни монитор“,
+што искључује падајући списак за бирање&nbsp;монитора.</p>
 <p><img alt="active" src="../../assets/img/blog/active-300x235.png"></p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on a specific monitor. Note that &#8220;Use Active Monitor&#8221; is <strong>not</strong>
-selected, which enables the combobox for selecting the monitor to be enabled.
-The monitor number is set to 2. This will display on my third monitor, since
-counting starts at 0 instead of&nbsp;1.</p>
+<p>Испод је снимак&nbsp;екрана <code>mate-notification-properties</code> постављеног за приказивање
+обавештења на одређеном монитору. Приметите да „Користи радни монитор“ <strong>није</strong>
+изабрано, што омогућава да се са падајућег списка изабере монитор који ће бити омогућен.
+Број монитора је постављен на 2. Тимео ће се приказивати на трећем монитору, јер
+бројање почиње од 0 уместо од&nbsp;1.</p>
 <p><img alt="monitor" src="../../assets/img/blog/monitor-300x235.png"></p>
 </div>
     </div>
@@ -440,7 +440,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "8c144fd12515"],
+    texts : ["Preview Website", "MATE Desktop", "30bc461e4237"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
