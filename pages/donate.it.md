@@ -9,12 +9,12 @@
 
 L'ambiente Desktop MATE è totalmente gratuito e tutte le persone coinvolte sono volontari.
 
-Considera la possibilità di fare una donazione al progetto MATE. E' bello aver riconosciuti gli sforzi che abbiamo
+Per favore, considerate la possibilità di fare una donazione al progetto MATE. E' bello aver riconosciuti gli sforzi che abbiamo
 messo nel progetto. Il denaro raccolto verrà usato per coprire i costi
-di hosting, qualsiasi hardware acquistato e possibilmente le spese di volo in modo che
+di hosting, qualsiasi hardware acquistato e possibilmente le spese di viaggio in modo che
 i membri del team MATE possano partecipare alle conferenze più rilevanti.
 
-Non ti chiediamo tanto, è a tua completa discrezione.
+Non chiediamo tanto, è a tua completa discrezione.
 
 <style>
 img.centered {
@@ -27,18 +27,18 @@ img.centered {
 
 <img class="right" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal Logo">
 
-Preferiremmo che tu impostassi un pagamento ricorrente per aiutare ad assicurare che i costi
-mensili siano sempre coperti e questo inoltre ci permette di pianificare meglio come
+Preferiremmo che si utilizzasse un supporto continuativo per aiutare ad assicurare che i costi
+mensili siano sempre coperti e questo ci consentirebbe inoltre di pianificare meglio come
 premiare i nostri contributori e sponsorizzare altri progetti Open Source.
-Detto questo, anche le singole donazioni sono molto ben accette.
+Detto questo, anche le singole donazioni sono ben accette.
 
 <div class="bs-docs-section">
   <div class="well">
     <form name="monthly" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateMonthlyForm()" method="post">
       <fieldset>
-        <legend>Support PayPal mensile</legend>
+        <legend>Supporter PayPal mensile</legend>
         <div class="row">
-          <label class="control-label">Seleziona una somma</label>
+          <label class="control-label">Seleziona un importo</label>
           <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
           <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
           <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
@@ -46,7 +46,7 @@ Detto questo, anche le singole donazioni sono molto ben accette.
           <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
         </div>
         <div class="row">
-          <label for="monthly-specifyAmount" class="control-label">Specifica la tua somma</label>
+          <label for="monthly-specifyAmount" class="control-label">Specifica tu la cifra</label>
           <input type="text" id="monthly-specifyAmount" name="other" value="" size="5" maxlength="5"/>
         </div>
         <div class="row">
@@ -70,17 +70,17 @@ Detto questo, anche le singole donazioni sono molto ben accette.
       <input type="hidden" name="t3" value="M">
       <input type="hidden" name="src" value="1">
       <input type="hidden" name="sra" value="1">
-      <input type="hidden" name="return" value="https://mate-desktop.org/it/donation-completed/">
-      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/it/donation-cancelled/">
+      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
     </form>
   </div>
 
   <div class="well">
     <form name="single" class="form-horizontal" action="https://www.paypal.com/cgi-bin/webscr" onsubmit="return validateSingleForm()" method="post">
       <fieldset>
-        <legend>Donazione PayPal Singola</legend>
+        O<legend>Donazione PayPal singola</legend>
         <div class="row">
-          <label class="control-label">Seleziona una somma</label>
+          <label class="control-label">Seleziona un importo</label>
           <label class="badge badge-info btn-mini"><input type="radio" name="amt" value="5">5</label>
           <label class="badge badge-success btn-mini"><input type="radio" name="amt" value="10" checked>10</label>
           <label class="badge badge-warning btn-mini"><input type="radio" name="amt" value="25">25</label>
@@ -88,7 +88,7 @@ Detto questo, anche le singole donazioni sono molto ben accette.
           <label class="badge badge-inverse btn-mini"><input type="radio" name="amt" value="100">100</label>
         </div>
         <div class="row">
-          <label for="one-time-specifyAmount" class="control-label">Specifica la tua somma</label>
+          <label for="one-time-specifyAmount" class="control-label">Specifica tu la cifra</label>
           <input id="one-time-specifyAmount" type="text" name="other" value="" size="5" maxlength="5">
         </div>
         <div class="row">
@@ -99,7 +99,7 @@ Detto questo, anche le singole donazioni sono molto ben accette.
             <option selected="">GBP</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary">Singola Donazione</button>
+        <button type="submit" class="btn btn-primary">Donazione Singola</button>
       </fieldset>
       <input type="hidden" name="cmd" value="_xclick">
       <input type="hidden" name="business" value="6282B4CZGVCB6">
@@ -110,8 +110,8 @@ Detto questo, anche le singole donazioni sono molto ben accette.
       <input type="hidden" name="amount" value="">
       <input type="hidden" name="src" value="1">
       <input type="hidden" name="sra" value="1">
-      <input type="hidden" name="return" value="https://mate-desktop.org/it/donation-completed/">
-      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/it/donation-cancelled/">
+      <input type="hidden" name="return" value="https://mate-desktop.org/donation-completed/">
+      <input type="hidden" name="cancel_return" value="https://mate-desktop.org/donation-cancelled/">
     </form>
   </div>
 </div>
