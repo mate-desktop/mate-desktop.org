@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-Sono stato piuttosto fortunato da essere invitato all'Episodio podcast 26 del [Linux 
+Sono stato piuttosto fortunato ad essere invitato all'Episodio podcast 26 del [Linux 
 Unplugged](https://www.jupiterbroadcasting.com/show/linuxun/) per
 parlare un po' del Desktop MATE, e dove è diretto.
 La Clip MATE Mythbusting è inserita qui sotto.
