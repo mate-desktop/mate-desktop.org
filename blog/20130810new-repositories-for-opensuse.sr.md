@@ -1,11 +1,11 @@
 <!--
 .. link:
 .. description:
-.. tags: Вести,openSUSE
-.. date: 10.08.2013. 09:58:21
+.. tags: Нењс,openSUSE
+.. date: 2013-08-10 09:58:21
 .. title: Нове ризнице за „openSUSE“
 .. slug: 2013-08-10-mate-package-repository-for-opensuse
-.. author: Стефано Карапетстаа
+.. author: Stefano Karapetsas
 -->
 
 ![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png)
