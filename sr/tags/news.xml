@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 05:44:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 05:59:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
 представе] (https://www.jupiterbroadcasting.com/show/linuxactionshow/) да
 мало поразговарамо о Мејтовој радној површи, одакле је потекао и куда иде.
 Интервју са мном можете видети у наставку.&lt;/p&gt;
@@ -207,21 +207,21 @@ advancements we've made sooner.&lt;/p&gt;
 &lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
-Unplugged&lt;/a&gt; podcast to talk a 
-little about MATE Desktop and where it is headed. The MATE Mythbusting clip is
-embedded below.&lt;/p&gt;
+think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Мајтбастинг Мејтиве радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам среће да ме позову у 26. епизоду подкаста &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;„Linux 
+Unplugged“&lt;/a&gt; да кажем 
+нешто о Мејтовој радној површи и њеном даљем кретању. Снимак Мејт Мајтбастинга
+је уграђен испод.&lt;/p&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/sRNK9QnnvCo?start=603" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.8 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the the project, then we look for to chatting with you 
-in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
+&lt;p&gt;Нисам био у могућности да покријем све објективе развоја за Мејт 1.8 у расположивом
+времену тако да вам предлажем да погледате &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;Мејтову развојну мапу&lt;/a&gt;
+за потпун преглед. Ако имате било каквих додатних питања, или бисте
+желели да допринесете пројекту, тада бисмо могли да проћаскамо на 
+&lt;a href="https://web.libera.chat/?#mate"&gt;#mate ИРЦ каналу&lt;/a&gt; или прегледати
+ваше &lt;a href="https://github.com/mate-desktop"&gt;захтеве за повлачењем на Гит-Хаб-у&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Јупитер емитовање&lt;/a&gt; прави велики број 
+недељних видеокастова и подкастова углавном усмерених ка ФЛОСС-у. Погледајте, 
+можда ћете наћи нешто занимљиво.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
 
 &lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
