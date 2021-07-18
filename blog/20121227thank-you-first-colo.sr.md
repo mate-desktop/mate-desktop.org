@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: Вести,FirstColo
+.. tags: News,FirstColo
 .. date: 2012-12-27 17:06:02
 .. title: Хвала ти „First Colo“!
 .. slug: 2012-12-27-thank-you-first-colo
