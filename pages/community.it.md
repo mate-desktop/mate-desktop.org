@@ -13,7 +13,7 @@ ed a ricevere supporto dalla comunità.
 
 ## Wiki
 
-Nel nostro wiki si trova già molto materiale utile, ma siete incoraggiati
+Nel nostro wiki si trova già molto materiale utile, ma vi incoraggiamo
 a migliorarlo.
 
   * <https://wiki.mate-desktop.org/#!index.md>
