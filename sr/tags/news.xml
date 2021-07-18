@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 03:46:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 03:48:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
 представе] (https://www.jupiterbroadcasting.com/show/linuxactionshow/) да
 мало поразговарамо о Мејтовој радној површи, одакле је потекао и куда иде.
 Интервју са мном можете видети у наставку.&lt;/p&gt;
@@ -173,7 +173,21 @@ interact with the MATE mentors is via:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
+&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>Потребни су доприноси у превођењу Мејта</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Покажите вашу љубав према Мејтовом пројекту на дан заљубљених, затрпајте нас
+преводима!&lt;/p&gt;
+&lt;p&gt;Преводиоци су неопевани јунаци Мејтовог развојног тима и још једном их
+позивамо да нам помогну у побољшању пројекта. Мејт 1.7 је у завршном тестирању
+и QA и ускоро ће Мејт 1.8 бити припремљен за издавање.&lt;/p&gt;
+&lt;p&gt;Стога тражимо од вас да проверите стање Мејтових превода које сте
+урадили на Трансифексу и да их дорадите „ASAP“.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.transifex.com/projects/p/MATE/"&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ако још увек нисте члан преводилачког тима али бисте желели да помогнете тада
+&lt;a href="https://www.transifex.com/signup/contributor/"&gt;направите слободан налог на Трансифексу&lt;/a&gt;
+тако да можете почети да доприносите Мејту, бићемо вам веома захвални!&lt;/p&gt;
+&lt;p&gt;Тренутно 6 језика има преведеност од 100%, зато хајде да видимо колико их још
+може достићи 100% пре него ли изађе Мејт 1.8.&lt;/p&gt;&lt;/div&gt;</description><category>i18n</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
 announcement on the &lt;code&gt;mate-dev&lt;/code&gt; mailing list outlining the decision to reshuffle
 the MATE Desktop roadmap.&lt;/p&gt;
 &lt;p&gt;Essentially GTK3 support for MATE has been pushed back to MATE 1.10 because 
@@ -301,28 +315,4 @@ Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;
 &lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity 
 the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
 spin let us know what you think in the comments or use the Live CD to join us 
-in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE is officially available in Arch Linux</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE has finally found it's way home.&lt;/p&gt;
-&lt;p&gt;As some of you may know MATE was created by an &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-user, Perberos. It is somewhat ironic then that MATE has never featured
-in the official Arch Linux package repository until now. That's right,
-MATE is finally available in the Arch Linux &lt;code&gt;[community]&lt;/code&gt; package
-repository!&lt;/p&gt;
-&lt;p&gt;You can find out everything you need to know about installing MATE
-on Arch Linux from the following wiki pages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/MATE"&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
-repository will be removed once all the Arch Linux mirrors are synced.
-So go and update &lt;code&gt;/etc/pacman.conf&lt;/code&gt; and remove the &lt;code&gt;[mate]&lt;/code&gt; package
-repository.&lt;/p&gt;
-&lt;p&gt;The other advantage of getting MATE into the official Arch Linux package
-repository is that MATE will now also feature in the &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt;
-package repository. I can finally retire my Raspberry Pi (armv6h) and
-Cubox Pro (armv7h) build &lt;em&gt;"servers"&lt;/em&gt;. I'm not sure how long it will take
-for all the MATE packages to appear in the Arch Linux ARM package
-repository but I have already seen that some packages are built.&lt;/p&gt;
-&lt;p&gt;MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
-you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
-blog post about how install Arch Linux and MATE on the Raspberry Pi with
-some useful performance tweaks in the near future.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item></channel></rss>
+in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>
