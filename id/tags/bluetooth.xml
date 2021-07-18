@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:20:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/id/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 06:22:29 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/id/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
 &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman project&lt;/a&gt; and helping to
 update Blueman to BlueZ 5.x.&lt;/p&gt;
 &lt;h3&gt;Why ditch mate-bluetooth?&lt;/h3&gt;
