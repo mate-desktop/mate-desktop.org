@@ -28,7 +28,7 @@ data](archive/). Si può anche dare un occhiata a [Planet
 MATE](https://planet.mate-desktop.org) per vedere di cosa la vasta comunità di MATE sta bloggando.
 
 Quali distribuzioni supportano MATE?
-====================================
+===================================
 
 MATE è disponibile tramite i repository **ufficiali** per le seguenti
 distribuzioni Linux:
@@ -83,7 +83,7 @@ distribuzioni nelle [linee guida all'installazione](https://wiki.mate-desktop.or
 Applicazioni
 ============
 
-Mate è composto da diverse applicazioni. La rinominazione è necessaria
+MATE è composto da diverse applicazioni. La rinominazione è necessaria
 per evitare conflitti con i componenti GNOME.
 
 Caja
@@ -104,7 +104,7 @@ Pluma
 
 Pluma è un editor di testo che supporta molte caratteristiche degli editor di testo standard.
 Esso estende queste funzionalità base con altre caratteristiche che non si trovano facilmente su editor più semplici. Pluma è un applicazione grafica che
-supporta la modifica di più file di testo in una finestra ( note a volte come tab o MDI). Pluma supporta completamente il testo internazionale mediante l'utilizzo della codifica Unicode UTF-8 nei file modificati. La sua caratteristica principale
+supporta la modifica di più file di testo in una singola finestra (note a volte come chede o MDI). Pluma supporta completamente il testo internazionale mediante l'utilizzo della codifica Unicode UTF-8 nei file modificati. La sua caratteristica principale
 include l'evidenziazione della sintassi del codice sorgente, l'auto indentazione e il supporto alla stampa (con la  funzionalità dell'anteprima di stampa). Pluma è un derivato di Gedit.
 
 Eye of MATE
