@@ -7,8 +7,8 @@
 .. slug: team
 -->
 
-MATE è creato per te da un gruppo internazionale di sviluppatori,
-traduttori, packager, artisti e amministratori di sistema.
+MATE è realizzato per voi da un gruppo internazionale di sviluppatori,
+traduttori, sviluppatori di pacchetti, artisti e amministratori di sistema.
 
 ## Core Team
 
@@ -163,5 +163,5 @@ Sviluppo.
 
 
 <small>
-Le bandire mostrate in questa pagina sono fornite da <http://www.icondrawer.com>.
+Le bandiere mostrate in questa pagina sono fornite da <http://www.icondrawer.com>.
 </small>

@@ -1,5 +1,5 @@
 <!--
-.. title: MATE interview with Linux Luddites
+.. title: Intervista MATE con i Linux Luddites
 .. slug: mate-interview-with-linux-luddites
 .. date: 2014-10-13 18:55:32 UTC
 .. tags: MATE,Ubuntu MATE,Linux Luddites,interview

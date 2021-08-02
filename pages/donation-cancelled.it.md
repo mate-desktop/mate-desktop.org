@@ -1,5 +1,5 @@
 <!--
-.. title: Cancelled Donation
+.. title: Donatione cancellata
 .. slug: donation-cancelled
 .. date: 2014-11-04 22:23:23
 .. tags:
@@ -19,7 +19,7 @@ img.centered {
 <div class="bs-component">
     <div class="jumbotron">
         <h1>Oh Bene!</h1>
-        <p>A corto di soldi? Si, ti capiamo. Fermati e dona quando hai risparmiato un pò di soldi.</p>
+        <p>A corto di soldi? Si, ti capiamo. Fermati e dona quando avrai risparmiato un po' di soldi.</p>
         <a href="/" class="btn btn-primary btn-lg">Ritorna al sito</a>
         </p>
     </div>

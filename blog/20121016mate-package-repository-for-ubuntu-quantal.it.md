@@ -3,7 +3,7 @@
 .. description:
 .. tags: Ubuntu
 .. date: 2012-10-16 21:52:18
-.. title: MATE package repository for Ubuntu Quantal
+.. title: Repository di pacchetti MATE per Ubuntu Quantal
 .. slug: 2012-10-16-mate-package-repository-for-ubuntu-quantal
 .. author: Steve Zesch
 -->

@@ -7,15 +7,29 @@
 .. slug: development
 -->
 
-I repository git per MATE sono ospitati su GitHub.
+## Versioni
+
+Potete scaricare i tarball dei rilasci del Desktop MATE dal nostro archivio:
+
+  * <https://pub.mate-desktop.org/releases/>
+
+Vi occorreranno inoltre pacchetti per i temi di MATE che soddisfino la versione GTK3+ fornita con la vostra distribuzione:
+
+  * <https://pub.mate-desktop.org/releases/themes/>
+
+## Codice
+
+I repository git per il Desktop MATE sono ospitati su GitHub.
 
   * <https://github.com/mate-desktop>
 
-È possibile sfogliare il codice anche tramite interfaccia web cgit:
+È anche possibile sfogliare il codice con cgit anche qui:
 
   * <https://git.mate-desktop.org>
 
- Altri link utili:
+## Risorse
+
+ Altri links utili:
 
   * [MATE University](/blog/2013-03-12-mate-university/)
   * [MATE Development](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
@@ -23,4 +37,4 @@ I repository git per MATE sono ospitati su GitHub.
   * <https://wiki.mate-desktop.org/#!pages/contribute.md>
   * <https://wiki.mate-desktop.org/#!pages/translation.md>
 
-Non esitare a contribuire e divertirti migliorando MATE!
+Non esitate a contribuire e divertitevi a migliorare MATE!

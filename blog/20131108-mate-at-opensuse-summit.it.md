@@ -3,7 +3,7 @@
 .. description: 
 .. tags: News,openSUSE
 .. date: 2013/11/08 01:00:00
-.. title: MATE at openSUSE Summit
+.. title: MATE al Summit openSUSE 
 .. slug: 2013-11-08-mate-at-opensuse-summit
 .. author: Stefano Karapetsas
 -->

@@ -3,7 +3,7 @@
 .. description:
 .. tags:
 .. date: 2012-05-22 11:54:14
-.. title: Donate
+.. title: Donazioni
 .. slug: donate
 -->
 
@@ -144,7 +144,7 @@ Detto questo, anche le singole donazioni sono ben accette.
           document.forms["monthly"]["a3"].value = n;
           return true;
         } else {
-          alert("Inserisci una somma valida - grazie!");
+          alert("Please enter a valid donation amount - thanks!");
           document.forms["monthly"]["other"].value = "";
           return false;
         }
@@ -162,7 +162,7 @@ Detto questo, anche le singole donazioni sono ben accette.
           document.forms["single"]["amount"].value = n;
           return true;
         } else {
-          alert("Inserisci una somma valida - grazie!");
+          alert("Please enter a valid donation amount - thanks!");
           document.forms["single"]["other"].value = "";
           return false;
         }

@@ -3,7 +3,7 @@
 .. description: 
 .. tags: News
 .. date: 2015/01/28 22:17:32
-.. title: Meet MATE's Mastermind
+.. title: Incontra la mente di MATE
 .. slug: 2015-01-28-meet-mates-mastermind
 .. author: Stefano Karapetsas
 -->

@@ -1,5 +1,5 @@
 <!--
-.. title: Successful Donation
+.. title: Donatione eseguia con successo
 .. slug: donation-completed
 .. date: 2014-11-04 22:23:23
 .. tags:

@@ -3,7 +3,7 @@
 .. description:
 .. tags: News,openSUSE
 .. date: 2013-07-21 14:46:13
-.. title: Stefano presents at openSUSE conference
+.. title: Stefano presenta alla conferenza openSUSE
 .. slug: 2013-07-21-stefano-presents-at-opensuse-conference
 .. author: Steve Zesch
 -->

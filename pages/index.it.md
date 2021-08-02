@@ -40,7 +40,7 @@ distribuzioni Linux:
 -   [Debian](https://www.debian.org)
 -   [Fedora](https://www.fedoraproject.org)
 -   [Gentoo](https://www.gentoo.org)
--   [GNU Guix and GNU GuixSD](https://gnu.org/s/guix)
+-   [GNU Guix e GNU GuixSD](https://gnu.org/s/guix)
 -   [Hamara Linux](https://hamaralinux.org/)
 -   [Linux Mint](https://linuxmint.com)
 -   [Mageia](https://www.mageia.org/en/)

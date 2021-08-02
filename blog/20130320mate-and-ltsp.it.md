@@ -3,7 +3,7 @@
 .. description:
 .. tags: LTSP
 .. date: 2013-03-20 11:30:13
-.. title: MATE and LTSP
+.. title: MATE e LTSP
 .. slug: 2013-03-20-mate-and-ltsp
 .. author: Scott Balneaves
 -->
