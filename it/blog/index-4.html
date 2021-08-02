@@ -25,6 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
@@ -113,7 +114,7 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 with <span class="caps">GTK3</span> for Fedora 21 and&nbsp;22</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 con <span class="caps">GTK3</span> per Fedora 21 e&nbsp;22</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/wolfgang-ulbrich/">Wolfgang&nbsp;Ulbrich</a>
@@ -125,11 +126,10 @@
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The <span class="caps">MATE</span> Desktop maintainers for Fedora are pleased to announce that experimental
-<span class="caps">GTK3</span> builds are available for testing on Fedora 21 and Fedora 22. These <span class="caps">GTK3</span> build
-do work but have some minor rendering issues, we&#8217;d value your&nbsp;feedback.</p>
-<h3>Installation</h3>
-<p>Install the repo file and do&nbsp;a <code>yum update</code>.</p>
+<p>I manutentori del desktop <span class="caps">MATE</span> per Fedora sono lieti di annunciare che le build <span class="caps">GTK3</span> sono disponibili per il test in Fedora 21 e 22. Queste build <span class="caps">GTK3</span>
+funzionano ma soffrono di qualche difetto di rendering di lieve entità, apprezzeremmo il vostro&nbsp;feedback.</p>
+<h3>Installazione</h3>
+<p>Installate il file repo ed eseguire&nbsp;uno <code>yum update</code>.</p>
 <h4>Fedora&nbsp;22</h4>
 <pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
@@ -140,23 +140,22 @@ $ sudo yum update
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
 </pre>
-<p>Or&nbsp;use <code>dnf</code> command:</p>
+<p>O utilizzate il&nbsp;comando <code>dnf</code>: </p>
 <pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
 $ sudo dnf update
 </pre>
-<h3>Reporting&nbsp;issues</h3>
-<p>Please use the <span class="caps">MATE</span> Desktop issue tracker on GitHub and include &#8216;<span class="caps">GTK3</span> and Fedora&#8217;
-in&nbsp;subject.</p>
+<h3>Riportare&nbsp;problemi</h3>
+<p>Per favore utilizzate l&#8217;issue tracker di <span class="caps">MATE</span> Desktop su GitHub ed includete &#8216;<span class="caps">GTK3</span> and Fedora&#8217;&nbsp;nell&#8217;oggetto.</p>
 <ul>
 <li>https://github.com/mate-desktop</li>
 </ul>
-<p>Some&nbsp;notes:</p>
+<p>Alcune&nbsp;note:</p>
 <ul>
-<li>Compiz will only work&nbsp;with <code>emerald</code> as&nbsp;window-decorator.</li>
-<li>Do not use use a mix of <span class="caps">GTK2</span> packages from Fedora stable and <span class="caps">GTK3</span> packages from the
-  repo&nbsp;above.</li>
-<li>Do not use the following <span class="caps">MATE</span> applications with a <span class="caps">GTK3</span> build of <span class="caps">MATE</span>; they aren&#8217;t ported to <span class="caps">GTK3</span>:<ul>
-<li>mintMenu and <span class="caps">MATE</span>&nbsp;Menu</li>
+<li>Compiz funzionerà solo&nbsp;con <code>emerald</code> come decorazione delle&nbsp;finestre.</li>
+<li>Non utilizzate pacchetti <span class="caps">GTK2</span> da Fedora stable e pacchetti <span class="caps">GTK3</span> dalla
+  repo&nbsp;precedente.</li>
+<li>Non utilizzate le seguenti applicazioni <span class="caps">MATE</span> con una build <span class="caps">GTK3</span>; poiché non sono ancora portate a <span class="caps">GTK3</span>:<ul>
+<li>mintMenu e <span class="caps">MATE</span>&nbsp;Menu</li>
 <li>mate-applet-streamer</li>
 <li>mate-applet-lockkeys</li>
 <li>mate-applet-softupd</li>
@@ -166,7 +165,7 @@ in&nbsp;subject.</p>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url">Meet <span class="caps">MATE</span>&#8217;s&nbsp;Mastermind</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url">Incontra la mente di&nbsp;<span class="caps">MATE</span></a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
@@ -195,7 +194,7 @@ videocast e podcast settimanali principalmente orientati su <span class="caps">F
 potreste trovare qualcosa che vi può&nbsp;interessare.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url"><span class="caps">MATE</span> interview with Linux&nbsp;Luddites</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url">Intervista <span class="caps">MATE</span> con i Linux&nbsp;Luddites</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -221,7 +220,7 @@ il loro catalogo. È stato uno dei miei <span class="caps">FLOSS</span> Podcast 
 mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e prime impressioni di utili&nbsp;distribuzioni. </p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-29-mate-1-8-updated/" class="u-url"><span class="caps">MATE</span> 1.8&nbsp;updated</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-29-mate-1-8-updated/" class="u-url">Aggiornato <span class="caps">MATE</span>&nbsp;1.8</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -233,106 +232,108 @@ mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>Sander Sweers has released several updated packages for the <span class="caps">MATE</span> 1.8 series 
-that addresses an assortment of bug fixes and minor updates. Some 
-distributions have already incorporated these updates and the others will 
-follow in due course. See below for the&nbsp;changes:</p>
+<p>Sander Sweers ha rilasciato diversi pacchetti aggiornati per la serie <span class="caps">MATE</span> 1.8
+che riguardano vari bug fixes e aggiornamenti minori. Alcune
+distribuzioni hanno già incorporato questi aggiornamenti e le altre seguiranno
+a tempo debito. <span class="caps">SI</span> veda più oltre i cambiamenti&nbsp;apportati:</p>
 <h3>atril&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed crash when clicking empty canvas while&nbsp;loading</li>
-<li>Fixed <span class="caps">FTBFS</span> when building with the clang&nbsp;compiler</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
+<li>Fissato il crash quando si faceva clic su un canvas vuoto mentre era in&nbsp;caricamento</li>
+<li>Risolto <span class="caps">FTBFS</span> quando si esegue il build con il compilatore&nbsp;clang</li>
+<li>Aggiunta la chiave di parole chiave al file&nbsp;.desktop</li>
 </ul>
 <h3>caja&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed text rendering on no&nbsp;background</li>
-<li>Limit deep scount (folder contents and size) to one file&nbsp;system</li>
-<li>Handle metadata key&nbsp;deletions</li>
-<li>Propagate button-release event when&nbsp;ejecting</li>
+<li>Risolto il rendering del testo su nessuno&nbsp;sfondo</li>
+<li>Limitato il deep scount (dimensione e contenuti della cartella) ad un file&nbsp;system</li>
+<li>Gestita le cancellazioni delle chiavi&nbsp;metadato</li>
+<li>Propagato l&#8217;evento pumsante-rilasciato quando si&nbsp;espelle</li>
 </ul>
 <h3>engrampa&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening files&nbsp;inside <code>.rar</code> files</li>
-<li>Fixed possible errors with some password&nbsp;protected <code>.rar</code> files</li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Updated several man&nbsp;pages</li>
-<li>Do not set the selected app as the system&nbsp;default</li>
+<li>Risolta l&#8217;apertura dei file all&#8217;interno di un&nbsp;file <code>.rar</code>  </li>
+<li>Risolti i possibili errori con alcuni&nbsp;file <code>.rar</code> protetti da&nbsp;password</li>
+<li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
+<li>Aggiornate diverse pagine&nbsp;man</li>
+<li>Non impostare la app selezionata come predefinita del&nbsp;sistema</li>
 </ul>
 <h3>eom&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed hyphen-as-minus-sign&nbsp;issues</li>
-<li>Updated scrollbars when display is resized in &#8220;normal size&#8221;&nbsp;mode</li>
+<li>Risolti i problemi&nbsp;hyphen-as-minus-sign</li>
+<li>Agiornate le barre di scorrimento quando la visualizzazione è ridimensionata nella modalità &#8220;dimensione&nbsp;normale&#8221;</li>
 </ul>
 <h3>marco&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed issues with maximized Java&nbsp;applications</li>
-<li>Added _GTK_FRAME_EXTENTS hints for&nbsp;<span class="caps">GTK3</span></li>
+<li>Risolti i problemi con le applicazioni Java&nbsp;massimizzate</li>
+<li>Aggiunti i suggerimenti _GTK_FRAME_EXTENTS per&nbsp;<span class="caps">GTK3</span></li>
 </ul>
 <h3>mate-applets&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed file&nbsp;encoding</li>
-<li>Added and updated several man&nbsp;pages</li>
-<li>Updated policykit vendor&nbsp;<span class="caps">URL</span></li>
+<li>Risolta la codifica dei&nbsp;file</li>
+<li>Aggiunte e aggiornate diverse pagine&nbsp;man</li>
+<li>Aggiornato l&#8217;URLdel venditore del&nbsp;policykit</li>
 </ul>
 <h3>mate-control-center&nbsp;1.8.3</h3>
 <ul>
-<li>Fixed typo in togglekeys-enable&nbsp;(a11y)</li>
-<li>Fixed segfault with custom key&nbsp;bindings</li>
-<li>Added support for metacity-2 themes in appearance&nbsp;capplet</li>
-<li>Added several man&nbsp;pages</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Updated Marco <span class="caps">WM</span>&nbsp;name</li>
+<li>Risolto un errore in togglekeys-enable&nbsp;(a11y)</li>
+<li>Risolto il segfault con l&#8217;associazione di tasti&nbsp;personalizzate</li>
+<li>Aggiunto il supporto per il tema metacity-2 nella capplet&nbsp;aspetto</li>
+<li>Aggiunte diverse pagine&nbsp;man</li>
+<li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
+<li>Aggiornato il nome Marco&nbsp;<span class="caps">VM</span></li>
 </ul>
 <h3>mate-netbook&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault on applet&nbsp;load</li>
-<li>Added man&nbsp;page</li>
+<li>Risolto il segfault  al cariamento della&nbsp;applet</li>
+<li>aggiunta la pagina&nbsp;man</li>
 </ul>
 <h3>mate-panel&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;Add to Panel&#8221; context menu with multiple&nbsp;monitors</li>
+<li>Risolto il menù contestuale &#8220;Aggiungi al pannello&#8221; con più&nbsp;monitor</li>
 </ul>
 <h3>mate-power-manager&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;levels is 0&#8221; warning if no kbd backlight&nbsp;present</li>
-<li>Added support for upower-0.99&nbsp;<span class="caps">API</span></li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Removed <em>&#8220;battery recall&#8221;</em>&nbsp;logic</li>
+<li>Risolto l&#8217;avviso &#8220;i livelli sono 0&#8221; se non è presente nessuna backlight sulla&nbsp;tastiera</li>
+<li>Aggiunto il supporto per l&#8217;<span class="caps">API</span>&nbsp;upower-0.99</li>
+<li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
+<li>Rimossa la logica <em>&#8220;battery&nbsp;recall&#8221;</em>
+</li>
 </ul>
 <h3>mate-screen-saver&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault in the absence of&nbsp;<span class="caps">XRANDR</span></li>
+<li>Risoloto il segfault in mancanza di&nbsp;<span class="caps">XRANDR</span></li>
 </ul>
 <h3>mate-settings-daemon&nbsp;1.8.2</h3>
 <ul>
-<li>Replace googlemusicframe with&nbsp;nuvolaplayer</li>
-<li>Updated schema to use toggle shell&nbsp;script</li>
+<li>Sostituito  googlemusicframe con&nbsp;nuvolaplayer</li>
+<li>Schema aggiornato per l&#8217;utilizzo dello script di shell&nbsp;commuta</li>
 </ul>
 <h3>mate-system-tools&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed process liboobs errors in the callback function&nbsp;of <code>mate-users-admin</code>
+<li>Risolti gli errori liboobs di processo nella funzione callback&nbsp;di <code>mate-users-admin</code>
 </li>
-<li>Fixed possible segfault on exit&nbsp;for <code>mate-users-admin</code>
+<li>Risolto il possibile segfault all&#8217;uscita&nbsp;da <code>mate-users-admin</code>
 </li>
 </ul>
 <h3>mate-terminal&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening new terminal in a&nbsp;tab</li>
-<li>Added colon to PATHCHARS_CLASS for <span class="caps">URL</span>&nbsp;detection</li>
+<li>Risolta l&#8217;apertura di un nuovo terminale in una&nbsp;scheda</li>
+<li>Aggiunti i duepunti per PATHCHARS_CLASS per il riconoscimento&nbsp;dell&#8217;<span class="caps">URL</span></li>
 </ul>
 <h3>mate-utils&nbsp;1.8.1</h3>
 <ul>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Fixed several man&nbsp;pages</li>
-<li>Fixed <code>gsearchtool</code> format-security&nbsp;warning</li>
+<li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
+<li>Aggiustate diverse pagine&nbsp;man</li>
+<li>Risolto l&#8217;avviso di sicurezza del&nbsp;formato <code>gsearchtool</code>
+</li>
 </ul>
 <h3>python-caja&nbsp;1.8.1</h3>
 <ul>
-<li>Now&nbsp;uses <code>pkg-config</code> for python detection and&nbsp;variables</li>
+<li>Adesso si&nbsp;usa <code>pkg-config</code> per il riconoscimento di python e per le&nbsp;variabili</li>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-25-debian-and-ubuntu-repositories-removed/" class="u-url">Debian and Ubuntu package repositories removed from&nbsp;mate-desktop.org</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-25-debian-and-ubuntu-repositories-removed/" class="u-url">Repository di pacchetti Debian e Ubuntu rimossi da&nbsp;mate-desktop.org</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -344,21 +345,19 @@ follow in due course. See below for the&nbsp;changes:</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>Thanks to the efforts of the <a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"><span class="caps">MATE</span> package maintainers for Debian</a>
-<span class="caps">MATE</span> 1.8.1 is available in Debian Jessie (testing) and also
-<a href="https://backports.debian.org">Debian backports</a> for&nbsp;Wheezy.</p>
-<p>As a result of <span class="caps">MATE</span> 1.8.1 hitting the Debian testing repositories
-earlier this year, <span class="caps">MATE</span> 1.8.1 is also in the official archive
-for Ubuntu 14.10 Utopic Unicorn. The <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a>
-team have recently created a <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 14.04 Trusty Tahr</a>
-at the request of the <a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html">Ubuntu Technical Board</a>
-and also a <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 12.04 Precise&nbsp;Pangolin</a></p>
-<p>If you require <span class="caps">MATE</span> packages for Debian or Ubuntu then the package 
-repositories above are the official repositories to&nbsp;use.</p>
-<p>We&#8217;ve removed the package repositories hosted on mate-desktop.org 
-because some were unsigned and others have not been maintained for many 
-months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been&nbsp;removed. </p>
+<p>Grazie agli sforzi dei  <a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members">manutentori dei pacchetti di <span class="caps">MATE</span> per Debian</a>
+<span class="caps">MATE</span> 1.8.1 è dispoinibile in Debian Jessie (testing) e anche
+<a href="https://backports.debian.org">Debian backports</a> per&nbsp;Wheezy</p>
+<p>Come conseguenza di <span class="caps">MATE</span> 1.8.1 che è entrato nelle repository di Debian testing
+all&#8217;inizio di quest&#8217;anno, <span class="caps">MATE</span> 1.8.1 è anche disponibile nell&#8217;archivio ufficiale
+di  Ubuntu 14.10 Utopic Unicorn. Il Team <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a>
+ha recentemente creato un <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"><span class="caps">PPA</span> <span class="caps">MATE</span> 1.8.1 per Ubuntu 14.04 Trusty Tahr</a>
+su richiesta di <a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html">Ubuntu Technical Board</a>
+ed anche un <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"><span class="caps">PPA</span> <span class="caps">MATE</span> 1.8.1 per Ubuntu 12.04 Precise&nbsp;Pangolin</a></p>
+<p>Se volete i pacchetti <span class="caps">MATE</span> per Debian o Ubuntu i repository dei pacchetti elencati in precedenza sono i repository ufficiali da&nbsp;usare.</p>
+<p>Abbiamo spostato i repository dei pacchetti presenti su mate-desktop.org
+perché alcuni di essi non erano firmati ed altri non erano stati manutenuti da molti
+mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati su mate-desktop.org sono stati&nbsp;rimossi.</p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-05-10-mate-in-opensuse/" class="u-url"><span class="caps">MATE</span> in&nbsp;openSUSE</a></h1>
@@ -374,19 +373,15 @@ repositories hosted on mate-desktop.org have been&nbsp;removed. </p>
     </header><div class="e-content entry-content">
     <div>
 <p><img alt="openSUSE" src="../../assets/img/blog/mate-opensuse-black-150x150.png"></p>
-<p>The openSUSE <span class="caps">MATE</span> team is proud to announce the availability of <span class="caps">MATE</span> 1.8
-for openSUSE. The patterns are not available anymore, and won&#8217;t be in
-the future due to official inclusion of <span class="caps">MATE</span> in openSUSE.
-We can&#8217;t support openSUSE 12.2 anymore, <span class="caps">MATE</span> requirements are not
-provided in the right versions in that one.
-We have changed our schema of repositories, to avoid people having to
-change their repositories for each update. Now there is
-just one place,&nbsp;X11:<span class="caps">MATE</span>:Current.</p>
-<p>To install it, please replace or add our&nbsp;repository:</p>
+<p>Il Team <span class="caps">MATE</span> di openSUSE è orgoglioso di annunciare la disponibilità di <span class="caps">MATE</span> 1.8
+per openSUSE. I pattern non sono più disponibili, e non lo saranno in futuro per via dell&#8217;inclusione ufficiale di <span class="caps">MATE</span> in openSUSE.
+Non potremo più offrire supporto per openSUSE 12.2, poiché i requisiti di <span class="caps">MATE</span> non sono forniti nelle versioni corrette in quella distribuzione.
+Abbiamo modificato il nostro schema di repository, per evitare che la gente debba modificare le proprie repository ad ogni aggiornamento. Adesso c&#8217;è solo&nbsp;X11:<span class="caps">MATE</span>:Current.</p>
+<p>Per installarlo, per favore sostituite o aggiungete la nostra&nbsp;repository:</p>
 <p><a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/">https://download.opensuse.org/repositories/X11:/<span class="caps">MATE</span>:/Current/</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-04-28-mate-desktop-gsoc-2014-projects/" class="u-url"><span class="caps">MATE</span> projects accepted for GSoC&nbsp;2014</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-04-28-mate-desktop-gsoc-2014-projects/" class="u-url">Il progetto <span class="caps">MATE</span> è stato accettato per GSoC&nbsp;2014</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -398,30 +393,30 @@ just one place,&nbsp;X11:<span class="caps">MATE</span>:Current.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the <span class="caps">MATE</span> Desktop project is one of the 190 Open Source projects that will
-be  working with students this&nbsp;year.</p>
-<p>In our second year as a GSoC mentor organisation the <span class="caps">MATE</span> team received 4
-student proposals we were allocated 3 slots for student&nbsp;projects.</p>
-<p>I&#8217;m delighted to introduce our GSoC students for&nbsp;2014:</p>
+<p>Dopo diverse settimane trascorse a rivedere le applicazioni e il periodo di selezionamento, il
+Google Summer of Code (GSoC) 2014 si è concluso. 4.420 studenti hanno proposto un totale di
+6313 progetti per quest&#8217;estate. Di quelli, 1.307 studenti sono stati accolti
+e il progetto Desktop <span class="caps">MATE</span> è uno dei 190 progetti Open Source che
+quest&#8217;anno lavorerà con gli&nbsp;studenti.</p>
+<p>Nel nostro secondo anno come organizzazione mentore GSoC, il team <span class="caps">MATE</span> ha ricevuto 4
+proposte di studenti e ci sono stati assegnati 3 slot per i progetti degli&nbsp;studenti.</p>
+<p>Sono deliziato nel presentarvi i nostri studenti GSoC per il&nbsp;2014:</p>
 <ul>
-<li>Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the <span class="caps">MATE</span>&nbsp;desktop.</li>
-<li>Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  <span class="caps">MATE</span> desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10&nbsp;library.</li>
-<li>Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension&nbsp;configuration.</li>
+<li>Avishkar Gupta lavorerà per aggiungere le capacità per il rendering ePub ad
+  Atril, il visualizzatore di documenti per il desktop&nbsp;<span class="caps">MATE</span>.</li>
+<li>Michal Ratajsky lavorerà per aggiungere il supporto a GStreamer 1.0 nell&#8217;ambiente
+  desktop <span class="caps">MATE</span> in modo da sostituire le dipendenze basate sulla libreri deprecata
+  GStreamer&nbsp;0.10</li>
+<li>Alexander van der Meij lavorerà per migliorare Caja extensions così che esse
+  possano essere integrate durante l&#8217;esecuzione e creare inoltre una singola interfaccia utente per
+  la configurazione di Caja&nbsp;extensions.</li>
 </ul>
-<p>Please join me in welcoming these new contributors to the <span class="caps">MATE</span> team and wish
-them every success with their respective projects for the&nbsp;summer.</p>
-<p>On behalf on the entire <span class="caps">MATE</span> team I&#8217;d also like to extend our thanks and
-gratitude to <a href="https://www.opensuse.org">openSUSE</a> who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-<span class="caps">MATE</span> team that will provide much need development resources to the&nbsp;project.</p>
+<p>Vi prego di unirmi a me nel dare il benvenuto a questi nuovi collaboratori nel team <span class="caps">MATE</span> e
+nell&#8217;augurargli ogni successo per i loro progetti per&nbsp;l&#8217;estate.</p>
+<p>A nome dell&#8217;intero team <span class="caps">MATE</span> vorrei estendere i ringraziamenti e
+la nostra gratitudine ad  <a href="https://www.opensuse.org">openSUSE</a> che sono i nostri organizzatori GSoC perché
+2014. hanno fatto un lavoro fantastico nell&#8217;aiutare a garantire questi assegnamenti GSoC per
+il team <span class="caps">MATE</span> che fornirà molte risorse di sviluppo necessarie al&nbsp;progetto.</p>
 </div>
     </div>
     </article>
@@ -467,7 +462,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

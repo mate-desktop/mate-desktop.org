@@ -24,6 +24,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -59,6 +60,7 @@
 <link rel="alternate" hreflang="nl" href="../../../nl/blog/2020-02-10-mate-1-24-released/">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/2020-02-10-mate-1-24-released/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/2020-02-10-mate-1-24-released/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/2020-02-10-mate-1-24-released/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/2020-02-10-mate-1-24-released/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/2020-02-10-mate-1-24-released/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2020-02-10-mate-1-24-released/">
@@ -164,10 +166,8 @@
 <ul>
 <li>Lo hicimos nuevamente, el entorno de escritorio <span class="caps">MATE</span> es más fácil de usar desde que el usuario inicia la sesión. ¿Quieres ocultar el inicio de aplicaciones? Ahora puede establecer qué aplicaciones mostrar al&nbsp;inicio.</li>
 <li>
-<strong>Engrampa</strong> ahora tiene soporte para algunos formatos de archivos nuevos<ul>
-<li>También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de&nbsp;ellos.</li>
-</ul>
-</li>
+<strong>Engrampa</strong> ahora tiene soporte para algunos formatos de archivos nuevos
+También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de&nbsp;ellos.</li>
 <li>
 <strong>Eye of <span class="caps">MATE</span></strong> ahora funciona en <a href="https://wayland.freedesktop.org/">Wayland</a> y hemos añadido soporte para perfiles de colores.<ul>
 <li>La generación de imagenes en miniatura ha sido modificada y arreglada a través de la&nbsp;aplicación.</li>
@@ -177,8 +177,8 @@
 <li>Nuestro administrador de ventanas, <strong>marco</strong>, ha tenido bastantes cambios:<ul>
 <li>Hemos traido un montón de decoraciones desde el pasado para alimentar tu&nbsp;nostalgia.</li>
 <li>Finalmente hemos añadido bordes invisibles para cambiar el tamaño de las ventanas. ¡Dile adiós a los problemas tratando de encontrar esos bordes con el&nbsp;ratón!</li>
-<li>Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución&nbsp;(HiDPI).</li>
-<li>Los pop-ups de cambiar ventanas (Alt+Tab) y espacios de escritorio han sido reinventados completamente. Ahora se ven muy bien en estilo <span class="caps">OSD</span>, son mucho más configurables, y responden a las flechas del&nbsp;teclado.</li>
+<li>Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución&nbsp;HiDPI.</li>
+<li>The Alt+Tab and Workspace Switcher popups have been <em>entirely</em> reworked. Now they render in beautiful <span class="caps">OSD</span> style, are more configurable, and can respond to keyboard&nbsp;arrows.</li>
 <li>Posicionar las ventanas de lado a lado con el teclado ahora te permite recorrer distintos tamaños. Ya no tienes que sentirte limitado por solo la mitad de tu&nbsp;pantalla.</li>
 </ul>
 </li>
@@ -197,7 +197,7 @@
 <li>Si eres el tipo de persona que no le gusta ser interrumpido cuando estás ocupado, o dando una presentación, o viendo una película, te interesaría saber que el <strong>daemon de notificaciones</strong> ahora tiene un modo de No&nbsp;Molestar.</li>
 <li>El <strong>panel de <span class="caps">MATE</span></strong> tiene varios arreglos para prevenir que la aplicación se termine cuando se cambia la distribución predeterminada.<ul>
 <li>Soporte para compatibilidad con <a href="https://wayland.freedesktop.org/">Wayland</a> ha mejorado&nbsp;considerablemente.</li>
-<li>Iconos de estado (el applet de <strong>notification area</strong>) ahora funcionan correctamente con pantallas de alta&nbsp;resolución.</li>
+<li>Status icons (a.k.a. <strong>notification area</strong>, or <strong>system tray</strong>) have support for HiDPI&nbsp;displays.</li>
 <li>El <strong>pez Wanda</strong> ha tenido un cambio de imagen y puedes disfrutarla en toda su belleza en alta&nbsp;resolución.</li>
 <li>El applet de <strong>lista de ventanas</strong> ahora tiene imágenes en miniatura de la ventana cuando mueves el ratón por encima del&nbsp;listado.</li>
 <li>Varias mejoras en accesibilidad en el panel y sus&nbsp;applets.</li>
@@ -408,7 +408,7 @@
 <li>Use gresources for <span class="caps">UI</span>&nbsp;files</li>
 <li>mp: Fix calculate result&nbsp;ln(e^(i*π))</li>
 <li>display small numbers in scientific&nbsp;notation</li>
-<li>mate-calc: Fix memory&nbsp;leak</li>
+<li>display small numbers in scientific&nbsp;notation</li>
 <li>Add support for &#8220;pi&#8221; in addition to&nbsp;&#8220;π&#8221;</li>
 <li>i18n: Migrate from intltools to&nbsp;gettext</li>
 <li>g10n: Update the&nbsp;translations</li>
@@ -708,13 +708,13 @@
 <p>Lista completa de cambios: <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
 <h4>pluma</h4>
 <ul>
+<li>Add the ability to show the non-printable characters&nbsp;(spaces/tabs/newlines)</li>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
 <li>window: Do not override&nbsp;GdkWindowState</li>
 <li>Fix some memory&nbsp;leaks</li>
 <li>Fix build with GtkSourceView&nbsp;3.22</li>
 <li>spell-checker plugin: Add missing translation&nbsp;(i18n)</li>
 <li>Add the support for checking the accessibility of the <span class="caps">UI</span> files using&nbsp;gla11y</li>
-<li>Add draw spaces/tabs/newlines&nbsp;options</li>
 <li>Add snippet to toggle&nbsp;comment/uncomment</li>
 <li>pluma-print-preview: Fix warning: identical&nbsp;expressions</li>
 <li>Switch to Python&nbsp;3</li>
@@ -732,7 +732,7 @@
 <li>i18n: Migrate from intltools to&nbsp;gettext</li>
 <li>g10n: Update the&nbsp;translations</li>
 </ul>
-<p>Lista completa de cambios: <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
@@ -779,7 +779,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

@@ -3,89 +3,85 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 19:11:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
-a giant step forward from the 1.4 release. In this release, we have replaced
-many deprecated packages and libraries with new technologies available in
-GLib. We have also added a lot of new features to MATE. We would like to thank
-every MATE contributor and user.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 02 Aug 2021 21:09:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
-&lt;p&gt;Main changes in 1.6 are:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;systemd &amp;amp; logind support&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for &lt;code&gt;systemd-logind&lt;/code&gt; in &lt;code&gt;mate-session-manager&lt;/code&gt;, &lt;code&gt;mate-screensaver&lt;/code&gt;
-  and &lt;code&gt;mate-power-manager&lt;/code&gt; (now you can reboot/shutdown without ConsoleKit)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-session-manager&lt;/code&gt; と &lt;code&gt;mate-screensaver&lt;/code&gt; に &lt;code&gt;systemd-logind&lt;/code&gt; のサポートを追加
+  それと &lt;code&gt;mate-power-manager&lt;/code&gt; (ConsoleKit なしで再起動/シャットダウン可能になりました)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Improved places sidebar&lt;/li&gt;
-&lt;li&gt;Added support for new thumbnailers specification&lt;/li&gt;
-&lt;li&gt;Added a new frame for thumbnails &lt;/li&gt;
-&lt;li&gt;Wallpapers are now cached for a better memory management&lt;/li&gt;
-&lt;li&gt;New connect server dialog from Nautilus 3&lt;/li&gt;
-&lt;li&gt;Added support for freedesktop.org&lt;/li&gt;
-&lt;li&gt;File Manager DBus Interface&lt;/li&gt;
-&lt;li&gt;Fixed back vs parent directory selection&lt;/li&gt;
-&lt;li&gt;Open terminal extension now support opening a remote terminal &lt;/li&gt;
+&lt;li&gt;場所サイドバーを改善&lt;/li&gt;
+&lt;li&gt;新しいサムネイル仕様のサポートを追加&lt;/li&gt;
+&lt;li&gt;サムネイル用の新しいフレームを追加&lt;/li&gt;
+&lt;li&gt;壁紙がキャッシュされてメモリ管理が向上&lt;/li&gt;
+&lt;li&gt;Nautilus 3 の新しい接続サーバダイアログ&lt;/li&gt;
+&lt;li&gt;freedesktop.org のサポートを追加&lt;/li&gt;
+&lt;li&gt;ファイルマネージャ DBus インタフェース&lt;/li&gt;
+&lt;li&gt;固定されたバックディレクトリと親ディレクトリの選択&lt;/li&gt;
+&lt;li&gt;Open Terminal Extension でリモート端末の開始をサポート&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Panel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;パネル&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added &lt;code&gt;--run-dialog&lt;/code&gt; option to open the run dialog window Window list: you can 
-  use the mouse middle click button to close a window Workspace switcher: &lt;/li&gt;
-&lt;li&gt;Added an option to wrap around between workspaces with the mouse wheel&lt;/li&gt;
-&lt;li&gt;Added a simple way for distributions to override the default panel layout
-  Unfortunately, due to migration to GSettings, you will lose your current panel layout.
-  All other settings will be migrated if you have MateConf 1.4 installed.&lt;/li&gt;
+&lt;li&gt;実行ダイアログウィンドウを開くための &lt;code&gt;--run-dialog&lt;/code&gt; オプションを追加。ウィンドウリスト: 次のことが可能
+  マウスの中ボタンを使用してウィンドウのワークスペース切替を閉じます:&lt;/li&gt;
+&lt;li&gt;マウスホイールを使用してワークスペース間をラップアラウンドするオプション追加&lt;/li&gt;
+&lt;li&gt;既定のパネルレイアウトを変更するための簡単な配布方法を追加
+  残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
+  もし MateConf 1.4 がインストールされている場合には、他のすべての設定が移行されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt; Marco (window manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Marco (ウィンドウマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added option to open new windows on the center of the screen&lt;/li&gt;
+&lt;li&gt;画面の中央に新規ウィンドウを開くオプションを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Control center&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;コントロールセンタ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added option to enable Marco compositing manager and fast alt-tab in window preferences&lt;/li&gt;
-&lt;li&gt;Set GSettings/GConf metacity theme if compiz or metacity are running&lt;/li&gt;
-&lt;li&gt;Use same GNOME proxy settings of &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; package&lt;/li&gt;
-&lt;li&gt;Default applications: allow to set default terminal&lt;/li&gt;
+&lt;li&gt;ウィンドウの設定で、Marco コンポジットマネージャと fast alt-tab を有効にするオプションを追加&lt;/li&gt;
+&lt;li&gt;compiz または metacity が実行されている場合、GSettings/GConf metacity theme を設定&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; パッケージと同じ GNOME proxy settings を使用&lt;/li&gt;
+&lt;li&gt;既定のアプリケーション: 既定の端末を設定できるよう許可&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Atril (document viewer)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Atril (文書ビューア)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added XPS backend &lt;/li&gt;
+&lt;li&gt;XPS バックエンドの追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Calc&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Calc 電卓&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Updated codebase&lt;/li&gt;
-&lt;li&gt;Added buttons to support inverse trigonomic functions &lt;/li&gt;
+&lt;li&gt;コードベースの更新&lt;/li&gt;
+&lt;li&gt;逆三角関数機能をサポートするボタンの追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Notification daemon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通知デーモン&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added option to &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specify which screen to display notifications on&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Show always a notification if it has 'expires never' as timeout (also if screensaver is active or there are active fullscreen windows) &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;通知を表示する画面を指定する&lt;/a&gt; オプションが追加されました。&lt;/li&gt;
+&lt;li&gt;タイムアウトとして 'expires never' が設定したる場合は常に通知を表示 (スクリーンセーバーがアクティブであるか、アクティブな全画面がある場合も同じ)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Themes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;テーマ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-03-26-new-themes/"&gt;New GTK2/3 themes&lt;/a&gt; (Menta, BlackMATE, GreenLaguna, TraditionalGreen)&lt;/li&gt;
-&lt;li&gt;Added GTK3 support for other GTK2 themes (TraditionalOk, TraditionalOkTest, ContrastHigh) &lt;/li&gt;
-&lt;li&gt;Enabled text preview for text files&lt;/li&gt;
-&lt;li&gt;Added some new icons &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-03-26-new-themes/"&gt;新しい GTK2/3 テーマ&lt;/a&gt; (Menta、ブラック MATE、グリーン Laguna、トラディショナル Green)&lt;/li&gt;
+&lt;li&gt;その他の GTK2 テーマ (TraditionalOk, TraditionalOkTest, ContrastHigh) に対する GTK3 サポートを追加&lt;/li&gt;
+&lt;li&gt;テキストファイルのプレビューを有効に&lt;/li&gt;
+&lt;li&gt;新しいアイコンを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Settings daemon&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;デーモン設定&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for MPRIS2 to send media keys to media players&lt;/li&gt;
-&lt;li&gt;Added option to draw the background if Caja is not active&lt;/li&gt;
-&lt;li&gt;The daemon is now restarted by &lt;code&gt;mate-session&lt;/code&gt; if it crashes &lt;/li&gt;
+&lt;li&gt;メディアキーをメディアプレーヤーに送信するための MPRIS2 サポートを追加&lt;/li&gt;
+&lt;li&gt;Caja が非アクティブ時に背景を描画するオプションの追加&lt;/li&gt;
+&lt;li&gt;デーモンがクラッシュした場合は、&lt;code&gt;mate-session&lt;/code&gt; によって再起動されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Netbook applet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netbook アプレット&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Enable maximus only when window picker applet is added to the panel&lt;/li&gt;
+&lt;li&gt;ウィンドウピッカーアプレットがパネルに追加された時のみ、最大化を有効に&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dropped packages&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;削除されたパッケージ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Replaced MateConf with GSettings&lt;/li&gt;
-&lt;li&gt;Replaced MateCorba/MateComponent with DBus&lt;/li&gt;
-&lt;li&gt;Replaced MateVfs with GIO/GVFS&lt;/li&gt;
-&lt;li&gt;Replaced &lt;code&gt;libmatenotify&lt;/code&gt; with &lt;code&gt;libnotify&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Removed &lt;code&gt;libmate&lt;/code&gt; (mate-open replaced with gvfs-open, GSettings schemas moved to mate-desktop package &lt;/li&gt;
-&lt;li&gt;Removed deprecated packages&lt;ul&gt;
+&lt;li&gt;MateConf を GSettings へ置き換え&lt;/li&gt;
+&lt;li&gt;MateCorba/MateComponent を DBus へ置き換え&lt;/li&gt;
+&lt;li&gt;MateVfs を GIO/GVFS へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatenotify&lt;/code&gt; を &lt;code&gt;libnotify&lt;/code&gt; へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmate&lt;/code&gt; を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package へ移動&lt;/li&gt;
+&lt;li&gt;非推奨パッケージの削除&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;libmateui&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;libmatecanvas&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;libmatecomponentui&lt;/code&gt;&lt;/li&gt;
@@ -93,73 +89,34 @@ every MATE contributor and user.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Other improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;その他の改善&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed a lot of code deprecations&lt;/li&gt;
-&lt;li&gt;Fixed a lot of bugs&lt;/li&gt;
-&lt;li&gt;Added and improved a lot of translations &lt;/li&gt;
+&lt;li&gt;多くのコードの非推奨事項を修正&lt;/li&gt;
+&lt;li&gt;多くの不具合を修正&lt;/li&gt;
+&lt;li&gt;多数の翻訳の追加と改善&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We asked people from distributions that ship MATE what they think about our
-Desktop Environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href="https://www.salixos.org/"&gt;Salix&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;p&gt;MATE を配布しているディストリビューションの人々に、MATE デスクトップ環境についてどのように考えているかを尋ねました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href="https://www.salixos.org/"&gt;Salix&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;We believe MATE is a perfect match for Salix. MATE provides us with a familiar
-desktop environment that is powerful, solid and fast. Also, the MATE team are
-very friendly and a pleasure to work with and this means a lot to us. Thanks for
-giving us the choice of sticking with our favourite desktop guys&lt;/p&gt;
+&lt;p&gt;私たちは MATE が Salix にぴったりだと信じています。MATE は、パワフル、堅牢かつ高速で、使い慣れたデスクトップ環境を提供してくれます。また、MATE チームはとてもフレンドリーで、一緒に仕事ができてとても楽しいです。これは私たちにとって大きな意味があります。お気に入りのデスクトップの人たちと一緒に仕事をする選択肢を与えてくれてありがとう。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;It's extremely important to us that people are happy with their computer. When that
-environment we all loved and worked hard to improve since 2006 was
-discontinued we weren't happy to let it go and to ask people to migrate to
-something new or something different. We worked really hard on making sure our
-users could continue to use their computer the way they wanted and we met a
-team of like-minded people who had taken the initiative to support that
-environment and to develop it even further. Mint and MATE go hand in hand and
-the relationship between the teams is excellent. Mint played an important role
-in the promotion and backing of MATE and we continue to help with its
-development. We're very pleased with MATE, it's exactly what we wanted, it
-started where GNOME left off and with each new iteration it keeps getting better.&lt;/p&gt;
+&lt;p&gt;私たちにとって、人々がコンピュータに満足していることは非常に重要です。私たち全員が愛し、2006年以来改善しようと努力してきた環境が廃止されたとき、私たちはそれを手放して、人々に何か新しいものや何か別のものへの移行を依頼することに満足しませんでした。私たちは、私たちのユーザーが彼らの望むようにコンピュータを使い続けることができるようにするために本当に努力しました。そして私たちは、その環境をサポートし、それをさらに発展させるために率先して取り組んできた、同じような考えを持つ人々のチームに出会いました。Mint と MATE は密接に連携しており、チーム間の関係は素晴らしいものです。Mint は MATE の促進と支援において重要な役割を果たし、私たちはその開発を引き続き支援しています。私たちは MATE に非常に満足しています。それは GNOME が中断したところから始まり、新しく繰り返すことで改善され続けます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, strategy consultant of &lt;a href="https://www.sabayon.org/"&gt;Sabayon&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, &lt;a href="https://www.sabayon.org/"&gt;Sabayon&lt;/a&gt; 戦略コンサルタント: &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;We don't like how upstream forced changes to users and want our users to have
-the option to decide what to use. With MATE in our repositories we are certain
-our users can always choose what works best for them.&lt;/p&gt;
+&lt;p&gt;私たちは、アップストリームがユーザーに変更を強制する方法が気に入らないので、ユーザーが何を使用するかを選択できるようにしたいと思っています。私たちのリポジトリに MATE を使用することで、私たちのユーザーは、各自にとって最適なものをいつでも選択できるようになります。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, MATE maintainer in &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt; の MATE メンテナ: &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Ever since the release of Fedora 15 was released I was extremely unhappy and
-frustrated with my desktop experience until I discovered MATE. Now on Fedora I
-can finally have a desktop that is sane, stable, fast and most importantly easy
-to use. With the hard work the team has done to also patch compiz to work on
-the newer releases of Fedora I can now have my Fedora 14 (considered by most to
-be the best release of Fedora) experience back with wobbly windows, desktop
-cube, animations, and 3d effects. I can't stress how big of a loss this was to many users including
-myself. Now with MATE I don't have to worry about what is going to break with
-the next Gnome release and what crazy design ideas they are going to have
-making me have to relearn a desktop interface every single Fedora release.
-With MATE 1.6 I can feel right back at home on my favorite Linux distribution
-and get back to work.&lt;/p&gt;
+&lt;p&gt;Fedora 15 がリリースされて以来、私は MATE を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。MATE チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、MATE を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。MATE 1.6 を使えば、自宅でお気に入りの Linux ディストリビューションを使って仕事に戻ることができます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;We also asked for a comment from the
-&lt;a href="https://preview.mate-desktop.dev/blog/2012-12-27-thank-you-first-colo/"&gt;company who donated the server where we host MATE services&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO of &lt;a href="https://www.first-colo.net/en/"&gt;FirstColo GmbH&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;私たちはまた、&lt;a href="https://preview.mate-desktop.dev/blog/2012-12-27-thank-you-first-colo/"&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; コメントをいただきました。以下は &lt;a href="https://www.first-colo.net/en/"&gt;FirstColo GmbH&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;We are really happy to use the MATE Desktop Environment. This way we can keep a clean and well
-working desktop without lots of useless and distracting stuff. Until the end
-of 2012 our whole company were working with Ubuntu, but with the Unity Desktop
-and many other "end user features", we were searching for new ways to get a
-desktop, free of software that pretends to make our lives easier. With MATE
-Desktop on Debian 7 Wheezy, we found a good working, high performance desktop
-that just works as we know it from years. We hope that the MATE Team will keep
-our classic Linux Desktop and bring to it new life some with new features, but
-with the good workflow kept in hand. So far, they have done great job, and we
-hope that soon the Debian Maintainers will add the MATE Desktop to their
-mirrors (and of course, that many others will use MATE too!).&lt;/p&gt;
+&lt;p&gt;私たちは MATE デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップやフリーなソフトウェアを探していました。Debian 7 Wheezy 上の MATE デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは MATE チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに MATE デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も MATE を使うことでしょう！)。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;MATE 1.6 is the result of 8 months of intense development and contains 1800
-contributions by 39 people, and more than 150 translators. &lt;/p&gt;
+&lt;p&gt;MATE 1.6 は、8ヶ月に及ぶ精力的な開発の成果であり、39名の人々が行った 1800件の寄与、および 150名以上の翻訳者による成果です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.6/"&gt;MATE 1.6 Screenshots&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><category>Fedora</category><category>Linux Mint</category><category>Releases</category><category>Sabayon</category><category>Salix</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item></channel></rss>

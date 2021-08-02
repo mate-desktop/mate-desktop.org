@@ -25,6 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
@@ -125,18 +126,17 @@
     </header><div class="e-content entry-content">
     <div>
 <p><img alt="c-file" src="../../assets/img/blog/c-file.png"></p>
-<p>We&#8217;re proud to announce our newest package on&nbsp;GitHub:</p>
+<p>Siamo orgogliosi di di annunciare il nostro nuovo pacchetto su&nbsp;GitHub:</p>
 <ul>
 <li><a href="https://github.com/mate-desktop/mate-university"><span class="caps">MATE</span>&nbsp;University</a></li>
 </ul>
-<p><span class="caps">MATE</span> University is targeted at all levels of developers (including beginners)
-to learn how to develop new panel applets, Caja (file manager) extensions,
-Pluma (text editor) and Eye of <span class="caps">MATE</span> (image viewer) plugins, etc. to expand
-the already powerful <span class="caps">MATE</span> Desktop experience. There will be simple and well
-commented code, makefiles and tips to use as springboard for new <span class="caps">MATE</span>&nbsp;applications.</p>
+<p><span class="caps">MATE</span> University è orientato agli sviluppatori di ogni livello (inclusi i principianti)
+per imparare come sviluppare nuove applet del pannello, estensioni del (file manager) Caja,
+plugins per (l&#8217;editor di testi) Pluma e per (il visualizzatore di immagini) Eye of <span class="caps">MATE</span> etc. per espandere
+la già poderosa esperienza sul Desktop <span class="caps">MATE</span>. Ci saranno codice sorgente semplice e ben commentato, makefile e suggerimenti da utilizzare come trampolino per la realizzazione di nuove applicazioni&nbsp;<span class="caps">MATE</span>.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-01-20-changes-to-mate-notification-daemon/" class="u-url">Changes to&nbsp;mate-notification-daemon</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-01-20-changes-to-mate-notification-daemon/" class="u-url">Modifiche a&nbsp;mate-notification-daemon</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -148,22 +148,16 @@ commented code, makefiles and tips to use as springboard for new <span class="ca
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The <code>mate-notification-daemon</code> has a new feature in  <span class="caps">MATE</span> 1.6 that allows
-users to select which monitor they want to display notifications on. The
-current behavior only displays notifications on the monitor which is currently
-active (where the pointer is). The behavior will default to as it has always
-been, but the user can change the settings by modifying the &#8220;use-active-monitor&#8221;
-and &#8220;monitor-number&#8221; keys in&nbsp;via <code>dconf-editor</code> or they can&nbsp;run
-<code>mate-notification-properties</code> and edit their settings via a&nbsp;<span class="caps">GUI</span>.</p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on an active monitor. Note that &#8220;Use Active Monitor&#8221; is selected,
-which disables the combobox for selecting a&nbsp;monitor.</p>
+<p><code>mate-notification-daemon</code> ha una nuova funzionalità in <span class="caps">MATE</span> 1.6 che consente
+agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
+comportamento attuale mostrale notifiche solo sul monitor correntemente attivo (cioè quello su cui si trova il puntatore del mouse). Il comportamento sarà per default quello che si è sempre avuto in precedenza, ma l&#8217;utente può cambiare le impostazioni modificando le chiavi &#8220;use-active-monitor&#8221;
+e &#8220;monitor-number&#8221;&nbsp;mediante <code>dconf-editor</code> o&nbsp;eseguendo
+<code>mate-notification-properties</code> e modificando le impostazioni da una Inerfaccia Utente&nbsp;Grafica.</p>
+<p>Qui sotto c&#8217;è uno screenshot&nbsp;di <code>mate-notification-properties</code> impostato per mostrare le notifiche su un monitor attivo. Si noti che &#8220;Use Active Monitor&#8221; è selezionato, il che disabilita la combobox per selezionare un&nbsp;monitor.</p>
 <p><img alt="active" src="../../assets/img/blog/active-300x235.png"></p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on a specific monitor. Note that &#8220;Use Active Monitor&#8221; is <strong>not</strong>
-selected, which enables the combobox for selecting the monitor to be enabled.
-The monitor number is set to 2. This will display on my third monitor, since
-counting starts at 0 instead of&nbsp;1.</p>
+<p>Qui sotto c&#8217;è uno screenshot&nbsp;di <code>mate-notification-properties</code> impostato per mostrare le notifiche su uno specifico monitor. Si noti che &#8220;Use Active Monitor&#8221; <strong>non</strong> è
+selezionato, il che abilita la combobox per selezionare un monitor da abilitare.
+Il numero del monitor è impostato a 2. Questo mostrerà le notifiche sul mio terzo monitor, perché la numerazione inizia da 0 invece che da&nbsp;1..</p>
 <p><img alt="monitor" src="../../assets/img/blog/monitor-300x235.png"></p>
 </div>
     </div>
@@ -186,7 +180,7 @@ un nuovo server dedicato, per supportare il suo&nbsp;sviluppo.</p>
 <p>L&#8217;intero team ringrazia Martin Verges ed il suo staff per questa grande&nbsp;novità!</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-11-10-mate-package-repository-for-fedora/" class="u-url"><span class="caps">MATE</span> package repository for&nbsp;Fedora</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-11-10-mate-package-repository-for-fedora/" class="u-url">Repository di pacchetti <span class="caps">MATE</span> per&nbsp;Fedora</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -198,19 +192,19 @@ un nuovo server dedicato, per supportare il suo&nbsp;sviluppo.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>We are now directing users to use the official Fedora package repository now.
-For instructions on using this repository please consult <a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora">our installation
-guide for Fedora</a>.</p>
-<p>For more information about <span class="caps">MATE</span>&#8217;s official inclusion in Fedora, see the&nbsp;following:</p>
+<p>In questo momento stiamo reindirizzando gli utenti ad utilizzare il repository di pacchetti ufficiale di Fedora
+Per le istruzioni sull&#8217;uso di questo repository consultare la <a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora">nostra
+guida all&#8217;installazione relativa a Fedora</a>.</p>
+<p>Per avere maggiori informazioni sull&#8217;inclusione ufficiale di <span class="caps">MATE</span> in Fedora, si veda&nbsp;qui:</p>
 <ul>
 <li><a href="https://fedoraproject.org/wiki/Features/MATE-Desktop">https://fedoraproject.org/wiki/Features/<span class="caps">MATE</span>-Desktop</a></li>
 </ul>
-<p>If you have any questions regarding installing <span class="caps">MATE</span> on Fedora then please ask
-for help in our <a href="https://web.libera.chat/?#fedora-mate">#fedora-mate <span class="caps">IRC</span> channel</a>
-or for general <span class="caps">MATE</span> questions join us in <a href="https://web.libera.chat/?#mate">#mate <span class="caps">IRC</span> channel</a>.</p>
+<p>Se si hanno domande su come installare <span class="caps">MATE</span> in Fedora vi preghiamo di chiedere
+aiuto nel nostro <a href="https://web.libera.chat/?#fedora-mate">Canale <span class="caps">IRC</span> #fedora-mate</a>
+oppure, per domande generiche su <span class="caps">MATE</span>, di unirvi a noi sul <a href="https://web.libera.chat/?#mate">Canale <span class="caps">IRC</span> #mate</a>.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-10-16-mate-package-repository-for-ubuntu-quantal/" class="u-url"><span class="caps">MATE</span> package repository for Ubuntu&nbsp;Quantal</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-10-16-mate-package-repository-for-ubuntu-quantal/" class="u-url">Repository di pacchetti <span class="caps">MATE</span> per Ubuntu&nbsp;Quantal</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -228,7 +222,7 @@ adesso è disponibile per la nostra release 1.4. Come sempre, seguite <a href="h
 e aggiungere quelli nuovi, altrimenti incontrerete dei&nbsp;problemi.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-07-30-mate-1-4-released/" class="u-url"><span class="caps">MATE</span> 1.4&nbsp;released</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-07-30-mate-1-4-released/" class="u-url">Rilasciato <span class="caps">MATE</span>&nbsp;1.4</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -240,41 +234,40 @@ e aggiungere quelli nuovi, altrimenti incontrerete dei&nbsp;problemi.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The team is proud to announce the release of <span class="caps">MATE</span>&nbsp;1.4.</p>
+<p>Il team è orgoglioso di annunciare il rilascio della versione di <span class="caps">MATE</span>&nbsp;1.4.</p>
 <p><img alt="" src="https://i.imgur.com/V5ab0.png"></p>
-<p>Here are the main changes and improvements in this&nbsp;release:</p>
+<p>Qui seguono i principali cambiamenti e miglioramenti di questo&nbsp;rilascio:</p>
 <ul>
-<li>Numerous bug&nbsp;fixes</li>
+<li>Numerosi bug&nbsp;eliminati</li>
 <li>
-<code>mate-keyring</code> and <code>libmatekeyring</code> backends updated and now integrate&nbsp;properly</li>
-<li>
-<code>caja-dropbox</code> package now&nbsp;available</li>
-<li>New themes added&nbsp;to <code>mate-notification-daemon</code>
+<code>mate-keyring</code> e <code>libmatekeyring</code> backends aggiornati ed integrati&nbsp;correttamente</li>
+<li>Il&nbsp;pacchetto <code>caja-dropbox</code> adesso è&nbsp;disponibile</li>
+<li>Nuovi temi aggiunti&nbsp;a <code>mate-notification-daemon</code>
 </li>
-<li>Removed <code>indicator-applet-session</code>
+<li>Rimosso <code>indicator-applet-session</code>
 </li>
-<li>File sharing now available via&nbsp;Bluetooth</li>
-<li>Added option to use fast alt-tabbing when compositing is enabled&nbsp;in <code>marco</code>
+<li>Condivisione di file adesso disponibile via&nbsp;Bluetooth</li>
+<li>Aggiunta una opzione per impiegare il veloce alt-tab quando è attivo il compositing&nbsp;in <code>marco</code>
+</li>
+<li>Disponibile da&nbsp;ora <code>mate-icon-theme-faenza</code>
+</li>
+<li>Disponibile da&nbsp;adesso <code>mate-character-map</code>
 </li>
 <li>
-<code>mate-icon-theme-faenza</code> now&nbsp;available</li>
-<li>
-<code>mate-character-map</code> now&nbsp;available</li>
-<li>
-<code>mate-screensaver</code> now supports <span class="caps">GDM</span> user&nbsp;switching</li>
-<li>Removed nyancat from the mate-desktop about&nbsp;dialog</li>
-<li>Forked <code>libwnck</code> as <code>libmatewnck</code>
+<code>mate-screensaver</code> adesso supporta il cambio di utente di&nbsp;<span class="caps">GDM</span></li>
+<li>Rimosso nyancat dalla finestra di dialogo mate-desktop&nbsp;about</li>
+<li>Dderivato <code>libwnck</code> come <code>libmatewnck</code>
 </li>
-<li>Caja improvements: <ul>
-<li>Restored toggle button for text based location&nbsp;bar</li>
-<li>Bookmarks can now be opened in the places side pane via the enter and space&nbsp;keys</li>
-<li>Added a button to get the difference between files in the file conflict&nbsp;dialog</li>
+<li>Miglioramenti di Caja:<ul>
+<li>Ripristinato l&#8217;uso dei pulsanti per la barra della posizione basata sul&nbsp;testo</li>
+<li>I segnalibri possono essere aperti dal pannello laterale posizioni mediante tasto invio o barra&nbsp;spaziatrice</li>
+<li>Aggiunto un pulsante per visualizzar le differenze tra file nel dialogo file in&nbsp;conflitto</li>
 </ul>
 </li>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-04-16-mate-1-2-released/" class="u-url"><span class="caps">MATE</span> 1.2&nbsp;released</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-04-16-mate-1-2-released/" class="u-url">Rilasciato <span class="caps">MATE</span>&nbsp;1.2</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
@@ -286,32 +279,31 @@ e aggiungere quelli nuovi, altrimenti incontrerete dei&nbsp;problemi.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The team is proud to announce the release of <strong><span class="caps">MATE</span> 1.2</strong>. This release is a
-huge step forward since the 1.0 and 1.1 development releases. <span class="caps">MATE</span> is more
-stable than ever and it includes support for many more applications, applets
-and&nbsp;backends. </p>
+<p>Il Team è orgoglioso di annunciare il rilascio di <strong><span class="caps">MATE</span> 1.2</strong>. Questo rilascio è
+un grande passo in avanti rispetto le versioni di sviluppo 1.0 e 1.1. <span class="caps">MATE</span> è più stabile che mai ed include il supporto per molte più applicazioni, applet
+e&nbsp;backends.</p>
 <p><img alt="MATE 1.2" src="../../assets/img/blog/about-mate-1.2.png"></p>
-<p>Here are the main changes and improvements in this&nbsp;release:</p>
+<p>Questi sono i principali cambiamenti le migliorie di questa&nbsp;versione:</p>
 <ul>
-<li>Numerous bug&nbsp;fixes</li>
-<li>All conflicts with <span class="caps">GNOME</span> were&nbsp;fixed</li>
-<li>All configuration files were moved&nbsp;to <code>~/.config/mate</code>
+<li>Numerosi bug&nbsp;fix</li>
+<li>Sono stati risolti tutti i conflitti con&nbsp;<span class="caps">GNOME</span></li>
+<li>Tutti i file di configurazione sono stati spostati&nbsp;in <code>~/.config/mate</code>
 </li>
-<li>An undo/redo feature was added in&nbsp;Caja</li>
-<li>Libmate&#8217;s mate-open command is now faster to open&nbsp;applications</li>
-<li><span class="caps">MATE</span> settings daemon now supports the PulseAudio and GStreamer&nbsp;backends</li>
-<li>New&nbsp;applications: <code>mozo</code> (alacarte&nbsp;fork), <code>python-caja</code>, <code>caja-gksu</code>, <code>caja-image-converter</code>
+<li>In Caja è stato inserita una funzione&nbsp;annulla/ripeti</li>
+<li>Il comando mate-open di libmate adesso è più veloce ad aprire le&nbsp;applicazioni</li>
+<li>Il demone <span class="caps">MATE</span> settings adesso supporta i backend PulseAudio e&nbsp;GStreamer.</li>
+<li>Nuove&nbsp;applicazioni: <code>mozo</code> (derivato di&nbsp;alacarte), <code>python-caja</code>, <code>caja-gksu</code>, <code>caja-image-converter</code>
 </li>
 <li>Artwork<ul>
-<li><span class="caps">MATE</span> themes were renamed to avoid conflicts with&nbsp;<span class="caps">GNOME</span></li>
-<li>A new <span class="caps">MATE</span> wallpaper was&nbsp;added</li>
-<li><span class="caps">MATE</span> now features its own&nbsp;icon</li>
+<li>I temi <span class="caps">MATE</span> sono stati rinominati per evitare conflitti con&nbsp;<span class="caps">GNOME</span></li>
+<li>È stato aggiunto un nuovo sfondo&nbsp;<span class="caps">MATE</span></li>
+<li><span class="caps">MATE</span> adesso possiede la sua personale&nbsp;icona</li>
 </ul>
 </li>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-01-18-reporting-bugs/" class="u-url">Reporting&nbsp;Bugs</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-01-18-reporting-bugs/" class="u-url">Riportare&nbsp;Bug</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -323,19 +315,14 @@ and&nbsp;backends. </p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>We are currently in the process of switching to handling all our issues via
-the <a href="https://github.com/mate-desktop">mate-desktop project on GitHub</a> instead
-of Perberos&#8217; page. The reason is simple: when Perberos is away none of the
-other developers can close tickets. This creates a bit of a&nbsp;mess.</p>
-<p>Now, when you go to report a bug you must chose the correct GitHub repository
-to report the issue in. It&#8217;s pretty simple. If there&#8217;s a bug&nbsp;with <code>mate-panel</code>,
-then submit the issue on&nbsp;the <code>mate-panel</code> issue&nbsp;tracker.</p>
-<p>We&#8217;ll are no longer monitoring Perberos&#8217; issue tracker, so we ask that you
-refrain from opening new bugs&nbsp;there.</p>
-<p>Thanks for your&nbsp;cooperation.</p>
+<p>Stiamo attualmente muovendoci per gestire tutti i nostri issues con il <a href="https://github.com/mate-desktop">progetto mate-desktop su GitHub</a> invece che attraverso la pagina di Perberos. La ragione è semplice: quando Perberos è assente, nessuno degli altri sviluppatori può chiudere i ticket. Questo crea un po&#8217; di&nbsp;confusione.</p>
+<p>Quindi da adesso in poi quando si intende segnalare un bug occorre scegliere il giusto repository GitHub in cui segnalare il problema. Questa è un&#8217;operazione piuttosto semplice. Se per esempio c&#8217;è un bug&nbsp;in <code>mate-panel</code>,
+inviate la richiesta di correzione sul tracciatore di issue&nbsp;di  <code>mate-panel</code>.</p>
+<p>Non monitoreremo più l&#8217;issue tracker di Perberos, quindi vi chiediamo di astenervi dall&#8217;aprire nuovi bug su questa&nbsp;piattaforma.</p>
+<p>Grazie per la&nbsp;collaborazione.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2011-12-24-new-wiki-and-new-distributions-supported/" class="u-url">New wiki and other&nbsp;info</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2011-12-24-new-wiki-and-new-distributions-supported/" class="u-url">Nuovo wiki ed altre&nbsp;info</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
@@ -347,30 +334,26 @@ refrain from opening new bugs&nbsp;there.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>We&#8217;ve recently switched from a wiki at <a href="https://github.com/">GitHub</a> to a our own
-available from <a href="https://wiki.mate-desktop.org/#!index.md">wiki.mate-desktop.org</a>. Please
-reference this wiki from now on. Naturally, anyone is welcome to&nbsp;contribute.</p>
-<p>For those of you who aren&#8217;t already aware, you can
-<a href="https://github.com/mate-desktop/">report issues on github</a>. At the moment, this
-is all we have in terms of bug reporting, but we do have a bugtracker in the works.
-We&#8217;ll announce it here when it&#8217;s&nbsp;ready.</p>
-<p>We also have future plans for a Mate forum, but that is at a very early&nbsp;stage.</p>
-<p>For those of you using <a href="https://www.debian.org/">Debian</a>, <a href="https://www.ubuntu.com">Ubuntu</a>,
-and <a href="https://www.linuxmint.com">Linux Mint</a>, you can access the 1.1.x development branch of 
-our packages using the tridex repository. Check out <a href="https://wiki.mate-desktop.org/#!pages/download.md">the download page</a>
-on the wiki for more info. <a href="https://www.linuxmint.com">Linux Mint</a> also has our 
-1.0.x release packages in their repository. If anyone is still using Amanas&#8217; <span class="caps">PPA</span>,
-it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
-repositories. Future releases (eg. 1.2.0) will be hosted&nbsp;here.</p>
-<p>We are proud to announce that packing for <a href="https://www.opensuse.org">openSUSE</a> has begun.
-Once we have more information we will add it to our wiki and make an&nbsp;announcement.</p>
-<p>Lastly, we have had several individuals join <a href="https://web.libera.chat/?#mate">our <span class="caps">IRC</span> channel</a>
-and ask about <a href="https://www.gentoo.org">Gentoo</a> ebuilds for <span class="caps">MATE</span>. With that being said,
-we are looking for people who are willing to set these&nbsp;up.</p>
-<p>Happy Holidays from the Mate&nbsp;team.</p>
+<p>Siamo passati di recente da un wiki su <a href="https://github.com/">GitHub</a> ad uno nostro disponibile da  <a href="https://wiki.mate-desktop.org/#!index.md">wiki.mate-desktop.org</a>.</p>
+<p>per favore fate riferimento a questo wiki da ora in poi. Naturalmente chiunque è benvenuto a&nbsp;contribuire.</p>
+<p>Per quelli di voi che non lo sanno ancora, potete <a href="https://github.com/mate-desktop/">riportare problemi su github</a>. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
+Lo annunceremo qui quando sarà&nbsp;pronto.</p>
+<p>Abbiamo anche progetti per un forum <span class="caps">MATE</span>, ma questo è ancora ad uno stadio ancora molto&nbsp;iniziale.</p>
+<p>Per quelli di voi che utilizzano <a href="https://www.debian.org/">Debian</a>, <a href="https://www.ubuntu.com">Ubuntu</a>,
+e <a href="https://www.linuxmint.com">Linux Mint</a>, potete accedere al ramo di sviluppo 1.1.x dei
+nostri pacchetti utilizzando il repository tridex. Visitate la  <a href="https://wiki.mate-desktop.org/#!pages/download.md">pagina di download</a>
+sul wiki per maggiori informazioni. <a href="https://www.linuxmint.com">Linux Mint</a> ha anche i nostri
+pacchetti del rilascio 1.0.x nei loro repository. Se qualcuno sta ancora utilizzando il <span class="caps">PPA</span> di Amanas, questo non è più supportato. Il resto dei nostri rilasci 1.1.x saranno ospitati sui repository tridex.
+I rilasci futuri (es. 1.2.0) saranno ospitati&nbsp;qui.</p>
+<p>Siamo orgogliosi di annunciare che la pacchettizzazione per <a href="https://www.opensuse.org">openSUSE</a> è iniziata.
+Quando avremo più informazioni le riporteremo sul nostro wiki e faremo un&nbsp;annuncio.</p>
+<p>Infine, abbiamo avuto diversi individui che si sono uniti al <a href="https://web.libera.chat/?#mate">nostro canale <span class="caps">IRC</span></a>
+che ci hanno chiesto di edibuild  <a href="https://www.gentoo.org">Gentoo</a> per <span class="caps">MATE</span>. Detto questo,
+cerchiamo gente che siano disposte ad&nbsp;organizzarli.</p>
+<p>Buone Vacanze dal Team&nbsp;<span class="caps">MATE</span>.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2011-12-05-introducing-mate-desktop/" class="u-url">Introducing <span class="caps">MATE</span>&nbsp;Desktop</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2011-12-05-introducing-mate-desktop/" class="u-url">Introduzione sul Desktop&nbsp;<span class="caps">MATE</span></a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/clement-lefebvre/">Clement&nbsp;Lefebvre</a>
@@ -382,20 +365,18 @@ we are looking for people who are willing to set these&nbsp;up.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>Welcome to the <span class="caps">MATE</span> Desktop&nbsp;Environment!</p>
-<p>Gnome 2 was the most popular Linux desktop but it&#8217;s no longer available&#8230; <span class="caps">MATE</span>
-is here to provide that same desktop to&nbsp;you <code>:)</code></p>
-<p>Perberos initially forked Gnome 2 and called the project <span class="caps">MATE</span>. Users and
-developers have successfully run <span class="caps">MATE</span> on <a href="https://www.archlinux.org">Arch Linux</a>
-and due to popular demand Perberos made it easier for <span class="caps">MATE</span> to compile under
+<p>Benvenuti  nell&#8217;Ambiente Desktop&nbsp;<span class="caps">MATE</span>!</p>
+<p>Gnome 2 è stato il desktop Linux più diffuso ma non è più disponibile&#8230;<span class="caps">MATE</span>
+è qui per fornirvi lo stesso&nbsp;desktop <code>:)</code></p>
+<p>Perberos all&#8217;inizio ha creato una derivazione di Gnome 2 e ha chiamato il progetto <span class="caps">MATE</span>. Gli utenti e
+gli sviluppatori hanno eseguito con successo <span class="caps">MATE</span> su <a href="https://www.archlinux.org">Arch Linux</a>
+e in conseguenza della diffusa richiesta, Perberos lo rese più semplice da compilare su
 <a href="https://www.debian.org">Debian</a>.</p>
-<p><a href="https://github.com/stefano-k">Stefano Karapetsas</a> and <a href="https://github.com/clefebvre">Clement Lefebvre</a>
-then joined the project and packaged it for Debian and <a href="https://www.linuxmint.com">Linux Mint</a>.
-The <span class="caps">MATE</span>  desktop was featured in Linux Mint 12 and is now quickly gaining&nbsp;momentum.</p>
-<p>Our top priority is to improve <span class="caps">MATE</span> and for it to be on par, in terms of features
-and stability, with Gnome 2.32. We&#8217;ll port themes, applets, and applications which
-were developed for Gnome 2, and help developers port their applications to this
-new&nbsp;desktop.</p>
+<p><a href="https://github.com/stefano-k">Stefano Karapetsas</a> e <a href="https://github.com/clefebvre">Clement Lefebvre</a>
+si unirono al progetto e lo resero disponibile come pacchetti per Debian e <a href="https://www.linuxmint.com">Linux Mint</a>.
+Il desktop <span class="caps">MATE</span> è stato introdotto in Linux Mint 12 e sta rapidamente&nbsp;diffondendosi.</p>
+<p>La nostra priorità principale è migliorare <span class="caps">MATE</span> e renderlo pari, per caratteristiche e stabilità, a Gnome 2.32. Porteremo temi, applet, ed applicazioni che sono state sviluppate per Gnome 2, e nel contempo aiuteremo gli sviluppatori a portare le loro applicazioni su questo
+nuovo&nbsp;desktop.</p>
 </div>
     </div>
     </article>
@@ -440,7 +421,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

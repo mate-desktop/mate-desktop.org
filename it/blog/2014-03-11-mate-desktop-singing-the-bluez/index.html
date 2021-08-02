@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="description" content="MATE Desktop collaborates with Blueman project.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE Desktop singing the BlueZ | MATE</title>
+<title>MATE Desktop canta il BlueZ | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -25,6 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -35,10 +36,10 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Martin Wimpress">
-<link rel="prev" href="../2014-03-10-mate-desktop-gsoc-2014/" title="MATE is participating in GSoC 2014" type="text/html">
-<link rel="next" href="../2014-03-17-galculator-is-coming-to-mate/" title="galculator is coming to MATE 1.10" type="text/html">
+<link rel="prev" href="../2014-03-10-mate-desktop-gsoc-2014/" title="MATE prende parte al GSoC 2014" type="text/html">
+<link rel="next" href="../2014-03-17-galculator-is-coming-to-mate/" title="galculator sta arrivando in MATE 1.10" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE Desktop singing the BlueZ">
+<meta property="og:title" content="MATE Desktop canta il BlueZ">
 <meta property="og:url" content="https://preview.mate-desktop.dev/it/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <meta property="og:description" content="MATE Desktop collaborates with Blueman project.">
 <meta property="og:type" content="article">
@@ -62,6 +63,7 @@
 <link rel="alternate" hreflang="nl" href="../../../nl/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/2014-03-11-mate-desktop-singing-the-bluez/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/2014-03-11-mate-desktop-singing-the-bluez/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2014-03-11-mate-desktop-singing-the-bluez/">
@@ -137,7 +139,7 @@
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> Desktop singing the&nbsp;BlueZ</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> Desktop canta il&nbsp;BlueZ</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -159,31 +161,22 @@
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>The <span class="caps">MATE</span> team are delighted to announce that we are collaborating with the
-<a href="https://github.com/blueman-project/blueman">Blueman project</a> and helping to
-update Blueman to BlueZ&nbsp;5.x.</p>
-<h3>Why ditch&nbsp;mate-bluetooth?</h3>
-<p><code>mate-bluetooth</code> supports BlueZ 4.x which has been discontinued and many
-distributions have, or are about to, replace BlueZ 4.x with BlueZ 5.x in their
-respective package repositories.&nbsp;Migrating <code>mate-bluetooth</code> to BlueZ 5.x was
-shaping up to be a lot of work and doesn&#8217;t provide the range of features
-available in&nbsp;Blueman.</p>
-<h3>Why Blueman? Isn&#8217;t it&nbsp;dead?</h3>
-<p>While the original Blueman project has stagnated, <a href="https://github.com/cschramm">Christopher Schramm</a>
-has reignited the development and started porting Blueman to BlueZ 5.x. While
-there is also some effort in updating Blueman to support BlueZ 5.x we feel it
-will provide a far better Bluetooth interface for&nbsp;<span class="caps">MATE</span>.</p>
-<h3>When will the updated Blueman be&nbsp;ready?</h3>
-<p>The observant among you may have noticed that the <a href="../../../blog/2014-03-04-mate-1-8-released/"><span class="caps">MATE</span> 1.8 release announcement</a>
-already mentioned&nbsp;that <code>mate-bluetooth</code> has been replaced with Blueman and the
-even more observant will also have noticed that a fresh version of Blueman has
-not yet been released. Yeah, we suck! Sorry about&nbsp;that.</p>
-<p>While we acknowledge that we suck, we are actively contributing to the effort of
-porting Blueman to BlueZ 5.x and GObject introspection. We are hoping to have it
-ready in time for <span class="caps">MATE</span> 1.8.1 which is primarily intended as a bug fix&nbsp;release.</p>
-<h3>Can&#8217;t you do it faster, damn&nbsp;it?!</h3>
-<p>Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
-to contribute via the <a href="https://github.com/blueman-project/blueman">Blueman GitHub repository</a>.</p>
+<p>I team di <span class="caps">MATE</span> sono deliziati di annunciare che stiamo collaborando col <a href="https://github.com/blueman-project/blueman">progetto Blueman</a> ed aiutando ad aggiornare Blueman a BlueZ&nbsp;5.x.</p>
+<h3>Perché abbandonare&nbsp;mate-bluetooth?</h3>
+<p><code>mate-bluetooth</code> supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo.&nbsp;Portare <code>mate-bluetooth</code> a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in&nbsp;Blueman.</p>
+<h3>Perché Blueman? Non è un progetto&nbsp;morto?</h3>
+<p>Sebbene il progetto originale Blueman fosse stagnante, <a href="https://github.com/cschramm">Christopher Schramm</a>
+ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per&nbsp;<span class="caps">MATE</span>.</p>
+<h3>Quando sarà pronta la versione aggiornata di&nbsp;Blueman?</h3>
+<p>Gli osservatori tra voi possono aver notato che l&#8217;<a href="../../../blog/2014-03-04-mate-1-8-released/">annuncio di rilascio di <span class="caps">MATE</span> 1.8</a>
+menzionava già il fatto&nbsp;che <code>mate-bluetooth</code> è stato sostituito con Blueman
+e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
+non è ancora stata rilasciata. Si, abbiamo commesso un errore,&nbsp;scusateci.</p>
+<p>Mentre riconosciamo di aver sbagliato, stiamo attivamente contribuendo nello sforzo di portare Blueman a BlueZ 5.x e all&#8217;introspezione di GObject. Speriamo di averlo pronto
+per la versione 1.8.1 che è intesa principalmente come una versione di bug&nbsp;fix.</p>
+<h3>Non potete fare prima,&nbsp;cavolo?!</h3>
+<p>Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato 
+a contribuire attraverso il <a href="https://github.com/blueman-project/blueman">repository Blueman GitHub</a>.</p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
@@ -194,10 +187,10 @@ to contribute via the <a href="https://github.com/blueman-project/blueman">Bluem
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2014-03-10-mate-desktop-gsoc-2014/" rel="prev" title="MATE is participating in GSoC 2014">Articolo&nbsp;precedente</a>
+                <a href="../2014-03-10-mate-desktop-gsoc-2014/" rel="prev" title="MATE prende parte al GSoC 2014">Articolo&nbsp;precedente</a>
             </li>
             <li class="next">
-                <a href="../2014-03-17-galculator-is-coming-to-mate/" rel="next" title="galculator is coming to MATE 1.10">Articolo&nbsp;successivo</a>
+                <a href="../2014-03-17-galculator-is-coming-to-mate/" rel="next" title="galculator sta arrivando in MATE 1.10">Articolo&nbsp;successivo</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -236,7 +229,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

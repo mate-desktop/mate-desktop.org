@@ -3,62 +3,41 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 19:11:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/ja/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
-talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
-&lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
-creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
-and describes the features and changes added after the fork.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Changes to mate-notification-daemon</title><link>https://preview.mate-desktop.dev/ja/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The &lt;code&gt;mate-notification-daemon&lt;/code&gt; has a new feature in  MATE 1.6 that allows
-users to select which monitor they want to display notifications on. The
-current behavior only displays notifications on the monitor which is currently
-active (where the pointer is). The behavior will default to as it has always
-been, but the user can change the settings by modifying the "use-active-monitor"
-and "monitor-number" keys in via &lt;code&gt;dconf-editor&lt;/code&gt; or they can run
-&lt;code&gt;mate-notification-properties&lt;/code&gt; and edit their settings via a GUI.&lt;/p&gt;
-&lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
-to be displayed on an active monitor. Note that "Use Active Monitor" is selected,
-which disables the combobox for selecting a monitor.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 02 Aug 2021 21:09:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano さんが OpenSUSE の会議で発表しました</title><link>https://preview.mate-desktop.dev/ja/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;2013年7月20日、&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; さんが &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; の会合で MATE に関する講演を行いました！&lt;/p&gt;
+&lt;p&gt;この講演では、MATE のことを聞いたことがない人たち対して MATE を紹介し、MATE を開発する理由を説明し、また、GNOME Classic セッションと GNOME Fallback セッションの違いを説明しています。さらに、その特徴とフォーク後に追加された変更点を述べています。&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>mate-notification-daemon への変更</title><link>https://preview.mate-desktop.dev/ja/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; は MATE 1.6 の新機能で、ユーザーはどのモニターに通知を表示するか選択可能になりました。現在の動作では、現在アクティブな(ポインタがある)モニターにのみ通知が表示されます。動作のデフォルトは以前と同じですが、ユーザーは &lt;code&gt;dconf-editor&lt;/code&gt; で "use-active-monitor" キーと "monitor-number" キーを変更して設定を変更したり、&lt;code&gt;mate-notification-properties&lt;/code&gt; を実行して GUI で設定を編集することができます。&lt;/p&gt;
+&lt;p&gt;以下は、&lt;code&gt;mate-notification-properties&lt;/code&gt; のスクリーンショットで、アクティブモニタに通知を表示する設定です。「アクティブモニターを使う」が選択されていることに注意してください。これによって、モニタを選択するためのコンボボックスが無効になります。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="active" src="https://preview.mate-desktop.dev/assets/img/blog/active-300x235.png"&gt;&lt;/p&gt;
-&lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
-to be displayed on a specific monitor. Note that "Use Active Monitor" is &lt;strong&gt;not&lt;/strong&gt;
-selected, which enables the combobox for selecting the monitor to be enabled.
-The monitor number is set to 2. This will display on my third monitor, since
-counting starts at 0 instead of 1.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="monitor" src="https://preview.mate-desktop.dev/assets/img/blog/monitor-300x235.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2013-01-20-changes-to-mate-notification-daemon/</guid><pubDate>Sun, 20 Jan 2013 19:07:12 GMT</pubDate></item><item><title>MATE package repository for Fedora</title><link>https://preview.mate-desktop.dev/ja/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We are now directing users to use the official Fedora package repository now.
-For instructions on using this repository please consult &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;our installation
-guide for Fedora&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For more information about MATE's official inclusion in Fedora, see the following:&lt;/p&gt;
+&lt;p&gt;次のスクリーンショットは、特定のモニターに表示される通知に対して設定された &lt;code&gt;mate-notification-properties&lt;/code&gt; です。「アクティブモニターを使う」が&lt;strong&gt;選択されていない&lt;/strong&gt;ことに注意してください。これによって、有効にしたいモニターの選択用のコンボボックスが使用可能となります。図のモニター番号は 2 に設定されています。カウントは 1 からでなくて 0 から開始されるので、これで 3 番目のモニターに表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="monitor" src="https://preview.mate-desktop.dev/assets/img/blog/monitor-300x235.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-01-20-changes-to-mate-notification-daemon/</guid><pubDate>Sun, 20 Jan 2013 19:07:12 GMT</pubDate></item><item><title>Fedora 用の MATE パッケージリポジトリ</title><link>https://preview.mate-desktop.dev/ja/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;私たちは現在、ユーザーに正式な Fedora パッケージリのリポジトリを使用するようにお願いしています。このリポジトリの使用方法については、&lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;Fedora インストールガイド&lt;/a&gt; を参照してください。&lt;/p&gt;
+&lt;p&gt;MATE の Fedora への正式な組み入れに関する詳細については、以下を参照してください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://fedoraproject.org/wiki/Features/MATE-Desktop"&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
-for help in our &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;An &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
-is now available for our 1.4 release. As usual, follow &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you're upgrading from an older release please make sure that you remove the old
-repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/ja/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
+&lt;p&gt;Fedoraに MATE をインストールすることに関して質問がある場合は、私たちの&lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt; へ参加してください。あるいは MATE に関する一般的な質問は、&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; へ参加してください。&lt;/p&gt;&lt;/div&gt;</description><category>Fedora</category><guid>https://preview.mate-desktop.dev/ja/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>Ubuntu Quantal 用の MATE パッケージリポジトリ</title><link>https://preview.mate-desktop.dev/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Ubuntu 12.10 Quantal Quetzal 用の &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; パッケージリポジトリが 1.4 リリースで利用可能になりました。いつもの通り、&lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;次の手順&lt;/a&gt; に従ってください。&lt;/p&gt;
+&lt;p&gt;古いリリースからアップグレードする場合は、必ず古いリポジトリを削除して新しいリポジトリを追加してください。そうしないと問題が発生します。&lt;/p&gt;&lt;/div&gt;</description><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは MATE 1.4 のリリースが発表できて誇りに思います。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://i.imgur.com/V5ab0.png"&gt;&lt;/p&gt;
-&lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
+&lt;p&gt;このリリースでの主な変更点と改善点は、次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Numerous bug fixes&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; and &lt;code&gt;libmatekeyring&lt;/code&gt; backends updated and now integrate properly&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; package now available&lt;/li&gt;
-&lt;li&gt;New themes added to &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Removed &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;File sharing now available via Bluetooth&lt;/li&gt;
-&lt;li&gt;Added option to use fast alt-tabbing when compositing is enabled in &lt;code&gt;marco&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; now available&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; now available&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; now supports GDM user switching&lt;/li&gt;
-&lt;li&gt;Removed nyancat from the mate-desktop about dialog&lt;/li&gt;
-&lt;li&gt;Forked &lt;code&gt;libwnck&lt;/code&gt; as &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Caja improvements: &lt;ul&gt;
-&lt;li&gt;Restored toggle button for text based location bar&lt;/li&gt;
-&lt;li&gt;Bookmarks can now be opened in the places side pane via the enter and space keys&lt;/li&gt;
-&lt;li&gt;Added a button to get the difference between files in the file conflict dialog&lt;/li&gt;
+&lt;li&gt;多数の不具合を修正&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; と &lt;code&gt;libmatekeyring&lt;/code&gt; のバックエンドが更新され、適切に統合されるようになりました。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; パッケージが利用可能に&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; に新しいテーマを追加&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;indicator-applet-session&lt;/code&gt; を削除&lt;/li&gt;
+&lt;li&gt;Bluetooth によるファイル共有が可能に&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;marco&lt;/code&gt; でコンポーズが有効になっている場合、高速な alt-tab キー使用のオプションを追加&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; が利用可能に&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; が利用可能に&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; が GDM のユーザ切り替えをサポートするようになりました。&lt;/li&gt;
+&lt;li&gt;mate-desktop about dialog から nyancat を削除&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libwnck&lt;/code&gt; を &lt;code&gt;libmatewnck&lt;/code&gt; としてフォーク&lt;/li&gt;
+&lt;li&gt;Caja の改善: &lt;ul&gt;
+&lt;li&gt;テキストベースの場所バー用にトグルボタンを復元&lt;/li&gt;
+&lt;li&gt;Enter キーと Space キーを使用して、場所側ペインでブックマークを開けるようになりました。&lt;/li&gt;
+&lt;li&gt;ファイルの競合ダイアログで、ファイル間の差異を取得するボタンを追加&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>不具合報告に関して</title><link>https://preview.mate-desktop.dev/ja/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;私たちは現在、Perberos のサイトではなく、&lt;a href="https://github.com/mate-desktop"&gt;mate-desktop project on GitHub&lt;/a&gt; を通じて、私たちのすべての問題を処理すようなプロセスに切り替えています。理由は簡単です。もし Perberos が不在の場合、他の開発者には対処する手段がありません。これは少し混乱を引き起こします。&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>News</category><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>不具合報告に関して</title><link>https://preview.mate-desktop.dev/ja/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;私たちは現在、Perberos のサイトではなく、&lt;a href="https://github.com/mate-desktop"&gt;mate-desktop project on GitHub&lt;/a&gt; を通じて、私たちのすべての問題を処理すようなプロセスに切り替えています。理由は簡単です。もし Perberos が不在の場合、他の開発者には対処する手段がありません。これは少し混乱を引き起こします。&lt;/p&gt;
 &lt;p&gt;今では、バグを報告する際は、問題を報告すべき正しい GitHub リポジトリを選択する必要があります。このやり方は非常に簡単です。もし &lt;code&gt;mate-panel&lt;/code&gt; にバグがある場合には、&lt;code&gt;mate-panel&lt;/code&gt; の問題追跡ツールでそれを提出してください。&lt;/p&gt;
 &lt;p&gt;今後は Perberos のサイトで問題追跡を監視することはありませんので、そちらで新しいバグ報告するのはご遠慮ください。&lt;/p&gt;
 &lt;p&gt;ご協力よろしくお願いします。&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>新しい Wiki サイトやその他のお知らせ</title><link>https://preview.mate-desktop.dev/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;私たちは最近、[GitHub]のWiki(https://github.com/) から、&lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;

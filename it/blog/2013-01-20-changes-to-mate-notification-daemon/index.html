@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Changes to mate-notification-daemon | MATE</title>
+<title>Modifiche a mate-notification-daemon | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -24,6 +24,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -37,11 +38,11 @@
 <link rel="prev" href="../2012-12-27-grazie-first-colo/" title="Grazie First Colo!" type="text/html">
 <link rel="next" href="../2013-03-12-mate-university/" title="MATE University" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="Changes to mate-notification-daemon">
+<meta property="og:title" content="Modifiche a mate-notification-daemon">
 <meta property="og:url" content="https://preview.mate-desktop.dev/it/blog/2013-01-20-changes-to-mate-notification-daemon/">
-<meta property="og:description" content="The mate-notification-daemon has a new feature in  MATE 1.6 that allows
-users to select which monitor they want to display notifications on. The
-current behavior only displays notifications on the mon">
+<meta property="og:description" content="mate-notification-daemon ha una nuova funzionalità in MATE 1.6 che consente
+agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
+comportamento attuale mostrale notifiche solo s">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2013-01-20T19:07:12Z">
 <meta property="article:tag" content="News">
@@ -60,6 +61,7 @@ current behavior only displays notifications on the mon">
 <link rel="alternate" hreflang="nl" href="../../../nl/blog/2013-01-20-changes-to-mate-notification-daemon/">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/2013-01-20-changes-to-mate-notification-daemon/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/2013-01-20-changes-to-mate-notification-daemon/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/2013-01-20-changes-to-mate-notification-daemon/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/2013-01-20-changes-to-mate-notification-daemon/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/2013-01-20-changes-to-mate-notification-daemon/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2013-01-20-changes-to-mate-notification-daemon/">
@@ -135,7 +137,7 @@ current behavior only displays notifications on the mon">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Changes to&nbsp;mate-notification-daemon</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Modifiche a&nbsp;mate-notification-daemon</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -152,27 +154,22 @@ current behavior only displays notifications on the mon">
         <div class="metadata posttranslations translations">
             <h3 class="posttranslations-intro">Disponibile anche&nbsp;in:</h3>
                 <p><a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/" rel="alternate" hreflang="en">English</a></p>
+                <p><a href="../../../ja/blog/2013-01-20-changes-to-mate-notification-daemon/" rel="alternate" hreflang="ja">日本語</a></p>
                 <p><a href="../../../sr/blog/2013-01-20-changes-to-mate-notification-daemon/" rel="alternate" hreflang="sr">Српски</a></p>
         </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>The <code>mate-notification-daemon</code> has a new feature in  <span class="caps">MATE</span> 1.6 that allows
-users to select which monitor they want to display notifications on. The
-current behavior only displays notifications on the monitor which is currently
-active (where the pointer is). The behavior will default to as it has always
-been, but the user can change the settings by modifying the &#8220;use-active-monitor&#8221;
-and &#8220;monitor-number&#8221; keys in&nbsp;via <code>dconf-editor</code> or they can&nbsp;run
-<code>mate-notification-properties</code> and edit their settings via a&nbsp;<span class="caps">GUI</span>.</p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on an active monitor. Note that &#8220;Use Active Monitor&#8221; is selected,
-which disables the combobox for selecting a&nbsp;monitor.</p>
+<p><code>mate-notification-daemon</code> ha una nuova funzionalità in <span class="caps">MATE</span> 1.6 che consente
+agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
+comportamento attuale mostrale notifiche solo sul monitor correntemente attivo (cioè quello su cui si trova il puntatore del mouse). Il comportamento sarà per default quello che si è sempre avuto in precedenza, ma l&#8217;utente può cambiare le impostazioni modificando le chiavi &#8220;use-active-monitor&#8221;
+e &#8220;monitor-number&#8221;&nbsp;mediante <code>dconf-editor</code> o&nbsp;eseguendo
+<code>mate-notification-properties</code> e modificando le impostazioni da una Inerfaccia Utente&nbsp;Grafica.</p>
+<p>Qui sotto c&#8217;è uno screenshot&nbsp;di <code>mate-notification-properties</code> impostato per mostrare le notifiche su un monitor attivo. Si noti che &#8220;Use Active Monitor&#8221; è selezionato, il che disabilita la combobox per selezionare un&nbsp;monitor.</p>
 <p><img alt="active" src="../../../assets/img/blog/active-300x235.png"></p>
-<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
-to be displayed on a specific monitor. Note that &#8220;Use Active Monitor&#8221; is <strong>not</strong>
-selected, which enables the combobox for selecting the monitor to be enabled.
-The monitor number is set to 2. This will display on my third monitor, since
-counting starts at 0 instead of&nbsp;1.</p>
+<p>Qui sotto c&#8217;è uno screenshot&nbsp;di <code>mate-notification-properties</code> impostato per mostrare le notifiche su uno specifico monitor. Si noti che &#8220;Use Active Monitor&#8221; <strong>non</strong> è
+selezionato, il che abilita la combobox per selezionare un monitor da abilitare.
+Il numero del monitor è impostato a 2. Questo mostrerà le notifiche sul mio terzo monitor, perché la numerazione inizia da 0 invece che da&nbsp;1..</p>
 <p><img alt="monitor" src="../../../assets/img/blog/monitor-300x235.png"></p>
 </div>
     </div>
@@ -223,7 +220,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

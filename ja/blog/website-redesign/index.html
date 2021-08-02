@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Website re-design | MATE</title>
+<title>ウェブサイトのデザイン変更 | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -24,6 +24,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -34,16 +35,14 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Martin Wimpress">
-<link rel="prev" href="../2013-08-10-mate-package-repository-for-opensuse/" title="New repositories for openSUSE" type="text/html">
-<link rel="next" href="../2013-11-08-mate-at-opensuse-summit/" title="MATE at openSUSE Summit" type="text/html">
+<link rel="prev" href="../2013-08-10-mate-package-repository-for-opensuse/" title="openSUSE 用の新しいリポジトリ" type="text/html">
+<link rel="next" href="../2013-11-08-mate-at-opensuse-summit/" title="openSUSE サミットで MATE が話題に" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="Website re-design">
+<meta property="og:title" content="ウェブサイトのデザイン変更">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/website-redesign/">
-<meta property="og:description" content="We have given the MATE website a make-over and also migrated from
-Wordpress to Nikola
-in the process.
-The main objective of the re-design is to create simple, elegant site
-that helps you find the info">
+<meta property="og:description" content="私たちは MATE のウェブサイトを作り直し、Wordpress から Nikola へと移行しました。
+再設計の主な目的は、探している情報をすばやく見つけるのに役立つように、シンプルでエレガントなサイトを作成することです。たいていの MATE リソースへのアクセスは、ホームページから 2回以上クリックする必要がなくなりました。
+第2の目的は、開発者等と貢献者等が使い慣れたワークフローを使用してコ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2013-10-31T12:15:00Z">
 <meta property="article:tag" content="News">
@@ -62,6 +61,7 @@ that helps you find the info">
 <link rel="alternate" hreflang="nl" href="../../../nl/blog/website-redesign/">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/website-redesign/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/website-redesign/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/website-redesign/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/website-redesign/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/website-redesign/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/website-redesign/">
@@ -137,7 +137,7 @@ that helps you find the info">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Website&nbsp;re-design</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">ウェブサイトのデザイン変更</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -151,35 +151,20 @@ that helps you find the info">
 
         </div>
         
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">他の言語で読む:</h3>
+                <p><a href="../../../blog/website-redesign/" rel="alternate" hreflang="en">English</a></p>
+                <p><a href="../../../it/blog/website-redesign/" rel="alternate" hreflang="it">Italiano</a></p>
+                <p><a href="../../../sr/blog/website-redesign/" rel="alternate" hreflang="sr">Српски</a></p>
+        </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>We have given the <span class="caps">MATE</span> website a make-over and also migrated from
-<a href="https://www.wordpress.org">Wordpress</a> to <a href="https://getnikola.com">Nikola</a>
-in the&nbsp;process.</p>
-<p>The main objective of the re-design is to create simple, elegant site
-that helps you find the information you&#8217;re looking for quickly. Access
-to most <span class="caps">MATE</span> resources should be no more than two clicks from the&nbsp;homepage.</p>
-<p>A secondary objective was to migrate to a content management system with
-a work-flow the developers and contributors are more familiar with
-and that also facilitates contributions from the wider community. This
-is the principile reason we migrated to Nikola, which is a static site&nbsp;generator.</p>
-<p>Anyone can submit a new blog post, corrections or translations to the <span class="caps">MATE</span>
-website by creating a free account on <a href="Markdown">GitHub</a>, forking the 
-<a href="https://github.com/mate-desktop/mate-desktop.org">mate-desktop.org repository</a>
-and <a href="https://help.github.com/articles/creating-a-pull-request">creating a pull-request</a>.
-Pull-requests for mate-desktop.org will be reviewed by our Webmasters,
-merged and published here. The are some
-<a href="https://getnikola.com/handbook.html#why-static">other benefits of using a static site generator</a>.</p>
-<p>Unfortunately, we have decided not to migrate comments from the old
-website. From this point forward each new blog post will be linked to 
-a topic in the [<span class="caps">MATE</span> forums]. We are
-doing this because we already have a
-[dedicated team of forum moderators]
-and don&#8217;t want to draw on their limited time by asking them to moderate
-blog comments on a 3rd party comment provider. Besides, this approach will
-drive more readers to the <span class="caps">MATE</span> forums and will hope fully help grow and
-develop the community. We hope you understand our&nbsp;decision.</p>
+<p>私たちは <span class="caps">MATE</span> のウェブサイトを作り直し、<a href="https://www.wordpress.org">Wordpress</a> から <a href="https://getnikola.com">Nikola</a>&nbsp;へと移行しました。</p>
+<p>再設計の主な目的は、探している情報をすばやく見つけるのに役立つように、シンプルでエレガントなサイトを作成することです。たいていの <span class="caps">MATE</span> リソースへのアクセスは、ホームページから&nbsp;2回以上クリックする必要がなくなりました。</p>
+<p>第2の目的は、開発者等と貢献者等が使い慣れたワークフローを使用してコンテンツ管理システムに移行することです。これによって、より広範なコミュニティからの貢献が促進されます。これが、静的なサイトを生成する Nikola&nbsp;へ移行した主な理由です。</p>
+<p><a href="Markdown">GitHub</a> に無料のアカウントを作って、<a href="https://github.com/mate-desktop/mate-desktop.org">mate-desktop.org repository</a> をフォークし、<a href="https://help.github.com/articles/creating-a-pull-request">pull-requestを作ること</a> をすれば、誰でもMATE のウェブサイトに新しいブログ記事や訂正、翻訳を投稿することができます。mate-desktop.org の pull-requests は私たちの Webmasters によってレビューされ、マージされてここで公開されます。また、<a href="https://getnikola.com/handbook.html#why-static">静的サイト生成器を使うことで他の利点</a>もあります。</p>
+<p>残念ながら、私たちは古いウェブサイトにあったコメントを移行しないことにしました。この時点から、新しいブログ記事は [<span class="caps">MATE</span> フォーラム]内の話題にリンクされます。これを行っているのは、すでに[フォーラム・モデレーターの専任チーム]がいるからです。サードパーティのコメントプロバイダーに対してブログコメントをモデレートするよう依頼し、彼らの限られた時間を無駄にしたくないからです。さらに、このアプローチは <span class="caps">MATE</span>&nbsp;フォーラムへより多くの読者を集約して、コミュニティの成長と発展に大いに役立つことを期待しています。このたびの私たちの決定をご理解願います。</p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
@@ -187,10 +172,10 @@ develop the community. We hope you understand our&nbsp;decision.</p>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2013-08-10-mate-package-repository-for-opensuse/" rel="prev" title="New repositories for openSUSE">一つ前の記事</a>
+                <a href="../2013-08-10-mate-package-repository-for-opensuse/" rel="prev" title="openSUSE 用の新しいリポジトリ">一つ前の記事</a>
             </li>
             <li class="next">
-                <a href="../2013-11-08-mate-at-opensuse-summit/" rel="next" title="MATE at openSUSE Summit">次の記事</a>
+                <a href="../2013-11-08-mate-at-opensuse-summit/" rel="next" title="openSUSE サミットで MATE が話題に">次の記事</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -229,7 +214,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.6 released | MATE</title>
+<title>MATE 1.6 リリース | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -24,6 +24,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (nl)" hreflang="nl" href="../../../nl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -34,14 +35,15 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Stefano Karapetsas">
-<link rel="prev" href="../2013-03-26-new-themes/" title="New themes" type="text/html">
-<link rel="next" href="../2013-07-21-stefano-presents-at-opensuse-conference/" title="Stefano presents at openSUSE conference" type="text/html">
+<link rel="prev" href="../2013-03-26-new-themes/" title="新しいテーマ" type="text/html">
+<link rel="next" href="../2013-07-21-stefano-presents-at-opensuse-conference/" title="Stefano さんが OpenSUSE の会議で発表しました" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.6 released">
+<meta property="og:title" content="MATE 1.6 リリース">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/">
-<meta property="og:description" content="The team is proud to announce the release of MATE Desktop 1.6. This release is
-a giant step forward from the 1.4 release. In this release, we have replaced
-many deprecated packages and libraries with ">
+<meta property="og:description" content="当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。
+
+1.6 の主な変更点は次のとおりです。
+syste">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2013-04-02T19:23:50Z">
 <meta property="article:tag" content="Fedora">
@@ -64,6 +66,7 @@ many deprecated packages and libraries with ">
 <link rel="alternate" hreflang="nl" href="../../../nl/blog/2013-04-02-mate-1-6-released/">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/2013-04-02-mate-1-6-released/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/2013-04-02-mate-1-6-released/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/2013-04-02-mate-1-6-released/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/2013-04-02-mate-1-6-released/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/2013-04-02-mate-1-6-released/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2013-04-02-mate-1-6-released/">
@@ -139,7 +142,7 @@ many deprecated packages and libraries with ">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.6&nbsp;released</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.6&nbsp;リリース</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -153,95 +156,97 @@ many deprecated packages and libraries with ">
 
         </div>
         
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">他の言語で読む:</h3>
+                <p><a href="../../../blog/2013-04-02-mate-1-6-released/" rel="alternate" hreflang="en">English</a></p>
+                <p><a href="../../../it/blog/2013-04-02-mate-1-6-released/" rel="alternate" hreflang="it">Italiano</a></p>
+        </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>The team is proud to announce the release of <span class="caps">MATE</span> Desktop 1.6. This release is
-a giant step forward from the 1.4 release. In this release, we have replaced
-many deprecated packages and libraries with new technologies available in
-GLib. We have also added a lot of new features to <span class="caps">MATE</span>. We would like to thank
-every <span class="caps">MATE</span> contributor and&nbsp;user.</p>
+<p>当チームは、<span class="caps">MATE</span> デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、<span class="caps">MATE</span> に多くの新機能を追加しました。<span class="caps">MATE</span>&nbsp;貢献者とユーザーの皆さんに感謝します。</p>
 <p><img alt="about" src="../../../assets/img/blog/about-mate-1.6.png"></p>
-<p>Main changes in 1.6&nbsp;are:</p>
-<p><strong>systemd <span class="amp">&amp;</span> logind&nbsp;support</strong></p>
-<ul>
-<li>Added support&nbsp;for <code>systemd-logind</code> in <code>mate-session-manager</code>, <code>mate-screensaver</code>
-  and <code>mate-power-manager</code> (now you can reboot/shutdown without&nbsp;ConsoleKit)</li>
-</ul>
-<p><strong>Caja (file&nbsp;manager)</strong></p>
-<ul>
-<li>Improved places&nbsp;sidebar</li>
-<li>Added support for new thumbnailers&nbsp;specification</li>
-<li>Added a new frame for&nbsp;thumbnails </li>
-<li>Wallpapers are now cached for a better memory&nbsp;management</li>
-<li>New connect server dialog from Nautilus&nbsp;3</li>
-<li>Added support for&nbsp;freedesktop.org</li>
-<li>File Manager DBus&nbsp;Interface</li>
-<li>Fixed back vs parent directory&nbsp;selection</li>
-<li>Open terminal extension now support opening a remote&nbsp;terminal </li>
-</ul>
-<p><strong>Panel</strong></p>
-<ul>
-<li>Added <code>--run-dialog</code> option to open the run dialog window Window list: you can 
-  use the mouse middle click button to close a window Workspace&nbsp;switcher: </li>
-<li>Added an option to wrap around between workspaces with the mouse&nbsp;wheel</li>
-<li>Added a simple way for distributions to override the default panel layout
-  Unfortunately, due to migration to GSettings, you will lose your current panel layout.
-  All other settings will be migrated if you have MateConf 1.4&nbsp;installed.</li>
-</ul>
-<p><strong> Marco (window&nbsp;manager)</strong></p>
-<ul>
-<li>Added option to open new windows on the center of the&nbsp;screen</li>
-</ul>
-<p><strong>Control&nbsp;center</strong></p>
-<ul>
-<li>Added option to enable Marco compositing manager and fast alt-tab in window&nbsp;preferences</li>
-<li>Set GSettings/GConf metacity theme if compiz or metacity are&nbsp;running</li>
-<li>Use same <span class="caps">GNOME</span> proxy settings&nbsp;of <code>gsettings-desktop-schemas</code> package</li>
-<li>Default applications: allow to set default&nbsp;terminal</li>
-</ul>
-<p><strong>Atril (document&nbsp;viewer)</strong></p>
-<ul>
-<li>Added <span class="caps">XPS</span>&nbsp;backend </li>
-</ul>
-<p><strong>Calc</strong></p>
-<ul>
-<li>Updated&nbsp;codebase</li>
-<li>Added buttons to support inverse trigonomic&nbsp;functions </li>
-</ul>
-<p><strong>Notification&nbsp;daemon</strong></p>
-<ul>
-<li>Added option to <a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/">specify which screen to display notifications&nbsp;on</a>
-</li>
-<li>Show always a notification if it has &#8216;expires never&#8217; as timeout (also if screensaver is active or there are active fullscreen&nbsp;windows) </li>
-</ul>
-<p><strong>Themes</strong></p>
+<p>1.6&nbsp;の主な変更点は次のとおりです。</p>
+<p><strong>systemd と logind&nbsp;のサポート</strong></p>
 <ul>
 <li>
-<a href="../../../blog/2013-03-26-new-themes/">New <span class="caps">GTK2</span>/3 themes</a> (Menta, BlackMATE, GreenLaguna,&nbsp;TraditionalGreen)</li>
-<li>Added <span class="caps">GTK3</span> support for other <span class="caps">GTK2</span> themes (TraditionalOk, TraditionalOkTest,&nbsp;ContrastHigh) </li>
-<li>Enabled text preview for text&nbsp;files</li>
-<li>Added some new&nbsp;icons </li>
+<code>mate-session-manager</code> と <code>mate-screensaver</code> に <code>systemd-logind</code> のサポートを追加&nbsp;それと <code>mate-power-manager</code> (ConsoleKit&nbsp;なしで再起動/シャットダウン可能になりました)</li>
 </ul>
-<p><strong>Settings&nbsp;daemon</strong></p>
+<p><strong>Caja&nbsp;(ファイルマネージャ)</strong></p>
 <ul>
-<li>Added support for <span class="caps">MPRIS2</span> to send media keys to media&nbsp;players</li>
-<li>Added option to draw the background if Caja is not&nbsp;active</li>
-<li>The daemon is now restarted&nbsp;by <code>mate-session</code> if it&nbsp;crashes </li>
+<li>場所サイドバーを改善</li>
+<li>新しいサムネイル仕様のサポートを追加</li>
+<li>サムネイル用の新しいフレームを追加</li>
+<li>壁紙がキャッシュされてメモリ管理が向上</li>
+<li>Nautilus 3&nbsp;の新しい接続サーバダイアログ</li>
+<li>freedesktop.org&nbsp;のサポートを追加</li>
+<li>ファイルマネージャ DBus&nbsp;インタフェース</li>
+<li>固定されたバックディレクトリと親ディレクトリの選択</li>
+<li>Open Terminal Extension&nbsp;でリモート端末の開始をサポート</li>
 </ul>
-<p><strong>Netbook&nbsp;applet</strong></p>
+<p><strong>パネル</strong></p>
 <ul>
-<li>Enable maximus only when window picker applet is added to the&nbsp;panel</li>
+<li>実行ダイアログウィンドウを開くための <code>--run-dialog</code> オプションを追加。ウィンドウリスト: 次のことが可能&nbsp;マウスの中ボタンを使用してウィンドウのワークスペース切替を閉じます:</li>
+<li>マウスホイールを使用してワークスペース間をラップアラウンドするオプション追加</li>
+<li>既定のパネルレイアウトを変更するための簡単な配布方法を追加
+  残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
+  もし MateConf 1.4&nbsp;がインストールされている場合には、他のすべての設定が移行されます。</li>
 </ul>
-<p><strong>Dropped&nbsp;packages</strong></p>
+<p><strong> Marco&nbsp;(ウィンドウマネージャ)</strong></p>
 <ul>
-<li>Replaced MateConf with&nbsp;GSettings</li>
-<li>Replaced MateCorba/MateComponent with&nbsp;DBus</li>
-<li>Replaced MateVfs with&nbsp;<span class="caps">GIO</span>/<span class="caps">GVFS</span></li>
-<li>Replaced <code>libmatenotify</code> with <code>libnotify</code>
-</li>
-<li>Removed <code>libmate</code> (mate-open replaced with gvfs-open, GSettings schemas moved to mate-desktop&nbsp;package </li>
-<li>Removed deprecated packages<ul>
+<li>画面の中央に新規ウィンドウを開くオプションを追加</li>
+</ul>
+<p><strong>コントロールセンタ</strong></p>
+<ul>
+<li>ウィンドウの設定で、Marco コンポジットマネージャと fast alt-tab&nbsp;を有効にするオプションを追加</li>
+<li>compiz または metacity が実行されている場合、GSettings/GConf metacity theme&nbsp;を設定</li>
+<li>
+<code>gsettings-desktop-schemas</code> パッケージと同じ <span class="caps">GNOME</span> proxy settings&nbsp;を使用</li>
+<li>既定のアプリケーション:&nbsp;既定の端末を設定できるよう許可</li>
+</ul>
+<p><strong>Atril&nbsp;(文書ビューア)</strong></p>
+<ul>
+<li><span class="caps">XPS</span>&nbsp;バックエンドの追加</li>
+</ul>
+<p><strong>Calc&nbsp;電卓</strong></p>
+<ul>
+<li>コードベースの更新</li>
+<li>逆三角関数機能をサポートするボタンの追加</li>
+</ul>
+<p><strong>通知デーモン</strong></p>
+<ul>
+<li>
+<a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/">通知を表示する画面を指定する</a>&nbsp;オプションが追加されました。</li>
+<li>タイムアウトとして &#8216;expires never&#8217; が設定したる場合は常に通知を表示&nbsp;(スクリーンセーバーがアクティブであるか、アクティブな全画面がある場合も同じ)</li>
+</ul>
+<p><strong>テーマ</strong></p>
+<ul>
+<li>
+<a href="../../../blog/2013-03-26-new-themes/">新しい <span class="caps">GTK2</span>/3 テーマ</a> (Menta、ブラック <span class="caps">MATE</span>、グリーン Laguna、トラディショナル&nbsp;Green)</li>
+<li>その他の <span class="caps">GTK2</span> テーマ (TraditionalOk, TraditionalOkTest, ContrastHigh) に対する <span class="caps">GTK3</span>&nbsp;サポートを追加</li>
+<li>テキストファイルのプレビューを有効に</li>
+<li>新しいアイコンを追加</li>
+</ul>
+<p><strong>デーモン設定</strong></p>
+<ul>
+<li>メディアキーをメディアプレーヤーに送信するための <span class="caps">MPRIS2</span>&nbsp;サポートを追加</li>
+<li>Caja&nbsp;が非アクティブ時に背景を描画するオプションの追加</li>
+<li>デーモンがクラッシュした場合は、<code>mate-session</code> によって再起動されます。</li>
+</ul>
+<p><strong>Netbook&nbsp;アプレット</strong></p>
+<ul>
+<li>ウィンドウピッカーアプレットがパネルに追加された時のみ、最大化を有効に</li>
+</ul>
+<p><strong>削除されたパッケージ</strong></p>
+<ul>
+<li>MateConf を GSettings&nbsp;へ置き換え</li>
+<li>MateCorba/MateComponent を DBus&nbsp;へ置き換え</li>
+<li>MateVfs を <span class="caps">GIO</span>/<span class="caps">GVFS</span>&nbsp;へ置き換え</li>
+<li>
+<code>libmatenotify</code> を <code>libnotify</code> へ置き換え</li>
+<li>
+<code>libmate</code> を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package&nbsp;へ移動</li>
+<li>非推奨パッケージの削除<ul>
 <li><code>libmateui</code></li>
 <li><code>libmatecanvas</code></li>
 <li><code>libmatecomponentui</code></li>
@@ -249,73 +254,34 @@ every <span class="caps">MATE</span> contributor and&nbsp;user.</p>
 </ul>
 </li>
 </ul>
-<p><strong>Other&nbsp;improvements</strong></p>
+<p><strong>その他の改善</strong></p>
 <ul>
-<li>Fixed a lot of code&nbsp;deprecations</li>
-<li>Fixed a lot of&nbsp;bugs</li>
-<li>Added and improved a lot of&nbsp;translations </li>
+<li>多くのコードの非推奨事項を修正</li>
+<li>多くの不具合を修正</li>
+<li>多数の翻訳の追加と改善</li>
 </ul>
-<p>We asked people from distributions that ship <span class="caps">MATE</span> what they think about our
-Desktop&nbsp;Environment.</p>
-<p><strong>George Vlahavas</strong>, <a href="https://www.salixos.org/">Salix</a> founder and project&nbsp;leader:</p>
+<p><span class="caps">MATE</span> を配布しているディストリビューションの人々に、<span class="caps">MATE</span>&nbsp;デスクトップ環境についてどのように考えているかを尋ねました。</p>
+<p><strong>George Vlahavas</strong>, <a href="https://www.salixos.org/">Salix</a>&nbsp;創設者・プロジェクトリーダー:</p>
 <blockquote>
-<p>We believe <span class="caps">MATE</span> is a perfect match for Salix. <span class="caps">MATE</span> provides us with a familiar
-desktop environment that is powerful, solid and fast. Also, the <span class="caps">MATE</span> team are
-very friendly and a pleasure to work with and this means a lot to us. Thanks for
-giving us the choice of sticking with our favourite desktop&nbsp;guys</p>
+<p>私たちは <span class="caps">MATE</span> が Salix にぴったりだと信じています。<span class="caps">MATE</span> は、パワフル、堅牢かつ高速で、使い慣れたデスクトップ環境を提供してくれます。また、<span class="caps">MATE</span>&nbsp;チームはとてもフレンドリーで、一緒に仕事ができてとても楽しいです。これは私たちにとって大きな意味があります。お気に入りのデスクトップの人たちと一緒に仕事をする選択肢を与えてくれてありがとう。</p>
 </blockquote>
-<p><strong>Clement Lefebvre</strong>, <a href="https://www.linuxmint.com/">Linux Mint</a> founder and project&nbsp;leader:</p>
+<p><strong>Clement Lefebvre</strong>, <a href="https://www.linuxmint.com/">Linux Mint</a>&nbsp;創設者・プロジェクトリーダー:</p>
 <blockquote>
-<p>It&#8217;s extremely important to us that people are happy with their computer. When that
-environment we all loved and worked hard to improve since 2006 was
-discontinued we weren&#8217;t happy to let it go and to ask people to migrate to
-something new or something different. We worked really hard on making sure our
-users could continue to use their computer the way they wanted and we met a
-team of like-minded people who had taken the initiative to support that
-environment and to develop it even further. Mint and <span class="caps">MATE</span> go hand in hand and
-the relationship between the teams is excellent. Mint played an important role
-in the promotion and backing of <span class="caps">MATE</span> and we continue to help with its
-development. We&#8217;re very pleased with <span class="caps">MATE</span>, it&#8217;s exactly what we wanted, it
-started where <span class="caps">GNOME</span> left off and with each new iteration it keeps getting&nbsp;better.</p>
+<p>私たちにとって、人々がコンピュータに満足していることは非常に重要です。私たち全員が愛し、2006年以来改善しようと努力してきた環境が廃止されたとき、私たちはそれを手放して、人々に何か新しいものや何か別のものへの移行を依頼することに満足しませんでした。私たちは、私たちのユーザーが彼らの望むようにコンピュータを使い続けることができるようにするために本当に努力しました。そして私たちは、その環境をサポートし、それをさらに発展させるために率先して取り組んできた、同じような考えを持つ人々のチームに出会いました。Mint と <span class="caps">MATE</span> は密接に連携しており、チーム間の関係は素晴らしいものです。Mint は <span class="caps">MATE</span> の促進と支援において重要な役割を果たし、私たちはその開発を引き続き支援しています。私たちは <span class="caps">MATE</span> に非常に満足しています。それは <span class="caps">GNOME</span>&nbsp;が中断したところから始まり、新しく繰り返すことで改善され続けます。</p>
 </blockquote>
-<p><strong>Joost Ruis</strong>, strategy consultant of <a href="https://www.sabayon.org/">Sabayon</a>: </p>
+<p><strong>Joost Ruis</strong>, <a href="https://www.sabayon.org/">Sabayon</a>&nbsp;戦略コンサルタント: </p>
 <blockquote>
-<p>We don&#8217;t like how upstream forced changes to users and want our users to have
-the option to decide what to use. With <span class="caps">MATE</span> in our repositories we are certain
-our users can always choose what works best for&nbsp;them.</p>
+<p>私たちは、アップストリームがユーザーに変更を強制する方法が気に入らないので、ユーザーが何を使用するかを選択できるようにしたいと思っています。私たちのリポジトリに <span class="caps">MATE</span>&nbsp;を使用することで、私たちのユーザーは、各自にとって最適なものをいつでも選択できるようになります。</p>
 </blockquote>
-<p><strong>Dan Mashal</strong>, <span class="caps">MATE</span> maintainer in <a href="https://fedoraproject.org/">Fedora</a>: </p>
+<p><strong>Dan Mashal</strong>, <a href="https://fedoraproject.org/">Fedora</a> の <span class="caps">MATE</span>&nbsp;メンテナ: </p>
 <blockquote>
-<p>Ever since the release of Fedora 15 was released I was extremely unhappy and
-frustrated with my desktop experience until I discovered <span class="caps">MATE</span>. Now on Fedora I
-can finally have a desktop that is sane, stable, fast and most importantly easy
-to use. With the hard work the team has done to also patch compiz to work on
-the newer releases of Fedora I can now have my Fedora 14 (considered by most to
-be the best release of Fedora) experience back with wobbly windows, desktop
-cube, animations, and 3d effects. I can&#8217;t stress how big of a loss this was to many users including
-myself. Now with <span class="caps">MATE</span> I don&#8217;t have to worry about what is going to break with
-the next Gnome release and what crazy design ideas they are going to have
-making me have to relearn a desktop interface every single Fedora release.
-With <span class="caps">MATE</span> 1.6 I can feel right back at home on my favorite Linux distribution
-and get back to&nbsp;work.</p>
+<p>Fedora 15 がリリースされて以来、私は <span class="caps">MATE</span> を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。<span class="caps">MATE</span> チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、<span class="caps">MATE</span> を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。<span class="caps">MATE</span> 1.6 を使えば、自宅でお気に入りの Linux&nbsp;ディストリビューションを使って仕事に戻ることができます。</p>
 </blockquote>
-<p>We also asked for a comment from the
-<a href="../../../blog/2012-12-27-thank-you-first-colo/">company who donated the server where we host <span class="caps">MATE</span> services</a>. <strong>Martin Verges</strong>, <span class="caps">CEO</span> of <a href="https://www.first-colo.net/en/">FirstColo GmbH</a>:</p>
+<p>私たちはまた、<a href="../../../blog/2012-12-27-thank-you-first-colo/"><span class="caps">MATE</span> サービスのホスト用サーバを寄付された企業</a> コメントをいただきました。以下は <a href="https://www.first-colo.net/en/">FirstColo GmbH</a> の <span class="caps">CEO</span> <strong>Martin Verges</strong>&nbsp;氏からです。</p>
 <blockquote>
-<p>We are really happy to use the <span class="caps">MATE</span> Desktop Environment. This way we can keep a clean and well
-working desktop without lots of useless and distracting stuff. Until the end
-of 2012 our whole company were working with Ubuntu, but with the Unity Desktop
-and many other &#8220;end user features&#8221;, we were searching for new ways to get a
-desktop, free of software that pretends to make our lives easier. With <span class="caps">MATE</span>
-Desktop on Debian 7 Wheezy, we found a good working, high performance desktop
-that just works as we know it from years. We hope that the <span class="caps">MATE</span> Team will keep
-our classic Linux Desktop and bring to it new life some with new features, but
-with the good workflow kept in hand. So far, they have done great job, and we
-hope that soon the Debian Maintainers will add the <span class="caps">MATE</span> Desktop to their
-mirrors (and of course, that many others will use <span class="caps">MATE</span>&nbsp;too!).</p>
+<p>私たちは <span class="caps">MATE</span> デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップやフリーなソフトウェアを探していました。Debian 7 Wheezy 上の <span class="caps">MATE</span> デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは <span class="caps">MATE</span> チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに <span class="caps">MATE</span> デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も <span class="caps">MATE</span>&nbsp;を使うことでしょう！)。</p>
 </blockquote>
-<p><span class="caps">MATE</span> 1.6 is the result of 8 months of intense development and contains 1800
-contributions by 39 people, and more than 150&nbsp;translators. </p>
+<p><span class="caps">MATE</span> 1.6 は、8ヶ月に及ぶ精力的な開発の成果であり、39名の人々が行った 1800件の寄与、および&nbsp;150名以上の翻訳者による成果です。</p>
 <ul>
 <li><a href="../../../gallery/1.6/"><span class="caps">MATE</span> 1.6&nbsp;Screenshots</a></li>
 </ul>
@@ -330,10 +296,10 @@ contributions by 39 people, and more than 150&nbsp;translators. </p>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2013-03-26-new-themes/" rel="prev" title="New themes">一つ前の記事</a>
+                <a href="../2013-03-26-new-themes/" rel="prev" title="新しいテーマ">一つ前の記事</a>
             </li>
             <li class="next">
-                <a href="../2013-07-21-stefano-presents-at-opensuse-conference/" rel="next" title="Stefano presents at openSUSE conference">次の記事</a>
+                <a href="../2013-07-21-stefano-presents-at-opensuse-conference/" rel="next" title="Stefano さんが OpenSUSE の会議で発表しました">次の記事</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -372,7 +338,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3c7fa2b4f0f7"],
+    texts : ["Preview Website", "MATE Desktop", "39573db6059b"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

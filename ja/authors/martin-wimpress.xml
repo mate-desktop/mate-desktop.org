@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 17 Jul 2021 19:11:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 02 Aug 2021 21:09:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
 announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
 contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
@@ -1627,47 +1627,43 @@ Desktop 1.16 still relied on.&lt;/p&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
 &lt;li&gt;support GTK+3 only: require Caja 1.17.1 and pygobject-3.0&lt;/li&gt;
 &lt;li&gt;drop ancient check for Python 2.5, not needed these days&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Server Outage</title><link>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The server that runs this website went offline without notice yesterday.
-We don't know why and we've had no contact from our server host. &lt;strong&gt;We do
-have complete backups, no data has been lost.&lt;/strong&gt; We've started to restore
-services and the outstanding service will be reinstated as time permits
-over the holiday period.&lt;/p&gt;
-&lt;p&gt;We will update this page as services come back online.&lt;/p&gt;
-&lt;h3&gt;What is the impact?&lt;/h3&gt;
-&lt;p&gt;This services are currently down, listed in order of restore priority&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>サーバの障害</title><link>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;このウェブサイトを実行しているサーバは、昨日予告なしにオフラインになりました。理由は不明ですが、サーバホストからの連絡はありませんでした。&lt;strong&gt;バックアップは完了しており、データは少しも失われていません。&lt;/strong&gt; サービスの復帰を開始しました。未解決のサービスは、休暇期間中の時間が許す限り復旧される予定です。&lt;/p&gt;
+&lt;p&gt;サービスがオンラインに戻ったら、このページを更新します。&lt;/p&gt;
+&lt;h3&gt;どのような影響がありますか？&lt;/h3&gt;
+&lt;p&gt;このサービスは現在停止中です。復旧の際は優先度の高い順に表示されます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; - The mailing lists, which are rarely used.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; - The forums, which we started shutting down earlier in the year and are locked.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; - これはほとんど使用されないメーリングリストです。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; - フォーラムは、私たちが今年初めに閉鎖を開始して、ロックされています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;What has been restored?&lt;/h3&gt;
+&lt;h3&gt;何が復旧したのですか？&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mate-desktop.org"&gt;https://www.mate-desktop.org&lt;/a&gt; - This website&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pub.mate-desktop.org"&gt;https://pub.mate-desktop.org&lt;/a&gt; - Where you can find the tarballs of MATE Desktop releases.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;https://wiki.mate-desktop.org/#!index.md&lt;/a&gt; - The developer wiki.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://git.mate-desktop.org"&gt;https://git.mate-desktop.org&lt;/a&gt; - This is a mirror of the &lt;a href="https://github.com/mate-desktop"&gt;MATE Desktop GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://planet.mate-desktop.org"&gt;https://planet.mate-desktop.org&lt;/a&gt; - The MATE Desktop planet.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - Mail server for developers.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mate-desktop.org"&gt;https://www.mate-desktop.org&lt;/a&gt; - 当ウェブサイト&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pub.mate-desktop.org"&gt;https://pub.mate-desktop.org&lt;/a&gt; - MATE デスクトップのリリースの tarball が置かれている場所。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;https://wiki.mate-desktop.org/#!index.md&lt;/a&gt; - 開発者向け Wiki サイト。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://git.mate-desktop.org"&gt;https://git.mate-desktop.org&lt;/a&gt; - これは &lt;a href="https://github.com/mate-desktop"&gt;MATE デスクトップ GitHub&lt;/a&gt; のミラーです。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://planet.mate-desktop.org"&gt;https://planet.mate-desktop.org&lt;/a&gt; - MATE デスクトップ・プラネット。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - 開発者用メールサーバ。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Update&lt;/h3&gt;
-&lt;h4&gt;21st December&lt;/h4&gt;
+&lt;h3&gt;更新&lt;/h3&gt;
+&lt;h4&gt;12月21日&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.bytemark.co.uk/r/ubuntu-mate/"&gt;Bytemark&lt;/a&gt; offer to sponsor MATE Desktop hosting to help us overcome the server outage with our previous provider.&lt;/li&gt;
-&lt;li&gt;Restored &lt;code&gt;www.mate-desktop.org&lt;/code&gt; and &lt;code&gt;pub.mate-desktop.org&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bytemark.co.uk/r/ubuntu-mate/"&gt;Bytemark&lt;/a&gt; が MATE デスクトップのホストスポンサーになるとの申出を受けたので、以前のプロバイダによるサーバ停止から復旧するのに役立ちました。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;www.mate-desktop.org&lt;/code&gt; と &lt;code&gt;pub.mate-desktop.org&lt;/code&gt; が復旧。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;22nd December&lt;/h4&gt;
+&lt;h4&gt;12月22日&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Restored &lt;code&gt;wiki.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Restored &lt;code&gt;git.mate-desktop.org&lt;/code&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wiki.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;23nd December&lt;/h4&gt;
+&lt;h4&gt;12月23日&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Restored &lt;code&gt;planet.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;planet.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;2nd January&lt;/h4&gt;
+&lt;h4&gt;１月2日&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Restored &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
+&lt;p&gt;この度はご迷惑をお掛けして申しわけありません。&lt;/p&gt;&lt;/div&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;

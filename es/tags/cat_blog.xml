@@ -3,16 +3,14 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 18 Jul 2021 09:03:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 actualizado</title><link>https://preview.mate-desktop.dev/es/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.24. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 02 Aug 2021 21:10:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 actualizado</title><link>https://preview.mate-desktop.dev/es/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.24. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Acerca de MATE" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.24.es.png" width="50%"&gt;&lt;/p&gt;
 &lt;h3&gt;¿Qué hay de nuevo en MATE 1.24?&lt;/h3&gt;
 &lt;p&gt;En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hechos muchas mejoras en general. Algunos de los ejemplos más visibles son:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lo hicimos nuevamente, el entorno de escritorio MATE es más fácil de usar desde que el usuario inicia la sesión. ¿Quieres ocultar el inicio de aplicaciones? Ahora puede establecer qué aplicaciones mostrar al inicio.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Engrampa&lt;/strong&gt; ahora tiene soporte para algunos formatos de archivos nuevos&lt;ul&gt;
-&lt;li&gt;También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de ellos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engrampa&lt;/strong&gt; ahora tiene soporte para algunos formatos de archivos nuevos
+También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de ellos.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Eye of MATE&lt;/strong&gt; ahora funciona en &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt; y hemos añadido soporte para perfiles de colores.&lt;ul&gt;
 &lt;li&gt;La generación de imagenes en miniatura ha sido modificada y arreglada a través de la aplicación.&lt;/li&gt;
 &lt;li&gt;Añadimos soporte para archivos webp.&lt;/li&gt;
@@ -21,8 +19,8 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Nuestro administrador de ventanas, &lt;strong&gt;marco&lt;/strong&gt;, ha tenido bastantes cambios:&lt;ul&gt;
 &lt;li&gt;Hemos traido un montón de decoraciones desde el pasado para alimentar tu nostalgia.&lt;/li&gt;
 &lt;li&gt;Finalmente hemos añadido bordes invisibles para cambiar el tamaño de las ventanas. ¡Dile adiós a los problemas tratando de encontrar esos bordes con el ratón!&lt;/li&gt;
-&lt;li&gt;Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución (HiDPI).&lt;/li&gt;
-&lt;li&gt;Los pop-ups de cambiar ventanas (Alt+Tab) y espacios de escritorio han sido reinventados completamente. Ahora se ven muy bien en estilo OSD, son mucho más configurables, y responden a las flechas del teclado.&lt;/li&gt;
+&lt;li&gt;Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución HiDPI.&lt;/li&gt;
+&lt;li&gt;The Alt+Tab and Workspace Switcher popups have been &lt;em&gt;entirely&lt;/em&gt; reworked. Now they render in beautiful OSD style, are more configurable, and can respond to keyboard arrows.&lt;/li&gt;
 &lt;li&gt;Posicionar las ventanas de lado a lado con el teclado ahora te permite recorrer distintos tamaños. Ya no tienes que sentirte limitado por solo la mitad de tu pantalla.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -41,7 +39,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Si eres el tipo de persona que no le gusta ser interrumpido cuando estás ocupado, o dando una presentación, o viendo una película, te interesaría saber que el &lt;strong&gt;daemon de notificaciones&lt;/strong&gt; ahora tiene un modo de No Molestar.&lt;/li&gt;
 &lt;li&gt;El &lt;strong&gt;panel de MATE&lt;/strong&gt; tiene varios arreglos para prevenir que la aplicación se termine cuando se cambia la distribución predeterminada.&lt;ul&gt;
 &lt;li&gt;Soporte para compatibilidad con &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt; ha mejorado considerablemente.&lt;/li&gt;
-&lt;li&gt;Iconos de estado (el applet de &lt;strong&gt;notification area&lt;/strong&gt;) ahora funcionan correctamente con pantallas de alta resolución.&lt;/li&gt;
+&lt;li&gt;Status icons (a.k.a. &lt;strong&gt;notification area&lt;/strong&gt;, or &lt;strong&gt;system tray&lt;/strong&gt;) have support for HiDPI displays.&lt;/li&gt;
 &lt;li&gt;El &lt;strong&gt;pez Wanda&lt;/strong&gt; ha tenido un cambio de imagen y puedes disfrutarla en toda su belleza en alta resolución.&lt;/li&gt;
 &lt;li&gt;El applet de &lt;strong&gt;lista de ventanas&lt;/strong&gt; ahora tiene imágenes en miniatura de la ventana cuando mueves el ratón por encima del listado.&lt;/li&gt;
 &lt;li&gt;Varias mejoras en accesibilidad en el panel y sus applets.&lt;/li&gt;
@@ -250,7 +248,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Use gresources for UI files&lt;/li&gt;
 &lt;li&gt;mp: Fix calculate result ln(e^(i*π))&lt;/li&gt;
 &lt;li&gt;display small numbers in scientific notation&lt;/li&gt;
-&lt;li&gt;mate-calc: Fix memory leak&lt;/li&gt;
+&lt;li&gt;display small numbers in scientific notation&lt;/li&gt;
 &lt;li&gt;Add support for "pi" in addition to "π"&lt;/li&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
@@ -550,13 +548,13 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Lista completa de cambios: &lt;a href="https://github.com/mate-desktop/mozo/commits/master/"&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;pluma&lt;/h4&gt;
 &lt;ul&gt;
+&lt;li&gt;Add the ability to show the non-printable characters (spaces/tabs/newlines)&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;window: Do not override GdkWindowState&lt;/li&gt;
 &lt;li&gt;Fix some memory leaks&lt;/li&gt;
 &lt;li&gt;Fix build with GtkSourceView 3.22&lt;/li&gt;
 &lt;li&gt;spell-checker plugin: Add missing translation (i18n)&lt;/li&gt;
 &lt;li&gt;Add the support for checking the accessibility of the UI files using gla11y&lt;/li&gt;
-&lt;li&gt;Add draw spaces/tabs/newlines options&lt;/li&gt;
 &lt;li&gt;Add snippet to toggle comment/uncomment&lt;/li&gt;
 &lt;li&gt;pluma-print-preview: Fix warning: identical expressions&lt;/li&gt;
 &lt;li&gt;Switch to Python 3&lt;/li&gt;
@@ -574,7 +572,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Lista completa de cambios: &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/es/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 actualizado</title><link>https://preview.mate-desktop.dev/es/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.22. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/es/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 actualizado</title><link>https://preview.mate-desktop.dev/es/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.22. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.png"&gt;&lt;/p&gt;
 &lt;h3&gt;¿Qué hay de nuevo en MATE 1.22?&lt;/h3&gt;
 &lt;p&gt;Esta versión contiene muchas mejoras y soluciona muchos problemas. Algunos de los ejemplos más visibles son:&lt;/p&gt;
