@@ -18,15 +18,15 @@ En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hec
 
 * Lo hicimos nuevamente, el entorno de escritorio MATE es más fácil de usar desde que el usuario inicia la sesión. ¿Quieres ocultar el inicio de aplicaciones? Ahora puede establecer qué aplicaciones mostrar al inicio.
 * **Engrampa** ahora tiene soporte para algunos formatos de archivos nuevos
-    * También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de ellos.
+También hemos arreglado soporte para contraseñas y caracteres en Unicode en algunos de ellos.
 * **Eye of MATE** ahora funciona en [Wayland](https://wayland.freedesktop.org/) y hemos añadido soporte para perfiles de colores.
     * La generación de imagenes en miniatura ha sido modificada y arreglada a través de la aplicación.
     * Añadimos soporte para archivos webp.
 * Nuestro administrador de ventanas, **marco**, ha tenido bastantes cambios:
     * Hemos traido un montón de decoraciones desde el pasado para alimentar tu nostalgia.
     * Finalmente hemos añadido bordes invisibles para cambiar el tamaño de las ventanas. ¡Dile adiós a los problemas tratando de encontrar esos bordes con el ratón!
-    * Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución (HiDPI).
-    * Los pop-ups de cambiar ventanas (Alt+Tab) y espacios de escritorio han sido reinventados completamente. Ahora se ven muy bien en estilo OSD, son mucho más configurables, y responden a las flechas del teclado.
+    * Todos los controles de ventana (los botones de minimizar, maximizar y cerrar) ahora se ven bien en pantallas de alta resolución HiDPI.
+    * The Alt+Tab and Workspace Switcher popups have been _entirely_ reworked. Now they render in beautiful OSD style, are more configurable, and can respond to keyboard arrows.
     * Posicionar las ventanas de lado a lado con el teclado ahora te permite recorrer distintos tamaños. Ya no tienes que sentirte limitado por solo la mitad de tu pantalla.
 * El applet de **monitor de sistema** ahora tiene soporte para discos NVMe.
 * La **Calculadora** ahora permite entrar "pi" o "π".
@@ -41,7 +41,7 @@ En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hec
 * Si eres el tipo de persona que no le gusta ser interrumpido cuando estás ocupado, o dando una presentación, o viendo una película, te interesaría saber que el **daemon de notificaciones** ahora tiene un modo de No Molestar.
 * El **panel de MATE** tiene varios arreglos para prevenir que la aplicación se termine cuando se cambia la distribución predeterminada.
     * Soporte para compatibilidad con [Wayland](https://wayland.freedesktop.org/) ha mejorado considerablemente.
-    * Iconos de estado (el applet de **notification area**) ahora funcionan correctamente con pantallas de alta resolución.
+    * Status icons (a.k.a. **notification area**, or **system tray**) have support for HiDPI displays.
     * El **pez Wanda** ha tenido un cambio de imagen y puedes disfrutarla en toda su belleza en alta resolución.
     * El applet de **lista de ventanas** ahora tiene imágenes en miniatura de la ventana cuando mueves el ratón por encima del listado.
     * Varias mejoras en accesibilidad en el panel y sus applets.
@@ -49,7 +49,7 @@ En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hec
 * También hemos añadido una utilidad nueva: El **Montador de imágenes de disco de MATE**
 * **Mozo**, nuestro editor de menus, ahora te permite hacer deshacer y rehacer tus cambios.
 * Los plugins de **Pluma** ahora están todos escritos en Python 3.
-  * Además, **pluma** ya no tiene nada que envidiarle a otros editores de texto más complejos, ya que ahora puede mostrar marcas de formateo.
+* Además, **pluma** ya no tiene nada que envidiarle a otros editores de texto más complejos, ya que ahora puede mostrar marcas de formateo.
 * i18n: Todas las aplicaciones han sido migradas de intltools a gettext.
 
 
@@ -252,7 +252,7 @@ Lista completa de cambios: <https://github.com/mate-desktop/mate-backgrounds/com
 * Use gresources for UI files
 * mp: Fix calculate result ln(e^(i*π))
 * display small numbers in scientific notation
-* mate-calc: Fix memory leak
+* display small numbers in scientific notation
 * Add support for "pi" in addition to "π"
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
@@ -553,13 +553,13 @@ Lista completa de cambios: <https://github.com/mate-desktop/mate-utils/commits/m
 Lista completa de cambios: <https://github.com/mate-desktop/mozo/commits/master/>
 
 ### pluma
+* Add the ability to show the non-printable characters (spaces/tabs/newlines)
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * window: Do not override GdkWindowState
 * Fix some memory leaks
 * Fix build with GtkSourceView 3.22
 * spell-checker plugin: Add missing translation (i18n)
 * Add the support for checking the accessibility of the UI files using gla11y
-* Add draw spaces/tabs/newlines options
 * Add snippet to toggle comment/uncomment
 * pluma-print-preview: Fix warning: identical expressions
 * Switch to Python 3
@@ -577,4 +577,4 @@ Lista completa de cambios: <https://github.com/mate-desktop/pluma/commits/master
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Lista completa de cambios: <https://github.com/mate-desktop/python-caja/commits/master/>
+Complete changelog at <https://github.com/mate-desktop/python-caja/commits/master/>

@@ -1,7 +1,7 @@
 <!--
 .. link:
 .. description:
-.. tags: פיתוח
+.. tags: Development
 .. date: 2011-12-05 12:00:30
 .. title: פיתוח
 .. slug: development
