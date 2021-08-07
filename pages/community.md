@@ -16,7 +16,7 @@ support from the community.
 You'll find lots of useful material on our wiki, but we also encourage you
 to help improve it.
 
-  * <https://wiki.mate-desktop.org/#!index.md>
+  * <https://wiki.mate-desktop.org/>
 
 ## Forums
 
@@ -34,7 +34,7 @@ You don't do email, we get that too. Come and join one of the community forums.
 
 You're the social type right?
 
-  * [MATE Twitter Profile](https://twitter.com/mate_desktop) 
+  * [MATE Twitter Profile](https://twitter.com/mate_desktop)
 
 ## IRC
 
@@ -43,7 +43,7 @@ You're an Internet guru. We've got you covered, come and join us on IRC.
   * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 There are several IRC channels available. You can find all the details on
-our [IRC wiki page](https://wiki.mate-desktop.org/#!pages/irc.md).
+our [IRC wiki page](https://wiki.mate-desktop.org/introduction/contributing/).
 
 ## Planet
 
