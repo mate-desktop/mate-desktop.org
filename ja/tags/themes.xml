@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 02 Aug 2021 21:09:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>新しいテーマ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Aug 2021 21:31:12 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>新しいテーマ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
 &lt;p&gt;Menta は、次の新リリースの標準テーマになる予定です。それは、素敵な GTK2/3 のテーマ (Mint-Z Improved が基本。もはやメンテナンスされていませんが、MATE 用にカスタマイズされ、GTK3.6 にアップデート済み)と、緑色のフォルダを持つ mate-icon-theme の子テーマで構成されます。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Menta テーマ" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-menta.png"&gt;&lt;/p&gt;
 &lt;p&gt;他にも2つの新しいテーマがあります。&lt;/p&gt;
