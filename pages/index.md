@@ -3,7 +3,7 @@
 .. slug: index
 .. date: 2013-10-31 12:29:57
 .. tags: About,Applications,Screenshots
-.. link: 
+.. link:
 .. description:
 -->
 
@@ -13,7 +13,7 @@ metaphors for Linux and other Unix-like operating systems.
 
 MATE is under active development to add support for new technologies
 while preserving a traditional desktop experience. See the
-[Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md).
+[Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap/).
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -81,7 +81,7 @@ MATE](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
 
 The MATE community has documented how to install MATE on many
 distributions in the [install
-guidelines](https://wiki.mate-desktop.org/#!pages/download.md).
+guidelines](https://wiki.mate-desktop.org/introduction/installation/).
 
 Applications
 ============

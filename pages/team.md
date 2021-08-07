@@ -117,7 +117,6 @@ MATE is translated, or partially translated, for 140 languages.
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-
 ## Past contributors
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley ([bickman2k](https://github.com/bickman2k))
@@ -138,7 +137,7 @@ Packaging for Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Artwork & design. ([Details](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
+Artwork & design.
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -150,17 +149,15 @@ Packaging for openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
 
-Development. ([Details](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+Development.
 
 ### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
 
 Development.
 
-### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan
 
 Development.
-
-
 
 <small>
 The flags used in this page were provided by <http://www.icondrawer.com>.

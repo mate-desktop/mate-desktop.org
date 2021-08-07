@@ -32,10 +32,11 @@ You can browse the code with cgit here too:
 
  Other useful links:
 
-  * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE Development](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
-  * [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
-  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
-  * <https://wiki.mate-desktop.org/#!pages/translation.md>
-  
+  * [MATE Contributing](https://wiki.mate-desktop.org/introduction/contributing/)
+  * [MATE Artwork and Themes](https://wiki.mate-desktop.org/contributing/artwork-and-themes/getting-started/)
+  * [MATE Software Development](https://wiki.mate-desktop.org/contributing/software-development/getting-started/)
+  * [MATE Translation](https://wiki.mate-desktop.org/contributing/translation/getting-started/)
+  * [MATE Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap/)
+  * [MATE Wayland and Meson](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
+
 Don't hesitate to contribute and have fun improving MATE!
