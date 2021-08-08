@@ -13,7 +13,7 @@ MATE コミュニティと連携するには、さまざまな方法がありま
 
 私たちの Wiki には多くの役立つ資料が掲載されていますが、それを改善するための支援もお願いします。
 
-  * <https://wiki.mate-desktop.org/#!index.md>
+  * <https://wiki.mate-desktop.org/>
 
 ## フォーラム
 
@@ -31,7 +31,7 @@ MATE コミュニティと連携するには、さまざまな方法がありま
 
 あなたがソーシャルメディアをお好きなら、
 
-  * [MATE ツイッター・プロファイル](https://twitter.com/mate_desktop) 
+  * [MATE Twitter プロファイル](https://twitter.com/mate_desktop)
 
 ## IRC
 
@@ -39,7 +39,7 @@ MATE コミュニティと連携するには、さまざまな方法がありま
 
   * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
-いくつかの IRC チャンネルがあります。詳細は [IRC wiki ページ](https://wiki.mate-desktop.org/#!pages/irc.md).でご覧いただけます。
+いくつかの IRC チャンネルが利用出来ます。詳細については、[IRC wiki ページ](https://wiki.mate-desktop.org/introduction/contributing/)をご覧ください。
 
 ## プラネット
 
