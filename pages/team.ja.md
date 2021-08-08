@@ -7,7 +7,7 @@
 .. slug: team
 -->
 
-MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等で構成された、国際的なグループによって提供されています。
+MATE は、開発者、翻訳者、パッケージャ、アーティスト、システム管理者等からなる国際的なグループによって提供されています。
 
 ## 主要メンバー
 
@@ -15,7 +15,7 @@ MATE は、開発者、翻訳者、パッケージャ、アーティスト、シ
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) Martin Wimpress ([flexiondotorg](https://github.com/flexiondotorg))
 
-Ubuntu MATE と Debian 用のパッケージ化、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
+Ubuntu MATE と Debian のパッケージャ、GSoC メンター、コミュニティ管理、インフラストラクチャ担当。
 
 ### ![](/assets/img/flags/32/USA.png) Luke Kuhn ([lukefromdc](https://github.com/lukefromdc))
 
@@ -39,7 +39,7 @@ Ubuntu MATE と Debian 用のパッケージ化、GSoC メンター、コミュ�
 
 ### ![](/assets/img/flags/32/Germany.png) Wolfgang Ulbrich ([raveit65](https://github.com/raveit65))
 
-開発、Fedora 用のパッケージ化、テーマメンテナ、インフラストラクチャ。
+開発、Fedora 用パッケージング、テーマメンテナ、インフラストラクチャ。
 
 ### ![](/assets/img/flags/32/China.png) Wu Xiaotian ([yetist](https://github.com/yetist))
 
@@ -75,7 +75,7 @@ MATE デスクトップ環境は、次のような優秀な方々のたゆまぬ
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Alexei Sorokin ([XRevan86](https://github.com/XRevan86))
 
-開発、openSUSE 用のパッケージ化、Compiz-Reloaded メンテナ。
+開発、openSUSE 用のパッケージ化、Compiz-Reloaded メンテナナ。
 
 ### ![](/assets/img/flags/32/Russian%20Federation.png) Denis Gorodnichev ([dnk](https://github.com/dnk))
 
@@ -109,13 +109,12 @@ Arch Linux 用のパッケージ化、マニュアル作成。
 
 ## 翻訳者
 
-MATE は 140ヶ国言語に対して、翻訳済みまたは部分的に翻訳済みです。
+MATE は140ヶ国言語に対して、翻訳済みまたは部分的翻訳済みです。
 
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-
-## 以前貢献された方々
+## 過去の貢献者
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley ([bickman2k](https://github.com/bickman2k))
 
@@ -135,7 +134,7 @@ Arch Linux 用のパッケージ化。
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-美術関係とデザイン。([Details](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
+アートワーク＆デザイン。
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -147,18 +146,16 @@ openSUSE 用のパッケージ化。
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
 
-開発。([Details](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+開発。
 
 ### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
 
 開発。
 
-### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan
 
 開発。
 
-
-
 <small>
-このページで使用している旗は <http://www.icondrawer.com> によって提供されました。
+このページで使用されているフラグは <http://www.icondrawer.com> によって提供されました。
 </small>
