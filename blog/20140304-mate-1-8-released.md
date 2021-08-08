@@ -80,7 +80,7 @@ about our Desktop Environment.
 
 **Mike Gabriel**, [Debian](https://www.debian.org/) developer and MATE maintainer:
 
-> I forsee MATE being one of the most used desktop environments in Debian Jessie (and beyond).
+> I foresee MATE being one of the most used desktop environments in Debian Jessie (and beyond).
 
 **Tom Wijsman**, [Gentoo](https://www.gentoo.org) developer and MATE maintainer:
 

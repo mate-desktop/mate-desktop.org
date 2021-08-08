@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-The MATE team is proud to announce that we are collaborting with the
+The MATE team is proud to announce that we are collaborating with the
 [galculator](http://galculator.mnim.org/) team and that galculator
 will replace `mate-calc` in MATE 1.10.
 
@@ -36,7 +36,7 @@ galculator's main features include:
   * Copy and paste
   * Available in more than 20 translations.
 
-Like MATE galculator has a commitmet to GTK2 and GTK3 and is actively
+Like MATE galculator has a commitment to GTK2 and GTK3 and is actively
 maintained.
 
 ## Why ditch mate-calc?

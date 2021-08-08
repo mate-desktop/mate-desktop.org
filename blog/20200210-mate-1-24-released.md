@@ -270,7 +270,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-common/commits/maste
 * Search system themes in system data dirs
 * display: Enable the help button
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
-* Aeveral icon fixes for HIDPI displays
+* several icon fixes for HIDPI displays
 * font-viewer: Add font/collection to the supported mimetypes
 * font-viewer: Add font/ttf and font/otf mime types
 * Fix memory leaks im several applications
