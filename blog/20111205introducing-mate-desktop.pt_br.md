@@ -1,6 +1,6 @@
 <! -
 .. link:
-.. Descrição:
+.. description:
 .. tags: Arch Linux, Debian, Linux Mint
 .. date: 2011-12-05 12:00:30
 .. título: Apresentando o MATE Desktop
