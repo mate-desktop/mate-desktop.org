@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Aug 2021 21:30:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 發佈</title><link>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;經過大約一年的開發，MATE Desktop 團隊終於發佈了 MATE 1.22。非常感謝幫助實現這一目標的所有貢獻者。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:17:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 發佈</title><link>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;經過大約一年的開發，MATE Desktop 團隊終於發佈了 MATE 1.22。非常感謝幫助實現這一目標的所有貢獻者。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.zh_tw.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.22 的新特性&lt;/h3&gt;
 &lt;p&gt;此版本包含大量關鍵錯誤修復和漏洞改進。一些重要的亮點包括：&lt;/p&gt;

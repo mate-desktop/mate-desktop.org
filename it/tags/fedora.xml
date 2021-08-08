@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 07 Aug 2021 21:30:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 con GTK3 per Fedora 21 e 22</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;I manutentori del desktop MATE per Fedora sono lieti di annunciare che le build GTK3 sono disponibili per il test in Fedora 21 e 22. Queste build GTK3
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:17:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 con GTK3 per Fedora 21 e 22</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;I manutentori del desktop MATE per Fedora sono lieti di annunciare che le build GTK3 sono disponibili per il test in Fedora 21 e 22. Queste build GTK3
 funzionano ma soffrono di qualche difetto di rendering di lieve entità, apprezzeremmo il vostro feedback.&lt;/p&gt;
 &lt;h3&gt;Installazione&lt;/h3&gt;
 &lt;p&gt;Installate il file repo ed eseguire uno &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
