@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.10 with GTK3 for Fedora 21 and 22 | MATE</title>
+<title>MATE 1.10 で Fedora 21/22 が GTK3対応に | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -35,14 +35,15 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Wolfgang Ulbrich">
-<link rel="prev" href="../2015-01-28-meet-mates-mastermind/" title="Meet MATE's Mastermind" type="text/html">
+<link rel="prev" href="../2015-01-28-meet-mates-mastermind/" title="MATE のマスターマインドを紹介します" type="text/html">
 <link rel="next" href="../2015-06-11-mate-1-10-released/" title="MATE 1.10 released" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.10 with GTK3 for Fedora 21 and 22">
+<meta property="og:title" content="MATE 1.10 で Fedora 21/22 が GTK3対応に">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/">
-<meta property="og:description" content="The MATE Desktop maintainers for Fedora are pleased to announce that experimental
-GTK3 builds are available for testing on Fedora 21 and Fedora 22. These GTK3 build
-do work but have some minor renderi">
+<meta property="og:description" content="Fedora プロジェクトの MATE デスクトップメンテナ等は、実験的な GTK3 ビルドが Fedora 21 と Fedora 22 でテスト可能となったことを発表しました。これらのGTK3 ビルドは動作しますが、複数の小さなレンダリング問題があるので、みなさんのフィードバックが大切です。
+インストール
+repo ファイルをインストールし、yum update を実行してください。
+Fedo">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2015-06-11T22:30:30Z">
 <meta property="article:tag" content="Fedora">
@@ -138,7 +139,7 @@ do work but have some minor renderi">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.10 with <span class="caps">GTK3</span> for Fedora 21 and&nbsp;22</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.10 で Fedora 21/22 が&nbsp;GTK3対応に</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -160,11 +161,9 @@ do work but have some minor renderi">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>The <span class="caps">MATE</span> Desktop maintainers for Fedora are pleased to announce that experimental
-<span class="caps">GTK3</span> builds are available for testing on Fedora 21 and Fedora 22. These <span class="caps">GTK3</span> build
-do work but have some minor rendering issues, we&#8217;d value your&nbsp;feedback.</p>
-<h3>Installation</h3>
-<p>Install the repo file and do&nbsp;a <code>yum update</code>.</p>
+<p>Fedora プロジェクトの <span class="caps">MATE</span> デスクトップメンテナ等は、実験的な <span class="caps">GTK3</span> ビルドが Fedora 21 と Fedora 22 でテスト可能となったことを発表しました。これらのGTK3&nbsp;ビルドは動作しますが、複数の小さなレンダリング問題があるので、みなさんのフィードバックが大切です。</p>
+<h3>インストール</h3>
+<p>repo&nbsp;ファイルをインストールし、<code>yum update</code> を実行してください。</p>
 <h4>Fedora&nbsp;22</h4>
 <pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
@@ -175,23 +174,21 @@ $ sudo yum update
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
 </pre>
-<p>Or&nbsp;use <code>dnf</code> command:</p>
+<p>あるいは <code>dnf</code> コマンドを使ってください。</p>
 <pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
 $ sudo dnf update
 </pre>
-<h3>Reporting&nbsp;issues</h3>
-<p>Please use the <span class="caps">MATE</span> Desktop issue tracker on GitHub and include &#8216;<span class="caps">GTK3</span> and Fedora&#8217;
-in&nbsp;subject.</p>
+<h3>問題を報告するには</h3>
+<p>GitHub の <span class="caps">MATE</span> デスクトップ issue tracker を使い、&#8217;<span class="caps">GTK3</span> and Fedora&#8217;&nbsp;を件名に含めてください。</p>
 <ul>
 <li>https://github.com/mate-desktop</li>
 </ul>
-<p>Some&nbsp;notes:</p>
+<p>いくつかの注意点:</p>
 <ul>
-<li>Compiz will only work&nbsp;with <code>emerald</code> as&nbsp;window-decorator.</li>
-<li>Do not use use a mix of <span class="caps">GTK2</span> packages from Fedora stable and <span class="caps">GTK3</span> packages from the
-  repo&nbsp;above.</li>
-<li>Do not use the following <span class="caps">MATE</span> applications with a <span class="caps">GTK3</span> build of <span class="caps">MATE</span>; they aren&#8217;t ported to <span class="caps">GTK3</span>:<ul>
-<li>mintMenu and <span class="caps">MATE</span>&nbsp;Menu</li>
+<li>Compiz&nbsp;はウィンドウ装飾として <code>emerald</code> だけで動作します。</li>
+<li>Fedora stable の <span class="caps">GTK2</span> パッケージと上記のリポジトリの <span class="caps">GTK3</span> パッケージを混在させて使用しないでください。&nbsp;.</li>
+<li>次の <span class="caps">MATE</span> アプリケーションは、<span class="caps">GTK3</span> ビルドの <span class="caps">MATE</span> と一緒に使用しないでください。<span class="caps">GTK3</span> へ移植されていないからです。<ul>
+<li>mintMenu および <span class="caps">MATE</span>&nbsp;Menu</li>
 <li>mate-applet-streamer</li>
 <li>mate-applet-lockkeys</li>
 <li>mate-applet-softupd</li>
@@ -207,7 +204,7 @@ in&nbsp;subject.</p>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2015-01-28-meet-mates-mastermind/" rel="prev" title="Meet MATE's Mastermind">一つ前の記事</a>
+                <a href="../2015-01-28-meet-mates-mastermind/" rel="prev" title="MATE のマスターマインドを紹介します">一つ前の記事</a>
             </li>
             <li class="next">
                 <a href="../2015-06-11-mate-1-10-released/" rel="next" title="MATE 1.10 released">次の記事</a>
@@ -249,7 +246,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "689b353a567e"],
+    texts : ["Preview Website", "MATE Desktop", "a0057ead12b5"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

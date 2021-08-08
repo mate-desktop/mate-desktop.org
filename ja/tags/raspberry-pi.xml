@@ -3,70 +3,48 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:30:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE is officially available in Arch Linux</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE has finally found it's way home.&lt;/p&gt;
-&lt;p&gt;As some of you may know MATE was created by an &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-user, Perberos. It is somewhat ironic then that MATE has never featured
-in the official Arch Linux package repository until now. That's right,
-MATE is finally available in the Arch Linux &lt;code&gt;[community]&lt;/code&gt; package
-repository!&lt;/p&gt;
-&lt;p&gt;You can find out everything you need to know about installing MATE
-on Arch Linux from the following wiki pages:&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE は Arch Linux で公式に入手できます</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE はようやく我が家に落ち着きました。&lt;/p&gt;
+&lt;p&gt;皆さんの中には、MATEが &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; のユーザー、Perberos さんによって作成されたことをご存知の方がいるかもしれません。MATE がこれまで正式な Arch Linux のパッケージリポジトリに収録されていなかったというのは、皮肉なことです。この通り、MATE はついに Arch Linux の &lt;code&gt;[community]&lt;/code&gt; パッケージリポジトリで利用可能になりました！&lt;/p&gt;
+&lt;p&gt;Arch Linux に MATE をインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/MATE"&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
-repository will be removed once all the Arch Linux mirrors are synced.
-So go and update &lt;code&gt;/etc/pacman.conf&lt;/code&gt; and remove the &lt;code&gt;[mate]&lt;/code&gt; package
-repository.&lt;/p&gt;
-&lt;p&gt;The other advantage of getting MATE into the official Arch Linux package
-repository is that MATE will now also feature in the &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt;
-package repository. I can finally retire my Raspberry Pi (armv6h) and
-Cubox Pro (armv7h) build &lt;em&gt;"servers"&lt;/em&gt;. I'm not sure how long it will take
-for all the MATE packages to appear in the Arch Linux ARM package
-repository but I have already seen that some packages are built.&lt;/p&gt;
-&lt;p&gt;MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
-you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
-blog post about how install Arch Linux and MATE on the Raspberry Pi with
-some useful performance tweaks in the near future.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>MATE 1.6 packages for Arch Linux</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE 1.6 packages have been available for &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-for a good while now. So why the blog post?&lt;/p&gt;
-&lt;p&gt;Over the last few months the MATE 1.6 packages for Arch Linux have been
-fixed, cleaned up and enhanced. Here is an overview of what we've been
-working on:&lt;/p&gt;
+&lt;p&gt;すべての Arch Linux ミラーが同期されると、現在は廃止となった非公式な MATE パッケージリポジトリが削除されることに注意してください。そのため、&lt;code&gt;/etc/pacman.conf&lt;/code&gt; を更新し、&lt;code&gt;[mate]&lt;/code&gt; パッケージリポジトリを削除してください。&lt;/p&gt;
+&lt;p&gt;MATE を正式な Arch Linux パッケージリポジトリに入れるもう 1 つの利点は、MATE が &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt; パッケージリポジトリでも機能するようになることです。私はついに Raspberry Pi (armv6h) と Cubox Pro (armv7h) のビルド&lt;em&gt;"サーバ"&lt;/em&gt;を引退させることができます。すべての MATE パッケージが Arch Linux ARM パッケージリポジトリに現れるまでにどの位の時間がかかるのかは分かりませんが、すでにいくつかのパッケージがビルドされているのを確認しています。&lt;/p&gt;
+&lt;p&gt;MATE は 512MB の RAM を搭載した Raspberry Pi Model B で非常にうまく動作するので、もし Pi と予備の SDCARD があれば試してみてください。Arch Linux とMATE を Raspberry Pi にインストールする方法について、私はブログ記事を書くつもりです。近いうちに、パフォーマンス改善に役立つことも書きます。&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>Arch Linux 用の MATE 1.6 版パッケージ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE1.6 パッケージは &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; ではかなり前から提供されています。ではどうしてこのブログに投稿したのかといば ...&lt;/p&gt;
+&lt;p&gt;ここ数ヶ月の間に、Arch Linux 用の MATE 1.6 パッケージが修正され、整理され、拡張されました。私たちがこれまで取り組んできたことの概要は以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;All Arch Linux specific bugs have been fixed.&lt;/li&gt;
-&lt;li&gt;New automated build scripts and build cluster.&lt;/li&gt;
-&lt;li&gt;Full support for the following platforms:&lt;ul&gt;
+&lt;li&gt;Arch Linux にあった特有なバグがすべて修正されました。&lt;/li&gt;
+&lt;li&gt;新しい自動ビルドスクリプトとビルドクラスタ。&lt;/li&gt;
+&lt;li&gt;次のプラットフォームを完全にサポートします&lt;ul&gt;
 &lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;armv7h&lt;/li&gt;
 &lt;li&gt;i686&lt;/li&gt;
 &lt;li&gt;x86_64&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Packaged 9 additional applications/applets contributed by the MATE community.&lt;/li&gt;
-&lt;li&gt;Choice of Pulse Audio or GStreamer backends.&lt;/li&gt;
-&lt;li&gt;Cherry picked some &lt;code&gt;systemd&lt;/code&gt; and &lt;code&gt;logind&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;Cherry picked some &lt;code&gt;upower&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;Cherry picked miscellaneous bug fixes from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;MATE 1.6 PKGBUILDs now automatically synced to the AUR.&lt;/li&gt;
-&lt;li&gt;The Arch Linux package repository for MATE is now signed.&lt;/li&gt;
+&lt;li&gt;MATE コミュニティから提供された9つのアプリケーション/アプレットを追加でパッケージ化しました。&lt;/li&gt;
+&lt;li&gt;Pulse Audio バックエンドまたは GStreamer バックエンドの選択。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 より &lt;code&gt;systemd&lt;/code&gt; と &lt;code&gt;logind&lt;/code&gt; の機能をいくつか選択しました。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 の &lt;code&gt;upower&lt;/code&gt; 機能をいくつか取り上げました。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 の雑多なバグ修正を取り上げました。&lt;/li&gt;
+&lt;li&gt;MATE 1.6 PKGBUILD は自動的に AUR と同期するようになりました。&lt;/li&gt;
+&lt;li&gt;MATE 用の Arch Linux パッケージリポジトリは署名されています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can find out everything you need to know about installing MATE 1.6
-on Arch Linux from the following wiki page:&lt;/p&gt;
+&lt;p&gt;MATE 1.6 を Arch Linux にインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md"&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I'd like to say a special thank you to:&lt;/p&gt;
+&lt;p&gt;次の方々に対して特にお礼を申し上げます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; for working with
-  the Fedora development team to hunt down &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; and &lt;code&gt;upower&lt;/code&gt;
-  fixes that are hugely beneficial for Arch Linux and also for
-  contributing a good number of the community applications.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/infirit"&gt;Sander Sweers&lt;/a&gt; and &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
-  for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; さん
+  Fedora 開発チームと協力しての &lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;logind&lt;/code&gt;、&lt;code&gt;upower&lt;/code&gt; の取り組み。
+  Arch Linux にとって非常に有益な各種修正。
+  さらにまた、多数のコミュニティー・アプリケーションの貢献。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/infirit"&gt;Sander Sweers&lt;/a&gt; さんと &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; さん
+  私を MATE チームに迎え入れてくださり、IRC で助けていただいたこと。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Now that the MATE 1.6 packages are in good shape I will start the process
-of getting MATE into the official Arch Linux repositories. You can help
-with that by voting for MATE packages in the AUR.&lt;/p&gt;
+&lt;p&gt;MATE 1.6 パッケージが良好な状態になったので、MATE を Arch Linux の公式リポジトリに入れるプロセスを開始します。AUR で MATE パッケージに投票することで支援することが可能です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item></channel></rss>

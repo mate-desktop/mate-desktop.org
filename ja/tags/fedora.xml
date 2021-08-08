@@ -3,11 +3,9 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:30:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 with GTK3 for Fedora 21 and 22</title><link>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE Desktop maintainers for Fedora are pleased to announce that experimental
-GTK3 builds are available for testing on Fedora 21 and Fedora 22. These GTK3 build
-do work but have some minor rendering issues, we'd value your feedback.&lt;/p&gt;
-&lt;h3&gt;Installation&lt;/h3&gt;
-&lt;p&gt;Install the repo file and do a &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 で Fedora 21/22 が GTK3対応に</title><link>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;Fedora プロジェクトの MATE デスクトップメンテナ等は、実験的な GTK3 ビルドが Fedora 21 と Fedora 22 でテスト可能となったことを発表しました。これらのGTK3 ビルドは動作しますが、複数の小さなレンダリング問題があるので、みなさんのフィードバックが大切です。&lt;/p&gt;
+&lt;h3&gt;インストール&lt;/h3&gt;
+&lt;p&gt;repo ファイルをインストールし、&lt;code&gt;yum update&lt;/code&gt; を実行してください。&lt;/p&gt;
 &lt;h4&gt;Fedora 22&lt;/h4&gt;
 &lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
@@ -18,30 +16,29 @@ $ sudo yum update
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
 &lt;/pre&gt;
-&lt;p&gt;Or use &lt;code&gt;dnf&lt;/code&gt; command:&lt;/p&gt;
+&lt;p&gt;あるいは &lt;code&gt;dnf&lt;/code&gt; コマンドを使ってください。&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;$ sudo dnf copr &lt;span class="nb"&gt;enable&lt;/span&gt; raveit65/Mate-GTK3
 $ sudo dnf update
 &lt;/pre&gt;
-&lt;h3&gt;Reporting issues&lt;/h3&gt;
-&lt;p&gt;Please use the MATE Desktop issue tracker on GitHub and include 'GTK3 and Fedora'
-in subject.&lt;/p&gt;
+&lt;h3&gt;問題を報告するには&lt;/h3&gt;
+&lt;p&gt;GitHub の MATE デスクトップ issue tracker を使い、'GTK3 and Fedora' を件名に含めてください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;https://github.com/mate-desktop&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Some notes:&lt;/p&gt;
+&lt;p&gt;いくつかの注意点:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Compiz will only work with &lt;code&gt;emerald&lt;/code&gt; as window-decorator.&lt;/li&gt;
-&lt;li&gt;Do not use use a mix of GTK2 packages from Fedora stable and GTK3 packages from the
-  repo above.&lt;/li&gt;
-&lt;li&gt;Do not use the following MATE applications with a GTK3 build of MATE; they aren't ported to GTK3:&lt;ul&gt;
-&lt;li&gt;mintMenu and MATE Menu&lt;/li&gt;
+&lt;li&gt;Compiz はウィンドウ装飾として &lt;code&gt;emerald&lt;/code&gt; だけで動作します。&lt;/li&gt;
+&lt;li&gt;Fedora stable の GTK2 パッケージと上記のリポジトリの GTK3 パッケージを混在させて使用しないでください。
+  .&lt;/li&gt;
+&lt;li&gt;次の MATE アプリケーションは、GTK3 ビルドの MATE と一緒に使用しないでください。GTK3 へ移植されていないからです。&lt;ul&gt;
+&lt;li&gt;mintMenu および MATE Menu&lt;/li&gt;
 &lt;li&gt;mate-applet-streamer&lt;/li&gt;
 &lt;li&gt;mate-applet-lockkeys&lt;/li&gt;
 &lt;li&gt;mate-applet-softupd&lt;/li&gt;
 &lt;li&gt;caja-terminal&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid><pubDate>Thu, 11 Jun 2015 22:30:30 GMT</pubDate></item><item><title>MATE 1.6 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>Fedora</category><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid><pubDate>Thu, 11 Jun 2015 22:30:30 GMT</pubDate></item><item><title>MATE 1.6 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;

@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.8 updated | MATE</title>
+<title>MATE 1.8 アップデート | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -35,14 +35,15 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Martin Wimpress">
-<link rel="prev" href="../2014-09-25-debian-and-ubuntu-repositories-removed/" title="Debian and Ubuntu package repositories removed from mate-desktop.org" type="text/html">
-<link rel="next" href="../mate-interview-with-linux-luddites/" title="MATE interview with Linux Luddites" type="text/html">
+<link rel="prev" href="../2014-09-25-debian-and-ubuntu-repositories-removed/" title="Debian と Ubuntu のパッケージリポジトリが mate-desktop.org から削除されました" type="text/html">
+<link rel="next" href="../mate-interview-with-linux-luddites/" title="MATE は Linux Luddites の取材を受けました" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.8 updated">
+<meta property="og:title" content="MATE 1.8 アップデート">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2014-09-29-mate-1-8-updated/">
-<meta property="og:description" content="Sander Sweers has released several updated packages for the MATE 1.8 series 
-that addresses an assortment of bug fixes and minor updates. Some 
-distributions have already incorporated these updates an">
+<meta property="og:description" content="Sander Sweers は、さまざまなバグ修正やマイナーアップデートに対応する、MATE 1.8 シリーズ用の更新パッケージを複数リリースしました。一部のディストリビューションにはこれらのアップデートがすでに組み込まれており、その他のディストリビューションでも組み込まれる予定です。変更点については以下をご覧ください。
+atril 1.8.1
+
+ロード中に空のキャンバスをクリックするとクラッシュ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2014-09-29T21:39:36Z">
 <meta property="article:tag" content="Releases">
@@ -137,7 +138,7 @@ distributions have already incorporated these updates an">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.8&nbsp;updated</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.8&nbsp;アップデート</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -161,102 +162,102 @@ distributions have already incorporated these updates an">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>Sander Sweers has released several updated packages for the <span class="caps">MATE</span> 1.8 series 
-that addresses an assortment of bug fixes and minor updates. Some 
-distributions have already incorporated these updates and the others will 
-follow in due course. See below for the&nbsp;changes:</p>
+<p>Sander Sweers は、さまざまなバグ修正やマイナーアップデートに対応する、<span class="caps">MATE</span> 1.8&nbsp;シリーズ用の更新パッケージを複数リリースしました。一部のディストリビューションにはこれらのアップデートがすでに組み込まれており、その他のディストリビューションでも組み込まれる予定です。変更点については以下をご覧ください。</p>
 <h3>atril&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed crash when clicking empty canvas while&nbsp;loading</li>
-<li>Fixed <span class="caps">FTBFS</span> when building with the clang&nbsp;compiler</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
+<li>ロード中に空のキャンバスをクリックするとクラッシュする問題を修正</li>
+<li>clang コンパイラを使用して構築する際の <span class="caps">FTBFS</span>&nbsp;を修正</li>
+<li>.desktop ファイルに keywords key&nbsp;を追加</li>
 </ul>
 <h3>caja&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed text rendering on no&nbsp;background</li>
-<li>Limit deep scount (folder contents and size) to one file&nbsp;system</li>
-<li>Handle metadata key&nbsp;deletions</li>
-<li>Propagate button-release event when&nbsp;ejecting</li>
+<li>バックグラウンドがない場合のテキストレンダリングを修正</li>
+<li>deep scount (フォルダの内容とサイズ) を 1&nbsp;つのファイルシステムに制限</li>
+<li>メタデータキー削除の処理</li>
+<li>イジェクト時のボタンリリース・イベントを増やす</li>
 </ul>
 <h3>engrampa&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening files&nbsp;inside <code>.rar</code> files</li>
-<li>Fixed possible errors with some password&nbsp;protected <code>.rar</code> files</li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Updated several man&nbsp;pages</li>
-<li>Do not set the selected app as the system&nbsp;default</li>
+<li>
+<code>.rar</code> ファイル内にあるファイルの開き方を修正</li>
+<li>パスワード保護された一部の <code>.rar</code> ファイルで発生する可能性があるエラーを修正</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>複数の man&nbsp;ページを更新</li>
+<li>選択したアプリケーションをシステムデフォルトに設定しない</li>
 </ul>
 <h3>eom&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed hyphen-as-minus-sign&nbsp;issues</li>
-<li>Updated scrollbars when display is resized in &#8220;normal size&#8221;&nbsp;mode</li>
+<li>ハイフンがマイナス記号になる問題を修正</li>
+<li><span class="dquo">&#8220;</span>通常サイズ&#8221;&nbsp;モードで表示サイズを変更する際のスクロールバーを更新</li>
 </ul>
 <h3>marco&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed issues with maximized Java&nbsp;applications</li>
-<li>Added _GTK_FRAME_EXTENTS hints for&nbsp;<span class="caps">GTK3</span></li>
+<li>最大化された Java&nbsp;アプリケーションに関する問題を修正</li>
+<li>GTK3用の _GTK_FRAME_EXTENTS&nbsp;ヒントを追加</li>
 </ul>
 <h3>mate-applets&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed file&nbsp;encoding</li>
-<li>Added and updated several man&nbsp;pages</li>
-<li>Updated policykit vendor&nbsp;<span class="caps">URL</span></li>
+<li>ファイルのエンコードを修正</li>
+<li>複数の man&nbsp;ページの追加と更新</li>
+<li>policykit vendor の <span class="caps">URL</span>&nbsp;を更新</li>
 </ul>
 <h3>mate-control-center&nbsp;1.8.3</h3>
 <ul>
-<li>Fixed typo in togglekeys-enable&nbsp;(a11y)</li>
-<li>Fixed segfault with custom key&nbsp;bindings</li>
-<li>Added support for metacity-2 themes in appearance&nbsp;capplet</li>
-<li>Added several man&nbsp;pages</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Updated Marco <span class="caps">WM</span>&nbsp;name</li>
+<li>togglekeys-enable (a11y)&nbsp;のタイプミスを修正</li>
+<li>カスタムキーバインディングのセグメントフォルトを修正</li>
+<li>appearance capplet に metacity-2&nbsp;のテーマサポートを追加</li>
+<li>複数の man&nbsp;ページを追加</li>
+<li>.desktop ファイルに keywords key&nbsp;を追加</li>
+<li>Marco <span class="caps">WM</span>&nbsp;の名前を更新</li>
 </ul>
 <h3>mate-netbook&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault on applet&nbsp;load</li>
-<li>Added man&nbsp;page</li>
+<li>アプレットロード時のセグメントフォルトを修正</li>
+<li>複数の man&nbsp;ページを追加</li>
 </ul>
 <h3>mate-panel&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;Add to Panel&#8221; context menu with multiple&nbsp;monitors</li>
+<li>マルチモニタでの &#8220;パネルに追加&#8221;&nbsp;コンテキストメニューを修正</li>
 </ul>
 <h3>mate-power-manager&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;levels is 0&#8221; warning if no kbd backlight&nbsp;present</li>
-<li>Added support for upower-0.99&nbsp;<span class="caps">API</span></li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Removed <em>&#8220;battery recall&#8221;</em>&nbsp;logic</li>
+<li>kbd backlight がない場合の &#8220;levels is 0&#8221;&nbsp;警告を修正</li>
+<li>upower-0.99 <span class="caps">API</span>&nbsp;への対応を追加</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>
+<em><span class="dquo">&#8220;</span>battery recall&#8221;</em>&nbsp;のロジックを削除</li>
 </ul>
 <h3>mate-screen-saver&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault in the absence of&nbsp;<span class="caps">XRANDR</span></li>
+<li><span class="caps">XRANDR</span>&nbsp;不存在時のセグメントフォルトを修正</li>
 </ul>
 <h3>mate-settings-daemon&nbsp;1.8.2</h3>
 <ul>
-<li>Replace googlemusicframe with&nbsp;nuvolaplayer</li>
-<li>Updated schema to use toggle shell&nbsp;script</li>
+<li>googlemusicframe を nuvolaplayer&nbsp;へ置き換え</li>
+<li>toggle shell script&nbsp;を使用するようにスキーマを更新</li>
 </ul>
 <h3>mate-system-tools&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed process liboobs errors in the callback function&nbsp;of <code>mate-users-admin</code>
-</li>
-<li>Fixed possible segfault on exit&nbsp;for <code>mate-users-admin</code>
-</li>
+<li>
+<code>mate-users-admin</code> のコールバック関数の process liboobs errors&nbsp;を修正</li>
+<li>
+<code>mate-users-admin</code> 終了時に発生する可能性がある segfault&nbsp;を修正</li>
 </ul>
 <h3>mate-terminal&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening new terminal in a&nbsp;tab</li>
-<li>Added colon to PATHCHARS_CLASS for <span class="caps">URL</span>&nbsp;detection</li>
+<li>新しい端末をタブで開くように修正</li>
+<li><span class="caps">URL</span> 検出用に PATHCHARS_CLASS&nbsp;にコロンを追加</li>
 </ul>
 <h3>mate-utils&nbsp;1.8.1</h3>
 <ul>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Fixed several man&nbsp;pages</li>
-<li>Fixed <code>gsearchtool</code> format-security&nbsp;warning</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>複数の man&nbsp;ページを修正</li>
+<li>
+<code>gsearchtool</code> format-security&nbsp;の警告を修正</li>
 </ul>
 <h3>python-caja&nbsp;1.8.1</h3>
 <ul>
-<li>Now&nbsp;uses <code>pkg-config</code> for python detection and&nbsp;variables</li>
+<li>Python&nbsp;の検出と変数に <code>pkg-config</code> を使用するようになりました。</li>
 </ul>
 </div>
     </div>
@@ -265,10 +266,10 @@ follow in due course. See below for the&nbsp;changes:</p>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2014-09-25-debian-and-ubuntu-repositories-removed/" rel="prev" title="Debian and Ubuntu package repositories removed from mate-desktop.org">一つ前の記事</a>
+                <a href="../2014-09-25-debian-and-ubuntu-repositories-removed/" rel="prev" title="Debian と Ubuntu のパッケージリポジトリが mate-desktop.org から削除されました">一つ前の記事</a>
             </li>
             <li class="next">
-                <a href="../mate-interview-with-linux-luddites/" rel="next" title="MATE interview with Linux Luddites">次の記事</a>
+                <a href="../mate-interview-with-linux-luddites/" rel="next" title="MATE は Linux Luddites の取材を受けました">次の記事</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -307,7 +308,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "689b353a567e"],
+    texts : ["Preview Website", "MATE Desktop", "a0057ead12b5"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

@@ -3,167 +3,113 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:30:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE デスクトップ Live CD</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは、完全な MATE デスクトップが起動可能な Live CD を作成しました。&lt;/p&gt;
+&lt;div class="alert alert-info"&gt;&lt;strong&gt;更新&lt;/strong&gt; LiveCD は2014年3月10日、MATE 1.8 へアップデートされました。&lt;/div&gt;
 
-&lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
-desktop in a non-destructive fashion. The image can be burned to a DVD, 
-mounted as an ISO file, or be directly written to a USB stick using a utility 
-like &lt;code&gt;dd&lt;/code&gt;. &lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; beware, &lt;code&gt;unetbootin&lt;/code&gt; is
-not supported. You can download it below:&lt;/p&gt;
-&lt;h4&gt;BitTorrent download (recommended)&lt;/h4&gt;
-&lt;p&gt;If you can spare the bytes, please leave the client open after your download 
-is finished, so you can seed it back to others. &lt;em&gt;A web-seed capable client is 
-recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;この Live CD は、将来的な新規ユーザーが MATE デスクトップをシステムに影響しない方法で評価するために作成されました。イメージは DVD に書き込んだり、ISO ファイルとしてマウントしたり、&lt;code&gt;dd&lt;/code&gt; のようなユーティリティを使って直接 USB メモリに書き込んだりすることができます。&lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; では &lt;code&gt;unetbootin&lt;/code&gt; はサポートされていません。以下からダウンロードできます。&lt;/p&gt;
+&lt;h4&gt;BitTorrent よりダウンロード (推奨)&lt;/h4&gt;
+&lt;p&gt;バイト数に余裕がある場合は、ダウンロードが完了した後でクライアントを開いたままにしておいてください。そうすれば、他のユーザーにシードすることができます。&lt;em&gt;最も速いダウンロード速度を得るためには、ウェブシード対応のクライアントをお推めします。&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;HTTP direct download&lt;/h4&gt;
-&lt;p&gt;In addition to the BitTorrent link above, the Live CD .iso can also be
-downloaded via HTTP. Please ensure the downloaded file matches the SHA1
-checksum.&lt;/p&gt;
+&lt;h4&gt;HTTP で直接ダウンロード&lt;/h4&gt;
+&lt;p&gt;上記の BitTorrent リンクに加えて、Live CD.iso は HTTP 経由でもダウンロード可能です。ダウンロードしたファイルが SHA1 チェックサムと一致することを確認してください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]&lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Compatibility&lt;/h3&gt;
-&lt;p&gt;The Live CD is built using &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; and MATE 
-1.8. The Live CD is 32-bit so should work on any i686 or x86_64 computer
-with at least 512MB RAM. Xorg drivers are included for Intel (&lt;code&gt;i915&lt;/code&gt;),
-AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) and nvidia (&lt;code&gt;nouveau&lt;/code&gt;) with a fall back to VESA.
-Drivers for Virtual Box and VMware are also included so that evaluation
-using these virtualization solutions is simple.&lt;/p&gt;
-&lt;p&gt;All common file systems, including &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, are supported 
-and some data recovery and backup tools are included. If you plug in your 
-mobile device it will most likely be recognised and you'll be able to access 
-the data on it. NetworkManager is included along with all the VPN clients it 
-supports.&lt;/p&gt;
-&lt;h3&gt;Usernames and passwords&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop Live CD has the following accounts configured.&lt;/p&gt;
+&lt;h3&gt;互換性&lt;/h3&gt;
+&lt;p&gt;Live CD は、&lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; と MATE 1.8 を使用して作成されています。Live CD は 32 ビットであるため、512MB 以上の RAM 搭載の i686 または x86_64 コンピュータで動作します。Intel (&lt;code&gt;i915&lt;/code&gt;)、AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;)、nvidia (&lt;code&gt;nouveau&lt;/code&gt;) 用の Xorg ドライバが含まれており、VESA にフォールバックします。Virtual Box および VMware 用のドライバも含まれているので、これらの仮想化ソリューションを使用した評価は簡単です。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt; を含むすべての一般的なファイルシステムがサポートされており、いくつかのデータリカバリおよびバックアップツールが含まれています。モバイルデバイスに接続すれば認識される可能性が高く、データにアクセスできるようになります。NetworkManager が、それに対応可能な VPN クライアントと共に含まれています。&lt;/p&gt;
+&lt;h3&gt;ユーザ名とパスワード&lt;/h3&gt;
+&lt;p&gt;MATE デスクトップ Live CD には、次のアカウントが設定されています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - パスワードは &lt;code&gt;livecd&lt;/code&gt; です。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - パスワードは &lt;code&gt;livecd&lt;/code&gt; です。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;root&lt;/code&gt; account is obviously &lt;code&gt;root&lt;/code&gt;. The &lt;code&gt;mate&lt;/code&gt; account it a regular user 
-that has with full password-less &lt;code&gt;sudo&lt;/code&gt; rights. The Live CD will auto-login 
-using the &lt;code&gt;mate&lt;/code&gt; account.&lt;/p&gt;
-&lt;h3&gt;Applications&lt;/h3&gt;
-&lt;p&gt;The Live CD is primarily designed to showcase the MATE desktop, however we've 
-included some additional applications that are not part of the MATE desktop in 
-order to make the LiveCD a little more useful and enjoyable.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;root&lt;/code&gt; アカウントは当然 &lt;code&gt;root&lt;/code&gt; です。&lt;code&gt;mate&lt;/code&gt; アカウントは、完全なパスワードなしの &lt;code&gt;sudo&lt;/code&gt; 権限を持つ通常のユーザーです。Live CD は &lt;code&gt;mate&lt;/code&gt; アカウントを使って自動ログインします。&lt;/p&gt;
+&lt;h3&gt;アプリケーション&lt;/h3&gt;
+&lt;p&gt;LiveCD はおもに MATE デスクトップを紹介する目的で作成されましたが、LiveCD が少しでも役立ち、楽しめるものにしたかったので、MATE デスクトップに含まれないアプリケーションも追加しました。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   - Standalone web browser from mozilla.org&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   - A Partition Magic clone, frontend to GNU Parted&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  - A system information and benchmark tool&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;   - IRC client configured to auto-connect to &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;      - Screen reader for individuals who are blind or visually impaired&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      - On-screen keyboard useful for mobility impaired individuals&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    - Multi-protocol instant messaging client&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    - Media player with a slick GUI, great speed and lots of features&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   - mozilla.org が開発したスタンドアロンのウェブブラウザ&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   - Partition Magic のクローンで GNU Parted のフロントエンド&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  - システム情報およびベンチマークツール&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;   - &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt; に自動接続するように設定された IRC クライアント&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;      - 視覚障害者向けのスクリーンリーダー&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      - 操作障害者に有用な画面上のキーボード&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    - マルチプロトコルなインスタントメッセージクライアント&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    - 洗練された GUI を持ち、高速で豊富な機能を備えたメディアプレーヤー&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Creative Commons content&lt;/h3&gt;
-&lt;p&gt;We have bundled the following Creative Commons licensed content.&lt;/p&gt;
+&lt;h3&gt;クリエイティブ・コモンズのコンテンツ&lt;/h3&gt;
+&lt;p&gt;次のとおり、クリエイティブコモン・ライセンスのコンテンツを含んでいます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        - To read with Atril&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        - Atrilと一緒に読む込まれます&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Changing language&lt;/h3&gt;
-&lt;p&gt;Be default the Live CD is configured to use the &lt;code&gt;en_US&lt;/code&gt; locale but if you want 
-to activate another language here is how to do it. In the example below, we 
-will enable Italian.&lt;/p&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.gen&lt;/code&gt; an uncomment your locale, in this case &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
-and rebuild the locales.&lt;/p&gt;
+&lt;h3&gt;言語の変更&lt;/h3&gt;
+&lt;p&gt;既定では、Live CD は &lt;code&gt;en_US&lt;/code&gt; ロケールを使用するように設定されていますが、ここで別の言語を有効にしたい場合には方法があります。次の例では、イタリア語が有効になります。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/etc/locale.gen&lt;/code&gt; を編集してロケールのコメントを外します。この場合、&lt;code&gt;it_IT.UTF-8UTF-8&lt;/code&gt; を編集してロケールを再設定してください。&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo locale-gen
 &lt;/pre&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.conf&lt;/code&gt; and change the &lt;code&gt;LANG=&lt;/code&gt; to reflect your locale, in this 
-case &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;. Finally restart the display manager and you will be 
-logged back into a MATE session using your prefered language.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/etc/locale.conf&lt;/code&gt; を編集し、&lt;code&gt;LANG=&lt;/code&gt; を変更してロケールを反映させます。この場合は &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt; です。最後にディスプレイマネージャを再起動すると、希望の言語を使って MATE セッションにログインできます。&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo systemctl restart lightdm
 &lt;/pre&gt;
-&lt;h3&gt;Linux Action Show Feature&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop LiveCD and MATE itself we featured on the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux Action 
-Show&lt;/a&gt; in the &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 
-Linux Review&lt;/a&gt; 
-episode. Two clips are embedded below, the first a quick look at the MATE 
-Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;/p&gt;
-&lt;h4&gt;MATE Desktop LiveCD&lt;/h4&gt;
+&lt;h3&gt;Linux アクション表示機能&lt;/h3&gt;
+&lt;p&gt;MATE デスクトップ LiveCD と MATE レビューを &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;CuBox 
+Linux Review&lt;/a&gt; の &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;Linux Action Show&lt;/a&gt; で紹介しました。下記に2つのクリップが埋め込まれています。最初はMATE デスクトップ LiveCD の概要であり、2番目は MATE が動作している CuBox i4 のレビューです。&lt;/p&gt;
+&lt;h4&gt;MATE デスクトップ LiveCD&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=608" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h4&gt;CuBox i4 Pro Review&lt;/h4&gt;
+&lt;h4&gt;CuBox i4 Pro レビュー&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=1925" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3&gt;Feedback&lt;/h3&gt;
-&lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity 
-the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
-spin let us know what you think in the comments or use the Live CD to join us 
-in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE is officially available in Arch Linux</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE has finally found it's way home.&lt;/p&gt;
-&lt;p&gt;As some of you may know MATE was created by an &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-user, Perberos. It is somewhat ironic then that MATE has never featured
-in the official Arch Linux package repository until now. That's right,
-MATE is finally available in the Arch Linux &lt;code&gt;[community]&lt;/code&gt; package
-repository!&lt;/p&gt;
-&lt;p&gt;You can find out everything you need to know about installing MATE
-on Arch Linux from the following wiki pages:&lt;/p&gt;
+&lt;h3&gt;フィードバック&lt;/h3&gt;
+&lt;p&gt;Live CD を試用していただいて、MATE デスクトップの速さとシンプルさを実感してください。MATE デスクトップ Live CD を試されたら、感想をお聞かせいただくか、あるいは Live CD を使って &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt; に参加してみてください。&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>LiveCD</category><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE は Arch Linux で公式に入手できます</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE はようやく我が家に落ち着きました。&lt;/p&gt;
+&lt;p&gt;皆さんの中には、MATEが &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; のユーザー、Perberos さんによって作成されたことをご存知の方がいるかもしれません。MATE がこれまで正式な Arch Linux のパッケージリポジトリに収録されていなかったというのは、皮肉なことです。この通り、MATE はついに Arch Linux の &lt;code&gt;[community]&lt;/code&gt; パッケージリポジトリで利用可能になりました！&lt;/p&gt;
+&lt;p&gt;Arch Linux に MATE をインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/MATE"&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
-repository will be removed once all the Arch Linux mirrors are synced.
-So go and update &lt;code&gt;/etc/pacman.conf&lt;/code&gt; and remove the &lt;code&gt;[mate]&lt;/code&gt; package
-repository.&lt;/p&gt;
-&lt;p&gt;The other advantage of getting MATE into the official Arch Linux package
-repository is that MATE will now also feature in the &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt;
-package repository. I can finally retire my Raspberry Pi (armv6h) and
-Cubox Pro (armv7h) build &lt;em&gt;"servers"&lt;/em&gt;. I'm not sure how long it will take
-for all the MATE packages to appear in the Arch Linux ARM package
-repository but I have already seen that some packages are built.&lt;/p&gt;
-&lt;p&gt;MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
-you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
-blog post about how install Arch Linux and MATE on the Raspberry Pi with
-some useful performance tweaks in the near future.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>MATE 1.6 packages for Arch Linux</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE 1.6 packages have been available for &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-for a good while now. So why the blog post?&lt;/p&gt;
-&lt;p&gt;Over the last few months the MATE 1.6 packages for Arch Linux have been
-fixed, cleaned up and enhanced. Here is an overview of what we've been
-working on:&lt;/p&gt;
+&lt;p&gt;すべての Arch Linux ミラーが同期されると、現在は廃止となった非公式な MATE パッケージリポジトリが削除されることに注意してください。そのため、&lt;code&gt;/etc/pacman.conf&lt;/code&gt; を更新し、&lt;code&gt;[mate]&lt;/code&gt; パッケージリポジトリを削除してください。&lt;/p&gt;
+&lt;p&gt;MATE を正式な Arch Linux パッケージリポジトリに入れるもう 1 つの利点は、MATE が &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt; パッケージリポジトリでも機能するようになることです。私はついに Raspberry Pi (armv6h) と Cubox Pro (armv7h) のビルド&lt;em&gt;"サーバ"&lt;/em&gt;を引退させることができます。すべての MATE パッケージが Arch Linux ARM パッケージリポジトリに現れるまでにどの位の時間がかかるのかは分かりませんが、すでにいくつかのパッケージがビルドされているのを確認しています。&lt;/p&gt;
+&lt;p&gt;MATE は 512MB の RAM を搭載した Raspberry Pi Model B で非常にうまく動作するので、もし Pi と予備の SDCARD があれば試してみてください。Arch Linux とMATE を Raspberry Pi にインストールする方法について、私はブログ記事を書くつもりです。近いうちに、パフォーマンス改善に役立つことも書きます。&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>Arch Linux 用の MATE 1.6 版パッケージ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE1.6 パッケージは &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; ではかなり前から提供されています。ではどうしてこのブログに投稿したのかといば ...&lt;/p&gt;
+&lt;p&gt;ここ数ヶ月の間に、Arch Linux 用の MATE 1.6 パッケージが修正され、整理され、拡張されました。私たちがこれまで取り組んできたことの概要は以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;All Arch Linux specific bugs have been fixed.&lt;/li&gt;
-&lt;li&gt;New automated build scripts and build cluster.&lt;/li&gt;
-&lt;li&gt;Full support for the following platforms:&lt;ul&gt;
+&lt;li&gt;Arch Linux にあった特有なバグがすべて修正されました。&lt;/li&gt;
+&lt;li&gt;新しい自動ビルドスクリプトとビルドクラスタ。&lt;/li&gt;
+&lt;li&gt;次のプラットフォームを完全にサポートします&lt;ul&gt;
 &lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;armv7h&lt;/li&gt;
 &lt;li&gt;i686&lt;/li&gt;
 &lt;li&gt;x86_64&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Packaged 9 additional applications/applets contributed by the MATE community.&lt;/li&gt;
-&lt;li&gt;Choice of Pulse Audio or GStreamer backends.&lt;/li&gt;
-&lt;li&gt;Cherry picked some &lt;code&gt;systemd&lt;/code&gt; and &lt;code&gt;logind&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;Cherry picked some &lt;code&gt;upower&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;Cherry picked miscellaneous bug fixes from MATE 1.7.&lt;/li&gt;
-&lt;li&gt;MATE 1.6 PKGBUILDs now automatically synced to the AUR.&lt;/li&gt;
-&lt;li&gt;The Arch Linux package repository for MATE is now signed.&lt;/li&gt;
+&lt;li&gt;MATE コミュニティから提供された9つのアプリケーション/アプレットを追加でパッケージ化しました。&lt;/li&gt;
+&lt;li&gt;Pulse Audio バックエンドまたは GStreamer バックエンドの選択。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 より &lt;code&gt;systemd&lt;/code&gt; と &lt;code&gt;logind&lt;/code&gt; の機能をいくつか選択しました。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 の &lt;code&gt;upower&lt;/code&gt; 機能をいくつか取り上げました。&lt;/li&gt;
+&lt;li&gt;Cherry は MATE 1.7 の雑多なバグ修正を取り上げました。&lt;/li&gt;
+&lt;li&gt;MATE 1.6 PKGBUILD は自動的に AUR と同期するようになりました。&lt;/li&gt;
+&lt;li&gt;MATE 用の Arch Linux パッケージリポジトリは署名されています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can find out everything you need to know about installing MATE 1.6
-on Arch Linux from the following wiki page:&lt;/p&gt;
+&lt;p&gt;MATE 1.6 を Arch Linux にインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md"&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I'd like to say a special thank you to:&lt;/p&gt;
+&lt;p&gt;次の方々に対して特にお礼を申し上げます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; for working with
-  the Fedora development team to hunt down &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; and &lt;code&gt;upower&lt;/code&gt;
-  fixes that are hugely beneficial for Arch Linux and also for
-  contributing a good number of the community applications.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/infirit"&gt;Sander Sweers&lt;/a&gt; and &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
-  for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; さん
+  Fedora 開発チームと協力しての &lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;logind&lt;/code&gt;、&lt;code&gt;upower&lt;/code&gt; の取り組み。
+  Arch Linux にとって非常に有益な各種修正。
+  さらにまた、多数のコミュニティー・アプリケーションの貢献。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/infirit"&gt;Sander Sweers&lt;/a&gt; さんと &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; さん
+  私を MATE チームに迎え入れてくださり、IRC で助けていただいたこと。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Now that the MATE 1.6 packages are in good shape I will start the process
-of getting MATE into the official Arch Linux repositories. You can help
-with that by voting for MATE packages in the AUR.&lt;/p&gt;
+&lt;p&gt;MATE 1.6 パッケージが良好な状態になったので、MATE を Arch Linux の公式リポジトリに入れるプロセスを開始します。AUR で MATE パッケージに投票することで支援することが可能です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>MATE デスクトップのご紹介</title><link>https://preview.mate-desktop.dev/ja/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE デスクトップ環境へようこそ！&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>MATE デスクトップのご紹介</title><link>https://preview.mate-desktop.dev/ja/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE デスクトップ環境へようこそ！&lt;/p&gt;
 &lt;p&gt;Gnome  2 は最も人気のある Linux デスクトップでしたが、もう入手できません... MATE はあなたにそれと同様なデスクトップを提供します &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos は当初、Gnome 2 をフォークしてそのプロジェクトを MATE と名付けました。ユーザーや開発者は、MATE を &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; 上で動作させることに成功しています。それが好評を得たので、Perberos は MATE を &lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt; 上でのコンパイルを容易にしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;と&lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt; はその後このプロジェクトに参加し、Debian と &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; 向けにパッケージ化しました。MATE デスクトップは Linux Mint 12 で大きく取り上げられ、急速に勢いを増しています。&lt;/p&gt;

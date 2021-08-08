@@ -114,7 +114,7 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 with <span class="caps">GTK3</span> for Fedora 21 and&nbsp;22</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 で Fedora 21/22 が&nbsp;GTK3対応に</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/wolfgang-ulbrich/">Wolfgang&nbsp;Ulbrich</a>
@@ -126,11 +126,9 @@
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>The <span class="caps">MATE</span> Desktop maintainers for Fedora are pleased to announce that experimental
-<span class="caps">GTK3</span> builds are available for testing on Fedora 21 and Fedora 22. These <span class="caps">GTK3</span> build
-do work but have some minor rendering issues, we&#8217;d value your&nbsp;feedback.</p>
-<h3>Installation</h3>
-<p>Install the repo file and do&nbsp;a <code>yum update</code>.</p>
+<p>Fedora プロジェクトの <span class="caps">MATE</span> デスクトップメンテナ等は、実験的な <span class="caps">GTK3</span> ビルドが Fedora 21 と Fedora 22 でテスト可能となったことを発表しました。これらのGTK3&nbsp;ビルドは動作しますが、複数の小さなレンダリング問題があるので、みなさんのフィードバックが大切です。</p>
+<h3>インストール</h3>
+<p>repo&nbsp;ファイルをインストールし、<code>yum update</code> を実行してください。</p>
 <h4>Fedora&nbsp;22</h4>
 <pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
@@ -141,23 +139,21 @@ $ sudo yum update
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
 </pre>
-<p>Or&nbsp;use <code>dnf</code> command:</p>
+<p>あるいは <code>dnf</code> コマンドを使ってください。</p>
 <pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
 $ sudo dnf update
 </pre>
-<h3>Reporting&nbsp;issues</h3>
-<p>Please use the <span class="caps">MATE</span> Desktop issue tracker on GitHub and include &#8216;<span class="caps">GTK3</span> and Fedora&#8217;
-in&nbsp;subject.</p>
+<h3>問題を報告するには</h3>
+<p>GitHub の <span class="caps">MATE</span> デスクトップ issue tracker を使い、&#8217;<span class="caps">GTK3</span> and Fedora&#8217;&nbsp;を件名に含めてください。</p>
 <ul>
 <li>https://github.com/mate-desktop</li>
 </ul>
-<p>Some&nbsp;notes:</p>
+<p>いくつかの注意点:</p>
 <ul>
-<li>Compiz will only work&nbsp;with <code>emerald</code> as&nbsp;window-decorator.</li>
-<li>Do not use use a mix of <span class="caps">GTK2</span> packages from Fedora stable and <span class="caps">GTK3</span> packages from the
-  repo&nbsp;above.</li>
-<li>Do not use the following <span class="caps">MATE</span> applications with a <span class="caps">GTK3</span> build of <span class="caps">MATE</span>; they aren&#8217;t ported to <span class="caps">GTK3</span>:<ul>
-<li>mintMenu and <span class="caps">MATE</span>&nbsp;Menu</li>
+<li>Compiz&nbsp;はウィンドウ装飾として <code>emerald</code> だけで動作します。</li>
+<li>Fedora stable の <span class="caps">GTK2</span> パッケージと上記のリポジトリの <span class="caps">GTK3</span> パッケージを混在させて使用しないでください。&nbsp;.</li>
+<li>次の <span class="caps">MATE</span> アプリケーションは、<span class="caps">GTK3</span> ビルドの <span class="caps">MATE</span> と一緒に使用しないでください。<span class="caps">GTK3</span> へ移植されていないからです。<ul>
+<li>mintMenu および <span class="caps">MATE</span>&nbsp;Menu</li>
 <li>mate-applet-streamer</li>
 <li>mate-applet-lockkeys</li>
 <li>mate-applet-softupd</li>
@@ -167,7 +163,7 @@ in&nbsp;subject.</p>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url">Meet <span class="caps">MATE</span>&#8217;s&nbsp;Mastermind</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url"><span class="caps">MATE</span>&nbsp;のマスターマインドを紹介します</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
@@ -179,24 +175,14 @@ in&nbsp;subject.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>I was fortunate enough to be invited on to Episode 347 of the <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Linux 
-Action Show</a> to
-talk a little about <span class="caps">MATE</span> Desktop, where it came from and where it is headed.
-The interview with me is embedded&nbsp;below.</p>
+<p>私は幸運にも <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Linux アクションショー</a> のエピソード 347 に招待されました。そこで <span class="caps">MATE</span>&nbsp;デスクトップについて、この起源はどこで、これがどこにに向かっているのかを少し話しました。私へのインタビューは下記に含まれています。</p>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/OwW9jaVKjSw?start=1945" frameborder="0" allowfullscreen></iframe>
 
-<p>I wasn&#8217;t able to cover all the development objectives of <span class="caps">MATE</span> 1.10 in the time 
-available so I recommend you take a look at the <a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"><span class="caps">MATE</span> Roadmap</a>
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the project, then we look forward to chatting with
-you in the <a href="https://web.libera.chat/?#mate">#mate <span class="caps">IRC</span> channel</a> or
-reviewing your <a href="https://github.com/mate-desktop">pull-requests on GitHub</a>. </p>
-<p><a href="https://www.jupiterbroadcasting.com">Jupiter Broadcasting</a> produce a number of 
-weekly videocasts and podcasts mostly oriented around <span class="caps">FLOSS</span>. Take a look, you 
-may find something that interests&nbsp;you.</p>
+<p>その時点では <span class="caps">MATE</span> 1.10 の開発目標をすべて網羅することはできなかったので、<a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"><span class="caps">MATE</span> ロードマップ</a>を参照して、完全な概要を把握することをお勧めします。さらに質問がある場合や、プロジェクトに貢献したい場合は、<a href="https://web.libera.chat/?#mate">#mate <span class="caps">IRC</span> チャンネル</a>でみなさんとチャットしたり、<a href="https://github.com/mate-desktop">GitHub のプルリクエスト</a>をレビューしたりするのを楽しみにしています。</p>
+<p><a href="https://www.jupiterbroadcasting.com">Jupiter Broadcasting</a> では、毎週 <span class="caps">FLOSS</span>&nbsp;を中心にしたビデオキャストやポッドキャストが数多く制作されています。ご覧になると面白いかもしれません。</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url"><span class="caps">MATE</span> interview with Linux&nbsp;Luddites</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url"><span class="caps">MATE</span> は Linux Luddites&nbsp;の取材を受けました</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -208,23 +194,15 @@ may find something that interests&nbsp;you.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p><a href="https://linuxluddites.com">Linux Luddites</a> were kind enough to interview
-me last week. We discussed the origins of <a href="https://mate-desktop.org"><span class="caps">MATE</span> Desktop</a>,
-it&#8217;s future direction, how <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a> came to
-be and where it is&nbsp;headed.</p>
-<p><a href="https://linuxluddites.com/shows/episode-26">Linux Luddites Episode #26</a>
-was published earlier today and I suggest you head over to the Linux Luddites
-website and give it a&nbsp;listen.</p>
+<p><a href="https://linuxluddites.com">Linux Luddites</a>は先週、親切にも私にインタビューしてくれました。<a href="https://mate-desktop.org"><span class="caps">MATE</span> Desktop</a>の起源、今後の方向性、<a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a>がどうやって生まれ、どこに向かうのかについて議論しました。</p>
+<p><a href="https://linuxluddites.com/shows/episode-26">Linux Luddites エピソード #26</a> が今朝出版されたので、Linux Luddites&nbsp;のウェブサイトに出かけて聞くことをお勧めします。</p>
 <ul>
-<li><a href="https://linuxluddites.com/shows/episode-26">Linux Luddites Episode&nbsp;#26</a></li>
+<li><a href="https://linuxluddites.com/shows/episode-26">Linux Luddites エピソード&nbsp;#26</a></li>
 </ul>
-<p>If you&#8217;ve not listened to the Linux Luddites before then you should checkout
-their back catalog. It has been one of my favourite <span class="caps">FLOSS</span> podcasts for some
-months now that blends good discussion and insight with useful distro reviews
-and first&nbsp;impressions.</p>
+<p>Linux Luddites のことを聞いたことがない方は、バックカタログをチェックしてみるとよいでしょう。これは数ヶ月前から私のお気に入りの <span class="caps">FLOSS</span> ポッドキャストの 1&nbsp;つであり、ディストロの有益なレビューや第一印象と共に、すばらしい議論や洞察を融合させています。</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-29-mate-1-8-updated/" class="u-url"><span class="caps">MATE</span> 1.8&nbsp;updated</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-29-mate-1-8-updated/" class="u-url"><span class="caps">MATE</span> 1.8&nbsp;アップデート</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -236,106 +214,106 @@ and first&nbsp;impressions.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>Sander Sweers has released several updated packages for the <span class="caps">MATE</span> 1.8 series 
-that addresses an assortment of bug fixes and minor updates. Some 
-distributions have already incorporated these updates and the others will 
-follow in due course. See below for the&nbsp;changes:</p>
+<p>Sander Sweers は、さまざまなバグ修正やマイナーアップデートに対応する、<span class="caps">MATE</span> 1.8&nbsp;シリーズ用の更新パッケージを複数リリースしました。一部のディストリビューションにはこれらのアップデートがすでに組み込まれており、その他のディストリビューションでも組み込まれる予定です。変更点については以下をご覧ください。</p>
 <h3>atril&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed crash when clicking empty canvas while&nbsp;loading</li>
-<li>Fixed <span class="caps">FTBFS</span> when building with the clang&nbsp;compiler</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
+<li>ロード中に空のキャンバスをクリックするとクラッシュする問題を修正</li>
+<li>clang コンパイラを使用して構築する際の <span class="caps">FTBFS</span>&nbsp;を修正</li>
+<li>.desktop ファイルに keywords key&nbsp;を追加</li>
 </ul>
 <h3>caja&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed text rendering on no&nbsp;background</li>
-<li>Limit deep scount (folder contents and size) to one file&nbsp;system</li>
-<li>Handle metadata key&nbsp;deletions</li>
-<li>Propagate button-release event when&nbsp;ejecting</li>
+<li>バックグラウンドがない場合のテキストレンダリングを修正</li>
+<li>deep scount (フォルダの内容とサイズ) を 1&nbsp;つのファイルシステムに制限</li>
+<li>メタデータキー削除の処理</li>
+<li>イジェクト時のボタンリリース・イベントを増やす</li>
 </ul>
 <h3>engrampa&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening files&nbsp;inside <code>.rar</code> files</li>
-<li>Fixed possible errors with some password&nbsp;protected <code>.rar</code> files</li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Updated several man&nbsp;pages</li>
-<li>Do not set the selected app as the system&nbsp;default</li>
+<li>
+<code>.rar</code> ファイル内にあるファイルの開き方を修正</li>
+<li>パスワード保護された一部の <code>.rar</code> ファイルで発生する可能性があるエラーを修正</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>複数の man&nbsp;ページを更新</li>
+<li>選択したアプリケーションをシステムデフォルトに設定しない</li>
 </ul>
 <h3>eom&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed hyphen-as-minus-sign&nbsp;issues</li>
-<li>Updated scrollbars when display is resized in &#8220;normal size&#8221;&nbsp;mode</li>
+<li>ハイフンがマイナス記号になる問題を修正</li>
+<li><span class="dquo">&#8220;</span>通常サイズ&#8221;&nbsp;モードで表示サイズを変更する際のスクロールバーを更新</li>
 </ul>
 <h3>marco&nbsp;1.8.2</h3>
 <ul>
-<li>Fixed issues with maximized Java&nbsp;applications</li>
-<li>Added _GTK_FRAME_EXTENTS hints for&nbsp;<span class="caps">GTK3</span></li>
+<li>最大化された Java&nbsp;アプリケーションに関する問題を修正</li>
+<li>GTK3用の _GTK_FRAME_EXTENTS&nbsp;ヒントを追加</li>
 </ul>
 <h3>mate-applets&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed file&nbsp;encoding</li>
-<li>Added and updated several man&nbsp;pages</li>
-<li>Updated policykit vendor&nbsp;<span class="caps">URL</span></li>
+<li>ファイルのエンコードを修正</li>
+<li>複数の man&nbsp;ページの追加と更新</li>
+<li>policykit vendor の <span class="caps">URL</span>&nbsp;を更新</li>
 </ul>
 <h3>mate-control-center&nbsp;1.8.3</h3>
 <ul>
-<li>Fixed typo in togglekeys-enable&nbsp;(a11y)</li>
-<li>Fixed segfault with custom key&nbsp;bindings</li>
-<li>Added support for metacity-2 themes in appearance&nbsp;capplet</li>
-<li>Added several man&nbsp;pages</li>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Updated Marco <span class="caps">WM</span>&nbsp;name</li>
+<li>togglekeys-enable (a11y)&nbsp;のタイプミスを修正</li>
+<li>カスタムキーバインディングのセグメントフォルトを修正</li>
+<li>appearance capplet に metacity-2&nbsp;のテーマサポートを追加</li>
+<li>複数の man&nbsp;ページを追加</li>
+<li>.desktop ファイルに keywords key&nbsp;を追加</li>
+<li>Marco <span class="caps">WM</span>&nbsp;の名前を更新</li>
 </ul>
 <h3>mate-netbook&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault on applet&nbsp;load</li>
-<li>Added man&nbsp;page</li>
+<li>アプレットロード時のセグメントフォルトを修正</li>
+<li>複数の man&nbsp;ページを追加</li>
 </ul>
 <h3>mate-panel&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;Add to Panel&#8221; context menu with multiple&nbsp;monitors</li>
+<li>マルチモニタでの &#8220;パネルに追加&#8221;&nbsp;コンテキストメニューを修正</li>
 </ul>
 <h3>mate-power-manager&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed &#8220;levels is 0&#8221; warning if no kbd backlight&nbsp;present</li>
-<li>Added support for upower-0.99&nbsp;<span class="caps">API</span></li>
-<li>Added keywords key to .desktop&nbsp;file</li>
-<li>Removed <em>&#8220;battery recall&#8221;</em>&nbsp;logic</li>
+<li>kbd backlight がない場合の &#8220;levels is 0&#8221;&nbsp;警告を修正</li>
+<li>upower-0.99 <span class="caps">API</span>&nbsp;への対応を追加</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>
+<em><span class="dquo">&#8220;</span>battery recall&#8221;</em>&nbsp;のロジックを削除</li>
 </ul>
 <h3>mate-screen-saver&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed segfault in the absence of&nbsp;<span class="caps">XRANDR</span></li>
+<li><span class="caps">XRANDR</span>&nbsp;不存在時のセグメントフォルトを修正</li>
 </ul>
 <h3>mate-settings-daemon&nbsp;1.8.2</h3>
 <ul>
-<li>Replace googlemusicframe with&nbsp;nuvolaplayer</li>
-<li>Updated schema to use toggle shell&nbsp;script</li>
+<li>googlemusicframe を nuvolaplayer&nbsp;へ置き換え</li>
+<li>toggle shell script&nbsp;を使用するようにスキーマを更新</li>
 </ul>
 <h3>mate-system-tools&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed process liboobs errors in the callback function&nbsp;of <code>mate-users-admin</code>
-</li>
-<li>Fixed possible segfault on exit&nbsp;for <code>mate-users-admin</code>
-</li>
+<li>
+<code>mate-users-admin</code> のコールバック関数の process liboobs errors&nbsp;を修正</li>
+<li>
+<code>mate-users-admin</code> 終了時に発生する可能性がある segfault&nbsp;を修正</li>
 </ul>
 <h3>mate-terminal&nbsp;1.8.1</h3>
 <ul>
-<li>Fixed opening new terminal in a&nbsp;tab</li>
-<li>Added colon to PATHCHARS_CLASS for <span class="caps">URL</span>&nbsp;detection</li>
+<li>新しい端末をタブで開くように修正</li>
+<li><span class="caps">URL</span> 検出用に PATHCHARS_CLASS&nbsp;にコロンを追加</li>
 </ul>
 <h3>mate-utils&nbsp;1.8.1</h3>
 <ul>
-<li>Added keywords key to .desktop&nbsp;files</li>
-<li>Fixed several man&nbsp;pages</li>
-<li>Fixed <code>gsearchtool</code> format-security&nbsp;warning</li>
+<li>keywords key を .desktop&nbsp;ファイルに追加</li>
+<li>複数の man&nbsp;ページを修正</li>
+<li>
+<code>gsearchtool</code> format-security&nbsp;の警告を修正</li>
 </ul>
 <h3>python-caja&nbsp;1.8.1</h3>
 <ul>
-<li>Now&nbsp;uses <code>pkg-config</code> for python detection and&nbsp;variables</li>
+<li>Python&nbsp;の検出と変数に <code>pkg-config</code> を使用するようになりました。</li>
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-25-debian-and-ubuntu-repositories-removed/" class="u-url">Debian and Ubuntu package repositories removed from&nbsp;mate-desktop.org</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-25-debian-and-ubuntu-repositories-removed/" class="u-url">Debian と Ubuntu のパッケージリポジトリが mate-desktop.org&nbsp;から削除されました</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -347,24 +325,13 @@ follow in due course. See below for the&nbsp;changes:</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>Thanks to the efforts of the <a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"><span class="caps">MATE</span> package maintainers for Debian</a>
-<span class="caps">MATE</span> 1.8.1 is available in Debian Jessie (testing) and also
-<a href="https://backports.debian.org">Debian backports</a> for&nbsp;Wheezy.</p>
-<p>As a result of <span class="caps">MATE</span> 1.8.1 hitting the Debian testing repositories
-earlier this year, <span class="caps">MATE</span> 1.8.1 is also in the official archive
-for Ubuntu 14.10 Utopic Unicorn. The <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a>
-team have recently created a <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 14.04 Trusty Tahr</a>
-at the request of the <a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html">Ubuntu Technical Board</a>
-and also a <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 12.04 Precise&nbsp;Pangolin</a></p>
-<p>If you require <span class="caps">MATE</span> packages for Debian or Ubuntu then the package 
-repositories above are the official repositories to&nbsp;use.</p>
-<p>We&#8217;ve removed the package repositories hosted on mate-desktop.org 
-because some were unsigned and others have not been maintained for many 
-months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been&nbsp;removed. </p>
+<p><a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members">Debian の <span class="caps">MATE</span> パッケージメンテナ</a>の努力のおかげで、<span class="caps">MATE</span> 1.8.1 は Debian Jessie (テスト用)と <a href="2014-09-25-debian-and-ubuntu-repositories-removed/Wheezy%E7%94%A8https:/backports.debian.org">Debian backports</a>&nbsp;より利用できます。</p>
+<p><span class="caps">MATE</span> 1.8.1 が今年初めに Debian テスト版リポジトリに登場した結果、<span class="caps">MATE</span> 1.8.1 は Ubuntu 14.10 Utopic Unicorn の公式アーカイブにも入っています。<a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a> チームは最近、<a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html">Ubuntu 技術部門</a> の要請に応じて <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 14.04 Trusty Tahr</a> を作成し、また <a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"><span class="caps">MATE</span> 1.8.1 <span class="caps">PPA</span> for Ubuntu 12.04 Precise Pangolin</a>&nbsp;も作成しました。</p>
+<p>もし Debian または Ubuntu 用の <span class="caps">MATE</span>&nbsp;パッケージが必要な場合、上記のパッケージリポジトリが使用すべき公式リポジトリになります。</p>
+<p>mate-desktop.org でホストされているパッケージリポジトリを削除しました。これは、いくつかは署名されていなかったり、何ヶ月も管理されていなかったからです。したがって、現在のところ、mate-desktop.org でホストされている Debian と Ubuntu&nbsp;のパッケージリポジトリは削除されました。</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-05-10-mate-in-opensuse/" class="u-url"><span class="caps">MATE</span> in&nbsp;openSUSE</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-05-10-mate-in-opensuse/" class="u-url">openSUSE&nbsp;での利用について</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/benjamin-denisart/">Benjamin&nbsp;Denisart</a>
@@ -377,19 +344,12 @@ repositories hosted on mate-desktop.org have been&nbsp;removed. </p>
     </header><div class="e-content entry-content">
     <div>
 <p><img alt="openSUSE" src="../../assets/img/blog/mate-opensuse-black-150x150.png"></p>
-<p>The openSUSE <span class="caps">MATE</span> team is proud to announce the availability of <span class="caps">MATE</span> 1.8
-for openSUSE. The patterns are not available anymore, and won&#8217;t be in
-the future due to official inclusion of <span class="caps">MATE</span> in openSUSE.
-We can&#8217;t support openSUSE 12.2 anymore, <span class="caps">MATE</span> requirements are not
-provided in the right versions in that one.
-We have changed our schema of repositories, to avoid people having to
-change their repositories for each update. Now there is
-just one place,&nbsp;X11:<span class="caps">MATE</span>:Current.</p>
-<p>To install it, please replace or add our&nbsp;repository:</p>
+<p>OpenSUSE <span class="caps">MATE</span> チームは、OpenSUSE 用の <span class="caps">MATE</span> 1.8 の提供が公表できたことに誇りを持っています。OpenSUSE には <span class="caps">MATE</span> が正式に含まれているため、従来のパターンは今後利用できなくなります。OpenSUSE 12.2 はサポートできなくなりましたが、<span class="caps">MATE</span> 要件が適切なバージョンで提供されていません。私たちはリポジトリのスキーマを変更して、更新ごとでリポジトリを変更する必要がないようにしました。今では、X11:<span class="caps">MATE</span>:Current&nbsp;という場所が1つだけあります。</p>
+<p>インストールするには、リポジトリを置き換えるか追加してください。</p>
 <p><a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/">https://download.opensuse.org/repositories/X11:/<span class="caps">MATE</span>:/Current/</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-04-28-mate-desktop-gsoc-2014-projects/" class="u-url"><span class="caps">MATE</span> projects accepted for GSoC&nbsp;2014</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-04-28-mate-desktop-gsoc-2014-projects/" class="u-url">GSoC2014 で承認された <span class="caps">MATE</span>&nbsp;プロジェクト</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -401,30 +361,20 @@ just one place,&nbsp;X11:<span class="caps">MATE</span>:Current.</p>
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the <span class="caps">MATE</span> Desktop project is one of the 190 Open Source projects that will
-be  working with students this&nbsp;year.</p>
-<p>In our second year as a GSoC mentor organisation the <span class="caps">MATE</span> team received 4
-student proposals we were allocated 3 slots for student&nbsp;projects.</p>
-<p>I&#8217;m delighted to introduce our GSoC students for&nbsp;2014:</p>
+<p>数週間のレビューの後、2014 年の Google Summer of Code (GSoC) のアプリケーションと選択の期間は終わりました。4420 人の学生がこの夏に合計 6313 のプロジェクトを提案しました。そのうち 1307 人の学生が受け入れられ、<span class="caps">MATE</span> デスクトッププロジェクトは今年の学生と共に活動する 190 のオープンソースプロジェクトのうちの 1&nbsp;つです。</p>
+<p>GSoC メンター組織としての 2 年目に、<span class="caps">MATE</span> チームは 4 件の学生からの提案を受け、学生プロジェクトで 3&nbsp;つの計画が割り当てられました。</p>
+<p>2014年度の GSoC&nbsp;の学生等を紹介できて嬉しく思います。</p>
 <ul>
-<li>Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the <span class="caps">MATE</span>&nbsp;desktop.</li>
-<li>Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  <span class="caps">MATE</span> desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10&nbsp;library.</li>
-<li>Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension&nbsp;configuration.</li>
+<li>Avishkar Gupta さんは、ePub レンダリング機能を
+  <span class="caps">MATE</span> デスクトップの文書ビューアである Atril&nbsp;に追加しようと取り組んでいます。</li>
+<li>Michal Ratajsky さんは、廃止された GStreamer 0.1.0 ライブラリへの依存を置き換えるため、GStreamer 1.0 サポートを <span class="caps">MATE</span> デスクトップ環境に追加する作業を行う予定です。
+  /n&nbsp;/n</li>
+<li>Alexander van der Meij さんは Caja 拡張機能の改善に取り組む予定です。
+  したがって、実行時にこれらを統合して、Caja 拡張機能構成用の単一のユーザーインターフェースを作成することもできます。&nbsp;/n</li>
 </ul>
-<p>Please join me in welcoming these new contributors to the <span class="caps">MATE</span> team and wish
-them every success with their respective projects for the&nbsp;summer.</p>
-<p>On behalf on the entire <span class="caps">MATE</span> team I&#8217;d also like to extend our thanks and
-gratitude to <a href="https://www.opensuse.org">openSUSE</a> who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-<span class="caps">MATE</span> team that will provide much need development resources to the&nbsp;project.</p>
+<p><span class="caps">MATE</span>&nbsp;チームへのこうした新しい貢献者を歓迎するとともに、彼らの夏季プロジェクトの成功をお祈りします。</p>
+<p><span class="caps">MATE</span> チーム全体を代表して、私たちの GSoC オーガナイザーである <a href="https://www.opensuse.org">openSUSE</a> にも感謝の意を表します。
+2014. 彼らは、プロジェクトに必要な開発リソースを提供する目的で、<span class="caps">MATE</span> チームのために、これらの GSoC の取り組みの中で素晴らしい仕事をしてくただきました。&nbsp;/n</p>
 </div>
     </div>
     </article>
@@ -470,7 +420,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "689b353a567e"],
+    texts : ["Preview Website", "MATE Desktop", "a0057ead12b5"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

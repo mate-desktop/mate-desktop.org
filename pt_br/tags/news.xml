@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:29:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/pt_br/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/pt_br/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; to
 talk a little about MATE Desktop, where it came from and where it is headed.
 The interview with me is embedded below.&lt;/p&gt;
@@ -54,7 +54,7 @@ them every success with their respective projects for the summer.&lt;/p&gt;
 &lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
 gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
 2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pt_br/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/pt_br/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team is proud to announce that we are collaborting with the
+MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pt_br/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/pt_br/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team is proud to announce that we are collaborating with the
 &lt;a href="http://galculator.mnim.org/"&gt;galculator&lt;/a&gt; team and that galculator
 will replace &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10.&lt;/p&gt;
 &lt;h3&gt;What is galculator?&lt;/h3&gt;
@@ -80,7 +80,7 @@ floating point and 112-bit binary arithmetic.&lt;/p&gt;
 &lt;li&gt;Copy and paste&lt;/li&gt;
 &lt;li&gt;Available in more than 20 translations.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Like MATE galculator has a commitmet to GTK2 and GTK3 and is actively
+&lt;p&gt;Like MATE galculator has a commitment to GTK2 and GTK3 and is actively
 maintained.&lt;/p&gt;
 &lt;h3&gt;Why ditch mate-calc?&lt;/h3&gt;
 &lt;p&gt;While &lt;code&gt;mate-calc&lt;/code&gt; is functional it lacks many features required of a

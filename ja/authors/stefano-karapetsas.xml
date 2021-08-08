@@ -3,166 +3,111 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:30:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
-Action Show&lt;/a&gt; to
-talk a little about MATE Desktop, where it came from and where it is headed.
-The interview with me is embedded below.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE のマスターマインドを紹介します</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;私は幸運にも &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux アクションショー&lt;/a&gt; のエピソード 347 に招待されました。そこで MATE デスクトップについて、この起源はどこで、これがどこにに向かっているのかを少し話しました。私へのインタビューは下記に含まれています。&lt;/p&gt;
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/OwW9jaVKjSw?start=1945" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.10 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the project, then we look forward to chatting with
-you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>MATE 1.8 released</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.8. We would like to
-thank every MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.8.png"&gt;&lt;/p&gt;
-&lt;p&gt;The main changes in 1.8 are:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;その時点では MATE 1.10 の開発目標をすべて網羅することはできなかったので、&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE ロードマップ&lt;/a&gt;を参照して、完全な概要を把握することをお勧めします。さらに質問がある場合や、プロジェクトに貢献したい場合は、&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC チャンネル&lt;/a&gt;でみなさんとチャットしたり、&lt;a href="https://github.com/mate-desktop"&gt;GitHub のプルリクエスト&lt;/a&gt;をレビューしたりするのを楽しみにしています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; では、毎週 FLOSS を中心にしたビデオキャストやポッドキャストが数多く制作されています。ご覧になると面白いかもしれません。&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>MATE 1.8 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;私たちチームは、MATE デスクトップ 1.8 のリリースを公表できてうれしく思います。MATE の貢献者やユーザーのみなさんに感謝します。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="情報" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.8.png"&gt;&lt;/p&gt;
+&lt;p&gt;1.8 の主な変更点は次のとおりです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added an option to use IEC units instead of SI units&lt;/li&gt;
-&lt;li&gt;Added “Open parent location” option in the search view context menu&lt;/li&gt;
+&lt;li&gt;SI 単位の代わりに IEC 単位を使用するオプションを追加&lt;/li&gt;
+&lt;li&gt;検索ビューのコンテキストメニューに “Open parent location” オプションを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Marco (window manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Marco (ウィンドウマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added side-by-side tiling (window snapping)&lt;/li&gt;
+&lt;li&gt;並べて表示する機能を追加 (ウィンドウのスナップ)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Panel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;パネル&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support for Metacity keybindings in the run dialog and main menu&lt;/li&gt;
-&lt;li&gt;Added a progress bar to the logout dialog&lt;/li&gt;
+&lt;li&gt;実行ダイアログおよびメインメニューでの Metacity キーバインディングのサポート追加&lt;/li&gt;
+&lt;li&gt;ログアウトダイアログに進捗バーを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Control center&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;コントロールセンタ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added support to use Metacity as a window manager&lt;/li&gt;
+&lt;li&gt;Metacity をウィンドウマネージャとして使用可能にするための対応&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;MATE Desktop library&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MATE デスクトップライブラリ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added MATE User Guide&lt;/li&gt;
+&lt;li&gt;MATE ユーザーガイドを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Eye Of MATE (image viewer)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eye Of MATE (画像ビューア)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added shuffle mode to the slideshow &lt;/li&gt;
+&lt;li&gt;スライドショーにシャッフルモードを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Engrampa (file archiver)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Engrampa (ファイルアーカイバ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Always display “extract to” context menu to Caja&lt;/li&gt;
+&lt;li&gt;常に "展開先" のコンテキストメニューを Cajaに表示&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Screensaver&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;スクリーンセーバ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Displays date and time in lock dialog&lt;/li&gt;
+&lt;li&gt;ロックダイアログに日付と時刻を表示&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Applets&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;各種アプレット&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Added undo functionality to the sticky note applet&lt;/li&gt;
-&lt;li&gt;Added a new “command” applet to show the output of a command&lt;/li&gt;
-&lt;li&gt;Rewrote the “timer” applet in C&lt;/li&gt;
-&lt;li&gt;Clicking the middle mouse on the volume applet toggles mute&lt;/li&gt;
+&lt;li&gt;付箋アプレットに元に戻す機能を追加&lt;/li&gt;
+&lt;li&gt;コマンドの出力を表示する、新しい "コマンド" アプレットを追加&lt;/li&gt;
+&lt;li&gt;C 言語で "timer" アプレットを書き換え&lt;/li&gt;
+&lt;li&gt;音量アプレット上で中マウスボタンをクリックしてミュートに切り替え&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Dropped packages&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;廃止したパッケージ&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Replaced &lt;code&gt;mate-doc-utils&lt;/code&gt; with &lt;code&gt;yelp-tools&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Replaced &lt;code&gt;libmatekeyring&lt;/code&gt; and &lt;code&gt;mate-keyring&lt;/code&gt; with &lt;code&gt;libsecret&lt;/code&gt; and &lt;code&gt;gnome-keyring&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Replaced &lt;code&gt;libmatewnck&lt;/code&gt; with &lt;code&gt;libwnck&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Replaced &lt;code&gt;mucharmap&lt;/code&gt; with &lt;code&gt;gucharmap&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Replaced &lt;code&gt;mate-bluetooth&lt;/code&gt; with &lt;a href="https://github.com/blueman-project/blueman"&gt;blueman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Merged all Caja extensions into a single package&lt;/li&gt;
-&lt;li&gt;Removed the modem lights applet, as the netspeed applet provides similar functionality&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-doc-utils&lt;/code&gt; を &lt;code&gt;yelp-tools&lt;/code&gt; へと置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatekeyring&lt;/code&gt; と &lt;code&gt;mate-keyring&lt;/code&gt; を &lt;code&gt;libsecret&lt;/code&gt; と &lt;code&gt;gnome-keyring&lt;/code&gt; に置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatewnck&lt;/code&gt; を &lt;code&gt;libwnck&lt;/code&gt; へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mucharmap&lt;/code&gt; を &lt;code&gt;gucharmap&lt;/code&gt; へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; を &lt;a href="https://github.com/blueman-project/blueman"&gt;blueman&lt;/a&gt; へ置き換え&lt;/li&gt;
+&lt;li&gt;すべての  Caja 拡張機能を 1 つのパッケージに統合&lt;/li&gt;
+&lt;li&gt;netspeed アプレットに同等の機能があるため、modem lights アプレットを削除。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Other improvements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;その他の改善&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed a lot of code deprecations&lt;/li&gt;
-&lt;li&gt;Fixed a lot of bugs&lt;/li&gt;
-&lt;li&gt;Improved the build system&lt;/li&gt;
-&lt;li&gt;Added and improved a lot of translations &lt;/li&gt;
+&lt;li&gt;多くの非推奨コードを修正&lt;/li&gt;
+&lt;li&gt;多数の不具合を修正&lt;/li&gt;
+&lt;li&gt;ビルドシステムの改良&lt;/li&gt;
+&lt;li&gt;多くの翻訳の追加と改善&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;As usual, we asked people from distributions that ship MATE what they think
-about our Desktop Environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mike Gabriel&lt;/strong&gt;, &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt; developer and MATE maintainer:&lt;/p&gt;
+&lt;p&gt;いつもの通り、MATEを配布しているディストリビューションの方々に、私たちのデスクトップ環境をどう思っているのか尋ねてみました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mike Gabriel&lt;/strong&gt;, &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt; 開発者兼 MATE メンテナ:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;I forsee MATE being one of the most used desktop environments in Debian Jessie (and beyond).&lt;/p&gt;
+&lt;p&gt;私は、MATE がDebian Jessie (およびそれ以降) で最も利用されるデスクトップ環境の 1 つになると予想しています。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Tom Wijsman&lt;/strong&gt;, &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; developer and MATE maintainer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tom Wijsman&lt;/strong&gt;, &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; 開発者兼 MATE メンテナ:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Some of our users express that they want to stay with GNOME 2; because they
-like how things used to be, they run older hardware or they want a more
-lightweight desktop. Given that GNOME 2 became unsupported and will eventually
-be removed from our meta distribution due to various maintenance, regression and
-security issues; MATE brings back all the glory with an active development team.
-Their continuation of GNOME 2's development fixes outstanding issues, brings new
-and useful features and keeps the good old experience alive and kicking.&lt;/p&gt;
+&lt;p&gt;私たちのユーザーの中には、GNOME 2 を使い続けたいと言っている人もいます。以前のようなものが好きなので、古いハードウェアを動かしたり、もっと軽量なデスクトップを欲しがっているのです。GNOME 2 がサポートされなくなり、さまざまな維持や後退、セキュリティ上の問題のために最終的に私たちのメタディストリビューションから削除されることを考えると、MATE は活発な開発チームに栄光を取り戻してくれます。彼らの GNOME 2 開発の継続は、未解決の問題を修正し、新しくて役に立つ機能をもたらし、古くても良いエクスペリエンス提供し続けます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;, Co-developer of &lt;a href="https://mateslackbuilds.github.io/"&gt;MATE SlackBuilds Project&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;、&lt;a href="https://mateslackbuilds.github.io/"&gt;MATE SlackBuilds プロジェクト&lt;/a&gt; の共同開発者:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;MATE shared the same basic philosophies of Slackware, such as simplicity,
-stability, and no fixed release schedule. It will be released when it's ready
-and preserving the same metaphor which is proven to be working well. MATE is
-also easy to be maintained and integrated on top of Slackware since Patrick
-Volkerding has given a solid foundation as the base layer in which MATE could
-fill the need of GNOME-based Desktop Environment which Slackware lack of since
-2005. I'm looking forward for the evolutionary changes that MATE developers
-will integrate for the next major release of MATE.&lt;/p&gt;
+&lt;p&gt;MATE は Slackware と同じ基本的な考え方を共有しており、シンプルさ、安定性、そして固定されたリリーススケジュールはありません。MATE は準備ができた時にリリースされ、正常に動作していることが証明されている同じメタファを保持しています。また、MATE は Slackware 上で容易にメンテナンスし、統合することができます。それは、Patrick Volkerding が2005年以来 Slackware に欠けていた GNOME ベースのデスクトップ環境の必要性を MATE がしっかり満たす基盤を提供しているからです。私は、MATE 開発者が MATE の次期メジャーリリースで統合する進化的な変更を楽しみにしています。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;, Co-developer of &lt;a href="https://mateslackbuilds.github.io/"&gt;MATE SlackBuilds Project&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;、&lt;a href="https://mateslackbuilds.github.io/"&gt;MATE SlackBuilds プロジェクト&lt;/a&gt; の共同開発者:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;MATE is a great desktop environment for those who like the old GNOME 2
-experience.  I greatly appreciate all the hard work that is put into MATE
-to keep it stable and mature yet at the same time incorporating new bits
-where appropriate.  The effort to keep MATE agnostic in terms of the user's
-operating system or distribution is also to be applauded.  I enjoy being a
-part of the MATE SlackBuilds project, which aims to bring the MATE desktop
-to the Slackware Linux community.  Thanks to the entire MATE team!&lt;/p&gt;
+&lt;p&gt;MATEは、古い GNOME 2 のエクスペリエンスを気に入っている人々にとって、すばらしいデスクトップ環境です。MATE を安定させ、成熟させると同時に、必要に応じて新しい難問を組み込んでいくために、MATE に課せられたあらゆる努力に大変感謝しています。ユーザーのオペレーティング・システムやディストリビューションに関して MATE を懐疑的に捉える努力も賞賛されます。私は MATE SlackBuilds プロジェクトの一員であることを楽しんでいます。このプロジェクトは、MATE デスクトップを Slackware Linux コミュニティに持ち込むことを目的としています。MATE チームの皆さんに感謝します。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Benjamin Denisart&lt;/strong&gt;, &lt;a href="https://www.opensuse.org/"&gt;openSUSE&lt;/a&gt; MATE maintainer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benjamin Denisart&lt;/strong&gt;、&lt;a href="https://www.opensuse.org/"&gt;openSUSE&lt;/a&gt; MATE メンテナ:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The openSUSE team wants to thank the MATE developers for their efforts in
-providing this new version and is proud to announce the availability
-of &lt;code&gt;gnome-main-menu&lt;/code&gt;, which will please users attracted by a traditional and
-easy to use desktop. It's a pleasure for us to work with the MATE team and we
-want to send them our congratulations.&lt;/p&gt;
+&lt;p&gt;OpenSUSE チームは、この新バージョンを提供していただいた MATE 開発者に感謝の意を表するとともに、従来の使いやすいデスクトップに惹かれたユーザーを喜ばせる &lt;code&gt;gnome-main-menu&lt;/code&gt; の提供を発表できたことを誇りに思います。MATE チームと共に働くことができて光栄です。彼らにお祝いの言葉を送りたいと思います。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;、&lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt; 創設者兼プロジェクトリーダー:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;MATE proudly carries the colors of GNOME 2 and continues where the project
-left off. In many ways and for many people MATE just feels like home.
-It's simple, stable and full featured. While more recent desktops experiment
-with new concepts, MATE provides an environment which works exactly as you'd
-expect it. It's popular with our users and it's the desktop on top of which
-Linux Mint built its technology and identity since 2006. We're very proud
-and very happy to support MATE and delighted with each and every new release.&lt;/p&gt;
+&lt;p&gt;MATE は GNOME 2 の特色を自信持って搭載しており、元のプロジェクトが中断したところから続いています。いろいろな意味で、多くの人にとって、MATE はわが家のように感じられます。シンプルで安定しすべての機能を備えています。最近のデスクトップは新しいコンセプトを実験していますが、MATE は期待どおりに動作する環境を提供しています。これは、ユーザーに人気があり、Linux Mint が 2006 年が年から技術と独自性を構築してきたデスクトップです。MATE をサポートできて私たちは非常に誇りに思っていますし、非常に嬉しく思います。新しいリリースがあるだびに喜んでいます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, MATE maintainer in &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt; の MATE メンテナ: &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;During the Fedora 15/16 releases I was very dissatisfied with the desktop
-solutions on offer. After 10 months of using XFCE I discovered MATE and decided
-to build my own desktop for Fedora in December 2011. This work resulted in the
-first external MATE Desktop repository for Fedora and was used by many users
-worldwide, including Fedora spins based on my packages in Russia, Latvia and
-Indonesia. The corollary to this work was to bring the MATE Desktop
-inside official Fedora together with Dan Mashal for Fedora 18. Two releases
-later we have a stable and usable MATE 1.6 desktop solution in Fedora 20. MATE
-1.8 is currently in Fedora rawhide and will be released with Fedora 21 in the
-summer of 2014.&lt;/p&gt;
+&lt;p&gt;Fedora 15/16 リリースの間、私は提供されているデスクトップ解決法に非常に不満がありました。10ヶ月間 XFCE を使用した後、私は MATE を発見し、2011 年 12月に Fedora 用に私自身用のデスクトップを作成することにしました。この作業の結果、Fedora 用に初めて MATE デスクトップの外部リポジトリが作成され、ロシア、ラトビア、インドネシアでの私がパッケージした Fedora スピンを含み、世界中の多くのユーザーによって使用されました。この作業の当然な結果は、公式なFedora 内に Dan Mashal for Fedora 18 と一緒に MATE デスクトップを導入することでした。2度のリリース後、Fedora 20 には安定して使用可能な MATE 1.6 のデスクトップソリューション生まれました。MATE 1.8 は現在 Fedora rawhide にあり、2014 年夏に Fedora 21 と合わせてリリースされる予定です。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;, MATE maintainer for &lt;a href="https://www.archlinux.org/"&gt;Arch Linux&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;、&lt;a href="https://www.archlinux.org/"&gt;Arch Linux&lt;/a&gt; 用の MATE メンテナ:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;MATE was originally created by an Arch Linux user and I am delighted that MATE
-is now available in the official Arch Linux and Arch Linux ARM package
-repositories. MATE provides a complete, fully integrated, responsive traditional
-desktop experience and consistent work flow on my &lt;a href="https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/www.raspberrypi.org"&gt;Raspberry Pi&lt;/a&gt;,
-&lt;a href="https://www.solid-run.com/cubox"&gt;CuBox Pro&lt;/a&gt;, laptop and desktop. Brilliant!&lt;/p&gt;
+&lt;p&gt;MATE は元々 Arch Linux ユーザーによって作成されましたが、MATE が正式なArch Linux および Arch Linux の ARM パッケージリポジトリで利用できるようになったことをうれしく思います。MATE は完全に統合された、応答性の高い従来のデスクトップ体験と一貫したワークフローを、私の &lt;a href="https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/www.raspberrypi.org"&gt;Raspberry Pi&lt;/a&gt;、&lt;a href="https://www.solid-run.com/cubox"&gt;CuBox Pro&lt;/a&gt;、ノートパソコンおよびデスクトップで提供しています。すばらしい！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;MATE 1.8 is the result of 11 months of intense development and contains 1845
-contributions by 57 people, and more than 291 translators.&lt;/p&gt;
+&lt;p&gt;MATE 1.8 は、11 カ月間の精力的な開発の成果であり、57 人のメンバーによる 1845 件の貢献と 291 人以上の翻訳者による成果です。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.8/"&gt;MATE 1.8 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.8/"&gt;MATE 1.8 スクリーンショット&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/</guid><pubDate>Tue, 04 Mar 2014 21:39:36 GMT</pubDate></item><item><title>Debian MATE パッケージ化チーム</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-04-mate-1-8-released/</guid><pubDate>Tue, 04 Mar 2014 21:39:36 GMT</pubDate></item><item><title>Debian MATE パッケージ化チーム</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
 &lt;p&gt;MATE チームは、新しくできた Debian MATE パッケージ化チームが MATE を次のDebian リリースに組み込もうと&lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31"&gt;大変努力&lt;/a&gt;されているのに感謝しています。&lt;/p&gt;
 &lt;p&gt;最初のパッケージはすでにリポジトリにあり、その他は &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&lt;/a&gt; に多数あります。&lt;/p&gt;
 &lt;p&gt;次の方々に感謝します。&lt;/p&gt;

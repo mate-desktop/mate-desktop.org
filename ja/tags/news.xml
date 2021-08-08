@@ -3,231 +3,110 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:30:38 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
-Action Show&lt;/a&gt; to
-talk a little about MATE Desktop, where it came from and where it is headed.
-The interview with me is embedded below.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 21:03:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE のマスターマインドを紹介します</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;私は幸運にも &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux アクションショー&lt;/a&gt; のエピソード 347 に招待されました。そこで MATE デスクトップについて、この起源はどこで、これがどこにに向かっているのかを少し話しました。私へのインタビューは下記に含まれています。&lt;/p&gt;
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/OwW9jaVKjSw?start=1945" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.10 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the project, then we look forward to chatting with
-you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
-MATE 1.8.1 is available in Debian Jessie (testing) and also
-&lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
-&lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
-earlier this year, MATE 1.8.1 is also in the official archive
-for Ubuntu 14.10 Utopic Unicorn. The &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt;
-team have recently created a &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
-at the request of the &lt;a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html"&gt;Ubuntu Technical Board&lt;/a&gt;
-and also a &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you require MATE packages for Debian or Ubuntu then the package 
-repositories above are the official repositories to use.&lt;/p&gt;
-&lt;p&gt;We've removed the package repositories hosted on mate-desktop.org 
-because some were unsigned and others have not been maintained for many 
-months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/ja/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the MATE Desktop project is one of the 190 Open Source projects that will
-be  working with students this year.&lt;/p&gt;
-&lt;p&gt;In our second year as a GSoC mentor organisation the MATE team received 4
-student proposals we were allocated 3 slots for student projects.&lt;/p&gt;
-&lt;p&gt;I'm delighted to introduce our GSoC students for 2014:&lt;/p&gt;
+&lt;p&gt;その時点では MATE 1.10 の開発目標をすべて網羅することはできなかったので、&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE ロードマップ&lt;/a&gt;を参照して、完全な概要を把握することをお勧めします。さらに質問がある場合や、プロジェクトに貢献したい場合は、&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC チャンネル&lt;/a&gt;でみなさんとチャットしたり、&lt;a href="https://github.com/mate-desktop"&gt;GitHub のプルリクエスト&lt;/a&gt;をレビューしたりするのを楽しみにしています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; では、毎週 FLOSS を中心にしたビデオキャストやポッドキャストが数多く制作されています。ご覧になると面白いかもしれません。&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian と Ubuntu のパッケージリポジトリが mate-desktop.org から削除されました</title><link>https://preview.mate-desktop.dev/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;Debian の MATE パッケージメンテナ&lt;/a&gt;の努力のおかげで、MATE 1.8.1 は Debian Jessie (テスト用)と &lt;a href="https://preview.mate-desktop.dev/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/Wheezy%E7%94%A8https:/backports.debian.org"&gt;Debian backports&lt;/a&gt; より利用できます。&lt;/p&gt;
+&lt;p&gt;MATE 1.8.1 が今年初めに Debian テスト版リポジトリに登場した結果、MATE 1.8.1 は Ubuntu 14.10 Utopic Unicorn の公式アーカイブにも入っています。&lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt; チームは最近、&lt;a href="https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html"&gt;Ubuntu 技術部門&lt;/a&gt; の要請に応じて &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/trusty-mate"&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt; を作成し、また &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/precise-mate"&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt; も作成しました。&lt;/p&gt;
+&lt;p&gt;もし Debian または Ubuntu 用の MATE パッケージが必要な場合、上記のパッケージリポジトリが使用すべき公式リポジトリになります。&lt;/p&gt;
+&lt;p&gt;mate-desktop.org でホストされているパッケージリポジトリを削除しました。これは、いくつかは署名されていなかったり、何ヶ月も管理されていなかったからです。したがって、現在のところ、mate-desktop.org でホストされている Debian と Ubuntu のパッケージリポジトリは削除されました。&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>GSoC2014 で承認された MATE プロジェクト</title><link>https://preview.mate-desktop.dev/ja/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;数週間のレビューの後、2014 年の Google Summer of Code (GSoC) のアプリケーションと選択の期間は終わりました。4420 人の学生がこの夏に合計 6313 のプロジェクトを提案しました。そのうち 1307 人の学生が受け入れられ、MATE デスクトッププロジェクトは今年の学生と共に活動する 190 のオープンソースプロジェクトのうちの 1 つです。&lt;/p&gt;
+&lt;p&gt;GSoC メンター組織としての 2 年目に、MATE チームは 4 件の学生からの提案を受け、学生プロジェクトで 3 つの計画が割り当てられました。&lt;/p&gt;
+&lt;p&gt;2014年度の GSoC の学生等を紹介できて嬉しく思います。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the MATE desktop.&lt;/li&gt;
-&lt;li&gt;Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  MATE desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10 library.&lt;/li&gt;
-&lt;li&gt;Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension configuration.&lt;/li&gt;
+&lt;li&gt;Avishkar Gupta さんは、ePub レンダリング機能を
+  MATE デスクトップの文書ビューアである Atril に追加しようと取り組んでいます。&lt;/li&gt;
+&lt;li&gt;Michal Ratajsky さんは、廃止された GStreamer 0.1.0 ライブラリへの依存を置き換えるため、GStreamer 1.0 サポートを MATE デスクトップ環境に追加する作業を行う予定です。
+  /n
+  /n&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij さんは Caja 拡張機能の改善に取り組む予定です。
+  したがって、実行時にこれらを統合して、Caja 拡張機能構成用の単一のユーザーインターフェースを作成することもできます。
+  /n&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please join me in welcoming these new contributors to the MATE team and wish
-them every success with their respective projects for the summer.&lt;/p&gt;
-&lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
-gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team is proud to announce that we are collaborting with the
-&lt;a href="http://galculator.mnim.org/"&gt;galculator&lt;/a&gt; team and that galculator
-will replace &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10.&lt;/p&gt;
-&lt;h3&gt;What is galculator?&lt;/h3&gt;
-&lt;p&gt;From the galculator website:&lt;/p&gt;
+&lt;p&gt;MATE チームへのこうした新しい貢献者を歓迎するとともに、彼らの夏季プロジェクトの成功をお祈りします。&lt;/p&gt;
+&lt;p&gt;MATE チーム全体を代表して、私たちの GSoC オーガナイザーである &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; にも感謝の意を表します。
+2014. 彼らは、プロジェクトに必要な開発リソースを提供する目的で、MATE チームのために、これらの GSoC の取り組みの中で素晴らしい仕事をしてくただきました。
+/n&lt;/p&gt;&lt;/div&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator が MATE 1.10 に採用されます</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは、&lt;a href="http://galculator.mnim.org/"&gt;galculator&lt;/a&gt; チームと共同開発した結果、MATE1.10で &lt;code&gt;mate-calc&lt;/code&gt; が galculator に置き換わるのを発表できてうれしく思います。&lt;/p&gt;
+&lt;h3&gt;galculator とは何ですか？&lt;/h3&gt;
+&lt;p&gt;以下は galculator ウェブサイトの説明です。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;galculator is a GTK 2 / GTK 3 based calculator with ordinary
-notation/reverse polish notation (RPN), a formula entry mode,
-different number bases (DEC, HEX, OCT, BIN) and different units of
-angular measure (DEG, RAD, GRAD). It supports quad-precision
-floating point and 112-bit binary arithmetic.&lt;/p&gt;
+&lt;p&gt;galculator は GTK 2 / GTK 3 ベースの電卓で、通常の表記/逆ポーランド表記 (RPN)、数式入力モード、異なる数値ベース (DEC、HEX、OCT、BIN)、および異なる角度単位 (DEG、RAD、GRAD) があります。4 桁精度の浮動小数点と 112 ビットの 2 進数演算をサポートしています。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;galculator's main features include:&lt;/p&gt;
+&lt;p&gt;galculator の主な特徴は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Algebraic mode, RPN (Reverse Polish Notation), Formula Entry and Paper mode&lt;/li&gt;
-&lt;li&gt;Decimal, hexadecimal, octal and binary number base&lt;/li&gt;
-&lt;li&gt;Radiant, degree and grad support&lt;/li&gt;
-&lt;li&gt;Basic and Scientific Mode&lt;/li&gt;
-&lt;li&gt;User defined constants and functions&lt;/li&gt;
-&lt;li&gt;Trigonometric functions, power, sqare root, natural and common logarithm, inverse and hyperbolic functions&lt;/li&gt;
-&lt;li&gt;Binary arithmetic of configurable bit length and signedness&lt;/li&gt;
-&lt;li&gt;Quad-precision floating point arithmetic&lt;/li&gt;
-&lt;li&gt;112-bit binary arithmetic&lt;/li&gt;
-&lt;li&gt;Copy and paste&lt;/li&gt;
-&lt;li&gt;Available in more than 20 translations.&lt;/li&gt;
+&lt;li&gt;代数モード、RPN (逆ポーランド表記)、フォーミュラ入力およびペーパー・モード&lt;/li&gt;
+&lt;li&gt;10進数、16進数、8進数、および 2進数ベース&lt;/li&gt;
+&lt;li&gt;Radiant、degree および grad をサポート&lt;/li&gt;
+&lt;li&gt;基本モードと科学モード&lt;/li&gt;
+&lt;li&gt;ユーザー定義の定数と関数&lt;/li&gt;
+&lt;li&gt;三角関数、べき乗、平方根、自然対数および常用対数、逆関数および双曲線関数&lt;/li&gt;
+&lt;li&gt;設定可能なビット長と符号の二進演算&lt;/li&gt;
+&lt;li&gt;四倍精度浮動小数点演算&lt;/li&gt;
+&lt;li&gt;112 ビットの二進数演算&lt;/li&gt;
+&lt;li&gt;コピー＆ペースト&lt;/li&gt;
+&lt;li&gt;20 種類以上の翻訳が用意されています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Like MATE galculator has a commitmet to GTK2 and GTK3 and is actively
-maintained.&lt;/p&gt;
-&lt;h3&gt;Why ditch mate-calc?&lt;/h3&gt;
-&lt;p&gt;While &lt;code&gt;mate-calc&lt;/code&gt; is functional it lacks many features required of a
-modern desktop calcualtor. The MATE team is small with limited resources
-and where possible we are attempting to collaborate with projects that
-add value to MATE and reduce development burden on the MATE team.
-galculator is a perfect fit in this regard.&lt;/p&gt;
-&lt;h3&gt;What's in it for the galculator team?&lt;/h3&gt;
-&lt;p&gt;galculator will remain an entirely independent project but we hope that its 
-inclusion in MATE will grow the galculator user base, raise awareness about 
-galculator and attract new contributors to their project. To that end the 
-MATE team will host the galculator translations as a resource on the
-&lt;a href="https://www.transifex.com/organization/mate/dashboard/MATE"&gt;MATE transifex project&lt;/a&gt;.
-We are hopeful that the ~300 heroic MATE translators will embrace galculator and
-add to the ~20 languages galculator currently supports.&lt;/p&gt;
-&lt;h3&gt;I am a packager. What does this mean for me?&lt;/h3&gt;
-&lt;p&gt;If you are a MATE package maintainer then start creating galculator
-packages for your distribution if they do not already exist and add
-galculator to your MATE meta packages or package groups. MATE 1.10 is a
-way off yet, so you have plenty of time.&lt;/p&gt;
-&lt;p&gt;Hopefully you undertand our reasoning and can see the mutual advantages
-for this partnership. Let us know what you think in the comments.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
-&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman project&lt;/a&gt; and helping to
-update Blueman to BlueZ 5.x.&lt;/p&gt;
-&lt;h3&gt;Why ditch mate-bluetooth?&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supports BlueZ 4.x which has been discontinued and many
-distributions have, or are about to, replace BlueZ 4.x with BlueZ 5.x in their
-respective package repositories. Migrating &lt;code&gt;mate-bluetooth&lt;/code&gt; to BlueZ 5.x was
-shaping up to be a lot of work and doesn't provide the range of features
-available in Blueman.&lt;/p&gt;
-&lt;h3&gt;Why Blueman? Isn't it dead?&lt;/h3&gt;
-&lt;p&gt;While the original Blueman project has stagnated, &lt;a href="https://github.com/cschramm"&gt;Christopher Schramm&lt;/a&gt;
-has reignited the development and started porting Blueman to BlueZ 5.x. While
-there is also some effort in updating Blueman to support BlueZ 5.x we feel it
-will provide a far better Bluetooth interface for MATE.&lt;/p&gt;
-&lt;h3&gt;When will the updated Blueman be ready?&lt;/h3&gt;
-&lt;p&gt;The observant among you may have noticed that the &lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;MATE 1.8 release announcement&lt;/a&gt;
-already mentioned that &lt;code&gt;mate-bluetooth&lt;/code&gt; has been replaced with Blueman and the
-even more observant will also have noticed that a fresh version of Blueman has
-not yet been released. Yeah, we suck! Sorry about that.&lt;/p&gt;
-&lt;p&gt;While we acknowledge that we suck, we are actively contributing to the effort of
-porting Blueman to BlueZ 5.x and GObject introspection. We are hoping to have it
-ready in time for MATE 1.8.1 which is primarily intended as a bug fix
-release.&lt;/p&gt;
-&lt;h3&gt;Can't you do it faster, damn it?!&lt;/h3&gt;
-&lt;p&gt;Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
-to contribute via the &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman GitHub repository&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
-&lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt;. We are doing this 
-in partnership with our good friends at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;About Google Summer of Code&lt;/h3&gt;
-&lt;p&gt;Google Summer of Code (commonly called as GSoC) is a global program that 
-offers student developers stipends to write code for various open source 
-software projects. GSoC works with many open source, free software, and 
-technology-related groups to identify and fund projects over a three month 
-period. Since its inception in 2005, the program has brought together over 
-7,500 successful student participants from 97 countries and over 7,000 
-mentors from over 100 countries worldwide to produce over 50 million lines 
-of code. Through Google Summer of Code, accepted student applicants are 
-paired with a mentor or mentors from the participating projects, thus 
-gaining exposure to real-world software development scenarios and the 
-opportunity for employment in areas related to their academic pursuits. In 
-turn, the participating projects are able to more easily identify and bring 
-in new developers. Best of all, more source code is created and released for 
-the use and benefit of all.&lt;/p&gt;
-&lt;h3&gt;For students&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;The student application period is open from March 10th 2014 until March 21st 2014.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;For assistance in how to apply please read the &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;Google Summer of Code 2014 
-FAQ&lt;/a&gt;. 
-If you are a student who wants to contribute to MATE via the openSUSE GSoC 
-participation you'll what to check out the following:&lt;/p&gt;
+&lt;p&gt;MATE と同様、galculator は GTK2 および GTK3 にコミットしていて、メンテナンスされています。&lt;/p&gt;
+&lt;h3&gt;なぜ mate-calc を廃止したのですか？&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;mate-calc&lt;/code&gt; は実用的ですが、モダンなデスクトップ用電卓に必要とされる多くの機能が欠けています。MATE チームは規模が小さく、リソースも限られているため、可能な場合には、MATE に付加価値を与え、MATE チームの開発負担を軽減できるプロジェクトとの共同作業を試みています。galculator はこの点で最も適っています。&lt;/p&gt;
+&lt;h3&gt;galculator チームには何がありますか？&lt;/h3&gt;
+&lt;p&gt;galculator は今後も完全に独立したプロジェクトであり続けますが、MATE に含まれることによって galculator のユーザー層が拡大し、galculator に対する関心が高まり、新たな貢献者が増えることを期待しています。そのために、MATE チームはgalculatorを&lt;a href="https://www.transifex.com/organization/mate/dashboard/MATE"&gt;MATE transifex プロジェクト&lt;/a&gt;のリソースとして支援します。私たちは、~300人の立派な MATE 翻訳者が galculator を受け入れ、現在サポートする ~20の言語に追加できることを期待しています。&lt;/p&gt;
+&lt;h3&gt;私はパッケージャです。これは私にどう影響しますか？&lt;/h3&gt;
+&lt;p&gt;もしあなたが MATE パッケージのメンテナであれば、あなたのディストリビューション用の galculator パッケージが未だ存在していない場合には作成を開始し、MATE メタパッケージやパッケージグループに galculator を追加してください。MATE 1.10 のリリースは未だ先なので、時間は十分あります。&lt;/p&gt;
+&lt;p&gt;私たちがこのように考える理由を理解していただき、この協力関係での相互利益をご理解していただければ幸いです。コメント欄でご意見をお聞かせください。&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>MATE デスクトップは BlueZ を歌っています</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは、&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman プロジェクト&lt;/a&gt;と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。&lt;/p&gt;
+&lt;h3&gt;なぜ mate-bluetooth を捨てたのですか？&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; は BlueZ 4.x をサポートしていますが、BlueZ 4.x は開発終了であって、多くのディストリビューションがそれぞれのパッケージリポジトリでBlueZ 4.x を BlueZ 5.x に置き換えたか、置き換えようとしています。&lt;code&gt;mate-bluetooth&lt;/code&gt; をBlueZ 5.x に移行するのは大変な作業であり、また、Blueman で利用可能な範囲の諸機能を提供しません。&lt;/p&gt;
+&lt;h3&gt;なぜブルーマンなのですか？開発中止なのでは？&lt;/h3&gt;
+&lt;p&gt;当初の Bluemanプ ロジェクトは停滞しましたが、&lt;a href="https://github.com/cschramm"&gt;Christopher Schramm&lt;/a&gt; が開発を再開し、Blueman の BlueZ 5.x への移植を開始しました。その一方で、BlueZ 5.x をサポートするために Blueman をアップデートする取り組みもあり、私たちはその方が MATE にずっと優れた Bluetooth インターフェースを提供すると思っています。&lt;/p&gt;
+&lt;h3&gt;Blueman のアップデートはいつ完了しますか？&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;MATE1.8 リリースのお知らせ&lt;/a&gt;ではすでに &lt;code&gt;mate-bluetooth&lt;/code&gt; が Blueman に置き換えられたとしていましたが、さらに詳しい人は、Blueman の新しいバージョンがまだリリースされていないことも気付いたでしょう。大変申し訳ありません。&lt;/p&gt;
+&lt;p&gt;間違っていたのは確かですが、私たちは Blueman を BlueZ5.x と GObject introspection へ移植するため積極的に貢献しています。私たちは主にバグ修正リリースとして意図されている MATE 1.8.1 のリリースに間に合うように準備したいと思っています。&lt;/p&gt;
+&lt;h3&gt;もっと早く出来ないのですか？&lt;/h3&gt;
+&lt;p&gt;はい。BlueZ 4.x/5.x、dbus、PyGObject、PyGTK に詳しい方は、&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman GitHub repository&lt;/a&gt; を利用して貢献していただくようお願いします。&lt;/p&gt;&lt;/div&gt;</description><category>Blueman</category><category>Bluetooth</category><category>BlueZ</category><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>MATE は GSoC 2014 に参加します</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは、&lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt; に参加することを発表できてうれしく思います。私たちは、&lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; の良き友人たちと協力してこれを行っています。&lt;/p&gt;
+&lt;h3&gt;Google Summer of Code について&lt;/h3&gt;
+&lt;p&gt;Google Summer of Code (通称 GSoC) は、さまざまなオープンソース・ソフトウェア・プロジェクトのコードを書くために学生開発者に給付金を支給する世界規模のプログラムです。GSoC は、多くのオープンソース、フリーソフトウェアおよび技術関連のグループと連携して、3ヶ月間にわたってプロジェクトを支援し、資金を提供しています。2005 年の設立以来、このプログラムには、97 カ国から 7500 人以上の合格した学生参加者と、100 カ国以上から 7000 人以上のメンターが集まり、5,000 万行以上のコードを作成してきました。Google Summer of Code を通じて、受け入れた学生応募者は、参加プロジェクトからのメンターとペアになり、現実世界のソフトウェア開発シナリオへの体験と、彼らの学術的活動に関連する分野での雇用機会を得ることができます。それと引き換えに、参加プロジェクトは新しい開発者を容易に支援し、取り込むことができます。何より素晴らしいのは、すべての人の使用と利益のために、より多くのソース・コードが作成され、リリースされます。&lt;/p&gt;
+&lt;h3&gt;学生の方々へ&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;学生募集期間は、2014年3月10日から 2014年3月21日までです。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;申し込み方法については、&lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;Google Summer of Code2014 FAQ&lt;/a&gt; をお読みください。もしあなたが学生で OpenSUSE GSoC の参加を通じて MATE に貢献したいのであれば、以下をチェックしてください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE は GSoC 2014 に参加します&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short the MATE GSoC project ideas for 2014 are:&lt;/p&gt;
+&lt;p&gt;簡単に言うと、2014年の MATE GSoC プロジェクトでの取り組みは以下の通りです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ePub format support in Atril&lt;/li&gt;
-&lt;li&gt;GStreamer-1.0 support&lt;/li&gt;
-&lt;li&gt;Plugin system in Caja&lt;/li&gt;
+&lt;li&gt;Atril にて ePub 形式をサポート&lt;/li&gt;
+&lt;li&gt;GStreamer-1.0 のサポート&lt;/li&gt;
+&lt;li&gt;Caja へプラグインシステムを導入&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As always, the key is to start early and to interact with mentors and the 
-community at large. Fixing bugs, submitting pull requests and working on Proof 
-of Concepts is a good way to get started.&lt;/p&gt;
-&lt;p&gt;The GSoC 2014 mentors for MATE are Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; on IRC) and 
-Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; on IRC). The best way to communicate and 
-interact with the MATE mentors is via:&lt;/p&gt;
+&lt;p&gt;いつものように、重要なことは、早く始めること、そしてメンターやコミュニティ全体と交流することです。バグを修正し、プルリクエストを提出し、概念実証に取り組むことは、始めるのに良い方法です。&lt;/p&gt;
+&lt;p&gt;GSoC 2014 の MATE メンターは、Stefano Karapetsas (IRC 上の &lt;code&gt;stefano-k&lt;/code&gt;) と Martin Wimpress (IRC 上の &lt;code&gt;flexiondotorg&lt;/code&gt;) です。MATE のメンターと連絡を取り合い、交流する最善の方法は以下の通りです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel on Libera Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;Libera Chat の #mate IRC チャンネル&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE translation contributions requested</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
-translations!&lt;/p&gt;
-&lt;p&gt;Translators are the unsung heroes of the MATE development team and once again we
-call upon them to help improve the project. MATE 1.7 is well into final testing
-and QA and soon MATE 1.8 will be prepared for release.&lt;/p&gt;
-&lt;p&gt;Therefore we request that you check the status of the MATE translations you
-contribute to at Transifex and update them ASAP.&lt;/p&gt;
+&lt;p&gt;みなさんのアプリケーションのレビューが出来ることを楽しみにしています！&lt;/p&gt;&lt;/div&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE 翻訳支援のお願い</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;このバレンタインデーに MATE プロジェクトへの愛着を表しましょう。翻訳作業をご支援ください！&lt;/p&gt;
+&lt;p&gt;翻訳者は MATE 開発チームの中の目立たない英雄であり、私たちは当プロジェクト改善を支援するよう再度要請します。MATE 1.7 は最終テストと QA を完了し、間もなく MATE 1.8 のリリース準備が完了します。&lt;/p&gt;
+&lt;p&gt;そのため、みなさんが Transifex で貢献した MATE 翻訳の状況を確認していただき、なるべく早く更新されるようお願いします。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.transifex.com/projects/p/MATE/"&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you are not yet a member of the translation team but would like to help then please
-&lt;a href="https://www.transifex.com/signup/contributor/"&gt;sign up for a free account at Transifex&lt;/a&gt;
-so you can start contributing to MATE, we'd really appreciate it!&lt;/p&gt;
-&lt;p&gt;There are currently 6 languages with 100% coverage, so lets see how many more
-can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
-announcement on the &lt;code&gt;mate-dev&lt;/code&gt; mailing list outlining the decision to reshuffle
-the MATE Desktop roadmap.&lt;/p&gt;
-&lt;p&gt;Essentially GTK3 support for MATE has been pushed back to MATE 1.10 because 
-there is still a good deal of work to be done to get it really stable. Therefore
-MATE 1.8 will continue to be based GTK2, although GTK3 applications integrate
-nicely just as they did in MATE 1.6. The updated roadmap is available on our
-wiki:&lt;/p&gt;
+&lt;p&gt;もしあなたが未だ翻訳チームのメンバーでなくて、これから支援したいと思う場合は、&lt;a href="https://www.transifex.com/signup/contributor/"&gt;Transifexで無料アカウントを登録&lt;/a&gt;して、MATE への貢献を開始していただくようお願いします！&lt;/p&gt;
+&lt;p&gt;現在、100%翻訳済み言語が 6 つあるので、MATE 1.8 がリリースされる前に、どれだけ多くの言語が 100%の翻訳率になるか楽しみです。&lt;/p&gt;&lt;/div&gt;</description><category>i18n</category><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item><item><title>MATE デスクトップのロードマップ変更</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;数日前、&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; さんは &lt;code&gt;mate-dev&lt;/code&gt; メーリングリストに、MATE デスクトップのロードマップを変更するという決定の概要を発表しました。&lt;/p&gt;
+&lt;p&gt;基本的に、MATE に対する GTK3 のサポートは、MATE 1.10 へ先送りされました。なぜなら、MATE 1.8 を本当に安定させるためには、まだやるべきことがたくさん残っているからです。したがって、MATE 1.6 は引き続き GTK2 をベースにしていますが、GTK3 アプリケーションは MATE 1.6 の場合と同じようにうまく統合されています。アップデートされたロードマップは私たちの Wiki サイトで公開しています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE ロードマップ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This decision was made because the current development version of MATE is stable,
-incorporates many new features, improvements and bug fixes. We want to get all
-that &lt;em&gt;"good stuff"&lt;/em&gt; ™ out to our users so they can benefit from the
-advancements we've made sooner.&lt;/p&gt;
-&lt;p&gt;You can read the original mailing post and follow-up comments below:&lt;/p&gt;
+&lt;p&gt;この決定を行った理由は、MATE の現在の開発バージョンが安定していて、多くの新機能、改善、バグ修正が盛り込まれているからです。私たちは、これまでの進展から早く利益を得るためにも、ユーザーに対して&lt;em&gt;"良いもの"&lt;/em&gt;を提供したいと考えています。&lt;/p&gt;
+&lt;p&gt;オリジナルのメール投稿とその後のコメントは以下で読むことができます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
+&lt;li&gt;[MATE 1.8 ロードマップの変更]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;On February 1st 2014 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
-presented his talk on MATE at &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;The talk introduces MATE to those who haven't heard of it and explains the
-projects origins. The differences between MATE and other traditional GTK based
-desktops is covered and then Stefano goes on to explain how MATE has evolved
-since it was forked from GNOME2. A brief run down of the recent improvements 
-is covered followed by an overview of the MATE roadmap and other
-projects that benefit from MATE such as &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
-&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
-Unplugged&lt;/a&gt; podcast to talk a 
-little about MATE Desktop and where it is headed. The MATE Mythbusting clip is
-embedded below.&lt;/p&gt;
+&lt;p&gt;この決定に関する意見はこれまでのところ肯定的でした。あなたはどう思いますか？&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano さんは FOSDEM 2014 で MATE を発表</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;2014日2月1日、&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; さんは &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt; でMATE に関する講演を行いました！&lt;/p&gt;
+&lt;p&gt;この講演では、MATE のことを知らない人々に紹介し、プロジェクトの起源を説明します。MATE と他の従来の GTK ベースのデスクトップとの違いを取り上げた後、Stefano さんは GNOME 2 から分岐して以来、MATE がどのように進化してきたかを説明します。最近の改善点を簡単に紹介するとともに、MATE のロードマップや、&lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;、&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;、&lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt; といった MATE の成果を受けたプロジェクトの概要を紹介します。&lt;/p&gt;
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE デスクトップ Mythbusting</title><link>https://preview.mate-desktop.dev/ja/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;私は幸運にもエピソード 26 の &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux Unplugged&lt;/a&gt; のポッドキャストに招待されたので、MATE デスクトップのことについて少し話しました。MATE Mythbusting クリップが次の通りあります。&lt;/p&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/sRNK9QnnvCo?start=603" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;I wasn't able to cover all the development objectives of MATE 1.8 in the time 
-available so I recommend you take a look at the &lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;
-for a complete overview. If you should have any additional questions, or would
-like to contribute to the the project, then we look for to chatting with you 
-in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
-weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>
+&lt;p&gt;その時点では、MATE 1.8 の開発目標をすべて網羅できなかったので、&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE ロードマップ&lt;/a&gt;を参照し全体の概要を把握することをお勧めします。もし、さらに質問がある場合や、プロジェクトに貢献したい場合は、&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt; であなたとチャットしたり、&lt;a href="https://github.com/mate-desktop"&gt;GitHub のプルリクエスト&lt;/a&gt;をレビューさせていただきます。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; では、毎週 FLOSS を中心にしたビデオキャストやポッドキャストが数多く制作されています。ご覧になれば、興味あるものが見つかるかもしれません。&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/ja/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>
