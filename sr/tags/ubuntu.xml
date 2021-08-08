@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:17:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 08 Aug 2021 12:23:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
 Мејт 1.8.1 је доступан у Дебиан „Jessie“-у (тестирање) и такође у
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; за „Wheezy“.&lt;/p&gt;
 &lt;p&gt;Као резултат Мејта 1.8.1 који погађа ризнице Дебиан тестирања
