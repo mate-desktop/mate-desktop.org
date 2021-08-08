@@ -117,7 +117,6 @@ MATE è tradotto, o parzialmente tradotto, in 140 lingue.
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-
 ## Collaboratori precedenti
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley ([bickman2k](https://github.com/bickman2k))
@@ -138,7 +137,7 @@ Pacchettizzazione per Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Sfondi & design. ([Dettagli](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
+Grafica & design.
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -150,17 +149,15 @@ Pacchettizzazione per openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
 
-Sviluppo. ([Dettagli](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+Sviluppo.
 
 ### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
 
 Sviluppo.
 
-### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan
 
 Sviluppo.
-
-
 
 <small>
 Le bandiere mostrate in questa pagina sono fornite da <http://www.icondrawer.com>.

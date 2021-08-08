@@ -275,7 +275,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
   * Utilizzo di `GtkAboutDialog()` al posto di `MateAboutDialog()`
   * Copiati gli helper dconf e gsetting da `libmate-desktop` ed eliminata la dipendenza da `libmate-desktop`
   * Risposta alla variazione WM solo su X11
-  * Risolte molte deprecazioni di GTK+3
+  * Risolte molte deprecazioni di GTK+
   * Aggiustamenti e pulizie varie
   * Aggiornate le traduzioni
 

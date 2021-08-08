@@ -31,10 +31,11 @@ I repository git per il Desktop MATE sono ospitati su GitHub.
 
  Altri links utili:
 
-  * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE Development](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
-  * [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
-  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
-  * <https://wiki.mate-desktop.org/#!pages/translation.md>
+  * [Contribuire a MATE](https://wiki.mate-desktop.org/introduction/contributing/)
+  * [Grafica e Temi MATE](https://wiki.mate-desktop.org/contributing/artwork-and-themes/getting-started/)
+  * [Sviluppo software per MATE](https://wiki.mate-desktop.org/contributing/software-development/getting-started/)
+  * [Traduzione di MATE](https://wiki.mate-desktop.org/contributing/translation/getting-started/)
+  * [Roadmap di MATE](https://wiki.mate-desktop.org/developers-corner/roadmap/)
+  * [MATE Wayland and Meson](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
 
 Non esitate a contribuire e divertitevi a migliorare MATE!

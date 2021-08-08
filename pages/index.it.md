@@ -3,7 +3,7 @@
 .. slug: index
 .. date: 2013-10-31 12:29:57
 .. tags: About,Applications,Screenshots
-.. link: 
+.. link:
 .. description:
 -->
 
@@ -11,8 +11,9 @@ MATE è un derivato di GNOME 2. Esso fornisce un ambiente desktop intuitivo ed a
 utilizzando le metafore tradizionali per Linux e gli altri sistemi operativi Unix-like.
 
 MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie
-preservando un\'esperienza desktop tradizionale.
-Si consulti la [Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md).
+preservando un'esperienza desktop tradizionale.
+Si consulti la [Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap/).
+ 
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -77,8 +78,8 @@ Magari preferite UNIX?
 supportano
 MATE](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
 
-La comunità di MATE ha documentato come installare MATE su molte
-distribuzioni nelle [linee guida all'installazione](https://wiki.mate-desktop.org/#!pages/download.md).
+La comunità di MATE ha documentato come installare MATE su molte distribuzioni,
+nella [guida all'installazione](https://wiki.mate-desktop.org/introduction/installation/).
 
 Applicazioni
 ============
