@@ -114,7 +114,356 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 で Fedora 21/22 が&nbsp;GTK3対応に</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-released/" class="u-url"><span class="caps">MATE</span> 1.10&nbsp;released</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2015-06-11-mate-1-10-released/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-06-11T22:40:40Z" itemprop="datePublished" title="2015-06-11 22:40">2015-06-11 22:40</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>After 15 months of development the <span class="caps">MATE</span> Desktop team are proud to announce
+the release of <span class="caps">MATE</span> Desktop 1.10. We would like to thank every <span class="caps">MATE</span> contributor
+and&nbsp;user.</p>
+<p><img alt="about" src="../../assets/img/blog/about-mate-1.10.png"></p>
+<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.10</h3>
+<p>The headline changes in <span class="caps">MATE</span> 1.10&nbsp;are:</p>
+<ul>
+<li>Every component of <span class="caps">MATE</span> can now be built with <span class="caps">GTK2</span> and <span class="caps">GTK3</span>.<ul>
+<li><span class="caps">GTK3</span> support is still considered <em>experimental</em>
+</li>
+<li>Arch Linux and Fedora currently offer alternative <span class="caps">GTK3</span>&nbsp;builds.</li>
+</ul>
+</li>
+<li>[GSoC 2014] Caja now has an extension manager so plugin can be enabled/disabled at&nbsp;run-time.</li>
+<li>[GSoC 2014] Atril now supports <a href="https://en.wikipedia.org/wiki/EPUB">ePub</a>.</li>
+<li>[GSoC&nbsp;2014] <code>libmatemixer</code>, an audio mixer library for <span class="caps">MATE</span> desktop, has been introduced.<ul>
+<li>Provides an abstract <span class="caps">API</span> allowing access to mixer functionality available
+in the PulseAudio, <span class="caps">ALSA</span> and <span class="caps">OSS</span> sound&nbsp;systems.</li>
+</ul>
+</li>
+<li>Static code analysis has resulted in many memory leaks being&nbsp;plugged.</li>
+<li>Theme support has been expanded to <span class="caps">GTK</span> 3.8 to 3.16 including <span class="caps">CSD</span> and pop-over&nbsp;support.</li>
+</ul>
+<p>The various components of <span class="caps">MATE</span> 1.10 are available for download&nbsp;here:</p>
+<ul>
+<li><a href="https://pub.mate-desktop.org/releases/1.10/">https://pub.mate-desktop.org/releases/1.10/</a></li>
+</ul>
+<h3>Screenshots</h3>
+<ul>
+<li><a href="../../gallery/1.10/"><span class="caps">MATE</span> 1.10&nbsp;Screenshots</a></li>
+</ul>
+<h3>Changelog</h3>
+<p>Here is a more detailed break down of what has&nbsp;changed.</p>
+<h4>mate-common</h4>
+<ul>
+<li>Added support&nbsp;for <code>automake</code> 1.15</li>
+<li>Added support&nbsp;for <code>lcov</code> 1.11</li>
+<li>Migrated&nbsp;to <code>glib-gettexize</code> if using&nbsp;GLib <code>gettext</code>
+</li>
+<li>Check&nbsp;for <code>appdata-xml.m4</code> with <code>APPDATA_XML</code>
+</li>
+</ul>
+<h4>mate-desktop</h4>
+<ul>
+<li>Migrated <code>MateRRScreen</code>, <code>GnomeRRConfig</code> and <code>GnomeOutputInfo</code> to&nbsp;GObject.</li>
+<li>Added GObject&nbsp;Introspection</li>
+<li>Added automatic-mnemonics key for&nbsp;<span class="caps">GTK</span> <code>xsetting</code>
+</li>
+<li>Added <code>MateAboutDialog</code> class to have traditional about dialog with&nbsp;<span class="caps">GTK3</span></li>
+<li>Added <code>MateColorButton</code> class to have traditional color selection dialog with&nbsp;<span class="caps">GTK3</span></li>
+<li>Added <code>org.mate.debug</code> GSettings&nbsp;schema</li>
+<li>Uses <code>GDK_WINDOW_XID</code> for inter-<span class="caps">GTK</span>&nbsp;compatibility</li>
+<li>Updated <code>mpaste</code> for website&nbsp;change</li>
+<li>Updated&nbsp;translations </li>
+<li>Removed&nbsp;desktop-docs</li>
+<li>Removed user&nbsp;guide</li>
+<li>Removed <code>libunique</code> optional&nbsp;dependency</li>
+<li>Assorted <span class="caps">RANDR</span>&nbsp;fixes</li>
+</ul>
+<h4>libmatekbd</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>libmatemixer</h4>
+<p><code>libmatemixer</code> is a new mixer library for <span class="caps">MATE</span> desktop. It provides an abstract
+<span class="caps">API</span> allowing access to mixer functionality available in the PulseAudio, <span class="caps">ALSA</span>
+and <span class="caps">OSS</span> sound&nbsp;systems.</p>
+<ul>
+<li>Initial&nbsp;release</li>
+</ul>
+<h4>libmateweather</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-icon-theme</h4>
+<ul>
+<li>Added more&nbsp;icons</li>
+<li>Added new symbolic&nbsp;icons</li>
+</ul>
+<h4>Caja</h4>
+<ul>
+<li>Added a plugin manage to allow extensions to be enabled/disabled at&nbsp;runtime</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-polkit</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Marco</h4>
+<ul>
+<li>Use <code>zenity</code> instead&nbsp;of <code>mate-dialogs</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-settings-daemon</h4>
+<ul>
+<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes.</li>
+<li>Migrated media-keys plugin&nbsp;to <code>libmatemixer</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Removed GStreamer and&nbsp;made <code>libmatemixer</code>, <code>libcanberra</code> and PulseAudio optional&nbsp;dependencies</li>
+</ul>
+<h4>mate-session-manager</h4>
+<ul>
+<li>Disabled <code>upower</code> support by default,&nbsp;use <code>--enable-upower</code> if you need&nbsp;it</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-menus</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-panel</h4>
+<ul>
+<li>Fixed the size of&nbsp;the <code>showdesktop</code> icon.</li>
+<li>Fixed deprecated use of <span class="caps">GDK</span> pointer <span class="caps">API</span>&nbsp;(<span class="caps">GTK3</span>)</li>
+<li>Migrated&nbsp;all <code>GtkStyle</code> to <code>GtkStyleContext</code> (<span class="caps">GTK3</span>)</li>
+<li>Migrated <code>gtk_rc_parse_string</code> to <code>GtkCssProvider</code> (<span class="caps">GTK3</span>)</li>
+<li>
+<code>GDK_KEY_*</code> is also used in Gtk+&nbsp;2.24.x</li>
+<li>Removed the vbox&nbsp;from <code>panel-addto</code> as it is&nbsp;deprecated</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug fixes<ul>
+<li>Check allocated size before creating the shadow pixbuf in the&nbsp;clock.</li>
+<li>Disconnect show and deactivate menu signals before destroying the applet&nbsp;menu</li>
+<li>Handling&nbsp;of <code>SYSTEM_TRAY_CANCEL_MESSAGE</code>
+</li>
+<li>Correct implicit declaration of function&nbsp;of <code>gdk_x11_set_sm_client_id</code>
+</li>
+<li>Added a gtkimage with the current pixbuf to&nbsp;button-widget</li>
+<li>Use gtk icon cache instead of custom&nbsp;one</li>
+</ul>
+</li>
+</ul>
+<h4>mate-backgrounds</h4>
+<ul>
+<li>Added Ubuntu <span class="caps">MATE</span> wallpapers without&nbsp;branding</li>
+<li>Added new <span class="caps">MATE</span>-Stripes-Dark.png, <span class="caps">MATE</span>-Stripes-Light.png&nbsp;wallpapers</li>
+</ul>
+<h4>mate-themes</h4>
+<ul>
+<li>Added support for <span class="caps">GTK</span> 3.16, 3.14, 3.12, 3.10 and&nbsp;3.8.</li>
+<li>Added many improvements for <span class="caps">MATE</span> <span class="caps">GTK3</span>&nbsp;applications</li>
+<li>Added transition effects to buttons and menuitems when using&nbsp;<span class="caps">GTK3</span></li>
+<li>Added support for <span class="caps">CSD</span>&nbsp;applications</li>
+<li>Added support for&nbsp;popovers</li>
+<li>Enable window shadows for <span class="caps">CSD</span>&nbsp;applications</li>
+<li>Enable regular icons for window&nbsp;controls</li>
+<li>Disable use of symbolic&nbsp;icons</li>
+<li>Use mate logo for spinner&nbsp;animation</li>
+<li>Refactor&nbsp;GreenLaguna</li>
+<li>Refactor ContrastHigh&nbsp;themes</li>
+<li>TraditionalOKTest is installable with normal configure&nbsp;flags</li>
+<li>Many other fixes and&nbsp;refinements</li>
+</ul>
+<h4>mate-notification-daemon</h4>
+<ul>
+<li>Assorted bug&nbsp;fixes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-control-center</h4>
+<ul>
+<li>Added option to configure titlebar buttons&nbsp;layout</li>
+<li>Added support&nbsp;for <code>metacity-theme-2.xml</code>
+</li>
+<li>Added support for office applications in Preferred&nbsp;Applications</li>
+<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-screensaver</h4>
+<ul>
+<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-media</h4>
+<ul>
+<li>Removed PulseAudio&nbsp;dependency</li>
+<li>Removed <code>gst-mixer</code> and <code>gst-mixer-applet</code>
+</li>
+<li>Updated mate-volume-control:<ul>
+<li>Migrated from PulseAudio&nbsp;to <code>libmatemixer</code>
+</li>
+<li>Allow selecting input and output&nbsp;connectors</li>
+<li>Speaker test widget now contains a Close&nbsp;button</li>
+<li>Device and stream lists are now&nbsp;sorted</li>
+<li>Do not show icons when on a vertical&nbsp;panel</li>
+<li>Allow clicking in the popup&nbsp;window</li>
+</ul>
+</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-power-manager</h4>
+<ul>
+<li>Added support&nbsp;for <code>upower</code> 0.99+</li>
+<li>Updated&nbsp;translations</li>
+<li>Removed <code>udisks</code> dependency</li>
+</ul>
+<h4>mate-system-monitor</h4>
+<ul>
+<li>Back ported improvements from <span class="caps">GNOME</span> System&nbsp;Monitor</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Atril</h4>
+<ul>
+<li>Added epub&nbsp;support</li>
+<li>Added xz compression&nbsp;support</li>
+<li>Added rotate with <span class="caps">CTRL</span>+left and <span class="caps">CTRL</span>+right in presentation&nbsp;mode</li>
+<li>Added support&nbsp;for <code>bsdtar</code> to the comics&nbsp;backend.</li>
+<li>Added&nbsp;support <code>pdf.xz</code> files to the <span class="caps">PDF</span>&nbsp;backend.</li>
+<li>Added support for external links to&nbsp;EvViewPresentation</li>
+<li>Added EvBookmarks to handle internal document&nbsp;bookmarks</li>
+<li>Added support for <span class="caps">OCG</span> State actions to the <span class="caps">PDF</span>&nbsp;backend</li>
+<li>Added saving the zoom factor in default settings when sizing mode is&nbsp;free</li>
+<li>Added <code>png</code> extension when saving images using drag <span class="amp">&amp;</span>&nbsp;drop</li>
+<li>Added timestamp parameter to&nbsp;SyncView</li>
+<li>Added ini file for Caja&nbsp;extension</li>
+<li>Added appdata&nbsp;file</li>
+<li>Implemented <code>document_links_find_link_page()</code> in the <span class="caps">PDF</span>&nbsp;backend</li>
+<li>Implemented document_links_find_link_page()` in the djvu&nbsp;backend</li>
+<li>Migrated&nbsp;to <code>find_link_page()</code> instead&nbsp;of <code>find_link_dest()</code> in <code>get_dest_page()</code>
+</li>
+<li>Fixed remembering the current page when document is reloaded in presentation&nbsp;mode</li>
+<li>Fixed resolving named destinations in the <span class="caps">PDF</span>&nbsp;backend</li>
+<li>Fixed sidebar-thumbnails to connect to job finished signal before scheduling the&nbsp;job</li>
+<li>Fixed drawing glyphs with transparency in the <span class="caps">DVI</span>&nbsp;backend</li>
+<li>Fixed several security issues in the <span class="caps">DVI</span>&nbsp;backend</li>
+<li>Fixed several accessibility&nbsp;issues.</li>
+<li>Fixed segmentation faults and many memory&nbsp;leaks</li>
+<li>Updated&nbsp;to <code>poppler</code> 0.16.0 <span class="caps">API</span>&nbsp;changes</li>
+<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>caja-extensions</h4>
+<ul>
+<li>Added new &#8216;Set as wallpaper&#8217;&nbsp;extension</li>
+<li>Re-introduced the option to&nbsp;select <code>send-to</code> plugins to&nbsp;build</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Engrampa</h4>
+<ul>
+<li>Added compressing of iso images and tar archives from the Caja&nbsp;menu</li>
+<li>Added overwrite confirmation dialog when extracting files with drag <span class="amp">&amp;</span>&nbsp;drop</li>
+<li>Added keywords key&nbsp;to <code>.desktop</code> file</li>
+<li>Added ini file for Caja&nbsp;extension</li>
+<li>Added <code>engrampa.appdata.xml</code>
+</li>
+<li>Fixed opening <span class="caps">RAR</span> files inside a <span class="caps">RAR</span>&nbsp;file</li>
+<li>Fixed errors with some password protected&nbsp;files</li>
+<li>Fixed loading of multi-volume <span class="caps">RAR</span> archives with&nbsp;7zip</li>
+<li>Fixed crash when clicking Cancel in Add&nbsp;Files</li>
+<li>Fixed hyphen-as-minus-sign issues&nbsp;for <code>engrampa.1</code> man&nbsp;page</li>
+<li>Fixed memory&nbsp;leaks</li>
+<li>Removed support for Gtk+ &lt;&nbsp;2.24</li>
+<li>Removed support for Glib &lt;&nbsp;2.32</li>
+<li>Use Caja GSettings schema&nbsp;optionally</li>
+<li>Use <code>g_get_user_config_dir</code> instead of&nbsp;hardcoded <code>~/.config/mate</code>
+</li>
+<li>Use <code>GtkRecentAction objects</code> to create the recent file&nbsp;choosers</li>
+<li>Do not set the selected app as the system&nbsp;default</li>
+<li>Do not set the &#8220;last output&#8221; dialog as modal to allow the user to resize&nbsp;it</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Eye of&nbsp;<span class="caps">MATE</span></h4>
+<ul>
+<li>Back ported improvements from Eye of&nbsp;<span class="caps">GNOME</span></li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-applets</h4>
+<ul>
+<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-netbook</h4>
+<ul>
+<li>Fixed Windows Picker applet forcibly changing Maximus&nbsp;settings</li>
+<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-netspeed</h4>
+<ul>
+<li>Added network load graph made similar to <span class="caps">MATE</span> System Monitor&nbsp;graphs</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-sensors-applet</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-terminal</h4>
+<ul>
+<li>Migrated to common function&nbsp;in <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>mate-user-share</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>mate-utils</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>Mozo</h4>
+<ul>
+<li>Updated&nbsp;translations </li>
+</ul>
+<h4>Pluma</h4>
+<ul>
+<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
+</li>
+<li>Updated&nbsp;translations </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<h4>python-caja</h4>
+<ul>
+<li>Added About Extension button to the Extensions tab in&nbsp;Caja </li>
+<li>Assorted bug&nbsp;fixes</li>
+</ul>
+<p><br><br></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/" class="u-url"><span class="caps">MATE</span> 1.10 で Fedora 21/22 が&nbsp;GTK3対応に</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/wolfgang-ulbrich/">Wolfgang&nbsp;Ulbrich</a>
@@ -420,7 +769,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "a0057ead12b5"],
+    texts : ["Preview Website", "MATE Desktop", "a0cef528d261"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

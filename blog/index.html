@@ -113,7 +113,454 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2020-02-10-mate-1-24-released/" class="u-url"><span class="caps">MATE</span> 1.24&nbsp;released</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2021-08-08-mate-1-26-released/" class="u-url"><span class="caps">MATE</span> 1.26&nbsp;released</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/wolfgang-ulbrich/">Wolfgang&nbsp;Ulbrich</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2021-08-08-mate-1-26-released/" rel="bookmark">
+            <time class="published dt-published" datetime="2021-08-10T09:00:00Z" itemprop="datePublished" title="2021-08-10 09:00">2021-08-10 09:00</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>This release might have taken a little longer than usual but now after 17 month of development we are very pleased to release <span class="caps">MATE</span> 1.26. A big thank you to all contributors who helped to make this&nbsp;happen.</p>
+<!--![MATE About dialog](/assets/img/blog/about-mate-1.24.png){ width=50% }-->
+
+<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.26</h3>
+<p>The theme for this release has been adding new functionality to the <span class="caps">MATE</span> Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the&nbsp;performance.</p>
+<p>The headline changes in <span class="caps">MATE</span> Desktop 1.26&nbsp;are:</p>
+<ul>
+<li>
+<p>We added Wayland support for Atril, System Monitor, Pluma, Terminal and other components of the&nbsp;Desktop.</p>
+</li>
+<li>
+<p><strong>Pluma</strong> was subject to massive&nbsp;improvements.</p>
+</li>
+<li>There is a new mini map which gives you instant overview over the&nbsp;content.</li>
+<li>The new grid background pattern gives you the feel to write on&nbsp;paper.</li>
+<li>The sort plugin now supports undo&nbsp;actions.</li>
+<li>We added show/hide line-numbers shortcut&nbsp;(Ctrl+Y).</li>
+<li>
+<p>The preferences dialog needed a redesign to catch up with all the new&nbsp;features.</p>
+</li>
+<li>
+<p>Together with the brand new <strong>pluma-plugins</strong> package Pluma can be turned into a feature-rich <span class="caps">IDE</span>, with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Wordcompletion</em>.</p>
+</li>
+<li>
+<p>The <strong>Calculator</strong> is better in every single&nbsp;way.</p>
+</li>
+<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span> Library, which means more precision, faster computation, more supported&nbsp;functions.</li>
+<li>We finally added an optional history to show recent&nbsp;calculations.</li>
+<li>Calculator is now resizeable if history is&nbsp;activated.</li>
+<li>Vastly improved prime factorization&nbsp;speed.</li>
+<li>
+<p>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability).</p>
+</li>
+<li>
+<p>The <strong>Control Center</strong> features an improved <em>Windows</em> preferences dialog with more options. In the <em>Display</em> dialog we added an option for window&nbsp;scaling.</p>
+</li>
+<li>
+<p>We finally added a <em>Do not Disturb</em> <strong>Applet</strong>.</p>
+</li>
+<li>Speaking of Applets, the window-list applet has a new option to disable mouse scrolling. The window-list thumbnails are now crisp and clear as they are rendered as cairo&nbsp;surfaces.</li>
+<li>
+<p>The netspeed applets shows more information by default and gained netlink&nbsp;support.</p>
+</li>
+<li>
+<p>&#8230;</p>
+</li>
+<li>
+<p>Translations are updated. Thank you to our team of&nbsp;translators!</p>
+</li>
+</ul>
+<p>The various components of <span class="caps">MATE</span> Desktop 1.26 are available for download&nbsp;here:</p>
+<ul>
+<li><a href="https://pub.mate-desktop.org/releases/1.26/">https://pub.mate-desktop.org/releases/1.26/</a></li>
+</ul>
+<h3>More&nbsp;details</h3>
+<p>Here are the glory&nbsp;details.</p>
+<h4>atril</h4>
+<ul>
+<li>Completely rewritten&nbsp;Help</li>
+<li>ev-window.c: only create a EvWebView if&nbsp;needed</li>
+<li>ev-sidebar-links: Optimize reverse link lookup for a&nbsp;page</li>
+<li>Add Wayland&nbsp;support</li>
+<li>Make sure attachments window fills entire&nbsp;sidebar</li>
+<li>Make synctex&nbsp;optional</li>
+<li>Fix segfault on empty&nbsp;navMap</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
+<h4>caja</h4>
+<ul>
+<li>You can now add information of the creation time in the list&nbsp;columns</li>
+<li>Add a setting to block lock icons position on the&nbsp;desktop</li>
+<li>Improved filesystem check on&nbsp;dnd</li>
+<li>You can now format drive in&nbsp;caja</li>
+<li>fm-properties-window: make the location of system folders&nbsp;portable</li>
+<li>middle-clicking the reload button duplicates&nbsp;tab</li>
+<li>Create links by default on dnd from Web&nbsp;Browsers</li>
+<li>Add a &#8220;Bookmarks&#8221; sidebar to&nbsp;Caja</li>
+<li>support an explicit &#8212;select command line&nbsp;option</li>
+<li>Confirm before deleting during an undo&nbsp;operation</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
+<h4>caja-actions</h4>
+<ul>
+<li>Makes its first appearance in this&nbsp;release</li>
+<li>i18n: Migrate from intltools to&nbsp;gettext</li>
+<li>deprecation&nbsp;fixes</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<h4>caja-dropbox</h4>
+<ul>
+<li>Add i18n&nbsp;support</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
+<h4>caja-extensions</h4>
+<ul>
+<li>gksu: do not run the command on a new&nbsp;thread</li>
+<li>Require gtk+ 3.22 in glade&nbsp;files</li>
+<li>sendto: Fix evolution command for sending an&nbsp;email</li>
+<li>image-converter: rewrite caja-image-rotate.ui from&nbsp;scratch</li>
+<li>fix memory&nbsp;leaks</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-extensions/commits/master/">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
+<h4>engrampa</h4>
+<ul>
+<li>rar 6.00: fix listing archive content with encrypted file&nbsp;list</li>
+<li>Add Electronic Publication (<span class="caps">EPUB</span>)&nbsp;support</li>
+<li>Add <span class="caps">ARC</span> archive&nbsp;support</li>
+<li>g10n: Update the&nbsp;translations</li>
+<li>memory leak fixes, deprecation&nbsp;fixes</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/engrampa/commits/master/">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
+<h4>eom</h4>
+<ul>
+<li>Upgrade ui&nbsp;files</li>
+<li>Ensure scrollbar moves when dragged to move&nbsp;image</li>
+<li>Add tab scrolling support for dialog&nbsp;windows</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/eom/commits/master/">https://github.com/mate-desktop/eom/commits/master/</a></p>
+<h4>libmatekbd</h4>
+<ul>
+<li>Reduce the font size of the key names on keyboard layout&nbsp;display</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatekbd/commits/master/">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
+<h4>libmatemixer</h4>
+<ul>
+<li>alsa: Add udev&nbsp;support</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatemixer/commits/master/">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
+<h4>libmateweather</h4>
+<ul>
+<li>drop Berlin&nbsp;Tegel</li>
+<li>add 2 brazil&nbsp;cities</li>
+<li>update cities in&nbsp;Thailand</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/libmateweather/commits/master/">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
+<h4>marco</h4>
+<ul>
+<li>window: add support for&nbsp;_GNOME_WM_STRUT_AREA</li>
+<li>screen: add support for&nbsp;_GTK_WORKAREAS_Dn</li>
+<li>window: Do not render shadows on left/right tiled&nbsp;windows</li>
+<li>iconcache: Use GDesktopAppInfo to find correct application&nbsp;icons</li>
+<li>window: Track window rectangle before corner&nbsp;tiling</li>
+<li>window: Track window rectangle before&nbsp;tiling</li>
+<li>Added <span class="caps">VI</span> keys (hjkl) for moving and resizing&nbsp;windows</li>
+<li>window: expand tile size cycling&nbsp;support</li>
+<li>In the pop-up workspace switcher, show the selected&nbsp;workspace</li>
+<li>Improve meson build&nbsp;script</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
+<h4>mate-applets</h4>
+<ul>
+<li>netspeed: allow to select an interface which is&nbsp;down</li>
+<li>netspeed: show all ipv6 addresses in device details&nbsp;dialog</li>
+<li>netspeed: show all <span class="caps">IP</span> addresses on tooltip if&nbsp;enabled</li>
+<li>multiload: use bit rate in netload&nbsp;graph</li>
+<li>multiload: increase refresh rate range&nbsp;setting</li>
+<li>battstat: Rewrite preference dialog from&nbsp;scratch</li>
+<li>multiload: Display the percentage used accurately on&nbsp;tooltip</li>
+<li>netspeed: Use <span class="caps">IEC</span> units for transfer&nbsp;rates</li>
+<li>netspeed: add netlink&nbsp;support</li>
+<li>memory leak fixes, deprecation fixes, improve code&nbsp;style</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
+<h4>mate-backgrounds</h4>
+<ul>
+<li>New &#8216;Something slowly gets clear&#8217; elephants&nbsp;wallpaper</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
+<h4>mate-calc</h4>
+<ul>
+<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;Library:</li>
+<li>More precision, faster calculations, more supported&nbsp;functions</li>
+<li>Add an optional history to show recent&nbsp;calculations</li>
+<li>With keyboard shortcuts to navigate through history&nbsp;(Alt+Up)/(Alt+Down)</li>
+<li>mate-calc is now resizeable if history is&nbsp;activated</li>
+<li>Show exponents in prime&nbsp;factorization</li>
+<li>Vastly improve prime factorization&nbsp;speed</li>
+<li>To factorize integers bigger than 2^64 the Miller-Rabin primality test and Pollard&#8217;s rho algorithm are&nbsp;used</li>
+<li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability)</li>
+<li>Add riemann zeta function, gauss error function, factorial function for real&nbsp;numbers</li>
+<li>Add meson build&nbsp;support</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-calc/commits/master/">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
+<h4>mate-common</h4>
+<ul>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-common/commits/master/">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
+<h4>mate-control-center</h4>
+<ul>
+<li>Improved Windows preferences&nbsp;dialog</li>
+<li>New &#8220;show window border in Alt-Tab&#8221; and &#8220;allow top tiling&#8221; (Window-Snapping)&nbsp;option</li>
+<li>New compositing manager&nbsp;tab</li>
+<li>Windows with client site decorations now respect the titlebar&nbsp;layout</li>
+<li>New titlebar layout option &#8220;left (with menu)&#8221; and &#8220;right (without&nbsp;menu)&#8221;</li>
+<li>Fix preview in add wallpaper&nbsp;dialog</li>
+<li>Add file chooser options in the appearance dialog (the file chooser is the window that opens when opening or saving a&nbsp;file)</li>
+<li>Migrate some components from dbus-glib to&nbsp;GDBus</li>
+<li>Support tab-scrolling for the window and appearance&nbsp;dialog</li>
+<li>The Display applet gained an option for window&nbsp;scaling</li>
+<li>memory leak fixes, deprecation&nbsp;fixes</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
+<h4>mate-desktop</h4>
+<ul>
+<li>a11y-keyboard: Add capslock-beep-enable&nbsp;gsetting</li>
+<li>Set range for thumbnail cache&nbsp;maximum-age</li>
+<li>Remove GTimeVal deprecation warning for GLib&nbsp;2.61.2+</li>
+<li>deprecation&nbsp;fixes</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
+<h4>mate-icon-theme</h4>
+<ul>
+<li>Remove the execution bit from some png&nbsp;files</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
+<h4>mate-indicator-applet</h4>
+<ul>
+<li>applet-main: Replace GtkStock&nbsp;icon</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
+<h4>mate-media</h4>
+<ul>
+<li>replace mute/unmute checkmenuitem with&nbsp;imagemenuitem</li>
+<li>panel-applet: ensure speaker can be shown alongside or above&nbsp;mic</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
+<h4>mate-menus</h4>
+<ul>
+<li>build: allow users to disable gettext support&nbsp;(&#8212;disable-nls)</li>
+<li>Add collection menu&nbsp;item</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-menus/commits/master/">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
+<h4>mate-netbook</h4>
+<ul>
+<li>mate-window: Replace GtkStock&nbsp;icons</li>
+<li>mate-maximus-autostart.desktop: Remove the deprecated Encoding&nbsp;key</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-netbook/commits/master/">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
+<h4>mate-notification-daemon</h4>
+<ul>
+<li>Add Do Not Disturb&nbsp;Applet</li>
+<li>Add initial Wayland&nbsp;backend</li>
+<li>Add support for hyperlinks in the body of a&nbsp;notification</li>
+<li>Rewrite mate-notification-properties.ui from&nbsp;scratch</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
+<h4>mate-panel</h4>
+<ul>
+<li>workspace-switcher: support xmonad&nbsp;<span class="caps">WM</span></li>
+<li>Make Recent Documents list in Places menu of configurable&nbsp;length</li>
+<li>Add window list disable mouse scrolling&nbsp;option</li>
+<li>Add text label display support for notification&nbsp;area</li>
+<li>window-list: Render thumbnails as cairo&nbsp;surfaces</li>
+<li>Drop background&nbsp;compositing</li>
+<li>Window list Wayland&nbsp;support</li>
+<li>Redesign preferences dialog for window-list&nbsp;applet</li>
+<li>Fix adding applications launchers to panel when using the &#8220;add to panel&#8221;&nbsp;dialog</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
+<h4>mate-polkit</h4>
+<ul>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-polkit/commits/master/">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
+<h4>mate-power-manager</h4>
+<ul>
+<li>mate-power-preferences: add option to enable keyboard&nbsp;dimming</li>
+<li>Switch default from libgnome-keyring to&nbsp;libsecret</li>
+<li>brightness applet: Prevent sliding from bogging down the&nbsp;<span class="caps">UI</span></li>
+<li>Port from EggDebug to the built-in GLib logging&nbsp;framework</li>
+<li>Rewrite gpm-prefs.ui from&nbsp;scratch</li>
+<li>Remove the <span class="caps">CPU</span> wakeups&nbsp;feature</li>
+<li>Add some missing <span class="caps">SVG</span>&nbsp;files</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
+<h4>mate-screensaver</h4>
+<ul>
+<li>Allow change of time and date formats on lock&nbsp;screen</li>
+<li>Add Show/Hide password emblem in password&nbsp;entry</li>
+<li>mate-screensaver-preferences: Show lock image preview on file&nbsp;chooser</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
+<h4>mate-sensors-applet</h4>
+<ul>
+<li>Drop aticonfig&nbsp;plugin</li>
+<li>sonypi-plugin.c: Make sonypi plugin portable to&nbsp;<span class="caps">GNU</span>/Hurd</li>
+<li>libsensors-plugin: Port to&nbsp;GRegex</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
+<h4>mate-session-manager</h4>
+<ul>
+<li>Follow freedesktop guidelines to disable autorun using Hidden&nbsp;key</li>
+<li>build: allow users to disable gettext support&nbsp;(&#8212;disable-nls)</li>
+<li>Support xscreensaver when mate-screensaver is not&nbsp;available</li>
+<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
+<li>Accept Desktop Entry Specification&nbsp;v1.1</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
+<h4>mate-settings-daemon</h4>
+<ul>
+<li>xsettings: Improve Qt HiDPI environment&nbsp;settings</li>
+<li>housekeeping</li>
+<li>a11y-keyboard: Add support for togglekeys-backend&nbsp;setting</li>
+<li>Add option &#8212;without-libatspi and assorted status&nbsp;line</li>
+<li>a11y-keyboard: Add support for ringing the bell when CapsLock is&nbsp;active</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
+<h4>mate-system-monitor</h4>
+<ul>
+<li>Add wayland&nbsp;support</li>
+<li>port to&nbsp;GtkApplication</li>
+<li>pretty-table: prefer <span class="caps">GIO</span> to get application&nbsp;icons</li>
+<li>Added support for actions on multiple&nbsp;processes</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
+<h4>mate-terminal</h4>
+<ul>
+<li>Fix desktop file validation&nbsp;warning</li>
+<li>add meson build&nbsp;system</li>
+<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
+<li>Enable wayland&nbsp;support</li>
+<li>Fix searching in terminal&nbsp;window</li>
+<li>terminal-window: add icons to &#8220;open tab&#8221; and &#8220;close&nbsp;window/tab&#8221;</li>
+<li>terminal-screen: prevent crash on bad term spawn due to redundant&nbsp;frees</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
+<h4>mate-user-guide</h4>
+<ul>
+<li>build: allow users to disable gettext support&nbsp;(&#8212;disable-nls)</li>
+<li>Remove the execution bit from some Italian&nbsp;figures</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
+<h4>mate-user-share</h4>
+<ul>
+<li>use MATE_COMPILE_WARNINGS from&nbsp;mate-common</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-share/commits/master/">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
+<h4>mate-utils</h4>
+<ul>
+<li>mate-screenshot: fix the order of the buttons at the&nbsp;bottom</li>
+<li>mate-screenshot: do not use stock icons in&nbsp;mate-screenshot.ui</li>
+<li>logview: Rewrite logview-filter.ui from&nbsp;scratch</li>
+<li>gsearchtool: add copy path menu item to popup&nbsp;menu</li>
+<li>deprecation&nbsp;fixes</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
+<h4>mozo</h4>
+<ul>
+<li>rewrite mozo.ui from&nbsp;scratch</li>
+<li>Fix a strange behavior when editing the collection&nbsp;directory</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
+<h4>pluma</h4>
+<ul>
+<li>sort plugin: Port sort plugin to the new GtkSourceView&nbsp;api.</li>
+<li>port plugins to use the window-construct&nbsp;property.</li>
+<li>build: port to&nbsp;gtksourceview-4</li>
+<li>Introduce PlumaWindowActivatable, PlumaAppActivatable,&nbsp;PlumaViewActivatable</li>
+<li>add show/hide line-numbers shortcut&nbsp;(ctrl+y)</li>
+<li>Redesign Pluma Preferences&nbsp;Dialog</li>
+<li>Remove&nbsp;pluma-marshal.</li>
+<li>add optional grid background&nbsp;pattern</li>
+<li>Remove changecase plugin. Functionality is provided by&nbsp;GtkSourceView.</li>
+<li>add overview&nbsp;map</li>
+<li>Port to a new pluma-settings&nbsp;class</li>
+<li>add support for&nbsp;wayland</li>
+<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
+<li>pluma.c: set PlumaWindow size-request (min-size) to&nbsp;250x250</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/pluma/commits/master/">https://github.com/mate-desktop/pluma/commits/master/</a></p>
+<h4>pluma-plugins</h4>
+<ul>
+<li>Makes its first appearance in this&nbsp;release</li>
+<li>The package contains the following additional plugins<ul>
+<li>bookmarks - <em>Easy document navigation with&nbsp;bookmarks.</em>
+</li>
+<li>bracketcompletion - <em>Automatically adds closing&nbsp;brackets.</em>
+</li>
+<li>codecomment - <em>Comment and uncomment blocks of&nbsp;code.</em>
+</li>
+<li>smartspaces - <em>Forget you’re not using&nbsp;tabulations.</em>
+</li>
+<li>synctex - <em>SyncTeX synchronization of TeX files and <span class="caps">PDF</span>&nbsp;output.</em>
+</li>
+<li>terminal - <em>Embed a terminal in the bottom&nbsp;pane.</em>
+</li>
+<li>wordcompletion - <em>Word completion using the completion&nbsp;framework.</em>
+</li>
+<li>sourcecodebrowser - <em>View and navigate functions, variables and&nbsp;namespaces.</em>
+</li>
+</ul>
+</li>
+</ul>
+<h4>python-caja</h4>
+<ul>
+<li>Fix memory leak reported by&nbsp;scan-build</li>
+<li>g10n: Update the&nbsp;translations</li>
+</ul>
+<p>Complete changelog at <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2020-02-10-mate-1-24-released/" class="u-url"><span class="caps">MATE</span> 1.24&nbsp;released</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/wolfgang-ulbrich/">Wolfgang&nbsp;Ulbrich</a>
@@ -7725,355 +8172,6 @@ release of <span class="caps">MATE</span> Desktop 1.12. We&#8217;d like to thank
 <p><br><br></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-released/" class="u-url"><span class="caps">MATE</span> 1.10&nbsp;released</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2015-06-11-mate-1-10-released/" rel="bookmark">
-            <time class="published dt-published" datetime="2015-06-11T22:40:40Z" itemprop="datePublished" title="2015-06-11 22:40">2015-06-11 22:40</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p>After 15 months of development the <span class="caps">MATE</span> Desktop team are proud to announce
-the release of <span class="caps">MATE</span> Desktop 1.10. We would like to thank every <span class="caps">MATE</span> contributor
-and&nbsp;user.</p>
-<p><img alt="about" src="../assets/img/blog/about-mate-1.10.png"></p>
-<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.10</h3>
-<p>The headline changes in <span class="caps">MATE</span> 1.10&nbsp;are:</p>
-<ul>
-<li>Every component of <span class="caps">MATE</span> can now be built with <span class="caps">GTK2</span> and <span class="caps">GTK3</span>.<ul>
-<li><span class="caps">GTK3</span> support is still considered <em>experimental</em>
-</li>
-<li>Arch Linux and Fedora currently offer alternative <span class="caps">GTK3</span>&nbsp;builds.</li>
-</ul>
-</li>
-<li>[GSoC 2014] Caja now has an extension manager so plugin can be enabled/disabled at&nbsp;run-time.</li>
-<li>[GSoC 2014] Atril now supports <a href="https://en.wikipedia.org/wiki/EPUB">ePub</a>.</li>
-<li>[GSoC&nbsp;2014] <code>libmatemixer</code>, an audio mixer library for <span class="caps">MATE</span> desktop, has been introduced.<ul>
-<li>Provides an abstract <span class="caps">API</span> allowing access to mixer functionality available
-in the PulseAudio, <span class="caps">ALSA</span> and <span class="caps">OSS</span> sound&nbsp;systems.</li>
-</ul>
-</li>
-<li>Static code analysis has resulted in many memory leaks being&nbsp;plugged.</li>
-<li>Theme support has been expanded to <span class="caps">GTK</span> 3.8 to 3.16 including <span class="caps">CSD</span> and pop-over&nbsp;support.</li>
-</ul>
-<p>The various components of <span class="caps">MATE</span> 1.10 are available for download&nbsp;here:</p>
-<ul>
-<li><a href="https://pub.mate-desktop.org/releases/1.10/">https://pub.mate-desktop.org/releases/1.10/</a></li>
-</ul>
-<h3>Screenshots</h3>
-<ul>
-<li><a href="../gallery/1.10/"><span class="caps">MATE</span> 1.10&nbsp;Screenshots</a></li>
-</ul>
-<h3>Changelog</h3>
-<p>Here is a more detailed break down of what has&nbsp;changed.</p>
-<h4>mate-common</h4>
-<ul>
-<li>Added support&nbsp;for <code>automake</code> 1.15</li>
-<li>Added support&nbsp;for <code>lcov</code> 1.11</li>
-<li>Migrated&nbsp;to <code>glib-gettexize</code> if using&nbsp;GLib <code>gettext</code>
-</li>
-<li>Check&nbsp;for <code>appdata-xml.m4</code> with <code>APPDATA_XML</code>
-</li>
-</ul>
-<h4>mate-desktop</h4>
-<ul>
-<li>Migrated <code>MateRRScreen</code>, <code>GnomeRRConfig</code> and <code>GnomeOutputInfo</code> to&nbsp;GObject.</li>
-<li>Added GObject&nbsp;Introspection</li>
-<li>Added automatic-mnemonics key for&nbsp;<span class="caps">GTK</span> <code>xsetting</code>
-</li>
-<li>Added <code>MateAboutDialog</code> class to have traditional about dialog with&nbsp;<span class="caps">GTK3</span></li>
-<li>Added <code>MateColorButton</code> class to have traditional color selection dialog with&nbsp;<span class="caps">GTK3</span></li>
-<li>Added <code>org.mate.debug</code> GSettings&nbsp;schema</li>
-<li>Uses <code>GDK_WINDOW_XID</code> for inter-<span class="caps">GTK</span>&nbsp;compatibility</li>
-<li>Updated <code>mpaste</code> for website&nbsp;change</li>
-<li>Updated&nbsp;translations </li>
-<li>Removed&nbsp;desktop-docs</li>
-<li>Removed user&nbsp;guide</li>
-<li>Removed <code>libunique</code> optional&nbsp;dependency</li>
-<li>Assorted <span class="caps">RANDR</span>&nbsp;fixes</li>
-</ul>
-<h4>libmatekbd</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>libmatemixer</h4>
-<p><code>libmatemixer</code> is a new mixer library for <span class="caps">MATE</span> desktop. It provides an abstract
-<span class="caps">API</span> allowing access to mixer functionality available in the PulseAudio, <span class="caps">ALSA</span>
-and <span class="caps">OSS</span> sound&nbsp;systems.</p>
-<ul>
-<li>Initial&nbsp;release</li>
-</ul>
-<h4>libmateweather</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-icon-theme</h4>
-<ul>
-<li>Added more&nbsp;icons</li>
-<li>Added new symbolic&nbsp;icons</li>
-</ul>
-<h4>Caja</h4>
-<ul>
-<li>Added a plugin manage to allow extensions to be enabled/disabled at&nbsp;runtime</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-polkit</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>Marco</h4>
-<ul>
-<li>Use <code>zenity</code> instead&nbsp;of <code>mate-dialogs</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-settings-daemon</h4>
-<ul>
-<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes.</li>
-<li>Migrated media-keys plugin&nbsp;to <code>libmatemixer</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Removed GStreamer and&nbsp;made <code>libmatemixer</code>, <code>libcanberra</code> and PulseAudio optional&nbsp;dependencies</li>
-</ul>
-<h4>mate-session-manager</h4>
-<ul>
-<li>Disabled <code>upower</code> support by default,&nbsp;use <code>--enable-upower</code> if you need&nbsp;it</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-menus</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-panel</h4>
-<ul>
-<li>Fixed the size of&nbsp;the <code>showdesktop</code> icon.</li>
-<li>Fixed deprecated use of <span class="caps">GDK</span> pointer <span class="caps">API</span>&nbsp;(<span class="caps">GTK3</span>)</li>
-<li>Migrated&nbsp;all <code>GtkStyle</code> to <code>GtkStyleContext</code> (<span class="caps">GTK3</span>)</li>
-<li>Migrated <code>gtk_rc_parse_string</code> to <code>GtkCssProvider</code> (<span class="caps">GTK3</span>)</li>
-<li>
-<code>GDK_KEY_*</code> is also used in Gtk+&nbsp;2.24.x</li>
-<li>Removed the vbox&nbsp;from <code>panel-addto</code> as it is&nbsp;deprecated</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug fixes<ul>
-<li>Check allocated size before creating the shadow pixbuf in the&nbsp;clock.</li>
-<li>Disconnect show and deactivate menu signals before destroying the applet&nbsp;menu</li>
-<li>Handling&nbsp;of <code>SYSTEM_TRAY_CANCEL_MESSAGE</code>
-</li>
-<li>Correct implicit declaration of function&nbsp;of <code>gdk_x11_set_sm_client_id</code>
-</li>
-<li>Added a gtkimage with the current pixbuf to&nbsp;button-widget</li>
-<li>Use gtk icon cache instead of custom&nbsp;one</li>
-</ul>
-</li>
-</ul>
-<h4>mate-backgrounds</h4>
-<ul>
-<li>Added Ubuntu <span class="caps">MATE</span> wallpapers without&nbsp;branding</li>
-<li>Added new <span class="caps">MATE</span>-Stripes-Dark.png, <span class="caps">MATE</span>-Stripes-Light.png&nbsp;wallpapers</li>
-</ul>
-<h4>mate-themes</h4>
-<ul>
-<li>Added support for <span class="caps">GTK</span> 3.16, 3.14, 3.12, 3.10 and&nbsp;3.8.</li>
-<li>Added many improvements for <span class="caps">MATE</span> <span class="caps">GTK3</span>&nbsp;applications</li>
-<li>Added transition effects to buttons and menuitems when using&nbsp;<span class="caps">GTK3</span></li>
-<li>Added support for <span class="caps">CSD</span>&nbsp;applications</li>
-<li>Added support for&nbsp;popovers</li>
-<li>Enable window shadows for <span class="caps">CSD</span>&nbsp;applications</li>
-<li>Enable regular icons for window&nbsp;controls</li>
-<li>Disable use of symbolic&nbsp;icons</li>
-<li>Use mate logo for spinner&nbsp;animation</li>
-<li>Refactor&nbsp;GreenLaguna</li>
-<li>Refactor ContrastHigh&nbsp;themes</li>
-<li>TraditionalOKTest is installable with normal configure&nbsp;flags</li>
-<li>Many other fixes and&nbsp;refinements</li>
-</ul>
-<h4>mate-notification-daemon</h4>
-<ul>
-<li>Assorted bug&nbsp;fixes</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-control-center</h4>
-<ul>
-<li>Added option to configure titlebar buttons&nbsp;layout</li>
-<li>Added support&nbsp;for <code>metacity-theme-2.xml</code>
-</li>
-<li>Added support for office applications in Preferred&nbsp;Applications</li>
-<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-screensaver</h4>
-<ul>
-<li>Migrated&nbsp;to <code>MateRR*</code> <span class="caps">API</span>&nbsp;changes</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-media</h4>
-<ul>
-<li>Removed PulseAudio&nbsp;dependency</li>
-<li>Removed <code>gst-mixer</code> and <code>gst-mixer-applet</code>
-</li>
-<li>Updated mate-volume-control:<ul>
-<li>Migrated from PulseAudio&nbsp;to <code>libmatemixer</code>
-</li>
-<li>Allow selecting input and output&nbsp;connectors</li>
-<li>Speaker test widget now contains a Close&nbsp;button</li>
-<li>Device and stream lists are now&nbsp;sorted</li>
-<li>Do not show icons when on a vertical&nbsp;panel</li>
-<li>Allow clicking in the popup&nbsp;window</li>
-</ul>
-</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-power-manager</h4>
-<ul>
-<li>Added support&nbsp;for <code>upower</code> 0.99+</li>
-<li>Updated&nbsp;translations</li>
-<li>Removed <code>udisks</code> dependency</li>
-</ul>
-<h4>mate-system-monitor</h4>
-<ul>
-<li>Back ported improvements from <span class="caps">GNOME</span> System&nbsp;Monitor</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>Atril</h4>
-<ul>
-<li>Added epub&nbsp;support</li>
-<li>Added xz compression&nbsp;support</li>
-<li>Added rotate with <span class="caps">CTRL</span>+left and <span class="caps">CTRL</span>+right in presentation&nbsp;mode</li>
-<li>Added support&nbsp;for <code>bsdtar</code> to the comics&nbsp;backend.</li>
-<li>Added&nbsp;support <code>pdf.xz</code> files to the <span class="caps">PDF</span>&nbsp;backend.</li>
-<li>Added support for external links to&nbsp;EvViewPresentation</li>
-<li>Added EvBookmarks to handle internal document&nbsp;bookmarks</li>
-<li>Added support for <span class="caps">OCG</span> State actions to the <span class="caps">PDF</span>&nbsp;backend</li>
-<li>Added saving the zoom factor in default settings when sizing mode is&nbsp;free</li>
-<li>Added <code>png</code> extension when saving images using drag <span class="amp">&amp;</span>&nbsp;drop</li>
-<li>Added timestamp parameter to&nbsp;SyncView</li>
-<li>Added ini file for Caja&nbsp;extension</li>
-<li>Added appdata&nbsp;file</li>
-<li>Implemented <code>document_links_find_link_page()</code> in the <span class="caps">PDF</span>&nbsp;backend</li>
-<li>Implemented document_links_find_link_page()` in the djvu&nbsp;backend</li>
-<li>Migrated&nbsp;to <code>find_link_page()</code> instead&nbsp;of <code>find_link_dest()</code> in <code>get_dest_page()</code>
-</li>
-<li>Fixed remembering the current page when document is reloaded in presentation&nbsp;mode</li>
-<li>Fixed resolving named destinations in the <span class="caps">PDF</span>&nbsp;backend</li>
-<li>Fixed sidebar-thumbnails to connect to job finished signal before scheduling the&nbsp;job</li>
-<li>Fixed drawing glyphs with transparency in the <span class="caps">DVI</span>&nbsp;backend</li>
-<li>Fixed several security issues in the <span class="caps">DVI</span>&nbsp;backend</li>
-<li>Fixed several accessibility&nbsp;issues.</li>
-<li>Fixed segmentation faults and many memory&nbsp;leaks</li>
-<li>Updated&nbsp;to <code>poppler</code> 0.16.0 <span class="caps">API</span>&nbsp;changes</li>
-<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>caja-extensions</h4>
-<ul>
-<li>Added new &#8216;Set as wallpaper&#8217;&nbsp;extension</li>
-<li>Re-introduced the option to&nbsp;select <code>send-to</code> plugins to&nbsp;build</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>Engrampa</h4>
-<ul>
-<li>Added compressing of iso images and tar archives from the Caja&nbsp;menu</li>
-<li>Added overwrite confirmation dialog when extracting files with drag <span class="amp">&amp;</span>&nbsp;drop</li>
-<li>Added keywords key&nbsp;to <code>.desktop</code> file</li>
-<li>Added ini file for Caja&nbsp;extension</li>
-<li>Added <code>engrampa.appdata.xml</code>
-</li>
-<li>Fixed opening <span class="caps">RAR</span> files inside a <span class="caps">RAR</span>&nbsp;file</li>
-<li>Fixed errors with some password protected&nbsp;files</li>
-<li>Fixed loading of multi-volume <span class="caps">RAR</span> archives with&nbsp;7zip</li>
-<li>Fixed crash when clicking Cancel in Add&nbsp;Files</li>
-<li>Fixed hyphen-as-minus-sign issues&nbsp;for <code>engrampa.1</code> man&nbsp;page</li>
-<li>Fixed memory&nbsp;leaks</li>
-<li>Removed support for Gtk+ &lt;&nbsp;2.24</li>
-<li>Removed support for Glib &lt;&nbsp;2.32</li>
-<li>Use Caja GSettings schema&nbsp;optionally</li>
-<li>Use <code>g_get_user_config_dir</code> instead of&nbsp;hardcoded <code>~/.config/mate</code>
-</li>
-<li>Use <code>GtkRecentAction objects</code> to create the recent file&nbsp;choosers</li>
-<li>Do not set the selected app as the system&nbsp;default</li>
-<li>Do not set the &#8220;last output&#8221; dialog as modal to allow the user to resize&nbsp;it</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>Eye of&nbsp;<span class="caps">MATE</span></h4>
-<ul>
-<li>Back ported improvements from Eye of&nbsp;<span class="caps">GNOME</span></li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-applets</h4>
-<ul>
-<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-netbook</h4>
-<ul>
-<li>Fixed Windows Picker applet forcibly changing Maximus&nbsp;settings</li>
-<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-netspeed</h4>
-<ul>
-<li>Added network load graph made similar to <span class="caps">MATE</span> System Monitor&nbsp;graphs</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-sensors-applet</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-terminal</h4>
-<ul>
-<li>Migrated to common function&nbsp;in <code>libmate-desktop</code>
-</li>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>mate-user-share</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>mate-utils</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>Mozo</h4>
-<ul>
-<li>Updated&nbsp;translations </li>
-</ul>
-<h4>Pluma</h4>
-<ul>
-<li>Migrated&nbsp;to <code>MateAboutDialog</code> from <code>libmate-desktop</code>
-</li>
-<li>Updated&nbsp;translations </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<h4>python-caja</h4>
-<ul>
-<li>Added About Extension button to the Extensions tab in&nbsp;Caja </li>
-<li>Assorted bug&nbsp;fixes</li>
-</ul>
-<p><br><br></p>
-</div>
-    </div>
     </article>
 </div>
 
@@ -8116,7 +8214,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "a0057ead12b5"],
+    texts : ["Preview Website", "MATE Desktop", "a0cef528d261"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
