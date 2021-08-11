@@ -132,48 +132,30 @@
 <p>The theme for this release has been adding new functionality to the <span class="caps">MATE</span> Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the&nbsp;performance.</p>
 <p>The headline changes in <span class="caps">MATE</span> Desktop 1.26&nbsp;are:</p>
 <ul>
+<li>We added <a href="https://wayland.freedesktop.org/">Wayland</a> support for Atril, System Monitor, Pluma, Terminal and other components of the Desktop. Furthermore Calculator can now be built with <a href="https://mesonbuild.com/">Meson</a>.</li>
 <li>
-<p>We added Wayland support for Atril, System Monitor, Pluma, Terminal and other components of the&nbsp;Desktop.</p>
-</li>
-<li>
-<p><strong>Pluma</strong> was subject to massive&nbsp;improvements.</p>
-<ul>
+<strong>Pluma</strong> was subject to massive improvements.<ul>
 <li>There is a new mini map which gives you instant overview over the&nbsp;content.</li>
-<li>The new grid background pattern gives you the feel to write on&nbsp;paper.</li>
+<li>The new grid background pattern turns Pluma into a writing&nbsp;pad.</li>
 <li>The sort plugin now supports undo&nbsp;actions.</li>
-<li>We added show/hide line-numbers shortcut&nbsp;(Ctrl+Y).</li>
+<li>We added a show/hide line-numbers shortcut (<kbd>Ctrl</kbd> + <kbd>Y</kbd>).</li>
 <li>The preferences dialog needed a redesign to catch up with all the new&nbsp;features.</li>
 </ul>
 </li>
-<li>
-<p>Together with the brand new <strong>pluma-plugins</strong> package Pluma can be turned into a feature-rich <span class="caps">IDE</span>, with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Wordcompletion</em>.</p>
-</li>
-<li>
-<p>The <strong>Calculator</strong> is better in every single&nbsp;way.</p>
-<ul>
-<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span> Library, which means more precision, faster computation, more supported&nbsp;functions.</li>
-<li>We finally added an optional history to show recent&nbsp;calculations.</li>
-<li>Calculator is now resizeable if history is&nbsp;activated.</li>
-<li>Vastly improved prime factorization&nbsp;speed.</li>
+<li>Together with the brand new <strong>Pluma Plugins</strong> our text editor can be turned into a feature-rich <span class="caps">IDE</span> with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Wordcompletion</em>.</li>
+<li>The <strong>Control Center</strong> features an improved Windows preferences dialog with more options. In the Display dialog we added an option for window&nbsp;scaling.</li>
+<li>We finally <strong>added a Do not Disturb applet</strong>.</li>
+<li>Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional thumbnails are now crisp and clear as they are rendered as cairo&nbsp;surfaces.</li>
+<li>The Netspeed applet shows more information by default and gained <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;support.</li>
+<li>The <strong>Calculator</strong> was ported to the <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).<ul>
+<li>We finally added an optional history to show recent&nbsp;computations.</li>
+<li>Calculator is now resizeable if the history is&nbsp;activated.</li>
+<li>Vastly improved integer factorization&nbsp;speed.</li>
 <li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability).</li>
 </ul>
 </li>
-<li>
-<p>The <strong>Control Center</strong> features an improved <em>Windows</em> preferences dialog with more options. In the <em>Display</em> dialog we added an option for window&nbsp;scaling.</p>
-</li>
-<li>
-<p>We finally added a <em>Do not Disturb</em>&nbsp;Applet.</p>
-</li>
-<li>Speaking of Applets, the window-list applet has a new option to disable mouse scrolling. The window-list thumbnails are now crisp and clear as they are rendered as cairo&nbsp;surfaces.</li>
-<li>
-<p>The netspeed applets shows more information by default and gained netlink&nbsp;support.</p>
-</li>
-<li>
-<p>&#8230;</p>
-</li>
-<li>
-<p>Translations are updated. Thank you to our team of&nbsp;translators!</p>
-</li>
+<li>&#8230;</li>
+<li>Translations are updated. Thank you to our team of&nbsp;translators!</li>
 </ul>
 <p>The various components of <span class="caps">MATE</span> Desktop 1.26 are available for download&nbsp;here:</p>
 <ul>
@@ -8210,7 +8192,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "02eee2066108"],
+    texts : ["Preview Website", "MATE Desktop", "038d5ae909f0"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
