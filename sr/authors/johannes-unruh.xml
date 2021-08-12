@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 13:34:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/sr/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 18:20:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/sr/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.26.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.26&lt;/h3&gt;
 &lt;p&gt;The theme for this release has been adding new functionality to the MATE Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the performance.&lt;/p&gt;
@@ -19,9 +19,9 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Together with the brand new &lt;strong&gt;Pluma Plugins&lt;/strong&gt; our text editor &lt;strong&gt;can be turned into a feature-rich IDE&lt;/strong&gt; with support for &lt;em&gt;Bracket completion&lt;/em&gt;, &lt;em&gt;Comment/Uncomment code&lt;/em&gt;, &lt;em&gt;Built-in terminal&lt;/em&gt; and &lt;em&gt;Wordcompletion&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;Control Center&lt;/strong&gt; features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display scaling. The &lt;strong&gt;Screensaver&lt;/strong&gt; dialog lets you choose a &lt;strong&gt;custom background image&lt;/strong&gt; for the lock screen.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Control Center&lt;/strong&gt; features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display scaling.&lt;/li&gt;
 &lt;li&gt;Notifications became even more useful as they gained support for hyperlinks. And we finally &lt;strong&gt;added a Do not Disturb applet&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional thumbnails are now &lt;strong&gt;crisp and clear as they are rendered as cairo surfaces&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional window thumbnails are now &lt;strong&gt;crisp and clear as they are rendered as cairo surfaces&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;The Netspeed applet shows more information by default and gained &lt;a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html"&gt;netlink&lt;/a&gt; support.&lt;/li&gt;
 &lt;li&gt;The &lt;strong&gt;Calculator&lt;/strong&gt; was ported to the &lt;a href="https://www.mpfr.org/"&gt;GNU MPFR&lt;/a&gt;/&lt;a href="http://www.multiprecision.org/mpc"&gt;MPC&lt;/a&gt; library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).&lt;ul&gt;
 &lt;li&gt;We finally &lt;strong&gt;added a history to show recent computations&lt;/strong&gt;.&lt;/li&gt;
@@ -34,9 +34,10 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Scrolling through large documents in &lt;strong&gt;Atril&lt;/strong&gt; is a lot faster now since a slow linear search has been replaced by a binary tree search. The document viewers &lt;strong&gt;memory footprint got even smaller&lt;/strong&gt; as a EvWebView is now only created if needed.&lt;/li&gt;
 &lt;li&gt;The window manager &lt;strong&gt;Marco&lt;/strong&gt; now restores minimized windows to its original position more reliable.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Engrampa&lt;/strong&gt; got support for Electronic Publication (EPUB) and ARC archives. In addition it can now open encrypted RAR archives.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Power Manager&lt;/strong&gt; has a new option to enable keyboard dimming and has been ported to &lt;a href="https://wiki.gnome.org/Projects/Libsecret"&gt;libsecret&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Most About dialogs have been updated with nicer descriptions. Because small things matter &lt;code&gt;:-)&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;We did fix a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop components.&lt;/li&gt;
-&lt;li&gt;There is a new &lt;a href="https://wiki.mate-desktop.org/"&gt;Wiki&lt;/a&gt; which makes its easier for new contributors to join our project. We urgently need motivated people so do not hesitate to &lt;a href="https://wiki.mate-desktop.org/introduction/contributing/"&gt;contact us&lt;/a&gt; or &lt;a href="https://wiki.mate-desktop.org/contributing/software-development/first-contribution/"&gt;make a PR&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;We fixed a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop components.&lt;/li&gt;
+&lt;li&gt;There is a new &lt;a href="https://wiki.mate-desktop.org/"&gt;Wiki&lt;/a&gt; which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to &lt;a href="https://wiki.mate-desktop.org/introduction/contributing/"&gt;contact us&lt;/a&gt; or &lt;a href="https://wiki.mate-desktop.org/introduction/contributing/"&gt;start contributing&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Translations are updated. Thank you to our team of translators!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.26 are available for download here:&lt;/p&gt;
@@ -314,8 +315,6 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Allow change of time and date formats on lock screen&lt;/li&gt;
 &lt;li&gt;Add Show/Hide password emblem in password entry&lt;/li&gt;
 &lt;li&gt;mate-screensaver-preferences: Show lock image preview on file chooser&lt;/li&gt;
-&lt;li&gt;Fix invalid gnome-logo-white.svg&lt;/li&gt;
-&lt;li&gt;Custom background image for lock screen&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;

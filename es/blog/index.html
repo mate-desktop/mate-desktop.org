@@ -142,9 +142,9 @@
 </ul>
 </li>
 <li>Together with the brand new <strong>Pluma Plugins</strong> our text editor <strong>can be turned into a feature-rich <span class="caps">IDE</span></strong> with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Wordcompletion</em>.</li>
-<li>The <strong>Control Center</strong> features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display scaling. The <strong>Screensaver</strong> dialog lets you choose a <strong>custom background image</strong> for the lock&nbsp;screen.</li>
+<li>The <strong>Control Center</strong> features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display&nbsp;scaling.</li>
 <li>Notifications became even more useful as they gained support for hyperlinks. And we finally <strong>added a Do not Disturb applet</strong>.</li>
-<li>Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional thumbnails are now <strong>crisp and clear as they are rendered as cairo surfaces</strong>.</li>
+<li>Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional window thumbnails are now <strong>crisp and clear as they are rendered as cairo surfaces</strong>.</li>
 <li>The Netspeed applet shows more information by default and gained <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;support.</li>
 <li>The <strong>Calculator</strong> was ported to the <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).<ul>
 <li>We finally <strong>added a history to show recent computations</strong>.</li>
@@ -158,9 +158,10 @@
 <li>The window manager <strong>Marco</strong> now restores minimized windows to its original position more&nbsp;reliable.</li>
 <li>
 <strong>Engrampa</strong> got support for Electronic Publication (<span class="caps">EPUB</span>) and <span class="caps">ARC</span> archives. In addition it can now open encrypted <span class="caps">RAR</span>&nbsp;archives.</li>
+<li>The <strong>Power Manager</strong> has a new option to enable keyboard dimming and has been ported to <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>.</li>
 <li>Most About dialogs have been updated with nicer descriptions. Because small things&nbsp;matter <code>:-)</code>.</li>
-<li>We did fix a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop&nbsp;components.</li>
-<li>There is a new <a href="https://wiki.mate-desktop.org/">Wiki</a> which makes its easier for new contributors to join our project. We urgently need motivated people so do not hesitate to <a href="https://wiki.mate-desktop.org/introduction/contributing/">contact us</a> or <a href="https://wiki.mate-desktop.org/contributing/software-development/first-contribution/">make a <span class="caps">PR</span></a>.</li>
+<li>We fixed a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop&nbsp;components.</li>
+<li>There is a new <a href="https://wiki.mate-desktop.org/">Wiki</a> which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to <a href="https://wiki.mate-desktop.org/introduction/contributing/">contact us</a> or <a href="https://wiki.mate-desktop.org/introduction/contributing/">start contributing</a>.</li>
 <li>Translations are updated. Thank you to our team of&nbsp;translators!</li>
 </ul>
 <p>The various components of <span class="caps">MATE</span> Desktop 1.26 are available for download&nbsp;here:</p>
@@ -438,8 +439,6 @@
 <li>Allow change of time and date formats on lock&nbsp;screen</li>
 <li>Add Show/Hide password emblem in password&nbsp;entry</li>
 <li>mate-screensaver-preferences: Show lock image preview on file&nbsp;chooser</li>
-<li>Fix invalid&nbsp;gnome-logo-white.svg</li>
-<li>Custom background image for lock&nbsp;screen</li>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
 <li>Fix several memory&nbsp;leaks</li>
 <li>g10n: Update the&nbsp;translations</li>
@@ -8230,7 +8229,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "c787f4bd7686"],
+    texts : ["Preview Website", "MATE Desktop", "28e743cb5349"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
