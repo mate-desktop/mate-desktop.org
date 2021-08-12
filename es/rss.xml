@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 12:03:47 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/es/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 13:01:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/es/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.26.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.26&lt;/h3&gt;
 &lt;p&gt;The theme for this release has been adding new functionality to the MATE Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the performance.&lt;/p&gt;
@@ -30,7 +30,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Much faster modular arithmetic evaluation (modular exponentiation ability).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;In the file manager &lt;strong&gt;Caja&lt;/strong&gt; you can select &lt;strong&gt;a new Bookmarks sidebar&lt;/strong&gt;. Caja gained &lt;strong&gt;support for formatting drives&lt;/strong&gt; from the context menu. The &lt;strong&gt;Caja Actions&lt;/strong&gt; extension which allows you to add arbitrary programs to be launched through the file manager popup menu is now part of the Desktop.&lt;/li&gt;
+&lt;li&gt;In the file manager &lt;strong&gt;Caja&lt;/strong&gt; you can select &lt;strong&gt;a new Bookmarks sidebar&lt;/strong&gt;. Caja gained &lt;strong&gt;support for formatting drives&lt;/strong&gt; from the context menu. The &lt;strong&gt;Caja Actions&lt;/strong&gt; extension which allows you to add arbitrary programs to be launched through the context menu is now part of the Desktop.&lt;/li&gt;
 &lt;li&gt;Scrolling through large documents in &lt;strong&gt;Atril&lt;/strong&gt; is a lot faster now since a slow linear search has been replaced by a binary tree search. The document viewers &lt;strong&gt;memory footprint got even smaller&lt;/strong&gt; as a EvWebView is now only created if needed.&lt;/li&gt;
 &lt;li&gt;The window manager &lt;strong&gt;Marco&lt;/strong&gt; now restores minimized windows to its original position more reliable.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Engrampa&lt;/strong&gt; got support for Electronic Publication (EPUB) and ARC archives. In addition it can now open encrypted RAR archives.&lt;/li&gt;
@@ -47,7 +47,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Here are the glory details.&lt;/p&gt;
 &lt;h4&gt;atril&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Completely rewritten Help (make sure to visit the new synctex section if you write a lot of Tex files)&lt;/li&gt;
+&lt;li&gt;Completely rewritten Help (make sure to visit the new synctex section if you write a lot of TeX files)&lt;/li&gt;
 &lt;li&gt;ev-window.c: Only create a EvWebView if needed&lt;/li&gt;
 &lt;li&gt;ev-sidebar-links: Optimize reverse link lookup for a page (the very slow linear search for links in the sidebar has been replaced by a search in a specalized binary tree)&lt;/li&gt;
 &lt;li&gt;Add Wayland support&lt;/li&gt;
