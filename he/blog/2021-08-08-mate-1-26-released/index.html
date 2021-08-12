@@ -174,7 +174,7 @@
 <li>The Netspeed applet shows more information by default and gained <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;support.</li>
 <li>The <strong>Calculator</strong> was ported to the <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).<ul>
 <li>We finally <strong>added a history to show recent computations</strong>.</li>
-<li>Calculator is now resizeable if the history is&nbsp;activated.</li>
+<li>Calculator is now resizeable when the history is&nbsp;activated.</li>
 <li>Vastly improved integer factorization&nbsp;speed.</li>
 <li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability).</li>
 </ul>
@@ -332,11 +332,10 @@
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
 <h4>mate-calc</h4>
 <ul>
-<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;Library:</li>
-<li>More precision, faster calculations, more supported&nbsp;functions</li>
+<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;Library</li>
 <li>Add an optional history to show recent&nbsp;calculations</li>
 <li>With keyboard shortcuts to navigate through history&nbsp;(Alt+Up)/(Alt+Down)</li>
-<li>Calculator is now resizeable if history is&nbsp;activated</li>
+<li>Make Calculator resizeable when history is&nbsp;activated</li>
 <li>Show exponents in prime&nbsp;factorization</li>
 <li>Vastly improve prime factorization&nbsp;speed</li>
 <li>To factorize integers bigger than 2^64 the Miller-Rabin primality test and Pollard&#8217;s rho algorithm are&nbsp;used</li>
@@ -363,7 +362,7 @@
 <li>Add file chooser options in the appearance dialog (the file chooser is the window that opens when opening or saving a&nbsp;file)</li>
 <li>Migrate some components from dbus-glib to&nbsp;GDBus</li>
 <li>Support tab-scrolling for the window and appearance&nbsp;dialog</li>
-<li>The Display applet gained an option for window&nbsp;scaling</li>
+<li>The Display applet gained an option for display&nbsp;scaling</li>
 <li>Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(&#8212;disable-nls)</li>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
 <li>Fix several memory&nbsp;leaks</li>
@@ -651,7 +650,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "3834e1744ac6"],
+    texts : ["Preview Website", "MATE Desktop", "3009d1778450"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

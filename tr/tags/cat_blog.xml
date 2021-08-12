@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 13:02:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/tr/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 13:09:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/tr/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.26.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.26&lt;/h3&gt;
 &lt;p&gt;The theme for this release has been adding new functionality to the MATE Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the performance.&lt;/p&gt;
@@ -25,7 +25,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;The Netspeed applet shows more information by default and gained &lt;a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html"&gt;netlink&lt;/a&gt; support.&lt;/li&gt;
 &lt;li&gt;The &lt;strong&gt;Calculator&lt;/strong&gt; was ported to the &lt;a href="https://www.mpfr.org/"&gt;GNU MPFR&lt;/a&gt;/&lt;a href="http://www.multiprecision.org/mpc"&gt;MPC&lt;/a&gt; library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).&lt;ul&gt;
 &lt;li&gt;We finally &lt;strong&gt;added a history to show recent computations&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Calculator is now resizeable if the history is activated.&lt;/li&gt;
+&lt;li&gt;Calculator is now resizeable when the history is activated.&lt;/li&gt;
 &lt;li&gt;Vastly improved integer factorization speed.&lt;/li&gt;
 &lt;li&gt;Much faster modular arithmetic evaluation (modular exponentiation ability).&lt;/li&gt;
 &lt;/ul&gt;
@@ -182,11 +182,10 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/"&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;mate-calc&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Port to GNU MPFR/MPC Library:&lt;/li&gt;
-&lt;li&gt;More precision, faster calculations, more supported functions&lt;/li&gt;
+&lt;li&gt;Port to GNU MPFR/MPC Library&lt;/li&gt;
 &lt;li&gt;Add an optional history to show recent calculations&lt;/li&gt;
 &lt;li&gt;With keyboard shortcuts to navigate through history (Alt+Up)/(Alt+Down)&lt;/li&gt;
-&lt;li&gt;Calculator is now resizeable if history is activated&lt;/li&gt;
+&lt;li&gt;Make Calculator resizeable when history is activated&lt;/li&gt;
 &lt;li&gt;Show exponents in prime factorization&lt;/li&gt;
 &lt;li&gt;Vastly improve prime factorization speed&lt;/li&gt;
 &lt;li&gt;To factorize integers bigger than 2^64 the Miller-Rabin primality test and Pollard's rho algorithm are used&lt;/li&gt;
@@ -213,7 +212,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Add file chooser options in the appearance dialog (the file chooser is the window that opens when opening or saving a file)&lt;/li&gt;
 &lt;li&gt;Migrate some components from dbus-glib to GDBus&lt;/li&gt;
 &lt;li&gt;Support tab-scrolling for the window and appearance dialog&lt;/li&gt;
-&lt;li&gt;The Display applet gained an option for window scaling&lt;/li&gt;
+&lt;li&gt;The Display applet gained an option for display scaling&lt;/li&gt;
 &lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
