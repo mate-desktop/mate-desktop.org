@@ -3,9 +3,8 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 09:38:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/es/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 17 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
-&lt;!--![MATE About dialog](/assets/img/blog/about-mate-1.24.png){ width=50% }--&gt;
-
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 12 Aug 2021 10:19:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 released</title><link>https://preview.mate-desktop.dev/es/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;This release might have taken a little longer than usual but now after 17 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.26.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.26&lt;/h3&gt;
 &lt;p&gt;The theme for this release has been adding new functionality to the MATE Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the performance.&lt;/p&gt;
 &lt;p&gt;The headline changes in MATE Desktop 1.26 are:&lt;/p&gt;
@@ -20,7 +19,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Together with the brand new &lt;strong&gt;Pluma Plugins&lt;/strong&gt; our text editor &lt;strong&gt;can be turned into a feature-rich IDE&lt;/strong&gt; with support for &lt;em&gt;Bracket completion&lt;/em&gt;, &lt;em&gt;Comment/Uncomment code&lt;/em&gt;, &lt;em&gt;Built-in terminal&lt;/em&gt; and &lt;em&gt;Wordcompletion&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;Control Center&lt;/strong&gt; features an improved Windows preferences dialog with more options. In the Display dialog we added an option for window scaling.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Control Center&lt;/strong&gt; features an improved Windows preferences dialog with more options. In the Display dialog we added an option for window scaling. The &lt;strong&gt;Screensaver&lt;/strong&gt; dialog lets you choose a custom background image for the lock screen.&lt;/li&gt;
 &lt;li&gt;Notifications became even more useful as they gained support for hyperlinks. And we finally &lt;strong&gt;added a Do not Disturb applet&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional thumbnails are now &lt;strong&gt;crisp and clear as they are rendered as cairo surfaces&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;The Netspeed applet shows more information by default and gained &lt;a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html"&gt;netlink&lt;/a&gt; support.&lt;/li&gt;
@@ -56,7 +55,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Make synctex optional&lt;/li&gt;
 &lt;li&gt;Fix segfault on empty navMap&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/atril/commits/master/"&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -74,7 +73,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Confirm before deleting during an undo operation&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/caja/commits/master/"&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -98,7 +97,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;sendto: Fix evolution command for sending an email&lt;/li&gt;
 &lt;li&gt;image-converter: rewrite caja-image-rotate.ui from scratch&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/caja-extensions/commits/master/"&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -109,7 +108,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Add ARC archive support&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/engrampa/commits/master/"&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -119,7 +118,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Ensure scrollbar moves when dragged to move image&lt;/li&gt;
 &lt;li&gt;Add tab scrolling support for dialog windows&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/eom/commits/master/"&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -215,7 +214,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Migrate some components from dbus-glib to GDBus&lt;/li&gt;
 &lt;li&gt;Support tab-scrolling for the window and appearance dialog&lt;/li&gt;
 &lt;li&gt;The Display applet gained an option for window scaling&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
@@ -253,7 +252,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h4&gt;mate-menus&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Add collection menu item&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-menus/commits/master/"&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -272,7 +271,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Rewrite mate-notification-properties.ui from scratch&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/"&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -316,6 +315,8 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Allow change of time and date formats on lock screen&lt;/li&gt;
 &lt;li&gt;Add Show/Hide password emblem in password entry&lt;/li&gt;
 &lt;li&gt;mate-screensaver-preferences: Show lock image preview on file chooser&lt;/li&gt;
+&lt;li&gt;Fix invalid gnome-logo-white.svg&lt;/li&gt;
+&lt;li&gt;Custom background image for lock screen&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
@@ -337,7 +338,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;Accept Desktop Entry Specification v1.1&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;Fix a memory leak&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-session-manager/commits/master/"&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -377,7 +378,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h4&gt;mate-user-guide&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Remove the execution bit from some Italian figures&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-user-guide/commits/master/"&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
@@ -394,7 +395,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;logview: Rewrite logview-filter.ui from scratch&lt;/li&gt;
 &lt;li&gt;gsearchtool: Add copy path menu item to popup menu&lt;/li&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
-&lt;li&gt;Add option to disable &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/Installers.html"&gt;Native Language Support (NLS)&lt;/a&gt; (--disable-nls)&lt;/li&gt;
+&lt;li&gt;Add option to disable Native Language Support (NLS) (--disable-nls)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Complete changelog at &lt;a href="https://github.com/mate-desktop/mate-utils/commits/master/"&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
