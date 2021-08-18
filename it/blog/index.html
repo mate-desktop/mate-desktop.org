@@ -5364,7 +5364,7 @@
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2018-02-07-mate-1-20-released/" class="u-url"><span class="caps">MATE</span> 1.20&nbsp;released</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2018-02-07-mate-1-20-released/" class="u-url">Rilasciato <span class="caps">MATE</span>&nbsp;1.20</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -5376,1301 +5376,1323 @@
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>After 11 months of development the <span class="caps">MATE</span> Desktop team are pleased as punch to 
-announce the release of <span class="caps">MATE</span> Desktop 1.20. We&#8217;d like to thank every <span class="caps">MATE</span> 
-contributor for their help making this release&nbsp;possible.</p>
+<p>Dopo 11 mesi di sviluppo il team di <span class="caps">MATE</span> Desktop è soddisfatto di annunciare
+il rilascio di <span class="caps">MATE</span> Desktop 1.20. Vorremmo ringraziare ogni collaboratore <span class="caps">MATE</span> per il suo aiuto nel rendere possibile questo&nbsp;rilascio.</p>
 <p><img alt="about" src="../../assets/img/blog/about-mate-1.20.png"></p>
-<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.20</h3>
-<p>The theme for this release has been stabilising the <span class="caps">MATE</span> Desktop by replacing 
-deprecated code and modernising large sections of the code base. We&#8217;ve also 
-improved our window manager (Marco) and added support for HiDPI. Along the way 
-we&#8217;ve fixed hundreds of bugs. Squished &#8216;em&nbsp;dead!</p>
-<p>The headline changes in <span class="caps">MATE</span> Desktop 1.20&nbsp;are:</p>
+<h3>Cosa c&#8217;è di nuovo in <span class="caps">MATE</span>&nbsp;1.20</h3>
+<p>Il tema di questo rilascio è stato stabilizzare il Desktop <span class="caps">MATE</span> sostituendo
+il codice deprecato e modernizzando ampie sezioni del codice base. Abbiamo anche
+migliorato il nostro gestore delle finestre (Marco) e aggiunto il supporto per HiDPI. In tutto ciò
+abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
+<p>I principali cambiamenti in <span class="caps">MATE</span> Desktop 1.20&nbsp;sono:</p>
 <ul>
 <li>
-<strong><span class="caps">MATE</span> Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.</strong><ul>
-<li>HiDPI hints for Qt applications are also pushed to the environment to improve cross toolkit&nbsp;integration.</li>
-<li>Toggling HiDPI modes triggers dynamic resize and scale, no log out/in&nbsp;required.</li>
+<strong><span class="caps">MATE</span> Desktop 1.20 supporta gli schermi HiDPI con rilevamento e scalatura dinamici.</strong><ul>
+<li>Gli hint HiDPI per le applicazioni Qt sono anche portati sull&#8217;ambiente per migliorare l&#8217;integrazione tra i&nbsp;toolkit.</li>
+<li>Alternando le modalità HiDPI attiva il ridimensionamento e lo dinamici. Non occorre eseguire il log&nbsp;out/in</li>
 </ul>
 </li>
 <li>
-<strong>Marco now supports <a href="https://lwn.net/Articles/569701/"><span class="caps">DRI3</span> and XPresent</a></strong>, if available.<ul>
-<li>Frame rates in games are significantly increased when using&nbsp;Marco.</li>
+<strong>Marco adesso supporta <a href="https://lwn.net/Articles/569701/"><span class="caps">DRI3</span> and XPresent</a></strong>, se disponibile.<ul>
+<li>I frame rate utilizzando Marco sono significativamente&nbsp;accresciuti.</li>
 </ul>
 </li>
-<li>Marco now supports <strong>drag to quadrant window tiling</strong>, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>Tab</kbd> switcher and keyboard shortcuts to move windows to another monitor were&nbsp;added.</li>
+<li>Marco adesso supporta <strong>l&#8217;affiancamento con trascinamento al quadrante</strong>, i tasti cursore possono essere utilizzati per spostarsi nel selettore <kbd>Alt</kbd> + <kbd>Tab</kbd> e sono state aggiunte scorciatoie da tastiera per spostare le finestre su un altro&nbsp;monitor.</li>
+<li>È stato aggiunto il <strong>supporto per i provider Global Menu</strong> come <a href="https://github.com/rilian-la-te/vala-panel-appmenu">vala-panel-appmenu</a>.</li>
+<li><span class="caps">MATE</span> Panel ha molto migliorato il supporto per gli <a href="https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/">elementi notificatori di stato&nbsp;(<span class="caps">SNI</span>)</a>
+</li>
 <li>
-<strong>Support for Global Menu</strong> providers such as <a href="https://github.com/rilian-la-te/vala-panel-appmenu">vala-panel-appmenu</a> has been&nbsp;added.</li>
-<li><span class="caps">MATE</span> Panel has much improved <a href="https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/">Status Notifier Items (<span class="caps">SNI</span>)</a>&nbsp;support.</li>
+<strong>I Bookmark adesso supportano le posizioni <span class="caps">GTK3</span>+</strong>.</li>
+<li>Il Terminale di <span class="caps">MATE</span> adesso supporta le immagini di sfondo, aggiunge temi solarizzati e combinazioni di tasti per navigare tra le&nbsp;schede.</li>
 <li>
-<strong>Bookmarks now support <span class="caps">GTK3</span>+ locations</strong>.</li>
-<li><span class="caps">MATE</span> Terminal now supports background images, adds Solarized themes and keybindings to switch&nbsp;tabs.</li>
+<strong>Atril, il visualizzatore di documenti, ha subito una massiccia revisione</strong> ed è migliorato in ogni singolo aspetto. Sì, in ogni modo. Migliore!<ul>
+<li>In particolare è stato considerevolmente migliorato il supporto per gli utenti con limitazioni&nbsp;visive.</li>
+<li>È stata aggiunta la navigazione con il&nbsp;cursore.</li>
+</ul>
+</li>
+<li>L&#8217;<strong>applet Invest è stata rimossa</strong> da <span class="caps">MATE</span> Applets.<ul>
+<li>L&#8217;<span class="caps">API</span>, fornit da Yahoo, non è più attiva e no c&#8217;è un candidato valido per la sua&nbsp;sostituzione.</li>
+</ul>
+</li>
+<li>Le applet del Pannello adesso si ridimensionano in modo corretto in base alle unità mostrate e molti grafici sono riproporzionati in modo&nbsp;dinamico.</li>
 <li>
-<strong>Atril, the document viewer, has had a massive overhaul</strong> and is better in every single way. Yes, all ways. Better!<ul>
-<li>In particular accessibility support for visually impaired users is considerably&nbsp;improved.</li>
-<li>Caret navigation has been&nbsp;added.</li>
+<strong>I temi di <span class="caps">MATE</span> hanno visto significativi miglioramenti</strong> per implementare completamente tutte le classi di stile esposte da <span class="caps">GTK</span>&nbsp;3.22</li>
+<li>Engrampa, il visualizzatore di archivi, ha migliorato il supporto agli archivi 7z&nbsp;cifrati.</li>
+<li><span class="caps">MATE</span> Sensors Applet (finalmente) supporta&nbsp;udisks2.</li>
+<li>L&#8217;autenticazione OpenBSD è supportata in <span class="caps">MATE</span> Screensaver, e minizip in Atril supporta più varianti&nbsp;<span class="caps">BSD</span>.</li>
+<li>Le traduzioni sono state aggiornate. <em>Grazie al nostro team di&nbsp;traduttori!</em>
+</li>
+<li>E per i manutentori delle distribuzioni abbiamo aumentato i requisiti minimi di <span class="caps">GTK3</span>+ e GLib.<ul>
+<li>Sono richiesti <span class="caps">GTK</span> 3.22 e GLib 2.50 o successivi per compilare il Desktop <span class="caps">MATE</span>&nbsp;1.20.</li>
 </ul>
 </li>
-<li>The <strong>Invest applet has been dropped</strong> from <span class="caps">MATE</span> Applets.<ul>
-<li>The <span class="caps">API</span>, provided by Yahoo, has been discontinued and there is no reputable drop in replacement&nbsp;available.</li>
-</ul>
-</li>
-<li>Panel applets now size correctly based on the units being displayed and many graphs are dynamically&nbsp;scaled.</li>
-<li>
-<strong><span class="caps">MATE</span> Themes have seen significant improvements</strong> to fully implement all style classes exposed by <span class="caps">GTK</span>&nbsp;3.22</li>
-<li>Engrampa, the archive viewer, has improved support for encrypted 7z&nbsp;archives.</li>
-<li><span class="caps">MATE</span> Sensors Applet (finally) supports&nbsp;udisks2.</li>
-<li>OpenBSD authentication is supported in <span class="caps">MATE</span> Screensaver and minizip in Atril supports more <span class="caps">BSD</span>&nbsp;variants.</li>
-<li>Translations are updated. <em>Thank you to our team of&nbsp;translators!</em>
-</li>
-<li>A-n-d for distro maintainers we&#8217;ve bumped the minimum <span class="caps">GTK3</span>+ and GLib requirements.<ul>
-<li><span class="caps">GTK</span> 3.22 and GLib 2.50 or newer are required to build <span class="caps">MATE</span> Desktop&nbsp;1.20.</li>
-</ul>
-</li>
-<li>You might see some references to Wayland in the changelog below, don&#8217;t get too excited. It&#8217;s not what you&nbsp;think <code>:-)</code>
+<li>Potreste trovare qualche riferimento a Wayland nel changelog più oltre, non eccitatevi troppo. Non è quello che&nbsp;credete <code>:-)</code>
 </li>
 </ul>
-<p>The various components of <span class="caps">MATE</span> Desktop 1.20 are available for download&nbsp;here:</p>
+<p>I vari componenti di <span class="caps">MATE</span> 1.20 sono disponibili per il download a questo&nbsp;indirizzo:</p>
 <ul>
 <li><a href="https://pub.mate-desktop.org/releases/1.20/">https://pub.mate-desktop.org/releases/1.20/</a></li>
 </ul>
 <h3>Changelog</h3>
-<p>Here are all the gory&nbsp;details.</p>
+<p>Ecco tutti i dettagli&nbsp;raccapriccianti.</p>
 <h4>mate-desktop&nbsp;1.20.0</h4>
 <ul>
-<li>Add gsettings for window scaling&nbsp;factor</li>
-<li>drop additional checks for min GLib&nbsp;version</li>
-<li>remove &lt; gtk+-3.22 bits and bump required gtk+&nbsp;version</li>
-<li>schema: drop can-change-accels key, won&#8217;t work with&nbsp;<span class="caps">GTK</span>+3</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>drop <code>MateAboutDialog</code>
+<li>Aggiunto gsettings per il fattore di ridimensionamento della&nbsp;finestra</li>
+<li>eliminati alcuni controlli aggiuntivi per la versione minima di&nbsp;GLib</li>
+<li>rimosse le porzioni di codice &lt; gtk+-3.22 e spinta la versione gtk+&nbsp;richiesta</li>
+<li>schema: eliminata la chiave can-change-accels, non funzionerà con&nbsp;<span class="caps">GTK</span>+3</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>eliminato <code>MateAboutDialog</code>
 </li>
-<li>mate-about: remove remains of libunique&nbsp;references</li>
-<li>mate-about: switch&nbsp;to <code>GtkAboutDialog</code>
+<li>mate-about: rimossi le rimanenze dei riferimenti&nbsp;libunique</li>
+<li>mate-about: passaggio&nbsp;a <code>GtkAboutDialog</code>
 </li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code> functions:</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>mate-desktop-item: mate-about: avoid&nbsp;deprecated <code>gtk_show_uri</code>
+<li>mate-desktop-item: mate-about: evitata la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>mate-about: avoid&nbsp;deprecated <code>gtk_show_uri</code>
+<li>mate-about: evitata la&nbsp;deprecata  <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_n_monitors</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_n_monitors</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>Correct little imprecision&nbsp;in <code>man mate-about</code>
+<li>Corrette piccole imprecisioni&nbsp;in <code>man mate-about</code>
 </li>
-<li>Fix broken fallback cursor&nbsp;in <code>mate-colorsel.c</code>
+<li>Fissato il cursore di fallback rotto&nbsp;in <code>mate-colorsel.c</code>
 </li>
-<li>mate-colorsel: don&#8217;t use&nbsp;deprecated <code>GTK_STOCK_COLOR_PICKER</code>
+<li>mate-colorsel: non usata la&nbsp;deprecata <code>GTK_STOCK_COLOR_PICKER</code>
 </li>
-<li>Add Global Menu&nbsp;support</li>
-<li>Translations&nbsp;update</li>
+<li>Aggiunto il supporto al Global&nbsp;Menu</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-user-guide&nbsp;1.20.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>libmatekbd&nbsp;1.20.0</h4>
 <ul>
-<li>remove &lt; gtk+-3.22 bits and bump required&nbsp;gtk+</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>matekbd-status: Fix Gdk-<span class="caps">CRITICAL</span> warning on creating status bar&nbsp;icon</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>rimosse le porzioni di codice &lt; gtk+-3.22 e spinta la versione gtk+&nbsp;richiesta</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>matekbd-status: risolto il warning  Gdk-<span class="caps">CRITICAL</span> quando si crea l&#8217;icona nella barra di&nbsp;stato</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code> functions:</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>matekbd-indicator: Don&#8217;t&nbsp;expand</li>
-<li>matekbd-indicator: don&#8217;t use&nbsp;deprecated <code>gdk_cairo_create</code>
+<li>matekbd-indicator: non&nbsp;espandere</li>
+<li>matekbd-indicator: non utilizzata la&nbsp;deprecata <code>gdk_cairo_create</code>
 </li>
-<li>Fix for strange GtkIconInfo&nbsp;behaviour</li>
-<li>matekbd-indicator: don&#8217;t use deprecated&nbsp;GtkAlignment</li>
-<li>keyboard-drawing: set css name&nbsp;matekbd-keyboard-drawing</li>
-<li>Slightly increase the font size for the key&nbsp;labels</li>
-<li>matekbd-keyboard-drawing: Don&#8217;t unset double&nbsp;buffering</li>
-<li>matekbd-keyboard-drawing:&nbsp;Handle <code>XkbGetKeyboard()</code> failing</li>
-<li>matekbd-keyboard-drawing: Prevent gtk+ keynav from taking focus&nbsp;away</li>
-<li>fix some introspection&nbsp;warnings</li>
-<li>show-layout.ui: don&#8217;t use deprecated&nbsp;widgets</li>
-<li><span class="caps">UI</span>: expand kbdraw&nbsp;vertical</li>
-<li>Translations&nbsp;update</li>
+<li>Corretto lo strano comportamento di&nbsp;GtkIconInfo</li>
+<li>matekbd-indicator: non utilizzata la deprecata&nbsp;GtkAlignment</li>
+<li>keyboard-drawing: impostato il nome css&nbsp;matekbd-keyboard-drawing</li>
+<li>Leggermente incrementata la dimensione del carattere per le etichette dei&nbsp;tasti</li>
+<li>matekbd-keyboard-drawing: non disabilitare il double&nbsp;buffering</li>
+<li>matekbd-keyboard-drawing: gestita la&nbsp;funzione <code>XkbGetKeyboard()</code> che&nbsp;fallisce</li>
+<li>matekbd-keyboard-drawing: Evitato che keynav perda il&nbsp;focus</li>
+<li>Risolti alcuni warning di&nbsp;introspezione</li>
+<li>show-layout.ui: non utilizzati widget&nbsp;deprecati</li>
+<li><span class="caps">UI</span>: espansa la kbddraw&nbsp;vertical</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>libmateweather&nbsp;1.20.0</h4>
 <ul>
-<li>locations: Add Radom,&nbsp;Poland</li>
-<li>Locations: add Zhukovsky airport (Moscow,&nbsp;Russia)</li>
-<li>Locations: fix Sheremetyevo airport name (Moscow,&nbsp;Russia)</li>
-<li>Add timeout, actully invalidate session in&nbsp;weather_info_abort</li>
-<li>Start reducing weather spam by creating intial cut&nbsp;of <code>weather_info_equal()</code>
-    function that will help apps determine if two WeatherInfo instances are &#8216;the same&#8217;
-    enough to not bother with a&nbsp;notification</li>
-<li>remove warning on unused bsun by actually testing&nbsp;value</li>
-<li>Fix <code>soup_session_async_new()</code> deprecation&nbsp;warning</li>
-<li>Add missing Polish cities with&nbsp;airports</li>
-<li>Fix Novosibirsk&nbsp;timezone</li>
-<li>Add Ceiba in Puerto&nbsp;Rico</li>
-<li>doc: drop ancient MateConf references and some other&nbsp;stuff</li>
-<li>Update cities of&nbsp;Kazakhstan.</li>
-<li>actually check&nbsp;the <code>$GIO_REQUIRED</code> variable&#8217;s&nbsp;value</li>
-<li>Translations&nbsp;update</li>
+<li>Località: aggiunta Radom,&nbsp;Polonia</li>
+<li>Località: aggiunto l&#8217;aeroporto Zhukovsky (Mosca,&nbsp;Russia)</li>
+<li>Locations: corretto il nome dell&#8217;aeroporto Sheremetyevo (Mosca,&nbsp;Russia)</li>
+<li>Aggiunto il timeout, invalidare effettivamente la sessione in&nbsp;weather_info_abort</li>
+<li>Iniziato a ridurre lo spam meteo creando un taglio iniziale della&nbsp;funzione <code>weather_info_equal()</code>
+    che aiuterà le app a determinare se due istanze WeatherInfo sono &#8216;la stessa&#8217;
+    da non preoccupare con una&nbsp;notifica</li>
+<li>Rimosso il warning su bsun non utilizzato controllandone il&nbsp;valore</li>
+<li>Risolto il warnng di&nbsp;deprecazione <code>soup_session_async_new()</code>
+</li>
+<li>Aggiunte le città mancanti Polacche con gli&nbsp;aeroporti</li>
+<li>Corretta la fascia oraria di&nbsp;Novosibirsk</li>
+<li>Aggiunto Ceiba in Porto&nbsp;Rico</li>
+<li>doc: eliminati i vecchi riferimenti a MateConf e qualche altro&nbsp;aggiustamento</li>
+<li>Aggiornate le città del&nbsp;Kazakistan.</li>
+<li>controllato il valore della&nbsp;variabile <code>$GIO_REQUIRED</code>
+</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-icon-theme&nbsp;1.20.0</h4>
 <ul>
-<li>Replace same broken&nbsp;flags</li>
-<li>Translations&nbsp;update</li>
+<li>Sostituite alcune flag&nbsp;rotte</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>caja&nbsp;1.20.0</h4>
 <ul>
-<li>drop <span class="caps">CSS</span> for <span class="caps">GTK</span>+&nbsp;3.14</li>
-<li>Fix tasklist icon change when opening new&nbsp;tab</li>
-<li>Include local files with &#8220;&#8221; instead of&nbsp;&lt;&gt;</li>
+<li>eliminato il <span class="caps">CSS</span> per <span class="caps">GTK</span>+&nbsp;3.14</li>
+<li>Risolto il cambio dell&#8217;icona di tasklist quando si apre una nuova&nbsp;scheda</li>
+<li>Inclusi i file locali con &#8220;&#8221; invece che con&nbsp;&lt;&gt;</li>
 <li>
-<code>search_dispose</code> and <code>search_finilize</code> can&#8217;t be run after search&nbsp;finished</li>
-<li>add missing window icon to About dialog for&nbsp;extensions</li>
-<li>move libegg to the top srcdir and drop some&nbsp;leftovers</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>caja-places-sidebar: fix refusal to unmount when sidebar is&nbsp;wide</li>
-<li>caja-places-sidebar: disable overlay&nbsp;scrollbar</li>
-<li>Fix: wrong behavior with key &#8220;enter&#8221; while renaming files in list&nbsp;view</li>
-<li>open folder in new window: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>w</kbd>
+<code>search_dispose</code> e <code>search_finilize</code> non possono essere eseguiti dopo la fine di una&nbsp;ricerca</li>
+<li>Aggiunta l&#8217;icona della finestra mancante alla finestra di dialogo Informazioni delle&nbsp;estensioni</li>
+<li>spostato libegg in cima a srcdir ed eliminati alcune&nbsp;rimanenze</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>caja-places-sidebar: risolto il problema del rifiuto all&#8217;unmount quando la barra laterale è&nbsp;ampia</li>
+<li>caja-places-sidebar: disabilitata la barra di scorrimento di&nbsp;sovrimpressione</li>
+<li>Risolto: cattivo comportamento col tasto &#8220;invio&#8221; quando restano file nella vista ad&nbsp;elenco</li>
+<li>Aprire una cartella in una nuova finestra: <kbd>ctrl</kbd> + <kbd>shift</kbd> +<kbd>w</kbd>
 </li>
-<li>zoom-control: change zoom with mousewheel scroll over&nbsp;button</li>
-<li>View -&gt; Visible Columns: fix vertical expand of dialog&nbsp;content</li>
-<li>reword Size on Disk column description a&nbsp;bit</li>
-<li>Fix: wrong <kbd>shift</kbd> + <kbd>del</kbd> behavior while renaming&nbsp;files</li>
-<li>icon-dnd: remove hardcoded highlight&nbsp;frame</li>
-<li>Fix: high cpu while loading background&nbsp;image</li>
-<li>list view: fix large icon margins on zooming&nbsp;out</li>
-<li>make sure scaling the desktop wallpaper works in all&nbsp;monitors</li>
-<li>remove weird +x attribute from a source&nbsp;file</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>Adds columns&nbsp;autosizing</li>
-<li>Refresh all rows on zoom&nbsp;change</li>
-<li>Forces widget redraw on&nbsp;zoom</li>
-<li>pathbar: enable mousewheel scrolling like it was with&nbsp;<span class="caps">GTK</span>+2</li>
-<li>libcaja-private: remove wrong link from internal&nbsp;<span class="caps">README</span></li>
-<li>private: Ensure we allow launching .desktop files from trusted&nbsp;symlinks</li>
-<li>Fix: Scaling the desktop wallpaper doesn&#8217;t&nbsp;work</li>
-<li>open-with-dialog: set max-char-width for a&nbsp;label</li>
-<li>Fix &#8220;Open With&#8221; dialog &#8220;Open&#8221; button&#8217;s text&nbsp;misaligned</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_width/height</code>
+<li>zoom-control: è possibile modificare l&#8217;ingrandimento con la rotellina del mouse sul&nbsp;pulsante</li>
+<li>Visualizza -&gt; Colonne visibili: risolta l&#8217;espansione verticale del contenuto della finestra di&nbsp;dialogo</li>
+<li>Riformulata un po&#8217; la descrizione della colonna Dimensione su&nbsp;Disco</li>
+<li>Risolto: il comportamento sbagliato di <kbd>shift</kbd> + <kbd>canc</kbd> mentre rimangono dei&nbsp;file</li>
+<li>icon.dnd: rimossa la cornice di evidenziazione&nbsp;hardcoded</li>
+<li>Risolto: alto utilizzo del cpu quando si carica l&#8217;immagine di&nbsp;sfondo</li>
+<li>vista ad elenco: risolto il problema dei margini delle icone larghe quando si esegue lo zoom&nbsp;out</li>
+<li>Fatto in modo che il ridimensionamento dello sfondo del desktop funzioni in tutti i&nbsp;monitor</li>
+<li>rimosso l&#8217;attributo bizzarro +x da un file&nbsp;sorgente</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code> functions:</li>
+<li>Aggiunte colonne&nbsp;autoridimensionanti</li>
+<li>Fatto in modo che tutte le colonne alla variazione dello zoom si&nbsp;aggiornino</li>
+<li>Forzato il ridisegnamento dei widget grafici quando si&nbsp;zooma</li>
+<li>barra del percorso: abilitato lo scorrimento con la rotellina del mouse come avveniva con&nbsp;<span class="caps">GTK</span>+2</li>
+<li>libcaja-private: rimosso il collegamento errato dal <span class="caps">README</span>&nbsp;interno</li>
+<li>privato: Assicurarci che si consenta di lanciare i file .desktop da symlink&nbsp;fidati</li>
+<li>Risolto: il ridimensionamento dello sfondo del desktop non&nbsp;funziona</li>
+<li>open-with-dialog: impostato max-char-width per una&nbsp;etichetta</li>
+<li>Risolto il problema con la finestra di dialogo &#8220;Apri con&#8221; il testo del pulsante non era ben&nbsp;allineato</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>libegg: replace&nbsp;deprecated <code>gtk_drag_begin</code>
+<li>libegg: sostituita la&nbsp;deprecata <code>gtk_drag_begin</code>
 </li>
-<li>eggsmclient: fix a build warning because of&nbsp;-Wcomment</li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>eggsmclient: risolto un warning in compilazione a causa di&nbsp;-Wcomment</li>
+<li>Non più utilizzata la&nbsp;dedprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>Fix browsing/autorun media on&nbsp;insertion</li>
-<li>fix vertical Compact View scrolling&nbsp;in <code>fm_icon_view_scroll_event()</code>
+<li>Risolto l&#8217;esplorazione/autorun di un dispositivo al suo&nbsp;inserimento</li>
+<li>risolto lo scorrimento verticale nella Vista compatta&nbsp;in <code>fm_icon_view_scroll_event()</code>
 </li>
-<li>property-browser: add style class frame to&nbsp;scrolledwindows&#8221;</li>
-<li>Fix off-by-one error&nbsp;in <code>caja-pathbar.c</code>
+<li>property-browser: aggiunta una classe di stile cornice a&nbsp;scrolledwindows</li>
+<li>Risolto l&#8217;errore off-by-one&nbsp;in <code>caja-pathbar.c</code>
 </li>
-<li>added feature: present the size on disk of files as we present the size of the&nbsp;file.</li>
-<li>restore DBus interface&nbsp;initialization</li>
-<li><span class="caps">CSS</span>: Load a different caja-desktop.css with <span class="caps">GTK</span>&nbsp;3.14</li>
-<li>Use gtk+-3 bookmarks&nbsp;location</li>
-<li>Open With dialog: force icon&nbsp;size</li>
-<li>file:&nbsp;make <code>caja_file_get_gicon</code> return custom icons&nbsp;too</li>
-<li>Expand grid width to&nbsp;canvas</li>
-<li>use <code>atk_component_get_extents</code> instead&nbsp;of <code>atk_component_get_position</code>
+<li>funzionalità aggiunta: presentare la dimensione su disco dei file quando si mostra la dimensione del&nbsp;file</li>
+<li>ripristinata l&#8217;inizializzazione dell&#8217;interfaccia&nbsp;DBus</li>
+<li><span class="caps">CSS</span>: caricare un caja-desktop.css differente con <span class="caps">GTK</span>&nbsp;3.14</li>
+<li>Utilizzo della posizione dei bookmark&nbsp;gtk+-3</li>
+<li>finestra Apri con: forzata la dimensione&nbsp;dell&#8217;icona</li>
+<li>file: fatto in kmodo&nbsp;che <code>caja_file_get_gicon</code> restituisca anche le icone&nbsp;personalizate</li>
+<li>Espansa l&#8217;ampiezza della grigia al&nbsp;canvas</li>
+<li>utilizzo&nbsp;di <code>atk_component_get_extents</code> invece&nbsp;di <code>atk_component_get_position</code>
 </li>
-<li>don&#8217;t parse .hidden files manually - <span class="caps">GIO</span> does it since&nbsp;2.36</li>
-<li>don&#8217;t check&nbsp;nonexistent <code>MATE22_USER_DIR</code> env&nbsp;var</li>
-<li>don&#8217;t check&nbsp;nonexistent <code>~/.mate2</code> directory</li>
-<li>eel-accessibility: remove unused code and outdated&nbsp;comments</li>
-<li>show correct right-click menu after making&nbsp;selection</li>
-<li>eel: Queue resizes on the canvas as elements change&nbsp;visibility</li>
-<li>Add size_request to IconContainer to work around unncecessary&nbsp;relayouting</li>
-<li>IconCanvasItem: fix overlapping filenames on&nbsp;hover</li>
-<li>eel: remove unneeded #include with&nbsp;condition</li>
-<li>eel: remove some unused code from&nbsp;eel-gdk-pixbuf-extensions</li>
-<li>fix build warning (no const needed&nbsp;there)</li>
-<li>fix build with gcc 4.9.2 (looks like it&#8217;s in c89 mode by&nbsp;default)</li>
-<li>search: added tag support&nbsp;(xattr::xdg.tags).</li>
-<li>Fix broken rename in list view by selectin file name&nbsp;cell.</li>
-<li>property-browser: add style class frame to&nbsp;scrolledwindows</li>
-<li>caja-application.c: Fix uninitialized&nbsp;variable</li>
-<li>Translations&nbsp;update</li>
+<li>non analizzare manualmente i file .hidden - <span class="caps">GIO</span> lo fa sin dalla&nbsp;2.36</li>
+<li>Non si controlla più la variabile di&nbsp;ambiente <code>MATE22_USER_DIR</code>
+</li>
+<li>Non si controlla più l&#8217;inesistente&nbsp;directory <code>~/.mate2</code>
+</li>
+<li>eel-accessibility: rimossi il codice inutilizzato e i commenti&nbsp;obsoleti</li>
+<li>mostrato il corretto menù di tasto destro dopo aver effettuato una&nbsp;selezione</li>
+<li>eel: La Coda si ridimensiona sulla canvas quando gli elementi cambiano&nbsp;visibilità</li>
+<li>Aggiunto size_request a IconContainer per gestire il riposizionamento non&nbsp;necessario.</li>
+<li>IconCanvasItem: risolta la sovrapposizione dei filename al passaggio del&nbsp;mouse</li>
+<li>eel: rimosso l&#8217;#include con condizione non&nbsp;necessario</li>
+<li>eel: rimosso del codice non utilizzato da&nbsp;eel-gdk-pixbuf-extensions</li>
+<li>risolto un warning di compilazione (lì non è necessario const&nbsp;)</li>
+<li>risolta la compilazione con gcc 4.9.2 (sembra che sia in modalità c89 per&nbsp;default)</li>
+<li>ricerca: aggiunto il supporto dei tag&nbsp;(xattr::xdg.tags).</li>
+<li>Risolta la rinominazione dei file nella vista ad elenco selezionando la cella del nome del&nbsp;file. </li>
+<li>property-browser: aggiunta una classe di stile cornice a&nbsp;scrolledwindows</li>
+<li>caja-application.c: c&#8217;era una variabile non&nbsp;inizializzata</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-polkit&nbsp;1.20.0</h4>
 <ul>
-<li>drop polkitgtkmate library and its&nbsp;docs</li>
-<li>Fix reshow/hide icon with&nbsp;statusnotifier</li>
-<li>status-icon: don&#8217;t use stock&nbsp;icons</li>
-<li>polkitmateauthenticationdialog: avoid deprecated&nbsp;GtkAlignment</li>
-<li>polkitmateauthenticationdialog: replace a GTK_STOCK&nbsp;deprecation</li>
-<li>Translations&nbsp;update</li>
+<li>eliminata la libreria polkitgtkmate e la sua&nbsp;documentazione</li>
+<li>Risolto mostra/nascondi l&#8217;icona con&nbsp;statusnotifier</li>
+<li>status-icons: non utilizzare le icone di&nbsp;stock</li>
+<li>polkitmateauthenticationdialog: evitato il deprecato&nbsp;GtkAlignment</li>
+<li>polkitmateauthenticationdialog: sostituita una deprecazione&nbsp;GTK_STOCK</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>marco&nbsp;1.20.0</h4>
 <ul>
-<li>build: drop unneeded pangoxft&nbsp;requirement</li>
-<li>Small bugfix for the move_to_X&nbsp;keybinds</li>
-<li>Bugfix for monitors of different&nbsp;sizes</li>
-<li>Restructured monitor keybinds and&nbsp;adjust <code>save_rect</code>
+<li>compilazione: eliminata la richiesta non necessaria&nbsp;pangoxft</li>
+<li>Piccolo bugfix per move_to_X&nbsp;keybinds</li>
+<li>Eliminato un bug per monitor di diverse&nbsp;dimensioni</li>
+<li>Ristrutturate le associazioni di tasti del monitor ed&nbsp;aggiustato <code>save_rect</code>
 </li>
-<li>Implemented simple shourtcuts to move window to another&nbsp;monitor</li>
-<li>schema: fix&nbsp;typos</li>
-<li>compositor: don&#8217;t try to paint window that is not&nbsp;viewable</li>
-<li>Fix wrong result&nbsp;in <code>meta_window_titlebar_is_onscreen()</code> for windows without a&nbsp;frame</li>
-<li>Add support for&nbsp;gtk3 <code>_GTK_SHOW_WINDOW_MENU</code> event</li>
-<li>More elegant solution for handling new move-to-workspace&nbsp;keybinds</li>
-<li>Implemented a setting to disable top&nbsp;tiling</li>
-<li>Implemented tabpopup when moving window to different&nbsp;workspace</li>
-<li>keybindings.c: Fix build&nbsp;warning:</li>
-<li>Reset tile_resized to false when&nbsp;fullscreening</li>
-<li>Fixes windows not going&nbsp;to <code>save_rect</code> when&nbsp;unmaximimizing</li>
-<li>Allow horizontal and vertical resizing when corner&nbsp;tiled</li>
-<li>Fixes window getting reset to saved_rect when untiling from&nbsp;corner</li>
-<li>Added keybindings for corner&nbsp;tiling</li>
-<li>Implemented simple corner tiling by mouse&nbsp;drag</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li><span class="caps">XFIXES</span> regions are leaked during&nbsp;paint_windows</li>
-<li>Add stricter logic for running without XPresent&nbsp;support</li>
-<li>Make XPresent&nbsp;optional</li>
-<li>Add in some changes from&nbsp;xfwm4</li>
-<li>Cancel present_pending flag when erroring&nbsp;out</li>
-<li>XPresent extension&nbsp;support</li>
-<li>Store a window flag when user resizes from&nbsp;tiled</li>
-<li>Allow tiled windows to be resized&nbsp;horizontally</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_width/height</code>
+<li>Implementata una sorciatoia da tastiera per spostare la finestra su un altro&nbsp;monitor</li>
+<li>schema: eliminato un errore di&nbsp;battitura</li>
+<li>compositor: non disegna più una finestra che non è&nbsp;visibile</li>
+<li>risolto un risultato sbagliato&nbsp;in <code>meta_window_titlebar_is_onscreen()</code> per le finestre senza&nbsp;cornice</li>
+<li>Aggiunto il supporto per l&#8217;evento&nbsp;gtk3 <code>_GTK_SHOW_WINDOW_MENU</code> </li>
+<li>Elaborata una soluzione più elegante per gestire le nuove associazioni di tasti per&nbsp;move-to-workspace</li>
+<li>Implementata una impostazione per disabilitare l&#8217;affiancamento&nbsp;verticale</li>
+<li>Implementato un tabpopup quando si muove una finestra in spazi di lavoro&nbsp;differenti</li>
+<li>keybindings.c: Risolto un warning di&nbsp;compilazione:</li>
+<li>Resettare tile_rsized a falso quando si è a schermo&nbsp;intero</li>
+<li>Risolte le finestre che non vanno&nbsp;a <code>save_rect</code> quando si&nbsp;demassimizzano</li>
+<li>Consentito il ridimensionamento orizzontale e verticale quando si utilizza l&#8217;affiancamento&nbsp;angolare</li>
+<li>Risolto il problema della finestra che viene reimpostata a saved_rect quando si esce dall&#8217;affiancamento&nbsp;angolare</li>
+<li>Aggiunte associazione di tasti per l&#8217;affiancamento agli&nbsp;angoli</li>
+<li>Implementato l&#8217;affiancamento agli angoli con il trascinamento del&nbsp;mouse</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>Le regioni <span class="caps">XFIXES</span> trapelano durante la fase&nbsp;paint_windows</li>
+<li>Aggiunta una logica più stringente per l&#8217;esecuzione senza il supporto di&nbsp;XPresent</li>
+<li>Reso XPresent&nbsp;opzionale</li>
+<li>aggiunti alcuni cambiamenti da&nbsp;xfwm4</li>
+<li>Annullato il flag present_pending in caso di erroring&nbsp;out</li>
+<li>Supporto all&#8217;estensione&nbsp;XPresent</li>
+<li>Memorizzato un flag quando l&#8217;utente ridimensiona&nbsp;dall&#8217;affiancamento</li>
+<li>Consentito il ridimensionamento orizzontale delle finestre&nbsp;affiancate</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_width/height</code>
 </li>
-<li>display: don&#8217;t use&nbsp;deprecated <code>GDK_DEVICE_MANAGER</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width</code>
 </li>
-<li>tools: remove marco-mag and&nbsp;marco-grayscaletools</li>
-<li>Fix synthetic keybinding/button-grab&nbsp;window</li>
-<li>Forces a window scale of 1 for the window manager, instead of using the default or user configured&nbsp;scale.</li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code>
+<li>display: non utilizzare la&nbsp;deprecata <code>GDK_DEVICE_MANAGER</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>tools: rimossi marco-mag e&nbsp;marco-grayscaletools</li>
+<li>risolto un problema nella finestra riassuntiva dei associazioni di&nbsp;tasti/button-grab</li>
+<li>Forzato il fattore di scala 1 per il gestore delle finestre anziché quello predefinito o configurato&nbsp;dall&#8217;utente.</li>
+<li>Evitata la&nbsp;deprecata <code>gdk_display_get_screen</code>
 </li>
-<li>Alt/tab - define arrow keycode + numpad&nbsp;arrows</li>
-<li>Allow use of arrows while in <kbd>Alt</kbd> + <kbd>Tab</kbd> popup</li>
-<li>ui: Fix invalid object construction in&nbsp;frames</li>
-<li><span class="caps">README</span>: fix names of GSettings&nbsp;keys</li>
-<li>keybindings: remove uppercase from &#8220;current&nbsp;workspace&#8221;</li>
-<li>Added hotkey to rename current&nbsp;workspace</li>
-<li>fix code&nbsp;deprecations</li>
-<li>Translations&nbsp;update</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
+</li>
+<li>Alt/tab - definiti i codici dei tasti freccia + frecce sul tastierino&nbsp;numerico</li>
+<li>Consentito l&#8217;utilizzo delle frecce quando si è nel popup <kbd>Alt</kbd> + <kbd>Tab</kbd>
+</li>
+<li><span class="caps">UI</span>: Risolta la costruzione dell&#8217;oggetto non valido nelle&nbsp;cornici</li>
+<li><span class="caps">README</span>: corretti i nomi delle chiavi&nbsp;GSettings</li>
+<li>associazione di tasti: rimosso il carattere maiuscolo dal &#8220;spazio di lavoro&nbsp;corrente&#8221;</li>
+<li>Aggiunti tasti chiave per rinominare lo spazio di lavoro&nbsp;corrente</li>
+<li>risolte alcune deprecazioni nel&nbsp;codice</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-settings-daemon&nbsp;1.20.0</h4>
 <ul>
-<li>HiDPI: Load xsettings during initialization&nbsp;phase</li>
-<li>Add HiDPI configuration in&nbsp;XSettings</li>
-<li>Add support for HiDPI&nbsp;displays</li>
-<li>plugins: <code>G_GNUC_UNUSED</code> in unused but needed&nbsp;variables</li>
-<li>xsettings: drop CanChangeAccels which won&#8217;t work with&nbsp;<span class="caps">GTK</span>+3</li>
-<li>msd-datetime-mechanism.c: Fix build&nbsp;warnings:</li>
-<li>msd-mpris-manager.c: Fix build&nbsp;warning:</li>
-<li>configure.ac:&nbsp;drop <code>GLIB_VERSION_MAX_ALLOWED</code>
+<li>HiDPI: Caricamento di xsettings durante la fase di&nbsp;inizializzazione</li>
+<li>Aggiunta la configurazione di HiDPI in&nbsp;XSettings</li>
+<li>Aggiunto il supporto ai monitor&nbsp;HiDPI</li>
+<li>plugin: <code>G_GNUC_UNUSED</code> messo tra le variabili inutilizzate ma&nbsp;necessarie</li>
+<li>xsettings: eliminato can-change-accels, che non funzionerà con&nbsp;<span class="caps">GTK</span>+3</li>
+<li>msd-datetime-mechanism.c: risolti i warning di&nbsp;compilazione:</li>
+<li>msd-mpris-manager.c: risolti i warning di&nbsp;compilazione:</li>
+<li>configure.ac:&nbsp;eliminato <code>GLIB_VERSION_MAX_ALLOWED</code>
 </li>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-session-manager&nbsp;1.20.0</h4>
 <ul>
-<li>gsm-manager.c: Fix build&nbsp;warning:</li>
-<li>don&#8217;t lose focus when displaying logout or shutdown&nbsp;dialog</li>
-<li>add style&nbsp;class <code>logout-dialog</code>
+<li>gsm-manager.c: risolti i warning di&nbsp;compilazione:</li>
+<li>non far perdere il focus quando si mostrano le finestre di dialogo di disconnessione o di&nbsp;arresto</li>
+<li>aggiunta la classe di&nbsp;stile <code>logout-dialog</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>Evitata a&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>non più utilizzata la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>systemd user-session needs to be updated to get all user-defined enviroment when the session&nbsp;starts.</li>
-<li>dbus needs to be updated to get all user-defined environment when the session&nbsp;starts.</li>
-<li>Translations&nbsp;update</li>
+<li>systemd user-session è stato aggiornato per ottenere tutti gli ambienti definiti dall&#8217;utente all&#8217;avvio della&nbsp;sessione.</li>
+<li>dbus è stato aggiornato per ottenere tutti gli ambienti definiti dall&#8217;utente all&#8217;avvio della&nbsp;sessione.</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-menus&nbsp;1.20.0</h4>
 <ul>
-<li>bump gio version to&nbsp;2.50.0</li>
-<li>make mate-applications-merged&nbsp;symlink</li>
-<li>Translations&nbsp;update</li>
+<li>spinto gio alla versione&nbsp;2.50.0</li>
+<li>Fatto il collegamento simbolico&nbsp;mate-applications-merged</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-panel&nbsp;1.20.0</h4>
 <ul>
-<li>Support panel auto-scaling for HiDPI&nbsp;displays</li>
-<li>bump minimum required libwnck version to&nbsp;3.4.6</li>
-<li>status-notifier: don&#8217;t crash if tooltip has wrong&nbsp;type</li>
-<li>status-notifier: don&#8217;t crash if menu layout has wrong&nbsp;type</li>
-<li>Fix rendering of radio buttons in status&nbsp;notifier</li>
-<li>panel-run-dialog: fix segfault when program list is&nbsp;enabled</li>
-<li>get focus when displaying &#8220;applet broken&#8221;&nbsp;dialog</li>
-<li>Update workspace switcher properties&nbsp;dialog</li>
-<li>simplify some&nbsp;code</li>
-<li>rework the process of cancelling the background change&nbsp;operation</li>
-<li>status-notifier: properly handle the <span class="caps">NULL</span> case for&nbsp;items</li>
-<li>status-notifier: handle wrong-size icons called by&nbsp;path</li>
-<li>status-notifier: load icons specified by&nbsp;path</li>
-<li>Fix failures to load icons when the application calls for a path and not an icon&nbsp;name</li>
-<li>Fix build&nbsp;warning: <code>toplevel_configure_event</code> defined but not&nbsp;used</li>
-<li>Fix build&nbsp;warning: <code>GLIB_VERSION_MIN_REQUIRED</code> redefined</li>
-<li>status-notifier: fix failure to show icon for missing&nbsp;icon</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>panel-toplevel: Remove pointer boundary check&nbsp;in <code>panel_toplevel_queue_auto_hide()</code>
+<li>Supporto per l&#8217;auto ridimensionamento del pannello per display&nbsp;HiDPI</li>
+<li>innalzato il requisito minimo per libwnck a&nbsp;3.4.6</li>
+<li>status-notifier: non va in crash quando il tooltip ha il tipo&nbsp;sbagliato</li>
+<li>status-notifier: non va in crash quando il layout del menù ha il tipo&nbsp;sbagliato</li>
+<li>Risolto il rendering dei pulsanti radio nel notificatore di&nbsp;stato</li>
+<li>panel-run-dialog: risolto un segfault quando l&#8217;elenco dei programmi è&nbsp;abilitato</li>
+<li>ottiene il focus quando viene mostrata la finestra di dialogo &#8220;applet&nbsp;rotta&#8221;</li>
+<li>Aggiornata la finestra di dialogo delle proprietà del selettore degli spazi di&nbsp;lavoro</li>
+<li>semplificato del&nbsp;codice</li>
+<li>rielaborato il processo di cancellare l&#8217;operazione per il cambio dello&nbsp;sfondo</li>
+<li>status-notifier: gestito corrttamente il caso <span class="caps">NULL</span> per gli&nbsp;elementi</li>
+<li>status-notifier: gestita le icone dalle dimensioni errate chiamate per&nbsp;percorso</li>
+<li>status-notifier: caricamento delle icone specificate dal&nbsp;percorso</li>
+<li>Risolti i problemi di caricamento delle icone quando l&#8217;applicazione chiama un percorso e non un nome di&nbsp;icona</li>
+<li>Risolto un warning di&nbsp;compilazione: <code>toplevel_configure_event</code> definito ma non&nbsp;utilizzato</li>
+<li>Risolto un warning di compilazione:&nbsp;ridefinito <code>GLIB_VERSION_MIN_REQUIRED</code> </li>
+<li>status-notifier: risolto il problema di mostrare l&#8217;icona per un&#8217;icona&nbsp;mancante</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>panel-toplevel: rimosso il controllo dei confini del puntatore&nbsp;in <code>panel_toplevel_queue_auto_hide()</code>
 </li>
-<li>remove ancient gnome-panel&nbsp;leftovers</li>
-<li>Keep the right icons on bottom still displaying right when the resolution change&nbsp;larger</li>
-<li>wncklet: disconnect signals by data on&nbsp;destroy</li>
-<li>clock: disconnect one more signal handler on&nbsp;destroy</li>
-<li>panel-applet-frame-dbus-c: comment out newly unused&nbsp;variable</li>
-<li>Clock: don&#8217;t check variables that can never be &lt; 0 for &lt;&nbsp;0</li>
-<li>panel-applet-frame-dbus.c: comment out never used code&nbsp;block</li>
-<li>panel-toplevel: remove duplicate break&nbsp;statement</li>
-<li>status-notifier: remove duplicate check found by&nbsp;cppcheck</li>
-<li>status-notifier: hide mate-polkit icon if&nbsp;passive</li>
-<li>Apply position fix on popup to <span class="caps">GTK</span> 3.20 and&nbsp;earlier</li>
-<li><span class="caps">GTK</span> 3.22 status notifier: reposition menu when size&nbsp;changes</li>
-<li><span class="caps">GTK</span> 3.22/status-notifer Fix menu position if size changed since last&nbsp;shown</li>
-<li>Stop panel collapse left on adding certain out-of-process&nbsp;applets</li>
-<li>make file/folder launchers work&nbsp;again</li>
-<li>panel-context-menu: Add confirmation dialog to panel reset&nbsp;option</li>
-<li>Add option to context menu to reset the&nbsp;panel</li>
-<li>clock:disconnect signal handlers on&nbsp;destroy</li>
-<li>Fix crashes on moving/removing applets with glib 2.53.4 or&nbsp;later</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>Add a gsettings key to enable/disable <span class="caps">SNI</span>&nbsp;Support</li>
-<li>wncklet: stop segfaults, warnings on removing in-process switcher,&nbsp;window-list</li>
-<li>fish: fix adding back after&nbsp;removal</li>
-<li>Fish: stop all warnings on removing when built&nbsp;in-process</li>
-<li>Clock: fix removal warnings when in-process applet&nbsp;removed</li>
-<li>clock: stop segfault on removing applet when built&nbsp;in-process</li>
-<li>libmate-panel-applet: fix typos in id-&gt;factory_id&nbsp;rename</li>
-<li>libmate-panel-applet: Only&nbsp;declare <code>_panel_applet_shlib_factory()</code> when&nbsp;needed</li>
-<li>libmate-panel-applet: fix error in unregistering dbus&nbsp;object</li>
-<li>libmate-panel-applet: fix build&nbsp;warning</li>
-<li>libmate-panel-applet: fix&nbsp;introspection</li>
-<li>libmate-panel-applet: unown bus name and unregister dbus&nbsp;object</li>
-<li>libmate-panel-applet <span class="caps">GTK</span> 3.14/3.16: fix custom bg w&nbsp;alpha</li>
-<li>libmate-panel-applet: include dummy variable in factory for certian&nbsp;applets</li>
-<li>libmate-panel-applet: fix bg rendering for in-process&nbsp;applets</li>
-<li>libpanel-applet/panel-applet.h: Rename id&nbsp;to <code>factory_id</code> for&nbsp;factory</li>
-<li>limatepanel-applet: add&nbsp;panel-applet-private.h</li>
-<li>don&#8217;t use GtkPlug/GtkSocket for in process&nbsp;applets</li>
-<li>make it possible to get applet&nbsp;widget</li>
-<li>libpanel-applet:&nbsp;add <code>panel_applet_factory_get_applet_widget</code>
+<li>rimossi vecchi residui di&nbsp;gnome-panel</li>
+<li>mantenute le icone corrette sul fondo quando la risoluzione diventa più&nbsp;larga</li>
+<li>wncklet: scollegare i segnali dai dati alla&nbsp;distruzione</li>
+<li>clock: disconnettere uno o più gestori di segnali alla&nbsp;distruzione</li>
+<li>panel-applet-frame-dbus-c: commentate la nuova variabile non&nbsp;utilizzata</li>
+<li>Clock: non verificare che siano &lt; 0 quelle variabili che non possono mai essere &lt;&nbsp;0</li>
+<li>panel-applet-frame-dbus.c: commentato un blocco di codice mai&nbsp;utilizzato</li>
+<li>panel-toplevel: rimosso blocco break&nbsp;duplicato</li>
+<li>status-notifier: rimosso controllo duplicato trovato da&nbsp;cppcheck</li>
+<li>status-notifier: nascondere l&#8217;icona mate-polkit se è&nbsp;passivo</li>
+<li>Applicata una correzione sulla posizione del popup per <span class="caps">GTK</span> 3.20 e&nbsp;precedenti</li>
+<li><span class="caps">GTK</span> 3.22 status notifier: riposizionato il menù quando cambia la&nbsp;dimensione</li>
+<li><span class="caps">GTK</span> 3.22/status-notifer: Corretta la posizione del menù se la dimensione è cambiata dall&#8217;ultima volta che è stato&nbsp;mostrato</li>
+<li>Fermato il collasso verso sinistra all&#8217;aggiunta di certe applet&nbsp;fuori-processo</li>
+<li>resi nuovamnte funzionanti i lanciatori di&nbsp;file/cartelle</li>
+<li>panel-context-menu: Aggiunto un dialogo di conferma all&#8217;opzione di reset del&nbsp;pannello</li>
+<li>Aggiunta l&#8217;opzione di resettare il pannello al menù&nbsp;contestuale</li>
+<li>clock: disconnettere i gestori di segnali alla&nbsp;distruzione</li>
+<li>Risolto un crash quando si spostano/rimuovono le applet con glib 2.53.4 o&nbsp;successiva</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>libpanel-applet: return process type and applet&nbsp;uid</li>
-<li>libpanel-applet: store factories in hash&nbsp;table</li>
-<li>libpanel-applet: delay GtkPlug&nbsp;creation</li>
-<li>libpanel-applet: add process type to private&nbsp;data</li>
-<li>libpanel-applet:&nbsp;Remove <code>out_process</code> from <code>panel_applet_factory_main()</code>
+<li>Aggiunta una ciave gsettings per abilitare/disabilitare il Supporto&nbsp;<span class="caps">SNI</span></li>
+<li>wncklet: eliminati i segfault e i warning sulla rimozione dello switcher in esecuzione,&nbsp;window-list</li>
+<li>fish: risolta l&#8217;aggiunta dello sfondo dopo la&nbsp;rimozione</li>
+<li>Fish: eliminati tutti i warning sulla rimozione quando viene costruito in&nbsp;esecuzione</li>
+<li>clock:  corretti i warning di rimozione quando una applet in-esecuzione viene&nbsp;rimossa</li>
+<li>clock: eliminato il segfault rimuovendo una applet quando viene costruita in&nbsp;esecuzione</li>
+<li>libmate-panel-applet: corretti degli errori di battitura nel rinominare&nbsp;id-&gt;factory_id</li>
+<li>libmate-panel-applet:&nbsp;dichiarare <code>_panel_applet_shlib_factory()</code> solo quando&nbsp;occorre</li>
+<li>libmate-panel-applet: corretto un errore nel deregistrare  l&#8217;oggetto&nbsp;dbus</li>
+<li>libmate-panel-applet: corretto n warning di&nbsp;compilazione</li>
+<li>libmate-panel-applet: corretta&nbsp;l&#8217;introspezione</li>
+<li>libmate-panel-applet: nome del bus non posseduto deregistrazione dell&#8217;oggetto&nbsp;dbus</li>
+<li>libmate-panel-applet <span class="caps">GTK</span> 3.14/3.16 risolto lo sfondo personalizzato con&nbsp;alpha</li>
+<li>libmate-panel-applet: aggiunta una variabile dummy in factory per certe&nbsp;applet</li>
+<li>libmate-panel-applet: risolta la renderizzazione dello sfondo per le applet in&nbsp;esecuzione</li>
+<li>libpanel-applet/panel-applet.h: rinominato  id&nbsp;in <code>factory_id</code> per&nbsp;factory</li>
+<li>limatepanel-applet: aggiunto&nbsp;panel-applet-private.h</li>
+<li>non più utilizzata GtkPlug/GtkSocket per le applet in&nbsp;esecuzione</li>
+<li>reso possibile ottenere il widget&nbsp;dell&#8217;applet</li>
+<li>libpanel-applet:&nbsp;aggiunto <code>panel_applet_factory_get_applet_widget</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>libpanel-applet: ritornato il tipo di processo e l&#8217;uid&nbsp;dell&#8217;applet</li>
+<li>libpanel-applet: memorizzate le factory in&nbsp;hash-table</li>
+<li>libpanel-applet: ritardata la creazione di&nbsp;GtkPlug</li>
+<li>libpanel-applet: aggiunto il tipo di processo ai dati&nbsp;privati</li>
+<li>libpanel-applet:&nbsp;rimosso <code>out_process</code> da <code>panel_applet_factory_main()</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_n_monitors</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>fish: fix applet opening as thin line when built&nbsp;in-process</li>
-<li>Forces a window scale of 1 for the panel, instead of using the default or user configured&nbsp;scale.</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_n_monitors</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code>
+<li>fish: risolta l&#8217;apertura come linea sottile quando viene costruito in&nbsp;processo</li>
+<li>Forzato il fattore di scala 1 per il gestore delle finestre anziché quello predefinito o configurato&nbsp;dall&#8217;utente.</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>Evitata la&nbsp;deprecata <code>gdk_display_get_screen</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>fix applet crashes on transparent user-set panel&nbsp;bg</li>
-<li>system tray: fix hidden icons on image/transparent color&nbsp;<span class="caps">BG</span></li>
-<li>Fix <span class="caps">GTK</span> theme image bg support on vertical&nbsp;panel</li>
-<li>Make panel image background in <span class="caps">GTK</span> theme work&nbsp;again</li>
-<li>clock: fix hovering over timezone text, causes panel to scale beyond screen&nbsp;limit</li>
-<li><span class="caps">GTK</span> 3.18+ fix transparent default panel&nbsp;bg</li>
-<li>menu: restore focus after drag-n-dropping menuitem&nbsp;outside</li>
-<li>menu: restore focus after closing popup menu of a&nbsp;menuitem</li>
-<li>Fix: menubar/menu-button can&#8217;t launch&nbsp;mozo</li>
-<li>menu: remove incorrect code from the popup menu of a&nbsp;menuitem</li>
-<li>status notifier: follow same menu theme as rest of&nbsp;panel</li>
-<li>fix moving applets between&nbsp;panels</li>
-<li>menu: fix crash when some .desktop file has empty Icon&nbsp;field</li>
-<li>clock: properly handle visibility of edit&nbsp;button</li>
-<li>clock: drop&nbsp;deprecated <code>gtk_size_group_set_ignore_hidden</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>clock: move GtkButton in another horizontal GtkBox&nbsp;parent</li>
-<li>clock.c: drop&nbsp;deprecated <code>gtk_size_group_set_ignore_hidden</code>
+<li>corretti i crash delle applet su sfondi del pannello trasparenti&nbsp;personalizzati</li>
+<li>system tray: corrette le icone nascoste su un colore di sfondo&nbsp;immagine/trasparente</li>
+<li>Risolto il supporto dell&#8217;immagine di sfondo del tema <span class="caps">GTK</span> sul pannello&nbsp;verticale</li>
+<li>Reso nuovamente funzionante lo sfondo dell&#8217;immagine del pannello nel tema&nbsp;<span class="caps">GTK</span></li>
+<li>clock: risolto il passaggio del mouse sopra il testo di una fascia oraria che provocava la scalatura del pannello oltre i limiti dello&nbsp;schermo</li>
+<li><span class="caps">GTK</span> 3.18+ risolto lo sfondo del pannello trasparente di&nbsp;default</li>
+<li>menù: ripristinato il focus dopo aver trascinato con il drag and drop un oggetto del menù&nbsp;all&#8217;esterno</li>
+<li>menù: ripristinato il focus dopo aver chiuso il menù a popup di un oggetto del&nbsp;menù</li>
+<li>Risolto: la barra dei menù/pulsane del menù incapace di lanciare&nbsp;mozo</li>
+<li>menù: rimosso il codice errato dal menù a popup di un oggetto del&nbsp;menù</li>
+<li>status-notifier: segue lo stesso tema del menù come il resto del&nbsp;pannello</li>
+<li>risolto il movimento delle applet tra i&nbsp;pannelli</li>
+<li>menù: eliminato il crash quando qualche file .desktop ha un campo Icona&nbsp;vuoto</li>
+<li>clock: gestita correttamente la visibilità del pulsante&nbsp;Modifica</li>
+<li>clock: eliminata la&nbsp;deprecata <code>gtk_size_group_set_ignore_hidden</code>
 </li>
-<li>localized application&#8217;s name and&nbsp;description</li>
-<li>menu-button: disconnect from GSettings when applet is&nbsp;removed</li>
-<li>action-button: disconnect from GSettings when applet is&nbsp;removed</li>
-<li>remove a needless glib&nbsp;check</li>
-<li>status-notifier: fix crash on unknown signal&nbsp;name</li>
-<li>use <span class="caps">GTK</span>+3 bookmarks location for Places&nbsp;menu</li>
-<li>doc: remove some references to nonexistent&nbsp;stuff</li>
-<li>fix build with gcc 4.9.2 (looks like it&#8217;s in c89 mode by&nbsp;default)</li>
-<li>Run dialog: Add option to reverse history&nbsp;view</li>
-<li>Run dialog: Fix wrong history len with max size&nbsp;1</li>
-<li>Run dialog: Allow changing history&nbsp;size</li>
-<li>doc: drop ancient MateConf&nbsp;references</li>
-<li>Run dialog: Fix wrong history&nbsp;order</li>
-<li>status-notifier: Do not hide passive&nbsp;items</li>
-<li>panel-menu-bar: fix build warning and some&nbsp;spacing</li>
-<li>properly fit expanded panel to smaller screen&nbsp;size</li>
-<li>system-tray: Properly propagate orientation&nbsp;changes</li>
-<li>notification-area: Fix item&nbsp;orientation</li>
-<li>workspace switcher:&nbsp;handle <code>GDK_SCROLL_SMOOTH</code> and fix build&nbsp;warning</li>
-<li>Reenable workspace switcher&nbsp;wrapping</li>
-<li>pre-bump&nbsp;version</li>
-<li>status-notifier: Fix handling of icon-padding style&nbsp;property</li>
-<li>Simplify panel description shown when switching panels with the&nbsp;<span class="caps">WM</span></li>
-<li>status-notifier: Plug a memory&nbsp;leak</li>
-<li>remove&nbsp;deprecated <code>sys/timeb.h</code> header, as nothing uses&nbsp;it</li>
-<li>status-notifier-watcher: Allow re-registration of registered&nbsp;items</li>
-<li>setup custom&nbsp;icon</li>
-<li>status-notifier: Plug a memory&nbsp;leak</li>
-<li>notification area: Fix memory leak sorting&nbsp;items</li>
-<li>Translations&nbsp;update</li>
+<li>clock: spostato GtkButton in un altro GtkBox orizzontale&nbsp;genitore</li>
+<li>clock.c: eliminata la&nbsp;deprecata <code>gtk_size_group_set_ignore_hidden</code>
+</li>
+<li>tradotti il nome dell&#8217;applicazione e la sua&nbsp;descrizione</li>
+<li>menu-button: disconnessione da GSettings quando l&#8217;applet viene&nbsp;rimossa</li>
+<li>action-button: disconnessione da GSettings quando l&#8217;applet viene&nbsp;rimossa</li>
+<li>rimosso un controllo glib&nbsp;inutile</li>
+<li>status-notifier: risolto un crash sul nome di un segnale&nbsp;sconosciuto</li>
+<li>utilizzo dei segnalibri di <span class="caps">GTK</span>+3 per il menù&nbsp;Posizioni</li>
+<li>doc: rimossi alcuni riferimenti a materiale&nbsp;inesistente</li>
+<li>risolta la compilazione con gcc 4.9.2 (sembra che sia in modalità c89 per&nbsp;default)</li>
+<li>finestra di dialogo Esegui: Aggiunta l&#8217;opzione per invertire l&#8217;ordine dello&nbsp;storico</li>
+<li>finestra di dialogo Esegui: Risolta la lunghezza massima della cronologia. Era impostata ad&nbsp;1 </li>
+<li>finestra di dialogo Esegui: consentito di modificare la dimensione della&nbsp;cronologia</li>
+<li>doc: eliminati i vecchi riferimenti a&nbsp;MateConf</li>
+<li>finestra di dialogo Esegui: Risolto l&#8217;ordine errato della&nbsp;cronologia</li>
+<li>status-notifier: non nasconde più gli elementi&nbsp;passivi</li>
+<li>panel-menu-bar: eliminati un warning di compilazione e corretti alcuni spazi&nbsp;bianchi</li>
+<li>adattato in modo corretto il pannello esteso a dimensioni dello schermo più&nbsp;piccole</li>
+<li>system-tray: propagati correttamente i mutamenti di&nbsp;orientamento</li>
+<li>notification-area: corretto l&#8217;orientamento&nbsp;dell&#8217;elemento</li>
+<li>workspace switcher: gestione&nbsp;di <code>GDK_SCROLL_SMOOTH</code> ed eliminato un warning di&nbsp;compilazione</li>
+<li>Riattivato il wrapping dello spazio di&nbsp;lavoro</li>
+<li>versione&nbsp;pre-potenziamento</li>
+<li>status-notifier: corretta la gestione dello stile della proprietà&nbsp;icon-padding </li>
+<li>Semplificata la descrizione del pannello mostrata quando si alternano i pannelli con il Window&nbsp;Manager</li>
+<li>status-notifier: chiuso un memory&nbsp;leak</li>
+<li>rimosso&nbsp;l&#8217;header <code>sys/timeb.h</code> perchè&nbsp;inutilizzato</li>
+<li>status-notifier-watcher: consentita la ri-registrazione degli elementi&nbsp;registrati</li>
+<li>impostate le icone&nbsp;personalizzate</li>
+<li>status-notifier: chiuso un memory&nbsp;leak</li>
+<li>notification area: risolto un memory leak quando si ordinano gli&nbsp;elementi</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-backgrounds&nbsp;1.20.0</h4>
 <ul>
-<li>Drop ancient gnome&nbsp;leftovers</li>
-<li>Translations&nbsp;update</li>
+<li>Eliminati vecchi residui&nbsp;gnome</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
-<h4>mate-themes 3.22.8 to&nbsp;3.22.15</h4>
+<h4>mate-themes da 3.22.8 a&nbsp;3.22.15</h4>
 <ul>
-<li>Submarine themes: remove a box-shadow at engrampa&nbsp;toolbar</li>
-<li>submarine themes: remove padding from caja-sidebar&nbsp;treeview</li>
-<li>all themes caja: remove right-border from&nbsp;scrolledwindow.frame</li>
-<li>Menta metacity themes: remove left/right-border for maximised&nbsp;windows</li>
-<li>BlackMATE: write the border on scrollbar&nbsp;trough</li>
-<li>all themes: remove right-border from&nbsp;scrolledwindow.frame</li>
-<li>submarine themes: fix fg color of button.suggested-action in&nbsp;headerbars</li>
-<li>BlackMATE: Workaround for Yelp/Lireoffice/Firefox scrollbar&nbsp;issue</li>
-<li>Revert &#8220;Gtk+-3.20 all themes: fix redraw issue with&nbsp;yelp&#8221;</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: sliders: keep the original&nbsp;size</li>
-<li>Gtk+-3.20 submarine: reduce border radius for treeview.selected/hover in&nbsp;sidebars</li>
-<li>Gtk+-3.20 submarine: set font color for spinbutton&nbsp;entry</li>
-<li>Gtk+-3.20 submarine themes: fix a jumpin button in headerbar of&nbsp;gitg</li>
-<li>Gtk+-3.20 submarine themes: setup dnd for&nbsp;caja-icon-view</li>
-<li>Gtk+-3.20 T. themes: fix double border in mate-volume-control&nbsp;notebook</li>
-<li>Gtk+-3.20 Submarine themes: fix focus state of&nbsp;pluma-statusbar-button</li>
-<li>Gtk+-3.20 Most themes: style menuitem accelerator&nbsp;hover</li>
-<li>All themes: change syntax for loading panel-grid image for&nbsp;mate-1.20</li>
-<li>Gtk+-3.20 submarine themes: set top borderradius for .titlebar &gt;&nbsp;headerbar</li>
-<li>Gtk+-3.20 Most Themes: fix padding of primary/secondary image in&nbsp;GtkEntry</li>
-<li>Gtk+-3.20 <span class="caps">TRAD</span> themes: fix color of grey-out arrows in&nbsp;menus</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: add menuitem radio&nbsp;mixed</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span> menuitems: checkboxes and radio buttons&nbsp;redesigned</li>
-<li>Gtk+-3.20 most themes: fix GtkScale slider mouse-selection if slider is out of&nbsp;range</li>
-<li>Gtk+-3.20 all themes: fix redraw issue with&nbsp;yelp</li>
-<li>Gtk+-3.20 GreenLaguna: some menu&nbsp;fixes</li>
-<li>Gtk+-3.20 Menta themes: add transition effect for menu&nbsp;arrows</li>
-<li>Gtk+-3.20 Menta themes: drop settings for firefox&nbsp;menus</li>
-<li>Gtk+-3.20 submarine themes: drop transition effect from&nbsp;labels</li>
-<li>Add index.theme file for gtk+ High Contrast&nbsp;theme</li>
-<li>Gtk+-3.20 Most themes: setup border for clockmap in clock&nbsp;applet</li>
-<li>Gtk+-3.20 Submarine themes: some fixes for clock&nbsp;applet</li>
-<li>Gtk+-3.20 BlackMate: some panel clock&nbsp;fixes</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: caja: solid color to the notebook header&nbsp;border</li>
-<li>Gtk+-3.20 Menta themes: use a hardcoded bg color for&nbsp;tooltips</li>
-<li>BlackMATE: <span class="caps">CSD</span> apps-match noncomposited headerbar to square window&nbsp;border</li>
-<li>BlackMATE: more <span class="caps">CSD</span> app&nbsp;fixes</li>
-<li>BlackMATE fixes for <span class="caps">CSD</span>&nbsp;apps</li>
-<li>Gtk+-3.20 Menta themes: change colors for panel applet&nbsp;buttons</li>
-<li>Gtk+-3.20 Menta themes: change transition timining for menubar&nbsp;menuitem</li>
-<li>Gtk+-3.20 Menta themes: use normal menubar menuitems styling for the&nbsp;panel</li>
-<li>Gtk+-3.20 Menta themes: remove transition effect from&nbsp;menuitems</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: solid color to the notebook header&nbsp;border</li>
-<li>Gtk+-3.20 BlackMATE: fix fontcolor in url bar of google&nbsp;chrome</li>
-<li>Gtk+-3.20 BlackMATE: change menuitem accelerator font&nbsp;color</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: xfce4-terminal: solid color to the notebook header&nbsp;border</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: Remove gradient from notebook&nbsp;header</li>
-<li>cursor: add color-picker to make&nbsp;file</li>
-<li>Gtk+-3.20 Submarine themes: improve pluma&nbsp;sidebar</li>
-<li>Gtk+-3.20 submarine themes: fix fg color in pluma error&nbsp;dialogs</li>
-<li>BlackMATE: fully style noncomposited m-s-d&nbsp;<span class="caps">OSD</span></li>
-<li>BlackMATE: support new msd-osd-window-solid style class for non-composited <span class="caps">OSD</span>&nbsp;case</li>
-<li>BlackMATE: make caja renaming labels more&nbsp;readable</li>
-<li>ContrastHighInverse: Fix Caja rename labels when theme actually&nbsp;applied</li>
-<li>cursor: add color-picker cursor&nbsp;image</li>
-<li><span class="caps">GTK</span>+-3.20 submarine themes: improve mate- and&nbsp;mintmenu</li>
-<li>Gtk+-3.20 menta themes: fixes for mate- and&nbsp;mint-menu</li>
-<li>Gtk+-3.20 Traditional themes: improve some dialog&nbsp;windows</li>
-<li>Traditional themes: don&#8217;t draw a bg for&nbsp;mate-indicator-applet</li>
-<li>Gtk+-3.20 most themes: fix bg color in list-view of caja&nbsp;inactive-pane</li>
-<li>Gtk+-3.20 all themes: add new css name&nbsp;matekbd-keyboard-drawing</li>
-<li>metacity submarine themes: fix innerborder if metacity or compiz <span class="caps">WM</span> is&nbsp;used</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: xfce4-terminal: gradient color to the notebook header&nbsp;border</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: make padding in notebook tabs 2 pixels&nbsp;bigger</li>
-<li>menta-fix &#8220;{{&#8221; typo breaking gtk-widgets.css&nbsp;file</li>
-<li>All themes: Fix: print dialog paper depictions not appearing&nbsp;correctly</li>
-<li>Gtk+-3.20 Menta themes: don&#8217;t make any different between backdrop and normal&nbsp;state</li>
-<li>Gtk+-3.20 most themes: mate-panel hide button&nbsp;modification</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: caja: set gradient color to the notebook header&nbsp;border</li>
-<li>Gtk+-3.20 submarine themes: mate-panel hide button&nbsp;modifications</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: Fixes borders in xfce4-terminal tabs and probably more&nbsp;applications</li>
-<li>Gtk+-3.20 all themes: improvements for&nbsp;mate-menu</li>
-<li>Gtk+-3.20 all themes: better way to style keyboard&nbsp;layouts</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: set gradient color to the notebook header&nbsp;border</li>
-<li>Gtk+-3.20 Traditional: set color to the notebook header border in&nbsp;mate-terminal</li>
-<li>Gtk+-3.20 Menta themes: sort&nbsp;mate-applications.css</li>
-<li>Menta themes: set color to the notebook header&nbsp;border</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: New colors in panel&nbsp;grid</li>
-<li>Gtk+-3.20 all themes: style&nbsp;mate-keyboard-layout-viewer</li>
-<li>Traditional themes - use applet handles from&nbsp;Menta</li>
-<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: use border in header tab instead&nbsp;notebook</li>
-<li>Gtk+-3.20 ContrastHighInverse: add missing assets to avoid a runtime&nbsp;warning</li>
-<li>Menta themes: eliminate wrong border-color for&nbsp;lockscreen</li>
-<li>Gtk+-3.20 submarine: eliminate wrong border-color for&nbsp;lockscreen</li>
-<li>GreenLaguna: correct notebook tab borders in&nbsp;mate-terminal</li>
-<li>Submarine themes: correct notebook tab borders in&nbsp;mate-terminal</li>
-<li>Gtk+-3.20 Menta themes: correct notebook header borders in&nbsp;mate-terminal</li>
-<li>Traditional themes: drop some lines in mate-terminal for a better&nbsp;look</li>
-<li>Gtk+-3.20 Most themes: don&#8217;t use a border for terminal&nbsp;notebook</li>
-<li>Traditional themes: print dialog&nbsp;improvements</li>
-<li>Traditional themes: set notebook borders for pavu-control (better&nbsp;fix)</li>
-<li>Traditional themes: set notebook borders for&nbsp;pavu-control</li>
-<li>Gtk+-3.20 GreenLaguna: style scrollbar&nbsp;junction</li>
-<li>Gtk+-3.20: add an annoying wildcard for&nbsp;firefox</li>
-<li>Gtk+-3.20 GreenLaguna: some border fixes for caja&nbsp;sidebar</li>
-<li>Gtk+-3.20 GreenLaguna: change border color of&nbsp;GtkSwitch</li>
-<li>Gtk+-3.20 GreenLaguna: change border-color for&nbsp;scrollbars</li>
-<li><span class="caps">GTK</span>+-3.20 GreenLaguna: change&nbsp;insensitive_bg_color</li>
-<li>Gtk+-3.20 GreenLaguna: improve&nbsp;notebooks</li>
-<li>Traditional themes: drop the two useless lines in the&nbsp;notebooks</li>
-<li>Gtk+-3.20 GreenLaguna: re-work  borders of frame and other&nbsp;improvements</li>
-<li>GreenLaguna metacity: increase border&nbsp;size</li>
-<li>Submarine metacity: increase border&nbsp;size</li>
-<li>Gtk+-3.20 Submarine: set color for dim-labels at list&nbsp;rows</li>
-<li>Traditional themes: set more border colors in checked notebook&nbsp;tabs</li>
-<li>Gtk+-3.20 submarine themes set a padding on&nbsp;statusbars</li>
-<li>Gtk+-3.20: fix jumping button in mate-font-viewer&nbsp;toolbar</li>
-<li>Gtk+-3.20 submarine themes: improve headerbars and popover&nbsp;menus</li>
-<li>Gtk+-3.20 submarine themes: set a padding for gedit&nbsp;statusbar</li>
-<li>Gtk+-3.20 Menta themes: add missing border-image for button.fat:checked in filezilla and&nbsp;atril</li>
-<li>Gtk+-3.20 Menta themes: some notebook&nbsp;improvements</li>
-<li>Fixed <span class="caps">URL</span> colors for Firefox search&nbsp;suggestions</li>
-<li>Gtk+-3.20 Menta themes: re-work borders for frames and other improvements (mega&nbsp;commit)</li>
-<li>Traditional themes: make padding in notebook tabs&nbsp;smaller</li>
-<li>Gtk+-3.20 submarine themes: several&nbsp;improvements</li>
-<li>Gtk+-3.22 Submarine themes: some notebook&nbsp;improvements</li>
-<li>Gtk+-3.22 Submarine themes: re-work borders for&nbsp;frames</li>
-<li>Gtk+-3.20 Submarine themes: fix previous commit for&nbsp;rubberband</li>
-<li>Gtk+-3.20 submarine themes: fix rubberband for&nbsp;mate-screenshot</li>
-<li>Gtk+-3.20 submarine themes: fix toolbar label&nbsp;color</li>
-<li>Traditional themes: use gradient color on active&nbsp;tabs</li>
-<li>Gtk+-2.0 Greenlaguna: use hardcoded hex colors in&nbsp;gtkrc</li>
-<li>Gtk+-2.0 most themes: use a oneliner for color definitions in&nbsp;gtkrc</li>
-<li>Traditional themes: add a border-image for some&nbsp;applets</li>
-<li>Gtk+-3.20 Traditional themes: use a border for the whole&nbsp;GtkInfobar</li>
-<li>Gtk+-3.20 Traditional themes: workaround, fix some borders in&nbsp;firefox</li>
-<li>Gtk+-3.20 Traditional themes: fix jumping combobox&nbsp;button</li>
-<li>Gtk+-3.20 most themes: fix sidebar of&nbsp;GtkAssistant</li>
-<li>Gtk+-3.20 Submarine themes: fix sidebar of&nbsp;GtkAssistant</li>
-<li>Gtk+-3 all themes: don&#8217;t set&nbsp;NaTrayApplet-icon-size</li>
+<li>Temi Sottomarini: rimosso un box-shadow alla barra degli strumenti di&nbsp;engrampa </li>
+<li>Temi Sottomarini: rimosso il padding dalla vista ad albero della barra laterale di&nbsp;caja</li>
+<li>tutti i temi caja: rimosso il bordo destro da&nbsp;scrolledwindow.frame</li>
+<li>Tema Menta metacity: rimossi i bordi sinistro e destro per le finestre&nbsp;massimizzate</li>
+<li>BlackMATE: tracciare il bordo sulla barra di&nbsp;scorrimento</li>
+<li>tutti i temi: rimosso il bordo destro da&nbsp;scrolledwindow.frame</li>
+<li>Temi Sottomarini: corretto il colore di primo piano di button.suggested-action nelle barre di&nbsp;intestazione</li>
+<li>BlackMATE: Aggirato un problema con le barre di scorrimento di&nbsp;Yelp/Lireoffice/Firefox</li>
+<li>Ripristinare &#8220;Gtk+-3.20 tutti i temi: fissato un problema di redraw con&nbsp;yelp&#8221;</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: sliders: mantenere la dimensione&nbsp;originale</li>
+<li>Gtk+-3.20 Sottomarini: ridurre il raggio del bordo per  treeview.selected/hover nelle barre&nbsp;laterali</li>
+<li>Gtk+-3.20 Sottomarini: impostare il colore del carattere per il valore degli&nbsp;spinbutton</li>
+<li>Gtk+-3.20 temi Sottomarini: correggere un pulsante saltellante nella barra di intestazione di&nbsp;gitg</li>
+<li>Gtk+-3.20 Temi Sottomarini: impostare drag-n-drop per&nbsp;caja-icon-view</li>
+<li>Gtk+-3.20 Temi T. :correggere il doppio bordo in mate-volume-control dei&nbsp;notebook</li>
+<li>Gtk+-3.20 Temi Sottomarini: corretto lo stato del focus di&nbsp;pluma-statusbar-button</li>
+<li>Gtk+-3.20 Molti temi: ridisegnato l&#8217;acceleratore hover di un oggetto del&nbsp;menù</li>
+<li>Tutti i temi: modificata la sintassi per il caricamento dell&#8217;immagine del panel-grid per&nbsp;mate-1.20</li>
+<li>Gtk+-3.20 Temi Sottomarini: impostato il raggio del bordo superiore per .titlebar &gt;&nbsp;headerbar</li>
+<li>Gtk+-3.20 Molti temi: corretto il padding dell&#8217;immagine primaria/secondaria in&nbsp;GtkEntry</li>
+<li>Gtk+-3.20 Tema <span class="caps">TRAD</span>: corretto il colore delle frecce grigie nei&nbsp;menù</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: aggiunto il menuitem radio&nbsp;misto</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span> menuitems: ridisegnati i checkbox e i pulsanti&nbsp;radio</li>
+<li>Gtk+-3.20 most themes: corretta la selezione con il mouse sugli slider GtkScale se lo slider è fuori&nbsp;intervallo</li>
+<li>Gtk+-3.20 tutti i temi: fissato un problema di redraw con&nbsp;yelp</li>
+<li>Gtk+-3.20 GreenLaguna: alcuni aggiustamenti al&nbsp;menù</li>
+<li>Gtk+-3.20 Temi Menta: aggiunto un effetto transizione per le frecce del&nbsp;menù</li>
+<li>Gtk+-3.20 temi Menta: eliminate le impostazioni per il menù di&nbsp;firefox</li>
+<li>Gtk+-3.20 temi Sottomarini: eliminati gli effetti di transizione dalle&nbsp;etichette</li>
+<li>Aggiunto il file index.theme per il tema gtk+ Alto&nbsp;Contrasto</li>
+<li>Gtk+-3.20 Molti temi: impostato il bordo per clockmap nell&#8217;applet&nbsp;orologio</li>
+<li>Gtk+-3.20 Temi Sottomarini: alcune correzioni per l&#8217;applet&nbsp;orologio</li>
+<li>Gtk+-3.20 BlackMate: alcune correzioni all&#8217;orologio del&nbsp;pannello</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: caja: colore tinta unita al bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li>Gtk+-3.20 temi Menta: utilizzato un colore hardcoded per lo sfondo dei&nbsp;tooltip</li>
+<li>BlackMATE: <span class="caps">CSD</span> headerbar noncomposita di apps-match per squadrare il bordo della&nbsp;finestra</li>
+<li>BlackMATE: altri aggiustamenti alle app&nbsp;<span class="caps">CSD</span></li>
+<li>Correzioni di BlackMATE per le app&nbsp;<span class="caps">CSD</span></li>
+<li>Gtk+-3.20 temi Menta: cambiato il colore per i pulsanti delle applet del&nbsp;pannello</li>
+<li>Gtk+-3.20 Temi Menta: modificato il timing di transizione per un oggetto del menù della barra dei&nbsp;menù</li>
+<li>Gtk+-3.20 temi Menta: utilizzato lo styiling normale per gli oggetti del menù della barra dei menù per il&nbsp;pannello</li>
+<li>Gtk+-3.20 temi Menta: rimosso l&#8217;effetto di transizione dagli oggetti del&nbsp;menù</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: colore tinta unita al bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li>Gtk+-3.20 BlackMATE: corretto il colore del carattere nella barra degli indirizzi di google&nbsp;chrome</li>
+<li>Gtk+-3.20 BlackMATE: modificato il colore del carattere per l&#8217;acceleratore dell&#8217;oggetto del&nbsp;menù</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: xfce4-terminal: colore tinta unita al bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: Rimossa la sfumatura di colore dall&#8217;intestazione del&nbsp;notebook</li>
+<li>cursore: aggiunto color-picker al file&nbsp;make</li>
+<li>Gtk+-3.20 temi Sottomarini: migliorata la barra laterale di&nbsp;pluma</li>
+<li>Gtk+-3.20 temi Sottomarini: corretto il colore di sfondo nelle finestre di dialogo di errore di&nbsp;pluma</li>
+<li>BlackMATE: completamente con lo stile monocomposito m-s-d&nbsp;<span class="caps">OSD</span></li>
+<li>BlackMATE: supportata la nuova classe di stile msd-osd-window-solid per il caso di <span class="caps">OSD</span>&nbsp;non-composito</li>
+<li>BlackMATE: rese le etichette di rinominazione in caja più&nbsp;leggibili</li>
+<li>ContrastHighInverse: corrette le etichette di rinominazione in caja quando il tema viene&nbsp;applicato</li>
+<li>cursore: aggiunta l&#8217;immagine del cursore&nbsp;color-picker</li>
+<li><span class="caps">GTK</span>+-3.20 temi Sottomarini: migliorati mate-menu e&nbsp;mint-menu</li>
+<li>Gtk+-3.20 temi Menta: correzioni a mate-menu e&nbsp;mint-menu</li>
+<li>Gtk+-3.20 temi Tradizionali: migliorate alcune finestre di&nbsp;dialogo</li>
+<li>temi Tradizionali: non più disegnato uno sfondo per&nbsp;mate-indicator-applet</li>
+<li>Gtk+-3.20 molti temi: corretto il colore di sfondo nella vista ad elenco del pannello inattivo di&nbsp;caja</li>
+<li>Gtk+-3.20 tutti i temi: aggiunto il nuovo nome css&nbsp;matekbd-keyboard-drawing</li>
+<li>temi metacity sottomarini: corretto il bordo interno se viene utilizzato metacity o il gestore delle finestre&nbsp;compiz</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: xfce4-terminal: colore sfumato per il bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: reso il padding nelle schede notebook 2 pixel più&nbsp;ampio</li>
+<li>correzione-menta: la battitura errata &#8220;{{&#8221; corrompe il file&nbsp;gtk-widgets.css </li>
+<li>Tutti i temi: correzione: le rappresentazioni della carta nella finestra di dialogo stampa non comparivano in modo&nbsp;corretto</li>
+<li>Gtk+-3.20 temi Menta: non si fa più alcuna differenza tra lo sfondo e lo stato&nbsp;normale</li>
+<li>Gtk+-3.20 molti temi: mate-panel nasconde la modifica del&nbsp;pulsante</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: caja: impostata una sfumatura per il bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li>Gtk+-3.20 temi Sottomarini: mate-panel nasconde le modifiche del&nbsp;pulsante</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: Corretti i bordi in xfce4-terminal e altre&nbsp;applicazioni</li>
+<li>Gtk+-3.20 tutti i temi: migliorie per&nbsp;mate-menu</li>
+<li>Gtk+-3.20 tutti i temi: miglior modo per rappresentare le disposizioni delle&nbsp;tastiere</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: impostato un colore sfumato per il bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li>Gtk+-3.20 Traditionale: impostato un colore per il bordo dell&#8217;intestazione del notebook in&nbsp;mate-terminal</li>
+<li>Gtk+-3.20 temi Menta: ordinato&nbsp;mate-applications.css</li>
+<li>temi Menta: impostare il colore per il bordo dell&#8217;intestazione del&nbsp;notebook</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: Nuovi colori nella griglia del&nbsp;pannello</li>
+<li>Gtk+-3.20 tutti i temi: creato lo stile per&nbsp;mate-keyboard-layout-viewer</li>
+<li>temi Tradizionali: utilizzati i gestori delle applet da&nbsp;Menta</li>
+<li><span class="caps">TOK</span>/<span class="caps">TG</span>: mate-terminal: utilizzato il bordo nella scheda di intestazione piuttosto che sul&nbsp;notebook</li>
+<li>Gtk+-3.20 ContrastHighInverse: aggiunti gli asset mancanti per evitare un warning in&nbsp;esecuzione</li>
+<li>temi Menta: eliminato il border-color errato nella schermata di&nbsp;blocco</li>
+<li>Gtk+-3.20 Sottomarini: eliminato il border-color errato nella schermata di&nbsp;blocco</li>
+<li>GreenLaguna: corretti i bordi delle schede notebook in&nbsp;mate-terminal</li>
+<li>Temi Sottomarini: corretti i bordi delle schede notebook in&nbsp;mate-terminal</li>
+<li>Gtk+-3.20 temi Menta: corretti i bordi dell&#8217;intestazione del notebook in&nbsp;mate-terminal</li>
+<li>temi Tradizionali: eliminate alcune linee in mate-terminal per un miglior&nbsp;aspetto</li>
+<li>Gtk+-3.20 Molti temi: Non più utilizzato un bordo per il notebook del&nbsp;terminale </li>
+<li>temi Tradizionali: migliorie alla finestra di dialogo di&nbsp;stampa</li>
+<li>temi Tradizionali: impostare i bordi del notebook per pavu-control (migliorare la&nbsp;correzione)</li>
+<li>temi Tradizionali: impostare i bordi del notebook per&nbsp;pavu-control</li>
+<li>Gtk+-3.20 GreenLaguna: disegnata la giunzione della barra di&nbsp;scorrimento</li>
+<li>Gtk+-3.20: aggiunto un noioso wildcard per&nbsp;firefox</li>
+<li>Gtk+-3.20 GreenLaguna: alcuni aggiustamenti ai bordi per la barra laterale di&nbsp;caja</li>
+<li>Gtk+-3.20 GreenLaguna: cambiato il colore del bordo di&nbsp;GtkSwitch</li>
+<li>Gtk+-3.20 GreenLaguna: cambiato il colore del bordo per le barre di&nbsp;scorrimento</li>
+<li><span class="caps">GTK</span>+-3.20 GreenLaguna: modificato&nbsp;insensitive_bg_color</li>
+<li>Gtk+-3.20 GreenLaguna: migliorati i&nbsp;notebook</li>
+<li>temi Tradizionali: eliminate le due linee inutilizzate nel&nbsp;notebook</li>
+<li>Gtk+-3.20 GreenLaguna: re-implementato i bordi delle cornici ed altri&nbsp;miglioramenti</li>
+<li>GreenLaguna metacity: aumentata la dimensione del&nbsp;bordo</li>
+<li>Metacity Sottomarini: aumentata la dimensione del&nbsp;bordo</li>
+<li>Gtk+-3.20 Sottomarini: impostato il colore per le etichette che dissolvono in elenca&nbsp;colonne</li>
+<li>Temi tradizionali: impostati più colori per il bordo nelle schede notebook&nbsp;marcate</li>
+<li>Gtk+-3.20 temi sottomarini: impostato un padding per la barra di&nbsp;stato</li>
+<li>Gtk+-3.20: corretto un pulsante saltellante nella barra degli strumenti&nbsp;mate-font-viewer</li>
+<li>Gtk+-3.20 temi Sottomarini: migliorate le barre di intestazione e i menù a&nbsp;comparsa </li>
+<li>Gtk+-3.20 temi sottomarini: impostato un padding per la barra di stato di&nbsp;gedit</li>
+<li>Gtk+-3.20 temi Menta: aggiunto border-image mancante per button.fat:checked in filezilla e&nbsp;atril</li>
+<li>Gtk+-3.20 temi Menta: alcuni miglioramenti al&nbsp;notebook </li>
+<li>Corretti oi colori degli <span class="caps">URL</span> per i suggerimenti di ricerca di&nbsp;firefox </li>
+<li>Gtk+-3.20 temi Menta: rilavorati i bordi per le cornici ed altre migliorie (mega&nbsp;commit)</li>
+<li>temi Tradizionali: reso più piccolo il padding nelle schede del&nbsp;notebook</li>
+<li>Gtk+-3.20 temi Sottomarini: diversi&nbsp;miglioramenti</li>
+<li>Gtk+-3.22 temi Sottomarini: alcuni miglioramenti a&nbsp;notebook</li>
+<li>Gtk+-3.22 temi Sottomarini: ri-lavorati i bordi delle&nbsp;cornici</li>
+<li>Gtk+-3.20 temi Sottomarini: corretta la commessa precedente per&nbsp;rubberband</li>
+<li>Gtk+-3.20 Temi Sottomarini: corretto rubberband per&nbsp;mate-screenshot</li>
+<li>Gtk+-3.20 temi Sottomarini: corretto il colore dell&#8217;etichetta della barra degli&nbsp;strumenti</li>
+<li>temi Tradizionali: utilizzato una sfumatura sulle schede&nbsp;attive</li>
+<li>Gtk+-2.0 Greenlaguna: utilizzati i colori esadeciamali hardcoded in&nbsp;gtkrc</li>
+<li>Gtk+-2.0 molti temi: tilizzato uno oneliner per le definizioni dei colori in&nbsp;gtkrc</li>
+<li>temi Tradizionali: aggiunta una border-image per alcune&nbsp;applet</li>
+<li>Gtk+-3.20 temi Tradizionali: utilizzato un bordo per l&#8217;intero&nbsp;GtkInfobar</li>
+<li>Gtk+-3.20 temi Tradizionali: scappatoia, corretti alcuni bordi in&nbsp;firefox</li>
+<li>Gtk+-3.20 temi tradizionali: corretta un pulsante di combobox&nbsp;saltellante</li>
+<li>Gtk+-3.20 molti temi: corretta la barra laterale di&nbsp;GtkAssistant</li>
+<li>Gtk+-3.20 temi Sottomarini: corretta la barra laterale di&nbsp;GtkAssistant</li>
+<li>Gtk+-3 tutti i temi: non impostare più&nbsp;NaTrayApplet-icon-size</li>
 </ul>
 <h4>mate-notification-daemon&nbsp;1.20.0</h4>
 <ul>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_n_monitors</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>Fixes high cpu usage with large&nbsp;timeouts</li>
-<li>unescape <span class="caps">URI</span>-encode paths for icon&nbsp;files</li>
-<li>Translations&nbsp;update</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_n_monitors</code>
+</li>
+<li>Risolto l&#8217;elevato utilizzo del <span class="caps">CPU</span> con larghi&nbsp;timeout</li>
+<li>unescape i percorsi con codifica-<span class="caps">URI</span> per i file delle&nbsp;icone</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-control-center&nbsp;1.20.0</h4>
 <ul>
-<li>Scale font <span class="caps">DPI</span> for HiDPI&nbsp;displays</li>
-<li>Add support for HiDPI&nbsp;displays</li>
-<li>theme-installer.c:&nbsp;missing <code>g_object_unref</code> in <code>mate_theme_install_real</code>
+<li>Scalati i font <span class="caps">DPI</span> per i display&nbsp;HiDPI</li>
+<li>Aggiunto il supporto per i display&nbsp;HiDPI</li>
+<li>theme-installer.c: risolto il&nbsp;mancante <code>g_object_unref</code> in <code>mate_theme_install_real</code>
 </li>
-<li>theme-util.c: fix reinstalling the deleted theme can cause&nbsp;failure</li>
-<li>Support the theme compression package for installing <span class="caps">XZ</span>&nbsp;format</li>
-<li>drop unused&nbsp;variables</li>
-<li>eggcellrendererkeys.c: Fix build&nbsp;warnings:</li>
-<li>remove some leftovers related to MacOS&nbsp;support</li>
-<li>theme-thumbnail.c: Fix build warnings&nbsp;with <code>write</code> and <code>pipe</code>:</li>
-<li>libslab: store search entry widget&nbsp;as <code>GtkEntry</code>
+<li>theme-util.c: risolto il problema della reinstallazione di un tema cancellato che provocava un&nbsp;malfunzionamento</li>
+<li>Supportato il pacchetto per la compressione dei temi per installare i formati&nbsp;<span class="caps">XZ</span></li>
+<li>eliminate le variabili non&nbsp;utilizzate</li>
+<li>eggcellrendererkeys.c: risolti dei warning di&nbsp;compilazione</li>
+<li>rimossi alcuni rimasugli correlati al supporto&nbsp;MacOS</li>
+<li>theme-thumbnail.c: Risolti warning di compilazione&nbsp;con <code>write</code> e <code>pipe</code>:</li>
+<li>libslab: memorizzato il widget di ingresso di ricerca&nbsp;come <code>GtkEntry</code>
 </li>
-<li>libslab: fix search icon&nbsp;misaligned</li>
-<li>Translations&nbsp;update</li>
+<li>libslab: risolto il disallineamento dell&#8217;icona di&nbsp;ricerca</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-screensaver&nbsp;1.20.0</h4>
 <ul>
-<li>Add HiDPI support for lock&nbsp;screen</li>
-<li>gs-lock-plug.c: Fix build&nbsp;warning:</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>restore the correct mate-screensaver-command&nbsp;manpage</li>
-<li>fix loop initial&nbsp;declarations</li>
-<li>Fix: idle slider display in all&nbsp;languages</li>
-<li>drop glib required max&nbsp;version</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>Aggiunto il supporto HiDPI per il blocco dello&nbsp;schermo</li>
+<li>gs-lock-plug.c: Risolto un warning in&nbsp;compilazione</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>ripristinata la pagina man di mate-screensaver-command&nbsp;corretta</li>
+<li>corrette le dichiarazioni iniziale dei&nbsp;cicli</li>
+<li>Correzione: mostrato lo slider inattivo in tutte le&nbsp;lingue</li>
+<li>eliminata la richiesta di glib nella sua versione&nbsp;massima</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>Implement OpenBSD authentication&nbsp;using <code>bsd_auth(3)</code>.</li>
-<li>Bug&nbsp;Fix: <code>g_get_real_name</code> will never return <span class="caps">NULL</span>&nbsp;pointer</li>
-<li>lock-dialog <span class="caps">UI</span>: avoid deprecated&nbsp;widgets</li>
-<li>Bug fix: screensaver and lock screen not correctly displayed in configurations with overlapping monitor&nbsp;geometries</li>
-<li>[<span class="caps">GTK</span>+3.20] Switch to&nbsp;GdkSeat</li>
-<li>Set input purpose for the password entry&nbsp;widget</li>
-<li>copy theme dialog: fix build warning about wrong variable&nbsp;type</li>
-<li>Translations&nbsp;update</li>
+<li>Implementata la autenticazione OpenBSD&nbsp;utilizzando  <code>bsd_auth(3)</code>.</li>
+<li>Bug&nbsp;eliminato: <code>g_get_real_name</code> non ritornerà mai il puntatore&nbsp;<span class="caps">NULL</span></li>
+<li>lock-dialog <span class="caps">UI</span>: evitati i widget&nbsp;deprecati</li>
+<li>Bug eliminato: lo screensaver e la finestra di blocco non venivano correttamente mostrati  nelle configurazioni con geometrie di monitor&nbsp;sovrapposte</li>
+<li>[<span class="caps">GTK</span>+3.20] Passaggio a&nbsp;GdkSeat</li>
+<li>Impostato lo scopo di input per il componente widget di inserimento della&nbsp;password</li>
+<li>copy theme dialog: risolto un warning di compilazione sul tipo errato di una&nbsp;variabile</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-media&nbsp;1.20.0</h4>
 <ul>
-<li>gvc-applet: don&#8217;t try to increase refcount of a <span class="caps">NULL</span>&nbsp;object</li>
-<li>gvc-combo-box: fix signal&nbsp;arguments</li>
-<li>applet: restore icon for &#8220;Sound Preferences&#8221; menu&nbsp;item</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_height</code>
+<li>gvc-applet: non incrementare refcount per un elemento&nbsp;<span class="caps">NULL</span></li>
+<li>gvc-combo-box: risolti gli argomenti dei&nbsp;segnali</li>
+<li>applet: icona di ripristino per l&#8217;elemento del menù &#8220;Preferenze&nbsp;Audio&#8221;</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_height</code>
 </li>
-<li>applet: use GdkSeat with <span class="caps">GTK</span>+ &gt;=&nbsp;3.20</li>
-<li>applet: make keyboard work in&nbsp;popup</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code>&#8230;&nbsp;functions:</li>
-<li>refresh tray icon on icon theme&nbsp;change</li>
-<li>mixer-dialog: remove style class .frame from a&nbsp;scrolledwindow</li>
-<li>volume-control-dialog: avoid deprecated&nbsp;GtkAlignment</li>
-<li>applet: show volume in popup even when&nbsp;muted</li>
-<li>applet: improve volume&nbsp;increments</li>
-<li>enable deprecation warnings by&nbsp;default</li>
-<li>Translations&nbsp;update</li>
+<li>applet: utilizzato GdkSeat con <span class="caps">GTK</span>+ &gt;=&nbsp;3.20</li>
+<li>applet: resa funzionante la tastiera nei&nbsp;popup</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>&#8230;&nbsp;:</li>
+<li>aggiornata l&#8217;icona del vassoio al cambio del tema delle&nbsp;icone</li>
+<li>mixer-dialog: rimossa la classe di stile .frame da un oggetto&nbsp;scrolledwindow</li>
+<li>volume-control-dialog: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>applet: mostrato il volume nel popup anche quando è&nbsp;muto</li>
+<li>applet: migliorati gli incrementi del&nbsp;volume</li>
+<li>abilitati in modo predefinito i warning di&nbsp;deprecazione</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-power-manager&nbsp;1.20.0</h4>
 <ul>
-<li>avoid deprecated&nbsp;GtkStock</li>
-<li>inhibit: fix error that spammed logs from previous&nbsp;commit</li>
-<li>inhibit applet: fix rendering of&nbsp;icon</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>fix typos in some more&nbsp;comments</li>
-<li>Correct spelling&nbsp;mistake.</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>don&#8217;t abort on unknown DBus signal&nbsp;name</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>evitata la deprecata&nbsp;GtkStock</li>
+<li>inhibit: corretto l&#8217;errore che spammava i log dal commit&nbsp;precedente</li>
+<li>inhibit applet: risolta la renderizzazione&nbsp;dell&#8217;icona</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>corretto errori di battitura in alcuni commenti al&nbsp;codice</li>
+<li>Corretto un errore di&nbsp;digitazione.</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code>
+<li>non uscire dall&#8217;applicazione in modo anomalo su un nome di segnale DBus&nbsp;sconosciuto</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>Evitata la&nbsp;deprecata <code>gdk_display_get_screen</code>
 </li>
-<li>refresh tray icon on icon theme&nbsp;change</li>
-<li>actually check&nbsp;the <code>$XPROTO_REQUIRED</code> variable&#8217;s&nbsp;value</li>
-<li>statistics <span class="caps">UI</span>: add style class&nbsp;mpm-statistics</li>
-<li>Translations&nbsp;update</li>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
+</li>
+<li>aggiornata l&#8217;icona del vassoio al cambio del tema delle&nbsp;icone</li>
+<li>controllato il valore della&nbsp;variabile <code>$XPROTO_REQUIRED</code>
+</li>
+<li>statistics <span class="caps">UI</span>: aggiunta la classe di stile&nbsp;mpm-statistics</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-system-monitor&nbsp;1.20.0</h4>
 <ul>
-<li>procman.cpp: Fix build warning: argument 1 null where non-null&nbsp;expected</li>
-<li>sysinfo.cpp: Fix build warning: this ‘if’ clause does not&nbsp;guard&#8230;</li>
-<li>proctable.cpp: Fix build warning: this ‘else’ clause does not&nbsp;guard&#8230;</li>
-<li>Fix system logo&nbsp;alignment</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>process table: make search&nbsp;case-insensitive</li>
-<li>sysinfo: disable focus in all&nbsp;labels</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_width/height</code>
+<li>procman.cpp: risolto un warning di compilazione: l&#8217;argomento 1 null era atteso&nbsp;non-null</li>
+<li>sysinfo.cpp: risolto un warning di compilazione:questa clausola &#8216;if&#8217;  non esegue il&nbsp;controllo&#8230;</li>
+<li>proctable.cpp: risolto un warning di compilazione: questa clausola &#8216;else&#8217; non esegue il&nbsp;controllo&#8230;</li>
+<li>risolto l&#8217;allineamento del lofgo di&nbsp;sistema</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>process table: resa la ricerca insensibile alle&nbsp;maiuscole</li>
+<li>sysinfo: disabilitato il focus in tutte le&nbsp;etichette</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_width/height</code>
 </li>
-<li>sysinfo: avoid deprecated&nbsp;GtkAlignment</li>
-<li>Translations&nbsp;update</li>
+<li>sysinfo: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>atril&nbsp;1.20.0</h4>
 <ul>
-<li>build: remove pre-<span class="caps">GTK</span>+3&nbsp;option</li>
-<li>epub: make minizip support more <span class="caps">BSD</span>&nbsp;variants</li>
-<li>previewer: add style class&nbsp;atril-previewer-window</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>shell: show caret navigation in&nbsp;menu</li>
-<li>ev-link-accessible: Improve efficiency of methods to get start and end&nbsp;indices</li>
-<li>Expose form fields as AtkObject children of the&nbsp;page</li>
-<li>Expose images as AtkObject children of the&nbsp;page</li>
-<li>Expose links as AtkObject children of the&nbsp;page</li>
-<li>ev-view-accessible: Add a method to determine if a given doc rect is&nbsp;showing</li>
-<li>ev-page-cache: Add method to check if a given page has been&nbsp;cached</li>
-<li>libview: Update the caret cursor when jumping to a find&nbsp;result</li>
-<li>libview:&nbsp;Update <code>ATK_STATE_SHOWING</code> when the visible page range&nbsp;changes</li>
-<li>libview: Implement AtkComponent for&nbsp;pages</li>
-<li>libview: Fix shift+click text&nbsp;selection</li>
-<li>a11y: ensure text cached when you request an&nbsp;EvPageAccessible</li>
-<li>a11y: managing atk states on&nbsp;EvPageAccessible</li>
-<li>a11y: add if applies ATK_RELATION_FLOWS_TO/<span class="caps">FROM</span> on&nbsp;EvPageAccessible</li>
-<li>a11y: move AtkHyperText implementation from EvViewAccessible to&nbsp;EvPageAccessible</li>
-<li>a11y: move AtkText implementation from EvViewAccessible to&nbsp;EvPageAccessible</li>
-<li>a11y: expose EvPageAccessible as children of&nbsp;EvViewAccessible</li>
-<li>a11y: new&nbsp;EvPageAccessible</li>
-<li>libview: Fix some broken aspects EvViewAccessible text&nbsp;support</li>
-<li>libview: Take caret navigation into account when getting AtkHyperlink&nbsp;indices</li>
-<li>a11y: cleaning implementation&nbsp;for <code>atk_text_get_caret_offset</code>
+<li>compilazione: rimossa l&#8217;opzione&nbsp;pre-<span class="caps">GTK</span>+3</li>
+<li>epub: minizip supporta più varianti&nbsp;<span class="caps">BSD</span></li>
+<li>previewer: aggiunta la classe di stile&nbsp;atril-previewer-window</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>shell: mostrata il cursore nel menù di&nbsp;navigazione</li>
+<li>ev-link-accessible: Migliorata l&#8217;efficienza dei metodi per ottenere gli indici di avvio e di&nbsp;fine</li>
+<li>Esposti i campi dei form come AtkObject figli della&nbsp;pagina</li>
+<li>Esposte le immagini come AtkObject figlie della&nbsp;pagina</li>
+<li>Esposti i link come AtkObject figli della&nbsp;pagina</li>
+<li>ev-view-accessible: aggiunto un metodo per determinare se un dato doc rect è in&nbsp;visualizzazione</li>
+<li>ev-page-cache: Aggiunto un metodo per determinare se una data pagine è stata messa in&nbsp;cache</li>
+<li>libview: Aggiornato il cursore quando si salta ad un risultato della&nbsp;ricerca</li>
+<li>libview:&nbsp;Aggiornato <code>ATK_STATE_SHOWING</code> quando cambiano i limiti della pagina&nbsp;visibile</li>
+<li>libview: Implementato AtkComponent per le&nbsp;pagine</li>
+<li>libview: corretta la selezione del testo con shift +&nbsp;clic</li>
+<li>a11y: assicurato che il testo sia in cache quando si richiede un&nbsp;EvPageAccessible</li>
+<li>a11y: gestione degli stati atk su&nbsp;EvPageAccessible</li>
+<li>a11y: aggiungere se si applica ATK_RELATION_FLOWS_TO/<span class="caps">FROM</span> a&nbsp;EvPageAccessible</li>
+<li>a11y: spostata l&#8217;implementazione AtkHyperText da EvViewAccessible a&nbsp;EvPageAccessible</li>
+<li>a11y: spostata l&#8217;implementazione AtkText da EvViewAccessible a&nbsp;EvPageAccessible</li>
+<li>a11y: esposto EvPageAccessible come figlio di&nbsp;EvViewAccessible</li>
+<li>a11y: nuova&nbsp;EvPageAccessible</li>
+<li>libview: risolti alcuni aspetti non funzionanti del supporto del testo&nbsp;EvViewAccessible</li>
+<li>libview: presa in considerazione la navigazione col cursore quando si ottengono gli indici&nbsp;AtkHyperlink</li>
+<li>a11y: pulita l&#8217;implementazione&nbsp;di <code>atk_text_get_caret_offset</code>
 </li>
-<li>a11y: fixing implementation&nbsp;for <code>atk_text_set_caret_offset</code>
+<li>a11y: corretta l&#8217;implementazione&nbsp;di <code>atk_text_get_caret_offset</code>
 </li>
-<li>view: set_caret_cursor_position should emit &#8220;cursor-moved&#8221; if&nbsp;applies</li>
-<li>Remove support for&nbsp;deprecated <code>atk_text_get_text_{before,after}_offset()</code>
+<li>view: set_caret_cursor_position dovrebbe segnalare &#8220;cursor-moved&#8221; se&nbsp;richiesto</li>
+<li>Rimosso il supporto per il&nbsp;deprecato <code>atk_text_get_text_{before,after}_offset()</code>
 </li>
-<li>a11y: implement AtkDocument on&nbsp;EvViewAccessible</li>
-<li>a11y: with caret navigation enabled, accessibility current page is cursor&nbsp;page</li>
-<li>ev-view-accessible:&nbsp;call <code>document_changed_cb</code> when setting the&nbsp;model</li>
-<li>Some text fixes for caret message&nbsp;area</li>
-<li>ev-view-accessible: Fix a crash&nbsp;in <code>ev_view_accessible_get_link</code>
+<li>a11y: implementato AtkDocument su&nbsp;EvViewAccessible</li>
+<li>a11y: con la navigazione col cursore attiva, l&#8217;accessibilità della pagina corrente è la pagina del&nbsp;cursore</li>
+<li>ev-view-accessible:&nbsp;chiamata <code>document_changed_cb</code> quando si imposta il&nbsp;modello</li>
+<li>Alcune correzioni al testo per l&#8217;area messaggi del&nbsp;cursore</li>
+<li>ev-view-accessible: fissato un crash&nbsp;in <code>ev_view_accessible_get_link</code>
 </li>
-<li>ev-view-accessible: Clear the cached data when the current&nbsp;page</li>
-<li>shell:&nbsp;remove <code>view_actions_focus_out_cb</code>
+<li>ev-view-accessible: cancellati i dati in cache quando la pagina&nbsp;corrente</li>
+<li>shell:&nbsp;rimosso <code>view_actions_focus_out_cb</code>
 </li>
-<li>shell:&nbsp;Remove <code>ev_window_set_view_accels_sensitivity</code>
+<li>shell:&nbsp;rimosso <code>ev_window_set_view_accels_sensitivity</code>
 </li>
-<li>shell: forward accels to the focused&nbsp;widget</li>
-<li>Use a global array for view accel&nbsp;action</li>
-<li>fix crash when selecting text in djvu&nbsp;documents</li>
-<li>shell: fix stock item for message&nbsp;area</li>
-<li>docs: libview: Re-add type builtins&nbsp;section</li>
-<li>Fix crashes of epub documents with&nbsp;caret-navigation</li>
-<li>Store the caret cursor position in document&nbsp;metadata</li>
-<li>libview:&nbsp;Add <code>ev_view_set_caret_cursor_position</code>
+<li>shell: accelerazione in avanti verso il widget che ha il&nbsp;focus</li>
+<li>Utilizzo di un array globale per visualizzare l&#8217;azione di&nbsp;accelerazione</li>
+<li>Risolto un crash quando si seleziona del testo nei documenti&nbsp;djvu</li>
+<li>risolto l&#8217;elemento stock nell&#8217;area del&nbsp;messaggio</li>
+<li>docs: libview: Riaggiunta la sezionei dei tipi&nbsp;integrati</li>
+<li>Risolto un crash dei documenti epub quando si naviga con il&nbsp;cursore</li>
+<li>Memorizzata la posizione del cursore nei metadata del&nbsp;documento</li>
+<li>libview:&nbsp;aggiunto <code>ev_view_set_caret_cursor_position</code>
 </li>
-<li>libview: Update the current page also when pending scroll is to find a&nbsp;location</li>
-<li>libview: Do not schedule a redraw when enabling/disabling caret&nbsp;navigation</li>
-<li>libview: Stop caret cursor blinking when cursor is not in a visible&nbsp;page</li>
-<li>shell: Enable/disable the caret navigation with&nbsp;F7</li>
-<li>libview:&nbsp;Add <code>ev_view_supports_caret_navigation()</code>
+<li>libview: aggiorna la pagina corrente anche quando lo scorrimento in sospeso deve trovare una&nbsp;posizione</li>
+<li>libview: non programma più il ridisegno quando si abilita/disabilita la navigazione con il&nbsp;cursore </li>
+<li>libview: eliminato il lampeggiamento del cursore se si trova in una pagina non&nbsp;visualizzata</li>
+<li>shell: abilitare/disabilitare la navigazione con il cursore con&nbsp;F7</li>
+<li>libview:&nbsp;aggiunto <code>ev_view_supports_caret_navigation()</code>
 </li>
-<li>ev-link-accesible: Return the index/offset after the last character in the&nbsp;link</li>
-<li>help: Remove references to removed selection&nbsp;mode</li>
-<li>libview: Fix selections starting/ending in page&nbsp;margins</li>
-<li>libview: Reduce the pages to scan for&nbsp;selections</li>
-<li>libview: Remove unused rectangle selection&nbsp;mode</li>
-<li>libview: Rework&nbsp;ev_view_accessible_get_selection</li>
-<li>libview: do not redraw the whole view when caret cursor&nbsp;moves</li>
-<li>libview: Update the cursor area after positioning the cursor when moving between&nbsp;lines</li>
-<li>ev-view-accessible:&nbsp;Fix <code>ev_view_accesssible_get_n_selections</code>
+<li>ev-link-accesible: ritornato l&#8217;indice/offset dopo l&#8217;ultimo carattere nel&nbsp;collegamento</li>
+<li>help: Rimuovere i riferimenti alla modalità di selezione&nbsp;rimossa</li>
+<li>libview: risolta la selezione che inizia/finisce ai margini della&nbsp;pagina</li>
+<li>libview: ridotte le pagine da analizzare per la&nbsp;selezione</li>
+<li>libview: Rimossa la modalità di selezione rettangolare&nbsp;inutilizzata</li>
+<li>libview: Rilavorato&nbsp;ev_view_accessible_get_selection</li>
+<li>libview: non si ridisegna più l&#8217;intera vista quando viene spostato il&nbsp;cursore </li>
+<li>libview: Aggiornata l&#8217;area del cursore dopo il posizionamento del cursore quando ci si muove tra le&nbsp;righe</li>
+<li>ev-view-accessible:&nbsp;Corretta <code>ev_view_accesssible_get_n_selections</code>
 </li>
-<li>ev-view-accessibl: Fix get_caret_offset when the caret navigation is&nbsp;enabled</li>
-<li>libview: Use error bell and return early when moving between lines&nbsp;fails</li>
-<li>libview: do not schedule a resize&nbsp;in <code>ensure_rectangle_is_visible</code>
+<li>ev-view-accessible: Corretta get_caret_offset quando la navigazione col cursore è&nbsp;abilitata</li>
+<li>libview: utilizzato il segnale acustico di errore e il ritorno anticipato quando il movimento tra le righe&nbsp;fallisce</li>
+<li>libview: non programma più un ridimensionamento&nbsp;in <code>ensure_rectangle_is_visible</code>
 </li>
-<li>libview: Stop the cursor blink when there are selections&nbsp;active</li>
-<li>libview: Deprecate ev_view_scroll in favor&nbsp;of <code>g_signal_emit_by_name</code>
+<li>libview: Interrotto il lampeggiamento del cursore quando ci sono selezioni&nbsp;attive</li>
+<li>libview: Deprecare ev_view_scroll in favore&nbsp;di <code>g_signal_emit_by_name</code>
 </li>
-<li>ev-window: Use g_signal_emit_by name instead&nbsp;of <code>ev_view_scroll</code>
+<li>ev-window: Si utilizza il nome g_signal_emit_by al posto&nbsp;di <code>ev_view_scroll</code>
 </li>
-<li>previewer: Remove scroll&nbsp;accelerators</li>
-<li>ev-window: Remove scroll&nbsp;accelerators</li>
-<li>libview: Add more scroll key bindings to&nbsp;EvView</li>
-<li>libview: Fix second parameter type of scroll signal for h, j, k and l&nbsp;bindings</li>
-<li>libview: Use merge_selection_region passing <span class="caps">NULL</span> to clear the&nbsp;selections</li>
-<li>ev-pixbuf-cache: Clear the selection region also when clearing the job&nbsp;selection</li>
-<li>ev-pixbuf-cache: fix the condition for when a new selection is&nbsp;needed</li>
-<li>ev-view-accessible: Rewrite get_run_attributes to return the text attributes from the&nbsp;document</li>
-<li>pdf:&nbsp;Implement <code>ev_document_text_get_text_attrs()</code>
+<li>previewer: Rimossi gli acceleratori dello&nbsp;scorrimento</li>
+<li>ev-window: Rimossi gli acceleratori dello&nbsp;scorrimento</li>
+<li>libview: Aggiunti più tasti per lo scroll ad&nbsp;EvView</li>
+<li>libview: Corretto il tipo del secondo parametro del segnale di scorrimento per i collegamenti h, j, k e&nbsp;l</li>
+<li>libview: utilizzato merge_selection_region che passa il valore <span class="caps">NULL</span> per cancellare la&nbsp;selezione</li>
+<li>ev-pixbuf-cache: Cancellare la regione della selezione anche quando si cancella la selezione del&nbsp;job</li>
+<li>ev-pixbuf-cache: risolta la condizione per quando risulta necessaria una nuova&nbsp;selezione </li>
+<li>ev-view-accessible: Riscritto get_run_attributes per restituire gli attributi del testo dal&nbsp;documento</li>
+<li>pdf:&nbsp;implmentata <code>ev_document_text_get_text_attrs()</code>
 </li>
-<li>libview: Get text attributes from backend and save them in page&nbsp;cache</li>
-<li>libdocument:&nbsp;Add <code>ev_document_text_get_text_attrs()</code>
+<li>libview: presi gli attributi dal backend e salvati in una pagina della&nbsp;cache</li>
+<li>libdocument:&nbsp;Aggiunto <code>ev_document_text_get_text_attrs()</code>
 </li>
-<li>libview: Emit the AtkText text-caret-moved and text-selection-changed&nbsp;signals</li>
-<li>libview: clear the selection when cursor is&nbsp;moved</li>
-<li>libview: Do not show the caret cursor when there are active&nbsp;selections</li>
-<li>libview: Return <span class="caps">NULL</span> instead of empty regions from the pixbuf&nbsp;cache</li>
-<li>libview: Don&#8217;t draw the caret cursor when the view is not&nbsp;focused</li>
-<li>libview: Fix moving caret cursor between lines in multicolumn&nbsp;documents</li>
-<li>libview: Pre-cache some prev/next pages to the current page&nbsp;range.</li>
-<li>ev-pixbuf-cache: schedule prev or next jobs first depending on the scroll&nbsp;direction</li>
-<li>ev-pixbuf-cache: Schedule jobs to render previous pages in inverse&nbsp;order</li>
-<li>libview: Added &#8216;cursor-moved&#8217; signal to notify when the caret cursor has been&nbsp;moved.</li>
-<li>libview: Avoid unnecessary region copies when selecting&nbsp;text</li>
-<li>libview: Use a larger damage area to redraw&nbsp;selections</li>
-<li>libview: Don&#8217;t queue a redraw when damaged region hasn&#8217;t&nbsp;changed</li>
-<li>libview: Invalidate union of old and new&nbsp;selection</li>
-<li>libview: Move the caret cursor when clicking outside a&nbsp;selection</li>
-<li>libview: Remove unused in_selection member from SelectionInfo&nbsp;struct</li>
-<li>libview: Keep the offset inside a line when moving the caret between&nbsp;lines</li>
-<li>libview: Position the caret cursor at beginning/end of the&nbsp;line</li>
-<li>libview: Do not schedule a redraw when selecting all&nbsp;text</li>
-<li>libview: Use prepend + reverse instead of append to create selections&nbsp;list</li>
-<li>libview: Use GSlice to allocate&nbsp;EvViewSelection</li>
-<li>libview: Text selection using the caret&nbsp;cursor.</li>
-<li>libview: Update the caret cursor after selecting text with the&nbsp;mouse</li>
-<li>libview: Take page border into account when computing&nbsp;selections</li>
-<li>libview: Fix a crash when selecting more than one&nbsp;page</li>
-<li>libview: Make sure the cursor blinks after moving it by a&nbsp;click</li>
-<li>libview:&nbsp;merge <code>get_caret_cursor_rect_from_offset</code> and <code>get_caret_cursor_area</code>
+<li>libview: emessi i segnali AtkText, text-caret-moved e&nbsp;text-selection-changed</li>
+<li>libview: cancellata la selezione quando il cursore viene&nbsp;mosso</li>
+<li>libview: Non viene più mostrato il cursore quando ci sono selezioni&nbsp;attive</li>
+<li>libview: Restituisce <span class="caps">NULL</span> invece di regioni vuote dalla cache&nbsp;pixbuf</li>
+<li>libview: Non viene più disegnato il cursore quando la vista non è in&nbsp;focus</li>
+<li>libview: risolto il movimento del cursore tra le linee in documenti a più&nbsp;colonne</li>
+<li>libview: precaricate in cache alcune pagine precedenti/successive all&#8217;intervallo di pagine&nbsp;corrente</li>
+<li>ev-pixbuf-cache: effettuato lo scheduling dei lavori precedenti o successivi dipendenti dalla direzione di&nbsp;scorrimento</li>
+<li>ev-pixbuf-cache: effettuato lo scheduling dei lavori per renderizzare le pagine precedenti in ordine&nbsp;inverso</li>
+<li>libview: Aggiunto il segnale &#8216;cursor-moved&#8217; per segnalare quando viene mosso il&nbsp;cursore</li>
+<li>libview: Evitata la copia di regioni non necessarie quando si seleziona il&nbsp;testo</li>
+<li>libview: Utilizzata una maggiore area di danno per ridisegnare le&nbsp;selezioni</li>
+<li>libview: Non accoda più un ridisegnamento quando la regione danneggiata non è&nbsp;cambiata</li>
+<li>libview: Invalidata l&#8217;unione della vecchia e della nuova&nbsp;selezione</li>
+<li>libview: Spostare il cursore quando si fa clic fuori da una&nbsp;selezione</li>
+<li>libview: Rimossa il membro inutilizzato in_selection dalla struct&nbsp;SelectionInfo</li>
+<li>libview: Mantenuto l&#8217;offset dentro una riga quando si muove il cursore tra le&nbsp;righe</li>
+<li>libview: Posizionato il cursore all&#8217;inizio/fine della&nbsp;riga</li>
+<li>libview: non effettuare lo scheduling di un ridisegnamento quando si seleziona tutto il&nbsp;testo</li>
+<li>Utilizzato preponi + inverti anziché aggiungi alla fine per creare elenchi di&nbsp;selezioni</li>
+<li>libview: Utilizzato GSlice per allocare&nbsp;EvViewSelection</li>
+<li>libview: Reso selezionabile il testo utilizzando il&nbsp;cursore.</li>
+<li>libview: Aggiornato il cursore dopo aver selezionato del testo con il&nbsp;mouse</li>
+<li>libview: presi in considerazione i bordi della pagina quando si elabora la&nbsp;selezione</li>
+<li>libview: Risolto un crash quando si seleziona più di una&nbsp;pagina</li>
+<li>libview: Fatto in modo che il cursore lampeggi dopo averlo spostato con un&nbsp;clic</li>
+<li>libview:&nbsp;unire <code>get_caret_cursor_rect_from_offset</code> e <code>get_caret_cursor_area</code>
 </li>
-<li>libview: Notify about caret navigation errors using the error&nbsp;bell.</li>
-<li>libview: Do not redraw after a click if cursor position hasn&#8217;t&nbsp;changed</li>
-<li>libview: Use GtkBindings for caret&nbsp;navigation</li>
-<li>libview: Rename EvView::binding-activated signal as&nbsp;EvView::scroll</li>
-<li>libview: Position the caret cursor by&nbsp;clicking</li>
-<li>libview:&nbsp;Use <code>EvPixbufCache</code> to find selection&nbsp;region</li>
-<li>libview:&nbsp;Split <code>ev_pixbuf_cache_get_selection_surface</code> into two&nbsp;functions</li>
-<li>libview: Draw selection highlight from&nbsp;region</li>
-<li>libview: Fix the damage area used to redraw the caret&nbsp;cursor</li>
-<li>libview: Actually update the page when moving the care from a different&nbsp;page</li>
-<li>libview: Avoid to update the current page and scroll to the cursor position, if the caret cursor was not&nbsp;updated</li>
-<li>libview: Make caret cursor&nbsp;blink</li>
-<li>libview: Use logical attributes instead text layout to move the caret&nbsp;cursor</li>
-<li>libview: Add a way to get the text logical attributes from the page&nbsp;cache</li>
-<li>libview: Initial implementation of caret&nbsp;navigation</li>
-<li>libview: Refactor code for drawing page and selection&nbsp;surfaces</li>
-<li>shell:&nbsp;disable <code>ViewDualOddLeft</code> in menus for&nbsp;epubs</li>
-<li>libview: only access the relevant page cache for the height&nbsp;request</li>
-<li>Activate shortcut keys for dual and continuous&nbsp;layout</li>
-<li>ev-view: Forward key events to the focused form&nbsp;field</li>
-<li>Add shortcut keys for fit-page and fit-width&nbsp;options</li>
-<li>shell: Do not open single page pdfs in dual mode by&nbsp;default</li>
-<li>libview: Don&#8217;t update current_page to negative&nbsp;number</li>
-<li>libview: Make page layout a&nbsp;mode</li>
-<li>libview: Add new zoom mode that optimizes for&nbsp;readability</li>
-<li>Rename Fit Page Width as Fit&nbsp;Width</li>
-<li>Rename Best Fit mode as Fit&nbsp;Page</li>
-<li>Move dual page with odd pages left to the view&nbsp;menu</li>
-<li>libview: drop deprecated usage of&nbsp;gtk_container_set_resize_mode</li>
-<li>shell: Check if doc implements Annotations interface before&nbsp;cast</li>
-<li>Refreshing annotations&#8217; sidebar upon&nbsp;deletion</li>
-<li>libdocument:&nbsp;Make <code>ev_mapping_list_remove</code> void</li>
-<li>page-cache: Add flags parameter&nbsp;to <code>ev_page_cache_mark_dirty()</code>
+<li>libview: Notificati gli errori di navigazione col cursore mediante l&#8217;avviso acustico di&nbsp;errore</li>
+<li>libview: non ridisegnare se dopo un clic la posizione del cursore non è&nbsp;cambiata</li>
+<li>libview: Utilizzato GtkBindings per la navigazione col&nbsp;cursore</li>
+<li>libview: Rinominato il segnale EvView::binding-activated come&nbsp;EvView::scroll</li>
+<li>libview: Posizionato il cursore con il clic del&nbsp;mouse</li>
+<li>libview:&nbsp;Utilizzato <code>EvPixbufCache</code> per trovare la regione della&nbsp;selezione</li>
+<li>libview:&nbsp;Suddivisa <code>ev_pixbuf_cache_get_selection_surface</code> in due&nbsp;funzioni</li>
+<li>libview: Disegnata l&#8217;evidenziazione della selezione dalla&nbsp;regione</li>
+<li>libview: Corretta l&#8217;area danneggiata utilizzata per ridisegnare il&nbsp;cursore.</li>
+<li>libview: Aggiornata la pagina quando il cursore si muove da una pagina&nbsp;differente</li>
+<li>libview: Evitato di aggiornare la pagina corrente e di scorrere la posizione del cursore, se il cursore non è stato&nbsp;aggiornato</li>
+<li>libview: reso il cursore&nbsp;lampeggiante</li>
+<li>libview: Utilizzati attributi logici invece del layout del testo per spostare il&nbsp;cursore</li>
+<li>libview: Aggiunto un modo per ottenere gli attributi logici dalla pagina&nbsp;cache</li>
+<li>libview: Implementazione iniziale della navigazione con il&nbsp;cursore</li>
+<li>libview: Rifattorizzato il codice per disegnare la pagina e le superfici di&nbsp;selezione</li>
+<li>shell:&nbsp;disabilitato <code>ViewDualOddLeft</code> nei menù per gli&nbsp;epub</li>
+<li>libview: accede solo alla cache della pagina rilevante per la richiesta di&nbsp;altezza</li>
+<li>Attivati tasti scorciatoia per la disposizione doppia e&nbsp;continua</li>
+<li>ev-view: Inoltra gli eventi della tastiera al campo del modulo con&nbsp;focus</li>
+<li>Aggiunti tasti scorciatoia per le opzioni fit-page e&nbsp;fit-width</li>
+<li>shell: Non aprire i pdf di una singola pagina in modalità&nbsp;duale</li>
+<li>libview: Non aggiornare la pagina_corrente ad un numero&nbsp;negativo</li>
+<li>libview: Reso una modalità il layout di&nbsp;pagina</li>
+<li>libview: Aggiunto un nuovo livello di zoom che ottimizza per la&nbsp;leggibilità</li>
+<li>Rinominato Fit Page Width come Fit&nbsp;Width</li>
+<li>Rinominato Best Fit come Fit&nbsp;Page</li>
+<li>Spostata la visuale a pagina doppia con pagine dispari a sinistra nel menu di&nbsp;visualizzazione</li>
+<li>libview: eliminato l&#8217;utilizzo deprecato di&nbsp;gtk_container_set_resize_mode</li>
+<li>shell: Verificare se il documento implementa l&#8217;interfaccia Annotazioni prima del&nbsp;cast</li>
+<li>Aggiornare la barra laterale delle annotazioni alla&nbsp;cancellazione</li>
+<li>libdocument:&nbsp;Resa <code>ev_mapping_list_remove</code> void</li>
+<li>page-cache: Aggiunti parametri flag&nbsp;a <code>ev_page_cache_mark_dirty()</code>
 </li>
-<li>pdf: Reset the annotation mapping when there are no more&nbsp;annotations</li>
-<li>Add an option to remove annotations to the view popup&nbsp;menu</li>
-<li>libview: add&nbsp;ev_view_remove_annotation</li>
-<li>pdf: Implement remove_annotation virtual&nbsp;func</li>
-<li>libdocument: add&nbsp;ev_mapping_list_remove</li>
-<li>libdocument: Add remove_annotation to&nbsp;DocumentAnnotations.</li>
-<li>pdf: Make annotation names&nbsp;unique</li>
-<li>pdf: Add support for adding other types of&nbsp;annotations</li>
-<li>libview: Rename ev_view_set_focused_element and make it public&nbsp;internally</li>
-<li>Change the opacity of the annotation&nbsp;window</li>
-<li>Change color of annotation&nbsp;window</li>
-<li>libview: Grab focus for form fields and links on mouse&nbsp;press</li>
-<li>libdocument:&nbsp;Added <code>ev_mapping_list_get</code>
+<li>pdf: Resettata la mappatura delle annotazioni quando non ci sono più&nbsp;annotazioni</li>
+<li>Aggiunta una opzione per rimuovere le annotazioni al menù a comparsa della&nbsp;visualizzazione</li>
+<li>libview: aggiunta&nbsp;ev_view_remove_annotation</li>
+<li>pdf: Implementata la funzione virtuale&nbsp;remove_annotation</li>
+<li>libdocument: aggiunta&nbsp;ev_mapping_list_remove</li>
+<li>libdocument: Aggiunta remove_annotation a&nbsp;DocumentAnnotations.</li>
+<li>pdf: Resi i nomi delle annotazioni&nbsp;unici</li>
+<li>pdf: Aggiunto il supporto per aggiungere altri tipi di&nbsp;annotazioni</li>
+<li>libview: Rinominata ev_view_set_focused_element e resa pubblica&nbsp;internamente</li>
+<li>Modificata l&#8217;opacità della finestra delle&nbsp;annotazioni</li>
+<li>Modificato il colore della finestra delle&nbsp;annotazioni</li>
+<li>libview: Ottenere il focus dai campi dei moduli e dai collegamenti alla pressione del tasto del&nbsp;mouse</li>
+<li>libdocument:&nbsp;Aggiunta <code>ev_mapping_list_get</code>
 </li>
-<li>pdf: Add activation link for Fields that have&nbsp;it.</li>
-<li>libview: Handle activation link of a Form Field  if&nbsp;present</li>
-<li>libdocument: Add activation_link to EvFormField&nbsp;struct</li>
-<li>ev-properties-licence: don&#8217;t use deprecated&nbsp;GtkAlignment</li>
-<li>libview: : avoid deprecated&nbsp;gtk_adjustment_changed</li>
-<li>ev-job-find: mark two methods as&nbsp;skip</li>
-<li>ev-jobs:&nbsp;have <code>ev_job_failed_from_error</code> shadow <code>ev_job_failed</code>
+<li>pdf: Aggiunto il collegamento di attivazione per Campi che lo&nbsp;possiedono</li>
+<li>libview: Gestito se presente il link di attivazione del Campo di un&nbsp;Modulo</li>
+<li>libdocument: Aggiunto l&#8217;attivation_link alla struttura&nbsp;EvFormField</li>
+<li>ev-properties-licence: non più utilizzata la deprecata&nbsp;GtkAlignment</li>
+<li>libview: evitata la deprecata&nbsp;gtk_adjustment_changed</li>
+<li>ev-job-find: segnati due metodi come&nbsp;skip</li>
+<li>ev-jobs: <code>ev_job_failed_from_error</code> deve&nbsp;nascondere <code>ev_job_failed</code>
 </li>
-<li>libview: add missing transfer and element-type&nbsp;annotations</li>
-<li>ev-mapping-list: make a boxed&nbsp;type</li>
-<li>libdocument: add missing transfer and element-type&nbsp;annotations</li>
-<li>gtk 3.22: avoid deprecated gdk_screen_get_monitor&#8230;&nbsp;functions:</li>
-<li>avoid <code>gdk_screen_get_primary_monitor/gdk_screen_get_monitor_scale_factor</code>
+<li>libview: aggiunti il trasferimento mancante e le annotazioni&nbsp;element-type</li>
+<li>ev-mapping-list: reso un tipo con&nbsp;box</li>
+<li>libdocument: aggiunti il trasferimento mancante e le annotazioni&nbsp;element-type</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>&#8230;&nbsp;:</li>
+<li>evitata <code>gdk_screen_get_primary_monitor/gdk_screen_get_monitor_scale_factor</code>
 </li>
-<li>ev-document-misc.c: avoid&nbsp;deprecated <code>gdk_screen_get_width/height_mm</code>
+<li>ev-document-misc.c: evitata la&nbsp;deprecata <code>gdk_screen_get_width/height_mm</code>
 </li>
-<li>dvi: Mitigate command injection attacks by quoting&nbsp;filename</li>
-<li>mdvi-lib: Fix compilation warning&nbsp;(const-correctness)</li>
-<li>libmisc: set width chars for page&nbsp;label</li>
-<li>libview: Scroll small pages in non-continuous&nbsp;mode</li>
-<li>libview:&nbsp;Enable <code>GDK_SMOOTH_SCROLL</code> events for&nbsp;view</li>
-<li>libview: Ctrl+mouse wheel zoom should be pointer-centered, not&nbsp;window-centered</li>
-<li>ev-view: Add pan gesture to switch&nbsp;page</li>
-<li>ev-view: explicitly require&nbsp;a <code>GtkScrolledWindow</code> as the parent&nbsp;widget</li>
-<li>ev-view: Add pinch/zoom gesture to handle document&nbsp;zooming</li>
-<li>sidebar-thumbnails: fix unwanted move to start after&nbsp;fullscreen</li>
-<li>sidebar-thumbnails: preload one extra visible range while&nbsp;scrolling</li>
-<li>sidebar-thumbnails: keep thumbnails already&nbsp;rendered</li>
-<li>sidebar-thumbnails: fix clunky&nbsp;scrolling</li>
-<li>annotations-sidebar: Clean up the&nbsp;styling</li>
-<li>ev-annotation-window: Fix setting the color of the window&nbsp;border</li>
-<li>libview: fix annotation window focus change after&nbsp;creation</li>
-<li>libview: Fix focus on&nbsp;ev_annotation_window</li>
-<li>libview: Don&#8217;t change the font color of the annotation&nbsp;window</li>
-<li>shell: Use GdkRGBA for&nbsp;annotations</li>
-<li>libdocument: Add EvAnnotation <span class="caps">API</span> using&nbsp;GdkRGBA</li>
-<li>libdocument: Use the new deprecation&nbsp;macros</li>
-<li>Add deprecation&nbsp;macros</li>
-<li>fix runtime warnings caused by previous <span class="caps">HDPI</span>&nbsp;commit</li>
-<li>Take monitor scale factor into account when calculating&nbsp;zoom.</li>
-<li>Add hi-dpi support for main&nbsp;view.</li>
-<li>shell: Ditch&nbsp;gimpcellrenderertoggle</li>
-<li>sidebar-layers: Make it actually usable and fix a runtime&nbsp;warning</li>
-<li>libview: setting annotation window icons&nbsp;sizes</li>
-<li>libview: save changes to a dropdown in an embedded&nbsp;form</li>
-<li>libdocument: adjust rendering of shadow for active and inactive&nbsp;pages</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>dvi: Mitigati gli attacchi command injection mediante il nome del&nbsp;file</li>
+<li>mdvi-lib: Risolto un warning di compilazione&nbsp;(const-correctness)</li>
+<li>libmisc: impostata la largheza dei caratteri per l&#8217;etichetta della&nbsp;pagina</li>
+<li>libview: fatte scorrere le pagine piccole in modo&nbsp;non-continuo</li>
+<li>libview: Abilitati gli&nbsp;eventi <code>GDK_SMOOTH_SCROLL</code> per la&nbsp;visualizzazione</li>
+<li>libview: Reso lo zoom Ctrl + rotellina del mouse centrato-attorno-al-puntatore e non&nbsp;centrato-alla-finestra</li>
+<li>ev-view: Aggiunto il gesto pan per cambiare&nbsp;pagina</li>
+<li>ev-view: richiedere&nbsp;esplicitamente <code>GtkScrolledWindow</code>  come widget&nbsp;genitore</li>
+<li>ev-view: Aggiunti i gesti pizzico/zoom per gestire lo zoom del&nbsp;documento</li>
+<li>sidebar-thumbnails: risolto lo spostamento non desiderato che si avviava dopo il&nbsp;fullscreen</li>
+<li>sidebar-thumbnails: precaricato un intervallo visibile extra quando si esegue lo&nbsp;scroll</li>
+<li>sidebar-thumbnails: mantenute le miniature già&nbsp;renderizzate</li>
+<li>sidebar-thumbnails: risolto il problema sullo&nbsp;scorrimento</li>
+<li>annotations-sidebar: Pulito lo&nbsp;stile</li>
+<li>ev-annotation-window: Risolta l&#8217;impostazione del colore del bordo della&nbsp;finestra</li>
+<li>libview: risolto il cambio di focus della finestra delle annotazioni dopo la&nbsp;creazione</li>
+<li>libview: Risolto il focuso su&nbsp;ev_annotation_window</li>
+<li>libview: Non modificato il colore del font della finestra delle&nbsp;annotazioni</li>
+<li>shell: Utilizzato GdkRGBA  per le&nbsp;annotazioni</li>
+<li>libdocument: Aggiunta l&#8217;<span class="caps">API</span> EvAnnotation che utilizza&nbsp;GdkRGBA </li>
+<li>libdocument: Utilizzate le nuove macro di&nbsp;deprecazione</li>
+<li>Aggiunte le macro di&nbsp;deprecazione</li>
+<li>risolti dei warning in esecuzione causati dal commit <span class="caps">HDPI</span>&nbsp;precedente</li>
+<li>Preso in considerazione il fattore di scala del monitor quando si calcola lo&nbsp;zoom.</li>
+<li>Aggiunto il supporto hi-dpi per la vista&nbsp;principale.</li>
+<li>shell: abbandonato&nbsp;gimpcellrenderertoggle</li>
+<li>sidebar-layers: Reso utilizzabile e fissato un warning in&nbsp;esecuzione</li>
+<li>libview: impostate le dimensioni delle icone della finestra delle&nbsp;annotazioni</li>
+<li>libview: salvati i cambiamenti in un dropdown nel modulo&nbsp;integrato</li>
+<li>libdocument: aggiustato il rendering dell&#8217;ombra per le pagine attive ed&nbsp;inattive</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>ev-window: remove&nbsp;deprecated <code>GtkToolbar-shadow-type</code>
+<li>ev-window: rimossa la&nbsp;deprecata <code>GtkToolbar-shadow-type</code>
 </li>
-<li>annotation-properties-dialog: don&#8217;t use a&nbsp;headerbar</li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code> and <code>gdk_display_get_n_screens</code>
+<li>annotation-properties-dialog: non utilizza più una barra di&nbsp;intestazione</li>
+<li>evitate le&nbsp;deprecate <code>gdk_display_get_screen</code> e <code>gdk_display_get_n_screens</code>
 </li>
-<li>ev-window: don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>ev-window: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>build: properly clean the generated .caja-extension&nbsp;file</li>
-<li>build: require cairo &gt;= 1.10.0 and drop some old&nbsp;code</li>
-<li>shell: remove unused code from&nbsp;utils</li>
-<li>ev-view: avoid&nbsp;deprecated <code>gtk_drag_begin</code>
+<li>compilazione: ripulito correttamente il file&nbsp;generato.caja-extension</li>
+<li>compilazione: richiesto cairo &gt;= 1.10.0 ed eliminato del vecchio&nbsp;codice </li>
+<li>shell: rimosso il codice inutilizzato da&nbsp;utils</li>
+<li>ev-view: evitata la&nbsp;deprecata <code>gtk_drag_begin</code>
 </li>
-<li>egg-editable-toolbar: avoid&nbsp;deprecated <code>gtk_drag_begin</code>
+<li>egg-editable-toolbar: evitata la&nbsp;deprecata <code>gtk_drag_begin</code>
 </li>
-<li>message-area: replace&nbsp;some <code>GtkStock</code> deprecations</li>
-<li>ev-sidebar: avoid&nbsp;deprecated <code>GTK_STOCK_CLOSE</code> icon</li>
-<li>password-view: replace&nbsp;some <code>GtkStock</code> deprecations</li>
-<li>password-view: don&#8217;t use&nbsp;deprecated <code>GtkAlignment</code>
+<li>message-area: sostituite alcune deprecazioni&nbsp;di <code>GtkStock</code>
 </li>
-<li>toolbar-editor: don&#8217;t use&nbsp;deprecated <code>GtkAlignment</code>
+<li>ev-sidebar: evitata l&#8217;icona&nbsp;deprecata <code>GTK_STOCK_CLOSE</code>
 </li>
-<li>Translations&nbsp;update</li>
+<li>password-view: sostituite alcune deprecazioni&nbsp;di <code>GtkStock</code>
+</li>
+<li>password-view: non più utilizzata la&nbsp;deprecata <code>GtkAlignment</code>
+</li>
+<li>toolbar-editor: non più utilizzata la&nbsp;deprecata <code>GtkAlignment</code>
+</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>caja-extensions&nbsp;1.20.0</h4>
 <ul>
-<li>xattr-tags: use better English in extension&nbsp;description</li>
-<li>po: add missing translatable strings from xattrs&nbsp;extension</li>
-<li>xattr-tags: fix extension&nbsp;description</li>
-<li>open-terminal: don&#8217;t use excessive string&nbsp;duplication</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>xattr-tags: Utilizzato un inglese migliore nella descrizione delle&nbsp;estensioni</li>
+<li>po: aggiunte le stringhe traducibili mancanti dall&#8217;estensione&nbsp;xattr</li>
+<li>xattr-tags: migliorata la descrizione&nbsp;dell&#8217;estensione</li>
+<li>open-terminal: non è stato utilizzato un alto numero di stringhe&nbsp;duplicate</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>sendto burn: avoid&nbsp;deprecated <code>gtk_show_uri</code>
+<li>sendto burn: evitato il&nbsp;deprecato <code>gtk_show_uri</code>
 </li>
-<li>xattr-tags: remove hack, it&#8217;s not needed&nbsp;now</li>
-<li>xattr-tags: fix typo causing undefined&nbsp;reference</li>
-<li>fix&nbsp;the <code>libcaja_gksu_la_LDFLAGS</code> variable&nbsp;declaration</li>
-<li>xattr-tags: add missing newline to startup&nbsp;message</li>
-<li>xattr-tags: unescaping stored&nbsp;attributes.</li>
-<li>Translations&nbsp;update</li>
+<li>xattr-tags: rimosso hack, adesso non ce n &#8216;è&nbsp;bisogno</li>
+<li>xattr-tags: risolto un errore di digitazione che causava un riferimento&nbsp;indefinito</li>
+<li>Aggiustata la dichiarazione della&nbsp;variabile <code>libcaja_gksu_la_LDFLAGS</code>
+</li>
+<li>xattr-tags: aggiunto il ritorno a capo mancante al messaggio di&nbsp;avvio</li>
+<li>xattr-tags: unescaping degli attributi&nbsp;memorizzati.</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>engrampa&nbsp;1.20.0</h4>
 <ul>
-<li>build:&nbsp;use <code>PKG_CONFIG</code> to fix&nbsp;cross-build</li>
-<li>Add our copyright to About dialog and Caja&nbsp;extension</li>
-<li>7z: Fix: rename files with password without the list&nbsp;encrypted</li>
-<li>7z: Fix: delete/rename files/folders with the list&nbsp;encrypted</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>compilazione:&nbsp;utilizzato <code>PKG_CONFIG</code> per risolvere la&nbsp;cross-compilazione</li>
+<li>Aggiunto il nostro copyright alla finestra di dialogo About e  a Caja&nbsp;extensions</li>
+<li>7z: risolto il rinominamento dei file senza che l&#8217;elenco sia&nbsp;cifrato</li>
+<li>7z: Risolta la cancellazione/rinominamento di file/cartelle con l&#8217;elenco&nbsp;cifrato</li>
+<li>evitato il&nbsp;deprecato <code>gdk_screen_make_display_name</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>non più utilizzato il&nbsp;deprecato <code>gtk_show_uri</code>
 </li>
-<li>use a more common gtk+&nbsp;function</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>utilizzata una funzione gtk+ più&nbsp;comune</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>Add the button &#8220;Show the Files and Quit&#8221; in the progress&nbsp;dialog</li>
-<li>Fix: create zip files in &#8220;maximum&#8221; compression&nbsp;level</li>
-<li>Fix: Browsing history not&nbsp;correct</li>
-<li>hide folders in &#8220;View All&nbsp;Files&#8221;</li>
-<li>Fix: Wrong behavior of Skip button in Replace file&nbsp;dialog</li>
-<li><span class="caps">UI</span> files: avoid&nbsp;deprecations</li>
-<li>gtk-utils: remove&nbsp;some <code>GTK_STOCK</code> deprecations</li>
-<li>gtk-utils: avoid deprecated&nbsp;gtk_icon_size_lookup_for_settings</li>
-<li>fr-window: fix&nbsp;some <code>GTK_STOCK</code> deprecations</li>
-<li>add style class frame to&nbsp;scrolledwindows</li>
-<li>fr-window: avoid&nbsp;deprecated <code>GtkMisc</code> and <code>GtkAlignment</code>
+<li>Aggiunto il pulsante &#8220;Mostra i file ed esci&#8221; nella finestra di dialogo di&nbsp;avanzamento</li>
+<li>Risolto: creare file zip con il livello di compressione&nbsp;&#8220;massimo&#8221;</li>
+<li>Risolto: l&#8217;esplorazione della cronologia non era&nbsp;corretta</li>
+<li>nascoste le cartelle in &#8220;Visualizza tutti i&nbsp;file&#8221;</li>
+<li>Risolto: Cattivo comportamento del pulsante Salta nella finestra di dialogo&nbsp;Sostituisci</li>
+<li>File <span class="caps">UI</span>: evitate le&nbsp;deprecazioni</li>
+<li>gtk-utils: rimosse alcune deprecazioni&nbsp;di <code>GTK_STOCK</code>
 </li>
-<li>dlg-add-folder: avoid&nbsp;deprecated <code>gtk_alignment_new()</code>
+<li>gtk-utils: evitato il deprecato&nbsp;gtk_icon_size_lookup_for_settings</li>
+<li>fr-window: rimosse alcune deprecazioni&nbsp;di <code>GTK_STOCK</code>
 </li>
-<li>build: use variable instead of hardcoded file name when&nbsp;cleaning</li>
-<li>Translations&nbsp;update</li>
+<li>aggiunta la classe di stile cornice a&nbsp;scrolledwindows</li>
+<li>fr-window: evitate le&nbsp;deprecate <code>GtkMisc</code> e <code>GtkAlignment</code>
+</li>
+<li>dlg-add-folder: evitata la&nbsp;deprecata <code>gtk_alignment_new()</code>
+</li>
+<li>Compilazione: utilizzo di variabili invece di nomi file hardcoded quando si esegue la&nbsp;pulizia</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>eom&nbsp;1.20.0</h4>
 <ul>
-<li>drop <span class="caps">CSS</span> for <span class="caps">GTK</span>+&nbsp;3.18</li>
-<li>egg-editable-toolbar.c/egg-toolbars-model.c: drop unused&nbsp;variables</li>
-<li>print-preview: replace custom code with <span class="caps">GDK</span> function&nbsp;call</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>eliminato il <span class="caps">CSS</span> per <span class="caps">GTK</span>+&nbsp;3.18</li>
+<li>egg-editable-toolbar.c/egg-toolbars-model.c: eliminate le variabili&nbsp;inutilizzate</li>
+<li>print-preview: sostituito il codice personalizzato con chiamate di funzione&nbsp;<span class="caps">GDK</span></li>
+<li>gtk 3.22: eliminate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code> functions:</li>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
 </li>
-<li>fix warning on closing empty window with multiple eom&nbsp;windows</li>
-<li>EomThumbView: Replace&nbsp;deprecated <code>gtk_menu_popup</code> function</li>
-<li>multiple-save-as-dialog.ui: avoid deprecated&nbsp;widgets</li>
-<li>error-message: replace usage of&nbsp;GtkStock</li>
-<li>A bunch of instrospection warning&nbsp;fixes</li>
-<li>EomScrollView: fix override_background deprecated&nbsp;call</li>
-<li>EomPropertiesDialog: Fix deprecation&nbsp;warnings</li>
-<li>EomThumbNav: Fix deprecated function&nbsp;warning</li>
-<li>EomScrollView: Replace&nbsp;deprecated <code>gtk_menu_popup</code> function</li>
-<li>EomScrollView: Switch from GtkDeviceManager to&nbsp;GdkSeat</li>
-<li>fix typo in function&nbsp;annotation</li>
-<li>use different css files for &lt;&nbsp;gtk+=3.20</li>
-<li>EomWindow: Set file open dialog transient for its parent&nbsp;window</li>
-<li>settings: use rgb color definition as&nbsp;defaults</li>
-<li><span class="caps">UI</span>: avoid using deprecaded&nbsp;widgets</li>
-<li>EomCloseConfirmationDialog: set max width chars for primary&nbsp;label</li>
-<li>EomCloseConfirmationDialog: Fix size request for the image&nbsp;list</li>
-<li>Printing paper orientation should default based on image&nbsp;dimensions</li>
-<li>Avoid recompressing JPEGs as <span class="caps">PNG</span> when&nbsp;printing</li>
-<li>EomFileChooser: Use MateThumbnailFactory to create preview&nbsp;image</li>
-<li>EomPropertiesDialog: Allow <span class="caps">RGBA</span> for transparent background&nbsp;color</li>
-<li>preferences-ui: drop usage&nbsp;of <code>MateColorButton</code>
+<li>eliminato il warning nel chiudere una finestra vuota con più finestre di eom&nbsp;aperte</li>
+<li>EomThumbView: Sostituita la funzione&nbsp;deprecata <code>gtk_menu_popup</code>
 </li>
-<li>EomScrollView: Switch&nbsp;to <code>GdkRGBA</code> for background and transparent&nbsp;colors</li>
-<li>EomPrintPreview: Avoid unnecessary color&nbsp;parsing</li>
-<li>Fix a few GtkStock&nbsp;deprecations</li>
-<li>EomCloseConfirmationDialog: replace&nbsp;deprecated <code>GTK_STOCK_DIALOG_WARNING</code>
+<li>multiple-save-as-dialog.ui: evitati i widget&nbsp;deprecati</li>
+<li>error-message: sostituito l&#8217;utilizzo di&nbsp;GtkStock</li>
+<li>Un po&#8217; di correzioni ai warning di&nbsp;introspezione</li>
+<li>EomScrollView: corretta la chiamata alla deprecata&nbsp;override_background</li>
+<li>EomPropertiesDialog: Corretti i warning di&nbsp;deprecazione</li>
+<li>EomThumbNav: risolti i warning delle funzioni&nbsp;deprecate</li>
+<li>EomScrollView: Sostituita la funzione&nbsp;deprecata <code>gtk_menu_popup</code>
 </li>
-<li>toolbar-editor: avoid deprecated&nbsp;GtkAlignment</li>
-<li>Bring eom-image.c&#8217;s <span class="caps">SVG</span> handling up to date, properly recognize svgz&nbsp;filetypes</li>
-<li>eom_uri_converter: GList leak&nbsp;fix</li>
-<li>Translations&nbsp;update</li>
+<li>EomScrollView: Passaggio da GtkDeviceManager a&nbsp;GdkSeat</li>
+<li>corretto un errore di battitura nell&#8217;annotazione di una&nbsp;funzione</li>
+<li>utilizzati file css differenti per &lt;&nbsp;gtk+=3.20</li>
+<li>EomWindow: Impostata la finestra di dialogo apri file come transiente per la sua finestra&nbsp;genitrice</li>
+<li>settings: utilizzata la definizione di colore rgb come&nbsp;predefinita</li>
+<li><span class="caps">UI</span>: evitato l&#8217;utilizzo di widget&nbsp;deprecati</li>
+<li>EomCloseConfirmationDialog: impostata l&#8217;ampiezza massima dei caratteri nell&#8217;etichetta&nbsp;primaria</li>
+<li>EomCloseConfirmationDialog:  Corretta la richiesta di grandezza per l&#8217;elenco delle&nbsp;immagini</li>
+<li>L&#8217;orientamento della carta in stampa dovrebbe essere determinato dalle dimensioni&nbsp;dell&#8217;immagine</li>
+<li>Evitato di ricomprimere le <span class="caps">JPEG</span> come <span class="caps">PNG</span> quando si&nbsp;stampa</li>
+<li>EomFileChooser: Utilizzato MateThumbnailFactory per creare una anteprima&nbsp;dell&#8217;immagine</li>
+<li>EomPropertiesDialog: Consentito <span class="caps">RGBA</span> per il colore dello sfondo&nbsp;trasparente</li>
+<li>preferences-ui: eliminato l&#8217;uso&nbsp;di <code>MateColorButton</code>
+</li>
+<li>EomScrollView: Passato&nbsp;a <code>GdkRGBA</code> per lo sfondo ed i colori&nbsp;trasparenti</li>
+<li>EomPrintPreview: Evitato l&#8217;analisi del colore non&nbsp;necessaria</li>
+<li>Risolte alcune deprecazioni di&nbsp;GtkStock</li>
+<li>EomCloseConfirmationDialog: sostituita la&nbsp;deprecata <code>GTK_STOCK_DIALOG_WARNING</code>
+</li>
+<li>toolbar-editor: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>Aggiornata la gestione <span class="caps">SVG</span> di eom-image.c, adesso riconosce in modo appropriato i tipi di file&nbsp;svgz</li>
+<li>eom_uri_converter: corretto un memory leak di&nbsp;GList</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-applets&nbsp;1.20.0</h4>
 <ul>
-<li>multiload: Scaling network graph using thresholds defined by&nbsp;user</li>
-<li>multiload: fix tabs/spaces mix in more&nbsp;places</li>
-<li>multiload: fix spacing in some&nbsp;places</li>
-<li>multiload: remove some unneeded&nbsp;spaces</li>
-<li>weather: fix possible crash when opening prefs&nbsp;dialog</li>
-<li>drop broken invest-applet and all Python&nbsp;dependencies</li>
-<li>Fix build warnings: ignoring return value&nbsp;of <code>fgets</code>,</li>
-<li>command: bump range of&nbsp;interval</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>build: when gtksourceview isn&#8217;t found, show this package&nbsp;name</li>
-<li>Cpufreq: Update tooltips with latest&nbsp;values</li>
-<li>Cpufreq: fix a build&nbsp;warning</li>
-<li>Cpufreq: stop jumping numbers moving units&nbsp;label</li>
-<li>Rounding error in draw&nbsp;corrected.</li>
-<li>cpufreq: fix calculating max width of frequency/unit/percent&nbsp;labels</li>
-<li>stickynotes: fix text&nbsp;selection</li>
-<li>cpufreq: refresh applet size on style change (e.g. font&nbsp;size)</li>
-<li>GSettings change recognized&nbsp;dynamically</li>
-<li>GSettings for checkmark color shown for mounted&nbsp;volumes.</li>
-<li>cpufreq: fix random invisibility of the&nbsp;applet</li>
-<li>Mounted drives will show a little bit different&nbsp;icon.</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>Get rid of misleading_indentation and maybe-uninitialized warnings during&nbsp;build</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_width/height</code>
+<li>multiload: Ridimensionato il grafico di rete utilizzando soglie definite&nbsp;dall&#8217;utente</li>
+<li>multiload: Risolte miscele di tabulazioni/spazi in più&nbsp;posti</li>
+<li>multiload: corretta la spaziatura in alcuni&nbsp;posti</li>
+<li>multiload: rimossi alcuni spazi non&nbsp;necessari</li>
+<li>weather: risolto un possibile crash aprendo la finestra delle&nbsp;preferenze</li>
+<li>Eliminata invest-applet perché rotta e rimosse tutte le dipendenze&nbsp;Python</li>
+<li>Corretto un warning di compilazione: ignorato il valore di ritorno&nbsp;di <code>fgets</code>,</li>
+<li>command: aumentata l&#8217;ampiezza&nbsp;dell&#8217;intervallo</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>compilazione: quando gtksourceview non viene trovato, mostrare questo nome di&nbsp;pacchetto</li>
+<li>Cpufreq: Aggiornati i tooltip con gli ultimi&nbsp;valori</li>
+<li>Cpufreq: corretto un warning di&nbsp;compilazione</li>
+<li>Cpufreq: corretto il saltellamento dei numeri muovendo l&#8217;etichetta delle&nbsp;unità</li>
+<li>Corretto un errore di arrotondamento nel&nbsp;disegno</li>
+<li>cpufreq: corretto il calcolo dell&#8217;ampiezza massima delle etichette&nbsp;frequenza/unità/percentuale</li>
+<li>stickynotes: corretta la selezione del&nbsp;testo</li>
+<li>cpufreq: aggiornata la dimensione dell&#8217;applet al variare dello stile (es. dimensione del&nbsp;font)</li>
+<li>Le variazioni GSettings sono riconosciute&nbsp;dinamicamente</li>
+<li>Gsettings per il colore del segno di spunta mostrato per i volumi&nbsp;montati</li>
+<li>cpufreq: corretta la scomparsa casuale&nbsp;dell&#8217;applet</li>
+<li>I dispositivi montati mostrano un&#8217;icona leggermente&nbsp;diversa</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>Eliminati l&#8217;indentatione_fuorviante e i warning in compilazione&nbsp;maybe-uninitialized</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_width/height</code>
 </li>
-<li>all applets: don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>add new digital&nbsp;theme</li>
-<li>drivemount: fix a build&nbsp;warning</li>
-<li>cpufreq-prefs: don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>all applets: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>bump libmateweather requirement to&nbsp;1.19.1</li>
-<li>weather: If location changes, abort any outstanding weather&nbsp;updates</li>
-<li>weather: Added logic to not send notification if weather update is equal (as decided&nbsp;by <code>weather_info_equal()</code>) to the previous&nbsp;update</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>aggiunto un nuovo tema&nbsp;digitale</li>
+<li>drivemount: corretto un warning in&nbsp;compilazione</li>
+<li>cpufreq-prefs: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>drivemount: If the list is empty, it will show media-floppy&nbsp;icon</li>
-<li>stickynotes: reword previous commit a bit and don&#8217;t leak dir&nbsp;name</li>
-<li>stickynotes: create parent dir&nbsp;for <code>stickynotes-applet.xml</code> if it does not&nbsp;exist.</li>
-<li>Load graph scales automatically according to average&nbsp;load</li>
-<li>trashapplet: remove unused&nbsp;code</li>
-<li>cpufreq: set frequency on all&nbsp;cores</li>
-<li>Fix GError memory&nbsp;leak</li>
-<li>Fix for crasher in Command&nbsp;applet.</li>
-<li>Translations&nbsp;update</li>
+<li>libmateweather portato alla versione&nbsp;1.19.1</li>
+<li>weather: se la località cambia, impedire ogni aggiornamento in&nbsp;sospeso</li>
+<li>wearher: Aggiunta la logica per non inviare notifiche se l&#8217;aggiornamento è uguale (così come viene stabilito&nbsp;da <code>weather_info_equal()</code>) all&#8217;aggiornamento&nbsp;precedente</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
+</li>
+<li>drivemount: se l&#8217;elenco è vuoto mostrerà l&#8217;icona del&nbsp;floppy</li>
+<li>stickynotes: riformulare un po&#8217; il compito precedente e non fare spreco di memoria con il nome della&nbsp;directory</li>
+<li>stickynotes: creare una cartella genitrice&nbsp;per <code>stickynotes-applet.xml</code> se questa non&nbsp;esiste.</li>
+<li>La scala del grafico di carico si ridimensiona automaticamente in base al carico&nbsp;medio</li>
+<li>trashapplet: rimosso il codice&nbsp;inutilizzato</li>
+<li>cpufreq: impostare la requenza su tutti i&nbsp;core</li>
+<li>Corretto un memory leak di&nbsp;GError</li>
+<li>Correzione di un crash nell&#8217;applet&nbsp;Command</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-calc&nbsp;1.20.0</h4>
 <ul>
-<li>Add icon image on close button in preferences&nbsp;dialog</li>
-<li>avoid deprecated&nbsp;GtkStock</li>
-<li>add missing window icon to About&nbsp;dialog</li>
-<li>math-window: don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>Aggiunta una icona sul pulsante chiudi della finestra di dialogo&nbsp;preferenze</li>
+<li>evitata la deprecata&nbsp;GtkStock</li>
+<li>aggiunta l&#8217;icona mancante alla finestra di dialogo&nbsp;Informazioni</li>
+<li>math-window: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-icon-theme-faenza&nbsp;1.20.0</h4>
 <ul>
-<li>Change license to <span class="caps">GPL3</span>, as per the original&nbsp;project.</li>
-<li>Fix to use <span class="caps">MATE</span> logo for dark&nbsp;theme</li>
+<li>Modificata la licenza a <span class="caps">GPL3</span>, come da progetto&nbsp;originale</li>
+<li>Corretto l&#8217;utilizzo del logo <span class="caps">MATE</span> per i temi&nbsp;scuri</li>
 </ul>
 <h4>mate-indicator-applet&nbsp;1.20.0</h4>
 <ul>
-<li>Support building against Ayatana Indicators and Ubuntu Indicators&nbsp;alike.</li>
-<li>Translations&nbsp;update</li>
+<li>Supportata la compilazione contro Ayatana Indicators e Ubuntu&nbsp;Indicators</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-netbook&nbsp;1.20.0</h4>
 <ul>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>window picker: disconnect signal handlers in dispose&nbsp;function</li>
-<li>window picker: add icon to prefs&nbsp;dialog</li>
-<li>window picker: disable vertical expand of button in prefs&nbsp;dialog</li>
-<li>window picker: add icon for taskbar to About&nbsp;dialog</li>
-<li>maximus: don&#8217;t crash on invalid window&nbsp;<span class="caps">ID</span></li>
-<li>Translations&nbsp;update</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>window picker: disconnessi i gestori dei segnali nella funzione&nbsp;dispose</li>
+<li>window picker: aggiunta l&#8217;icona alla finestra di dialogo&nbsp;preferenze</li>
+<li>window picker: disabilitare l&#8217;espansione verticale dei pulsanti nel la finestra di dialogo&nbsp;preferenze</li>
+<li>window picker: aggiunta l&#8217;icona per la taskbar nella finestra di dialogo&nbsp;Informazioni</li>
+<li>maximus: non va più in crash su un <span class="caps">ID</span> di finestra non&nbsp;valido</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-sensors-applet&nbsp;1.20.0</h4>
 <ul>
-<li>build: enable udisk2 plugin&nbsp;again</li>
-<li>Remove deprecated udisks&nbsp;plugin</li>
-<li>udisks plugin: fix memory management for GValue&nbsp;variables</li>
-<li>Remove deprecated eee&nbsp;plugin</li>
-<li>Fix popup shower on removed&nbsp;<span class="caps">HDD</span></li>
-<li>ibm-acpi.c: Fix build&nbsp;warning:</li>
-<li>eee-plugin.c: Fix build&nbsp;warning:</li>
-<li>active-sensor.c: Fix build&nbsp;warning:</li>
-<li>sensors-applet.c: Fix build&nbsp;warning:</li>
-<li>Fix&nbsp;indents</li>
-<li>Fix project&nbsp;cleanup</li>
-<li>Stop jumping applet as numbers&nbsp;change</li>
-<li>fix save order of&nbsp;sensors</li>
-<li>updated hide temperature&nbsp;units</li>
-<li>remove code&nbsp;duplication</li>
-<li>sensor-applet.c: replace deprecated&nbsp;GtkMisc</li>
-<li>sensor-applet.c: avoid&nbsp;deprecated <code>GTK_STOCK_MISSING_IMAGE</code>
+<li>compilazione: abilitato nuovamente il plugin&nbsp;udisk2</li>
+<li>Rimosso il plugin deprecato&nbsp;udisks</li>
+<li>udisks plugin: corretta la gestione della memoria per le variabili&nbsp;GValue</li>
+<li>Rimosso il plugin deprecato&nbsp;eee</li>
+<li>Corretta la cascata di popup alla rimozione di&nbsp;<span class="caps">HDD</span></li>
+<li>ibm-acpi.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>eee-plugin.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>active-sensor.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>sensors-applet.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>Corrette le&nbsp;indentazioni</li>
+<li>Corretta la pulizia del&nbsp;progetto</li>
+<li>Fermato il saltellamento dell&#8217;applet quando cambiano i&nbsp;numeri</li>
+<li>corretto l&#8217;ordine di salvataggio dei&nbsp;sensori</li>
+<li>aggiornato nascondi le unità di&nbsp;temperatura</li>
+<li>rimosse porzioni di codice&nbsp;duplicate</li>
+<li>sensor-applet.c: sostituita la deprecata&nbsp;GtkMisc</li>
+<li>sensor-applet.c: evitata la&nbsp;deprecata <code>GTK_STOCK_MISSING_IMAGE</code>
 </li>
-<li>sensor-config-dialog: avoid deprecated&nbsp;GtkAlignment</li>
-<li>sensor-config-dialog: don&#8217;t use deprecated&nbsp;GtkColorButton</li>
-<li>prefs-dialog: add style class frame to&nbsp;scrolledwindow</li>
-<li>prefs-dialog: avoid deprecated&nbsp;GtkAlignment</li>
-<li>prefs-dialog: avoid&nbsp;deprecated <code>GTK_VBUTTON_BOX</code>, <code>GTK_TYPE_{H,V}BOX</code>
+<li>sensor-config-dialog: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>sensor-config-dialog: non più utilizzata la deprecata&nbsp;GtkColorButton</li>
+<li>prefs-dialog: aggiunta una classe di stile cornice a&nbsp;scrolledwindows</li>
+<li>prefs-dialog: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>prefs-dialog: evitate le&nbsp;deprecate <code>GTK_VBUTTON_BOX</code>, <code>GTK_TYPE_{H,V}BOX</code>
 </li>
-<li>use <code>GTK_ALIGN_CENTER</code> for&nbsp;the <code>sensor_applet</code> grid</li>
-<li>Translations&nbsp;update</li>
+<li>utilizzato <code>GTK_ALIGN_CENTER</code> per la griglia&nbsp;di <code>sensor_applet</code>
+</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-terminal&nbsp;1.20.0</h4>
 <ul>
-<li>require <span class="caps">VTE</span>&nbsp;0.46</li>
-<li>screen: stop&nbsp;setting <code>TERM</code> and <code>COLORTERM</code> environment&nbsp;variables</li>
-<li>schema: fix summary and description of some&nbsp;keys</li>
-<li>remove &#8220;&#8230;&#8221; from Find keyboard&nbsp;shortcut</li>
-<li>profile-editor: properly initialize the first palette&nbsp;color</li>
-<li>terminal-screen.c: drop unused&nbsp;variables</li>
-<li>Fix build warnings: ignoring return value&nbsp;of <code>chdir</code>,</li>
-<li>middle click on a tab: add the gsettings key to enable the&nbsp;feature</li>
-<li>make indent more uniform in a few&nbsp;files</li>
-<li>fix possible crash when handling DBus method&nbsp;call</li>
-<li>Spelling: Whitespace removed, in the terminal,&nbsp;Ctrl</li>
-<li>add Solarized themes from&nbsp;gnome-terminal</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>add the ability to switch tabs using <kbd>ctrl</kbd> + <kbd>tab</kbd> and <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>tab</kbd>
+<li>richiesto <span class="caps">VTE</span>&nbsp;0.46</li>
+<li>screen: cessato di impostare le variabili di&nbsp;ambiente <code>TERM</code> e <code>COLORTERM</code>
 </li>
-<li>allow remapping &#8220;search&#8221; keyboard&nbsp;shortcuts</li>
-<li>Support background images with&nbsp;<span class="caps">VTE3</span></li>
-<li>find-dialog.ui: fix keyboard&nbsp;selection</li>
-<li>avoid&nbsp;deprecated <code>vte_terminal_search_get_gregex</code>
+<li>schema: corretti il sommario e la descrizione di qualche&nbsp;tasto</li>
+<li>rimosso &#8220;&#8230;&#8221; dalla scorciatoia di tastiera&nbsp;Trova</li>
+<li>profile-editor: inizializzato in modo corretto il primo colore della&nbsp;tavolozza</li>
+<li>terminal-screen.c: eliminate le variabili non&nbsp;utilizzate</li>
+<li>Risolto un warning in compilazione: ignorato il valore ritornato&nbsp;da <code>chdir</code>,</li>
+<li>clic centrale su una scheda: aggiunta la chiave gsettings per abilitare questa&nbsp;caratteristica</li>
+<li>resa l&#8217;indentazione più uniforme in alcuni&nbsp;file</li>
+<li>risolto un possibile bug quando si gestisce la chiamata al metodo&nbsp;DBus</li>
+<li>Ortografia: spazio bianco rimosso, nel temr minale,&nbsp;Ctrl</li>
+<li>aggiunti i temi Solarizzati per&nbsp;gnome-terminal</li>
+<li>implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>aggiunta la capacità di scorrere tra le schede utilizzando <kbd>ctrl</kbd> + <kbd>tab</kbd> e <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>tab</kbd>
 </li>
-<li>add &#8220;select all&#8221; keyboard shortcut: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>A<kbd></kbd></kbd>
+<li>permettere la rimappatura delle scorciatoie da tastiera&nbsp;&#8220;ricerca&#8221;.</li>
+<li>Supportate le immagini di sfondo con&nbsp;<span class="caps">VTE3</span></li>
+<li>find-dialog.ui: risolta la selezione con la&nbsp;tastiera</li>
+<li>Evitata la&nbsp;deprecata <code>vte_terminal_search_get_gregex</code>
 </li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>aggiunta la scorciatoia da tastiera &#8220;seleziona tutto&#8221;: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>A<kbd></kbd></kbd>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>terminal-util:&nbsp;avoid <code>deprecated gtk_show_uri</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>terminal-ui: evitata la&nbsp;deprecata  <code>gtk_show_uri</code>
 </li>
-<li>Fix: Double click with right button causes Xorg to&nbsp;crash</li>
-<li>Translations&nbsp;update</li>
+<li>Evitata la&nbsp;deprecata <code>gdk_display_get_screen</code>
+</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
+</li>
+<li>Risolto: doppio clic col pulsante destro manda Xorg in&nbsp;crash</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-user-share&nbsp;1.20.0</h4>
 <ul>
-<li>build: use correct macros to fix&nbsp;cross-build</li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>compilazione: utilizzate le macro corrette per la&nbsp;cross-compilazione</li>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-utils&nbsp;1.20.0</h4>
 <ul>
-<li>Add screenshot support for HiDPI&nbsp;displays</li>
-<li>mate-screenshot: added New&nbsp;button</li>
-<li>screenshot-save.c: Fix build warnings&nbsp;with <code>pipe</code> <code>write</code> and <code>read</code>:</li>
-<li>add style class&nbsp;logview-window</li>
-<li>Translations&nbsp;update</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>baobab: make zoom with mousewheel work on&nbsp;chart</li>
-<li>screenshot: remove some unused&nbsp;code</li>
-<li>screenshot: don&#8217;t get window title as it&#8217;s not used&nbsp;later</li>
-<li>baobab/logview/dictionary: add our copyright to About&nbsp;dialog</li>
-<li>baobab: set transient parent for remote connect&nbsp;dialog</li>
-<li>baobab: don&#8217;t make prefs dialog visible in .ui&nbsp;file</li>
-<li>baobab: set parent window for About&nbsp;dialog</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_active_window</code>
+<li>aggiunto il supporto per lo screenshot dei display&nbsp;HiDPI</li>
+<li>mate-screenshot: aggiunto il pulsante&nbsp;Nuovo</li>
+<li>screenshot-save.c: risolto un warning di compilazione&nbsp;con <code>pipe</code> <code>write</code> e <code>read</code>:</li>
+<li>aggiunta una classe di stile&nbsp;logview-window</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>baobab: reso possibile lo zoom con la rotella del mouse sul&nbsp;grafico</li>
+<li>screenshot: rimosso del codice&nbsp;inutilizzato</li>
+<li>screenshot: non memorizzare il nome della finestra perché dopo non è&nbsp;utilizzato</li>
+<li>baobab/logview/dictionary: aggiunto il nostro copyright alla finestra di dialogo&nbsp;Informazioni</li>
+<li>baobab: impostato il genitore transiente per la finestra di dialogo di connessione&nbsp;remota</li>
+<li>baobab: resa la finestra di dialogo delle preferenze non visibile nel file&nbsp;.ui</li>
+<li>baobab: impostata la finestra genitrice per il dialogo&nbsp;Informazioni</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_active_window</code>
 </li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_width/height</code>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_width/height</code>
 </li>
-<li>screenshot: avoid deprecated GdkDevice&nbsp;objects</li>
-<li>dictionary: avoid deprecated GdkDevice&nbsp;objects</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_n_monitors</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>screenshot: evitati gli oggetti deprecati&nbsp;GdkDevice</li>
+<li>dictionary: evitati gli oggetti deprecati&nbsp;GdkDevice</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_n_monitors</code>
 </li>
-<li>gdict-applet: don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>don&#8217;t use&nbsp;deprecated <code>gtk_show_uri</code>
+<li>gdict-applet: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_number</code>
+<li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>searchtool <span class="amp">&amp;</span> logview: avoid deprecated&nbsp;GtkAlignment</li>
-<li>mate-screenshot: fix showing busy cursor when saving area&nbsp;screenshot</li>
-<li>screenshot: don&#8217;t translate the timestamp in the&nbsp;filename</li>
-<li>mate-dictionary: include correct header to fix occasional&nbsp;<span class="caps">FTBFS</span></li>
-<li>Translations&nbsp;update</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
+</li>
+<li>searchtool e logview: evitata la deprecata&nbsp;GtkAlignment</li>
+<li>mate-screenshot: evitato di mostrare il cursore impegnato quando si salva lo screenshot&nbsp;dell&#8217;area</li>
+<li>screenshot: non tradurre il timestamp nel nome del&nbsp;file</li>
+<li>mate-dictionary: inclusi gli header corretti per risolvere gli occasionali&nbsp;<span class="caps">FTBFS</span></li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mozo&nbsp;1.20.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>pluma&nbsp;1.20.0</h4>
 <ul>
-<li>put <code>peas_engine_enable_loader</code> in the correct&nbsp;place</li>
-<li>Fix: make the list of recently used files working&nbsp;again</li>
-<li>drop unused&nbsp;variables</li>
-<li>pluma-spell-checker-language.c: Fix build&nbsp;warning:</li>
-<li>pluma.c: Fix build&nbsp;warning:</li>
-<li>pluma-document.c: Fix build&nbsp;warning:</li>
-<li>pluma-window: have GtkRecentData on stack instead of allocating&nbsp;it</li>
-<li>WidthOfScreen and HeightOfScreen&nbsp;implementation</li>
-<li>Fixes for regexp replacement with backreferences&nbsp;(e.g. <code>"\0"</code>)</li>
-<li>pluma-view.c: use one static variable instead two to do the same&nbsp;job</li>
-<li>make sure pluma open in the same window of the&nbsp;workspace</li>
-<li>Fix: pluma closes tabs unexpectedly with [right + middle] click <kbd>ctrl</kbd> + <kbd>+</kbd> / <kbd>ctrl</kbd> + <kbd>-</kbd> using the numeric&nbsp;keypad</li>
-<li>add gsettings key: Show save confirmation if the files have&nbsp;changes</li>
-<li>Fix: wrong behavior holding down [middle + right] click <kbd>ctrl</kbd> + <kbd>+</kbd> / <kbd>ctrl</kbd> + <kbd>-</kbd> to increase/decrease font&nbsp;size</li>
-<li>don&#8217;t request to save documents with no&nbsp;changes</li>
-<li>add gsettings key to hide/show(default) tabs with the side&nbsp;pane</li>
-<li>Hide tabs if we are using the&nbsp;sidebar</li>
-<li>gtk 3.22: avoid&nbsp;deprecated <code>gdk_screen_get_monitor</code> functions:</li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_get_width/height</code>
+<li>posizionato <code>peas_engine_enable_loader</code> nel posto&nbsp;corretto</li>
+<li>Risolto: fatto funzionare di nuovo l&#8217;elenco dei file utilizzati di&nbsp;recente</li>
+<li>eliminate le variabili non&nbsp;utilizzate</li>
+<li>pluma-spell-checker-language.c:risolto un warning in&nbsp;compilazione:</li>
+<li>pluma.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>pluma-document.c: Risolto un warning in&nbsp;compilazione:</li>
+<li>pluma-window: posizionato GtkRecentData sullo stack invece di&nbsp;allocarlo</li>
+<li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
+<li>Risolte le sostituzioni nelle espressioni regolari con backreferences&nbsp;(es. <code>"\0"</code>)</li>
+<li>pluma-view.c: utilizzata una variabile statica invece di due per effettuare lo stesso&nbsp;lavoro</li>
+<li>fatto in modo che pluma apra nella stessa finestra dello spazio di&nbsp;lavoro</li>
+<li>Risolto: il problema di pluma che chiude inaspettatamente le schede con clic [destro + centrale] <kbd>ctrl</kbd> + <kbd>+</kbd> / <kbd>ctrl</kbd> + <kbd>-</kbd> utilizzando il tastierino&nbsp;numerico</li>
+<li>aggiunta una chiave gsettings: Mostrare la conferma del salvataggio se il file è stato&nbsp;modificato</li>
+<li>Risolto: errato comportamento tenendo premuto il tasto [centrale + destro] <kbd>ctrl</kbd> + <kbd>+</kbd> / <kbd>ctrl</kbd> + <kbd>-</kbd> per incrementare/diminuire la dimensione del&nbsp;font</li>
+<li>non richiesto più il salvataggio di file senza&nbsp;modifiche</li>
+<li>aggiunta una chiave gsettings per nascondere/mostrare(predefinito) le schede con il pannello&nbsp;laterale</li>
+<li>Nascondere le schede se stiamo utilizzando la barra&nbsp;laterale</li>
+<li>gtk 3.22: eliminate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>:</li>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_screen_make_display_name</code>
+<li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
 </li>
-<li>pluma-help: don&#8217;t&nbsp;use <code>deprecated gtk_show_uri</code>
+<li>pluma-help: non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>filebrowser: don&#8217;t&nbsp;use <code>deprecated gtk_show_uri</code>
+<li>filebrowser non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
-<li>avoid&nbsp;deprecated <code>gdk_display_get_screen</code> and <code>gdk_screen_get_number</code>
+<li>evitate le&nbsp;deprecate <code>gdk_display_get_screen</code> e <code>gdk_screen_get_number</code>
 </li>
-<li>enable the abbility to save the document if it was changed&nbsp;externally</li>
-<li>disable the abbility to save the document if it has no&nbsp;changes</li>
-<li>print-preferences <span class="caps">UI</span>: fix some basic&nbsp;deprecations</li>
-<li>encoding-dialog <span class="caps">UI</span>: fix some basic&nbsp;deprecations</li>
-<li>preferences-dialog <span class="caps">UI</span>: fix some basic&nbsp;deprecations</li>
-<li>pluma-panel: remove  deprecated GtkImage&nbsp;types</li>
-<li>plumal-panel: remove some GtkStock&nbsp;deprecations</li>
-<li>search-dialogs: fix a -Wpointer-compare&nbsp;warning</li>
-<li>tag-list-plugin: avoid deprecated&nbsp;GtkStock</li>
-<li>file-browser-widget: fix one stock&nbsp;deprecation</li>
-<li>configure:&nbsp;drop <code>GLIB_VERSION_MAX_ALLOWED</code>
+<li>attivata la possibilità di salvare il documento se è stato modificato&nbsp;dall&#8217;esterno</li>
+<li>disattivata la possibilità di salvare il documento se non ha&nbsp;modifiche</li>
+<li>print-preferences <span class="caps">UI</span>: risolte alcune deprecazioni&nbsp;basilari</li>
+<li>encoding-dialog <span class="caps">UI</span>: risolte alcune deprecazioni&nbsp;basilari</li>
+<li>preferences-dialog <span class="caps">UI</span>: risolte alcune deprecazioni&nbsp;basilari</li>
+<li>pluma-panel: rimossi i tipi deprecati&nbsp;GtkImage</li>
+<li>plumal-panel: rimosse alcune deprecazioni&nbsp;GtkStock</li>
+<li>search-dialogs: risolto un warning&nbsp;-Wpointer-compare</li>
+<li>tag-list-plugin: evitata la deprecata&nbsp;GtkStock</li>
+<li>file-browser-widget:risolta una deprecazione di&nbsp;stock</li>
+<li>configure:&nbsp;eliminato <code>GLIB_VERSION_MAX_ALLOWED</code>
 </li>
-<li>File browser: don&#8217;t use GIOScheduler&nbsp;(deprecated)</li>
-<li>file-browser-view: silent some build&nbsp;warnings</li>
-<li>pluma-view: avoid GtkStock&nbsp;deprecations</li>
-<li>pluma-tab: replace some GtkStock&nbsp;icons</li>
-<li>pluma-notebook: don&#8217;t use&nbsp;deprecated <code>gdk_cursor_new</code>
+<li>File browser: non utilizza più GIOScheduler&nbsp;(deprecato)</li>
+<li>file-browser-view: silenziati alcuni warning di&nbsp;compilazione</li>
+<li>pluma-view: evitate le deprecazioni di&nbsp;GtkStock</li>
+<li>pluma-tab: sostituite alcune icone di&nbsp;GtkStock</li>
+<li>pluma-notebook: non utilizzare la&nbsp;deprecata <code>gdk_cursor_new</code>
 </li>
-<li>progress-message-area: fix one GtkStock&nbsp;deprecation</li>
-<li>io-error-message-dialog: fix some GtkStock deprecation&nbsp;warnings</li>
-<li>Fix: pluma closes tabs unexpectedly with middle&nbsp;click</li>
-<li>pluma-notebook.c: fix a build&nbsp;warning</li>
-<li>double click to the right of the last open tab to open a new&nbsp;tab</li>
-<li>Support new location of gtk bookmarks&nbsp;file</li>
-<li>docs: we have encodings combobox, not option&nbsp;menu</li>
-<li>remove references to&nbsp;PlumaStatus</li>
-<li>docs: remove some references to nonexistent&nbsp;stuff</li>
-<li>filebrowser: don&#8217;t parse .hidden files - <span class="caps">GIO</span> does it since&nbsp;2.36</li>
-<li>close confirm dialog: enable selection + disable focus in all&nbsp;labels</li>
-<li>close confirm dialog: set max width for&nbsp;labels</li>
-<li>fix typo in code&nbsp;comments</li>
-<li>fix running under&nbsp;wayland</li>
-<li>modelines: fix random crash on closing one of several Pluma&nbsp;windows</li>
-<li>Translations&nbsp;update</li>
+<li>progress-message-area: risolta una deprecazione&nbsp;GtkStock</li>
+<li>io-error-message-dialog: risolti alcuni warning di deprecazione di&nbsp;GtkStock</li>
+<li>Risolto: pluma chiude le schede inaspettatamente con il clic del tasto centrale del&nbsp;mouse</li>
+<li>pluma-notebook.c: risolto un warning in&nbsp;compilazione</li>
+<li>doppio clic a destra dell&#8217;ultima scheda aperta per aprirne una&nbsp;nuova</li>
+<li>Supporto per nuove posizioni per il file dei segnalibri di&nbsp;gtk</li>
+<li>docs: abbiamo codifiche combobox, non menù&nbsp;opzioni</li>
+<li>rimossi i riferimenti a&nbsp;PlumaStatus</li>
+<li>docs: rimossi alcuni riferimenti a materiale&nbsp;inesistente</li>
+<li>non analizzare manualmente i file .hidden - <span class="caps">GIO</span> lo fa sin dalla&nbsp;2.36</li>
+<li>chiudere la finestra di dialogo di conferma: abilitare la selezione + disabilitare il focus in tutte le&nbsp;etichette</li>
+<li>chiudere la finestra di dialogo di conferma: impostata la dimensione massima per le&nbsp;etichette</li>
+<li>corretto un errore di battitura nei commenti al&nbsp;codice</li>
+<li>corretta l&#8217;esecuzione sotto&nbsp;wayland</li>
+<li>modelines: risolto un crash casuale alla chiusura di una delle diverse finestre aperte di&nbsp;Pluma</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>python-caja&nbsp;1.20.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
+<li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 </div>
     </div>
@@ -6692,7 +6714,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.18. Vorremmo ringraziare
 <h3>Cosa c&#8217;è di nuovo in <span class="caps">MATE</span>&nbsp;1.18</h3>
 <p>Questo rilascio è focalizzato a completare la migrazione a <span class="caps">GTK3</span>+ e
 ad adottare nuove tecnologie per sostituire alcuni dei componenti deprecati
-su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
+su cui <span class="caps">MATE</span> Desktop 1.16 era ancora&nbsp;basato.</p>
 <p>I principali cambiamenti in <span class="caps">MATE</span> Desktop 1.18&nbsp;sono:</p>
 <ul>
 <li>
@@ -6761,12 +6783,12 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 <p>Segue una analisi più dettagliata di ciò che è&nbsp;cambiato.</p>
 <h4>mate-common&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 </ul>
 <h4>mate-desktop&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
     opzione di&nbsp;compilazione</li>
@@ -6783,13 +6805,13 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-user-guide&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>libmatekbd&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
     l&#8217;opzione di compilazione&nbsp;&#8212;with-gtk</li>
@@ -6797,13 +6819,13 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>libmatemixer&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>libmateweather&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
     l&#8217;opzione di compilazione&nbsp;&#8212;with-gtk</li>
@@ -6821,7 +6843,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>caja&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazionde: richiede libmate-desktop &gt;=&nbsp;1.17.3</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
@@ -6845,14 +6867,14 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-polkit&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Risolte alcune deprecazioni di&nbsp;<span class="caps">GTK</span>+</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>marco&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
     come opzione di&nbsp;compilazione</li>
@@ -6866,7 +6888,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-settings-daemon&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesta di XInput senza&nbsp;condizioni</li>
 <li>Compilazione: richiesti libmatemixer &gt;= 1.10, libxklavier &gt;= 5.2, dconf &gt;=&nbsp;0.13</li>
@@ -6882,7 +6904,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-session-manager&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Sostituite le funzioni deprecate sospendi/iberna&nbsp;di <code>upower</code> con gli equivalenti di ConsoleKit2
     (ed eliminata l&#8217;opzione di compilazione&nbsp;&#8212;enable-upower)</li>
@@ -6890,13 +6912,13 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-desktop&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-panel&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiesti libmate-menu &gt;= 1.10 e dconf &gt;=&nbsp;0.13.4</li>
 <li>Compilazione: richiesti libmateweather e libmate-desktop &gt;=&nbsp;1.17</li>
@@ -6917,7 +6939,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-notification-daemon&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Implementato il supporto per le icone di azione (es. le icone di controllo della riproduzione
     utilizzati dai riproduttori&nbsp;multimediali)</li>
@@ -6926,7 +6948,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-control-center&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesti libmatekbd, libmate-desktop, marco, m-s-d &gt;=&nbsp;1.17</li>
 <li>Compilazione: richiesta di XCursor e XInput senza&nbsp;condizioni</li>
@@ -6945,7 +6967,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-screensaver&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesto libmate-menu &gt;=&nbsp;1.10</li>
 <li>Compilazione: richiesti libmatekbd e libmate-desktop &gt;=&nbsp;1.17</li>
@@ -6957,7 +6979,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-media&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesti libmatemixer &gt;= 1.10 e libmate-desktop &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
@@ -6968,7 +6990,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-power-manager&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiede xproto &gt;=&nbsp;7.0.15</li>
 <li>Compilazione: richiesto mate-panel &gt;=&nbsp;1.17</li>
@@ -6983,7 +7005,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-system-monitor&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiunto il supporto&nbsp;a <code>pkexec</code> per&nbsp;utilizzare <code>kill</code> e <code>renice</code> sui processi di altri
     utenti e tentare di usarlo prima di&nbsp;provare <code>gksu</code>
@@ -6993,7 +7015,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>atril&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesto caja &gt;=&nbsp;1.17.1</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
@@ -7009,13 +7031,13 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>caja-dropbox&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesti libcaja-extension 1.17.1 e GLib&nbsp;2.36</li>
 </ul>
 <h4>caja-extensions&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesti caja &gt;= 1.17.1 e libmate-desktop &gt;=&nbsp;1.17.0</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
@@ -7028,7 +7050,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 <li>Verifica la versione rar/unrar per usare il nuovo stile di data con tutte le&nbsp;versioni</li>
 <li>Correzione: l&#8217;elenco dei file rar, con il nuovo file binario, adesso mostra la data&nbsp;corretta</li>
 <li>Correzione: apertura del primo volume 7z suddiviso dopo la&nbsp;compressione</li>
-<li>Corretto un errore in <span class="caps">NOTIZIE</span>: engrampa al posto di&nbsp;engramp</li>
+<li>Corretto un errore in <span class="caps">NEWS</span>: engrampa al posto di&nbsp;engramp</li>
 <li>Correzione: compressione rar suddivisa in&nbsp;volumi</li>
 <li>Correzione: compressione 7z suddivisa in&nbsp;volumi</li>
 <li>Compilazione rimossa l&#8217;opzione che disabilita il codice&nbsp;deprecato</li>
@@ -7045,7 +7067,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>eom&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiesto libmate-desktop &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
@@ -7057,7 +7079,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-applets&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiesti libmateweather e mate-panel &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
@@ -7078,7 +7100,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-indicator-applet&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: mostra lo stato del supporto del nuovo indicatore di stile nel&nbsp;sommario</li>
 <li>Compilazione: richiesto mate-panel &gt;=&nbsp;1.17</li>
@@ -7088,7 +7110,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-netbook&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiesto mate-panel &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
@@ -7097,7 +7119,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-sensors-applet&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Compilazione: richiesto mate-panel &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
@@ -7108,14 +7130,14 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-terminal&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiunta la funzionalità di chiudere le schede con il clic del tasto centrale del&nbsp;mouse.</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-user-share&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio</li>
 <li>Compilazione: richiesto caja &gt;=&nbsp;1.17.1</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e rimosso &#8212;with-gtk
@@ -7123,7 +7145,7 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mate-utils&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Build: require mate-panel &gt;=&nbsp;1.17</li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
@@ -7134,13 +7156,13 @@ su cui <span class="caps">MATE</span> desktop 1.16 era ancora&nbsp;basato.</p>
 </ul>
 <h4>mozo&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>pluma&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NOTIZIA</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+<li><span class="caps">NEWS</span>: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di&nbsp;rilascio </li>
 <li>migrazione a <span class="caps">GTK</span>+3 (richiesto <span class="caps">GTK</span>+ &gt;= 3.14), rimosso il codice <span class="caps">GTK</span>+2 e
     l&#8217;opzione di compilazione&nbsp;&#8212;with-gtk</li>
@@ -8244,7 +8266,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "af7092d92afb"],
+    texts : ["Preview Website", "MATE Desktop", "defba2de6375"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
