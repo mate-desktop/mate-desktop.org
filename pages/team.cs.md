@@ -117,7 +117,6 @@ MATE je přeloženo nebo částečně přeloženo do 140 jazyků.
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-
 ## Dřívější přispěvatelé
 
 ### ![](/assets/img/flags/32/USA.png) Adam Bickley ([bickman2k](https://github.com/bickman2k))
@@ -138,7 +137,7 @@ Balení pro Arch Linux.
 
 ### ![](/assets/img/flags/32/USA.png) Joseph Krieger ([RowenStipe](https://github.com/RowenStipe))
 
-Artwork & design. ([Details](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
+Umělecká díla a design.
 
 ### ![](/assets/img/flags/32/Portugal.png) Nelson Marques
 
@@ -150,17 +149,15 @@ Balení pro openSUSE.
 
 ### ![](/assets/img/flags/32/Canada.png) Scott Balneaves ([sbalneav](https://github.com/sbalneav))
 
-Vývoj. ([Podrobnosti](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+Vývoj.
 
 ### ![](/assets/img/flags/32/Netherlands.png) Sander Sweers ([infirit](https://github.com/infirit))
 
 Vývoj.
 
-### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
+### ![](/assets/img/flags/32/Egypt.png) Jasmine Hassan
 
 Vývoj.
-
-
 
 <small>
 Vlaječky použité na této stránce poskytl <http://www.icondrawer.com>.

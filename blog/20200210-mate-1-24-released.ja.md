@@ -186,7 +186,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 
 完全な変更点は次のとおりです <https://github.com/mate-desktop/libmatemixer/commits/master/>
 
-### libmateweather
+### お天気 MATE
 * 場所: Lleida–Alguaire Airport weather station を追加
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析、非推奨警告の修正
 * 場所: ロシアの Rostov-on-Don 気象台の変更

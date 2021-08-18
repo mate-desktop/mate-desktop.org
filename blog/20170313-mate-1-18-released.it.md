@@ -17,7 +17,7 @@ il rilascio di MATE Desktop 1.18. Vorremmo ringraziare ogni collaboratore MATE p
 
 Questo rilascio è focalizzato a completare la migrazione a GTK3+ e
 ad adottare nuove tecnologie per sostituire alcuni dei componenti deprecati
-su cui MATE desktop 1.16 era ancora basato.
+su cui MATE Desktop 1.16 era ancora basato.
 
 I principali cambiamenti in MATE Desktop 1.18 sono:
 
@@ -64,12 +64,12 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-common 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
 
 ### mate-desktop 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
     opzione di compilazione
@@ -86,13 +86,13 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-user-guide 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiornate le traduzioni
 
 ### libmatekbd 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
     l'opzione di compilazione --with-gtk
@@ -100,13 +100,13 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### libmatemixer 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiornate le traduzioni
 
 ### libmateweather 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
     l'opzione di compilazione --with-gtk
@@ -124,7 +124,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### caja 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazionde: richiede libmate-desktop >= 1.17.3
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
@@ -149,14 +149,14 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-polkit 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Risolte alcune deprecazioni di GTK+
   * Aggiornate le traduzioni
 
 ### marco 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
     come opzione di compilazione
@@ -170,7 +170,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-settings-daemon 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesta di XInput senza condizioni
   * Compilazione: richiesti libmatemixer >= 1.10, libxklavier >= 5.2, dconf >= 0.13
@@ -186,7 +186,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-session-manager 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Sostituite le funzioni deprecate sospendi/iberna di `upower` con gli equivalenti di ConsoleKit2
     (ed eliminata l'opzione di compilazione  --enable-upower)
@@ -194,13 +194,13 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-desktop 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiornate le traduzioni
 
 ### mate-panel 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiesti libmate-menu >= 1.10 e dconf >= 0.13.4
   * Compilazione: richiesti libmateweather e libmate-desktop >= 1.17
@@ -222,7 +222,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-notification-daemon 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Implementato il supporto per le icone di azione (es. le icone di controllo della riproduzione
     utilizzati dai riproduttori multimediali)
@@ -231,7 +231,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-control-center 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesti libmatekbd, libmate-desktop, marco, m-s-d >= 1.17
   * Compilazione: richiesta di XCursor e XInput senza condizioni
@@ -250,7 +250,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-screensaver 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesto libmate-menu >= 1.10
   * Compilazione: richiesti libmatekbd e libmate-desktop >= 1.17
@@ -262,7 +262,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-media 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesti libmatemixer >= 1.10 e libmate-desktop >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
@@ -273,7 +273,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-power-manager 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiede xproto >= 7.0.15
   * Compilazione: richiesto mate-panel >= 1.17
@@ -288,7 +288,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-system-monitor 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiunto il supporto a `pkexec` per utilizzare `kill` e `renice` sui processi di altri
     utenti e tentare di usarlo prima di provare `gksu`
@@ -297,7 +297,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### atril 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesto caja >= 1.17.1
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
@@ -313,13 +313,13 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### caja-dropbox 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesti libcaja-extension 1.17.1 e GLib 2.36
 
 ### caja-extensions 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesti caja >= 1.17.1 e libmate-desktop >= 1.17.0
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
@@ -332,7 +332,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
   * Verifica la versione rar/unrar per usare il nuovo stile di data con tutte le versioni
   * Correzione: l'elenco dei file rar, con il nuovo file binario, adesso mostra la data corretta
   * Correzione: apertura del primo volume 7z suddiviso dopo la compressione
-  * Corretto un errore in NOTIZIE: engrampa al posto di engramp
+  * Corretto un errore in NEWS: engrampa al posto di engramp
   * Correzione: compressione rar suddivisa in volumi
   * Correzione: compressione 7z suddivisa in volumi
   * Compilazione rimossa l'opzione che disabilita il codice deprecato
@@ -349,7 +349,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### eom 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiesto libmate-desktop >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
@@ -361,7 +361,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-applets 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiesti libmateweather e mate-panel >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
@@ -382,7 +382,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-indicator-applet 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: mostra lo stato del supporto del nuovo indicatore di stile nel sommario
   * Compilazione: richiesto mate-panel >= 1.17
@@ -392,7 +392,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-netbook 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiesto mate-panel >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
@@ -401,7 +401,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-sensors-applet 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Compilazione: richiesto mate-panel >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
@@ -412,14 +412,14 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-terminal 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiunta la funzionalità di chiudere le schede con il clic del tasto centrale del mouse.
   * Aggiornate le traduzioni
 
 ### mate-user-share 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio
   * Compilazione: richiesto caja >= 1.17.1
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e rimosso --with-gtk
@@ -427,7 +427,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mate-utils 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Build: require mate-panel >= 1.17
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
@@ -438,13 +438,13 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### mozo 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * Aggiornate le traduzioni
 
 ### pluma 1.18.0
 
-  * NOTIZIA: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
+  * NEWS: utilizzo consistente, esteso a tutto il progetto, della formattazione tipo-markdown
     Per rendere più semplice la creazione dei comunicati degli annunci di rilascio 
   * migrazione a GTK+3 (richiesto GTK+ >= 3.14), rimosso il codice GTK+2 e
     l'opzione di compilazione --with-gtk

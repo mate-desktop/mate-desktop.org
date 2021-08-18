@@ -3,7 +3,7 @@
 .. description: MATE Desktop collaborates with Blueman project.
 .. tags: Blueman,BlueZ,Bluetooth,News
 .. date: 2014/03/11 07:45:00
-.. title: MATE デスクトップは BlueZ を歌っています
+.. title: MATE デスクトップは BlueZ を歌います
 .. slug: 2014-03-11-mate-desktop-singing-the-bluez
 .. author: Martin Wimpress
 -->

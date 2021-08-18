@@ -39,7 +39,7 @@ MATE コミュニティと連携するには、さまざまな方法がありま
 
   * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
-いくつかの IRC チャンネルが利用出来ます。詳細については、[IRC wiki ページ](https://wiki.mate-desktop.org/introduction/contributing/)をご覧ください。
+いくつかの IRC チャンネルを用意しています。詳細は [IRC wiki ページ](https://wiki.mate-desktop.org/introduction/contributing/) でご覧いただけます。
 
 ## プラネット
 

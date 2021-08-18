@@ -3,17 +3,17 @@
 .. slug: index
 .. date: 2013-10-31 12:29:57
 .. tags: About,Applications,Screenshots
-.. link: 
+.. link:
 .. description:
 -->
 
-Pracovní prostředí MATE je pokračováním prosředí GNOME 2. Poskytuje
+Pracovní prostředí MATE je pokračováním prostředí GNOME 2. Poskytuje
 intuitivní a atraktivní desktopové prostředí využívající tradiční
 metafory pro Linux a další unixové operační systémy.
 
-MATE je v aktivním vývoji, aby přidalo podporu pro nové technologie
-při zachování tradičního konceptu pracovního prostředí. Viz 
-[Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md).
+MATE je v aktivním vývoji, aby přineslo podporu pro nové technologie
+při zachování tradičního desktopového zážitku. Více viz 
+[Plán vývoje](https://wiki.mate-desktop.org/developers-corner/roadmap/). 
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -22,7 +22,7 @@ Další [snímky obrazovky s MATE](gallery/1.22/).
 Novinky
 =======
 
-{{% post-list lang="en" stop=5 %}}{{% /post-list %}}
+{{% post-list lang="cs" stop=5 %}}{{% /post-list %}}
 
 Příspěvky na blogu jsou také indexovány podle [štítků](tags/) a [archivovány
 podle data](archive/). Můžete se také podívat na [Planetu
@@ -79,7 +79,7 @@ Můžete také [vyhledat prostřednictvím DistroWatch.com, které všechny dist
 podporují MATE](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
 
 Komunita MATE zdokumentovala, jak nainstalovat MATE na mnoho
-distribucí v [pokynech k instalaci](https://wiki.mate-desktop.org/#!pages/download.md).
+distribucí v [v pokynech k instalaci](https://wiki.mate-desktop.org/introduction/installation/). 
 
 Aplikace
 ========

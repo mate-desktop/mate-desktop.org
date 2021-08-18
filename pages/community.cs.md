@@ -16,7 +16,7 @@ v komunitě.
 Na naší wiki najdete spoustu užitečných materiálů, ale také vás povzbuzujeme,
 abyste ji pomohli vylepšit. 
 
-  * <https://wiki.mate-desktop.org/#!index.md>
+  * <https://wiki.mate-desktop.org/>
 
 ## Fóra
 
@@ -34,7 +34,7 @@ Pokud neposíláte e-maily, také tomu rozumíme. Přijďte se připojit na jedn
 
 Jste společenský typ? 
 
-  * [MATE Twitter profil](https://twitter.com/mate_desktop) 
+  * [MATE Twitter Profile](https://twitter.com/mate_desktop)
 
 ## IRC
 
@@ -43,7 +43,7 @@ Jste internetový guru. Máme vás pokryté, pojďte a připojte se k nám na IR
   * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
 K dispozici je několik IRC kanálů. Všechny podrobnosti najdete na
-naší [IRC wiki stránce](https://wiki.mate-desktop.org/#!pages/irc.md).
+naší [IRC wiki stránce](https://wiki.mate-desktop.org/introduction/contributing/). 
 
 ## Planet
 

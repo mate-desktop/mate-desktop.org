@@ -3,14 +3,14 @@
 .. slug: index
 .. date: 2013-10-31 12:29:57
 .. tags: About,Applications,Screenshots
-.. link: 
+.. link:
 .. description:
 -->
 
 MATE デスクトップ環境は GNOME 2 開発の延長線上にあります。Linux や他の Unix ライクな OS 向けの伝統的な手法を用いた、直感的で魅力的なデスクトップ環境を提供します。
 
 MATE は、従来のデスクトップ体験を維持しながらも、新しい技術をサポートするために積極的な開発を行っています。
-[ロードマップ](https://wiki.mate-desktop.org/#!pages/roadmap.md) をご覧ください。
+[ロードマップ](https://wiki.mate-desktop.org/developers-corner/roadmap/) をご覧ください。
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -69,7 +69,7 @@ UNIX の方がお気に入りですか？
 
 [MATE をサポートするすべてのディストリビューションは DistroWatch.com で調べる](https://distrowatch.org/search.php?desktop=MATE#distrosearch) こともできます。
 
-MATEコミュニティでは、多くのディストリビューションへ MATE をインストールする方法を[インストールガイドライン](https://wiki.mate-desktop.org/#!pages/download.md) に記載しています。
+MATE コミュニティは、多数のディストリビューションへの MATE のインストール方法を[インストールガイドライン](https://wiki.mate-desktop.org/introduction/installation/) の中で説明しています。
 
 各種アプリケーション
 ============
@@ -121,6 +121,6 @@ MATE 端末は、MATE環境で UNIX シェルにアクセスするために使�
 MATE という名前の由来は何ですか？
 ==============================
 
-*\"MATE\"* という名前は、*Ma-Tay* と発音し、[yerba maté](https://en.wikipedia.org/wiki/Yerba_mate)、亜熱帯の南米原産のヒイラギの一種に由来しています。葉にはカフェインが含まれていて、マテと呼ばれる飲み物や浸出液を作るのに使われます。
+*\"MATE\"* という名前は、*Ma-Tay* と発音し、亜熱帯の南米原産でモチノキ科の一種である、[イェルバマテ](https://en.wikipedia.org/wiki/Yerba_mate)に由来しています。葉にはカフェインが含まれていて、マテと呼ばれる飲み物や浸出液を作るのに使われます。
 
 ![image](/assets/img/mate/yerba.jpg){.align-center}
