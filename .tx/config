@@ -522,12 +522,12 @@ trans.sr_LATIN = blog/20200210-mate-1-24-released.sr_latin.md
 file_format = GITHUBMARKDOWN
 source_lang = en
 minimum_perc = 100
-source_file = blog/20200210-mate-1-26-released.md
-file_filter = blog/20200210-mate-1-26-released.<lang>.md
-trans.zh_CN = blog/20200210-mate-1-26-released.zh_cn.md
-trans.zh_TW = blog/20200210-mate-1-26-released.zh_tw.md
-trans.pt_BR = blog/20200210-mate-1-26-released.pt_br.md
-trans.sr_LATIN = blog/20200210-mate-1-26-released.sr_latin.md
+source_file = blog/20210808-mate-1-26-released.md
+file_filter = blog/20210808-mate-1-26-released.<lang>.md
+trans.zh_CN = blog/20210808-mate-1-26-released.zh_cn.md
+trans.zh_TW = blog/20210808-mate-1-26-released.zh_tw.md
+trans.pt_BR = blog/20210808-mate-1-26-released.pt_br.md
+trans.sr_LATIN = blog/20210808-mate-1-26-released.sr_latin.md
 
 [mate-desktop-website.pages-backgrounds-md--master]
 file_format = GITHUBMARKDOWN
