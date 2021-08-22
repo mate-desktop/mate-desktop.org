@@ -265,7 +265,7 @@ NAVIGATION_LINKS = {
     "ja": (
         ('/ja/blog/', 'ブログ記事'),
         ('/ja/install/', 'インストール'),
-        ('/ja/gallery/1.24/english/', 'スクリーンショット'),
+        ('/ja/gallery/1.24/japanese/', 'スクリーンショット'),
         ('/ja/development/', 'ソフトウェア開発'),
         ('/ja/community/', 'コミュニティ'),
         ('/ja/team/', 'チーム'),
