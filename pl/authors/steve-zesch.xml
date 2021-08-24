@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 18 Aug 2021 20:24:31 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/pl/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presents at openSUSE conference</title><link>https://preview.mate-desktop.dev/pl/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;On July 20th 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; presented his
 talk on MATE at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
 &lt;p&gt;The talk introduces MATE to those who haven't heard of it, explains the reasons for
 creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
@@ -33,10 +33,11 @@ guide for Fedora&lt;/a&gt;.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
 for help in our &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/pl/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;An &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
-is now available for our 1.4 release. As usual, follow &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you're upgrading from an older release please make sure that you remove the old
-repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/pl/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
+or for general MATE questions join us in &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>MATE package repository for Ubuntu Quantal</title><link>https://preview.mate-desktop.dev/pl/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Repozytorium pakietów &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt; dla Ubuntu 12.10 Quantal Quetzal
+jest już dostępne dla wydania 1.4. Jak zwykle postępuj zgodnie z &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;tymi instrukcjami&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jeśli aktualizujesz ze starszej wersji, upewnij się, że usunąłeś stare
+repozytoria i dodawaj nowe, w przeciwnym razie możesz napotkać problemy.
+ &lt;/p&gt;&lt;/div&gt;</description><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/pl/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/pl/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://i.imgur.com/V5ab0.png"&gt;&lt;/p&gt;
 &lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
 &lt;ul&gt;
