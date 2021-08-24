@@ -518,7 +518,7 @@ trans.zh_TW = blog/20200210-mate-1-24-released.zh_tw.md
 trans.pt_BR = blog/20200210-mate-1-24-released.pt_br.md
 trans.sr_LATIN = blog/20200210-mate-1-24-released.sr_latin.md
 
-[mate-desktop-website.blog-20210808-mate-1-26-released.md--master]
+[mate-desktop-website.blog-20210808-mate-1-26-released-md--master]
 file_format = GITHUBMARKDOWN
 source_lang = en
 minimum_perc = 100
