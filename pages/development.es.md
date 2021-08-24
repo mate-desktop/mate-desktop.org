@@ -28,14 +28,15 @@ Puedes navegar el código con cgit aquí también:
 
   * <https://git.mate-desktop.org>
 
-## Información
+## Recursos
 
  Otros enlaces útiles:
 
-  * [MATE University](/blog/2013-03-12-mate-university/)
-  * [MATE Development](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
-  * [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
-  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
-  * <https://wiki.mate-desktop.org/#!pages/translation.md>
+  * [Contribuir con MATE](https://wiki.mate-desktop.org/introduction/contributing/)
+  * [Arte y Temas de MATE](https://wiki.mate-desktop.org/contributing/artwork-and-themes/getting-started/)
+  * [Desarrollo de Software de MATE](https://wiki.mate-desktop.org/contributing/software-development/getting-started/)
+  * [Traducción de MATE](https://wiki.mate-desktop.org/contributing/translation/getting-started/)
+  * [Hoja de ruta de MATE](https://wiki.mate-desktop.org/developers-corner/roadmap/)
+  * [MATE Wayland y Meson](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
 
-¡No vaciles en colaborar y divertirte mejorando a MATE!
+¡No dudes en contribuir y divertirte mejorando MATE! 

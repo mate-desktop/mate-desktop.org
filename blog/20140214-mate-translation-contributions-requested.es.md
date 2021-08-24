@@ -2,7 +2,7 @@
 .. description:
 .. tags: News,i18n
 .. date: 2014/02/14 12:51:31
-.. title: MATE translation contributions requested
+.. title: Solicitud de contribuciones de traducción de MATE
 .. slug: 2014-02-14-mate-translation-contributions-requested
 .. author: Martin Wimpress
 -->

@@ -1,14 +1,14 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags:
 .. date: 2012-04-17 06:32:31
-.. title: Instalación
+.. title: Instalar
 .. slug: install
 -->
 
-La comunidad de MATE ha documentado como instalar MATE en varias distribuciones,
-por favor siga la [guía de instalación](https://wiki.mate-desktop.org/#!pages/download.md).
+La comunidad MATE ha documentado cómo instalar MATE en muchas distribuciones,
+por favor siga las [normas de instalación](https://wiki.mate-desktop.org/introduction/installation/).
 
 Si eres un empaquetador de distribución y quieres lanzar tus propios archivos,
-entonce ve a nuesta página de [desarrollo](/development/).
+entonces ve a nuestra página de [desarrollo](/development/).

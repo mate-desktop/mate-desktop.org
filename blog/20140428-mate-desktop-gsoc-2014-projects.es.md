@@ -34,4 +34,5 @@ En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimie
 gratitud a [openSUSE](https://www.opensuse.org) quienes son nuestros organizadores
 de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
 para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
-
+2014. Hicieron un trabajo fantástico al ayudar a asegurar estas ubicaciones de GSoC para el 
+equipo de MATE que proporcionará recursos de desarrollo muy necesarios para el proyecto.
