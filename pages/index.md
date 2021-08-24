@@ -17,7 +17,7 @@ while preserving a traditional desktop experience. See the
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-You can find more [screenshots of MATE](gallery/1.22/).
+You can find more [screenshots of MATE](gallery/).
 
 News
 ====
