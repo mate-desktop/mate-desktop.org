@@ -10,7 +10,7 @@
 
 This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this happen.
 
-![MATE About dialog](/assets/img/blog/about-mate-1.26.png)
+![MATE About dialog](/assets/img/blog/about-mate-1.26.ja.png)
 
 ## What's new in MATE 1.26
 
