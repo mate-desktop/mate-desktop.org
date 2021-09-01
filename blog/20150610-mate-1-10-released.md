@@ -217,7 +217,7 @@ and OSS sound systems.
   * Added ini file for Caja extension
   * Added appdata file
   * Implemented `document_links_find_link_page()` in the PDF backend
-  * Implemented document_links_find_link_page()` in the djvu backend
+  * Implemented `document_links_find_link_page()` in the djvu backend
   * Migrated to `find_link_page()` instead of `find_link_dest()` in `get_dest_page()`
   * Fixed remembering the current page when document is reloaded in presentation mode
   * Fixed resolving named destinations in the PDF backend
