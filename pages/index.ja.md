@@ -14,7 +14,7 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-[MATEのスクリーンショット](gallery/1.22/) を多数用意しています。
+[MATE のスクリーンショット](gallery/) を多数用意しています。
 
 ニュース
 ====

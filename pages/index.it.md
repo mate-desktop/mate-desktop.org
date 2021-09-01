@@ -17,7 +17,7 @@ Si consulti la [Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-Puoi trovare altri [screenshot di MATE](gallery/1.22/).
+Potete trovare altri [screenshot di MATE](gallery/).
 
 Novità
 ======
