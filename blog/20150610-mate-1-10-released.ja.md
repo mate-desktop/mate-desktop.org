@@ -213,7 +213,7 @@ MATE 1.10 の各種コンポーネントは、次の場所からダウンロー�
   * Caja 拡張機能に ini ファイルを追加
   * appdata ファイルを追加
   * PDF バックエンドに `document_links_find_link_page()` を実装
-  * djvu バックエンドに document_links_find_link_page()` を実装
+  * djvu バックエンドに `document_links_find_link_page()` を実装
   * `get_dest_page()` の `find_link_dest()` ではなく `find_link_page()` へ移行
   * プレゼンテーションモードで文書を再読み込みする時、現在のページを記憶する不具合を修正
   * PDF バックエンド内の名前付き宛先解決の問題を修正

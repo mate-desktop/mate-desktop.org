@@ -10,7 +10,7 @@
 
 今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。
 
-![MATE About dialog](/assets/img/blog/about-mate-1.26.png)
+![MATE About dialog](/assets/img/blog/about-mate-1.26.ja.png)
 
 ## MATE 1.26 で新しくなったこと
 
@@ -54,7 +54,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 詳細は以下のとおりです。
 
-### Atril
+### Atril 文書ビューア
 * ヘルプは完全に書き直されました (TeX ファイルを大量に作成する場合は、必ず新しい synctex のセクションを参照してください)
 * ev-window.c: EvWebView は必要な場合のみ作成されます
 * ev-sidebar-links: ページの逆リンク検索を最適化 (サイドバーのリンクの非常に低速な線形検索が、特別なバイナリツリー内の検索に置き換えられました)
@@ -68,7 +68,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 完全な変更点は次のとおりです: <https://github.com/mate-desktop/atril/commits/master/>
 
-### Caja
+### Caja ファイルマネージャ
 * 作成時刻の情報をリストの列に追加できるようになりました。
 * デスクトップ上でアイコンのロック位置をブロックする設定を追加
 * ドラッグ＆ドロップ時のファイルシステムのチェック機能向上
@@ -120,7 +120,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 完全な変更点は次にあります：<https://github.com/mate-desktop/engrampa/commits/master/>
 
-### eom
+### eom 画像ビューア
 * ui ファイルのアップグレード
 * 画像を移動するためにドラッグした時スクロールバーが確実に移動するようにしました
 * ダイアログウィンドウでのタブスクロールのサポートを追加
@@ -134,13 +134,13 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * キーボードレイアウト表示のキー名のフォントサイズを小さくしました。
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmatekbd/commits/master/>
+完全な変更点は次のとおりです: <https://github.com/mate-desktop/libmatekbd/commits/master/>
 
 ### libmatemixer
 * alsa: udev サポートの追加
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmatemixer/commits/master/>
+完全な変更点は次のとおりです: <https://github.com/mate-desktop/libmatemixer/commits/master/>
 
 ### libmateweather お天気 MATE
 * ベルリン・テーゲル空港を外しました。
@@ -150,7 +150,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 完全な変更点は次のとおりです <https://github.com/mate-desktop/libmateweather/commits/master/>
 
-### Marco
+### Marco ウィンドウマネージャ
 * window: _GNOME_WM_STRUT_AREA のサポートを追加
 * screen: _GTK_WORKAREAS_Dn のサポートを追加
 * window: 左右に並べて表示されたウィンドウにシャドウをレンダリングしません。
@@ -164,7 +164,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/marco/commits/master/>
+完全な変更点は次のとおりです: <https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets MATE アプレット
 * netspeed: ダウンしているインターフェイスを選択できます。
@@ -405,7 +405,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 完全な changelog は次にあります: <https://github.com/mate-desktop/mate-utils/commits/master/>
 
-### mozo
+### Mozo メニューエディタ
 * mozo.ui を最初から書き直し
 * collection ディレクトリを編集する際の奇妙な動作を修正
 * g10n: 翻訳の更新
