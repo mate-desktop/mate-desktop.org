@@ -42,7 +42,7 @@ The headline changes in MATE Desktop 1.18 are:
     * **Added support for [Menulibre](https://smdavis.us/projects/menulibre/) menu editor**, if installed it is preferred over Mozo.
   * Engrampa, the archive manager, includes a number of improvements:
     * Added `ear` and `war` to the supported types list.
-    * Check the rar/unrar version to the correct date is shown.
+    * Check the rar/unrar version if the correct date is shown.
     * Fixed compress rar and 7z split into volumes.
   * **Notifications now implement action icons support**, for example playback control icons used by media players.
   * Reworked the font viewer to add font browsing mode, support for TTC fonts and expose it in the menus by default.
