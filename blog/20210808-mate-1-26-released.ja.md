@@ -3,7 +3,7 @@
 .. description:
 .. tags: Releases
 .. date: 2021-08-10 09:00:00
-.. title: MATE 1.26 リリース
+.. title: MATE 1.26 を公開しました
 .. slug: 2021-08-08-mate-1-26-released
 .. author: Johannes Unruh
 -->

@@ -3,7 +3,7 @@
 .. description:
 .. tags: Releases
 .. date: 2020-02-10 09:00:00
-.. title: MATE 1.24 リリース
+.. title: MATE 1.24 を公開しました
 .. slug: 2020-02-10-mate-1-24-released
 .. author: Wolfgang Ulbrich
 -->

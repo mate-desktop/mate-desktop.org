@@ -23,10 +23,10 @@ MATE は、従来のデスクトップ体験を維持しながらも、新しい
 
 また、ブログの記事は [タグ](tags/) や [日付順アーカイブ](archive/) より検索できます。[プラネット MATE](https://planet.mate-desktop.org) を見て、MATE コミュニティで何をブログしているのかもっと知りたい人もいることでしょう。
 
-MATE に対応しているディストリビューションはどれですか？
+MATE が利用可能なディストリビューションは？
 =================================
 
-MATE は、以下の Linux ディストリビューション用の **公式** レポジトリを通じて入手できます。
+MATE デスクトップは、以下の Linux ディストリビューション用の **公式** レポジトリを通じて入手できます。
 
 -   [Alpine Linux](https://www.alpinelinux.org/)
 -   [Antergos](https://antergos.com/)
@@ -76,35 +76,35 @@ MATE コミュニティは、多数のディストリビューションへの MA
 
 MATE は多数のアプリケーションで構成されています。名称変更は、GNOME コンポーネントとの競合を避けるために必要となっています。
 
-Caja
+Caja ファイルマネージャ
 ----
 
-![画像](/assets/img/mate/caja.png)
+![image](/assets/img/mate/caja.png)
 
 Caja は MATE デスクトップ用の公式なファイルマネージャです。ディレクトリをブラウズしたり、ファイルをプレビューしたり、関連するアプリケーションを起動したりすることができます。また、MATE デスクトップ上のアイコンの処理もこなします。Caja は、ローカルおよびリモートのファイルシステムで動作します。これは、Nautilus のフォークです。
 
-Pluma
+Pluma テキストエディタ
 -----
 
 ![image](/assets/img/mate/pluma.png)
 
 Pluma は、ほとんどの標準的なエディタ機能に対応したテキストエディタです。また、通常はサポートしない他の機能とともに、この基本機能を拡張できます。Pluma は、1つのウィンドウで複数のテキストファイルの編集が可能な、グラフィカルなアプリケーションです (タブや MDI と呼ばれることもあります)。Pluma は、編集ファイルで Unicode UTF-8 エンコードを使用することによって、テキストの国際化を完全にサポートしています。主要な機能セットには、ソースコードの構文強調表示、自動インデント、および印刷サポート(印刷プレビュー可能)があります。Pluma は Gedit のフォークです。
 
-Eye of MATE
+Eye of MATE 画像ビューア
 -----------
 
 ![image](/assets/img/mate/eom.png)
 
 eom または Eye of MATE というのは、gdk-pixbuf ライブラリを使用する MATE デスクトップ用の単純なグラフィックビューアです。大きなサイズの画像を処理でき、一定のメモリ使用量でズームやスクロールが可能です。目標はシンプルさと標準仕様への準拠です。Eye of MATE は Eye of GNOME のフォークです。
 
-Atril
+Atril 文書ビューア
 -----
 
 ![image](/assets/img/mate/atril.png)
 
 Atril は単純な複数ページの文書ビューアです。PostScript(PS)、Encapsulated PostScript (EPS)、DJVU、DVI、XPS および Portable Document Format (PDF) ファイルを表示および印刷できます。文書でサポートされている場合は、テキストの検索、クリップボードへのテキスト貼り付け、ハイパーテキスト・ナビゲーションおよび目次のブックマークも可能です。Atril は Evince のフォークです。
 
-Engrampa
+Engrampa 書庫マネージャ
 --------
 
 ![image](/assets/img/mate/engrampa.png)

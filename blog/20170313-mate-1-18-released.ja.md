@@ -3,7 +3,7 @@
 .. description:
 .. tags: Releases
 .. date: 2017-03-13 23:30:00
-.. title: MATE 1.18 リリース
+.. title: MATE 1.18 を公開しました
 .. slug: 2017-03-13-mate-1-18-released
 .. author: Martin Wimpress
 -->

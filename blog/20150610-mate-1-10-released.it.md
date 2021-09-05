@@ -216,7 +216,7 @@ nei sistemi audio PulseAudio, ALSA e OSS.
   * Aggiunto il file ini per l'estensione di Caja
   * Aggiunto il file appdata
   * Implementato `document_links_find_link_page()` nel backend PDF
-  * Implementato document_links_find_link_page()` nel beckend djvu
+  * implementato `document_links_find_link_page()` nel backend djvu.
   * Migrato a `find_link_page()` invece di `find_link_dest()` in `get_dest_page()`
   * Risolta la memorizzazione della pagina corrente quando il documento è ricaricato in modalità presentazione
   * Risolto la risoluzione delle destinazioni con nome nel backend PDF

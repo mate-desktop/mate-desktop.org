@@ -22,15 +22,12 @@
 MATE Desktop 1.20 包含如下主要更改：
 
   * **MATE Desktop 1.20 支持 HiDPI 显示器，且支持动态探测和缩放。**
-    * 与此同时，提交 Qt 应用程序的 HiDPI 设置信息到桌面环境以改善基于多个图形库的应用程序之
-    间的外观统一。
+    * 与此同时，提交 Qt 应用程序的 HiDPI 设置信息到桌面环境以改善基于多个图形库的应用程序之 间的外观统一。
     * HiDPI 开关直接触发动态界面缩放和大小调整，无需重新登录。
   * **Marco（在可用时）新增 [DRI3 及 XPresent](https://lwn.net/Articles/569701/) 支持。**
      * 使用 Marco 时的游戏性能明显提高。
-  * Marco 新增 **¼ 平铺支持**，方向键现在可用于控制 <kbd>Alt</kbd> + <kbd>Tab</kbd>
-    窗口切换，并且新增了用于移动窗口到其他显示屏。
-  * 新增 **全局菜单支持**，可配合 [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu)
-    一类的服务使用。
+  * Marco 新增 **¼ 平铺支持**，方向键现在可用于控制  <kbd>Alt</kbd> + <kbd>Tab</kbd> 窗口切换，并且新增了用于移动窗口到其他显示屏。
+  * 新增 **全局菜单支持**，可配合 [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) 一类的服务使用。
   * MATE 面板的 [状态通知项 (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) 支持大大增强。
   * **书签栏现在支持 GTK+3 位置。**
   * MATE 终端新增背景图像支持、Solarized 主题及用于切换标签页的组合键。
@@ -38,19 +35,18 @@ MATE Desktop 1.20 包含如下主要更改：
     * 大幅度改善了无障碍支持，尤其对于视力受损的用户。
     * 新增光标导航支持。
   * **移除了 MATE 小挂件中的“投资”挂件。**
-    * 由雅虎 (Yahoo) 提供的 API 已不再受到维护，且没有任何功能均等的替代品。
+    * 由雅虎 Yahoo 提供的 API 已不再受到维护，且没有任何功能均等的替代品。
   * 面板小挂件现在通过显示单位来正确调整大小，与此同时许多图表现已支持动态缩放。
   * **MATE 主题得到了大量改进**，并已完全支持 GTK+ 3.22 新增的组件和样式类型。
   * Engrampa，MATE 默认归档管理器的加密 7z 归档支持得到增强。
   * MATE 传感器挂件（终于）添加了 udisks2 支持。
-  * MATE 屏幕保护程序新增 OpenBSD 认证支持，Atril 中的 minizip 也新增了许多 BSD 变种的
-    支持。
+  * MATE 屏幕保护程序新增 OpenBSD 认证支持，Atril 中的 minizip 也新增了许多 BSD 变种的 支持。
   * 翻译已更新。 *感谢各位翻译贡献者！*
   * 发行版维护者请注意，我们提高了 GTK+3 和 GLib 版本要求。
-    * MATE Desktop 现在需要 GTK 3.22 和 GLib 2.50 的更新版本才能构建。
+    * MATE Desktop 1.20 现在需要 GTK 3.22 和 GLib 2.50 的更新版本才能构建。
   * 你可能会在变更日志里面看到有关 Wayland 的信息，不过不要激动：这些改动可能跟你想的不太一样 `：-)`
 
-MATE Desktop 的大量组件现可通过如下链接下载：
+MATE Desktop 1.20 的大量组件现可通过如下链接下载：
 
   * <https://pub.mate-desktop.org/releases/1.20/>
 
