@@ -186,7 +186,7 @@ Here are all the gory details.
   * eel-accessibility: remove unused code and outdated comments
   * show correct right-click menu after making selection
   * eel: Queue resizes on the canvas as elements change visibility
-  * Add size_request to IconContainer to work around unncecessary relayouting
+  * Add size_request to IconContainer to work around unnecessary relayouting
   * IconCanvasItem: fix overlapping filenames on hover
   * eel: remove unneeded #include with condition
   * eel: remove some unused code from eel-gdk-pixbuf-extensions
@@ -337,12 +337,12 @@ Here are all the gory details.
   * libmate-panel-applet: fix error in unregistering dbus object
   * libmate-panel-applet: fix build warning
   * libmate-panel-applet: fix introspection
-  * libmate-panel-applet: unown bus name and unregister dbus object
+  * libmate-panel-applet: Fix unknown bus name and unregister dbus object
   * libmate-panel-applet GTK 3.14/3.16: fix custom bg w alpha
-  * libmate-panel-applet: include dummy variable in factory for certian applets
+  * libmate-panel-applet: include dummy variable in factory for certain applets
   * libmate-panel-applet: fix bg rendering for in-process applets
   * libpanel-applet/panel-applet.h: Rename id to `factory_id` for factory
-  * limatepanel-applet: add panel-applet-private.h
+  * libmate-panel-applet: add panel-applet-private.h
   * don't use GtkPlug/GtkSocket for in process applets
   * make it possible to get applet widget
   * libpanel-applet: add `panel_applet_factory_get_applet_widget`
@@ -363,7 +363,7 @@ Here are all the gory details.
   * system tray: fix hidden icons on image/transparent color BG
   * Fix GTK theme image bg support on vertical panel
   * Make panel image background in GTK theme work again
-  * clock: fix hovering over timezone text, causes panel to scale beyond screen limit
+  * clock: fix hovering over timezone text causes panel to scale beyond screen limit
   * GTK 3.18+ fix transparent default panel bg
   * menu: restore focus after drag-n-dropping menuitem outside
   * menu: restore focus after closing popup menu of a menuitem
