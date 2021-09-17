@@ -12,7 +12,7 @@ Il 20 Luglio 2013 [Stefano Karapetsas](https://github.com/stefano-k) ha presenta
 su MATE alla Conferenza  [openSUSE](https://www.opensuse.org).
 
 La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
-le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioni, GNOME Classic e GNOME Fallback,
+le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioniù GNOME Classic e GNOME Fallback,
 e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen></iframe>

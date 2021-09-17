@@ -9,7 +9,7 @@
 -->
 
 Il team Mate è orgoglioso di annunciare che stiamo collaborando con il
-team [galculator](http://galculator.mnim.org/) e che galculator
+team di [galculator](http://galculator.mnim.org/) e che galculator
 sostituirà `mate-calc` in MATE 1.10.
 
 ## Cos'è galculator
@@ -34,8 +34,8 @@ Le caratteristiche principali di galculator comprendono:
   * Copia e incolla
   * Disponibile in oltre 20 lingue differenti
 
-Come MATE, galculator supporta GTK2 eGTK3 ed è attivamente
-mantenuta.
+Come MATE, galculator supporta GTK2 e GTK3 ed è attivamente
+manutenuto.
 
 ## Perché abbandonar mate-calc?
 
@@ -54,7 +54,7 @@ si aggiungano alle  ~20 lingue che galculator al momento supporta.
 ## Sono uno sviluppatore di pacchetti. Cosa significa questo per me?
 
 Se siete manutentori di pacchetti iniziate col creare un pacchetto galculator
-per la vostra distribuzione, se questo non è già esistente e aggiungete
+per la vostra distribuzione, se questo non esistente ancora, e aggiungete
 galculator al vostri meta pacchetti MATE o gruppi di pacchetti.
 MATE 1.10 è ancora lontano, quindi avete tutto il tempo necessario.
 

@@ -13,7 +13,6 @@ utilizzando le metafore tradizionali per Linux e gli altri sistemi operativi Uni
 MATE si trova in una fase sviluppo attivo per aggiungere supporto per le nuove tecnologie
 preservando un'esperienza desktop tradizionale.
 Si consulti la [Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap/).
- 
 
 ![image](/screens/screenshot.jpg){.align-center}
 
@@ -26,7 +25,7 @@ Novità
 
 I post dei blog sono indicizzati per [tag](tags/) e [archiviati per
 data](archive/). Si può anche dare un occhiata a [Planet
-MATE](https://planet.mate-desktop.org) per vedere di cosa la vasta comunità di MATE sta bloggando.
+MATE](https://planet.mate-desktop.org) per vedere cosa sta bloggando la vasta comunità di MATE.
 
 Quali distribuzioni supportano MATE?
 ===================================
@@ -66,7 +65,7 @@ seguenti distribuzioni Linux:
 
 -   [Slackware](http://www.slackware.com)
 
-Magari preferite UNIX?
+O magari preferite UNIX?
 
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
@@ -95,7 +94,7 @@ Caja
 Caja è il file manager ufficiale per il desktop MATE. Permette di
 sfogliare le cartelle, e vedere un'anteprima dei file e
 lanciare le applicazioni associate ad essi. È anche responsabile per la gestione
-delle icone sul desktop MATE. Funziona sia sui filesystem locali che remoti.
+delle icone sul desktop di MATE. Funziona sia sui filesystem locali che remoti.
 Caja è un derivato di Nautilus.
 
 Pluma
@@ -105,7 +104,7 @@ Pluma
 
 Pluma è un editor di testo che supporta molte caratteristiche degli editor di testo standard.
 Esso estende queste funzionalità base con altre caratteristiche che non si trovano facilmente su editor più semplici. Pluma è un applicazione grafica che
-supporta la modifica di più file di testo in una singola finestra (note a volte come chede o MDI). Pluma supporta completamente il testo internazionale mediante l'utilizzo della codifica Unicode UTF-8 nei file modificati. La sua caratteristica principale
+supporta la modifica di più file di testo in una singola finestra (note a volte come schede o MDI). Pluma supporta completamente il testo internazionale mediante l'utilizzo della codifica Unicode UTF-8 nei file modificati. La sua caratteristica principale
 include l'evidenziazione della sintassi del codice sorgente, l'auto indentazione e il supporto alla stampa (con la  funzionalità dell'anteprima di stampa). Pluma è un derivato di Gedit.
 
 Eye of MATE

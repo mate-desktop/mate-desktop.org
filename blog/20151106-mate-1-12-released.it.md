@@ -18,14 +18,14 @@ il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogn
 I principali cambiamenti in MATE 1.12 sono:
 
   * Correzioni e miglioramenti per il supporto di GTK3 su tutto il Desktop MATE, incluso il supporto per GTK 3.18.
-  * Il supporto al toucpad è significativamente migliorato e adesso supporta i tocchi multipli e lo scorrimento naturale.
-  * Il supporto per più monitor è stato migliorato così le impostazioni del display utilizzano nomi in uscita e l'Interfaccia Utente consente di scegliere il monito principale.
+  * Il supporto al touchpad è significativamente migliorato e adesso supporta i tocchi multipli e lo scorrimento naturale.
+  * Il supporto per più monitor è stato migliorato così le impostazioni del display utilizzano nomi in uscita e l'Interfaccia Utente consente di scegliere il monitor principale.
   * L'applet power adesso mostra informazioni sul modello e il venditore ed è quindi possibile distinguere tra più dispositivi alimentati a batteria.
   * Migliorata la gestione della sessione che adesso comprende l'inibizione dello screensaver mentre si riproducono elementi multimediali.
     * MATE adesso ascolta il namespace `org.gnome.SessionManager`.
   * Esteso il supporto a systemd.
-  * Risolti bug di vecchia data assieme a molte piccole imperfezioni.
-    * Ad esempio, le applet del pannello  non sono più riordinate quando si cambia risoluzione dello schermo.
+  * Corretti bug di vecchia data assieme a molte piccole imperfezioni.
+    * Ad esempio, le applet del pannello non sono più riordinate quando si cambia risoluzione dello schermo.
   * Traduzioni aggiornate e un certo numero di componenti adesso recuperano le stringhe di testo direttamente da `gschema` (richiede intltool 0.50.1).
   * Abbandonato il supporto per `win32` and `osx`.
 
@@ -50,12 +50,12 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
   * Richiede `dconf` 0.13.4 e `xrandr` 1.3
   * Aggiunta una chiave `gsettings` per commutare lo scorrimento di sovrapposizione in GTK+3
-  * Aggiunte alcune icone per risolvere le icone mancanti in GTK+3 con un tema di icone personalizzato
-  * Mouse schema: abilitata l'emulazione del clic centrale per default
+  * Aggiunte alcune icone per correggere quelle mancanti in GTK+3 con tema di icone personalizzato
+  * Mouse schema: abilitata l'emulazione del clic centrale come impostazione di default
   * RR: implementata la funzione mancante mate_rr_output_get_possible_crtcs
   * RR: risolta l'identificazione del laptop dal nome in output
   * RR: mostra il nome in output in aggiunta al nome visualizzato
-  * Spostato la guida utente docbook in un progetto separato
+  * Spostata la guida utente docbook in un progetto separato
   * Eliminata la dipendenza su yelp (non più necessaria dopo la rimozione della guida utente)
 
 ### libmatekbd
@@ -67,8 +67,8 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 ### libmatemixer
 
   * oss: Usare il contatore di modifica per il polling solo su Linux, è rotto sulle BSD
-  * alsa: risolto FTBFS con le vecchie versioni di ALSA
-  * alsa: Risolto il fading
+  * alsa: Corretto FTBFS con le vecchie versioni di ALSA
+  * alsa: Corretta la dissolvenza
 
 ### libmateweather
 
@@ -103,7 +103,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
   * Aggiunto il supporto per una Dock opzionale, come per esempio Plank
   * Aggiunto il supporto per la nuova `libsystemd` in aggiunta a quella esistente `libsystemd-login`
-  * Attendere solo massimo 1 secondo per il loguot o lo spegnimento
+  * Attendere massimo 1 secondo per il logout o lo spegnimento
   * Attivare/disattivare lo scorrimento di sovrapposizione GTK+3 all'avvio utilizzando la nuova chiave gsettings
 
 ### mate-menus
@@ -115,16 +115,16 @@ Segue una analisi più dettagliata di ciò che è cambiato.
   * Richiede `xrandr` 1.3
   * Aggiunta l'opzione per mostrare/nascondere i numeri della settimana nel calendario
   * Risolto il posizionamento delle applet bloccate al cambio di risoluzione dello schermo
-  * GTK+3: aggiunta una classe stile perché le applet seguano `panel-menu-bar`
+  * GTK+3: aggiunta una classe di stile perché le applet seguano `panel-menu-bar`
 
 ### mate-themes
 
-  * Per tutti i temi GTK3: restyle dell'applet slider di volume/luminosità
+  * Per tutti i temi GTK3: restyle dell'applet slider volume/luminosità
   * Migliorie e rifiniture varie per tutti i temi, in modo particolare per GTK 3.18.
 
 ### mate-notification-daemon
 
-  * Risolte l'altezza e la visibilità dei temi GTK3
+  * Corrette l'altezza e la visibilità dei temi in gtk3
   * Diverse correzioni ai temi
 
 ### mate-control-center
@@ -142,7 +142,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
   * Aggiunto il supporto per `libsystemd` in aggiunta a quello esistente per `libsystemd-login`
   * Non sfumare al nero quando si blocca lo schermo
-  * Risolta la gestione degli eventi `systemd`
+  * Corretta la gestione degli eventi di `systemd`
 
 ### mate-media
 
@@ -156,7 +156,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
   * Mostrare le informazioni di venditore/modello dei dispositivi hardware
   * Risolta la regolazione della retroilluminazione del Macbook Pro
   * GTK+3: supporto per i temi personalizzati
-  * GTK+3: risolto il comportamento dell'applet luminosità
+  * GTK+3: corretto il comportamento dell'applet della luminosità
 
 ### mate-system-monitor
 
@@ -181,9 +181,9 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### Engrampa
 
-  * Fissato l'utilizzo di `ngettext` nelle finestre di dialoghi in progressione
+  * Corretto l'utilizzo di `ngettext` nella finestra di dialogo avanzamento
   * Fatto funzionare l'estrazione di archivi multipli in una cartella separata
-  * Risolto il controllo di sovrascrittura quando i file da estrarre sono dentro ad una cartella
+  * Corretto il controllo di sovrascrittura quando i file da estrarre sono dentro ad una cartella
 
 ### Eye of MATE
 
@@ -195,7 +195,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
   * Cpufreq: reso cpupower la libreria predefinita
   * Rimossa l'inutile dipendenza da `mate-icon-theme`
   * GTK+3: Risolta la mancanza di alcune icone con un tema di icone personalizzato
-  * GTK+3: cpufreq, charpick and drivemount suppotano temi di pannello personalizzati
+  * GTK+3: cpufreq, charpick e drivemount suppotano temi di pannello personalizzati
 
 ### mate-netbook
 
@@ -237,7 +237,7 @@ Segue una analisi più dettagliata di ciò che è cambiato.
 
 ### Pluma
 
-  * Aggiunta l'opzione `--enable-tests` per abilitare/disabilitare di eseguire test  durante la compilazione
+  * Aggiunta l'opzione `--enable-tests` per abilitare/disabilitare l'esecuzione di test durante la compilazione
   * Aggiunto un plugin per rimuovere gli spazi iniziali quando si salva
   * Riportato l'elenco dei plugin attivi nello script bugreport
   * Abbandonato il supporto per `win32` and `osx` e il plugin checkupdate

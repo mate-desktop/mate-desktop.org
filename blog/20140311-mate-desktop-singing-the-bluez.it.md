@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-I team di MATE sono deliziati di annunciare che stiamo collaborando col [progetto Blueman](https://github.com/blueman-project/blueman) ed aiutando ad aggiornare Blueman a BlueZ 5.x.
+I team di MATE sono deliziati di annunciare che stiamo collaborando col [progetto Blueman](https://github.com/blueman-project/blueman) ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.
 
 ## Perché abbandonare mate-bluetooth?
 
@@ -21,8 +21,8 @@ ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante
 
 ## Quando sarà pronta la versione aggiornata di Blueman?
 
-Gli osservatori tra voi possono aver notato che l'[annuncio di rilascio di MATE 1.8](/blog/2014-03-04-mate-1-8-released/)
-menzionava già il fatto che `mate-bluetooth` è stato sostituito con Blueman
+Qualcuno di voi potrebbe aver notato che l'[annuncio di rilascio di MATE 1.8](/blog/2014-03-04-mate-1-8-released/)
+menzionava già il fatto che `mate-bluetooth` era stato sostituito con Blueman
 e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
 non è ancora stata rilasciata. Si, abbiamo commesso un errore, scusateci.
 

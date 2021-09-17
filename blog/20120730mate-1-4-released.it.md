@@ -19,14 +19,14 @@ Qui seguono i principali cambiamenti e miglioramenti di questo rilascio:
   * Il pacchetto `caja-dropbox` adesso è disponibile
   * Nuovi temi aggiunti a `mate-notification-daemon`
   * Rimosso `indicator-applet-session`
-  * Condivisione di file adesso disponibile via Bluetooth
+  * La condivisione dei file adesso è disponibile via Bluetooth
   * Aggiunta una opzione per impiegare il veloce alt-tab quando è attivo il compositing in `marco`
   * Disponibile da ora `mate-icon-theme-faenza`
-  * Disponibile da adesso `mate-character-map`
+  * Disponibile da ora `mate-character-map`
   * `mate-screensaver` adesso supporta il cambio di utente di GDM
-  * Rimosso nyancat dalla finestra di dialogo mate-desktop about
-  * Dderivato `libwnck` come `libmatewnck`
+  * Rimosso nyancat dalla finestra di dialogo mate-desktop informazioni
+  * Creato un derivato di `libwnck` chiamato `libmatewnck`
   * Miglioramenti di Caja:
-    * Ripristinato l'uso dei pulsanti per la barra della posizione basata sul testo
+    * Ripristinato l'uso dei pulsanti per la barra delle posizioni basata sul testo
     * I segnalibri possono essere aperti dal pannello laterale posizioni mediante tasto invio o barra spaziatrice
-    * Aggiunto un pulsante per visualizzar le differenze tra file nel dialogo file in conflitto
+    * Aggiunto un pulsante per visualizzare le differenze tra file nella finestra di dialogo file in conflitto

@@ -9,8 +9,8 @@
 -->
 
 Grazie agli sforzi dei  [manutentori dei pacchetti di MATE per Debian](https://salsa.debian.org/groups/debian-mate-team/-/group_members)
-MATE 1.8.1 è dispoinibile in Debian Jessie (testing) e anche
-[Debian backports](https://backports.debian.org) per Wheezy
+MATE 1.8.1 è dispoinibile in Debian Jessie (testing) ed anche
+in [Debian backports](https://backports.debian.org) per Wheezy
 
 Come conseguenza di MATE 1.8.1 che è entrato nelle repository di Debian testing
 all'inizio di quest'anno, MATE 1.8.1 è anche disponibile nell'archivio ufficiale

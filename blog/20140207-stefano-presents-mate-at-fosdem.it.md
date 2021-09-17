@@ -3,7 +3,7 @@
 .. description:
 .. tags: News,FOSDEM
 .. date: 2014-02-07 14:16:13
-.. title: Stefano presenas MATE al FOSDEM 2014
+.. title: Stefano presenta MATE al FOSDEM 2014
 .. slug: 2014-02-07-stefano-presents-mate-at-fosdem
 .. author: Martin Wimpress
 -->

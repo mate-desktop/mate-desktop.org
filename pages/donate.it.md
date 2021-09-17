@@ -123,7 +123,7 @@ Detto questo, anche le singole donazioni sono ben accette.
     <fieldset>
       <legend>Bitcoin</legend>
       <p>Clicca su o scansiona il codice QR qui sotto per lanciare il tuo client Bitcoin e
-      dona 0.02 btc al Desktop MATE. In Alternativa, copia e incolla l'
+      donare 0.02 btc al Desktop MATE. In Alternativa, copia e incolla l'
       indirizzo Bitcoin nel tuo client Bitcoin per donare una somma a tua scelta.
       </p>
       <p align="center">

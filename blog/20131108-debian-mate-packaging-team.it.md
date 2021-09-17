@@ -25,4 +25,5 @@ Un ringraziamento speciale a:
   * [Kees Cook](https://outflux.net/)
 
 
-Se desiderate unirvi al team, per favore contattate i membri su IRC nel canale @ OFTC. di [#debian-mate](https://webchat.oftc.net/?channels=debian-mate) [#debian-mate](https://webchat.oftc.net/?channels=debian-mate).
+Se desiderate unirvi al team, per favore contattate i membri su IRC nel canale @ OFTC di
+[#debian-mate](https://webchat.oftc.net/?channels=debian-mate)

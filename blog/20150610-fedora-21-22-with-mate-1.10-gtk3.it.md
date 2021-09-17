@@ -40,9 +40,9 @@ Per favore utilizzate l'issue tracker di MATE Desktop su GitHub ed includete 'GT
 
 Alcune note:
 
-  * Compiz funzionerà solo con `emerald` come decorazione delle finestre.
+  * Compiz funzionerà solo con `emerald` come window-decorator.
   * Non utilizzate pacchetti GTK2 da Fedora stable e pacchetti GTK3 dalla
-  repo precedente.
+  repo riportata più in alto.
   * Non utilizzate le seguenti applicazioni MATE con una build GTK3; poiché non sono ancora portate a GTK3:
     * mintMenu e MATE Menu
     * mate-applet-streamer

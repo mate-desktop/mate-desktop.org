@@ -22,14 +22,14 @@ Sono deliziato nel presentarvi i nostri studenti GSoC per il 2014:
   * Avishkar Gupta lavorerà per aggiungere le capacità per il rendering ePub ad
   Atril, il visualizzatore di documenti per il desktop MATE.
   * Michal Ratajsky lavorerà per aggiungere il supporto a GStreamer 1.0 nell'ambiente
-  desktop MATE in modo da sostituire le dipendenze basate sulla libreri deprecata
+  desktop MATE in modo da sostituire le dipendenze basate sulla libreria deprecata
   GStreamer 0.10
   * Alexander van der Meij lavorerà per migliorare Caja extensions così che esse
   possano essere integrate durante l'esecuzione e creare inoltre una singola interfaccia utente per
   la configurazione di Caja extensions.
 
-Vi prego di unirmi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
-nell'augurargli ogni successo per i loro progetti per l'estate.
+Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
+nell'augurargli ogni successo per i loro progetti dell'estate.
 
 A nome dell'intero team MATE vorrei estendere i ringraziamenti e
 la nostra gratitudine ad  [openSUSE](https://www.opensuse.org) che sono i nostri organizzatori GSoC perché

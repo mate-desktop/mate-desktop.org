@@ -17,11 +17,11 @@ La Clip MATE Mythbusting è inserita qui sotto.
 
 Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.8 nel tempo
 che mi è stato concesso quindi vi consiglio di dare uno sguardo alla [Roadmap di MATE](https://wiki.mate-desktop.org/#!pages/roadmap.md)
-per una visione completa. Se doveste avere ulteriori domande, o magari
+per una panoramica completa. Se doveste avere ulteriori domande, o magari
 volete contribuire al progetto, siamo ansiosi di chattare con
 voi sul [canale #mate di IRC](https://web.libera.chat/?#mate) o
 recensire le vostre [pull-requests su GitHub](https://github.com/mate-desktop). 
 
 [Jupiter Broadcasting](https://www.jupiterbroadcasting.com) produce un certo numero di 
 videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
-potreste trovare qualcosa che vi può interessare.
+potreste trovare qualcosa che vi interessa.

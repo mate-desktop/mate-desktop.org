@@ -36,6 +36,6 @@ I repository git per il Desktop MATE sono ospitati su GitHub.
   * [Sviluppo software per MATE](https://wiki.mate-desktop.org/contributing/software-development/getting-started/)
   * [Traduzione di MATE](https://wiki.mate-desktop.org/contributing/translation/getting-started/)
   * [Roadmap di MATE](https://wiki.mate-desktop.org/developers-corner/roadmap/)
-  * [MATE Wayland and Meson](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
+  * [MATE Wayland e Meson](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
 
 Non esitate a contribuire e divertitevi a migliorare MATE!

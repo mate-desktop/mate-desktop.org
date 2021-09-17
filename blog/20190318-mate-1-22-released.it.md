@@ -21,19 +21,19 @@ Questo rilascio contiene una gran quantità di correzioni critiche e migliorie n
     * L'**applet timer** adesso ha una migliore interazione con il mouse
     * **Wanda the Fish** adesso funziona correttamente sui display HiDPI (l'immagine del pesce è ancora pixellata, mantenendo il suo aspetto originario)
 * Il supporto per i [temi metacity] (https://wiki.gnome.org/Attic/GnomeArt/Tutorials/MetacityThemes) è finalmente stato aggiornato alla versione 3 nel gestore delle finestre **marco**
-    * Abbiamo inoltre modernizzato la finestra e i selettore dello spazio di lavoro per renderli visivamente più accattivanti
-* Il **gestore della sessione** adesso termina comrrettamente tutti i processi su [systemd](https://freedesktop.org/wiki/Software/systemd/). Inoltre tutte le applicazioni possono essere avviate automaticamente dopo un ritardo specificato dall'utente.
-* Abbiamo completamente portato un certo numero di applicazioni a Python 3, inclusi **Eye of MATE** e le librerie plugin **python-caja**,così come la libreria **mate-menus**
+    * Abbiamo inoltre modernizzato la finestra e il selettore dello spazio di lavoro per renderli visivamente più accattivanti
+* Il **gestore della sessione** adesso termina correttamente tutti i processi su [systemd](https://freedesktop.org/wiki/Software/systemd/). Inoltre tutte le applicazioni possono essere avviate automaticamente dopo un ritardo specificato dall'utente.
+* Abbiamo completamente portato un certo numero di applicazioni a Python 3, inclusi **Eye of MATE** e le librerie plugin **python-caja**, così come la libreria **mate-menus**
 * Il file manager **caja** può opzionalmente mostrare le notifiche desktop per operazioni su file che richiedono parecchio tempo
-* **Eye of MATE** ha una sidebar che è stata riscritta e un miglior supporto ai metadati delle immagini
+* **Eye of MATE** ha una sidebar che è stata riscritta e un miglior supporto dei metadati delle immagini
 * Le schede in **pluma** adesso hanno la possibilità di poter essere alternate con delle scorciatoie da tastiera o con lo scroll del mouse
-* La **Calcolatrice** adesso può supportare fino a 15 caratteri per l'accuratezza. Il supporto per la copia e l'incollaggio è stato anch'esso un po' migliorato
+* La **Calcolatrice** adesso può supportare fino a 15 caratteri di accuratezza. Il supporto per la copia e l'incollaggio è stato anch'esso un po' migliorato
 * **Engrampa** ha ricevuto il supporto per diversi nuovi formati di archiviazione, ed anche nuova funzionalità di pausa/ripresa
 * Sono state aggiunte alcuni nuovi **tasti scorciatoia** inclusi il supporto per diversi tipi di dispositivi come Bluetooth, WiFi, touchpad, e interruttori di terminazione globali
 * È stato intrapreso un lavoro di manutenzione interna per alcuni compiti:
     * Molti dei nostri progetti sono migrati da [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) a [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)
-    * Abbiamo migliorato la stabilità di molti nostri progetti chiudendo le falle di memoria e risolvendo i warning in compilazione
-    * Abbiamo rimosso vecchio codice deprecato per essere aggiornati con l'ultima versione di [GTK] (https://developer.gnome.org/gtk3/stable/)
+    * Abbiamo migliorato la stabilità di molti nostri progetti chiudendo le falle di memoria e risolvendo i warning di compilazione
+    * Abbiamo rimosso il vecchio codice deprecato per essere aggiornati con l'ultima versione di [GTK] (https://developer.gnome.org/gtk3/stable/)
     * Sono state aggiunte/corrette diverse guide di documentazione
     * Tutti i nostri progetti adesso utilizzano  [Travis CI](https://travis-ci.org/) per garantire compilazioni pulite su alcune delle nostre maggiori distribuzioni
 
@@ -43,7 +43,7 @@ I vari componenti di MATE 1.22 sono disponibili per il download a questo indiriz
 
 ## Changelog
 
-Ecco tutti i dettagli raccapriccianti.
+Ecco tutti i dettagli truculenti.
 
 ### atril
 * [9031100](https://github.com/mate-desktop/atril/commit/9031100) Aggiunto lo script update-authors.pl che aiuta ad aggiornare atril.about
@@ -63,7 +63,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [19c3072](https://github.com/mate-desktop/atril/commit/19c3072) tiff: corretto un possibile dereferenziamento del puntatore NULL
 * [6457c82](https://github.com/mate-desktop/atril/commit/6457c82) pdf: aggiunta una istruzione break mancante
 * [70ba1fb](https://github.com/mate-desktop/atril/commit/70ba1fb) libdocument: eliminata l'inutile cancellazione del puntatore NULL
-* [1b95162](https://github.com/mate-desktop/atril/commit/1b95162) comics: corretto il mimetype errato che indicava di aprire e rendere con le miniature tutti i file RAR
+* [1b95162](https://github.com/mate-desktop/atril/commit/1b95162) comics: corretto il mimetype errato che indicava di aprire e fare le miniature di tutti i file RAR
 * [3c75360](https://github.com/mate-desktop/atril/commit/3c75360) disabilitati i warning di deprecazione per distcheck
 * [eaae975](https://github.com/mate-desktop/atril/commit/eaae975) utilizzate funzioni make per HELP_LINGUAS
 * [7d9dab7](https://github.com/mate-desktop/atril/commit/7d9dab7) comics: supporto per il tipo MIME application/vnd.rar
@@ -93,21 +93,21 @@ Ecco tutti i dettagli raccapriccianti.
 * [3349fb9](https://github.com/mate-desktop/atril/commit/3349fb9) libdocument: Deprecata misc_get_page_border_size()
 * [dc1432d](https://github.com/mate-desktop/atril/commit/dc1432d) view: Utilizzata una cornice renderizzata invece di un bordo personalizzato
 * [bc7af60](https://github.com/mate-desktop/atril/commit/bc7af60) a11y: Ritornati i corretti offset di inizio e di fine
-* [7c7c7ef](https://github.com/mate-desktop/atril/commit/7c7c7ef) a11y: Corretto un crash con il lettore dello schermo Orca 
+* [7c7c7ef](https://github.com/mate-desktop/atril/commit/7c7c7ef) a11y: Corretto un crash con il lettore dello schermo Orca
 * [f3e061c](https://github.com/mate-desktop/atril/commit/f3e061c) libview: eliminato il codice deprecato non necessario
 * [d909dd4](https://github.com/mate-desktop/atril/commit/d909dd4) ev-loading-message: Rimosse le variabili inutilizzate
 * [6816696](https://github.com/mate-desktop/atril/commit/6816696) libview: corretta la selezione del testo con il mouse nella finestra delle annotazioni
 * [efe29e6](https://github.com/mate-desktop/atril/commit/efe29e6) libview: corretta la compilazione senza epub
-* [d03d688](https://github.com/mate-desktop/atril/commit/d03d688) shell: Non distribuire i file generati
-* [9c08159](https://github.com/mate-desktop/atril/commit/9c08159) Disabilitata la visualizzazione presentazione se non c'è alcun documento
+* [d03d688](https://github.com/mate-desktop/atril/commit/d03d688) shell: Non fare il dist i file generati
+* [9c08159](https://github.com/mate-desktop/atril/commit/9c08159) Disabilitata la visualizzazione della presentazione se non c'è alcun documento
 * [dc77310](https://github.com/mate-desktop/atril/commit/dc77310) Consentita la modifica della pagina di una presentazione
-* [b0ea2c7](https://github.com/mate-desktop/atril/commit/b0ea2c7) libview: Corretta la finestra di goto nella modalità presentazione
+* [b0ea2c7](https://github.com/mate-desktop/atril/commit/b0ea2c7) libview: Corretta la finestra di goto nella modalità di presentazione
 * [0c160a1](https://github.com/mate-desktop/atril/commit/0c160a1) libview: evitata la deprecata gdk_screen_get_monitor
 * [557d371](https://github.com/mate-desktop/atril/commit/557d371) La renderizzazione sui monitor HiDPI è stata corretta 
 * [5345f83](https://github.com/mate-desktop/atril/commit/5345f83) libview: corretta la condizione g_return in set_device_scale_on_surface()
 * [2cae078](https://github.com/mate-desktop/atril/commit/2cae078) EvView: La renderizzazione sui monitor HiDPI è stata corretta
 * [1d90b70](https://github.com/mate-desktop/atril/commit/1d90b70) libview: utilizzati i css per disegnare lo sfondo delle presentazioni
-* [1b1f2c5](https://github.com/mate-desktop/atril/commit/1b1f2c5) Spostare un css personalizzato in un file compilato come gresource
+* [1b1f2c5](https://github.com/mate-desktop/atril/commit/1b1f2c5) Spostare i css personalizzati in un file compilato come gresource
 * [11fc5dc](https://github.com/mate-desktop/atril/commit/11fc5dc) shell: Utilizzata GResource per i file di dati
 * [5d51dc6](https://github.com/mate-desktop/atril/commit/5d51dc6) toolbar-editor: Aggiunti i metodi per caricare da GResource
 * [c3fe25e](https://github.com/mate-desktop/atril/commit/c3fe25e) previewer: Utilizzata GResource per i file di dati
@@ -117,9 +117,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [f671e62](https://github.com/mate-desktop/atril/commit/f671e62) libview: Verificato il numero delle pagine quando si processano gli eventi dei pulsanti
 * [8597c1d](https://github.com/mate-desktop/atril/commit/8597c1d) libview: Aggiunta una verifica per i documenti senza pagine a ev_view_accessible_focus_changed
 * [9fc7889](https://github.com/mate-desktop/atril/commit/9fc7889) libview: Verifica del numero delle pagine su ev_view_document_changed_cb, corretto un crash sui PDF corrotti senza pagine
-* [a04ab7f](https://github.com/mate-desktop/atril/commit/a04ab7f) Usato GtkOverlay per mostrare il messaggio in caricamento
+* [a04ab7f](https://github.com/mate-desktop/atril/commit/a04ab7f) Usato GtkOverlay per mostrare il messaggio di caricamento
 * [9ac0d1a](https://github.com/mate-desktop/atril/commit/9ac0d1a) shell: Rimossi i marshaler inutilizzati
-* [cfbab0a](https://github.com/mate-desktop/atril/commit/cfbab0a) thumbnailer: inviati i messaggi di errore sullo sdterr
+* [cfbab0a](https://github.com/mate-desktop/atril/commit/cfbab0a) thumbnailer: inviati i messaggi di errore sullo stderr
 * [2f89fcc](https://github.com/mate-desktop/atril/commit/2f89fcc) shell: utilizzato GtkApplication per inibire lo screensaver
 * [15073fb](https://github.com/mate-desktop/atril/commit/15073fb) shell: port a GtkApplication
 * [715e15b](https://github.com/mate-desktop/atril/commit/715e15b) shell: utilizzata g_printerr al posto di g_warning
@@ -127,12 +127,12 @@ Ecco tutti i dettagli raccapriccianti.
 * [131b29e](https://github.com/mate-desktop/atril/commit/131b29e) daemon: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Daemon
 * [f44500b](https://github.com/mate-desktop/atril/commit/f44500b) shell: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Window
 * [3f48838](https://github.com/mate-desktop/atril/commit/3f48838) shell: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Application
-* [e51014b](https://github.com/mate-desktop/atril/commit/e51014b) libview: salvati i colori invertiti in un documento
+* [e51014b](https://github.com/mate-desktop/atril/commit/e51014b) libview: salvare i colori invertiti in un documento
 * [4bb14f5](https://github.com/mate-desktop/atril/commit/4bb14f5) Salvare/ripristinare il contesto quando si recuperano i colori per uno stato differente
 * [1f6278d](https://github.com/mate-desktop/atril/commit/1f6278d) epub: consente di salvare i documenti epub
 * [ea3dfb1](https://github.com/mate-desktop/atril/commit/ea3dfb1) epub: corretto il caricamento delle miniature dei file epub
-* [e79d266](https://github.com/mate-desktop/atril/commit/e79d266) controllo dei confini legali delle pagine accessibili
-* [291facd](https://github.com/mate-desktop/atril/commit/291facd) shell: corretti gli acceleratori del menù per i colori invertiti
+* [e79d266](https://github.com/mate-desktop/atril/commit/e79d266) controllo dei confini validi delle pagine accessibili
+* [291facd](https://github.com/mate-desktop/atril/commit/291facd) shell: corretto l'acceleratore del menù per i colori invertiti
 * [185e7b9](https://github.com/mate-desktop/atril/commit/185e7b9) shell: aggiunti gli acceleratori da tastierino numerico per il reset_zoom
 * [580e4fa](https://github.com/mate-desktop/atril/commit/580e4fa) Aggiunto il reset dello zoom
 * [35e1622](https://github.com/mate-desktop/atril/commit/35e1622) aggiunto atril.pot per auto-aggiornare le traduzioni
@@ -161,12 +161,12 @@ Ecco tutti i dettagli raccapriccianti.
 * [df069ae](https://github.com/mate-desktop/atril/commit/df069ae) libdocument: Deprecata misc_get_page_border_size()
 * [c09efef](https://github.com/mate-desktop/atril/commit/c09efef) view: Utilizzata una cornice renderizzata invece di un bordo personalizzato
 * [0d84113](https://github.com/mate-desktop/atril/commit/0d84113) a11y: Ritornati i corretti offset di inizio e di fine
-* [e3ce0a4](https://github.com/mate-desktop/atril/commit/e3ce0a4) a11y: Corretto un crash con il lettore dello schermo Orca 
+* [e3ce0a4](https://github.com/mate-desktop/atril/commit/e3ce0a4) a11y: Corretto un crash con il lettore dello schermo Orca
 * [4065873](https://github.com/mate-desktop/atril/commit/4065873) libview: eliminato il codice deprecato non necessario
 * [bb4e4b7](https://github.com/mate-desktop/atril/commit/bb4e4b7) ev-loading-message: Rimosse le variabili inutilizzate
 * [05b1f12](https://github.com/mate-desktop/atril/commit/05b1f12) libview: corretta la selezione del testo con il mouse nella finestra delle annotazioni
 * [4ecb058](https://github.com/mate-desktop/atril/commit/4ecb058) libview: corretta la compilazione senza epub
-* [6fe6574](https://github.com/mate-desktop/atril/commit/6fe6574) shell: Non distribuire i file generati
+* [6fe6574](https://github.com/mate-desktop/atril/commit/6fe6574) shell: Non fare il dist dei file generati
 * [c238f51](https://github.com/mate-desktop/atril/commit/c238f51) Disabilitata la visualizzazione presentazione se non c'è alcun documento
 * [50bdf3f](https://github.com/mate-desktop/atril/commit/50bdf3f) Consentita la modifica della pagina di una presentazione
 * [454ca8b](https://github.com/mate-desktop/atril/commit/454ca8b) libview: Corretta la finestra goto nella modalità presentazione
@@ -175,7 +175,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [14c88f2](https://github.com/mate-desktop/atril/commit/14c88f2) libview: corretta la condizione g_return in set_device_scale_on_surface()
 * [58486bb](https://github.com/mate-desktop/atril/commit/58486bb) EvView: La renderizzazione sui monitor HiDPI è stata corretta
 * [02970c6](https://github.com/mate-desktop/atril/commit/02970c6) libview: utilizzati i css per disegnare lo sfondo delle presentazioni
-* [1e531cb](https://github.com/mate-desktop/atril/commit/1e531cb) Spostare un css personalizzato in un file compilato come gresource
+* [1e531cb](https://github.com/mate-desktop/atril/commit/1e531cb) Spostare i css personalizzati in un file compilato come gresource
 * [c7fcfa1](https://github.com/mate-desktop/atril/commit/c7fcfa1) shell: Utilizzata GResource per i file di dati
 * [e0f26b9](https://github.com/mate-desktop/atril/commit/e0f26b9) toolbar-editor: Aggiunti i metodi per caricare da GResource
 * [6b84d6f](https://github.com/mate-desktop/atril/commit/6b84d6f) previewer: Utilizzata GResource per i file di dati
@@ -185,9 +185,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [3fddbe7](https://github.com/mate-desktop/atril/commit/3fddbe7) libview: Verificato il numero delle pagine quando si processano gli eventi dei pulsanti
 * [10d764d](https://github.com/mate-desktop/atril/commit/10d764d) libview: Aggiunta una verifica per i documenti senza pagine a ev_view_accessible_focus_changed
 * [aa3bcfa](https://github.com/mate-desktop/atril/commit/aa3bcfa) libview: Verifica del numero delle pagine su ev_view_document_changed_cb, corretto un crash sui PDF corrotti senza pagine
-* [6346384](https://github.com/mate-desktop/atril/commit/6346384) Usato GtkOverlay per mostrare il messaggio in caricamento
+* [6346384](https://github.com/mate-desktop/atril/commit/6346384) Usato GtkOverlay per mostrare il messaggio di caricamento
 * [7d0ac84](https://github.com/mate-desktop/atril/commit/7d0ac84) shell: Rimossi i marshaler inutilizzati
-* [c99d768](https://github.com/mate-desktop/atril/commit/c99d768) thumbnailer: inviati i messaggi di errore sullo sdterr
+* [c99d768](https://github.com/mate-desktop/atril/commit/c99d768) thumbnailer: inviati i messaggi di errore sullo stderr
 * [21073d4](https://github.com/mate-desktop/atril/commit/21073d4) shell: utilizzato GtkApplication per inibire lo screensaver
 * [674a6b3](https://github.com/mate-desktop/atril/commit/674a6b3) shell: port a GtkApplication
 * [b0f83ee](https://github.com/mate-desktop/atril/commit/b0f83ee) shell: Utilizzata g_printerr al posto di g_warning
@@ -195,16 +195,16 @@ Ecco tutti i dettagli raccapriccianti.
 * [3728fb7](https://github.com/mate-desktop/atril/commit/3728fb7) daemon: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Daemon
 * [e2420ea](https://github.com/mate-desktop/atril/commit/e2420ea) shell: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Window
 * [18a20e8](https://github.com/mate-desktop/atril/commit/18a20e8) shell: Utilizzato gdbus-codegen per l'interfaccia org.mate.atril.Application
-* [e4f8fce](https://github.com/mate-desktop/atril/commit/e4f8fce) libview: salvati i colori invertiti in un documento
+* [e4f8fce](https://github.com/mate-desktop/atril/commit/e4f8fce) libview: salvare i colori invertiti in un documento
 * [6217a89](https://github.com/mate-desktop/atril/commit/6217a89) Salvare/ripristinare il contesto quando si recuperano i colori per uno stato differente
 * [56e08ae](https://github.com/mate-desktop/atril/commit/56e08ae) aggiornato il file pot per le traduzioni
 * [27f459a](https://github.com/mate-desktop/atril/commit/27f459a) epub: consente di salvare i documenti epub
 * [bd799f4](https://github.com/mate-desktop/atril/commit/bd799f4) epub: corretto il caricamento delle miniature dei file epub
-* [8770730](https://github.com/mate-desktop/atril/commit/8770730) shell: corretti gli acceleratori del menù per i colori invertiti
+* [8770730](https://github.com/mate-desktop/atril/commit/8770730) shell: corretto l'acceleratore del menù per i colori invertiti
 * [1c2e9ea](https://github.com/mate-desktop/atril/commit/1c2e9ea) shell: aggiunti gli acceleratori da tastierino numerico per il reset_zoom
 * [7619dc6](https://github.com/mate-desktop/atril/commit/7619dc6) Aggiunto il reset dello zoom
 * [58e7446](https://github.com/mate-desktop/atril/commit/58e7446) evitata la deprecata GtkStock
-* [005d885](https://github.com/mate-desktop/atril/commit/005d885) controllo dei confini legali delle pagine accessibili
+* [005d885](https://github.com/mate-desktop/atril/commit/005d885) controllo dei confini validi delle pagine accessibili
 * [4f0467b](https://github.com/mate-desktop/atril/commit/4f0467b) aggiunto atril.pot per auto-aggiornare le traduzioni
 * [42e6a5f](https://github.com/mate-desktop/atril/commit/42e6a5f) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione 
 
@@ -215,7 +215,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [1848d37](https://github.com/mate-desktop/caja/commit/1848d37) fm-tree-model: Corretto l'utilizzo della memoria dopo che è stata liberata
 * [7c9ae01](https://github.com/mate-desktop/caja/commit/7c9ae01) caja-information-panel: Corretto l'utilizzo della memoria dopo che è stata liberata
 * [7b605dd](https://github.com/mate-desktop/caja/commit/7b605dd) fm-directory-view:  Corretto l'utilizzo della memoria dopo che è stata liberata
-* [58312fd](https://github.com/mate-desktop/caja/commit/58312fd) caja-tree-view-drag-dest: corretto il memory leak
+* [58312fd](https://github.com/mate-desktop/caja/commit/58312fd) caja-tree-view-drag-dest: corretto un memory leak
 * [7a26045](https://github.com/mate-desktop/caja/commit/7a26045) [Security] eel-string: utilizzo di 'g_strlcat' al posto di 'strcat'
 * [fede367](https://github.com/mate-desktop/caja/commit/fede367) [Security]  Utilizzo di 'g_strlcpy' al posto di 'strcpy'
 * [da3b634](https://github.com/mate-desktop/caja/commit/da3b634) Aggiunto lo script update-authors.pl che aiuta ad aggiornare caja.about
@@ -229,11 +229,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [86b93da](https://github.com/mate-desktop/caja/commit/86b93da) aggiornato caja.pot per transifex
 * [9bec3b7](https://github.com/mate-desktop/caja/commit/9bec3b7) corretto il fallimento di distcheck su debian
 * [2d59514](https://github.com/mate-desktop/caja/commit/2d59514) corretta la stringa di aiuto di --disable-self-check
-* [5e5c47f](https://github.com/mate-desktop/caja/commit/5e5c47f) restituito sempre 0 per distcheck
-* [78b7682](https://github.com/mate-desktop/caja/commit/78b7682) aggiornato travis per il supporto a archlinux e abilitato distcheck
+* [5e5c47f](https://github.com/mate-desktop/caja/commit/5e5c47f) restituire sempre 0 per distcheck
+* [78b7682](https://github.com/mate-desktop/caja/commit/78b7682) aggiornato travis per il supporto ad archlinux e abilitato distcheck
 * [91f1dc6](https://github.com/mate-desktop/caja/commit/91f1dc6)  Aggiunto --disable-self-check a configure
 * [3daa55c](https://github.com/mate-desktop/caja/commit/3daa55c) Evitata la deprecata g_type_class_add_private in src
-* [4e42def](https://github.com/mate-desktop/caja/commit/4e42def) Corretta l'incompatibilità dei tipi di puntatori
+* [4e42def](https://github.com/mate-desktop/caja/commit/4e42def) Corretta l'incompatibilità dei tipi dei puntatori
 * [e99050a](https://github.com/mate-desktop/caja/commit/e99050a) Evitata la deprecata g_type_class_add_private in src
 * [7920f97](https://github.com/mate-desktop/caja/commit/7920f97) Evitata la deprecata g_type_class_add_private in libcaja-private
 * [0b07371](https://github.com/mate-desktop/caja/commit/0b07371) Evitata la deprecata g_type_class_add_private in libcaja-private
@@ -242,7 +242,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [9cd63d4](https://github.com/mate-desktop/caja/commit/9cd63d4) Evitata la deprecata g_type_class_add_private in libcaja-private
 * [4196136](https://github.com/mate-desktop/caja/commit/4196136) Evitata la deprecata g_type_class_add_private in src
 * [328d820](https://github.com/mate-desktop/caja/commit/328d820) corretti i warning di compilazione
-* [dbfd51e](https://github.com/mate-desktop/caja/commit/dbfd51e) Consente alle unità di misura di seguire le preferenze dell'utente
+* [dbfd51e](https://github.com/mate-desktop/caja/commit/dbfd51e) Consentire alle unità di misura dei file di seguire le preferenze dell'utente
 * [0a37810](https://github.com/mate-desktop/caja/commit/0a37810) Fissati il valore 6 mesi ed 1 anno.
 * [3a22d4c](https://github.com/mate-desktop/caja/commit/3a22d4c) Supportata l'interrogazione dei file per data di modifica e per dimensione
 * [e8f124d](https://github.com/mate-desktop/caja/commit/e8f124d) Evitata la deprecata g_type_class_add_private
@@ -250,13 +250,13 @@ Ecco tutti i dettagli raccapriccianti.
 * [d373d6c](https://github.com/mate-desktop/caja/commit/d373d6c) CajaApplication: Evitata la deprecata 'g_type_class_add_private'
 * [a9211bd](https://github.com/mate-desktop/caja/commit/a9211bd) caja-menu: Evitata la deprecata g_type_class_add_private
 * [10efec8](https://github.com/mate-desktop/caja/commit/10efec8) [eel][libegg] Utilizzo della macro G_DEFINE_TYPE_WITH_PRIVATE
-* [f0775c8](https://github.com/mate-desktop/caja/commit/f0775c8) configure.ac: Aggiunto un controllo perché sia impostato PKG_CONFIG
+* [f0775c8](https://github.com/mate-desktop/caja/commit/f0775c8) configure.ac: Aggiunto un controllo perché sia impostato PKG_CONFIG.
 * [7408146](https://github.com/mate-desktop/caja/commit/7408146) corretto distcheck
-* [a35b46f](https://github.com/mate-desktop/caja/commit/a35b46f) caja-application: verificato smclient prima del tentativo di caricare la sessione
+* [a35b46f](https://github.com/mate-desktop/caja/commit/a35b46f) caja-application: controllare smclient prima del tentativo di caricare la sessione
 * [3eb0ff8](https://github.com/mate-desktop/caja/commit/3eb0ff8) [eel] Evitata la deprecata g_type_class_add_private
 * [9fc6f1f](https://github.com/mate-desktop/caja/commit/9fc6f1f) [libegg] Evitata la deprecata g_type_class_add_private
 * [9991fb1](https://github.com/mate-desktop/caja/commit/9991fb1) [libcaja-private] Ri-verificato il tipo MIME prima della selezione di una applicazione
-* [e51b16d](https://github.com/mate-desktop/caja/commit/e51b16d) [file-manager] Corretto un bug apparente nel menù contestuale che aggiorna il codice.
+* [e51b16d](https://github.com/mate-desktop/caja/commit/e51b16d) [file-manager] Corretto un bug apparente nel menù contestuale aggiornando il codice.
 * [cf23b9a](https://github.com/mate-desktop/caja/commit/cf23b9a) Ritornati a "fm-directory-view.c: e Diminuito l'intervallo minimo di aggiornamento."
 * [e7b68e0](https://github.com/mate-desktop/caja/commit/e7b68e0) Correzione: oggetto bizzarro nei segnalibri se veniva rimossa la cartella
 * [1846d75](https://github.com/mate-desktop/caja/commit/1846d75) Lieve miglioramento della qualità del codice
@@ -264,7 +264,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [34d0676](https://github.com/mate-desktop/caja/commit/34d0676) Modificata la scorciatoia a mostra/nascondi i file di backup
 * [2d66485](https://github.com/mate-desktop/caja/commit/2d66485) Rimossi inutili commenti, corretta la stringa descrittiva
 * [06b4f4c](https://github.com/mate-desktop/caja/commit/06b4f4c) Saltare solo i file nascosti, non i backup
-* [58e9876](https://github.com/mate-desktop/caja/commit/58e9876) Aggiunta una indipendente nascondi/mostra file di backup
+* [58e9876](https://github.com/mate-desktop/caja/commit/58e9876) Aggiunta un indipendente nascondi/mostra file di backup
 * [040a897](https://github.com/mate-desktop/caja/commit/040a897) cancellata l'inutile icona di nautilus
 * [75e89ca](https://github.com/mate-desktop/caja/commit/75e89ca) caja-progress-info: nuovo comportamento con notifiche:
 * [08f479a](https://github.com/mate-desktop/caja/commit/08f479a) caja-progress-info: mostra le notifiche con la chiave gsettings:
@@ -276,22 +276,22 @@ Ecco tutti i dettagli raccapriccianti.
 * [a8de3bb](https://github.com/mate-desktop/caja/commit/a8de3bb) fm-properties-window: corretti i memory leak
 * [09eda67](https://github.com/mate-desktop/caja/commit/09eda67) caja-desktop-link-monitor: corretto il memory leak
 * [056832f](https://github.com/mate-desktop/caja/commit/056832f) eel-gtk-extensions: corretti i memory leak
-* [6dbdc90](https://github.com/mate-desktop/caja/commit/6dbdc90) Gsettings dovrebbe inizializzarsi prima di utilizzarla
+* [6dbdc90](https://github.com/mate-desktop/caja/commit/6dbdc90) Gsettings dovrebbe inizializzarsi prima di utilizzarlo
 * [74d2b19](https://github.com/mate-desktop/caja/commit/74d2b19) sincronizzazione con transifex
 * [2676eaf](https://github.com/mate-desktop/caja/commit/2676eaf) Corretto un confronto che ignora le maiuscole in running_in_mate
-* [0bffad7](https://github.com/mate-desktop/caja/commit/0bffad7) monitor: corretto il crash nello smontare filesystem remoti
+* [0bffad7](https://github.com/mate-desktop/caja/commit/0bffad7) monitor: corretto il crash nello smontare i filesystem remoti
 * [d8d375b](https://github.com/mate-desktop/caja/commit/d8d375b) CajaFile: corretto il crash in modify_link_hash_table
 * [ae033ba](https://github.com/mate-desktop/caja/commit/ae033ba) connect-server-dialog: Rispettate le impostazioni del salvataggio delle password
 * [bc0b2cb](https://github.com/mate-desktop/caja/commit/bc0b2cb) properties-window: corretto il controllo di uno stato incoerente
 * [8fff655](https://github.com/mate-desktop/caja/commit/8fff655) monitor: controllati i montaggi non-nativi su GVolumeMonitor
-* [09146ca](https://github.com/mate-desktop/caja/commit/09146ca) Aggiunta una interfaccia 'Configurabile' e aggiunto il supporto a caja-file-management-properties
+* [09146ca](https://github.com/mate-desktop/caja/commit/09146ca) Aggiunta una interfaccia 'Configurable' e aggiunto il supporto a caja-file-management-properties
 * [adeaed2](https://github.com/mate-desktop/caja/commit/adeaed2) caja-application.c: Rimosse le linee vuote ridondanti
 * [dba8610](https://github.com/mate-desktop/caja/commit/dba8610) Aggiornata la pagina man di caja con le informazioni sull'opzione "--force-desktop"
-* [6c423bc](https://github.com/mate-desktop/caja/commit/6c423bc) Caja-icon-info: Ottimizzato l'aspetto dell'icona con GIcon.
+* [6c423bc](https://github.com/mate-desktop/caja/commit/6c423bc) Caja-icon-info: Ottimizzato l'aspetto dell'icona da GIcon.
 * [021ff2a](https://github.com/mate-desktop/caja/commit/021ff2a) fm-directory-view.c: Diminuito l'intervallo minimo di aggiornamento.
 * [336f351](https://github.com/mate-desktop/caja/commit/336f351) Rimosso il codice morto e corretto un memory leak
 * [6a31ce6](https://github.com/mate-desktop/caja/commit/6a31ce6) Aggiungere l'opzione per aprire più URI in schede all'avvio
-* [fb9a3cf](https://github.com/mate-desktop/caja/commit/fb9a3cf) Anullare "aggiungere l'opzione per aprire più URI in schede all'avvio"
+* [fb9a3cf](https://github.com/mate-desktop/caja/commit/fb9a3cf) Annullare "aggiungere l'opzione per aprire più URI in schede all'avvio"
 * [0d7a79d](https://github.com/mate-desktop/caja/commit/0d7a79d) Annullare "corretto un memory leak"
 * [e362fef](https://github.com/mate-desktop/caja/commit/e362fef) Annullare "Correggere l'indentazione, aggiornare i documenti per riflettere la capacità di aprire più URI in schede"
 * [424cf44](https://github.com/mate-desktop/caja/commit/424cf44) Correggere l'indentazione, aggiornare i documenti per riflettere la capacità di aprire più URI in schede
@@ -300,7 +300,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [3619f72](https://github.com/mate-desktop/caja/commit/3619f72) pathbar: Attivato il pannello quando si cambia posizione
 * [c455418](https://github.com/mate-desktop/caja/commit/c455418) aggiunta la possibilità di scorrere tra le schede con  [ctrl+tab] e [ctrl+shift+tab]
 * [e740a98](https://github.com/mate-desktop/caja/commit/e740a98) caja-window: Corretto il non funzionamento del mouse con  [ctrl] + [.] o [ctrl] + [;]
-* [5b20286](https://github.com/mate-desktop/caja/commit/5b20286) caja-desktop-directory: fermato il segfault in directory_ready_callback
+* [5b20286](https://github.com/mate-desktop/caja/commit/5b20286) caja-desktop-directory: fermati i segfault in directory_ready_callback
 * [a2fa06f](https://github.com/mate-desktop/caja/commit/a2fa06f) caja-directory.c: corretti i warning di compilazione
 * [f9bae2f](https://github.com/mate-desktop/caja/commit/f9bae2f) pathbar: Aumentare il conteggio delle reference del percorso in update_button_types
 * [acdb7e2](https://github.com/mate-desktop/caja/commit/acdb7e2) Corretti alcuni problemi trovati con l'analisi statica
@@ -310,7 +310,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [970cda6](https://github.com/mate-desktop/caja/commit/970cda6) sincronizzazione con transifex
 * [76c2a2a](https://github.com/mate-desktop/caja/commit/76c2a2a) eel-gtk-extensions: mostrare le icone nel menù del tasto destro del mouse solo se è impostata "menus-have-icons"
 * [eafef85](https://github.com/mate-desktop/caja/commit/eafef85) caja-sidebar-title: Correzione: immagini rotte nella barra laterale
-* [a797afc](https://github.com/mate-desktop/caja/commit/a797afc) caja-progress-info.c: mostra le notifiche con la chiave gsettings:
+* [a797afc](https://github.com/mate-desktop/caja/commit/a797afc) caja-progress-info.c: mostrare le notifiche con la chiave gsettings:
 * [639c902](https://github.com/mate-desktop/caja/commit/639c902) caja-progress-info.c: Evitata la deprecata 'gtk_status_icon_get_visible'
 * [e7942e9](https://github.com/mate-desktop/caja/commit/e7942e9) caja-sidebar-title: corretto il warning [-Wmaybe-uninitialized]
 * [df6643a](https://github.com/mate-desktop/caja/commit/df6643a) desktop window: Aggiunto l'attributo is-desktop AtkObject
@@ -322,7 +322,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [eb65d22](https://github.com/mate-desktop/caja/commit/eb65d22) icon-container: evitata la deprecata 'gtk_style_context_get_border_color'
 * [6841bd7](https://github.com/mate-desktop/caja/commit/6841bd7) evitata la deprecata 'gtk_dialog_get_action_area'
 * [c31de77](https://github.com/mate-desktop/caja/commit/c31de77) aggiornato il potfile
-* [c0f159d](https://github.com/mate-desktop/caja/commit/c0f159d) Pulsante della barra dei percorsi: corretta la poca risposta al clic destro
+* [c0f159d](https://github.com/mate-desktop/caja/commit/c0f159d) Pathbar button: corretta la poca risposta al clic destro
 * [9f08546](https://github.com/mate-desktop/caja/commit/9f08546) editable-label: evitata la deprecata 'gtk_im_multicontext_append_menuitems'
 * [9bf65ee](https://github.com/mate-desktop/caja/commit/9bf65ee) zoom-control: utilizzato NULL al posto di una variabile non inizializzata
 * [13fe58e](https://github.com/mate-desktop/caja/commit/13fe58e) rimossa una funzione inutilizzata
@@ -342,14 +342,14 @@ Ecco tutti i dettagli raccapriccianti.
 * [99cf0ca](https://github.com/mate-desktop/caja/commit/99cf0ca) Eliminata l'inondazione di eventi accessibili modificati-dai-figli sul ripopolamento del contenitore 
 * [5e236e9](https://github.com/mate-desktop/caja/commit/5e236e9) Eliminata l'inondazione di eventi accessibili modificati-dai-figli durante aggiorna tutto
 * [3c3f62d](https://github.com/mate-desktop/caja/commit/3c3f62d) Emesso il segnale  accessible-name-change per le icone solo quando le icone vengono rinominate
-* [9f8d950](https://github.com/mate-desktop/caja/commit/9f8d950) libcaja-private/caja-recent.c: gvfs-open è uno strumento deprecato, passato a "gio open" da libglib2.0-bin.
+* [9f8d950](https://github.com/mate-desktop/caja/commit/9f8d950) libcaja-private/caja-recent.c: gvfs-open è uno strumento deprecato, passati a "gio open" da libglib2.0-bin.
 * [4d4f750](https://github.com/mate-desktop/caja/commit/4d4f750) sidebar popup menu: mostrata l'icona "media-eject" tra gli elementi "unmount" 
 * [f8e6051](https://github.com/mate-desktop/caja/commit/f8e6051) aggiornato il potfile
 * [01a8519](https://github.com/mate-desktop/caja/commit/01a8519) pathbar: corretto un segfault casuale aprendo mounts dal Desktop
 * [f6a4e9c](https://github.com/mate-desktop/caja/commit/f6a4e9c) fm-icon-view: Mostrata la dimensione del disco come criterio di ordinamento
 * [7a76ce4](https://github.com/mate-desktop/caja/commit/7a76ce4) sidebar popup menu: mostrata l'icona "media-eject"
 * [2786f3c](https://github.com/mate-desktop/caja/commit/2786f3c) aggiornato il potfile
-* [0585258](https://github.com/mate-desktop/caja/commit/0585258) Aggiunto un criterio di ordinamento per segmenti di estensione invertiti
+* [0585258](https://github.com/mate-desktop/caja/commit/0585258) Aggiunto un criterio di ordinamento secondo i segmenti di estensione invertiti
 * [68ace00](https://github.com/mate-desktop/caja/commit/68ace00) impostati i nomi delle icone invece degli identificativi stock in alcuni posti
 * [b70d394](https://github.com/mate-desktop/caja/commit/b70d394) caja-spatial-window.c: evitata la deprecata GtkImageMenuItem
 * [a00bad2](https://github.com/mate-desktop/caja/commit/a00bad2) Corretti i warning dai commit HiDPI
@@ -358,11 +358,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [280ef82](https://github.com/mate-desktop/caja/commit/280ef82) general: utilizzata gdk_monitor_get_scale_factor
 * [e28ff9c](https://github.com/mate-desktop/caja/commit/e28ff9c) list-view: utilizzata la superfice cairo come una icona trascinabile
 * [ef78aa3](https://github.com/mate-desktop/caja/commit/ef78aa3) Scalare le dimensioni dello schermo
-* [cfd5021](https://github.com/mate-desktop/caja/commit/cfd5021) icon-info: le icone hash/store utilizzano il fattore di scala così come la dimensione
+* [cfd5021](https://github.com/mate-desktop/caja/commit/cfd5021) icon-info: l'hash/store delle icone utilizza il fattore di scala così come la dimensione
 * [47246e2](https://github.com/mate-desktop/caja/commit/47246e2) file: supportato HiDPI per le immagini delle miniature
 * [c0d60fc](https://github.com/mate-desktop/caja/commit/c0d60fc) properties-window: supportato HiDpi per l'icona della finestra delle proprietà
 * [bc1405c](https://github.com/mate-desktop/caja/commit/bc1405c) Supportate le icone HiDpi
-* [779e0af](https://github.com/mate-desktop/caja/commit/779e0af) canvas-container: ascoltato il fattore di scala per invalidare le icone
+* [779e0af](https://github.com/mate-desktop/caja/commit/779e0af) canvas-container: ascoltare il fattore di scala per invalidare le icone
 * [a864855](https://github.com/mate-desktop/caja/commit/a864855) canvas-item: utilizzato gtk_render_icon_surface per la superficie Drag-n-Drop
 * [35eb416](https://github.com/mate-desktop/caja/commit/35eb416) desktop-canvas-view: Scalata l'area di lavoro del desktop
 * [37ebfa8](https://github.com/mate-desktop/caja/commit/37ebfa8) versione pre-aggiornamento
@@ -379,31 +379,31 @@ Ecco tutti i dettagli raccapriccianti.
 * [8bebf06](https://github.com/mate-desktop/caja/commit/8bebf06) renominata 'mate_image_menu_item...' in 'eel_image_menu_item_new_from_icon'
 * [ffc9106](https://github.com/mate-desktop/caja/commit/ffc9106) eel-editable-label.c: evitata 'append_action_signal' con gli identificativi stock
 * [7991810](https://github.com/mate-desktop/caja/commit/7991810) caja-query-editor.c: aggiunto #include &lt;eel/eel-stock-dialogs.h&gt;
-* [7c9b80c](https://github.com/mate-desktop/caja/commit/7c9b80c) evitata 'gtk_file_chooser_dialog_new' con gli gli identificativi stock
-* [4fb3590](https://github.com/mate-desktop/caja/commit/4fb3590) evitata gtk_dialog_new_with_buttons con gli gli identificativi stock
+* [7c9b80c](https://github.com/mate-desktop/caja/commit/7c9b80c) evitata 'gtk_file_chooser_dialog_new' con gli identificativi stock
+* [4fb3590](https://github.com/mate-desktop/caja/commit/4fb3590) evitata gtk_dialog_new_with_buttons con gli identificativi stock
 * [d4711ef](https://github.com/mate-desktop/caja/commit/d4711ef) aggiunto caja.pot per auto-aggiornare le traduzioni
-* [68fb5e4](https://github.com/mate-desktop/caja/commit/68fb5e4) evitata gtk_dialog_add_buttons con gli gli identificativi stock
+* [68fb5e4](https://github.com/mate-desktop/caja/commit/68fb5e4) evitata gtk_dialog_add_buttons con gli identificativi stock
 * [dfb6585](https://github.com/mate-desktop/caja/commit/dfb6585) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione 
 * [683e944](https://github.com/mate-desktop/caja/commit/683e944) caja-file-management-properties.ui: evitate le deprecate GtkVBox e GtkHBox
 * [d66b717](https://github.com/mate-desktop/caja/commit/d66b717) caja-bookmarks-window.ui: evitate le deprecate:
 * [ed46e15](https://github.com/mate-desktop/caja/commit/ed46e15) renominato mate_dialog_add_button in eel_dialog_add_button
-* [4901253](https://github.com/mate-desktop/caja/commit/4901253) utilizzata la versione di svipluppo
+* [4901253](https://github.com/mate-desktop/caja/commit/4901253) utilizzata la versione di sviluppo
 * [20fe122](https://github.com/mate-desktop/caja/commit/20fe122) versione pre-aggiornamento
-* [7763ec9](https://github.com/mate-desktop/caja/commit/7763ec9) evitata eel_create_question_dialog con gli gli identificativi stock
-* [f0ab0d4](https://github.com/mate-desktop/caja/commit/f0ab0d4) evitata eel_run_simple_dialog con gli gli identificativi stock
-* [9778a3a](https://github.com/mate-desktop/caja/commit/9778a3a) eel-stock-dialogs: evitata gtk_dialog_add_button con gli gli identificativi stock
-* [5f0ad00](https://github.com/mate-desktop/caja/commit/5f0ad00) caja-file-operations: evitata gtk_dialog_add_buttons con gli gli identificativi stock
+* [7763ec9](https://github.com/mate-desktop/caja/commit/7763ec9) evitata eel_create_question_dialog con gli identificativi stock
+* [f0ab0d4](https://github.com/mate-desktop/caja/commit/f0ab0d4) evitata eel_run_simple_dialog con gli identificativi stock
+* [9778a3a](https://github.com/mate-desktop/caja/commit/9778a3a) eel-stock-dialogs: evitata gtk_dialog_add_button con gli identificativi stock
+* [5f0ad00](https://github.com/mate-desktop/caja/commit/5f0ad00) caja-file-operations: evitata gtk_dialog_add_buttons con gli identificativi stock
 * [01cec7e](https://github.com/mate-desktop/caja/commit/01cec7e) rimossi i warning in esecuzione nell'utilizzo di caja_clipboard_set_up_editable
-* [ab30e57](https://github.com/mate-desktop/caja/commit/ab30e57) caja-file-conflict-dialog: evitata gtk_dialog_add_buttons con gli gli identificativi stock
+* [ab30e57](https://github.com/mate-desktop/caja/commit/ab30e57) caja-file-conflict-dialog: evitata gtk_dialog_add_buttons con gli identificativi stock
 * [e313685](https://github.com/mate-desktop/caja/commit/e313685) evitata la deprecata GtkButton:use-stock
-* [012d9f8](https://github.com/mate-desktop/caja/commit/012d9f8) può selezionare tutte le parole chiave di ricerca con Ctrl+a. #918
-* [54a9de1](https://github.com/mate-desktop/caja/commit/54a9de1) caja-autorun: evitata gtk_dialog_add_buttons con gli gli identificativi stock
+* [012d9f8](https://github.com/mate-desktop/caja/commit/012d9f8) si possono selezionare tutte le parole chiave di ricerca con Ctrl+a. #918
+* [54a9de1](https://github.com/mate-desktop/caja/commit/54a9de1) caja-autorun: evitata gtk_dialog_add_buttons con gli identificativi stock
 * [ff1b432](https://github.com/mate-desktop/caja/commit/ff1b432) eel-editable-label.c: evitata gtk_image_menu_item_new_from_stock
 * [cff14d0](https://github.com/mate-desktop/caja/commit/cff14d0) caja-file-management-properties.ui: evitate le proprietà stock:
 * [f8a7e7a](https://github.com/mate-desktop/caja/commit/f8a7e7a) Toolbar: trova icona: utilizzato il nome invece dell'identificativo stock
 * [7e8bb46](https://github.com/mate-desktop/caja/commit/7e8bb46) caja-bookmarks-window.ui: evitata la deprecata GtkButton:use-stock
 * [dd4c0f7](https://github.com/mate-desktop/caja/commit/dd4c0f7) CAJA_TYPE_NAVIGATION_ACTION: evitata la proprietà deprecata "stock_id"
-* [bbc0211](https://github.com/mate-desktop/caja/commit/bbc0211) corretto il rendering degli sfondi e del contenuto della finestra di dialogo degli emblemi
+* [bbc0211](https://github.com/mate-desktop/caja/commit/bbc0211) corretto il rendering degli sfondi e del contenuto della finestra di dialogo dei simboli
 * [bf3da8e](https://github.com/mate-desktop/caja/commit/bf3da8e) evitata la deprecata GtkStock
 * [22aad8d](https://github.com/mate-desktop/caja/commit/22aad8d) utilizzate le immagini di archlinux/base
 * [f2a22d2](https://github.com/mate-desktop/caja/commit/f2a22d2) Rimosso l'override del valore di ritorno di distcheck
@@ -414,32 +414,32 @@ Ecco tutti i dettagli raccapriccianti.
 * [017b058](https://github.com/mate-desktop/caja/commit/017b058) pathbar: corretto un segfault casuale aprendo mounts dal Desktop
 * [94c2f1c](https://github.com/mate-desktop/caja/commit/94c2f1c) spostato appdata nella cartella metainfo
 * [ed4730c](https://github.com/mate-desktop/caja/commit/ed4730c) disabilitati i warning di deprecazione per distcheck
-* [311ab2b](https://github.com/mate-desktop/caja/commit/311ab2b) caja-places-sidebar:  sostituire due altri usi di g_drive_poll_for_media_finish
+* [311ab2b](https://github.com/mate-desktop/caja/commit/311ab2b) caja-places-sidebar: sostituire due altri usi di g_drive_poll_for_media_finish
 * [df49a00](https://github.com/mate-desktop/caja/commit/df49a00) Corretto un segfault quando si fermano gli hard disk USB
 * [157d047](https://github.com/mate-desktop/caja/commit/157d047) fm-properties-window: corretti i memory leak
 * [bd0d998](https://github.com/mate-desktop/caja/commit/bd0d998) caja-desktop-link-monitor: corretto un memory leak
 * [78607a5](https://github.com/mate-desktop/caja/commit/78607a5) Corretto un confronto che ignora le maiuscole in running_in_mate
 * [5200838](https://github.com/mate-desktop/caja/commit/5200838) pathbar: Attivato il pannello quando si cambia posizione
 * [f19255f](https://github.com/mate-desktop/caja/commit/f19255f) caja-window: corretto il non funzionamento del mouse con [ctrl] + [.] o [ctrl] + [;]
-* [ba087de](https://github.com/mate-desktop/caja/commit/ba087de) desktop window: Aggiunto l'attributo is-desktop AtkObject
+* [ba087de](https://github.com/mate-desktop/caja/commit/ba087de) desktop window: Aggiunto l'attributo AtkObject is-desktop 
 * [a58d52a](https://github.com/mate-desktop/caja/commit/a58d52a) Corretti i warning dai commit HiDPI
 * [ce14bef](https://github.com/mate-desktop/caja/commit/ce14bef) sidebar: Rispettata la dimensione della barra laterale sugli HiDPI
 * [dade92d](https://github.com/mate-desktop/caja/commit/dade92d) HiDPI: Convertiti i Pixbuf in Superfici Cairo
 * [556663a](https://github.com/mate-desktop/caja/commit/556663a) general: utilizzata gdk_monitor_get_scale_factor
 * [0630180](https://github.com/mate-desktop/caja/commit/0630180) list-view: utilizzata la superfice cairo come una icona trascinabile
 * [1a14801](https://github.com/mate-desktop/caja/commit/1a14801) Scalate le dimensioni dello schermo
-* [4c377ba](https://github.com/mate-desktop/caja/commit/4c377ba) icon-info: le icone hash/store utilizzano il fattore di scala così come la dimensione
+* [4c377ba](https://github.com/mate-desktop/caja/commit/4c377ba) icon-info: l'hash/store delle icone utilizza il fattore di scala così come la dimensione
 * [70534c0](https://github.com/mate-desktop/caja/commit/70534c0) file: supportato HiDpi per le immagini delle miniature
-* [2e0c51f](https://github.com/mate-desktop/caja/commit/2e0c51f) properties-window:  supportato HiDpi per l'icona della finestra delle proprietà
+* [2e0c51f](https://github.com/mate-desktop/caja/commit/2e0c51f) properties-window: supportato HiDpi per l'icona della finestra delle proprietà
 * [4bf67ac](https://github.com/mate-desktop/caja/commit/4bf67ac) Supportate le icone HiDpi
 * [35c4dc6](https://github.com/mate-desktop/caja/commit/35c4dc6) canvas-container: ascoltato il fattore di scala per invalidare le icone
 * [52d44de](https://github.com/mate-desktop/caja/commit/52d44de) canvas-item: utilizzato gtk_render_icon_surface per la superficie Drag-n-Drop
 * [7f22b30](https://github.com/mate-desktop/caja/commit/7f22b30) modificato il codice di errore: fatto terminare lo statement con un punto e virgola
 * [6082649](https://github.com/mate-desktop/caja/commit/6082649) rimossi i warning in esecuzione nell'utilizzo di caja_clipboard_set_up_editable
-* [d885694](https://github.com/mate-desktop/caja/commit/d885694) può selezionare tutte le parole chiave di ricerca con Ctrl+a.
+* [d885694](https://github.com/mate-desktop/caja/commit/d885694) si possono selezionare tutte le parole chiave di ricerca con Ctrl+a.
 * [fcbee7f](https://github.com/mate-desktop/caja/commit/fcbee7f) aggiunto caja.pot per auto-aggiornare le traduzioni
 * [33dc065](https://github.com/mate-desktop/caja/commit/33dc065) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
-* [dabd62d](https://github.com/mate-desktop/caja/commit/dabd62d) corretto il rendering degli sfondi e del contenuto della finestra di dialogo degli emblemi
+* [dabd62d](https://github.com/mate-desktop/caja/commit/dabd62d) corretto il rendering degli sfondi e del contenuto della finestra di dialogo dei simboli
 
 ### caja-dropbox
 * [5fdcb17](https://github.com/mate-desktop/caja-dropbox/commit/5fdcb17) Utilizzato CAJA_EXTENSION_DIR_SYS per salvare e mostrare la directory di sistema di caja extensions
@@ -450,21 +450,21 @@ Ecco tutti i dettagli raccapriccianti.
 * [05e1e93](https://github.com/mate-desktop/caja-dropbox/commit/05e1e93) Corretto un fallimento di distcheck
 * [285937d](https://github.com/mate-desktop/caja-dropbox/commit/285937d) utilizzato solo Python 3 durante la compilazione per completare la migrazione
 * [3d48c5e](https://github.com/mate-desktop/caja-dropbox/commit/3d48c5e) migrazione da python2 a python3 di rst2man.py
-* [4eab52b](https://github.com/mate-desktop/caja-dropbox/commit/4eab52b) rimossi ulteriori modificatori -u per dropbox-cli
+* [4eab52b](https://github.com/mate-desktop/caja-dropbox/commit/4eab52b) rimossi più modificatori -u per dropbox-cli
 * [cd91ced](https://github.com/mate-desktop/caja-dropbox/commit/cd91ced) Aggiornamento di Python 3 per dropbox-cli
-* [f3fe4a4](https://github.com/mate-desktop/caja-dropbox/commit/f3fe4a4) Aggiunte le voci Keywords al file desktop
-* [7ab9374](https://github.com/mate-desktop/caja-dropbox/commit/7ab9374) Utilizzata la macro cross-compilation-safe pkg-config
+* [f3fe4a4](https://github.com/mate-desktop/caja-dropbox/commit/f3fe4a4) Aggiunte la voce Keywords al file desktop
+* [7ab9374](https://github.com/mate-desktop/caja-dropbox/commit/7ab9374) Utilizzata la macro cross-compilation-safe di pkg-config
 * [c85aaec](https://github.com/mate-desktop/caja-dropbox/commit/c85aaec) Rimosse le chiamate deprecate all'API glib2.0
 * [167bfab](https://github.com/mate-desktop/caja-dropbox/commit/167bfab) Utilizzati i binding GIR invece di pygtk
 * [55e4f9b](https://github.com/mate-desktop/caja-dropbox/commit/55e4f9b) corretto UnicodeWarning quando il comando exclude è utilizzato con argomenti non-latin
-* [343a3fb](https://github.com/mate-desktop/caja-dropbox/commit/343a3fb) Aggiornamento per il ridisegnamento delle icone
+* [343a3fb](https://github.com/mate-desktop/caja-dropbox/commit/343a3fb) Aggiornamento per le icone ridisegnate
 * [1eb18c6](https://github.com/mate-desktop/caja-dropbox/commit/1eb18c6) piccole correzioni a caja-dropbox.in
 * [527b9cc](https://github.com/mate-desktop/caja-dropbox/commit/527b9cc) Aggiunto un nuovo comando "dropbox update"
 * [4cb4209](https://github.com/mate-desktop/caja-dropbox/commit/4cb4209) Scollegati i file che saranno sostituiti dallo spacchettamento
-* [192451f](https://github.com/mate-desktop/caja-dropbox/commit/192451f) Verificato che dropbox si esegue dopo averlo scaricato
+* [192451f](https://github.com/mate-desktop/caja-dropbox/commit/192451f) Verificato che dropbox viene eseguito dopo averlo scaricato
 * [3d511a6](https://github.com/mate-desktop/caja-dropbox/commit/3d511a6) Utilizzato python-gpg invece di python-gpgme
 * [68dd75a](https://github.com/mate-desktop/caja-dropbox/commit/68dd75a) Caricare esplicitamente utilizzando python2
-* [a7da6a7](https://github.com/mate-desktop/caja-dropbox/commit/a7da6a7) Riferirsi a .dropbox.dist in un solo posto
+* [a7da6a7](https://github.com/mate-desktop/caja-dropbox/commit/a7da6a7) Fare riferimento a .dropbox.dist in un solo posto
 * [a939670](https://github.com/mate-desktop/caja-dropbox/commit/a939670) corretto 'exclude command raise UnicodeDecodeError'
 * [5543711](https://github.com/mate-desktop/caja-dropbox/commit/5543711)  Evitato di leggere o scrivere indirizzi di memoria non validi
 * [991a851](https://github.com/mate-desktop/caja-dropbox/commit/991a851) Mostrato l'url di collegamento sullo status
@@ -485,13 +485,13 @@ Ecco tutti i dettagli raccapriccianti.
 * [84e7fac](https://github.com/mate-desktop/caja-extensions/commit/84e7fac) aggiunto il supporto a travis-Cl
 * [4f06445](https://github.com/mate-desktop/caja-extensions/commit/4f06445) disabilitati i warning di deprecazione per distcheck
 * [d3b8be7](https://github.com/mate-desktop/caja-extensions/commit/d3b8be7) sincronizzazione con transifex
-* [7db6ed1](https://github.com/mate-desktop/caja-extensions/commit/7db6ed1) transifex:  impostata la percentuale_minima ed il tipo nel file di configurazione
+* [7db6ed1](https://github.com/mate-desktop/caja-extensions/commit/7db6ed1) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 
 ### engrampa
 * [8e1c290](https://github.com/mate-desktop/engrampa/commit/8e1c290) fr-process: corretto un memory leak
 * [84db3ea](https://github.com/mate-desktop/engrampa/commit/84db3ea) aggiunto il supporto a Travis-Cl
-* [29b4e67](https://github.com/mate-desktop/engrampa/commit/29b4e67) Tx: sincronizzati con le traduzioni fisse da transifex
-* [e61212f](https://github.com/mate-desktop/engrampa/commit/e61212f) rar/unrar: Correzione:  "sovrascrivere i file esistenti" disabilitato deve funzionare
+* [29b4e67](https://github.com/mate-desktop/engrampa/commit/29b4e67) Tx: sincronizzazione con le traduzioni fisse da transifex
+* [e61212f](https://github.com/mate-desktop/engrampa/commit/e61212f) rar/unrar: Correzione: disabilitando "sovrascrivere i file esistenti" deve funzionare
 * [b683362](https://github.com/mate-desktop/engrampa/commit/b683362) spostato appdata nella cartella metainfo
 * [dc0f490](https://github.com/mate-desktop/engrampa/commit/dc0f490) disabilitati i warning di deprecazione per distcheck
 * [95541ae](https://github.com/mate-desktop/engrampa/commit/95541ae) utilizzate funzioni make per HELP_LINGUAS
@@ -510,9 +510,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [c55754a](https://github.com/mate-desktop/engrampa/commit/c55754a) fr-process: corretto un memory leak
 * [bbca40d](https://github.com/mate-desktop/engrampa/commit/bbca40d) Help: corretta la versione a 1.22 e aggiornato il file pot
 * [d62cff0](https://github.com/mate-desktop/engrampa/commit/d62cff0) help: aggiornato il copyright
-* [4e0a8da](https://github.com/mate-desktop/engrampa/commit/4e0a8da) Aggiornato il manuale a dockbook 5.0
+* [4e0a8da](https://github.com/mate-desktop/engrampa/commit/4e0a8da) Aggiornato il manuale a docbook 5.0
 * [db21779](https://github.com/mate-desktop/engrampa/commit/db21779) Evitato l'array index out of bounds nell'analisi di dpkg-deb --info
-* [333a9e9](https://github.com/mate-desktop/engrampa/commit/333a9e9) warning: Utilizzo della memoria dopo che è stata liberata
+* [333a9e9](https://github.com/mate-desktop/engrampa/commit/333a9e9) warning: Utilizzare la memoria dopo che è stata liberata
 * [c9eb7cb](https://github.com/mate-desktop/engrampa/commit/c9eb7cb) Leggere authors (aggiornato) da engrampa.about gresource
 * [5ceee4c](https://github.com/mate-desktop/engrampa/commit/5ceee4c) Abilitato Travis Cl
 * [b0a7135](https://github.com/mate-desktop/engrampa/commit/b0a7135) eggsmclient: Evitata la deprecata 'g_type_class_add_private'
@@ -530,7 +530,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [57b6906](https://github.com/mate-desktop/engrampa/commit/57b6906) fr-window: nascondere la barra di avanzamento quando il processo è in pausa
 * [10fd1e2](https://github.com/mate-desktop/engrampa/commit/10fd1e2) fr-window: modificare l'etichetta informativa se il processo è messo in pausa o riattivato
 * [d5560ec](https://github.com/mate-desktop/engrampa/commit/d5560ec) fr-window: piccoli miglioramenti nell'aspetto del pulsante pausa/riprendi
-* [5eea3e1](https://github.com/mate-desktop/engrampa/commit/5eea3e1) Aggiunte le funzioni pausa e avvia
+* [5eea3e1](https://github.com/mate-desktop/engrampa/commit/5eea3e1) Aggiunte le funzioni pausa e riprendi
 * [b1d6ced](https://github.com/mate-desktop/engrampa/commit/b1d6ced) Corretta l'implementazione e l'utilizzo del nome di pacchetto alternativo  lookup
 * [fa96f93](https://github.com/mate-desktop/engrampa/commit/fa96f93) Aggiunto il supporto per gli archivi tar compressi brotli (*.tar.br)
 * [f06c216](https://github.com/mate-desktop/engrampa/commit/f06c216) Aggiunto il supporto per brotli
@@ -555,7 +555,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### eom
 * [905f8b7](https://github.com/mate-desktop/eom/commit/905f8b7) Help: corretta la versione a 1.22 e aggiornato il file pot
 * [bc141be](https://github.com/mate-desktop/eom/commit/bc141be) help: aggiornato il copyright
-* [bbcca8d](https://github.com/mate-desktop/eom/commit/bbcca8d) Aggiornato il manuale a dockbook 5.0
+* [bbcca8d](https://github.com/mate-desktop/eom/commit/bbcca8d) Aggiornato il manuale a docbook 5.0
 * [9f631a7](https://github.com/mate-desktop/eom/commit/9f631a7) Utilizzato un setup di pagina persistente
 * [68ac123](https://github.com/mate-desktop/eom/commit/68ac123) Aggiunto lo script update-authors.pl che aiuta ad aggiornare eom.about
 * [eed5511](https://github.com/mate-desktop/eom/commit/eed5511) Leggere authors (aggiornato) e documenters (aggiornato) da eom.about gresource
@@ -599,25 +599,25 @@ Ecco tutti i dettagli raccapriccianti.
 * [f517d6d](https://github.com/mate-desktop/eom/commit/f517d6d) EomMetadataSidebar: Cancellata l'etichetta della cartella se non è impostata alcuna immagine
 * [6aac9e3](https://github.com/mate-desktop/eom/commit/6aac9e3) EomSidebar: Incrementato il margine ai lati della barra laterale
 * [6319bb3](https://github.com/mate-desktop/eom/commit/6319bb3) EomSidebar: Centrato e riformattato il selettore della pagina
-* [ece3c97](https://github.com/mate-desktop/eom/commit/ece3c97) EomMetadataSidebar: corrette le stringhe perdute
+* [ece3c97](https://github.com/mate-desktop/eom/commit/ece3c97) EomMetadataSidebar: corrette le stringhe che sprecavano memoria
 * [a29a5d1](https://github.com/mate-desktop/eom/commit/a29a5d1) metadata-sidebar: aggiunto nuovamente il pulsante dettagli
 * [6b0c2ae](https://github.com/mate-desktop/eom/commit/6b0c2ae) EomMetadataSidebar: Tentato di semplificare e migliorare l'aspetto della barra laterale
-* [3d80a86](https://github.com/mate-desktop/eom/commit/3d80a86) GResource: liberato css_file
+* [3d80a86](https://github.com/mate-desktop/eom/commit/3d80a86) GResource: liberare il css_file
 * [6d164b4](https://github.com/mate-desktop/eom/commit/6d164b4) Migrazione di GResorce iniziale
 * [e12f285](https://github.com/mate-desktop/eom/commit/e12f285) EomExifUtil: corretta la compilazione con il nuovo GCC
 * [1e96c9d](https://github.com/mate-desktop/eom/commit/1e96c9d) EomExifUtil: Consentita la formattazione libera delle stringhe della data
-* [9b4890e](https://github.com/mate-desktop/eom/commit/9b4890e) EomMetadataDetails: Miglioato il supporto alle coordinate GPS frazionarie
+* [9b4890e](https://github.com/mate-desktop/eom/commit/9b4890e) EomMetadataDetails: Migliorato il supporto alle coordinate GPS frazionarie
 * [f965eb2](https://github.com/mate-desktop/eom/commit/f965eb2) EomPropertiesDialog: Separati i widget Exif/XMP-specifici da quelli generici
 * [4e20a6d](https://github.com/mate-desktop/eom/commit/4e20a6d) EomMetadataDetails: non installare il file header
 * [49c5c97](https://github.com/mate-desktop/eom/commit/49c5c97) EomExifDetails: Rinominato a EomMetadataDetails
 * [9593351](https://github.com/mate-desktop/eom/commit/9593351) Eliminato eom_close_confirmation_dialog_set_sensitive
 * [704107b](https://github.com/mate-desktop/eom/commit/704107b) scroll-view: Rimossa una chiamata a gdk_window_process_updates
 * [416dc9b](https://github.com/mate-desktop/eom/commit/416dc9b) util: Portato a gtk_show_uri_on_window
-* [4115f76](https://github.com/mate-desktop/eom/commit/4115f76) EomImage: Assicurato che sia emessa a dimensioni-preparate dopo aver applicato l'orientamento
-* [c3d8c61](https://github.com/mate-desktop/eom/commit/c3d8c61) EomImage: corretta la troppo anticipata emissione a dimensioni-preparate 
+* [4115f76](https://github.com/mate-desktop/eom/commit/4115f76) EomImage: Assicurare che sia emesso size-prepared dopo aver applicato l'orientamento
+* [c3d8c61](https://github.com/mate-desktop/eom/commit/c3d8c61) EomImage: corretta la troppo anticipata emissione di size-prepared
 * [5f6f184](https://github.com/mate-desktop/eom/commit/5f6f184) EomImage: Lieve ottimizzazione della struttura dati privata
 * [a95925a](https://github.com/mate-desktop/eom/commit/a95925a) eliminato il file gtkrc dimenticato
-* [1f2aba7](https://github.com/mate-desktop/eom/commit/1f2aba7) css: eliminato linguaggio css vecchio ed obsoleto
+* [1f2aba7](https://github.com/mate-desktop/eom/commit/1f2aba7) css: eliminato il linguaggio css vecchio ed obsoleto
 * [447f5fe](https://github.com/mate-desktop/eom/commit/447f5fe) EomWindow: silenziato un warning introspettivo
 * [94f7f44](https://github.com/mate-desktop/eom/commit/94f7f44) Convertito a G_DEFINE_TYPE_WITH_PRIVATE parte 3
 * [fb7c539](https://github.com/mate-desktop/eom/commit/fb7c539)  Convertito a G_DEFINE_TYPE_WITH_PRIVATE parte 2
@@ -628,7 +628,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [5c58837](https://github.com/mate-desktop/eom/commit/5c58837) sidebar: Mostrata la directory completa sul tooltip del pulsante
 * [b504d5a](https://github.com/mate-desktop/eom/commit/b504d5a) properties-dialog: Mostrata la directory completa sul tooltip del pulsante
 * [a5ba9a2](https://github.com/mate-desktop/eom/commit/a5ba9a2) Creato un pulsante con l'etichetta-URI nella finestra di dialogo delle proprietà che mostri la cartella
-* [14a755c](https://github.com/mate-desktop/eom/commit/14a755c) exif-details: resa la colonna dei valori selezionabile
+* [14a755c](https://github.com/mate-desktop/eom/commit/14a755c) exif-details: resa selezionabile la colonna dei valori
 * [b3f9b82](https://github.com/mate-desktop/eom/commit/b3f9b82) EomExifDetails: Presa in considerazione l'IFD di Exif nella creazione delle chiavi hash
 * [a3a89e0](https://github.com/mate-desktop/eom/commit/a3a89e0) Spostati i tag Exif di GPS nella loro sottocategoria
 * [fe21ccd](https://github.com/mate-desktop/eom/commit/fe21ccd) Riformattati i tag Exif per la posizione GPS per essere più comprensibili
@@ -636,9 +636,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [017f7e5](https://github.com/mate-desktop/eom/commit/017f7e5) Uso della caratteristica "orientazione" di GdkPixbuf come fallback per l'auto-rotazione
 * [7eec54c](https://github.com/mate-desktop/eom/commit/7eec54c) EomScrollView: Implementato un semplice filtraggio a due-passaggi
 * [7f38bf6](https://github.com/mate-desktop/eom/commit/7f38bf6) EomScrollView: Utilizzato un migliore filtro downscaling
-* [f607cda](https://github.com/mate-desktop/eom/commit/f607cda) Rimosso il non necessario finaliza() da EomListStore
+* [f607cda](https://github.com/mate-desktop/eom/commit/f607cda) Rimossa la non necessaria finalize() da EomListStore
 * [9b79e09](https://github.com/mate-desktop/eom/commit/9b79e09) Aggiornati i plugin per utilizzare l'interfaccia EomWindowActivatable
-* [026b114](https://github.com/mate-desktop/eom/commit/026b114) Aggiunta la nostra interfaccia attivabile a EomWindow
+* [026b114](https://github.com/mate-desktop/eom/commit/026b114) Aggiunta la nostra interfaccia attivabile ad EomWindow
 * [17e6cdb](https://github.com/mate-desktop/eom/commit/17e6cdb) Sostituita gdk_spawn_command_line_on_screen()
 * [7dbd1b8](https://github.com/mate-desktop/eom/commit/7dbd1b8) sidebar: sostituita la deprecata gtk_misc_set_alignment
 * [15a0431](https://github.com/mate-desktop/eom/commit/15a0431) POTFILES.in: aggiunto  'src/eom-metadata-sidebar.c'
@@ -652,19 +652,19 @@ Ecco tutti i dettagli raccapriccianti.
 * [de32a70](https://github.com/mate-desktop/eom/commit/de32a70) MetadataSidebar: Cambiato il layout dei valori dei dati
 * [ad13501](https://github.com/mate-desktop/eom/commit/ad13501) Resi selezionabili i valori in MetadataSidebar
 * [d328203](https://github.com/mate-desktop/eom/commit/d328203) corretta la compilazione quando non si compila con libexif e/o exempi
-* [09fea91](https://github.com/mate-desktop/eom/commit/09fea91) Non forzare l'attivazione force-enable della barra laterale all'apertura una volta che si è aggiunta una pagina
+* [09fea91](https://github.com/mate-desktop/eom/commit/09fea91) Non fare il force-enable della barra laterale all'apertura una volta che si è aggiunta una pagina
 * [b1c0911](https://github.com/mate-desktop/eom/commit/b1c0911) Resi i riepiloghi Exif/XMP disponibili come barra laterale
 * [28fbd14](https://github.com/mate-desktop/eom/commit/28fbd14) Eliminato il non più necessario TotemScreenSaver
 * [4817ee9](https://github.com/mate-desktop/eom/commit/4817ee9) Utilizzato GtkApplication per inibire lo screensaver durante le presentazioni
 * [9e687fa](https://github.com/mate-desktop/eom/commit/9e687fa) Ci si è assicurati che la sensibilità delle azioni UI sia impostata almeno una volta
 * [bc859fd](https://github.com/mate-desktop/eom/commit/bc859fd) Rimosso il file di descrizione del servizio DBus avanzato
-* [59ea038](https://github.com/mate-desktop/eom/commit/59ea038) Rimosso lo spurio g_object_unref
-* [0c78063](https://github.com/mate-desktop/eom/commit/0c78063) reload: ci siamo assicurati che gli aggiornamenti in sospeso ai componenti UI siano completati
+* [59ea038](https://github.com/mate-desktop/eom/commit/59ea038) Rimosso la spuria g_object_unref
+* [0c78063](https://github.com/mate-desktop/eom/commit/0c78063) reload: ci siamo assicurati che gli aggiornamenti in sospeso ai componenti UI siano completi
 * [20d704b](https://github.com/mate-desktop/eom/commit/20d704b) Portato EomApplication a GtkApplication
 * [63a6313](https://github.com/mate-desktop/eom/commit/63a6313) Resa la visualizzata EomImage una proprietà di EomScrollView
 * [cfc83b4](https://github.com/mate-desktop/eom/commit/cfc83b4) EomPropertiesDialog: Fatto in modo che la visualizzazione dei dettagli si espanda verticalmente
-* [ed3ef44](https://github.com/mate-desktop/eom/commit/ed3ef44) Consentite più azioni Drag&Drop quando eom è l'origine del trascinamento
-* [fb4446d](https://github.com/mate-desktop/eom/commit/fb4446d) Utilizzata la nuova API DBus per mostrare l'immagine corrente nel flie browser
+* [ed3ef44](https://github.com/mate-desktop/eom/commit/ed3ef44) Consentite più azioni Drag and Drop quando eom è l'origine del trascinamento
+* [fb4446d](https://github.com/mate-desktop/eom/commit/fb4446d) Utilizzata la nuova API DBus per mostrare l'immagine corrente nel file browser
 * [07de875](https://github.com/mate-desktop/eom/commit/07de875) Aggiunto un comando "Apri la cartella contenitore"
 * [9815134](https://github.com/mate-desktop/eom/commit/9815134) sincronizzazione con transifex
 * [e7df737](https://github.com/mate-desktop/eom/commit/e7df737) versione pre-aggiornamento
@@ -693,14 +693,14 @@ Ecco tutti i dettagli raccapriccianti.
 * [9b628a8](https://github.com/mate-desktop/eom/commit/9b628a8) corretti errori di ortografia e grammatica
 * [9b033ce](https://github.com/mate-desktop/eom/commit/9b033ce) Aggiornato eom_start_window.png
 * [5376650](https://github.com/mate-desktop/eom/commit/5376650) corretto un memory leak
-* [dba717d](https://github.com/mate-desktop/eom/commit/dba717d) exif-details: resa la colonna dei valori selezionabile
+* [dba717d](https://github.com/mate-desktop/eom/commit/dba717d) exif-details: resa selezionabile la colonna dei valori
 * [667f5b2](https://github.com/mate-desktop/eom/commit/667f5b2) EomExifDetails: Presa in considerazione l'IFD di Exif nella creazione delle chiavi hash
 * [0c6a01d](https://github.com/mate-desktop/eom/commit/0c6a01d) Spostati i tag Exif di GPS nella loro sottocategoria
 * [87d59bd](https://github.com/mate-desktop/eom/commit/87d59bd) Riformattati i tag Exif per la posizione GPS per essere più comprensibili
 * [af9cd83](https://github.com/mate-desktop/eom/commit/af9cd83) Fatto in modo che i tag Exif di GPS siano nominati e ordinati in modo corretto
 * [7e9dc52](https://github.com/mate-desktop/eom/commit/7e9dc52) EomPropertiesDialog: Fatto in modo che la visualizzazione dei dettagli si espanda verticalmente
 * [bbf490b](https://github.com/mate-desktop/eom/commit/bbf490b) EomScrollView: Utilizzato un migliore filtro downscaling
-* [433c776](https://github.com/mate-desktop/eom/commit/433c776) reload: ci siamo assicurati che gli aggiornamenti in sospeso ai componenti UI siano completati
+* [433c776](https://github.com/mate-desktop/eom/commit/433c776) reload: ci siamo assicurati che gli aggiornamenti in sospeso ai componenti UI siano completi
 * [16f5b2c](https://github.com/mate-desktop/eom/commit/16f5b2c) corretti alcuni warning -Wincompatible-pointer-types
 * [1523539](https://github.com/mate-desktop/eom/commit/1523539) sincronizzazione con transifex
 * [2f04a37](https://github.com/mate-desktop/eom/commit/2f04a37) svg: Corrette le coordinate di offset quando si trasformano le immagini SVG sui display HiDPI
@@ -710,7 +710,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### libmatekbd
 * [7e730f0](https://github.com/mate-desktop/libmatekbd/commit/7e730f0) Abilitato Travis Cl per tutti i rami
 * [e6e0234](https://github.com/mate-desktop/libmatekbd/commit/e6e0234) Inizializzato il supporto a Travis Cl
-* [dc04e96](https://github.com/mate-desktop/libmatekbd/commit/dc04e96) renominata g_strv_equal in matekbd_strv_equal
+* [dc04e96](https://github.com/mate-desktop/libmatekbd/commit/dc04e96) rinominata g_strv_equal in matekbd_strv_equal
 * [c3a62d4](https://github.com/mate-desktop/libmatekbd/commit/c3a62d4) sincronizzazione con transifex
 * [b11e6ca](https://github.com/mate-desktop/libmatekbd/commit/b11e6ca) versione pre-aggiornamento
 * [a95a4f4](https://github.com/mate-desktop/libmatekbd/commit/a95a4f4) corretto lo scaling sui display HiDPI
@@ -728,7 +728,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [ae50369](https://github.com/mate-desktop/libmatemixer/commit/ae50369) aggiunto un file po mancante
 * [af5d296](https://github.com/mate-desktop/libmatemixer/commit/af5d296) sincronizzazione con transifex
 * [3c87f89](https://github.com/mate-desktop/libmatemixer/commit/3c87f89) versione pre-aggiornamento
-* [d6a79fd](https://github.com/mate-desktop/libmatemixer/commit/d6a79fd) Richiede PulseAudio 5.0 ed è stato eliminato del vecchio codice
+* [d6a79fd](https://github.com/mate-desktop/libmatemixer/commit/d6a79fd) Richiede PulseAudio 5.0 ed è stato eliminato un po' di codice vecchio
 * [e6a5518](https://github.com/mate-desktop/libmatemixer/commit/e6a5518) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [2fb29e6](https://github.com/mate-desktop/libmatemixer/commit/2fb29e6) aggiunto il supporto a Travis-Cl
 * [f60062b](https://github.com/mate-desktop/libmatemixer/commit/f60062b) sincronizzazione con transifex
@@ -768,7 +768,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [faed5d8](https://github.com/mate-desktop/marco/commit/faed5d8) modifica per utilizzare l'immagine archlinux/base
 * [becec7e](https://github.com/mate-desktop/marco/commit/becec7e) Inizializzato il supporto a travis
 * [fad23c9](https://github.com/mate-desktop/marco/commit/fad23c9) screen: Rimossa get_current_monitor in favore di get_current_xinerama
-* [8abba9a](https://github.com/mate-desktop/marco/commit/8abba9a) Incrementata la dimensione dell'icona sulla scheda e sul popup dello spazio di lavoro
+* [8abba9a](https://github.com/mate-desktop/marco/commit/8abba9a) Incrementata la dimensione dell'icona sui popup della scheda e dello spazio di lavoro
 * [a931b08](https://github.com/mate-desktop/marco/commit/a931b08) screen: evitato 'NULL' nelle funzioni 'meta_error_trap...'
 * [c0be5a7](https://github.com/mate-desktop/marco/commit/c0be5a7) prefs: evitata la deprecata 'g_settings_list_keys'
 * [683d5cf](https://github.com/mate-desktop/marco/commit/683d5cf) aggiunto git.mk per l'auto-generazione dei file .gitignore
@@ -777,7 +777,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [b4dcd38](https://github.com/mate-desktop/marco/commit/b4dcd38) errors.c: evitate le funzioni deprecate 'gdk_error_trap...':
 * [898e941](https://github.com/mate-desktop/marco/commit/898e941) frames.c: eliminate le variabili inutilizzate
 * [7a18fdd](https://github.com/mate-desktop/marco/commit/7a18fdd) compositor-xrender: evitata la deprecata 'gdk_error_trap_push/pop'
-* [c5b4162](https://github.com/mate-desktop/marco/commit/c5b4162) corretta la compilazione con la traduzione del linguaggio 'as'
+* [c5b4162](https://github.com/mate-desktop/marco/commit/c5b4162) corretta la compilazione con la traduzione della lingua 'as'
 * [fff65b4](https://github.com/mate-desktop/marco/commit/fff65b4) sincronizzazione con transifex
 * [a6f9462](https://github.com/mate-desktop/marco/commit/a6f9462) theme: riportato il formato del tema alla versione 3.6
 * [fbae49d](https://github.com/mate-desktop/marco/commit/fbae49d) doc: aggiunte informazioni per le versioni del formato del tema 3.5 e 3.6
@@ -789,7 +789,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [5418b40](https://github.com/mate-desktop/marco/commit/5418b40) theme: sostituito mutter/metacity con marco
 * [9b6f737](https://github.com/mate-desktop/marco/commit/9b6f737) theme: Sostituiti i confronti con con gli elementi di un array di caratteri con strncmp
 * [48b0b11](https://github.com/mate-desktop/marco/commit/48b0b11) tabpopup.c: mostare sempre 5px di bordo di outline
-* [2ce772a](https://github.com/mate-desktop/marco/commit/2ce772a) tabpopup.c: migliorato * correggere il bordo bianco mancante sulla outline window. * Non creare outline_window se non abbiamo intenzione di utilizzarla.
+* [2ce772a](https://github.com/mate-desktop/marco/commit/2ce772a) tabpopup.c: Corretto * Correggere il bordo bianco mancante sulla outline window *. Non creare outline_window se non abbiamo intenzione di utilizzarla.
 * [ffece2a](https://github.com/mate-desktop/marco/commit/ffece2a) Non mostrare ws switcher se si ha solo una Origine: Bug di Ubuntu: https://bugzilla.gnome.org/show_bug.cgi Bug-Ubuntu: https://bugs.launchpad.net/ubuntu/+source/metacity/+bug/506944 Author: Didier Roche <didrocks@ubuntu.com>
 * [6203779](https://github.com/mate-desktop/marco/commit/6203779) theme: Consentire la disabilitazione dei colori di fallback in gtk:custom()
 * [18bfff3](https://github.com/mate-desktop/marco/commit/18bfff3) theme: Consentito l'utilizzo di colori personalizzati dal tema GTK+
@@ -809,7 +809,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [04e564c](https://github.com/mate-desktop/marco/commit/04e564c) corretta la posizione di ridimensionamento del popup sui display HiDPI
 * [079c458](https://github.com/mate-desktop/marco/commit/079c458) Corretta la geometria della cornice per evitare il blocco del cursore di ridimensionamento
 * [81fdb55](https://github.com/mate-desktop/marco/commit/81fdb55) Scalare la dimensione del cursore per HiDPI
-* [4d8f163](https://github.com/mate-desktop/marco/commit/4d8f163) Utilizzata la finestra cornice per determinare la scala
+* [4d8f163](https://github.com/mate-desktop/marco/commit/4d8f163) Utilizzata la finestra della cornice per determinare la scala
 * [f6e3326](https://github.com/mate-desktop/marco/commit/f6e3326) Supportate le decorazioni delle finestre HiDPI
 * [5989216](https://github.com/mate-desktop/marco/commit/5989216) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [03cffa3](https://github.com/mate-desktop/marco/commit/03cffa3) corretta la non corrispondenza delle enum nell'identificazione dell'associazione dei tasti per switch-panels e switch-panels-backward
@@ -829,7 +829,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [f45d299](https://github.com/mate-desktop/marco/commit/f45d299) Scalare la dimensione del cursore per HiDPI
 * [95f4a7a](https://github.com/mate-desktop/marco/commit/95f4a7a) corretto as.po
 * [bdc938b](https://github.com/mate-desktop/marco/commit/bdc938b) corretti i file po
-* [44b60b0](https://github.com/mate-desktop/marco/commit/44b60b0) Utilizzata la finestra cornice per determinare la scala
+* [44b60b0](https://github.com/mate-desktop/marco/commit/44b60b0) Utilizzata la finestra della cornice per determinare la scala
 * [b9fd3c1](https://github.com/mate-desktop/marco/commit/b9fd3c1) Supportate le decorazioni delle finestre HiDPI
 * [ff52d7b](https://github.com/mate-desktop/marco/commit/ff52d7b) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [dc6ea05](https://github.com/mate-desktop/marco/commit/dc6ea05) corretta la non corrispondenza delle enum nell'identificazione dell'associazione dei tasti per switch-panels e switch-panels-backward
@@ -856,8 +856,8 @@ Ecco tutti i dettagli raccapriccianti.
 * [565f521e](https://github.com/mate-desktop/mate-applets/commit/565f521e) Corretto l'url di ulink per farlo puntare a mate-user-guide
 * [4dc452ba](https://github.com/mate-desktop/mate-applets/commit/4dc452ba) corretti errori di ortografia e grammatica
 * [1f2d79bd](https://github.com/mate-desktop/mate-applets/commit/1f2d79bd) legal.xml
-* [0a00b7cd](https://github.com/mate-desktop/mate-applets/commit/0a00b7cd) Cpufreq: costretta l'etichetta della frequenza alla renderizzazione se le frequenze non sono trovate subito
-* [704fe986](https://github.com/mate-desktop/mate-applets/commit/704fe986) Cpufreq: Rilavorata per rimuovere ulteriori residui GTK2
+* [0a00b7cd](https://github.com/mate-desktop/mate-applets/commit/0a00b7cd) Cpufreq: costretta l'etichetta della frequenza alla renderizzazione se le frequenze non sono trovate istantaneamente
+* [704fe986](https://github.com/mate-desktop/mate-applets/commit/704fe986) Cpufreq: Rilavorato per rimuovere ulteriori residui GTK2
 * [0e139588](https://github.com/mate-desktop/mate-applets/commit/0e139588) Cpufreq: fatto in modo che l'etichetta della frequenza sia sempre mostrata se freq è selezionato
 * [90633bf3](https://github.com/mate-desktop/mate-applets/commit/90633bf3) sincronizzazione con transifex
 * [5ec87867](https://github.com/mate-desktop/mate-applets/commit/5ec87867) aggiornato mate-applets.pot
@@ -866,7 +866,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [683946ed](https://github.com/mate-desktop/mate-applets/commit/683946ed) battstat: Caricate le icone del tema invece dei pixmaps
 * [311ae4eb](https://github.com/mate-desktop/mate-applets/commit/311ae4eb) Convertite le icone da pixbuf a superfici
 * [e83811d0](https://github.com/mate-desktop/mate-applets/commit/e83811d0) risolto il type mismatch in g_settings_set_value
-* [e5ecb8b2](https://github.com/mate-desktop/mate-applets/commit/e5ecb8b2) solo formattazione del testo per prepararsi al vero cambiamento
+* [e5ecb8b2](https://github.com/mate-desktop/mate-applets/commit/e5ecb8b2) solo la formattazione del testo per prepararsi al vero cambiamento
 * [e35e9514](https://github.com/mate-desktop/mate-applets/commit/e35e9514) Corretta la spaziatura dell'applet cpufreq sui display HiDPI
 * [4ece3d16](https://github.com/mate-desktop/mate-applets/commit/4ece3d16) multiload: aggiunta una classe di stile a multiload-applet
 * [5426dfb4](https://github.com/mate-desktop/mate-applets/commit/5426dfb4) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
@@ -882,7 +882,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [867b495e](https://github.com/mate-desktop/mate-applets/commit/867b495e) Netspeed Manual: ripulitura
 * [8d94f956](https://github.com/mate-desktop/mate-applets/commit/8d94f956) Manual: Linux e sistemi UNIX -> Linux e altri sistemi UNIX-like
 * [0412e78e](https://github.com/mate-desktop/mate-applets/commit/0412e78e) Manual: Corretto il titolo della finestra di dialogo Aggiungi al Pannello
-* [df8e737e](https://github.com/mate-desktop/mate-applets/commit/df8e737e) Eyes Applet: Eyes Applet: corretto il titolo della finestra ed il factory name
+* [df8e737e](https://github.com/mate-desktop/mate-applets/commit/df8e737e) Eyes Applet: corretto il titolo della finestra ed il factory name
 * [62c6b2bf](https://github.com/mate-desktop/mate-applets/commit/62c6b2bf) Manual: OK -> Aggiungi (finestra di dialogo Aggiungi al Pannello)
 * [4802c6f0](https://github.com/mate-desktop/mate-applets/commit/4802c6f0) trashapplet manual: guimenuitem Apri il Cestino
 * [030496ac](https://github.com/mate-desktop/mate-applets/commit/030496ac) Aggiunti/Aggiornati gli screenshot in Catalano
@@ -898,11 +898,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [246f078f](https://github.com/mate-desktop/mate-applets/commit/246f078f) sticky-notes: corretto un memory leak
 * [ebabac90](https://github.com/mate-desktop/mate-applets/commit/ebabac90) timerapplet: Consentito il reset del timer quando inattivo
 * [43b16f78](https://github.com/mate-desktop/mate-applets/commit/43b16f78) Weather: Applicato un nome widget al textview
-* [1cd86c77](https://github.com/mate-desktop/mate-applets/commit/1cd86c77) weather: aggiunto un cssprovider per i widget non per lo schermo
+* [1cd86c77](https://github.com/mate-desktop/mate-applets/commit/1cd86c77) weather: aggiunto un cssprovider per il widget non per lo schermo
 * [a15746b9](https://github.com/mate-desktop/mate-applets/commit/a15746b9) mateweather-dialog.c: evitata la deprecata 'gtk_widget_override_font'
 * [881233e8](https://github.com/mate-desktop/mate-applets/commit/881233e8) cpufreq: fermato il segfault con gtk3.23
 * [6f4843f6](https://github.com/mate-desktop/mate-applets/commit/6f4843f6) trash applet: evitata la deprecata 'gtk_window_set_wmclass'
-* [0746a55c](https://github.com/mate-desktop/mate-applets/commit/0746a55c) cpufreq: corretto un -Wimplicit-function-declaration
+* [0746a55c](https://github.com/mate-desktop/mate-applets/commit/0746a55c) cpufreq: corretto un warning -Wimplicit-function-declaration
 * [1a11a017](https://github.com/mate-desktop/mate-applets/commit/1a11a017) trash: corretto un warning -Wincompatible-pointer-types
 * [2c31e385](https://github.com/mate-desktop/mate-applets/commit/2c31e385) weather-applet: sostituita la deprecata GtkAlignment
 * [f4221bef](https://github.com/mate-desktop/mate-applets/commit/f4221bef) weather-dialog: sostituita la deprecata GtkAlignment
@@ -911,9 +911,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [3cd2d150](https://github.com/mate-desktop/mate-applets/commit/3cd2d150) cpu-freq: sostituita la deprecata gtk_menu_popup
 * [d3bf8fd4](https://github.com/mate-desktop/mate-applets/commit/d3bf8fd4) sticknotes: sostituita la deprecata gtk_menu_popup
 * [dc720b32](https://github.com/mate-desktop/mate-applets/commit/dc720b32) drivemount: sostituita la deprecata gtk_menu_popup
-* [6270bb32](https://github.com/mate-desktop/mate-applets/commit/6270bb32) charpick: replace deprecated gtk_menu_popup
+* [6270bb32](https://github.com/mate-desktop/mate-applets/commit/6270bb32) charpick: sostituita la deprecata gtk_menu_popup
 * [0453aa6d](https://github.com/mate-desktop/mate-applets/commit/0453aa6d) sincronizzazione con transifex
-* [f0b33d11](https://github.com/mate-desktop/mate-applets/commit/f0b33d11) Cpufreq: costretta l'etichetta della frequenza alla renderizzazione se le frequenze non sono trovate subito
+* [f0b33d11](https://github.com/mate-desktop/mate-applets/commit/f0b33d11) Cpufreq: costretta l'etichetta della frequenza alla renderizzazione se le frequenze non sono trovate istantaneamente
 * [618ab266](https://github.com/mate-desktop/mate-applets/commit/618ab266) Cpufreq: Rilavorata per rimuovere ulteriori residui GTK2
 * [8bd11f81](https://github.com/mate-desktop/mate-applets/commit/8bd11f81) Cpufreq: fatto in modo che l'etichetta della frequenza sia sempre mostrata se freq è selezionato
 * [a3c1c30f](https://github.com/mate-desktop/mate-applets/commit/a3c1c30f) aggiornato il file .pot
@@ -923,9 +923,9 @@ Ecco tutti i dettagli raccapriccianti.
 * [a03ead3c](https://github.com/mate-desktop/mate-applets/commit/a03ead3c) battstat: Caricate le icone del tema invece dei pixmaps
 * [7185a704](https://github.com/mate-desktop/mate-applets/commit/7185a704) Convertite le icone da pixbuf a superfici
 * [486f9e58](https://github.com/mate-desktop/mate-applets/commit/486f9e58) risolto il type mismatch in g_settings_set_value
-* [23b0803d](https://github.com/mate-desktop/mate-applets/commit/23b0803d) solo formattazione del testo per prepararsi al vero cambiamento
+* [23b0803d](https://github.com/mate-desktop/mate-applets/commit/23b0803d) solo la formattazione del testo per prepararsi al vero cambiamento
 * [ea40c35e](https://github.com/mate-desktop/mate-applets/commit/ea40c35e) Corretta la spaziatura dell'applet cpufreq sui display HiDPI
-* [ba596c20](https://github.com/mate-desktop/mate-applets/commit/ba596c20) transifex:  impostata la percentuale_minima ed il tipo nel file di configurazione
+* [ba596c20](https://github.com/mate-desktop/mate-applets/commit/ba596c20) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [147ca93e](https://github.com/mate-desktop/mate-applets/commit/147ca93e) multiload: aggiunta una classe di stile a multiload-applet
 * [607d5228](https://github.com/mate-desktop/mate-applets/commit/607d5228) evitata la deprecata GtkStock
 
@@ -933,7 +933,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [d741473](https://github.com/mate-desktop/mate-backgrounds/commit/d741473) Abilitato Travis Cl per tutti i rami
 * [c3f5eb6](https://github.com/mate-desktop/mate-backgrounds/commit/c3f5eb6) Inizializzato il supporto a Travis Cl
 * [556fd12](https://github.com/mate-desktop/mate-backgrounds/commit/556fd12) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
-* [1e960de](https://github.com/mate-desktop/mate-backgrounds/commit/1e960de)  transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
+* [1e960de](https://github.com/mate-desktop/mate-backgrounds/commit/1e960de) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 
 ### mate-calc
 * [5600c81](https://github.com/mate-desktop/mate-calc/commit/5600c81) Inizializzato il supporto a Travis Cl
@@ -973,7 +973,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [2ffd951](https://github.com/mate-desktop/mate-calc/commit/2ffd951) aggiornato il file .pot
 * [58f106a](https://github.com/mate-desktop/mate-calc/commit/58f106a) UI: evitata la deprecata GtkButton:use-stock
 * [074773b](https://github.com/mate-desktop/mate-calc/commit/074773b) UI: eliminati tutti gli elementi deprecati
-* [fceb9a7](https://github.com/mate-desktop/mate-calc/commit/fceb9a7) math-preferences: aggiunta l'icona di finestra alla finestra di dialogo delle preferenze
+* [fceb9a7](https://github.com/mate-desktop/mate-calc/commit/fceb9a7) math-preferences: aggiunta l'icona della finestra alla finestra di dialogo delle preferenze
 * [e29978c](https://github.com/mate-desktop/mate-calc/commit/e29978c) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [6cd2c4d](https://github.com/mate-desktop/mate-calc/commit/6cd2c4d) Inizializzare gtk prima di math_equation_new; fix #44
 * [f30835f](https://github.com/mate-desktop/mate-calc/commit/f30835f) evitata la deprecata gtk_image_menu_item_new_from_stock
@@ -986,7 +986,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [39590d8](https://github.com/mate-desktop/mate-calc/commit/39590d8) corrette le parole ripetute
 * [de4b0c4](https://github.com/mate-desktop/mate-calc/commit/de4b0c4) copiare le equazioni come testo ASCII
 * [b0890c3](https://github.com/mate-desktop/mate-calc/commit/b0890c3) sincronizzazione con transifex
-* [a148e5b](https://github.com/mate-desktop/mate-calc/commit/a148e5b) math-preferences: aggiunta l'icona di finestra alla finestra di dialogo delle preferenze
+* [a148e5b](https://github.com/mate-desktop/mate-calc/commit/a148e5b) math-preferences: aggiunta l'icona della finestra alla finestra di dialogo delle preferenze
 * [10e6fdb](https://github.com/mate-desktop/mate-calc/commit/10e6fdb) Inizializzare gtk prima di math_equation_new
 * [a64b304](https://github.com/mate-desktop/mate-calc/commit/a64b304) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 
@@ -1002,17 +1002,17 @@ Ecco tutti i dettagli raccapriccianti.
 * [b205683](https://github.com/mate-desktop/mate-control-center/commit/b205683) aggiunto archlinux build su travis-ci
 * [81ae219](https://github.com/mate-desktop/mate-control-center/commit/81ae219) corretto il fallimento di distcheck su debian
 * [8c0de1c](https://github.com/mate-desktop/mate-control-center/commit/8c0de1c) Abilitato travis per tutti i rami
-* [43fd38d](https://github.com/mate-desktop/mate-control-center/commit/43fd38d) Aggiunto -Werror=format-security e mostrato che fare distcheck ha fallito con il color
+* [43fd38d](https://github.com/mate-desktop/mate-control-center/commit/43fd38d) Aggiunto -Werror=format-security e mostrare che make distcheck ha fallito con il color
 * [5dda92e](https://github.com/mate-desktop/mate-control-center/commit/5dda92e) script mantenuto silenzioso e distcheck restituisce sempre 0
 * [da71960](https://github.com/mate-desktop/mate-control-center/commit/da71960) aggiunta la dipendenza mancante al pacchetto git code di mate-menus per debian/ubuntu
 * [76ce83a](https://github.com/mate-desktop/mate-control-center/commit/76ce83a) utilizzato il codice git di mate-menus
 * [7079813](https://github.com/mate-desktop/mate-control-center/commit/7079813) Inizializzato il supporto a travis
 * [6d1a4aa](https://github.com/mate-desktop/mate-control-center/commit/6d1a4aa) eggcellrendererkeys: evitata la deprecata 'gtk_widget_modify_bg/fg'
 * [bde8d11](https://github.com/mate-desktop/mate-control-center/commit/bde8d11) Aggiornato l'help di MCC
-* [a62f043](https://github.com/mate-desktop/mate-control-center/commit/a62f043) default-applications: utilizzate più nomi di icone comuni per i documenti Office
+* [a62f043](https://github.com/mate-desktop/mate-control-center/commit/a62f043) default-applications: utilizzati più nomi di icone comuni per i documenti Office
 * [3047735](https://github.com/mate-desktop/mate-control-center/commit/3047735) mate-display-properties: Migrazione da dbus-glib a GDBus
 * [c5e048b](https://github.com/mate-desktop/mate-control-center/commit/c5e048b) corretto il warning in esecuzione su gtk_widget_destroy.
-* [383d3da](https://github.com/mate-desktop/mate-control-center/commit/383d3da) Corretti un numero di errori di colonna dopo il reload dei menù.
+* [383d3da](https://github.com/mate-desktop/mate-control-center/commit/383d3da) Corretti un numero di errori cols dopo il reload dei menù.
 * [512b446](https://github.com/mate-desktop/mate-control-center/commit/512b446) Corretto il crash quando si installa/rimuove una applicazione.
 * [99b0d3e](https://github.com/mate-desktop/mate-control-center/commit/99b0d3e) capplets/mouse: file .svg invece che .png nell'artwork di doppio clic
 * [7ebacdb](https://github.com/mate-desktop/mate-control-center/commit/7ebacdb) capplets/mouse: Nuove artwork di doppio clic con il logo mate
@@ -1022,12 +1022,12 @@ Ecco tutti i dettagli raccapriccianti.
 * [a8d6bbb](https://github.com/mate-desktop/mate-control-center/commit/a8d6bbb) default-applications: utilizzato l'elaboratore di testi selezionato anche per RTF
 * [3a3f389](https://github.com/mate-desktop/mate-control-center/commit/3a3f389) richiesto mate-settings-daemon-1.21.2
 * [223c58a](https://github.com/mate-desktop/mate-control-center/commit/223c58a) keybindings: aggiunta una combinazione di tasti per commutare lo stato di muto del microfono
-* [6a6da57](https://github.com/mate-desktop/mate-control-center/commit/6a6da57) keybindings: Aggiunte delle combinazioni di tasti per controllare agevolmente il volume 
+* [6a6da57](https://github.com/mate-desktop/mate-control-center/commit/6a6da57) keybindings: Aggiunte delle combinazioni di tasti per controllare agevolmente il volume
 * [ee42ad7](https://github.com/mate-desktop/mate-control-center/commit/ee42ad7) richiesto m-s-d 1.21.1 a causa della nuova chiave control-center in schema
-* [f8dc9a7](https://github.com/mate-desktop/mate-control-center/commit/f8dc9a7) Giustificato l'errore NULL quando si osserva G_IO_STATUS_EOF
+* [f8dc9a7](https://github.com/mate-desktop/mate-control-center/commit/f8dc9a7) Spiegato l'errore NULL quando si osserva G_IO_STATUS_EOF
 * [c6c1db0](https://github.com/mate-desktop/mate-control-center/commit/c6c1db0) typing-break: sostituite le funzioni deprecate gdk_error_trap
 * [73a72ba](https://github.com/mate-desktop/mate-control-center/commit/73a72ba) transifex: aggiornato mate-control-center.pot
-* [2fcab0c](https://github.com/mate-desktop/mate-control-center/commit/2fcab0c) aggiornato il suggerimento per il doppio clic del mouse
+* [2fcab0c](https://github.com/mate-desktop/mate-control-center/commit/2fcab0c) aggiornato l'hint per il doppio clic del mouse
 * [8c44ea6](https://github.com/mate-desktop/mate-control-center/commit/8c44ea6) keybindings: doppio clic invece che clic singolo per modificare le scorciatoie da tastiera
 * [ba5a88c](https://github.com/mate-desktop/mate-control-center/commit/ba5a88c) mate-keybinding-properties: evitata la deprecata 'gtk_widget_ensure_style'
 * [b245b8d](https://github.com/mate-desktop/mate-control-center/commit/b245b8d) aggiunta l'opzione di ricerca per mate-font-viewer
@@ -1040,12 +1040,12 @@ Ecco tutti i dettagli raccapriccianti.
 * [0a12038](https://github.com/mate-desktop/mate-control-center/commit/0a12038) legal.xml
 * [1982f4f](https://github.com/mate-desktop/mate-control-center/commit/1982f4f) utilizzate funzioni make per HELP_LINGUAS
 * [1034ff7](https://github.com/mate-desktop/mate-control-center/commit/1034ff7) Aggiunta una UI per controllare org.mate.accessibility-keyboard.stickykeys-latch-to-lock
-* [be9b514](https://github.com/mate-desktop/mate-control-center/commit/be9b514) utilizzata una dimensione fissa per mostrare l'icona dell'utente
+* [be9b514](https://github.com/mate-desktop/mate-control-center/commit/be9b514) utilizzata la dimensione fissa per mostrare l'icona dell'utente
 * [81d7a31](https://github.com/mate-desktop/mate-control-center/commit/81d7a31) Aggiunta una nuova api per EImageChooser
-* [28c5512](https://github.com/mate-desktop/mate-control-center/commit/28c5512) Per ottenere/impostare l'icona della faccia dell'utente utilizzare il servizio degli account
+* [28c5512](https://github.com/mate-desktop/mate-control-center/commit/28c5512) Per ottenere/impostare l'icona del volto dell'utente utilizzare il servizio accounts
 * [409e0a1](https://github.com/mate-desktop/mate-control-center/commit/409e0a1) sincronizzazione con transifex
 * [397a588](https://github.com/mate-desktop/mate-control-center/commit/397a588) richiede mate-desktop-1.21.1
-* [8c4ebef](https://github.com/mate-desktop/mate-control-center/commit/8c4ebef) typing-break: rendere le immagini più larghe e caricarle come superficie
+* [8c4ebef](https://github.com/mate-desktop/mate-control-center/commit/8c4ebef) typing-break: rendere le immagini più larghe e caricarle come superfice
 * [19fdb3f](https://github.com/mate-desktop/mate-control-center/commit/19fdb3f) Mouse: Incluso un commutatore per abilitare o disabilitare l'incollaggio col il clic del tasto centrale del mouse che è predefinito su ON così da non modificare il comportamento atteso fin quando l'utente non lo modifica.
 * [d5c8249](https://github.com/mate-desktop/mate-control-center/commit/d5c8249) capplets/keybindings: evitata la deprecata 'gdk_keymap_get_default'
 * [657b706](https://github.com/mate-desktop/mate-control-center/commit/657b706) display-capplet.ui: sostituite le deprecazioni
@@ -1056,7 +1056,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [e19868d](https://github.com/mate-desktop/mate-control-center/commit/e19868d) mouse: sostituite le funzioni deprecate gdk_error_trap
 * [98b1b52](https://github.com/mate-desktop/mate-control-center/commit/98b1b52) sincronizzazione con transifex
 * [ecb2d6a](https://github.com/mate-desktop/mate-control-center/commit/ecb2d6a) aggiornato mate-control-center.pot
-* [110b5d8](https://github.com/mate-desktop/mate-control-center/commit/110b5d8) aggiornare la versione richiesta di mate-menus
+* [110b5d8](https://github.com/mate-desktop/mate-control-center/commit/110b5d8) aggiornata la versione richiesta di mate-menus
 * [7ba869d](https://github.com/mate-desktop/mate-control-center/commit/7ba869d) utilizzata la nuova api mate-menus
 * [7137397](https://github.com/mate-desktop/mate-control-center/commit/7137397) utilizzata la nuova api
 * [ede274e](https://github.com/mate-desktop/mate-control-center/commit/ede274e) utilizzata matemenu_tree_new
@@ -1082,11 +1082,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [2ca7574](https://github.com/mate-desktop/mate-control-center/commit/2ca7574) corretto il fallimento di distcheck su debian
 * [d93e910](https://github.com/mate-desktop/mate-control-center/commit/d93e910) Aggiornato l'help di MCC
 * [22746a3](https://github.com/mate-desktop/mate-control-center/commit/22746a3) corretto il warning in esecuzione su gtk_widget_destroy.
-* [56c1867](https://github.com/mate-desktop/mate-control-center/commit/56c1867) Corretti un numero di errori di colonna dopo il reload dei menù.
+* [56c1867](https://github.com/mate-desktop/mate-control-center/commit/56c1867) Corretti un numero di errori cols dopo il reload dei menù.
 * [bc4e90b](https://github.com/mate-desktop/mate-control-center/commit/bc4e90b) disabilitati i warning di deprecazione per distcheck
 * [a61bda0](https://github.com/mate-desktop/mate-control-center/commit/a61bda0) default-applications: utilizzato l'elaboratore di testi selezionato anche per RTF
-* [9a36755](https://github.com/mate-desktop/mate-control-center/commit/9a36755) typing-break: rendere le immagini più larghe e caricarle come superficie
-* [87d3627](https://github.com/mate-desktop/mate-control-center/commit/87d3627) aggiornato il suggerimento per il doppio clic del mouse
+* [9a36755](https://github.com/mate-desktop/mate-control-center/commit/9a36755) typing-break: rendere le immagini più larghe e caricarle come superfice
+* [87d3627](https://github.com/mate-desktop/mate-control-center/commit/87d3627) aggiornato l'hint per il doppio clic del mouse
 * [e5c3e4f](https://github.com/mate-desktop/mate-control-center/commit/e5c3e4f) keybindings: doppio clic invece che clic singolo per modificare le scorciatoie da tastiera
 * [677966d](https://github.com/mate-desktop/mate-control-center/commit/677966d) corretti errori di ortografia e grammatica
 * [439c26f](https://github.com/mate-desktop/mate-control-center/commit/439c26f) legal.xml
@@ -1105,7 +1105,7 @@ Ecco tutti i dettagli raccapriccianti.
 
 ### mate-desktop
 * [137fd47](https://github.com/mate-desktop/mate-desktop/commit/137fd47) [Security] Utilizzo di 'g_strlcpy' al posto di 'strcpy'
-* [3233410](https://github.com/mate-desktop/mate-desktop/commit/3233410) [Security] test-ditem: Utilizzo di 'g_strlcat' invece di 'strcat'
+* [3233410](https://github.com/mate-desktop/mate-desktop/commit/3233410) [Security] test-ditem: Utilizzo di 'g_strlcat' al posto di 'strcat'
 * [b6bcccf](https://github.com/mate-desktop/mate-desktop/commit/b6bcccf) Prepararsi per l'unione di docker-build 0.1.1 al master
 * [009ff2a](https://github.com/mate-desktop/mate-desktop/commit/009ff2a) utilizzata l'immagine archlinux/base 
 * [89c003e](https://github.com/mate-desktop/mate-desktop/commit/89c003e) corretto il fallimento di make distcheck su debian.
@@ -1126,7 +1126,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [e9f904e](https://github.com/mate-desktop/mate-desktop/commit/e9f904e) sincronizzazione con transifex
 * [f675d03](https://github.com/mate-desktop/mate-desktop/commit/f675d03) versione pre-aggiornamento
 * [0b76914](https://github.com/mate-desktop/mate-desktop/commit/0b76914) interface: aggiunta una chiave per abilitare/disabilitare il copia/incolla con il pulsante centrale del mouse
-* [f791ef8](https://github.com/mate-desktop/mate-desktop/commit/f791ef8) mate-desktop-item:  sostituita la deprecata 'gdk_error_trap_push/pop'
+* [f791ef8](https://github.com/mate-desktop/mate-desktop/commit/f791ef8) mate-desktop-item: sostituita la deprecata 'gdk_error_trap_push/pop'
 * [6ef0247](https://github.com/mate-desktop/mate-desktop/commit/6ef0247) mate-rr-config: sostituita la deprecata gdk_flush
 * [953da77](https://github.com/mate-desktop/mate-desktop/commit/953da77) mate-rr: sostituite le funzioni Gdk deprecate
 * [c49a780](https://github.com/mate-desktop/mate-desktop/commit/c49a780) mate-bg-crossfade: sostituita la deprecata 'gdk_error_trap_push/pop'
@@ -1136,7 +1136,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [f7cf0fd](https://github.com/mate-desktop/mate-desktop/commit/f7cf0fd) sincronizzazione con transifex 
 * [58de8c0](https://github.com/mate-desktop/mate-desktop/commit/58de8c0) aggiornato mate-desktop.pot
 * [ddc096e](https://github.com/mate-desktop/mate-desktop/commit/ddc096e) eliminato il vecchio ed inutilizzato acinclude.m4
-* [fb4c986](https://github.com/mate-desktop/mate-desktop/commit/fb4c986) versione aggiornata 
+* [fb4c986](https://github.com/mate-desktop/mate-desktop/commit/fb4c986) versione aggiornata
 * [fa7491d](https://github.com/mate-desktop/mate-desktop/commit/fa7491d) Aggiunto un commutatore per sincronizzare QT_SCALE_FACTOR a GDK_SCALE_FACTOR
 * [d28e063](https://github.com/mate-desktop/mate-desktop/commit/d28e063) Modificata la dimensione del cursore a 24px
 * [6d06e18](https://github.com/mate-desktop/mate-desktop/commit/6d06e18) supportato il background fallback su HiDPI
@@ -1242,19 +1242,19 @@ Ecco tutti i dettagli raccapriccianti.
 
 ### mate-notification-daemon
 * [e143ad5](https://github.com/mate-desktop/mate-notification-daemon/commit/e143ad5) Prepararsi per l'unione di docker-build 0.1.1 al master
-* [ae121af](https://github.com/mate-desktop/mate-notification-daemon/commit/ae121af) aggiornamento per utilizzare l'immagine archlinux/base
-* [fa47df1](https://github.com/mate-desktop/mate-notification-daemon/commit/fa47df1) Aggiornamento per utilizzare l'ultimo script di docker-build
+* [ae121af](https://github.com/mate-desktop/mate-notification-daemon/commit/ae121af) aggiornare per utilizzare l'immagine archlinux/base
+* [fa47df1](https://github.com/mate-desktop/mate-notification-daemon/commit/fa47df1) Aggiornare per utilizzare l'ultimo script di docker-build
 * [8e2df08](https://github.com/mate-desktop/mate-notification-daemon/commit/8e2df08) aggiunta debian sid al config di travis-CI
 * [be2d132](https://github.com/mate-desktop/mate-notification-daemon/commit/be2d132) supporto a travis-CI iniziale
 * [cf5a9a1](https://github.com/mate-desktop/mate-notification-daemon/commit/cf5a9a1) disabilitati i warning di deprecazione per distcheck
-* [c586fe5](https://github.com/mate-desktop/mate-notification-daemon/commit/c586fe5) Evitato il warning di compilazione per g_type_class_add_private
+* [c586fe5](https://github.com/mate-desktop/mate-notification-daemon/commit/c586fe5) Evitato il warning in compilazione per g_type_class_add_private
 * [3f3bc54](https://github.com/mate-desktop/mate-notification-daemon/commit/3f3bc54) sincronizzazione con transifex
 * [73ad070](https://github.com/mate-desktop/mate-notification-daemon/commit/73ad070) aggiornato il file .pot
 * [106ec3b](https://github.com/mate-desktop/mate-notification-daemon/commit/106ec3b) versione pre-aggiornamento
 * [8217f2d](https://github.com/mate-desktop/mate-notification-daemon/commit/8217f2d) eliminata la dipendenza da dbus-glib
 * [dccffbc](https://github.com/mate-desktop/mate-notification-daemon/commit/dccffbc) Utilizzato GVariant
-* [960df18](https://github.com/mate-desktop/mate-notification-daemon/commit/960df18) Migrato da dbus-glib a GDBus
-* [f26d490](https://github.com/mate-desktop/mate-notification-daemon/commit/f26d490) aggiunti segnali, rimosse le annotazioni dal file xml
+* [960df18](https://github.com/mate-desktop/mate-notification-daemon/commit/960df18) Migrazione da dbus-glib a GDBus
+* [f26d490](https://github.com/mate-desktop/mate-notification-daemon/commit/f26d490) aggiunti i segnali, rimosse le annotazioni dal file xml
 * [4362bc3](https://github.com/mate-desktop/mate-notification-daemon/commit/4362bc3) utilizzati i file generati da gdbus
 * [5e688bf](https://github.com/mate-desktop/mate-notification-daemon/commit/5e688bf) Aggiunto un nuovo file
 * [6fd50ad](https://github.com/mate-desktop/mate-notification-daemon/commit/6fd50ad) Corrette alcune deprecazioni gdk
@@ -1266,7 +1266,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [23fe34b](https://github.com/mate-desktop/mate-notification-daemon/commit/23fe34b) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 
 ### mate-panel
-* [1db7d2a](https://github.com/mate-desktop/mate-panel/commit/1db7d2a) Assicurata la corretta traduzione del titolo della finestra di dialogo informazioni
+* [1db7d2a](https://github.com/mate-desktop/mate-panel/commit/1db7d2a) Assicurata la corretta traduzione del titolo della finestra di dialogo Informazioni
 * [84c0435](https://github.com/mate-desktop/mate-panel/commit/84c0435) Prepararsi per l'unione di docker-build 0.1.1 al master
 * [e0efbab](https://github.com/mate-desktop/mate-panel/commit/e0efbab) Reso traducibile il copyright nella finestra di dialogo Informazioni
 * [086ca8b](https://github.com/mate-desktop/mate-panel/commit/086ca8b) utilizzato docker-build sul ramo master
@@ -1278,18 +1278,18 @@ Ecco tutti i dettagli raccapriccianti.
 * [14fce6f](https://github.com/mate-desktop/mate-panel/commit/14fce6f) Testato il nuovo docker-build
 * [15e3a68](https://github.com/mate-desktop/mate-panel/commit/15e3a68) supporto a travis-CI iniziale
 * [371e3d7](https://github.com/mate-desktop/mate-panel/commit/371e3d7) corretto il crash quando si rimuove il vassoio
-* [c733d20](https://github.com/mate-desktop/mate-panel/commit/c733d20) panel-action-protocol: Errore se utilizzato quando X11 è disabilitato
-* [4fe2b74](https://github.com/mate-desktop/mate-panel/commit/4fe2b74) panel-force-quit: Errore se utilizzato quando X11 è disabilitato
-* [db9a60c](https://github.com/mate-desktop/mate-panel/commit/db9a60c) panel-xutils: Errore se utilizzato quando X11 è disabilitato
+* [c733d20](https://github.com/mate-desktop/mate-panel/commit/c733d20) panel-action-protocol: Errore se viene utilizzato quando X11 è disabilitato
+* [4fe2b74](https://github.com/mate-desktop/mate-panel/commit/4fe2b74) panel-force-quit: Errore se viene utilizzato quando X11 è disabilitato
+* [db9a60c](https://github.com/mate-desktop/mate-panel/commit/db9a60c) panel-xutils: Errore se viene utilizzato quando X11 è disabilitato
 * [00e26f7](https://github.com/mate-desktop/mate-panel/commit/00e26f7) xstuff: includere gli header GTK e GDK X11, così i file inclusi non devono
 * [ab19ac4](https://github.com/mate-desktop/mate-panel/commit/ab19ac4) xstuff: aggiungere is_using_x11 ()
 * [e3846eb](https://github.com/mate-desktop/mate-panel/commit/e3846eb) xstuff: Errore se X11 non è abilitato
 * [62237a6](https://github.com/mate-desktop/mate-panel/commit/62237a6) Applets: compilare le applet X11 solo quando X11 è abilitato
-* [d714792](https://github.com/mate-desktop/mate-panel/commit/d714792) Clock: supporto Wayland
+* [d714792](https://github.com/mate-desktop/mate-panel/commit/d714792) Clock: supporto a Wayland
 * [aa4754c](https://github.com/mate-desktop/mate-panel/commit/aa4754c) wncklet: Errore se si compila senza il supporto X11
 * [d7edd93](https://github.com/mate-desktop/mate-panel/commit/d7edd93) Errore se si compila senza il supporto X11
 * [3630b20](https://github.com/mate-desktop/mate-panel/commit/3630b20) applet.c: Rimossa l'inutilizzata mate_panel_applet_position_menu ()
-* [b57daee](https://github.com/mate-desktop/mate-panel/commit/b57daee) libmate-panel-applet: Aggiunti commenti negli header per spiegare il comportamento di Wayland
+* [b57daee](https://github.com/mate-desktop/mate-panel/commit/b57daee) libmate-panel-applet: Aggiunti i commenti negli header per spiegare il comportamento di Wayland
 * [d30deb0](https://github.com/mate-desktop/mate-panel/commit/d30deb0) libmate-panel-applet: mate-panel-applet.c supporto a Wayland
 * [8c9a517](https://github.com/mate-desktop/mate-panel/commit/8c9a517) libmate-panel-applet: Applet factory supporto a Wayland
 * [3e4a50d](https://github.com/mate-desktop/mate-panel/commit/3e4a50d) libmate-panel-applet: Errore se panel-plug è compilato senza X11
@@ -1314,7 +1314,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [a0d3068](https://github.com/mate-desktop/mate-panel/commit/a0d3068) Link con i protocolli e le librerie Wayland
 * [b0fb7b5](https://github.com/mate-desktop/mate-panel/commit/b0fb7b5) Includere il makefile di generazione del protocollo Wayland nel sistema di compilazione
 * [8dd32e8](https://github.com/mate-desktop/mate-panel/commit/8dd32e8) Incluso il makefile di generazione del protocollo Wayland
-* [d7074e3](https://github.com/mate-desktop/mate-panel/commit/d7074e3) Aggiornato configure.ac per il supporto Wayland
+* [d7074e3](https://github.com/mate-desktop/mate-panel/commit/d7074e3) Aggiornato configure.ac per il supporto a Wayland
 * [dc37f88](https://github.com/mate-desktop/mate-panel/commit/dc37f88) Aggiunto l'xml di protocollo XDG Shell
 * [0ea564a](https://github.com/mate-desktop/mate-panel/commit/0ea564a) Aggiunto l'xml di protocollo Layer Shell
 * [c50f7b3](https://github.com/mate-desktop/mate-panel/commit/c50f7b3) Rimosso il rilevamento dei pacchetti X11 legacy
@@ -1334,20 +1334,20 @@ Ecco tutti i dettagli raccapriccianti.
 * [3f351d5](https://github.com/mate-desktop/mate-panel/commit/3f351d5) button-widget: pannelli ampi, limiti di ridimensionamento più adattabili su Widgets e frecce
 * [e4fc17c](https://github.com/mate-desktop/mate-panel/commit/e4fc17c) README - Aggiunto un elenco delle dipendenze
 * [423e74c](https://github.com/mate-desktop/mate-panel/commit/423e74c) legal.xml
-* [0340a5e](https://github.com/mate-desktop/mate-panel/commit/0340a5e) Clock applet help: Aggiustata la Data o l'Ora di Sistema
+* [0340a5e](https://github.com/mate-desktop/mate-panel/commit/0340a5e) Clock applet help: Per aggiustare la Data o l'Ora di Sistema
 * [3fd6d38](https://github.com/mate-desktop/mate-panel/commit/3fd6d38) Clock applet help: Aggiunto Mostra i numeri della settimana nel calendario
 * [b7a1ac5](https://github.com/mate-desktop/mate-panel/commit/b7a1ac5) Clock applet help: Corretta l'unità di velocità per i metri al secondo
 * [16e6140](https://github.com/mate-desktop/mate-panel/commit/16e6140) sincronizzazione con transifex
 * [f0f4c5e](https://github.com/mate-desktop/mate-panel/commit/f0f4c5e) menu-bar: trasferito correttamente il focus con alt-F1
 * [4c30c52](https://github.com/mate-desktop/mate-panel/commit/4c30c52) panel: evitata una situazione critica
-* [2e35407](https://github.com/mate-desktop/mate-panel/commit/2e35407) panel-toplevel: calcolato un memory leak in calculate_minimum_height
-* [31930d0](https://github.com/mate-desktop/mate-panel/commit/31930d0) applets:Guardarsi dalle correzioni di scale-factor di GTK su GtkSocket
+* [2e35407](https://github.com/mate-desktop/mate-panel/commit/2e35407) panel-toplevel: corretto un memory leak in calculate_minimum_height
+* [31930d0](https://github.com/mate-desktop/mate-panel/commit/31930d0) applets: Guardarsi dalle correzioni di scale-factor di GTK su GtkSocket
 * [139f183](https://github.com/mate-desktop/mate-panel/commit/139f183) window-list: Smesso di impostare i suggerimenti di dimensione fino a quando WnckTasklist non ha oggetti da mostrare.
 * [f2f4d84](https://github.com/mate-desktop/mate-panel/commit/f2f4d84) applets: Corretti i messaggi di errore in runtime
 * [b37f24e](https://github.com/mate-desktop/mate-panel/commit/b37f24e) mate-panel-applet: setup_x_error_handler anche per le applet in-process
 * [a130fb0](https://github.com/mate-desktop/mate-panel/commit/a130fb0) GTK 3.23: corretta l'allocazione della dimensione delle applet
 * [7369482](https://github.com/mate-desktop/mate-panel/commit/7369482) fish: evitata la deprecata 'gtk_window_set_wmclass'
-* [9de3a86](https://github.com/mate-desktop/mate-panel/commit/9de3a86) Tray: semplicemente forzare il ridisegno, utilizzato il codice che attualmente funziona
+* [9de3a86](https://github.com/mate-desktop/mate-panel/commit/9de3a86) Tray: semplificato force-redraw, utilizzato il codice che attualmente funziona
 * [17ac8aa](https://github.com/mate-desktop/mate-panel/commit/17ac8aa) panel-actions: sostituita la deprecata gtk_menu_popup
 * [8001d65](https://github.com/mate-desktop/mate-panel/commit/8001d65) applet-context-menu: sostituita la deprecata gtk_menu_popup
 * [81896c0](https://github.com/mate-desktop/mate-panel/commit/81896c0) panel-context-menu: sostituita la deprecata gtk_menu_popup
@@ -1364,10 +1364,10 @@ Ecco tutti i dettagli raccapriccianti.
 * [9009c4e](https://github.com/mate-desktop/mate-panel/commit/9009c4e) panel-force-quit: sostituita la deprecata gtk_device_grab
 * [cb34c54](https://github.com/mate-desktop/mate-panel/commit/cb34c54) panel-force-quit: sostituite le funzioni deprecate gdk_error_trap
 * [08076de](https://github.com/mate-desktop/mate-panel/commit/08076de) panel-force-quit: sostituita la deprecata gdk_flush
-* [b22dff4](https://github.com/mate-desktop/mate-panel/commit/b22dff4) menu.c: Correzione: mantenere gli spazi sulla sinistra se "menus-have-icons" è spento
-* [5ca1fb1](https://github.com/mate-desktop/mate-panel/commit/5ca1fb1) Panel-gtk.c: Mostrare le icone del menù solo quando "menus-have-icons" è impostato
+* [b22dff4](https://github.com/mate-desktop/mate-panel/commit/b22dff4) menu.c: Correzione: mantenere gli spazi sulla sinistra se "menus-have-icons" è disattivato
+* [5ca1fb1](https://github.com/mate-desktop/mate-panel/commit/5ca1fb1) Panel-gtk.c: Mostrare le icone del menù solo quando è impostato "menus-have-icons"
 * [2d3406f](https://github.com/mate-desktop/mate-panel/commit/2d3406f) workspace-switcher: fornito un colore di fallback da tema
-* [a5df21b](https://github.com/mate-desktop/mate-panel/commit/a5df21b) po: riportato pt_BR in LINGUAS
+* [a5df21b](https://github.com/mate-desktop/mate-panel/commit/a5df21b) po: riportare pt_BR in LINGUAS
 * [f8cbb7b](https://github.com/mate-desktop/mate-panel/commit/f8cbb7b) sincronizzazione con transifex
 * [0c93617](https://github.com/mate-desktop/mate-panel/commit/0c93617) aggiornato mate-panel.pot
 * [89e8e62](https://github.com/mate-desktop/mate-panel/commit/89e8e62) aggiornato il requisito di mate-menus
@@ -1383,14 +1383,14 @@ Ecco tutti i dettagli raccapriccianti.
 * [74ec4df](https://github.com/mate-desktop/mate-panel/commit/74ec4df) fish: Installate le animazioni del pesce in una cartella fish-specifica 
 * [f96c4ef](https://github.com/mate-desktop/mate-panel/commit/f96c4ef) fish: eliminata l'immagine wanda da gresource
 * [8135c86](https://github.com/mate-desktop/mate-panel/commit/8135c86) sincronizzazione con transifex
-* [38dbd34](https://github.com/mate-desktop/mate-panel/commit/38dbd34) css: utilizzato il segnale parsing-error per avvertire di cattive immagini o file css
-* [2170446](https://github.com/mate-desktop/mate-panel/commit/2170446) css: Convertito a GResource
-* [fb3abe3](https://github.com/mate-desktop/mate-panel/commit/fb3abe3) na-tray: Convertito a GResource
-* [e1db072](https://github.com/mate-desktop/mate-panel/commit/e1db072) wncklet: Convertito a GResource
-* [1b7c43a](https://github.com/mate-desktop/mate-panel/commit/1b7c43a) panel: Convertito a GResource
+* [38dbd34](https://github.com/mate-desktop/mate-panel/commit/38dbd34) css: utilizzato il segnale parsing-error per avvertire di immagini o file css errati
+* [2170446](https://github.com/mate-desktop/mate-panel/commit/2170446) css: Conversione a GResource
+* [fb3abe3](https://github.com/mate-desktop/mate-panel/commit/fb3abe3) na-tray: Conversione a GResource
+* [e1db072](https://github.com/mate-desktop/mate-panel/commit/e1db072) wncklet: Conversione a GResource
+* [1b7c43a](https://github.com/mate-desktop/mate-panel/commit/1b7c43a) panel: Conversione a GResource
 * [ee07e90](https://github.com/mate-desktop/mate-panel/commit/ee07e90) clock: Utilizzata la nuova API GdkPixbuf per caricare le risorse
-* [cfe0603](https://github.com/mate-desktop/mate-panel/commit/cfe0603) clock: Convertito a GResource
-* [c61d371](https://github.com/mate-desktop/mate-panel/commit/c61d371) fish: Convertito a GResource
+* [cfe0603](https://github.com/mate-desktop/mate-panel/commit/cfe0603) clock: Conversione a GResource
+* [c61d371](https://github.com/mate-desktop/mate-panel/commit/c61d371) fish: Conversione a GResource
 * [b6372ca](https://github.com/mate-desktop/mate-panel/commit/b6372ca) libpanel-applet: Aggiunta l'API panel_applet_setup_menu_from_resource()
 * [45b2541](https://github.com/mate-desktop/mate-panel/commit/45b2541) Theme: consistente utilizzo del tema per le maniglie di trascinamento delle applet su tutti i temi
 * [b060d2a](https://github.com/mate-desktop/mate-panel/commit/b060d2a) Ripristinato "panel-toplevel: Rimosso il controllo dei confini del puntatore in panel_toplevel_queue_auto_hide()"
@@ -1419,7 +1419,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [fb2abbf](https://github.com/mate-desktop/mate-panel/commit/fb2abbf) Corretto il rendering dell'elenco delle finestre out-of-process con hidpi
 * [0b15ea1](https://github.com/mate-desktop/mate-panel/commit/0b15ea1) hidpi: corretta lo spaziatura dell'icona del vassoio con window-scaling > 1
 * [ff04f33](https://github.com/mate-desktop/mate-panel/commit/ff04f33) Corrette le dimensioni delle applet out-of-process per HiDPI
-* [fa5cde3](https://github.com/mate-desktop/mate-panel/commit/fa5cde3) Corretto l'errore dei pulsanti che nascondono il pannello che lo rendono più grande
+* [fa5cde3](https://github.com/mate-desktop/mate-panel/commit/fa5cde3) Corretto l'errore dei pulsanti che nascondono il pannello che lo rendevano più grande
 * [6bbc333](https://github.com/mate-desktop/mate-panel/commit/6bbc333) run dialog: forzata la dimensione dell'icona quando si carica l'icona dell'applicazione
 * [61ee811](https://github.com/mate-desktop/mate-panel/commit/61ee811) run dialog: corretta l'espansione del contenuto quando si ridimensiona la finestra
 * [f6224f1](https://github.com/mate-desktop/mate-panel/commit/f6224f1) Corretto show-program-list della finestra di dialogo esegui
@@ -1440,11 +1440,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [9803059](https://github.com/mate-desktop/mate-panel/commit/9803059) Clock: Fatto in modo che l'icona del meteo si ridimensioni con il pannello
 * [b79d153](https://github.com/mate-desktop/mate-panel/commit/b79d153) clock: forzata l'assenza di padding e margine verticale del pulsante
 * [1d99f02](https://github.com/mate-desktop/mate-panel/commit/1d99f02) disabilitati i warning di deprecazione per distcheck
-* [2c548d1](https://github.com/mate-desktop/mate-panel/commit/2c548d1) Tray: semplicemente forzare il ridisegno, utilizzato il codice che attualmente funziona
+* [2c548d1](https://github.com/mate-desktop/mate-panel/commit/2c548d1) Tray: semplificato force-redraw, utilizzato il codice che attualmente funziona
 * [a014c7a](https://github.com/mate-desktop/mate-panel/commit/a014c7a) utilizzate funzioni make per HELP_LINGUAS
 * [cdaf08f](https://github.com/mate-desktop/mate-panel/commit/cdaf08f) menu-bar: trasferito correttamente il focus con alt-F1
 * [5b3cc79](https://github.com/mate-desktop/mate-panel/commit/5b3cc79) legal.xml
-* [e6e3f39](https://github.com/mate-desktop/mate-panel/commit/e6e3f39) Clock applet help: Aggiustata la Data o l'Ora di Sistema
+* [e6e3f39](https://github.com/mate-desktop/mate-panel/commit/e6e3f39) Clock applet help: Per aggiustare la Data o l'Ora di Sistema
 * [01568a6](https://github.com/mate-desktop/mate-panel/commit/01568a6) Clock applet help: Aggiunto Mostra i numeri della settimana nel calendario
 * [b1959f2](https://github.com/mate-desktop/mate-panel/commit/b1959f2) Clock applet help: Corretta l'unità di velocità per i metri al secondo
 * [e7eda82](https://github.com/mate-desktop/mate-panel/commit/e7eda82) panel: evitata una situazione critica
@@ -1456,7 +1456,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [19bfc3d](https://github.com/mate-desktop/mate-panel/commit/19bfc3d) applets: Corretti i messaggi di errore in runtime
 * [ae885fb](https://github.com/mate-desktop/mate-panel/commit/ae885fb) mate-panel-applet: setup_x_error_handler anche per le applet in-process
 * [a673336](https://github.com/mate-desktop/mate-panel/commit/a673336) GTK 3.23: corretta l'allocazione della dimensione delle applet
-* [b8c0dde](https://github.com/mate-desktop/mate-panel/commit/b8c0dde) GTK 3.23:  non tagliare le icone troppo strette in modalità HiDPI
+* [b8c0dde](https://github.com/mate-desktop/mate-panel/commit/b8c0dde) GTK 3.23: non tagliare le icone troppo strette in modalità HiDPI
 * [a5a079b](https://github.com/mate-desktop/mate-panel/commit/a5a079b) na-tray-child: rimossa na_tray_child_size_allocate
 * [2c8de94](https://github.com/mate-desktop/mate-panel/commit/2c8de94) panel-toplevel: aggiunta una classe css di posizionamento
 * [3e08875](https://github.com/mate-desktop/mate-panel/commit/3e08875) sincronizzazione con transifex
@@ -1468,14 +1468,14 @@ Ecco tutti i dettagli raccapriccianti.
 * [9ff939b](https://github.com/mate-desktop/mate-panel/commit/9ff939b) clock: corretto l'errore di copia/incolla che causava use-after-free
 * [a7dcec2](https://github.com/mate-desktop/mate-panel/commit/a7dcec2) fish: Installate le animazioni del pesce in una cartella fish-specifica 
 * [cd623c5](https://github.com/mate-desktop/mate-panel/commit/cd623c5) fish: eliminata l'immagine wanda da gresource
-* [f51051b](https://github.com/mate-desktop/mate-panel/commit/f51051b) utilizzato il segnale parsing-error per avvertire di cattive immagini o file css
-* [3db6772](https://github.com/mate-desktop/mate-panel/commit/3db6772) css: Convertito a GResource
-* [9ee6deb](https://github.com/mate-desktop/mate-panel/commit/9ee6deb) na-tray: Convertito a GResource
-* [ff613c4](https://github.com/mate-desktop/mate-panel/commit/ff613c4) wncklet: Convertito a GResource
-* [6b461de](https://github.com/mate-desktop/mate-panel/commit/6b461de) panel: Convertito a GResource
+* [f51051b](https://github.com/mate-desktop/mate-panel/commit/f51051b) utilizzato il segnale parsing-error per avvertire di immagini o file css errati
+* [3db6772](https://github.com/mate-desktop/mate-panel/commit/3db6772) css: Conversione a GResource
+* [9ee6deb](https://github.com/mate-desktop/mate-panel/commit/9ee6deb) na-tray: Conversione a GResource
+* [ff613c4](https://github.com/mate-desktop/mate-panel/commit/ff613c4) wncklet: Conversione a GResource
+* [6b461de](https://github.com/mate-desktop/mate-panel/commit/6b461de) panel: Conversione a GResource
 * [72982f7](https://github.com/mate-desktop/mate-panel/commit/72982f7) clock: Utilizzata la nuova API GdkPixbuf per caricare le risorse
-* [dcb6025](https://github.com/mate-desktop/mate-panel/commit/dcb6025) clock: Convertito a GResource
-* [0e8b631](https://github.com/mate-desktop/mate-panel/commit/0e8b631) fish: Convertito a GResource
+* [dcb6025](https://github.com/mate-desktop/mate-panel/commit/dcb6025) clock: Conversione a GResource
+* [0e8b631](https://github.com/mate-desktop/mate-panel/commit/0e8b631) fish: Conversione a GResource
 * [0b9863f](https://github.com/mate-desktop/mate-panel/commit/0b9863f) libpanel-applet: Aggiunta l'API panel_applet_setup_menu_from_resource()
 * [cbdb7a5](https://github.com/mate-desktop/mate-panel/commit/cbdb7a5) Ripristinato "panel-toplevel: Rimosso il controllo dei confini del puntatore in panel_toplevel_queue_auto_hide()"
 * [37ae832](https://github.com/mate-desktop/mate-panel/commit/37ae832) Accessibility: maniglie delle applet in bianco e nero nei temi GNOME ad alto contrasto
@@ -1487,7 +1487,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [88a2442](https://github.com/mate-desktop/mate-panel/commit/88a2442) Applicata la correzione per workspace-switcher di vkareh
 * [d02fcc5](https://github.com/mate-desktop/mate-panel/commit/d02fcc5) hidpi: corretta lo spaziatura dell'icona del vassoio con window-scaling > 1
 * [a32c8da](https://github.com/mate-desktop/mate-panel/commit/a32c8da) Corrette le dimensioni delle applet out-of-process per HiDPI
-* [976ae5c](https://github.com/mate-desktop/mate-panel/commit/976ae5c) Corretto l'errore dei pulsanti che nascondono il pannello che lo rendono più grande
+* [976ae5c](https://github.com/mate-desktop/mate-panel/commit/976ae5c) Corretto l'errore dei pulsanti che nascondono il pannello che lo rendevano più grande
 * [3ce6c33](https://github.com/mate-desktop/mate-panel/commit/3ce6c33) run dialog: forzata la dimensione dell'icona quando si carica l'icona dell'applicazione
 * [50aa81d](https://github.com/mate-desktop/mate-panel/commit/50aa81d) run dialog: corretta l'espansione del contenuto quando si ridimensiona la finestra
 * [dce0491](https://github.com/mate-desktop/mate-panel/commit/dce0491) Corretto show-program-list della finestra di dialogo esegui
@@ -1512,7 +1512,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### mate-power-manager
 * [fd27849](https://github.com/mate-desktop/mate-power-manager/commit/fd27849) aggiunti i pacchetti richiesti per archlinux
 * [a763309](https://github.com/mate-desktop/mate-power-manager/commit/a763309) Inizializzato il supporto a Travis Cl
-* [5dca0aa](https://github.com/mate-desktop/mate-power-manager/commit/5dca0aa) utilizzare libtool generto durante la compilazione rispetto a uno esterno
+* [5dca0aa](https://github.com/mate-desktop/mate-power-manager/commit/5dca0aa) utilizzare libtool generato durante la compilazione rispetto a uno esterno
 * [7badcbc](https://github.com/mate-desktop/mate-power-manager/commit/7badcbc) disabilitati i warning di deprecazione per distcheck
 * [1514a0f](https://github.com/mate-desktop/mate-power-manager/commit/1514a0f) gpm-control: evitata la deprecata 'g_settings_list_schemas'
 * [79fe889](https://github.com/mate-desktop/mate-power-manager/commit/79fe889) media-keys: arrotondare sempre le coordinate per il render delle icone dei servizi multimediali
@@ -1549,9 +1549,9 @@ Ecco tutti i dettagli raccapriccianti.
 
 ### mate-screensaver
 * [f8bc365](https://github.com/mate-desktop/mate-screensaver/commit/f8bc365) Tx: sincronizzazione con transifex
-* [cd70be5](https://github.com/mate-desktop/mate-screensaver/commit/cd70be5) effettuato il pass di distcheck su debian
+* [cd70be5](https://github.com/mate-desktop/mate-screensaver/commit/cd70be5) effettuata la corretta esecuzione di distcheck su debian
 * [feca97f](https://github.com/mate-desktop/mate-screensaver/commit/feca97f) Inizializzato il supporto a Travis Cl
-* [ee41071](https://github.com/mate-desktop/mate-screensaver/commit/ee41071) Reso traducibile l'auth-username-label in lock-dialog-default.ui
+* [ee41071](https://github.com/mate-desktop/mate-screensaver/commit/ee41071) Reso traducibile auth-username-label in lock-dialog-default.ui
 * [11fedfe](https://github.com/mate-desktop/mate-screensaver/commit/11fedfe) mate-screensaver-command: supportato lo sblocco dello screensaver via CLI (--unlock)
 * [84a14f0](https://github.com/mate-desktop/mate-screensaver/commit/84a14f0) disabilitati i warning di deprecazione per distcheck
 * [43cfc3b](https://github.com/mate-desktop/mate-screensaver/commit/43cfc3b) sincronizzazione con transifex
@@ -1559,11 +1559,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [deb9266](https://github.com/mate-desktop/mate-screensaver/commit/deb9266) gs-grab-x11: sostituita la deprecata 'gdk_error_trap_push/pop'
 * [ba96676](https://github.com/mate-desktop/mate-screensaver/commit/ba96676) gs-visual-gl: sostituita la deprecata 'gdk_error_trap_push/pop'
 * [1bbadd3](https://github.com/mate-desktop/mate-screensaver/commit/1bbadd3) Rimosso il puntatore "monitor" dalle informazioni di debug
-* [ef8f73d](https://github.com/mate-desktop/mate-screensaver/commit/ef8f73d) lock-plug: Scalare solo widgets lock-screen sulle versioni più vecchie di GTK
+* [ef8f73d](https://github.com/mate-desktop/mate-screensaver/commit/ef8f73d) lock-plug: Scalare solo i widget lock-screen sulle versioni più vecchie di GTK
 * [0d51a73](https://github.com/mate-desktop/mate-screensaver/commit/0d51a73) gs-lock-plug: evitata la deprecata 'gdk_keymap_get_default'
 * [8d82e50](https://github.com/mate-desktop/mate-screensaver/commit/8d82e50) sincronizzazione con transifex
 * [bba13cb](https://github.com/mate-desktop/mate-screensaver/commit/bba13cb) aggiornato mate-screensaver.pot
-* [0ed125f](https://github.com/mate-desktop/mate-screensaver/commit/0ed125f) aggiornare la versione richiesta di mate-menus
+* [0ed125f](https://github.com/mate-desktop/mate-screensaver/commit/0ed125f) aggiornata la versione richiesta di mate-menus
 * [c3807e7](https://github.com/mate-desktop/mate-screensaver/commit/c3807e7) Supportata la nuova api mate-menus
 * [abaa88e](https://github.com/mate-desktop/mate-screensaver/commit/abaa88e) Corrette alcune deprecazioni gdk
 * [ce87b58](https://github.com/mate-desktop/mate-screensaver/commit/ce87b58) corretto il warning gdk_flush  
@@ -1574,7 +1574,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [e8d8b36](https://github.com/mate-desktop/mate-screensaver/commit/e8d8b36) Rimosso il puntatore "monitor" dalle informazioni di debug
 * [1774853](https://github.com/mate-desktop/mate-screensaver/commit/1774853) sincronizzazione con transifex
 * [465734b](https://github.com/mate-desktop/mate-screensaver/commit/465734b) corrette ulteriori deprecazioni correlate a GdkScreen
-* [762ae73](https://github.com/mate-desktop/mate-screensaver/commit/762ae73) lock-plug: Scalare solo widgets lock-screen sulle versioni più vecchie di GTK
+* [762ae73](https://github.com/mate-desktop/mate-screensaver/commit/762ae73) lock-plug: Scalare solo i widget lock-screen sulle versioni più vecchie di GTK
 * [6498272](https://github.com/mate-desktop/mate-screensaver/commit/6498272) sincronizzazione con transifex
 * [f94dbce](https://github.com/mate-desktop/mate-screensaver/commit/f94dbce) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 
@@ -1585,7 +1585,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [4cbcf29](https://github.com/mate-desktop/mate-sensors-applet/commit/4cbcf29) disabilitati i warning di deprecazione per distcheck
 * [972866e](https://github.com/mate-desktop/mate-sensors-applet/commit/972866e) Aggiunto il supporto a NetBSD.
 * [ff7769b](https://github.com/mate-desktop/mate-sensors-applet/commit/ff7769b) utilizzate funzioni make per HELP_LINGUAS
-* [5bbef92](https://github.com/mate-desktop/mate-sensors-applet/commit/5bbef92) sincronizzazione con transifex 
+* [5bbef92](https://github.com/mate-desktop/mate-sensors-applet/commit/5bbef92) sincronizzazione con transifex
 * [98da528](https://github.com/mate-desktop/mate-sensors-applet/commit/98da528) versione pre-aggiornamento
 * [f8ca6f7](https://github.com/mate-desktop/mate-sensors-applet/commit/f8ca6f7) Corretto il copyright per i file dei plugin
 * [915bd41](https://github.com/mate-desktop/mate-sensors-applet/commit/915bd41) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
@@ -1596,11 +1596,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [f876ed2](https://github.com/mate-desktop/mate-sensors-applet/commit/f876ed2) prefs-dialog: eliminato lo spazio non richiesto nella scheda generale
 * [5359056](https://github.com/mate-desktop/mate-sensors-applet/commit/5359056) prefs-dialog: impostato min_width per enable_column
 * [3f54c57](https://github.com/mate-desktop/mate-sensors-applet/commit/3f54c57) prefs-dialog: utilizzata la hscrollbar-policy GTK_POLICY_NEVER
-* [7e48690](https://github.com/mate-desktop/mate-sensors-applet/commit/7e48690) corrette deprecazioni di GtkStock
+* [7e48690](https://github.com/mate-desktop/mate-sensors-applet/commit/7e48690) corrette le deprecazioni di GtkStock
 * [e06917d](https://github.com/mate-desktop/mate-sensors-applet/commit/e06917d) aggiunto il supporto a Travis-Cl
 * [7063811](https://github.com/mate-desktop/mate-sensors-applet/commit/7063811) disabilitati i warning di deprecazione per distcheck
 * [9af4264](https://github.com/mate-desktop/mate-sensors-applet/commit/9af4264) utilizzate funzioni make per HELP_LINGUAS 
-* [8a41f1a](https://github.com/mate-desktop/mate-sensors-applet/commit/8a41f1a) sincronizzazione con transifex 
+* [8a41f1a](https://github.com/mate-desktop/mate-sensors-applet/commit/8a41f1a) sincronizzazione con transifex
 * [5352e3b](https://github.com/mate-desktop/mate-sensors-applet/commit/5352e3b) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [047590c](https://github.com/mate-desktop/mate-sensors-applet/commit/047590c) sincronizzazione con transifex
 * [4ebb00d](https://github.com/mate-desktop/mate-sensors-applet/commit/4ebb00d) corretto l'ordine di salvataggio dei sensori v2
@@ -1616,14 +1616,14 @@ Ecco tutti i dettagli raccapriccianti.
 * [db623bf](https://github.com/mate-desktop/mate-session-manager/commit/db623bf) corretto il fallimento di make distcheck su debian.
 * [f3eb3e8](https://github.com/mate-desktop/mate-session-manager/commit/f3eb3e8) supporto a travis-CI iniziale
 * [9c748b1](https://github.com/mate-desktop/mate-session-manager/commit/9c748b1) manager: riavviato il bus utente se ultima sessione grafica
-* [37d538e](https://github.com/mate-desktop/mate-session-manager/commit/37d538e) systemd: aggiunta una api per verificare se questa sia l'ultima sessione grafica per un utente
-* [409d9fc](https://github.com/mate-desktop/mate-session-manager/commit/409d9fc) gsm: Disconnessi tutti i dbus client quando dbus è disconnesso
+* [37d538e](https://github.com/mate-desktop/mate-session-manager/commit/37d538e) systemd: aggiunge una api per verificare se questa sia l'ultima sessione grafica per un utente
+* [409d9fc](https://github.com/mate-desktop/mate-session-manager/commit/409d9fc) gsm: Disconnettere tutti i dbus client quando dbus è disconnesso
 * [0f4afbb](https://github.com/mate-desktop/mate-session-manager/commit/0f4afbb) manager: non attendere che tutti i client escano prima dell'uscita
 * [2daa4af](https://github.com/mate-desktop/mate-session-manager/commit/2daa4af) [gsm-autostart-app] Migrazione da dbus-glib a gdbus
-* [90346cd](https://github.com/mate-desktop/mate-session-manager/commit/90346cd) gsm-app-dialog: resi i secondi traducibili nello spinbutton
+* [90346cd](https://github.com/mate-desktop/mate-session-manager/commit/90346cd) gsm-app-dialog: i secondi nello spinbutton sono stati resi traducibili
 * [5c2ea73](https://github.com/mate-desktop/mate-session-manager/commit/5c2ea73) disabilitati i warning di deprecazione per distcheck
 * [fbd7aa8](https://github.com/mate-desktop/mate-session-manager/commit/fbd7aa8) cambiare il ritardo di avvio di una app dove essa sia nel percorso di sistema
-* [6f1578f](https://github.com/mate-desktop/mate-session-manager/commit/6f1578f) Rimosso il suporto a X-GNOME-Autostart-Delay
+* [6f1578f](https://github.com/mate-desktop/mate-session-manager/commit/6f1578f) Rimosso il supporto a X-GNOME-Autostart-Delay
 * [0e2eb8a](https://github.com/mate-desktop/mate-session-manager/commit/0e2eb8a) Aggiunta un'impostazione di ritardo a Startup Manager
 * [34ef232](https://github.com/mate-desktop/mate-session-manager/commit/34ef232) gsm-properties-dialog: evitata 'gtk_dialog_add_button' con gli identificativi stock
 * [7cd2ccc](https://github.com/mate-desktop/mate-session-manager/commit/7cd2ccc) evitata 'gtk_dialog_add_buttons' con gli identificativi stock
@@ -1673,11 +1673,11 @@ Ecco tutti i dettagli raccapriccianti.
 * [4434365](https://github.com/mate-desktop/mate-settings-daemon/commit/4434365) media-keys: arrotondare sempre le coordinate per il render delle icone dei servizi multimediali
 * [e7222d9](https://github.com/mate-desktop/mate-settings-daemon/commit/e7222d9) media-keys: Modificata la posizione della barra del volume dell'OSD
 * [f5ae497](https://github.com/mate-desktop/mate-settings-daemon/commit/f5ae497) osd-window: resa più piccola la finestra
-* [8ec1bf0](https://github.com/mate-desktop/mate-settings-daemon/commit/8ec1bf0) media-keys: rese le icone più piccole sull'OSD
+* [8ec1bf0](https://github.com/mate-desktop/mate-settings-daemon/commit/8ec1bf0) media-keys: le icone sull'OSD sono state rese più piccole
 * [bda6d7a](https://github.com/mate-desktop/mate-settings-daemon/commit/bda6d7a) media-keys: Utilizzata una costante per la dimensione dell'icona sull'OSD
 * [4a54f68](https://github.com/mate-desktop/mate-settings-daemon/commit/4a54f68) media-keys: Aggiunto il test per le icone sull'OSD dello switch del display
 * [d8eabb8](https://github.com/mate-desktop/mate-settings-daemon/commit/d8eabb8) media-keys: Aggiunto il supporto all'OSD per lo switch del display
-* [62299ac](https://github.com/mate-desktop/mate-settings-daemon/commit/62299ac) media-keys: Non si mostra il livello quando è muto
+* [62299ac](https://github.com/mate-desktop/mate-settings-daemon/commit/62299ac) media-keys: Non viene mostrato il livello quando è muto
 * [5eb0645](https://github.com/mate-desktop/mate-settings-daemon/commit/5eb0645) corretta l'esecuzione di distcheck
 * [2c5286d](https://github.com/mate-desktop/mate-settings-daemon/commit/2c5286d) sincronizzazione con transifex
 * [6b00f4c](https://github.com/mate-desktop/mate-settings-daemon/commit/6b00f4c) media-keys: Aggiunto il test per le icone rfkill sull'OSD
@@ -1686,7 +1686,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [ea4ab83](https://github.com/mate-desktop/mate-settings-daemon/commit/ea4ab83) media-keys: Rimosso l'argomento inutile da show_level in msd_media_keys_window_set_action_custom
 * [4971d19](https://github.com/mate-desktop/mate-settings-daemon/commit/4971d19) media-keys: Rimosso il test per le icone della luminosità dell' schermo dell'OSD
 * [21469f2](https://github.com/mate-desktop/mate-settings-daemon/commit/21469f2) media-keys: Aggiunto il supporto per i tasti multimediali Killswitch
-* [2b528ed](https://github.com/mate-desktop/mate-settings-daemon/commit/2b528ed) rfkill: Aggiunto il supporto a RFKill plugin sui sistemi Linux
+* [2b528ed](https://github.com/mate-desktop/mate-settings-daemon/commit/2b528ed) rfkill: Aggiunto il plugin di supporto RFKill sui sistemi Linux
 * [765208e](https://github.com/mate-desktop/mate-settings-daemon/commit/765208e) Aggiunta una scorciatoia per avviare mate-control-center
 * [11f25cd](https://github.com/mate-desktop/mate-settings-daemon/commit/11f25cd) versione pre-aggiornamento
 * [c33458f](https://github.com/mate-desktop/mate-settings-daemon/commit/c33458f) media-keys: Aggiunto il testo per le icone sull'OSD del touchpad
@@ -1702,7 +1702,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [66b5931](https://github.com/mate-desktop/mate-settings-daemon/commit/66b5931) xsettings: sostituita la deprecata gdk_error_trap_push/pop
 * [03368ab](https://github.com/mate-desktop/mate-settings-daemon/commit/03368ab) xrandr-manager: sostituita la deprecata gdk_error_trap_push/pop
 * [fb9e750](https://github.com/mate-desktop/mate-settings-daemon/commit/fb9e750) mouse-manager: sostituita la deprecata gdk_error_trap_push/pop
-* [cfe1160](https://github.com/mate-desktop/mate-settings-daemon/commit/cfe1160) media-keys-manager: sostituito il deprecato GdkDeviceManager
+* [cfe1160](https://github.com/mate-desktop/mate-settings-daemon/commit/cfe1160) media-keys-manager: sostituita la deprecata GdkDeviceManager
 * [d68a31d](https://github.com/mate-desktop/mate-settings-daemon/commit/d68a31d) keyboard-manager: sostituita la deprecata gdk_error_trap_push/pop
 * [68df93b](https://github.com/mate-desktop/mate-settings-daemon/commit/68df93b) clipboard-manager: sostituita la deprecata gdk_error_trap_push/pop
 * [3431355](https://github.com/mate-desktop/mate-settings-daemon/commit/3431355) background-manager: sostituite le funzioni GDK deprecate
@@ -1726,10 +1726,10 @@ Ecco tutti i dettagli raccapriccianti.
 * [6bc54f1](https://github.com/mate-desktop/mate-settings-daemon/commit/6bc54f1) xrandr-applet-popup: concesso ai temi di sovrascrivere i colori delle etichette dei monitor
 * [c6f5693](https://github.com/mate-desktop/mate-settings-daemon/commit/c6f5693) xrandr-applet-popup: aggiunto un bordo alle etichette colorate dei monitor
 * [fff8a2f](https://github.com/mate-desktop/mate-settings-daemon/commit/fff8a2f) xrandr-applet-popup: riutilizzato lo sfondo colorato sulle etichette dei monitor
-* [57b6fa4](https://github.com/mate-desktop/mate-settings-daemon/commit/57b6fa4) xrandr applet popup: aggiunte le icone del monitor agli elenti di menù dell'etichetta dei monitor
+* [57b6fa4](https://github.com/mate-desktop/mate-settings-daemon/commit/57b6fa4) xrandr applet popup: aggiunte le icone del monitor agli elementi di menù dell'etichetta dei monitor
 * [a386cd6](https://github.com/mate-desktop/mate-settings-daemon/commit/a386cd6) xrandr-applet: aggiunta una classe di stile per gli elementi di menù
 * [0f32717](https://github.com/mate-desktop/mate-settings-daemon/commit/0f32717) xrandr-applet: eliminato lo sfondo non funzionante dal menù
-* [2674157](https://github.com/mate-desktop/mate-settings-daemon/commit/2674157) xrandr-applet: non utilizare colori harcoded per le etichette nel menù
+* [2674157](https://github.com/mate-desktop/mate-settings-daemon/commit/2674157) xrandr-applet: non utilizzare colori harcoded per le etichette nel menù
 * [2ae546b](https://github.com/mate-desktop/mate-settings-daemon/commit/2ae546b) supportato il background fallback su HiDPI
 * [b60a6c8](https://github.com/mate-desktop/mate-settings-daemon/commit/b60a6c8) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
 * [d036879](https://github.com/mate-desktop/mate-settings-daemon/commit/d036879) Evitato che i collegamenti ai tasti multimediali prevalgano sui tasti modificatori
@@ -1751,12 +1751,12 @@ Ecco tutti i dettagli raccapriccianti.
 * [acd6123](https://github.com/mate-desktop/mate-system-monitor/commit/acd6123) Testo della Licenza nella finestra di dialogo informazioni
 * [9fa6ae5](https://github.com/mate-desktop/mate-system-monitor/commit/9fa6ae5) Reso traducibile il copyright nella finestra di dialogo Informazioni
 * [0cd2493](https://github.com/mate-desktop/mate-system-monitor/commit/0cd2493) Aggiornato lo screenshot in Catalano
-* [779f22e](https://github.com/mate-desktop/mate-system-monitor/commit/779f22e) Aiuto - valori preimpostati prioritari, incluso il valore personalizzato
+* [779f22e](https://github.com/mate-desktop/mate-system-monitor/commit/779f22e) Help - valori preimpostati prioritari, incluso il valore personalizzato
 * [12959ae](https://github.com/mate-desktop/mate-system-monitor/commit/12959ae) procman: evitata la deprecata 'g_settings_list_keys'
 * [b359baf](https://github.com/mate-desktop/mate-system-monitor/commit/b359baf) disabilitati i warning di deprecazione per distcheck
 * [b991397](https://github.com/mate-desktop/mate-system-monitor/commit/b991397) spostato appdata nella cartella metainfo
 * [8b1c92d](https://github.com/mate-desktop/mate-system-monitor/commit/8b1c92d) interface: evitata la deprecata gtk_menu_popup
-* [7ecf16d](https://github.com/mate-desktop/mate-system-monitor/commit/7ecf16d) evitato il warning di compilazione per g_type_class_add_private
+* [7ecf16d](https://github.com/mate-desktop/mate-system-monitor/commit/7ecf16d) evitato il warning in compilazione per g_type_class_add_private
 * [ad26a19](https://github.com/mate-desktop/mate-system-monitor/commit/ad26a19) Corretto un errore di grammatica e l'etichetta dell'interfaccia grafica
 * [3575449](https://github.com/mate-desktop/mate-system-monitor/commit/3575449) utilizzate funzioni make per HELP_LINGUAS
 * [515a338](https://github.com/mate-desktop/mate-system-monitor/commit/515a338) sincronizzazione con transifex
@@ -1768,7 +1768,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [36bcd30](https://github.com/mate-desktop/mate-system-monitor/commit/36bcd30) evitata la deprecata GtkStock
 * [386aac5](https://github.com/mate-desktop/mate-system-monitor/commit/386aac5) aggiunto il supporto a Travis-Cl
 * [5a0ab35](https://github.com/mate-desktop/mate-system-monitor/commit/5a0ab35) Aggiornato lo screenshot in Catalano
-* [b12ad42](https://github.com/mate-desktop/mate-system-monitor/commit/b12ad42)  Aiuto - valori preimpostati prioritari, incluso il valore personalizzato
+* [b12ad42](https://github.com/mate-desktop/mate-system-monitor/commit/b12ad42)  Help - valori preimpostati prioritari, incluso il valore personalizzato
 * [2bf87c9](https://github.com/mate-desktop/mate-system-monitor/commit/2bf87c9) disabilitati i warning di deprecazione per distcheck
 * [b78db67](https://github.com/mate-desktop/mate-system-monitor/commit/b78db67) spostato appdata nella cartella metainfo
 * [a0f01c5](https://github.com/mate-desktop/mate-system-monitor/commit/a0f01c5) Corretto un errore di grammatica e l'etichetta dell'interfaccia grafica
@@ -1828,7 +1828,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### mate-user-guide
 * [a1f2703](https://github.com/mate-desktop/mate-user-guide/commit/a1f2703) Corretta la versione a 1.22
 * [25ffe55](https://github.com/mate-desktop/mate-user-guide/commit/25ffe55) help: aggiornato il copyright
-* [ee873c2](https://github.com/mate-desktop/mate-user-guide/commit/ee873c2) Aggiornato il manuale a dockbook 5.0
+* [ee873c2](https://github.com/mate-desktop/mate-user-guide/commit/ee873c2) Aggiornato il manuale a docbook 5.0
 * [5377ea8](https://github.com/mate-desktop/mate-user-guide/commit/5377ea8) Abilitato Travis Cl per tutti i rami
 * [c5a6aa9](https://github.com/mate-desktop/mate-user-guide/commit/c5a6aa9) Inizializzato il supporto a Travis Cl
 * [8d2d856](https://github.com/mate-desktop/mate-user-guide/commit/8d2d856) ritradotta la lingua Turca
@@ -1888,7 +1888,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [72b3f44](https://github.com/mate-desktop/mate-user-guide/commit/72b3f44) Aggiunti gli screenshot in Catalano
 * [db82577](https://github.com/mate-desktop/mate-user-guide/commit/db82577) Corretto il titolo dell'illustrazione - barra di ricerca
 * [f2ff3cc](https://github.com/mate-desktop/mate-user-guide/commit/f2ff3cc) corretto LINGUAS
-* [787d11a](https://github.com/mate-desktop/mate-user-guide/commit/787d11a) user-guide-content: corretti un po' di errori di sintassi xml
+* [787d11a](https://github.com/mate-desktop/mate-user-guide/commit/787d11a) user-guide-content: corretti alcuni di errori di sintassi xml
 * [3b8dd88](https://github.com/mate-desktop/mate-user-guide/commit/3b8dd88) sincronizzazione con transifex
 * [3a78834](https://github.com/mate-desktop/mate-user-guide/commit/3a78834) transifex: aggiunto mate-user-guide-content
 * [446141e](https://github.com/mate-desktop/mate-user-guide/commit/446141e) transifex: impostata la percentuale_minima ed il tipo nel file di configurazione
@@ -1956,7 +1956,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### mozo
 * [ffe5e71](https://github.com/mate-desktop/mozo/commit/ffe5e71) Corretta la creazione di nuovi menù ed oggetti
 * [30caedb](https://github.com/mate-desktop/mozo/commit/30caedb) Corretto il movimento di un menù che corrompe il menù
-* desktop/mozo/commit/ae480e9) Corretta la voce di menù che non può essere spostata
+* [ae480e9](https://github.com/mate-desktop/mozo/commit/ae480e9) Corretta la voce di menù che non può essere spostata
 * [ae538cd](https://github.com/mate-desktop/mozo/commit/ae538cd) Abilitato Travis Cl per tutti i rami
 * [d8590dc](https://github.com/mate-desktop/mozo/commit/d8590dc) Inizializzato il supporto a Travis Cl
 * [2bb36d0](https://github.com/mate-desktop/mozo/commit/2bb36d0) disabilitati i warning di deprecazione per distcheck
@@ -1975,7 +1975,7 @@ Ecco tutti i dettagli raccapriccianti.
 ### pluma
 * [cfe2c64](https://github.com/mate-desktop/pluma/commit/cfe2c64) help: aggiornato il copyright
 * [396fe5a](https://github.com/mate-desktop/pluma/commit/396fe5a) Utilizzato ITS nell'info dell'articolo di docbook, convalidato con schemi dbits
-* [82638e2](https://github.com/mate-desktop/pluma/commit/82638e2) Aggiornato il manuale a dockbook 5.0
+* [82638e2](https://github.com/mate-desktop/pluma/commit/82638e2) Aggiornato il manuale a docbook 5.0
 * [fddace2](https://github.com/mate-desktop/pluma/commit/fddace2) Aggiunto lo script update-authors.pl che aiuta ad aggiornare pluma.about
 * [a56d506](https://github.com/mate-desktop/pluma/commit/a56d506) Leggere authors (aggiornato) dal file pluma.about
 * [e27a451](https://github.com/mate-desktop/pluma/commit/e27a451) mostrare la versione enchant quando si esegue configure
@@ -2005,7 +2005,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [50c3b34](https://github.com/mate-desktop/pluma/commit/50c3b34) corretti errori di ortografia e grammatica
 * [559328b](https://github.com/mate-desktop/pluma/commit/559328b) help: corretti i collegamenti di aiuto
 * [763cc8c](https://github.com/mate-desktop/pluma/commit/763cc8c) Utilizzato lo screenshot attuale di pluma per la lingua Catalana
-* [b6220de](https://github.com/mate-desktop/pluma/commit/b6220de)  Utilizzato lo screenshot di pluma corrente 
+* [b6220de](https://github.com/mate-desktop/pluma/commit/b6220de) Utilizzato lo screenshot di pluma corrente 
 * [ed8910b](https://github.com/mate-desktop/pluma/commit/ed8910b) corretti errori di ortografia e grammatica
 * [7e110fa](https://github.com/mate-desktop/pluma/commit/7e110fa) prefs-manager: silenziati alcuni warning di compilazione
 * [18eb46c](https://github.com/mate-desktop/pluma/commit/18eb46c) corretti alcuni warning di introspezione e di documentazione
@@ -2027,7 +2027,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [f952be3](https://github.com/mate-desktop/pluma/commit/f952be3) pluma-window: ci siamo assicurati che alcune risorse siano liberate
 * [98edfd3](https://github.com/mate-desktop/pluma/commit/98edfd3) aggiunta la possibilità di alternare le schede utilizzando [ctrl+tab] e [ctrl+shift+tab]
 * [9fa3649](https://github.com/mate-desktop/pluma/commit/9fa3649) pluma-view: corretto il font nel menù contestuale
-* [e451bfe](https://github.com/mate-desktop/pluma/commit/e451bfe) pluma-view: pluma_override_font: aggiunto il provider soltanto una volta
+* [e451bfe](https://github.com/mate-desktop/pluma/commit/e451bfe) pluma-view: pluma_override_font: aggiungere il provider soltanto una volta
 * [8f3b1d6](https://github.com/mate-desktop/pluma/commit/8f3b1d6) pluma-view: Correzione: i font grassetto e corsivo non funzionano
 * [c2dec6d](https://github.com/mate-desktop/pluma/commit/c2dec6d) sincronizzazione con transifex
 * [be05278](https://github.com/mate-desktop/pluma/commit/be05278) pluma-utils.c: evitata la deprecata 'gdk_error_trap_push/pop'
@@ -2078,7 +2078,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [2217a02](https://github.com/mate-desktop/pluma/commit/2217a02) evitata la deprecata GtkStock
 * [3309e0f](https://github.com/mate-desktop/pluma/commit/3309e0f) aggiunto il supporto a Travis-Cl
 * [edae22f](https://github.com/mate-desktop/pluma/commit/edae22f) mostrare la versione enchant quando si esegue configure
-* [433317a](https://github.com/mate-desktop/pluma/commit/433317a)  sostituita la deprecata enchant_dict_add_to_pwl con enchant_dict_add.
+* [433317a](https://github.com/mate-desktop/pluma/commit/433317a) sostituita la deprecata enchant_dict_add_to_pwl con enchant_dict_add.
 * [50a3efc](https://github.com/mate-desktop/pluma/commit/50a3efc) corretto l'errore della mancata compilazione su Archlinux
 * [e7c0390](https://github.com/mate-desktop/pluma/commit/e7c0390) rimossi tipo e url attr di ulink nella traduzione
 * [1e66176](https://github.com/mate-desktop/pluma/commit/1e66176) rimossa la sezione di aiuto deprecata: Aprire un file da un URI
@@ -2091,7 +2091,7 @@ Ecco tutti i dettagli raccapriccianti.
 * [fe12f7e](https://github.com/mate-desktop/pluma/commit/fe12f7e) rimossi gli screenshot inutilizzati
 * [f974363](https://github.com/mate-desktop/pluma/commit/f974363) corretti errori di ortografia e grammatica
 * [4bb323b](https://github.com/mate-desktop/pluma/commit/4bb323b) help: corretti i collegamenti di aiuto
-* [7339842](https://github.com/mate-desktop/pluma/commit/7339842) Utilizzato lo screenshot attuale di pluma per la lingua Catalana
+* [7339842](https://github.com/mate-desktop/pluma/commit/7339842) Utilizzato lo screenshot di pluma corrente per la lingua Catalana
 * [1823043](https://github.com/mate-desktop/pluma/commit/1823043) Utilizzato lo screenshot di pluma corrente 
 * [a8ac68d](https://github.com/mate-desktop/pluma/commit/a8ac68d) corretti errori di ortografia e grammatica
 * [efc1b02](https://github.com/mate-desktop/pluma/commit/efc1b02) pluma-view: alternanza delle schede in modo inaspettato

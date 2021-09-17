@@ -8,8 +8,7 @@
 .. author: Stefano Karapetsas
 -->
 
-Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un passo enorme in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito
-molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
+Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.
 
@@ -22,12 +21,12 @@ I principali cambiamenti nella versione 1.6 sono:
   * Aggiunto il supporto per `systemd-logind` in `mate-session-manager` e `mate-screensaver`
   e `mate-power-manager` (adesso si può riavviare/spegnere senza ConsoleKit)
 
-**Caja (file manager)**
+**Caja (gestore dei file)**
 
   * Migliorata la barra laterale delle posizioni
   * Aggiunto il supporto per nuove specifiche di miniaturizzazione
   * Aggiunta una nuova cornice per le miniature
-  * Gli sfondi adesso vengono caricati in cache per una migliore gestione della menoria
+  * Gli sfondi adesso vengono caricati in cache per una migliore gestione della memoria
   * Un nuovo dialogo per il server di connessione da Nautilus 3
   * Aggiunto il supporto per freedesktop.org
   * Interfaccia DBus del File Manager
@@ -36,11 +35,11 @@ I principali cambiamenti nella versione 1.6 sono:
 
 **Pannello**
 
-  * Aggiunta l'opzione `--run-dialog` per aprire la finestra di  dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
+  * Aggiunta l'opzione `--run-dialog` per aprire la finestra di dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
   usare il pulsante centrale del mouse per chiudere una finestra selettore di Spazio di lavoro:
   * Aggiunta una opzione per scorrere tra gli spazi di lavoro con la rotellina del mouse
   * Aggiunto un modo semplice per le distribuzioni per sovrascrivere il layout del pannello predefinito
-  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro layout di pannello attuale.
+  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro attuale layout del pannello .
   Tutte le altre impostazioni saranno portate se avete installato MateConf 1.4.
 
 **Marco (gestore delle finestre)**
@@ -50,9 +49,9 @@ I principali cambiamenti nella versione 1.6 sono:
 **Centro di controllo**
 
   * Aggiunta l'opzione per abilitare il gestore di compositing Marco e spostarsi rapidamente con alt-tab tra le preferenze della finestra
-  * Impostare il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione
-  * Utilizzare le stesse impostazioni proxy di GNOME del pacchetto `gsettings-desktop-schemas`
-  * Applicazioni predefinite: consentire di impostare il terminale predefinito
+  * Impostato il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione
+  * Utilizzate le stesse impostazioni proxy di GNOME del pacchetto `gsettings-desktop-schemas`
+  * Applicazioni predefinite: consente di impostare il terminale predefinito
 
 **Atril (visualizzatore di documenti)**
 
@@ -60,12 +59,12 @@ I principali cambiamenti nella versione 1.6 sono:
 
 **Calc**
 
-  * Aggiornato il codebase
+  * Aggiornato il codice base
   * Aggiunti i pulsanti per per il supporto delle funzioni trigonometriche inverse
 
 **Demone delle notifiche**
 
-  * Aggiunta l'opzione per [specificare su quale schermo ,mostrare le notifiche](/blog/2013-01-20-changes-to-mate-notification-daemon/)
+  * Aggiunta l'opzione per [specificare su quale schermo mostrare le notifiche](/blog/2013-01-20-changes-to-mate-notification-daemon/)
   * Mostrare sempre una notifica se lo schermo ha come timeout 'non spegnere mai' (anche se lo screensaver è attivo o o ci sono finestre a schermo pieno attive)
 
 **Temi**
@@ -83,7 +82,7 @@ I principali cambiamenti nella versione 1.6 sono:
 
 **Applet Netbook**
 
-  * Abilitare le prestazioni massime solo se l'applet del window picker è aggiunta al pannello
+  * Abilitato maximus solo se l'applet del window picker è aggiunta al pannello
 
 **Pacchetti eliminati**
 
@@ -98,9 +97,9 @@ I principali cambiamenti nella versione 1.6 sono:
     * `libmatecomponentui`
     * `mate-mime-data`
 
-**Altre migliorie**
+**Altri miglioramenti**
 
-  * Fissato molto codice deprecato
+  * Corretto molto codice deprecato
   * Eliminati molti bug
   * Aggiunte e migliorate molte traduzioni
 
@@ -126,7 +125,7 @@ e  svilupparlo ulteriormente. Mint e MATE vanno di pari passo e
 il rapporto tra i team è eccellente. Mint ha giocato un ruolo importante
 nella promozione e nel sostegno di MATE e continuiamo ad aiutare il suo
 sviluppo. Siamo molto soddisfatti di MATE, è esattamente quello che volevamo,
-ha iniziato dove GNOME ha lasciato e con ogni nuova iterazione continua a migliorare.
+ha iniziato da dove GNOME aveva lasciato e con ogni nuovo ciclo continua a migliorare.
 
 **Joos Ruis**, Consulente di strategia di  [Sabayon](https://www.sabayon.org/):
 
@@ -144,8 +143,7 @@ nuove versioni di Fedora, ora posso avere la mia Fedora 14 (considerata da molti
 essere la migliore release di Fedora) con finestre tremolanti, desktop
 cubico, animazioni ed effetti 3d. Non posso sottolineare quanto questa sia stata una grande perdita per molti utenti, incluso
 me stesso. Ora con MATE non devo preoccuparmi di cosa si romperà con
-la prossima release di Gnome e quali idee folli di design avranno
-costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
+la prossima release di Gnome e quali folli idee di design avranno, costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
 Con MATE 1.6 posso sentirmi a casa sulla mia distribuzione Linux preferita
 e tornare a lavorare.
 

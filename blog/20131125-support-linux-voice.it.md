@@ -15,7 +15,7 @@ Queste sono alcune delle ragioni del perché appoggiamo questo progetto:
   * È costituito dalla maggioranza della squadra editoriale della rivista Linux Format.
   * Il 50% dei proventi di Linux Voice torneranno al Free Software e alle comunità Linux.
   * I contenuti di Linux Voice saranno pubblicati gratis dopo 9 mesi sotto la licenza  [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
-  * Una delle squadre di Linux Voice ha l'interesse di coprire MATE se il loro progetto sarà finanziato con successo.
+  * Uno dei team di Linux Voice ha l'interesse di trattare MATE se il loro progetto sarà finanziato con successo.
 
 <div align="center"><a href="https://www.indiegogo.com/projects/linux-voice"><img src="/assets/img/blog/Linux012.png" alt="Linux Voice" title="Linux Voice" /><br />Supportate Linux Voice!</a></div>
 

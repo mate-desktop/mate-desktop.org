@@ -3,7 +3,7 @@
 .. description: 
 .. tags: News
 .. date: 2015/01/28 22:17:32
-.. title: Incontra la mente di MATE
+.. title: Incontrate la mente di MATE
 .. slug: 2015-01-28-meet-mates-mastermind
 .. author: Stefano Karapetsas
 -->
@@ -24,5 +24,5 @@ recensire le vostre [pull-requests su GitHub](https://github.com/mate-desktop).
 
 [Jupiter Broadcasting](https://www.jupiterbroadcasting.com) produce un certo numero di 
 videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
-potreste trovare qualcosa che vi può interessare.
+potreste trovare qualcosa che vi interessa.
 

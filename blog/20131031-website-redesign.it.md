@@ -8,7 +8,7 @@
 .. author: Martin Wimpress
 -->
 
-Abbiamo dato al sito web di MATE una rinfrescata e nel contempo d è stato portato da [Wordpress](https://www.wordpress.org) a [Nikola](https://getnikola.com).
+Abbiamo dato al sito web di MATE una rinfrescata e nel contempo è stato portato da [Wordpress](https://www.wordpress.org) a [Nikola](https://getnikola.com).
 
 Lo scopo principale del ritocco è creare un sito semplice ed elegante 
 che consenta di trovare velocemente le informazioni che si cercano.
@@ -30,7 +30,7 @@ Le pull-request relative a mate-desktop.org saranno revisionate dai nostri Webma
 Sfortunatamente, abbiamo deciso di non portare i commenti dal vecchio
 sito web. Da questo momento in avanti ogni nuovo post sul blog sarà linkato
 ad un argomento nei [forum di MATE]. Stiamo
-facendo questo perché abbiamo già un team dedicato di moderatori di forum]
-e non vogliamo sottrargli ulteriore tempo. che è già limitato, chiedendogli di moderare anche commenti blog su un provider di commenti di una terza parte. Inoltre
+facendo questo perché abbiamo già un [team dedicato di moderatori di forum]
+e non vogliamo sottrargli ulteriore tempo. che è già limitato, chiedendogli di moderare anche commenti blog su un provider di commenti da una 3° parte. Inoltre
 questo approccio 
 porterà più lettori sui forum di MATE e si spera possa aiutare a far crescere e sviluppare la comunità. Ci auguriamo che capiate la nostra decisione.

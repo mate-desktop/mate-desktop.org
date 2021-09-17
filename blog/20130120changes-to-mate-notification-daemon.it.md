@@ -12,7 +12,7 @@
 agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
 comportamento attuale mostrale notifiche solo sul monitor correntemente attivo (cioè quello su cui si trova il puntatore del mouse). Il comportamento sarà per default quello che si è sempre avuto in precedenza, ma l'utente può cambiare le impostazioni modificando le chiavi "use-active-monitor"
 e "monitor-number" mediante `dconf-editor` o eseguendo
-`mate-notification-properties` e modificando le impostazioni da una Inerfaccia Utente Grafica.
+`mate-notification-properties` e modificando le impostazioni da una Interfaccia Utente Grafica.
 
 Qui sotto c'è uno screenshot di `mate-notification-properties` impostato per mostrare le notifiche su un monitor attivo. Si noti che "Use Active Monitor" è selezionato, il che disabilita la combobox per selezionare un monitor.
 

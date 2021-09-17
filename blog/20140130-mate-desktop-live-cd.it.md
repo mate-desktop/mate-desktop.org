@@ -14,7 +14,7 @@ Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.
 
 Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
 in modo non distruttivo. L'immagine può essere masterizzata su un DVD,
-montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come `dd`. [Linux Luddites](https://luddites.latenightlinux.com/) fate attenzione,  `unetbootin` non è supportato. Potete scaricarlo qui sotto:
+montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come `dd`. [Linux Luddites](https://luddites.latenightlinux.com/) fate attenzione,  `unetbootin` non è supportato. Potete scaricarlo dal link qui sotto:
 
 ### download via BitTorrent (raccomandato)
 

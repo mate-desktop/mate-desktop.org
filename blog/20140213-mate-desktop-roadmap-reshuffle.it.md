@@ -7,7 +7,7 @@
 .. author: Martin Wimpress
 -->
 
-Qualche giorno fa [Stefano Karapetsas](https://github.com/stefano-k) ha posato
+Qualche giorno fa [Stefano Karapetsas](https://github.com/stefano-k) ha postato
 un annuncio sulla mailing list `mate-dev` sottolineando la decisione di rivedere
 la pianificazione del Desktop MATE.
 
@@ -20,7 +20,7 @@ wiki:
   * [MATE Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md)
 
 Questa decisione è stata presa perché la versione in sviluppo corrente è stabile,
-incorpora molte nuove funzionalità, migliorie e bug fixes. Vogliamo che tutto il *"buono"* &trade; giunga ai nostri utenti così che possano beneficiare dei
+incorpora molte nuove funzionalità, migliorie e bug fixes. Vogliamo che tutto il *"materiale buono"* &trade; giunga ai nostri utenti così che possano beneficiare dei
 progressi che abbiamo fatto prima.
 
 Potete leggere il post originale e seguire i commenti qui sotto:

@@ -10,7 +10,7 @@
 
 Il server che esegue questo sito web ieri è andato offline senza preavviso.
 Non sappiamo perché e non abbiamo ricevuto notizie dal server che ci ospita. **Abbiamo i backup completi, non è andato perso alcun dato.** Abbiamo iniziato il ripristino
-dei servizi e il servizio in sospeso sarà reintegrato tempo permettendo
+dei servizi e il servizio sospeso sarà reintegrato tempo permettendo
 durante il periodo festivo. 
 
 Aggiorneremo questa pagina quando i servizi torneranno ad essere online.

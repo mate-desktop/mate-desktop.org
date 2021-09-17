@@ -26,5 +26,5 @@ Questi sono i principali cambiamenti le migliorie di questa versione:
   * Artwork
     * I temi MATE sono stati rinominati per evitare conflitti con GNOME
     * È stato aggiunto un nuovo sfondo MATE
-    * MATE adesso possiede la sua personale icona
+    * MATE adesso possiede la sua icona personale
 

@@ -8,12 +8,12 @@
 .. author: Webmaster
 -->
 
-**È con dispiacere che vi informiamo che i forum del desktop MATE stanno chiudendo con effetto
+**È con dispiacere che vi informiamo che i forum del Desktop MATE stanno chiudendo con effetto
 immediato.**
 
 Per un certo tempo i moderatori dei forum hanno combattuto per tenere il passo della discussione, opponendosi allo spam
-e gestendo le nuove registrazioni. Inoltre gli amministratori del forum originale non partecipano più attivamente ai forum del desktop MATE. Pertanto è un dispiacere aver deciso di chiudere i forum del Desktop MATE
-e incoraggiamo chiunque cerchi supporto su MATE di rivolgersi ad uno dei seguenti forum specifici di una distribuzione:
+e gestendo le nuove registrazioni. Inoltre gli amministratori del forum originale non partecipano più attivamente ai forum del Desktop MATE. Pertanto è un dispiacere aver deciso di chiudere i forum del Desktop MATE
+e incoraggiamo chiunque cerchi supporto su MATE di rivolgersi ad uno dei seguenti forum specifici ad una distribuzione:
 
   * [Arch Linux Forum](https://bbs.archlinux.org/)
   * [Debian User Forums](http://forums.debian.net/)
@@ -38,4 +38,4 @@ Vorremmo ringraziare i moderatori dei forum del Desktop MATE, passati e presenti
 investito sui forum negli anni e speriamo che possano trovare ruoli di moderatore in qualcuna delle discussioni
 nei forum menzionati prima.
 
-Se qualcuno volesse assumersi l'amministrazione e la moderazione dei forum del Desktop MATE per favore contatti in chat il  [Team Desktop MATE](/team/) sul canale `#mate-dev` IRC e Matrix su Libera Chat. 
+Se qualcuno volesse assumersi l'amministrazione e la moderazione dei forum del Desktop MATE per favore contatti in chat il  [Team Desktop MATE](/team/) sul canale `#mate-dev` IRC e sul canale Matrix di Libera Chat. Potremmo potenzialmente riattivare i forum.

@@ -48,7 +48,7 @@ Sviluppo.
 
 
 
-## MATE Desktop founder
+## Fondatori del Desktop MATE 
 
 Ci piace riconoscere gli sforzi delle seguenti persone che
 hanno aiutato ad avviare MATE nei primi giorni di vita.
