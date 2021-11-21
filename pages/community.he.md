@@ -14,7 +14,7 @@
 
 ניתן למצוא המון חומר שימוש בוויקי שלנו אך אנו מעודדים אותך לסייע בשיפורו.
 
-  * <https://wiki.mate-desktop.org/#!index.md>
+  * <https://wiki.mate-desktop.org/>
 
 ## פורומים
 
@@ -32,7 +32,7 @@
 
 טיפוסים חברותיים?
 
-  * [פרופיל הטוויטר של MATE](https://twitter.com/mate_desktop) 
+  * [פרופיל הטוויטר של MATE](https://twitter.com/mate_desktop)
 
 ## IRC
 
@@ -40,8 +40,8 @@
 
   * [‎#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
-ישנם מגוון ערוצי IRC זמינים. ניתן למצוא את כל הפריטים
-ב[עמוד הוויקי שלנו על IRC](https://wiki.mate-desktop.org/#!pages/irc.md).
+ישנם מגוון ערוצי IRC זמינים. ניתן למצוא את כל הפרטים
+ב[עמוד הוויקי שלנו על IRC](https://wiki.mate-desktop.org/introduction/contributing/).
 
 ## פלאנט
 

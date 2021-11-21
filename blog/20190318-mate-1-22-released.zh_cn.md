@@ -29,7 +29,7 @@
 * **文本编辑器(pluma)** 中的标签现在可以通过键盘快捷键和鼠标滚动进行切换
 * **计算器** 现在可以支持高达15个字符的精度，复制/粘贴支持也有所改进。
 * **Engrama** 增加了对几种新压缩格式的支持，以及新的暂停/重新启动功能。
-* 添加了一些新的快捷键，包括支持不同类型的多媒体键，如蓝牙、WiFi、触摸板和全局 Killswitch 等。
+* 添加了一些新的**快捷键**，包括支持不同类型的多媒体键，如蓝牙、WiFi、触摸板和全局 Killswitch 等。
 * 一系列内部管理任务已被处理：
     * 我们的大多数项目现在已经从 [dbus-glib](https://developer.gnome.org/dbus-glib/unstable/) 迁移到了 [GDBus](https://developer.gnome.org/gio/stable/gdbus-convenience.html)。
     * 通过修复内存泄漏和编译警告，我们已经改善了许多项目的稳定性。
