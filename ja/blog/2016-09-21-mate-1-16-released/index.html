@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.16 released | MATE</title>
+<title>MATE 1.16 リリース | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -38,14 +38,12 @@
 <link rel="prev" href="../2016-07-28-mate-forums-are-closing/" title="MATE デスクトップ・ディスカッションフォーラムが終了します" type="text/html">
 <link rel="next" href="../2016-12-22-server-outage/" title="サーバの障害" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.16 released">
+<meta property="og:title" content="MATE 1.16 リリース">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/">
-<meta property="og:description" content="私たちのチームは、MATE デスクトップ 1.6 のリリースを発表できることを誇りに思います。
-このリリースは、1.4 リリースからの大きな前進です。このリリースでは、多くの非推奨のパッケージとライブラリを GLib で利用可能な新しいテクノロジーに置き換えました。また、MATE に多くの新機能を追加しました。
-すべての MATE 寄稿者とユーザーに感謝します。
+<meta property="og:description" content="6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。
 
-1.6 での主な変更点:
-sys">
+MATE 1.16 での主な変更点:
+今回のリリースでは、GTK3+ の互換性の向上、新しいライブラリへのコンポーネントの移行、バグの修正、コードのクリーン化に重点が置かれています">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2016-09-21T21:00:00Z">
 <meta property="article:tag" content="Releases">
@@ -99,7 +97,7 @@ sys">
 <a href="../../install/" class="nav-link">インストール</a>
                 </li>
 <li class="nav-item">
-<a href="../../gallery/1.26/english/" class="nav-link">スクリーンショット</a>
+<a href="../../gallery/1.26/japanese/" class="nav-link">スクリーンショット</a>
                 </li>
 <li class="nav-item">
 <a href="../../development/" class="nav-link">ソフトウェア開発</a>
@@ -140,7 +138,7 @@ sys">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.16&nbsp;released</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.16&nbsp;リリース</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -162,144 +160,343 @@ sys">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>私たちのチームは、<span class="caps">MATE</span> デスクトップ 1.6 のリリースを発表できることを誇りに思います。
-このリリースは、1.4 リリースからの大きな前進です。このリリースでは、多くの非推奨のパッケージとライブラリを GLib で利用可能な新しいテクノロジーに置き換えました。また、<span class="caps">MATE</span> に多くの新機能を追加しました。
-すべての <span class="caps">MATE</span>&nbsp;寄稿者とユーザーに感謝します。</p>
-<p><img alt="MATE 1.6 について" src="../../../assets/img/blog/about-mate-1.6.png"></p>
-<p>1.6&nbsp;での主な変更点:</p>
-<p><strong>systemd と logind&nbsp;のサポート</strong></p>
+<p>6 ヶ月の開発期間を経て、<span class="caps">MATE</span> デスクトップチームは <span class="caps">MATE</span> デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての <span class="caps">MATE</span>&nbsp;貢献者の方々に感謝します。</p>
+<p><img alt="about" src="../../../assets/img/blog/about-mate-1.16.png"></p>
+<h3><span class="caps">MATE</span> 1.16&nbsp;での主な変更点:</h3>
+<p>今回のリリースでは、<span class="caps">GTK3</span>+ の互換性の向上、新しいライブラリへのコンポーネントの移行、バグの修正、コードのクリーン化に重点が置かれています。<span class="caps">MATE</span> デスクトップ 1.16&nbsp;の主要項目の変更点は次の通りです。</p>
 <ul>
-<li>「<code>mate-session-manager</code>」と「<code>mate-screensaver</code>」に「<code>systemd-logind</code>」のサポートを追加しました
-  および&nbsp;「<code>mate-power-manager</code>」にも追加しました（ConsoleKit&nbsp;なしで再起動/シャットダウンできるようになりました） </li>
-</ul>
-<p><strong>Caja&nbsp;(ファイルマネージャ)</strong></p>
-<ul>
-<li>場所のサイドバーを改善しました</li>
-<li>新しいサムネイル仕様のサポートを追加しました</li>
-<li>サムネイル用の新しいフレームを追加しました</li>
-<li>メモリ管理の改善のため壁紙がキャッシュされます</li>
-<li>Nautilus3&nbsp;からの新しいサーバー接続ダイアログが表示</li>
-<li>freedesktop.org&nbsp;のサポートを追加しました</li>
-<li>ファイルマネージャの DBus&nbsp;インターフェース</li>
-<li>親ディレクトリの選択の修正を戻しました</li>
-<li>「ターミナルを開く」拡張で、リモート端末を開くことをサポートしました</li>
-</ul>
-<p><strong>パネル</strong></p>
-<ul>
-<li>実行ダイアログウィンドウの「ウィンドウ一覧」を開く「<code>--run-dialog</code>」オプションを追加しました:&nbsp;マウスの中ボタンをクリックして、ウィンドウのワークスペーススイッチャーを閉じれます: </li>
-<li>マウスホイールでワークスペース間を折り返すオプションを追加しました</li>
-<li>ディストリビューションがデフォルトのパネルレイアウトを上書きする簡単な方法を追加しました
-  残念ながら、GSettings への移行により、現在のパネルレイアウトは失われます。
-  MateConf 1.4&nbsp;がインストールされている場合は、他のすべての設定が移行されます。</li>
-</ul>
-<p><strong> Marco&nbsp;(ウィンドウマネージャ)</strong></p>
-<ul>
-<li>画面中央に新しいウィンドウを開くオプションを追加しました</li>
-</ul>
-<p><strong>コントロールセンター</strong></p>
-<ul>
-<li>Marco コンポジットマネージャとウィンドウ設定で高速 alt-tab&nbsp;を有効にするオプションを追加しました</li>
-<li>compiz または metacity が実行されている場合は、GSettings/GConf metacity&nbsp;テーマを設定します</li>
-<li>「<code>gsettings-desktop-schemas</code>」パッケージと同じ <span class="caps">GNOME</span>&nbsp;プロキシ設定を使います</li>
-<li>デフォルトのアプリケーション:&nbsp;デフォルトの端末を設定します</li>
-</ul>
-<p><strong>Atril&nbsp;(ドキュメントビューア)</strong></p>
-<ul>
-<li><span class="caps">XPS</span>&nbsp;バックエンドを追加しました</li>
-</ul>
-<p><strong>Calc&nbsp;電卓</strong></p>
-<ul>
-<li>コードベースを更新しました</li>
-<li>逆三角関数をサポートするボタンを追加しました</li>
-</ul>
-<p><strong>通知&nbsp;デーモン</strong></p>
-<ul>
-<li>
-<a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/">通知を表示する画面を指定する</a>&nbsp;オプションを追加しました</li>
-<li>タイムアウトとして「期限切れにならない」がある場合は、常に通知を表示します（スクリーンセーバーが有効であるか、有効な全画面のウィンドウがある場合も）</li>
-</ul>
-<p><strong>テーマ</strong></p>
-<ul>
-<li>
-<a href="../../../blog/2013-03-26-new-themes/">新しい <span class="caps">GTK2</span>/3 テーマ</a> (Menta, BlackMATE, GreenLaguna,&nbsp;TraditionalGreen)</li>
-<li>他の <span class="caps">GTK2</span> テーマに <span class="caps">GTK3</span> のサポートを追加しました (TraditionalOk, TraditionalOkTest,&nbsp;ContrastHigh) </li>
-<li>テキストファイルのテキストプレビューを有効にしました</li>
-<li>いくつかの新しいアイコンを追加しました</li>
-</ul>
-<p><strong>設定&nbsp;デーモン</strong></p>
-<ul>
-<li>メディアキーをメディアプレーヤーに送信するための <span class="caps">MPRIS2</span>&nbsp;のサポートを追加しました</li>
-<li>Caja&nbsp;が有効でない場合に背景を描画するオプションを追加しました</li>
-<li>デーモンがクラッシュした場合、デーモンは「<code>mate-session</code>」で再起動されます</li>
-</ul>
-<p><strong>Netbook&nbsp;アプレット</strong></p>
-<ul>
-<li>ウィンドウ ピッカー&nbsp;アプレットがパネルに追加された場合にのみ最大値を有効にします</li>
-</ul>
-<p><strong>廃止されたパッケージ</strong></p>
-<ul>
-<li>MateConf を GSettings&nbsp;に置き換えました</li>
-<li>MateCorba/MateComponent を DBus&nbsp;に置き換えました</li>
-<li>MateVfs を <span class="caps">GIO</span>/<span class="caps">GVFS</span>&nbsp;に置き換えました</li>
-<li>「<code>libmatenotify</code>」を「<code>libnotify</code>」に置き換えました</li>
-<li>「<code>libmate</code>」を削除しました（mate-open を gvfs-open に置き換え、GSettings schemas を mate-desktop&nbsp;パッケージに移動しました</li>
-<li>非推奨のパッケージを削除しました<ul>
-<li>「<code>libmateui</code>」</li>
-<li>「<code>libmatecanvas</code>」</li>
-<li>「<code>libmatecomponentui</code>」</li>
-<li>「<code>mate-mime-data</code>」</li>
+<li><span class="caps">MATE</span> デスクトップ全体で <span class="caps">GTK</span>+3&nbsp;のサポートが向上。</li>
+<li>アプリケーションとテーマの <span class="caps">GTK</span>+ 3.22&nbsp;サポート。</li>
+<li>多くのアプリケーションが <span class="caps">GTK</span>+3 のみのビルドに対応<ul>
+<li>Engrampa&nbsp;書庫マネージャ</li>
+<li><span class="caps">MATE</span>&nbsp;通知デーモン</li>
+<li><span class="caps">MATE</span>&nbsp;PolKit</li>
+<li><span class="caps">MATE</span>&nbsp;セッションマネージャ</li>
+<li><span class="caps">MATE</span>&nbsp;端末</li>
 </ul>
 </li>
+<li>一部のアプリケーションは <code>libmate-desktop</code> から切り離されました。<ul>
+<li>Engrampa&nbsp;書庫マネージャ</li>
+<li><span class="caps">MATE</span>&nbsp;アプレット</li>
+<li><span class="caps">MATE</span>&nbsp;ネットブック</li>
+<li><span class="caps">MATE</span>&nbsp;電源管理</li>
+<li><span class="caps">MATE</span>&nbsp;端末</li>
+<li>Pluma&nbsp;テキストエディタ</li>
 </ul>
-<p><strong>その他の改善</strong></p>
-<ul>
-<li>多くのコードの非推奨を修正しました</li>
-<li>多くの不具合を修正しました</li>
-<li>多くの翻訳を追加および改善しました</li>
+</li>
+<li>アプリケーションを GApplication または GtkApplication に移植する作業を開始しました。<ul>
+<li>Engrampa&nbsp;書庫マネージャ</li>
+<li><span class="caps">MATE</span>&nbsp;アプレット</li>
+<li><span class="caps">MATE</span>&nbsp;ネットブック</li>
+<li><span class="caps">MATE</span>&nbsp;ユーザー共有</li>
 </ul>
-<p><span class="caps">MATE</span> を出荷するディストリビューションの人々に、&nbsp;デスクトップ環境についてどう思うか尋ねました。</p>
-<p><strong>George Vlahavas</strong>, <a href="https://www.salixos.org/">Salix</a>&nbsp;の創設者兼プロジェクトリーダー:</p>
-<blockquote>
-<p><span class="caps">MATE</span> は Salix にぴったりだと思います。 <span class="caps">MATE</span> は、パワフルで堅牢かつ高速な使い慣れたデスクトップ環境を提供します。
-また、<span class="caps">MATE</span> チームはとてもフレンドリーで、一緒に仕事をすることを楽しみにしています。これは私たちにとって大きな意味があります。&nbsp;お気に入りのデスクトップの選択肢を与えてくれてありがとう</p>
-</blockquote>
-<p><strong>Clement Lefebvre</strong>, <a href="https://www.linuxmint.com/">Linux Mint</a>&nbsp;の創設者兼プロジェクトリーダー:</p>
-<blockquote>
-<p>人々が自分のコンピューターに満足していることは私たちにとって非常に重要です。
-私たち全員が愛し、改善に努めたその環境が2006年が廃止されて以来、廃止されたとき、私たちはそれを手放し、人々に新しいものや別の何かに移行するように頼むことに満足していませんでした。
-私たちは、ユーザーが自分のコンピューターを思い通りに使い続けることができるように真剣に取り組み、その環境をサポートし、さらに発展させるために率先して取り組んできた志を同じくする人々のチームに会いました。 Mint と <span class="caps">MATE</span> は密接に関係しており、チーム間の関係は良好です。
-Mint は、<span class="caps">MATE</span> のプロモーションと支援において重要な役割を果たしており、私たちは <span class="caps">MATE</span> の開発を引き続き支援しています。私たちは <span class="caps">MATE</span> に非常に満足しています、それはまさに私たちが望んでいたものです、
-それは <span class="caps">GNOME</span>&nbsp;が中断したところから始まり、新しい反復ごとに改善され続けています。</p>
-</blockquote>
-<p><strong>Joost Ruis</strong>, <a href="https://www.sabayon.org/">Sabayon</a>&nbsp;の戦略コンサルタント:</p>
-<blockquote>
-<p>アップストリームがユーザーに変更を強制するやり方は好きではなく、ユーザが何を使用するかを決定できるようにしたいのです。
-<span class="caps">MATE</span>&nbsp;のリポジトリを使うことで、ユーザーはいつでも自分に最適なものを選択できると確信しています。</p>
-</blockquote>
-<p><strong>Dan Mashal</strong>, <a href="https://fedoraproject.org/">Fedora</a> の <span class="caps">MATE</span>&nbsp;のメンテナ:</p>
-<blockquote>
-<p>Fedora 15 のリリースがリリースされて以来、<span class="caps">MATE</span> を見つけるまで、私はデスクトップの使用感に非常に不満を感じていました。
-現在 Fedora で、私はついに、正常で、安定していて、速くて、そして最も重要なことに使いやすいデスクトップを持つことができています。
-Fedora のチームが新しいリリースで動作するように compiz にパッチを適用する努力により、Fedora 14 が使えるようになりました。
-（ほとんどの人がFedora の最高のリリースであると考えています）ぐらついたウィンドウ、デスクトップキューブ、アニメーション、3D 効果を体験してください。これが私を含む多くのユーザーにとってどれほど大きな損失であったかを強調することはできません。
-<span class="caps">MATE</span> を使うことで、次の <span class="caps">GNOME</span> リリースで何が失われるのか、Fedora のリリースごとにデスクトップインターフェイスを再学習する必要があるという奇抜なデザインのアイデアについて心配する必要はありません。
-<span class="caps">MATE</span> 1.6 を使うことで、お気に入りの 慣れた Linux&nbsp;ディストリビューションに戻って仕事ができます。</p>
-</blockquote>
-<p>また、<a href="../../../blog/2012-12-27-thank-you-first-colo/"><span class="caps">MATE</span> サービスをホストするサーバーを寄付した会社</a> にもコメントをお願いしました。
-<strong>Martin Verges</strong>, <a href="https://www.first-colo.net/en/">FirstColo GmbH</a> の&nbsp;<span class="caps">CEO</span>:</p>
-<blockquote>
-<p>MATEデスクトップ環境を使用できて本当にうれしいです。
-このようにして、無駄で気を散らすものをたくさん使わずに、クリーンでうまく機能するデスクトップを維持できます。
-2012年の終わりまで、私たちの会社全体が Ubuntu の Unity デスクトップを使用していました。
-そして他の多くの「エンドユーザー機能」で、私たちは私たちの生活を楽にするフリーソフトウェアのデスクトップを手に入れるための新しい方法を探していました。
-Debian 7 Wheezy 上の <span class="caps">MATE</span> デスクトップを使うことで、何年にもわたって私たちが知っているとおりに機能する、優れた機能を備えた高性能デスクトップを見つけました。
-<span class="caps">MATE</span> チームが従来の Linux デスクトップを維持し、新しい機能を備えながら、優れたワークフローを手にした新しい生活をもたらすことを願っています。
-これまでのところ、彼らは素晴らしい仕事をしており、Debian メンテナがまもなく <span class="caps">MATE</span> デスクトップをミラーに追加することを願っています。
-（そしてもちろん、他の多くの人が <span class="caps">MATE</span>&nbsp;を使います！）。 </p>
-</blockquote>
-<p><span class="caps">MATE</span> 1.6&nbsp;は、8か月にわたる集中的な開発の結果であり、39人による1800の寄稿と、150人を超える翻訳者が参加しました。</p>
+</li>
+<li>多数のバグと非推奨事項が修正されています。</li>
+<li>翻訳が更新されました。<em>翻訳者のチームに感謝します！</em>
+</li>
+</ul>
+<p><span class="caps">MATE</span> デスクトップ 1.16&nbsp;の各種コンポーネントは、次の場所からダウンロードできます。</p>
 <ul>
-<li><a href="../../../gallery/1.6/"><span class="caps">MATE</span> 1.6&nbsp;のスクリーンショット画像</a></li>
+<li><a href="https://pub.mate-desktop.org/releases/1.16/">https://pub.mate-desktop.org/releases/1.16/</a></li>
+</ul>
+<h3>Changelog&nbsp;変更点</h3>
+<p>変更点の詳細は以下のとおりです。</p>
+<h4>mate-common</h4>
+<ul>
+<li>
+<code>mate-autogen</code> では、<code>autoconf</code>、<code>automake</code> のように <code>autoreconf</code> だけをチェック
+    <code>libtool</code>、<code>gettext</code> は <code>autoreconf</code> ですでにチェックされています。</li>
+</ul>
+<h4>mate-desktop</h4>
+<ul>
+<li>mate-bg: 不要な ignore-pending-change プロパティを削除 (Caja 1.14&nbsp;でのフォント色修正によって不要)</li>
+<li><span class="caps">GTK</span>+3:&nbsp;各種の非推奨事項を修正</li>
+<li>distcheck: 現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを明示的に使用</li>
+<li>わずかなクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>libmatekbd</h4>
+<ul>
+<li>libxklavier5.2&nbsp;を要求し、そのイントロスペクションを使用</li>
+<li><span class="caps">GTK</span>+3:&nbsp;一部の非推奨事項を修正</li>
+<li>distcheck: 現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを明示的に使用</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>libmatemixer</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4>libmateweather お天気&nbsp;<span class="caps">MATE</span></h4>
+<ul>
+<li>場所: エクアドル、キトーの <span class="caps">ICAO</span>&nbsp;コードを更新</li>
+<li>場所: ミンスク空港 (コード <span class="caps">UMMS</span>)&nbsp;の正しい時間帯に訂正</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-icon-theme</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4>Caja&nbsp;ファイルマネージャ</h4>
+<ul>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>Pathbar:&nbsp;常に右矢印ボタンを表示</li>
+<li>アイコンの異なるタブ間で切り替えた時、タスクバーアイコンが変わる問題を修正</li>
+<li>
+<code>libcaja-extension</code> の文書ビルド時での多くの警告を修正</li>
+<li><span class="caps">GTK</span>+3: pathbar&nbsp;の要素にスタイルクラスを追加</li>
+<li><span class="caps">GTK</span>+3: fix 描画とデスクトップ背景の変更&nbsp;&gt;=3.21</li>
+<li><span class="caps">GTK</span>+3:&nbsp;多量の非推奨事項を修正</li>
+<li><strong>その他の改善</strong></li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-polkit</h4>
+<ul>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+ &gt;= 3.14 が必要)、<span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルオプションを削除</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Marco&nbsp;ウィンドウマネージャ</h4>
+<ul>
+<li>翻訳の更新</li>
+<li>distcheck は現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを使用</li>
+</ul>
+<h4>mate-settings-daemon</h4>
+<ul>
+<li>既定のヒントスタイルを <code>hintslight</code> へ変更</li>
+<li>既定では &#8216;rgba&#8217; (<span class="caps">LCD</span> サブピクセル)&nbsp;アンチエイリアスを使用</li>
+<li><span class="caps">GTK</span>+3: ハードコードされた色を使用する代わりに、<span class="caps">OSD</span> (MsdOsdWindow) に css&nbsp;のテーマを追加</li>
+<li><span class="caps">GTK</span>+3: fix 描画とデスクトップ背景の変更&nbsp;&gt;=3.21</li>
+<li><span class="caps">GTK</span>+3:&nbsp;複数の非推奨事項を修正</li>
+<li>一部のビルド警告を修正</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;セッションマネージャ</h4>
+<ul>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+ &gt;= 3.14 が必要)、<span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルオプションを削除</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;メニュー</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;パネル</h4>
+<ul>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li><span class="caps">GTK</span>+3: プロパティダイアログで GtkColorButton/GtkColorChooser&nbsp;を使用</li>
+<li><span class="caps">GTK</span>+3:&nbsp;多数の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-backgrounds&nbsp;背景</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;テーマ</h4>
+<ul>
+<li><span class="caps">GTK</span>+3.20 および 3.22&nbsp;の包括的なサポート</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;通知デーモン</h4>
+<ul>
+<li>Build: 他のプロジェクトと同様に、m4&nbsp;マクロには <code>macros</code> ではなく <code>m4</code> ディレクトリを使用</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+ &gt;= 3.14 が必要)、<span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルオプションを削除</li>
+<li>GNotification&nbsp;のサポートを追加</li>
+<li>特殊文字のエスケープを修正</li>
+<li><span class="caps">GTK</span>+&nbsp;のさまざまな非推奨事項を修正</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-control-center&nbsp;コントロールセンタ</h4>
+<ul>
+<li>Build: dconf 0.10&nbsp;との互換性を削除</li>
+<li>外観: 既定のヒントスタイルを slight&nbsp;に変更し、そのスタイルを使用してアンチエイリアスサンプルをレンダリング</li>
+<li>外観:&nbsp;RGBAアンチエイリアスを使用してヒントサンプルをレンダリング</li>
+<li>外観: <span class="caps">GTK</span>+2 のときと一致するように、テーマ名を <span class="caps">GTK</span>+3&nbsp;ビルドのテーマプレビューの下に配置</li>
+<li>外観: <span class="caps">GTK</span>+2 のときと一致するように、テーマ名を <span class="caps">GTK</span>+3&nbsp;ビルドで中央に配置</li>
+<li>外観: <span class="caps">GTK</span>+3 ビルドではカスタマイズのテーマダイアログで色タブを非表示にします。テーマ色の変更は <span class="caps">GTK</span>+3&nbsp;では機能しません。</li>
+<li><span class="caps">GTK</span>+3: appindicator&nbsp;サポートを有効にしてビルドを修正</li>
+<li><span class="caps">GTK</span>+3: glib2.49.6&nbsp;でディスプレイのプロパティにモニタを表示するよう修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;各種の非推奨事項を修正</li>
+<li>一部のコードをクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-screensaver&nbsp;スクリーンセーバ</h4>
+<ul>
+<li>スクリーンセーバーが既にアクティブになっているときのロックを修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;マルチモニタ設定で背景とロックを修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;複数の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+<li>distcheck は現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを使用</li>
+</ul>
+<h4>mate-media</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-power-manager <span class="caps">MATE</span>&nbsp;電源管理</h4>
+<ul>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>
+<code>libmate-desktop</code> への依存関係を削除</li>
+<li>プライマリデバイスの残り時間をコンテキストメニューの最初のエントリとして表示</li>
+<li>ノートパソコンのバッテリが空の場合は、コンソールに警告を非表示</li>
+<li><span class="caps">GTK</span>+3: libunique を GtkApplication&nbsp;へ移植</li>
+<li><span class="caps">GTK</span>+3: <span class="caps">OSD</span> (MsdOsdWindow) 用の css&nbsp;テーマを追加</li>
+<li><span class="caps">GTK</span>+3:&nbsp;システムにバッテリがない場合の、トレイの空きスペースを修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;多数の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+<li>distcheck は現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを使用</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;システムモニタ</h4>
+<ul>
+<li>翻訳の更新</li>
+</ul>
+<h4>Atril&nbsp;文書ビューア</h4>
+<ul>
+<li>Build: Poppler 0.18.0&nbsp;が必要</li>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>
+<code>libmate-desktop</code> と <code>--without-matedesktop</code> ビルドオプションへの依存関係を削除</li>
+<li>
+<code>libegg</code> から <code>toolbar-editor</code> を更新</li>
+<li>synctex を 1.18&nbsp;へ更新</li>
+<li>デュアルモードオプションを、左側に奇数ページと偶数ページのデュアルモードに分割して表示</li>
+<li>前後の検索結果に Ctrl+Up/Down&nbsp;キーバインドを追加</li>
+<li>
+<code>caja-sendto</code> サポートを追加して、現在の文書を電子メールでリムーバブルデバイスなどに送信可能にしました。</li>
+<li>
+<code>--named-dest</code> コマンドライン引数と dbus&nbsp;サポートで、名前付き宛先のサポートを改善</li>
+<li>[dvi]&nbsp;t1フォントのマッピングファイルを使用</li>
+<li><span class="caps">GTK</span>+3: スタイルクラスを view&nbsp;へ追加</li>
+<li><span class="caps">GTK</span>+3:&nbsp;イントロスペクション有効時にビルドがクラッシュする問題を修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;多数の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Caja&nbsp;拡張機能</h4>
+<ul>
+<li>open-terminal:<ul>
+<li>名前に一重または二重引用符を使用して、リモートフォルダの端末を開く際の問題を修正</li>
+<li>一部のコードをクリーンアップ</li>
+</ul>
+</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Engrampa&nbsp;書庫マネージャ</h4>
+<ul>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+ &gt;= 3.14 が必要)、<span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルオプションを削除</li>
+<li>GtkApplication&nbsp;へ移植</li>
+<li>ファイル名の並び替え時には自然な順序を使用</li>
+<li>カスタムコードの代わりに <span class="caps">GTK</span>+ の App Chooser ダイアログを使用して &#8220;Open With&#8221;&nbsp;コマンドを実行</li>
+<li>パスワードが指定されていない場合、&#8221;encrypt header&#8221;&nbsp;オプションを区別しません。</li>
+<li><span class="caps">RAR</span> アーカイブを処理する時、p7zip よりも unrar&nbsp;を優先</li>
+<li>7z: p7zip-rar &gt;=15.14&nbsp;のサポートを追加</li>
+<li>7z: &#8216;@&#8217;&nbsp;の接頭辞が付いたファイルに関する問題を修正</li>
+<li><span class="caps">GTK</span>+&nbsp;の一部の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Eye of <span class="caps">MATE</span>&nbsp;画像ビューア</h4>
+<ul>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>エラーメッセージ領域で発生する可能性がある、範囲外の書き込みを修正</li>
+<li>一部のクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;アプレット</h4>
+<ul>
+<li>Build: polkit 0.97&nbsp;が必要</li>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>Netspeed: GtkColorButton/GtkColorChooser&nbsp;の使用</li>
+<li>
+<code>libmate-desktop</code> への依存関係を削除</li>
+<li><span class="caps">GTK</span>+3:&nbsp;各種の非推奨事項を修正</li>
+<li>一部のコードをクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;インジケーターアプレット</h4>
+<ul>
+<li>Build:&nbsp;新しいスタイルのインジケータサポートの修正チェック</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;ネットブック</h4>
+<ul>
+<li>Window Picker&nbsp;アプレット: <code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>Window Picker アプレット:&nbsp;クラッシュの可能性を防止</li>
+<li>mate-maximus: libunique から GApplication&nbsp;へ移植</li>
+<li>
+<code>libmate-desktop</code> への依存関係を削除</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;センサーアプレット</h4>
+<ul>
+<li>distcheck は現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを使用</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;端末</h4>
+<ul>
+<li><span class="caps">GTK</span>+3 へ移行、<span class="caps">GTK</span>+ 3.14 と <span class="caps">VTE</span> 0.38 (<span class="caps">API2</span>.91)&nbsp;が必要</li>
+<li><span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルドオプションを削除</li>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>
+<code>libmate-desktop</code> から dconf と gsettings&nbsp;ヘルパーをコピーし、<code>libmate-desktop</code> への依存関係を削除</li>
+<li>X11 でのみ <span class="caps">WM</span>&nbsp;の変更に対応</li>
+<li>多数の <span class="caps">GTK</span>+&nbsp;依存関係を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4><span class="caps">MATE</span>&nbsp;ユーザー共有</h4>
+<ul>
+<li>Build: 他のプロジェクトと同様に、m4&nbsp;マクロには <code>m4</code> ディレクトリを使用</li>
+<li><span class="caps">GTK</span>+3: libunique を GtkApplication&nbsp;へ移植</li>
+<li>distcheck は現在選択されている <span class="caps">GTK</span>+&nbsp;バージョンを使用</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-polkit</h4>
+<ul>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+ &gt;= 3.14 が必要)、<span class="caps">GTK</span>+2&nbsp;のコードと <code>--with-gtk</code> ビルオプションを削除</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>mate-utils</h4>
+<ul>
+<li>コマンドラインのオプション <code>--version</code> を <code>mate-screenshot</code> へ追加</li>
+<li><span class="caps">GTK</span>+3: &gt;= 3.21 での <span class="caps">MATE</span>&nbsp;辞書のセグメンテーションエラーを修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;すべてのアプリケーションで、多数の非推奨事項を修正</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Mozo&nbsp;メニューエディタ</h4>
+<ul>
+<li>プロパティと削除のボタンを追加</li>
+<li>ドラッグ＆ドロップに関する複数の問題を修正</li>
+<li>
+<code>.desktop</code> ファイル名にスラッシュを含むとき、クラッシュする問題を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>Pluma&nbsp;テキストエディタ</h4>
+<ul>
+<li>
+<code>MateAboutDialog()</code> の代わりに <code>GtkAboutDialog()</code> を使用</li>
+<li>
+<code>libmate-desktop</code> と <code>--without-matedesktop</code> ビルドオプションへの依存関係を削除</li>
+<li><span class="caps">GTK</span>+3:&nbsp;多数の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
+</ul>
+<h4>caja-dropbox</h4>
+<ul>
+<li>一部のコードをクリーンアップ</li>
+</ul>
+<h4>python-caja</h4>
+<ul>
+<li>例: 背景画像の拡張機能ロード時に Caja&nbsp;がクラッシュする問題を修正</li>
+<li>例:&nbsp;各種の修正</li>
+<li>翻訳の更新</li>
 </ul>
 </div>
     </div>
@@ -350,7 +547,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

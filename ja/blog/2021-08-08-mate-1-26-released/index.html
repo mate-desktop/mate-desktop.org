@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.26 released | MATE</title>
+<title>MATE 1.26 を公開しました | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -35,11 +35,14 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Johannes Unruh">
-<link rel="prev" href="../2020-02-10-mate-1-24-released/" title="MATE 1.24 リリース" type="text/html">
+<link rel="prev" href="../2020-02-10-mate-1-24-released/" title="MATE 1.24 を公開しました" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.26 released">
+<meta property="og:title" content="MATE 1.26 を公開しました">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2021-08-08-mate-1-26-released/">
-<meta property="og:description" content="This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release MATE 1.26. A big thank you to all contributors who helped to make this hap">
+<meta property="og:description" content="今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。
+
+MATE 1.26 で新しくなったこと
+今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2021-08-10T09:00:00Z">
 <meta property="article:tag" content="Releases">
@@ -93,7 +96,7 @@
 <a href="../../install/" class="nav-link">インストール</a>
                 </li>
 <li class="nav-item">
-<a href="../../gallery/1.26/english/" class="nav-link">スクリーンショット</a>
+<a href="../../gallery/1.26/japanese/" class="nav-link">スクリーンショット</a>
                 </li>
 <li class="nav-item">
 <a href="../../development/" class="nav-link">ソフトウェア開発</a>
@@ -134,7 +137,7 @@
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.26&nbsp;released</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.26&nbsp;を公開しました</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -148,462 +151,472 @@
 
         </div>
         
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">他の言語で読む:</h3>
+                <p><a href="../../../blog/2021-08-08-mate-1-26-released/" rel="alternate" hreflang="en">English</a></p>
+                <p><a href="../../../it/blog/2021-08-08-mate-1-26-released/" rel="alternate" hreflang="it">Italiano</a></p>
+        </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release <span class="caps">MATE</span> 1.26. A big thank you to all contributors who helped to make this&nbsp;happen.</p>
-<p><img alt="MATE About dialog" src="../../../assets/img/blog/about-mate-1.26.png"></p>
-<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.26</h3>
-<p>The theme for this release has been adding new functionality to the <span class="caps">MATE</span> Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the&nbsp;performance.</p>
-<p>The headline changes in <span class="caps">MATE</span> Desktop 1.26&nbsp;are:</p>
+<p>今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、<span class="caps">MATE</span> 1.26&nbsp;がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。</p>
+<p><img alt="MATE About dialog" src="../../../assets/img/blog/about-mate-1.26.ja.png"></p>
+<h3><span class="caps">MATE</span> 1.26&nbsp;で新しくなったこと</h3>
+<p>今回のリリースの課題は、<span class="caps">MATE</span>&nbsp;デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。</p>
+<p><span class="caps">MATE</span> デスクトップ 1.26&nbsp;の主な変更点は次のとおりです。</p>
 <ul>
-<li>We added <a href="https://wayland.freedesktop.org/">Wayland</a> support for Atril, System Monitor, Pluma, Terminal and other components of the Desktop. Furthermore Calculator and Terminal can now be built with <a href="https://mesonbuild.com/">Meson</a>.</li>
+<li>私たちは、<a href="https://wayland.freedesktop.org/">Wayland</a>では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は <a href="https://mesonbuild.com/">Meson</a>&nbsp;でビルドできるようになりました。</li>
 <li>
-<strong>Pluma</strong> was subject to massive improvements.<ul>
-<li>There is a <strong>new mini map</strong> which gives you instant overview over the&nbsp;content.</li>
-<li>The <strong>new grid background pattern</strong> turns Pluma into a writing&nbsp;pad.</li>
-<li>The sort plugin now supports undo&nbsp;actions.</li>
-<li>We added a show/hide line-numbers shortcut, namely <kbd>Ctrl</kbd> + <kbd>Y</kbd>.</li>
-<li>The preferences dialog needed a redesign to catch up with all the new&nbsp;features.</li>
+<strong>Pluma</strong> は大幅に改善されました。<ul>
+<li>コンテンツの概要を即時に確認できる<strong>新しいミニマップ</strong>があります。</li>
+<li>
+<strong>新しいグリッド背景パターン</strong>によって、Pluma&nbsp;が手書きパッドへと変わります。</li>
+<li>検索プラグインは「元に戻す操作」をサポートするようになりました。</li>
+<li>行番号の表示/非表示のショートカット <kbd>Ctrl</kbd> + <kbd>Y</kbd> を追加しました。</li>
+<li>設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。</li>
 </ul>
 </li>
-<li>Together with the brand new <strong>Pluma Plugins</strong> our text editor <strong>can be turned into a feature-rich <span class="caps">IDE</span></strong> with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Word completion</em>.</li>
-<li>The <strong>Control Center</strong> features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display&nbsp;scaling.</li>
-<li>Notifications became even more useful as they gained support for hyperlinks. And we finally <strong>added a Do not Disturb applet</strong>.</li>
-<li>Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional window thumbnails are now <strong>crisp and clear as they are rendered as cairo surfaces</strong>.</li>
-<li>The Netspeed applet shows more information by default and gained <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;support.</li>
-<li>The <strong>Calculator</strong> was ported to the <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).<ul>
-<li>We finally <strong>added a history to show recent computations</strong>.</li>
-<li>Calculator is now resizeable when the history is&nbsp;activated.</li>
-<li>Vastly improved integer factorization&nbsp;speed.</li>
-<li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability).</li>
+<li>新しい<strong>Pluma プラグイン</strong>と共に、<strong>テキストエディタは <em>ブラケット補完</em>、<em>Comment/Uncommentコード</em>、<em>ビルトイン端末</em>、および<em>単語補完</em>をサポートする機能豊富な <span class="caps">IDE</span></strong>&nbsp;にすることができます。</li>
+<li>
+<strong>コントロールセンタ</strong>では、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。</li>
+<li>通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、<strong>「Do not Disturb」アプレット</strong>が追加されました。</li>
+<li>アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは <strong>cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました</strong>。</li>
+<li>ネットスピード・アプレットはデフォルトで詳細情報を表示し、<a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;をサポートします。</li>
+<li>
+<strong>電卓</strong>は <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。<ul>
+<li>私たちはついに<strong>最近の計算を示す履歴を追加しました</strong>。</li>
+<li>履歴がアクティブな時、電卓のサイズを変更できるようになりました。</li>
+<li>整数の因数分解速度が大幅に向上しました。</li>
+<li>モジュール式演算評価が大幅に高速化（モジュール式指数機能）。</li>
 </ul>
 </li>
-<li>In the file manager <strong>Caja</strong> you can select <strong>a new Bookmarks sidebar</strong>. Caja gained <strong>support for formatting drives</strong> from the context menu. The <strong>Caja Actions</strong> extension which allows you to add arbitrary programs to be launched through the context menu is now part of the&nbsp;Desktop.</li>
-<li>Scrolling through large documents in <strong>Atril</strong> is a lot faster now since a slow linear search has been replaced by a binary tree search. The document viewer&#8217;s <strong>memory footprint got even smaller</strong> as a EvWebView is now only created if&nbsp;needed.</li>
-<li>The window manager <strong>Marco</strong> now restores minimized windows to its original position more&nbsp;reliable.</li>
+<li>ファイルマネージャ <strong>Caja</strong> では、<strong>新しいブックマークサイドバー</strong>を選択できます。Caja は、コンテキストメニューで<strong>ドライブの初期化をサポート</strong>します。コンテキストメニューから起動して任意のプログラムが追加可能な、<strong>Caja Actions</strong>&nbsp;拡張機能がデスクトップの一部になりました。</li>
 <li>
-<strong>Engrampa</strong> got support for Electronic Publication (<span class="caps">EPUB</span>) and <span class="caps">ARC</span> archives. In addition it can now open encrypted <span class="caps">RAR</span>&nbsp;archives.</li>
-<li>The <strong>Power Manager</strong> has a new option to enable keyboard dimming and has been ported to <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>.</li>
-<li>Most About dialogs have been updated with nicer descriptions. Because small things&nbsp;matter <code>:-)</code>.</li>
-<li>We fixed a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop&nbsp;components.</li>
-<li>There is a new <a href="https://wiki.mate-desktop.org/">Wiki</a> which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to <a href="https://wiki.mate-desktop.org/introduction/contributing/">contact us</a> or <a href="https://wiki.mate-desktop.org/introduction/contributing/">start contributing</a>.</li>
-<li>Translations are updated. Thank you to our team of&nbsp;translators!</li>
+<strong>Atril</strong> では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアの<strong>メモリフットプリントはさらに小さくなりました</strong>。</li>
+<li>ウィンドウマネージャ <strong>Marco</strong>&nbsp;は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。</li>
+<li>
+<strong>Engrampa</strong> は電子書籍 (<span class="caps">EPUB</span>) と <span class="caps">ARC</span> アーカイブをサポートするようになりました。さらに、暗号化された <span class="caps">RAR</span>&nbsp;アーカイブを開くことができるようになりました。</li>
+<li>
+<strong>電源管理</strong>にはキーボードの調光を有効にする新しいオプションがあります。これは <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>&nbsp;へ移植されています。</li>
+<li>多くの About&nbsp;という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 <code>:-)</code> です。</li>
+<li>私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。</li>
+<li>新しい <a href="https://wiki.mate-desktop.org/">Wiki</a> が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、<a href="https://wiki.mate-desktop.org/introduction/contributing/">連絡を取る</a>ことや<a href="https://wiki.mate-desktop.org/introduction/contributing/">貢献を開始する</a>ことを遠慮せずにお願いします。</li>
+<li>翻訳が更新されました。翻訳チームのみなさんに感謝します！</li>
 </ul>
-<p>The various components of <span class="caps">MATE</span> Desktop 1.26 are available for download&nbsp;here:</p>
+<p><span class="caps">MATE</span> デスクトップ 1.26&nbsp;の各種コンポーネントは、次の場所からダウンロードできます。</p>
 <ul>
 <li><a href="https://pub.mate-desktop.org/releases/1.26/">https://pub.mate-desktop.org/releases/1.26/</a></li>
 </ul>
-<h3>More&nbsp;details</h3>
-<p>Here are the gory&nbsp;details.</p>
-<h4>atril</h4>
+<h3>詳細情報</h3>
+<p>詳細は以下のとおりです。</p>
+<h4>Atril&nbsp;文書ビューア</h4>
 <ul>
-<li>Completely rewritten Help (make sure to visit the new synctex section if you write a lot of TeX&nbsp;files)</li>
-<li>ev-window.c: Only create a EvWebView if&nbsp;needed</li>
-<li>ev-sidebar-links: Optimize reverse link lookup for a page (the very slow linear search for links in the sidebar has been replaced by a search in a specalized binary&nbsp;tree)</li>
-<li>Add Wayland&nbsp;support</li>
-<li>Make sure attachments window fills entire&nbsp;sidebar</li>
-<li>Make synctex&nbsp;optional</li>
-<li>Fix segfault on empty&nbsp;navMap</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>ヘルプは完全に書き直されました (TeX ファイルを大量に作成する場合は、必ず新しい synctex&nbsp;のセクションを参照してください)</li>
+<li>ev-window.c: EvWebView&nbsp;は必要な場合のみ作成されます</li>
+<li>ev-sidebar-links: ページの逆リンク検索を最適化&nbsp;(サイドバーのリンクの非常に低速な線形検索が、特別なバイナリツリー内の検索に置き換えられました)</li>
+<li>Wayland&nbsp;のサポートを追加</li>
+<li>添付ウィンドウがサイドバー全体に表示されるようにしました</li>
+<li>synctex&nbsp;のオプション化</li>
+<li>空の navMap&nbsp;のセグメンテーション・エラーを修正</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
-<h4>caja</h4>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
+<h4>Caja&nbsp;ファイルマネージャ</h4>
 <ul>
-<li>You can now add information of the creation time in the list&nbsp;columns</li>
-<li>Add a setting to block lock icons position on the&nbsp;desktop</li>
-<li>Improved filesystem check on Drag and&nbsp;Drop</li>
-<li>You can now format drive in&nbsp;caja</li>
-<li>fm-properties-window: Make the location of system folders&nbsp;portable</li>
-<li>Middle-clicking the reload button duplicates&nbsp;tab</li>
-<li>Create links by default on dnd from Web&nbsp;Browsers</li>
-<li>Add a &#8220;Bookmarks&#8221; sidebar to&nbsp;Caja</li>
-<li>Support an&nbsp;explicit <code>--select</code> command line&nbsp;option</li>
-<li>Confirm before deleting during an undo&nbsp;operation</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>作成時刻の情報をリストの列に追加できるようになりました。</li>
+<li>デスクトップ上でアイコンのロック位置をブロックする設定を追加</li>
+<li>ドラッグ＆ドロップ時のファイルシステムのチェック機能向上</li>
+<li>Caja&nbsp;を使ってドライブの初期化が可能になりました。</li>
+<li>fm-properties-window:&nbsp;システムフォルダの場所をポータブルに</li>
+<li>再ロードボタンを中クリックするとタブを複製します</li>
+<li>デフォルトでウェブブラウザからのリンクを作成</li>
+<li>Caja&nbsp;のサイドバーへ「ブックマーク」を追加</li>
+<li>明示的な <code>--select</code> コマンドラインオプションをサポート</li>
+<li>元に戻す操作で削除する前に確認</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
 <h4>caja-actions</h4>
 <ul>
-<li>Makes its first appearance in this&nbsp;release</li>
-<li>i18n: Migrate from intltools to&nbsp;gettext</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>今回のリリースで初登場です。</li>
+<li>i18n: intltools から gettext&nbsp;へ移行</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
 <h4>caja-dropbox</h4>
 <ul>
-<li>Add i18n&nbsp;support</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>i18n&nbsp;のサポートを追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
 <h4>caja-extensions</h4>
 <ul>
-<li>gksu: do not run the command on a new&nbsp;thread</li>
-<li>Require gtk+ 3.22 in glade&nbsp;files</li>
-<li>sendto: Fix evolution command for sending an&nbsp;email</li>
-<li>image-converter: rewrite caja-image-rotate.ui from&nbsp;scratch</li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>gksu:&nbsp;新しいスレッドでコマンドを実行しません</li>
+<li>glade ファイルで gtk+ 3.22&nbsp;が必要</li>
+<li>sendto: E メール送信用の evolution&nbsp;コマンドを修正</li>
+<li>image-converter: caja-image-rotate.ui&nbsp;をすべて書き直し</li>
+<li>複数のメモリリークを修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-extensions/commits/master/">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
-<h4>engrampa</h4>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-extensions/commits/master/">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
+<h4>Engrampa&nbsp;書庫マネージャ</h4>
 <ul>
-<li>rar 6.00: Fix listing archive content with encrypted file&nbsp;list</li>
-<li>Add Electronic Publication (<span class="caps">EPUB</span>)&nbsp;support</li>
-<li>Add <span class="caps">ARC</span> archive&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>rar 6.00:&nbsp;アーカイブファイルの内容リストを暗号化ファイルリストに修正</li>
+<li>電子書籍 (<span class="caps">EPUB</span>)&nbsp;のサポートを追加</li>
+<li><span class="caps">ARC</span>&nbsp;アーカイブのサポートを追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/engrampa/commits/master/">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
-<h4>eom</h4>
+<p>完全な変更点は次にあります：<a href="https://github.com/mate-desktop/engrampa/commits/master/">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
+<h4>eom&nbsp;画像ビューア</h4>
 <ul>
-<li>Upgrade ui&nbsp;files</li>
-<li>Ensure scrollbar moves when dragged to move&nbsp;image</li>
-<li>Add tab scrolling support for dialog&nbsp;windows</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>ui&nbsp;ファイルのアップグレード</li>
+<li>画像を移動するためにドラッグした時スクロールバーが確実に移動するようにしました</li>
+<li>ダイアログウィンドウでのタブスクロールのサポートを追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/eom/commits/master/">https://github.com/mate-desktop/eom/commits/master/</a></p>
+<p>完全な変更点は、<a href="https://github.com/mate-desktop/eom/commits/master/">https://github.com/mate-desktop/eom/commits/master/</a>&nbsp;に掲載しています。</p>
 <h4>libmatekbd</h4>
 <ul>
-<li>Reduce the font size of the key names on keyboard layout&nbsp;display</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>キーボードレイアウト表示のキー名のフォントサイズを小さくしました。</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatekbd/commits/master/">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatekbd/commits/master/">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
 <h4>libmatemixer</h4>
 <ul>
-<li>alsa: Add udev&nbsp;support</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>alsa: udev&nbsp;サポートの追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatemixer/commits/master/">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
-<h4>libmateweather</h4>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatemixer/commits/master/">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
+<h4>libmateweather お天気&nbsp;<span class="caps">MATE</span></h4>
 <ul>
-<li>Drop Berlin&nbsp;Tegel</li>
-<li>Add 2 brazil&nbsp;cities</li>
-<li>Update cities in&nbsp;Thailand</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>ベルリン・テーゲル空港を外しました。</li>
+<li>ブラジルの 2&nbsp;都市を追加</li>
+<li>タイの都市を更新</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmateweather/commits/master/">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
-<h4>marco</h4>
+<p>完全な変更点は次のとおりです <a href="https://github.com/mate-desktop/libmateweather/commits/master/">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
+<h4>Marco&nbsp;ウィンドウマネージャ</h4>
 <ul>
-<li>window: Add support for&nbsp;_GNOME_WM_STRUT_AREA</li>
-<li>screen: Add support for&nbsp;_GTK_WORKAREAS_Dn</li>
-<li>window: Do not render shadows on left/right tiled&nbsp;windows</li>
-<li>iconcache: Use GDesktopAppInfo to find correct application&nbsp;icons</li>
-<li>window: Track window rectangle before corner&nbsp;tiling</li>
-<li>window: Track window rectangle before&nbsp;tiling</li>
-<li>Added <span class="caps">VI</span> keys (hjkl) for moving and resizing&nbsp;windows</li>
-<li>window: Expand tile size cycling&nbsp;support</li>
-<li>In the pop-up workspace switcher, show the selected&nbsp;workspace</li>
-<li>Improve meson build&nbsp;script</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>window: _GNOME_WM_STRUT_AREA&nbsp;のサポートを追加</li>
+<li>screen: _GTK_WORKAREAS_Dn&nbsp;のサポートを追加</li>
+<li>window:&nbsp;左右に並べて表示されたウィンドウにシャドウをレンダリングしません。</li>
+<li>iconcache: GDesktopAppInfo&nbsp;を使用して正しいアプリケーションアイコンを検索します。</li>
+<li>window:&nbsp;コーナータイリングの前にウィンドウの矩形を追跡</li>
+<li>window:&nbsp;タイリング前のウィンドウの矩形を追跡</li>
+<li>ウィンドウの移動やサイズ変更するための <span class="caps">VI</span> キー (hjkl)&nbsp;を追加</li>
+<li>window:&nbsp;タイルサイズの循環サポートを拡張</li>
+<li>ポップアップワークスペーススイッチャで、選択したワークスペースを表示</li>
+<li>meson&nbsp;のビルドスクリプトの改善</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
-<h4>mate-applets</h4>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
+<h4>mate-applets <span class="caps">MATE</span>&nbsp;アプレット</h4>
 <ul>
-<li>netspeed: Allow to select an interface which is&nbsp;down</li>
-<li>netspeed: Show all ipv6 addresses in device details&nbsp;dialog</li>
-<li>netspeed: Show all <span class="caps">IP</span> addresses on tooltip if&nbsp;enabled</li>
-<li>multiload: Use bit rate in netload&nbsp;graph</li>
-<li>multiload: Increase refresh rate range&nbsp;setting</li>
-<li>battstat: Rewrite preference dialog from&nbsp;scratch</li>
-<li>multiload: Display the percentage used accurately on&nbsp;tooltip</li>
-<li>netspeed: Use <span class="caps">IEC</span> units for transfer&nbsp;rates</li>
-<li>netspeed: Add netlink&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>netspeed:&nbsp;ダウンしているインターフェイスを選択できます。</li>
+<li>netspeed: デバイスの詳細ダイアログにすべての IPv6&nbsp;アドレスを表示</li>
+<li>netspeed: 有効な場合、すべての <span class="caps">IP</span>&nbsp;アドレスをツールヒントに表示</li>
+<li>multiload:&nbsp;ネットロードのグラフでビットレートを使用</li>
+<li>multiload:&nbsp;リフレッシュレートの範囲設定を拡大</li>
+<li>battstat:&nbsp;設定ダイアログを最初から書き直し</li>
+<li>multiload:&nbsp;ツールヒントに使用率を正しく表示</li>
+<li>netspeed: 転送速度に <span class="caps">IEC</span>&nbsp;単位を使用</li>
+<li>netspeed: netlink&nbsp;サポートの追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
-<h4>mate-backgrounds</h4>
+<p>完全な changelog は次にあります： <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
+<h4>mate-backgrounds&nbsp;背景</h4>
 <ul>
-<li>New &#8216;Something slowly gets clear&#8217; elephants&nbsp;wallpaper</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>新しい &#8216;Something slowly gets clear&#8217;&nbsp;というゾウの壁紙</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
-<h4>mate-calc</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
+<h4>mate-calc&nbsp;電卓</h4>
 <ul>
-<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;Library</li>
-<li>Add an optional history to show recent&nbsp;calculations</li>
-<li>With keyboard shortcuts to navigate through history&nbsp;(Alt+Up)/(Alt+Down)</li>
-<li>Make Calculator resizeable when history is&nbsp;activated</li>
-<li>Show exponents in prime&nbsp;factorization</li>
-<li>Vastly improve prime factorization&nbsp;speed</li>
-<li>To factorize integers bigger than 2^64 the Miller-Rabin primality test and Pollard&#8217;s rho algorithm are&nbsp;used</li>
-<li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability)</li>
-<li>Add riemann zeta function, gauss error function, factorial function for real&nbsp;numbers</li>
-<li>Add meson build&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li><span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;ライブラリへ移植</li>
+<li>オプションを追加して、最近の計算履歴を表示</li>
+<li>キーボードショートカットを使用して履歴をナビゲート&nbsp;(Alt+Up)/(Alt+Down)</li>
+<li>履歴がアクティブな時、電卓のサイズが変更可能に</li>
+<li>素因数分解の指数を表示</li>
+<li>素因数分解の速度が大幅に向上</li>
+<li>2^64 より大きい整数を因数分解するには、Miller-Rabin primarity test と Pollard&#8217;s rho&nbsp;アルゴリズムを使用します。</li>
+<li>モジュラー演算の評価を大幅に高速化&nbsp;(モジュラーの指数計算能力)</li>
+<li>実数にリーマンゼータ関数、ガウス誤差関数、階乗関数を追加</li>
+<li>meson&nbsp;ビルドサポートの追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-calc/commits/master/">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-calc/commits/master/">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
 <h4>mate-common</h4>
 <ul>
-<li>g10n: Update the&nbsp;translations</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-common/commits/master/">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
-<h4>mate-control-center</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-common/commits/master/">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
+<h4>mate-control-center&nbsp;コントロールセンタ</h4>
 <ul>
-<li>windows-applet: New Show window border in Alt-Tab and Allow top tiling (Window-Snapping)&nbsp;option</li>
-<li>windows-applet: New compositing manager&nbsp;tab</li>
-<li>windows-applet: New titlebar layout option &#8220;left (with menu)&#8221; and &#8220;right&#8221; (without&nbsp;menu)</li>
-<li>Windows with client site decorations now respect the titlebar&nbsp;layout</li>
-<li>Fix preview in add wallpaper&nbsp;dialog</li>
-<li>Add file chooser options in the appearance dialogs interface section (the file chooser is the window that opens when opening or saving a&nbsp;file)</li>
-<li>Migrate some components from dbus-glib to&nbsp;GDBus</li>
-<li>Support tab-scrolling for the window and appearance&nbsp;dialog</li>
-<li>The Display applet gained an option for display&nbsp;scaling</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>windows-applet: 新しく、Alt-Tab&nbsp;でウィンドウの境界表示と、トップタイリング（ウィンドウスナップ）許可のオプションを追加</li>
+<li>windows-applet:&nbsp;新しいコンポジットマネージャ・タブ</li>
+<li>windows-applet: 新しいタイトルバーレイアウトオプション &#8220;left (メニューあり)&#8221; および &#8220;right&nbsp;(メニューなし)&#8221;</li>
+<li>クライアントサイト装飾を含むウィンドウでは、タイトルバーのレイアウトが考慮されるようになりました。</li>
+<li>壁紙の追加ダイアログのプレビューを修正</li>
+<li>外観ダイアログのインタフェース項目に、ファイル選択オプションを追加&nbsp;(ファイル選択は、ファイル開示や保存時に開くウィンドウです)。</li>
+<li>dbus-glib から GDBus&nbsp;へ移行</li>
+<li>ウィンドウと外観ダイアログのタブスクロールをサポート</li>
+<li>表示アプレットには、表示スケーリングに関するオプションが追加されました。</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
 <h4>mate-desktop</h4>
 <ul>
-<li>a11y-keyboard: Add capslock-beep-enable&nbsp;gsetting</li>
-<li>Set range for thumbnail cache&nbsp;maximum-age</li>
-<li>Remove GTimeVal deprecation warning for GLib&nbsp;2.61.2+</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>a11y-keyboard: capslock-beep-enable gsetting&nbsp;の追加</li>
+<li>サムネイルキャッシュの最大期間を設定します。</li>
+<li>GLib 2.61.2+ の GTimeVal&nbsp;非推奨警告を削除</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
 <h4>mate-icon-theme</h4>
 <ul>
-<li>Remove the execution bit from some png&nbsp;files</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>一部の png&nbsp;ファイルから実行ビットを削除します。</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
 <h4>mate-indicator-applet</h4>
 <ul>
-<li>applet-main: Replace GtkStock&nbsp;icon</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>applet-main: GtkStock&nbsp;アイコンの置き換え</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
 <h4>mate-media</h4>
 <ul>
-<li>Replace mute/unmute checkmenuitem with&nbsp;imagemenuitem</li>
-<li>panel-applet: Ensure speaker can be shown alongside or above&nbsp;mic</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>ミュート/ミュート解除の checkmenuitem を imagemenuitem&nbsp;へ置き換え</li>
+<li>panel-applet:&nbsp;スピーカーがマイクの横か上に表示されるようにします。</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
-<h4>mate-menus</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
+<h4>mate-menus <span class="caps">MATE</span>&nbsp;メニュー</h4>
 <ul>
-<li>Add collection menu&nbsp;item</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>コレクション・メニューの追加</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-menus/commits/master/">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
-<h4>mate-netbook</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-menus/commits/master/">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
+<h4>mate-netbook <span class="caps">MATE</span>&nbsp;ネットブック</h4>
 <ul>
-<li>mate-window: Replace GtkStock&nbsp;icons</li>
-<li>mate-maximus-autostart.desktop: Remove the deprecated Encoding&nbsp;key</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-window: GtkStock&nbsp;アイコンの置き換え</li>
+<li>mate-maximus-autostart.desktop:&nbsp;非推奨のエンコード・キーを削除</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-netbook/commits/master/">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
-<h4>mate-notification-daemon</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-netbook/commits/master/">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;通知デーモン</h4>
 <ul>
-<li>Add Do Not Disturb&nbsp;Applet</li>
-<li>Add initial Wayland&nbsp;backend</li>
-<li>Add support for hyperlinks in the body of a&nbsp;notification</li>
-<li>Rewrite mate-notification-properties.ui from&nbsp;scratch</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Do Not Disturb&nbsp;アプレットの追加</li>
+<li>最初の Wayland&nbsp;バックエンドを追加</li>
+<li>通知の本文にハイパーリンクのサポートを追加</li>
+<li>mate-notification-properties.ui&nbsp;を最初から書き直し</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
-<h4>mate-panel</h4>
+<p>完全な changelog は次にあります: at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
+<h4>mate-panel <span class="caps">MATE</span>&nbsp;パネル</h4>
 <ul>
-<li>workspace-switcher: Support xmonad&nbsp;<span class="caps">WM</span></li>
-<li>Make Recent Documents list in Places menu of configurable&nbsp;length</li>
-<li>Add window list disable mouse scrolling&nbsp;option</li>
-<li>Add text label display support for notification&nbsp;area</li>
-<li>window-list: Render thumbnails as cairo&nbsp;surfaces</li>
-<li>Drop background&nbsp;compositing</li>
-<li>Window list Wayland&nbsp;support</li>
-<li>Redesign preferences dialog for window-list&nbsp;applet</li>
-<li>Fix adding applications launchers to panel when using the Add to Panel&nbsp;dialog</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>workspace-switcher: xmonad <span class="caps">WM</span>&nbsp;をサポート</li>
+<li>場所メニューの最近使用した文書一覧を設定可能な長さにします。</li>
+<li>ウィンドウリストにマウススクロールオプションの無効を追加</li>
+<li>通知領域にテキストラベルの表示サポートを追加</li>
+<li>window-list: サムネイルを cairo&nbsp;サーフェスとしてレンダリング</li>
+<li>背景のコンポジットをなくしました。</li>
+<li>ウィンドウ一覧の Wayland&nbsp;サポート</li>
+<li>ウィンドウリストアプレットの設定ダイアログを再設計</li>
+<li>パネルに追加ダイアログを使用する時、アプリケーションランチャーのパネル追加の問題を修正</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
 <h4>mate-polkit</h4>
 <ul>
-<li>g10n: Update the&nbsp;translations</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-polkit/commits/master/">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
-<h4>mate-power-manager</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-polkit/commits/master/">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
+<h4>mate-power-manager <span class="caps">MATE</span>&nbsp;電源管理</h4>
 <ul>
-<li>mate-power-preferences: Add option to enable keyboard&nbsp;dimming</li>
-<li>Switch default from libgnome-keyring to&nbsp;libsecret</li>
-<li>brightness applet: Prevent sliding from bogging down the&nbsp;<span class="caps">UI</span></li>
-<li>Port from EggDebug to the built-in GLib logging&nbsp;framework</li>
-<li>Rewrite gpm-prefs.ui from&nbsp;scratch</li>
-<li>Remove the <span class="caps">CPU</span> wakeups&nbsp;feature</li>
-<li>Add some missing <span class="caps">SVG</span>&nbsp;files</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-power-preferences:&nbsp;キーボードの調光を有効にするオプションの追加</li>
+<li>デフォルトを libgnome-keyring から libsecret&nbsp;へ切り替え</li>
+<li>明るさの調整アプレット: スライドが <span class="caps">UI</span>&nbsp;を下に圧迫しないようにしました。</li>
+<li>EggDebug  から GLib&nbsp;の組み込みロギング・フレームワークへの移植</li>
+<li>gpm-prefs.ui&nbsp;を最初から書き換え</li>
+<li><span class="caps">CPU</span>&nbsp;ウェイクアップ機能の削除</li>
+<li>不足していた <span class="caps">SVG</span>&nbsp;ファイルを追加</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
-<h4>mate-screensaver</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
+<h4>mate-screensaver&nbsp;スクリーンセーバ</h4>
 <ul>
-<li>Allow change of time and date formats on lock&nbsp;screen</li>
-<li>Add Show/Hide password emblem in password&nbsp;entry</li>
-<li>mate-screensaver-preferences: Show lock image preview on file&nbsp;chooser</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>ロック画面で日時の書式を変更できるようにしました。</li>
+<li>パスワード入力時にパスワードエンブレムの表示/非表示を追加</li>
+<li>mate-screensaver-preferences:&nbsp;ファイル選択ダイアログにロック画像のプレビューを表示</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>複数のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
-<h4>mate-sensors-applet</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
+<h4>mate-sensors-applet&nbsp;センサーアプレット</h4>
 <ul>
-<li>Drop aticonfig&nbsp;plugin</li>
-<li>sonypi-plugin.c: Make sonypi plugin portable to&nbsp;<span class="caps">GNU</span>/Hurd</li>
-<li>libsensors-plugin: Port to&nbsp;GRegex</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>aticonfig&nbsp;プラグインの削除</li>
+<li>sonypi-plugin.c: sonypi プラグインの <span class="caps">GNU</span>/Hurd&nbsp;への移植性を向上</li>
+<li>libsensors-plugin: GRegex&nbsp;へ移植</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
-<h4>mate-session-manager</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;セッションマネージャ</h4>
 <ul>
-<li>Follow freedesktop guidelines to disable autorun using Hidden&nbsp;key</li>
-<li>Support xscreensaver when mate-screensaver is not&nbsp;available</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>Accept Desktop Entry Specification&nbsp;v1.1</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix a memory&nbsp;leak</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>freedesktop&nbsp;のガイドラインに従って、隠しキーを使用した自動実行を無効にします。</li>
+<li>mate-screensaver が使用できない場合、xscreensaver&nbsp;をサポートします。</li>
+<li><span class="caps">GTK3</span>&nbsp;でのタブスクロールのサポートを追加</li>
+<li>デスクトップエントリ仕様 1.1&nbsp;版を受け入れ</li>
+<li>Clang Static Analyzer、Cppcheck、および <span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>メモリリークの修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
 <h4>mate-settings-daemon</h4>
 <ul>
-<li>xsettings: Improve Qt HiDPI environment&nbsp;settings</li>
-<li>a11y-keyboard: Add support for togglekeys-backend&nbsp;setting</li>
-<li>Add option &#8212;without-libatspi and assorted status&nbsp;line</li>
-<li>a11y-keyboard: Add support for ringing the bell when CapsLock is&nbsp;active</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix two memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>xsettings: Qt HiDPI&nbsp;環境設定の改善</li>
+<li>a11y-keyboard: togglekeys-backend&nbsp;設定のサポートを追加</li>
+<li>&#8212;without-libatspi&nbsp;オプションと色々なステータス行を追加</li>
+<li>a11y-keyboard: CapsLock&nbsp;が有効な時にベルを鳴らすサポートを追加</li>
+<li>Clang Static Analyzer や Cppcheck、<span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>2&nbsp;個のメモリリークを修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
-<h4>mate-system-monitor</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;システムモニタ</h4>
 <ul>
-<li>Add Wayland&nbsp;support</li>
-<li>Port to&nbsp;GtkApplication</li>
-<li>pretty-table: Prefer <span class="caps">GIO</span> to get application&nbsp;icons</li>
-<li>Added support for actions on multiple&nbsp;processes</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Wayland&nbsp;のサポート追加</li>
+<li>GtkApplication&nbsp;へ移植</li>
+<li>pretty-table: アプリケーションアイコンの取得に <span class="caps">GIO</span>&nbsp;を優先</li>
+<li>複数のプロセスに対するアクションサポートの追加</li>
+<li>Clang Static Analyzer や Cppcheck、<span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
-<h4>mate-terminal</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;端末</h4>
 <ul>
-<li>Fix desktop file validation&nbsp;warning</li>
-<li>Add meson build&nbsp;system</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>Add Wayland&nbsp;support</li>
-<li>Fix searching in terminal&nbsp;window</li>
-<li>Add icons to &#8220;open tab&#8221; and &#8220;close&nbsp;window/tab&#8221;</li>
-<li>Prevent crash on bad term spawn due to redundant&nbsp;frees</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>デスクトップファイルの検証警告を修正</li>
+<li>meson&nbsp;ビルドシステムの追加</li>
+<li><span class="caps">GTK3</span>&nbsp;でのタブスクロールのサポートを追加</li>
+<li>Wayland&nbsp;のサポートを追加</li>
+<li>端末ウィンドウでの検索を修正</li>
+<li>「タブを開く」と「ウィンドウ/タブを閉じる」にアイコンを追加</li>
+<li>冗長な解放による不正な用語の生成時でのクラッシュを防止</li>
+<li>Clang Static Analyzer や Cppcheck、<span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
-<h4>mate-user-guide</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;ユーザーガイド</h4>
 <ul>
-<li>Remove the execution bit from some Italian&nbsp;figures</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>一部のイタリア数字から実行ビットを削除</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
-<h4>mate-user-share</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
+<h4><span class="caps">MATE</span>&nbsp;ユーザー共有</h4>
 <ul>
-<li>Use MATE_COMPILE_WARNINGS from&nbsp;mate-common</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-common の MATE_COMPILE_WARNINGS&nbsp;を使用</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-share/commits/master/">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-share/commits/master/">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
 <h4>mate-utils</h4>
 <ul>
-<li>mate-screenshot: Fix the order of the buttons at the&nbsp;bottom</li>
-<li>mate-screenshot: Do not use stock icons in&nbsp;mate-screenshot.ui</li>
-<li>logview: Rewrite logview-filter.ui from&nbsp;scratch</li>
-<li>gsearchtool: Add copy path menu item to popup&nbsp;menu</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-screenshot:&nbsp;下部にあるボタンの順序を修正</li>
+<li>mate-screenshot: mate-screenshot.ui&nbsp;でストックアイコンを使用しません。</li>
+<li>logview: logview-filter.ui&nbsp;を最初から書き直し</li>
+<li>gsearchtool:&nbsp;コピーパスメニュー項目をポップアップメニューへ追加</li>
+<li>Clang Static Analyzer や Cppcheck、<span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>build: ネイティブ言語サポート (<span class="caps">NLS</span>) を無効にするオプション&nbsp;(<code>--disable-nls</code>)&nbsp;を追加</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
-<h4>mozo</h4>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
+<h4>Mozo&nbsp;メニューエディタ</h4>
 <ul>
-<li>Rewrite mozo.ui from&nbsp;scratch</li>
-<li>Fix a strange behavior when editing the collection&nbsp;directory</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mozo.ui&nbsp;を最初から書き直し</li>
+<li>collection&nbsp;ディレクトリを編集する際の奇妙な動作を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
-<h4>pluma</h4>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
+<h4>Pluma&nbsp;テキストエディタ</h4>
 <ul>
-<li>Port sort plugin to the new GtkSourceView&nbsp;api.</li>
-<li>Port plugins to use the window-construct&nbsp;property.</li>
-<li>build: Port to&nbsp;gtksourceview-4</li>
-<li>Introduce PlumaWindowActivatable, PlumaAppActivatable,&nbsp;PlumaViewActivatable</li>
-<li>Add show/hide line-numbers shortcut&nbsp;(Ctrl+Y)</li>
-<li>Redesign Pluma Preferences&nbsp;Dialog</li>
-<li>Remove&nbsp;pluma-marshal.</li>
-<li>Add optional grid background&nbsp;pattern</li>
-<li>Remove changecase plugin. Functionality is provided by&nbsp;GtkSourceView.</li>
-<li>Add overview&nbsp;map</li>
-<li>Port to a new pluma-settings&nbsp;class</li>
-<li>Add support for&nbsp;wayland</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>pluma.c: Set PlumaWindow size-request (min-size) to&nbsp;250x250</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>sort プラグインを新しい GtkSourceView api&nbsp;へ移植</li>
+<li>window-construct&nbsp;プロパティーを使用するためのプラグインを移植</li>
+<li>build: gtksourceview-4&nbsp;へ移植</li>
+<li>PlumaWindowActivatable、PlumaAppActivatable、PlumaViewActivatable&nbsp;を導入します。</li>
+<li>行番号の表示/非表示のショートカット (Ctrl+Y)&nbsp;を追加</li>
+<li>Pluma&nbsp;の設定ダイアロをの再設計</li>
+<li>pluma-marshal&nbsp;の削除</li>
+<li>オプションでグリッド背景パターンを追加</li>
+<li>changecase プラグインを削除。機能は GtkSourceView&nbsp;によって提供されます。</li>
+<li>概要マップを追加</li>
+<li>新しい pluma-settings&nbsp;クラスへ移植</li>
+<li>Wayland&nbsp;のサポートを追加</li>
+<li><span class="caps">GTK3</span>&nbsp;でのタブスクロールのサポートを追加</li>
+<li>pluma.c: Pluma のウィンドウサイズ要求 (最小サイズ) を 250x250&nbsp;に設定</li>
+<li>Clang Static Analyzer や Cppcheck、<span class="caps">GCC</span>&nbsp;によって報告されたコード解析や非推奨警告を修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/pluma/commits/master/">https://github.com/mate-desktop/pluma/commits/master/</a></p>
-<h4>pluma-plugins</h4>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/pluma/commits/master/">https://github.com/mate-desktop/pluma/commits/master/</a></p>
+<h4>Pluma&nbsp;プラグイン</h4>
 <ul>
-<li>Makes its first appearance in this&nbsp;release</li>
-<li>The package contains the following additional plugins<ul>
-<li>bookmarks - <em>Easy document navigation with&nbsp;bookmarks.</em>
+<li>今回のリリースで初登場です。</li>
+<li>パッケージには、次の追加プラグインが含まれています。<ul>
+<li>bookmarks - <em>ブックマークを使用した簡単な文書の閲覧。</em>
 </li>
-<li>bracketcompletion - <em>Automatically adds closing&nbsp;brackets.</em>
+<li>bracketcompletion - <em>閉じ括弧を自動的に追加します。</em>
 </li>
-<li>codecomment - <em>Comment and uncomment blocks of&nbsp;code.</em>
+<li>codecomment - <em>コードのブロックにコメントをしたりコメントを外したりします。</em>
 </li>
-<li>smartspaces - <em>Forget you’re not using&nbsp;tabulations.</em>
+<li>smartspaces - <em>集計を使ってないのを忘れます。</em>
 </li>
-<li>synctex - <em>SyncTeX synchronization of TeX files and <span class="caps">PDF</span>&nbsp;output.</em>
+<li>synctex - <em>TeX ファイルと <span class="caps">PDF</span> 出力の SyncTeX&nbsp;同期。</em>
 </li>
-<li>terminal - <em>Embed a terminal in the bottom&nbsp;pane.</em>
+<li>terminal - <em>一番下のペインに端末を埋め込みます。</em>
 </li>
-<li>wordcompletion - <em>Word completion using the completion&nbsp;framework.</em>
+<li>wordcompletion - <em>補完フレームワークを使用した単語補完。</em>
 </li>
-<li>sourcecodebrowser - <em>View and navigate functions, variables and&nbsp;namespaces.</em>
+<li>sourcecodebrowser - <em>関数や変数、名前空間の表示と操作。</em>
 </li>
 </ul>
 </li>
 </ul>
 <h4>python-caja</h4>
 <ul>
-<li>Fix memory leak reported by&nbsp;scan-build</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>scan-build&nbsp;によって報告されたメモリリークの修正</li>
+<li>g10n:&nbsp;翻訳の更新</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
@@ -611,7 +624,7 @@
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2020-02-10-mate-1-24-released/" rel="prev" title="MATE 1.24 リリース">一つ前の記事</a>
+                <a href="../2020-02-10-mate-1-24-released/" rel="prev" title="MATE 1.24 を公開しました">一つ前の記事</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -650,7 +663,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

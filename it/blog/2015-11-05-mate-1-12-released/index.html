@@ -167,16 +167,16 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <p>I principali cambiamenti in <span class="caps">MATE</span> 1.12&nbsp;sono:</p>
 <ul>
 <li>Correzioni e miglioramenti per il supporto di <span class="caps">GTK3</span> su tutto il Desktop <span class="caps">MATE</span>, incluso il supporto per <span class="caps">GTK</span>&nbsp;3.18.</li>
-<li>Il supporto al toucpad è significativamente migliorato e adesso supporta i tocchi multipli e lo scorrimento&nbsp;naturale.</li>
-<li>Il supporto per più monitor è stato migliorato così le impostazioni del display utilizzano nomi in uscita e l&#8217;Interfaccia Utente consente di scegliere il monito&nbsp;principale.</li>
+<li>Il supporto al touchpad è significativamente migliorato e adesso supporta i tocchi multipli e lo scorrimento&nbsp;naturale.</li>
+<li>Il supporto per più monitor è stato migliorato così le impostazioni del display utilizzano nomi in uscita e l&#8217;Interfaccia Utente consente di scegliere il monitor&nbsp;principale.</li>
 <li>L&#8217;applet power adesso mostra informazioni sul modello e il venditore ed è quindi possibile distinguere tra più dispositivi alimentati a&nbsp;batteria.</li>
 <li>Migliorata la gestione della sessione che adesso comprende l&#8217;inibizione dello screensaver mentre si riproducono elementi multimediali.<ul>
 <li><span class="caps">MATE</span> adesso ascolta il&nbsp;namespace <code>org.gnome.SessionManager</code>.</li>
 </ul>
 </li>
 <li>Esteso il supporto a&nbsp;systemd.</li>
-<li>Risolti bug di vecchia data assieme a molte piccole imperfezioni.<ul>
-<li>Ad esempio, le applet del pannello  non sono più riordinate quando si cambia risoluzione dello&nbsp;schermo.</li>
+<li>Corretti bug di vecchia data assieme a molte piccole imperfezioni.<ul>
+<li>Ad esempio, le applet del pannello non sono più riordinate quando si cambia risoluzione dello&nbsp;schermo.</li>
 </ul>
 </li>
 <li>Traduzioni aggiornate e un certo numero di componenti adesso recuperano le stringhe di testo direttamente&nbsp;da <code>gschema</code> (richiede intltool&nbsp;0.50.1).</li>
@@ -201,12 +201,12 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <ul>
 <li>Richiede <code>dconf</code> 0.13.4&nbsp;e <code>xrandr</code> 1.3</li>
 <li>Aggiunta una&nbsp;chiave <code>gsettings</code> per commutare lo scorrimento di sovrapposizione in&nbsp;<span class="caps">GTK</span>+3</li>
-<li>Aggiunte alcune icone per risolvere le icone mancanti in <span class="caps">GTK</span>+3 con un tema di icone&nbsp;personalizzato</li>
-<li>Mouse schema: abilitata l&#8217;emulazione del clic centrale per&nbsp;default</li>
+<li>Aggiunte alcune icone per correggere quelle mancanti in <span class="caps">GTK</span>+3 con tema di icone&nbsp;personalizzato</li>
+<li>Mouse schema: abilitata l&#8217;emulazione del clic centrale come impostazione di&nbsp;default</li>
 <li><span class="caps">RR</span>: implementata la funzione mancante&nbsp;mate_rr_output_get_possible_crtcs</li>
 <li><span class="caps">RR</span>: risolta l&#8217;identificazione del laptop dal nome in&nbsp;output</li>
 <li><span class="caps">RR</span>: mostra il nome in output in aggiunta al nome&nbsp;visualizzato</li>
-<li>Spostato la guida utente docbook in un progetto&nbsp;separato</li>
+<li>Spostata la guida utente docbook in un progetto&nbsp;separato</li>
 <li>Eliminata la dipendenza su yelp (non più necessaria dopo la rimozione della guida&nbsp;utente)</li>
 </ul>
 <h4>libmatekbd</h4>
@@ -218,8 +218,8 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <h4>libmatemixer</h4>
 <ul>
 <li>oss: Usare il contatore di modifica per il polling solo su Linux, è rotto sulle&nbsp;<span class="caps">BSD</span></li>
-<li>alsa: risolto <span class="caps">FTBFS</span> con le vecchie versioni di&nbsp;<span class="caps">ALSA</span></li>
-<li>alsa: Risolto il&nbsp;fading</li>
+<li>alsa: Corretto <span class="caps">FTBFS</span> con le vecchie versioni di&nbsp;<span class="caps">ALSA</span></li>
+<li>alsa: Corretta la&nbsp;dissolvenza</li>
 </ul>
 <h4>libmateweather</h4>
 <ul>
@@ -256,7 +256,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <li>Aggiunto il supporto per una Dock opzionale, come per esempio&nbsp;Plank</li>
 <li>Aggiunto il supporto per la&nbsp;nuova <code>libsystemd</code> in aggiunta a quella&nbsp;esistente <code>libsystemd-login</code>
 </li>
-<li>Attendere solo massimo 1 secondo per il loguot o lo&nbsp;spegnimento</li>
+<li>Attendere massimo 1 secondo per il logout o lo&nbsp;spegnimento</li>
 <li>Attivare/disattivare lo scorrimento di sovrapposizione <span class="caps">GTK</span>+3 all&#8217;avvio utilizzando la nuova chiave&nbsp;gsettings</li>
 </ul>
 <h4>mate-menus</h4>
@@ -268,17 +268,17 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <li>Richiede <code>xrandr</code> 1.3</li>
 <li>Aggiunta l&#8217;opzione per mostrare/nascondere i numeri della settimana nel&nbsp;calendario</li>
 <li>Risolto il posizionamento delle applet bloccate al cambio di risoluzione dello&nbsp;schermo</li>
-<li><span class="caps">GTK</span>+3: aggiunta una classe stile perché le applet&nbsp;seguano <code>panel-menu-bar</code>
+<li><span class="caps">GTK</span>+3: aggiunta una classe di stile perché le applet&nbsp;seguano <code>panel-menu-bar</code>
 </li>
 </ul>
 <h4>mate-themes</h4>
 <ul>
-<li>Per tutti i temi <span class="caps">GTK3</span>: restyle dell&#8217;applet slider di&nbsp;volume/luminosità</li>
+<li>Per tutti i temi <span class="caps">GTK3</span>: restyle dell&#8217;applet slider&nbsp;volume/luminosità</li>
 <li>Migliorie e rifiniture varie per tutti i temi, in modo particolare per <span class="caps">GTK</span>&nbsp;3.18.</li>
 </ul>
 <h4>mate-notification-daemon</h4>
 <ul>
-<li>Risolte l&#8217;altezza e la visibilità dei temi&nbsp;<span class="caps">GTK3</span></li>
+<li>Corrette l&#8217;altezza e la visibilità dei temi in&nbsp;gtk3</li>
 <li>Diverse correzioni ai&nbsp;temi</li>
 </ul>
 <h4>mate-control-center</h4>
@@ -297,7 +297,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <li>Aggiunto il supporto&nbsp;per <code>libsystemd</code> in aggiunta a quello esistente&nbsp;per <code>libsystemd-login</code>
 </li>
 <li>Non sfumare al nero quando si blocca lo&nbsp;schermo</li>
-<li>Risolta la gestione degli&nbsp;eventi <code>systemd</code>
+<li>Corretta la gestione degli eventi&nbsp;di <code>systemd</code>
 </li>
 </ul>
 <h4>mate-media</h4>
@@ -312,7 +312,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <li>Mostrare le informazioni di venditore/modello dei dispositivi&nbsp;hardware</li>
 <li>Risolta la regolazione della retroilluminazione del Macbook&nbsp;Pro</li>
 <li><span class="caps">GTK</span>+3: supporto per i temi&nbsp;personalizzati</li>
-<li><span class="caps">GTK</span>+3: risolto il comportamento dell&#8217;applet&nbsp;luminosità</li>
+<li><span class="caps">GTK</span>+3: corretto il comportamento dell&#8217;applet della&nbsp;luminosità</li>
 </ul>
 <h4>mate-system-monitor</h4>
 <ul>
@@ -339,9 +339,9 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 </ul>
 <h4>Engrampa</h4>
 <ul>
-<li>Fissato l&#8217;utilizzo&nbsp;di <code>ngettext</code> nelle finestre di dialoghi in&nbsp;progressione</li>
+<li>Corretto l&#8217;utilizzo&nbsp;di <code>ngettext</code> nella finestra di dialogo&nbsp;avanzamento</li>
 <li>Fatto funzionare l&#8217;estrazione di archivi multipli in una cartella&nbsp;separata</li>
-<li>Risolto il controllo di sovrascrittura quando i file da estrarre sono dentro ad una&nbsp;cartella</li>
+<li>Corretto il controllo di sovrascrittura quando i file da estrarre sono dentro ad una&nbsp;cartella</li>
 </ul>
 <h4>Eye of&nbsp;<span class="caps">MATE</span></h4>
 <ul>
@@ -354,7 +354,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 <li>Rimossa l&#8217;inutile dipendenza&nbsp;da <code>mate-icon-theme</code>
 </li>
 <li><span class="caps">GTK</span>+3: Risolta la mancanza di alcune icone con un tema di icone&nbsp;personalizzato</li>
-<li><span class="caps">GTK</span>+3: cpufreq, charpick and drivemount suppotano temi di pannello&nbsp;personalizzati</li>
+<li><span class="caps">GTK</span>+3: cpufreq, charpick e drivemount suppotano temi di pannello&nbsp;personalizzati</li>
 </ul>
 <h4>mate-netbook</h4>
 <ul>
@@ -399,7 +399,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.12. Vorremmo ringraziare
 </ul>
 <h4>Pluma</h4>
 <ul>
-<li>Aggiunta&nbsp;l&#8217;opzione <code>--enable-tests</code> per abilitare/disabilitare di eseguire test  durante la&nbsp;compilazione</li>
+<li>Aggiunta&nbsp;l&#8217;opzione <code>--enable-tests</code> per abilitare/disabilitare l&#8217;esecuzione di test durante la&nbsp;compilazione</li>
 <li>Aggiunto un plugin per rimuovere gli spazi iniziali quando si&nbsp;salva</li>
 <li>Riportato l&#8217;elenco dei plugin attivi nello script&nbsp;bugreport</li>
 <li>Abbandonato il supporto&nbsp;per <code>win32</code> and <code>osx</code> e il plugin&nbsp;checkupdate</li>
@@ -462,7 +462,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:50:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 发布</title><link>https://preview.mate-desktop.dev/zh_cn/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.22。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 发布</title><link>https://preview.mate-desktop.dev/zh_cn/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.22。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.zh_cn.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.22 的新特性&lt;/h3&gt;
 &lt;p&gt;此版本包含大量关键错误修复和漏洞改进。一些重要的亮点包括：&lt;/p&gt;
@@ -25,7 +25,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;&lt;strong&gt;文本编辑器(pluma)&lt;/strong&gt; 中的标签现在可以通过键盘快捷键和鼠标滚动进行切换&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;计算器&lt;/strong&gt; 现在可以支持高达15个字符的精度，复制/粘贴支持也有所改进。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Engrama&lt;/strong&gt; 增加了对几种新压缩格式的支持，以及新的暂停/重新启动功能。&lt;/li&gt;
-&lt;li&gt;添加了一些新的快捷键，包括支持不同类型的多媒体键，如蓝牙、WiFi、触摸板和全局 Killswitch 等。&lt;/li&gt;
+&lt;li&gt;添加了一些新的&lt;strong&gt;快捷键&lt;/strong&gt;，包括支持不同类型的多媒体键，如蓝牙、WiFi、触摸板和全局 Killswitch 等。&lt;/li&gt;
 &lt;li&gt;一系列内部管理任务已被处理：&lt;ul&gt;
 &lt;li&gt;我们的大多数项目现在已经从 &lt;a href="https://developer.gnome.org/dbus-glib/unstable/"&gt;dbus-glib&lt;/a&gt; 迁移到了 &lt;a href="https://developer.gnome.org/gio/stable/gdbus-convenience.html"&gt;GDBus&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt;通过修复内存泄漏和编译警告，我们已经改善了许多项目的稳定性。&lt;/li&gt;

@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:50:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Il progetto MATE è stato accettato per GSoC 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo diverse settimane trascorse a rivedere le applicazioni e il periodo di selezionamento, il
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Il progetto MATE è stato accettato per GSoC 2014</title><link>https://preview.mate-desktop.dev/it/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo diverse settimane trascorse a rivedere le applicazioni e il periodo di selezionamento, il
 Google Summer of Code (GSoC) 2014 si è concluso. 4.420 studenti hanno proposto un totale di
 6313 progetti per quest'estate. Di quelli, 1.307 studenti sono stati accolti
 e il progetto Desktop MATE è uno dei 190 progetti Open Source che
@@ -15,14 +15,14 @@ proposte di studenti e ci sono stati assegnati 3 slot per i progetti degli stude
 &lt;li&gt;Avishkar Gupta lavorerà per aggiungere le capacità per il rendering ePub ad
   Atril, il visualizzatore di documenti per il desktop MATE.&lt;/li&gt;
 &lt;li&gt;Michal Ratajsky lavorerà per aggiungere il supporto a GStreamer 1.0 nell'ambiente
-  desktop MATE in modo da sostituire le dipendenze basate sulla libreri deprecata
+  desktop MATE in modo da sostituire le dipendenze basate sulla libreria deprecata
   GStreamer 0.10&lt;/li&gt;
 &lt;li&gt;Alexander van der Meij lavorerà per migliorare Caja extensions così che esse
   possano essere integrate durante l'esecuzione e creare inoltre una singola interfaccia utente per
   la configurazione di Caja extensions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vi prego di unirmi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
-nell'augurargli ogni successo per i loro progetti per l'estate.&lt;/p&gt;
+&lt;p&gt;Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
+nell'augurargli ogni successo per i loro progetti dell'estate.&lt;/p&gt;
 &lt;p&gt;A nome dell'intero team MATE vorrei estendere i ringraziamenti e
 la nostra gratitudine ad  &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; che sono i nostri organizzatori GSoC perché
 2014. hanno fatto un lavoro fantastico nell'aiutare a garantire questi assegnamenti GSoC per
@@ -31,15 +31,15 @@ il team MATE che fornirà molte risorse di sviluppo necessarie al progetto.&lt;/
 in collaborazione con i nostri buoni amici di &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Cos'è Google Summer of Code&lt;/h3&gt;
 &lt;p&gt;Google Summer of Code (comunemente chiamato GSoC) è un programma globale che
-offre retribuzione a studenti sviluppatori per scrivere codice per vari progetti software open source. GSoC collabora con molti gruppi open source, free software e entità correlate alla tecnologia, per identificare e finanziare progetti della durata di tre mesi.
+offre compensi a studenti sviluppatori per scrivere codice per vari progetti software open source. GSoC collabora con molti gruppi open source, free software e entità correlate alla tecnologia, per identificare e finanziare progetti della durata di tre mesi.
 Fin dalla sua ideazione nel 2005, il progetto ha unito oltre
 7500 studenti partecipanti con successo da 97 nazioni e oltre 7000 mentori da oltre 100 paesi del mondo per produrre più di 50 milioni di linee di codice. Attraverso il Google Summer of Code, gli studenti candidati ammessi sono affiancati da uno o più mentori dei progetti partecipanti,
 ottenendo così visibilità negli scenari di sviluppo di software reale e l'opportunità di essere impiegati in aree correlate al loro percorso accademico.
 In cambio, i progetti partecipanti possono identificare e assumere nuovi sviluppatori. Ma soprattutto, viene creato e rilasciato un maggior quantitativo di codice sorgente ad uso e vantaggio di tutti. &lt;/p&gt;
 &lt;h3&gt;Per gli studenti&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Il periodo di iscrizione per gli studenti è aperto dal 10 Marzo al 21 Marzo del 2014.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Per ricevere aiuto su come candidarsi vi rimandiamo alla lettura dellle &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt; FAQ di Google Summer of Code 2014&lt;/a&gt;. 
-Se site studenti che vogliono contribuire a MATE attraverso la partecipazione openSUSE al GSoC
+&lt;p&gt;&lt;strong&gt;Il periodo di iscrizione per gli studenti è aperto dal 10 Marzo al 21 Marzo 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Per ricevere aiuto su come candidarsi vi rimandiamo alla lettura delle &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;FAQ di Google Summer of Code 2014&lt;/a&gt;. 
+Se siete studenti che vogliono contribuire a MATE attraverso la partecipazione openSUSE al GSoC
 consultate i seguenti collegamenti:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;Idee MATE al Google Summer of Code 2014&lt;/a&gt;&lt;/li&gt;
@@ -56,7 +56,7 @@ consultate i seguenti collegamenti:&lt;/p&gt;
 comunità nel suo insieme. Scovare e correggere bug, inviare pull requests e lavorare su Proof
 of Concepts sono buoni modi per incominciare.&lt;/p&gt;
 &lt;p&gt;I mentori del GSoC 2014 per MATE sono Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; su IRC) e
-Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milio mezzo per comunicare ed interagire con i mentori MATE è mediante:&lt;/p&gt;
+Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milgior modo per comunicare ed interagire con i mentori MATE è mediante:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;il canale #mate IRC su Libera Chat&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;La stanza chat Matrix #mate:libera.chat&lt;/a&gt;&lt;/li&gt;

@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:50:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE のマスターマインドを紹介します</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;私は幸運にも &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux アクションショー&lt;/a&gt; のエピソード 347 に招待されました。そこで MATE デスクトップについて、この起源はどこで、これがどこにに向かっているのかを少し話しました。私へのインタビューは下記に含まれています。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE のマスターマインドを紹介します</title><link>https://preview.mate-desktop.dev/ja/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;私は幸運にも &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux アクションショー&lt;/a&gt; のエピソード 347 に招待されました。そこで MATE デスクトップについて、この起源はどこで、これがどこにに向かっているのかを少し話しました。私へのインタビューは下記に含まれています。&lt;/p&gt;
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/OwW9jaVKjSw?start=1945" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;その時点では MATE 1.10 の開発目標をすべて網羅することはできなかったので、&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE ロードマップ&lt;/a&gt;を参照して、完全な概要を把握することをお勧めします。さらに質問がある場合や、プロジェクトに貢献したい場合は、&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC チャンネル&lt;/a&gt;でみなさんとチャットしたり、&lt;a href="https://github.com/mate-desktop"&gt;GitHub のプルリクエスト&lt;/a&gt;をレビューしたりするのを楽しみにしています。&lt;/p&gt;
@@ -136,22 +136,22 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;場所サイドバーを改善&lt;/li&gt;
+&lt;li&gt;場所のサイドバーを改善&lt;/li&gt;
 &lt;li&gt;新しいサムネイル仕様のサポートを追加&lt;/li&gt;
 &lt;li&gt;サムネイル用の新しいフレームを追加&lt;/li&gt;
 &lt;li&gt;壁紙がキャッシュされてメモリ管理が向上&lt;/li&gt;
 &lt;li&gt;Nautilus 3 の新しい接続サーバダイアログ&lt;/li&gt;
 &lt;li&gt;freedesktop.org のサポートを追加&lt;/li&gt;
 &lt;li&gt;ファイルマネージャ DBus インタフェース&lt;/li&gt;
-&lt;li&gt;固定されたバックディレクトリと親ディレクトリの選択&lt;/li&gt;
+&lt;li&gt;前のフォルダと親フォルダの選択に関する問題を修正&lt;/li&gt;
 &lt;li&gt;Open Terminal Extension でリモート端末の開始をサポート&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;パネル&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;実行ダイアログウィンドウを開くための &lt;code&gt;--run-dialog&lt;/code&gt; オプションを追加。ウィンドウリスト: 次のことが可能
-  マウスの中ボタンを使用してウィンドウのワークスペース切替を閉じます:&lt;/li&gt;
-&lt;li&gt;マウスホイールを使用してワークスペース間をラップアラウンドするオプション追加&lt;/li&gt;
-&lt;li&gt;既定のパネルレイアウトを変更するための簡単な配布方法を追加
+&lt;li&gt;ダイアログウィンドウの一覧を開く &lt;code&gt;--run-dialog&lt;/code&gt; オプションを追加。次のことが可能です。
+  マウスの中クリックでウィンドウのワークスペース切り替え器を閉じることができます。&lt;/li&gt;
+&lt;li&gt;マウスホイールでワークスペース間を折り返すオプションを追加&lt;/li&gt;
+&lt;li&gt;ディストリビューションが既定のパネルレイアウトを上書きする簡単な方法を追加
   残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
   もし MateConf 1.4 がインストールされている場合には、他のすべての設定が移行されます。&lt;/li&gt;
 &lt;/ul&gt;
@@ -163,7 +163,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;ul&gt;
 &lt;li&gt;ウィンドウの設定で、Marco コンポジットマネージャと fast alt-tab を有効にするオプションを追加&lt;/li&gt;
 &lt;li&gt;compiz または metacity が実行されている場合、GSettings/GConf metacity theme を設定&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; パッケージと同じ GNOME proxy settings を使用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; パッケージと同じ GNOME プロキシ設定を使用&lt;/li&gt;
 &lt;li&gt;既定のアプリケーション: 既定の端末を設定できるよう許可&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Atril (文書ビューア)&lt;/strong&gt;&lt;/p&gt;
@@ -177,7 +177,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;通知デーモン&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;通知を表示する画面を指定する&lt;/a&gt; オプションが追加されました。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;通知を表示する画面を指定する&lt;/a&gt; オプションを追加&lt;/li&gt;
 &lt;li&gt;タイムアウトとして 'expires never' が設定したる場合は常に通知を表示 (スクリーンセーバーがアクティブであるか、アクティブな全画面がある場合も同じ)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;テーマ&lt;/strong&gt;&lt;/p&gt;
@@ -187,7 +187,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;テキストファイルのプレビューを有効に&lt;/li&gt;
 &lt;li&gt;新しいアイコンを追加&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;デーモン設定&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;デーモンの設定&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;メディアキーをメディアプレーヤーに送信するための MPRIS2 サポートを追加&lt;/li&gt;
 &lt;li&gt;Caja が非アクティブ時に背景を描画するオプションの追加&lt;/li&gt;
@@ -203,7 +203,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;MateCorba/MateComponent を DBus へ置き換え&lt;/li&gt;
 &lt;li&gt;MateVfs を GIO/GVFS へ置き換え&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;libmatenotify&lt;/code&gt; を &lt;code&gt;libnotify&lt;/code&gt; へ置き換え&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;libmate&lt;/code&gt; を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package へ移動&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmate&lt;/code&gt; を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package へ移動)&lt;/li&gt;
 &lt;li&gt;非推奨パッケージの削除&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;libmateui&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;libmatecanvas&lt;/code&gt;&lt;/li&gt;
@@ -235,9 +235,9 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;blockquote&gt;
 &lt;p&gt;Fedora 15 がリリースされて以来、私は MATE を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。MATE チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、MATE を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。MATE 1.6 を使えば、自宅でお気に入りの Linux ディストリビューションを使って仕事に戻ることができます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;私たちはまた、&lt;a href="https://preview.mate-desktop.dev/blog/2012-12-27-thank-you-first-colo/"&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; コメントをいただきました。以下は &lt;a href="https://www.first-colo.net/en/"&gt;FirstColo GmbH&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
+&lt;p&gt;私たちはまた、&lt;a href="https://preview.mate-desktop.dev/blog/2012-12-27-thank-you-first-colo/"&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; からもコメントをいただきました。以下は &lt;a href="https://www.first-colo.net/en/"&gt;FirstColo GmbH&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;私たちは MATE デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップやフリーなソフトウェアを探していました。Debian 7 Wheezy 上の MATE デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは MATE チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに MATE デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も MATE を使うことでしょう！)。&lt;/p&gt;
+&lt;p&gt;私たちは MATE デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップや自由なソフトウェアを探していました。Debian 7 Wheezy 上の MATE デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは MATE チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに MATE デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も MATE を使うことでしょう！)。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;MATE 1.6 は、8ヶ月に及ぶ精力的な開発の成果であり、39名の人々が行った 1800件の寄与、および 150名以上の翻訳者による成果です。&lt;/p&gt;
 &lt;ul&gt;

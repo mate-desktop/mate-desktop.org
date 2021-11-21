@@ -135,7 +135,7 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.10. Vorremmo ringraziare
 <li>Ogni componente di <span class="caps">MATE</span> può essere compilato con <span class="caps">GTK2</span> o <span class="caps">GTK3</span>.<ul>
 <li>Il supporto a <span class="caps">GTK3</span> è ancora considerato <em>sperimentale</em>
 </li>
-<li>ArchLinux e Fedora al momento offrono builds alternative&nbsp;<span class="caps">GTK3</span></li>
+<li>ArchLinux e Fedora al momento offrono build <span class="caps">GTK3</span>&nbsp;alternative </li>
 </ul>
 </li>
 <li>[GSoC 2014] Caja ha adesso un gestore per le estensioni così i plugin possono essere abilitati/disabilitati con Caja in&nbsp;esecuzione.</li>
@@ -145,8 +145,8 @@ il rilascio di <span class="caps">MATE</span> Desktop 1.10. Vorremmo ringraziare
 nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class="caps">OSS</span>.</li>
 </ul>
 </li>
-<li>L&#8217;analisi statica del codice ha evidenziato molti memory leaks che sono stati&nbsp;risolti.</li>
-<li>Il supporto dei temi è stato esteso a <span class="caps">GTK</span> dalla versione 3.8 alla 3.16 inclusi il <span class="caps">CSD</span> e il supporto&nbsp;pop-over.</li>
+<li>L&#8217;analisi statica del codice ha evidenziato molti memory leak che sono stati&nbsp;corretti.</li>
+<li>Il supporto dei temi è stato esteso da <span class="caps">GTK</span> versione 3.8 a <span class="caps">GTK</span> versione 3.16 inclusi il <span class="caps">CSD</span> e il supporto per il&nbsp;pop-over.</li>
 </ul>
 <p>I vari componenti di <span class="caps">MATE</span> 1.10 sono disponibili per il download a questo&nbsp;indirizzo:</p>
 <ul>
@@ -164,7 +164,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Aggiunto il supporto&nbsp;per <code>lcov</code> 1.11</li>
 <li>Migrato&nbsp;a <code>glib-gettexize</code> se si usa&nbsp;GLib <code>gettext</code>
 </li>
-<li>Verificare la presenza&nbsp;di <code>appdata-xml.m4</code> con <code>APPDATA_XML</code>.</li>
+<li>Effettuata la verifica della presenza&nbsp;di <code>appdata-xml.m4</code> con <code>APPDATA_XML</code>.</li>
 </ul>
 <h4>mate-desktop</h4>
 <ul>
@@ -182,7 +182,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Rimosso&nbsp;desktop-docs</li>
 <li>Rimossa la guida&nbsp;dell&#8217;utente</li>
 <li>Rimossa la dipendenza&nbsp;opzionale <code>libunique</code>.</li>
-<li>Vari bug fixes in&nbsp;<span class="caps">RANDR</span></li>
+<li>Vari bug fix in&nbsp;<span class="caps">RANDR</span></li>
 </ul>
 <h4>libmatekbd</h4>
 <ul>
@@ -192,7 +192,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <h4>libmatemixer</h4>
 <p><code>libmatemixer</code> è una nuova libreria mixer per <span class="caps">MATE</span> desktop. Fornisce una <span class="caps">API</span> astratta
 che consente di accedere alle funzionalità mixer disponibili
-nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class="caps">OSS</span>.</p>
+nei sistemi audio PulseAudio, <span class="caps">ALSA</span> ed&nbsp;<span class="caps">OSS</span>.</p>
 <ul>
 <li>Rilascio&nbsp;iniziale</li>
 </ul>
@@ -218,14 +218,15 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 </ul>
 <h4>Marco</h4>
 <ul>
-<li>Uso&nbsp;di <code>zenity</code> invece che&nbsp;di <code>mate-dialogs</code>
+<li>Uso&nbsp;di <code>zenity</code> invece&nbsp;di <code>mate-dialogs</code>
 </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Vari bug&nbsp;eliminati</li>
 </ul>
 <h4>mate-settings-daemon</h4>
 <ul>
-<li>Migrazione all&#8217;&nbsp;<span class="caps">API</span> <code>MateRR*</code> cambia</li>
+<li>Migrazione ai cambiamenti nella&nbsp;<span class="caps">API</span> <code>MateRR*</code>
+</li>
 <li>Migrato media-keys plugin&nbsp;a <code>libmatemixer</code>
 </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
@@ -249,11 +250,11 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Migrato <code>gtk_rc_parse_string</code> a <code>GtkCssProvider</code> (<span class="caps">GTK3</span>)</li>
 <li>
 <code>GDK_KEY_*</code> è usato anche in Gtk+&nbsp;2.24.x</li>
-<li>Rimosso il vbox&nbsp;da <code>panel-addto</code> perchè è&nbsp;deprecato</li>
+<li>Rimosso il vbox&nbsp;da <code>panel-addto</code> perché è&nbsp;deprecato</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Vari bug eliminati<ul>
 <li>Controllo delle dimensioni allocate prima di creare il pixbuf dell&#8217;ombra&nbsp;nell&#8217;orologio.</li>
-<li>Disconnetti mostra e disattiva i segnali di menù prima di distruggere l&#8217;applet&nbsp;menù</li>
+<li>Disconnect mostra e disattiva i segnali di menù prima di distruggere l&#8217;applet&nbsp;menù</li>
 <li>Gestione&nbsp;di <code>SYSTEM_TRAY_CANCEL_MESSAGE</code>
 </li>
 <li>Corretta la dichiarazione implicita della funzione&nbsp;di <code>gdk_x11_set_sm_client_id</code>
@@ -271,7 +272,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <h4>mate-themes</h4>
 <ul>
 <li>Aggiunto il supporto per <span class="caps">GTK</span> 3.16, 3.14, 3.12, 3.10 and&nbsp;3.8.</li>
-<li>Aggiunte molte migliorie per le applicazioni <span class="caps">MATE</span>&nbsp;<span class="caps">GTK3</span></li>
+<li>Aggiunti molti miglioramenti per le applicazioni <span class="caps">MATE</span>&nbsp;<span class="caps">GTK3</span></li>
 <li>Aggiunti effetti di transizione ai pulsanti e agli oggetti del menù quando si utilizza&nbsp;<span class="caps">GTK3</span></li>
 <li>Aggiunto il supporto per le applicazioni&nbsp;<span class="caps">CSD</span></li>
 <li>Aggiunto il supporto per&nbsp;popovers</li>
@@ -279,9 +280,9 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Abilitate le icone regolari per i controlli delle&nbsp;finestre</li>
 <li>Disabilitato l&#8217;utilizzo delle icone&nbsp;simboliche</li>
 <li>Utilizzato il logo <span class="caps">MATE</span> per l&#8217;animazione&nbsp;spinner</li>
-<li>Rifatto&nbsp;GreenLaguna</li>
-<li>Rifatti i temi&nbsp;ContrastoElevato</li>
-<li>TraditionalOKTest è installabile con i flag configure&nbsp;normali</li>
+<li>Rielaborato&nbsp;GreenLaguna</li>
+<li>Rielaborati i temi&nbsp;ContrastHigh</li>
+<li>TraditionalOKTest è installabile con i normali flag&nbsp;configure</li>
 <li>Molti altri ritocchi e&nbsp;rifininiture</li>
 </ul>
 <h4>mate-notification-daemon</h4>
@@ -295,17 +296,19 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Aggiunto il suporto&nbsp;per <code>metacity-theme-2.xml</code>
 </li>
 <li>Aggiunto il supporto per le applicazioni di ufficio in Applicazioni&nbsp;Preferite</li>
-<li>Migrazione all&#8217;&nbsp;<span class="caps">API</span> <code>MateRR*</code> cambia</li>
+<li>Migrazione ai cambiamenti nella&nbsp;<span class="caps">API</span> <code>MateRR*</code>
+</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-screensaver</h4>
 <ul>
-<li>Migrazione all&#8217;&nbsp;<span class="caps">API</span> <code>MateRR*</code> cambia</li>
+<li>Migrazione ai cambiamenti nella&nbsp;<span class="caps">API</span> <code>MateRR*</code>
+</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>mate-menus</h4>
 <ul>
-<li>Rimosse le dipendenze&nbsp;PulseAudio</li>
+<li>Rimosse le dipendenze di&nbsp;PulseAudio</li>
 <li>Rimossi <code>gst-mixer</code> e <code>gst-mixer-applet</code>
 </li>
 <li>Aggiorntato mate-volume-control:<ul>
@@ -314,8 +317,8 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>Permessa la selezione dei connettori di input e&nbsp;output</li>
 <li>Il widget per il test degli altoparlanti adesso possiede un pulsante&nbsp;Chiudi</li>
 <li>Gli elenchi dei dispositivi e degli stream adesso sono&nbsp;ordinati</li>
-<li>Non mostra le icone su un pannello&nbsp;verticale</li>
-<li>Consente il clic su una finestra di&nbsp;popup</li>
+<li>Non vengono mostrate le icone su un pannello&nbsp;verticale</li>
+<li>Consentito il clic su una finestra di&nbsp;popup</li>
 </ul>
 </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
@@ -329,7 +332,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 </ul>
 <h4>mate-system-monitor</h4>
 <ul>
-<li>Introdotte migliorie da <span class="caps">GNOME</span> System&nbsp;Monitor</li>
+<li>Introdotti i miglioramenti da <span class="caps">GNOME</span> System&nbsp;Monitor</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Vari bug&nbsp;eliminati</li>
 </ul>
@@ -337,7 +340,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <ul>
 <li>Aggiunto il supporto&nbsp;ePub</li>
 <li>Aggiunto il supporto per la compressione&nbsp;xz</li>
-<li>Aggiunta la rotazione con <span class="caps">CTRL</span>+Sinistra e <span class="caps">CTRL</span>+Destra nella modalità&nbsp;presentazione</li>
+<li>Aggiunta la rotazione con <span class="caps">CTRL</span>+Freccia Sinistra e <span class="caps">CTRL</span>+Freccia Destra nella modalità&nbsp;presentazione</li>
 <li>Aggiunto il supporto&nbsp;per <code>bsdtar</code> al backend del formato per&nbsp;fumetti.</li>
 <li>Aggiunto il supporto ai&nbsp;file <code>pdf.xz</code> al beckend&nbsp;<span class="caps">PDF</span>.</li>
 <li>Aggiunto il supporto per i collegamenti esterni a&nbsp;EvViewPresentation</li>
@@ -346,20 +349,20 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <li>aggiunto il salvataggio del fattore di zoom nelle impostazioni predefinite quando il ridimensionamento è&nbsp;libero</li>
 <li>Aggiunta&nbsp;l&#8217;estensione <code>png</code> quando si salva un&#8217;immagine utilizzando il drag and&nbsp;drop</li>
 <li>Aggiunto un parametro timesamp a&nbsp;SyncView</li>
-<li>Aggiunto il file ini per l&#8217;estensione di&nbsp;Caja</li>
+<li>Aggiunto il file ini per Caja&nbsp;estension</li>
 <li>Aggiunto il file&nbsp;appdata</li>
 <li>Implementato <code>document_links_find_link_page()</code> nel backend&nbsp;<span class="caps">PDF</span></li>
-<li>Implementato document_links_find_link_page()` nel beckend&nbsp;djvu</li>
+<li>implementato <code>document_links_find_link_page()</code> nel backend&nbsp;djvu</li>
 <li>Migrato&nbsp;a <code>find_link_page()</code> invece&nbsp;di <code>find_link_dest()</code> in <code>get_dest_page()</code>
 </li>
-<li>Risolta la memorizzazione della pagina corrente quando il documento è ricaricato in modalità&nbsp;presentazione</li>
-<li>Risolto la risoluzione delle destinazioni con nome nel backend&nbsp;<span class="caps">PDF</span></li>
-<li>Risolto il problema di sidebar-thumbnails per connettersi al segnale di lavoro finito prima dello scheduling del&nbsp;lavoro</li>
-<li>Risolta la visualizzazione dei glifi con trasparenza nel backend&nbsp;<span class="caps">DVI</span></li>
-<li>Risolti diversi problemi di sicurezza nel backend&nbsp;<span class="caps">DVI</span></li>
-<li>Risolti diversi problemi di&nbsp;accessibilità</li>
-<li>Risolti vari segfault e molti memory&nbsp;leaks</li>
-<li>Aggiornato&nbsp;all&#8217;<span class="caps">API</span> <code>poppler</code> 0.16.0&nbsp;cambia</li>
+<li>Corretta la memorizzazione della pagina corrente quando il documento è ricaricato in modalità&nbsp;presentazione</li>
+<li>Corretta la risoluzione delle destinazioni con nome nel backend&nbsp;<span class="caps">PDF</span></li>
+<li>Corretto il problema di sidebar-thumbnails di connettersi al segnale di lavoro finito prima dello scheduling del&nbsp;lavoro</li>
+<li>Corretta la visualizzazione dei glifi con trasparenza nel backend&nbsp;<span class="caps">DVI</span></li>
+<li>Corretti diversi problemi di sicurezza nel backend&nbsp;<span class="caps">DVI</span></li>
+<li>Corretti diversi problemi di&nbsp;accessibilità</li>
+<li>Risolti vari segfault e molti memory&nbsp;leak</li>
+<li>Aggiornato ai cambiamenti&nbsp;dell&#8217;<span class="caps">API</span> <code>poppler</code> 0.16.0</li>
 <li>Migrato&nbsp;a <code>MateAboutDialog</code> da <code>libmate-desktop</code>
 </li>
 <li>Aggiornate le&nbsp;traduzioni</li>
@@ -368,29 +371,29 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 <h4>caja-extensions</h4>
 <ul>
 <li>Aggiunta la nuova estensione &#8216;Imposta come&nbsp;sfondo&#8217;</li>
-<li>Reintrodotta l&#8217;opzione per selezionare i&nbsp;plugin <code>invia-a</code> alla&nbsp;compilazione</li>
+<li>Reintrodotta l&#8217;opzione per selezionare i&nbsp;plugin <code>send-to</code> da&nbsp;compilare</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 <h4>Engrampa</h4>
 <ul>
 <li>Aggiunte la compressione delle immagini iso e degli archivi tar dal manù di&nbsp;Caja</li>
-<li>Aggiunta la finestra di dialogo per la sovrascrittura quando si estraggono file con il drag <span class="amp">&amp;</span>&nbsp;drop</li>
+<li>Aggiunta la finestra di dialogo di conferma della sovrascrittura quando si estraggono file con il drag <span class="amp">&amp;</span>&nbsp;drop</li>
 <li>Aggiunta la chiave keywords al&nbsp;file <code>.desktop</code>
 </li>
 <li>Aggiunto il file ini per l&#8217;estensione di&nbsp;Caja</li>
 <li>Aggiunto <code>engrampa.appdata.xml</code>
 </li>
-<li>Risolta l&#8217;apertura di un file <span class="caps">RAR</span> all&#8217;interno di un file&nbsp;<span class="caps">RAR</span></li>
-<li>Risolti gli errori di apertura con alcuni file protetti da&nbsp;password</li>
-<li>Risolto il caricamento di archivi <span class="caps">RAR</span> multi-volume con&nbsp;7zip</li>
+<li>Corretta l&#8217;apertura di un file <span class="caps">RAR</span> all&#8217;interno di un file&nbsp;<span class="caps">RAR</span></li>
+<li>Corretti gli errori di apertura con alcuni file protetti da&nbsp;password</li>
+<li>Coretto il caricamento degli archivi <span class="caps">RAR</span> multi-volume con&nbsp;7zip</li>
 <li>Eliminato il crash quando si preme Annulla in Aggiungi&nbsp;file</li>
 <li>Risolto il problema  hyphen-as-minus-sign per la pagina man&nbsp;di <code>engrampa.1</code>
 </li>
-<li>Risolti i memomy&nbsp;leaks</li>
+<li>Risolti i memomy&nbsp;leak</li>
 <li>Rimosso il supporto per Gtk+ &lt;&nbsp;2.24</li>
 <li>Rimosso il supporto per Glib &lt;&nbsp;2.32</li>
 <li>Utilizzo opzionale dello schema GSettings di&nbsp;Caja</li>
-<li>Uso&nbsp;di <code>g_get_user_config_dir</code> ivece che&nbsp;dell&#8217;hardcoded <code>~/.config/mate</code>
+<li>Uso&nbsp;di <code>g_get_user_config_dir</code> ivece&nbsp;dell&#8217;hardcoded <code>~/.config/mate</code>
 </li>
 <li>Uso&nbsp;di <code>GtkRecentAction objects</code> per creare il selettore dei file&nbsp;recenti</li>
 <li>Non impostare la app selezionata come predefinita del&nbsp;sistema</li>
@@ -400,7 +403,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 </ul>
 <h4>Eye of&nbsp;<span class="caps">MATE</span></h4>
 <ul>
-<li>Introdotte migliorie da Eye of&nbsp;<span class="caps">GNOME</span></li>
+<li>Introdotti miglioramenti da Eye of&nbsp;<span class="caps">GNOME</span></li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Vari bug&nbsp;eliminati</li>
 </ul>
@@ -421,7 +424,7 @@ nei sistemi audio PulseAudio, <span class="caps">ALSA</span> e&nbsp;<span class=
 </ul>
 <h4>mate-netspeed</h4>
 <ul>
-<li>Aggiunto il grafico del carico di rete reso simile ai grafici di <span class="caps">MATE</span> System&nbsp;Monitor</li>
+<li>Aggiunto il grafico del carico di rete e reso simile ai grafici di <span class="caps">MATE</span> System&nbsp;Monitor</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Vari bug&nbsp;eliminati</li>
 </ul>
@@ -502,9 +505,9 @@ $ sudo dnf update
 </ul>
 <p>Alcune&nbsp;note:</p>
 <ul>
-<li>Compiz funzionerà solo&nbsp;con <code>emerald</code> come decorazione delle&nbsp;finestre.</li>
+<li>Compiz funzionerà solo&nbsp;con <code>emerald</code> come&nbsp;window-decorator.</li>
 <li>Non utilizzate pacchetti <span class="caps">GTK2</span> da Fedora stable e pacchetti <span class="caps">GTK3</span> dalla
-  repo&nbsp;precedente.</li>
+  repo riportata più in&nbsp;alto.</li>
 <li>Non utilizzate le seguenti applicazioni <span class="caps">MATE</span> con una build <span class="caps">GTK3</span>; poiché non sono ancora portate a <span class="caps">GTK3</span>:<ul>
 <li>mintMenu e <span class="caps">MATE</span>&nbsp;Menu</li>
 <li>mate-applet-streamer</li>
@@ -516,7 +519,7 @@ $ sudo dnf update
 </ul>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url">Incontra la mente di&nbsp;<span class="caps">MATE</span></a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-01-28-meet-mates-mastermind/" class="u-url">Incontrate la mente di&nbsp;<span class="caps">MATE</span></a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
@@ -542,10 +545,10 @@ voi sul <a href="https://web.libera.chat/?#mate">canale #mate di <span class="ca
 recensire le vostre <a href="https://github.com/mate-desktop">pull-requests su GitHub</a>. </p>
 <p><a href="https://www.jupiterbroadcasting.com">Jupiter Broadcasting</a> produce un certo numero di 
 videocast e podcast settimanali principalmente orientati su <span class="caps">FLOSS</span>. Date un&#8217;occhiata,
-potreste trovare qualcosa che vi può&nbsp;interessare.</p>
+potreste trovare qualcosa che vi&nbsp;interessa.</p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url">Intervista <span class="caps">MATE</span> con i Linux&nbsp;Luddites</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="mate-interview-with-linux-luddites/" class="u-url">Intervista a <span class="caps">MATE</span> con i Linux&nbsp;Luddites</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -559,8 +562,7 @@ potreste trovare qualcosa che vi può&nbsp;interessare.</p>
     <div>
 <p><a href="https://linuxluddites.com">Linux Luddites</a> sono stati così gentili da intervistarmi
 la scorsa settimana. Abbiamo discusso le Origini del <a href="https://mate-desktop.org">Desktop <span class="caps">MATE</span></a>,
-i suoi sviluppi futuri, come <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a> è venuto alla luce
-e dove è&nbsp;diretto.</p>
+i suoi sviluppi futuri, come è venuto alla luce <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a> e dove è&nbsp;diretto.</p>
 <p><a href="https://linuxluddites.com/shows/episode-26">Linux Luddites Episode #26</a> è stato pubblicato quest&#8217;oggi stesso e vi suggerisco di andare sul sito web dei Linux Luddites
 ed&nbsp;ascoltarlo.</p>
 <ul>
@@ -568,7 +570,7 @@ ed&nbsp;ascoltarlo.</p>
 </ul>
 <p>Se non avete mai ascoltato Linux Luddites prima d&#8217;ora dovreste controllare
 il loro catalogo. È stato uno dei miei <span class="caps">FLOSS</span> Podcast preferiti per qualche
-mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e prime impressioni di utili&nbsp;distribuzioni. </p>
+mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e prime impressioni di distribuzioni&nbsp;utili. </p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-09-29-mate-1-8-updated/" class="u-url">Aggiornato <span class="caps">MATE</span>&nbsp;1.8</a></h1>
@@ -586,19 +588,19 @@ mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e
 <p>Sander Sweers ha rilasciato diversi pacchetti aggiornati per la serie <span class="caps">MATE</span> 1.8
 che riguardano vari bug fixes e aggiornamenti minori. Alcune
 distribuzioni hanno già incorporato questi aggiornamenti e le altre seguiranno
-a tempo debito. <span class="caps">SI</span> veda più oltre i cambiamenti&nbsp;apportati:</p>
+a tempo debito. Si veda più oltre i cambiamenti&nbsp;apportati:</p>
 <h3>atril&nbsp;1.8.1</h3>
 <ul>
 <li>Fissato il crash quando si faceva clic su un canvas vuoto mentre era in&nbsp;caricamento</li>
 <li>Risolto <span class="caps">FTBFS</span> quando si esegue il build con il compilatore&nbsp;clang</li>
-<li>Aggiunta la chiave di parole chiave al file&nbsp;.desktop</li>
+<li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
 </ul>
 <h3>caja&nbsp;1.8.2</h3>
 <ul>
 <li>Risolto il rendering del testo su nessuno&nbsp;sfondo</li>
-<li>Limitato il deep scount (dimensione e contenuti della cartella) ad un file&nbsp;system</li>
-<li>Gestita le cancellazioni delle chiavi&nbsp;metadato</li>
-<li>Propagato l&#8217;evento pumsante-rilasciato quando si&nbsp;espelle</li>
+<li>Limitato il deep scount (dimensione e contenuto della cartella) ad un file&nbsp;system</li>
+<li>Gestite le cancellazioni delle chiavi&nbsp;metadata</li>
+<li>Propagato l&#8217;evento pulsante-rilasciato quando si&nbsp;espelle</li>
 </ul>
 <h3>engrampa&nbsp;1.8.1</h3>
 <ul>
@@ -627,24 +629,24 @@ a tempo debito. <span class="caps">SI</span> veda più oltre i cambiamenti&nbsp;
 <h3>mate-control-center&nbsp;1.8.3</h3>
 <ul>
 <li>Risolto un errore in togglekeys-enable&nbsp;(a11y)</li>
-<li>Risolto il segfault con l&#8217;associazione di tasti&nbsp;personalizzate</li>
+<li>Risolto il segfault con le associazioni di tasti&nbsp;personalizzate</li>
 <li>Aggiunto il supporto per il tema metacity-2 nella capplet&nbsp;aspetto</li>
 <li>Aggiunte diverse pagine&nbsp;man</li>
 <li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
-<li>Aggiornato il nome Marco&nbsp;<span class="caps">VM</span></li>
+<li>Aggiornato il nome Marco&nbsp;<span class="caps">WM</span></li>
 </ul>
 <h3>mate-netbook&nbsp;1.8.1</h3>
 <ul>
-<li>Risolto il segfault  al cariamento della&nbsp;applet</li>
+<li>Risolto il segfault  al caricamento&nbsp;dell&#8217;applet</li>
 <li>aggiunta la pagina&nbsp;man</li>
 </ul>
 <h3>mate-panel&nbsp;1.8.1</h3>
 <ul>
-<li>Risolto il menù contestuale &#8220;Aggiungi al pannello&#8221; con più&nbsp;monitor</li>
+<li>Corretto il menù contestuale &#8220;Aggiungi al pannello&#8221; con più&nbsp;monitor</li>
 </ul>
 <h3>mate-power-manager&nbsp;1.8.1</h3>
 <ul>
-<li>Risolto l&#8217;avviso &#8220;i livelli sono 0&#8221; se non è presente nessuna backlight sulla&nbsp;tastiera</li>
+<li>Corretto l&#8217;avviso &#8220;i livelli sono 0&#8221; se non è presente nessuna retroilluminazione della&nbsp;tastiera</li>
 <li>Aggiunto il supporto per l&#8217;<span class="caps">API</span>&nbsp;upower-0.99</li>
 <li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
 <li>Rimossa la logica <em>&#8220;battery&nbsp;recall&#8221;</em>
@@ -652,30 +654,30 @@ a tempo debito. <span class="caps">SI</span> veda più oltre i cambiamenti&nbsp;
 </ul>
 <h3>mate-screen-saver&nbsp;1.8.1</h3>
 <ul>
-<li>Risoloto il segfault in mancanza di&nbsp;<span class="caps">XRANDR</span></li>
+<li>Corretto il segfault in mancanza di&nbsp;<span class="caps">XRANDR</span></li>
 </ul>
 <h3>mate-settings-daemon&nbsp;1.8.2</h3>
 <ul>
 <li>Sostituito  googlemusicframe con&nbsp;nuvolaplayer</li>
-<li>Schema aggiornato per l&#8217;utilizzo dello script di shell&nbsp;commuta</li>
+<li>Schema aggiornato per l&#8217;utilizzo di toggle shell&nbsp;script </li>
 </ul>
 <h3>mate-system-tools&nbsp;1.8.1</h3>
 <ul>
-<li>Risolti gli errori liboobs di processo nella funzione callback&nbsp;di <code>mate-users-admin</code>
+<li>Corretti gli errori di processo liboobs nella funzione callback&nbsp;di <code>mate-users-admin</code>
 </li>
-<li>Risolto il possibile segfault all&#8217;uscita&nbsp;da <code>mate-users-admin</code>
+<li>Corretto il possibile segfault all&#8217;uscita&nbsp;da <code>mate-users-admin</code>
 </li>
 </ul>
 <h3>mate-terminal&nbsp;1.8.1</h3>
 <ul>
-<li>Risolta l&#8217;apertura di un nuovo terminale in una&nbsp;scheda</li>
-<li>Aggiunti i duepunti per PATHCHARS_CLASS per il riconoscimento&nbsp;dell&#8217;<span class="caps">URL</span></li>
+<li>Corretta l&#8217;apertura di un nuovo terminale in una&nbsp;scheda</li>
+<li>Aggiunti i due punti a PATHCHARS_CLASS per il riconoscimento&nbsp;dell&#8217;<span class="caps">URL</span></li>
 </ul>
 <h3>mate-utils&nbsp;1.8.1</h3>
 <ul>
 <li>Aggiunta la chiave keywords al file&nbsp;.desktop</li>
-<li>Aggiustate diverse pagine&nbsp;man</li>
-<li>Risolto l&#8217;avviso di sicurezza del&nbsp;formato <code>gsearchtool</code>
+<li>Corrette diverse pagine&nbsp;man</li>
+<li>Corretto il warning format-security&nbsp;di <code>gsearchtool</code>
 </li>
 </ul>
 <h3>python-caja&nbsp;1.8.1</h3>
@@ -697,8 +699,8 @@ a tempo debito. <span class="caps">SI</span> veda più oltre i cambiamenti&nbsp;
     </header><div class="e-content entry-content">
     <div>
 <p>Grazie agli sforzi dei  <a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members">manutentori dei pacchetti di <span class="caps">MATE</span> per Debian</a>
-<span class="caps">MATE</span> 1.8.1 è dispoinibile in Debian Jessie (testing) e anche
-<a href="https://backports.debian.org">Debian backports</a> per&nbsp;Wheezy</p>
+<span class="caps">MATE</span> 1.8.1 è dispoinibile in Debian Jessie (testing) ed anche
+in <a href="https://backports.debian.org">Debian backports</a> per&nbsp;Wheezy</p>
 <p>Come conseguenza di <span class="caps">MATE</span> 1.8.1 che è entrato nelle repository di Debian testing
 all&#8217;inizio di quest&#8217;anno, <span class="caps">MATE</span> 1.8.1 è anche disponibile nell&#8217;archivio ufficiale
 di  Ubuntu 14.10 Utopic Unicorn. Il Team <a href="https://ubuntu-mate.org">Ubuntu <span class="caps">MATE</span></a>
@@ -756,14 +758,14 @@ proposte di studenti e ci sono stati assegnati 3 slot per i progetti degli&nbsp;
 <li>Avishkar Gupta lavorerà per aggiungere le capacità per il rendering ePub ad
   Atril, il visualizzatore di documenti per il desktop&nbsp;<span class="caps">MATE</span>.</li>
 <li>Michal Ratajsky lavorerà per aggiungere il supporto a GStreamer 1.0 nell&#8217;ambiente
-  desktop <span class="caps">MATE</span> in modo da sostituire le dipendenze basate sulla libreri deprecata
+  desktop <span class="caps">MATE</span> in modo da sostituire le dipendenze basate sulla libreria deprecata
   GStreamer&nbsp;0.10</li>
 <li>Alexander van der Meij lavorerà per migliorare Caja extensions così che esse
   possano essere integrate durante l&#8217;esecuzione e creare inoltre una singola interfaccia utente per
   la configurazione di Caja&nbsp;extensions.</li>
 </ul>
-<p>Vi prego di unirmi a me nel dare il benvenuto a questi nuovi collaboratori nel team <span class="caps">MATE</span> e
-nell&#8217;augurargli ogni successo per i loro progetti per&nbsp;l&#8217;estate.</p>
+<p>Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel team <span class="caps">MATE</span> e
+nell&#8217;augurargli ogni successo per i loro progetti&nbsp;dell&#8217;estate.</p>
 <p>A nome dell&#8217;intero team <span class="caps">MATE</span> vorrei estendere i ringraziamenti e
 la nostra gratitudine ad  <a href="https://www.opensuse.org">openSUSE</a> che sono i nostri organizzatori GSoC perché
 2014. hanno fatto un lavoro fantastico nell&#8217;aiutare a garantire questi assegnamenti GSoC per
@@ -813,7 +815,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

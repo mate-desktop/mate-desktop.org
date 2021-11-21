@@ -3,16 +3,16 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presenta alla conferenza openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 20 Luglio 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; ha presentato la sua discussione
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stefano presenta alla conferenza openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Il 20 Luglio 2013 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; ha presentato la sua discussione
 su MATE alla Conferenza  &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
-le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioni, GNOME Classic e GNOME Fallback,
+le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioniù GNOME Classic e GNOME Fallback,
 e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.&lt;/p&gt;
 &lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Modifiche a mate-notification-daemon</title><link>https://preview.mate-desktop.dev/it/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; ha una nuova funzionalità in MATE 1.6 che consente
 agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
 comportamento attuale mostrale notifiche solo sul monitor correntemente attivo (cioè quello su cui si trova il puntatore del mouse). Il comportamento sarà per default quello che si è sempre avuto in precedenza, ma l'utente può cambiare le impostazioni modificando le chiavi "use-active-monitor"
 e "monitor-number" mediante &lt;code&gt;dconf-editor&lt;/code&gt; o eseguendo
-&lt;code&gt;mate-notification-properties&lt;/code&gt; e modificando le impostazioni da una Inerfaccia Utente Grafica.&lt;/p&gt;
+&lt;code&gt;mate-notification-properties&lt;/code&gt; e modificando le impostazioni da una Interfaccia Utente Grafica.&lt;/p&gt;
 &lt;p&gt;Qui sotto c'è uno screenshot di &lt;code&gt;mate-notification-properties&lt;/code&gt; impostato per mostrare le notifiche su un monitor attivo. Si noti che "Use Active Monitor" è selezionato, il che disabilita la combobox per selezionare un monitor.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="active" src="https://preview.mate-desktop.dev/assets/img/blog/active-300x235.png"&gt;&lt;/p&gt;
 &lt;p&gt;Qui sotto c'è uno screenshot di &lt;code&gt;mate-notification-properties&lt;/code&gt; impostato per mostrare le notifiche su uno specifico monitor. Si noti che "Use Active Monitor" &lt;strong&gt;non&lt;/strong&gt; è
@@ -39,17 +39,17 @@ e aggiungere quelli nuovi, altrimenti incontrerete dei problemi.&lt;/p&gt;&lt;/d
 &lt;li&gt;Il pacchetto &lt;code&gt;caja-dropbox&lt;/code&gt; adesso è disponibile&lt;/li&gt;
 &lt;li&gt;Nuovi temi aggiunti a &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Rimosso &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Condivisione di file adesso disponibile via Bluetooth&lt;/li&gt;
+&lt;li&gt;La condivisione dei file adesso è disponibile via Bluetooth&lt;/li&gt;
 &lt;li&gt;Aggiunta una opzione per impiegare il veloce alt-tab quando è attivo il compositing in &lt;code&gt;marco&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Disponibile da ora &lt;code&gt;mate-icon-theme-faenza&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Disponibile da adesso &lt;code&gt;mate-character-map&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Disponibile da ora &lt;code&gt;mate-character-map&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; adesso supporta il cambio di utente di GDM&lt;/li&gt;
-&lt;li&gt;Rimosso nyancat dalla finestra di dialogo mate-desktop about&lt;/li&gt;
-&lt;li&gt;Dderivato &lt;code&gt;libwnck&lt;/code&gt; come &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Rimosso nyancat dalla finestra di dialogo mate-desktop informazioni&lt;/li&gt;
+&lt;li&gt;Creato un derivato di &lt;code&gt;libwnck&lt;/code&gt; chiamato &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Miglioramenti di Caja:&lt;ul&gt;
-&lt;li&gt;Ripristinato l'uso dei pulsanti per la barra della posizione basata sul testo&lt;/li&gt;
+&lt;li&gt;Ripristinato l'uso dei pulsanti per la barra delle posizioni basata sul testo&lt;/li&gt;
 &lt;li&gt;I segnalibri possono essere aperti dal pannello laterale posizioni mediante tasto invio o barra spaziatrice&lt;/li&gt;
-&lt;li&gt;Aggiunto un pulsante per visualizzar le differenze tra file nel dialogo file in conflitto&lt;/li&gt;
+&lt;li&gt;Aggiunto un pulsante per visualizzare le differenze tra file nella finestra di dialogo file in conflitto&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;</description><category>News</category><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Riportare Bug</title><link>https://preview.mate-desktop.dev/it/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Stiamo attualmente muovendoci per gestire tutti i nostri issues con il &lt;a href="https://github.com/mate-desktop"&gt;progetto mate-desktop su GitHub&lt;/a&gt; invece che attraverso la pagina di Perberos. La ragione è semplice: quando Perberos è assente, nessuno degli altri sviluppatori può chiudere i ticket. Questo crea un po' di confusione.&lt;/p&gt;
@@ -60,9 +60,9 @@ inviate la richiesta di correzione sul tracciatore di issue di  &lt;code&gt;mate
 &lt;p&gt;per favore fate riferimento a questo wiki da ora in poi. Naturalmente chiunque è benvenuto a contribuire.&lt;/p&gt;
 &lt;p&gt;Per quelli di voi che non lo sanno ancora, potete &lt;a href="https://github.com/mate-desktop/"&gt;riportare problemi su github&lt;/a&gt;. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
 Lo annunceremo qui quando sarà pronto.&lt;/p&gt;
-&lt;p&gt;Abbiamo anche progetti per un forum MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
+&lt;p&gt;Abbiamo anche progetti futuri per un forum di MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
 &lt;p&gt;Per quelli di voi che utilizzano &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
-e &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, potete accedere al ramo di sviluppo 1.1.x dei
+e &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, è possibile accedere al ramo di sviluppo 1.1.x dei
 nostri pacchetti utilizzando il repository tridex. Visitate la  &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;pagina di download&lt;/a&gt;
 sul wiki per maggiori informazioni. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; ha anche i nostri
 pacchetti del rilascio 1.0.x nei loro repository. Se qualcuno sta ancora utilizzando il PPA di Amanas, questo non è più supportato. Il resto dei nostri rilasci 1.1.x saranno ospitati sui repository tridex.
@@ -71,5 +71,5 @@ I rilasci futuri (es. 1.2.0) saranno ospitati qui.&lt;/p&gt;
 Quando avremo più informazioni le riporteremo sul nostro wiki e faremo un annuncio.&lt;/p&gt;
 &lt;p&gt;Infine, abbiamo avuto diversi individui che si sono uniti al &lt;a href="https://web.libera.chat/?#mate"&gt;nostro canale IRC&lt;/a&gt;
 che ci hanno chiesto di edibuild  &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; per MATE. Detto questo,
-cerchiamo gente che siano disposte ad organizzarli.&lt;/p&gt;
+cerchiamo persone che siano disposte ad organizzarli.&lt;/p&gt;
 &lt;p&gt;Buone Vacanze dal Team MATE.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

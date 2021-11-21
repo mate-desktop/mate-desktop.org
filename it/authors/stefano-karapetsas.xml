@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Incontra la mente di MATE</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:57 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Incontrate la mente di MATE</title><link>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all'Episodio 347 del &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; per
 parlare un po' del Desktop MATE, da dove ha avuto origine e dove è diretto.
 L'intervista con me è inserita qui sotto.&lt;/p&gt;
@@ -17,13 +17,13 @@ voi sul &lt;a href="https://web.libera.chat/?#mate"&gt;canale #mate di IRC&lt;/a
 recensire le vostre &lt;a href="https://github.com/mate-desktop"&gt;pull-requests su GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di 
 videocast e podcast settimanali principalmente orientati su FLOSS. Date un'occhiata,
-potreste trovare qualcosa che vi può interessare.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Rilasciato MATE 1.8</title><link>https://preview.mate-desktop.dev/it/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team è orgoglioso di annunciare il rilascio di MATE Desktop 1.8. Vorremmo 
+potreste trovare qualcosa che vi interessa.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Rilasciato MATE 1.8</title><link>https://preview.mate-desktop.dev/it/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team è orgoglioso di annunciare il rilascio di MATE Desktop 1.8. Vorremmo 
 ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.8.png"&gt;&lt;/p&gt;
 &lt;p&gt;I cambiamenti principali in 1.8 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunta una opzione per utilizzare le unità IEC anziché SI&lt;/li&gt;
+&lt;li&gt;Aggiunta una opzione per utilizzare le unità IEC anziché quelle SI&lt;/li&gt;
 &lt;li&gt;Aggiunta l'opzione "Apri posizione genitrice" nel menù contestuale della visualizzazione di ricerca&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Marco (gestore delle finestre)&lt;/strong&gt;&lt;/p&gt;
@@ -33,7 +33,7 @@ ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pannello&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Aggiunto il supporto per il keybinding di Metacity nel dialogo esegui e nel menù principale&lt;/li&gt;
-&lt;li&gt;Aggiunta una barra di progresso al dialogo disconnettiti&lt;/li&gt;
+&lt;li&gt;Aggiunta una barra di progresso alla finestra di dialogo logout&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Centro di controllo&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -45,7 +45,7 @@ ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Eye Of MATE (visualizzatore di immagini)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunto la modalità shuffle alla presentazione&lt;/li&gt;
+&lt;li&gt;Aggiunta la modalità shuffle alla presentazione&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Engrampa (archiviatore di file)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -72,11 +72,11 @@ ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;li&gt;Unite tutte le estensioni di Caja in un solo pacchetto&lt;/li&gt;
 &lt;li&gt;Rimossa l'applet luci del modem, poiché l'applet netspeed offre una funzionalità simile&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Altre migliorie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Altri miglioramenti&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Risolte molte linee di codice deprecato&lt;/li&gt;
+&lt;li&gt;Corrette molte linee di codice deprecato&lt;/li&gt;
 &lt;li&gt;Eliminati molti bug&lt;/li&gt;
-&lt;li&gt;Migliorato il sistema di build&lt;/li&gt;
+&lt;li&gt;Migliorato il sistema di compilazione&lt;/li&gt;
 &lt;li&gt;Aggiunte e migliorate molte traduzioni&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -91,10 +91,10 @@ nostro Ambiente Desktop&lt;/p&gt;
 &lt;p&gt;Alcuni dei nostri utenti affermano di voler rimanere con GNOME 2; perché
 gli piacciono le cose come erano solite essere, eseguono vecchi hardware o vogliono
 un desktop più leggero. Dato che GNOME 2 non è più supportato e sarà eventualmente
-rimosso dalla nostra meta distribuzione a causa di vari problemi legati al mantenimento, regressioni e
+rimosso dalla nostra meta distribuzione a causa di vari problemi legati alla manutenzione, regressioni e
 problemi di sicurezza; MATE riporta in auge una vecchia gloria con un team di sviluppo attivo.
 La loro prosecuzione dello sviluppo di GNOME 2 risolve problemi evidenti, introduce funzionalità nuove
-ed utili e mantiene viva e scalciante la buona vecchia esperienza.&lt;/p&gt;
+ed utili e mantiene viva e vegeta la buona vecchia esperienza.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;, Co-sviuppatore del &lt;a href="https://mateslackbuilds.github.io/"&gt;Progetto MATE SlackBuilds&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -102,8 +102,7 @@ ed utili e mantiene viva e scalciante la buona vecchia esperienza.&lt;/p&gt;
 la stabilità, e i rilasci senza scadenza prefissata. Viene rilasciato quando è pronto
 e mantiene la stessa metafora  che si è dimostrata funzionare bene. MATE è
 anche semplice da mantenere e da integrare su Slackware da quando Patrick
-Volkerding ha dato una base solida come substrato su cui MATE potrebbe
-riempire il bisogno di Ambienti Desktop basati su GNOME che Slackware non possiede più dal 2005. Aspetto con trepidazione le modifiche evolutive che gli sviluppatori MATE
+Volkerding ha dato una solida base come substrato su cui MATE potrebbe colmare il bisogno di Ambienti Desktop basati su GNOME che Slackware non possiede più dal 2005. Aspetto con trepidazione le modifiche evolutive che gli sviluppatori MATE
 integreranno nella successiva major-release di MATE.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;, Co-sviluppatorfe del &lt;a href="https://mateslackbuilds.github.io/"&gt;Progetto MATE SlackBuilds&lt;/a&gt;:&lt;/p&gt;
@@ -126,13 +125,13 @@ inviare loro le nostre congratulazioni.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, fondatore e capo progetto di &lt;a href="https://www.linuxmint.com/"&gt;Linux Mint&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;MATE porta con orgoglio i colori di GNOME 2 e continua dove il progetto
-ha lasciato. In molti modi e per molta gente MATE li fa sentire come a casa.
+&lt;p&gt;MATE porta con orgoglio i colori di GNOME 2 e continua da dove il progetto
+era stato lasciato. In molti modi e per molta gente MATE li fa sentire come a casa.
 È semplice, stabile e completo. Mentre i desktop più recenti sperimentano
 con nuovi concetti, MATE fornisce un ambiente che funziona esattamente come ci si
 aspetta. È popolare tra i nostri utenti ed è il desktop su cui
 Linux Mint ha costruito la sua tecnologia ed identità dal 2006. Siamo molto orgogliosi
-e molto felici di supportare MATE e felici di ogni nuovo rilascio.&lt;/p&gt;
+e molto felici di supportare MATE e deliziati ad ogni nuovo rilascio.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, manutentore MATE in &lt;a href="https://fedoraproject.org/"&gt;Fedora&lt;/a&gt;: &lt;/p&gt;
 &lt;blockquote&gt;
@@ -150,7 +149,7 @@ nell'estate del 2014.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;, manutentore MATE per &lt;a href="https://www.archlinux.org/"&gt;Arch Linux&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;MATE è stato originariamente creato da un utente di Arch Linux e sono lieto che MATE sia
-ora disponibile nei repository ufficiali dei pacchetti Arch Linux e Arch Linux ARM. MATE fornisce un'esperienza desktop completo, completamente integrato e reattivo
+adesso disponibile nei repository ufficiali dei pacchetti Arch Linux e Arch Linux ARM. MATE fornisce un'esperienza desktop completa, completamente integrata e reattiva
 tradizionale e fornisce un flusso di lavoro coerente sul mio &lt;a href="https://preview.mate-desktop.dev/it/blog/2014-03-04-mate-1-8-released/www.raspberrypi.org"&gt;Raspberry Pi&lt;/a&gt;,
 &lt;a href="https://www.solid-run.com/cubox"&gt;CuBox Pro&lt;/a&gt;, laptop e desktop. Geniale!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -173,10 +172,11 @@ in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&l
 &lt;li&gt;[Vangelis Mouhtsis]&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://outflux.net/"&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Se desiderate unirvi al team, per favore contattate i membri su IRC nel canale @ OFTC. di &lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt; &lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>MATE al Summit openSUSE </title><link>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
+&lt;p&gt;Se desiderate unirvi al team, per favore contattate i membri su IRC nel canale @ OFTC di
+&lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>MATE al Summit openSUSE </title><link>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Summit" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, ambasciatore openSUSE e membro del openSUSE MATE social
 media team, mostrerà &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
-al &lt;a href="https://summit.opensuse.org/"&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà in Orlando, Florida,
+al &lt;a href="https://summit.opensuse.org/"&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà ad Orlando, Florida,
 Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
 &lt;p&gt;La discussione sarà disponibile su &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;questa pagina&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>Nuovi repository per openSUSE</title><link>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;Sulla strada per rendere MATE ufficialmente disponibile su &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
@@ -189,8 +189,7 @@ versione della vostra distribuzione openSUSE:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Grazie!&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Rilasciato MATE 1.6</title><link>https://preview.mate-desktop.dev/it/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un passo enorme in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito
-molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
+&lt;p&gt;Grazie!&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/it/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Rilasciato MATE 1.6</title><link>https://preview.mate-desktop.dev/it/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
@@ -200,12 +199,12 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;li&gt;Aggiunto il supporto per &lt;code&gt;systemd-logind&lt;/code&gt; in &lt;code&gt;mate-session-manager&lt;/code&gt; e &lt;code&gt;mate-screensaver&lt;/code&gt;
   e &lt;code&gt;mate-power-manager&lt;/code&gt; (adesso si può riavviare/spegnere senza ConsoleKit)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caja (gestore dei file)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Migliorata la barra laterale delle posizioni&lt;/li&gt;
 &lt;li&gt;Aggiunto il supporto per nuove specifiche di miniaturizzazione&lt;/li&gt;
 &lt;li&gt;Aggiunta una nuova cornice per le miniature&lt;/li&gt;
-&lt;li&gt;Gli sfondi adesso vengono caricati in cache per una migliore gestione della menoria&lt;/li&gt;
+&lt;li&gt;Gli sfondi adesso vengono caricati in cache per una migliore gestione della memoria&lt;/li&gt;
 &lt;li&gt;Un nuovo dialogo per il server di connessione da Nautilus 3&lt;/li&gt;
 &lt;li&gt;Aggiunto il supporto per freedesktop.org&lt;/li&gt;
 &lt;li&gt;Interfaccia DBus del File Manager&lt;/li&gt;
@@ -214,11 +213,11 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Pannello&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunta l'opzione &lt;code&gt;--run-dialog&lt;/code&gt; per aprire la finestra di  dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
+&lt;li&gt;Aggiunta l'opzione &lt;code&gt;--run-dialog&lt;/code&gt; per aprire la finestra di dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
   usare il pulsante centrale del mouse per chiudere una finestra selettore di Spazio di lavoro:&lt;/li&gt;
 &lt;li&gt;Aggiunta una opzione per scorrere tra gli spazi di lavoro con la rotellina del mouse&lt;/li&gt;
 &lt;li&gt;Aggiunto un modo semplice per le distribuzioni per sovrascrivere il layout del pannello predefinito
-  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro layout di pannello attuale.
+  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro attuale layout del pannello .
   Tutte le altre impostazioni saranno portate se avete installato MateConf 1.4.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Marco (gestore delle finestre)&lt;/strong&gt;&lt;/p&gt;
@@ -228,9 +227,9 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Centro di controllo&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Aggiunta l'opzione per abilitare il gestore di compositing Marco e spostarsi rapidamente con alt-tab tra le preferenze della finestra&lt;/li&gt;
-&lt;li&gt;Impostare il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione&lt;/li&gt;
-&lt;li&gt;Utilizzare le stesse impostazioni proxy di GNOME del pacchetto &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Applicazioni predefinite: consentire di impostare il terminale predefinito&lt;/li&gt;
+&lt;li&gt;Impostato il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione&lt;/li&gt;
+&lt;li&gt;Utilizzate le stesse impostazioni proxy di GNOME del pacchetto &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Applicazioni predefinite: consente di impostare il terminale predefinito&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Atril (visualizzatore di documenti)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -238,12 +237,12 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Calc&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiornato il codebase&lt;/li&gt;
+&lt;li&gt;Aggiornato il codice base&lt;/li&gt;
 &lt;li&gt;Aggiunti i pulsanti per per il supporto delle funzioni trigonometriche inverse&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Demone delle notifiche&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunta l'opzione per &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specificare su quale schermo ,mostrare le notifiche&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aggiunta l'opzione per &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specificare su quale schermo mostrare le notifiche&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mostrare sempre una notifica se lo schermo ha come timeout 'non spegnere mai' (anche se lo screensaver è attivo o o ci sono finestre a schermo pieno attive)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Temi&lt;/strong&gt;&lt;/p&gt;
@@ -261,7 +260,7 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Applet Netbook&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Abilitare le prestazioni massime solo se l'applet del window picker è aggiunta al pannello&lt;/li&gt;
+&lt;li&gt;Abilitato maximus solo se l'applet del window picker è aggiunta al pannello&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Pacchetti eliminati&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -278,9 +277,9 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Altre migliorie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Altri miglioramenti&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fissato molto codice deprecato&lt;/li&gt;
+&lt;li&gt;Corretto molto codice deprecato&lt;/li&gt;
 &lt;li&gt;Eliminati molti bug&lt;/li&gt;
 &lt;li&gt;Aggiunte e migliorate molte traduzioni&lt;/li&gt;
 &lt;/ul&gt;
@@ -305,7 +304,7 @@ e  svilupparlo ulteriormente. Mint e MATE vanno di pari passo e
 il rapporto tra i team è eccellente. Mint ha giocato un ruolo importante
 nella promozione e nel sostegno di MATE e continuiamo ad aiutare il suo
 sviluppo. Siamo molto soddisfatti di MATE, è esattamente quello che volevamo,
-ha iniziato dove GNOME ha lasciato e con ogni nuova iterazione continua a migliorare.&lt;/p&gt;
+ha iniziato da dove GNOME aveva lasciato e con ogni nuovo ciclo continua a migliorare.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Joos Ruis&lt;/strong&gt;, Consulente di strategia di  &lt;a href="https://www.sabayon.org/"&gt;Sabayon&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -323,8 +322,7 @@ nuove versioni di Fedora, ora posso avere la mia Fedora 14 (considerata da molti
 essere la migliore release di Fedora) con finestre tremolanti, desktop
 cubico, animazioni ed effetti 3d. Non posso sottolineare quanto questa sia stata una grande perdita per molti utenti, incluso
 me stesso. Ora con MATE non devo preoccuparmi di cosa si romperà con
-la prossima release di Gnome e quali idee folli di design avranno
-costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
+la prossima release di Gnome e quali folli idee di design avranno, costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
 Con MATE 1.6 posso sentirmi a casa sulla mia distribuzione Linux preferita
 e tornare a lavorare.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -367,13 +365,13 @@ aggiornato a GTK3.6) e un tema figlio di mate-icon-theme con cartelle verdi.&lt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/mate-university"&gt;MATE University&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MATE University è orientato agli sviluppatori di ogni livello (inclusi i principianti)
-per imparare come sviluppare nuove applet del pannello, estensioni del (file manager) Caja,
-plugins per (l'editor di testi) Pluma e per (il visualizzatore di immagini) Eye of MATE etc. per espandere
-la già poderosa esperienza sul Desktop MATE. Ci saranno codice sorgente semplice e ben commentato, makefile e suggerimenti da utilizzare come trampolino per la realizzazione di nuove applicazioni MATE.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Grazie First Colo!</title><link>https://preview.mate-desktop.dev/it/blog/2012-12-27-grazie-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;FirstColo&lt;/a&gt;, gestore di un moderno data center in Germania,
-ha pianificato di migrare a MATE Desktop nei loro uffici. FirstColo ha donato al progetto
-un nuovo server dedicato, per supportare il suo sviluppo.&lt;/p&gt;
-&lt;p&gt;L'intero team ringrazia Martin Verges ed il suo staff per questa grande novità!&lt;/p&gt;&lt;/div&gt;</description><category>FirstColo</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2012-12-27-grazie-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>Rilasciato MATE 1.2</title><link>https://preview.mate-desktop.dev/it/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il Team è orgoglioso di annunciare il rilascio di &lt;strong&gt;MATE 1.2&lt;/strong&gt;. Questo rilascio è
+per imparare come sviluppare nuove applet del pannello, estensioni di Caja (file manager),
+plugin per Pluma (l'editor di testi) e per Eye of MATE (il visualizzatore di immagini), etc. per espandere
+la già poderosa esperienza sul Desktop MATE. Ci saranno codice sorgente semplice e ben commentato, makefile e suggerimenti da utilizzare come trampolino per la realizzazione di nuove applicazioni MATE.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Grazie, First Colo!</title><link>https://preview.mate-desktop.dev/it/blog/2012-12-27-grazie-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;FirstColo&lt;/a&gt;, è gestore di un moderno data center in Germania, e
+ha pianificato di portare MATE Desktop sulle loro workstations d'ufficio. FirstColo 
+ha gentilmente donato un nuovo server dedicato, per supportare MATE.&lt;/p&gt;
+&lt;p&gt;L'intero team ringrazia Martin Verges ed il suo staff per questa grande notizia!&lt;/p&gt;&lt;/div&gt;</description><category>FirstColo</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2012-12-27-grazie-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>Rilasciato MATE 1.2</title><link>https://preview.mate-desktop.dev/it/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il Team è orgoglioso di annunciare il rilascio di &lt;strong&gt;MATE 1.2&lt;/strong&gt;. Questo rilascio è
 un grande passo in avanti rispetto le versioni di sviluppo 1.0 e 1.1. MATE è più stabile che mai ed include il supporto per molte più applicazioni, applet
 e backends.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE 1.2" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.2.png"&gt;&lt;/p&gt;
@@ -389,7 +387,7 @@ e backends.&lt;/p&gt;
 &lt;li&gt;Artwork&lt;ul&gt;
 &lt;li&gt;I temi MATE sono stati rinominati per evitare conflitti con GNOME&lt;/li&gt;
 &lt;li&gt;È stato aggiunto un nuovo sfondo MATE&lt;/li&gt;
-&lt;li&gt;MATE adesso possiede la sua personale icona&lt;/li&gt;
+&lt;li&gt;MATE adesso possiede la sua icona personale&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;</description><category>News</category><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2012-04-16-mate-1-2-released/</guid><pubDate>Mon, 16 Apr 2012 03:48:11 GMT</pubDate></item></channel></rss>

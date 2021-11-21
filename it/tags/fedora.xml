@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:50:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 con GTK3 per Fedora 21 e 22</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;I manutentori del desktop MATE per Fedora sono lieti di annunciare che le build GTK3 sono disponibili per il test in Fedora 21 e 22. Queste build GTK3
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.10 con GTK3 per Fedora 21 e 22</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;I manutentori del desktop MATE per Fedora sono lieti di annunciare che le build GTK3 sono disponibili per il test in Fedora 21 e 22. Queste build GTK3
 funzionano ma soffrono di qualche difetto di rendering di lieve entità, apprezzeremmo il vostro feedback.&lt;/p&gt;
 &lt;h3&gt;Installazione&lt;/h3&gt;
 &lt;p&gt;Installate il file repo ed eseguire uno &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
@@ -28,9 +28,9 @@ $ sudo dnf update
 &lt;/ul&gt;
 &lt;p&gt;Alcune note:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Compiz funzionerà solo con &lt;code&gt;emerald&lt;/code&gt; come decorazione delle finestre.&lt;/li&gt;
+&lt;li&gt;Compiz funzionerà solo con &lt;code&gt;emerald&lt;/code&gt; come window-decorator.&lt;/li&gt;
 &lt;li&gt;Non utilizzate pacchetti GTK2 da Fedora stable e pacchetti GTK3 dalla
-  repo precedente.&lt;/li&gt;
+  repo riportata più in alto.&lt;/li&gt;
 &lt;li&gt;Non utilizzate le seguenti applicazioni MATE con una build GTK3; poiché non sono ancora portate a GTK3:&lt;ul&gt;
 &lt;li&gt;mintMenu e MATE Menu&lt;/li&gt;
 &lt;li&gt;mate-applet-streamer&lt;/li&gt;
@@ -39,8 +39,7 @@ $ sudo dnf update
 &lt;li&gt;caja-terminal&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Fedora</category><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid><pubDate>Thu, 11 Jun 2015 22:30:30 GMT</pubDate></item><item><title>Rilasciato MATE 1.6</title><link>https://preview.mate-desktop.dev/it/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un passo enorme in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito
-molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
+&lt;/ul&gt;&lt;/div&gt;</description><category>Fedora</category><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid><pubDate>Thu, 11 Jun 2015 22:30:30 GMT</pubDate></item><item><title>Rilasciato MATE 1.6</title><link>https://preview.mate-desktop.dev/it/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
@@ -50,12 +49,12 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;li&gt;Aggiunto il supporto per &lt;code&gt;systemd-logind&lt;/code&gt; in &lt;code&gt;mate-session-manager&lt;/code&gt; e &lt;code&gt;mate-screensaver&lt;/code&gt;
   e &lt;code&gt;mate-power-manager&lt;/code&gt; (adesso si può riavviare/spegnere senza ConsoleKit)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caja (gestore dei file)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Migliorata la barra laterale delle posizioni&lt;/li&gt;
 &lt;li&gt;Aggiunto il supporto per nuove specifiche di miniaturizzazione&lt;/li&gt;
 &lt;li&gt;Aggiunta una nuova cornice per le miniature&lt;/li&gt;
-&lt;li&gt;Gli sfondi adesso vengono caricati in cache per una migliore gestione della menoria&lt;/li&gt;
+&lt;li&gt;Gli sfondi adesso vengono caricati in cache per una migliore gestione della memoria&lt;/li&gt;
 &lt;li&gt;Un nuovo dialogo per il server di connessione da Nautilus 3&lt;/li&gt;
 &lt;li&gt;Aggiunto il supporto per freedesktop.org&lt;/li&gt;
 &lt;li&gt;Interfaccia DBus del File Manager&lt;/li&gt;
@@ -64,11 +63,11 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Pannello&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunta l'opzione &lt;code&gt;--run-dialog&lt;/code&gt; per aprire la finestra di  dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
+&lt;li&gt;Aggiunta l'opzione &lt;code&gt;--run-dialog&lt;/code&gt; per aprire la finestra di dialogo per l'esecuzione dell'elenco delle Finestre: è possibile
   usare il pulsante centrale del mouse per chiudere una finestra selettore di Spazio di lavoro:&lt;/li&gt;
 &lt;li&gt;Aggiunta una opzione per scorrere tra gli spazi di lavoro con la rotellina del mouse&lt;/li&gt;
 &lt;li&gt;Aggiunto un modo semplice per le distribuzioni per sovrascrivere il layout del pannello predefinito
-  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro layout di pannello attuale.
+  Sfortunatamente, a seguito della migrazione a GSettings, perderete il vostro attuale layout del pannello .
   Tutte le altre impostazioni saranno portate se avete installato MateConf 1.4.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Marco (gestore delle finestre)&lt;/strong&gt;&lt;/p&gt;
@@ -78,9 +77,9 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Centro di controllo&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Aggiunta l'opzione per abilitare il gestore di compositing Marco e spostarsi rapidamente con alt-tab tra le preferenze della finestra&lt;/li&gt;
-&lt;li&gt;Impostare il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione&lt;/li&gt;
-&lt;li&gt;Utilizzare le stesse impostazioni proxy di GNOME del pacchetto &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Applicazioni predefinite: consentire di impostare il terminale predefinito&lt;/li&gt;
+&lt;li&gt;Impostato il tema GSettings/GConf metacity se compiz o metacity sono in esecuzione&lt;/li&gt;
+&lt;li&gt;Utilizzate le stesse impostazioni proxy di GNOME del pacchetto &lt;code&gt;gsettings-desktop-schemas&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Applicazioni predefinite: consente di impostare il terminale predefinito&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Atril (visualizzatore di documenti)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -88,12 +87,12 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Calc&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiornato il codebase&lt;/li&gt;
+&lt;li&gt;Aggiornato il codice base&lt;/li&gt;
 &lt;li&gt;Aggiunti i pulsanti per per il supporto delle funzioni trigonometriche inverse&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Demone delle notifiche&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Aggiunta l'opzione per &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specificare su quale schermo ,mostrare le notifiche&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aggiunta l'opzione per &lt;a href="https://preview.mate-desktop.dev/blog/2013-01-20-changes-to-mate-notification-daemon/"&gt;specificare su quale schermo mostrare le notifiche&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mostrare sempre una notifica se lo schermo ha come timeout 'non spegnere mai' (anche se lo screensaver è attivo o o ci sono finestre a schermo pieno attive)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Temi&lt;/strong&gt;&lt;/p&gt;
@@ -111,7 +110,7 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Applet Netbook&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Abilitare le prestazioni massime solo se l'applet del window picker è aggiunta al pannello&lt;/li&gt;
+&lt;li&gt;Abilitato maximus solo se l'applet del window picker è aggiunta al pannello&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Pacchetti eliminati&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -128,9 +127,9 @@ ciascun collaboratore e utente di MATE.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Altre migliorie&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Altri miglioramenti&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fissato molto codice deprecato&lt;/li&gt;
+&lt;li&gt;Corretto molto codice deprecato&lt;/li&gt;
 &lt;li&gt;Eliminati molti bug&lt;/li&gt;
 &lt;li&gt;Aggiunte e migliorate molte traduzioni&lt;/li&gt;
 &lt;/ul&gt;
@@ -155,7 +154,7 @@ e  svilupparlo ulteriormente. Mint e MATE vanno di pari passo e
 il rapporto tra i team è eccellente. Mint ha giocato un ruolo importante
 nella promozione e nel sostegno di MATE e continuiamo ad aiutare il suo
 sviluppo. Siamo molto soddisfatti di MATE, è esattamente quello che volevamo,
-ha iniziato dove GNOME ha lasciato e con ogni nuova iterazione continua a migliorare.&lt;/p&gt;
+ha iniziato da dove GNOME aveva lasciato e con ogni nuovo ciclo continua a migliorare.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Joos Ruis&lt;/strong&gt;, Consulente di strategia di  &lt;a href="https://www.sabayon.org/"&gt;Sabayon&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -173,8 +172,7 @@ nuove versioni di Fedora, ora posso avere la mia Fedora 14 (considerata da molti
 essere la migliore release di Fedora) con finestre tremolanti, desktop
 cubico, animazioni ed effetti 3d. Non posso sottolineare quanto questa sia stata una grande perdita per molti utenti, incluso
 me stesso. Ora con MATE non devo preoccuparmi di cosa si romperà con
-la prossima release di Gnome e quali idee folli di design avranno
-costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
+la prossima release di Gnome e quali folli idee di design avranno, costringendomi a reimparare un'interfaccia desktop ad ogni singolo rilascio di Fedora.
 Con MATE 1.6 posso sentirmi a casa sulla mia distribuzione Linux preferita
 e tornare a lavorare.&lt;/p&gt;
 &lt;/blockquote&gt;

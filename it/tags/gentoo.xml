@@ -3,13 +3,13 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nuovo wiki ed altre info</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Siamo passati di recente da un wiki su &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; ad uno nostro disponibile da  &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nuovo wiki ed altre info</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Siamo passati di recente da un wiki su &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; ad uno nostro disponibile da  &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;per favore fate riferimento a questo wiki da ora in poi. Naturalmente chiunque è benvenuto a contribuire.&lt;/p&gt;
 &lt;p&gt;Per quelli di voi che non lo sanno ancora, potete &lt;a href="https://github.com/mate-desktop/"&gt;riportare problemi su github&lt;/a&gt;. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
 Lo annunceremo qui quando sarà pronto.&lt;/p&gt;
-&lt;p&gt;Abbiamo anche progetti per un forum MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
+&lt;p&gt;Abbiamo anche progetti futuri per un forum di MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
 &lt;p&gt;Per quelli di voi che utilizzano &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
-e &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, potete accedere al ramo di sviluppo 1.1.x dei
+e &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, è possibile accedere al ramo di sviluppo 1.1.x dei
 nostri pacchetti utilizzando il repository tridex. Visitate la  &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;pagina di download&lt;/a&gt;
 sul wiki per maggiori informazioni. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; ha anche i nostri
 pacchetti del rilascio 1.0.x nei loro repository. Se qualcuno sta ancora utilizzando il PPA di Amanas, questo non è più supportato. Il resto dei nostri rilasci 1.1.x saranno ospitati sui repository tridex.
@@ -18,5 +18,5 @@ I rilasci futuri (es. 1.2.0) saranno ospitati qui.&lt;/p&gt;
 Quando avremo più informazioni le riporteremo sul nostro wiki e faremo un annuncio.&lt;/p&gt;
 &lt;p&gt;Infine, abbiamo avuto diversi individui che si sono uniti al &lt;a href="https://web.libera.chat/?#mate"&gt;nostro canale IRC&lt;/a&gt;
 che ci hanno chiesto di edibuild  &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; per MATE. Detto questo,
-cerchiamo gente che siano disposte ad organizzarli.&lt;/p&gt;
+cerchiamo persone che siano disposte ad organizzarli.&lt;/p&gt;
 &lt;p&gt;Buone Vacanze dal Team MATE.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

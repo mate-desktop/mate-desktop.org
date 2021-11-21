@@ -101,7 +101,7 @@ syste">
 <a href="../../install/" class="nav-link">インストール</a>
                 </li>
 <li class="nav-item">
-<a href="../../gallery/1.26/english/" class="nav-link">スクリーンショット</a>
+<a href="../../gallery/1.26/japanese/" class="nav-link">スクリーンショット</a>
                 </li>
 <li class="nav-item">
 <a href="../../development/" class="nav-link">ソフトウェア開発</a>
@@ -174,21 +174,21 @@ syste">
 </ul>
 <p><strong>Caja&nbsp;(ファイルマネージャ)</strong></p>
 <ul>
-<li>場所サイドバーを改善</li>
+<li>場所のサイドバーを改善</li>
 <li>新しいサムネイル仕様のサポートを追加</li>
 <li>サムネイル用の新しいフレームを追加</li>
 <li>壁紙がキャッシュされてメモリ管理が向上</li>
 <li>Nautilus 3&nbsp;の新しい接続サーバダイアログ</li>
 <li>freedesktop.org&nbsp;のサポートを追加</li>
 <li>ファイルマネージャ DBus&nbsp;インタフェース</li>
-<li>固定されたバックディレクトリと親ディレクトリの選択</li>
+<li>前のフォルダと親フォルダの選択に関する問題を修正</li>
 <li>Open Terminal Extension&nbsp;でリモート端末の開始をサポート</li>
 </ul>
 <p><strong>パネル</strong></p>
 <ul>
-<li>実行ダイアログウィンドウを開くための <code>--run-dialog</code> オプションを追加。ウィンドウリスト: 次のことが可能&nbsp;マウスの中ボタンを使用してウィンドウのワークスペース切替を閉じます:</li>
-<li>マウスホイールを使用してワークスペース間をラップアラウンドするオプション追加</li>
-<li>既定のパネルレイアウトを変更するための簡単な配布方法を追加
+<li>ダイアログウィンドウの一覧を開く <code>--run-dialog</code> オプションを追加。次のことが可能です。&nbsp;マウスの中クリックでウィンドウのワークスペース切り替え器を閉じることができます。</li>
+<li>マウスホイールでワークスペース間を折り返すオプションを追加</li>
+<li>ディストリビューションが既定のパネルレイアウトを上書きする簡単な方法を追加
   残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
   もし MateConf 1.4&nbsp;がインストールされている場合には、他のすべての設定が移行されます。</li>
 </ul>
@@ -201,7 +201,7 @@ syste">
 <li>ウィンドウの設定で、Marco コンポジットマネージャと fast alt-tab&nbsp;を有効にするオプションを追加</li>
 <li>compiz または metacity が実行されている場合、GSettings/GConf metacity theme&nbsp;を設定</li>
 <li>
-<code>gsettings-desktop-schemas</code> パッケージと同じ <span class="caps">GNOME</span> proxy settings&nbsp;を使用</li>
+<code>gsettings-desktop-schemas</code> パッケージと同じ <span class="caps">GNOME</span>&nbsp;プロキシ設定を使用</li>
 <li>既定のアプリケーション:&nbsp;既定の端末を設定できるよう許可</li>
 </ul>
 <p><strong>Atril&nbsp;(文書ビューア)</strong></p>
@@ -216,7 +216,7 @@ syste">
 <p><strong>通知デーモン</strong></p>
 <ul>
 <li>
-<a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/">通知を表示する画面を指定する</a>&nbsp;オプションが追加されました。</li>
+<a href="../../../blog/2013-01-20-changes-to-mate-notification-daemon/">通知を表示する画面を指定する</a>&nbsp;オプションを追加</li>
 <li>タイムアウトとして &#8216;expires never&#8217; が設定したる場合は常に通知を表示&nbsp;(スクリーンセーバーがアクティブであるか、アクティブな全画面がある場合も同じ)</li>
 </ul>
 <p><strong>テーマ</strong></p>
@@ -227,7 +227,7 @@ syste">
 <li>テキストファイルのプレビューを有効に</li>
 <li>新しいアイコンを追加</li>
 </ul>
-<p><strong>デーモン設定</strong></p>
+<p><strong>デーモンの設定</strong></p>
 <ul>
 <li>メディアキーをメディアプレーヤーに送信するための <span class="caps">MPRIS2</span>&nbsp;サポートを追加</li>
 <li>Caja&nbsp;が非アクティブ時に背景を描画するオプションの追加</li>
@@ -245,7 +245,7 @@ syste">
 <li>
 <code>libmatenotify</code> を <code>libnotify</code> へ置き換え</li>
 <li>
-<code>libmate</code> を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package&nbsp;へ移動</li>
+<code>libmate</code> を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package&nbsp;へ移動)</li>
 <li>非推奨パッケージの削除<ul>
 <li><code>libmateui</code></li>
 <li><code>libmatecanvas</code></li>
@@ -277,9 +277,9 @@ syste">
 <blockquote>
 <p>Fedora 15 がリリースされて以来、私は <span class="caps">MATE</span> を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。<span class="caps">MATE</span> チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、<span class="caps">MATE</span> を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。<span class="caps">MATE</span> 1.6 を使えば、自宅でお気に入りの Linux&nbsp;ディストリビューションを使って仕事に戻ることができます。</p>
 </blockquote>
-<p>私たちはまた、<a href="../../../blog/2012-12-27-thank-you-first-colo/"><span class="caps">MATE</span> サービスのホスト用サーバを寄付された企業</a> コメントをいただきました。以下は <a href="https://www.first-colo.net/en/">FirstColo GmbH</a> の <span class="caps">CEO</span> <strong>Martin Verges</strong>&nbsp;氏からです。</p>
+<p>私たちはまた、<a href="../../../blog/2012-12-27-thank-you-first-colo/"><span class="caps">MATE</span> サービスのホスト用サーバを寄付された企業</a> からもコメントをいただきました。以下は <a href="https://www.first-colo.net/en/">FirstColo GmbH</a> の <span class="caps">CEO</span> <strong>Martin Verges</strong>&nbsp;氏からです。</p>
 <blockquote>
-<p>私たちは <span class="caps">MATE</span> デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップやフリーなソフトウェアを探していました。Debian 7 Wheezy 上の <span class="caps">MATE</span> デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは <span class="caps">MATE</span> チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに <span class="caps">MATE</span> デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も <span class="caps">MATE</span>&nbsp;を使うことでしょう！)。</p>
+<p>私たちは <span class="caps">MATE</span> デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップや自由なソフトウェアを探していました。Debian 7 Wheezy 上の <span class="caps">MATE</span> デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは <span class="caps">MATE</span> チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに <span class="caps">MATE</span> デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も <span class="caps">MATE</span>&nbsp;を使うことでしょう！)。</p>
 </blockquote>
 <p><span class="caps">MATE</span> 1.6 は、8ヶ月に及ぶ精力的な開発の成果であり、39名の人々が行った 1800件の寄与、および&nbsp;150名以上の翻訳者による成果です。</p>
 <ul>
@@ -338,7 +338,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

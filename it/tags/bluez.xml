@@ -3,15 +3,15 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop canta il BlueZ</title><link>https://preview.mate-desktop.dev/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href="https://github.com/blueman-project/blueman"&gt;progetto Blueman&lt;/a&gt; ed aiutando ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop canta il BlueZ</title><link>https://preview.mate-desktop.dev/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href="https://github.com/blueman-project/blueman"&gt;progetto Blueman&lt;/a&gt; ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
 &lt;h3&gt;Perché abbandonare mate-bluetooth?&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo. Portare &lt;code&gt;mate-bluetooth&lt;/code&gt; a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in Blueman.&lt;/p&gt;
 &lt;h3&gt;Perché Blueman? Non è un progetto morto?&lt;/h3&gt;
 &lt;p&gt;Sebbene il progetto originale Blueman fosse stagnante, &lt;a href="https://github.com/cschramm"&gt;Christopher Schramm&lt;/a&gt;
 ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per MATE.&lt;/p&gt;
 &lt;h3&gt;Quando sarà pronta la versione aggiornata di Blueman?&lt;/h3&gt;
-&lt;p&gt;Gli osservatori tra voi possono aver notato che l'&lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;annuncio di rilascio di MATE 1.8&lt;/a&gt;
-menzionava già il fatto che &lt;code&gt;mate-bluetooth&lt;/code&gt; è stato sostituito con Blueman
+&lt;p&gt;Qualcuno di voi potrebbe aver notato che l'&lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;annuncio di rilascio di MATE 1.8&lt;/a&gt;
+menzionava già il fatto che &lt;code&gt;mate-bluetooth&lt;/code&gt; era stato sostituito con Blueman
 e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
 non è ancora stata rilasciata. Si, abbiamo commesso un errore, scusateci.&lt;/p&gt;
 &lt;p&gt;Mentre riconosciamo di aver sbagliato, stiamo attivamente contribuendo nello sforzo di portare Blueman a BlueZ 5.x e all'introspezione di GObject. Speriamo di averlo pronto

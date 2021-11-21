@@ -3,12 +3,12 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 24 Aug 2021 20:51:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Live CD del Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:54 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Live CD del Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; Il LiveCD è stato aggiornato a MATE 1.8 il 10 Marzo 2014.&lt;/div&gt;
 
 &lt;p&gt;Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
 in modo non distruttivo. L'immagine può essere masterizzata su un DVD,
-montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come &lt;code&gt;dd&lt;/code&gt;. &lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; fate attenzione,  &lt;code&gt;unetbootin&lt;/code&gt; non è supportato. Potete scaricarlo qui sotto:&lt;/p&gt;
+montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come &lt;code&gt;dd&lt;/code&gt;. &lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; fate attenzione,  &lt;code&gt;unetbootin&lt;/code&gt; non è supportato. Potete scaricarlo dal link qui sotto:&lt;/p&gt;
 &lt;h4&gt;download via BitTorrent (raccomandato)&lt;/h4&gt;
 &lt;p&gt;Se potete, per favore lasciate il client aperto
 dopo che è terminato il download, in modo da renderlo disponibile ad altri. &lt;em&gt;Si raccomanda un client capace di web-seed
@@ -93,7 +93,7 @@ del desktop MATE. Una volta che avrete provato il Live CD del Desktop MATE
 fateci sapere cosa ne pensate nei commenti o usate il Live CD per unirvi a noi 
 nel &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;canale IRC #mate&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>LiveCD</category><category>News</category><guid>https://preview.mate-desktop.dev/it/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE è disponibile ufficialmente su Arch Linux</title><link>https://preview.mate-desktop.dev/it/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE ha finalmente trovato la strada di casa.&lt;/p&gt;
 &lt;p&gt;Come qualcuno di voi potrebbe sapere, MATE è stato creato da un utente&lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;,
-Perberos. È piuttosto ironico il fatto che MATE non sia stato fornito ni repository ufficiali di Arch Linux fino ad oggi. Esatto,
+Perberos. È piuttosto ironico il fatto che MATE non sia stato fornito nei repository ufficiali di Arch Linux fino ad oggi. Esatto,
 MATE è finalmente disponibile nel repository di pacchetti &lt;code&gt;[community]&lt;/code&gt; di Arch Linux!.&lt;/p&gt;
 &lt;p&gt;Potete trovare ogni informazione necessaria ad installare MATE
 su Arch Linux dalle pagine wiki seguenti:&lt;/p&gt;
@@ -101,17 +101,17 @@ su Arch Linux dalle pagine wiki seguenti:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://wiki.archlinux.org/index.php/MATE"&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vale la pena di notare che il repository di pacchetti non ufficiali di MATE sarà rimosso una volta che i mirror Arch Linux saranno sincronizzati.
-Pertanto andate ed aggiornate &lt;code&gt;/etc/pacman.conf&lt;/code&gt; e rimuovete il
+Pertanto andate ad aggiornare &lt;code&gt;/etc/pacman.conf&lt;/code&gt; e rimuovete il
 repository di pacchetti &lt;code&gt;[mate]&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;L'altro vantaggio di mettere MATE nei repository dei pacchetti di Arch Linux ufficiali
 è che MATE sarà anche sui repository di pacchetti &lt;a href="https://archlinuxarm.org/"&gt;Arch Linux ARM&lt;/a&gt;.
 Posso quindi finalmente ritirare i build &lt;em&gt;"server"&lt;/em&gt; per Raspberry Pi (armv6h) e
 Cubox Pro (armv7h). Non sono sicuro di quanto ci vorrà
 perché tutti i pacchetti MATE siano presenti sul repository di pacchetti Arch Linux ARM, ma ho già visto che alcuni pacchetti sono stati costruiti.&lt;/p&gt;
-&lt;p&gt;MATE viene eseguito bene sul Modello B di Raspberry Pi con 512MB di RAM, quindi se avete una Pi e vi avanza una SDCARD, dategli una prova. Scriverò a breve
+&lt;p&gt;MATE viene eseguito bene sul Modello B di Raspberry Pi con 512MB di RAM, quindi se avete una Pi e vi avanza una SDCARD, provatelo. Scriverò a breve
 un post sul blog su come installare Arch Linux e MATE sulla Raspberry Pi con alcuni utili tweak sulla performance.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/it/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>Pacchetti MATE 1.6 per Arch Linux</title><link>https://preview.mate-desktop.dev/it/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I pacchetti MATE 1.6 sono stati disponibili per &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
 già da un pezzo. Dunque perché il post sul blog?&lt;/p&gt;
-&lt;p&gt;Negli ultimi mesi i pacchetti MAT 1.6 per Arch Linux sono stati fissati, ripuliti e migliorati. Qui c'è una panoramica di ciò su cui abbiamo
+&lt;p&gt;Negli ultimi mesi i pacchetti MATE 1.6 per Arch Linux sono stati corretti, ripuliti e migliorati. Qui c'è una panoramica di ciò su cui abbiamo
 lavorato:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tutti i bug specifici di Arch Linux sono stati risolti.&lt;/li&gt;
@@ -127,7 +127,7 @@ lavorato:&lt;/p&gt;
 &lt;li&gt;Scelta dei beckend Pulse Audio e GStreamer.&lt;/li&gt;
 &lt;li&gt;Cherry ha introdotto alcune caratteristiche per &lt;code&gt;systemd&lt;/code&gt; e &lt;code&gt;logind&lt;/code&gt; da MATE 1.7.&lt;/li&gt;
 &lt;li&gt;Cherry ha introdotto alcune caratteristiche per &lt;code&gt;upower&lt;/code&gt; da MATE 1.7.&lt;/li&gt;
-&lt;li&gt;Cherry ha introdotto alcuni bug fixes da MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry ha introdotto alcune correzioni di bug da MATE 1.7.&lt;/li&gt;
 &lt;li&gt;MATE 1.6 PGKBUILDs adesso è sincrinizzato in automatico con l'AUR.&lt;/li&gt;
 &lt;li&gt;Il repository di pacchetti di Arch Linux per MATE adesso è firmato.&lt;/li&gt;
 &lt;/ul&gt;
@@ -138,7 +138,7 @@ su Arch Linux dalla pagina wiki seguente:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vorrei ringraziare in modo speciale:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; per aver lavorato con
+&lt;li&gt;&lt;a href="https://github.com/raveit65"&gt;Wolfgang Ulbrich&lt;/a&gt; per aver lavorato con noi
   Il team sviluppo Fedora per aver cercato fix a &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; e &lt;code&gt;upower&lt;/code&gt;
   che risultano essere grandemente vantaggiosi per Arch Linux e anche per
   aver contribuito a un gran numero di applicazioni della comunità.&lt;/li&gt;
@@ -150,12 +150,12 @@ di mettere MATE nei repository ufficiali di Arch Linux. Si può aiutare
 in questo votando per i pacchetti MATE su AUR.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Introduzione sul Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Benvenuti  nell'Ambiente Desktop MATE!&lt;/p&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>News</category><category>Raspberry Pi</category><guid>https://preview.mate-desktop.dev/it/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Introduzione al Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Benvenuti nell'Ambiente Desktop MATE!&lt;/p&gt;
 &lt;p&gt;Gnome 2 è stato il desktop Linux più diffuso ma non è più disponibile...MATE
 è qui per fornirvi lo stesso desktop &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos all'inizio ha creato una derivazione di Gnome 2 e ha chiamato il progetto MATE. Gli utenti e
 gli sviluppatori hanno eseguito con successo MATE su &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-e in conseguenza della diffusa richiesta, Perberos lo rese più semplice da compilare su
+e in conseguenza della diffusa richiesta, Perberos lo ha reso più semplice da compilare su
 &lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; e &lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt;
 si unirono al progetto e lo resero disponibile come pacchetti per Debian e &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;.

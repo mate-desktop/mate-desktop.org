@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MATE 1.18 released | MATE</title>
+<title>MATE 1.18 を公開しました | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -36,15 +36,14 @@
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Martin Wimpress">
 <link rel="prev" href="../2016-12-22-server-outage/" title="サーバの障害" type="text/html">
-<link rel="next" href="../2018-02-07-mate-1-20-released/" title="MATE 1.20 released" type="text/html">
+<link rel="next" href="../2018-02-07-mate-1-20-released/" title="MATE 1.20 を公開しました" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="MATE 1.18 released">
+<meta property="og:title" content="MATE 1.18 を公開しました">
 <meta property="og:url" content="https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/">
-<meta property="og:description" content="After 6 months of development the MATE Desktop team are proud to
-announce the release of MATE Desktop 1.18. We'd like to thank every
-MATE contributor for their help making this release possible.
+<meta property="og:description" content="6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。
 
-What">
+MATE 1.18 で新しくなったこと
+このリリースは、MATE デスクトップ 1.16 が今だに依存している、一部の非推奨コンポーネントを置き換えるために、GTK3+ への移行を">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-03-13T23:30:00Z">
 <meta property="article:tag" content="Releases">
@@ -98,7 +97,7 @@ What">
 <a href="../../install/" class="nav-link">インストール</a>
                 </li>
 <li class="nav-item">
-<a href="../../gallery/1.26/english/" class="nav-link">スクリーンショット</a>
+<a href="../../gallery/1.26/japanese/" class="nav-link">スクリーンショット</a>
                 </li>
 <li class="nav-item">
 <a href="../../development/" class="nav-link">ソフトウェア開発</a>
@@ -139,7 +138,7 @@ What">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.18&nbsp;released</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url"><span class="caps">MATE</span> 1.18&nbsp;を公開しました</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -161,483 +160,482 @@ What">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>After 6 months of development the <span class="caps">MATE</span> Desktop team are proud to
-announce the release of <span class="caps">MATE</span> Desktop 1.18. We&#8217;d like to thank every
-<span class="caps">MATE</span> contributor for their help making this release&nbsp;possible.</p>
+<p>6 ヶ月の開発期間を経て、<span class="caps">MATE</span> デスクトップチームは <span class="caps">MATE</span> デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての <span class="caps">MATE</span>&nbsp;貢献者の方々に感謝します。</p>
 <p><img alt="about" src="../../../assets/img/blog/about-mate-1.18.png"></p>
-<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.18</h3>
-<p>The release is focused on completing the migration to <span class="caps">GTK3</span>+ and
-adopting new technologies to replace some of deprecated components <span class="caps">MATE</span>
-Desktop 1.16 still relied&nbsp;on.</p>
-<p>The headline changes in <span class="caps">MATE</span> Desktop 1.18&nbsp;are:</p>
+<h3><span class="caps">MATE</span> 1.18&nbsp;で新しくなったこと</h3>
+<p>このリリースは、<span class="caps">MATE</span> デスクトップ 1.16 が今だに依存している、一部の非推奨コンポーネントを置き換えるために、<span class="caps">GTK3</span>+&nbsp;への移行を完成し新技術を採用することに焦点を当てています。</p>
+<p><span class="caps">MATE</span> デスクトップ 1.18&nbsp;の主な変更項目は次のとおりです。</p>
 <ul>
 <li>
-<strong>The entire <span class="caps">MATE</span> Desktop suite of applications and components is now <span class="caps">GTK3</span>+ only!</strong><ul>
-<li>Requires <span class="caps">GTK</span>+ &gt;=&nbsp;3.14.</li>
-<li>All <span class="caps">GTK2</span>+ code has been dropped including&nbsp;the <code>--with-gtk</code> build&nbsp;option.</li>
-</ul>
-</li>
-<li>Completed the migration&nbsp;to <code>GtkApplication</code> from <code>libunique</code>.</li>
+<strong><span class="caps">MATE</span> デスクトップ一式に含まれるアプリケーションとコンポーネントは、<span class="caps">GTK3</span>+ のみとなりました。</strong><ul>
+<li><span class="caps">GTK</span>+ &gt;= 3.14&nbsp;以上が必要です。</li>
 <li>
-<strong>Added <code>libinput</code> support for mouse and touchpad.</strong><ul>
-<li>Separate settings for handedness (left/right-handed) and motion&nbsp;acceleration/threshold.</li>
+<code>--with-gtk</code> ビルドオプションを含め、すべての <span class="caps">GTK2</span>+&nbsp;コードが削除されました。</li>
 </ul>
 </li>
 <li>
-<strong>Much improved accessibility support (particularly for visually impaired users).</strong><ul>
-<li>Many thanks to our friends at <a href="https://hypra.fr/-Home-17-.html?lang=en">Hypra.fr</a> for their&nbsp;contribution!</li>
+<code>libunique</code> から <code>GtkApplication</code> への移行が完了しました。</li>
+<li>
+<strong>マウスとタッチパッドの <code>libinput</code> サポートを追加しました。</strong><ul>
+<li>利き手 (左利き/右利き)&nbsp;と動作加速度/しきい値を個別に設定します。</li>
 </ul>
 </li>
 <li>
-<strong>Caja adds several new features</strong> including:<ul>
-<li>Added a copy queue and copy&nbsp;pausing.</li>
-<li>Asking confirmation before moving files to the&nbsp;Trash.</li>
-<li>Support for back/forward mouse buttons for directory&nbsp;navigation.</li>
-<li>Notification when ejected drives are safe to&nbsp;unplug.</li>
+<strong>操作支援サポート (特に視覚障害者向け) が大幅に改善されました。</strong><ul>
+<li>
+<a href="https://hypra.fr/-Home-17-.html?lang=en">Hypra.fr</a>&nbsp;にいる私たちの友人の貢献に感謝します！</li>
 </ul>
 </li>
 <li>
-<strong>Lock screen will load the users selected background</strong> instead of the system defined&nbsp;default.</li>
-<li><span class="caps">MATE</span> Panel gets several improvements, including:<ul>
-<li>
-<strong>Added <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">desktop actions</a> support for additional launch options</strong>.</li>
-<li>Added StatusNotifier&nbsp;support.</li>
-<li>
-<strong>Added support for <a href="https://smdavis.us/projects/menulibre/">Menulibre</a> menu editor</strong>, if installed it is preferred over&nbsp;Mozo.</li>
-</ul>
-</li>
-<li>Engrampa, the archive manager, includes a number of improvements:<ul>
-<li>Added <code>ear</code> and <code>war</code> to the supported types&nbsp;list.</li>
-<li>Check the rar/unrar version to the correct date is&nbsp;shown.</li>
-<li>Fixed compress rar and 7z split into&nbsp;volumes.</li>
+<strong>Caja に複数の新機能が追加されました</strong> それは以下のとおりです。<ul>
+<li>コピーキューとコピーの一時停止が追加されました。</li>
+<li>ファイルをゴミ箱に移動する前に確認します。</li>
+<li>ディレクトリ移動でマウスの前後ボタンをサポート。</li>
+<li>ドライブ取り出し時に安全に取り外し可能であることを通知します。</li>
 </ul>
 </li>
 <li>
-<strong>Notifications now implement action icons support</strong>, for example playback control icons used by media&nbsp;players.</li>
-<li>Reworked the font viewer to add font browsing mode, support for <span class="caps">TTC</span> fonts and expose it in the menus by&nbsp;default.</li>
+<strong>画面ロック時には、ユーザーが選択した背景をロードできます。</strong>システム定義のデフォルトに替えて使用します。</li>
+<li>MATEパネルには、次のとおり複数の改善を加えました。<ul>
 <li>
-<strong>Replaced&nbsp;deprecated <code>upower</code> suspend/hibernate functions with ConsoleKit2 equivalents</strong>.</li>
-<li><span class="caps">MATE</span> Terminal adds the ability to close tabs with middle mouse&nbsp;button. </li>
+<strong>追加の起動オプションに対して、<a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">デスクトップアクション</a> のサポートを追加しました</strong>。</li>
+<li>StatusNotifier&nbsp;のサポートを追加。</li>
 <li>
-<strong>Atril, the document viewer, has much improved page load times</strong> and adds support&nbsp;for <code>unarchiver</code> used by some&nbsp;comics.</li>
-<li>Lots of deprecated <span class="caps">GTK</span>+ methods have been replaced and many bugs have been&nbsp;fixed.</li>
-<li><strong>The plugin systems, and all C and Python plugins, in Eye of <span class="caps">MATE</span> and Pluma have been ported&nbsp;to <code>libpeas</code>.</strong></li>
-<li>Translations are updated. <em>Thank you to our team of&nbsp;translators!</em>
+<strong><a href="https://smdavis.us/projects/menulibre/">Menulibre</a> メニューエディタのサポートが追加されました</strong>。もしこれがインストールされている場合は、Mozo&nbsp;よりも優先されます。</li>
+</ul>
 </li>
-<li>A number of <strong>memory leaks have been plugged</strong>.</li>
+<li>書庫マネージャ Engrampa には以下の改善が含まれています。<ul>
+<li>サポートされる形式一覧に <code>ear</code> と <code>war</code> を追加しました。</li>
+<li>正しい日付が表示されているかどうか、rar/unrar&nbsp;のバージョンをチェック</li>
+<li>rar と 7z&nbsp;を圧縮するとボリュームに分割する問題を修正。</li>
+</ul>
+</li>
 <li>
-<em>A-n-d most exciting of all&#8230;</em> <strong><span class="caps">MATE</span> Calculator is back and has been ported to&nbsp;<span class="caps">GTK3</span>+</strong> <code>:-D</code>
+<strong>通知は、アクションアイコンのサポートを実装するようになりました</strong>。例えば、メディアプレーヤーで使用される再生コントロールのアイコンなどです。</li>
+<li>フォントビューアを作り直して、フォントブラウズモードや <span class="caps">TTC</span>&nbsp;フォントのサポートを追加し、標準でメニューに表示しました。</li>
+<li>
+<strong>廃止予定の <code>upower</code> サスペンド/ハイバネート機能を ConsoleKit2 相当の機能へと置き換えました</strong>。</li>
+<li><span class="caps">MATE</span>&nbsp;端末に、マウスの中ボタンでタブを閉じる機能を追加しました。</li>
+<li>
+<strong>Atril 文書ビューアでは、ページ読み込み時間が大幅に改善され</strong>、一部のコミックで使用される <code>unarchiver</code> サポートが追加されました。</li>
+<li>多数の非推奨 <span class="caps">GTK</span>+&nbsp;メソッドが置き換えられ、多くの不具合が修正されました。</li>
+<li><strong>Eye of <span class="caps">MATE</span> と Pluma にあるプラグインシステムとすべての C と Python&nbsp;のプラグインは <code>libpeas</code> へ移植されました。</strong></li>
+<li>翻訳が更新されました。<em>翻訳チームのみなさんに感謝します！</em>
+</li>
+<li>多数の<strong>メモリリークがふさがれました</strong>。</li>
+<li>
+<em>そして最も注目すべきことは&#8230;</em><strong><span class="caps">MATE</span> 電卓が復活して <span class="caps">GTK3</span>+&nbsp;へと移植されました</strong> <code>:-D</code>
 </li>
 </ul>
-<p>The various components of <span class="caps">MATE</span> Desktop 1.18 are available for download&nbsp;here:</p>
+<p><span class="caps">MATE</span> デスクトップ 1.18&nbsp;の各種コンポーネントは、次の場所からダウンロードできます。</p>
 <ul>
 <li><a href="https://pub.mate-desktop.org/releases/1.18/">https://pub.mate-desktop.org/releases/1.18/</a></li>
 </ul>
-<h3>Changelog</h3>
-<p>Here is a more detailed break down of what&nbsp;changed.</p>
+<h3>Changelog&nbsp;変更点</h3>
+<p>変更点の詳細は以下のとおりです。</p>
 <h4>mate-common&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
 </ul>
 <h4>mate-desktop&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Drop mpaste tool (won&#8217;t work without the website&nbsp;anyway)</li>
-<li>Background: fix crossfade issues with recent <span class="caps">GTK</span>+&nbsp;versions</li>
-<li>Background: fix more graphics issues to allow Caja to use background
-    for directory&nbsp;windows</li>
-<li>Background: fix memleaks and other misc&nbsp;issues</li>
-<li>Color select: fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Schemas: some fixes and&nbsp;cleanups</li>
-<li>mate-about: update copyright&nbsp;year</li>
-<li>mate-about: fix <span class="caps">URL</span>&nbsp;centering</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>mpaste ツールの削除 (Web&nbsp;サイトなしでは機能しません)</li>
+<li>背景: 最近の <span class="caps">GTK</span>+&nbsp;バージョンでのクロスフェード問題を修正</li>
+<li>背景: Caja&nbsp;がディレクトリウィンドウに背景を使用可能にするため、グラフィックスの問題をさらに修正
+     </li>
+<li>背景:&nbsp;メモリリークとその他の問題を修正</li>
+<li>色選択: <span class="caps">GTK</span>+3&nbsp;の一部の非推奨事項を修正</li>
+<li>スキーマ:&nbsp;一部の修正とクリーンアップ</li>
+<li>mate-about:&nbsp;著作権の年度更新</li>
+<li>mate-about: <span class="caps">URL</span>&nbsp;のセンタリングを修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-user-guide&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>libmatekbd&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>libmatemixer&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>libmateweather&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Drop Python bindings and &#8212;enable-python build option (won&#8217;t
-    work with&nbsp;<span class="caps">GTK</span>+3)</li>
-<li>Locations: add Dunedin, New&nbsp;Zealand</li>
-<li>Locations: add Yogyakarta,&nbsp;Indonesia</li>
-<li>Locations: move Indonesia under Asia&nbsp;region</li>
-<li>Locations: correct coordinates for Pune,&nbsp;India</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>Python バインディングと &#8212;enable-python build オプションを削除 (<span class="caps">GTK</span>+3&nbsp;では動作しません)
+     </li>
+<li>場所:&nbsp;ニュージーランドのダニーデンを追加</li>
+<li>場所:&nbsp;インドネシアのジョグジャカルタを追加</li>
+<li>場所:&nbsp;インドネシアをアジア地域へ移動</li>
+<li>場所:&nbsp;インドのプネの時間帯を訂正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-icon-theme&nbsp;1.18.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>caja&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require libmate-desktop &gt;=&nbsp;1.17.3</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Port from libunique to&nbsp;GtkApplication</li>
-<li>Implement copy queue and&nbsp;pausing</li>
-<li>Add option for asking confirmation before moving files to&nbsp;trash</li>
-<li>Add support for back/forward mouse buttons for directory&nbsp;navigation</li>
-<li>Add notification when ejected drives are safe to unplug (and require
-    libnotify at build&nbsp;time)</li>
-<li>Add &#8212;force-desktop command line option to make Caja always manage
-    the&nbsp;desktop</li>
-<li>Add ability to get feedback from Orca when additional icons are&nbsp;selected/deselected</li>
-<li>Drop metadata converting&nbsp;tool</li>
-<li>Fix crossfade issues with recent <span class="caps">GTK</span>+&nbsp;versions</li>
-<li>Fix more graphics issues to allow Caja to use background for directory&nbsp;windows</li>
-<li>Fix some more <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
-<li>Schema: some fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>Build: libmate-desktop &gt;= 1.17.3&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>libunique を GtkApplication&nbsp;へ移植</li>
+<li>コピーキューと一時停止の実装</li>
+<li>ファイルをごみ箱に移動する前に確認を要求するオプションを追加</li>
+<li>ディレクトリ移動でマウスによる前後ボタンのサポートを追加</li>
+<li>イジェクトされたドライブを安全に取り外すことができる場合には、通知を追加 (ビルド時に libnotify&nbsp;が必要)
+     </li>
+<li>Caja が常に管理できるようにするため、&#8212;force-desktop コマンドラインオプションを追加&nbsp;デスクトップ</li>
+<li>追加のアイコンが選択/選択解除されたとき、Orca&nbsp;からフィードバックを取得する機能を追加
+     </li>
+<li>メタデータ変換ツールを削除</li>
+<li>最近の <span class="caps">GTK</span>+&nbsp;バージョンでのクロスフェード問題を修正</li>
+<li>Caja がディレクトリウィンドウに背景を使用可能にするため、グラフィックスの問題をさらに修正&nbsp;windows</li>
+<li><span class="caps">GTK</span>+&nbsp;の非推奨事項と実行時の警告を一部修正</li>
+<li>スキーマ:&nbsp;一部の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-polkit&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+&nbsp;の一部の非推奨事項を修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>marco&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Theme viewer: fix build for <span class="caps">GTK</span>+3 and fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Add ability to disable showing preselected window border on&nbsp;alt-tab</li>
-<li>Add ability to ignore applications when show-desktop is&nbsp;triggered</li>
-<li>Schema: make compositing on by&nbsp;default</li>
-<li>Workspaces: switch wrapping behavior for &#8216;classic&#8217; and &#8216;toroidal&#8217;
-    modes (it was reversed&nbsp;somehow)</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>テーマビューア: <span class="caps">GTK</span>+3 のビルドを修正し、一部の <span class="caps">GTK</span>+&nbsp;非推奨を修正</li>
+<li>alt + tab&nbsp;キーで事前に選択されたウィンドウ枠の表示をしない機能を追加</li>
+<li>show-desktop&nbsp;が起動された時にアプリケーションを無視する機能を追加</li>
+<li>スキーマ:&nbsp;コンポジットを既定に設定</li>
+<li>ワークスペース: `classic&#8217; と &#8216;toroidal&#8217; のラッピング動作モードの切り替え&nbsp;(何らかの事情で逆になっていたため)
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-settings-daemon&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require XInput&nbsp;unconditionally</li>
-<li>Build: require libmatemixer &gt;= 1.10, libxklavier &gt;= 5.2, dconf &gt;=&nbsp;0.13</li>
-<li>Build: require libmatekbd and libmate-desktop &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Add libinput support for mouse and&nbsp;touchpad</li>
-<li>Touchpad: add separate settings for handedness (left/right-handed)
-    and motion&nbsp;acceleration/threshold</li>
-<li>Background: restore option to let Caja draw background with <span class="caps">GTK</span>+&nbsp;3.22</li>
-<li>Some fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: XInput&nbsp;が無条件に必要</li>
+<li>ビルド: libmatemixer &gt;= 1.10、 libxklavier &gt;= 5.2、 dconf &gt;= 0.13&nbsp;が必要</li>
+<li>ビルド: libmatekbd と libmate-desktop &gt;= 1.17&nbsp;が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>マウスとタッチパッドの libinput&nbsp;サポートを追加</li>
+<li>タッチパッド: 利き手 (左利き/右利き)&nbsp;と動作加速度/しきい値に個別の設定を追加
+     </li>
+<li>背景: Caja が <span class="caps">GTK</span>+ 3.22&nbsp;で背景を描画できるようにする復元オプション</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-session-manager&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Replace deprecated upower suspend/hibernate functions with ConsoleKit2
-    equivalents (and drop &#8212;enable-upower build&nbsp;option)</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>廃止予定の upower サスペンド/ハイバネート機能を ConsoleKit2 相当の機能へと置き換え (&#8212;enable-upower&nbsp;ビルドオプションを削除)
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-menus&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-panel&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require libmate-menu &gt;= 1.10 and dconf &gt;=&nbsp;0.13.4</li>
-<li>Build: require libmateweather and libmate-desktop &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Launchers: add desktop actions support for additional launch&nbsp;options</li>
-<li>Menu applets: add support for Menulibre menu editor, and prefer
-    it to Mozo if both are&nbsp;installed</li>
-<li>Notification area: add StatusNotifier&nbsp;support</li>
-<li>Fix lots of <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
-<li>Don&#8217;t spam accessible name changes when it is&nbsp;translated</li>
-<li>Some code&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: libmate-menu &gt;= 1.10 と dconf &gt;= 0.13.4&nbsp;が必要</li>
+<li>ビルド: libmateweather と libmate-desktop &gt;= 1.17&nbsp;が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>ランチャ:&nbsp;追加の起動オプションに対するデスクトップアクションのサポートを追加
+     </li>
+<li>メニューアプレット: Menulibre メニューエディタのサポートを追加します。もし両方がインストールされている場合は、Mozo&nbsp;を優先します。
+     </li>
+<li>通知エリア: StatusNotifier&nbsp;のサポートを追加</li>
+<li>多数の <span class="caps">GTK</span>+&nbsp;非推奨事項と、実行時の警告を修正</li>
+<li>翻訳されたときにアクセス可能な名前変更をスパムにしない</li>
+<li>一部のコードをクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-backgrounds&nbsp;1.18.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-notification-daemon&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Implement action icons support (e.g. playback control icons
-    used by media&nbsp;players)</li>
-<li>Themes: fix some pie countdown&nbsp;issues</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>アクションアイコンのサポートを実装&nbsp;(メディアプレーヤーで使用される再生コントロールアイコンなど)
+     </li>
+<li>テーマ：一部のパイカウントダウンの問題を修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-control-center&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require libmatekbd, libmate-desktop, marco, m-s-d &gt;=&nbsp;1.17</li>
-<li>Build: require XCursor and XInput&nbsp;unconditionally</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Port from libunique to&nbsp;GtkApplication</li>
-<li>Rework font-viewer: add font browsing mode, support for <span class="caps">TTC</span> fonts,
-    and make it appear in the&nbsp;menus</li>
-<li>Add libinput support for mouse and&nbsp;touchpad</li>
-<li>Mouse: add separate touchpad motion settings on touchpad&nbsp;tab</li>
-<li>Mouse: change tab label from General to&nbsp;Mouse</li>
-<li>Mouse: change natural scroll mnemonic from &#8216;a&#8217; to&nbsp;&#8216;n&#8217;</li>
-<li>Fix lots of <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Some more fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: libmatekbd、libmate-desktop、marco, m-s-d &gt;= 1.17&nbsp;が必要</li>
+<li>ビルド: XCursor と XInput&nbsp;が無条件に必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>libunique を GtkApplication&nbsp;へ移植</li>
+<li>フォントビューアの作り直し: フォントブラウズモードの追加、<span class="caps">TTC</span>&nbsp;フォントのサポートと、フォントビューアがメニューに表示されるようにしました。
+     </li>
+<li>マウスとタッチパッドの libinput&nbsp;サポートを追加</li>
+<li>マウス:&nbsp;タッチパッドのタブに個別の動作設定を追加</li>
+<li>マウス:&nbsp;タブのラベルを「一般」から「マウス」へ変更</li>
+<li>マウス:&nbsp;自然なスクロールのニーモニックを「a」から「n」へ変更</li>
+<li>多数の <span class="caps">GTK</span>+&nbsp;依存関係を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-screensaver&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require libmate-menu &gt;=&nbsp;1.10</li>
-<li>Build: require libmatekbd and libmate-desktop &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Lock screen: load user&#8217;s background instead of system&nbsp;one</li>
-<li>Preferences: fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: require libmate-menu &gt;= 1.10&nbsp;以上が必要</li>
+<li>ビルド: libmatekbd と libmate-desktop &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>ロック画面:&nbsp;システムの背景ではなくてユーザーの背景を読み込む</li>
+<li>設定: <span class="caps">GTK</span>+&nbsp;の一部の非推奨事項を修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-media&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require libmatemixer &gt;= 1.10 and libmate-desktop &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Port from libunique to GApplication and&nbsp;GtkApplication</li>
-<li>Some&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: libmatemixer &gt;= 1.10 以上と libmate-desktop &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>libunique を GApplication と GtkApplication&nbsp;へ移植</li>
+<li>一部のクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-power-manager&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require xproto &gt;=&nbsp;7.0.15</li>
-<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Replace deprecated upower suspend/hibernate functions with
-    ConsoleKit2&nbsp;equivalents</li>
-<li>Use manpages as is instead of generating them from sgml (and
-    don&#8217;t require docbook2man for build&nbsp;anymore)</li>
-<li>Some more fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: xproto &gt;= 7.0.15&nbsp;以上が必要</li>
+<li>ビルド: mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>廃止予定の upower サスペンド/ハイバネート機能を ConsoleKit2&nbsp;相当の機能へと置き換え
+     </li>
+<li>sgml から man ページを生成する代わりに、そのまま man ページを使用します (ビルドに docbook2man&nbsp;は必要ありません)。
+     </li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-system-monitor&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Add <code>pkexec</code> support for&nbsp;using <code>kill</code> and <code>renice</code> on other users&#8217;
-    processes and try using it before&nbsp;trying <code>gksu</code>
-</li>
-<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>他のユーザに対して、<code>kill</code> と <code>renice</code> を使うために <code>pkexec</code> のサポートを追加したので、
+    <code>gksu</code> を試す前にそれを使ってみてください。</li>
+<li><span class="caps">GTK</span>+&nbsp;の一部の非推奨事項を修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>atril&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require caja &gt;=&nbsp;1.17.1</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>[comics] add support for unarchiver (unar and&nbsp;lsar)</li>
-<li>[libview] increase page cache size to reduce number of page&nbsp;reloads</li>
-<li>Remove metadata migration&nbsp;code</li>
-<li>Force X11&nbsp;backend</li>
-<li>Fix lots of <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Fix some a11y&nbsp;issues</li>
-<li>Some more fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: caja &gt;= 1.17.1&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>[comics] unarchiver (unar および lsar)&nbsp;のサポートを追加</li>
+<li>[libview]&nbsp;ページのキャッシュサイズを増やして、ページのリロード回数を減少</li>
+<li>メタデータ移行コードの削除</li>
+<li>X11&nbsp;バックエンドの強制</li>
+<li>多数の <span class="caps">GTK</span>+&nbsp;依存関係を修正</li>
+<li>a11y&nbsp;の問題を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>caja-dropbox&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require libcaja-extension 1.17.1 and GLib&nbsp;2.36</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: libcaja-extension 1.17.1 と GLib 2.36&nbsp;が必要</li>
 </ul>
 <h4>caja-extensions&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require caja &gt;= 1.17.1 and libmate-desktop &gt;=&nbsp;1.17.0</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
-<li>Add xattr-tags extension to show xattr tags in a new&nbsp;column</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: caja &gt;= 1.17.1 以上と libmate-desktop &gt;= 1.17.0&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
+<li>xattr-tags 拡張機能を追加して、新しいカラムに xattr&nbsp;タグを表示</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>engrampa&nbsp;1.18.0</h4>
 <ul>
-<li>check the rar/unrar version to work the new date style with all&nbsp;versions</li>
-<li>Fix: rar file listing now shows correct date with recent&nbsp;binary</li>
-<li>Fix: open the 7z first split volume after&nbsp;compress</li>
-<li>Fix typo in <span class="caps">NEWS</span>: engrampa instead&nbsp;engramp</li>
-<li>Fix: compress rar split into&nbsp;volumes</li>
-<li>Fix: compress 7z split into&nbsp;volumes</li>
-<li>build: remove option that disables deprecated&nbsp;stuff</li>
-<li>zip: added ear and war to the supported types&nbsp;list</li>
-<li>Update engrampa <span class="caps">NEWS</span> to use consistent, project wide, markdown-like&nbsp;formatting.</li>
-<li>Build: require Caja &gt;= 1.17.1 to build against <span class="caps">GTK</span>+3 version
-    of&nbsp;libcaja-extension</li>
-<li>tar: add support for pixz for .tar.xz&nbsp;files</li>
-<li>tar: add support for lbzip2 on .tar.bz2&nbsp;files</li>
-<li>lha: add support for Amiga&nbsp;files</li>
-<li>Some corrections in GSettings&nbsp;schema</li>
-<li>Translations&nbsp;update</li>
+<li>rar/unrar&nbsp;バージョンをチェックして、すべてのバージョンで新しい日付スタイルを使用できるようにしました。</li>
+<li>修正: rar&nbsp;ファイルリストには、最新のバイナリで正しい日付が表示されます。</li>
+<li>修正: 圧縮後に 7z&nbsp;の最初の分割ボリュームを展開</li>
+<li><span class="caps">NEWS</span> のタイプミスを修正: engramp の代わりに&nbsp;engrampa</li>
+<li>rar&nbsp;を圧縮すると複数のボリュームへ分割する問題を修正。</li>
+<li>7z&nbsp;を圧縮すると複数のボリュームへ分割する問題を修正。</li>
+<li>ビルド:&nbsp;非推奨なものを無効にするオプションを削除</li>
+<li>zip: サポートされる種類の一覧に ear と war&nbsp;を追加</li>
+<li>Engrampa&nbsp;のニュースを更新して、一貫性のあるプロジェクト全体のマークダウンのような書式を使用するようにします
+     </li>
+<li>ビルド: <span class="caps">GTK</span>+3 バージョンの libcaja-extension に対してビルドするには、Caja&gt;=1.17.1&nbsp;が必要
+     </li>
+<li>tar: .tar.xz ファイルに対する pixz&nbsp;のサポートを追加</li>
+<li>tar: .tar.bz2 ファイルでの lbzip2&nbsp;のサポートを追加</li>
+<li>lha: Amiga&nbsp;ファイルのサポートを追加</li>
+<li>GSettings&nbsp;スキーマの一部を修正</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>eom&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require libmate-desktop &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Drop Python bindings and &#8212;enable-python build&nbsp;option</li>
-<li>Port plugin system and plugins to&nbsp;libpeas</li>
-<li>Some code and docs&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>Build: libmate-desktop &gt;= 1.17.&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>Python バインディングと &#8212;enable-python build&nbsp;オプションを削除</li>
+<li>プラグインシステムとプラグインを libpeas&nbsp;へ移植</li>
+<li>一部のコードと docs&nbsp;をクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-applets&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require libmateweather and mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Weather: fix temperature label&nbsp;placement</li>
-<li>Weather: show proper help section for each tab of prefs&nbsp;dialog</li>
-<li>Fix some <span class="caps">GTK</span>+ deprecations and runtime&nbsp;warnings</li>
-<li>Some code&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>Build: libmateweather と mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>お天気アプレット:&nbsp;気温のラベル配置を修正</li>
+<li>お天気アプリ:&nbsp;設定ダイアログの各タブに、適切なヘルプ項目を表示</li>
+<li><span class="caps">GTK</span>+&nbsp;の非推奨事項と実行時の警告を一部修正</li>
+<li>一部のコードをクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-calc&nbsp;1.18.0</h4>
 <ul>
-<li>Add&nbsp;AppData.</li>
+<li>AppData&nbsp;の追加</li>
 </ul>
 <h4>mate-icon-theme-faenza&nbsp;1.18.0</h4>
 <ul>
-<li>Bump&nbsp;version</li>
+<li>Bump&nbsp;バージョン</li>
 </ul>
 <h4>mate-indicator-applet&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: show new style indicator support status in&nbsp;summary</li>
-<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>Build:&nbsp;概要に新しいスタイルインジケータのサポートステータスを表示</li>
+<li>ビルド: mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-netbook&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-sensors-applet&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Fix some <span class="caps">GTK</span>+&nbsp;deprecations</li>
-<li>Some more fixes and&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li><span class="caps">GTK</span>+&nbsp;の一部の非推奨事項を修正</li>
+<li>その他の修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-terminal&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Add ability to close tabs with middle mouse&nbsp;button</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>マウスの中ボタンでタブを閉じる機能を追加</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mate-user-share&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting to make
-    generating release announcements&nbsp;easier</li>
-<li>Build: require caja &gt;=&nbsp;1.17.1</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and &#8212;with-gtk
-    build&nbsp;option</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: caja &gt;= 1.17.1&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3 への移動 (<span class="caps">GTK</span>+&gt;=3.14 が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;ビルオプションを削除
+     </li>
 </ul>
 <h4>mate-utils&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Build: require mate-panel &gt;=&nbsp;1.17</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Fix occasional distcheck&nbsp;breakage</li>
-<li>Some code&nbsp;cleanups</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>ビルド: mate-panel &gt;= 1.17&nbsp;以上が必要</li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>偶発的な distcheck&nbsp;の破損を修正</li>
+<li>一部のコードをクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>mozo&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li>翻訳の更新</li>
 </ul>
 <h4>pluma&nbsp;1.18.0</h4>
 <ul>
-<li><span class="caps">NEWS</span>: use consistent, project wide, markdown-like formatting
-    to make generating release announcements&nbsp;easier</li>
-<li>Move to <span class="caps">GTK</span>+3 (require <span class="caps">GTK</span>+ &gt;= 3.14), drop <span class="caps">GTK</span>+2 code and
-    &#8212;with-gtk build&nbsp;option</li>
-<li>Build: actually build GObject introspection&nbsp;data</li>
-<li>Build: remove &#8212;enable-deprecations option - it actually
-    disabled all deprecated&nbsp;stuff</li>
-<li>Add ability to search/replace text using regular&nbsp;expressions</li>
-<li>Drop Python bindings and &#8212;enable-python build&nbsp;option</li>
-<li>Port plugin system and both C and Python plugins to&nbsp;libpeas</li>
-<li>Snippets plugin: stop exposing functions on Pluma message bus
-    (doesn&#8217;t work with GObject&nbsp;introspection)</li>
-<li>Snippets plugin: fix snippet parts staying after&nbsp;Ctrl-Z</li>
-<li>Fix unexpected closing of the first tab with middle-click
-    under the line numbers&nbsp;column</li>
-<li>Fix some runtime warnings in&nbsp;plugins</li>
-<li>Some more fixes and cleanups in code and&nbsp;docs</li>
-<li>Translations&nbsp;update</li>
+<li>ニュース:&nbsp;リリース情報の生成を容易にするため、一貫性があってプロジェクト全体で共通する、マークダウンのような書式を使用します。
+     </li>
+<li><span class="caps">GTK</span>+3への移動(<span class="caps">GTK</span>+&gt;=3.14が必要)、<span class="caps">GTK</span>+2 のコードと &#8212;with-gtk&nbsp;オプションを削除
+     </li>
+<li>Build: 実際に GObject&nbsp;イントロスペクション・データをビルドします。</li>
+<li>Build: &#8212;enable-deprecations オプションを実際に削除&nbsp;非推奨となったものすべてを無効に</li>
+<li>正規表現を使用してテキストを検索/置換する機能を追加</li>
+<li>Python バインディングと &#8212;enable-python build&nbsp;オプションを削除</li>
+<li>プラグインシステムと、C プラグインと Python プラグインを libpeas&nbsp;へ移植</li>
+<li>Snippet プラグイン: Pluma メッセージバス上の関数の公開を停止 (GObject&nbsp;イントロスペクションでは動作しません)
+     </li>
+<li>Snippet プラグイン: Ctrl-Z&nbsp;の後にスニペット部分が残る問題を修正</li>
+<li>行番号の列で中でクリックすると、最初のタブが予期せず閉じる問題を修正
+     </li>
+<li>プラグインで一部のランタイム警告を修正</li>
+<li>コードと文書類について、さらに修正とクリーンアップ</li>
+<li>翻訳の更新</li>
 </ul>
 <h4>python-caja&nbsp;1.18.0</h4>
 <ul>
-<li>Translations&nbsp;update</li>
-<li>support <span class="caps">GTK</span>+3 only: require Caja 1.17.1 and&nbsp;pygobject-3.0</li>
-<li>drop ancient check for Python 2.5, not needed these&nbsp;days</li>
+<li>翻訳の更新</li>
+<li><span class="caps">GTK</span>+3 だけのサポート: Caja 1.17.1 と pygobject-3.0&nbsp;が必要</li>
+<li>Python 2.5&nbsp;の古いチェックを削除。これは最近では不要なため。</li>
 </ul>
 </div>
     </div>
@@ -649,7 +647,7 @@ Desktop 1.16 still relied&nbsp;on.</p>
                 <a href="../2016-12-22-server-outage/" rel="prev" title="サーバの障害">一つ前の記事</a>
             </li>
             <li class="next">
-                <a href="../2018-02-07-mate-1-20-released/" rel="next" title="MATE 1.20 released">次の記事</a>
+                <a href="../2018-02-07-mate-1-20-released/" rel="next" title="MATE 1.20 を公開しました">次の記事</a>
             </li>
         </ul></nav></aside></article>
 </div>
@@ -688,7 +686,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "52a8b88fa9b1"],
+    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
