@@ -16,7 +16,7 @@ MATE מוצעת לך על ידי קבוצה בינלאומית של מפתחים
 
 ### ![](/assets/img/flags/32/United%20Kingdom\(Great%20Britain\).png) מרטין וימפרס ([flexiondotorg](https://github.com/flexiondotorg))
 
-אורז חבילות עבור אובונטו-MATE ודביאן, חניכה ב־GSoC, ניהול הקהילה, תשתיות.
+אריזת חבילות עבור אובונטו-MATE ודביאן, חניכה ב־GSoC, ניהול הקהילה, תשתיות.
 
 ### ![](/assets/img/flags/32/USA.png) לוק קוּהן ([lukefromdc](https://github.com/lukefromdc))
 
@@ -117,7 +117,6 @@ MATE מתורגמת או מתורגמת חלקית ל־140 שפות.
   * <https://www.transifex.com/projects/p/MATE/>
 
 
-
 ## מתנדבי עבר
 
 ### ![](/assets/img/flags/32/USA.png) אדם ביקלי ([bickman2k](https://github.com/bickman2k))
@@ -138,7 +137,7 @@ MATE מתורגמת או מתורגמת חלקית ל־140 שפות.
 
 ### ![](/assets/img/flags/32/USA.png) ג׳וזף קריגר ([RowenStipe](https://github.com/RowenStipe))
 
-אומנות ועיצוב. ([פירוט](https://wiki.mate-desktop.org/#!pages/./users-rowen_stipe.md))
+אומנות ועיצוב.
 
 ### ![](/assets/img/flags/32/Portugal.png) נלסון מרקז
 
@@ -150,17 +149,15 @@ MATE מתורגמת או מתורגמת חלקית ל־140 שפות.
 
 ### ![](/assets/img/flags/32/Canada.png) סקוט בלניבס ([sbalneav](https://github.com/sbalneav))
 
-פיתוח. ([פירוט](https://wiki.mate-desktop.org/#!pages/./users-sbalneav.md))
+פיתוח.
 
 ### ![](/assets/img/flags/32/Netherlands.png) זנדר סווירס ([infirit](https://github.com/infirit))
 
 פיתוח.
 
-### ![](/assets/img/flags/32/Egypt.png) יסמין חסאן ([jasmineaura](https://wiki.mate-desktop.org/#!pages/./users-jasmineaura.md))
+### ![](/assets/img/flags/32/Egypt.png) יסמין חסאן
 
 פיתוח.
-
-
 
 <small>
 הדגלים שמופיעים בעמוד הזה סופקו על ידי <http://www.icondrawer.com>.

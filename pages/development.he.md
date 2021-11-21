@@ -32,10 +32,11 @@
 
  מגוון קישורים שימושיים:
 
-  * [אוניברסיטת MATE](/blog/2013-03-12-mate-university/)
-  * [פיתוח MATE](https://wiki.mate-desktop.org/#!pages/dev-doc.md)
-  * [תכנית הפיתוח של MATE](https://wiki.mate-desktop.org/#!pages/roadmap.md)
-  * <https://wiki.mate-desktop.org/#!pages/contribute.md>
-  * <https://wiki.mate-desktop.org/#!pages/translation.md>
+  * [התנדבות ב־MATE](https://wiki.mate-desktop.org/introduction/contributing/)
+  * [אומנות וערכות עיצוב ב־MATE](https://wiki.mate-desktop.org/contributing/artwork-and-themes/getting-started/)
+  * [פיתוח תכנה ב־MATE](https://wiki.mate-desktop.org/contributing/software-development/getting-started/)
+  * [תרגום MATE](https://wiki.mate-desktop.org/contributing/translation/getting-started/)
+  * [תכנית הפיתוח של MATE](https://wiki.mate-desktop.org/developers-corner/roadmap/)
+  * [Wayland ו־Meson ב־MATE](https://wiki.mate-desktop.org/developers-corner/wayland-meson/)
 
 מזמינים אותך להתנדב וליהנות למען שיפור MATE!
