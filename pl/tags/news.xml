@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posty o News)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pl/tags/news.xml" rel="self" type="application/rss+xml"/><language>pl</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posty o News)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pl/tags/news.xml" rel="self" type="application/rss+xml"/><language>pl</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/pl/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/pl/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; to
 talk a little about MATE Desktop, where it came from and where it is headed.
 The interview with me is embedded below.&lt;/p&gt;
@@ -17,7 +17,7 @@ you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/
 reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/pl/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+may find something that interests you.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/pl/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
@@ -31,7 +31,7 @@ repositories above are the official repositories to use.&lt;/p&gt;
 &lt;p&gt;We've removed the package repositories hosted on mate-desktop.org 
 because some were unsigned and others have not been maintained for many 
 months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
+repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After several weeks of review the application and selection period for the 
 2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
 6,313  projects for this summer. From those, 1,307 students have been accepted
 and the MATE Desktop project is one of the 190 Open Source projects that will
@@ -54,7 +54,7 @@ them every success with their respective projects for the summer.&lt;/p&gt;
 &lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
 gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
 2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team is proud to announce that we are collaborating with the
+MATE team that will provide much need development resources to the project.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The MATE team is proud to announce that we are collaborating with the
 &lt;a href="http://galculator.mnim.org/"&gt;galculator&lt;/a&gt; team and that galculator
 will replace &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10.&lt;/p&gt;
 &lt;h3&gt;What is galculator?&lt;/h3&gt;
@@ -102,7 +102,7 @@ packages for your distribution if they do not already exist and add
 galculator to your MATE meta packages or package groups. MATE 1.10 is a
 way off yet, so you have plenty of time.&lt;/p&gt;
 &lt;p&gt;Hopefully you undertand our reasoning and can see the mutual advantages
-for this partnership. Let us know what you think in the comments.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
+for this partnership. Let us know what you think in the comments.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
 &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman project&lt;/a&gt; and helping to
 update Blueman to BlueZ 5.x.&lt;/p&gt;
 &lt;h3&gt;Why ditch mate-bluetooth?&lt;/h3&gt;
@@ -127,7 +127,7 @@ ready in time for MATE 1.8.1 which is primarily intended as a bug fix
 release.&lt;/p&gt;
 &lt;h3&gt;Can't you do it faster, damn it?!&lt;/h3&gt;
 &lt;p&gt;Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
-to contribute via the &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman GitHub repository&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
+to contribute via the &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman GitHub repository&lt;/a&gt;.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
 &lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt;. We are doing this 
 in partnership with our good friends at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;About Google Summer of Code&lt;/h3&gt;
@@ -173,7 +173,7 @@ interact with the MATE mentors is via:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE translation contributions requested</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
+&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE translation contributions requested</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
 translations!&lt;/p&gt;
 &lt;p&gt;Translators are the unsung heroes of the MATE development team and once again we
 call upon them to help improve the project. MATE 1.7 is well into final testing
@@ -187,7 +187,7 @@ contribute to at Transifex and update them ASAP.&lt;/p&gt;
 &lt;a href="https://www.transifex.com/signup/contributor/"&gt;sign up for a free account at Transifex&lt;/a&gt;
 so you can start contributing to MATE, we'd really appreciate it!&lt;/p&gt;
 &lt;p&gt;There are currently 6 languages with 100% coverage, so lets see how many more
-can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
+can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
 announcement on the &lt;code&gt;mate-dev&lt;/code&gt; mailing list outlining the decision to reshuffle
 the MATE Desktop roadmap.&lt;/p&gt;
 &lt;p&gt;Essentially GTK3 support for MATE has been pushed back to MATE 1.10 because 
@@ -207,7 +207,7 @@ advancements we've made sooner.&lt;/p&gt;
 &lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;On February 1st 2014 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
+think?&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Stefano presents MATE at FOSDEM 2014</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;On February 1st 2014 &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;
 presented his talk on MATE at &lt;a href="https://fosdem.org"&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;The talk introduces MATE to those who haven't heard of it and explains the
 projects origins. The differences between MATE and other traditional GTK based
@@ -216,7 +216,7 @@ since it was forked from GNOME2. A brief run down of the recent improvements
 is covered followed by an overview of the MATE roadmap and other
 projects that benefit from MATE such as &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
 &lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; and &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>MATE Desktop Mythbusting</title><link>https://preview.mate-desktop.dev/pl/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;Linux 
 Unplugged&lt;/a&gt; podcast to talk a 
 little about MATE Desktop and where it is headed. The MATE Mythbusting clip is
 embedded below.&lt;/p&gt;
@@ -230,4 +230,4 @@ in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/a&gt
 reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>
+may find something that interests you.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item></channel></rss>

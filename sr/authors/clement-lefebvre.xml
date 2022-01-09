@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Clement Lefebvre)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/clement-lefebvre.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Clement Lefebvre)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/clement-lefebvre.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:34 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Представљање Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Представљање Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
 &lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан... Сада
 је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
@@ -16,4 +16,4 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика
 и стабилност, са Гномом 2.32. Пребацићемо теме, програмчиће и програме који
 су развијани за Гноме 2 и помоћи програмерима да пренесу своје програме на ову
-нову радну површ.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+нову радну површ.&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

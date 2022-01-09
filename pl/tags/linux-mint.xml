@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posty o Linux Mint)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pl/tags/linux-mint.xml" rel="self" type="application/rss+xml"/><language>pl</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posty o Linux Mint)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/pl/tags/linux-mint.xml" rel="self" type="application/rss+xml"/><language>pl</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/pl/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/pl/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
 a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
@@ -162,7 +162,7 @@ mirrors (and of course, that many others will use MATE too!).&lt;/p&gt;
 contributions by 39 people, and more than 150 translators. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://preview.mate-desktop.dev/gallery/1.6/"&gt;MATE 1.6 Screenshots&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/pl/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2013-04-02-mate-1-6-released/</guid><pubDate>Tue, 02 Apr 2013 19:23:50 GMT</pubDate></item><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/pl/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
 available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
 reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
@@ -182,7 +182,7 @@ Once we have more information we will add it to our wiki and make an announcemen
 &lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
-&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/pl/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Witamy w środowisku graficznym MATE!&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/pl/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/pl/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Witamy w środowisku graficznym MATE!&lt;/p&gt;
 &lt;p&gt;Gnome 2 był najpopularniejszym pulpitem Linuksa, ale nie jest już dostępny... MATE
 jest tutaj, aby zapewnić Ci ten sam pulpit &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos stworzył forka Gnome 2 i nazwał projekt MATE. Użytkownicy i
@@ -195,4 +195,4 @@ Pulpit MATE pojawił się w Linux Mint 12 a jego rozwój nabiera tempa.&lt;/p&gt
 &lt;p&gt;Naszym najwyższym priorytetem jest ulepszenie MATE tak, aby był równie funkcjonalny
 i stabilny co Gnome 2.32. Przeniesiemy motywy, aplety i aplikacje, które
 zostały opracowane dla Gnome 2 oraz programistom w przenoszeniu ich aplikacji do
-nowego środowiska.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/pl/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+nowego środowiska.&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/pl/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

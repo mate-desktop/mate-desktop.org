@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades per Scott Balneaves)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/authors/scott-balneaves.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades per Scott Balneaves)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/authors/scott-balneaves.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:52:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE and LTSP</title><link>https://preview.mate-desktop.dev/ca/blog/2013-03-20-mate-and-ltsp/</link><dc:creator>Scott Balneaves</dc:creator><description>&lt;div&gt;&lt;p&gt;There are a lot of people in the world who get access to their GNU/Linux
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE and LTSP</title><link>https://preview.mate-desktop.dev/ca/blog/2013-03-20-mate-and-ltsp/</link><dc:creator>Scott Balneaves</dc:creator><description>&lt;p&gt;There are a lot of people in the world who get access to their GNU/Linux
 desktops via thin clients, and one of the longest running thin client projects
 out there is the &lt;a href="https://ltsp.org"&gt;LTSP&lt;/a&gt; project. The MATE desktop offers a
 fantastic desktop experience on thin clients; fast, stable, and efficient.
@@ -12,4 +12,4 @@ traditional paradigms their users are used to will find MATE a excellent
 alternative to going to a Unity/Gnome 3 desktop. As both an LTSP and MATE
 developer, I put together a short &lt;a href="https://www.youtube.com/watch?v=pnL47bbFN68"&gt;video&lt;/a&gt;
 on some of the developments in both.&lt;/p&gt;
-&lt;iframe width="640" height="360" src="//www.youtube.com/embed/pnL47bbFN68" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2013-03-20-mate-and-ltsp/</guid><pubDate>Wed, 20 Mar 2013 11:30:13 GMT</pubDate></item></channel></rss>
+&lt;iframe width="640" height="360" src="//www.youtube.com/embed/pnL47bbFN68" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2013-03-20-mate-and-ltsp/</guid><pubDate>Wed, 20 Mar 2013 11:30:13 GMT</pubDate></item></channel></rss>

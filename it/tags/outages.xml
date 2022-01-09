@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Articoli su Outages)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/it/tags/outages.xml" rel="self" type="application/rss+xml"/><language>it</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Articoli su Outages)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/it/tags/outages.xml" rel="self" type="application/rss+xml"/><language>it</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Interruzione del Server</title><link>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il server che esegue questo sito web ieri è andato offline senza preavviso.
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Interruzione del Server</title><link>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Il server che esegue questo sito web ieri è andato offline senza preavviso.
 Non sappiamo perché e non abbiamo ricevuto notizie dal server che ci ospita. &lt;strong&gt;Abbiamo i backup completi, non è andato perso alcun dato.&lt;/strong&gt; Abbiamo iniziato il ripristino
 dei servizi e il servizio sospeso sarà reintegrato tempo permettendo
 durante il periodo festivo. &lt;/p&gt;
@@ -42,4 +42,4 @@ durante il periodo festivo. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ripristinato &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ci scusiamo per ogni inconveniente che ciò può aver causato.&lt;/p&gt;&lt;/div&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Ci scusiamo per ogni inconveniente che ciò può aver causato.&lt;/p&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item></channel></rss>

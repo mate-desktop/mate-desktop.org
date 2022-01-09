@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (פוסטים אודות i18n)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/he/tags/i18n.xml" rel="self" type="application/rss+xml"/><language>he</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (פוסטים אודות i18n)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/he/tags/i18n.xml" rel="self" type="application/rss+xml"/><language>he</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE translation contributions requested</title><link>https://preview.mate-desktop.dev/he/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE translation contributions requested</title><link>https://preview.mate-desktop.dev/he/blog/2014-02-14-mate-translation-contributions-requested/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
 translations!&lt;/p&gt;
 &lt;p&gt;Translators are the unsung heroes of the MATE development team and once again we
 call upon them to help improve the project. MATE 1.7 is well into final testing
@@ -17,4 +17,4 @@ contribute to at Transifex and update them ASAP.&lt;/p&gt;
 &lt;a href="https://www.transifex.com/signup/contributor/"&gt;sign up for a free account at Transifex&lt;/a&gt;
 so you can start contributing to MATE, we'd really appreciate it!&lt;/p&gt;
 &lt;p&gt;There are currently 6 languages with 100% coverage, so lets see how many more
-can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item></channel></rss>
+can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2014-02-14-mate-translation-contributions-requested/</guid><pubDate>Fri, 14 Feb 2014 12:51:31 GMT</pubDate></item></channel></rss>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades sobre MATE)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/tags/mate.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades sobre MATE)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/tags/mate.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop discussion forums are closing</title><link>https://preview.mate-desktop.dev/ca/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;It is with regret that we are informing you all that the MATE Desktop forums are closing with immediate 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE Desktop discussion forums are closing</title><link>https://preview.mate-desktop.dev/ca/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;p&gt;&lt;strong&gt;It is with regret that we are informing you all that the MATE Desktop forums are closing with immediate 
 effect.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;For sometime now the forum moderators have struggled to keep up with the pace of discussion, combatting spam
 and new registrations. The original forum administrators are no longer actively participating in the MATE 
@@ -34,7 +34,7 @@ invested into the forums over the years and hope to see them find moderator role
 forums we've highlighted above.&lt;/p&gt;
 &lt;p&gt;Should anyone want to take on the administration and moderation of the MATE Desktop forums then please come 
 and chat with the &lt;a href="https://preview.mate-desktop.dev/team/"&gt;MATE Desktop team&lt;/a&gt; in the &lt;code&gt;#mate-dev&lt;/code&gt; IRC and Matrix channel on Libera Chat. We
-can potentially reactivate the forums.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE interview with Linux Luddites</title><link>https://preview.mate-desktop.dev/ca/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
+can potentially reactivate the forums.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE interview with Linux Luddites</title><link>https://preview.mate-desktop.dev/ca/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
 me last week. We discussed the origins of &lt;a href="https://mate-desktop.org"&gt;MATE Desktop&lt;/a&gt;,
 it's future direction, how &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt; came to
 be and where it is headed.&lt;/p&gt;
@@ -47,4 +47,4 @@ website and give it a listen.&lt;/p&gt;
 &lt;p&gt;If you've not listened to the Linux Luddites before then you should checkout
 their back catalog. It has been one of my favourite FLOSS podcasts for some
 months now that blends good discussion and insight with useful distro reviews
-and first impressions.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item></channel></rss>
+and first impressions.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item></channel></rss>

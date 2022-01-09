@@ -1,100 +1,101 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о LiveCD)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/livecd.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о LiveCD)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/livecd.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Живи ЦД Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа је припремила Живи ЦД који се подиже у потпуном Мејтовом окружењу.&lt;/p&gt;
+&lt;div class="alert alert-info"&gt;&lt;strong&gt;Ажурирање&lt;/strong&gt; – ЖивиЦД је ажуриран на Мејт 1.8 – 10. марта 2014.&lt;/div&gt;
 
-&lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
-desktop in a non-destructive fashion. The image can be burned to a DVD, 
-mounted as an ISO file, or be directly written to a USB stick using a utility 
-like &lt;code&gt;dd&lt;/code&gt;. &lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; beware, &lt;code&gt;unetbootin&lt;/code&gt; is
-not supported. You can download it below:&lt;/p&gt;
-&lt;h4&gt;BitTorrent download (recommended)&lt;/h4&gt;
-&lt;p&gt;If you can spare the bytes, please leave the client open after your download 
-is finished, so you can seed it back to others. &lt;em&gt;A web-seed capable client is 
-recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Овај Живи ЦД је направљен тако да потенцијални нови корисници могу да
+процене Мејтову радну површ а да не наруше свој тренутни систем. Слика
+може бити нарезана на ДВД, прикачена као ИСО датотека, или директно
+записана на УСБ меморијском штапићу помоћу алата као што је &lt;code&gt;dd&lt;/code&gt;.
+&lt;a href="https://luddites.latenightlinux.com/"&gt;Линукс Лудисти&lt;/a&gt; пазите, &lt;code&gt;unetbootin&lt;/code&gt;
+није подржан. Живи ЦД можете преузети са везе испод:&lt;/p&gt;
+&lt;h4&gt;Преузимање путем Бит Торента (препоручено)&lt;/h4&gt;
+&lt;p&gt;Ако можете да потрошите бајтове, оставите програм отвореним након
+што се ваше преузимање заврши, да бисте га сејали према другима.
+&lt;em&gt;Програм са могућношћу веб-сејања се препоручује за највеће брзине 
+преузимања.&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;HTTP direct download&lt;/h4&gt;
-&lt;p&gt;In addition to the BitTorrent link above, the Live CD .iso can also be
-downloaded via HTTP. Please ensure the downloaded file matches the SHA1
-checksum.&lt;/p&gt;
+&lt;h4&gt;Директно HTTP преузимање&lt;/h4&gt;
+&lt;p&gt;Као додатак Бит Торент вези изнад, „.iso“ Живог ЦД-а се може такође
+преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
+суми провере.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]&lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Compatibility&lt;/h3&gt;
-&lt;p&gt;The Live CD is built using &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; and MATE 
-1.8. The Live CD is 32-bit so should work on any i686 or x86_64 computer
-with at least 512MB RAM. Xorg drivers are included for Intel (&lt;code&gt;i915&lt;/code&gt;),
-AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) and nvidia (&lt;code&gt;nouveau&lt;/code&gt;) with a fall back to VESA.
-Drivers for Virtual Box and VMware are also included so that evaluation
-using these virtualization solutions is simple.&lt;/p&gt;
-&lt;p&gt;All common file systems, including &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, are supported 
-and some data recovery and backup tools are included. If you plug in your 
-mobile device it will most likely be recognised and you'll be able to access 
-the data on it. NetworkManager is included along with all the VPN clients it 
-supports.&lt;/p&gt;
-&lt;h3&gt;Usernames and passwords&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop Live CD has the following accounts configured.&lt;/p&gt;
+&lt;h3&gt;Сагласност&lt;/h3&gt;
+&lt;p&gt;Живи ЦД је изграђен коришћењем &lt;a href="https://www.archlinux.org"&gt;Арч Линукса&lt;/a&gt; и 
+Мејта 1.8. Живи ЦД је 32-бита тако да треба да ради на свим i686 или x86_64 
+рачунарима са најмање 512MB RAM-а. Xorg управљачки програми су укључени 
+за Intel (&lt;code&gt;i915&lt;/code&gt;), AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) и nvidia (&lt;code&gt;nouveau&lt;/code&gt;) са пребацивањем на VESA. 
+Управљачки програми за Virtual Box and VMware су такође укључени тако да је 
+процењивање коришћењем ових решења виртуелизације врло једноставно.&lt;/p&gt;
+&lt;p&gt;Сви општи системи датотека, укључујући &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, су подржани 
+а укључени су и неки алати за повртак подтака и резерве. Ако прикључите ваш 
+мобилни уређај највероватније да ће бити препознат и можете да приступите 
+подацима на њему. Управник мреже је укључен са свим VPN клијентима које 
+подржава.&lt;/p&gt;
+&lt;h3&gt;Корисничка имена и лозинке&lt;/h3&gt;
+&lt;p&gt;Живи ЦД Мејтове радне површи има подешене следеће налоге.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;root&lt;/code&gt; account is obviously &lt;code&gt;root&lt;/code&gt;. The &lt;code&gt;mate&lt;/code&gt; account it a regular user 
-that has with full password-less &lt;code&gt;sudo&lt;/code&gt; rights. The Live CD will auto-login 
-using the &lt;code&gt;mate&lt;/code&gt; account.&lt;/p&gt;
-&lt;h3&gt;Applications&lt;/h3&gt;
-&lt;p&gt;The Live CD is primarily designed to showcase the MATE desktop, however we've 
-included some additional applications that are not part of the MATE desktop in 
-order to make the LiveCD a little more useful and enjoyable.&lt;/p&gt;
+&lt;p&gt;Налог &lt;code&gt;root&lt;/code&gt; је наравно &lt;code&gt;root&lt;/code&gt;. Налог &lt;code&gt;mate&lt;/code&gt; је обичан корисник који 
+има пуна &lt;code&gt;sudo&lt;/code&gt; овлашћења без лозинке. Живи ЦД ће се сам 
+учитати користећи налог &lt;code&gt;mate&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Програми&lt;/h3&gt;
+&lt;p&gt;Живи ЦД је првенствено осмишљен да прикаже Мејтову радну површ, међутим 
+укључили смо и неке додатне програме који нису део Мејтове радне површи да 
+бисмо Живи ЦД учинили мало кориснијим и пријатнијим.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   - Standalone web browser from mozilla.org&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   - A Partition Magic clone, frontend to GNU Parted&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  - A system information and benchmark tool&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;   - IRC client configured to auto-connect to &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;      - Screen reader for individuals who are blind or visually impaired&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      - On-screen keyboard useful for mobility impaired individuals&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    - Multi-protocol instant messaging client&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    - Media player with a slick GUI, great speed and lots of features&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   – Самосталан веб прегледник из „mozilla.org“&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   – Клон Partition Magic-а, челник за Гну Партед&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  – Алат за информације система и оцењивање&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;    - IRC клијент подешен да се сам повеже на &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;   – Тастатура на екрану корисна за појединце са моторичким потешкоћама&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      – Читач екрана за појединце који су слепи или оштећеног вида&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    – Вишепротоколни клијент брзих порука&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Creative Commons content&lt;/h3&gt;
-&lt;p&gt;We have bundled the following Creative Commons licensed content.&lt;/p&gt;
+&lt;h3&gt;Садржај Заједничког стваралаштва&lt;/h3&gt;
+&lt;p&gt;Следећи садржај смо укључили под лиценцом Заједничког стварлаштва.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        - To read with Atril&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        – За читање у Атрилу&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Changing language&lt;/h3&gt;
-&lt;p&gt;Be default the Live CD is configured to use the &lt;code&gt;en_US&lt;/code&gt; locale but if you want 
-to activate another language here is how to do it. In the example below, we 
-will enable Italian.&lt;/p&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.gen&lt;/code&gt; an uncomment your locale, in this case &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
-and rebuild the locales.&lt;/p&gt;
+&lt;h3&gt;Промена језика&lt;/h3&gt;
+&lt;p&gt;Као основни језик за Живи ЦД је постављен &lt;code&gt;en_US&lt;/code&gt;, али ако желите 
+да покренете други језик ево како то да урадите. У примеру испод, 
+омогућићемо српски.&lt;/p&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.gen&lt;/code&gt; и поништите напомену за жељени језик, у овом случају &lt;code&gt;sr_RS.UTF-8 UTF-8&lt;/code&gt;
+и поново изградите језике.&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo locale-gen
 &lt;/pre&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.conf&lt;/code&gt; and change the &lt;code&gt;LANG=&lt;/code&gt; to reflect your locale, in this 
-case &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;. Finally restart the display manager and you will be 
-logged back into a MATE session using your prefered language.&lt;/p&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.conf&lt;/code&gt; и измените &lt;code&gt;LANG=&lt;/code&gt; да одрази ваш жељени језик, у овом 
+случају &lt;code&gt;LANG=sr_RS.UTF-8&lt;/code&gt;. На крају поново покрените управника приказа и бићете 
+пријављени назад у Мејтов сесију користећи ваш жељени језик.&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo systemctl restart lightdm
 &lt;/pre&gt;
-&lt;h3&gt;Linux Action Show Feature&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop LiveCD and MATE itself we featured on the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux Action 
-Show&lt;/a&gt; in the &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 
-Linux Review&lt;/a&gt; 
-episode. Two clips are embedded below, the first a quick look at the MATE 
-Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;/p&gt;
-&lt;h4&gt;MATE Desktop LiveCD&lt;/h4&gt;
+&lt;h3&gt;Програм „Линукс у акцији“&lt;/h3&gt;
+&lt;p&gt;Живи ЦД Мејтове радне површи и сам Мејт су приказани у &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Програму „Линукс у акцији“&lt;/a&gt; у епизоди &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 
+Linux Review&lt;/a&gt;. 
+Два снимка су постављена испод, први је брзи преглед Живог ЦД-а Мејтове 
+радне површи а други је преглед „CuBox-а i4“ на коме ради Мејт.&lt;/p&gt;
+&lt;h4&gt;Живи ЦД Мејтове радне површи&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=608" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h4&gt;CuBox i4 Pro Review&lt;/h4&gt;
+&lt;h4&gt;Преглед „CuBox-а i4 Pro“&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=1925" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3&gt;Feedback&lt;/h3&gt;
-&lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity 
-the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
-spin let us know what you think in the comments or use the Live CD to join us 
-in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>
+&lt;h3&gt;Повратни одговор&lt;/h3&gt;
+&lt;p&gt;Надамо се да ћете испробати Живи ЦД и да ћете уживати у брзини и једноставности
+коју пружа Мејтова радна површ. Након што испробате Живи ЦД Мејтове радне површи
+реците нам у коментарима шта мислите или користите Живи ЦД да нам се придружите&lt;br&gt;
+на &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;IRC каналу – #mate&lt;/a&gt;.&lt;/p&gt;</description><category>Arch Linux</category><category>LiveCD</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>

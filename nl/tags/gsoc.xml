@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Berichten over GSoC)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/nl/tags/gsoc.xml" rel="self" type="application/rss+xml"/><language>nl</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;Het MATE team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Berichten over GSoC)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/nl/tags/gsoc.xml" rel="self" type="application/rss+xml"/><language>nl</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;Het MATE team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/nl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:45 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/nl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After several weeks of review the application and selection period for the 
 2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
 6,313  projects for this summer. From those, 1,307 students have been accepted
 and the MATE Desktop project is one of the 190 Open Source projects that will
@@ -26,7 +26,7 @@ them every success with their respective projects for the summer.&lt;/p&gt;
 &lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
 gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
 2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/nl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/nl/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
+MATE team that will provide much need development resources to the project.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/nl/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/nl/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
 &lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt;. We are doing this 
 in partnership with our good friends at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;About Google Summer of Code&lt;/h3&gt;
@@ -72,4 +72,4 @@ interact with the MATE mentors is via:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/nl/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item></channel></rss>
+&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/nl/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item></channel></rss>

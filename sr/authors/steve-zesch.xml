@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Steve Zesch)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/steve-zesch.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Steve Zesch)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/steve-zesch.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:34 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;20 јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио своје
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;20 јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио своје
 излагање о Мејту на &lt;a href="https://www.opensuse.org"&gt;„openSUSE“&lt;/a&gt; конференцији!&lt;/p&gt;
 &lt;p&gt;Излагањем је представио Мејт онима који нису чули за њега, објаснио је разлоге за
 стварање Мејта, објаснио је разлику са сесијама Класичног Гнома и Гномовог Назађења,
 и описао функције и измене додате након отцепљења.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Измене у мејтовом позадинцу обавештења</title><link>https://preview.mate-desktop.dev/sr/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; има нову функцију у Мејту 1.6 која омогућава
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Измене у мејтовом позадинцу обавештења</title><link>https://preview.mate-desktop.dev/sr/blog/2013-01-20-changes-to-mate-notification-daemon/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; има нову функцију у Мејту 1.6 која омогућава
 корисницима да изаберу на којем монитору желе да приказују обавештења.
 Тренутно понашање приказује обавештења само на монитору који је тренутно
 активан (где је показивач). Понашање ће се подразумевати као да је увек и
@@ -24,7 +24,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 изабрано, што омогућава да се са падајућег списка изабере монитор који ће бити омогућен.
 Број монитора је постављен на 2. Тимео ће се приказивати на трећем монитору, јер
 бројање почиње од 0 уместо од 1.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="monitor" src="https://preview.mate-desktop.dev/assets/img/blog/monitor-300x235.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-01-20-changes-to-mate-notification-daemon/</guid><pubDate>Sun, 20 Jan 2013 19:07:12 GMT</pubDate></item><item><title>Ризница пакета Мејта за Федору</title><link>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Сада упућујемо кориснике да користе званичну ризницу пакета за Федору.
+&lt;p&gt;&lt;img alt="monitor" src="https://preview.mate-desktop.dev/assets/img/blog/monitor-300x235.png"&gt;&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-01-20-changes-to-mate-notification-daemon/</guid><pubDate>Sun, 20 Jan 2013 19:07:12 GMT</pubDate></item><item><title>Ризница пакета Мејта за Федору</title><link>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Сада упућујемо кориснике да користе званичну ризницу пакета за Федору.
 За упутства о коришћењу ове ризнице, погледајте &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md#Fedora"&gt;наш водич инсталације
 за Федору&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;За више информација о Мејтовом званичном укључењу у Федиру, погледајте следеће:&lt;/p&gt;
@@ -33,32 +33,32 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;/ul&gt;
 &lt;p&gt;Ако имате било какво питање у вези инсталације Мејта на Федори затражите
 помоћ на нашем &lt;a href="https://web.libera.chat/?#fedora-mate"&gt;#fedora-mate ИРЦ каналу&lt;/a&gt;
-или за општа питања о Мејту придружите нам се на &lt;a href="https://web.libera.chat/?#mate"&gt;#mate ИРЦ каналу&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>Fedora</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>Ризница Мејтових пакета за „Ubuntu Quantal“</title><link>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Ризница &lt;a href="https://www.ubuntu.com"&gt;Убунту&lt;/a&gt; пакета за Убунту 12.10 „Quantal Quetzal“
+или за општа питања о Мејту придружите нам се на &lt;a href="https://web.libera.chat/?#mate"&gt;#mate ИРЦ каналу&lt;/a&gt;.&lt;/p&gt;</description><category>Fedora</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-11-10-mate-package-repository-for-fedora/</guid><pubDate>Sat, 10 Nov 2012 20:51:28 GMT</pubDate></item><item><title>Ризница Мејтових пакета за „Ubuntu Quantal“</title><link>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Ризница &lt;a href="https://www.ubuntu.com"&gt;Убунту&lt;/a&gt; пакета за Убунту 12.10 „Quantal Quetzal“
 је сада доступна за наше издање 1.4. Као обично, пратите &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;ова упутства&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ако надограђујете са старијег издања, обавезно уклоните старије
-ризнице и додајте нове, иначе ћете наићи на проблеме.&lt;/p&gt;&lt;/div&gt;</description><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>MATE 1.4 released</title><link>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;The team is proud to announce the release of MATE 1.4.&lt;/p&gt;
+ризнице и додајте нове, иначе ћете наићи на проблеме.&lt;/p&gt;</description><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid><pubDate>Tue, 16 Oct 2012 21:52:18 GMT</pubDate></item><item><title>Мејт 1.4 је објављен</title><link>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Екипа с поносом објављује издање Мејта 1.4.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://i.imgur.com/V5ab0.png"&gt;&lt;/p&gt;
-&lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
+&lt;p&gt;Главне измене и побољшања у овом издању су:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Numerous bug fixes&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; and &lt;code&gt;libmatekeyring&lt;/code&gt; backends updated and now integrate properly&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; package now available&lt;/li&gt;
-&lt;li&gt;New themes added to &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Removed &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;File sharing now available via Bluetooth&lt;/li&gt;
-&lt;li&gt;Added option to use fast alt-tabbing when compositing is enabled in &lt;code&gt;marco&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; now available&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; now available&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; now supports GDM user switching&lt;/li&gt;
-&lt;li&gt;Removed nyancat from the mate-desktop about dialog&lt;/li&gt;
-&lt;li&gt;Forked &lt;code&gt;libwnck&lt;/code&gt; as &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Caja improvements: &lt;ul&gt;
-&lt;li&gt;Restored toggle button for text based location bar&lt;/li&gt;
-&lt;li&gt;Bookmarks can now be opened in the places side pane via the enter and space keys&lt;/li&gt;
-&lt;li&gt;Added a button to get the difference between files in the file conflict dialog&lt;/li&gt;
+&lt;li&gt;Бројне исправке грешака&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; и &lt;code&gt;libmatekeyring&lt;/code&gt; позадинци су освежени и сада исправно обједињени&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; пакет је сада доступан&lt;/li&gt;
+&lt;li&gt;Нове теме су додате у &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Уклоњен је &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Дељење датотека је сада доступно путем Блутута&lt;/li&gt;
+&lt;li&gt;Додата је опција за коришћење брзог „алт-табулирања“ када је слагање укључено у &lt;code&gt;marco&lt;/code&gt;-у&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; је сада доступан&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; је сада доступан&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; сада подржава промену ГДМ корисника&lt;/li&gt;
+&lt;li&gt;Уклоњен је „nyancat“ из прозорчета о „mate-desktop“-у&lt;/li&gt;
+&lt;li&gt;Клонирана је &lt;code&gt;libwnck&lt;/code&gt; као &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Побољшања Цаје: &lt;ul&gt;
+&lt;li&gt;Враћено је дугме окидања за траке места засноване на тексту&lt;/li&gt;
+&lt;li&gt;Обележивачи се сада могу отворити у бочној површи места путем тастера уноса и размака&lt;/li&gt;
+&lt;li&gt;Додато је дугме за разлике између датотека у прозорчету сукоба датотека&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Пријављивање грешака</title><link>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Тренутно смо у процесу преласка на решавање свих наших проблема путем
+&lt;/ul&gt;</description><category>News</category><category>Releases</category><guid>https://preview.mate-desktop.dev/sr/blog/2012-07-30-mate-1-4-released/</guid><pubDate>Mon, 30 Jul 2012 14:22:50 GMT</pubDate></item><item><title>Пријављивање грешака</title><link>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Тренутно смо у процесу преласка на решавање свих наших проблема путем
 [пројекта мејтове-радне-површи на ГитХаб-у](https://github.com/mate-desktop
 уместо на Перберосовој страници. Разлог је једноставан: када Пербероса нема,
 нико од других програмера не може затворити купоне. Ово ствара мало нереда.&lt;/p&gt;
@@ -67,7 +67,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 тада пошаљите проблем на пратиоцу проблема за &lt;code&gt;mate-panel&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Нећемо више пратити Перберосов програм за праћење проблема, зато вас молимо да
 тамо више не отварате нове грешке.&lt;/p&gt;
-&lt;p&gt;Хвала на сарадњи.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
+&lt;p&gt;Хвала на сарадњи.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2012-01-18-reporting-bugs/</guid><pubDate>Wed, 18 Jan 2012 21:22:52 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
 доступан са &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;„wiki.mate-desktop.org“-а&lt;/a&gt;. Од сада
 упућујте на овај вики. Наравно, сваки допринос је добродошао.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
@@ -87,4 +87,4 @@ Once we have more information we will add it to our wiki and make an announcemen
 &lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
-&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

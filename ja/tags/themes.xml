@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Themesについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/themes.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Themesについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/themes.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>新しいテーマ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>新しいテーマ</title><link>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
 &lt;p&gt;Menta は、次の新リリースの標準テーマになる予定です。それは、素敵な GTK2/3 のテーマ (Mint-Z Improved が基本。もはやメンテナンスされていませんが、MATE 用にカスタマイズされ、GTK3.6 にアップデート済み)と、緑色のフォルダを持つ mate-icon-theme の子テーマで構成されます。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Menta テーマ" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-menta.png"&gt;&lt;/p&gt;
 &lt;p&gt;他にも2つの新しいテーマがあります。&lt;/p&gt;
@@ -15,4 +15,4 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h4&gt;ブラック MATE テーマ&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="ブラック MATE テーマ" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-blackmate.png"&gt;&lt;/p&gt;
 &lt;h4&gt;グリーン Laguna テーマ&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="グリーン Laguna テーマ" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-greenlaguna.png"&gt;&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>Themes</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</guid><pubDate>Tue, 26 Mar 2013 16:53:32 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;img alt="グリーン Laguna テーマ" src="https://preview.mate-desktop.dev/gallery/themes/1.6/theme-greenlaguna.png"&gt;&lt;/p&gt;</description><category>News</category><category>Themes</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-03-26-new-themes/</guid><pubDate>Tue, 26 Mar 2013 16:53:32 GMT</pubDate></item></channel></rss>

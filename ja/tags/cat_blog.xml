@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (blogについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/cat_blog.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (blogについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/cat_blog.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;div&gt;&lt;p&gt;今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.26 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2021-08-08-mate-1-26-released/</link><dc:creator>Johannes Unruh</dc:creator><description>&lt;p&gt;今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.26.ja.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.26 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。&lt;/p&gt;
@@ -445,7 +445,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;scan-build によって報告されたメモリリークの修正&lt;/li&gt;
 &lt;li&gt;g10n: 翻訳の更新&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;完全な changelog は次にあります: &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2021-08-08-mate-1-26-released/</guid><pubDate>Tue, 10 Aug 2021 09:00:00 GMT</pubDate></item><item><title>MATE 1.24 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;div&gt;&lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
+&lt;p&gt;完全な changelog は次にあります: &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2021-08-08-mate-1-26-released/</guid><pubDate>Tue, 10 Aug 2021 09:00:00 GMT</pubDate></item><item><title>MATE 1.24 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE ダイアログ情報" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.24.png" width="50%"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.24 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;このリリースには、多くの新機能、バグ修正、一般的な改善が含まれています。最も重要なハイライトは次のとおりです。&lt;/p&gt;
@@ -1013,7 +1013,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;i18n: intltools から gettext へ移行&lt;/li&gt;
 &lt;li&gt;g10n: 翻訳の更新&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;完全な changelog は次にあります: &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 released</title><link>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.22. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+&lt;p&gt;完全な changelog は次にあります: &lt;a href="https://github.com/mate-desktop/python-caja/commits/master/"&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</guid><pubDate>Mon, 10 Feb 2020 09:00:00 GMT</pubDate></item><item><title>MATE 1.22 released</title><link>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.22. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.png"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.22&lt;/h3&gt;
 &lt;p&gt;This release contains plenty of critical bug fixes and under-the-hood improvements. Some of the big highlights include:&lt;/p&gt;
@@ -3173,7 +3173,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/a9c2545"&gt;a9c2545&lt;/a&gt; disable deprecation warnings for distcheck&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/7ff7438"&gt;7ff7438&lt;/a&gt; sync with transifex&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/27019fc"&gt;27019fc&lt;/a&gt; transifex: set minimum_perc and type in config file&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item><item><title>MATE 1.20 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item><item><title>MATE 1.20 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.20 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;このリリースの課題は、廃止されたコードを置き換え、コードベースの大部分を近代化することによって、MATE デスクトップを安定させることでした。また、ウィンドウマネージャ (Marco) を改善し、HiDPI のサポートを追加しました。その過程で、何百もの不具合を修正しました。&lt;/p&gt;
@@ -4325,7 +4325,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h4&gt;python-caja 1.20.0&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;翻訳の更新&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.18.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.18 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;このリリースは、MATE デスクトップ 1.16 が今だに依存している、一部の非推奨コンポーネントを置き換えるために、GTK3+ への移行を完成し新技術を採用することに焦点を当てています。&lt;/p&gt;
@@ -4788,7 +4788,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;翻訳の更新&lt;/li&gt;
 &lt;li&gt;GTK+3 だけのサポート: Caja 1.17.1 と pygobject-3.0 が必要&lt;/li&gt;
 &lt;li&gt;Python 2.5 の古いチェックを削除。これは最近では不要なため。&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>サーバの障害</title><link>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;このウェブサイトを実行しているサーバは、昨日予告なしにオフラインになりました。理由は不明ですが、サーバホストからの連絡はありませんでした。&lt;strong&gt;バックアップは完了しており、データは少しも失われていません。&lt;/strong&gt; サービスの復帰を開始しました。未解決のサービスは、休暇期間中の時間が許す限り復旧される予定です。&lt;/p&gt;
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>サーバの障害</title><link>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;このウェブサイトを実行しているサーバは、昨日予告なしにオフラインになりました。理由は不明ですが、サーバホストからの連絡はありませんでした。&lt;strong&gt;バックアップは完了しており、データは少しも失われていません。&lt;/strong&gt; サービスの復帰を開始しました。未解決のサービスは、休暇期間中の時間が許す限り復旧される予定です。&lt;/p&gt;
 &lt;p&gt;サービスがオンラインに戻ったら、このページを更新します。&lt;/p&gt;
 &lt;h3&gt;どのような影響がありますか？&lt;/h3&gt;
 &lt;p&gt;このサービスは現在停止中です。復旧の際は優先度の高い順に表示されます。&lt;/p&gt;
@@ -4824,7 +4824,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;この度はご迷惑をお掛けして申しわけありません。&lt;/p&gt;&lt;/div&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
+&lt;p&gt;この度はご迷惑をお掛けして申しわけありません。&lt;/p&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.16 での主な変更点:&lt;/h3&gt;
 &lt;p&gt;今回のリリースでは、GTK3+ の互換性の向上、新しいライブラリへのコンポーネントの移行、バグの修正、コードのクリーン化に重点が置かれています。MATE デスクトップ 1.16 の主要項目の変更点は次の通りです。&lt;/p&gt;
@@ -5140,7 +5140,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;例: 背景画像の拡張機能ロード時に Caja がクラッシュする問題を修正&lt;/li&gt;
 &lt;li&gt;例: 各種の修正&lt;/li&gt;
 &lt;li&gt;翻訳の更新&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE デスクトップ・ディスカッションフォーラムが終了します</title><link>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;残念ながら、MATEデスクトップ・フォーラムは直ちに終了します。&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE デスクトップ・ディスカッションフォーラムが終了します</title><link>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</link><dc:creator>Webmaster</dc:creator><description>&lt;p&gt;&lt;strong&gt;残念ながら、MATEデスクトップ・フォーラムは直ちに終了します。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ここしばらくの間、フォーラムのモデレーターたちは議論のペースに追いつくのに苦労していて、スパムや新規登録と戦ってきました。元のフォーラム管理者も、MATE デスクトップ・フォーラムに積極的に参加しなくなりました。したがって、MATE デスクトップ・フォーラムの閉鎖を決定したことを残念に思っています。MATE のサポートを希望する方は、次のいずれかのディストリビューション専用のフォーラムにアクセスすることをお勧めします。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://bbs.archlinux.org/"&gt;Arch Linux フォーラム&lt;/a&gt;&lt;/li&gt;
@@ -5163,7 +5163,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;&lt;a href="https://twitter.com/mate_desktop"&gt;MATE デスクトップ Twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MATE デスクトップ・フォーラムで過去や現在で係わったモデレーターに対して、その長年にわたってフォーラムに投資していただいたすべての時間と努力に感謝したいと思います。そして、先に紹介したいくつかのディスカッション・フォーラムでモデレータとしての役割が見つかるのを期待しています。&lt;/p&gt;
-&lt;p&gt;もし、誰か MATE デスクトップフォーラムの管理とモデレートを引き受けたい場合は、 Libera Chat の &lt;code&gt;#mate-dev&lt;/code&gt; IRC および Matrix チャネルで &lt;a href="https://preview.mate-desktop.dev/team/"&gt;MATE デスクトップチーム&lt;/a&gt;とチャットしてください。フォーラムを再びアクティブにすることが可能です。&lt;/p&gt;&lt;/div&gt;</description><category>forums</category><category>MATE</category><category>private</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE 1.14 をリリースしました</title><link>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.14 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
+&lt;p&gt;もし、誰か MATE デスクトップフォーラムの管理とモデレートを引き受けたい場合は、 Libera Chat の &lt;code&gt;#mate-dev&lt;/code&gt; IRC および Matrix チャネルで &lt;a href="https://preview.mate-desktop.dev/team/"&gt;MATE デスクトップチーム&lt;/a&gt;とチャットしてください。フォーラムを再びアクティブにすることが可能です。&lt;/p&gt;</description><category>forums</category><category>MATE</category><category>private</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-07-28-mate-forums-are-closing/</guid><pubDate>Thu, 28 Jul 2016 13:00:00 GMT</pubDate></item><item><title>MATE 1.14 をリリースしました</title><link>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.14 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.14.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.14 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;MATE デスクトップ 1.14 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -5446,7 +5446,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h4&gt;caja-dropbox&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;わずかなクリーンアップ&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 をリリースしました</title><link>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 をリリースしました</title><link>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.12.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.12 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;MATE デスクトップ 1.12 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -5686,4 +5686,4 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;caja extensions の既定ディレクトリを修正&lt;/li&gt;
 &lt;li&gt;tarball に autogen.sh を含める&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/ja/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item></channel></rss>

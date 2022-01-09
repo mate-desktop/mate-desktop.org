@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge von Benjamin Denisart)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/authors/benjamin-denisart.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge von Benjamin Denisart)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/authors/benjamin-denisart.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE in openSUSE</title><link>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:14 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE in openSUSE</title><link>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;Das openSUSE-MATE-Team ist stolz, die Verfügbarkeit von MATE 1.8 für openSUSE
 bekanntgeben zu können. Die Pattern sind nicht mehr verfügbar und werden es auch
 nicht mehr werden, da MATE nun offiziell in openSUSE aufgenommen wurde.
@@ -13,4 +13,4 @@ Wir haben die Struktur unserer Repositorien geändert, damit niemand seine
 Repositorien für jedes Update extra anpassen muss. 
 Jetzt gibt es nur einen Ort, X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;Zur Installation ersetzen oder ergänzen Sie bitte unser Repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>openSUSE</category><guid>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</guid><pubDate>Sat, 10 May 2014 10:03:06 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;</description><category>openSUSE</category><guid>https://preview.mate-desktop.dev/de/blog/2014-05-10-mate-in-opensuse/</guid><pubDate>Sat, 10 May 2014 10:03:06 GMT</pubDate></item></channel></rss>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Debian)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/debian.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Debian)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/debian.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
 Мејт 1.8.1 је доступан у Дебиан „Jessie“-у (тестирање) и такође у
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; за „Wheezy“.&lt;/p&gt;
 &lt;p&gt;Као резултат Мејта 1.8.1 који погађа ризнице Дебиан тестирања
@@ -17,21 +17,20 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Уклонили смо ризнице пакета удомљене на „mate-desktop.org“-у 
 јер су неки били непотписани а други нису одржавани више месеци.
 Стога су, од сада, уклоњене су ризнице пакета Дебиана и Убунтуа
-удомљене на „mate-desktop.org“. &lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Debian MATE Packaging Team</title><link>https://preview.mate-desktop.dev/sr/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
-&lt;p&gt;The MATE Team is very happy to say hello to the new Debian MATE Packaging
-Team, that is &lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31"&gt;working hard&lt;/a&gt;
-to get MATE included into the next release of Debian.&lt;/p&gt;
-&lt;p&gt;First packages are already in the repositories and there are many others
-in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A big thanks to:&lt;/p&gt;
+удомљене на „mate-desktop.org“. &lt;/p&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Екипа паковања Дебиан Мејта</title><link>https://preview.mate-desktop.dev/sr/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
+&lt;p&gt;Мејтова екипа је врло срећна што може поздравити нову екипу паковања
+Дебиан Мејта, која је &lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31"&gt;напорно радила&lt;/a&gt;
+да би Мејт био укључен у следеће издање Дебиана.&lt;/p&gt;
+&lt;p&gt;Први пакети су већ у ризницама а многи други су у
+&lt;a href="https://ftp-master.debian.org/new.html"&gt;НОВОМ реду „ftp-master“-а&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Велико хвала:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://users.physik.fu-berlin.de/~glaubitz/"&gt;John Paul Adrian Glaubitz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sunweavers.net/blog/"&gt;Mike Gabriel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Vangelis Mouhtsis]&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://outflux.net/"&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://users.physik.fu-berlin.de/~glaubitz/"&gt;John Paul Adrian Glaubitz-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sunweavers.net/blog/"&gt;Mike Gabriel-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Vangelis Mouhtsis-у]&lt;/li&gt;
+&lt;li&gt;[Kees Cook-у&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you want to join the team, please reach the members on IRC in the
-&lt;a href="https://webchat.oftc.net/?channels=debian-mate"&gt;#debian-mate&lt;/a&gt; channel @ OFTC.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
+&lt;p&gt;](https://outflux.net/)&lt;/p&gt;</description><category>Debian</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-08-debian-mate-packaging-team/</guid><pubDate>Fri, 08 Nov 2013 02:00:00 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
 доступан са &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;„wiki.mate-desktop.org“-а&lt;/a&gt;. Од сада
 упућујте на овај вики. Наравно, сваки допринос је добродошао.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
@@ -51,7 +50,7 @@ Once we have more information we will add it to our wiki and make an announcemen
 &lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
-&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Представљање Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item><item><title>Представљање Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
 &lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан... Сада
 је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
@@ -64,4 +63,4 @@ we are looking for people who are willing to set these up.&lt;/p&gt;
 &lt;p&gt;Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика
 и стабилност, са Гномом 2.32. Пребацићемо теме, програмчиће и програме који
 су развијани за Гноме 2 и помоћи програмерима да пренесу своје програме на ову
-нову радну површ.&lt;/p&gt;&lt;/div&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+нову радну површ.&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

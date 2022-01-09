@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Linux Voiceについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/linux-voice.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Linux Voiceについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/linux-voice.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:25 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Linux Voice に支援を！</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-25-support-linux-voice/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE チームはあなたが &lt;a href="https://www.indiegogo.com/projects/linux-voice"&gt;Linux Voice on indiegogo&lt;/a&gt; へ出かけて、オープンソースのユーザーでありファンでもあるあなたがなぜ &lt;a href="https://www.linuxvoice.com/"&gt;Linux Voice&lt;/a&gt; を支援した方がいいのかを調べることをお勧めします。このプロジェクトを支持する理由は、以下のとおりです。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Linux Voice に支援を！</title><link>https://preview.mate-desktop.dev/ja/blog/2013-11-25-support-linux-voice/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE チームはあなたが &lt;a href="https://www.indiegogo.com/projects/linux-voice"&gt;Linux Voice on indiegogo&lt;/a&gt; へ出かけて、オープンソースのユーザーでありファンでもあるあなたがなぜ &lt;a href="https://www.linuxvoice.com/"&gt;Linux Voice&lt;/a&gt; を支援した方がいいのかを調べることをお勧めします。このプロジェクトを支持する理由は、以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Linux Format 誌の編集チームの多数によって結成されました。&lt;/li&gt;
 &lt;li&gt;Linux Voice 誌の利益の50%はフリーソフトウェアと Linux コミュニティに還元されます。&lt;/li&gt;
@@ -15,4 +15,4 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;このキャンペーンの進捗状況を詳しく知るには、&lt;a href="https://www.linuxvoice.com/"&gt;Linux Voice&lt;/a&gt; のウェブサイトにアクセスしてください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.linuxvoice.com/"&gt;https://www.linuxvoice.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Linux Voice</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-25-support-linux-voice/</guid><pubDate>Mon, 25 Nov 2013 13:50:43 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>Linux Voice</category><guid>https://preview.mate-desktop.dev/ja/blog/2013-11-25-support-linux-voice/</guid><pubDate>Mon, 25 Nov 2013 13:50:43 GMT</pubDate></item></channel></rss>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о openSUSE)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/opensuse.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о openSUSE)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/opensuse.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт у „openSUSE“-у</title><link>https://preview.mate-desktop.dev/sr/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт у „openSUSE“-у</title><link>https://preview.mate-desktop.dev/sr/blog/2014-05-10-mate-in-opensuse/</link><dc:creator>Benjamin Denisart</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;Тим „openSUSE“ Мејт с поносом објављује доступност Мејта 1.8
 за „openSUSE“. Обрасци више нису доступни и неће бити доступни
 ни у будућности због званичног укључивања Мејта у „openSUSE“.
@@ -13,81 +13,80 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 да мењају своје ризнице за свако освежавање. Сада постоји
 само једно место, „X11:MATE:Current“.&lt;/p&gt;
 &lt;p&gt;Да га инсталирате, замените или додајте нашу ризницу:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-05-10-mate-in-opensuse/</guid><pubDate>Sat, 10 May 2014 10:03:06 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the MATE Desktop project is one of the 190 Open Source projects that will
-be  working with students this year.&lt;/p&gt;
-&lt;p&gt;In our second year as a GSoC mentor organisation the MATE team received 4
-student proposals we were allocated 3 slots for student projects.&lt;/p&gt;
-&lt;p&gt;I'm delighted to introduce our GSoC students for 2014:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/Current/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;</description><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-05-10-mate-in-opensuse/</guid><pubDate>Sat, 10 May 2014 10:03:06 GMT</pubDate></item><item><title>Мејтови пројекти прихваћени за GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Након неколико недеља прегледа пријаве и периода бирања за 2014. годину
+Гугл лето програмирања (GSoC) је завршено. 4.420 студената је укупно предложило 
+6.313 пројеката за ово лето. Од тога, 1.307 студената је прихваћено а пројекат
+Мејтове радне површи је један од 190 пројеката отвореног кода који ће
+радити са студентима ове године. &lt;/p&gt;
+&lt;p&gt;У нашој другој години као покровитељска организација GCoC-а, екипа Мејта је
+добила 4 предлога студената додељена су нам 3 места за студентске пројекте.&lt;/p&gt;
+&lt;p&gt;С поносом вам представљам наше GSoC студенте за 2014:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the MATE desktop.&lt;/li&gt;
-&lt;li&gt;Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  MATE desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10 library.&lt;/li&gt;
-&lt;li&gt;Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension configuration.&lt;/li&gt;
+&lt;li&gt;Авишкар Гупта ће радити на додавању могућности ePub исцртавања у
+  Атрилу, прегледачу докумената за Мејтову радну површ.&lt;/li&gt;
+&lt;li&gt;Михал Ратајски ће радити на додавању GStreamer 1.0 подршке у окружењу
+  Мејтове радне површи како би заменио зависности у застарелој библиотеци 
+  GStreamer-а 0.10.&lt;/li&gt;
+&lt;li&gt;Александер ван дер Меиј ће радити на побољшању проширења Цаје тако да се 
+  могу интегрисати за време времена извршавања и такође да направи сучеље
+  једног корисника за подешавање проширења Цаје.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please join me in welcoming these new contributors to the MATE team and wish
-them every success with their respective projects for the summer.&lt;/p&gt;
-&lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
-gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
-&lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt;. We are doing this 
-in partnership with our good friends at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;About Google Summer of Code&lt;/h3&gt;
-&lt;p&gt;Google Summer of Code (commonly called as GSoC) is a global program that 
-offers student developers stipends to write code for various open source 
-software projects. GSoC works with many open source, free software, and 
-technology-related groups to identify and fund projects over a three month 
-period. Since its inception in 2005, the program has brought together over 
-7,500 successful student participants from 97 countries and over 7,000 
-mentors from over 100 countries worldwide to produce over 50 million lines 
-of code. Through Google Summer of Code, accepted student applicants are 
-paired with a mentor or mentors from the participating projects, thus 
-gaining exposure to real-world software development scenarios and the 
-opportunity for employment in areas related to their academic pursuits. In 
-turn, the participating projects are able to more easily identify and bring 
-in new developers. Best of all, more source code is created and released for 
-the use and benefit of all.&lt;/p&gt;
-&lt;h3&gt;For students&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;The student application period is open from March 10th 2014 until March 21st 2014.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;For assistance in how to apply please read the &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;Google Summer of Code 2014 
-FAQ&lt;/a&gt;. 
-If you are a student who wants to contribute to MATE via the openSUSE GSoC 
-participation you'll what to check out the following:&lt;/p&gt;
+&lt;p&gt;Хајде да заједно поздравимо ове нове доприносиоце у Мејтовој екипи и да
+им пожелимо све најбоље у њиховим одговарајућим пројектима у току лета.&lt;/p&gt;
+&lt;p&gt;У име читаве екипе Мејта такође бих желео да изразим захвалност и да
+похвалим &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; који су наш GSoC организатор за
+2014. Они су одрадили одличан посао у обезбеђивању ових GSoC пласмана за
+екипу Мејта који ће обезбедити преко потребна развојна средства за пројекат.&lt;/p&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>Мејт учествује на GSoC-у 2014.</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа са задовољством објављује да учествује на 
+&lt;a href="https://www.google-melange.com/archive/"&gt;Гугловом лету програмирања&lt;/a&gt;. То радимо 
+у садејству са нашим добрим пријатељима на &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;О Гугловом лету програмирања&lt;/h3&gt;
+&lt;p&gt;Гуглово лето програмирања (које се обично назива „GSoC“) је општи програм који 
+нуди студентима програмерима стипендије за писање кода за различите софтверске 
+пројекте отвореног кода. „GSoC“ ради са многим групама отвореног кода, слободног 
+софтвера и групама повезаних технологија како би препознао и финансирао пројекте 
+током три месеца раздобља. Од свог почетка 2005. године, програм је окупио 7.500 
+успешних студената учесника из 97 земаља и преко 7.000 покровитеља из преко 100 
+земаља широм света који су произвели преко 50 милиона линија кода. Кроз Гуглово 
+лето програмирања, прихваћени студенти кандидати су упарени са покровитељем или 
+покровитељима из пројеката који учествују, дакле упознавање са реалним сценаријима 
+развоја софтвера и могућност запошљавања у областима које се односе на њихово 
+академско занимање. Заузврат, пројекти који учествују су у могућности да лакше 
+препознају и донесу нове програмере. Најбоље од свега је што је створено и издато 
+још изворног кода за употребу и корист свих нас.&lt;/p&gt;
+&lt;h3&gt;За студенте&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Период пријављивања студената је отворен од 10. марта 2014. до 21. марта 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;За испомоћ о томе како да се пријавите прочитајте &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;ЧПП Гугловог лета програмирања 
+2014&lt;/a&gt;. 
+Ако сте студент који жели да допринесе Мејту путем „openSUSE GSoC“ 
+учествовања проверите следеће:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;Мејтове идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE учествује на GSoC-у 2014.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short the MATE GSoC project ideas for 2014 are:&lt;/p&gt;
+&lt;p&gt;Идеје пројекта Мејта „GSoC“-а за 2014. укратко су:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ePub format support in Atril&lt;/li&gt;
-&lt;li&gt;GStreamer-1.0 support&lt;/li&gt;
-&lt;li&gt;Plugin system in Caja&lt;/li&gt;
+&lt;li&gt;Подршка „ePub“ формата у Атрилу&lt;/li&gt;
+&lt;li&gt;Подршка „GStreamer“-1.0&lt;/li&gt;
+&lt;li&gt;Систем прикључака у Цаји&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As always, the key is to start early and to interact with mentors and the 
-community at large. Fixing bugs, submitting pull requests and working on Proof 
-of Concepts is a good way to get started.&lt;/p&gt;
-&lt;p&gt;The GSoC 2014 mentors for MATE are Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; on IRC) and 
-Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; on IRC). The best way to communicate and 
-interact with the MATE mentors is via:&lt;/p&gt;
+&lt;p&gt;Као и увек, кључ је започети рано и комуницирати са покровитељима и 
+заједницом у целини. Исправљање грешака, подношење захтева за повлачење 
+и рад на „Proof of Concepts“-у је добар начин за почетак.&lt;/p&gt;
+&lt;p&gt;Покровитељи „GSoC“-а 2014. за Мејт су Стефано Карапетсас (&lt;code&gt;stefano-k&lt;/code&gt; на IRC-у) и 
+Мартин Вимпрес (&lt;code&gt;flexiondotorg&lt;/code&gt; на IRC-у). Најбољи начин за комуницирање и 
+деловање са покровитељима Мејта је путем:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel on Libera Chat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC канала на Libera Chat-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Матрикс причаонице&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;Мејта на ГитХаб-у&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>Мејт на самиту „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Самит" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
+&lt;p&gt;Радујемо се прегледу ваших пријава!&lt;/p&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>Мејт на самиту „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-11-08-mate-at-opensuse-summit/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt; &lt;img alt="Самит" src="https://preview.mate-desktop.dev/assets/img/blog/opensuse-summit.png"&gt;&lt;/p&gt;
 &lt;p&gt;Александрос Венос, „openSUSE“ амбасадор и члан тима друштвених медија „openSUSE“
 Мејта, приказаће &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;„openSUSE“ Мејт&lt;/a&gt;
 на &lt;a href="https://summit.opensuse.org/"&gt;„openSUSE“ Самиту 2013.&lt;/a&gt; у Орланду, на Флориди,
 у недељу, 17. новембра у 10:15.&lt;/p&gt;
-&lt;p&gt;Разговор ће бити доступан на &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;овој страници&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>Нове ризнице за „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+&lt;p&gt;Разговор ће бити доступан на &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;овој страници&lt;/a&gt;.&lt;/p&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>Нове ризнице за „openSUSE“</title><link>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;Да би Мејт постао званично доступан у &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
 ризнице заједнице се морају изменити у „YaST“-у. Да то урадите, идите на
 „&lt;em&gt;YaST -&amp;gt; Софтвер -&amp;gt; Ризнице софтвера&lt;/em&gt;“ и уклоните „&lt;em&gt;X11:MATE:Factory&lt;/em&gt;“
@@ -98,12 +97,12 @@ interact with the MATE mentors is via:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE 12.3&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/"&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Хвала вам!&lt;/p&gt;&lt;/div&gt;</description><category>openSUSE</category><category>Нењс</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;20 јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио своје
+&lt;p&gt;Хвала вам!&lt;/p&gt;</description><category>openSUSE</category><category>Нењс</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-08-10-mate-package-repository-for-opensuse/</guid><pubDate>Sat, 10 Aug 2013 09:58:21 GMT</pubDate></item><item><title>Стефано представља на „openSUSE“ конференцији</title><link>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;20 јула 2013. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt; је представио своје
 излагање о Мејту на &lt;a href="https://www.opensuse.org"&gt;„openSUSE“&lt;/a&gt; конференцији!&lt;/p&gt;
 &lt;p&gt;Излагањем је представио Мејт онима који нису чули за њега, објаснио је разлоге за
 стварање Мејта, објаснио је разлику са сесијама Класичног Гнома и Гномовог Назађења,
 и описао функције и измене додате након отцепљења.&lt;/p&gt;
-&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;div&gt;&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
+&lt;iframe width="640" height="480" src="//www.youtube.com/embed/H-2WSt5cbR4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid><pubDate>Sun, 21 Jul 2013 14:46:13 GMT</pubDate></item><item><title>Нови вики и друге информације</title><link>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Недавно смо се пребацили са викија на &lt;a href="https://github.com/"&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
 доступан са &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;„wiki.mate-desktop.org“-а&lt;/a&gt;. Од сада
 упућујте на овај вики. Наравно, сваки допринос је добродошао.&lt;/p&gt;
 &lt;p&gt;For those of you who aren't already aware, you can
@@ -123,4 +122,4 @@ Once we have more information we will add it to our wiki and make an announcemen
 &lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
 and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
 we are looking for people who are willing to set these up.&lt;/p&gt;
-&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

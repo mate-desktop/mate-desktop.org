@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Victor Kareh 發佈)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/zh_tw/authors/victor-kareh.xml" rel="self" type="application/rss+xml"/><language>zh_tw</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Victor Kareh 發佈)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/zh_tw/authors/victor-kareh.xml" rel="self" type="application/rss+xml"/><language>zh_tw</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:50:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 發佈</title><link>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;div&gt;&lt;p&gt;經過大約一年的開發，MATE Desktop 團隊終於發佈了 MATE 1.22。非常感謝幫助實現這一目標的所有貢獻者。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:57 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 發佈</title><link>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;p&gt;經過大約一年的開發，MATE Desktop 團隊終於發佈了 MATE 1.22。非常感謝幫助實現這一目標的所有貢獻者。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.zh_tw.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.22 的新特性&lt;/h3&gt;
 &lt;p&gt;此版本包含大量關鍵錯誤修復和漏洞改進。一些重要的亮點包括：&lt;/p&gt;
@@ -2163,4 +2163,4 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/a9c2545"&gt;a9c2545&lt;/a&gt; disable deprecation warnings for distcheck&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/7ff7438"&gt;7ff7438&lt;/a&gt; sync with transifex&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mate-desktop/python-caja/commit/27019fc"&gt;27019fc&lt;/a&gt; transifex: set minimum_perc and type in config file&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><category>發佈</category><guid>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>Releases</category><category>發佈</category><guid>https://preview.mate-desktop.dev/zh_tw/blog/2019-03-18-mate-1-22-released/</guid><pubDate>Mon, 18 Mar 2019 09:00:00 GMT</pubDate></item></channel></rss>

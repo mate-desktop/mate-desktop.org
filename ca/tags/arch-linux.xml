@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades sobre Arch Linux)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/tags/arch-linux.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Entrades sobre Arch Linux)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ca/tags/arch-linux.xml" rel="self" type="application/rss+xml"/><language>ca</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;L'equip de MATE&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/ca/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/ca/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
 
 &lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
@@ -97,7 +97,7 @@ Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;
 &lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity 
 the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
 spin let us know what you think in the comments or use the Live CD to join us 
-in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE is officially available in Arch Linux</title><link>https://preview.mate-desktop.dev/ca/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE has finally found it's way home.&lt;/p&gt;
+in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item><item><title>MATE is officially available in Arch Linux</title><link>https://preview.mate-desktop.dev/ca/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE has finally found it's way home.&lt;/p&gt;
 &lt;p&gt;As some of you may know MATE was created by an &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
 user, Perberos. It is somewhat ironic then that MATE has never featured
 in the official Arch Linux package repository until now. That's right,
@@ -121,7 +121,7 @@ repository but I have already seen that some packages are built.&lt;/p&gt;
 &lt;p&gt;MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
 you have a Pi and a spare SDCARD, give it a whirl. I'll be writing a
 blog post about how install Arch Linux and MATE on the Raspberry Pi with
-some useful performance tweaks in the near future.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>MATE 1.6 packages for Arch Linux</title><link>https://preview.mate-desktop.dev/ca/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;MATE 1.6 packages have been available for &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+some useful performance tweaks in the near future.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2014-01-16-mate-officially-in-arch-linux/</guid><pubDate>Thu, 16 Jan 2014 22:22:22 GMT</pubDate></item><item><title>MATE 1.6 packages for Arch Linux</title><link>https://preview.mate-desktop.dev/ca/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE 1.6 packages have been available for &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
 for a good while now. So why the blog post?&lt;/p&gt;
 &lt;p&gt;Over the last few months the MATE 1.6 packages for Arch Linux have been
 fixed, cleaned up and enhanced. Here is an overview of what we've been
@@ -163,7 +163,7 @@ of getting MATE into the official Arch Linux repositories. You can help
 with that by voting for MATE packages in the AUR.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg"&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/ca/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;div&gt;&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid><pubDate>Sat, 16 Nov 2013 00:36:43 GMT</pubDate></item><item><title>Introducing MATE Desktop</title><link>https://preview.mate-desktop.dev/ca/blog/2011-12-05-introducing-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
 &lt;p&gt;Gnome 2 was the most popular Linux desktop but it's no longer available... MATE
 is here to provide that same desktop to you &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos initially forked Gnome 2 and called the project MATE. Users and
@@ -176,4 +176,4 @@ The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momen
 &lt;p&gt;Our top priority is to improve MATE and for it to be on par, in terms of features
 and stability, with Gnome 2.32. We'll port themes, applets, and applications which
 were developed for Gnome 2, and help developers port their applications to this
-new desktop.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+new desktop.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ca/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

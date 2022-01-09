@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о News)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/news.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о News)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/news.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Упознајте Мејтовог управитеља</title><link>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
 представе] (https://www.jupiterbroadcasting.com/show/linuxactionshow/) да
 мало поразговарамо о Мејтовој радној површи, одакле је потекао и куда иде.
 Интервју са мном можете видети у наставку.&lt;/p&gt;
@@ -17,7 +17,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 прегледању ваших &lt;a href="https://github.com/mate-desktop"&gt;захтева за повлачењем на ГитХаб-у&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Јупитерово емитовање&lt;/a&gt; производи велики број
 недељних видео емисија и подкастова углавном усмерених на ФЛОСС. Погледајте,
-можда ћете наћи нешто што вас занима.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
+можда ћете наћи нешто што вас занима.&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Захваљујући напорима &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
 Мејт 1.8.1 је доступан у Дебиан „Jessie“-у (тестирање) и такође у
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; за „Wheezy“.&lt;/p&gt;
 &lt;p&gt;Као резултат Мејта 1.8.1 који погађа ризнице Дебиан тестирања
@@ -31,172 +31,171 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Уклонили смо ризнице пакета удомљене на „mate-desktop.org“-у 
 јер су неки били непотписани а други нису одржавани више месеци.
 Стога су, од сада, уклоњене су ризнице пакета Дебиана и Убунтуа
-удомљене на „mate-desktop.org“. &lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>MATE projects accepted for GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After several weeks of review the application and selection period for the 
-2014 Google Summer of Code (GSoC) is over. 4,420 students proposed a total of
-6,313  projects for this summer. From those, 1,307 students have been accepted
-and the MATE Desktop project is one of the 190 Open Source projects that will
-be  working with students this year.&lt;/p&gt;
-&lt;p&gt;In our second year as a GSoC mentor organisation the MATE team received 4
-student proposals we were allocated 3 slots for student projects.&lt;/p&gt;
-&lt;p&gt;I'm delighted to introduce our GSoC students for 2014:&lt;/p&gt;
+удомљене на „mate-desktop.org“. &lt;/p&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Мејтови пројекти прихваћени за GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Након неколико недеља прегледа пријаве и периода бирања за 2014. годину
+Гугл лето програмирања (GSoC) је завршено. 4.420 студената је укупно предложило 
+6.313 пројеката за ово лето. Од тога, 1.307 студената је прихваћено а пројекат
+Мејтове радне површи је један од 190 пројеката отвореног кода који ће
+радити са студентима ове године. &lt;/p&gt;
+&lt;p&gt;У нашој другој години као покровитељска организација GCoC-а, екипа Мејта је
+добила 4 предлога студената додељена су нам 3 места за студентске пројекте.&lt;/p&gt;
+&lt;p&gt;С поносом вам представљам наше GSoC студенте за 2014:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Avishkar Gupta will be working on adding ePub rendering capabilities to
-  Atril, the document viewer of the MATE desktop.&lt;/li&gt;
-&lt;li&gt;Michal Ratajsky will be working on adding GStreamer 1.0 support into the 
-  MATE desktop environment in order to replace the dependency on the deprecated 
-  GStreamer 0.10 library.&lt;/li&gt;
-&lt;li&gt;Alexander van der Meij will be working on improving Caja extensions so they 
-  can be integrated during runtime and also create a single user interface for
-  Caja extension configuration.&lt;/li&gt;
+&lt;li&gt;Авишкар Гупта ће радити на додавању могућности ePub исцртавања у
+  Атрилу, прегледачу докумената за Мејтову радну површ.&lt;/li&gt;
+&lt;li&gt;Михал Ратајски ће радити на додавању GStreamer 1.0 подршке у окружењу
+  Мејтове радне површи како би заменио зависности у застарелој библиотеци 
+  GStreamer-а 0.10.&lt;/li&gt;
+&lt;li&gt;Александер ван дер Меиј ће радити на побољшању проширења Цаје тако да се 
+  могу интегрисати за време времена извршавања и такође да направи сучеље
+  једног корисника за подешавање проширења Цаје.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please join me in welcoming these new contributors to the MATE team and wish
-them every success with their respective projects for the summer.&lt;/p&gt;
-&lt;p&gt;On behalf on the entire MATE team I'd also like to extend our thanks and
-gratitude to &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; who are our GSoC organiser for
-2014. They did a fantastic job in helping secure these GSoC placements for the
-MATE team that will provide much need development resources to the project.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>galculator is coming to MATE 1.10</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team is proud to announce that we are collaborating with the
-&lt;a href="http://galculator.mnim.org/"&gt;galculator&lt;/a&gt; team and that galculator
-will replace &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10.&lt;/p&gt;
-&lt;h3&gt;What is galculator?&lt;/h3&gt;
-&lt;p&gt;From the galculator website:&lt;/p&gt;
+&lt;p&gt;Хајде да заједно поздравимо ове нове доприносиоце у Мејтовој екипи и да
+им пожелимо све најбоље у њиховим одговарајућим пројектима у току лета.&lt;/p&gt;
+&lt;p&gt;У име читаве екипе Мејта такође бих желео да изразим захвалност и да
+похвалим &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; који су наш GSoC организатор за
+2014. Они су одрадили одличан посао у обезбеђивању ових GSoC пласмана за
+екипу Мејта који ће обезбедити преко потребна развојна средства за пројекат.&lt;/p&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid><pubDate>Mon, 28 Apr 2014 06:14:31 GMT</pubDate></item><item><title>галкулатор долази на Мејт 1.10</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-17-galculator-is-coming-to-mate/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа с поносом објављује да сарађујемо са екипом
+&lt;a href="http://galculator.mnim.org/"&gt;галкулатора&lt;/a&gt; и да ће галкулатор
+заменити &lt;code&gt;mate-calc&lt;/code&gt; у Мејту 1.10.&lt;/p&gt;
+&lt;h3&gt;Шта је галкулатор?&lt;/h3&gt;
+&lt;p&gt;Са веб сајта галкулатора:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;galculator is a GTK 2 / GTK 3 based calculator with ordinary
-notation/reverse polish notation (RPN), a formula entry mode,
-different number bases (DEC, HEX, OCT, BIN) and different units of
-angular measure (DEG, RAD, GRAD). It supports quad-precision
-floating point and 112-bit binary arithmetic.&lt;/p&gt;
+&lt;p&gt;галкулатор је дигитрон заснован на Гтк 2 / Гтк 3 са обичним
+бележењем/обрнутим дотераним бележењем (RPN), режимом
+уноса формула, различитим бројевним основама (DEC, HEX, OCT, BIN)
+и разним угаоним јединицама (СТЕП, РАД, ГРАД). Подржава четвороструку
+тачност покретног зареза и 112-битну бинарну аритметику.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;galculator's main features include:&lt;/p&gt;
+&lt;p&gt;У главне функције галкулатора спадају:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Algebraic mode, RPN (Reverse Polish Notation), Formula Entry and Paper mode&lt;/li&gt;
-&lt;li&gt;Decimal, hexadecimal, octal and binary number base&lt;/li&gt;
-&lt;li&gt;Radiant, degree and grad support&lt;/li&gt;
-&lt;li&gt;Basic and Scientific Mode&lt;/li&gt;
-&lt;li&gt;User defined constants and functions&lt;/li&gt;
-&lt;li&gt;Trigonometric functions, power, sqare root, natural and common logarithm, inverse and hyperbolic functions&lt;/li&gt;
-&lt;li&gt;Binary arithmetic of configurable bit length and signedness&lt;/li&gt;
-&lt;li&gt;Quad-precision floating point arithmetic&lt;/li&gt;
-&lt;li&gt;112-bit binary arithmetic&lt;/li&gt;
-&lt;li&gt;Copy and paste&lt;/li&gt;
-&lt;li&gt;Available in more than 20 translations.&lt;/li&gt;
+&lt;li&gt;Алгебарски режим, RPN (обрнуто дотерано бележење), унос формуле и режим папира&lt;/li&gt;
+&lt;li&gt;Децимална, хексадецимална, октална и бинарна основа броја&lt;/li&gt;
+&lt;li&gt;Подршка за радијане, степене и градијане&lt;/li&gt;
+&lt;li&gt;Основни и научни режим рада&lt;/li&gt;
+&lt;li&gt;Константе и функције које дефинише корисник&lt;/li&gt;
+&lt;li&gt;Тригонометријске функције, степененовање, квадратни корен, природни и општи логаритми, инверзне и хиперболичке функције&lt;/li&gt;
+&lt;li&gt;Бинарна аритметика подесиве дужине бита и одређивање знака&lt;/li&gt;
+&lt;li&gt;Аритметика покретног зареза четвороструке тачности&lt;/li&gt;
+&lt;li&gt;112-битна бинарна аритметика&lt;/li&gt;
+&lt;li&gt;Умножавање и убацивање&lt;/li&gt;
+&lt;li&gt;Доступност на више од 20 језика.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Like MATE galculator has a commitment to GTK2 and GTK3 and is actively
-maintained.&lt;/p&gt;
-&lt;h3&gt;Why ditch mate-calc?&lt;/h3&gt;
-&lt;p&gt;While &lt;code&gt;mate-calc&lt;/code&gt; is functional it lacks many features required of a
-modern desktop calcualtor. The MATE team is small with limited resources
-and where possible we are attempting to collaborate with projects that
-add value to MATE and reduce development burden on the MATE team.
-galculator is a perfect fit in this regard.&lt;/p&gt;
-&lt;h3&gt;What's in it for the galculator team?&lt;/h3&gt;
-&lt;p&gt;galculator will remain an entirely independent project but we hope that its 
-inclusion in MATE will grow the galculator user base, raise awareness about 
-galculator and attract new contributors to their project. To that end the 
-MATE team will host the galculator translations as a resource on the
-&lt;a href="https://www.transifex.com/organization/mate/dashboard/MATE"&gt;MATE transifex project&lt;/a&gt;.
-We are hopeful that the ~300 heroic MATE translators will embrace galculator and
-add to the ~20 languages galculator currently supports.&lt;/p&gt;
-&lt;h3&gt;I am a packager. What does this mean for me?&lt;/h3&gt;
-&lt;p&gt;If you are a MATE package maintainer then start creating galculator
-packages for your distribution if they do not already exist and add
-galculator to your MATE meta packages or package groups. MATE 1.10 is a
-way off yet, so you have plenty of time.&lt;/p&gt;
-&lt;p&gt;Hopefully you undertand our reasoning and can see the mutual advantages
-for this partnership. Let us know what you think in the comments.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>MATE Desktop singing the BlueZ</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
-&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman project&lt;/a&gt; and helping to
-update Blueman to BlueZ 5.x.&lt;/p&gt;
-&lt;h3&gt;Why ditch mate-bluetooth?&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supports BlueZ 4.x which has been discontinued and many
-distributions have, or are about to, replace BlueZ 4.x with BlueZ 5.x in their
-respective package repositories. Migrating &lt;code&gt;mate-bluetooth&lt;/code&gt; to BlueZ 5.x was
-shaping up to be a lot of work and doesn't provide the range of features
-available in Blueman.&lt;/p&gt;
-&lt;h3&gt;Why Blueman? Isn't it dead?&lt;/h3&gt;
-&lt;p&gt;While the original Blueman project has stagnated, &lt;a href="https://github.com/cschramm"&gt;Christopher Schramm&lt;/a&gt;
-has reignited the development and started porting Blueman to BlueZ 5.x. While
-there is also some effort in updating Blueman to support BlueZ 5.x we feel it
-will provide a far better Bluetooth interface for MATE.&lt;/p&gt;
-&lt;h3&gt;When will the updated Blueman be ready?&lt;/h3&gt;
-&lt;p&gt;The observant among you may have noticed that the &lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;MATE 1.8 release announcement&lt;/a&gt;
-already mentioned that &lt;code&gt;mate-bluetooth&lt;/code&gt; has been replaced with Blueman and the
-even more observant will also have noticed that a fresh version of Blueman has
-not yet been released. Yeah, we suck! Sorry about that.&lt;/p&gt;
-&lt;p&gt;While we acknowledge that we suck, we are actively contributing to the effort of
-porting Blueman to BlueZ 5.x and GObject introspection. We are hoping to have it
-ready in time for MATE 1.8.1 which is primarily intended as a bug fix
-release.&lt;/p&gt;
-&lt;h3&gt;Can't you do it faster, damn it?!&lt;/h3&gt;
-&lt;p&gt;Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
-to contribute via the &lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman GitHub repository&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>MATE is participating in GSoC 2014</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team are very pleased to announce that we are participatiing in 
-&lt;a href="https://www.google-melange.com/archive/"&gt;Google Summer of Code&lt;/a&gt;. We are doing this 
-in partnership with our good friends at &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;About Google Summer of Code&lt;/h3&gt;
-&lt;p&gt;Google Summer of Code (commonly called as GSoC) is a global program that 
-offers student developers stipends to write code for various open source 
-software projects. GSoC works with many open source, free software, and 
-technology-related groups to identify and fund projects over a three month 
-period. Since its inception in 2005, the program has brought together over 
-7,500 successful student participants from 97 countries and over 7,000 
-mentors from over 100 countries worldwide to produce over 50 million lines 
-of code. Through Google Summer of Code, accepted student applicants are 
-paired with a mentor or mentors from the participating projects, thus 
-gaining exposure to real-world software development scenarios and the 
-opportunity for employment in areas related to their academic pursuits. In 
-turn, the participating projects are able to more easily identify and bring 
-in new developers. Best of all, more source code is created and released for 
-the use and benefit of all.&lt;/p&gt;
-&lt;h3&gt;For students&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;The student application period is open from March 10th 2014 until March 21st 2014.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;For assistance in how to apply please read the &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;Google Summer of Code 2014 
-FAQ&lt;/a&gt;. 
-If you are a student who wants to contribute to MATE via the openSUSE GSoC 
-participation you'll what to check out the following:&lt;/p&gt;
+&lt;p&gt;Као и Мејт, галкулатор подржава Гтк2 и Гтк3 и активно се
+одржава.&lt;/p&gt;
+&lt;h3&gt;Зашто напустити „mate-calc“?&lt;/h3&gt;
+&lt;p&gt;Иако је &lt;code&gt;mate-calc&lt;/code&gt; функционалан недостају му многе функције потребне
+савременом дигитрону радне површи. Мејтова екипа је мала са ограниченим
+ресурсима и тамо где је могуће покушавамо да сарађујемо са пројектима
+који Мејту додају вредност и умањују развојне напоре које подноси екипа Мејта.
+галкулатор се савршено уклопио у том погледу.&lt;/p&gt;
+&lt;h3&gt;Шта ће бити са екипом галкулатора?&lt;/h3&gt;
+&lt;p&gt;галкулатор ће остати потпуно независтан пројекат али се надамо да ће
+његово укључивање у Мејт повећати број његових корисника, повећати
+сазнање о постојању галкулатора и привући нове доприносиоце његовом пројекту.
+Због тога ће Мејтова екипа да удомљава преводе галкулатора као ресурс на
+&lt;a href="https://www.transifex.com/organization/mate/dashboard/MATE"&gt;Мејтовом трансифекс пројекту&lt;/a&gt;.
+Надамо се да ће ~300 храбрих Мејтових преводилаца пригрлити галкулатор и
+додати његов превод у ~20 језика које тренутно подржава.&lt;/p&gt;
+&lt;h3&gt;Ја припремам пакете. Шта то значи за мене?&lt;/h3&gt;
+&lt;p&gt;Ако сте Мејтов одржавалац пакета тада можете почети да припремате
+пакете галкулатора за вашу дистрибуцију ако већ не постоје и да додате
+галкулатор вашим мета пакетима Мејта или групама пакета. Мејт 1.10 је
+још увек далеко, тако да имате доста времена.&lt;/p&gt;
+&lt;p&gt;Надамо се да разумете наше размишљање и да можете да видите обострану
+предност из ове сарадње. Реците нам шта мислите о томе у коментарима.&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-17-galculator-is-coming-to-mate/</guid><pubDate>Mon, 17 Mar 2014 07:38:45 GMT</pubDate></item><item><title>Мејтова радна површ потписује „BlueZ“</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа је срећна да објави да сарађујемо са
+&lt;a href="https://github.com/blueman-project/blueman"&gt;„Blueman“ пројектом&lt;/a&gt; и да помажемо
+ажурирање „Blueman“-а у „BlueZ“ 5.x.&lt;/p&gt;
+&lt;h3&gt;Зашто напустити „mate-bluetooth“?&lt;/h3&gt;
+&lt;p&gt;„mate-bluetooth“ подржава „BlueZ“ 4.x који је прекинут и многе
+дистрибуције су, или ће, заменити „BlueZ“ 4.x са „BlueZ“ 5.x у својим
+одговарајућим ризницама пакета. Преношење „mate-bluetooth“ на
+„BlueZ“ 5.x је одрађено тако да представља много посла и не пружа
+низ функција доступних у „Blueman“-у.&lt;/p&gt;
+&lt;h3&gt;Зашто „Blueman“? Зар није мртав?&lt;/h3&gt;
+&lt;p&gt;Док је оригинални „Blueman“ пројекат стагнирао, &lt;a href="https://github.com/cschramm"&gt;Кристофер Шрам&lt;/a&gt;
+је поново покренуо развој и почео да преноси „Blueman“ на „BlueZ“ 5.x. Док
+такође постоји одређени напор у ажурирању „Blueman“-а како би подржао „BlueZ“ 5.x, осећамо да
+ће обезбедити далеко боље „Blueman“ сучеље за Мејт.&lt;/p&gt;
+&lt;h3&gt;Када ће ажурирани „Blueman“ бити спреман?&lt;/h3&gt;
+&lt;p&gt;Пажљиви међу вама су можда приметили да је &lt;a href="https://preview.mate-desktop.dev/blog/2014-03-04-mate-1-8-released/"&gt;најава издања за Мејт 1.8&lt;/a&gt;
+већ поменула да је „mate-bluetooth“ замењен са „Blueman“-ом а да
+ће много пажљивији такође приметити да свеже издање „Blueman“-а
+још није издато. Да, некад и забрљамо нешто! Извините због тога.&lt;/p&gt;
+&lt;p&gt;Иако признајемо да смо шепртље, активно доприносимо напорима у
+преносу „Blueman“-а на „BlueZ“ 5.x и „GObject“. Надамо се да ћемо га
+на време припремити за Мејт 1.8.1 који је првенствено замишљен као
+издање са исправкама грешака.&lt;/p&gt;
+&lt;h3&gt;Може ли то мало брже, мајсторе?!&lt;/h3&gt;
+&lt;p&gt;Да. Свако ко је фамилијаран са „BlueZ“-ом 4.x/5.x, „dbus“-ом, „PyGObject“-ом и „PyGTK“ је охрабрен
+да допринесе путем ризнице &lt;a href="https://github.com/blueman-project/blueman"&gt;„Blueman GitHub“&lt;/a&gt;.&lt;/p&gt;</description><category>Blueman</category><category>Bluetooth</category><category>BlueZ</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid><pubDate>Tue, 11 Mar 2014 07:45:00 GMT</pubDate></item><item><title>Мејт учествује на GSoC-у 2014.</title><link>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа са задовољством објављује да учествује на 
+&lt;a href="https://www.google-melange.com/archive/"&gt;Гугловом лету програмирања&lt;/a&gt;. То радимо 
+у садејству са нашим добрим пријатељима на &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;О Гугловом лету програмирања&lt;/h3&gt;
+&lt;p&gt;Гуглово лето програмирања (које се обично назива „GSoC“) је општи програм који 
+нуди студентима програмерима стипендије за писање кода за различите софтверске 
+пројекте отвореног кода. „GSoC“ ради са многим групама отвореног кода, слободног 
+софтвера и групама повезаних технологија како би препознао и финансирао пројекте 
+током три месеца раздобља. Од свог почетка 2005. године, програм је окупио 7.500 
+успешних студената учесника из 97 земаља и преко 7.000 покровитеља из преко 100 
+земаља широм света који су произвели преко 50 милиона линија кода. Кроз Гуглово 
+лето програмирања, прихваћени студенти кандидати су упарени са покровитељем или 
+покровитељима из пројеката који учествују, дакле упознавање са реалним сценаријима 
+развоја софтвера и могућност запошљавања у областима које се односе на њихово 
+академско занимање. Заузврат, пројекти који учествују су у могућности да лакше 
+препознају и донесу нове програмере. Најбоље од свега је што је створено и издато 
+још изворног кода за употребу и корист свих нас.&lt;/p&gt;
+&lt;h3&gt;За студенте&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Период пријављивања студената је отворен од 10. марта 2014. до 21. марта 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;За испомоћ о томе како да се пријавите прочитајте &lt;a href="https://developers.google.com/open-source/gsoc/faq"&gt;ЧПП Гугловог лета програмирања 
+2014&lt;/a&gt;. 
+Ако сте студент који жели да допринесе Мејту путем „openSUSE GSoC“ 
+учествовања проверите следеће:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/pages/gsoc-2014"&gt;Мејтове идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.opensuse.org/openSUSE:GSOC_ideas"&gt;openSUSE идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/"&gt;openSUSE учествује на GSoC-у 2014.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short the MATE GSoC project ideas for 2014 are:&lt;/p&gt;
+&lt;p&gt;Идеје пројекта Мејта „GSoC“-а за 2014. укратко су:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ePub format support in Atril&lt;/li&gt;
-&lt;li&gt;GStreamer-1.0 support&lt;/li&gt;
-&lt;li&gt;Plugin system in Caja&lt;/li&gt;
+&lt;li&gt;Подршка „ePub“ формата у Атрилу&lt;/li&gt;
+&lt;li&gt;Подршка „GStreamer“-1.0&lt;/li&gt;
+&lt;li&gt;Систем прикључака у Цаји&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As always, the key is to start early and to interact with mentors and the 
-community at large. Fixing bugs, submitting pull requests and working on Proof 
-of Concepts is a good way to get started.&lt;/p&gt;
-&lt;p&gt;The GSoC 2014 mentors for MATE are Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; on IRC) and 
-Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; on IRC). The best way to communicate and 
-interact with the MATE mentors is via:&lt;/p&gt;
+&lt;p&gt;Као и увек, кључ је започети рано и комуницирати са покровитељима и 
+заједницом у целини. Исправљање грешака, подношење захтева за повлачење 
+и рад на „Proof of Concepts“-у је добар начин за почетак.&lt;/p&gt;
+&lt;p&gt;Покровитељи „GSoC“-а 2014. за Мејт су Стефано Карапетсас (&lt;code&gt;stefano-k&lt;/code&gt; на IRC-у) и 
+Мартин Вимпрес (&lt;code&gt;flexiondotorg&lt;/code&gt; на IRC-у). Најбољи начин за комуницирање и 
+деловање са покровитељима Мејта је путем:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel on Libera Chat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Matrix room&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;MATE on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC канала на Libera Chat-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://matrix.to/#/#mate:libera.chat"&gt;#mate:libera.chat Матрикс причаонице&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mate-desktop"&gt;Мејта на ГитХаб-у&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We look forward to reviewing your applications!&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>MATE Desktop Roadmap Reshuffle</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;A few days ago &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; posted an 
-announcement on the &lt;code&gt;mate-dev&lt;/code&gt; mailing list outlining the decision to reshuffle
-the MATE Desktop roadmap.&lt;/p&gt;
-&lt;p&gt;Essentially GTK3 support for MATE has been pushed back to MATE 1.10 because 
-there is still a good deal of work to be done to get it really stable. Therefore
-MATE 1.8 will continue to be based GTK2, although GTK3 applications integrate
-nicely just as they did in MATE 1.6. The updated roadmap is available on our
-wiki:&lt;/p&gt;
+&lt;p&gt;Радујемо се прегледу ваших пријава!&lt;/p&gt;</description><category>GSoC</category><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid><pubDate>Mon, 10 Mar 2014 13:14:31 GMT</pubDate></item><item><title>Реконструкција плана развоја Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Пре неколико дана &lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt; је поставио
+објаву на „mate-dev“ дописној листи у којој је изложио одлуку да реконструише
+план развоја Мејтове радне површи.&lt;/p&gt;
+&lt;p&gt;У суштини Гтк3 подршка за Мејт је враћена на Мејт 1.10 јер тамо има
+још доста посла који треба одрадити да би постала врло стабилна. Стога
+ће Мејт 1.8 и даље бити заснован на Гтк2, иако се Гтк3 програми обједињују
+лепо као што је то било у Мејту 1.6. Ажурирани план развоја доступан је на
+нашем викију:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;MATE Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.mate-desktop.org/#!pages/roadmap.md"&gt;План развоја Мејта&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This decision was made because the current development version of MATE is stable,
-incorporates many new features, improvements and bug fixes. We want to get all
-that &lt;em&gt;"good stuff"&lt;/em&gt; ™ out to our users so they can benefit from the
-advancements we've made sooner.&lt;/p&gt;
-&lt;p&gt;You can read the original mailing post and follow-up comments below:&lt;/p&gt;
+&lt;p&gt;Ова одлука је донета јер је тренутно развојно издање Мејта стабилно,
+укључује многе нове функције, побољшања и исправке грешака. Желимо да
+пружимо све те &lt;em&gt;"добре ствари"&lt;/em&gt; ™ нашим корисницима како би могли
+да имају користи од напретка који смо раније остварили.&lt;/p&gt;
+&lt;p&gt;Можете да читате оригиналну објаву и да пратите коментаре испод:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
+&lt;li&gt;[Подела плана развоја Мејта 1.8 roadmap]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The feedback we've had so far about this decision has been positive. What do you
-think?&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Стефано представља Мејт на „FOSDEM“-у 2014.</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;фебруара 2014. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Повратни одговори које смо до сада добили о овој одлуци су били позитивни.
+Шта ви мислите?&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid><pubDate>Thu, 13 Feb 2014 06:43:12 GMT</pubDate></item><item><title>Стефано представља Мејт на „FOSDEM“-у 2014.</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;фебруара 2014. &lt;a href="https://github.com/stefano-k"&gt;Стефано Карапетсас&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;је представио Мејт на &lt;a href="https://fosdem.org"&gt;„FOSDEM“-у 2014&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Излагањем је представио Мејт онима који нису чули за њега и објаснио је порекло пројеката. Разлике између Мејта и других традиционалних радних површи заснованих на Гтк-у је приказао, а затим је наставио да објашњава како се Мејт развијао откако је исцепљен из Гнома2. Кратки приказ недавних побољшања покрио је прегледом Мејтовог пута и других пројеката који имају користи од Мејта, као што су &lt;a href="https://sonar-project.org"&gt;Sonar&lt;/a&gt;,
-&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; и &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>Мајтбастинг Мејтиве радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Имао сам среће да ме позову у 26. епизоду подкаста &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;„Linux 
+&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; и &lt;a href="http://www.ltsp.org/"&gt;LTSP&lt;/a&gt;.&lt;/p&gt;</description><category>FOSDEM</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid><pubDate>Fri, 07 Feb 2014 14:16:13 GMT</pubDate></item><item><title>Мајтбастинг Мејтиве радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Имао сам среће да ме позову у 26. епизоду подкаста &lt;a href="https://www.jupiterbroadcasting.com/show/linuxun/"&gt;„Linux 
 Unplugged“&lt;/a&gt; да кажем 
 нешто о Мејтовој радној површи и њеном даљем кретању. Снимак Мејт Мајтбастинга
 је уграђен испод.&lt;/p&gt;
@@ -210,98 +209,99 @@ Unplugged“&lt;/a&gt; да кажем
 ваше &lt;a href="https://github.com/mate-desktop"&gt;захтеве за повлачењем на Гит-Хаб-у&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Јупитер емитовање&lt;/a&gt; прави велики број 
 недељних видеокастова и подкастова углавном усмерених ка ФЛОСС-у. Погледајте, 
-можда ћете наћи нешто занимљиво.&lt;/p&gt;&lt;/div&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item><item><title>MATE desktop Live CD</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
-&lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
+можда ћете наћи нешто занимљиво.&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-02-05-mate-desktop-mythbusting/</guid><pubDate>Wed, 05 Feb 2014 00:17:32 GMT</pubDate></item><item><title>Живи ЦД Мејтове радне површи</title><link>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Мејтова екипа је припремила Живи ЦД који се подиже у потпуном Мејтовом окружењу.&lt;/p&gt;
+&lt;div class="alert alert-info"&gt;&lt;strong&gt;Ажурирање&lt;/strong&gt; – ЖивиЦД је ажуриран на Мејт 1.8 – 10. марта 2014.&lt;/div&gt;
 
-&lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE 
-desktop in a non-destructive fashion. The image can be burned to a DVD, 
-mounted as an ISO file, or be directly written to a USB stick using a utility 
-like &lt;code&gt;dd&lt;/code&gt;. &lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; beware, &lt;code&gt;unetbootin&lt;/code&gt; is
-not supported. You can download it below:&lt;/p&gt;
-&lt;h4&gt;BitTorrent download (recommended)&lt;/h4&gt;
-&lt;p&gt;If you can spare the bytes, please leave the client open after your download 
-is finished, so you can seed it back to others. &lt;em&gt;A web-seed capable client is 
-recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Овај Живи ЦД је направљен тако да потенцијални нови корисници могу да
+процене Мејтову радну површ а да не наруше свој тренутни систем. Слика
+може бити нарезана на ДВД, прикачена као ИСО датотека, или директно
+записана на УСБ меморијском штапићу помоћу алата као што је &lt;code&gt;dd&lt;/code&gt;.
+&lt;a href="https://luddites.latenightlinux.com/"&gt;Линукс Лудисти&lt;/a&gt; пазите, &lt;code&gt;unetbootin&lt;/code&gt;
+није подржан. Живи ЦД можете преузети са везе испод:&lt;/p&gt;
+&lt;h4&gt;Преузимање путем Бит Торента (препоручено)&lt;/h4&gt;
+&lt;p&gt;Ако можете да потрошите бајтове, оставите програм отвореним након
+што се ваше преузимање заврши, да бисте га сејали према другима.
+&lt;em&gt;Програм са могућношћу веб-сејања се препоручује за највеће брзине 
+преузимања.&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;HTTP direct download&lt;/h4&gt;
-&lt;p&gt;In addition to the BitTorrent link above, the Live CD .iso can also be
-downloaded via HTTP. Please ensure the downloaded file matches the SHA1
-checksum.&lt;/p&gt;
+&lt;h4&gt;Директно HTTP преузимање&lt;/h4&gt;
+&lt;p&gt;Као додатак Бит Торент вези изнад, „.iso“ Живог ЦД-а се може такође
+преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
+суми провере.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]&lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Compatibility&lt;/h3&gt;
-&lt;p&gt;The Live CD is built using &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; and MATE 
-1.8. The Live CD is 32-bit so should work on any i686 or x86_64 computer
-with at least 512MB RAM. Xorg drivers are included for Intel (&lt;code&gt;i915&lt;/code&gt;),
-AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) and nvidia (&lt;code&gt;nouveau&lt;/code&gt;) with a fall back to VESA.
-Drivers for Virtual Box and VMware are also included so that evaluation
-using these virtualization solutions is simple.&lt;/p&gt;
-&lt;p&gt;All common file systems, including &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, are supported 
-and some data recovery and backup tools are included. If you plug in your 
-mobile device it will most likely be recognised and you'll be able to access 
-the data on it. NetworkManager is included along with all the VPN clients it 
-supports.&lt;/p&gt;
-&lt;h3&gt;Usernames and passwords&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop Live CD has the following accounts configured.&lt;/p&gt;
+&lt;h3&gt;Сагласност&lt;/h3&gt;
+&lt;p&gt;Живи ЦД је изграђен коришћењем &lt;a href="https://www.archlinux.org"&gt;Арч Линукса&lt;/a&gt; и 
+Мејта 1.8. Живи ЦД је 32-бита тако да треба да ради на свим i686 или x86_64 
+рачунарима са најмање 512MB RAM-а. Xorg управљачки програми су укључени 
+за Intel (&lt;code&gt;i915&lt;/code&gt;), AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) и nvidia (&lt;code&gt;nouveau&lt;/code&gt;) са пребацивањем на VESA. 
+Управљачки програми за Virtual Box and VMware су такође укључени тако да је 
+процењивање коришћењем ових решења виртуелизације врло једноставно.&lt;/p&gt;
+&lt;p&gt;Сви општи системи датотека, укључујући &lt;a href="http://open-zfs.org"&gt;ZFS&lt;/a&gt;, су подржани 
+а укључени су и неки алати за повртак подтака и резерве. Ако прикључите ваш 
+мобилни уређај највероватније да ће бити препознат и можете да приступите 
+подацима на њему. Управник мреже је укључен са свим VPN клијентима које 
+подржава.&lt;/p&gt;
+&lt;h3&gt;Корисничка имена и лозинке&lt;/h3&gt;
+&lt;p&gt;Живи ЦД Мејтове радне површи има подешене следеће налоге.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;root&lt;/code&gt; account is obviously &lt;code&gt;root&lt;/code&gt;. The &lt;code&gt;mate&lt;/code&gt; account it a regular user 
-that has with full password-less &lt;code&gt;sudo&lt;/code&gt; rights. The Live CD will auto-login 
-using the &lt;code&gt;mate&lt;/code&gt; account.&lt;/p&gt;
-&lt;h3&gt;Applications&lt;/h3&gt;
-&lt;p&gt;The Live CD is primarily designed to showcase the MATE desktop, however we've 
-included some additional applications that are not part of the MATE desktop in 
-order to make the LiveCD a little more useful and enjoyable.&lt;/p&gt;
+&lt;p&gt;Налог &lt;code&gt;root&lt;/code&gt; је наравно &lt;code&gt;root&lt;/code&gt;. Налог &lt;code&gt;mate&lt;/code&gt; је обичан корисник који 
+има пуна &lt;code&gt;sudo&lt;/code&gt; овлашћења без лозинке. Живи ЦД ће се сам 
+учитати користећи налог &lt;code&gt;mate&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Програми&lt;/h3&gt;
+&lt;p&gt;Живи ЦД је првенствено осмишљен да прикаже Мејтову радну површ, међутим 
+укључили смо и неке додатне програме који нису део Мејтове радне површи да 
+бисмо Живи ЦД учинили мало кориснијим и пријатнијим.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   - Standalone web browser from mozilla.org&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   - A Partition Magic clone, frontend to GNU Parted&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  - A system information and benchmark tool&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;   - IRC client configured to auto-connect to &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;      - Screen reader for individuals who are blind or visually impaired&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      - On-screen keyboard useful for mobility impaired individuals&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    - Multi-protocol instant messaging client&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    - Media player with a slick GUI, great speed and lots of features&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mozilla.org/firefox/"&gt;Firefox&lt;/a&gt;   – Самосталан веб прегледник из „mozilla.org“&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gparted.sourceforge.io/"&gt;GParted&lt;/a&gt;   – Клон Partition Magic-а, челник за Гну Партед&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.berlios.de/software/hardinfo/"&gt;HardInfo&lt;/a&gt;  – Алат за информације система и оцењивање&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hexchat.github.io/"&gt;HexChat&lt;/a&gt;    - IRC клијент подешен да се сам повеже на &lt;a href="https://web.libera.chat/?#mate"&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Onboard&lt;/a&gt;   – Тастатура на екрану корисна за појединце са моторичким потешкоћама&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/projects/orca"&gt;Orca&lt;/a&gt;      – Читач екрана за појединце који су слепи или оштећеног вида&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pidgin.im/"&gt;Pidgin&lt;/a&gt;    – Вишепротоколни клијент брзих порука&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.xnoise-media-player.com/"&gt;Xnoise&lt;/a&gt;    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Creative Commons content&lt;/h3&gt;
-&lt;p&gt;We have bundled the following Creative Commons licensed content.&lt;/p&gt;
+&lt;h3&gt;Садржај Заједничког стваралаштва&lt;/h3&gt;
+&lt;p&gt;Следећи садржај смо укључили под лиценцом Заједничког стварлаштва.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        - To read with Atril&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.greenteapress.com/thinkpython/"&gt;Think Python&lt;/a&gt;                        – За читање у Атрилу&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Changing language&lt;/h3&gt;
-&lt;p&gt;Be default the Live CD is configured to use the &lt;code&gt;en_US&lt;/code&gt; locale but if you want 
-to activate another language here is how to do it. In the example below, we 
-will enable Italian.&lt;/p&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.gen&lt;/code&gt; an uncomment your locale, in this case &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
-and rebuild the locales.&lt;/p&gt;
+&lt;h3&gt;Промена језика&lt;/h3&gt;
+&lt;p&gt;Као основни језик за Живи ЦД је постављен &lt;code&gt;en_US&lt;/code&gt;, али ако желите 
+да покренете други језик ево како то да урадите. У примеру испод, 
+омогућићемо српски.&lt;/p&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.gen&lt;/code&gt; и поништите напомену за жељени језик, у овом случају &lt;code&gt;sr_RS.UTF-8 UTF-8&lt;/code&gt;
+и поново изградите језике.&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo locale-gen
 &lt;/pre&gt;
-&lt;p&gt;Edit &lt;code&gt;/etc/locale.conf&lt;/code&gt; and change the &lt;code&gt;LANG=&lt;/code&gt; to reflect your locale, in this 
-case &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;. Finally restart the display manager and you will be 
-logged back into a MATE session using your prefered language.&lt;/p&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.conf&lt;/code&gt; и измените &lt;code&gt;LANG=&lt;/code&gt; да одрази ваш жељени језик, у овом 
+случају &lt;code&gt;LANG=sr_RS.UTF-8&lt;/code&gt;. На крају поново покрените управника приказа и бићете 
+пријављени назад у Мејтов сесију користећи ваш жељени језик.&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;sudo systemctl restart lightdm
 &lt;/pre&gt;
-&lt;h3&gt;Linux Action Show Feature&lt;/h3&gt;
-&lt;p&gt;The MATE Desktop LiveCD and MATE itself we featured on the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux Action 
-Show&lt;/a&gt; in the &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 
-Linux Review&lt;/a&gt; 
-episode. Two clips are embedded below, the first a quick look at the MATE 
-Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;/p&gt;
-&lt;h4&gt;MATE Desktop LiveCD&lt;/h4&gt;
+&lt;h3&gt;Програм „Линукс у акцији“&lt;/h3&gt;
+&lt;p&gt;Живи ЦД Мејтове радне површи и сам Мејт су приказани у &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Програму „Линукс у акцији“&lt;/a&gt; у епизоди &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 
+Linux Review&lt;/a&gt;. 
+Два снимка су постављена испод, први је брзи преглед Живог ЦД-а Мејтове 
+радне површи а други је преглед „CuBox-а i4“ на коме ради Мејт.&lt;/p&gt;
+&lt;h4&gt;Живи ЦД Мејтове радне површи&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=608" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h4&gt;CuBox i4 Pro Review&lt;/h4&gt;
+&lt;h4&gt;Преглед „CuBox-а i4 Pro“&lt;/h4&gt;
 &lt;iframe width="640" height="360" src="//www.youtube.com/embed/y4OpjoJiAGE?start=1925" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h3&gt;Feedback&lt;/h3&gt;
-&lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity 
-the MATE Desktop provides. Once you've taken the MATE Desktop Live CD for a 
-spin let us know what you think in the comments or use the Live CD to join us 
-in the &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>
+&lt;h3&gt;Повратни одговор&lt;/h3&gt;
+&lt;p&gt;Надамо се да ћете испробати Живи ЦД и да ћете уживати у брзини и једноставности
+коју пружа Мејтова радна површ. Након што испробате Живи ЦД Мејтове радне површи
+реците нам у коментарима шта мислите или користите Живи ЦД да нам се придружите&lt;br&gt;
+на &lt;a href="https://webchat.freenode.net/?channels=#mate"&gt;IRC каналу – #mate&lt;/a&gt;.&lt;/p&gt;</description><category>Arch Linux</category><category>LiveCD</category><category>News</category><guid>https://preview.mate-desktop.dev/sr/blog/2014-01-30-mate-desktop-live-cd/</guid><pubDate>Thu, 30 Jan 2014 00:17:32 GMT</pubDate></item></channel></rss>

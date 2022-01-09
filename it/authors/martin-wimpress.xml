@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Articoli di Martin Wimpress)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/it/authors/martin-wimpress.xml" rel="self" type="application/rss+xml"/><language>it</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Articoli di Martin Wimpress)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/it/authors/martin-wimpress.xml" rel="self" type="application/rss+xml"/><language>it</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:57 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Rilasciato MATE 1.20</title><link>https://preview.mate-desktop.dev/it/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 11 mesi di sviluppo il team di MATE Desktop è soddisfatto di annunciare
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Rilasciato MATE 1.20</title><link>https://preview.mate-desktop.dev/it/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 11 mesi di sviluppo il team di MATE Desktop è soddisfatto di annunciare
 il rilascio di MATE Desktop 1.20. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nel rendere possibile questo rilascio.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.20&lt;/h3&gt;
@@ -478,7 +478,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;li&gt;TOK/TG: reso il padding nelle schede notebook 2 pixel più ampio&lt;/li&gt;
 &lt;li&gt;correzione-menta: la battitura errata "{{" corrompe il file gtk-widgets.css &lt;/li&gt;
 &lt;li&gt;Tutti i temi: correzione: le rappresentazioni della carta nella finestra di dialogo stampa non comparivano in modo corretto&lt;/li&gt;
-&lt;li&gt;Gtk+-3.20 temi Menta: non si fa più alcuna differenza tra lo sfondo e lo stato normale&lt;/li&gt;
+&lt;li&gt;Gtk+-3.20 temi Menta: non si fa più differenza tra il backdrop e lo stato normale&lt;/li&gt;
 &lt;li&gt;Gtk+-3.20 molti temi: mate-panel nasconde la modifica del pulsante&lt;/li&gt;
 &lt;li&gt;TOK/TG: caja: impostata una sfumatura per il bordo dell'intestazione del notebook&lt;/li&gt;
 &lt;li&gt;Gtk+-3.20 temi Sottomarini: mate-panel nasconde le modifiche del pulsante&lt;/li&gt;
@@ -892,7 +892,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;li&gt;eliminato il CSS per GTK+ 3.18&lt;/li&gt;
 &lt;li&gt;egg-editable-toolbar.c/egg-toolbars-model.c: eliminate le variabili inutilizzate&lt;/li&gt;
 &lt;li&gt;print-preview: sostituito il codice personalizzato con chiamate di funzione GDK&lt;/li&gt;
-&lt;li&gt;gtk 3.22: eliminate le funzioni deprecate &lt;code&gt;gdk_screen_get_monitor&lt;/code&gt; functions:&lt;/li&gt;
+&lt;li&gt;gtk 3.22: evitate le funzioni deprecate &lt;code&gt;gdk_screen_get_monitor&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;non utilizzare la deprecata &lt;code&gt;gtk_show_uri&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;evitata la deprecata &lt;code&gt;gdk_screen_get_number&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;eliminato il warning nel chiudere una finestra vuota con più finestre di eom aperte&lt;/li&gt;
@@ -1006,10 +1006,10 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;li&gt;udisks plugin: corretta la gestione della memoria per le variabili GValue&lt;/li&gt;
 &lt;li&gt;Rimosso il plugin deprecato eee&lt;/li&gt;
 &lt;li&gt;Corretta la cascata di popup alla rimozione di HDD&lt;/li&gt;
-&lt;li&gt;ibm-acpi.c: Corretto un warning in compilazione:&lt;/li&gt;
-&lt;li&gt;eee-plugin.c: Corretto un warning in compilazione:&lt;/li&gt;
-&lt;li&gt;active-sensor.c: Corretto un warning in compilazione:&lt;/li&gt;
-&lt;li&gt;sensors-applet.c: Corretto un warning in compilazione:&lt;/li&gt;
+&lt;li&gt;ibm-acpi.c: Corretto un warning di compilazione&lt;/li&gt;
+&lt;li&gt;eee-plugin.c: Corretto un warning di compilazione&lt;/li&gt;
+&lt;li&gt;active-sensor.c: Corretto un warning di compilazione&lt;/li&gt;
+&lt;li&gt;sensors-applet.c: Corretto un warning di compilazione&lt;/li&gt;
 &lt;li&gt;Corrette le indentazioni&lt;/li&gt;
 &lt;li&gt;Corretta la pulizia del progetto&lt;/li&gt;
 &lt;li&gt;Fermato il saltellamento dell'applet quando cambiano i numeri&lt;/li&gt;
@@ -1066,7 +1066,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;aggiunto il supporto per lo screenshot dei display HiDPI&lt;/li&gt;
 &lt;li&gt;mate-screenshot: aggiunto il pulsante Nuovo&lt;/li&gt;
-&lt;li&gt;screenshot-save.c: corretto un warning di compilazione con &lt;code&gt;pipe&lt;/code&gt; &lt;code&gt;write&lt;/code&gt; e &lt;code&gt;read&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;screenshot-save.c: Corretto un warning di compilazione con &lt;code&gt;pipe&lt;/code&gt; &lt;code&gt;write&lt;/code&gt; e &lt;code&gt;read&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;aggiunta una classe di stile logview-window&lt;/li&gt;
 &lt;li&gt;Aggiornate le traduzioni&lt;/li&gt;
 &lt;li&gt;Implementazione di WidthOfScreen e HeightOfScreen&lt;/li&gt;
@@ -1103,9 +1103,9 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;li&gt;posizionato &lt;code&gt;peas_engine_enable_loader&lt;/code&gt; nel posto corretto&lt;/li&gt;
 &lt;li&gt;Correzione: fatto funzionare di nuovo l'elenco dei file utilizzati di recente&lt;/li&gt;
 &lt;li&gt;eliminate le variabili non utilizzate&lt;/li&gt;
-&lt;li&gt;pluma-spell-checker-language.c: risolto un warning in compilazione:&lt;/li&gt;
-&lt;li&gt;pluma.c: Corretto un warning in compilazione:&lt;/li&gt;
-&lt;li&gt;pluma-document.c: Corretto un warning in compilazione:&lt;/li&gt;
+&lt;li&gt;pluma-spell-checker-language.c: Corretto un warning di compilazione&lt;/li&gt;
+&lt;li&gt;pluma.c: Corretto un warning di compilazione&lt;/li&gt;
+&lt;li&gt;pluma-document.c: Corretto un warning di compilazione&lt;/li&gt;
 &lt;li&gt;pluma-window: posizionato GtkRecentData sullo stack invece di allocarlo&lt;/li&gt;
 &lt;li&gt;Implementazione di WidthOfScreen e HeightOfScreen&lt;/li&gt;
 &lt;li&gt;Corrette le sostituzioni nelle espressioni regolari con backreferences (es. &lt;code&gt;"\0"&lt;/code&gt;)&lt;/li&gt;
@@ -1117,7 +1117,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;li&gt;non richiesto più il salvataggio di file senza modifiche&lt;/li&gt;
 &lt;li&gt;aggiunta una chiave gsettings per nascondere/mostrare(predefinito) le schede con il pannello laterale&lt;/li&gt;
 &lt;li&gt;Nascondere le schede se stiamo utilizzando la barra laterale&lt;/li&gt;
-&lt;li&gt;gtk 3.22: eliminate le funzioni deprecate &lt;code&gt;gdk_screen_get_monitor&lt;/code&gt;:&lt;/li&gt;
+&lt;li&gt;gtk 3.22: evitate le funzioni deprecate &lt;code&gt;gdk_screen_get_monitor&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;evitata la deprecata &lt;code&gt;gdk_screen_get_width/height&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;evitata la deprecata &lt;code&gt;gdk_screen_make_display_name&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;pluma-help: non utilizzare la deprecata &lt;code&gt;gtk_show_uri&lt;/code&gt;&lt;/li&gt;
@@ -1159,7 +1159,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo schiacciati!&lt;/p&gt;
 &lt;h4&gt;python-caja 1.20.0&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Aggiornate le traduzioni&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.18</title><link>https://preview.mate-desktop.dev/it/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.18</title><link>https://preview.mate-desktop.dev/it/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.18. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nel rendere possibile questo rilascio.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.18.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.18&lt;/h3&gt;
@@ -1625,7 +1625,7 @@ su cui MATE Desktop 1.16 era ancora basato.&lt;/p&gt;
 &lt;li&gt;Aggiornate le traduzioni&lt;/li&gt;
 &lt;li&gt;supportato solo GTK+3: richiesti Caja 1.17.1 e pygobject-3.0&lt;/li&gt;
 &lt;li&gt;eliminato il vecchio controllo di Python 2.5, adesso non occorre più&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Interruzione del Server</title><link>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Il server che esegue questo sito web ieri è andato offline senza preavviso.
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Interruzione del Server</title><link>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Il server che esegue questo sito web ieri è andato offline senza preavviso.
 Non sappiamo perché e non abbiamo ricevuto notizie dal server che ci ospita. &lt;strong&gt;Abbiamo i backup completi, non è andato perso alcun dato.&lt;/strong&gt; Abbiamo iniziato il ripristino
 dei servizi e il servizio sospeso sarà reintegrato tempo permettendo
 durante il periodo festivo. &lt;/p&gt;
@@ -1664,7 +1664,7 @@ durante il periodo festivo. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ripristinato &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ci scusiamo per ogni inconveniente che ciò può aver causato.&lt;/p&gt;&lt;/div&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.16</title><link>https://preview.mate-desktop.dev/it/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
+&lt;p&gt;Ci scusiamo per ogni inconveniente che ciò può aver causato.&lt;/p&gt;</description><category>Outages</category><guid>https://preview.mate-desktop.dev/it/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.16</title><link>https://preview.mate-desktop.dev/it/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.16. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nell'aver reso possibile questo rilascio.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.16&lt;/h3&gt;
@@ -1982,7 +1982,7 @@ I principali cambiamenti di MATE Desktop 1.16 sono:&lt;/p&gt;
 &lt;li&gt;Esempi: risolto un crash di Caja caricando l'estensione dell'immagine di sfondo&lt;/li&gt;
 &lt;li&gt;Esempi:correzioni varie&lt;/li&gt;
 &lt;li&gt;Aggiornate le traduzioni&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.14</title><link>https://preview.mate-desktop.dev/it/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.14</title><link>https://preview.mate-desktop.dev/it/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.14. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.14.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.14&lt;/h3&gt;
@@ -2266,7 +2266,7 @@ il rilascio di MATE Desktop 1.14. Vorremmo ringraziare ogni collaboratore ed ogn
 &lt;h4&gt;caja-dropbox&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Rifiniture minori&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.12</title><link>https://preview.mate-desktop.dev/it/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.12</title><link>https://preview.mate-desktop.dev/it/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.12.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.12&lt;/h3&gt;
@@ -2507,7 +2507,7 @@ il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogn
 &lt;li&gt;Aggiustata la directory predefinita di Caja extensions&lt;/li&gt;
 &lt;li&gt;incluso autogen.sh nei tarball&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.10</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Dopo 15 mesi di sviluppo i team MATE Desktop sono orgogliosi di annunciare
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>Rilasciato MATE 1.10</title><link>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Dopo 15 mesi di sviluppo i team MATE Desktop sono orgogliosi di annunciare
 il rilascio di MATE Desktop 1.10. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.10.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Cosa c'è di nuovo in MATE 1.10&lt;/h3&gt;
@@ -2820,7 +2820,7 @@ nei sistemi audio PulseAudio, ALSA ed OSS.&lt;/p&gt;
 &lt;li&gt;Aggiunto il pulsante About Extensions alla scheda Extensions di Caja&lt;/li&gt;
 &lt;li&gt;Vari bug eliminati&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>Intervista a MATE con i Linux Luddites</title><link>https://preview.mate-desktop.dev/it/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; sono stati così gentili da intervistarmi
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>Intervista a MATE con i Linux Luddites</title><link>https://preview.mate-desktop.dev/it/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; sono stati così gentili da intervistarmi
 la scorsa settimana. Abbiamo discusso le Origini del &lt;a href="https://mate-desktop.org"&gt;Desktop MATE&lt;/a&gt;,
 i suoi sviluppi futuri, come è venuto alla luce &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt; e dove è diretto.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://linuxluddites.com/shows/episode-26"&gt;Linux Luddites Episode #26&lt;/a&gt; è stato pubblicato quest'oggi stesso e vi suggerisco di andare sul sito web dei Linux Luddites
@@ -2830,7 +2830,7 @@ ed ascoltarlo.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Se non avete mai ascoltato Linux Luddites prima d'ora dovreste controllare
 il loro catalogo. È stato uno dei miei FLOSS Podcast preferiti per qualche
-mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e prime impressioni di distribuzioni utili. &lt;/p&gt;&lt;/div&gt;</description><category>interview</category><category>Linux Luddites</category><category>MATE</category><category>Ubuntu MATE</category><guid>https://preview.mate-desktop.dev/it/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>Aggiornato MATE 1.8</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sander Sweers ha rilasciato diversi pacchetti aggiornati per la serie MATE 1.8
+mese adesso che gli argomenti comprendono buone discussioni ed approfondimenti e prime impressioni di distribuzioni utili. &lt;/p&gt;</description><category>interview</category><category>Linux Luddites</category><category>MATE</category><category>Ubuntu MATE</category><guid>https://preview.mate-desktop.dev/it/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>Aggiornato MATE 1.8</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Sander Sweers ha rilasciato diversi pacchetti aggiornati per la serie MATE 1.8
 che riguardano vari bug fixes e aggiornamenti minori. Alcune
 distribuzioni hanno già incorporato questi aggiornamenti e le altre seguiranno
 a tempo debito. Si veda più oltre i cambiamenti apportati:&lt;/p&gt;
@@ -2924,7 +2924,7 @@ a tempo debito. Si veda più oltre i cambiamenti apportati:&lt;/p&gt;
 &lt;h3&gt;python-caja 1.8.1&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Adesso si usa &lt;code&gt;pkg-config&lt;/code&gt; per il riconoscimento di python e per le variabili&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>Repository di pacchetti Debian e Ubuntu rimossi da mate-desktop.org</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Grazie agli sforzi dei  &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;manutentori dei pacchetti di MATE per Debian&lt;/a&gt;
+&lt;/ul&gt;</description><category>Releases</category><guid>https://preview.mate-desktop.dev/it/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>Repository di pacchetti Debian e Ubuntu rimossi da mate-desktop.org</title><link>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Grazie agli sforzi dei  &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;manutentori dei pacchetti di MATE per Debian&lt;/a&gt;
 MATE 1.8.1 è dispoinibile in Debian Jessie (testing) ed anche
 in &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; per Wheezy&lt;/p&gt;
 &lt;p&gt;Come conseguenza di MATE 1.8.1 che è entrato nelle repository di Debian testing
@@ -2936,4 +2936,4 @@ ed anche un &lt;a href="https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/p
 &lt;p&gt;Se volete i pacchetti MATE per Debian o Ubuntu i repository dei pacchetti elencati in precedenza sono i repository ufficiali da usare.&lt;/p&gt;
 &lt;p&gt;Abbiamo spostato i repository dei pacchetti presenti su mate-desktop.org
 perché alcuni di essi non erano firmati ed altri non erano stati manutenuti da molti
-mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati su mate-desktop.org sono stati rimossi.&lt;/p&gt;&lt;/div&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item></channel></rss>
+mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati su mate-desktop.org sono stati rimossi.&lt;/p&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item></channel></rss>

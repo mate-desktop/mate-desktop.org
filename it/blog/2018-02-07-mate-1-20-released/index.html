@@ -158,8 +158,7 @@ il rilascio di MATE Desktop 1.20. Vorremmo ringraziare ogni collaboratore MATE p
         </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <div>
-<p>Dopo 11 mesi di sviluppo il team di <span class="caps">MATE</span> Desktop è soddisfatto di annunciare
+    <p>Dopo 11 mesi di sviluppo il team di <span class="caps">MATE</span> Desktop è soddisfatto di annunciare
 il rilascio di <span class="caps">MATE</span> Desktop 1.20. Vorremmo ringraziare ogni collaboratore <span class="caps">MATE</span> per il suo aiuto nel rendere possibile questo&nbsp;rilascio.</p>
 <p><img alt="about" src="../../../assets/img/blog/about-mate-1.20.png"></p>
 <h3>Cosa c&#8217;è di nuovo in <span class="caps">MATE</span>&nbsp;1.20</h3>
@@ -696,7 +695,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li><span class="caps">TOK</span>/<span class="caps">TG</span>: reso il padding nelle schede notebook 2 pixel più&nbsp;ampio</li>
 <li>correzione-menta: la battitura errata &#8220;{{&#8221; corrompe il file&nbsp;gtk-widgets.css </li>
 <li>Tutti i temi: correzione: le rappresentazioni della carta nella finestra di dialogo stampa non comparivano in modo&nbsp;corretto</li>
-<li>Gtk+-3.20 temi Menta: non si fa più alcuna differenza tra lo sfondo e lo stato&nbsp;normale</li>
+<li>Gtk+-3.20 temi Menta: non si fa più differenza tra il backdrop e lo stato&nbsp;normale</li>
 <li>Gtk+-3.20 molti temi: mate-panel nasconde la modifica del&nbsp;pulsante</li>
 <li><span class="caps">TOK</span>/<span class="caps">TG</span>: caja: impostata una sfumatura per il bordo dell&#8217;intestazione del&nbsp;notebook</li>
 <li>Gtk+-3.20 temi Sottomarini: mate-panel nasconde le modifiche del&nbsp;pulsante</li>
@@ -1166,7 +1165,8 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li>eliminato il <span class="caps">CSS</span> per <span class="caps">GTK</span>+&nbsp;3.18</li>
 <li>egg-editable-toolbar.c/egg-toolbars-model.c: eliminate le variabili&nbsp;inutilizzate</li>
 <li>print-preview: sostituito il codice personalizzato con chiamate di funzione&nbsp;<span class="caps">GDK</span></li>
-<li>gtk 3.22: eliminate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code> functions:</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
+</li>
 <li>non utilizzare la&nbsp;deprecata <code>gtk_show_uri</code>
 </li>
 <li>evitata la&nbsp;deprecata <code>gdk_screen_get_number</code>
@@ -1293,10 +1293,10 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li>udisks plugin: corretta la gestione della memoria per le variabili&nbsp;GValue</li>
 <li>Rimosso il plugin deprecato&nbsp;eee</li>
 <li>Corretta la cascata di popup alla rimozione di&nbsp;<span class="caps">HDD</span></li>
-<li>ibm-acpi.c: Corretto un warning in&nbsp;compilazione:</li>
-<li>eee-plugin.c: Corretto un warning in&nbsp;compilazione:</li>
-<li>active-sensor.c: Corretto un warning in&nbsp;compilazione:</li>
-<li>sensors-applet.c: Corretto un warning in&nbsp;compilazione:</li>
+<li>ibm-acpi.c: Corretto un warning di&nbsp;compilazione</li>
+<li>eee-plugin.c: Corretto un warning di&nbsp;compilazione</li>
+<li>active-sensor.c: Corretto un warning di&nbsp;compilazione</li>
+<li>sensors-applet.c: Corretto un warning di&nbsp;compilazione</li>
 <li>Corrette le&nbsp;indentazioni</li>
 <li>Corretta la pulizia del&nbsp;progetto</li>
 <li>Fermato il saltellamento dell&#8217;applet quando cambiano i&nbsp;numeri</li>
@@ -1367,7 +1367,8 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <ul>
 <li>aggiunto il supporto per lo screenshot dei display&nbsp;HiDPI</li>
 <li>mate-screenshot: aggiunto il pulsante&nbsp;Nuovo</li>
-<li>screenshot-save.c: corretto un warning di compilazione&nbsp;con <code>pipe</code> <code>write</code> e <code>read</code>:</li>
+<li>screenshot-save.c: Corretto un warning di compilazione&nbsp;con <code>pipe</code> <code>write</code> e <code>read</code>
+</li>
 <li>aggiunta una classe di stile&nbsp;logview-window</li>
 <li>Aggiornate le&nbsp;traduzioni</li>
 <li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
@@ -1413,9 +1414,9 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li>posizionato <code>peas_engine_enable_loader</code> nel posto&nbsp;corretto</li>
 <li>Correzione: fatto funzionare di nuovo l&#8217;elenco dei file utilizzati di&nbsp;recente</li>
 <li>eliminate le variabili non&nbsp;utilizzate</li>
-<li>pluma-spell-checker-language.c: risolto un warning in&nbsp;compilazione:</li>
-<li>pluma.c: Corretto un warning in&nbsp;compilazione:</li>
-<li>pluma-document.c: Corretto un warning in&nbsp;compilazione:</li>
+<li>pluma-spell-checker-language.c: Corretto un warning di&nbsp;compilazione</li>
+<li>pluma.c: Corretto un warning di&nbsp;compilazione</li>
+<li>pluma-document.c: Corretto un warning di&nbsp;compilazione</li>
 <li>pluma-window: posizionato GtkRecentData sullo stack invece di&nbsp;allocarlo</li>
 <li>Implementazione di WidthOfScreen e&nbsp;HeightOfScreen</li>
 <li>Corrette le sostituzioni nelle espressioni regolari con backreferences&nbsp;(es. <code>"\0"</code>)</li>
@@ -1427,7 +1428,8 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li>non richiesto più il salvataggio di file senza&nbsp;modifiche</li>
 <li>aggiunta una chiave gsettings per nascondere/mostrare(predefinito) le schede con il pannello&nbsp;laterale</li>
 <li>Nascondere le schede se stiamo utilizzando la barra&nbsp;laterale</li>
-<li>gtk 3.22: eliminate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>:</li>
+<li>gtk 3.22: evitate le funzioni&nbsp;deprecate <code>gdk_screen_get_monitor</code>
+</li>
 <li>evitata la&nbsp;deprecata <code>gdk_screen_get_width/height</code>
 </li>
 <li>evitata la&nbsp;deprecata <code>gdk_screen_make_display_name</code>
@@ -1478,7 +1480,6 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 <li>Aggiornate le&nbsp;traduzioni</li>
 </ul>
 </div>
-    </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../tags/releases/" rel="tag">Releases</a></li>
         </ul>
@@ -1497,7 +1498,7 @@ abbiamo eliminato centinaia di bug. Li abbiamo&nbsp;schiacciati!</p>
 
 <hr>
 <div class="footerbox" align="center">
-    Contents © 2021 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+    Contents © 2022 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
 <img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
     
 
@@ -1526,7 +1527,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "c29ae8679a19"],
+    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

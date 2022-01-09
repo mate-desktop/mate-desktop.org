@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Martin Wimpress)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/cs/authors/martin-wimpress.xml" rel="self" type="application/rss+xml"/><language>cs</language><copyright>Contents © 2021 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Martin Wimpress)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/cs/authors/martin-wimpress.xml" rel="self" type="application/rss+xml"/><language>cs</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 21 Nov 2021 09:51:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/cs/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 released</title><link>https://preview.mate-desktop.dev/cs/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 11 months of development the MATE Desktop team are pleased as punch to 
 announce the release of MATE Desktop 1.20. We'd like to thank every MATE 
 contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
@@ -1160,7 +1160,7 @@ we've fixed hundreds of bugs. Squished 'em dead!&lt;/p&gt;
 &lt;h4&gt;python-caja 1.20.0&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 released</title><link>https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2018-02-07-mate-1-20-released/</guid><pubDate>Wed, 07 Feb 2018 09:00:00 GMT</pubDate></item><item><title>MATE 1.18 released</title><link>https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.18. We'd like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.18.png"&gt;&lt;/p&gt;
@@ -1627,7 +1627,7 @@ Desktop 1.16 still relied on.&lt;/p&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
 &lt;li&gt;support GTK+3 only: require Caja 1.17.1 and pygobject-3.0&lt;/li&gt;
 &lt;li&gt;drop ancient check for Python 2.5, not needed these days&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Server Outage</title><link>https://preview.mate-desktop.dev/cs/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;The server that runs this website went offline without notice yesterday.
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2017-03-13-mate-1-18-released/</guid><pubDate>Mon, 13 Mar 2017 23:30:00 GMT</pubDate></item><item><title>Server Outage</title><link>https://preview.mate-desktop.dev/cs/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;The server that runs this website went offline without notice yesterday.
 We don't know why and we've had no contact from our server host. &lt;strong&gt;We do
 have complete backups, no data has been lost.&lt;/strong&gt; We've started to restore
 services and the outstanding service will be reinstated as time permits
@@ -1667,7 +1667,7 @@ over the holiday period.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Restored &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://preview.mate-desktop.dev/cs/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
+&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-12-22-server-outage/</guid><pubDate>Thu, 22 Dec 2016 01:00:00 GMT</pubDate></item><item><title>MATE 1.16 released</title><link>https://preview.mate-desktop.dev/cs/blog/2016-09-21-mate-1-16-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.16.png"&gt;&lt;/p&gt;
@@ -1987,7 +1987,7 @@ headline changes in MATE Desktop 1.16 are:&lt;/p&gt;
 &lt;li&gt;Examples: fix Caja crash on loading background-image extension&lt;/li&gt;
 &lt;li&gt;Examples: various fixes&lt;/li&gt;
 &lt;li&gt;Translations update&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE 1.14 released</title><link>https://preview.mate-desktop.dev/cs/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-09-21-mate-1-16-released/</guid><pubDate>Wed, 21 Sep 2016 21:00:00 GMT</pubDate></item><item><title>MATE 1.14 released</title><link>https://preview.mate-desktop.dev/cs/blog/2016-04-08-mate-1-14-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 5 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.14. We'd like to thank every
 MATE contributor and user.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.14.png"&gt;&lt;/p&gt;
@@ -2273,7 +2273,7 @@ want categories in the preferences menu or not.&lt;/p&gt;
 &lt;h4&gt;caja-dropbox&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Minor cleanups&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 released</title><link>https://preview.mate-desktop.dev/cs/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 5 months of development the MATE Desktop team are proud to announce the 
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2016-04-08-mate-1-14-released/</guid><pubDate>Fri, 08 Apr 2016 15:00:00 GMT</pubDate></item><item><title>MATE 1.12 released</title><link>https://preview.mate-desktop.dev/cs/blog/2015-11-05-mate-1-12-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 5 months of development the MATE Desktop team are proud to announce the 
 release of MATE Desktop 1.12. We'd like to thank every MATE contributor and 
 user.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.12.png"&gt;&lt;/p&gt;
@@ -2515,7 +2515,7 @@ user.&lt;/p&gt;
 &lt;li&gt;Adjust the default caja extensions dir&lt;/li&gt;
 &lt;li&gt;Include autogen.sh in tarball&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>MATE 1.10 released</title><link>https://preview.mate-desktop.dev/cs/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;After 15 months of development the MATE Desktop team are proud to announce
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2015-11-05-mate-1-12-released/</guid><pubDate>Thu, 05 Nov 2015 20:00:00 GMT</pubDate></item><item><title>MATE 1.10 released</title><link>https://preview.mate-desktop.dev/cs/blog/2015-06-11-mate-1-10-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;After 15 months of development the MATE Desktop team are proud to announce
 the release of MATE Desktop 1.10. We would like to thank every MATE contributor
 and user.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.10.png"&gt;&lt;/p&gt;
@@ -2829,7 +2829,7 @@ and OSS sound systems.&lt;/p&gt;
 &lt;li&gt;Added About Extension button to the Extensions tab in Caja &lt;/li&gt;
 &lt;li&gt;Assorted bug fixes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>MATE interview with Linux Luddites</title><link>https://preview.mate-desktop.dev/cs/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2015-06-11-mate-1-10-released/</guid><pubDate>Thu, 11 Jun 2015 22:40:40 GMT</pubDate></item><item><title>MATE interview with Linux Luddites</title><link>https://preview.mate-desktop.dev/cs/blog/mate-interview-with-linux-luddites/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;&lt;a href="https://linuxluddites.com"&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
 me last week. We discussed the origins of &lt;a href="https://mate-desktop.org"&gt;MATE Desktop&lt;/a&gt;,
 it's future direction, how &lt;a href="https://ubuntu-mate.org"&gt;Ubuntu MATE&lt;/a&gt; came to
 be and where it is headed.&lt;/p&gt;
@@ -2842,7 +2842,7 @@ website and give it a listen.&lt;/p&gt;
 &lt;p&gt;If you've not listened to the Linux Luddites before then you should checkout
 their back catalog. It has been one of my favourite FLOSS podcasts for some
 months now that blends good discussion and insight with useful distro reviews
-and first impressions.&lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>MATE 1.8 updated</title><link>https://preview.mate-desktop.dev/cs/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Sander Sweers has released several updated packages for the MATE 1.8 series 
+and first impressions.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/mate-interview-with-linux-luddites/</guid><pubDate>Mon, 13 Oct 2014 18:55:32 GMT</pubDate></item><item><title>MATE 1.8 updated</title><link>https://preview.mate-desktop.dev/cs/blog/2014-09-29-mate-1-8-updated/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Sander Sweers has released several updated packages for the MATE 1.8 series 
 that addresses an assortment of bug fixes and minor updates. Some 
 distributions have already incorporated these updates and the others will 
 follow in due course. See below for the changes:&lt;/p&gt;
@@ -2936,7 +2936,7 @@ follow in due course. See below for the changes:&lt;/p&gt;
 &lt;h3&gt;python-caja 1.8.1&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Now uses &lt;code&gt;pkg-config&lt;/code&gt; for python detection and variables&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/cs/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;div&gt;&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+&lt;/ul&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2014-09-29-mate-1-8-updated/</guid><pubDate>Mon, 29 Sep 2014 21:39:36 GMT</pubDate></item><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/cs/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
@@ -2950,4 +2950,4 @@ repositories above are the official repositories to use.&lt;/p&gt;
 &lt;p&gt;We've removed the package repositories hosted on mate-desktop.org 
 because some were unsigned and others have not been maintained for many 
 months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;&lt;/div&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item></channel></rss>
+repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/cs/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item></channel></rss>
