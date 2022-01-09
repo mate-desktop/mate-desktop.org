@@ -479,7 +479,7 @@ Ecco tutti i dettagli truculenti.
   * TOK/TG: reso il padding nelle schede notebook 2 pixel più ampio
   * correzione-menta: la battitura errata "{{" corrompe il file gtk-widgets.css 
   * Tutti i temi: correzione: le rappresentazioni della carta nella finestra di dialogo stampa non comparivano in modo corretto
-  * Gtk+-3.20 temi Menta: non si fa più alcuna differenza tra lo sfondo e lo stato normale
+  * Gtk+-3.20 temi Menta: non si fa più differenza tra il backdrop e lo stato normale
   * Gtk+-3.20 molti temi: mate-panel nasconde la modifica del pulsante
   * TOK/TG: caja: impostata una sfumatura per il bordo dell'intestazione del notebook
   * Gtk+-3.20 temi Sottomarini: mate-panel nasconde le modifiche del pulsante
@@ -893,7 +893,7 @@ Ecco tutti i dettagli truculenti.
   * eliminato il CSS per GTK+ 3.18
   * egg-editable-toolbar.c/egg-toolbars-model.c: eliminate le variabili inutilizzate
   * print-preview: sostituito il codice personalizzato con chiamate di funzione GDK
-  * gtk 3.22: eliminate le funzioni deprecate `gdk_screen_get_monitor` functions:
+  * gtk 3.22: evitate le funzioni deprecate `gdk_screen_get_monitor`
   * non utilizzare la deprecata `gtk_show_uri`
   * evitata la deprecata `gdk_screen_get_number`
   * eliminato il warning nel chiudere una finestra vuota con più finestre di eom aperte
@@ -1007,10 +1007,10 @@ Ecco tutti i dettagli truculenti.
   * udisks plugin: corretta la gestione della memoria per le variabili GValue
   * Rimosso il plugin deprecato eee
   * Corretta la cascata di popup alla rimozione di HDD
-  * ibm-acpi.c: Corretto un warning in compilazione:
-  * eee-plugin.c: Corretto un warning in compilazione:
-  * active-sensor.c: Corretto un warning in compilazione:
-  * sensors-applet.c: Corretto un warning in compilazione:
+  * ibm-acpi.c: Corretto un warning di compilazione
+  * eee-plugin.c: Corretto un warning di compilazione
+  * active-sensor.c: Corretto un warning di compilazione
+  * sensors-applet.c: Corretto un warning di compilazione
   * Corrette le indentazioni
   * Corretta la pulizia del progetto
   * Fermato il saltellamento dell'applet quando cambiano i numeri
@@ -1067,7 +1067,7 @@ Ecco tutti i dettagli truculenti.
 
   * aggiunto il supporto per lo screenshot dei display HiDPI
   * mate-screenshot: aggiunto il pulsante Nuovo
-  * screenshot-save.c: corretto un warning di compilazione con `pipe` `write` e `read`:
+  * screenshot-save.c: Corretto un warning di compilazione con `pipe` `write` e `read`
   * aggiunta una classe di stile logview-window
   * Aggiornate le traduzioni
   * Implementazione di WidthOfScreen e HeightOfScreen
@@ -1104,9 +1104,9 @@ Ecco tutti i dettagli truculenti.
   * posizionato `peas_engine_enable_loader` nel posto corretto
   * Correzione: fatto funzionare di nuovo l'elenco dei file utilizzati di recente
   * eliminate le variabili non utilizzate
-  * pluma-spell-checker-language.c: risolto un warning in compilazione:
-  * pluma.c: Corretto un warning in compilazione:
-  * pluma-document.c: Corretto un warning in compilazione:
+  * pluma-spell-checker-language.c: Corretto un warning di compilazione
+  * pluma.c: Corretto un warning di compilazione
+  * pluma-document.c: Corretto un warning di compilazione
   * pluma-window: posizionato GtkRecentData sullo stack invece di allocarlo
   * Implementazione di WidthOfScreen e HeightOfScreen
   * Corrette le sostituzioni nelle espressioni regolari con backreferences (es. `"\0"`)
@@ -1118,7 +1118,7 @@ Ecco tutti i dettagli truculenti.
   * non richiesto più il salvataggio di file senza modifiche
   * aggiunta una chiave gsettings per nascondere/mostrare(predefinito) le schede con il pannello laterale
   * Nascondere le schede se stiamo utilizzando la barra laterale
-  * gtk 3.22: eliminate le funzioni deprecate `gdk_screen_get_monitor`:
+  * gtk 3.22: evitate le funzioni deprecate `gdk_screen_get_monitor`
   * evitata la deprecata `gdk_screen_get_width/height`
   * evitata la deprecata `gdk_screen_make_display_name`
   * pluma-help: non utilizzare la deprecata `gtk_show_uri`

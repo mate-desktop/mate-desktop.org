@@ -1,14 +1,14 @@
 <!--
 .. link:
 .. description:
-.. tags: 
+.. tags:
 .. date: 2012-04-17 06:32:31
 .. title: Инсталација
 .. slug: install
 -->
 
 Мејтова заједница је документовала како се инсталира Мејт на многим дистрибуцијама,
-пратите [смернице за инсталацију](https://wiki.mate-desktop.org/#!pages/download.md).
+пратите [смернице за инсталацију](https://wiki.mate-desktop.org/introduction/installation/).
 
 Ако сте запакивач дистрибуције и тражите пакете издања тада погледајте нашу
 страницу [Развој](/development/).
