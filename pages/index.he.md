@@ -2,8 +2,8 @@
 .. title: סביבת שולחן העבודה MATE
 .. slug: אינדקס
 .. date: 2013-10-31 12:29:57
-.. tags: אודות,יישומים,צילומים
-.. link: 
+.. tags: על,אודות,מידע כללי,יישומים,צילומים
+.. link:
 .. description:
 -->
 
@@ -11,13 +11,13 @@
 שולחן עבודה ברורה ומושכת בזכות מטאפורות מסורתיות ללינוקס ומערכות הפעלה
 אחרות דמויות יוניקס.
 
-על MATE עובדים בימים אלו מגוון מפתחים ומפתחות כדי להוסיף תמיכה
-בטכנולוגיות חדשות תוך שימור חווית שולחן עבודה מסורתית. ניתן לעיין
-ב[תכנית הפיתוח](https://wiki.mate-desktop.org/#!pages/roadmap.md).
+מערכת MATE נמצאת בהליכי פיתוח מתמידים כדי להוסיף תמיכה בטכנולוגיות חדות
+תוך שימוש חוויית שולחן העבודה המודרנית. להלן
+[מפת הדרכים](https://wiki.mate-desktop.org/developers-corner/roadmap/).
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-ניתן למצוא עוד [צילומי מסך של MATE](gallery/1.22/).
+ניתן למצוא [צילומי מסך נוספים של MATE](gallery/).
 
 חדשות
 =====
@@ -42,7 +42,7 @@ MATE זמינה דרך המאגרים **הרשמיים** של הפצות הלי�
 -   [דביאן](https://www.debian.org)
 -   [פדורה](https://www.fedoraproject.org)
 -   [Gentoo](https://www.gentoo.org)
--   [GNU Guix and GNU GuixSD](https://gnu.org/s/guix)
+-   [GNU Guix ו־GNU GuixSD](https://gnu.org/s/guix)
 -   [Hamara Linux](https://hamaralinux.org/)
 -   [לינוקס מינט](https://linuxmint.com)
 -   [Mageia](https://www.mageia.org/en/)
@@ -78,8 +78,8 @@ MATE זמינה דרך מאגרים  *בלתי רשמיים* עבור הפצות
 ניתן גם [לתשאל את DistroWatch.com לאיתור ההפצות שתומכות
 ב־MATE](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
 
-קהילת MATE תיעדה כיצד להתקין את MATE על מגוון הפצות תחת [הנחיות
-ההתקנה](https://wiki.mate-desktop.org/#!pages/download.md).
+קהילת MATE תיעדה איך להתקין את MATE על מגוון הפצות
+במסגרת [הנחיות ההתקנה](https://wiki.mate-desktop.org/introduction/installation/).
 
 יישומים
 ======
@@ -112,7 +112,7 @@ Pluma הוא עורך טקסט שתומך ברוב היכולות הרגילות
 מקור, הזחה אוטומטית ותמיכה בהדפסה (עם תצוגה מקדימה להדפסה.
 Pluma היא נגזרת של Gedit.
 
-Eye of MATE
+העין של MATE
 -----------
 
 ![image](/assets/img/mate/eom.png)
@@ -140,7 +140,7 @@ Engrampa
 ![image](/assets/img/mate/engrampa.png)
 
 Engrampa הוא מנהל קובצי ארכיון לסביבת MATE. הוא מאפשר ליצור
-ולצפות בתכני של קובץ ארכיון, לצפות בקובץ שבתוך ארכיון
+ולצפות בתוכן קובץ ארכיון, לצפות בקובץ שבתוך ארכיון
 ולחלץ קבצים מתוך קובצי ארכיון. Engrampa
 הוא נגזרת של File Roller.
 
@@ -158,8 +158,6 @@ VT102, VT220 ו־xterm. למסוף של MATE יש יכולת להשתמש במג
 מה מקור השם?
 ============
 
-השם *\"MATE\"*, אותו יש לבטא כ*מַה-טֵיי*, מקורו ב[ז׳רבה מאטה](https://he.wikipedia.org/wiki/מאטה),
-זן צמח קדוש הנפוץ באמריקה הדרומית הסאבטרופית. עליו מכילים קפאין
-ומשמשים להכנת עירויים ומשקה בשם מאטה. <!-- _ -->
+השם *\"MATE\"*, אותו יש לבטא כמו את המילה *מַטֵּה*, מקורו ב[ז׳רבה מאטה](https://he.wikipedia.org/wiki/מאטה), זן של צינית שנפוץ באמריקה הדרומית הסאבטרופית. עליו מכילים קפאין ומשמשים להכנת עירויים ומשקה בשם מָאטֶה. <!-- _ -->
 
 ![image](/assets/img/mate/yerba.jpg){.align-center}

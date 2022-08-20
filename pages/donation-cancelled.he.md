@@ -14,7 +14,7 @@ img.centered {
     margin-right: auto }
 </style>
 
-<div class="alert alert-error"><strong>בוטלה</strong> ביטל את התרומה שלך.</div>
+<div class="alert alert-error"><strong>בוטלה</strong> ביטלת התרומה שלך.</div>
 
 <div class="bs-component">
     <div class="jumbotron">

@@ -3,7 +3,7 @@
 .. slug: index
 .. date: 2013-10-31 12:29:57
 .. tags: About,Applications,Screenshots,关于,应用,截图
-.. link: 
+.. link:
 .. description:
 -->
 
@@ -11,11 +11,11 @@ MATE 桌面环境是 GNOME 2 的延续。通过传统的隐喻设计，MATE 为 
 或其他类 Unix 操作系统提供直观且吸引人的桌面环境。
 
 MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
-[开发计划](https://wiki.mate-desktop.org/#!pages/roadmap.md)。
+[开发计划](https://wiki.mate-desktop.org/developers-corner/roadmap/)。
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-你可以在此处获取更多 [MATE 截图](gallery/1.22/).
+您可以在此处获取更多 [MATE 截图](gallery/)。
 
 新闻
 ====
@@ -56,28 +56,26 @@ MATE 在保持传统桌面体验的同时引入对新技术的支持。参见
 -   [Uruk GNU/Linux](https://urukproject.org/dist/)
 -   [Vector Linux](http://vectorlinux.com)
 -   [Void Linux](https://www.voidlinux.org/)
+-   你可以从如下发行版的 **非官方软件源** 获取 MATE：
 
-你可以从如下发行版的 **非官方软件源** 获取 MATE：
+[Slackware](http://www.slackware.com)
 
--   [Slackware](http://www.slackware.com)
+-   \<!\-- 也许 UNIX 才是你的菜？\--\> 也许 \*BSD 更符合你的口味？
 
-\<!\-- 也许 UNIX 才是你的菜？\--\> 也许 \*BSD 更符合你的口味？
+[GhostBSD](https://ghostbsd.org)
 
--   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
 -   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
-
-你还可以 [在 DistroWatch.com 网站上查询所有支持 MATE
+-   你还可以 [在 DistroWatch.com 网站上查询所有支持 MATE
 的发行版](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
 
 MATE 社区在
 [安装指南](https://wiki.mate-desktop.org/#!pages/download.md)
 中说明了如何在不同发行版中安装 MATE。
 
-应用程序
-========
+MATE 社区在[安装指南](https://wiki.mate-desktop.org/introduction/installation/)中记录了如何在各种发行版中安装 MATE。
 
 MATE 由诸多应用程序组成。为了避免和一些 GNOME
 组件的冲突，我们重命名了部分应用程序。
@@ -153,5 +151,7 @@ MATE 终端允许你在 MATE 桌面环境中访问 UNIX 命令行。你可以使
 (*Ma-Tay*)，源自一种来自亚热带南美洲的本地冬青物种 [yerba
 maté](https://en.wikipedia.org/wiki/Yerba_mate)
 。其枝叶含有咖啡因，一般用来制作 浸剂和一种称为 mate 的饮品。
+
+![image](/assets/img/mate/yerba.jpg){.align-center}
 
 ![image](/assets/img/mate/yerba.jpg){.align-center}
