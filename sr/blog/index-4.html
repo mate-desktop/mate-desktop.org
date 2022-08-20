@@ -478,19 +478,22 @@ and <span class="caps">OSS</span> sound&nbsp;systems.</p>
 <h3>Инсталација</h3>
 <p>Инсталирајте датотеку ризнице и&nbsp;извршите <code>yum update</code>.</p>
 <h4>Федора&nbsp;22</h4>
-<pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
 $ sudo yum update
-</pre>
+</pre></div>
+
 <h4>Федора&nbsp;21</h4>
-<pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
-</pre>
+</pre></div>
+
 <p>Или користите&nbsp;наредбу <code>dnf</code>:</p>
-<pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
+<div class="code"><pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
 $ sudo dnf update
-</pre>
+</pre></div>
+
 <h3>Пријављивање&nbsp;проблема</h3>
 <p>Користите пратиоца грешака Мејтове радне површи на ГитХаб-у и укључите „Гтк3 и Федора“
 у&nbsp;теми.</p>
@@ -803,7 +806,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

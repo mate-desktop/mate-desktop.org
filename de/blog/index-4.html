@@ -478,19 +478,22 @@ do work but have some minor rendering issues, we&#8217;d value your&nbsp;feedbac
 <h3>Installation</h3>
 <p>Install the repo file and do&nbsp;a <code>yum update</code>.</p>
 <h4>Fedora&nbsp;22</h4>
-<pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
 $ sudo yum update
-</pre>
+</pre></div>
+
 <h4>Fedora&nbsp;21</h4>
-<pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
-</pre>
+</pre></div>
+
 <p>Or&nbsp;use <code>dnf</code> command:</p>
-<pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
+<div class="code"><pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
 $ sudo dnf update
-</pre>
+</pre></div>
+
 <h3>Reporting&nbsp;issues</h3>
 <p>Please use the <span class="caps">MATE</span> Desktop issue tracker on GitHub and include &#8216;<span class="caps">GTK3</span> and Fedora&#8217;
 in&nbsp;subject.</p>
@@ -799,7 +802,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

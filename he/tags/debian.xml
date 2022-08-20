@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/he/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian and Ubuntu package repositories removed from mate-desktop.org</title><link>https://preview.mate-desktop.dev/he/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Thanks to the efforts of the &lt;a href="https://salsa.debian.org/groups/debian-mate-team/-/group_members"&gt;MATE package maintainers for Debian&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
 &lt;a href="https://backports.debian.org"&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
@@ -17,7 +17,7 @@ repositories above are the official repositories to use.&lt;/p&gt;
 &lt;p&gt;We've removed the package repositories hosted on mate-desktop.org 
 because some were unsigned and others have not been maintained for many 
 months. Therefore, as of now, the Debian and Ubuntu package 
-repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Debian MATE Packaging Team</title><link>https://preview.mate-desktop.dev/he/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
+repositories hosted on mate-desktop.org have been removed. &lt;/p&gt;</description><category>Debian</category><category>News</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/he/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid><pubDate>Thu, 25 Sep 2014 11:34:36 GMT</pubDate></item><item><title>Debian MATE Packaging Team</title><link>https://preview.mate-desktop.dev/he/blog/2013-11-08-debian-mate-packaging-team/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="Debian" src="https://www.debian.org/logos/openlogo-nd-100.png"&gt;&lt;/p&gt;
 &lt;p&gt;The MATE Team is very happy to say hello to the new Debian MATE Packaging
 Team, that is &lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31"&gt;working hard&lt;/a&gt;
 to get MATE included into the next release of Debian.&lt;/p&gt;

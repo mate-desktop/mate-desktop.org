@@ -242,12 +242,14 @@ per attivare un&#8217;altra lingua ecco come fare. Nell&#8217;esempio che segue
 abiliteremo&nbsp;l&#8217;Italiano.</p>
 <p>Modificate <code>/etc/locale.gen</code> e decommentate la riga con la vostra localizzazione, in questo&nbsp;caso <code>it_IT.UTF-8 UTF-8</code>
 quindi fate il rebuild delle&nbsp;localizzazioni.</p>
-<pre class="code literal-block">sudo locale-gen
-</pre>
+<div class="code"><pre class="code literal-block">sudo locale-gen
+</pre></div>
+
 <p>Modificate <code>/etc/locale.conf</code> e&nbsp;impostate <code>LANG=</code> per esprimere la vostra localizzazione, in questo&nbsp;caso
 <code>LANG=it_IT.UTF-8</code>In fine riavviate il display manager e sarete loggati nella sessione <span class="caps">MATE</span> che utilizza la vostra lingua&nbsp;preferita.</p>
-<pre class="code literal-block">sudo systemctl restart lightdm
-</pre>
+<div class="code"><pre class="code literal-block">sudo systemctl restart lightdm
+</pre></div>
+
 <h3>Linux Action&nbsp;Show</h3>
 <p>Il LiveCD del desktop <span class="caps">MATE</span> e <span class="caps">MATE</span> stesso sono stati presentati nel <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Linux Action 
 Show</a> nell&#8217;episodio <a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/">CuBox 
@@ -315,7 +317,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

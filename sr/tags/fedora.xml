@@ -3,25 +3,28 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3 
 изградња доступна за тестирање на Федири 21 и 22. Ова Гтк3 изградња ради посао 
 али има неке мање проблеме исцртавања, ваше повртане информације су нам потребне.&lt;/p&gt;
 &lt;h3&gt;Инсталација&lt;/h3&gt;
 &lt;p&gt;Инсталирајте датотеку ризнице и извршите &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
 &lt;h4&gt;Федора 22&lt;/h4&gt;
-&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
 $ sudo yum update
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;h4&gt;Федора 21&lt;/h4&gt;
-&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
 $ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
 $ sudo yum update
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Или користите наредбу &lt;code&gt;dnf&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;$ sudo dnf copr &lt;span class="nb"&gt;enable&lt;/span&gt; raveit65/Mate-GTK3
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ sudo dnf copr &lt;span class="nb"&gt;enable&lt;/span&gt; raveit65/Mate-GTK3
 $ sudo dnf update
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;h3&gt;Пријављивање проблема&lt;/h3&gt;
 &lt;p&gt;Користите пратиоца грешака Мејтове радне површи на ГитХаб-у и укључите „Гтк3 и Федора“
 у теми.&lt;/p&gt;

@@ -124,459 +124,459 @@
             </p>
         </div>
     </header><div class="e-content entry-content">
-    <p>This release might have taken a little longer than usual but now after 18 month of development we are very pleased to release <span class="caps">MATE</span> 1.26. A big thank you to all contributors who helped to make this&nbsp;happen.</p>
-<p><img alt="MATE About dialog" src="../../assets/img/blog/about-mate-1.26.png"></p>
-<h3>What&#8217;s new in <span class="caps">MATE</span>&nbsp;1.26</h3>
-<p>The theme for this release has been adding new functionality to the <span class="caps">MATE</span> Desktop while maintaining the look and feel that we all know and love. While all the added features are surely quite exciting we also did not forget to do tons of bugfixing, modernising the code base and optimizing the&nbsp;performance.</p>
-<p>The headline changes in <span class="caps">MATE</span> Desktop 1.26&nbsp;are:</p>
+    <p>Diese Veröffentlichung mag vielleicht etwas länger als gewöhnlich auf sich warten lassen haben, aber jetzt nach 18 Monaten Entwicklung sind wir sehr erfreut, <span class="caps">MATE</span> 1.26 freigeben zu können. Vielen Dank an alle Beitragenden, die bei der Realisierung geholfen&nbsp;haben.</p>
+<p><img alt="Über MATE-Dialog" src="../../assets/img/blog/about-mate-1.26.png"></p>
+<h3>Was ist neu in <span class="caps">MATE</span>&nbsp;1.26</h3>
+<p>Die Thematik dieser Veröffentlichung war es, neue Funktionen zum <span class="caps">MATE</span> Desktop hinzuzufügen und zugleich das Aussehen und die Handhabung, welche wir alle kennen und lieben beizubehalten. Während all die neuen Funktionen sicher ziemlich aufregend sind, haben wir auch das Beheben einer Menge von Fehlern, die Modernisierung der Codebasis und die Optimierung der Leistung nicht&nbsp;vergessen.</p>
+<p>Die bedeutsamsten Veränderungen in <span class="caps">MATE</span> 1.26&nbsp;sind:</p>
 <ul>
-<li>We added <a href="https://wayland.freedesktop.org/">Wayland</a> support for Atril, System Monitor, Pluma, Terminal and other components of the Desktop. Furthermore Calculator and Terminal can now be built with <a href="https://mesonbuild.com/">Meson</a>.</li>
+<li>Wir haben die Unterstützung von <a href="https://wayland.freedesktop.org/">Wayland</a> zu Atril, Systemmonitor, Pluma, Terminal und anderen Komponenten des Desktops hinzugefügt. Desweiteren können Taschenrechner und Terminal jetzt auch mit <a href="https://mesonbuild.com/">Meson</a> gebaut&nbsp;werden.</li>
 <li>
-<strong>Pluma</strong> was subject to massive improvements.<ul>
-<li>There is a <strong>new mini map</strong> which gives you instant overview over the&nbsp;content.</li>
-<li>The <strong>new grid background pattern</strong> turns Pluma into a writing&nbsp;pad.</li>
-<li>The sort plugin now supports undo&nbsp;actions.</li>
-<li>We added a show/hide line-numbers shortcut, namely <kbd>Ctrl</kbd> + <kbd>Y</kbd>.</li>
-<li>The preferences dialog needed a redesign to catch up with all the new&nbsp;features.</li>
+<strong>Pluma</strong> wurde massiv verbessert.<ul>
+<li>Eine <strong>neue Miniatur-Karte</strong> ermöglicht einen sofortigen Überblick über den&nbsp;Inhalt</li>
+<li>Das <strong>neue Raster-Hintergrundmuster</strong> verwandelt Pluma in einen&nbsp;Schreibblock.</li>
+<li>Das Sortieren-Plugin unterstützt jetzt&nbsp;Rückgängig-Funktionen</li>
+<li>Wir haben einen neuen Kurzbefehl zum Zeigen/Verstecken von Zeilennummern hinzugefügt: <kbd>Strg</kbd> + <kbd>Y</kbd>.</li>
+<li>Der Einstellungsdialog benötigte eine Neugestaltung, um mit all den neuen Funktionen umgehen zu&nbsp;können.</li>
 </ul>
 </li>
-<li>Together with the brand new <strong>Pluma Plugins</strong> our text editor <strong>can be turned into a feature-rich <span class="caps">IDE</span></strong> with support for <em>Bracket completion</em>, <em>Comment/Uncomment code</em>, <em>Built-in terminal</em> and <em>Word completion</em>.</li>
-<li>The <strong>Control Center</strong> features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display&nbsp;scaling.</li>
-<li>Notifications became even more useful as they gained support for hyperlinks. And we finally <strong>added a Do not Disturb applet</strong>.</li>
-<li>Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional window thumbnails are now <strong>crisp and clear as they are rendered as cairo surfaces</strong>.</li>
-<li>The Netspeed applet shows more information by default and gained <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>&nbsp;support.</li>
-<li>The <strong>Calculator</strong> was ported to the <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a> library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).<ul>
-<li>We finally <strong>added a history to show recent computations</strong>.</li>
-<li>Calculator is now resizeable when the history is&nbsp;activated.</li>
-<li>Vastly improved integer factorization&nbsp;speed.</li>
-<li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability).</li>
+<li>Mit den brandneuen <strong>Pluma-Plugins</strong> kann unser Texteditor in eine <strong>funktionsreiche <span class="caps">IDE</span> verwandelt werden</strong>, welche <em>Bracket-Vervollständigung</em>, <em>Ein- und Auskommentieren von Code</em>, ein <em>eingebautes Terminal</em> und <em>Wortvervollständigung</em>&nbsp;unterstützt.</li>
+<li>Das <strong>Kontrollzentrum</strong> beinhaltet einen verbesserten Einstellungsdialog für Fenster mit mehr Optionen. Im Bildschirm-Dialog haben wir eine Möglichkeit für Display-Skalierung&nbsp;hinzugefügt.</li>
+<li>Die Benachrichtigungen wurden noch nützlicher, da sie jetzt auch Hyperlinks unterstützen. Außerdem haben wir endlich ein <strong>Nicht-Stören-Applet</strong>&nbsp;hinzugefügt.</li>
+<li>Apropos Applets, das Fensterlisten-Applet hat eine neue Option um Maus-Scrolling zu deaktivieren. Die optionalen Fenster-Vorschaubilder sind jetzt <strong>kristallklar, da sie über Cairo-Oberflächen gerendert werden</strong>.</li>
+<li>Das Applet zur Überwachung der Netzwerkgeschwindigkeit zeigt standardmäßig mehr Informationen und erhielt Unterstützung für <a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html">netlink</a>.</li>
+<li>Der <strong>Taschenrechner</strong> wurde zur <a href="https://www.mpfr.org/"><span class="caps">GNU</span> <span class="caps">MPFR</span></a>-/<a href="http://www.multiprecision.org/mpc"><span class="caps">MPC</span></a>-Bibliothek portiert, was sich in präziserer und schnellerer Berechnung und zusätzlichen Funktionen (z.B. Riemann-zeta-Funktion, Gauss-Fehler-Funktion) niederschlägt.<ul>
+<li>Wir haben endlich eine <strong>Funktion zum Anzeigen kürzlicher Berechnungen hinzugefügt</strong>.</li>
+<li>Die Größe des Taschenrechners kann jetzt angepasst werden, wenn die Chronik aktiviert&nbsp;ist.</li>
+<li>Gewaltige Geschwindigkeits-Verbesserung bei der Zerlegung in&nbsp;integer-Faktoren.</li>
+<li>Viel schnellere modulare arithmetische Evaluation (modulare&nbsp;Potenzierungs-Fähigkeit).</li>
 </ul>
 </li>
-<li>In the file manager <strong>Caja</strong> you can select <strong>a new Bookmarks sidebar</strong>. Caja gained <strong>support for formatting drives</strong> from the context menu. The <strong>Caja Actions</strong> extension which allows you to add arbitrary programs to be launched through the context menu is now part of the&nbsp;Desktop.</li>
-<li>Scrolling through large documents in <strong>Atril</strong> is a lot faster now since a slow linear search has been replaced by a binary tree search. The document viewer&#8217;s <strong>memory footprint got even smaller</strong> as a EvWebView is now only created if&nbsp;needed.</li>
-<li>The window manager <strong>Marco</strong> now restores minimized windows to its original position more&nbsp;reliable.</li>
+<li>In der Dateiverwaltung <strong>Caja</strong> kann <strong>eine neue Lesezeichen-Seitenleiste</strong> ausgewählt werden. Caja erhielt außerdem <strong>Unterstützung zum Formatieren von Platten</strong> aus dem Kontextmenü heraus. Die <strong>Caja-Aktionen</strong>-Erweiterung, welche das Hinzufügen beliebiger Programme zum Aufrufen über das Kontextmenü erlaubt, ist jetzt Teil des&nbsp;Desktops.</li>
+<li>Das Scrollen durch große Dokumente in <strong>Atril</strong> ist jetzt um einiges schneller, da eine langsame lineare Suche durch eine binary-tree-Suche ersetzt wurde. Der <strong>Ressourcenverbrauch des Dokumentenbetrachters wurde noch geringer</strong>, da eine EvWebView jetzt nur noch wenn nötig erstellt&nbsp;wird.</li>
+<li>Die Fensterverwaltung <strong>Marco</strong> stellt Fenster jetzt zuverlässiger an ihrer originalen Position&nbsp;her.</li>
 <li>
-<strong>Engrampa</strong> got support for Electronic Publication (<span class="caps">EPUB</span>) and <span class="caps">ARC</span> archives. In addition it can now open encrypted <span class="caps">RAR</span>&nbsp;archives.</li>
-<li>The <strong>Power Manager</strong> has a new option to enable keyboard dimming and has been ported to <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>.</li>
-<li>Most About dialogs have been updated with nicer descriptions. Because small things&nbsp;matter <code>:-)</code>.</li>
-<li>We fixed a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop&nbsp;components.</li>
-<li>There is a new <a href="https://wiki.mate-desktop.org/">Wiki</a> which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to <a href="https://wiki.mate-desktop.org/introduction/contributing/">contact us</a> or <a href="https://wiki.mate-desktop.org/introduction/contributing/">start contributing</a>.</li>
-<li>Translations are updated. Thank you to our team of&nbsp;translators!</li>
+<strong>Engrampa</strong> erhielt Unterstützung für Electronic Publication (<span class="caps">EPUB</span>)- und <span class="caps">ARC</span>-Archive. Außerdem können jetzt <span class="caps">RAR</span>-verschlüsselte Archive geöffnet&nbsp;werden.</li>
+<li>Die <strong>Energieverwaltung</strong> hat eine neue Option zur Freischaltung des Dimmens der Tastatur und wurde zu <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>&nbsp;portiert.</li>
+<li>Die meisten Über-Dialoge wurde mit besseren Beschreibungen aktualisiert. Weil auch Kleinigkeiten&nbsp;zählen <code>:-)</code>.</li>
+<li>Wir haben eine Reihe von Fehlern und memory-leaks behoben sowie die Codebasis von fast allen Bestandteilen des Desktops&nbsp;modernisiert.</li>
+<li>Über ein neues <a href="https://wiki.mate-desktop.org/">Wiki</a> wird neuen Beitragenden der Einstieg in das Projekt erleichtert. Wir brauchen dringend motivierte Leute, zögere also nicht uns zu <a href="https://wiki.mate-desktop.org/introduction/contributing/">kontaktieren</a> oder <a href="https://wiki.mate-desktop.org/introduction/contributing/">anzufangen beizutragen</a>.</li>
+<li>Die Übersetzungen sind aktualisiert worden. Danke an unser&nbsp;Übersetzungsteam.</li>
 </ul>
-<p>The various components of <span class="caps">MATE</span> Desktop 1.26 are available for download&nbsp;here:</p>
+<p>Die verschiedenen Komponenten des <span class="caps">MATE</span> Desktops 1.26 können hier heruntergeladen&nbsp;werden:</p>
 <ul>
 <li><a href="https://pub.mate-desktop.org/releases/1.26/">https://pub.mate-desktop.org/releases/1.26/</a></li>
 </ul>
-<h3>More&nbsp;details</h3>
-<p>Here are the gory&nbsp;details.</p>
+<h3>Nähere&nbsp;Informationen</h3>
+<p>Hier sind die blutigen&nbsp;Details.</p>
 <h4>atril</h4>
 <ul>
-<li>Completely rewritten Help (make sure to visit the new synctex section if you write a lot of TeX&nbsp;files)</li>
-<li>ev-window.c: Only create a EvWebView if&nbsp;needed</li>
-<li>ev-sidebar-links: Optimize reverse link lookup for a page (the very slow linear search for links in the sidebar has been replaced by a search in a specalized binary&nbsp;tree)</li>
-<li>Add Wayland&nbsp;support</li>
-<li>Make sure attachments window fills entire&nbsp;sidebar</li>
-<li>Make synctex&nbsp;optional</li>
-<li>Fix segfault on empty&nbsp;navMap</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Vollkommen neu verfasste Hilfe (gehen Sie sicher, den neuen synctex-Abschnitt zu besuchen, falls Sie eine Menge TeX-Dateien&nbsp;schreiben)</li>
+<li>ev-window.c: Erstelle eine EvWebView nur wenn&nbsp;nötig</li>
+<li>ev-sidebar-links: Optimierung des Rückwärts-Link-Nachschlagens für eine Seite (die sehr langsame lineare Suche wurde durch eine spezialisierte binary-tree-Suche&nbsp;ersetzt)</li>
+<li>Hinzufügen von&nbsp;Wayland-Unterstützung</li>
+<li>Sicherstellen, dass das Zubehör-Fenster die vollständige Seitenleiste&nbsp;ausfüllt</li>
+<li>synctex ist&nbsp;optional</li>
+<li>segfault in leerer navMap&nbsp;behoben</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
 <h4>caja</h4>
 <ul>
-<li>You can now add information of the creation time in the list&nbsp;columns</li>
-<li>Add a setting to block lock icons position on the&nbsp;desktop</li>
-<li>Improved filesystem check on Drag and&nbsp;Drop</li>
-<li>You can now format drive in&nbsp;caja</li>
-<li>fm-properties-window: Make the location of system folders&nbsp;portable</li>
-<li>Middle-clicking the reload button duplicates&nbsp;tab</li>
-<li>Create links by default on dnd from Web&nbsp;Browsers</li>
-<li>Add a &#8220;Bookmarks&#8221; sidebar to&nbsp;Caja</li>
-<li>Support an&nbsp;explicit <code>--select</code> command line&nbsp;option</li>
-<li>Confirm before deleting during an undo&nbsp;operation</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Informationen zur Erstellungszeit können jetzt in Listenspalten hinzugefügt&nbsp;werden</li>
+<li>Einstellungsmöglichkeit zum Blockieren festgeschriebener Symbolpositionen auf dem Schreibtisch&nbsp;hinzugefügt</li>
+<li>Verbesserte Überprüfung des Dateisystems bei&nbsp;Drag-and-Drop</li>
+<li>Platten können jetzt in Caja formatiert&nbsp;werden</li>
+<li>fm-properties-window: der Ort von Systemverzeichnissen ist jetzt&nbsp;optional</li>
+<li>Ein Mittelklick auf den Neu-laden-Knopf dupliziert den&nbsp;Reiter</li>
+<li>Links werden standardmäßig unter dnd aus Web Browsern&nbsp;erstellt</li>
+<li><span class="dquo">&#8220;</span>Lesezeichen&#8221;-Seitenleiste zu Caja&nbsp;hinzugefügt</li>
+<li>Unterstützung für eine&nbsp;explizite <code>--select</code>-Befehlszeilenoption</li>
+<li>Bestätigung vor Löschen während einer&nbsp;Rückgängig-Operation</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
 <h4>caja-actions</h4>
 <ul>
-<li>Makes its first appearance in this&nbsp;release</li>
-<li>i18n: Migrate from intltools to&nbsp;gettext</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Taucht zum ersten mal in dieser Veröffentlichung&nbsp;auf</li>
+<li>i18n: Migration von intltools zu&nbsp;gettext</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
 <h4>caja-dropbox</h4>
 <ul>
-<li>Add i18n&nbsp;support</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>i18n-Unterstützung&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
 <h4>caja-extensions</h4>
 <ul>
-<li>gksu: do not run the command on a new&nbsp;thread</li>
-<li>Require gtk+ 3.22 in glade&nbsp;files</li>
-<li>sendto: Fix evolution command for sending an&nbsp;email</li>
-<li>image-converter: rewrite caja-image-rotate.ui from&nbsp;scratch</li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>gksu: Befehl nicht in einem neuen Thread&nbsp;ausführen</li>
+<li>gtk+ 3.22 in glade-Dateien&nbsp;erforderlich</li>
+<li>sendto: Evolution-Kommando zum Versenden einer E-Mail&nbsp;repariert</li>
+<li>image-converter: caja-image-rotate.ui von Grund auf neu&nbsp;geschrieben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/caja-extensions/commits/master/">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/caja-extensions/commits/master/">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
 <h4>engrampa</h4>
 <ul>
-<li>rar 6.00: Fix listing archive content with encrypted file&nbsp;list</li>
-<li>Add Electronic Publication (<span class="caps">EPUB</span>)&nbsp;support</li>
-<li>Add <span class="caps">ARC</span> archive&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>rar 6.00: Auflistung von Archiv-Inhalten mit verschlüsselter Dateiliste&nbsp;repariert</li>
+<li>Untersützung für Electronic Publication (<span class="caps">EPUB</span>)&nbsp;hinzugefügt</li>
+<li>Unterstützung für <span class="caps">ARC</span>-Archive&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/engrampa/commits/master/">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/engrampa/commits/master/">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
 <h4>eom</h4>
 <ul>
-<li>Upgrade ui&nbsp;files</li>
-<li>Ensure scrollbar moves when dragged to move&nbsp;image</li>
-<li>Add tab scrolling support for dialog&nbsp;windows</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li><span class="caps">UI</span>-Dateien&nbsp;aktualisiert</li>
+<li>Bewegung der Scrollbar wurde sichergestellt, sollte diese zur Bewegung eines Bildes gezogen&nbsp;werden</li>
+<li>Unterstützung für Scrollen von Reitern zu Dialogfenstern&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/eom/commits/master/">https://github.com/mate-desktop/eom/commits/master/</a></p>
-<h4>libmatekbd</h4>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/eom/commits/master/">https://github.com/mate-desktop/eom/commits/master/</a></p>
+<h4>libmatekdb</h4>
 <ul>
-<li>Reduce the font size of the key names on keyboard layout&nbsp;display</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Schriftgröße von Tastennamen in der Tastatur-Layout-Anzeige&nbsp;verringert</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatekbd/commits/master/">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/libmatekbd/commits/master/">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
 <h4>libmatemixer</h4>
 <ul>
-<li>alsa: Add udev&nbsp;support</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>alsa: udev-Unterstützung&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmatemixer/commits/master/">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/libmatemixer/commits/master/">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
 <h4>libmateweather</h4>
 <ul>
-<li>Drop Berlin&nbsp;Tegel</li>
-<li>Add 2 brazil&nbsp;cities</li>
-<li>Update cities in&nbsp;Thailand</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Berlin Tegel&nbsp;entfernt</li>
+<li>2 brasilianische Städte&nbsp;hinzugefügt</li>
+<li>Städte in Thailand&nbsp;aktualisiert</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/libmateweather/commits/master/">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/libmateweather/commits/master/">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
 <h4>marco</h4>
 <ul>
-<li>window: Add support for&nbsp;_GNOME_WM_STRUT_AREA</li>
-<li>screen: Add support for&nbsp;_GTK_WORKAREAS_Dn</li>
-<li>window: Do not render shadows on left/right tiled&nbsp;windows</li>
-<li>iconcache: Use GDesktopAppInfo to find correct application&nbsp;icons</li>
-<li>window: Track window rectangle before corner&nbsp;tiling</li>
-<li>window: Track window rectangle before&nbsp;tiling</li>
-<li>Added <span class="caps">VI</span> keys (hjkl) for moving and resizing&nbsp;windows</li>
-<li>window: Expand tile size cycling&nbsp;support</li>
-<li>In the pop-up workspace switcher, show the selected&nbsp;workspace</li>
-<li>Improve meson build&nbsp;script</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>window: Unterstützung für _GNOME_WM_STRUT_AREA&nbsp;hinzugefügt</li>
+<li>screen: Unterstützung für _GTK_WORKAREAS_Dn&nbsp;hinzugefügt</li>
+<li>window: Schatten wird bei geteilten Fenstern nicht links/rechts&nbsp;gezeichnet</li>
+<li>iconcache: Benutzung von GDesktopAppInfo um korrekte Anwendungssymbole zu&nbsp;finden</li>
+<li>window: Verfolgung des Fenster-Rechtecks bevor es in die Ecke geteilt&nbsp;wird</li>
+<li>window: Verfolgung des Fenster-Rechtecks bevor es geteilt&nbsp;wird</li>
+<li><span class="caps">VI</span>-Tasten (hjkl) zum Verschieben und zur Größenänderung von Fenstern&nbsp;hinzugefügt</li>
+<li>window: Unterstützung für das Durchlaufen von geteilten Fenstergrößen&nbsp;erweitert</li>
+<li>Ausgewählte Arbeitsfläche wird im Pop-up-Arbeitsflächenwechsler&nbsp;angezeigt</li>
+<li>Meson-Build-Script&nbsp;verbessert</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
 <h4>mate-applets</h4>
 <ul>
-<li>netspeed: Allow to select an interface which is&nbsp;down</li>
-<li>netspeed: Show all ipv6 addresses in device details&nbsp;dialog</li>
-<li>netspeed: Show all <span class="caps">IP</span> addresses on tooltip if&nbsp;enabled</li>
-<li>multiload: Use bit rate in netload&nbsp;graph</li>
-<li>multiload: Increase refresh rate range&nbsp;setting</li>
-<li>battstat: Rewrite preference dialog from&nbsp;scratch</li>
-<li>multiload: Display the percentage used accurately on&nbsp;tooltip</li>
-<li>netspeed: Use <span class="caps">IEC</span> units for transfer&nbsp;rates</li>
-<li>netspeed: Add netlink&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>netspeed: ausgesetzte Netzwerke können jetzt ausgewählt&nbsp;werden</li>
+<li>netspeed: im Detail-Dialog der Geräte werden alle ipv6-Adressen&nbsp;angezeigt</li>
+<li>netspeed: Alle <span class="caps">IP</span>-Adressen werden auf dem tooltip angezeigt, sollte das freigeschaltet&nbsp;werden</li>
+<li>multiload: Bit-Rate wird im netload-Graphen&nbsp;verwendet</li>
+<li>multiload: Erhöhung der&nbsp;Auffrischungsratenweiten-Einstellung</li>
+<li>battstat: Einstellungsdialog von Grund auf neu&nbsp;geschrieben</li>
+<li>multiload: akkurate Anzeige des genutzten Prozentsatzes auf dem&nbsp;tooltip</li>
+<li>netspeed: Benutzung von <span class="caps">IEC</span>-Einheiten für&nbsp;Transfer-Raten</li>
+<li>netspeed: netlink-Unterstützung&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
 <h4>mate-backgrounds</h4>
 <ul>
-<li>New &#8216;Something slowly gets clear&#8217; elephants&nbsp;wallpaper</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Neues &#8216;Something slowly gets clear&#8217;&nbsp;elephants-Hintergrundbild</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
 <h4>mate-calc</h4>
 <ul>
-<li>Port to <span class="caps">GNU</span> <span class="caps">MPFR</span>/<span class="caps">MPC</span>&nbsp;Library</li>
-<li>Add an optional history to show recent&nbsp;calculations</li>
-<li>With keyboard shortcuts to navigate through history&nbsp;(Alt+Up)/(Alt+Down)</li>
-<li>Make Calculator resizeable when history is&nbsp;activated</li>
-<li>Show exponents in prime&nbsp;factorization</li>
-<li>Vastly improve prime factorization&nbsp;speed</li>
-<li>To factorize integers bigger than 2^64 the Miller-Rabin primality test and Pollard&#8217;s rho algorithm are&nbsp;used</li>
-<li>Much faster modular arithmetic evaluation (modular exponentiation&nbsp;ability)</li>
-<li>Add riemann zeta function, gauss error function, factorial function for real&nbsp;numbers</li>
-<li>Add meson build&nbsp;support</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Portierung zur <span class="caps">GNU</span>&nbsp;<span class="caps">MPFR</span>/<span class="caps">MPC</span>-Bibliothek</li>
+<li>Optionale Chronik zur Anzeige kürzlich durchgeführter&nbsp;Berechnungen</li>
+<li>Tastenkürzel (Alt+Hoch)/(Alt+Runter) zur Navigation durch die&nbsp;Chronik</li>
+<li>Taschenrechner ist in der Größe veränderbar, wenn die Chronik aktiviert sein&nbsp;sollte</li>
+<li>Anzeige der Exponenten in primärer&nbsp;Faktorisierung</li>
+<li>Wesentliche Verbesserung der Geschwindigkeit primärer&nbsp;Faktorisierungen</li>
+<li>Zur Faktorisierung von integern größer als 2^64 werden der Miller-Rabin Primaritätstest und Pollards rho-Alghorithmus&nbsp;verwendet</li>
+<li>Viel schnellere modulare arithmetische Evaluation (modulare&nbsp;Potenzierungs-Fähigkeit).</li>
+<li>Riemann-zeta-Funktion, Gauss-Fehlfunktion, Fakultätsfunktion für reelle Zahlen&nbsp;hinzugefügt</li>
+<li>Unterstützung für Meson-Build&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-calc/commits/master/">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-calc/commits/master/">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
 <h4>mate-common</h4>
 <ul>
-<li>g10n: Update the&nbsp;translations</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-common/commits/master/">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-common/commits/master/">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
 <h4>mate-control-center</h4>
 <ul>
-<li>windows-applet: New Show window border in Alt-Tab and Allow top tiling (Window-Snapping)&nbsp;option</li>
-<li>windows-applet: New compositing manager&nbsp;tab</li>
-<li>windows-applet: New titlebar layout option &#8220;left (with menu)&#8221; and &#8220;right&#8221; (without&nbsp;menu)</li>
-<li>Windows with client site decorations now respect the titlebar&nbsp;layout</li>
-<li>Fix preview in add wallpaper&nbsp;dialog</li>
-<li>Add file chooser options in the appearance dialogs interface section (the file chooser is the window that opens when opening or saving a&nbsp;file)</li>
-<li>Migrate some components from dbus-glib to&nbsp;GDBus</li>
-<li>Support tab-scrolling for the window and appearance&nbsp;dialog</li>
-<li>The Display applet gained an option for display&nbsp;scaling</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>windows-applet: Fensterumrisse werden jetzt in der Alt-Tab-Ansicht angezeigt. Außerdem können Fenster optional nach oben geteilt werden&nbsp;(Window-Snapping)</li>
+<li>windows-applet: Neuer Reiter für&nbsp;Komposit-Verwaltung</li>
+<li>windows-applet: Neue Titelleisten-Layoutoptionen &#8220;links (mit Menü)&#8221; und &#8220;rechts&#8221; (ohne&nbsp;Menü)</li>
+<li>Fenster mit Client-Side-Decorations respektieren jetzt das Layout der&nbsp;Titelleiste.</li>
+<li>Vorschau repariert und Hintergrundbild-Dialog&nbsp;eingeführt</li>
+<li>Option zum Wählen von Dateien in den Reiter zur Anpassung der Steuerelemente des Erscheinungsbild-Dialogs eingefügt (das Fenster zum Wählen einer Datei öffnet sich, wenn eine Datei geöffnet oder gespeichert&nbsp;wird)</li>
+<li>Migration einiger Komponenten von dbus-glib zu&nbsp;GDBus</li>
+<li>Unterstützung für Tab-Scrolling im Fenster- und&nbsp;Erscheinungsbild-Dialog</li>
+<li>Das Bildschirm-Applet hat eine Option zur Skalierung des Bildes&nbsp;erhalten</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
 <h4>mate-desktop</h4>
 <ul>
-<li>a11y-keyboard: Add capslock-beep-enable&nbsp;gsetting</li>
-<li>Set range for thumbnail cache&nbsp;maximum-age</li>
-<li>Remove GTimeVal deprecation warning for GLib&nbsp;2.61.2+</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>a11y-keyboard: capslock-beep-enable gsetting&nbsp;hinzugefügt</li>
+<li>Breite für das maximale Alter des Caches an Vorschaubildern&nbsp;festgesetzt</li>
+<li>GTimeVal-Veraltungswarnung vor GLib 2.61.2+&nbsp;entfernt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
 <h4>mate-icon-theme</h4>
 <ul>
-<li>Remove the execution bit from some png&nbsp;files</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Entfernung des execution-bit von einigen&nbsp;png-Dateien</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
 <h4>mate-indicator-applet</h4>
 <ul>
-<li>applet-main: Replace GtkStock&nbsp;icon</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>applet-main: GtkStock-Symbol&nbsp;ersetzt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
 <h4>mate-media</h4>
 <ul>
-<li>Replace mute/unmute checkmenuitem with&nbsp;imagemenuitem</li>
-<li>panel-applet: Ensure speaker can be shown alongside or above&nbsp;mic</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Ersetzung des stumm/nicht stumm-checkmenuitem mit&nbsp;imagemenuitem</li>
+<li>panel-applet: Sicherstellen, dass Lautsprecher neben oder über Mikrophon gezeigt werden&nbsp;kann</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
 <h4>mate-menus</h4>
 <ul>
-<li>Add collection menu&nbsp;item</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Sammlung-Menüeintrag&nbsp;hinzugefügt</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-menus/commits/master/">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-menus/commits/master/">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
 <h4>mate-netbook</h4>
 <ul>
-<li>mate-window: Replace GtkStock&nbsp;icons</li>
-<li>mate-maximus-autostart.desktop: Remove the deprecated Encoding&nbsp;key</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-window: GtkStock-Symbol&nbsp;ersetzt</li>
+<li>mate-maximus-autostart.desktop: Entfernung der veralteten&nbsp;Encoding-Taste</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-netbook/commits/master/">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-netbook/commits/master/">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
 <h4>mate-notification-daemon</h4>
 <ul>
-<li>Add Do Not Disturb&nbsp;Applet</li>
-<li>Add initial Wayland&nbsp;backend</li>
-<li>Add support for hyperlinks in the body of a&nbsp;notification</li>
-<li>Rewrite mate-notification-properties.ui from&nbsp;scratch</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Nicht-Stören-Applet&nbsp;hinzugefügt</li>
+<li>Initiales Wayland-Backend&nbsp;hinzugefügt</li>
+<li>Unterstützung von Hyperlinks zum Hauptteil von Benachrichtigungen&nbsp;hinzugefügt</li>
+<li>mate-notification-daemon-properties.ui von Grund auf neu&nbsp;geschrieben</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
 <h4>mate-panel</h4>
 <ul>
-<li>workspace-switcher: Support xmonad&nbsp;<span class="caps">WM</span></li>
-<li>Make Recent Documents list in Places menu of configurable&nbsp;length</li>
-<li>Add window list disable mouse scrolling&nbsp;option</li>
-<li>Add text label display support for notification&nbsp;area</li>
-<li>window-list: Render thumbnails as cairo&nbsp;surfaces</li>
-<li>Drop background&nbsp;compositing</li>
-<li>Window list Wayland&nbsp;support</li>
-<li>Redesign preferences dialog for window-list&nbsp;applet</li>
-<li>Fix adding applications launchers to panel when using the Add to Panel&nbsp;dialog</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>workspace-switcher: Untersützung für den&nbsp;xmonad-Fenstermanager</li>
+<li>Die Liste der kürzlich verwendeten Dokumente unter Orte kann jetzt in ihrer Länge angepasst&nbsp;werden</li>
+<li>Option zum Abschalten von Mausscrolling bei der&nbsp;Fensterliste</li>
+<li>Unterstützung für Anzeige von Textkennzeichen zum Benachrichtigungsfeld&nbsp;hinzugefügt</li>
+<li>window-list: Rendern von Vorschaubildern als&nbsp;Cairo-Oberflächen</li>
+<li>Hintergrundbild-Komposit wird in der Entwicklung fallen&nbsp;gelassen</li>
+<li>Wayland-Unterstützung der&nbsp;Fensterliste</li>
+<li>Neugestaltung des Einstellungsdialogs für das&nbsp;Fensterlisten-Applet</li>
+<li>Hinzufügen von Startern zur Leiste über den Als-Starter-zur-Leiste-hinzufügen-Dialog&nbsp;repariert</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
 <h4>mate-polkit</h4>
 <ul>
-<li>g10n: Update the&nbsp;translations</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-polkit/commits/master/">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-polkit/commits/master/">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
 <h4>mate-power-manager</h4>
 <ul>
-<li>mate-power-preferences: Add option to enable keyboard&nbsp;dimming</li>
-<li>Switch default from libgnome-keyring to&nbsp;libsecret</li>
-<li>brightness applet: Prevent sliding from bogging down the&nbsp;<span class="caps">UI</span></li>
-<li>Port from EggDebug to the built-in GLib logging&nbsp;framework</li>
-<li>Rewrite gpm-prefs.ui from&nbsp;scratch</li>
-<li>Remove the <span class="caps">CPU</span> wakeups&nbsp;feature</li>
-<li>Add some missing <span class="caps">SVG</span>&nbsp;files</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-power-preferences: Option zum Freischalten des Dimmens der&nbsp;Tastatur</li>
+<li>Wechsel des Standards von libgnome-keyring zu&nbsp;libsecret</li>
+<li>brightness applet: Beim Schieben davor schützen, dass sich die Benutzeroberfläche&nbsp;festfährt</li>
+<li>Portierung von EggDebug zum eingebauten&nbsp;GLib-logging-framework</li>
+<li>gpm-pres.ui von Grund auf neu&nbsp;geschrieben</li>
+<li><span class="caps">CPU</span>-wakeups-Funktion&nbsp;entfernt</li>
+<li>Einige fehlende <span class="caps">SVG</span>-Dateien&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
-<h4>mate-screensaver</h4>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
+<h4>mate-screen-saver</h4>
 <ul>
-<li>Allow change of time and date formats on lock&nbsp;screen</li>
-<li>Add Show/Hide password emblem in password&nbsp;entry</li>
-<li>mate-screensaver-preferences: Show lock image preview on file&nbsp;chooser</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix several memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Wechsel der Formate von Zeit und Datum beim Sperren&nbsp;erlaubt</li>
+<li>Zeige/Verstecke-Passwort-Emblem zum Passworteintrag&nbsp;hinzugefügt</li>
+<li>mate-screensaver-preferences: Sperrbildvorschau im Datei-Auswahldialog&nbsp;anzeigen</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory-leaks wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
 <h4>mate-sensors-applet</h4>
 <ul>
-<li>Drop aticonfig&nbsp;plugin</li>
-<li>sonypi-plugin.c: Make sonypi plugin portable to&nbsp;<span class="caps">GNU</span>/Hurd</li>
-<li>libsensors-plugin: Port to&nbsp;GRegex</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>aticonfig-Plugin wurde in der Entwicklung fallen&nbsp;gelassen</li>
+<li>sonypi-plugin.c: sonypi-Plugin ist jetzt portabel nach&nbsp;<span class="caps">GNU</span>/Hurd</li>
+<li>libsensors-plugin: Portierung zu&nbsp;GRegex</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
 <h4>mate-session-manager</h4>
 <ul>
-<li>Follow freedesktop guidelines to disable autorun using Hidden&nbsp;key</li>
-<li>Support xscreensaver when mate-screensaver is not&nbsp;available</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>Accept Desktop Entry Specification&nbsp;v1.1</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix a memory&nbsp;leak</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Befolgen der freedesktop-Standards zur Abschaltung von autorun über die&nbsp;Hidden-Taste</li>
+<li>Unterstützung für xscreensaver, sollte mate-screensaver nicht verfügbar&nbsp;sein</li>
+<li>Unterstützung für Tab-Scrolling für <span class="caps">GTK3</span>&nbsp;hinzugefügt</li>
+<li>Desktop Entry Specification v1.1&nbsp;akzeptiert</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Einige memory leaks&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
 <h4>mate-settings-daemon</h4>
 <ul>
-<li>xsettings: Improve Qt HiDPI environment&nbsp;settings</li>
-<li>a11y-keyboard: Add support for togglekeys-backend&nbsp;setting</li>
-<li>Add option &#8212;without-libatspi and assorted status&nbsp;line</li>
-<li>a11y-keyboard: Add support for ringing the bell when CapsLock is&nbsp;active</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>Fix two memory&nbsp;leaks</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>xsettings: Verbesserung der&nbsp;Qt-HiDPI-Umgebungseinstellungen</li>
+<li>a11y-keyboard: Unterstützung für togglekeys-backend-Einstellung&nbsp;hinzugefügt</li>
+<li>Option &#8212;without-libatspi und sortierte status line&nbsp;hinzugefügt</li>
+<li>a11y-keyboard: Untersützung zum Läuten der Glocke wenn CapsLock aktiv&nbsp;ist</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>Zwei memory-leaks&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
 <h4>mate-system-monitor</h4>
 <ul>
-<li>Add Wayland&nbsp;support</li>
-<li>Port to&nbsp;GtkApplication</li>
-<li>pretty-table: Prefer <span class="caps">GIO</span> to get application&nbsp;icons</li>
-<li>Added support for actions on multiple&nbsp;processes</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Wayland-Unterstützung&nbsp;hinzugefügt</li>
+<li>Portierung zu&nbsp;GtkApplication</li>
+<li>pretty-table: <span class="caps">GIO</span> bevorzugen, um Anwendungssymbole zu&nbsp;bekommen</li>
+<li>Unterstützung für Aktionen auf mehreren Prozessen&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
 <h4>mate-terminal</h4>
 <ul>
-<li>Fix desktop file validation&nbsp;warning</li>
-<li>Add meson build&nbsp;system</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>Add Wayland&nbsp;support</li>
-<li>Fix searching in terminal&nbsp;window</li>
-<li>Add icons to &#8220;open tab&#8221; and &#8220;close&nbsp;window/tab&#8221;</li>
-<li>Prevent crash on bad term spawn due to redundant&nbsp;frees</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Desktop-file-Validierungswarnung&nbsp;repariert</li>
+<li>Meson-Build-System&nbsp;hinzugefügt</li>
+<li>Unterstützung für Tab-Scrolling für <span class="caps">GTK3</span>&nbsp;hinzugefügt</li>
+<li>Wayland-Unterstützung&nbsp;hinzugefügt</li>
+<li>Suchen im Terminalfenster&nbsp;repariert</li>
+<li>Symbole zu &#8220;Reiter öffnen&#8221; und &#8220;Fenster/Reiter schließen&#8221;&nbsp;hinzugefügt</li>
+<li>Absturz bei bad-term-spawn wegen redundanter&nbsp;Freigaben</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
 <h4>mate-user-guide</h4>
 <ul>
-<li>Remove the execution bit from some Italian&nbsp;figures</li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Entfernung des execution-bit von einigen italienischen&nbsp;Schaubildern</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
 <h4>mate-user-share</h4>
 <ul>
-<li>Use MATE_COMPILE_WARNINGS from&nbsp;mate-common</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Nutzung von MATE_COMPILE_WARNINGS aus&nbsp;mate-common</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-user-share/commits/master/">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-user-share/commits/master/">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
 <h4>mate-utils</h4>
 <ul>
-<li>mate-screenshot: Fix the order of the buttons at the&nbsp;bottom</li>
-<li>mate-screenshot: Do not use stock icons in&nbsp;mate-screenshot.ui</li>
-<li>logview: Rewrite logview-filter.ui from&nbsp;scratch</li>
-<li>gsearchtool: Add copy path menu item to popup&nbsp;menu</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>build: Add option to disable Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mate-screenshot: Reihenfolge der unteren Knöpfe&nbsp;rapariert</li>
+<li>mate-screenshot: keine Stock-Symbole in mate-screenshot.ui&nbsp;nutzen</li>
+<li>logview: logview-filter.ui von Grund auf neu&nbsp;geschrieben</li>
+<li>gsearchtool: Pfad kopieren-Menüeintrag zum Aufklappmenü&nbsp;hinzugefügt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>build: Option zum Abschalten von Native Language Support (<span class="caps">NLS</span>)&nbsp;(<code>--disable-nls</code>)&nbsp;hinzugefügt</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
 <h4>mozo</h4>
 <ul>
-<li>Rewrite mozo.ui from&nbsp;scratch</li>
-<li>Fix a strange behavior when editing the collection&nbsp;directory</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>mozo.ui von Grund auf neu&nbsp;geschrieben</li>
+<li>Seltsames Verhalten beim Editieren des Sammlungsverzeichnisses&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/mozo/commits/master/">https://github.com/mate-desktop/mozo/commits/master/</a></p>
 <h4>pluma</h4>
 <ul>
-<li>Port sort plugin to the new GtkSourceView&nbsp;api.</li>
-<li>Port plugins to use the window-construct&nbsp;property.</li>
-<li>build: Port to&nbsp;gtksourceview-4</li>
-<li>Introduce PlumaWindowActivatable, PlumaAppActivatable,&nbsp;PlumaViewActivatable</li>
-<li>Add show/hide line-numbers shortcut&nbsp;(Ctrl+Y)</li>
-<li>Redesign Pluma Preferences&nbsp;Dialog</li>
-<li>Remove&nbsp;pluma-marshal.</li>
-<li>Add optional grid background&nbsp;pattern</li>
-<li>Remove changecase plugin. Functionality is provided by&nbsp;GtkSourceView.</li>
-<li>Add overview&nbsp;map</li>
-<li>Port to a new pluma-settings&nbsp;class</li>
-<li>Add support for&nbsp;wayland</li>
-<li>Add tab scrolling support for&nbsp;<span class="caps">GTK3</span></li>
-<li>pluma.c: Set PlumaWindow size-request (min-size) to&nbsp;250x250</li>
-<li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and&nbsp;<span class="caps">GCC</span></li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Portierung des Anordnungs-Plugins zur neuen&nbsp;GtkSourceView-<span class="caps">API</span>.</li>
+<li>Plugins zur Nutzung der window-construct property&nbsp;portiert.</li>
+<li>build: Portierung zu&nbsp;gtksourceview-4</li>
+<li>PlumaWindowActivatable, PlumaAppActivatable, PlumaViewActivatable&nbsp;eingeführt</li>
+<li>Zeilennummern zeigen-/verstecken-Tastenkürzel&nbsp;(Strg+Y)</li>
+<li>Neugestaltung des&nbsp;Pluma-Einstellungsdialogs</li>
+<li>pluma-marshal&nbsp;entfernt.</li>
+<li>optionales Kästchen-Hintergrundmuster&nbsp;hinzugefügt</li>
+<li>changecase-Plugin entfernt. Die Funktionalität wird von GtkSourceView&nbsp;bereitgestellt.</li>
+<li>Karte zum Überblick&nbsp;hinzugefügt</li>
+<li>Portierung zu einer neuen&nbsp;pluma-settings-Klasse</li>
+<li>Wayland-Unterstützung&nbsp;hinzugefügt</li>
+<li>Unterstützung für Tab-Scrolling für <span class="caps">GTK3</span>&nbsp;hinzugefügt</li>
+<li>pluma.c: PlumaWindow Größen-Anfrage (minimale Größe) auf 250x250&nbsp;gesetzt</li>
+<li>Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und <span class="caps">GCC</span> gemeldet haben, wurden&nbsp;behoben</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/pluma/commits/master/">https://github.com/mate-desktop/pluma/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/pluma/commits/master/">https://github.com/mate-desktop/pluma/commits/master/</a></p>
 <h4>pluma-plugins</h4>
 <ul>
-<li>Makes its first appearance in this&nbsp;release</li>
-<li>The package contains the following additional plugins<ul>
-<li>bookmarks - <em>Easy document navigation with&nbsp;bookmarks.</em>
+<li>Taucht zum ersten mal in dieser Veröffentlichung&nbsp;auf</li>
+<li>Das Paket beinhaltet die folgenden zusätzlichen Plugins<ul>
+<li>bookmarks - <em>Einfache Dokumenten-Navigation mit&nbsp;Lesezeichen</em>
 </li>
-<li>bracketcompletion - <em>Automatically adds closing&nbsp;brackets.</em>
+<li>bracketcompletion - <em>Automatisches Einfügen schließender&nbsp;Klammern.</em>
 </li>
-<li>codecomment - <em>Comment and uncomment blocks of&nbsp;code.</em>
+<li>codecomment - <em>Kommentieren und Auskommentieren von Blöcken von&nbsp;Code.</em>
 </li>
-<li>smartspaces - <em>Forget you’re not using&nbsp;tabulations.</em>
+<li>smartspaces - <em>Einfach mal vergessen, dass man keine Tabulatorzwischenräume&nbsp;nutzt.</em>
 </li>
-<li>synctex - <em>SyncTeX synchronization of TeX files and <span class="caps">PDF</span>&nbsp;output.</em>
+<li>synctex - <em>SyncTeX-Synchronisation von TeX-Dateien und&nbsp;<span class="caps">PDF</span>-Ausgabe.</em>
 </li>
-<li>terminal - <em>Embed a terminal in the bottom&nbsp;pane.</em>
+<li>terminal - <em>Terminal in unterem Ausschnitt&nbsp;einbetten.</em>
 </li>
-<li>wordcompletion - <em>Word completion using the completion&nbsp;framework.</em>
+<li>wordcompletion - <em>Wortvervollständigung unter Benutzung des&nbsp;completition-framework.</em>
 </li>
-<li>sourcecodebrowser - <em>View and navigate functions, variables and&nbsp;namespaces.</em>
+<li>sourcecodebrowser - <em>Funktionen, Variablen und Namespaces ansehen und&nbsp;navigieren.</em>
 </li>
 </ul>
 </li>
 </ul>
 <h4>python-caja</h4>
 <ul>
-<li>Fix memory leak reported by&nbsp;scan-build</li>
-<li>g10n: Update the&nbsp;translations</li>
+<li>Memory-leak behoben, der von scan-build gemeldet&nbsp;wurde</li>
+<li>g10n: Aktualisierte&nbsp;Übersetzungen</li>
 </ul>
-<p>Complete changelog at <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+<p>Vollständiger Changelog unter <a href="https://github.com/mate-desktop/python-caja/commits/master/">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2020-02-10-mate-1-24-released/" class="u-url"><span class="caps">MATE</span> 1.24&nbsp;released</a></h1>
         <div class="metadata">
@@ -8215,7 +8215,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

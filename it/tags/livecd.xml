@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:33:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Live CD del Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Live CD del Desktop MATE</title><link>https://preview.mate-desktop.dev/it/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;Update&lt;/strong&gt; Il LiveCD è stato aggiornato a MATE 1.8 il 10 Marzo 2014.&lt;/div&gt;
 
 &lt;p&gt;Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
@@ -69,12 +69,14 @@ per attivare un'altra lingua ecco come fare. Nell'esempio che segue
 abiliteremo l'Italiano.&lt;/p&gt;
 &lt;p&gt;Modificate &lt;code&gt;/etc/locale.gen&lt;/code&gt; e decommentate la riga con la vostra localizzazione, in questo caso &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
 quindi fate il rebuild delle localizzazioni.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;sudo locale-gen
-&lt;/pre&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;sudo locale-gen
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;Modificate &lt;code&gt;/etc/locale.conf&lt;/code&gt; e impostate &lt;code&gt;LANG=&lt;/code&gt; per esprimere la vostra localizzazione, in questo caso
 &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;In fine riavviate il display manager e sarete loggati nella sessione MATE che utilizza la vostra lingua preferita.&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;sudo systemctl restart lightdm
-&lt;/pre&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;sudo systemctl restart lightdm
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;h3&gt;Linux Action Show&lt;/h3&gt;
 &lt;p&gt;Il LiveCD del desktop MATE e MATE stesso sono stati presentati nel &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux Action 
 Show&lt;/a&gt; nell'episodio &lt;a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/"&gt;CuBox 

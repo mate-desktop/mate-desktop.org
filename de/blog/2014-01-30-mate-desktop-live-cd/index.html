@@ -249,14 +249,16 @@ Sie eine andere Sprache aktivierten möchten, erklären wir hier, wie es geht.
 Im untenstehenden Beispiel aktivieren wir&nbsp;Deutsch.</p>
 <p>Editieren&nbsp;Sie <code>/etc/locale.gen</code>, entfernen Sie bei Ihrem Gebietsschema (in diesem&nbsp;Fall<code>de_DE.UTF-8 UTF-8</code>) 
 die Kommentarzeichen (#) und veranlassen Sie einen Rebuild der Gebietsschemata&nbsp;mit:</p>
-<pre class="code literal-block">sudo locale-gen
-</pre>
+<div class="code"><pre class="code literal-block">sudo locale-gen
+</pre></div>
+
 <p>Editieren&nbsp;Sie <code>/etc/locale.conf</code> und ändern&nbsp;Sie <code>LANG=</code> dahingehend, 
 dass die Zeile ihrer Sprachwahl entspricht &#8212; in diesem&nbsp;Fall <code>LANG=de_DE.UTF-8</code>.
 Zum Schluss starten Sie den DisplayManager wie folgt neu, damit Sie neu eingeloggt werden
 in Ihre <span class="caps">MATE</span>-Session, die nun Ihre bevorzugte Sprache&nbsp;verwendet:</p>
-<pre class="code literal-block">sudo systemctl restart lightdm
-</pre>
+<div class="code"><pre class="code literal-block">sudo systemctl restart lightdm
+</pre></div>
+
 <h3>Vorstellung in der&nbsp;Linux-Action-Show</h3>
 <p>Die <span class="caps">MATE</span>-Desktop-Live-<span class="caps">CD</span> und <span class="caps">MATE</span> selbst haben wir
 auf der <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Linux Action Show</a> vorgestellt
@@ -324,7 +326,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

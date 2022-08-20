@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/he/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:31 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Meet MATE's Mastermind</title><link>https://preview.mate-desktop.dev/he/blog/2015-01-28-meet-mates-mastermind/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/"&gt;Linux 
 Action Show&lt;/a&gt; to
 talk a little about MATE Desktop, where it came from and where it is headed.
 The interview with me is embedded below.&lt;/p&gt;
@@ -17,7 +17,7 @@ you in the &lt;a href="https://web.libera.chat/?#mate"&gt;#mate IRC channel&lt;/
 reviewing your &lt;a href="https://github.com/mate-desktop"&gt;pull-requests on GitHub&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.jupiterbroadcasting.com"&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of 
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you 
-may find something that interests you.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>MATE 1.8 released</title><link>https://preview.mate-desktop.dev/he/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.8. We would like to
+may find something that interests you.&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/he/blog/2015-01-28-meet-mates-mastermind/</guid><pubDate>Wed, 28 Jan 2015 22:17:32 GMT</pubDate></item><item><title>MATE 1.8 released</title><link>https://preview.mate-desktop.dev/he/blog/2014-03-04-mate-1-8-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.8. We would like to
 thank every MATE contributor and user.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.8.png"&gt;&lt;/p&gt;
 &lt;p&gt;The main changes in 1.8 are:&lt;/p&gt;
@@ -181,7 +181,7 @@ in &lt;a href="https://ftp-master.debian.org/new.html"&gt;ftp-master NEW queue&l
 media team, will show &lt;a href="https://en.opensuse.org/Portal:MATE"&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href="https://summit.opensuse.org/"&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
 on Sunday, November 17 at 10:15.&lt;/p&gt;
-&lt;p&gt;The talk will be available at &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;this page&lt;/a&gt;.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>New repositories for openSUSE</title><link>https://preview.mate-desktop.dev/he/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
+&lt;p&gt;The talk will be available at &lt;a href="https://conference.opensuse.org/osem/conference/summit13/proposal/150"&gt;this page&lt;/a&gt;.&lt;/p&gt;</description><category>News</category><category>openSUSE</category><guid>https://preview.mate-desktop.dev/he/blog/2013-11-08-mate-at-opensuse-summit/</guid><pubDate>Fri, 08 Nov 2013 01:00:00 GMT</pubDate></item><item><title>New repositories for openSUSE</title><link>https://preview.mate-desktop.dev/he/blog/2013-08-10-mate-package-repository-for-opensuse/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="openSUSE" src="https://preview.mate-desktop.dev/assets/img/blog/mate-opensuse-black-150x150.png"&gt;&lt;/p&gt;
 &lt;p&gt;On the way to getting MATE officially available on &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;,
 the community repositories have to be changed in YaST. For that,
 go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
@@ -375,11 +375,11 @@ job.&lt;/p&gt;
 to learn how to develop new panel applets, Caja (file manager) extensions,
 Pluma (text editor) and Eye of MATE (image viewer) plugins, etc. to expand
 the already powerful MATE Desktop experience. There will be simple and well
-commented code, makefiles and tips to use as springboard for new MATE applications.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Thank you First Colo!</title><link>https://preview.mate-desktop.dev/he/blog/2012-12-27-thank-you-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
+commented code, makefiles and tips to use as springboard for new MATE applications.&lt;/p&gt;</description><category>News</category><guid>https://preview.mate-desktop.dev/he/blog/2013-03-12-mate-university/</guid><pubDate>Tue, 12 Mar 2013 18:58:22 GMT</pubDate></item><item><title>Thank you First Colo!</title><link>https://preview.mate-desktop.dev/he/blog/2012-12-27-thank-you-first-colo/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;&lt;img alt="FirstColo" src="https://preview.mate-desktop.dev/assets/img/blog/first-color.gif"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.first-colo.net/en/"&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
 are planning to migrate to MATE Desktop on their office workstations. FirstColo have
 kindly donated a new dedicated server to support MATE.&lt;/p&gt;
-&lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/he/blog/2012-12-27-thank-you-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>MATE 1.2 released</title><link>https://preview.mate-desktop.dev/he/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of &lt;strong&gt;MATE 1.2&lt;/strong&gt;. This release is a
+&lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;</description><category>FirstColo</category><category>News</category><guid>https://preview.mate-desktop.dev/he/blog/2012-12-27-thank-you-first-colo/</guid><pubDate>Thu, 27 Dec 2012 17:06:02 GMT</pubDate></item><item><title>MATE 1.2 released</title><link>https://preview.mate-desktop.dev/he/blog/2012-04-16-mate-1-2-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of &lt;strong&gt;MATE 1.2&lt;/strong&gt;. This release is a
 huge step forward since the 1.0 and 1.1 development releases. MATE is more
 stable than ever and it includes support for many more applications, applets
 and backends. &lt;/p&gt;

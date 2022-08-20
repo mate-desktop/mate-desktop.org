@@ -223,11 +223,13 @@
 <h3>言語の変更</h3>
 <p>既定では、Live <span class="caps">CD</span>&nbsp;は <code>en_US</code> ロケールを使用するように設定されていますが、ここで別の言語を有効にしたい場合には方法があります。次の例では、イタリア語が有効になります。</p>
 <p><code>/etc/locale.gen</code> を編集してロケールのコメントを外します。この場合、<code>it_IT.UTF-8UTF-8</code> を編集してロケールを再設定してください。</p>
-<pre class="code literal-block">sudo locale-gen
-</pre>
+<div class="code"><pre class="code literal-block">sudo locale-gen
+</pre></div>
+
 <p><code>/etc/locale.conf</code> を編集し、<code>LANG=</code> を変更してロケールを反映させます。この場合は <code>LANG=it_IT.UTF-8</code> です。最後にディスプレイマネージャを再起動すると、希望の言語を使って <span class="caps">MATE</span>&nbsp;セッションにログインできます。</p>
-<pre class="code literal-block">sudo systemctl restart lightdm
-</pre>
+<div class="code"><pre class="code literal-block">sudo systemctl restart lightdm
+</pre></div>
+
 <h3>Linux&nbsp;アクション表示機能</h3>
 <p><span class="caps">MATE</span> デスクトップ LiveCD と <span class="caps">MATE</span> レビューを <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">CuBox 
 Linux Review</a> の <a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/">Linux Action Show</a> で紹介しました。下記に2つのクリップが埋め込まれています。最初はMATE デスクトップ LiveCD の概要であり、2番目は <span class="caps">MATE</span> が動作している CuBox i4&nbsp;のレビューです。</p>
@@ -289,7 +291,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

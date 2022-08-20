@@ -248,12 +248,14 @@
 омогућићемо&nbsp;српски.</p>
 <p>Уредите <code>/etc/locale.gen</code> и поништите напомену за жељени језик, у овом&nbsp;случају <code>sr_RS.UTF-8 UTF-8</code>
 и поново изградите&nbsp;језике.</p>
-<pre class="code literal-block">sudo locale-gen
-</pre>
+<div class="code"><pre class="code literal-block">sudo locale-gen
+</pre></div>
+
 <p>Уредите <code>/etc/locale.conf</code> и&nbsp;измените <code>LANG=</code> да одрази ваш жељени језик, у овом&nbsp;случају <code>LANG=sr_RS.UTF-8</code>. На крају поново покрените управника приказа и бићете 
 пријављени назад у Мејтов сесију користећи ваш жељени&nbsp;језик.</p>
-<pre class="code literal-block">sudo systemctl restart lightdm
-</pre>
+<div class="code"><pre class="code literal-block">sudo systemctl restart lightdm
+</pre></div>
+
 <h3>Програм „Линукс у&nbsp;акцији“</h3>
 <p>Живи ЦД Мејтове радне површи и сам Мејт су приказани у <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Програму „Линукс у акцији“</a> у епизоди <a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/">CuBox 
 Linux Review</a>. 
@@ -320,7 +322,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

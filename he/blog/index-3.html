@@ -489,7 +489,7 @@ advancements we&#8217;ve made&nbsp;sooner.</p>
 </ul>
 <p>The feedback we&#8217;ve had so far about this decision has been positive. What do you&nbsp;think?</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-02-07-stefano-presents-mate-at-fosdem/" class="u-url">Stefano presents <span class="caps">MATE</span> at <span class="caps">FOSDEM</span>&nbsp;2014</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-02-07-stefano-presents-mate-at-fosdem/" class="u-url">Stefano stellt <span class="caps">MATE</span> auf der <span class="caps">FOSDEM</span> 2014&nbsp;vor</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -500,15 +500,16 @@ advancements we&#8217;ve made&nbsp;sooner.</p>
             </p>
         </div>
     </header><div class="e-content entry-content">
-    <p>On February 1st 2014 <a href="https://github.com/stefano-k">Stefano Karapetsas</a>
-presented his talk on <span class="caps">MATE</span> at <a href="https://fosdem.org"><span class="caps">FOSDEM</span> 2014</a>!</p>
-<p>The talk introduces <span class="caps">MATE</span> to those who haven&#8217;t heard of it and explains the
-projects origins. The differences between <span class="caps">MATE</span> and other traditional <span class="caps">GTK</span> based
-desktops is covered and then Stefano goes on to explain how <span class="caps">MATE</span> has evolved
-since it was forked from <span class="caps">GNOME2</span>. A brief run down of the recent improvements 
-is covered followed by an overview of the <span class="caps">MATE</span> roadmap and other
-projects that benefit from <span class="caps">MATE</span> such as <a href="https://sonar-project.org">Sonar</a>,
-<a href="https://www.raspberrypi.org/">Raspberry Pi</a> and <a href="http://www.ltsp.org/"><span class="caps">LTSP</span></a>.</p>
+    <p>Am 1. Februar 2014 hielt <a href="https://github.com/stefano-k">Stefano Karapetsas</a>
+seine Präsentation über <span class="caps">MATE</span> auf der <a href="https://fosdem.org"><span class="caps">FOSDEM</span> 2014</a>!</p>
+<p>Die Präsentation macht <span class="caps">MATE</span> denjenigen bekannt, welche davon noch nicht gehört
+haben, und erläutert den Ursprung des Projekts. Zunächst werden die Unterschiede 
+zwischen <span class="caps">MATE</span> und anderen herkömmlichen <span class="caps">GTK</span>-basierenden Desktop-Umgebungen erörtert.
+Danach erklärt Stefano, wie <span class="caps">MATE</span> sich entwickelt hat, seit es von <span class="caps">GNOME2</span> geforkt wurde.
+Eine kurze Auswertung der jüngeren Verbesserungen findet statt, gefolgt von 
+einer Übersicht über der <span class="caps">MATE</span>-Roadmap und anderen Projekten, die 
+von <span class="caps">MATE</span> profitieren, z.B. <a href="https://sonar-project.org">Sonar</a>,
+<a href="https://www.raspberrypi.org/">Raspberry Pi</a> und <a href="http://www.ltsp.org/"><span class="caps">LTSP</span></a>.</p>
 <iframe width="640" height="480" src="//www.youtube.com/embed/iwQ7iqNwRKs" frameborder="0" allowfullscreen></iframe>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-02-05-mate-desktop-mythbusting/" class="u-url"><span class="caps">MATE</span> Desktop&nbsp;Mythbusting</a></h1>
@@ -631,12 +632,14 @@ to activate another language here is how to do it. In the example below, we
 will enable&nbsp;Italian.</p>
 <p>Edit <code>/etc/locale.gen</code> an uncomment your locale, in this&nbsp;case <code>it_IT.UTF-8 UTF-8</code>
 and rebuild the&nbsp;locales.</p>
-<pre class="code literal-block">sudo locale-gen
-</pre>
+<div class="code"><pre class="code literal-block">sudo locale-gen
+</pre></div>
+
 <p>Edit <code>/etc/locale.conf</code> and change&nbsp;the <code>LANG=</code> to reflect your locale, in this&nbsp;case <code>LANG=it_IT.UTF-8</code>. Finally restart the display manager and you will be 
 logged back into a <span class="caps">MATE</span> session using your prefered&nbsp;language.</p>
-<pre class="code literal-block">sudo systemctl restart lightdm
-</pre>
+<div class="code"><pre class="code literal-block">sudo systemctl restart lightdm
+</pre></div>
+
 <h3>Linux Action Show&nbsp;Feature</h3>
 <p>The <span class="caps">MATE</span> Desktop LiveCD and <span class="caps">MATE</span> itself we featured on the <a href="https://www.jupiterbroadcasting.com/show/linuxactionshow/">Linux Action 
 Show</a> in the <a href="https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/">CuBox 
@@ -733,7 +736,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "5b0f99f35455"],
+    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 09 Jan 2022 21:34:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE デスクトップは BlueZ を歌います</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE チームは、&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman プロジェクト&lt;/a&gt;と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:44:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE デスクトップは BlueZ を歌います</title><link>https://preview.mate-desktop.dev/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE チームは、&lt;a href="https://github.com/blueman-project/blueman"&gt;Blueman プロジェクト&lt;/a&gt;と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。&lt;/p&gt;
 &lt;h3&gt;なぜ mate-bluetooth を捨てたのですか？&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; は BlueZ 4.x をサポートしていますが、BlueZ 4.x は開発終了であって、多くのディストリビューションがそれぞれのパッケージリポジトリでBlueZ 4.x を BlueZ 5.x に置き換えたか、置き換えようとしています。&lt;code&gt;mate-bluetooth&lt;/code&gt; をBlueZ 5.x に移行するのは大変な作業であり、また、Blueman で利用可能な範囲の諸機能を提供しません。&lt;/p&gt;
 &lt;h3&gt;なぜブルーマンなのですか？開発中止なのでは？&lt;/h3&gt;
