@@ -112,6 +112,7 @@ TRANSLATIONS = {
     "pl": "./pl",
     "pt": "./pt",
     "pt_br": "./pt_br",
+    "ru": "./ru",
     "sr": "./sr",
     "tr": "./tr",
     "zh_cn": "./zh_cn",
@@ -306,6 +307,15 @@ NAVIGATION_LINKS = {
         ('/pt_br/community/', 'Community'),
         ('/pt_br/team/', 'Team'),
         ('/pt_br/donate/', 'Donate'),
+    ),
+    "ru": (
+        ('/ru/blog/', 'Blog'),
+        ('/ru/install/', 'Install'),
+        ('/ru/gallery/1.26/english/', 'Screenshots'),
+        ('/ru/development/', 'Development'),
+        ('/ru/community/', 'Community'),
+        ('/ru/team/', 'Team'),
+        ('/ru/donate/', 'Donate'),
     ),
     "sr": (
         ('/sr/blog/', 'Blog'),

@@ -1,9 +1,9 @@
 <!--
-.. title: MATE Desktop Environment
+.. title: Ambiente de trabalho MATE
 .. slug: index
 .. date: 2013-10-31 12:29:57
-.. tags: About,Applications,Screenshots
-.. link: 
+.. tags: Acerca,Aplicações,Imagenss
+.. link:
 .. description:
 -->
 
@@ -11,14 +11,13 @@ O MATE Desktop Environment é a continuação do GNOME 2. Ele fornece um
 ambiente de trabalho intuitivo e atraente usando metáforas tradicionais
 para Gnu/Linux e outros sistemas operacionais Unix-like.
 
-MATE está em desenvolvimento ativo para adicionar suporte para novas
-tecnologias, preservando uma experiência de desktop tradicional. Veja
-nosso [Roteiro](https://wiki.mate-desktop.org/#!pages/roadmap.md).
+O MATE está em desenvolvimento ativo para adicionar suporte às novas tecnologias
+preservando ao mesmo tempo uma experiência de trabalho tradicional. Veja o
+[Roadmap](https://wiki.mate-desktop.org/developers-corner/roadmap/).
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-Você pode encontrar mais[fotos do MATE](gallery/1.22/) em nossa
-[galeria](gallery/).
+Pode encontrar mais [imagens do MATE](galeria/).
 
 Novidades
 =========
@@ -59,33 +58,32 @@ distribuições Linux abaixo:
 -   [Uruk GNU/Linux](https://urukproject.org/dist/)
 -   [Vector Linux](http://vectorlinux.com)
 -   [Void Linux](https://www.voidlinux.org/)
-
-MATE está disponível repositórios via *não oficiais* dessas dustros, mas
+-   MATE está disponível repositórios via *não oficiais* dessas dustros, mas
 sua inclusão está sendo planejada:
-
 -   [Slackware](http://www.slackware.com)
 
 Você prefere UNIX?
 
 -   [GhostBSD](https://ghostbsd.org)
--   [FreeBSD](https://freebsd.org)
+
+[FreeBSD](https://freebsd.org)
+
 -   [OpenIndiana](https://www.openindiana.org)
 -   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
-
-Você pode também [consultar DistroWatch.com para saber quais
+-   Você pode também [consultar DistroWatch.com para saber quais
 distribuições suportam
 MATE](https://distrowatch.org/search.php?desktop=MATE#distrosearch).
-
-A comunidade MATE documentou como instalar MATE em muitas distribuições
+-   A comunidade MATE documentou como instalar MATE em muitas distribuições
 nos guia de
 [Instalação](https://wiki.mate-desktop.org/#!pages/download.md).
 
 Aplicativos
 ===========
 
-MATE é composto de uma série de aplicações. A renomeação foi necessária
-para evitar conflitos com os componentes do GNOME.
+A comunidade do MATE tem documentado como instalar o MATE em muitas
+distribuições nas [diretrizes
+de instalação](https://wiki.mate-desktop.org/introduction/installation/).
 
 Caja
 ----
@@ -164,5 +162,12 @@ O nome *\"MATE\"*, vem de [erva
 mate](https://pt.wikipedia.org/wiki/Erva-mate), uma espécie de azevinho
 nativa da América do Sul subtropical. Suas folhas contêm cafeína e são
 usados ​​para fazer infusões e bebidas.
+
+![image](/assets/img/mate/yerba.jpg){.align-center}
+
+O nome *\"MATE\"*, pronunciado *Ma-Tay*, vem de [yerba
+maté](https://en.wikipedia.org/wiki/Yerba_mate), uma espécie de azevinho
+nativo da América do Sul subtropical. As suas folhas contêm cafeína e são
+utilizadas para fazer infusões e uma bebida chamada mate.
 
 ![image](/assets/img/mate/yerba.jpg){.align-center}
