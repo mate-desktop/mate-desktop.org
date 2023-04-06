@@ -1,641 +1,583 @@
 [main]
 host = https://www.transifex.com
 
-[mate-desktop-website.blog-20111205introducing-mate-desktop-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20111205introducing-mate-desktop.md
-file_filter = blog/20111205introducing-mate-desktop.<lang>.md
-trans.zh_CN = blog/20111205introducing-mate-desktop.zh_cn.md
-trans.zh_TW = blog/20111205introducing-mate-desktop.zh_tw.md
-trans.pt_BR = blog/20111205introducing-mate-desktop.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20111205introducing-mate-desktop-md--master]
+file_filter    = blog/20111205introducing-mate-desktop.<lang>.md
+source_file    = blog/20111205introducing-mate-desktop.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20111205introducing-mate-desktop.zh_tw.md
+trans.pt_BR    = blog/20111205introducing-mate-desktop.pt_br.md
 trans.sr_LATIN = blog/20111205introducing-mate-desktop.sr_latin.md
+trans.zh_CN    = blog/20111205introducing-mate-desktop.zh_cn.md
 
-[mate-desktop-website.blog-20111224new-wiki-and-new-distributions-supported-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20111224new-wiki-and-new-distributions-supported.md
-file_filter = blog/20111224new-wiki-and-new-distributions-supported.<lang>.md
-trans.zh_CN = blog/20111224new-wiki-and-new-distributions-supported.zh_cn.md
-trans.zh_TW = blog/20111224new-wiki-and-new-distributions-supported.zh_tw.md
-trans.pt_BR = blog/20111224new-wiki-and-new-distributions-supported.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20111224new-wiki-and-new-distributions-supported-md--master]
+file_filter    = blog/20111224new-wiki-and-new-distributions-supported.<lang>.md
+source_file    = blog/20111224new-wiki-and-new-distributions-supported.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20111224new-wiki-and-new-distributions-supported.zh_tw.md
+trans.pt_BR    = blog/20111224new-wiki-and-new-distributions-supported.pt_br.md
 trans.sr_LATIN = blog/20111224new-wiki-and-new-distributions-supported.sr_latin.md
+trans.zh_CN    = blog/20111224new-wiki-and-new-distributions-supported.zh_cn.md
 
-[mate-desktop-website.blog-20120118reporting-bugs-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20120118reporting-bugs.md
-file_filter = blog/20120118reporting-bugs.<lang>.md
-trans.zh_CN = blog/20120118reporting-bugs.zh_cn.md
-trans.zh_TW = blog/20120118reporting-bugs.zh_tw.md
-trans.pt_BR = blog/20120118reporting-bugs.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20120118reporting-bugs-md--master]
+file_filter    = blog/20120118reporting-bugs.<lang>.md
+source_file    = blog/20120118reporting-bugs.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20120118reporting-bugs.zh_cn.md
+trans.zh_TW    = blog/20120118reporting-bugs.zh_tw.md
+trans.pt_BR    = blog/20120118reporting-bugs.pt_br.md
 trans.sr_LATIN = blog/20120118reporting-bugs.sr_latin.md
 
-[mate-desktop-website.blog-20120416mate-1-2-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20120416mate-1-2-released.md
-file_filter = blog/20120416mate-1-2-released.<lang>.md
-trans.zh_CN = blog/20120416mate-1-2-released.zh_cn.md
-trans.zh_TW = blog/20120416mate-1-2-released.zh_tw.md
-trans.pt_BR = blog/20120416mate-1-2-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20120416mate-1-2-released-md--master]
+file_filter    = blog/20120416mate-1-2-released.<lang>.md
+source_file    = blog/20120416mate-1-2-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20120416mate-1-2-released.zh_cn.md
+trans.zh_TW    = blog/20120416mate-1-2-released.zh_tw.md
+trans.pt_BR    = blog/20120416mate-1-2-released.pt_br.md
 trans.sr_LATIN = blog/20120416mate-1-2-released.sr_latin.md
 
-[mate-desktop-website.blog-20120730mate-1-4-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20120730mate-1-4-released.md
-file_filter = blog/20120730mate-1-4-released.<lang>.md
-trans.zh_CN = blog/20120730mate-1-4-released.zh_cn.md
-trans.zh_TW = blog/20120730mate-1-4-released.zh_tw.md
-trans.pt_BR = blog/20120730mate-1-4-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20120730mate-1-4-released-md--master]
+file_filter    = blog/20120730mate-1-4-released.<lang>.md
+source_file    = blog/20120730mate-1-4-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20120730mate-1-4-released.zh_tw.md
+trans.pt_BR    = blog/20120730mate-1-4-released.pt_br.md
 trans.sr_LATIN = blog/20120730mate-1-4-released.sr_latin.md
+trans.zh_CN    = blog/20120730mate-1-4-released.zh_cn.md
 
-[mate-desktop-website.blog-20121016mate-package-repository-for-ubuntu-quantal-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20121016mate-package-repository-for-ubuntu-quantal.md
-file_filter = blog/20121016mate-package-repository-for-ubuntu-quantal.<lang>.md
-trans.zh_CN = blog/20121016mate-package-repository-for-ubuntu-quantal.zh_cn.md
-trans.zh_TW = blog/20121016mate-package-repository-for-ubuntu-quantal.zh_tw.md
-trans.pt_BR = blog/20121016mate-package-repository-for-ubuntu-quantal.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20121016mate-package-repository-for-ubuntu-quantal-md--master]
+file_filter    = blog/20121016mate-package-repository-for-ubuntu-quantal.<lang>.md
+source_file    = blog/20121016mate-package-repository-for-ubuntu-quantal.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20121016mate-package-repository-for-ubuntu-quantal.zh_cn.md
+trans.zh_TW    = blog/20121016mate-package-repository-for-ubuntu-quantal.zh_tw.md
+trans.pt_BR    = blog/20121016mate-package-repository-for-ubuntu-quantal.pt_br.md
 trans.sr_LATIN = blog/20121016mate-package-repository-for-ubuntu-quantal.sr_latin.md
 
-[mate-desktop-website.blog-20121110mate-package-repository-for-fedora-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20121110mate-package-repository-for-fedora.md
-file_filter = blog/20121110mate-package-repository-for-fedora.<lang>.md
-trans.zh_CN = blog/20121110mate-package-repository-for-fedora.zh_cn.md
-trans.zh_TW = blog/20121110mate-package-repository-for-fedora.zh_tw.md
-trans.pt_BR = blog/20121110mate-package-repository-for-fedora.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20121110mate-package-repository-for-fedora-md--master]
+file_filter    = blog/20121110mate-package-repository-for-fedora.<lang>.md
+source_file    = blog/20121110mate-package-repository-for-fedora.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20121110mate-package-repository-for-fedora.zh_cn.md
+trans.zh_TW    = blog/20121110mate-package-repository-for-fedora.zh_tw.md
+trans.pt_BR    = blog/20121110mate-package-repository-for-fedora.pt_br.md
 trans.sr_LATIN = blog/20121110mate-package-repository-for-fedora.sr_latin.md
 
-[mate-desktop-website.blog-20121227thank-you-first-colo-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20121227thank-you-first-colo.md
-file_filter = blog/20121227thank-you-first-colo.<lang>.md
-trans.zh_CN = blog/20121227thank-you-first-colo.zh_cn.md
-trans.zh_TW = blog/20121227thank-you-first-colo.zh_tw.md
-trans.pt_BR = blog/20121227thank-you-first-colo.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20121227thank-you-first-colo-md--master]
+file_filter    = blog/20121227thank-you-first-colo.<lang>.md
+source_file    = blog/20121227thank-you-first-colo.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20121227thank-you-first-colo.zh_cn.md
+trans.zh_TW    = blog/20121227thank-you-first-colo.zh_tw.md
+trans.pt_BR    = blog/20121227thank-you-first-colo.pt_br.md
 trans.sr_LATIN = blog/20121227thank-you-first-colo.sr_latin.md
 
-[mate-desktop-website.blog-20130120changes-to-mate-notification-daemon-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130120changes-to-mate-notification-daemon.md
-file_filter = blog/20130120changes-to-mate-notification-daemon.<lang>.md
-trans.zh_CN = blog/20130120changes-to-mate-notification-daemon.zh_cn.md
-trans.zh_TW = blog/20130120changes-to-mate-notification-daemon.zh_tw.md
-trans.pt_BR = blog/20130120changes-to-mate-notification-daemon.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130120changes-to-mate-notification-daemon-md--master]
+file_filter    = blog/20130120changes-to-mate-notification-daemon.<lang>.md
+source_file    = blog/20130120changes-to-mate-notification-daemon.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20130120changes-to-mate-notification-daemon.zh_cn.md
+trans.zh_TW    = blog/20130120changes-to-mate-notification-daemon.zh_tw.md
+trans.pt_BR    = blog/20130120changes-to-mate-notification-daemon.pt_br.md
 trans.sr_LATIN = blog/20130120changes-to-mate-notification-daemon.sr_latin.md
 
-[mate-desktop-website.blog-20130312mate-university-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130312mate-university.md
-file_filter = blog/20130312mate-university.<lang>.md
-trans.zh_CN = blog/20130312mate-university.zh_cn.md
-trans.zh_TW = blog/20130312mate-university.zh_tw.md
-trans.pt_BR = blog/20130312mate-university.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130312mate-university-md--master]
+file_filter    = blog/20130312mate-university.<lang>.md
+source_file    = blog/20130312mate-university.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20130312mate-university.pt_br.md
 trans.sr_LATIN = blog/20130312mate-university.sr_latin.md
+trans.zh_CN    = blog/20130312mate-university.zh_cn.md
+trans.zh_TW    = blog/20130312mate-university.zh_tw.md
 
-[mate-desktop-website.blog-20130320mate-and-ltsp-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130320mate-and-ltsp.md
-file_filter = blog/20130320mate-and-ltsp.<lang>.md
-trans.zh_CN = blog/20130320mate-and-ltsp.zh_cn.md
-trans.zh_TW = blog/20130320mate-and-ltsp.zh_tw.md
-trans.pt_BR = blog/20130320mate-and-ltsp.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130320mate-and-ltsp-md--master]
+file_filter    = blog/20130320mate-and-ltsp.<lang>.md
+source_file    = blog/20130320mate-and-ltsp.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20130320mate-and-ltsp.zh_cn.md
+trans.zh_TW    = blog/20130320mate-and-ltsp.zh_tw.md
+trans.pt_BR    = blog/20130320mate-and-ltsp.pt_br.md
 trans.sr_LATIN = blog/20130320mate-and-ltsp.sr_latin.md
 
-[mate-desktop-website.blog-20130326new-themes-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130326new-themes.md
-file_filter = blog/20130326new-themes.<lang>.md
-trans.zh_CN = blog/20130326new-themes.zh_cn.md
-trans.zh_TW = blog/20130326new-themes.zh_tw.md
-trans.pt_BR = blog/20130326new-themes.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130326new-themes-md--master]
+file_filter    = blog/20130326new-themes.<lang>.md
+source_file    = blog/20130326new-themes.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20130326new-themes.zh_cn.md
+trans.zh_TW    = blog/20130326new-themes.zh_tw.md
+trans.pt_BR    = blog/20130326new-themes.pt_br.md
 trans.sr_LATIN = blog/20130326new-themes.sr_latin.md
 
-[mate-desktop-website.blog-20130402mate-1-6-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130402mate-1-6-released.md
-file_filter = blog/20130402mate-1-6-released.<lang>.md
-trans.zh_CN = blog/20130402mate-1-6-released.zh_cn.md
-trans.zh_TW = blog/20130402mate-1-6-released.zh_tw.md
-trans.pt_BR = blog/20130402mate-1-6-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130402mate-1-6-released-md--master]
+file_filter    = blog/20130402mate-1-6-released.<lang>.md
+source_file    = blog/20130402mate-1-6-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20130402mate-1-6-released.zh_cn.md
+trans.zh_TW    = blog/20130402mate-1-6-released.zh_tw.md
+trans.pt_BR    = blog/20130402mate-1-6-released.pt_br.md
 trans.sr_LATIN = blog/20130402mate-1-6-released.sr_latin.md
 
-[mate-desktop-website.blog-20130721stefano-at-opensuse-conference-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130721stefano-at-opensuse-conference.md
-file_filter = blog/20130721stefano-at-opensuse-conference.<lang>.md
-trans.zh_CN = blog/20130721stefano-at-opensuse-conference.zh_cn.md
-trans.zh_TW = blog/20130721stefano-at-opensuse-conference.zh_tw.md
-trans.pt_BR = blog/20130721stefano-at-opensuse-conference.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130721stefano-at-opensuse-conference-md--master]
+file_filter    = blog/20130721stefano-at-opensuse-conference.<lang>.md
+source_file    = blog/20130721stefano-at-opensuse-conference.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20130721stefano-at-opensuse-conference.pt_br.md
 trans.sr_LATIN = blog/20130721stefano-at-opensuse-conference.sr_latin.md
+trans.zh_CN    = blog/20130721stefano-at-opensuse-conference.zh_cn.md
+trans.zh_TW    = blog/20130721stefano-at-opensuse-conference.zh_tw.md
 
-[mate-desktop-website.blog-20130810new-repositories-for-opensuse-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20130810new-repositories-for-opensuse.md
-file_filter = blog/20130810new-repositories-for-opensuse.<lang>.md
-trans.zh_CN = blog/20130810new-repositories-for-opensuse.zh_cn.md
-trans.zh_TW = blog/20130810new-repositories-for-opensuse.zh_tw.md
-trans.pt_BR = blog/20130810new-repositories-for-opensuse.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20130810new-repositories-for-opensuse-md--master]
+file_filter    = blog/20130810new-repositories-for-opensuse.<lang>.md
+source_file    = blog/20130810new-repositories-for-opensuse.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20130810new-repositories-for-opensuse.zh_cn.md
+trans.zh_TW    = blog/20130810new-repositories-for-opensuse.zh_tw.md
+trans.pt_BR    = blog/20130810new-repositories-for-opensuse.pt_br.md
 trans.sr_LATIN = blog/20130810new-repositories-for-opensuse.sr_latin.md
 
-[mate-desktop-website.blog-20131031-website-redesign-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20131031-website-redesign.md
-file_filter = blog/20131031-website-redesign.<lang>.md
-trans.zh_CN = blog/20131031-website-redesign.zh_cn.md
-trans.zh_TW = blog/20131031-website-redesign.zh_tw.md
-trans.pt_BR = blog/20131031-website-redesign.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20131031-website-redesign-md--master]
+file_filter    = blog/20131031-website-redesign.<lang>.md
+source_file    = blog/20131031-website-redesign.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20131031-website-redesign.zh_cn.md
+trans.zh_TW    = blog/20131031-website-redesign.zh_tw.md
+trans.pt_BR    = blog/20131031-website-redesign.pt_br.md
 trans.sr_LATIN = blog/20131031-website-redesign.sr_latin.md
 
-[mate-desktop-website.blog-20131108-debian-mate-packaging-team-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20131108-debian-mate-packaging-team.md
-file_filter = blog/20131108-debian-mate-packaging-team.<lang>.md
-trans.zh_CN = blog/20131108-debian-mate-packaging-team.zh_cn.md
-trans.zh_TW = blog/20131108-debian-mate-packaging-team.zh_tw.md
-trans.pt_BR = blog/20131108-debian-mate-packaging-team.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20131108-debian-mate-packaging-team-md--master]
+file_filter    = blog/20131108-debian-mate-packaging-team.<lang>.md
+source_file    = blog/20131108-debian-mate-packaging-team.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20131108-debian-mate-packaging-team.zh_cn.md
+trans.zh_TW    = blog/20131108-debian-mate-packaging-team.zh_tw.md
+trans.pt_BR    = blog/20131108-debian-mate-packaging-team.pt_br.md
 trans.sr_LATIN = blog/20131108-debian-mate-packaging-team.sr_latin.md
 
-[mate-desktop-website.blog-20131108-mate-at-opensuse-summit-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20131108-mate-at-opensuse-summit.md
-file_filter = blog/20131108-mate-at-opensuse-summit.<lang>.md
-trans.zh_CN = blog/20131108-mate-at-opensuse-summit.zh_cn.md
-trans.zh_TW = blog/20131108-mate-at-opensuse-summit.zh_tw.md
-trans.pt_BR = blog/20131108-mate-at-opensuse-summit.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20131108-mate-at-opensuse-summit-md--master]
+file_filter    = blog/20131108-mate-at-opensuse-summit.<lang>.md
+source_file    = blog/20131108-mate-at-opensuse-summit.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20131108-mate-at-opensuse-summit.zh_tw.md
+trans.pt_BR    = blog/20131108-mate-at-opensuse-summit.pt_br.md
 trans.sr_LATIN = blog/20131108-mate-at-opensuse-summit.sr_latin.md
+trans.zh_CN    = blog/20131108-mate-at-opensuse-summit.zh_cn.md
 
-[mate-desktop-website.blog-20131116-mate-1-6-packages-for-arch-linux-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20131116-mate-1.6-packages-for-arch-linux.md
-file_filter = blog/20131116-mate-1.6-packages-for-arch-linux.<lang>.md
-trans.zh_CN = blog/20131116-mate-1.6-packages-for-arch-linux.zh_cn.md
-trans.zh_TW = blog/20131116-mate-1.6-packages-for-arch-linux.zh_tw.md
-trans.pt_BR = blog/20131116-mate-1.6-packages-for-arch-linux.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20131116-mate-1-6-packages-for-arch-linux-md--master]
+file_filter    = blog/20131116-mate-1.6-packages-for-arch-linux.<lang>.md
+source_file    = blog/20131116-mate-1.6-packages-for-arch-linux.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20131116-mate-1.6-packages-for-arch-linux.zh_cn.md
+trans.zh_TW    = blog/20131116-mate-1.6-packages-for-arch-linux.zh_tw.md
+trans.pt_BR    = blog/20131116-mate-1.6-packages-for-arch-linux.pt_br.md
 trans.sr_LATIN = blog/20131116-mate-1.6-packages-for-arch-linux.sr_latin.md
 
-[mate-desktop-website.blog-20131125-support-linux-voice-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20131125-support-linux-voice.md
-file_filter = blog/20131125-support-linux-voice.<lang>.md
-trans.zh_CN = blog/20131125-support-linux-voice.zh_cn.md
-trans.zh_TW = blog/20131125-support-linux-voice.zh_tw.md
-trans.pt_BR = blog/20131125-support-linux-voice.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20131125-support-linux-voice-md--master]
+file_filter    = blog/20131125-support-linux-voice.<lang>.md
+source_file    = blog/20131125-support-linux-voice.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20131125-support-linux-voice.zh_cn.md
+trans.zh_TW    = blog/20131125-support-linux-voice.zh_tw.md
+trans.pt_BR    = blog/20131125-support-linux-voice.pt_br.md
 trans.sr_LATIN = blog/20131125-support-linux-voice.sr_latin.md
 
-[mate-desktop-website.blog-20140116-mate-officially-in-arch-linux-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140116-mate-officially-in-arch-linux.md
-file_filter = blog/20140116-mate-officially-in-arch-linux.<lang>.md
-trans.zh_CN = blog/20140116-mate-officially-in-arch-linux.zh_cn.md
-trans.zh_TW = blog/20140116-mate-officially-in-arch-linux.zh_tw.md
-trans.pt_BR = blog/20140116-mate-officially-in-arch-linux.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140116-mate-officially-in-arch-linux-md--master]
+file_filter    = blog/20140116-mate-officially-in-arch-linux.<lang>.md
+source_file    = blog/20140116-mate-officially-in-arch-linux.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20140116-mate-officially-in-arch-linux.zh_cn.md
+trans.zh_TW    = blog/20140116-mate-officially-in-arch-linux.zh_tw.md
+trans.pt_BR    = blog/20140116-mate-officially-in-arch-linux.pt_br.md
 trans.sr_LATIN = blog/20140116-mate-officially-in-arch-linux.sr_latin.md
 
-[mate-desktop-website.blog-20140130-mate-desktop-live-cd-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140130-mate-desktop-live-cd.md
-file_filter = blog/20140130-mate-desktop-live-cd.<lang>.md
-trans.zh_CN = blog/20140130-mate-desktop-live-cd.zh_cn.md
-trans.zh_TW = blog/20140130-mate-desktop-live-cd.zh_tw.md
-trans.pt_BR = blog/20140130-mate-desktop-live-cd.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140130-mate-desktop-live-cd-md--master]
+file_filter    = blog/20140130-mate-desktop-live-cd.<lang>.md
+source_file    = blog/20140130-mate-desktop-live-cd.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20140130-mate-desktop-live-cd.pt_br.md
 trans.sr_LATIN = blog/20140130-mate-desktop-live-cd.sr_latin.md
+trans.zh_CN    = blog/20140130-mate-desktop-live-cd.zh_cn.md
+trans.zh_TW    = blog/20140130-mate-desktop-live-cd.zh_tw.md
 
-[mate-desktop-website.blog-20140205-mate-desktop-mythbusting-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140205-mate-desktop-mythbusting.md
-file_filter = blog/20140205-mate-desktop-mythbusting.<lang>.md
-trans.zh_CN = blog/20140205-mate-desktop-mythbusting.zh_cn.md
-trans.zh_TW = blog/20140205-mate-desktop-mythbusting.zh_tw.md
-trans.pt_BR = blog/20140205-mate-desktop-mythbusting.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140205-mate-desktop-mythbusting-md--master]
+file_filter    = blog/20140205-mate-desktop-mythbusting.<lang>.md
+source_file    = blog/20140205-mate-desktop-mythbusting.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20140205-mate-desktop-mythbusting.zh_cn.md
+trans.zh_TW    = blog/20140205-mate-desktop-mythbusting.zh_tw.md
+trans.pt_BR    = blog/20140205-mate-desktop-mythbusting.pt_br.md
 trans.sr_LATIN = blog/20140205-mate-desktop-mythbusting.sr_latin.md
 
-[mate-desktop-website.blog-20140207-stefano-presents-mate-at-fosdem-de-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140207-stefano-presents-mate-at-fosdem.de.md
-file_filter = blog/20140207-stefano-presents-mate-at-fosdem.<lang>.md
-trans.zh_CN = blog/20140207-stefano-presents-mate-at-fosdem.de.zh_cn.md
-trans.zh_TW = blog/20140207-stefano-presents-mate-at-fosdem.de.zh_tw.md
-trans.pt_BR = blog/20140207-stefano-presents-mate-at-fosdem.de.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140207-stefano-presents-mate-at-fosdem-de-md--master]
+file_filter    = blog/20140207-stefano-presents-mate-at-fosdem.<lang>.md
+source_file    = blog/20140207-stefano-presents-mate-at-fosdem.de.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20140207-stefano-presents-mate-at-fosdem.de.zh_cn.md
+trans.zh_TW    = blog/20140207-stefano-presents-mate-at-fosdem.de.zh_tw.md
+trans.pt_BR    = blog/20140207-stefano-presents-mate-at-fosdem.de.pt_br.md
 trans.sr_LATIN = blog/20140207-stefano-presents-mate-at-fosdem.de.sr_latin.md
 
-[mate-desktop-website.blog-20140213-mate-desktop-roadmap-reshuffle-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140213-mate-desktop-roadmap-reshuffle.md
-file_filter = blog/20140213-mate-desktop-roadmap-reshuffle.<lang>.md
-trans.zh_CN = blog/20140213-mate-desktop-roadmap-reshuffle.zh_cn.md
-trans.zh_TW = blog/20140213-mate-desktop-roadmap-reshuffle.zh_tw.md
-trans.pt_BR = blog/20140213-mate-desktop-roadmap-reshuffle.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140213-mate-desktop-roadmap-reshuffle-md--master]
+file_filter    = blog/20140213-mate-desktop-roadmap-reshuffle.<lang>.md
+source_file    = blog/20140213-mate-desktop-roadmap-reshuffle.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20140213-mate-desktop-roadmap-reshuffle.pt_br.md
 trans.sr_LATIN = blog/20140213-mate-desktop-roadmap-reshuffle.sr_latin.md
+trans.zh_CN    = blog/20140213-mate-desktop-roadmap-reshuffle.zh_cn.md
+trans.zh_TW    = blog/20140213-mate-desktop-roadmap-reshuffle.zh_tw.md
 
-[mate-desktop-website.blog-20140214-mate-translation-contributions-requested-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140214-mate-translation-contributions-requested.md
-file_filter = blog/20140214-mate-translation-contributions-requested.<lang>.md
-trans.zh_CN = blog/20140214-mate-translation-contributions-requested.zh_cn.md
-trans.zh_TW = blog/20140214-mate-translation-contributions-requested.zh_tw.md
-trans.pt_BR = blog/20140214-mate-translation-contributions-requested.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140214-mate-translation-contributions-requested-md--master]
+file_filter    = blog/20140214-mate-translation-contributions-requested.<lang>.md
+source_file    = blog/20140214-mate-translation-contributions-requested.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20140214-mate-translation-contributions-requested.zh_cn.md
+trans.zh_TW    = blog/20140214-mate-translation-contributions-requested.zh_tw.md
+trans.pt_BR    = blog/20140214-mate-translation-contributions-requested.pt_br.md
 trans.sr_LATIN = blog/20140214-mate-translation-contributions-requested.sr_latin.md
 
-[mate-desktop-website.blog-20140304-mate-1-8-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140304-mate-1-8-released.md
-file_filter = blog/20140304-mate-1-8-released.<lang>.md
-trans.zh_CN = blog/20140304-mate-1-8-released.zh_cn.md
-trans.zh_TW = blog/20140304-mate-1-8-released.zh_tw.md
-trans.pt_BR = blog/20140304-mate-1-8-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140304-mate-1-8-released-md--master]
+file_filter    = blog/20140304-mate-1-8-released.<lang>.md
+source_file    = blog/20140304-mate-1-8-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20140304-mate-1-8-released.zh_cn.md
+trans.zh_TW    = blog/20140304-mate-1-8-released.zh_tw.md
+trans.pt_BR    = blog/20140304-mate-1-8-released.pt_br.md
 trans.sr_LATIN = blog/20140304-mate-1-8-released.sr_latin.md
 
-[mate-desktop-website.blog-20140310-mate-desktop-gsoc-2014-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140310-mate-desktop-gsoc-2014.md
-file_filter = blog/20140310-mate-desktop-gsoc-2014.<lang>.md
-trans.zh_CN = blog/20140310-mate-desktop-gsoc-2014.zh_cn.md
-trans.zh_TW = blog/20140310-mate-desktop-gsoc-2014.zh_tw.md
-trans.pt_BR = blog/20140310-mate-desktop-gsoc-2014.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140310-mate-desktop-gsoc-2014-md--master]
+file_filter    = blog/20140310-mate-desktop-gsoc-2014.<lang>.md
+source_file    = blog/20140310-mate-desktop-gsoc-2014.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20140310-mate-desktop-gsoc-2014.zh_tw.md
+trans.pt_BR    = blog/20140310-mate-desktop-gsoc-2014.pt_br.md
 trans.sr_LATIN = blog/20140310-mate-desktop-gsoc-2014.sr_latin.md
+trans.zh_CN    = blog/20140310-mate-desktop-gsoc-2014.zh_cn.md
 
-[mate-desktop-website.blog-20140311-mate-desktop-singing-the-bluez-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140311-mate-desktop-singing-the-bluez.md
-file_filter = blog/20140311-mate-desktop-singing-the-bluez.<lang>.md
-trans.zh_CN = blog/20140311-mate-desktop-singing-the-bluez.zh_cn.md
-trans.zh_TW = blog/20140311-mate-desktop-singing-the-bluez.zh_tw.md
-trans.pt_BR = blog/20140311-mate-desktop-singing-the-bluez.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140311-mate-desktop-singing-the-bluez-md--master]
+file_filter    = blog/20140311-mate-desktop-singing-the-bluez.<lang>.md
+source_file    = blog/20140311-mate-desktop-singing-the-bluez.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20140311-mate-desktop-singing-the-bluez.pt_br.md
 trans.sr_LATIN = blog/20140311-mate-desktop-singing-the-bluez.sr_latin.md
+trans.zh_CN    = blog/20140311-mate-desktop-singing-the-bluez.zh_cn.md
+trans.zh_TW    = blog/20140311-mate-desktop-singing-the-bluez.zh_tw.md
 
-[mate-desktop-website.blog-20140317-galculator-coming-to-mate-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140317-galculator-coming-to-mate.md
-file_filter = blog/20140317-galculator-coming-to-mate.<lang>.md
-trans.zh_CN = blog/20140317-galculator-coming-to-mate.zh_cn.md
-trans.zh_TW = blog/20140317-galculator-coming-to-mate.zh_tw.md
-trans.pt_BR = blog/20140317-galculator-coming-to-mate.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140317-galculator-coming-to-mate-md--master]
+file_filter    = blog/20140317-galculator-coming-to-mate.<lang>.md
+source_file    = blog/20140317-galculator-coming-to-mate.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20140317-galculator-coming-to-mate.zh_tw.md
+trans.pt_BR    = blog/20140317-galculator-coming-to-mate.pt_br.md
 trans.sr_LATIN = blog/20140317-galculator-coming-to-mate.sr_latin.md
+trans.zh_CN    = blog/20140317-galculator-coming-to-mate.zh_cn.md
 
-[mate-desktop-website.blog-20140428-mate-desktop-gsoc-2014-projects-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140428-mate-desktop-gsoc-2014-projects.md
-file_filter = blog/20140428-mate-desktop-gsoc-2014-projects.<lang>.md
-trans.zh_CN = blog/20140428-mate-desktop-gsoc-2014-projects.zh_cn.md
-trans.zh_TW = blog/20140428-mate-desktop-gsoc-2014-projects.zh_tw.md
-trans.pt_BR = blog/20140428-mate-desktop-gsoc-2014-projects.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140428-mate-desktop-gsoc-2014-projects-md--master]
+file_filter    = blog/20140428-mate-desktop-gsoc-2014-projects.<lang>.md
+source_file    = blog/20140428-mate-desktop-gsoc-2014-projects.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20140428-mate-desktop-gsoc-2014-projects.pt_br.md
 trans.sr_LATIN = blog/20140428-mate-desktop-gsoc-2014-projects.sr_latin.md
+trans.zh_CN    = blog/20140428-mate-desktop-gsoc-2014-projects.zh_cn.md
+trans.zh_TW    = blog/20140428-mate-desktop-gsoc-2014-projects.zh_tw.md
 
-[mate-desktop-website.blog-20140510-mate-in-opensuse-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140510-mate-in-opensuse.md
-file_filter = blog/20140510-mate-in-opensuse.<lang>.md
-trans.zh_CN = blog/20140510-mate-in-opensuse.zh_cn.md
-trans.zh_TW = blog/20140510-mate-in-opensuse.zh_tw.md
-trans.pt_BR = blog/20140510-mate-in-opensuse.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140510-mate-in-opensuse-md--master]
+file_filter    = blog/20140510-mate-in-opensuse.<lang>.md
+source_file    = blog/20140510-mate-in-opensuse.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20140510-mate-in-opensuse.pt_br.md
 trans.sr_LATIN = blog/20140510-mate-in-opensuse.sr_latin.md
+trans.zh_CN    = blog/20140510-mate-in-opensuse.zh_cn.md
+trans.zh_TW    = blog/20140510-mate-in-opensuse.zh_tw.md
 
-[mate-desktop-website.blog-20140925-debian-and-ubuntu-repositories-removed-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140925-debian-and-ubuntu-repositories-removed.md
-file_filter = blog/20140925-debian-and-ubuntu-repositories-removed.<lang>.md
-trans.zh_CN = blog/20140925-debian-and-ubuntu-repositories-removed.zh_cn.md
-trans.zh_TW = blog/20140925-debian-and-ubuntu-repositories-removed.zh_tw.md
-trans.pt_BR = blog/20140925-debian-and-ubuntu-repositories-removed.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140925-debian-and-ubuntu-repositories-removed-md--master]
+file_filter    = blog/20140925-debian-and-ubuntu-repositories-removed.<lang>.md
+source_file    = blog/20140925-debian-and-ubuntu-repositories-removed.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20140925-debian-and-ubuntu-repositories-removed.zh_tw.md
+trans.pt_BR    = blog/20140925-debian-and-ubuntu-repositories-removed.pt_br.md
 trans.sr_LATIN = blog/20140925-debian-and-ubuntu-repositories-removed.sr_latin.md
+trans.zh_CN    = blog/20140925-debian-and-ubuntu-repositories-removed.zh_cn.md
 
-[mate-desktop-website.blog-20140929-mate-1-8-updated-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20140929-mate-1.8-updated.md
-file_filter = blog/20140929-mate-1.8-updated.<lang>.md
-trans.zh_CN = blog/20140929-mate-1.8-updated.zh_cn.md
-trans.zh_TW = blog/20140929-mate-1.8-updated.zh_tw.md
-trans.pt_BR = blog/20140929-mate-1.8-updated.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20140929-mate-1-8-updated-md--master]
+file_filter    = blog/20140929-mate-1.8-updated.<lang>.md
+source_file    = blog/20140929-mate-1.8-updated.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = blog/20140929-mate-1.8-updated.sr_latin.md
+trans.zh_CN    = blog/20140929-mate-1.8-updated.zh_cn.md
+trans.zh_TW    = blog/20140929-mate-1.8-updated.zh_tw.md
+trans.pt_BR    = blog/20140929-mate-1.8-updated.pt_br.md
 
-[mate-desktop-website.blog-20141013-mate-interview-with-linux-luddites-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20141013-mate-interview-with-linux-luddites.md
-file_filter = blog/20141013-mate-interview-with-linux-luddites.<lang>.md
-trans.zh_CN = blog/20141013-mate-interview-with-linux-luddites.zh_cn.md
-trans.zh_TW = blog/20141013-mate-interview-with-linux-luddites.zh_tw.md
-trans.pt_BR = blog/20141013-mate-interview-with-linux-luddites.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20141013-mate-interview-with-linux-luddites-md--master]
+file_filter    = blog/20141013-mate-interview-with-linux-luddites.<lang>.md
+source_file    = blog/20141013-mate-interview-with-linux-luddites.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20141013-mate-interview-with-linux-luddites.pt_br.md
 trans.sr_LATIN = blog/20141013-mate-interview-with-linux-luddites.sr_latin.md
+trans.zh_CN    = blog/20141013-mate-interview-with-linux-luddites.zh_cn.md
+trans.zh_TW    = blog/20141013-mate-interview-with-linux-luddites.zh_tw.md
 
-[mate-desktop-website.blog-20150128-meet-mates-mastermind-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20150128-meet-mates-mastermind.md
-file_filter = blog/20150128-meet-mates-mastermind.<lang>.md
-trans.zh_CN = blog/20150128-meet-mates-mastermind.zh_cn.md
-trans.zh_TW = blog/20150128-meet-mates-mastermind.zh_tw.md
-trans.pt_BR = blog/20150128-meet-mates-mastermind.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20150128-meet-mates-mastermind-md--master]
+file_filter    = blog/20150128-meet-mates-mastermind.<lang>.md
+source_file    = blog/20150128-meet-mates-mastermind.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20150128-meet-mates-mastermind.zh_cn.md
+trans.zh_TW    = blog/20150128-meet-mates-mastermind.zh_tw.md
+trans.pt_BR    = blog/20150128-meet-mates-mastermind.pt_br.md
 trans.sr_LATIN = blog/20150128-meet-mates-mastermind.sr_latin.md
 
-[mate-desktop-website.blog-20150610-fedora-21-22-with-mate-1-10-gtk3-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.md
-file_filter = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.<lang>.md
-trans.zh_CN = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.zh_cn.md
-trans.zh_TW = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.zh_tw.md
-trans.pt_BR = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20150610-fedora-21-22-with-mate-1-10-gtk3-md--master]
+file_filter    = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.<lang>.md
+source_file    = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.zh_cn.md
+trans.zh_TW    = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.zh_tw.md
+trans.pt_BR    = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.pt_br.md
 trans.sr_LATIN = blog/20150610-fedora-21-22-with-mate-1.10-gtk3.sr_latin.md
 
-[mate-desktop-website.blog-20150610-mate-1-10-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20150610-mate-1-10-released.md
-file_filter = blog/20150610-mate-1-10-released.<lang>.md
-trans.zh_CN = blog/20150610-mate-1-10-released.zh_cn.md
-trans.zh_TW = blog/20150610-mate-1-10-released.zh_tw.md
-trans.pt_BR = blog/20150610-mate-1-10-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20150610-mate-1-10-released-md--master]
+file_filter    = blog/20150610-mate-1-10-released.<lang>.md
+source_file    = blog/20150610-mate-1-10-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20150610-mate-1-10-released.zh_cn.md
+trans.zh_TW    = blog/20150610-mate-1-10-released.zh_tw.md
+trans.pt_BR    = blog/20150610-mate-1-10-released.pt_br.md
 trans.sr_LATIN = blog/20150610-mate-1-10-released.sr_latin.md
 
-[mate-desktop-website.blog-20151106-mate-1-12-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20151106-mate-1-12-released.md
-file_filter = blog/20151106-mate-1-12-released.<lang>.md
-trans.zh_CN = blog/20151106-mate-1-12-released.zh_cn.md
-trans.zh_TW = blog/20151106-mate-1-12-released.zh_tw.md
-trans.pt_BR = blog/20151106-mate-1-12-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20151106-mate-1-12-released-md--master]
+file_filter    = blog/20151106-mate-1-12-released.<lang>.md
+source_file    = blog/20151106-mate-1-12-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20151106-mate-1-12-released.zh_cn.md
+trans.zh_TW    = blog/20151106-mate-1-12-released.zh_tw.md
+trans.pt_BR    = blog/20151106-mate-1-12-released.pt_br.md
 trans.sr_LATIN = blog/20151106-mate-1-12-released.sr_latin.md
 
-[mate-desktop-website.blog-20160408-mate-1-14-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20160408-mate-1-14-released.md
-file_filter = blog/20160408-mate-1-14-released.<lang>.md
-trans.zh_CN = blog/20160408-mate-1-14-released.zh_cn.md
-trans.zh_TW = blog/20160408-mate-1-14-released.zh_tw.md
-trans.pt_BR = blog/20160408-mate-1-14-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20160408-mate-1-14-released-md--master]
+file_filter    = blog/20160408-mate-1-14-released.<lang>.md
+source_file    = blog/20160408-mate-1-14-released.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = blog/20160408-mate-1-14-released.sr_latin.md
+trans.zh_CN    = blog/20160408-mate-1-14-released.zh_cn.md
+trans.zh_TW    = blog/20160408-mate-1-14-released.zh_tw.md
+trans.pt_BR    = blog/20160408-mate-1-14-released.pt_br.md
 
-[mate-desktop-website.blog-20160711-mate-forums-are-closing-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20160711-mate-forums-are-closing.md
-file_filter = blog/20160711-mate-forums-are-closing.<lang>.md
-trans.zh_CN = blog/20160711-mate-forums-are-closing.zh_cn.md
-trans.zh_TW = blog/20160711-mate-forums-are-closing.zh_tw.md
-trans.pt_BR = blog/20160711-mate-forums-are-closing.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20160711-mate-forums-are-closing-md--master]
+file_filter    = blog/20160711-mate-forums-are-closing.<lang>.md
+source_file    = blog/20160711-mate-forums-are-closing.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20160711-mate-forums-are-closing.zh_cn.md
+trans.zh_TW    = blog/20160711-mate-forums-are-closing.zh_tw.md
+trans.pt_BR    = blog/20160711-mate-forums-are-closing.pt_br.md
 trans.sr_LATIN = blog/20160711-mate-forums-are-closing.sr_latin.md
 
-[mate-desktop-website.blog-20160922-mate-1-16-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20160922-mate-1-16-released.md
-file_filter = blog/20160922-mate-1-16-released.<lang>.md
-trans.zh_CN = blog/20160922-mate-1-16-released.zh_cn.md
-trans.zh_TW = blog/20160922-mate-1-16-released.zh_tw.md
-trans.pt_BR = blog/20160922-mate-1-16-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20160922-mate-1-16-released-md--master]
+file_filter    = blog/20160922-mate-1-16-released.<lang>.md
+source_file    = blog/20160922-mate-1-16-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = blog/20160922-mate-1-16-released.pt_br.md
 trans.sr_LATIN = blog/20160922-mate-1-16-released.sr_latin.md
+trans.zh_CN    = blog/20160922-mate-1-16-released.zh_cn.md
+trans.zh_TW    = blog/20160922-mate-1-16-released.zh_tw.md
 
-[mate-desktop-website.blog-20161222-server-outage-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20161222-server-outage.md
-file_filter = blog/20161222-server-outage.<lang>.md
-trans.zh_CN = blog/20161222-server-outage.zh_cn.md
-trans.zh_TW = blog/20161222-server-outage.zh_tw.md
-trans.pt_BR = blog/20161222-server-outage.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20161222-server-outage-md--master]
+file_filter    = blog/20161222-server-outage.<lang>.md
+source_file    = blog/20161222-server-outage.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20161222-server-outage.zh_cn.md
+trans.zh_TW    = blog/20161222-server-outage.zh_tw.md
+trans.pt_BR    = blog/20161222-server-outage.pt_br.md
 trans.sr_LATIN = blog/20161222-server-outage.sr_latin.md
 
-[mate-desktop-website.blog-20170313-mate-1-18-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20170313-mate-1-18-released.md
-file_filter = blog/20170313-mate-1-18-released.<lang>.md
-trans.zh_CN = blog/20170313-mate-1-18-released.zh_cn.md
-trans.zh_TW = blog/20170313-mate-1-18-released.zh_tw.md
-trans.pt_BR = blog/20170313-mate-1-18-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20170313-mate-1-18-released-md--master]
+file_filter    = blog/20170313-mate-1-18-released.<lang>.md
+source_file    = blog/20170313-mate-1-18-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_TW    = blog/20170313-mate-1-18-released.zh_tw.md
+trans.pt_BR    = blog/20170313-mate-1-18-released.pt_br.md
 trans.sr_LATIN = blog/20170313-mate-1-18-released.sr_latin.md
+trans.zh_CN    = blog/20170313-mate-1-18-released.zh_cn.md
 
-[mate-desktop-website.blog-20180206-mate-1-20-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20180206-mate-1-20-released.md
-file_filter = blog/20180206-mate-1-20-released.<lang>.md
-trans.zh_CN = blog/20180206-mate-1-20-released.zh_cn.md
-trans.zh_TW = blog/20180206-mate-1-20-released.zh_tw.md
-trans.pt_BR = blog/20180206-mate-1-20-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20180206-mate-1-20-released-md--master]
+file_filter    = blog/20180206-mate-1-20-released.<lang>.md
+source_file    = blog/20180206-mate-1-20-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20180206-mate-1-20-released.zh_cn.md
+trans.zh_TW    = blog/20180206-mate-1-20-released.zh_tw.md
+trans.pt_BR    = blog/20180206-mate-1-20-released.pt_br.md
 trans.sr_LATIN = blog/20180206-mate-1-20-released.sr_latin.md
 
-[mate-desktop-website.blog-20190318-mate-1-22-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20190318-mate-1-22-released.md
-file_filter = blog/20190318-mate-1-22-released.<lang>.md
-trans.zh_CN = blog/20190318-mate-1-22-released.zh_cn.md
-trans.zh_TW = blog/20190318-mate-1-22-released.zh_tw.md
-trans.pt_BR = blog/20190318-mate-1-22-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20190318-mate-1-22-released-md--master]
+file_filter    = blog/20190318-mate-1-22-released.<lang>.md
+source_file    = blog/20190318-mate-1-22-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20190318-mate-1-22-released.zh_cn.md
+trans.zh_TW    = blog/20190318-mate-1-22-released.zh_tw.md
+trans.pt_BR    = blog/20190318-mate-1-22-released.pt_br.md
 trans.sr_LATIN = blog/20190318-mate-1-22-released.sr_latin.md
 
-[mate-desktop-website.blog-20200210-mate-1-24-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20200210-mate-1-24-released.md
-file_filter = blog/20200210-mate-1-24-released.<lang>.md
-trans.zh_CN = blog/20200210-mate-1-24-released.zh_cn.md
-trans.zh_TW = blog/20200210-mate-1-24-released.zh_tw.md
-trans.pt_BR = blog/20200210-mate-1-24-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20200210-mate-1-24-released-md--master]
+file_filter    = blog/20200210-mate-1-24-released.<lang>.md
+source_file    = blog/20200210-mate-1-24-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20200210-mate-1-24-released.zh_cn.md
+trans.zh_TW    = blog/20200210-mate-1-24-released.zh_tw.md
+trans.pt_BR    = blog/20200210-mate-1-24-released.pt_br.md
 trans.sr_LATIN = blog/20200210-mate-1-24-released.sr_latin.md
 
-[mate-desktop-website.blog-20210808-mate-1-26-released-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = blog/20210808-mate-1-26-released.md
-file_filter = blog/20210808-mate-1-26-released.<lang>.md
-trans.zh_CN = blog/20210808-mate-1-26-released.zh_cn.md
-trans.zh_TW = blog/20210808-mate-1-26-released.zh_tw.md
-trans.pt_BR = blog/20210808-mate-1-26-released.pt_br.md
+[o:mate:p:mate-desktop-website:r:blog-20210808-mate-1-26-released-md--master]
+file_filter    = blog/20210808-mate-1-26-released.<lang>.md
+source_file    = blog/20210808-mate-1-26-released.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = blog/20210808-mate-1-26-released.zh_cn.md
+trans.zh_TW    = blog/20210808-mate-1-26-released.zh_tw.md
+trans.pt_BR    = blog/20210808-mate-1-26-released.pt_br.md
 trans.sr_LATIN = blog/20210808-mate-1-26-released.sr_latin.md
 
-[mate-desktop-website.pages-backgrounds-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/backgrounds.md
-file_filter = pages/backgrounds.<lang>.md
-trans.zh_CN = pages/backgrounds.zh_cn.md
-trans.zh_TW = pages/backgrounds.zh_tw.md
-trans.pt_BR = pages/backgrounds.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-backgrounds-md--master]
+file_filter    = pages/backgrounds.<lang>.md
+source_file    = pages/backgrounds.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = pages/backgrounds.zh_cn.md
+trans.zh_TW    = pages/backgrounds.zh_tw.md
+trans.pt_BR    = pages/backgrounds.pt_br.md
 trans.sr_LATIN = pages/backgrounds.sr_latin.md
 
-[mate-desktop-website.pages-community-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/community.md
-file_filter = pages/community.<lang>.md
-trans.zh_CN = pages/community.zh_cn.md
-trans.zh_TW = pages/community.zh_tw.md
-trans.pt_BR = pages/community.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-community-md--master]
+file_filter    = pages/community.<lang>.md
+source_file    = pages/community.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = pages/community.sr_latin.md
+trans.zh_CN    = pages/community.zh_cn.md
+trans.zh_TW    = pages/community.zh_tw.md
+trans.pt_BR    = pages/community.pt_br.md
 
-[mate-desktop-website.pages-development-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/development.md
-file_filter = pages/development.<lang>.md
-trans.zh_CN = pages/development.zh_cn.md
-trans.zh_TW = pages/development.zh_tw.md
-trans.pt_BR = pages/development.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-development-md--master]
+file_filter    = pages/development.<lang>.md
+source_file    = pages/development.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = pages/development.sr_latin.md
+trans.zh_CN    = pages/development.zh_cn.md
+trans.zh_TW    = pages/development.zh_tw.md
+trans.pt_BR    = pages/development.pt_br.md
 
-[mate-desktop-website.pages-donate-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/donate.md
-file_filter = pages/donate.<lang>.md
-trans.zh_CN = pages/donate.zh_cn.md
-trans.zh_TW = pages/donate.zh_tw.md
-trans.pt_BR = pages/donate.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-donate-md--master]
+file_filter    = pages/donate.<lang>.md
+source_file    = pages/donate.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = pages/donate.zh_cn.md
+trans.zh_TW    = pages/donate.zh_tw.md
+trans.pt_BR    = pages/donate.pt_br.md
 trans.sr_LATIN = pages/donate.sr_latin.md
 
-[mate-desktop-website.pages-donation-cancelled-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/donation-cancelled.md
-file_filter = pages/donation-cancelled.<lang>.md
-trans.zh_CN = pages/donation-cancelled.zh_cn.md
-trans.zh_TW = pages/donation-cancelled.zh_tw.md
-trans.pt_BR = pages/donation-cancelled.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-donation-cancelled-md--master]
+file_filter    = pages/donation-cancelled.<lang>.md
+source_file    = pages/donation-cancelled.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = pages/donation-cancelled.zh_cn.md
+trans.zh_TW    = pages/donation-cancelled.zh_tw.md
+trans.pt_BR    = pages/donation-cancelled.pt_br.md
 trans.sr_LATIN = pages/donation-cancelled.sr_latin.md
 
-[mate-desktop-website.pages-donation-completed-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/donation-completed.md
-file_filter = pages/donation-completed.<lang>.md
-trans.zh_CN = pages/donation-completed.zh_cn.md
-trans.zh_TW = pages/donation-completed.zh_tw.md
-trans.pt_BR = pages/donation-completed.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-donation-completed-md--master]
+file_filter    = pages/donation-completed.<lang>.md
+source_file    = pages/donation-completed.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = pages/donation-completed.pt_br.md
 trans.sr_LATIN = pages/donation-completed.sr_latin.md
+trans.zh_CN    = pages/donation-completed.zh_cn.md
+trans.zh_TW    = pages/donation-completed.zh_tw.md
 
-[mate-desktop-website.pages-index-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/index.md
-file_filter = pages/index.<lang>.md
-trans.zh_CN = pages/index.zh_cn.md
-trans.zh_TW = pages/index.zh_tw.md
-trans.pt_BR = pages/index.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-index-md--master]
+file_filter    = pages/index.<lang>.md
+source_file    = pages/index.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = pages/index.sr_latin.md
+trans.zh_CN    = pages/index.zh_cn.md
+trans.zh_TW    = pages/index.zh_tw.md
+trans.pt_BR    = pages/index.pt_br.md
 
-[mate-desktop-website.pages-install-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/install.md
-file_filter = pages/install.<lang>.md
-trans.zh_CN = pages/install.zh_cn.md
-trans.zh_TW = pages/install.zh_tw.md
-trans.pt_BR = pages/install.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-install-md--master]
+file_filter    = pages/install.<lang>.md
+source_file    = pages/install.md
+source_lang    = en
+minimum_perc   = 100
+trans.pt_BR    = pages/install.pt_br.md
 trans.sr_LATIN = pages/install.sr_latin.md
+trans.zh_CN    = pages/install.zh_cn.md
+trans.zh_TW    = pages/install.zh_tw.md
 
-[mate-desktop-website.pages-team-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/team.md
-file_filter = pages/team.<lang>.md
-trans.zh_CN = pages/team.md
-trans.zh_TW = pages/team.zh_tw.md
-trans.pt_BR = pages/team.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-team-md--master]
+file_filter    = pages/team.<lang>.md
+source_file    = pages/team.md
+source_lang    = en
+minimum_perc   = 100
 trans.sr_LATIN = pages/team.sr_latin.md
+trans.zh_CN    = pages/team.md
+trans.zh_TW    = pages/team.zh_tw.md
+trans.pt_BR    = pages/team.pt_br.md
 
-[mate-desktop-website.pages-themes-md--master]
-file_format = GITHUBMARKDOWN
-source_lang = en
-minimum_perc = 100
-source_file = pages/themes.md
-file_filter = pages/themes.<lang>.md
-trans.zh_CN = pages/themes.zh_cn.md
-trans.zh_TW = pages/themes.zh_tw.md
-trans.pt_BR = pages/themes.pt_br.md
+[o:mate:p:mate-desktop-website:r:pages-themes-md--master]
+file_filter    = pages/themes.<lang>.md
+source_file    = pages/themes.md
+source_lang    = en
+minimum_perc   = 100
+trans.zh_CN    = pages/themes.zh_cn.md
+trans.zh_TW    = pages/themes.zh_tw.md
+trans.pt_BR    = pages/themes.pt_br.md
 trans.sr_LATIN = pages/themes.sr_latin.md
 
