@@ -16,7 +16,7 @@ davantage sur MATE.
 Vous trouverez beaucoup d'informations utiles sur notre wiki, mais nous vous
 encourageons également à l'améliorer.
 
-  * <https://wiki.mate-desktop.org/#!index.md>
+  * <https://wiki.mate-desktop.org/>
 
 ## Forums
 
@@ -34,7 +34,7 @@ Vous n'utilisez pas le courrier électronique, nous le comprenons aussi.
 
 Vous êtes du genre social, n'est-ce pas ?
 
-  * [Profil Twitter de MATE](https://twitter.com/mate_desktop) 
+  * [MATE Twitter Profile](https://twitter.com/mate_desktop)
 
 ## IRC
 
@@ -43,8 +43,8 @@ rejoindre sur IRC.
 
   * [#mate @ irc.libera.chat](https://web.libera.chat/?#mate)
 
-Plusieurs canaux IRC sont disponibles. Vous pouvez trouver tous les détails
-sur [notre page IRC sur le wiki](https://wiki.mate-desktop.org/#!pages/irc.md).
+Il y a plusieurs canaux disponibles. Vous trouverez les détails sur
+notre [page wiki IRC](https://wiki.mate-desktop.org/introduction/contributing/).
 
 ## Planète
 

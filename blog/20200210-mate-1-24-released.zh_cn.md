@@ -258,7 +258,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 
 在 <https://github.com/mate-desktop/mate-calc/commits/master/> 完成更新日志
 
-### 共同的伴侣
+### mate-common
 * 更新 MATE_CXX_WARNINGS 宏
 * 在 MATE_DEBUG_CHECK 中设置编译器调试标志
 * 检查 AX_APPEND_FLAG 和 AX_CHECK_COMPILE_FLAG 是否可用

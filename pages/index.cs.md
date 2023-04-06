@@ -17,7 +17,7 @@ při zachování tradičního desktopového zážitku. Více viz
 
 ![image](/screens/screenshot.jpg){.align-center}
 
-Můžete najít a prohlédnout si další [snímky obrazovek s MATE](gallery/).
+Můžete si projít a prohlédnout další [snímky obrazovek s MATE](gallery/).
 
 Novinky
 =======
