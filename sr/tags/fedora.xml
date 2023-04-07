@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Fedora)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/fedora.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Fedora)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/fedora.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title><link>https://preview.mate-desktop.dev/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3 
 изградња доступна за тестирање на Федири 21 и 22. Ова Гтк3 изградња ради посао 
 али има неке мање проблеме исцртавања, ваше повртане информације су нам потребне.&lt;/p&gt;
 &lt;h3&gt;Инсталација&lt;/h3&gt;
 &lt;p&gt;Инсталирајте датотеку ризнице и извршите &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
 &lt;h4&gt;Федора 22&lt;/h4&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
-$ sudo yum update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;cp&lt;span class="w"&gt; &lt;/span&gt;raveit65-Mate-GTK3-fedora-22.repo&lt;span class="w"&gt; &lt;/span&gt;/etc/yum.repos.d/
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;yum&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;Федора 21&lt;/h4&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
-$ sudo yum update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;cp&lt;span class="w"&gt; &lt;/span&gt;raveit65-Mate-GTK3-fedora-21.repo&lt;span class="w"&gt; &lt;/span&gt;/etc/yum.repos.d/
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;yum&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Или користите наредбу &lt;code&gt;dnf&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ sudo dnf copr &lt;span class="nb"&gt;enable&lt;/span&gt; raveit65/Mate-GTK3
-$ sudo dnf update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;copr&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;enable&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;raveit65/Mate-GTK3
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Пријављивање проблема&lt;/h3&gt;
@@ -77,7 +77,7 @@ every MATE contributor and user.&lt;/p&gt;
   Unfortunately, due to migration to GSettings, you will lose your current panel layout.
   All other settings will be migrated if you have MateConf 1.4 installed.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt; Marco (window manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;** Marco (window manager)**&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Added option to open new windows on the center of the screen&lt;/li&gt;
 &lt;/ul&gt;

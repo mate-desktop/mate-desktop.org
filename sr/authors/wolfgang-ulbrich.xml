@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Wolfgang Ulbrich)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/wolfgang-ulbrich.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Wolfgang Ulbrich)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/wolfgang-ulbrich.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 released</title><link>https://preview.mate-desktop.dev/sr/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.24. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 released</title><link>https://preview.mate-desktop.dev/sr/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;After about a year of development, the MATE Desktop team have finally released MATE 1.24. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE About dialog" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.24.png" width="50%"&gt;&lt;/p&gt;
 &lt;h3&gt;What's new in MATE 1.24&lt;/h3&gt;
 &lt;p&gt;This release contains plenty of new features, bug-fixes, and general improvements. Some of the most important highlights include:&lt;/p&gt;
@@ -577,20 +577,20 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;h3&gt;Инсталација&lt;/h3&gt;
 &lt;p&gt;Инсталирајте датотеку ризнице и извршите &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
 &lt;h4&gt;Федора 22&lt;/h4&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
-$ sudo yum update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;cp&lt;span class="w"&gt; &lt;/span&gt;raveit65-Mate-GTK3-fedora-22.repo&lt;span class="w"&gt; &lt;/span&gt;/etc/yum.repos.d/
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;yum&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;Федора 21&lt;/h4&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
-$ sudo yum update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;cp&lt;span class="w"&gt; &lt;/span&gt;raveit65-Mate-GTK3-fedora-21.repo&lt;span class="w"&gt; &lt;/span&gt;/etc/yum.repos.d/
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;yum&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Или користите наредбу &lt;code&gt;dnf&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$ sudo dnf copr &lt;span class="nb"&gt;enable&lt;/span&gt; raveit65/Mate-GTK3
-$ sudo dnf update
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;copr&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;enable&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;raveit65/Mate-GTK3
+$&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;dnf&lt;span class="w"&gt; &lt;/span&gt;update
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Пријављивање проблема&lt;/h3&gt;

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Outages)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/outages.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Постови о Outages)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/tags/outages.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Пад сервера</title><link>https://preview.mate-desktop.dev/sr/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Сервер који покреће овај веб сајт јуче је био ван мреже без упозорења. Не знамо 
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:23 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Пад сервера</title><link>https://preview.mate-desktop.dev/sr/blog/2016-12-22-server-outage/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;Сервер који покреће овај веб сајт јуче је био ван мреже без упозорења. Не знамо 
 зашто и нисмо имали обавештење са домаћина нашег сервера. &lt;strong&gt;Имамо потпуне 
 резервне примерке, и ниједан податак није изгубљен.&lt;/strong&gt; Почели смо са враћањем 
 услуга а обустављена услуга биће враћена када време буде дозвољавало за време 

@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reporting Bugs | MATE</title>
+<title>Fehler Melden | MATE</title>
 <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
@@ -25,6 +25,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../../pt/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../../pt_br/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../../ru/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../../zh_cn/rss.xml">
@@ -35,15 +36,13 @@
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../../assets/css/mate.css">
 <link rel="stylesheet" type="text/css" href="../../../assets/css/tipuesearch.css">
 <meta name="author" content="Steve Zesch">
-<link rel="prev" href="../2011-12-24-new-wiki-and-new-distributions-supported/" title="New wiki and other info" type="text/html">
+<link rel="prev" href="../2011-12-24-new-wiki-and-new-distributions-supported/" title="Neues Wiki und weitere Informationen" type="text/html">
 <link rel="next" href="../2012-04-16-mate-1-2-released/" title="MATE 1.2 released" type="text/html">
 <meta property="og:site_name" content="MATE">
-<meta property="og:title" content="Reporting Bugs">
+<meta property="og:title" content="Fehler Melden">
 <meta property="og:url" content="https://preview.mate-desktop.dev/de/blog/2012-01-18-reporting-bugs/">
-<meta property="og:description" content="We are currently in the process of switching to handling all our issues via
-the mate-desktop project on GitHub instead
-of Perberos' page. The reason is simple: when Perberos is away none of the
-other ">
+<meta property="og:description" content="Momentan versuchen wir, alle Vorgänge zur Problembehandlung zum MATE-Desktop-Projekt auf GitHub zu verschieben,
+weg von Perberos' Seite. Der Grund ist einfach: Sollte Perberos das Projekt verlassen, k">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2012-01-18T21:22:52Z">
 <link rel="alternate" hreflang="bg" href="../../../bg/blog/2012-01-18-reporting-bugs/">
@@ -62,6 +61,7 @@ other ">
 <link rel="alternate" hreflang="pl" href="../../../pl/blog/2012-01-18-reporting-bugs/">
 <link rel="alternate" hreflang="pt" href="../../../pt/blog/2012-01-18-reporting-bugs/">
 <link rel="alternate" hreflang="pt_br" href="../../../pt_br/blog/2012-01-18-reporting-bugs/">
+<link rel="alternate" hreflang="ru" href="../../../ru/blog/2012-01-18-reporting-bugs/">
 <link rel="alternate" hreflang="sr" href="../../../sr/blog/2012-01-18-reporting-bugs/">
 <link rel="alternate" hreflang="tr" href="../../../tr/blog/2012-01-18-reporting-bugs/">
 <link rel="alternate" hreflang="zh_cn" href="../../../zh_cn/blog/2012-01-18-reporting-bugs/">
@@ -137,7 +137,7 @@ other ">
     	<div class="span8">
 		
     	
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Reporting&nbsp;Bugs</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Fehler&nbsp;Melden</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -162,20 +162,18 @@ other ">
         </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p>We are currently in the process of switching to handling all our issues via
-the <a href="https://github.com/mate-desktop">mate-desktop project on GitHub</a> instead
-of Perberos&#8217; page. The reason is simple: when Perberos is away none of the
-other developers can close tickets. This creates a bit of a&nbsp;mess.</p>
-<p>Now, when you go to report a bug you must chose the correct GitHub repository
-to report the issue in. It&#8217;s pretty simple. If there&#8217;s a bug&nbsp;with <code>mate-panel</code>,
-then submit the issue on&nbsp;the <code>mate-panel</code> issue&nbsp;tracker.</p>
-<p>We&#8217;ll are no longer monitoring Perberos&#8217; issue tracker, so we ask that you
-refrain from opening new bugs&nbsp;there.</p>
-<p>Thanks for your&nbsp;cooperation.</p>
+    <p>Momentan versuchen wir, alle Vorgänge zur Problembehandlung zum <a href="https://github.com/mate-desktop"><span class="caps">MATE</span>-Desktop-Projekt auf GitHub</a> zu verschieben,
+weg von Perberos&#8217; Seite. Der Grund ist einfach: Sollte Perberos das Projekt verlassen, könnte keine
+anderen Entwickler Problemtickets schließen. So entsteht ein ziemliches&nbsp;Durcheinander.</p>
+<p>Wenn nun ein Fehler gemeldet werden soll, muss nun das korrekte GitHub-Repositorium ausgewählt werden,
+in dem das Problem gemeldet werden soll. Das ist sehr einfach. Gibt es einen Fehler&nbsp;im <code>mate-panel</code>, sollten Problemberichte&nbsp;zum <code>mate-panel</code>-Fehler-Tracker hinzugefügt&nbsp;werden.</p>
+<p>Wir werden Perberos&#8217; Fehler-Tracker nicht länger verfolgen, daher bitten wir darum,
+dort keine neuen Fehler zu&nbsp;melden.</p>
+<p>Danke für eure&nbsp;Mitarbeit.</p>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
-                <a href="../2011-12-24-new-wiki-and-new-distributions-supported/" rel="prev" title="New wiki and other info">Vorheriger&nbsp;Eintrag</a>
+                <a href="../2011-12-24-new-wiki-and-new-distributions-supported/" rel="prev" title="Neues Wiki und weitere Informationen">Vorheriger&nbsp;Eintrag</a>
             </li>
             <li class="next">
                 <a href="../2012-04-16-mate-1-2-released/" rel="next" title="MATE 1.2 released">Nächster&nbsp;Eintrag</a>
@@ -188,7 +186,7 @@ refrain from opening new bugs&nbsp;there.</p>
 
 <hr>
 <div class="footerbox" align="center">
-    Contents © 2022 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+    Contents © 2023 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
 <img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
     
 
@@ -217,7 +215,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
+    texts : ["Preview Website", "MATE Desktop", "ae9022520c68"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

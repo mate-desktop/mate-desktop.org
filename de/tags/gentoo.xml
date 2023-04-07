@@ -1,26 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über Gentoo)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/gentoo.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Einträge über Gentoo)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/de/tags/gentoo.xml" rel="self" type="application/rss+xml"/><language>de</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New wiki and other info</title><link>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;We've recently switched from a wiki at &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; to a our own
-available from &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt;. Please
-reference this wiki from now on. Naturally, anyone is welcome to contribute.&lt;/p&gt;
-&lt;p&gt;For those of you who aren't already aware, you can
-&lt;a href="https://github.com/mate-desktop/"&gt;report issues on github&lt;/a&gt;. At the moment, this
-is all we have in terms of bug reporting, but we do have a bugtracker in the works.
-We'll announce it here when it's ready.&lt;/p&gt;
-&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
-&lt;p&gt;For those of you using &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;,
-and &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of 
-our packages using the tridex repository. Check out &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;the download page&lt;/a&gt;
-on the wiki for more info. &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; also has our 
-1.0.x release packages in their repository. If anyone is still using Amanas' PPA,
-it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
-repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
-&lt;p&gt;We are proud to announce that packing for &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; has begun.
-Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
-&lt;p&gt;Lastly, we have had several individuals join &lt;a href="https://web.libera.chat/?#mate"&gt;our IRC channel&lt;/a&gt;
-and ask about &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
-we are looking for people who are willing to set these up.&lt;/p&gt;
-&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Neues Wiki und weitere Informationen</title><link>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link><dc:creator>Steve Zesch</dc:creator><description>&lt;p&gt;Kürzlich sind wir von einem Wiki auf &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; zu unserem eigenen gewechselt,
+das unter &lt;a href="https://wiki.mate-desktop.org/#!index.md"&gt;wiki.mate-desktop.org&lt;/a&gt; erreichbar ist. Bitte
+beziehe dich ab jetzt auf dieses Wiki. Natürlich ist jeder willkommen, etwas beizutragen.&lt;/p&gt;
+&lt;p&gt;Für diejenigen, die es noch nicht wussten: Es ist
+möglich, &lt;a href="https://github.com/mate-desktop/"&gt;Probleme auf GitHub&lt;/a&gt; zu melden. Momentan ist
+das die einzige Möglichkeit, Fehler zu melden, allerdings arbeiten wir an einem Bugtracker.
+Wir werden diesen hier ankündigen, wenn er fertig ist.&lt;/p&gt;
+&lt;p&gt;Außerdem planen wir für die Zukunft ein Mate-Forum, dieses ist aber in einer sehr frühen Phase.&lt;/p&gt;
+&lt;p&gt;Alle &lt;a href="https://www.debian.org/"&gt;Debian&lt;/a&gt;-, &lt;a href="https://www.ubuntu.com"&gt;Ubuntu&lt;/a&gt;-
+und &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt;-Nutzerinnen und -Nutzer können jetzt über das Tridex-Repository
+auf den 1.1.x-Entwicklungs-Paketzweig zugreifen. Weitere Informationen finden sich auf der &lt;a href="https://wiki.mate-desktop.org/#!pages/download.md"&gt;Download-Seite&lt;/a&gt;
+des Wikis. In den &lt;a href="https://linuxmint.com"&gt;Linux Mint&lt;/a&gt; befinden sich auch die Pakete der 1.0.x-Veröffentlichungsserie. Amanas PPA wird, falls dieses noch
+jemand nutzen sollte, nicht länger unterstützt. Die restlichen unserer 1.1.x-Veröffentlichungen wird in den Tridex-
+Repositories gehostet werden. Zukünftige Veröffentlichungen (zum Beispiel 1.2.0) werden hier gehostet werden.&lt;/p&gt;
+&lt;p&gt;Stolz können wir verkünden, dass die Paketierung für &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt; begonnen hat.
+Sobald neue Informationen vorliegen, werden wir diese zu unserem Wiki hinzufügen und eine Nachricht veröffentlichen.&lt;/p&gt;
+&lt;p&gt;Zu guter Letzt sind eine Leute &lt;a href="https://web.libera.chat/?#mate"&gt;unserem IRC-Kanal&lt;/a&gt; beigetreten
+und haben nach &lt;a href="https://www.gentoo.org"&gt;Gentoo&lt;/a&gt;-Ebuilds für MATE gefragt. Diesbezüglich
+suchen wir nach Leuten, die sich bereit erklären könnten, diese aufzusetzen.&lt;/p&gt;
+&lt;p&gt;Fröhliche Feiertage wünscht das Mate-Team.&lt;/p&gt;</description><category>Debian</category><category>Gentoo</category><category>Linux Mint</category><category>openSUSE</category><category>Ubuntu</category><guid>https://preview.mate-desktop.dev/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid><pubDate>Sat, 24 Dec 2011 21:58:49 GMT</pubDate></item></channel></rss>

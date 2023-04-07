@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Linux Mintについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/linux-mint.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Linux Mintについての記事)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/ja/tags/linux-mint.xml" rel="self" type="application/rss+xml"/><language>ja</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:44:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:06 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 リリース</title><link>https://preview.mate-desktop.dev/ja/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.6.png"&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
@@ -32,7 +32,7 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
   残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
   もし MateConf 1.4 がインストールされている場合には、他のすべての設定が移行されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt; Marco (ウィンドウマネージャ)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;** Marco (ウィンドウマネージャ)**&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;画面の中央に新規ウィンドウを開くオプションを追加&lt;/li&gt;
 &lt;/ul&gt;
@@ -130,4 +130,17 @@ src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyrig
 &lt;p&gt;Gnome  2 は最も人気のある Linux デスクトップでしたが、もう入手できません... MATE はあなたにそれと同様なデスクトップを提供します &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos は当初、Gnome 2 をフォークしてそのプロジェクトを MATE と名付けました。ユーザーや開発者は、MATE を &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; 上で動作させることに成功しています。それが好評を得たので、Perberos は MATE を &lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt; 上でのコンパイルを容易にしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/stefano-k"&gt;Stefano Karapetsas&lt;/a&gt;と&lt;a href="https://github.com/clefebvre"&gt;Clement Lefebvre&lt;/a&gt; はその後このプロジェクトに参加し、Debian と &lt;a href="https://www.linuxmint.com"&gt;Linux Mint&lt;/a&gt; 向けにパッケージ化しました。MATE デスクトップは Linux Mint 12 で大きく取り上げられ、急速に勢いを増しています。&lt;/p&gt;
-&lt;p&gt;私たちの最優先事項は、MATE を改善し、Gnome 2.32 と同等の機能と安定性を実現することです。私たちは、Gnome 2 用に開発されたテーマ、アプレット、アプリケーションを移植し、開発者等がこの新しいデスクトップにアプリケーションを移植するのを支援します。&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/ja/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+&lt;p&gt;私たちの最優先事項は、MATE を改善し、Gnome 2.32 と同等の機能と安定性を実現することです。私たちは、Gnome 2 用に開発されたテーマ、アプレット、アプリケーションを移植し、開発者等がこの新しいデスクトップにアプリケーションを移植するのを支援します。&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/ja/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item><item><title>Представляємо MATE Desktop</title><link>https://preview.mate-desktop.dev/ja/blog/2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Ласкаво просимо до робочого середовища MATE!&lt;/p&gt;
+&lt;p&gt;Gnome 2 був найпопулярнішою стільницею Linux, але він вже недоступний ... MATE
+Тут, щоб надати вам ту саму стільницю &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos спочатку форкнув Gnome 2 і назвав проєкт MATE. Користувачі та
+розробники успішно запустили MATE на &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
+і на вимогу користувачів Perberos спростив компіляцію MATE для
+&lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[Стефано Карапецас] (https://github.com/stefano-k) і [Клімент Лефевр] (https://github.com/clefebvre) 
+Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (https://www.linuxmint.com).
+Стільниця MATE була представлена в Linux Mint 12 і зараз швидко набирає обертів.&lt;/p&gt;
+&lt;p&gt;Нашим пріоритетом є покращення MATE, щоб він був на рівні, з точки зору функціональності
+та стабільності з Gnome 2.32. Ми перенесемо теми, аплети та програми, які
+були розроблені для Gnome 2, і допоможемо розробникам перенести свої програми на цю
+стільницю.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/ja/blog/2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Scott Balneaves)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/scott-balneaves.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2022 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (Posts by Scott Balneaves)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/sr/authors/scott-balneaves.xml" rel="self" type="application/rss+xml"/><language>sr</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Aug 2022 19:45:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт и LTSP</title><link>https://preview.mate-desktop.dev/sr/blog/2013-03-20-mate-and-ltsp/</link><dc:creator>Scott Balneaves</dc:creator><description>&lt;p&gt;Много је људи на свету који приступају својим Гну/Линукс радним површима
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 07 Apr 2023 08:54:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Мејт и LTSP</title><link>https://preview.mate-desktop.dev/sr/blog/2013-03-20-mate-and-ltsp/</link><dc:creator>Scott Balneaves</dc:creator><description>&lt;p&gt;Много је људи на свету који приступају својим Гну/Линукс радним површима
 преко тананих клијената и један од најдуже радних тананих клијената
 јесте пројекат &lt;a href="https://ltsp.org"&gt;LTSP&lt;/a&gt;. Мејтова радна површ нуди
 фантастично радно искуство на тананим клијентима; брзину, стабилност и ефикасност.

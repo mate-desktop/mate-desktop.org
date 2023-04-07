@@ -26,6 +26,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt)" hreflang="pt" href="../../pt/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../pt_br/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../ru/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
@@ -478,20 +479,20 @@ do work but have some minor rendering issues, we&#8217;d value your&nbsp;feedbac
 <h3>Installation</h3>
 <p>Install the repo file and do&nbsp;a <code>yum update</code>.</p>
 <h4>Fedora&nbsp;22</h4>
-<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
-$ sudo yum update
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>wget<span class="w"> </span>https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+$<span class="w"> </span>sudo<span class="w"> </span>cp<span class="w"> </span>raveit65-Mate-GTK3-fedora-22.repo<span class="w"> </span>/etc/yum.repos.d/
+$<span class="w"> </span>sudo<span class="w"> </span>yum<span class="w"> </span>update
 </pre></div>
 
 <h4>Fedora&nbsp;21</h4>
-<div class="code"><pre class="code literal-block">$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
-$ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
-$ sudo yum update
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>wget<span class="w"> </span>https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+$<span class="w"> </span>sudo<span class="w"> </span>cp<span class="w"> </span>raveit65-Mate-GTK3-fedora-21.repo<span class="w"> </span>/etc/yum.repos.d/
+$<span class="w"> </span>sudo<span class="w"> </span>yum<span class="w"> </span>update
 </pre></div>
 
 <p>Or&nbsp;use <code>dnf</code> command:</p>
-<div class="code"><pre class="code literal-block">$ sudo dnf copr <span class="nb">enable</span> raveit65/Mate-GTK3
-$ sudo dnf update
+<div class="code"><pre class="code literal-block">$<span class="w"> </span>sudo<span class="w"> </span>dnf<span class="w"> </span>copr<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>raveit65/Mate-GTK3
+$<span class="w"> </span>sudo<span class="w"> </span>dnf<span class="w"> </span>update
 </pre></div>
 
 <h3>Reporting&nbsp;issues</h3>
@@ -763,6 +764,103 @@ gratitude to <a href="https://www.opensuse.org">openSUSE</a> who are our GSoC or
 2014. They did a fantastic job in helping secure these GSoC placements for the
 <span class="caps">MATE</span> team that will provide much need development resources to the&nbsp;project.</p>
     </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-17-galculator-is-coming-to-mate/" class="u-url">galculator is coming to <span class="caps">MATE</span>&nbsp;1.10</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2014-03-17-galculator-is-coming-to-mate/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-03-17T07:38:45Z" itemprop="datePublished" title="2014-03-17 07:38">2014-03-17 07:38</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>The <span class="caps">MATE</span> team is proud to announce that we are collaborating with the
+<a href="http://galculator.mnim.org/">galculator</a> team and that galculator
+will&nbsp;replace <code>mate-calc</code> in <span class="caps">MATE</span>&nbsp;1.10.</p>
+<h3>What is&nbsp;galculator?</h3>
+<p>From the galculator&nbsp;website:</p>
+<blockquote>
+<p>galculator is a <span class="caps">GTK</span> 2 / <span class="caps">GTK</span> 3 based calculator with ordinary
+notation/reverse polish notation (<span class="caps">RPN</span>), a formula entry mode,
+different number bases (<span class="caps">DEC</span>, <span class="caps">HEX</span>, <span class="caps">OCT</span>, <span class="caps">BIN</span>) and different units of
+angular measure (<span class="caps">DEG</span>, <span class="caps">RAD</span>, <span class="caps">GRAD</span>). It supports quad-precision
+floating point and 112-bit binary&nbsp;arithmetic.</p>
+</blockquote>
+<p>galculator&#8217;s main features&nbsp;include:</p>
+<ul>
+<li>Algebraic mode, <span class="caps">RPN</span> (Reverse Polish Notation), Formula Entry and Paper&nbsp;mode</li>
+<li>Decimal, hexadecimal, octal and binary number&nbsp;base</li>
+<li>Radiant, degree and grad&nbsp;support</li>
+<li>Basic and Scientific&nbsp;Mode</li>
+<li>User defined constants and&nbsp;functions</li>
+<li>Trigonometric functions, power, sqare root, natural and common logarithm, inverse and hyperbolic&nbsp;functions</li>
+<li>Binary arithmetic of configurable bit length and&nbsp;signedness</li>
+<li>Quad-precision floating point&nbsp;arithmetic</li>
+<li>112-bit binary&nbsp;arithmetic</li>
+<li>Copy and&nbsp;paste</li>
+<li>Available in more than 20&nbsp;translations.</li>
+</ul>
+<p>Like <span class="caps">MATE</span> galculator has a commitment to <span class="caps">GTK2</span> and <span class="caps">GTK3</span> and is actively&nbsp;maintained.</p>
+<h3>Why ditch&nbsp;mate-calc?</h3>
+<p>While <code>mate-calc</code> is functional it lacks many features required of a
+modern desktop calcualtor. The <span class="caps">MATE</span> team is small with limited resources
+and where possible we are attempting to collaborate with projects that
+add value to <span class="caps">MATE</span> and reduce development burden on the <span class="caps">MATE</span> team.
+galculator is a perfect fit in this&nbsp;regard.</p>
+<h3>What&#8217;s in it for the galculator&nbsp;team?</h3>
+<p>galculator will remain an entirely independent project but we hope that its 
+inclusion in <span class="caps">MATE</span> will grow the galculator user base, raise awareness about 
+galculator and attract new contributors to their project. To that end the 
+<span class="caps">MATE</span> team will host the galculator translations as a resource on the
+<a href="https://www.transifex.com/organization/mate/dashboard/MATE"><span class="caps">MATE</span> transifex project</a>.
+We are hopeful that the ~300 heroic <span class="caps">MATE</span> translators will embrace galculator and
+add to the ~20 languages galculator currently&nbsp;supports.</p>
+<h3>I am a packager. What does this mean for&nbsp;me?</h3>
+<p>If you are a <span class="caps">MATE</span> package maintainer then start creating galculator
+packages for your distribution if they do not already exist and add
+galculator to your <span class="caps">MATE</span> meta packages or package groups. <span class="caps">MATE</span> 1.10 is a
+way off yet, so you have plenty of&nbsp;time.</p>
+<p>Hopefully you undertand our reasoning and can see the mutual advantages
+for this partnership. Let us know what you think in the&nbsp;comments.</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-11-mate-desktop-singing-the-bluez/" class="u-url"><span class="caps">MATE</span> Desktop singing the&nbsp;BlueZ</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2014-03-11-mate-desktop-singing-the-bluez/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-03-11T07:45:00Z" itemprop="datePublished" title="2014-03-11 07:45">2014-03-11 07:45</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>The <span class="caps">MATE</span> team are delighted to announce that we are collaborating with the
+<a href="https://github.com/blueman-project/blueman">Blueman project</a> and helping to
+update Blueman to BlueZ&nbsp;5.x.</p>
+<h3>Why ditch&nbsp;mate-bluetooth?</h3>
+<p><code>mate-bluetooth</code> supports BlueZ 4.x which has been discontinued and many
+distributions have, or are about to, replace BlueZ 4.x with BlueZ 5.x in their
+respective package repositories.&nbsp;Migrating <code>mate-bluetooth</code> to BlueZ 5.x was
+shaping up to be a lot of work and doesn&#8217;t provide the range of features
+available in&nbsp;Blueman.</p>
+<h3>Why Blueman? Isn&#8217;t it&nbsp;dead?</h3>
+<p>While the original Blueman project has stagnated, <a href="https://github.com/cschramm">Christopher Schramm</a>
+has reignited the development and started porting Blueman to BlueZ 5.x. While
+there is also some effort in updating Blueman to support BlueZ 5.x we feel it
+will provide a far better Bluetooth interface for&nbsp;<span class="caps">MATE</span>.</p>
+<h3>When will the updated Blueman be&nbsp;ready?</h3>
+<p>The observant among you may have noticed that the <a href="../../blog/2014-03-04-mate-1-8-released/"><span class="caps">MATE</span> 1.8 release announcement</a>
+already mentioned&nbsp;that <code>mate-bluetooth</code> has been replaced with Blueman and the
+even more observant will also have noticed that a fresh version of Blueman has
+not yet been released. Yeah, we suck! Sorry about&nbsp;that.</p>
+<p>While we acknowledge that we suck, we are actively contributing to the effort of
+porting Blueman to BlueZ 5.x and GObject introspection. We are hoping to have it
+ready in time for <span class="caps">MATE</span> 1.8.1 which is primarily intended as a bug fix&nbsp;release.</p>
+<h3>Can&#8217;t you do it faster, damn&nbsp;it?!</h3>
+<p>Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
+to contribute via the <a href="https://github.com/blueman-project/blueman">Blueman GitHub repository</a>.</p>
+    </div>
     </article>
 </div>
 
@@ -777,7 +875,7 @@ gratitude to <a href="https://www.opensuse.org">openSUSE</a> who are our GSoC or
 
 <hr>
 <div class="footerbox" align="center">
-    Contents © 2022 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
+    Contents © 2023 <a href="mailto:webmaster@mate-desktop.org">The <span class="caps">MATE</span> Team</a><br><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">
 <img alt="Creative Commons License BY-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a>
     
 
@@ -806,7 +904,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "66992d16fb53"],
+    texts : ["Preview Website", "MATE Desktop", "ae9022520c68"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
