@@ -36,14 +36,12 @@ MATE is available via the **official** repositories for the following
 Linux distributions:
 
 -   [Alpine Linux](https://www.alpinelinux.org/)
--   [Antergos](https://antergos.com/)
 -   [AOSC](https://aosc.io/)
 -   [Arch Linux](https://www.archlinux.org)
 -   [Debian](https://www.debian.org)
 -   [Fedora](https://www.fedoraproject.org)
 -   [Gentoo](https://www.gentoo.org)
 -   [GNU Guix and GNU GuixSD](https://gnu.org/s/guix)
--   [Hamara Linux](https://hamaralinux.org/)
 -   [Linux Mint](https://linuxmint.com)
 -   [Mageia](https://www.mageia.org/en/)
 -   [Manjaro](https://manjaro.org/)
@@ -51,7 +49,6 @@ Linux distributions:
 -   [Parrot Security OS](https://www.parrotsec.org/)
 -   [PCLinuxOS](https://www.pclinuxos.com/get-pclinuxos/mate/)
 -   [PLD Linux](https://www.pld-linux.org/)
--   [Sabayon](https://www.sabayon.org)
 -   [Salix](https://www.salixos.org)
 -   [Slint](https://slint.fr)
 -   [Solus](https://getsol.us/)
@@ -59,8 +56,14 @@ Linux distributions:
 -   [Ubuntu](https://www.ubuntu.com)
 -   [Ubuntu MATE](https://www.ubuntu-mate.org)
 -   [Uruk GNU/Linux](https://urukproject.org/dist/)
--   [Vector Linux](http://vectorlinux.com)
 -   [Void Linux](https://www.voidlinux.org/)
+
+Discontinued distributions:
+
+-   [Antergos](https://antergos.com/) discontinued
+-   [Hamara Linux](https://hamaralinux.org/) dormant
+-   [Sabayon](https://www.sabayon.org) discontinued
+-   [Vector Linux](http://vectorlinux.com) discontinued
 
 MATE is available via *unofficial* repositories for the following Linux
 distributions:
