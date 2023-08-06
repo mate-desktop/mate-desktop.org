@@ -115,6 +115,7 @@ TRANSLATIONS = {
     "ru": "./ru",
     "sr": "./sr",
     "tr": "./tr",
+    "uk": "./uk",
     "zh_cn": "./zh_cn",
     "zh_tw": "./zh_tw",
 }
@@ -334,6 +335,15 @@ NAVIGATION_LINKS = {
         ('/tr/community/', 'Topluluk'),
         ('/tr/team/', 'Ekip'),
         ('/tr/donate/', 'Bağış'),
+   ),
+    "uk": (
+        ('/uk/blog/', 'Blog'),
+        ('/uk/install/', 'Install'),
+        ('/uk/gallery/1.26/english/', 'Screenshots'),
+        ('/uk/development/', 'Development'),
+        ('/uk/community/', 'Community'),
+        ('/uk/team/', 'Team'),
+        ('/uk/donate/', 'Donate'),
    ),
     "zh_cn": (
         ('/zh_cn/blog/', '博客'),
