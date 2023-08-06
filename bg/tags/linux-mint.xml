@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 01 Aug 2023 22:12:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/bg/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 06 Aug 2023 10:23:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.6 released</title><link>https://preview.mate-desktop.dev/bg/blog/2013-04-02-mate-1-6-released/</link><dc:creator>Stefano Karapetsas</dc:creator><description>&lt;p&gt;The team is proud to announce the release of MATE Desktop 1.6. This release is
 a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
@@ -196,17 +196,4 @@ we are looking for people who are willing to set these up.&lt;/p&gt;
 &lt;p&gt;Нашият основен приоритет е да подобрим MATE и той да бъде равен по отношение на характеристиките
 и стабилност, с Gnome 2.32. Ще пренесем теми, аплети и приложения, които
 са разработени за Gnome 2 и помагат на разработчиците да прехвърлят приложенията си към този
-нов работен плот.&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/bg/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item><item><title>Представляємо MATE Desktop</title><link>https://preview.mate-desktop.dev/bg/blog/2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/</link><dc:creator>Clement Lefebvre</dc:creator><description>&lt;p&gt;Ласкаво просимо до робочого середовища MATE!&lt;/p&gt;
-&lt;p&gt;Gnome 2 був найпопулярнішою стільницею Linux, але він вже недоступний ... MATE
-Тут, щоб надати вам ту саму стільницю &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Perberos спочатку форкнув Gnome 2 і назвав проєкт MATE. Користувачі та
-розробники успішно запустили MATE на &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt;
-і на вимогу користувачів Perberos спростив компіляцію MATE для
-&lt;a href="https://www.debian.org"&gt;Debian&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[Стефано Карапецас] (https://github.com/stefano-k) і [Клімент Лефевр] (https://github.com/clefebvre) 
-Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (https://www.linuxmint.com).
-Стільниця MATE була представлена в Linux Mint 12 і зараз швидко набирає обертів.&lt;/p&gt;
-&lt;p&gt;Нашим пріоритетом є покращення MATE, щоб він був на рівні, з точки зору функціональності
-та стабільності з Gnome 2.32. Ми перенесемо теми, аплети та програми, які
-були розроблені для Gnome 2, і допоможемо розробникам перенести свої програми на цю
-стільницю.&lt;/p&gt;</description><guid>https://preview.mate-desktop.dev/bg/blog/2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>
+нов работен плот.&lt;/p&gt;</description><category>Arch Linux</category><category>Debian</category><category>Linux Mint</category><guid>https://preview.mate-desktop.dev/bg/blog/2011-12-05-introducing-mate-desktop/</guid><pubDate>Mon, 05 Dec 2011 12:00:30 GMT</pubDate></item></channel></rss>

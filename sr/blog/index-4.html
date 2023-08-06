@@ -29,6 +29,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" hreflang="pt_br" href="../../pt_br/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../ru/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (uk)" hreflang="uk" href="../../uk/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../zh_tw/rss.xml">
 <link rel="canonical" href="https://preview.mate-desktop.dev/sr/blog/index-4.html">
@@ -764,103 +765,6 @@ $<span class="w"> </span>sudo<span class="w"> </span>dnf<span class="w"> </span>
 2014. Они су одрадили одличан посао у обезбеђивању ових GSoC пласмана за
 екипу Мејта који ће обезбедити преко потребна развојна средства за&nbsp;пројекат.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-17-galculator-is-coming-to-mate/" class="u-url">галкулатор долази на Мејт&nbsp;1.10</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2014-03-17-galculator-is-coming-to-mate/" rel="bookmark">
-            <time class="published dt-published" datetime="2014-03-17T07:38:45Z" itemprop="datePublished" title="2014-03-17 07:38">2014-03-17 07:38</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Мејтова екипа с поносом објављује да сарађујемо са екипом
-<a href="http://galculator.mnim.org/">галкулатора</a> и да ће галкулатор&nbsp;заменити <code>mate-calc</code> у Мејту&nbsp;1.10.</p>
-<h3>Шта је&nbsp;галкулатор?</h3>
-<p>Са веб сајта&nbsp;галкулатора:</p>
-<blockquote>
-<p>галкулатор је дигитрон заснован на Гтк 2 / Гтк 3 са обичним
-бележењем/обрнутим дотераним бележењем (<span class="caps">RPN</span>), режимом
-уноса формула, различитим бројевним основама (<span class="caps">DEC</span>, <span class="caps">HEX</span>, <span class="caps">OCT</span>, <span class="caps">BIN</span>)
-и разним угаоним јединицама (СТЕП, РАД, ГРАД). Подржава четвороструку
-тачност покретног зареза и 112-битну бинарну&nbsp;аритметику.</p>
-</blockquote>
-<p>У главне функције галкулатора&nbsp;спадају:</p>
-<ul>
-<li>Алгебарски режим, <span class="caps">RPN</span> (обрнуто дотерано бележење), унос формуле и режим&nbsp;папира</li>
-<li>Децимална, хексадецимална, октална и бинарна основа&nbsp;броја</li>
-<li>Подршка за радијане, степене и&nbsp;градијане</li>
-<li>Основни и научни режим&nbsp;рада</li>
-<li>Константе и функције које дефинише&nbsp;корисник</li>
-<li>Тригонометријске функције, степененовање, квадратни корен, природни и општи логаритми, инверзне и хиперболичке&nbsp;функције</li>
-<li>Бинарна аритметика подесиве дужине бита и одређивање&nbsp;знака</li>
-<li>Аритметика покретног зареза четвороструке&nbsp;тачности</li>
-<li>112-битна бинарна&nbsp;аритметика</li>
-<li>Умножавање и&nbsp;убацивање</li>
-<li>Доступност на више од 20&nbsp;језика.</li>
-</ul>
-<p>Као и Мејт, галкулатор подржава Гтк2 и Гтк3 и активно се&nbsp;одржава.</p>
-<h3>Зашто напустити&nbsp;„mate-calc“?</h3>
-<p>Иако&nbsp;је <code>mate-calc</code> функционалан недостају му многе функције потребне
-савременом дигитрону радне површи. Мејтова екипа је мала са ограниченим
-ресурсима и тамо где је могуће покушавамо да сарађујемо са пројектима
-који Мејту додају вредност и умањују развојне напоре које подноси екипа Мејта.
-галкулатор се савршено уклопио у том&nbsp;погледу.</p>
-<h3>Шта ће бити са екипом&nbsp;галкулатора?</h3>
-<p>галкулатор ће остати потпуно независтан пројекат али се надамо да ће
-његово укључивање у Мејт повећати број његових корисника, повећати
-сазнање о постојању галкулатора и привући нове доприносиоце његовом пројекту.
-Због тога ће Мејтова екипа да удомљава преводе галкулатора као ресурс на
-<a href="https://www.transifex.com/organization/mate/dashboard/MATE">Мејтовом трансифекс пројекту</a>.
-Надамо се да ће ~300 храбрих Мејтових преводилаца пригрлити галкулатор и
-додати његов превод у ~20 језика које тренутно&nbsp;подржава.</p>
-<h3>Ја припремам пакете. Шта то значи за&nbsp;мене?</h3>
-<p>Ако сте Мејтов одржавалац пакета тада можете почети да припремате
-пакете галкулатора за вашу дистрибуцију ако већ не постоје и да додате
-галкулатор вашим мета пакетима Мејта или групама пакета. Мејт 1.10 је
-још увек далеко, тако да имате доста&nbsp;времена.</p>
-<p>Надамо се да разумете наше размишљање и да можете да видите обострану
-предност из ове сарадње. Реците нам шта мислите о томе у&nbsp;коментарима.</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-11-mate-desktop-singing-the-bluez/" class="u-url">Мејтова радна површ потписује&nbsp;„BlueZ“</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2014-03-11-mate-desktop-singing-the-bluez/" rel="bookmark">
-            <time class="published dt-published" datetime="2014-03-11T07:45:00Z" itemprop="datePublished" title="2014-03-11 07:45">2014-03-11 07:45</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Мејтова екипа је срећна да објави да сарађујемо са
-<a href="https://github.com/blueman-project/blueman">„Blueman“ пројектом</a> и да помажемо
-ажурирање „Blueman“-а у „BlueZ“&nbsp;5.x.</p>
-<h3>Зашто напустити&nbsp;„mate-bluetooth“?</h3>
-<p>„mate-bluetooth“ подржава „BlueZ“ 4.x који је прекинут и многе
-дистрибуције су, или ће, заменити „BlueZ“ 4.x са „BlueZ“ 5.x у својим
-одговарајућим ризницама пакета. Преношење „mate-bluetooth“ на
-„BlueZ“ 5.x је одрађено тако да представља много посла и не пружа
-низ функција доступних у&nbsp;„Blueman“-у.</p>
-<h3>Зашто „Blueman“? Зар није&nbsp;мртав?</h3>
-<p>Док је оригинални „Blueman“ пројекат стагнирао, <a href="https://github.com/cschramm">Кристофер Шрам</a>
-је поново покренуо развој и почео да преноси „Blueman“ на „BlueZ“ 5.x. Док
-такође постоји одређени напор у ажурирању „Blueman“-а како би подржао „BlueZ“ 5.x, осећамо да
-ће обезбедити далеко боље „Blueman“ сучеље за&nbsp;Мејт.</p>
-<h3>Када ће ажурирани „Blueman“ бити&nbsp;спреман?</h3>
-<p>Пажљиви међу вама су можда приметили да је <a href="../../blog/2014-03-04-mate-1-8-released/">најава издања за Мејт 1.8</a>
-већ поменула да је „mate-bluetooth“ замењен са „Blueman“-ом а да
-ће много пажљивији такође приметити да свеже издање „Blueman“-а
-још није издато. Да, некад и забрљамо нешто! Извините због&nbsp;тога.</p>
-<p>Иако признајемо да смо шепртље, активно доприносимо напорима у
-преносу „Blueman“-а на „BlueZ“ 5.x и „GObject“. Надамо се да ћемо га
-на време припремити за Мејт 1.8.1 који је првенствено замишљен као
-издање са исправкама&nbsp;грешака.</p>
-<h3>Може ли то мало брже,&nbsp;мајсторе?!</h3>
-<p>Да. Свако ко је фамилијаран са „BlueZ“-ом 4.x/5.x, „dbus“-ом, „PyGObject“-ом и „PyGTK“ је охрабрен
-да допринесе путем ризнице <a href="https://github.com/blueman-project/blueman">„Blueman GitHub“</a>.</p>
-    </div>
     </article>
 </div>
 
@@ -904,7 +808,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "e303c7f206ec"],
+    texts : ["Preview Website", "MATE Desktop", "3470dd5b959f"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

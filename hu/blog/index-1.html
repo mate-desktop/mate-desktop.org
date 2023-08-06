@@ -29,6 +29,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../ru/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (uk)" hreflang="uk" href="../../uk/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../zh_tw/rss.xml">
 <link rel="canonical" href="https://preview.mate-desktop.dev/hu/blog/index-1.html">
@@ -114,7 +115,58 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-12-27-thank-you-first-colo/" class="u-url">Thank you First&nbsp;Colo!</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-03-12-mate-university/" class="u-url"><span class="caps">MATE</span>&nbsp;University</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2013-03-12-mate-university/" rel="bookmark">
+            <time class="published dt-published" datetime="2013-03-12T18:58:22Z" itemprop="datePublished" title="2013-03-12 18:58">2013-03-12 18:58</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p><img alt="c-file" src="../../assets/img/blog/c-file.png"></p>
+<p>We&#8217;re proud to announce our newest package on&nbsp;GitHub:</p>
+<ul>
+<li><a href="https://github.com/mate-desktop/mate-university"><span class="caps">MATE</span>&nbsp;University</a></li>
+</ul>
+<p><span class="caps">MATE</span> University is targeted at all levels of developers (including beginners)
+to learn how to develop new panel applets, Caja (file manager) extensions,
+Pluma (text editor) and Eye of <span class="caps">MATE</span> (image viewer) plugins, etc. to expand
+the already powerful <span class="caps">MATE</span> Desktop experience. There will be simple and well
+commented code, makefiles and tips to use as springboard for new <span class="caps">MATE</span>&nbsp;applications.</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-01-20-changes-to-mate-notification-daemon/" class="u-url">Changes to&nbsp;mate-notification-daemon</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2013-01-20-changes-to-mate-notification-daemon/" rel="bookmark">
+            <time class="published dt-published" datetime="2013-01-20T19:07:12Z" itemprop="datePublished" title="2013-01-20 19:07">2013-01-20 19:07</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>The <code>mate-notification-daemon</code> has a new feature in  <span class="caps">MATE</span> 1.6 that allows
+users to select which monitor they want to display notifications on. The
+current behavior only displays notifications on the monitor which is currently
+active (where the pointer is). The behavior will default to as it has always
+been, but the user can change the settings by modifying the &#8220;use-active-monitor&#8221;
+and &#8220;monitor-number&#8221; keys in&nbsp;via <code>dconf-editor</code> or they can&nbsp;run
+<code>mate-notification-properties</code> and edit their settings via a&nbsp;<span class="caps">GUI</span>.</p>
+<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
+to be displayed on an active monitor. Note that &#8220;Use Active Monitor&#8221; is selected,
+which disables the combobox for selecting a&nbsp;monitor.</p>
+<p><img alt="active" src="../../assets/img/blog/active-300x235.png"></p>
+<p>Below is a screenshot&nbsp;of <code>mate-notification-properties</code> set for notifications
+to be displayed on a specific monitor. Note that &#8220;Use Active Monitor&#8221; is <strong>not</strong>
+selected, which enables the combobox for selecting the monitor to be enabled.
+The monitor number is set to 2. This will display on my third monitor, since
+counting starts at 0 instead of&nbsp;1.</p>
+<p><img alt="monitor" src="../../assets/img/blog/monitor-300x235.png"></p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-12-27-thank-you-first-colo/" class="u-url">Thank you First&nbsp;Colo!</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/stefano-karapetsas/">Stefano&nbsp;Karapetsas</a>
@@ -168,21 +220,6 @@ or for general <span class="caps">MATE</span> questions join us in <a href="http
 is now available for our 1.4 release. As usual, follow <a href="https://wiki.mate-desktop.org/#!pages/download.md">these instructions</a>.</p>
 <p>If you&#8217;re upgrading from an older release please make sure that you remove the old
 repositories and add the new ones, otherwise you will encounter&nbsp;problems.</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-10-16-mate-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D1%96%D0%B9-%D0%BF%D0%B0%D0%BA%D1%83%D0%BD%D0%BA%D1%96%D0%B2-%D0%B4%D0%BB%D1%8F-ubuntu-quantal/" class="u-url">Репозиторій пакунків <span class="caps">MATE</span> для Ubuntu&nbsp;Quantal</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/steve-zesch/">Steve&nbsp;Zesch</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2012-10-16-mate-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D1%96%D0%B9-%D0%BF%D0%B0%D0%BA%D1%83%D0%BD%D0%BA%D1%96%D0%B2-%D0%B4%D0%BB%D1%8F-ubuntu-quantal/" rel="bookmark">
-            <time class="published dt-published" datetime="2012-10-16T21:52:18Z" itemprop="datePublished" title="2012-10-16 21:52">2012-10-16 21:52</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Репозиторій <a href="https://www.ubuntu.com">Ubuntu</a> пакунків для Ubuntu 12.10 Quantal Quetzal
-тепер доступний для нашого випуску 1.4. Як завжди, дотримуйтесь [цих інструкцій]&nbsp;(https://wiki.mate-desktop.org/#!pages/download.md).</p>
-<p>Якщо ви оновлюєтесь зі старого випуску, будь ласка, переконайтеся, що ви видалили старі репозиторії та додали нові, інакше можуть виникнути&nbsp;проблеми.</p>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2012-07-30-mate-1-4-released/" class="u-url"><span class="caps">MATE</span> 1.4&nbsp;released</a></h1>
         <div class="metadata">
@@ -344,31 +381,6 @@ and stability, with Gnome 2.32. We&#8217;ll port themes, applets, and applicatio
 were developed for Gnome 2, and help developers port their applications to this
 new&nbsp;desktop.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/" class="u-url">Представляємо <span class="caps">MATE</span>&nbsp;Desktop</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/clement-lefebvre/">Clement&nbsp;Lefebvre</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/" rel="bookmark">
-            <time class="published dt-published" datetime="2011-12-05T12:00:30Z" itemprop="datePublished" title="2011-12-05 12:00">2011-12-05 12:00</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Ласкаво просимо до робочого середовища&nbsp;<span class="caps">MATE</span>!</p>
-<p>Gnome 2 був найпопулярнішою стільницею Linux, але він вже недоступний &#8230; <span class="caps">MATE</span>
-Тут, щоб надати вам ту саму&nbsp;стільницю <code>:)</code></p>
-<p>Perberos спочатку форкнув Gnome 2 і назвав проєкт <span class="caps">MATE</span>. Користувачі та
-розробники успішно запустили <span class="caps">MATE</span> на <a href="https://www.archlinux.org">Arch Linux</a>
-і на вимогу користувачів Perberos спростив компіляцію <span class="caps">MATE</span> для
-<a href="https://www.debian.org">Debian</a>.</p>
-<p>[Стефано Карапецас] (https://github.com/stefano-k) і [Клімент Лефевр] (https://github.com/clefebvre) 
-Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (https://www.linuxmint.com).
-Стільниця <span class="caps">MATE</span> була представлена в Linux Mint 12 і зараз швидко набирає&nbsp;обертів.</p>
-<p>Нашим пріоритетом є покращення <span class="caps">MATE</span>, щоб він був на рівні, з точки зору функціональності
-та стабільності з Gnome 2.32. Ми перенесемо теми, аплети та програми, які
-були розроблені для Gnome 2, і допоможемо розробникам перенести свої програми на цю&nbsp;стільницю.</p>
-    </div>
     </article>
 </div>
 
@@ -411,7 +423,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "e303c7f206ec"],
+    texts : ["Preview Website", "MATE Desktop", "3470dd5b959f"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

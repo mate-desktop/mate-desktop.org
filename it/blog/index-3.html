@@ -29,6 +29,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (ru)" hreflang="ru" href="../../ru/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (sr)" hreflang="sr" href="../../sr/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (tr)" hreflang="tr" href="../../tr/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (uk)" hreflang="uk" href="../../uk/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_cn)" hreflang="zh_cn" href="../../zh_cn/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (zh_tw)" hreflang="zh_tw" href="../../zh_tw/rss.xml">
 <link rel="canonical" href="https://preview.mate-desktop.dev/it/blog/index-3.html">
@@ -115,7 +116,88 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-10-mate-desktop-gsoc-2014/" class="u-url"><span class="caps">MATE</span> prende parte al GSoC&nbsp;2014</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-17-galculator-is-coming-to-mate/" class="u-url">galculator sta arrivando in <span class="caps">MATE</span>&nbsp;1.10</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2014-03-17-galculator-is-coming-to-mate/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-03-17T07:38:45Z" itemprop="datePublished" title="2014-03-17 07:38">2014-03-17 07:38</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>Il team Mate è orgoglioso di annunciare che stiamo collaborando con il
+team di <a href="http://galculator.mnim.org/">galculator</a> e che galculator&nbsp;sostituirà <code>mate-calc</code> in <span class="caps">MATE</span>&nbsp;1.10.</p>
+<h3>Cos&#8217;è&nbsp;galculator</h3>
+<p>Dal sito web di&nbsp;galculator:</p>
+<blockquote>
+<p>galculator è una calcolatrice basata su <span class="caps">GTK</span> 2 / <span class="caps">GTK</span> 3 con notazione ordinaria/notazione polacca inversa (<span class="caps">RPN</span>), una modalità per l&#8217;inserimento di formule,
+diversi formati numerici (<span class="caps">DEC</span>, <span class="caps">HEX</span>, <span class="caps">OCT</span>, <span class="caps">BIN</span>) e diverse unità di 
+misura degli angoli (<span class="caps">DEG</span>, <span class="caps">RAD</span>, <span class="caps">GRAD</span>). Supporta la precisione quadrupla dei numeri in virgola mobile e 112 bit per l&#8217;aritmetica&nbsp;binaria.</p>
+</blockquote>
+<p>Le caratteristiche principali di galculator&nbsp;comprendono:</p>
+<ul>
+<li>Modalità algebrica, <span class="caps">RPN</span> (notazione polacca inversa), Inserimento di Formule e modalità&nbsp;Carta</li>
+<li>Basi di numerazione decimale, esadecimale, ottale e&nbsp;binaria</li>
+<li>Supporto per il radiante, il grado e il&nbsp;grad</li>
+<li>Modalità Base ed&nbsp;Scientifica</li>
+<li>Costanti e funzioni definite&nbsp;dall&#8217;utente</li>
+<li>Funzioni trigonometriche, potenza, quadrato, radice quadrata, logaritmo naturale e comune, funzioni inverse ed&nbsp;iperboliche</li>
+<li>Aritmetica binaria a profondità di bit configurabile e gestione del&nbsp;segno</li>
+<li>Aritmetica in virgola mobile a quadrupla&nbsp;precisione</li>
+<li>112 bit di profondità per l&#8217;aritmetica&nbsp;binaria</li>
+<li>Copia e&nbsp;incolla</li>
+<li>Disponibile in oltre 20 lingue&nbsp;differenti</li>
+</ul>
+<p>Come <span class="caps">MATE</span>, galculator supporta <span class="caps">GTK2</span> e <span class="caps">GTK3</span> ed è attivamente&nbsp;manutenuto.</p>
+<h3>Perché abbandonar&nbsp;mate-calc?</h3>
+<p>Sebbene <code>mate-calc</code> sia funzionale, manca di molte caratteristiche richieste da una
+calcolatrice desktop moderna. Il team <span class="caps">MATE</span> è piccolo e dalle risorse limitate
+e dove possibile tentiamo di collaborare con progetti che
+aggiungano valore a <span class="caps">MATE</span> e riducano l&#8217;impegno di sviluppo sul team&nbsp;<span class="caps">MATE</span>.</p>
+<h3>Cosa ne viene al team di&nbsp;galculator?</h3>
+<p>galculator rimarrà un progetto completamente indipendente ma speriamo che la sua
+inclusione in <span class="caps">MATE</span> incrementi il suo bacino di utenti, aumenti la conoscenza su galculator e attragga nuovi collaboratori al progetto. Per questo scopo il team <span class="caps">MATE</span> ospiterà le traduzioni di galculator come risorsa nel
+<a href="https://www.transifex.com/organization/mate/dashboard/MATE">progetto <span class="caps">MATE</span> transifex</a>. Speriamo che i  ~300 eroici traduttori <span class="caps">MATE</span> abbraccino galculator e
+si aggiungano alle  ~20 lingue che galculator al momento&nbsp;supporta.</p>
+<h3>Sono uno sviluppatore di pacchetti. Cosa significa questo per&nbsp;me?</h3>
+<p>Se siete manutentori di pacchetti iniziate col creare un pacchetto galculator
+per la vostra distribuzione, se questo non esistente ancora, e aggiungete
+galculator al vostri meta pacchetti <span class="caps">MATE</span> o gruppi di pacchetti.
+<span class="caps">MATE</span> 1.10 è ancora lontano, quindi avete tutto il tempo&nbsp;necessario.</p>
+<p>Speriamo che capiate le nostre motivazioni e vediate i mutui vantaggi
+di questa collaborazione. Fateci sapere cosa ne pensate nei&nbsp;commenti.</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-11-mate-desktop-singing-the-bluez/" class="u-url"><span class="caps">MATE</span> Desktop canta il&nbsp;BlueZ</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2014-03-11-mate-desktop-singing-the-bluez/" rel="bookmark">
+            <time class="published dt-published" datetime="2014-03-11T07:45:00Z" itemprop="datePublished" title="2014-03-11 07:45">2014-03-11 07:45</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>I team di <span class="caps">MATE</span> sono deliziati di annunciare che stiamo collaborando col <a href="https://github.com/blueman-project/blueman">progetto Blueman</a> ed aiutandoli ad aggiornare Blueman a BlueZ&nbsp;5.x.</p>
+<h3>Perché abbandonare&nbsp;mate-bluetooth?</h3>
+<p><code>mate-bluetooth</code> supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo.&nbsp;Portare <code>mate-bluetooth</code> a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in&nbsp;Blueman.</p>
+<h3>Perché Blueman? Non è un progetto&nbsp;morto?</h3>
+<p>Sebbene il progetto originale Blueman fosse stagnante, <a href="https://github.com/cschramm">Christopher Schramm</a>
+ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per&nbsp;<span class="caps">MATE</span>.</p>
+<h3>Quando sarà pronta la versione aggiornata di&nbsp;Blueman?</h3>
+<p>Qualcuno di voi potrebbe aver notato che l&#8217;<a href="../../blog/2014-03-04-mate-1-8-released/">annuncio di rilascio di <span class="caps">MATE</span> 1.8</a>
+menzionava già il fatto&nbsp;che <code>mate-bluetooth</code> era stato sostituito con Blueman
+e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
+non è ancora stata rilasciata. Si, abbiamo commesso un errore,&nbsp;scusateci.</p>
+<p>Mentre riconosciamo di aver sbagliato, stiamo attivamente contribuendo nello sforzo di portare Blueman a BlueZ 5.x e all&#8217;introspezione di GObject. Speriamo di averlo pronto
+per la versione 1.8.1 che è intesa principalmente come una versione di bug&nbsp;fix.</p>
+<h3>Non potete fare prima,&nbsp;cavolo?!</h3>
+<p>Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato 
+a contribuire attraverso il <a href="https://github.com/blueman-project/blueman">repository Blueman GitHub</a>.</p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2014-03-10-mate-desktop-gsoc-2014/" class="u-url"><span class="caps">MATE</span> prende parte al GSoC&nbsp;2014</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -573,89 +655,6 @@ perché tutti i pacchetti <span class="caps">MATE</span> siano presenti sul repo
 <p><span class="caps">MATE</span> viene eseguito bene sul Modello B di Raspberry Pi con <span class="caps">512MB</span> di <span class="caps">RAM</span>, quindi se avete una Pi e vi avanza una <span class="caps">SDCARD</span>, provatelo. Scriverò a breve
 un post sul blog su come installare Arch Linux e <span class="caps">MATE</span> sulla Raspberry Pi con alcuni utili tweak sulla&nbsp;performance.</p>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-11-25-support-linux-voice/" class="u-url">Supportate Linux&nbsp;Voice!</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2013-11-25-support-linux-voice/" rel="bookmark">
-            <time class="published dt-published" datetime="2013-11-25T13:50:43Z" itemprop="datePublished" title="2013-11-25 13:50">2013-11-25 13:50</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>Il team <span class="caps">MATE</span> vi incoraggia ad andare su  <a href="https://www.indiegogo.com/projects/linux-voice">Linux Voice su indiegogo</a>
-e scoprire perché voi, come utenti ed entusiasti dell&#8217;Open Source, dovreste supportare <a href="https://www.linuxvoice.com/">Linux Voice</a>.
-Queste sono alcune delle ragioni del perché appoggiamo questo&nbsp;progetto:</p>
-<ul>
-<li>È costituito dalla maggioranza della squadra editoriale della rivista Linux&nbsp;Format.</li>
-<li>Il 50% dei proventi di Linux Voice torneranno al Free Software e alle comunità&nbsp;Linux.</li>
-<li>I contenuti di Linux Voice saranno pubblicati gratis dopo 9 mesi sotto la licenza  <a href="https://creativecommons.org/licenses/by-sa/3.0/"><span class="caps">CC</span>-<span class="caps">BY</span>-<span class="caps">SA</span></a>.</li>
-<li>Uno dei team di Linux Voice ha l&#8217;interesse di trattare <span class="caps">MATE</span> se il loro progetto sarà finanziato con&nbsp;successo.</li>
-</ul>
-<div align="center"><a href="https://www.indiegogo.com/projects/linux-voice"><img src="../../assets/img/blog/Linux012.png" alt="Linux Voice" title="Linux Voice"><br>Supportate Linux Voice!</a></div>
-
-<p>Potete trovare maggiori notizie su come procede la campagna sul sito web di <a href="https://www.linuxvoice.com/">Linux Voice</a>.</p>
-<ul>
-<li><a href="https://www.linuxvoice.com/">https://www.linuxvoice.com/</a></li>
-</ul>
-</div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2013-11-16-mate-1.6-packages-for-arch-linux/" class="u-url">Pacchetti <span class="caps">MATE</span> 1.6 per Arch&nbsp;Linux</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
-            </span></p>
-            <p class="dateline">
-            <a href="2013-11-16-mate-1.6-packages-for-arch-linux/" rel="bookmark">
-            <time class="published dt-published" datetime="2013-11-16T00:36:43Z" itemprop="datePublished" title="2013-11-16 00:36">2013-11-16 00:36</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <p>I pacchetti <span class="caps">MATE</span> 1.6 sono stati disponibili per <a href="https://www.archlinux.org">Arch Linux</a>
-già da un pezzo. Dunque perché il post sul&nbsp;blog?</p>
-<p>Negli ultimi mesi i pacchetti <span class="caps">MATE</span> 1.6 per Arch Linux sono stati corretti, ripuliti e migliorati. Qui c&#8217;è una panoramica di ciò su cui abbiamo&nbsp;lavorato:</p>
-<ul>
-<li>Tutti i bug specifici di Arch Linux sono stati&nbsp;risolti.</li>
-<li>Nuovi script per il build automatizzato e il build&nbsp;cluster.</li>
-<li>Completo supporto per le seguenti piattaforme:<ul>
-<li>armv6h <em>(Raspberry&nbsp;Pi)</em>
-</li>
-<li>armv7h</li>
-<li>i686</li>
-<li>x86_64</li>
-</ul>
-</li>
-<li>Pacchettizate 9 applicazioni/applet aggiuntive dalla collaborazione della comunità&nbsp;<span class="caps">MATE</span>.</li>
-<li>Scelta dei beckend Pulse Audio e&nbsp;GStreamer.</li>
-<li>Cherry ha introdotto alcune caratteristiche&nbsp;per <code>systemd</code> e <code>logind</code> da <span class="caps">MATE</span>&nbsp;1.7.</li>
-<li>Cherry ha introdotto alcune caratteristiche&nbsp;per <code>upower</code> da <span class="caps">MATE</span>&nbsp;1.7.</li>
-<li>Cherry ha introdotto alcune correzioni di bug da <span class="caps">MATE</span>&nbsp;1.7.</li>
-<li><span class="caps">MATE</span> 1.6 PGKBUILDs adesso è sincrinizzato in automatico con&nbsp;l&#8217;<span class="caps">AUR</span>.</li>
-<li>Il repository di pacchetti di Arch Linux per <span class="caps">MATE</span> adesso è&nbsp;firmato.</li>
-</ul>
-<p>È possibile trovare tutte le informazioni necessarie èer installare <span class="caps">MATE</span> 1.6
-su Arch Linux dalla pagina wiki&nbsp;seguente:</p>
-<ul>
-<li><a href="https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md">https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md</a></li>
-</ul>
-<p>Vorrei ringraziare in modo&nbsp;speciale:</p>
-<ul>
-<li>
-<a href="https://github.com/raveit65">Wolfgang Ulbrich</a> per aver lavorato con noi
-  Il team sviluppo Fedora per aver cercato fix&nbsp;a <code>systemd</code>, <code>logind</code> e <code>upower</code>
-  che risultano essere grandemente vantaggiosi per Arch Linux e anche per
-  aver contribuito a un gran numero di applicazioni della&nbsp;comunità.</li>
-<li>
-<a href="https://github.com/infirit">Sander Sweers</a> e <a href="https://github.com/stefano-k">Stefano Karapetsas</a>
-  Per avermi dato il benvenuto nel Team <span class="caps">MATE</span> e avermi aiutato su&nbsp;<span class="caps">IRC</span>.</li>
-</ul>
-<p>Ora che i pacchetti di <span class="caps">MATE</span> 1.6 sono in buono stato, inizierò il processo
-di mettere <span class="caps">MATE</span> nei repository ufficiali di Arch Linux. Si può aiutare
-in questo votando per i pacchetti <span class="caps">MATE</span> su&nbsp;<span class="caps">AUR</span>.</p>
-<ul>
-<li><a href="https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg">https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg</a></li>
-</ul>
-</div>
     </article>
 </div>
 
@@ -699,7 +698,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "e303c7f206ec"],
+    texts : ["Preview Website", "MATE Desktop", "3470dd5b959f"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
