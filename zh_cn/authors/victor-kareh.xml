@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (由 Victor Kareh 发布的文章)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/zh_cn/authors/victor-kareh.xml" rel="self" type="application/rss+xml"/><language>zh_cn</language><copyright>Contents © 2023 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MATE (由 Victor Kareh 发布的文章)</title><link>https://preview.mate-desktop.dev/</link><description/><atom:link href="https://preview.mate-desktop.dev/zh_cn/authors/victor-kareh.xml" rel="self" type="application/rss+xml"/><language>zh_cn</language><copyright>Contents © 2024 &lt;a href="mailto:webmaster@mate-desktop.org"&gt;The MATE Team&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Sun, 13 Aug 2023 10:07:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 发布</title><link>https://preview.mate-desktop.dev/zh_cn/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.22。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:13:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.22 发布</title><link>https://preview.mate-desktop.dev/zh_cn/blog/2019-03-18-mate-1-22-released/</link><dc:creator>Victor Kareh</dc:creator><description>&lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.22。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.22.zh_cn.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.22 的新特性&lt;/h3&gt;
 &lt;p&gt;此版本包含大量关键错误修复和漏洞改进。一些重要的亮点包括：&lt;/p&gt;
