@@ -116,7 +116,278 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-released/" class="u-url"><span class="caps">MATE</span> 1.10&nbsp;リリース</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-11-05-mate-1-12-released/" class="u-url"><span class="caps">MATE</span> 1.12&nbsp;をリリースしました</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
+            </span></p>
+            <p class="dateline">
+            <a href="2015-11-05-mate-1-12-released/" rel="bookmark">
+            <time class="published dt-published" datetime="2015-11-05T20:00:00Z" itemprop="datePublished" title="2015-11-05 20:00">2015-11-05 20:00</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>5ヶか月の開発期間を経て、<span class="caps">MATE</span> デスクトップチームは <span class="caps">MATE</span> デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての <span class="caps">MATE</span>&nbsp;貢献者とユーザーに感謝します。</p>
+<p><img alt="about" src="../../assets/img/blog/about-mate-1.12.png"></p>
+<h3><span class="caps">MATE</span> 1.12&nbsp;で新しくなったこと</h3>
+<p><span class="caps">MATE</span> デスクトップ 1.12&nbsp;の主な変更点は次のとおりです。</p>
+<ul>
+<li><span class="caps">GTK</span> 3.18 サポートを含む、<span class="caps">MATE</span> デスクトップ全体の <span class="caps">GTK3</span>&nbsp;サポートの修正と改善。</li>
+<li>タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。</li>
+<li>マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された <span class="caps">UI</span>&nbsp;ではプライマリモニタが設定できます。</li>
+<li>電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。</li>
+<li>セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。<ul>
+<li><span class="caps">MATE</span>&nbsp;は <code>org.gnome.SessionManager</code> namespace&nbsp;に従うようになりました。</li>
+</ul>
+</li>
+<li>systemd&nbsp;サポートを拡張しました。</li>
+<li>長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。<ul>
+<li>たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。</li>
+</ul>
+</li>
+<li>翻訳が更新され、多くのコンポーネントが <code>gschema</code> から直接文字列を取得するようになりました (intltool 0.50.1&nbsp;が必要)。</li>
+<li>
+<code>win32</code> と <code>osx</code> のサポートを止めました。</li>
+</ul>
+<p><span class="caps">MATE</span> 1.12&nbsp;の各種コンポーネントは、次の場所からダウンロードできます。</p>
+<ul>
+<li><a href="https://pub.mate-desktop.org/releases/1.12/">https://pub.mate-desktop.org/releases/1.12/</a></li>
+</ul>
+<h3>スクリーンショット</h3>
+<ul>
+<li><a href="../../gallery/1.12/"><span class="caps">MATE</span> 1.12&nbsp;スクリーンショット</a></li>
+</ul>
+<h3>Changelog&nbsp;変更点</h3>
+<p>変更点の詳細は以下のとおりです。</p>
+<h4>mate-common</h4>
+<ul>
+<li>
+<code>lcov</code> 1.12&nbsp;をサポート</li>
+<li>関連文書と実例を更新</li>
+</ul>
+<h4>mate-desktop</h4>
+<ul>
+<li>
+<code>dconf</code> 0.13.4&nbsp;と <code>xrandr</code> 1.3&nbsp;が必要です。</li>
+<li><span class="caps">GTK</span>+3&nbsp;でオーバレイスクロールを切り替える <code>gsettings</code> キーを追加</li>
+<li>いくつかのアイコンを追加することで、カスタムアイコンテーマ使用の <span class="caps">GTK</span>+3&nbsp;で欠落していたアイコンを修正</li>
+<li>マウススキーマ:&nbsp;中クリックによるエミュレーションを標準で有効に</li>
+<li><span class="caps">RR</span>: 欠落している mate_rr_output_get_possible_crtcs&nbsp;関数を実装</li>
+<li><span class="caps">RR</span>: 出力名によるラップトップ <span class="caps">ID</span>&nbsp;の修正</li>
+<li><span class="caps">RR</span>:&nbsp;表示名に加えて出力名も表示</li>
+<li>docbook&nbsp;ユーザーガイドを別のプロジェクトへ移動</li>
+<li>yelp への依存関係を削除&nbsp;(ユーザガイドの移行後は不要)</li>
+</ul>
+<h4>libmatekbd</h4>
+<ul>
+<li>GObject&nbsp;イントロスペクションを追加</li>
+<li>レイアウトビュー/印刷ダイアログ:&nbsp;不要なヘルプボタンを削除</li>
+<li>レイアウトビュー/印刷ダイアログ: いくつかの <span class="caps">UI</span>&nbsp;を修正</li>
+</ul>
+<h4>libmatemixer</h4>
+<ul>
+<li>oss: Linux のポーリングには modify counter だけを使用してください。<span class="caps">BSD</span>&nbsp;では壊れています。</li>
+<li>alsa: 古いバージョンの <span class="caps">ALSA</span> で <span class="caps">FTBFS</span>&nbsp;を修正</li>
+<li>alsa:&nbsp;フェードの修正</li>
+</ul>
+<h4>libmateweather&nbsp;お天気アプリ</h4>
+<ul>
+<li>タイムゾーンの場所の更新</li>
+</ul>
+<h4>mate-icon-theme</h4>
+<ul>
+<li>
+<code>pkgconfig</code> ファイルを生成しない</li>
+</ul>
+<h4>Caja</h4>
+<ul>
+<li>サーバへ接続 ダイアログ: <span class="caps">AFP</span>&nbsp;のサポートを追加</li>
+<li>マルチモニタのサポートを向上</li>
+</ul>
+<h4>mate-polkit</h4>
+<ul>
+<li><span class="caps">GTK3</span>&nbsp;アプリケーション・インディケータのサポートを追加します。</li>
+</ul>
+<h4>Marco</h4>
+<ul>
+<li>マニュアルの追加およびポインタによるウィンドウ配置の追加</li>
+<li>同一アプリケーション内のウィンドウを切り替えに Alt-`&nbsp;を使用</li>
+</ul>
+<h4>mate-settings-daemon</h4>
+<ul>
+<li>ログアウト用の新しいキーバインディングを追加&nbsp;(デフォルトは空です)</li>
+<li>タッチパッドの設定: 自然なスクロール、2 本指および 3&nbsp;本指クリックのサポートを追加</li>
+<li>マウス: Ctrl+C&nbsp;や他のコンボを無視するには <code>syndaemon-K</code> を使用</li>
+<li><span class="caps">GTK</span>+3: xrandr&nbsp;トレイアプレットがカスタムパネルテーマをサポート</li>
+</ul>
+<h4>mate-session-manager</h4>
+<ul>
+<li>Plank&nbsp;など、ドックのオプションサポートを追加</li>
+<li>既存の <code>libsystemd-login</code> に加えて、新規の <code>libsystemd</code> のサポートを追加</li>
+<li>ログアウト/シャットダウン時には最大 1&nbsp;秒間だけ待機</li>
+<li>新しい gsettings キーを使用して、開始時に <span class="caps">GTK</span>+3&nbsp;オーバーレイスクロールのオン/オフを切り替え</li>
+</ul>
+<h4>mate-menus</h4>
+<ul>
+<li>
+<code>pkg-config</code> を使用して python をチェック (python 2.7&nbsp;が必要)</li>
+</ul>
+<h4>mate-panel</h4>
+<ul>
+<li>
+<code>xrandr</code> 1.3&nbsp;以降が必要</li>
+<li>カレンダーの週番号を有効/無効にするオプションを追加</li>
+<li>画面解像度の変更時にロックされたアプレットの位置を修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;アプレットが <code>panel-menu-bar</code> に従うようにスタイルクラスを追加</li>
+</ul>
+<h4>mate-themes</h4>
+<ul>
+<li><span class="caps">GTK3</span> の全テーマ:&nbsp;音量/輝度アプレットスライダをデザイン</li>
+<li>すべてのテーマ、特に <span class="caps">GTK</span> 3.18&nbsp;関連のさまざまな改善を行ってより洗練に</li>
+</ul>
+<h4>mate-notification-daemon</h4>
+<ul>
+<li>gtk3&nbsp;におけるテーマの高さと可視性を修正</li>
+<li>複数のテーマの修正</li>
+</ul>
+<h4>mate-control-center</h4>
+<ul>
+<li>外観:&nbsp;インタフェースタブを復元</li>
+<li>ディスプレイ:&nbsp;プライマリモニタ設定のためのサポートを追加</li>
+<li>ディスプレイ:&nbsp;ディスプレイ名に加えて出力名を表示</li>
+<li>キーバインディング:&nbsp;ログアウト用のキーバインディングを追加</li>
+<li>タッチパッドの設定:&nbsp;タッチパッドを有効/無効にするオプションを追加</li>
+<li>タッチパッドの設定: 自然なスクロール、2 本指および 3&nbsp;本指クリックのサポートを追加</li>
+<li>カテゴリ化の向上</li>
+<li><span class="caps">GTK</span>+3: 外観および <span class="caps">MATE</span>&nbsp;フォントビューアでのフォントレンダリングを修正</li>
+</ul>
+<h4>mate-screensaver</h4>
+<ul>
+<li>既存の <code>libsystemd-login</code> サポートに加えて、<code>libsystemd</code> のサポートを追加</li>
+<li>画面をロックする時ブラックにフェードしない</li>
+<li>
+<code>systemd</code> のイベント処理を修正</li>
+</ul>
+<h4>mate-media</h4>
+<ul>
+<li>man&nbsp;ページ内の複数の修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;音量アプレットのスライダおよびメニューにスタイルクラスを追加</li>
+<li><span class="caps">GTK</span>+3:&nbsp;カスタムアイコンテーマ使用で欠落していたアイコンを修正</li>
+</ul>
+<h4>mate-power-manager</h4>
+<ul>
+<li>
+<code>xrandr</code> 1.3&nbsp;以降が必要</li>
+<li>デバイスのベンダー/モデル情報を表示</li>
+<li>Mac Book Pro&nbsp;のバックライト調整を修正</li>
+<li><span class="caps">GTK</span>+3:&nbsp;カスタムテーマのサポート</li>
+<li><span class="caps">GTK</span>+3:&nbsp;明るさの調整アプレットの動作を修正</li>
+</ul>
+<h4>mate-system-monitor</h4>
+<ul>
+<li>SysInfo: Linux Mint および <span class="caps">LMDE</span>&nbsp;の適切な検出機能を追加</li>
+<li>SysInfo:&nbsp;ディストリビューションでカスタム側のイメージを定義可能に</li>
+<li>Interface:&nbsp;ノートブックに境界を追加</li>
+<li>既存の <code>libsystemd-login</code> サポートに加えて、<code>libsystemd</code> のサポートを追加</li>
+<li>C++11&nbsp;でのビルドをサポート</li>
+<li>mate-icon-theme&nbsp;に対する不要な依存関係を削除</li>
+<li>C89&nbsp;のサポートを廃止</li>
+</ul>
+<h4>Atril</h4>
+<ul>
+<li>
+<code>win32</code>、<code>osx</code>、<code>hildon</code> のサポートを廃止</li>
+<li>
+<code>mate-icon-theme</code> の不要な依存関係を削除</li>
+<li>配布パッケージのバージョンを使用する場合、埋め込み MathJax&nbsp;を削除</li>
+<li>
+<code>smclient</code> を必須に</li>
+</ul>
+<h4>caja-extensions</h4>
+<ul>
+<li>複数の文字列を修正</li>
+</ul>
+<h4>Engrampa</h4>
+<ul>
+<li>進行ダイアログで <code>ngettext</code> の使用を修正</li>
+<li>複数の書庫を別々のディレクトリへ展開する機能を実際</li>
+<li>展開するファイルがフォルダ内にある場合に、上書きチェックを修正</li>
+</ul>
+<h4>Eye of&nbsp;<span class="caps">MATE</span></h4>
+<ul>
+<li>さまざまなバグ修正。</li>
+</ul>
+<h4>mate-applets</h4>
+<ul>
+<li>Accessx-status, geyes:&nbsp;アプレットの背景を自動的に描画</li>
+<li>Cpufreq: cpupower&nbsp;をデフォルトライブラリに</li>
+<li>
+<code>mate-icon-theme</code> に対する不要な依存関係を削除</li>
+<li><span class="caps">GTK</span>+3:&nbsp;カスタムアイコンテーマ使用で欠落していたアイコンを修正</li>
+<li><span class="caps">GTK</span>+3: cpufreq、charpick および drivemount&nbsp;がカスタムパネルテーマをサポート</li>
+</ul>
+<h4>mate-netbook</h4>
+<ul>
+<li>Window Picker アプレット:&nbsp;背景を自動的に描画</li>
+</ul>
+<h4>mate-netspeed</h4>
+<ul>
+<li>アプレットの背景を自動的に描画</li>
+<li>サイレント・ルールの追加</li>
+</ul>
+<h4>mate-sensors-applet</h4>
+<ul>
+<li>nvidia サーマルセンサーとクーラーセンサーのサポートを追加 (libxnvctrl &gt;= 256.25&nbsp;以上必要)</li>
+<li>
+<code>mbmon</code> プラグインの追加</li>
+<li>
+<code>udisks</code> プラグインに新しい値をポーリングさせる</li>
+</ul>
+<h4>mate-terminal</h4>
+<ul>
+<li>1.10.0 から壊れていた &#8212;tab&nbsp;タブオプションを修正</li>
+<li>デフォルトでサイレント・ルールを有効に</li>
+<li>
+<code>win32</code>、<code>osx</code> のサポートを廃止</li>
+</ul>
+<h4>mate-user-share</h4>
+<ul>
+<li>
+<code>dbus-1</code> の不要な依存関係を削除</li>
+<li>Apache 2.0&nbsp;のサポートを廃止</li>
+</ul>
+<h4>mate-utils</h4>
+<ul>
+<li>アプリケーションのアイコンを mate-system-log&nbsp;へ追加</li>
+<li>スクリーンショットのファイル名に、ウィンドウ名の代わりにタイムスタンプを標準で追加</li>
+<li>辞書アプレットの背景を自動的に描画</li>
+<li>
+<code>gsettings</code> スキーマの翻訳修正</li>
+</ul>
+<h4>Mozo</h4>
+<ul>
+<li>起動時の通知を有効化</li>
+<li>サイレント・ルールの追加</li>
+</ul>
+<h4>Pluma</h4>
+<ul>
+<li>ビルド中のテストの実行を有効/無効にする <code>--enable-tests</code> オプションを追加</li>
+<li>保存時に末尾のスペースを削除するプラグインを追加</li>
+<li>バグレポートのスクリプトリストにあるアクティブなプラグインを復活</li>
+<li>
+<code>win32</code>、<code>osx</code> および checkupdate&nbsp;プラグインのサポートを削除</li>
+<li>ウィンドウタイトルとデスクトップファイルの Pluma&nbsp;を大文字に</li>
+<li><span class="caps">GTK3</span>.&nbsp;印刷プレビューの修正</li>
+<li>一部の注釈の修正</li>
+</ul>
+<h4>caja-dropbox</h4>
+<ul>
+<li>caja extensions&nbsp;の既定ディレクトリを修正</li>
+<li>tarball に autogen.sh&nbsp;を含める</li>
+</ul>
+<p><br><br></p>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2015-06-11-mate-1-10-released/" class="u-url"><span class="caps">MATE</span> 1.10&nbsp;リリース</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/martin-wimpress/">Martin&nbsp;Wimpress</a>
@@ -762,7 +1033,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "67a4f1affc56"],
+    texts : ["Preview Website", "MATE Desktop", "9b094b95bb2e"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,

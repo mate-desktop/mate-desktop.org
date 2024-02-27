@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:13:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:14:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.24 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2020-02-10-mate-1-24-released/</link><dc:creator>Wolfgang Ulbrich</dc:creator><description>&lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="MATE ダイアログ情報" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.24.png" width="50%"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.24 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;このリリースには、多くの新機能、バグ修正、一般的な改善が含まれています。最も重要なハイライトは次のとおりです。&lt;/p&gt;

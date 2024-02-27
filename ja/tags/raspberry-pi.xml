@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:13:24 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE は Arch Linux で公式に入手できます</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE はようやく我が家に落ち着きました。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:15:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE は Arch Linux で公式に入手できます</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-16-mate-officially-in-arch-linux/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE はようやく我が家に落ち着きました。&lt;/p&gt;
 &lt;p&gt;皆さんの中には、MATEが &lt;a href="https://www.archlinux.org"&gt;Arch Linux&lt;/a&gt; のユーザー、Perberos さんによって作成されたことをご存知の方がいるかもしれません。MATE がこれまで正式な Arch Linux のパッケージリポジトリに収録されていなかったというのは、皮肉なことです。この通り、MATE はついに Arch Linux の &lt;code&gt;[community]&lt;/code&gt; パッケージリポジトリで利用可能になりました！&lt;/p&gt;
 &lt;p&gt;Arch Linux に MATE をインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;

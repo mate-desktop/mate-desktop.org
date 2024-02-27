@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:13:35 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:14:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE 1.20 を公開しました</title><link>https://preview.mate-desktop.dev/ja/blog/2018-02-07-mate-1-20-released/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="about" src="https://preview.mate-desktop.dev/assets/img/blog/about-mate-1.20.png"&gt;&lt;/p&gt;
 &lt;h3&gt;MATE 1.20 で新しくなったこと&lt;/h3&gt;
 &lt;p&gt;このリリースの課題は、廃止されたコードを置き換え、コードベースの大部分を近代化することによって、MATE デスクトップを安定させることでした。また、ウィンドウマネージャ (Marco) を改善し、HiDPI のサポートを追加しました。その過程で、何百もの不具合を修正しました。&lt;/p&gt;

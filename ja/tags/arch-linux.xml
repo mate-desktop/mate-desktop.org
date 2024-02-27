@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"&gt;
 &lt;img alt="Creative Commons License BY-SA"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:13:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE デスクトップ Live CD</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE チームは、完全な MATE デスクトップが起動可能な Live CD を作成しました。&lt;/p&gt;
+src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Tue, 27 Feb 2024 21:14:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MATE デスクトップ Live CD</title><link>https://preview.mate-desktop.dev/ja/blog/2014-01-30-mate-desktop-live-cd/</link><dc:creator>Martin Wimpress</dc:creator><description>&lt;p&gt;MATE チームは、完全な MATE デスクトップが起動可能な Live CD を作成しました。&lt;/p&gt;
 &lt;div class="alert alert-info"&gt;&lt;strong&gt;更新&lt;/strong&gt; LiveCD は2014年3月10日、MATE 1.8 へアップデートされました。&lt;/div&gt;
 
 &lt;p&gt;この Live CD は、将来的な新規ユーザーが MATE デスクトップをシステムに影響しない方法で評価するために作成されました。イメージは DVD に書き込んだり、ISO ファイルとしてマウントしたり、&lt;code&gt;dd&lt;/code&gt; のようなユーティリティを使って直接 USB メモリに書き込んだりすることができます。&lt;a href="https://luddites.latenightlinux.com/"&gt;Linux Luddites&lt;/a&gt; では &lt;code&gt;unetbootin&lt;/code&gt; はサポートされていません。以下からダウンロードできます。&lt;/p&gt;
