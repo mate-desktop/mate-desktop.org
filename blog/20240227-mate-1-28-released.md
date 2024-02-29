@@ -36,7 +36,8 @@ Here are the gory details.
 Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
 
 ### caja
-* 
+* Caja can now manage icons on a wayland desktop, render the background, and change the background (wayland support is a build option). Launch in wayland sessions with --force-desktop to show desktop icons
+
 
 Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
 
@@ -85,7 +86,7 @@ Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/ma
 Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets
-* 
+*Most of the panel applets will now function under wayland if built in-process. Building the applets in-process is newly supported for 1.28. The exceptions are AccessX, which relies on x11 keyboard and mouse configuration code; and Geyes, which cannot see the pointer when it it outside the panel under wayland due to how wayland works. Note that the battery applet can be used in wayland, which is important because mate-power-manager uses a lot of x11 specific code and does not work under wayland at this time.
 
 Complete changelog at <https://github.com/mate-desktop/mate-applets/commits/master/>
 
@@ -104,12 +105,12 @@ Complete changelog at <https://github.com/mate-desktop/mate-calc/commits/master/
 Complete changelog at <https://github.com/mate-desktop/mate-common/commits/master/>
 
 ### mate-control-center
-* 
+* Now works under wayland sessions as well as x11
 
 Complete changelog at <https://github.com/mate-desktop/mate-control-center/commits/master/>
 
 ### mate-desktop
-* 
+* A few changes were necessary to support background handling under wayland.
 
 Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/master/>
 
@@ -124,7 +125,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-icon-theme/commits/m
 Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
 
 ### mate-media
-* 
+* Now supports wayland as a build time option. Behavior almost identical in x11 and wayland
 
 Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master/>
 
@@ -144,7 +145,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/mast
 Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
 
 ### mate-panel
-* 
+* New for 1.28 is a working window list under wayland, and the tray applet can now display indicators under wayland, notably network-manager-applet when it is launched with --indicator. Traditional tray icons not displayed as they use Xembed which is not supported in wayland.
 
 Complete changelog at <https://github.com/mate-desktop/mate-panel/commits/master/>
 
@@ -164,7 +165,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commit
 Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/master/>
 
 ### mate-sensors-applet
-* 
+* The sensors applet can now be used in a wayland session's panel as well as under x11 if built in-process (as needed for wayland)
 
 Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
 
@@ -184,7 +185,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/comm
 Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
 
 ### mate-terminal
-* 
+* New for 1.28 is a bugfix to allow launching x11 applications in a wayland session via xWayland
 
 Complete changelog at <https://github.com/mate-desktop/mate-terminal/commits/master/>
 
@@ -204,7 +205,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/m
 Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master/>
 
 ### mate-wayland-session
-* 
+* The dictionary panel applet can be used in a wayland session's panel as well as under x11 if built with wayland support
 
 Complete changelog at <https://github.com/mate-desktop/mate-wayland-session/commits/master/>
 
