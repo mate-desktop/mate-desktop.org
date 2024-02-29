@@ -147,8 +147,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/atril/commits/master/">https://github.com/mate-desktop/atril/commits/master/</a></p>
 <h4>caja</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>Caja can now manage icons on a wayland desktop, render the background, and change the background (wayland support is a build option). Launch in wayland sessions with &#8212;force-desktop to show desktop&nbsp;icons</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/caja/commits/master/">https://github.com/mate-desktop/caja/commits/master/</a></p>
 <h4>caja-actions</h4>
 <ul><li>
@@ -188,8 +189,7 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/marco/commits/master/">https://github.com/mate-desktop/marco/commits/master/</a></p>
 <h4>mate-applets</h4>
-<ul><li>
-</li></ul>
+<p>*Most of the panel applets will now function under wayland if built in-process. Building the applets in-process is newly supported for 1.28. The exceptions are AccessX, which relies on x11 keyboard and mouse configuration code; and Geyes, which cannot see the pointer when it it outside the panel under wayland due to how wayland works. Note that the battery applet can be used in wayland, which is important because mate-power-manager uses a lot of x11 specific code and does not work under wayland at this&nbsp;time.</p>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-applets/commits/master/">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
 <h4>mate-backgrounds</h4>
 <ul><li>
@@ -205,12 +205,14 @@
 </li>
 </ul>
 <h4>mate-control-center</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>Now works under wayland sessions as well as&nbsp;x11</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-control-center/commits/master/">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
 <h4>mate-desktop</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>A few changes were necessary to support background handling under&nbsp;wayland.</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-desktop/commits/master/">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
 <h4>mate-icon-theme</h4>
 <ul><li>
@@ -221,8 +223,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
 <h4>mate-media</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>Now supports wayland as a build time option. Behavior almost identical in x11 and&nbsp;wayland</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-media/commits/master/">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
 <h4>mate-menus</h4>
 <ul><li>
@@ -237,8 +240,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
 <h4>mate-panel</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>New for 1.28 is a working window list under wayland, and the tray applet can now display indicators under wayland, notably network-manager-applet when it is launched with &#8212;indicator. Traditional tray icons not displayed as they use Xembed which is not supported in&nbsp;wayland.</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-panel/commits/master/">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
 <h4>mate-polkit</h4>
 <ul><li>
@@ -253,8 +257,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
 <h4>mate-sensors-applet</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>The sensors applet can now be used in a wayland session&#8217;s panel as well as under x11 if built in-process (as needed for&nbsp;wayland)</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
 <h4>mate-session-manager</h4>
 <ul><li>
@@ -269,8 +274,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
 <h4>mate-terminal</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>New for 1.28 is a bugfix to allow launching x11 applications in a wayland session via&nbsp;xWayland</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-terminal/commits/master/">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
 <h4>mate-user-guide</h4>
 <ul><li>
@@ -285,8 +291,9 @@
 </li></ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-utils/commits/master/">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
 <h4>mate-wayland-session</h4>
-<ul><li>
-</li></ul>
+<ul>
+<li>The dictionary panel applet can be used in a wayland session&#8217;s panel as well as under x11 if built with wayland&nbsp;support</li>
+</ul>
 <p>Complete changelog at <a href="https://github.com/mate-desktop/mate-wayland-session/commits/master/">https://github.com/mate-desktop/mate-wayland-session/commits/master/</a></p>
 <h4>mozo</h4>
 <ul><li>
@@ -8146,7 +8153,7 @@ $(document).ready(function() {
     });
 
 $('body').watermark({
-    texts : ["Preview Website", "MATE Desktop", "9b094b95bb2e"],
+    texts : ["Preview Website", "MATE Desktop", "ef2133eeb563"],
     textColor : "#d2d2d2",
     textFont : '14px Sans',
     width : 150,
