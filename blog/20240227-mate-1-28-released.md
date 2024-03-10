@@ -31,116 +31,166 @@ The various components of MATE Desktop 1.28 are available for download here:
 Here are the gory details.
 
 ### atril
-* 
+* For comics, we now use the [libarchive](https://libarchive.org/) library to unpack documents
+* Atril now supports the newest version 4.2.1 of [webkitgtk](https://webkitgtk.org/reference/webkit2gtk/stable/).
+* Did you know that Atril can display [epub](https://www.w3.org/publishing/epub3/) documents? This feature is now documented.
+* Replace various deprecated methods with their modern counterparts
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
 
 ### caja
 * Caja can now manage icons on a wayland desktop, render the background, and change the background (wayland support is a build option). Launch in wayland sessions with --force-desktop to show desktop icons
-
+* Fixed some issues found by cppcheck
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
 
 ### caja-actions
-* 
+* Fixed some build warnings
+* Fixed a memory leak
+* Translations update
+
+Complete changelog at <https://github.com/mate-desktop/caja-actions/commits/master/>
 
 ### caja-dropbox
-* 
+* Fixed a build warning
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/master/>
 
 ### caja-extensions
-* 
+* Add the audio-video-properties plugin. This 2000+ lines of code change, let you view the exact properties of your media files directly in the file manager 
+* For the sendto extension, we now require [gupnp](https://gnome.pages.gitlab.gnome.org/gupnp/docs/) version 1.6
+* Some build and deprecation warning fixes
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/master/>
 
 ### engrampa
-* 
+* Engrampa now supports the Meson build system
+* Use [unar](https://github.com/MacPaw/XADMaster) instead of cpio for CPIO archives
+* We now support [unrar-free](https://packages.debian.org/bookworm/unrar-free)
+* Enhance the codebase
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
 
 ### eom
-* 
+* Eye of MATE now supports the Meson build system
+* Fixed some build warnings
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/eom/commits/master/>
 
 ### libmatekbd
-* 
+* Fixed some memory leaks
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/libmatekbd/commits/master/>
 
 ### libmatemixer
-* alsa: Add udev support
-* g10n: Update the translations
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/libmatemixer/commits/master/>
 
 ### libmateweather
-* 
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/master/>
 
 ### marco
-* 
+* We added a setting to to raise windows on the alt+tab popup
+* Replace various deprecated methods with their modern counterparts
+* Some small fixes
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets
-*Most of the panel applets will now function under wayland if built in-process. Building the applets in-process is newly supported for 1.28. The exceptions are AccessX, which relies on x11 keyboard and mouse configuration code; and Geyes, which cannot see the pointer when it it outside the panel under wayland due to how wayland works. Note that the battery applet can be used in wayland, which is important because mate-power-manager uses a lot of x11 specific code and does not work under wayland at this time.
+* A lot of wayland specific commits:
+   * Most of the panel applets will now function under wayland if built in-process
+   * Building the applets in-process is now supported
+   * The exceptions are AccessX, which relies on x11 keyboard and mouse configuration code; and Geyes, which cannot see the pointer when it it outside the panel under wayland due to how wayland works.
+   * Note that the battery applet can be used in wayland, which is important because mate-power-manager uses a lot of x11 specific code and does not work under wayland at this time.
+* Fixed some memory leaks
+* Accessability improvements
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-applets/commits/master/>
 
 ### mate-backgrounds
-* 
+* Fix build warnings
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
 
 ### mate-calc
-* 
+* Fixed a memory leak
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-calc/commits/master/>
 
 ### mate-common
-* 
+* As stable as always
+
 Complete changelog at <https://github.com/mate-desktop/mate-common/commits/master/>
 
 ### mate-control-center
 * Now works under wayland sessions as well as x11
+* The MATE control center now supports the Meson build system
+* Some memory leak fixes
+* The UI received small improvements
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-control-center/commits/master/>
 
 ### mate-desktop
-* A few changes were necessary to support background handling under wayland.
+* A few changes were necessary to support background handling under wayland
+* A new 'mate_image_menu_item' function api was added to support image menu items with gtk3 
+* Add support for meson
+* Some dead code was removed
+* Fixed some memory leaks
+* Fixed a lot of analyzer warnings
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/master/>
 
 ### mate-icon-theme
-* 
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
 
 ### mate-indicator-applet
-* 
+* Mouse middle-click is now supported
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
 
 ### mate-media
 * Now supports wayland as a build time option. Behavior almost identical in x11 and wayland
+* Add Meson build system support
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master/>
 
 ### mate-menus
-* 
+* Fix some build warnings
+* Add Meson build system support
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-menus/commits/master/>
 
 ### mate-netbook
-* 
+* TODO
 
 Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/master/>
 
 ### mate-notification-daemon
-* 
+* Some improvements on wayland
+* Only exit on idle when explicitly requested
+* Fix some memory leaks
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
 
