@@ -75,7 +75,6 @@ Maybe you prefer UNIX?
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 You can also [query DistroWatch.com for all the distributions that
