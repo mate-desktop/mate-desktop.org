@@ -73,7 +73,6 @@ Vagy inkább a UNIX-ot kedveli?
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [PC-BSD](https://www.trueos.org)
 -   [OS108](https://OS108.org/)
 
 Valamint a [DistroWatch.com-on is lekérdezheti azon disztribúciókat,

@@ -72,7 +72,6 @@ Potser preferiu UNIX?
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 Tambe podeu [consultar a DistroWatch.com totes les distribucions que
