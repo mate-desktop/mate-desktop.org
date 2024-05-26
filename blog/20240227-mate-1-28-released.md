@@ -14,11 +14,21 @@ It is release time once again. We worked hard to bring you the best desktop expe
 
 ## What's new in MATE 1.28
 
-This time we focused on modernizing the codebase while keeping the stability and robustness you all know and love from the MATE Desktop. This means that we removed some deprecated libaries, staying up-to-date with GTK versions and squashing a lot of bugs. In addition, we are one step closer to a native MATE-Wayland experience! 
+We are thrilled to announce the release of MATE Desktop 1.28, which brings a wealth of updates aimed at modernizing the codebase while ensuring stability and robustness. This release focuses on enhancing Wayland support, updating various applications, and fixing numerous bugs.
+
+MATE 1.28 has made significant strides in updating the codebase, including the removal of deprecated libraries and ensuring compatibility with the latest GTK versions. One of the most notable improvements is the enhanced support for Wayland, bringing us closer to a fully native MATE-Wayland experience. Several components have been updated to work seamlessly with Wayland, ensuring a more integrated and responsive desktop environment.
 
 The headline changes in MATE Desktop 1.28 are:
 
-* 
+* Atril now uses libarchive for handling comics, supports webkitgtk 4.2.1, and has documented its EPUB support. Deprecated methods have been replaced with modern counterparts to improve performance and stability.
+* Caja can now manage desktop icons, render backgrounds, and change backgrounds in Wayland sessions. These improvements enhance the user experience and bring greater functionality to Wayland users.
+* Engrampa has introduced support for the Meson build system, switched to using unar for CPIO archives, and now supports unrar-free. These updates improve compatibility and performance.
+* The Eye of MATE image viewer now supports the Meson build system and includes fixes for several build warnings, contributing to a more stable and efficient application.
+* The window manager Marco has added a new setting to raise windows on the alt+tab popup and replaced various deprecated methods to ensure better performance and user experience.
+* Many panel applets now support Wayland, with improvements for in-process building and specific applet functionality under Wayland. Memory leaks have been fixed, and accessibility improvements have been made.
+* The control center now works under both Wayland and X11 sessions, supports the Meson build system, and includes several UI and memory leak fixes.
+* Pluma has a new Quickhighlight Plugin in the pluma-plugins package.
+* MATE Terminal now has Meson build system support. Copying a file from Caja into the terminal now works as expected (it inserts the file path). Additional enhancements include support for OSC 8 hyperlinks and improvements to tab management.
 * Translations are updated. Thank you to our team of translators!
 
 The various components of MATE Desktop 1.28 are available for download here:
@@ -148,7 +158,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-control-center/commi
 ### mate-desktop
 * A few changes were necessary to support background handling under wayland
 * A new 'mate_image_menu_item' function api was added to support image menu items with gtk3 
-* Add support for meson
+* Add support for Meson
 * Some dead code was removed
 * Fixed some memory leaks
 * Fixed a lot of analyzer warnings
@@ -182,7 +192,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master
 Complete changelog at <https://github.com/mate-desktop/mate-menus/commits/master/>
 
 ### mate-netbook
-* TODO
+* Some maintenance updates
 
 Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/master/>
 
@@ -200,17 +210,23 @@ Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/
 Complete changelog at <https://github.com/mate-desktop/mate-panel/commits/master/>
 
 ### mate-polkit
-* 
+* Now with Meson support
+* Prefer Ayatana AppIndicator when building
+* Fix a segfault on Wayland
 
 Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/master/>
 
 ### mate-power-manager
-* 
+* Now with Meson support
+* Replace some deprecated functions
+* Some Wayland compatibility changes
 
 Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commits/master/>
 
 ### mate-screensaver
-* 
+* Fix a lot of warnings
+* Fix some memory leaks
+* Add a prompt-driven authentication helper
 
 Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/master/>
 
@@ -220,59 +236,79 @@ Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/
 Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
 
 ### mate-session-manager
-* 
+* Fix some memory leaks
+* Fix a crash (double-free)
 
 Complete changelog at <https://github.com/mate-desktop/mate-session-manager/commits/master/>
 
 ### mate-settings-daemon
-* 
+* Now uses GDBus instead of dbus-glib
+* Fix a memory leak
 
 Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
 
 ### mate-system-monitor
-* 
+* Now with Meson support
+* Enable systemd by default
+* Improve user interface
+* Fix some user settings not being saved
 
 Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
 
 ### mate-terminal
 * New for 1.28 is a bugfix to allow launching x11 applications in a wayland session via xWayland
+* Now with Meson support
+* Avoid unprocessed file URIs being pasted to the terminal (file path instead of file uri)
+* Tabs: only invoke naming dialog to doubleclick on tab header
+* Support IDN in mailto scheme in hyperlink tooltips
+* Add support for OSC 8 hyperlinks (HTML-like anchors)  
+* Feature: Double-click tab to set title
+* Fix some small bugs
 
 Complete changelog at <https://github.com/mate-desktop/mate-terminal/commits/master/>
 
 ### mate-user-guide
-* 
+* Fix some typos
 
 Complete changelog at <https://github.com/mate-desktop/mate-user-guide/commits/master/>
 
 ### mate-user-share
-* 
+* Translations update
 
 Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/master/>
 
 ### mate-utils
-* 
+* Replace deprecated methods
+* Fix some build warnings
+* Some Wayland fixes
+* Fix some memory leaks
 
 Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master/>
 
 ### mate-wayland-session
+* An experimental wayland session for MATE using Wayfire. First release version.
 * The dictionary panel applet can be used in a wayland session's panel as well as under x11 if built with wayland support
 
 Complete changelog at <https://github.com/mate-desktop/mate-wayland-session/commits/master/>
 
 ### mozo
-* 
+* Some UI improvements
+* Make the collection menu item removeable
 
 Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
 
 ### pluma
-* 
+* Fix some build warnings
+* Fix some memory leaks
+* Fix double activation of extensions
 
 Complete changelog at <https://github.com/mate-desktop/pluma/commits/master/>
 
 ### pluma-plugins
-* 
+* New quickhighlight plugin
+* Fix some build warnings
 
 ### python-caja
-* 
+* Some code improvements
 
 Complete changelog at <https://github.com/mate-desktop/python-caja/commits/master/>
