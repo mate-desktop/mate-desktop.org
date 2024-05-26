@@ -279,6 +279,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-user-guide/commits/m
 Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/master/>
 
 ### mate-utils
+* The dictionary panel applet can be used in a Wayland session's panel as well as under X11 if built with Wayland support.
 * Replaced deprecated methods.
 * Fixed some build warnings.
 * Some Wayland fixes.
@@ -288,7 +289,6 @@ Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master
 
 ### mate-wayland-session
 * An experimental Wayland session for MATE using Wayfire. First release version.
-* The dictionary panel applet can be used in a Wayland session's panel as well as under X11 if built with Wayland support.
 
 Complete changelog at <https://github.com/mate-desktop/mate-wayland-session/commits/master/>
 
