@@ -12,7 +12,7 @@
 
 It is release time once again. We worked hard to bring you the best desktop experience possible. A big thank you to all contributors who helped to make this happen.
 
-![MATE About dialog](/assets/img/blog/about-mate-1.26.png)
+![MATE About dialog](/assets/img/blog/about-mate-1-28.png)
 
 ## What's new in MATE 1.28
 
