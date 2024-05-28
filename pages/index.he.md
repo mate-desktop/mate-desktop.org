@@ -72,7 +72,6 @@ MATE זמינה דרך מאגרים  *בלתי רשמיים* עבור הפצות
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 ניתן גם [לתשאל את DistroWatch.com לאיתור ההפצות שתומכות

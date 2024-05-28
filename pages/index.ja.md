@@ -64,7 +64,6 @@ UNIX の方がお気に入りですか？
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 [MATE をサポートするすべてのディストリビューションは DistroWatch.com で調べる](https://distrowatch.org/search.php?desktop=MATE#distrosearch) こともできます。

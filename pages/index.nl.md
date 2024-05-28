@@ -73,7 +73,6 @@ Of op Unix:
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 Je kan ook via [DistroWatch.com alle distributies opzoeken die MATE

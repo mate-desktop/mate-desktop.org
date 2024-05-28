@@ -73,7 +73,6 @@ MATE](https://planet.mate-desktop.org), чтобы увидеть, о чём ш�
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 Посетите [DistroWatch.com](https://distrowatch.org/search.php?desktop=MATE#distrosearch), чтобы узнать

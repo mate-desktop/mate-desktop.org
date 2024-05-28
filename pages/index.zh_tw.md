@@ -66,7 +66,6 @@ MATE 在以下的 Linux 散佈版的 *非官方* 套件庫中提供：
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 您也可以 [在 DistroWatch.com 上查詢所有支援 MATE

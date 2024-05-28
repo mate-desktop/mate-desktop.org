@@ -69,7 +69,6 @@ Você prefere UNIX?
 [FreeBSD](https://freebsd.org)
 
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 -   Você pode também [consultar DistroWatch.com para saber quais
 distribuições suportam
