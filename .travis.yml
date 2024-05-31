@@ -39,7 +39,8 @@ notifications:
 deploy:
   #preview website
   - provider: pages
-    edge: true
+    edge:
+      branch: v2.0.3-beta.4 
     token: $GITHUB_TOKEN
     committer_from_gh: true
     target_branch: gh-pages
@@ -51,7 +52,8 @@ deploy:
 
   #deploy offical website
   - provider: script
-    edge: true
+    edge:
+      branch: v2.0.3-beta.4
     script: ./docker-build --config .build.yml --release scripts
     on:
       branch: master
