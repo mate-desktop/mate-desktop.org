@@ -72,7 +72,6 @@ Belki UNIX tercih edersiniz?
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 Ayrıca [MATE'yi destekleyen tüm dağıtımları DistroWatch.com sitesinde arayabilirsiniz.](https://distrowatch.org/search.php?desktop=MATE#distrosearch).

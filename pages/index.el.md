@@ -72,7 +72,6 @@ MATE](https://planet.mate-desktop.org).
 -   [GhostBSD](https://ghostbsd.org)
 -   [FreeBSD](https://freebsd.org)
 -   [OpenIndiana](https://www.openindiana.org)
--   [TrueOS](https://www.trueos.org/)
 -   [OS108](https://OS108.org/)
 
 Μπορείτε επίσης να [εξετάσετε όλες τις διανομές που υποστηρίζουν το MATE
