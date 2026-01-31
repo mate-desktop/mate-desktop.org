@@ -1,0 +1,145 @@
+baseURL = 'https://mate-desktop.org/'
+title = 'MATE Desktop Environment'
+
+enableRobotsTXT = true
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[module]
+  [[module.imports]]
+    path = 'github.com/imfing/hextra'
+
+# Summary length for blog previews (2-3 sentences)
+summaryLength = 50
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  section = ['html', 'rss']
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en'
+    weight = 1
+    title = 'MATE Desktop Environment'
+  [languages.de]
+    languageName = 'Deutsch'
+    languageCode = 'de'
+    weight = 2
+    title = 'MATE Desktop-Umgebung'
+  [languages.es]
+    languageName = 'Español'
+    languageCode = 'es'
+    weight = 3
+    title = 'Entorno de Escritorio MATE'
+  [languages.it]
+    languageName = 'Italiano'
+    languageCode = 'it'
+    weight = 4
+    title = 'Ambiente Desktop MATE'
+  [languages.ja]
+    languageName = '日本語'
+    languageCode = 'ja'
+    weight = 5
+    title = 'MATE デスクトップ環境'
+  [languages.bg]
+    languageName = 'Български'
+    languageCode = 'bg'
+    weight = 6
+    title = 'MATE Desktop Environment'
+  [languages.ca]
+    languageName = 'Català'
+    languageCode = 'ca'
+    weight = 7
+    title = "Entorn d'escriptori MATE"
+  [languages.zh-cn]
+    languageName = '简体中文'
+    languageCode = 'zh-CN'
+    weight = 8
+    title = 'MATE 桌面环境'
+  [languages.zh-tw]
+    languageName = '繁體中文'
+    languageCode = 'zh-TW'
+    weight = 9
+    title = 'MATE 桌面環境'
+
+[params]
+  description = 'MATE Desktop Environment - A continuation of GNOME 2'
+  displayUpdatedDate = true
+  dateFormat = 'January 2, 2006'
+
+  [params.search]
+    enable = true
+    type = 'flexsearch'
+    [params.search.flexsearch]
+      index = 'content'
+      tokenize = 'forward'
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = true
+    logo = { path = "images/mate.png", width = 40, height = 40 }
+
+  [params.page]
+    width = 'normal'
+
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = true
+
+  [params.editURL]
+    enable = false
+
+  [params.blog]
+    [params.blog.list]
+      displayTags = true
+      sortBy = 'date'
+      sortOrder = 'desc'
+
+[menu]
+  [[menu.main]]
+    identifier = 'download'
+    name = 'Download'
+    pageRef = '/download'
+    weight = 1
+  [[menu.main]]
+    identifier = 'documentation'
+    name = 'Documentation'
+    pageRef = '/docs'
+    weight = 2
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 3
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    pageRef = '/about'
+    weight = 4
+  [[menu.main]]
+    identifier = 'community'
+    name = 'Community'
+    pageRef = '/community'
+    weight = 5
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    weight = 6
+    [menu.main.params]
+      type = 'search'
+  [[menu.main]]
+    identifier = 'github'
+    name = 'GitHub'
+    url = 'https://github.com/mate-desktop'
+    weight = 7
+    [menu.main.params]
+      icon = 'github'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

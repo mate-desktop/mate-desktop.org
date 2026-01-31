@@ -1,0 +1,14 @@
+/* MATE Desktop custom theme colors */
+/* MATE Green: #87A752 = hsl(80, 36%, 49%) */
+
+:root {
+  --primary-hue: 80deg;
+  --primary-saturation: 36%;
+  --primary-lightness: 49%;
+}
+
+.dark {
+  --primary-hue: 80deg;
+  --primary-saturation: 40%;
+  --primary-lightness: 55%;
+}

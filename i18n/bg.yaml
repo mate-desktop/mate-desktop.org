@@ -1,0 +1,11 @@
+# Menu items
+download: Изтегляне
+documentation: Документация
+blog: Блог
+about: За нас
+community: Общност
+
+# Theme strings
+readMore: "Прочетете още →"
+copyright: "© 2025 MATE Desktop екип."
+poweredBy: "Разработено с Hugo & Hextra"

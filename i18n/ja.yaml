@@ -1,0 +1,11 @@
+# Menu items
+download: ダウンロード
+documentation: ドキュメント
+blog: ブログ
+about: 概要
+community: コミュニティ
+
+# Theme strings
+readMore: "続きを読む →"
+copyright: "© 2025 MATE Desktop チーム"
+poweredBy: "Hugo & Hextra で構築"
