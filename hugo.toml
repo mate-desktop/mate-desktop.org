@@ -124,16 +124,21 @@ summaryLength = 50
     pageRef = '/community'
     weight = 5
   [[menu.main]]
+    identifier = 'releases'
+    name = 'Releases'
+    pageRef = '/releases'
+    weight = 6
+  [[menu.main]]
     identifier = 'search'
     name = 'Search'
-    weight = 6
+    weight = 7
     [menu.main.params]
       type = 'search'
   [[menu.main]]
     identifier = 'github'
     name = 'GitHub'
     url = 'https://github.com/mate-desktop'
-    weight = 7
+    weight = 8
     [menu.main.params]
       icon = 'github'
 
