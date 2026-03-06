@@ -1,0 +1,57 @@
+name: Generate API Documentation
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 2 AM UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  doxygen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y doxygen graphviz
+
+      - name: Clone MATE source repositories
+        run: |
+          mkdir -p ../mate-src
+          repos=(
+            atril caja caja-actions caja-dropbox caja-extensions
+            engrampa eom libmatekbd libmatemixer libmateui libmateweather
+            marco mate-applets mate-backgrounds mate-calc mate-common
+            mate-control-center mate-desktop mate-dev-scripts
+            mate-icon-theme mate-indicator-applet mate-media mate-menus
+            mate-netbook mate-notification-daemon mate-panel mate-polkit
+            mate-power-manager mate-screensaver mate-sensors-applet
+            mate-session-manager mate-settings-daemon mate-system-monitor
+            mate-terminal mate-themes mate-user-guide mate-user-share
+            mate-utils mate-wayland-session mozo pluma pluma-plugins
+            python-caja
+          )
+          for repo in "${repos[@]}"; do
+            echo "Cloning $repo..."
+            git clone --depth=1 "https://github.com/mate-desktop/${repo}.git" "../mate-src/${repo}" || \
+              echo "Warning: failed to clone ${repo}, skipping."
+          done
+
+      - name: Generate documentation
+        run: doxygen .github/doxygen/Doxyfile
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/docs/api/
+          git diff --staged --quiet && echo "No changes, skipping commit." && exit 0
+          git commit -m "docs: regenerate API documentation ($(date -u +%Y-%m-%d))"
+          git push
