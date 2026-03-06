@@ -130,7 +130,7 @@ GENERATE_DEPRECATEDLIST = YES
 # Main page
 # ============================================================
 
-USE_MDFILE_AS_MAINPAGE = ../mate-src/mate-desktop/docs/doxygenMain.md
+USE_MDFILE_AS_MAINPAGE =
 
 # ============================================================
 # Graphviz / diagrams

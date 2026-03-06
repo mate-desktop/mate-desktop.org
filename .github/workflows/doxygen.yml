@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   doxygen:
@@ -50,10 +51,22 @@ jobs:
           doxygen .github/doxygen/Doxyfile
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add static/docs/api/
-          git diff --staged --quiet && echo "No changes, skipping commit." && exit 0
-          git commit -m "docs: regenerate API documentation ($(date -u +%Y-%m-%d))"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes, skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "docs: regenerate API documentation ($(date -u +%Y-%m-%d))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "$GITHUB_REF_NAME"
+        env:
+          GH_TOKEN: ${{ github.token }}
