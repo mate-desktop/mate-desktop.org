@@ -120,7 +120,6 @@ SEARCHENGINE           = YES
 
 SHOW_FILES             = YES
 SHOW_NAMESPACES        = NO
-SHOW_CLASSES           = YES
 
 GENERATE_TESTLIST      = NO
 GENERATE_BUGLIST       = NO

@@ -45,7 +45,9 @@ jobs:
           done
 
       - name: Generate documentation
-        run: doxygen .github/doxygen/Doxyfile
+        run: |
+          mkdir -p static/docs/api
+          doxygen .github/doxygen/Doxyfile
 
       - name: Commit and push
         run: |
