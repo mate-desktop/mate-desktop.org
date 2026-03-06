@@ -10,9 +10,9 @@ These distributions ship MATE as the default desktop environment:
 
 {{< cards >}}
   {{< card link="https://ubuntu-mate.org" title="Ubuntu MATE" icon="external-link" subtitle="Official Ubuntu flavor with MATE" >}}
-  {{< card link="https://linuxmint.com" title="Linux Mint MATE" icon="external-link" subtitle="User-friendly, based on Ubuntu" >}}
-  {{< card link="https://fedoraproject.org/spins/mate-compiz/" title="Fedora MATE-Compiz" icon="external-link" subtitle="Cutting-edge Fedora with MATE" >}}
-  {{< card link="https://www.debian.org" title="Debian" icon="external-link" subtitle="MATE available as a desktop option" >}}
+  {{< card link="https://www.linuxmint.com/edition.php?id=328" title="Linux Mint MATE" icon="external-link" subtitle="User-friendly, based on Ubuntu" >}}
+  {{< card link="https://fedoraproject.org/spins/mate/" title="Fedora MATE-Compiz" icon="external-link" subtitle="Cutting-edge Fedora with MATE" >}}
+  {{< card link="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/" title="Debian" icon="external-link" subtitle="MATE available as a desktop option" >}}
 {{< /cards >}}
 
 ## Installing on Your Distribution
@@ -33,7 +33,7 @@ sudo apt install mate-desktop-environment-extras
 ### Fedora
 
 ```bash
-sudo dnf groupinstall "MATE Desktop"
+sudo dnf install @mate-desktop
 ```
 
 ### Arch Linux

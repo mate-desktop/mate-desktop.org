@@ -21,7 +21,7 @@ MATE is under active development to add support for new technologies while prese
   {{< card link="applications" title="Applications" icon="cube" >}}
   {{< card link="troubleshooting" title="Troubleshooting" icon="exclamation-circle" >}}
   {{< card link="faq" title="FAQ" icon="question-mark-circle" >}}
-  {{< card link="/docs/api/html" title="API" icon="document-text" >}}
+  {{< card link="api/html" title="API" icon="document-text" >}}
 {{< /cards >}}
 
 ## Key Apps

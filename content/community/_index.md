@@ -22,29 +22,14 @@ For those who prefer Matrix:
 
 The Matrix room is bridged to IRC, so you'll be chatting with the same community.
 
-## Social Media
-
-Stay updated with MATE news:
-
-- **Twitter/X**: [@mate_desktop](https://twitter.com/mate_desktop)
-- **Mastodon**: [@mate_desktop@fosstodon.org](https://fosstodon.org/@mate_desktop)
-
-## Mailing Lists
-
-For longer discussions and announcements:
-
-- **mate-dev** - Development discussions
-- **mate-discuss** - General user discussions
-
-Subscribe via the [MATE mailing list page](https://ml.mate-desktop.org/).
 
 ## Forums
 
 Many distributions have dedicated MATE support forums:
 
 - [Ubuntu MATE Community](https://ubuntu-mate.community/)
-- [Linux Mint Forums](https://forums.linuxmint.com/)
-- [Arch Linux Forums](https://bbs.archlinux.org/)
+- [Linux Mint Forums](https://forums.linuxmint.com/viewforum.php?f=206)
+- [FreeBSD](https://forums.freebsd.org/tags/mate-desktop/)
 
 ## Development
 
@@ -68,21 +53,16 @@ Want to contribute? Here's how to get started:
 3. **Make changes** - Fix bugs or add features
 4. **Submit a pull request** - We'll review and merge
 
-See our [Contributing Guide](https://github.com/mate-desktop/mate-desktop/blob/master/CONTRIBUTING.md) for details.
 
 ### Translations
 
 Help translate MATE into your language:
 
-- **Platform**: [Transifex](https://www.transifex.com/mate/MATE/)
+- **Platform**: [Transifex](https://explore.transifex.com/mate/)
 - All strings from MATE applications are available for translation
 - No coding experience required!
 
 ## Events
-
-### Release Parties
-
-Join us when we release new versions of MATE! Announcements are made on our mailing lists and social media.
 
 ### Linux Events
 

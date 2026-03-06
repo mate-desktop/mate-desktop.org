@@ -9,7 +9,7 @@ Frequently asked questions about MATE Desktop Environment.
 
 ### What does MATE stand for?
 
-MATE is named after *yerba mate*, a species of holly native to South America, and the caffeinated drink made from it. The name was chosen because it's a continuation of GNOME (which contains letters from "mate"), and because the MATE project was started by an Argentinian developer.
+MATE is named after *yerba mate*, a species of holly native to South America, and the caffeinated drink made from it. The name was chosen because the MATE project was started by an Argentinian developer.
 
 ### Is MATE related to GNOME?
 
@@ -39,7 +39,10 @@ Yes! MATE applications like Caja, Pluma, and Atril work well on any GTK-based de
 
 ### Does MATE support HiDPI displays?
 
-Yes, MATE supports HiDPI (high resolution) displays. You can adjust the scaling in **System → Preferences → Look and Feel → Appearance → Fonts** and set the DPI manually if auto-detection doesn't work correctly.
+Yes, MATE supports HiDPI (high resolution) displays. Two settings are relevant:
+
+- **Screen scaling** — Go to **System → Preferences → Hardware → Displays** and set the scaling factor (e.g. 2× for a typical HiDPI display).
+- **Font DPI** — Go to **System → Preferences → Look and Feel → Appearance → Fonts** and set the DPI manually if auto-detection doesn't work correctly.
 
 ## Customization
 
