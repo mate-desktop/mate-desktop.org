@@ -22,18 +22,6 @@ The project began when Perberos, an Arch Linux user, started the fork. Since the
 - **Customization** - Users should control their desktop, not the other way around
 - **Performance** - Efficient use of system resources without sacrificing features
 
-## Core Applications
-
-| Application | Description |
-|------------|-------------|
-| **Caja** | File manager - browse and manage files and folders |
-| **Pluma** | Text editor - simple and easy to use |
-| **Eye of MATE** | Image viewer - view pictures and photos |
-| **Atril** | Document viewer - PDFs and other documents |
-| **Engrampa** | Archive manager - create and extract archives |
-| **MATE Terminal** | Terminal emulator - command line access |
-| **Marco** | Window manager - manages windows and compositing |
-
 ## Team
 
 MATE is developed by a team of volunteers from around the world. The project is led by a group of core developers who maintain the codebase and guide the project's direction.
@@ -59,10 +47,3 @@ MATE is free software developed by volunteers. If you find MATE useful, please c
 - Help new users in the community
 - Contribute code or translations
 - Write about MATE on your blog
-
-## Contact
-
-- **Website**: [https://mate-desktop.org](https://mate-desktop.org)
-- **GitHub**: [https://github.com/mate-desktop](https://github.com/mate-desktop)
-- **IRC**: #mate on irc.libera.chat
-- **Matrix**: #mate:libera.chat

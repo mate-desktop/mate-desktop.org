@@ -159,7 +159,4 @@ dconf reset -f /org/mate/
 
 If your issue isn't covered here:
 
-- Check the [MATE Wiki](https://wiki.mate-desktop.org)
-- Ask on IRC: #mate on irc.libera.chat
-- Ask on Matrix: #mate:libera.chat
-- Search or open an issue on [GitHub](https://github.com/mate-desktop)
+[Contact us!](/community)

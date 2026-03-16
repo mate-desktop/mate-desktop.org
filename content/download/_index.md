@@ -2,81 +2,6 @@
 title: Download
 ---
 
-MATE Desktop is available for most Linux and BSD distributions. Choose your preferred distribution below.
-
-## Distributions with MATE Pre-installed
-
-These distributions ship MATE as the default desktop environment:
-
-{{< cards >}}
-  {{< card link="https://ubuntu-mate.org" title="Ubuntu MATE" icon="external-link" subtitle="Official Ubuntu flavor with MATE" >}}
-  {{< card link="https://www.linuxmint.com/edition.php?id=328" title="Linux Mint MATE" icon="external-link" subtitle="User-friendly, based on Ubuntu" >}}
-  {{< card link="https://fedoraproject.org/spins/mate/" title="Fedora MATE-Compiz" icon="external-link" subtitle="Cutting-edge Fedora with MATE" >}}
-  {{< card link="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/" title="Debian" icon="external-link" subtitle="MATE available as a desktop option" >}}
-{{< /cards >}}
-
-## Installing on Your Distribution
-
-### Debian / Ubuntu
-
-```bash
-sudo apt update
-sudo apt install mate-desktop-environment
-```
-
-For the complete experience:
-
-```bash
-sudo apt install mate-desktop-environment-extras
-```
-
-### Fedora
-
-```bash
-sudo dnf install @mate-desktop
-```
-
-### Arch Linux
-
-```bash
-sudo pacman -S mate mate-extra
-```
-
-### openSUSE
-
-```bash
-sudo zypper install -t pattern mate
-```
-
-### Gentoo
-
-```bash
-emerge --ask mate-base/mate
-```
-
-### FreeBSD
-
-```bash
-pkg install mate-desktop
-```
-
-Or via ports:
-
-```bash
-cd /usr/ports/x11/mate-desktop && make install clean
-```
-
-### Void Linux
-
-```bash
-sudo xbps-install -S mate
-```
-
-### Solus
-
-```bash
-sudo eopkg install -c desktop.mate
-```
 
 ## Source Code
 
@@ -84,18 +9,6 @@ Build MATE from source for development or if packages aren't available:
 
 - **GitHub Organization**: [github.com/mate-desktop](https://github.com/mate-desktop)
 - **Build Instructions**: See README in each repository
-
-### Core Components
-
-| Component | Description | Repository |
-|-----------|-------------|------------|
-| mate-desktop | Core desktop libraries | [GitHub](https://github.com/mate-desktop/mate-desktop) |
-| mate-panel | Desktop panel | [GitHub](https://github.com/mate-desktop/mate-panel) |
-| caja | File manager | [GitHub](https://github.com/mate-desktop/caja) |
-| marco | Window manager | [GitHub](https://github.com/mate-desktop/marco) |
-| mate-session-manager | Session manager | [GitHub](https://github.com/mate-desktop/mate-session-manager) |
-| mate-settings-daemon | Settings daemon | [GitHub](https://github.com/mate-desktop/mate-settings-daemon) |
-| mate-control-center | Control center | [GitHub](https://github.com/mate-desktop/mate-control-center) |
 
 ## Release Archives
 
