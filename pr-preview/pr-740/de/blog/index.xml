@@ -65,7 +65,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Die verschiedenen Komponenten des MATE Desktops 1.26 können hier heruntergeladen werden:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Nähere Informationen&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nähere-informationen&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#n%c3%a4here-informationen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hier sind die blutigen Details.&lt;/p&gt;
@@ -82,7 +82,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Informationen zur Erstellungszeit können jetzt in Listenspalten hinzugefügt werden&lt;/li&gt;
@@ -100,7 +100,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-actions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Taucht zum ersten mal in dieser Veröffentlichung auf&lt;/li&gt;
@@ -113,7 +113,7 @@
 &lt;li&gt;i18n-Unterstützung hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;gksu: Befehl nicht in einem neuen Thread ausführen&lt;/li&gt;
@@ -124,7 +124,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;rar 6.00: Auflistung von Archiv-Inhalten mit verschlüsselter Dateiliste repariert&lt;/li&gt;
@@ -135,7 +135,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;UI-Dateien aktualisiert&lt;/li&gt;
@@ -145,19 +145,19 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatekdb&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekdb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekdb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Schriftgröße von Tastennamen in der Tastatur-Layout-Anzeige verringert&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;alsa: udev-Unterstützung hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Berlin Tegel entfernt&lt;/li&gt;
@@ -165,7 +165,7 @@
 &lt;li&gt;Städte in Thailand aktualisiert&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;window: Unterstützung für _GNOME_WM_STRUT_AREA hinzugefügt&lt;/li&gt;
@@ -181,7 +181,7 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;netspeed: ausgesetzte Netzwerke können jetzt ausgewählt werden&lt;/li&gt;
@@ -197,13 +197,13 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-backgrounds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-backgrounds&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-backgrounds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Neues &amp;lsquo;Something slowly gets clear&amp;rsquo; elephants-Hintergrundbild&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Portierung zur GNU MPFR/MPC-Bibliothek&lt;/li&gt;
@@ -220,12 +220,12 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;windows-applet: Fensterumrisse werden jetzt in der Alt-Tab-Ansicht angezeigt. Außerdem können Fenster optional nach oben geteilt werden (Window-Snapping)&lt;/li&gt;
@@ -242,7 +242,7 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;a11y-keyboard: capslock-beep-enable gsetting hinzugefügt&lt;/li&gt;
@@ -251,19 +251,19 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Entfernung des execution-bit von einigen png-Dateien&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-indicator-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-indicator-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-indicator-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;applet-main: GtkStock-Symbol ersetzt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ersetzung des stumm/nicht stumm-checkmenuitem mit imagemenuitem&lt;/li&gt;
@@ -271,21 +271,21 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Sammlung-Menüeintrag hinzugefügt&lt;/li&gt;
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-window: GtkStock-Symbol ersetzt&lt;/li&gt;
 &lt;li&gt;mate-maximus-autostart.desktop: Entfernung der veralteten Encoding-Taste&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Nicht-Stören-Applet hinzugefügt&lt;/li&gt;
@@ -297,7 +297,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;workspace-switcher: Untersützung für den xmonad-Fenstermanager&lt;/li&gt;
@@ -313,12 +313,12 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-power-preferences: Option zum Freischalten des Dimmens der Tastatur&lt;/li&gt;
@@ -332,7 +332,7 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-screen-saver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screen-saver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screen-saver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Wechsel der Formate von Zeit und Datum beim Sperren erlaubt&lt;/li&gt;
@@ -342,7 +342,7 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;aticonfig-Plugin wurde in der Entwicklung fallen gelassen&lt;/li&gt;
@@ -350,7 +350,7 @@
 &lt;li&gt;libsensors-plugin: Portierung zu GRegex&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Befolgen der freedesktop-Standards zur Abschaltung von autorun über die Hidden-Taste&lt;/li&gt;
@@ -362,7 +362,7 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;xsettings: Verbesserung der Qt-HiDPI-Umgebungseinstellungen&lt;/li&gt;
@@ -373,7 +373,7 @@
 &lt;li&gt;Zwei memory-leaks behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Wayland-Unterstützung hinzugefügt&lt;/li&gt;
@@ -383,7 +383,7 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Desktop-file-Validierungswarnung repariert&lt;/li&gt;
@@ -396,20 +396,20 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Entfernung des execution-bit von einigen italienischen Schaubildern&lt;/li&gt;
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Nutzung von MATE_COMPILE_WARNINGS aus mate-common&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-screenshot: Reihenfolge der unteren Knöpfe rapariert&lt;/li&gt;
@@ -420,14 +420,14 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mozo.ui von Grund auf neu geschrieben&lt;/li&gt;
 &lt;li&gt;Seltsames Verhalten beim Editieren des Sammlungsverzeichnisses behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Portierung des Anordnungs-Plugins zur neuen GtkSourceView-API.&lt;/li&gt;
@@ -447,7 +447,7 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma-plugins&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma-plugins&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma-plugins&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Taucht zum ersten mal in dieser Veröffentlichung auf&lt;/li&gt;
@@ -469,7 +469,879 @@
 &lt;li&gt;Memory-leak behoben, der von scan-build gemeldet wurde&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE-Interview von den Linux Luddites</title>
+      <link>https://mate-desktop.org/de/blog/mate-interview-with-linux-luddites/</link>
+      <pubDate>Mon, 13 Oct 2014 18:55:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/mate-interview-with-linux-luddites/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://linuxluddites.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; waren so freundlich, mich
+letzte Woche zu interviewen. Wir diskutierten die Ursprünge des &lt;a href=&#34;https://mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Desktops&lt;/a&gt;,
+seine zukünftige Ausrichtung, wie &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt; entstand und wohin es sich entwickelt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;
+wurde vorhin bereitgestellt, und ich empfehle Ihnen, bei der Linux-Luddites-Webseite
+vorbeizuschauen und den Beitrag anzuhören.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Falls Sie noch nie bei den Linux Luddites reingehört haben, sollten Sie
+sich deren Archiv zu Gemüte führen. Es ist bereits seit einigen Monaten
+eines meiner liebstes FLOSS-Podcasts, da es gute Diskussionen und Einblicke
+mit nützlichen Reviews und ersten Eindrücken von Distributionen verbindet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE 1.8 aktualisiert</title>
+      <link>https://mate-desktop.org/de/blog/2014-09-29-mate-1-8-updated/</link>
+      <pubDate>Mon, 29 Sep 2014 21:39:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-09-29-mate-1-8-updated/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sander Sweers hat mehrere aktualisierte Pakete für die MATE-1.8-Reihe released,
+welche diverse Bug-Fixes und kleinere Updates beinhalten. Einige Distributionen
+haben diese Updates bereits aufgenommen, und die anderen werden bald nachziehen.
+Die Änderungen finden Sie untenstehend:&lt;/p&gt;
+&lt;h2&gt;atril 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;atril-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#atril-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben des Absturzes wenn auf leere Zeichenfläche während des Ladens geklickt wurde&lt;/li&gt;
+&lt;li&gt;Beheben des FTBFS (gescheiterter Compile) auf dem clang-Compiler&lt;/li&gt;
+&lt;li&gt;Ergänzen von &amp;ldquo;Keywords&amp;rdquo;-Einträgen in der .desktop-Datei&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;caja 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#caja-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Reparatur der Textdarstellung ohne Hintergrund&lt;/li&gt;
+&lt;li&gt;Der rekursive Zähler (Inhalte und Größe von Ordnern) wurde auf ein Dateisystem begrenzt.&lt;/li&gt;
+&lt;li&gt;Löschen von Metadaten-Keys&lt;/li&gt;
+&lt;li&gt;Weitersenden des &amp;ldquo;button-release&amp;rdquo;-Events beim Eject-Knopf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;engrampa 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#engrampa-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fehlerbehebung beim Öffnen von Dateien in &lt;code&gt;.rar&lt;/code&gt;-Archiven&lt;/li&gt;
+&lt;li&gt;Behebung potentieller Fehler bei bestimmten passwortgeschützten &lt;code&gt;.rar&lt;/code&gt;-Archiven&lt;/li&gt;
+&lt;li&gt;Hinzufügen des &amp;ldquo;Keywords&amp;rdquo;-Eintrags zur .desktop-Datei&lt;/li&gt;
+&lt;li&gt;Aktualisieren mehrerer Man-Pages&lt;/li&gt;
+&lt;li&gt;Selektierte Applikation wird nicht mehr als System-Voreinstellung verwendet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;eom 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#eom-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben von Bindestrich-als-Minuszeichen-Problemen&lt;/li&gt;
+&lt;li&gt;Die Scrollbalken erhalten ein Update, wenn die Displaygröße im &amp;ldquo;normal size&amp;rdquo;-Modus verändert wird&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;marco 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#marco-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben von Problemen mit maximierten Java-Anwendungen&lt;/li&gt;
+&lt;li&gt;Hinzufügen von &amp;ldquo;_GTK_FRAME_EXTENTS&amp;rdquo;-Hints für GTK3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-applets 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-applets-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fehlerbehebung beim Datei-Encoding&lt;/li&gt;
+&lt;li&gt;Hinzufügen und Aktualisieren mehrerer Man-Pages&lt;/li&gt;
+&lt;li&gt;Aktualisieren der policykit-Vendor-URL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-control-center 1.8.3&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center-183&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-control-center-183&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben eines Tippfehlers in &amp;ldquo;togglekeys-enable&amp;rdquo; (a11y)&lt;/li&gt;
+&lt;li&gt;Beheben einer Schutzverletzung bei der angepassten Tastaturbelegung&lt;/li&gt;
+&lt;li&gt;metacity-2-Themes werden nun im Erscheinungsbild-Applet unterstützt.&lt;/li&gt;
+&lt;li&gt;Hinzufügen mehrerer Man-Pages&lt;/li&gt;
+&lt;li&gt;Ergänzen von &amp;ldquo;Keywords&amp;rdquo;-Einträgen in der .desktop-Datei&lt;/li&gt;
+&lt;li&gt;Anpassen des Marco-WM-Namens&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-netbook 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-netbook-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben einer Schutzverletzung beim Laden eines Applets&lt;/li&gt;
+&lt;li&gt;Hinzufügen einer Man-Page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-panel 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-panel-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fehlerbehebung beim &amp;ldquo;Zum Panel hinzufügen&amp;rdquo;-Kontextmenüs bei der Verwendung mehrerer Monitore&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-power-manager 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-power-manager-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben der &amp;ldquo;levels is 0&amp;rdquo;-Warnung wenn kein kbd-Backlight existiert&lt;/li&gt;
+&lt;li&gt;Neue Unterstützung für die upower-0.99-API&lt;/li&gt;
+&lt;li&gt;Ergänzen von &amp;ldquo;Keywords&amp;rdquo;-Einträgen in der .desktop-Datei&lt;/li&gt;
+&lt;li&gt;Entfernen der &lt;em&gt;&amp;ldquo;Batterie-Rückruf&amp;rdquo;&lt;/em&gt;-Abhandlung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-screen-saver 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screen-saver-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-screen-saver-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Beheben einer Schutzverletzung bei fehlendem XRANDR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-settings-daemon 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-settings-daemon-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;googlemusicframe wurde durch nuvolaplayer ersetzt.&lt;/li&gt;
+&lt;li&gt;Aktualisieren des Schemas zum Nutzen des Toggle-Shell-Skripts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-system-tools 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-tools-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-system-tools-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;liboobs-Fehler werden nun in der Callback-Function von &lt;code&gt;mate-users-admin&lt;/code&gt; korrekt behandelt.&lt;/li&gt;
+&lt;li&gt;Entfernen einer potentiellen Schutzverletzung beim Beenden von &lt;code&gt;mate-users-admin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-terminal 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-terminal-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fehlerbehebung beim Öffnen eines neuen Terminals in einem Tab&lt;/li&gt;
+&lt;li&gt;Doppelpunkt zu PATHCHARS_CLASS für die URL-Erkennung hinzugefügt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-utils 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-utils-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ergänzen von &amp;ldquo;Keywords&amp;rdquo;-Einträgen in der .desktop-Datei&lt;/li&gt;
+&lt;li&gt;Korrektur mehrerer Man-Pages&lt;/li&gt;
+&lt;li&gt;Behebung der  format-security-Warnung in &lt;code&gt;gsearchtool&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;python-caja 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;python-caja-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#python-caja-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Verwendet jetzt &lt;code&gt;pkg-config&lt;/code&gt; für Python-Erkennung und Variablen&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Debian- und Ubuntu-Pakete auf mate-desktop.org entfernt</title>
+      <link>https://mate-desktop.org/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link>
+      <pubDate>Thu, 25 Sep 2014 11:34:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dank der Arbeit der &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Paketverwalter für Debian&lt;/a&gt;
+ist MATE 1.8.1 in Debian Jessie (Testing) und in &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; für Wheezy verfügbar.&lt;/p&gt;
+&lt;p&gt;Als Folge der Aufnahme von MATE 1.8.1 in die Repositorien von Debian Testing in diesem Jahr
+findet sich MATE 1.8.1 auch in dem offiziellen Archiv von Ubuntu 14.10 Utopic Unicorn.
+Das &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu-MATE-Team&lt;/a&gt; hat kürzlich einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
+erstellt, der Aufforderung des &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
+folgend. Weiterhin erstellte das Team einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 12.04 Precise Pangolin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wenn Sie die MATE-Pakete für Debian oder Ubuntu benötigen, dann sind die obenstehenden Paket-Repositorien die offiziellen Quellen.&lt;/p&gt;
+&lt;p&gt;Wir haben die auf mate-desktop.org gehosteten Paket-Repositorien entfernt,
+da einige unsigniert waren und andere seit Monaten nicht gepflegt wurden.
+Daher werden die Debian- und Ubuntu-Paket-Repositorien nun nicht länger auf mate-desktop.org angeboten.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE in openSUSE</title>
+      <link>https://mate-desktop.org/de/blog/2014-05-10-mate-in-opensuse/</link>
+      <pubDate>Sat, 10 May 2014 10:03:06 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-05-10-mate-in-opensuse/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Das openSUSE-MATE-Team ist stolz, die Verfügbarkeit von MATE 1.8 für openSUSE
+bekanntgeben zu können. Die Pattern sind nicht mehr verfügbar und werden es auch
+nicht mehr werden, da MATE nun offiziell in openSUSE aufgenommen wurde.
+Wir können openSUSE 12.2 nicht mehr unterstützen. Die Abhängigkeiten liegen
+dort nicht in der benötigten Version vor.
+Wir haben die Struktur unserer Repositorien geändert, damit niemand seine
+Repositorien für jedes Update extra anpassen muss.
+Jetzt gibt es nur einen Ort, X11:MATE:Current.&lt;/p&gt;
+&lt;p&gt;Zur Installation ersetzen oder ergänzen Sie bitte unser Repository:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE-Projekte akzeptiert für GSoC 2014</title>
+      <link>https://mate-desktop.org/de/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link>
+      <pubDate>Mon, 28 Apr 2014 06:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Nach mehreren Wochen der Prüfung ist die Bewerbungs- und Auswahlrunde für
+den 2014 Google Summer of Code (GSoC) vorbei. 4.420 Studenten schlugen insgesamt
+6.313 Projekte für diesen Sommer vor. Aus diesem Kreise wurden 1.307 Studenten akzeptiert,
+und das MATE-Desktop-Projekt ist eines der 190 OpenSource-Projekte, die mit
+Studenten in diesem Jahr zusammenarbeiten werden.&lt;/p&gt;
+&lt;p&gt;In unserem zweiten Jahr als GSoC-Mentororganisation erhielt das MATE-Team
+vier Studenten-Vorschläge, und drei Plätze wurden für die studentischen Projekte
+genehmigt.&lt;/p&gt;
+&lt;p&gt;Es freut mich, unsere GSoC-Studenten für 2014 bekanntzugeben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avishkar Gupta wird daran arbeiten, Atril &amp;ndash; den Dokumentenbetrachter des MATE-Desktops &amp;ndash;
+um Fähigkeiten zur Darstellung von ePub zu erweitern.&lt;/li&gt;
+&lt;li&gt;Michal Ratajsky wird daran arbeiten, Unterstützung für GStreamer 1.0 in
+den MATE-Desktop einzubauen, um dadurch die Abhängigkeit zu der veralteten Version 0.10
+dieser Bibliothek zu ersetzen.&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij wird an Verbesserungen der Caja-Extensions arbeiten, damit
+diese während der Laufzeit eingebunden werden können. Er wird auch
+ein gemeinsames User Interface für die Konfiguration der Caja-Extensions erstellen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Heißen wir diese neuen Mitwirkenden gemeinsam willkommen im MATE-Team, und
+wünschen wir ihnen größtmöglichen Erfolg bei ihren jeweiligen Projekten im Sommer.&lt;/p&gt;
+&lt;p&gt;Im Namen des gesamten MATE-Teams möchte ich ferner meinen Dank und meine Wertschätzung
+aussprechen gegenüber &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;, unsere GSoC-Organisatoren
+für 2014. Sie haben fantastische Arbeit dabei geleistet, das MATE-Team bei
+der Sicherung dieser GSoC-Platzierungen zu unterstützen, welche dringend benötigte
+Entwicklungstätigkeiten in das Projekt einfließen lassen werden.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>galculator kommt zu MATE 1.10</title>
+      <link>https://mate-desktop.org/de/blog/2014-03-17-galculator-is-coming-to-mate/</link>
+      <pubDate>Mon, 17 Mar 2014 07:38:45 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-03-17-galculator-is-coming-to-mate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Das MATE-Team verkündet stolz die Zusammenarbeit mit dem
+&lt;a href=&#34;http://galculator.mnim.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;galculator&lt;/a&gt;-Team, und dass galculator
+das Programm &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10 ersetzen wird.&lt;/p&gt;
+&lt;h2&gt;Was ist galculator?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;was-ist-galculator&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#was-ist-galculator&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Auszug aus der galculator-Website:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;galculator is a GTK 2 / GTK 3 based calculator with ordinary
+notation/reverse polish notation (RPN), a formula entry mode,
+different number bases (DEC, HEX, OCT, BIN) and different units of
+angular measure (DEG, RAD, GRAD). It supports quad-precision
+floating point and 112-bit binary arithmetic.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Zu galculators wesentlichen Merkmalen gehören:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Algebraischer Modus, UPN (Umgekehrte Polnische Notation), Formeleingabe und Papier-Modus&lt;/li&gt;
+&lt;li&gt;Dezimale, hexadezimale, oktale und binäre Zahlenbasis&lt;/li&gt;
+&lt;li&gt;Unterstützung für Bogenmaß, Gradmaß und Gon&lt;/li&gt;
+&lt;li&gt;Einfacher und wissenschaftlicher Modus&lt;/li&gt;
+&lt;li&gt;Benutzer-definierte Konstanten und Funktionen&lt;/li&gt;
+&lt;li&gt;Trigonometrische Funktionen, Potenzieren, Quadratwurzel, natürlicher und dekadischer Logarithmus, inverse und hyperbolische Funktionen&lt;/li&gt;
+&lt;li&gt;Binäre Arithmetik konfigurierbarer Bitgröße und Vorzeichenbehaftung&lt;/li&gt;
+&lt;li&gt;Vierfache Genauigkeit für Gleitkomma-Arithmetik&lt;/li&gt;
+&lt;li&gt;112-Bit Binär-Arithmetik&lt;/li&gt;
+&lt;li&gt;Kopieren und Einfügen&lt;/li&gt;
+&lt;li&gt;Verfügbar in mehr als 20 Sprachen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wie MATE auch, ist galculator GTK2 und GTK3 verbunden und wird aktiv
+weiterentwickelt.&lt;/p&gt;
+&lt;h2&gt;Warum wird mate-calc fallengelassen?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;warum-wird-mate-calc-fallengelassen&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#warum-wird-mate-calc-fallengelassen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Obwohl &lt;code&gt;mate-calc&lt;/code&gt; funktioniert, fehlen ihm viele Funktionen, die von
+einem modernen Desktop-Taschenrechner erwartet werden. Das MATE-Team ist klein
+und verfügt über wenig Resourcen. Und wenn möglich, suchen wir die Zusammenarbeit
+mit anderen Projekten, die MATE bereichern und den Entwicklungsaufwand
+für das MATE-Team reduzieren. galculator passt in dieser Hinsicht perfekt.&lt;/p&gt;
+&lt;h2&gt;Was hat das galculator-Team davon?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;was-hat-das-galculator-team-davon&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#was-hat-das-galculator-team-davon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;galculator bleibt ein völlig eigenständiges Projekt, aber wir hoffen,
+dass die Aufnahme in MATE den galculator-Nutzerkreis erweitert, seine Bekanntheit
+steigert und neue Mitwirkende zu dem Projekt lockt.
+Zu diesem Zweck wird das MATE-Team die galculator-Übersetzungen als eine Resource im
+&lt;a href=&#34;https://www.transifex.com/organization/mate/dashboard/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Transifex Projekt&lt;/a&gt; hosten.
+Wir sind guter Hoffnung, dass die etwa 300 heroischen MATE-Übersetzer galculator bereitwillig einbeziehen
+und zu den circa ~20 bereits von galculator unterstützen Sprachen weitere Beiträge leisten werden.&lt;/p&gt;
+&lt;h2&gt;Ich erstelle Pakete. Was bedeutet das für mich?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ich-erstelle-pakete-was-bedeutet-das-für-mich&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ich-erstelle-pakete-was-bedeutet-das-f%c3%bcr-mich&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wenn Sie ein MATE-Paketverwalter sind, dann beginnen Sie mit dem Erstellen
+von galculator-Paketen für Ihre Distribution, falls sie noch
+nicht existieren. Fügen Sie galculator dem MATE-Meta-Paketen bzw. Paketgruppen
+hinzu. MATE 1.10 ist noch ein gutes Stück entfernt, Sie haben also noch reichlich Zeit.&lt;/p&gt;
+&lt;p&gt;Hoffentlich können Sie unserer Begründung folgen und sehen die gegenseitigen
+Vorteile dieser Partnerschaft. Teilen Sie uns Ihre Meinung in den Kommentaren mit.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE-Desktop singt den BlueZ</title>
+      <link>https://mate-desktop.org/de/blog/2014-03-11-mate-desktop-singing-the-bluez/</link>
+      <pubDate>Tue, 11 Mar 2014 07:45:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Das MATE-Team freut sich bekanntzugeben, dass wir mit dem
+&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman-Projekt&lt;/a&gt; zusammenarbeiten
+und dabei helfen, Blueman auf BlueZ 5.x zu aktualisieren.&lt;/p&gt;
+&lt;h2&gt;Warum wird mate-bluetooth fallengelassen?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;warum-wird-mate-bluetooth-fallengelassen&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#warum-wird-mate-bluetooth-fallengelassen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; unterstützt BlueZ 4.x, das nicht weiter entwickelt wird.
+Außerdem haben viele Distributionen in ihren Repositorien BlueZ 4.x mit BlueZ 5.x ersetzt, oder sie sind im Begriff, es zu tun.
+&lt;code&gt;mate-bluetooth&lt;/code&gt;  nach BlueZ 5.x zu migrieren stellte sich als sehr mühselig heraus, und das Programm bietet nicht den Funktionsumfang, der in Blueman zu finden ist.&lt;/p&gt;
+&lt;h2&gt;Warum Blueman? Ist es nicht tot?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;warum-blueman-ist-es-nicht-tot&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#warum-blueman-ist-es-nicht-tot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Obwohl das originale Blueman-Projekt stagnierte, hat &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt;
+die Entwicklung wieder angetrieben und damit begonnen, Blueman auf BlueZ 5.x zu portieren.
+Während es durchaus auch einige Mühen kosten wird, Blueman für eine Unterstützung von BlueZ 5.x weiterzuentwickeln,
+haben wir das Gefühl, es wird ein deutlich besseres Bluetooth-Interface für MATE bieten.&lt;/p&gt;
+&lt;h2&gt;Wann wird der aktualisierte Blueman verfügbar sein?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wann-wird-der-aktualisierte-blueman-verfügbar-sein&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wann-wird-der-aktualisierte-blueman-verf%c3%bcgbar-sein&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Aufmerksamen unter Ihnen werden bemerkt haben, wie schon in der &lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;MATE1.8 Release-Ankündigung &lt;/a&gt; erwähnt, &lt;code&gt;mate-bluetooth&lt;/code&gt; durch Blueman ersetzt wurde.
+Und die besonders Aufmerksamen werden ferner bemerkt haben, dass eine neue Version von Blueman bis jetzt nicht veröffentlicht wurde.
+Ja &amp;ndash; das war ein Fehler. Es tut uns leid.&lt;/p&gt;
+&lt;p&gt;Auch wenn wir diesen Fehler zugeben, tragen wir aktiv zu den Anstrengungen bei Blueman für BlueZ 5.x und GObject-Introspektion anzupassen.
+Wir hoffen, es rechtzeitig fertig zu haben für MATE 1.8.1, das primär als Bugfix-Release gedacht ist.&lt;/p&gt;
+&lt;h2&gt;Könnt ihr nicht schneller arbeiten, verdammt?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;könnt-ihr-nicht-schneller-arbeiten-verdammt&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#k%c3%b6nnt-ihr-nicht-schneller-arbeiten-verdammt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Klar. Jeder mit Kentnis über BlueZ 4.x/5.x, dbus, PyGObject and PyGTK ist dazu aufgefordert
+eine Verbesserung &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman GitHub repository&lt;/a&gt; beizutragen.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE nimmt am GSoC 2014 teil</title>
+      <link>https://mate-desktop.org/de/blog/2014-03-10-mate-desktop-gsoc-2014/</link>
+      <pubDate>Mon, 10 Mar 2014 13:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-03-10-mate-desktop-gsoc-2014/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Das MATE-Team freut sich sehr, die Teilnahme am
+&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt; bekanntzugeben.
+Dies geschieht in Partnerschaft mit unseren guten Freunden von &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Über Google Summer of Code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;über-google-summer-of-code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%c3%bcber-google-summer-of-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Google Summer of Code (meist &amp;ldquo;GSoC&amp;rdquo; genannt) ist ein weltweites Programm,
+das studierenden Entwicklern Stipendien anbietet, um Programmcode für verschiedene
+quelloffende Software-Projekte zu schreiben.  GSoC arbeitet zusammen mit vielen Open-Source-,
+Freie-Software- und technikbezogenen Gruppen daran, Projekte auszumachen und
+über eine Zeitspanne von drei Monate zu finanzieren. Seit den Anfängen in 2005
+hat das Programm weltweit über 7500 erfolgreiche studentische Teilnehmer aus 97 Ländern mit
+über 7000 Mentoren aus über 100 Ländern zusammengebracht, um mehr als 50 Millionen Zeilen
+Programmcode zu schreiben. Durch Google Summer of Code werden akzeptierte studierende Bewerber
+einem oder mehreren Mentoren von teilnehmenden Projekten anvertraut, wodurch
+sie Einblicke in die professionelle Softwareentwicklung erhalten und
+sich in Beziehung mit ihrer akademischen Laufbahn stehende Anstellungsmöglichkeiten aufzeigen.
+Den teilnehmenden Projekte wiederum haben es einfacher, neue Entwickler zu entdecken und
+anzuwerben. Zu guter Letzt wird mehr Quellcode geschrieben und veröffentlicht,
+zum Nutzen und Wohle aller.&lt;/p&gt;
+&lt;h2&gt;Für Studenten&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;für-studenten&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#f%c3%bcr-studenten&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
+( &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/open-source/gsoc/faq)&lt;/a&gt;.
+Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme
+beitragen wollen, sollten Sie das folgende lesen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zusammengefasst lauten die MATE-Projektideen für GSoC 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ePub-Format-Unterstützung in Atril&lt;/li&gt;
+&lt;li&gt;GStreamer-1.0-Unterstützung&lt;/li&gt;
+&lt;li&gt;Plugin-System für Caja&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wie immer ist es wichtig, frühzeitig zu starten und mit den Mentoren und der weiteren
+Community in Kontakt zu treten. Das Beheben von Bugs, das Setzen von &amp;ldquo;pull requests&amp;rdquo; und
+die Arbeit an Machbarkeitsstudien (Proof of Concepts) bieten sich für den Anfang an.&lt;/p&gt;
+&lt;p&gt;Die GSoC-2014-Mentoren für MATE sind Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; auf IRC)
+und Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; auf IRC). Der beste Weg,
+mit den MATE-Mentoren in Kontakt zu treten ist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC-Channel auf Libera Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate:libera.chat Matrix-Room&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE auf GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wir freuen uns auf eure Bewerbungen!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE 1.8 freigegeben</title>
+      <link>https://mate-desktop.org/de/blog/2014-03-04-mate-1-8-released/</link>
+      <pubDate>Tue, 04 Mar 2014 21:39:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-03-04-mate-1-8-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Es erfüllt das Team mit Stolz, das Release des MATE-Desktops 1.8 bekanntzugeben.
+Wir möchten jedem Mitwirkenden und jedem MATE-Nutzer danken.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Die wesentlichen Änderungen in 1.8 sind:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caja (Datei-Manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Option hinzugefügt, um IEC-Einheiten anstatt von SI-Einheiten zu verwenden&lt;/li&gt;
+&lt;li&gt;Option “Übergeordneten Ort öffnen” im Kontextmenü der Suchansicht hinzugefügt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Marco (Window-Manager)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Side-by-Side-Tiling hinzugefügt (Fenster-Einrastung)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Panel&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unterstützung für Metacity-Tastaturbelegung im &amp;ldquo;Start&amp;rdquo;-Dialog und Hauptmenü hinzugefügt&lt;/li&gt;
+&lt;li&gt;Hinzufügen eines Fortschrittsbalkens zum Logout-Dialog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kontrollcenter&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hinzufügen der Unterstützung zum Verwenden von Metacity als Window-Manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;MATE-Desktop-Bibliothek&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MATE-Bedienungsanleitung hinzugefügt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Eye Of MATE (Bildbetrachter)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shuffle-Modus zur Slideshow hinzugefügt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Engrampa (Datei-Packprogramm)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Das “Extrahieren nach”-Kontextmenu erscheint nun immer in Caja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bildschirmschoner&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anzeigen des Datums und der Uhrzeit im Sperr-Dialog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Applets&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Undo-Funktionalität zum StickyNote-Applet hinzugefügt&lt;/li&gt;
+&lt;li&gt;Neues “command”-Applet hinzugefügt, das die Ausgabe eines Befehls anzeigt&lt;/li&gt;
+&lt;li&gt;“timer”-Applet neu in C implementiert&lt;/li&gt;
+&lt;li&gt;Das Klicken mit der mittleren Maustaste auf das Volume-Applet (de-)aktiviert die Stummschaltung.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Entfernte Pakete&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ersetzen der &lt;code&gt;mate-doc-utils&lt;/code&gt; durch &lt;code&gt;yelp-tools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ersetzen von &lt;code&gt;libmatekeyring&lt;/code&gt; und &lt;code&gt;mate-keyring&lt;/code&gt; durch &lt;code&gt;libsecret&lt;/code&gt; und &lt;code&gt;gnome-keyring&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ersetzen von &lt;code&gt;libmatewnck&lt;/code&gt; durch &lt;code&gt;libwnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ersetzen von &lt;code&gt;mucharmap&lt;/code&gt; durch &lt;code&gt;gucharmap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ersetzen von &lt;code&gt;mate-bluetooth&lt;/code&gt; durch &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blueman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mergen aller Caja-Extensions in ein einzelnes Paket&lt;/li&gt;
+&lt;li&gt;Entfernen des ModemLights-Applet, da das Netspeed-Applet eine ähnliche Funktionalität bietet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sonstige Verbesserungen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Beseitigen einer Menge veralteten Codes&lt;/li&gt;
+&lt;li&gt;Beseitigen einer Menge Bugs&lt;/li&gt;
+&lt;li&gt;Verbesserung des Build-Systems&lt;/li&gt;
+&lt;li&gt;Hinzufügen und Verbessern einer Menge Übersetzungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Wie gewöhlich fragten wir Mitarbeiter von Distributionen, die MATE anbieten,
+was sie von unserer Desktop-Umgebung halten.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mike Gabriel&lt;/strong&gt;, &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I forsee MATE being one of the most used desktop environments in Debian Jessie (and beyond).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tom Wijsman&lt;/strong&gt;, &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Some of our users express that they want to stay with GNOME 2; because they
+like how things used to be, they run older hardware or they want a more
+lightweight desktop. Given that GNOME 2 became unsupported and will eventually
+be removed from our meta distribution due to various maintenance, regression and
+security issues; MATE brings back all the glory with an active development team.
+Their continuation of GNOME 2&amp;rsquo;s development fixes outstanding issues, brings new
+and useful features and keeps the good old experience alive and kicking.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MATE shared the same basic philosophies of Slackware, such as simplicity,
+stability, and no fixed release schedule. It will be released when it&amp;rsquo;s ready
+and preserving the same metaphor which is proven to be working well. MATE is
+also easy to be maintained and integrated on top of Slackware since Patrick
+Volkerding has given a solid foundation as the base layer in which MATE could
+fill the need of GNOME-based Desktop Environment which Slackware lack of since&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2005&#34;&gt;
+&lt;li&gt;I&amp;rsquo;m looking forward for the evolutionary changes that MATE developers
+will integrate for the next major release of MATE.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MATE is a great desktop environment for those who like the old GNOME 2
+experience.  I greatly appreciate all the hard work that is put into MATE
+to keep it stable and mature yet at the same time incorporating new bits
+where appropriate.  The effort to keep MATE agnostic in terms of the user&amp;rsquo;s
+operating system or distribution is also to be applauded.  I enjoy being a
+part of the MATE SlackBuilds project, which aims to bring the MATE desktop
+to the Slackware Linux community.  Thanks to the entire MATE team!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Benjamin Denisart&lt;/strong&gt;, &lt;a href=&#34;https://www.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; MATE-Maintainer:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The openSUSE team wants to thank the MATE developers for their efforts in
+providing this new version and is proud to announce the availability
+of &lt;code&gt;gnome-main-menu&lt;/code&gt;, which will please users attracted by a traditional and
+easy to use desktop. It&amp;rsquo;s a pleasure for us to work with the MATE team and we
+want to send them our congratulations.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;-Gründer und Projektleiter:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MATE proudly carries the colors of GNOME 2 and continues where the project
+left off. In many ways and for many people MATE just feels like home.
+It&amp;rsquo;s simple, stable and full featured. While more recent desktops experiment
+with new concepts, MATE provides an environment which works exactly as you&amp;rsquo;d
+expect it. It&amp;rsquo;s popular with our users and it&amp;rsquo;s the desktop on top of which
+Linux Mint built its technology and identity since 2006. We&amp;rsquo;re very proud
+and very happy to support MATE and delighted with each and every new release.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, MATE-Maintainer in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;During the Fedora 15/16 releases I was very dissatisfied with the desktop
+solutions on offer. After 10 months of using XFCE I discovered MATE and decided
+to build my own desktop for Fedora in December 2011. This work resulted in the
+first external MATE Desktop repository for Fedora and was used by many users
+worldwide, including Fedora spins based on my packages in Russia, Latvia and
+Indonesia. The corollary to this work was to bring the MATE Desktop
+inside official Fedora together with Dan Mashal for Fedora 18. Two releases
+later we have a stable and usable MATE 1.6 desktop solution in Fedora 20. MATE
+1.8 is currently in Fedora rawhide and will be released with Fedora 21 in the
+summer of 2014.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;, MATE-Maintainer für &lt;a href=&#34;https://www.archlinux.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MATE was originally created by an Arch Linux user and I am delighted that MATE
+is now available in the official Arch Linux and Arch Linux ARM package
+repositories. MATE provides a complete, fully integrated, responsive traditional
+desktop experience and consistent work flow on my &lt;a href=&#34;www.raspberrypi.org&#34;&gt;Raspberry Pi&lt;/a&gt;,
+&lt;a href=&#34;https://www.solid-run.com/cubox&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox Pro&lt;/a&gt;, laptop and desktop. Brilliant!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;MATE 1.8 ist das Resultat von elf Monaten intensiver Entwicklungsarbeit und enhält 1845
+Beiträge von 57 Personen sowie 291 Übersetzern.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mate-desktop.org/gallery/1.8/&#34;&gt;MATE 1.8-Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Hilfe bei der Übersetzung von MATE erbeten</title>
+      <link>https://mate-desktop.org/de/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zeigen Sie ihre Liebe für das MATE-Projekt an diesem Valentinstag. Überschütten Sie
+uns mit Übersetzungen.&lt;/p&gt;
+&lt;p&gt;Übersetzer sind die unbesungenen Helden des MATE-Entwicklungs-Teams,
+und wieder einmal wenden wir uns an sie, bei der Verbesserung des Projekts mitzuhelfen.
+MATE 1.7 befindet sich weitgehend im finalen Teststadium und in der Qualitätssicherung,
+und MATE 1.8 wird bald für das Release vorbereitet werden.&lt;/p&gt;
+&lt;p&gt;Daher bitten wir Sie, den Stand der MATE-Übersetzungen, zu denen Sie beitragen,
+auf Transifex zu überprüfen und sie baldmöglichst zu aktualisieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Falls Sie noch kein Mitglied des Übersetzer-Teams sind, aber gerne mithelfen möchten,
+dann &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;melden Sie sich kostenlos an bei Transifex&lt;/a&gt;,
+so dass Sie anfangen können, zu MATE beizusteuern. Wir würden es wirklich schätzen.&lt;/p&gt;
+&lt;p&gt;Es gibt momentan sechs Sprachen mit einer Abdeckung von 100%. Wir sind gespannt,
+wie viele weitere Sprachen eine vollständige Abdeckung vor dem Release von MATE 1.8 erreichen.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Neuordnung der MATE-Desktop-Roadmap</title>
+      <link>https://mate-desktop.org/de/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link>
+      <pubDate>Thu, 13 Feb 2014 06:43:12 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Vor einigen Tagen postete &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
+eine zusammenfassende Ankündigung auf der &lt;code&gt;mate-dev&lt;/code&gt;-Mailing-Liste über die Entscheidung,
+die MATE-Desktop-Roadmap zu überarbeiten.&lt;/p&gt;
+&lt;p&gt;Im Wesentlichen wurde die Unterstützung von GTK3 auf MATE 1.10 verschoben,
+da noch eine Menge Arbeit vor uns liegt, sie wirklich stabil zu bekommen.
+Daher wird MATE 1.8 weiterhin auf GTK2 basieren, obwohl GTK3-Applikationen sich
+genauso sauber einfügen wie schon unter MATE 1.6. Die aktualisierte Roadmap findet
+sich in unserer Wiki:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Diese Entscheidung wurde deshalb getroffen, weil die momentane Entwicklungs-Version
+von MATE stabil ist, viele neue Features sowie Verbesserungen und Bug-Fixes beeinhaltet.
+Wir möchten all die &lt;em&gt;&amp;ldquo;Schönen Dinge&amp;rdquo;&lt;/em&gt; ™ an unsere Nutzer weitergeben, damit
+diese an unseren bisherigen Fortschritten teilhaben können.&lt;/p&gt;
+&lt;p&gt;Sie können die originale Mail und die darauf folgenden Kommentare lesen auf:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Die bisherige Resonanz war positiv. Was ist Ihre Meinung?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stefano stellt MATE auf der FOSDEM 2014 vor</title>
+      <link>https://mate-desktop.org/de/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link>
+      <pubDate>Fri, 07 Feb 2014 14:16:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Am 1. Februar 2014 hielt &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
+seine Präsentation über MATE auf der &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Die Präsentation macht MATE denjenigen bekannt, welche davon noch nicht gehört
+haben, und erläutert den Ursprung des Projekts. Zunächst werden die Unterschiede
+zwischen MATE und anderen herkömmlichen GTK-basierenden Desktop-Umgebungen erörtert.
+Danach erklärt Stefano, wie MATE sich entwickelt hat, seit es von GNOME2 geforkt wurde.
+Eine kurze Auswertung der jüngeren Verbesserungen findet statt, gefolgt von
+einer Übersicht über der MATE-Roadmap und anderen Projekten, die
+von MATE profitieren, z.B. &lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;,
+&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt; und &lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/iwQ7iqNwRKs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Mythen über den MATE-Desktop aufgeklärt</title>
+      <link>https://mate-desktop.org/de/blog/2014-02-05-mate-desktop-mythbusting/</link>
+      <pubDate>Wed, 05 Feb 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-02-05-mate-desktop-mythbusting/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ich geriet in die glückliche Situation, zu der Episode 26 des
+&lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxun/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux-Unplugged&lt;/a&gt;-Podcasts
+eingeladen zu werden, um dort ein wenig über den MATE-Desktop, und wohin er sich
+entwickelt, zu sprechen. Das MATE-Mythbusting-Video finded sich unten eingebettet.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/sRNK9QnnvCo?start=603&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Es gelang mir nicht, alle Entwicklungs-Ziele für MATE 1.8 in der verfügbaren
+Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht die
+&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Roadmap&lt;/a&gt; anzuschauen.&lt;/p&gt;
+&lt;p&gt;Sollten Sie weitere Fragen haben, oder zu dem Projekt beitragen wollen,
+dann freuen wir uns auf einen Chat mit Ihnen im &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC-Channel&lt;/a&gt;
+oder auf die Durchsicht Ihrer &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pull-Requests auf GitHub&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE-Desktop Live-CD</title>
+      <link>https://mate-desktop.org/de/blog/2014-01-30-mate-desktop-live-cd/</link>
+      <pubDate>Thu, 30 Jan 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-01-30-mate-desktop-live-cd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Das MATE-Team hat eine Live-CD erstellt, die einen vollständigen MATE-Desktop bootet.&lt;/p&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;Update&lt;/strong&gt;Die Live-CD wurde am 10. März 2014 auf MATE 1.8 aktualisiert.&lt;/div&gt;
+&lt;p&gt;Diese Live-CD wurde erstellt, damit potentielle neue Nutzer den MATE-Desktop
+ausprobieren können, ohne Änderungen an Ihrem System vornehmen zu müssen.
+Das Image kann auf eine DVD gebrannt, als ISO eingehangen oder
+direkt auf einen USB-Stick mittels eines Utilitys wie &lt;code&gt;dd&lt;/code&gt; geschrieben werden.
+&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; aufgepasst: &lt;code&gt;unetbootin&lt;/code&gt; wird nicht unterstützt.
+Sie können es wie folgt herunterladen:&lt;/p&gt;
+&lt;h3&gt;BitTorrent-Download (empfohlen)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bittorrent-download-empfohlen&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#bittorrent-download-empfohlen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Wenn Sie die zusätzlichen Bytes verschmerzen können, lassen Sie bitte den Client geöffnet,
+nachdem der Download beendet ist, damit Sie es an andere zurück &amp;ldquo;seeden&amp;rdquo; können. &lt;em&gt;A web-seed capable client is
+recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Direkter HTTP-Download&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;direkter-http-download&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#direkter-http-download&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Zusätzlich zu dem BitTorrent-Link oben, kann das &amp;ldquo;.iso&amp;rdquo; der Live-CD auch
+über HTTP heruntergeladen werden. Bitte vergewissern Sie sich, dass die heruntergeladene
+Datei zu der SHA1-Checksum passt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Kompatibilität&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kompatibilität&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kompatibilit%c3%a4t&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Live-CD wurde mit &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; und MATE 1.8 gebaut.
+Die Live-CD ist 32-Bit und sollte daher auf jedem i686- oder x86_64-Rechner mit
+mindestens 512MB RAM laufen. X.Org-Treiber sind enthalten für Intel (&lt;code&gt;i915&lt;/code&gt;),
+AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) und nvidia (&lt;code&gt;nouveau&lt;/code&gt;) mit einer Ausweichlösung mittels VESA.
+Treiber für Virtual Box und VMware sind ebenso enthalten, damit das Ausprobieren
+auf diesen Virtualisierungs-Lösungen einfach ist.&lt;/p&gt;
+&lt;p&gt;Alle gängigen Dateisysteme, inclusive &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;, werden
+unterstützt, und einige Tools zur Datenrettung und zum Backup sind auch dabei.
+Wenn Sie Ihr mobiles Endgerät anstecken, wird es mit großer Wahrscheinlichkeit erkannt,
+und Sie werden in der Lage sein, auf die sich darauf befindlichen Daten zuzugreifen.
+NetworkManager gehört auch zum Lieferumfang, zusammen mit all den unterstützten VPN-Clients.&lt;/p&gt;
+&lt;h2&gt;Nutzernamen und Passwörter&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nutzernamen-und-passwörter&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nutzernamen-und-passw%c3%b6rter&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Auf der MATE-Desktop-Live-CD sind die folgenden Accounts konfiguriert.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - Das Passwort ist &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - Das Passwort ist &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Der &lt;code&gt;root&lt;/code&gt;-Account entspricht offensichtlich &lt;code&gt;root&lt;/code&gt;. Der &lt;code&gt;mate&lt;/code&gt;-Account
+ist ein regulärer Benutzer, der volle passwortlose &lt;code&gt;sudo&lt;/code&gt;-Rechte besitzt.
+Die Live-CD loggt automatisch mit dem &lt;code&gt;mate&lt;/code&gt;-Account ein.&lt;/p&gt;
+&lt;h2&gt;Anwendungen&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;anwendungen&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#anwendungen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Live-CD wurde in erster Linie als Demonstration des MATE-Desktops erstellt,
+aber wir haben einige zusätzliche nicht zum MATE-Desktop gehörenden Anwendungen aufgenommen,
+um die Live-CD ein wenig nützlicher und unterhaltsamer zu machen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt; - Stand-Alone Web-Browser von mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt; - Ein Klon von Partition Magic, Front-End für GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt; - Ein System-Informations- und Benchmark-Tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt; - IRC-Client, konfiguriert für die automatischen Verbindung zu &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt; - Screen-Reader für blinde bzw. sehbeinträchtigte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt; - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt; - Multi-Protokoll Instant-Messaging Client&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt; - Medien-Player mit einer schicken GUI, hoher Geschwindigkeit und vielen Features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Creative-Commons-Inhalte&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;creative-commons-inhalte&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creative-commons-inhalte&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wir haben die folgenden Inhalte, lizensiert unter Creative-Commons, hinzugepackt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt; - Zum Lesen mit Atril&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Die Sprache ändern&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;die-sprache-ändern&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#die-sprache-%c3%a4ndern&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Standardmäßig ist bei der Live-CD das &lt;code&gt;en_US&lt;/code&gt;- Gebietsschema eingestellt, aber falls
+Sie eine andere Sprache aktivierten möchten, erklären wir hier, wie es geht.
+Im untenstehenden Beispiel aktivieren wir Deutsch.&lt;/p&gt;
+&lt;p&gt;Editieren Sie &lt;code&gt;/etc/locale.gen&lt;/code&gt;, entfernen Sie bei Ihrem Gebietsschema (in diesem Fall&lt;code&gt;de_DE.UTF-8 UTF-8&lt;/code&gt;)
+die Kommentarzeichen (#) und veranlassen Sie einen Rebuild der Gebietsschemata mit:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Editieren Sie &lt;code&gt;/etc/locale.conf&lt;/code&gt; und ändern Sie &lt;code&gt;LANG=&lt;/code&gt; dahingehend,
+dass die Zeile ihrer Sprachwahl entspricht &amp;ndash; in diesem Fall &lt;code&gt;LANG=de_DE.UTF-8&lt;/code&gt;.
+Zum Schluss starten Sie den DisplayManager wie folgt neu, damit Sie neu eingeloggt werden
+in Ihre MATE-Session, die nun Ihre bevorzugte Sprache verwendet:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Vorstellung in der Linux-Action-Show&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vorstellung-in-der-linux-action-show&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vorstellung-in-der-linux-action-show&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die MATE-Desktop-Live-CD und MATE selbst haben wir
+auf der &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action Show&lt;/a&gt; vorgestellt
+in der &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox-Linux-Review&lt;/a&gt;-Episode.
+Zwei Videos sind unten eingebettet. Das erste bietet einen kurzen Einblick in die MATE-Desktop-Live-CD,
+das zweite eine Besprechung der CuBox i4, auf der MATE läuft.&lt;/p&gt;
+&lt;h3&gt;MATE-Desktop Live-CD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop-live-cd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-desktop-live-cd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=608&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;CuBox i4 Pro Review&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cubox-i4-pro-review&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cubox-i4-pro-review&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=1925&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;Rückmeldung&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;rückmeldung&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#r%c3%bcckmeldung&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wir hoffen, Sie lassen sich auf eine Testfahrt mit der Live-CD ein und mögen die Geschwindigkeit und Einfachheit,
+die der MATE-Desktop bietet. Sobald Sie zurück sind,
+lassen Sie uns wissen, was Sie darüber denken. Benutzen Sie dazu bitte die Kommentarfunktion oder treffen Sie uns im
+&lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE offiziell in Arch Linux verfügbar</title>
+      <link>https://mate-desktop.org/de/blog/2014-01-16-mate-officially-in-arch-linux/</link>
+      <pubDate>Thu, 16 Jan 2014 22:22:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-01-16-mate-officially-in-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE ist endlich zuhause angekommen.&lt;/p&gt;
+&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;/a&gt;-Nutzer
+erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
+in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde &amp;ndash; bis jetzt.
+Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/code&gt;-Paketrepositorien verfügbar!&lt;/p&gt;
+&lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
+auf den folgenden Wiki-Seiten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
+MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
+synchronisiert wurden. Updaten Sie daher &lt;code&gt;/etc/pacman.conf&lt;/code&gt;,
+und entfernen Sie das &lt;code&gt;[mate]&lt;/code&gt;-Paket-Repositorium.&lt;/p&gt;
+&lt;p&gt;Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
+ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;/a&gt;-Repositorium
+erscheinen wird. Ich kann endlich meine Build-&lt;em&gt;&amp;ldquo;Server&amp;rdquo;&lt;/em&gt; für Raspberry Pi (armv6h) und
+Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
+wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber
+gesehen, dass einige Pakete bereits gebaut wurden.&lt;/p&gt;
+&lt;p&gt;MATE läuft ziemlich ordentlich auf dem Raspberry Pi Model B mit 512MB RAM.
+Falls Sie also einen &amp;ldquo;Pi&amp;rdquo; und eine SDCARD rumliegen haben, probieren Sie&amp;rsquo;s aus. Ich werde
+einen Blog-Beitrag schreiben, wie man Arch Linux und MATE auf dem Raspberry Pi
+mit einigen nützlichen Performance-Tricks installiert.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fehler Melden</title>
+      <link>https://mate-desktop.org/de/blog/2012-01-18-reporting-bugs/</link>
+      <pubDate>Wed, 18 Jan 2012 21:22:52 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2012-01-18-reporting-bugs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Momentan versuchen wir, alle Vorgänge zur Problembehandlung zum &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Desktop-Projekt auf GitHub&lt;/a&gt; zu verschieben,
+weg von Perberos&amp;rsquo; Seite. Der Grund ist einfach: Sollte Perberos das Projekt verlassen, könnte keine
+anderen Entwickler Problemtickets schließen. So entsteht ein ziemliches Durcheinander.&lt;/p&gt;
+&lt;p&gt;Wenn nun ein Fehler gemeldet werden soll, muss nun das korrekte GitHub-Repositorium ausgewählt werden,
+in dem das Problem gemeldet werden soll. Das ist sehr einfach. Gibt es einen Fehler im &lt;code&gt;mate-panel&lt;/code&gt;, sollten Problemberichte zum &lt;code&gt;mate-panel&lt;/code&gt;-Fehler-Tracker hinzugefügt werden.&lt;/p&gt;
+&lt;p&gt;Wir werden Perberos&amp;rsquo; Fehler-Tracker nicht länger verfolgen, daher bitten wir darum,
+dort keine neuen Fehler zu melden.&lt;/p&gt;
+&lt;p&gt;Danke für eure Mitarbeit.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Neues Wiki und weitere Informationen</title>
+      <link>https://mate-desktop.org/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Kürzlich sind wir von einem Wiki auf &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; zu unserem eigenen gewechselt,
+das unter &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; erreichbar ist. Bitte
+beziehe dich ab jetzt auf dieses Wiki. Natürlich ist jeder willkommen, etwas beizutragen.&lt;/p&gt;
+&lt;p&gt;Für diejenigen, die es noch nicht wussten: Es ist
+möglich, &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probleme auf GitHub&lt;/a&gt; zu melden. Momentan ist
+das die einzige Möglichkeit, Fehler zu melden, allerdings arbeiten wir an einem Bugtracker.
+Wir werden diesen hier ankündigen, wenn er fertig ist.&lt;/p&gt;
+&lt;p&gt;Außerdem planen wir für die Zukunft ein Mate-Forum, dieses ist aber in einer sehr frühen Phase.&lt;/p&gt;
+&lt;p&gt;Alle &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;-, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;-
+und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;-Nutzerinnen und -Nutzer können jetzt über das Tridex-Repository
+auf den 1.1.x-Entwicklungs-Paketzweig zugreifen. Weitere Informationen finden sich auf der &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download-Seite&lt;/a&gt;
+des Wikis. In den &lt;a href=&#34;https://linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; befinden sich auch die Pakete der 1.0.x-Veröffentlichungsserie. Amanas PPA wird, falls dieses noch
+jemand nutzen sollte, nicht länger unterstützt. Die restlichen unserer 1.1.x-Veröffentlichungen wird in den Tridex-
+Repositories gehostet werden. Zukünftige Veröffentlichungen (zum Beispiel 1.2.0) werden hier gehostet werden.&lt;/p&gt;
+&lt;p&gt;Stolz können wir verkünden, dass die Paketierung für &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; begonnen hat.
+Sobald neue Informationen vorliegen, werden wir diese zu unserem Wiki hinzufügen und eine Nachricht veröffentlichen.&lt;/p&gt;
+&lt;p&gt;Zu guter Letzt sind eine Leute &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unserem IRC-Kanal&lt;/a&gt; beigetreten
+und haben nach &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt;-Ebuilds für MATE gefragt. Diesbezüglich
+suchen wir nach Leuten, die sich bereit erklären könnten, diese aufzusetzen.&lt;/p&gt;
+&lt;p&gt;Fröhliche Feiertage wünscht das Mate-Team.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing MATE Desktop</title>
+      <link>https://mate-desktop.org/de/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Willkommen bei der MATE Desktop-Umgebung!&lt;/p&gt;
+&lt;p&gt;Gnome 2 war die populärste Linux-Desktop-Umgebung, die aber nicht mehr verfügbar ist&amp;hellip; MATE
+möchte den gleichen Desktop anbieten &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Ursprünglich hat Perberos Gnome 2 geforkt und das Projekt MATE genannt. Nutzerinnen und Nutzer sowie Entwicklerinnen und Entwickler haben MATE erfolgreich auf &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; eingesetzt,
+wegen hoher Nachfrage hat es Perberos außerdem erleichtert, MATE unter &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt; zu kompilieren.&lt;/p&gt;
+&lt;p&gt;Dann sind &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; und &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+dem Projekt beigetreten und haben es für Debian und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; paketiert.
+Der MATE-Desktop wurde in Linux Mint 12 eingesetzt und steigert sein Momentum gerade rapide.&lt;/p&gt;
+&lt;p&gt;Höchste Priorität hat es für uns, MATE zu verbessern und es in Sachen Funktionen
+und Stabilität auf den Stand von Gnome 2.32 zu bringen. Wir werden Themen, Applets und Anwendungen, die
+für Gnome 2 entwickelt wurden portieren und Entwicklerinnen und Entwicklern helfen, ihre Anwendungen auf
+diesen neuen Desktop zu portieren.&lt;/p&gt;
 
       </description>
     </item>

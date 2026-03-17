@@ -1,0 +1,189 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – Linux Mint</title>
+    <link>https://mate-desktop.org/ja/tags/linux-mint/</link>
+    <description>Recent content in Linux Mint on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 02 Apr 2013 19:23:50 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/linux-mint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE 1.6 リリース</title>
+      <link>https://mate-desktop.org/ja/blog/2013-04-02-mate-1-6-released/</link>
+      <pubDate>Tue, 02 Apr 2013 19:23:50 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2013-04-02-mate-1-6-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mate-session-manager&lt;/code&gt; と &lt;code&gt;mate-screensaver&lt;/code&gt; に &lt;code&gt;systemd-logind&lt;/code&gt; のサポートを追加
+それと &lt;code&gt;mate-power-manager&lt;/code&gt; (ConsoleKit なしで再起動/シャットダウン可能になりました)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;場所のサイドバーを改善&lt;/li&gt;
+&lt;li&gt;新しいサムネイル仕様のサポートを追加&lt;/li&gt;
+&lt;li&gt;サムネイル用の新しいフレームを追加&lt;/li&gt;
+&lt;li&gt;壁紙がキャッシュされてメモリ管理が向上&lt;/li&gt;
+&lt;li&gt;Nautilus 3 の新しい接続サーバダイアログ&lt;/li&gt;
+&lt;li&gt;freedesktop.org のサポートを追加&lt;/li&gt;
+&lt;li&gt;ファイルマネージャ DBus インタフェース&lt;/li&gt;
+&lt;li&gt;前のフォルダと親フォルダの選択に関する問題を修正&lt;/li&gt;
+&lt;li&gt;Open Terminal Extension でリモート端末の開始をサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;パネル&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ダイアログウィンドウの一覧を開く &lt;code&gt;--run-dialog&lt;/code&gt; オプションを追加。次のことが可能です。
+マウスの中クリックでウィンドウのワークスペース切り替え器を閉じることができます。&lt;/li&gt;
+&lt;li&gt;マウスホイールでワークスペース間を折り返すオプションを追加&lt;/li&gt;
+&lt;li&gt;ディストリビューションが既定のパネルレイアウトを上書きする簡単な方法を追加
+残念ながら、GSettings への移行によって現在のパネルレイアウトは失われます。
+もし MateConf 1.4 がインストールされている場合には、他のすべての設定が移行されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;** Marco (ウィンドウマネージャ)**&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面の中央に新規ウィンドウを開くオプションを追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;コントロールセンタ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ウィンドウの設定で、Marco コンポジットマネージャと fast alt-tab を有効にするオプションを追加&lt;/li&gt;
+&lt;li&gt;compiz または metacity が実行されている場合、GSettings/GConf metacity theme を設定&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gsettings-desktop-schemas&lt;/code&gt; パッケージと同じ GNOME プロキシ設定を使用&lt;/li&gt;
+&lt;li&gt;既定のアプリケーション: 既定の端末を設定できるよう許可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Atril (文書ビューア)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;XPS バックエンドの追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Calc 電卓&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コードベースの更新&lt;/li&gt;
+&lt;li&gt;逆三角関数機能をサポートするボタンの追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;通知デーモン&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mate-desktop.org/blog/2013-01-20-changes-to-mate-notification-daemon/&#34;&gt;通知を表示する画面を指定する&lt;/a&gt; オプションを追加&lt;/li&gt;
+&lt;li&gt;タイムアウトとして &amp;rsquo;expires never&amp;rsquo; が設定したる場合は常に通知を表示 (スクリーンセーバーがアクティブであるか、アクティブな全画面がある場合も同じ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;テーマ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mate-desktop.org/blog/2013-03-26-new-themes/&#34;&gt;新しい GTK2/3 テーマ&lt;/a&gt; (Menta、ブラック MATE、グリーン Laguna、トラディショナル Green)&lt;/li&gt;
+&lt;li&gt;その他の GTK2 テーマ (TraditionalOk, TraditionalOkTest, ContrastHigh) に対する GTK3 サポートを追加&lt;/li&gt;
+&lt;li&gt;テキストファイルのプレビューを有効に&lt;/li&gt;
+&lt;li&gt;新しいアイコンを追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;デーモンの設定&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;メディアキーをメディアプレーヤーに送信するための MPRIS2 サポートを追加&lt;/li&gt;
+&lt;li&gt;Caja が非アクティブ時に背景を描画するオプションの追加&lt;/li&gt;
+&lt;li&gt;デーモンがクラッシュした場合は、&lt;code&gt;mate-session&lt;/code&gt; によって再起動されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Netbook アプレット&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ウィンドウピッカーアプレットがパネルに追加された時のみ、最大化を有効に&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;削除されたパッケージ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MateConf を GSettings へ置き換え&lt;/li&gt;
+&lt;li&gt;MateCorba/MateComponent を DBus へ置き換え&lt;/li&gt;
+&lt;li&gt;MateVfs を GIO/GVFS へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatenotify&lt;/code&gt; を &lt;code&gt;libnotify&lt;/code&gt; へ置き換え&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmate&lt;/code&gt; を削除 (mate-open を gvfs-open へ置き換え、GSettings スキーマは mate-desktop package へ移動)&lt;/li&gt;
+&lt;li&gt;非推奨パッケージの削除
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;libmateui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatecanvas&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;libmatecomponentui&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-mime-data&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;その他の改善&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;多くのコードの非推奨事項を修正&lt;/li&gt;
+&lt;li&gt;多くの不具合を修正&lt;/li&gt;
+&lt;li&gt;多数の翻訳の追加と改善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MATE を配布しているディストリビューションの人々に、MATE デスクトップ環境についてどのように考えているかを尋ねました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;私たちは MATE が Salix にぴったりだと信じています。MATE は、パワフル、堅牢かつ高速で、使い慣れたデスクトップ環境を提供してくれます。また、MATE チームはとてもフレンドリーで、一緒に仕事ができてとても楽しいです。これは私たちにとって大きな意味があります。お気に入りのデスクトップの人たちと一緒に仕事をする選択肢を与えてくれてありがとう。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;私たちにとって、人々がコンピュータに満足していることは非常に重要です。私たち全員が愛し、2006年以来改善しようと努力してきた環境が廃止されたとき、私たちはそれを手放して、人々に何か新しいものや何か別のものへの移行を依頼することに満足しませんでした。私たちは、私たちのユーザーが彼らの望むようにコンピュータを使い続けることができるようにするために本当に努力しました。そして私たちは、その環境をサポートし、それをさらに発展させるために率先して取り組んできた、同じような考えを持つ人々のチームに出会いました。Mint と MATE は密接に連携しており、チーム間の関係は素晴らしいものです。Mint は MATE の促進と支援において重要な役割を果たし、私たちはその開発を引き続き支援しています。私たちは MATE に非常に満足しています。それは GNOME が中断したところから始まり、新しく繰り返すことで改善され続けます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;/a&gt; 戦略コンサルタント:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;私たちは、アップストリームがユーザーに変更を強制する方法が気に入らないので、ユーザーが何を使用するかを選択できるようにしたいと思っています。私たちのリポジトリに MATE を使用することで、私たちのユーザーは、各自にとって最適なものをいつでも選択できるようになります。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt; の MATE メンテナ:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Fedora 15 がリリースされて以来、私は MATE を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。MATE チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、MATE を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。MATE 1.6 を使えば、自宅でお気に入りの Linux ディストリビューションを使って仕事に戻ることができます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;私たちはまた、&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; からもコメントをいただきました。以下は &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;私たちは MATE デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップや自由なソフトウェアを探していました。Debian 7 Wheezy 上の MATE デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは MATE チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに MATE デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も MATE を使うことでしょう！)。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;MATE 1.6 は、8ヶ月に及ぶ精力的な開発の成果であり、39名の人々が行った 1800件の寄与、および 150名以上の翻訳者による成果です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mate-desktop.org/gallery/1.6/&#34;&gt;MATE 1.6 Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>新しい Wiki サイトやその他のお知らせ</title>
+      <link>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;私たちは最近、[GitHub]のWiki( &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) から、&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;
+&lt;p&gt;まだ気付いていない方は、&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt; で問題を報告することができます。現時点では、バグ報告に関して利用できるのはこれだけですが、バグ追跡ツールを開発中です。
+できあがったときには、ここでお知らせします。&lt;/p&gt;
+&lt;p&gt;私たちは Mate フォーラムを将来設置する計画も持っていますが、それは未だ非常に初期の段階にあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;、&lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;、&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; は tridex のリポジトリを使って私たちのパッケージ 1.1.x 開発ブランチにアクセスできます。詳細については、Wiki の&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ダウンロードページ&lt;/a&gt; をご覧ください。&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; はまた、そのリポジトリに 1.0.x リリースパッケージを持っています。もし誰かがまだ Amanas の PPA を使っているのなら、それはもはやサポートされていません。残りの 1.1.x リリースは tridex のリポジトリでホストされます。今後のリリース (例: 1.2.0) はここでホストされます。&lt;/p&gt;
+&lt;p&gt;私たちは、&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; 向けのパーケージ化が始まったことを誇りに思います。より多くの情報が得られたら、それを私たちの Wiki に追加して発表します。&lt;/p&gt;
+&lt;p&gt;最後に、私たちは何人かの個人に&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;私たちのIRCチャンネル&lt;/a&gt; に参加してもらって、&lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; では MATE 用がビルドされるかについて尋ねました。そういうことなので、私たちはこれらをセットアップしてくださる方を探しています。&lt;/p&gt;
+&lt;p&gt;素敵な休暇をお過ごしください。Mate チームより。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE デスクトップのご紹介</title>
+      <link>https://mate-desktop.org/ja/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE デスクトップ環境へようこそ！&lt;/p&gt;
+&lt;p&gt;Gnome  2 は最も人気のある Linux デスクトップでしたが、もう入手できません&amp;hellip; MATE はあなたにそれと同様なデスクトップを提供します &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos は当初、Gnome 2 をフォークしてそのプロジェクトを MATE と名付けました。ユーザーや開発者は、MATE を &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; 上で動作させることに成功しています。それが好評を得たので、Perberos は MATE を &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt; 上でのコンパイルを容易にしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;と&lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt; はその後このプロジェクトに参加し、Debian と &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; 向けにパッケージ化しました。MATE デスクトップは Linux Mint 12 で大きく取り上げられ、急速に勢いを増しています。&lt;/p&gt;
+&lt;p&gt;私たちの最優先事項は、MATE を改善し、Gnome 2.32 と同等の機能と安定性を実現することです。私たちは、Gnome 2 用に開発されたテーマ、アプレット、アプリケーションを移植し、開発者等がこの新しいデスクトップにアプリケーションを移植するのを支援します。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Debian</title>
+    <link>https://mate-desktop.org/sr/tags/debian/</link>
+    <description>Recent content in Debian on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 25 Sep 2014 11:34:36 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Ризнице пакета Дебиана и Убунтуа су уклоњене из „mate-desktop.org“</title>
+      <link>https://mate-desktop.org/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link>
+      <pubDate>Thu, 25 Sep 2014 11:34:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Захваљујући напорима &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;одржаваоца Мејтових пакета за Дебиан&lt;/a&gt;
+Мејт 1.8.1 је доступан у Дебиан „Jessie“-у (тестирање) и такође у
+&lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; за „Wheezy“.&lt;/p&gt;
+&lt;p&gt;Као резултат Мејта 1.8.1 који погађа ризнице Дебиан тестирања
+раније ове године, Мејт 1.8.1 је такође званична архива за
+Убунту 14.10 „Utopic Unicorn“. Тим &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Убунту Мејта&lt;/a&gt;
+је недавно направио &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ППА Мејта 1.8.1 за Убунту 14.04 „Trusty Tahr“&lt;/a&gt;
+на захтев &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Убунтуовог техничког одбора&lt;/a&gt;
+и такође и &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ППА Мејта 1.8.1 за Убунту 12.04 „Precise Pangolin“&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ако су вам потребни Мејтови пакети за Дебиан и Убунту тада су
+горње ризнице пакета званичне ризнице за коришћење.&lt;/p&gt;
+&lt;p&gt;Уклонили смо ризнице пакета удомљене на „mate-desktop.org“-у
+јер су неки били непотписани а други нису одржавани више месеци.
+Стога су, од сада, уклоњене су ризнице пакета Дебиана и Убунтуа
+удомљене на „mate-desktop.org“.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Екипа паковања Дебиан Мејта</title>
+      <link>https://mate-desktop.org/sr/blog/2013-11-08-debian-mate-packaging-team/</link>
+      <pubDate>Fri, 08 Nov 2013 02:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2013-11-08-debian-mate-packaging-team/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Мејтова екипа је врло срећна што може поздравити нову екипу паковања
+Дебиан Мејта, која је &lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;напорно радила&lt;/a&gt;
+да би Мејт био укључен у следеће издање Дебиана.&lt;/p&gt;
+&lt;p&gt;Први пакети су већ у ризницама а многи други су у
+&lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;НОВОМ реду „ftp-master“-а&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Велико хвала:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://users.physik.fu-berlin.de/~glaubitz/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Paul Adrian Glaubitz-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sunweavers.net/blog/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mike Gabriel-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Vangelis Mouhtsis-у]&lt;/li&gt;
+&lt;li&gt;[Kees Cook-у&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;]( &lt;a href=&#34;https://outflux.net/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://outflux.net/&lt;/a&gt;)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Нови вики и друге информације</title>
+      <link>https://mate-desktop.org/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Недавно смо се пребацили са викија на &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ГитХаб-у&lt;/a&gt; на наш сопствени
+доступан са &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„wiki.mate-desktop.org“-а&lt;/a&gt;. Од сада
+упућујте на овај вики. Наравно, сваки допринос је добродошао.&lt;/p&gt;
+&lt;p&gt;For those of you who aren&amp;rsquo;t already aware, you can
+&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;report issues on github&lt;/a&gt;. At the moment, this
+is all we have in terms of bug reporting, but we do have a bugtracker in the works.
+We&amp;rsquo;ll announce it here when it&amp;rsquo;s ready.&lt;/p&gt;
+&lt;p&gt;We also have future plans for a Mate forum, but that is at a very early stage.&lt;/p&gt;
+&lt;p&gt;For those of you using &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;,
+and &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;, you can access the 1.1.x development branch of
+our packages using the tridex repository. Check out &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the download page&lt;/a&gt;
+on the wiki for more info. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; also has our
+1.0.x release packages in their repository. If anyone is still using Amanas&amp;rsquo; PPA,
+it is no longer supported. The rest of our 1.1.x releases will be hosted on the tridex
+repositories. Future releases (eg. 1.2.0) will be hosted here.&lt;/p&gt;
+&lt;p&gt;We are proud to announce that packing for &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; has begun.
+Once we have more information we will add it to our wiki and make an announcement.&lt;/p&gt;
+&lt;p&gt;Lastly, we have had several individuals join &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our IRC channel&lt;/a&gt;
+and ask about &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; ebuilds for MATE. With that being said,
+we are looking for people who are willing to set these up.&lt;/p&gt;
+&lt;p&gt;Happy Holidays from the Mate team.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Представљање Мејтове радне површи</title>
+      <link>https://mate-desktop.org/sr/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Добродошли у окружење Мејтове радне површи!&lt;/p&gt;
+&lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан&amp;hellip; Сада
+је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
+програмери су успешно покретали Мејт на [„Arch Linux“]-у( &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
+и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Дебианом&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+су затим приступили пројекту и запакивали су га за Дебиан и &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Минт&lt;/a&gt;.
+Мејтова радна површ је представљена у Линукс Минту 12 и сада брзо узима маха.&lt;/p&gt;
+&lt;p&gt;Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика
+и стабилност, са Гномом 2.32. Пребацићемо теме, програмчиће и програме који
+су развијани за Гноме 2 и помоћи програмерима да пренесу своје програме на ову
+нову радну површ.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

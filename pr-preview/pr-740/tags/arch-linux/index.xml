@@ -1,0 +1,247 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Arch Linux</title>
+    <link>https://mate-desktop.org/tags/arch-linux/</link>
+    <description>Recent content in Arch Linux on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Jan 2014 00:17:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE desktop Live CD</title>
+      <link>https://mate-desktop.org/blog/2014-01-30-mate-desktop-live-cd/</link>
+      <pubDate>Thu, 30 Jan 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2014-01-30-mate-desktop-live-cd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The MATE team have made a Live CD that boots into a full MATE desktop.&lt;/p&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;Update&lt;/strong&gt; The LiveCD was updated to MATE 1.8 on March 10th 2014.&lt;/div&gt;
+&lt;p&gt;This Live CD was created so that potential new users can evaluate the MATE
+desktop in a non-destructive fashion. The image can be burned to a DVD,
+mounted as an ISO file, or be directly written to a USB stick using a utility
+like &lt;code&gt;dd&lt;/code&gt;. &lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; beware, &lt;code&gt;unetbootin&lt;/code&gt; is
+not supported. You can download it below:&lt;/p&gt;
+&lt;h3&gt;BitTorrent download (recommended)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bittorrent-download-recommended&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#bittorrent-download-recommended&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If you can spare the bytes, please leave the client open after your download
+is finished, so you can seed it back to others. &lt;em&gt;A web-seed capable client is
+recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;HTTP direct download&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;http-direct-download&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#http-direct-download&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In addition to the BitTorrent link above, the Live CD .iso can also be
+downloaded via HTTP. Please ensure the downloaded file matches the SHA1
+checksum.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Compatibility&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;compatibility&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#compatibility&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Live CD is built using &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; and MATE
+1.8. The Live CD is 32-bit so should work on any i686 or x86_64 computer
+with at least 512MB RAM. Xorg drivers are included for Intel (&lt;code&gt;i915&lt;/code&gt;),
+AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) and nvidia (&lt;code&gt;nouveau&lt;/code&gt;) with a fall back to VESA.
+Drivers for Virtual Box and VMware are also included so that evaluation
+using these virtualization solutions is simple.&lt;/p&gt;
+&lt;p&gt;All common file systems, including &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;, are supported
+and some data recovery and backup tools are included. If you plug in your
+mobile device it will most likely be recognised and you&amp;rsquo;ll be able to access
+the data on it. NetworkManager is included along with all the VPN clients it
+supports.&lt;/p&gt;
+&lt;h2&gt;Usernames and passwords&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;usernames-and-passwords&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#usernames-and-passwords&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The MATE Desktop Live CD has the following accounts configured.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - password is &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;root&lt;/code&gt; account is obviously &lt;code&gt;root&lt;/code&gt;. The &lt;code&gt;mate&lt;/code&gt; account it a regular user
+that has with full password-less &lt;code&gt;sudo&lt;/code&gt; rights. The Live CD will auto-login
+using the &lt;code&gt;mate&lt;/code&gt; account.&lt;/p&gt;
+&lt;h2&gt;Applications&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;applications&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#applications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Live CD is primarily designed to showcase the MATE desktop, however we&amp;rsquo;ve
+included some additional applications that are not part of the MATE desktop in
+order to make the LiveCD a little more useful and enjoyable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   - Standalone web browser from mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   - A Partition Magic clone, frontend to GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  - A system information and benchmark tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;   - IRC client configured to auto-connect to &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;      - Screen reader for individuals who are blind or visually impaired&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      - On-screen keyboard useful for mobility impaired individuals&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    - Multi-protocol instant messaging client&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    - Media player with a slick GUI, great speed and lots of features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Creative Commons content&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;creative-commons-content&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creative-commons-content&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We have bundled the following Creative Commons licensed content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        - To read with Atril&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changing language&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;changing-language&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#changing-language&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Be default the Live CD is configured to use the &lt;code&gt;en_US&lt;/code&gt; locale but if you want
+to activate another language here is how to do it. In the example below, we
+will enable Italian.&lt;/p&gt;
+&lt;p&gt;Edit &lt;code&gt;/etc/locale.gen&lt;/code&gt; an uncomment your locale, in this case &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
+and rebuild the locales.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit &lt;code&gt;/etc/locale.conf&lt;/code&gt; and change the &lt;code&gt;LANG=&lt;/code&gt; to reflect your locale, in this
+case &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;. Finally restart the display manager and you will be
+logged back into a MATE session using your prefered language.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Linux Action Show Feature&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;linux-action-show-feature&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux-action-show-feature&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The MATE Desktop LiveCD and MATE itself we featured on the &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action
+Show&lt;/a&gt; in the &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;/a&gt;
+episode. Two clips are embedded below, the first a quick look at the MATE
+Desktop LiveCD the second is a review of the CuBox i4 which is running MATE.&lt;/p&gt;
+&lt;h3&gt;MATE Desktop LiveCD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop-livecd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-desktop-livecd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=608&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;CuBox i4 Pro Review&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cubox-i4-pro-review&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cubox-i4-pro-review&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=1925&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;Feedback&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;feedback&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#feedback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We hope you give the Live CD a test drive and enjoy the speed and simplicity
+the MATE Desktop provides. Once you&amp;rsquo;ve taken the MATE Desktop Live CD for a
+spin let us know what you think in the comments or use the Live CD to join us
+in the &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE is officially available in Arch Linux</title>
+      <link>https://mate-desktop.org/blog/2014-01-16-mate-officially-in-arch-linux/</link>
+      <pubDate>Thu, 16 Jan 2014 22:22:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2014-01-16-mate-officially-in-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE has finally found it&amp;rsquo;s way home.&lt;/p&gt;
+&lt;p&gt;As some of you may know MATE was created by an &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+user, Perberos. It is somewhat ironic then that MATE has never featured
+in the official Arch Linux package repository until now. That&amp;rsquo;s right,
+MATE is finally available in the Arch Linux &lt;code&gt;[community]&lt;/code&gt; package
+repository!&lt;/p&gt;
+&lt;p&gt;You can find out everything you need to know about installing MATE
+on Arch Linux from the following wiki pages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
+repository will be removed once all the Arch Linux mirrors are synced.
+So go and update &lt;code&gt;/etc/pacman.conf&lt;/code&gt; and remove the &lt;code&gt;[mate]&lt;/code&gt; package
+repository.&lt;/p&gt;
+&lt;p&gt;The other advantage of getting MATE into the official Arch Linux package
+repository is that MATE will now also feature in the &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;/a&gt;
+package repository. I can finally retire my Raspberry Pi (armv6h) and
+Cubox Pro (armv7h) build &lt;em&gt;&amp;ldquo;servers&amp;rdquo;&lt;/em&gt;. I&amp;rsquo;m not sure how long it will take
+for all the MATE packages to appear in the Arch Linux ARM package
+repository but I have already seen that some packages are built.&lt;/p&gt;
+&lt;p&gt;MATE runs really well on the Raspberry Pi Model B with 512MB RAM, so if
+you have a Pi and a spare SDCARD, give it a whirl. I&amp;rsquo;ll be writing a
+blog post about how install Arch Linux and MATE on the Raspberry Pi with
+some useful performance tweaks in the near future.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE 1.6 packages for Arch Linux</title>
+      <link>https://mate-desktop.org/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link>
+      <pubDate>Sat, 16 Nov 2013 00:36:43 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE 1.6 packages have been available for &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+for a good while now. So why the blog post?&lt;/p&gt;
+&lt;p&gt;Over the last few months the MATE 1.6 packages for Arch Linux have been
+fixed, cleaned up and enhanced. Here is an overview of what we&amp;rsquo;ve been
+working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All Arch Linux specific bugs have been fixed.&lt;/li&gt;
+&lt;li&gt;New automated build scripts and build cluster.&lt;/li&gt;
+&lt;li&gt;Full support for the following platforms:
+&lt;ul&gt;
+&lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;armv7h&lt;/li&gt;
+&lt;li&gt;i686&lt;/li&gt;
+&lt;li&gt;x86_64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Packaged 9 additional applications/applets contributed by the MATE community.&lt;/li&gt;
+&lt;li&gt;Choice of Pulse Audio or GStreamer backends.&lt;/li&gt;
+&lt;li&gt;Cherry picked some &lt;code&gt;systemd&lt;/code&gt; and &lt;code&gt;logind&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry picked some &lt;code&gt;upower&lt;/code&gt; features from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry picked miscellaneous bug fixes from MATE 1.7.&lt;/li&gt;
+&lt;li&gt;MATE 1.6 PKGBUILDs now automatically synced to the AUR.&lt;/li&gt;
+&lt;li&gt;The Arch Linux package repository for MATE is now signed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can find out everything you need to know about installing MATE 1.6
+on Arch Linux from the following wiki page:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to say a special thank you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;/a&gt; for working with
+the Fedora development team to hunt down &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; and &lt;code&gt;upower&lt;/code&gt;
+fixes that are hugely beneficial for Arch Linux and also for
+contributing a good number of the community applications.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;/a&gt; and &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
+for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that the MATE 1.6 packages are in good shape I will start the process
+of getting MATE into the official Arch Linux repositories. You can help
+with that by voting for MATE packages in the AUR.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing MATE Desktop</title>
+      <link>https://mate-desktop.org/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Welcome to the MATE Desktop Environment!&lt;/p&gt;
+&lt;p&gt;Gnome 2 was the most popular Linux desktop but it&amp;rsquo;s no longer available&amp;hellip; MATE
+is here to provide that same desktop to you &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos initially forked Gnome 2 and called the project MATE. Users and
+developers have successfully run MATE on &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+and due to popular demand Perberos made it easier for MATE to compile under
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; and &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+then joined the project and packaged it for Debian and &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;.
+The MATE  desktop was featured in Linux Mint 12 and is now quickly gaining momentum.&lt;/p&gt;
+&lt;p&gt;Our top priority is to improve MATE and for it to be on par, in terms of features
+and stability, with Gnome 2.32. We&amp;rsquo;ll port themes, applets, and applications which
+were developed for Gnome 2, and help developers port their applications to this
+new desktop.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

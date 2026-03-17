@@ -1,0 +1,115 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – GSoC</title>
+    <link>https://mate-desktop.org/sr/tags/gsoc/</link>
+    <description>Recent content in GSoC on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Mon, 28 Apr 2014 06:14:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Мејтови пројекти прихваћени за GSoC 2014</title>
+      <link>https://mate-desktop.org/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link>
+      <pubDate>Mon, 28 Apr 2014 06:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Након неколико недеља прегледа пријаве и периода бирања за 2014. годину
+Гугл лето програмирања (GSoC) је завршено. 4.420 студената је укупно предложило
+6.313 пројеката за ово лето. Од тога, 1.307 студената је прихваћено а пројекат
+Мејтове радне површи је један од 190 пројеката отвореног кода који ће
+радити са студентима ове године.&lt;/p&gt;
+&lt;p&gt;У нашој другој години као покровитељска организација GCoC-а, екипа Мејта је
+добила 4 предлога студената додељена су нам 3 места за студентске пројекте.&lt;/p&gt;
+&lt;p&gt;С поносом вам представљам наше GSoC студенте за 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Авишкар Гупта ће радити на додавању могућности ePub исцртавања у
+Атрилу, прегледачу докумената за Мејтову радну површ.&lt;/li&gt;
+&lt;li&gt;Михал Ратајски ће радити на додавању GStreamer 1.0 подршке у окружењу
+Мејтове радне површи како би заменио зависности у застарелој библиотеци
+GStreamer-а 0.10.&lt;/li&gt;
+&lt;li&gt;Александер ван дер Меиј ће радити на побољшању проширења Цаје тако да се
+могу интегрисати за време времена извршавања и такође да направи сучеље
+једног корисника за подешавање проширења Цаје.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Хајде да заједно поздравимо ове нове доприносиоце у Мејтовој екипи и да
+им пожелимо све најбоље у њиховим одговарајућим пројектима у току лета.&lt;/p&gt;
+&lt;p&gt;У име читаве екипе Мејта такође бих желео да изразим захвалност и да
+похвалим &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; који су наш GSoC организатор за
+2014. Они су одрадили одличан посао у обезбеђивању ових GSoC пласмана за
+екипу Мејта који ће обезбедити преко потребна развојна средства за пројекат.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Мејт учествује на GSoC-у 2014.</title>
+      <link>https://mate-desktop.org/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</link>
+      <pubDate>Mon, 10 Mar 2014 13:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-03-10-mate-desktop-gsoc-2014/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Мејтова екипа са задовољством објављује да учествује на
+&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Гугловом лету програмирања&lt;/a&gt;. То радимо
+у садејству са нашим добрим пријатељима на &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;О Гугловом лету програмирања&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;о-гугловом-лету-програмирања&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%be-%d0%b3%d1%83%d0%b3%d0%bb%d0%be%d0%b2%d0%be%d0%bc-%d0%bb%d0%b5%d1%82%d1%83-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b8%d1%80%d0%b0%d1%9a%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Гуглово лето програмирања (које се обично назива „GSoC“) је општи програм који
+нуди студентима програмерима стипендије за писање кода за различите софтверске
+пројекте отвореног кода. „GSoC“ ради са многим групама отвореног кода, слободног
+софтвера и групама повезаних технологија како би препознао и финансирао пројекте
+током три месеца раздобља. Од свог почетка 2005. године, програм је окупио 7.500
+успешних студената учесника из 97 земаља и преко 7.000 покровитеља из преко 100
+земаља широм света који су произвели преко 50 милиона линија кода. Кроз Гуглово
+лето програмирања, прихваћени студенти кандидати су упарени са покровитељем или
+покровитељима из пројеката који учествују, дакле упознавање са реалним сценаријима
+развоја софтвера и могућност запошљавања у областима које се односе на њихово
+академско занимање. Заузврат, пројекти који учествују су у могућности да лакше
+препознају и донесу нове програмере. Најбоље од свега је што је створено и издато
+још изворног кода за употребу и корист свих нас.&lt;/p&gt;
+&lt;h2&gt;За студенте&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;за-студенте&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b7%d0%b0-%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Период пријављивања студената је отворен од 10. марта 2014. до 21. марта 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;За испомоћ о томе како да се пријавите прочитајте &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ЧПП Гугловог лета програмирања
+2014&lt;/a&gt;.
+Ако сте студент који жели да допринесе Мејту путем „openSUSE GSoC“
+учествовања проверите следеће:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Мејтове идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE идеје Гугловог лета програмирања 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE учествује на GSoC-у 2014.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Идеје пројекта Мејта „GSoC“-а за 2014. укратко су:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Подршка „ePub“ формата у Атрилу&lt;/li&gt;
+&lt;li&gt;Подршка „GStreamer“-1.0&lt;/li&gt;
+&lt;li&gt;Систем прикључака у Цаји&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Као и увек, кључ је започети рано и комуницирати са покровитељима и
+заједницом у целини. Исправљање грешака, подношење захтева за повлачење
+и рад на „Proof of Concepts“-у је добар начин за почетак.&lt;/p&gt;
+&lt;p&gt;Покровитељи „GSoC“-а 2014. за Мејт су Стефано Карапетсас (&lt;code&gt;stefano-k&lt;/code&gt; на IRC-у) и
+Мартин Вимпрес (&lt;code&gt;flexiondotorg&lt;/code&gt; на IRC-у). Најбољи начин за комуницирање и
+деловање са покровитељима Мејта је путем:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC канала на Libera Chat-у&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate:libera.chat Матрикс причаонице&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Мејта на ГитХаб-у&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Радујемо се прегледу ваших пријава!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

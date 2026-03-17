@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – LTSP</title>
+    <link>https://mate-desktop.org/he/tags/ltsp/</link>
+    <description>Recent content in LTSP on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>he</language>
+    <lastBuildDate>Wed, 20 Mar 2013 11:30:13 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/he/tags/ltsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE and LTSP</title>
+      <link>https://mate-desktop.org/he/blog/2013-03-20-mate-and-ltsp/</link>
+      <pubDate>Wed, 20 Mar 2013 11:30:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/he/blog/2013-03-20-mate-and-ltsp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;There are a lot of people in the world who get access to their GNU/Linux
+desktops via thin clients, and one of the longest running thin client projects
+out there is the &lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt; project. The MATE desktop offers a
+fantastic desktop experience on thin clients; fast, stable, and efficient.
+Libraries, schools, and businesses looking for a GNU/Linux desktop using
+traditional paradigms their users are used to will find MATE a excellent
+alternative to going to a Unity/Gnome 3 desktop. As both an LTSP and MATE
+developer, I put together a short &lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;
+on some of the developments in both.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/pnL47bbFN68&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

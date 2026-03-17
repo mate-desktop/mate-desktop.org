@@ -1,0 +1,36 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – FOSDEM</title>
+    <link>https://mate-desktop.org/sr/tags/fosdem/</link>
+    <description>Recent content in FOSDEM on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Fri, 07 Feb 2014 14:16:13 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/fosdem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Стефано представља Мејт на „FOSDEM“-у 2014.</title>
+      <link>https://mate-desktop.org/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link>
+      <pubDate>Fri, 07 Feb 2014 14:16:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid>
+      <description>
+        
+        
+        &lt;p&gt;фебруара 2014. &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефано Карапетсас&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;је представио Мејт на &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„FOSDEM“-у 2014&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Излагањем је представио Мејт онима који нису чули за њега и објаснио је порекло пројеката. Разлике између Мејта и других традиционалних радних површи заснованих на Гтк-у је приказао, а затим је наставио да објашњава како се Мејт развијао откако је исцепљен из Гнома2. Кратки приказ недавних побољшања покрио је прегледом Мејтовог пута и других пројеката који имају користи од Мејта, као што су &lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;,
+&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt; и &lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

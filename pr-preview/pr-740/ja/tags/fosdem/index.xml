@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – FOSDEM</title>
+    <link>https://mate-desktop.org/ja/tags/fosdem/</link>
+    <description>Recent content in FOSDEM on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 07 Feb 2014 14:16:13 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/fosdem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Stefano さんは FOSDEM 2014 で MATE を発表</title>
+      <link>https://mate-desktop.org/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link>
+      <pubDate>Fri, 07 Feb 2014 14:16:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid>
+      <description>
+        
+        
+        &lt;p&gt;2014日2月1日、&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; さんは &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;/a&gt; でMATE に関する講演を行いました！&lt;/p&gt;
+&lt;p&gt;この講演では、MATE のことを知らない人々に紹介し、プロジェクトの起源を説明します。MATE と他の従来の GTK ベースのデスクトップとの違いを取り上げた後、Stefano さんは GNOME 2 から分岐して以来、MATE がどのように進化してきたかを説明します。最近の改善点を簡単に紹介するとともに、MATE のロードマップや、&lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;、&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt;、&lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt; といった MATE の成果を受けたプロジェクトの概要を紹介します。&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/iwQ7iqNwRKs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

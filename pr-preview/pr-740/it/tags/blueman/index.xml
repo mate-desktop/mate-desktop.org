@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente Desktop MATE – Blueman</title>
+    <link>https://mate-desktop.org/it/tags/blueman/</link>
+    <description>Recent content in Blueman on Ambiente Desktop MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Tue, 11 Mar 2014 07:45:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/it/tags/blueman/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE Desktop canta il BlueZ</title>
+      <link>https://mate-desktop.org/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</link>
+      <pubDate>Tue, 11 Mar 2014 07:45:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;progetto Blueman&lt;/a&gt; ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
+&lt;h2&gt;Perché abbandonare mate-bluetooth?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-abbandonare-mate-bluetooth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#perch%c3%a9-abbandonare-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo. Portare &lt;code&gt;mate-bluetooth&lt;/code&gt; a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in Blueman.&lt;/p&gt;
+&lt;h2&gt;Perché Blueman? Non è un progetto morto?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-blueman-non-è-un-progetto-morto&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#perch%c3%a9-blueman-non-%c3%a8-un-progetto-morto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebbene il progetto originale Blueman fosse stagnante, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt;
+ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per MATE.&lt;/p&gt;
+&lt;h2&gt;Quando sarà pronta la versione aggiornata di Blueman?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;quando-sarà-pronta-la-versione-aggiornata-di-blueman&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#quando-sar%c3%a0-pronta-la-versione-aggiornata-di-blueman&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Qualcuno di voi potrebbe aver notato che l&amp;rsquo;&lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;annuncio di rilascio di MATE 1.8&lt;/a&gt;
+menzionava già il fatto che &lt;code&gt;mate-bluetooth&lt;/code&gt; era stato sostituito con Blueman
+e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
+non è ancora stata rilasciata. Si, abbiamo commesso un errore, scusateci.&lt;/p&gt;
+&lt;p&gt;Mentre riconosciamo di aver sbagliato, stiamo attivamente contribuendo nello sforzo di portare Blueman a BlueZ 5.x e all&amp;rsquo;introspezione di GObject. Speriamo di averlo pronto
+per la versione 1.8.1 che è intesa principalmente come una versione di bug fix.&lt;/p&gt;
+&lt;h2&gt;Non potete fare prima, cavolo?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;non-potete-fare-prima-cavolo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#non-potete-fare-prima-cavolo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato
+a contribuire attraverso il &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository Blueman GitHub&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

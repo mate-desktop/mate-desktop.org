@@ -1,0 +1,92 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente Desktop MATE – Ubuntu</title>
+    <link>https://mate-desktop.org/it/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Ambiente Desktop MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Thu, 25 Sep 2014 11:34:36 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/it/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Repository di pacchetti Debian e Ubuntu rimossi da mate-desktop.org</title>
+      <link>https://mate-desktop.org/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link>
+      <pubDate>Thu, 25 Sep 2014 11:34:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Grazie agli sforzi dei  &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manutentori dei pacchetti di MATE per Debian&lt;/a&gt;
+MATE 1.8.1 è dispoinibile in Debian Jessie (testing) ed anche
+in &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; per Wheezy&lt;/p&gt;
+&lt;p&gt;Come conseguenza di MATE 1.8.1 che è entrato nelle repository di Debian testing
+all&amp;rsquo;inizio di quest&amp;rsquo;anno, MATE 1.8.1 è anche disponibile nell&amp;rsquo;archivio ufficiale
+di  Ubuntu 14.10 Utopic Unicorn. Il Team &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt;
+ha recentemente creato un &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPA MATE 1.8.1 per Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
+su richiesta di &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
+ed anche un &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPA MATE 1.8.1 per Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se volete i pacchetti MATE per Debian o Ubuntu i repository dei pacchetti elencati in precedenza sono i repository ufficiali da usare.&lt;/p&gt;
+&lt;p&gt;Abbiamo spostato i repository dei pacchetti presenti su mate-desktop.org
+perché alcuni di essi non erano firmati ed altri non erano stati manutenuti da molti
+mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati su mate-desktop.org sono stati rimossi.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Repository di pacchetti MATE per Ubuntu Quantal</title>
+      <link>https://mate-desktop.org/it/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link>
+      <pubDate>Tue, 16 Oct 2012 21:52:18 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Un repository di pacchetti  &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt; per Ubuntu 12.10 Quantal Quetzal
+adesso è disponibile per la nostra release 1.4. Come sempre, seguite &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;queste istruzioni&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Se state per aggiornare da una versione precedente, fate attenzione a rimuovere i vecchi repository
+e aggiungere quelli nuovi, altrimenti incontrerete dei problemi.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Nuovo wiki ed altre info</title>
+      <link>https://mate-desktop.org/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Siamo passati di recente da un wiki su &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; ad uno nostro disponibile da  &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;per favore fate riferimento a questo wiki da ora in poi. Naturalmente chiunque è benvenuto a contribuire.&lt;/p&gt;
+&lt;p&gt;Per quelli di voi che non lo sanno ancora, potete &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;riportare problemi su github&lt;/a&gt;. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
+Lo annunceremo qui quando sarà pronto.&lt;/p&gt;
+&lt;p&gt;Abbiamo anche progetti futuri per un forum di MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
+&lt;p&gt;Per quelli di voi che utilizzano &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;,
+e &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;, è possibile accedere al ramo di sviluppo 1.1.x dei
+nostri pacchetti utilizzando il repository tridex. Visitate la  &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pagina di download&lt;/a&gt;
+sul wiki per maggiori informazioni. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; ha anche i nostri
+pacchetti del rilascio 1.0.x nei loro repository. Se qualcuno sta ancora utilizzando il PPA di Amanas, questo non è più supportato. Il resto dei nostri rilasci 1.1.x saranno ospitati sui repository tridex.
+I rilasci futuri (es. 1.2.0) saranno ospitati qui.&lt;/p&gt;
+&lt;p&gt;Siamo orgogliosi di annunciare che la pacchettizzazione per &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; è iniziata.
+Quando avremo più informazioni le riporteremo sul nostro wiki e faremo un annuncio.&lt;/p&gt;
+&lt;p&gt;Infine, abbiamo avuto diversi individui che si sono uniti al &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nostro canale IRC&lt;/a&gt;
+che ci hanno chiesto di edibuild  &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; per MATE. Detto questo,
+cerchiamo persone che siano disposte ad organizzarli.&lt;/p&gt;
+&lt;p&gt;Buone Vacanze dal Team MATE.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – FirstColo</title>
+    <link>https://mate-desktop.org/he/tags/firstcolo/</link>
+    <description>Recent content in FirstColo on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>he</language>
+    <lastBuildDate>Thu, 27 Dec 2012 17:06:02 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/he/tags/firstcolo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Thank you First Colo!</title>
+      <link>https://mate-desktop.org/he/blog/2012-12-27-thank-you-first-colo/</link>
+      <pubDate>Thu, 27 Dec 2012 17:06:02 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/he/blog/2012-12-27-thank-you-first-colo/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
+are planning to migrate to MATE Desktop on their office workstations. FirstColo have
+kindly donated a new dedicated server to support MATE.&lt;/p&gt;
+&lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

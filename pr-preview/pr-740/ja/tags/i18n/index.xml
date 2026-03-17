@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – I18n</title>
+    <link>https://mate-desktop.org/ja/tags/i18n/</link>
+    <description>Recent content in I18n on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 14 Feb 2014 12:51:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/i18n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE 翻訳支援のお願い</title>
+      <link>https://mate-desktop.org/ja/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;このバレンタインデーに MATE プロジェクトへの愛着を表しましょう。翻訳作業をご支援ください！&lt;/p&gt;
+&lt;p&gt;翻訳者は MATE 開発チームの中の目立たない英雄であり、私たちは当プロジェクト改善を支援するよう再度要請します。MATE 1.7 は最終テストと QA を完了し、間もなく MATE 1.8 のリリース準備が完了します。&lt;/p&gt;
+&lt;p&gt;そのため、みなさんが Transifex で貢献した MATE 翻訳の状況を確認していただき、なるべく早く更新されるようお願いします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もしあなたが未だ翻訳チームのメンバーでなくて、これから支援したいと思う場合は、&lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transifexで無料アカウントを登録&lt;/a&gt;して、MATE への貢献を開始していただくようお願いします！&lt;/p&gt;
+&lt;p&gt;現在、100%翻訳済み言語が 6 つあるので、MATE 1.8 がリリースされる前に、どれだけ多くの言語が 100%の翻訳率になるか楽しみです。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

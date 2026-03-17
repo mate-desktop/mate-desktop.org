@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Categories</title>
+    <link>https://mate-desktop.org/pt/categories/</link>
+    <description>Recent content in Categories on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+	  <atom:link href="https://mate-desktop.org/pt/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

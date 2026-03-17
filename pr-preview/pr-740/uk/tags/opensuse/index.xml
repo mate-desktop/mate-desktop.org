@@ -1,0 +1,52 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – OpenSUSE</title>
+    <link>https://mate-desktop.org/uk/tags/opensuse/</link>
+    <description>Recent content in OpenSUSE on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    <lastBuildDate>Sat, 24 Dec 2011 21:58:49 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/uk/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Нова вікі та інша інформація</title>
+      <link>https://mate-desktop.org/uk/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/uk/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Нещодавно ми перейшли з вікі &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; на нашу власну вікі
+доступну на [wiki.mate-desktop.org] ( &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;/a&gt;. Будь ласка
+відтепер посилайтеся на цю вікі. Звичайно, будь-хто може долучитися до її наповнення.&lt;/p&gt;
+&lt;p&gt;Для тих, хто ще не знає, ви можете
+&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;повідомити про проблеми на github&lt;/a&gt;. На цей час
+це все, що ми маємо в плані повідомлення про помилки, але ми розробляємо багтрекер.
+Ми напишемо про це тут, коли він буде готовий.&lt;/p&gt;
+&lt;p&gt;У нас також є плани на майбутнє щодо форуму Mate, але це на дуже ранній стадії.&lt;/p&gt;
+&lt;p&gt;Для тих з вас, хто використовує &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;,
+і &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;, ви можете отримати доступ до гілки розробки 1.1.x
+наших пакунків з використанням репозиторію tridex. Перегляньте &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;сторінку завантаження&lt;/a&gt;
+на вікі для подальшої інформації. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; також має наші
+пакунки випуску 1.0.x у своєму репозиторії. Якщо хтось досі використовує PPA Amanas,
+він більше не підтримується. Решта наших випусків 1.1.x будуть розміщені у tridex сховищі. Майбутні випуски (наприклад, 1.2.0) будуть розміщені тут.&lt;/p&gt;
+&lt;p&gt;Ми з гордістю повідомляємо про початок пакування для [openSUSE] ( &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;/a&gt;).
+Як тільки ми отримаємо більше інформації, ми додамо її до своєї вікі та зробимо оголошення.&lt;/p&gt;
+&lt;p&gt;Нарешті, кілька людей приєдналися до &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;нашого IRC-каналу&lt;/a&gt;
+і запитали про &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; ebuild для MATE. Зважаючи на це,
+ми шукаємо людей, які готові це встановити.&lt;/p&gt;
+&lt;p&gt;Веселих свят від команди Mate.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

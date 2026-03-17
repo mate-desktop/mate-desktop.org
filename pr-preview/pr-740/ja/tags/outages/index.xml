@@ -1,0 +1,69 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – Outages</title>
+    <link>https://mate-desktop.org/ja/tags/outages/</link>
+    <description>Recent content in Outages on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 22 Dec 2016 01:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/outages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>サーバの障害</title>
+      <link>https://mate-desktop.org/ja/blog/2016-12-22-server-outage/</link>
+      <pubDate>Thu, 22 Dec 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2016-12-22-server-outage/</guid>
+      <description>
+        
+        
+        &lt;p&gt;このウェブサイトを実行しているサーバは、昨日予告なしにオフラインになりました。理由は不明ですが、サーバホストからの連絡はありませんでした。&lt;strong&gt;バックアップは完了しており、データは少しも失われていません。&lt;/strong&gt; サービスの復帰を開始しました。未解決のサービスは、休暇期間中の時間が許す限り復旧される予定です。&lt;/p&gt;
+&lt;p&gt;サービスがオンラインに戻ったら、このページを更新します。&lt;/p&gt;
+&lt;h2&gt;どのような影響がありますか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;どのような影響がありますか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%a9%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e5%bd%b1%e9%9f%bf%e3%81%8c%e3%81%82%e3%82%8a%e3%81%be%e3%81%99%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このサービスは現在停止中です。復旧の際は優先度の高い順に表示されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; - これはほとんど使用されないメーリングリストです。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; - フォーラムは、私たちが今年初めに閉鎖を開始して、ロックされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;何が復旧したのですか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;何が復旧したのですか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bd%95%e3%81%8c%e5%be%a9%e6%97%a7%e3%81%97%e3%81%9f%e3%81%ae%e3%81%a7%e3%81%99%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt;&amp;gt; - 当ウェブサイト&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt;&amp;gt; - MATE デスクトップのリリースの tarball が置かれている場所。&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&gt;&lt;/a&gt; - 開発者向け Wiki サイト。&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt;&amp;gt; - これは &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE デスクトップ GitHub&lt;/a&gt; のミラーです。&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt;&amp;gt; - MATE デスクトップ・プラネット。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - 開発者用メールサーバ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;更新&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;更新&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9b%b4%e6%96%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;12月21日&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12月21日&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12%e6%9c%8821%e6%97%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bytemark.co.uk/r/ubuntu-mate/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bytemark&lt;/a&gt; が MATE デスクトップのホストスポンサーになるとの申出を受けたので、以前のプロバイダによるサーバ停止から復旧するのに役立ちました。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;www.mate-desktop.org&lt;/code&gt; と &lt;code&gt;pub.mate-desktop.org&lt;/code&gt; が復旧。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;12月22日&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12月22日&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12%e6%9c%8822%e6%97%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;wiki.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;12月23日&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12月23日&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12%e6%9c%8823%e6%97%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;planet.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;１月2日&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;１月2日&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%ef%bc%91%e6%9c%882%e6%97%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; 復旧。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この度はご迷惑をお掛けして申しわけありません。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

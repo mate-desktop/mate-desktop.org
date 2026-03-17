@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Themes</title>
+    <link>https://mate-desktop.org/sr/tags/themes/</link>
+    <description>Recent content in Themes on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Tue, 26 Mar 2013 16:53:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Нове теме</title>
+      <link>https://mate-desktop.org/sr/blog/2013-03-26-new-themes/</link>
+      <pubDate>Tue, 26 Mar 2013 16:53:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2013-03-26-new-themes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Екипа с поносом објављује нове теме за Мејт 1.6.&lt;/p&gt;
+&lt;p&gt;Мента ће бити основна тема за долазеће ново издање. Састоји се од фине Гтк2/3
+теме (засноване на „Mint-Z Improved“-у, која се више не одржава, прилагођене Мејту
+и ажуриране за Гтк3.6) и проистекле теме из „mate-icon-theme“ са зеленим фасциклама.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Тема Нана&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ту ће такође бити још две нове теме:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Црни Мејт&lt;/strong&gt;: Тема са црном основом, без зеленила.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Зелена лагуна&lt;/strong&gt;: Фина тема заснована на зеленој боји.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Желимо да се захвалимо Волфгангу Улбриху и Марселу Дијкстра за овај сјајан
+посао.&lt;/p&gt;
+&lt;h3&gt;BlackMATE theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blackmate-theme&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blackmate-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;Тема Црни Мејт&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;GreenLaguna theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;greenlaguna-theme&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#greenlaguna-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;Тема Зекена лагуна&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

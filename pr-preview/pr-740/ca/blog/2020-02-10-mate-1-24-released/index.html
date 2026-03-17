@@ -99,7 +99,7 @@ Novetats de MATE 1.24 Aquesta versió incorpora algunes coses noves, soluciona a
 Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitzar, des de què l’usuari inicia la sessió. Voleu amagar l’inici d’aplicacions? Ara podeu definir quines aplicacions es mostraran a l’inici. Engrampa ara és compatible amb alguns formats d’arxius nous, i també és compatible amb contrasenyes i caràcters Unicode amb alguns tipus d’arxius. Eye of MATE ara funciona a Wayland i hem afegit compatibilitat per als perfils de colors incrustats. La generació de les imatges de les miniatures ha estat modificada i corregida des de l’aplicació Hem afegit compatibilitat per a WebP. El nostre de gestor de finestres Marco, incorpora molts canvis: Hem portat un munt de decoracions de finestres antigues per alimentar la nostàlgia. Finalment hem afegit un redimensionament invisible de les fronteres. No hi ha més problemes per trobar el contorn per agafar amb el ratolí! Tots els controls de la finestra (els botons per minimitzar, maximitzar, tancar…) ara es mostren correctament en HiDPI. Les finestres emergents Alt&#43;Tab i de l’intercanviador d’espais de treball han estat refetes. Ara es mostren en un bon format d’OSD, són més configurables i poden respondre a les fletxes del teclat. El mosaic de finestres ara us permet recorre amb el teclat per diferents mides de la finestra. Ja no us sentireu restringit a la meitat de la pantalla. La miniaplicació del Monitor del sistema ara és compatible amb discs NVMe. La Calculadora permet introduir “pi” o “π”. S’ha millorat la notació científica. Canvis necessaris per a donar suport a les principals constants físiques predefinides. El Centre de control ara mostra les seves icones correctament en pantalles HiDPI. S’ha afegit un nou Gestor de data i hora. L’aplicació del Ratolí ara disposa de perfils d’acceleració. S’ha millorat l’aplicació de les Aplicacions preferides per a l’accessibilitat, així la integració del client de missatgeria instantània. La miniaplicació dels Indicadors té una interacció lleugerament millor amb les icones externes. Parlant de les icones, hem redissenyat als nostres temes les icones de la miniaplicació NetworkManager i ara es poden veure correctament en pantalles HiDPI. Si sou dels qui li agrada que no us molestin quan esteu ocupats o bé esteu fent una presentació o bé esteu mirant una pel·lícula, estareu encantats de saber que el dimoni de notificacions ara incorpora el mode no molestar. El Tauler de MATE tenia diversos errors que provocaven accidents heretats en fer canvis al disseny. Els hem solucionat! El suport per a Wayland ha millorat força. Les icones d’estat (també conegut com a àrea de notificacions o safata del sistema) funcionen correctament en pantalles HiDPI. El peix Wanda ha sofert un canvi d’imatge i ara el podeu veure en alta resolució. La miniaplicació de la llista de finestres ara mostra miniatures de les finestres en passar-hi el cursor per damunt. Millores d’accessibilitat en tot el tauler i en les seves miniaplicacions principals. Si el vostre sistema no li agrada systemd, potser us interessa saber que hem afegit suport per a elogind tant per a l’estalvi de pantalla com per al gestor de sessions. Hem afegit una eina nova, el Muntador d’imatge de discs de MATE Mozo, l’editor de menús, ara us permet desfer i refer els canvis. Ara tots els connectors de Pluma estan escrits amb Python 3. A més, pluma ja no té res a envejar d’altres editors de text més complets, ja que ara pot mostrar les marques de format. i18n: S’han migrat totes les aplicacions d’intltools a gettext. Els diferents components que integres l’entorn d’escriptori MATE 1.24 es poden baixar des del següent enllaç:">
   <meta itemprop="datePublished" content="2020-02-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-02-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="3398">
+  <meta itemprop="wordCount" content="3436">
   <meta itemprop="keywords" content="Releases">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Llançament de MATE 1.24">
@@ -122,31 +122,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 
   
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-
-
-
-<style>/* MATE Desktop custom theme colors */
-/* MATE Green: #87A752 = hsl(80, 36%, 49%) */
-
-:root {
-  --primary-hue: 80deg;
-  --primary-saturation: 36%;
-  --primary-lightness: 49%;
-}
-
-.dark {
-  --primary-hue: 80deg;
-  --primary-saturation: 40%;
-  --primary-lightness: 55%;
-}
-</style>
-
-</head>
+  </head>
 <body>
     <a href="#content" class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:px-4 hx:focus-visible:py-2 hx:focus-visible:rounded-md hx:focus-visible:text-sm hx:focus-visible:font-medium">Skip to content</a><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
   <div
@@ -570,6 +546,522 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
     </a>
   </div>
               
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2016-12-22-server-outage/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Server Outage</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2016-09-21-mate-1-16-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.16 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2016-07-28-mate-forums-are-closing/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE Desktop discussion forums are closing</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2016-04-08-mate-1-14-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.14 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2015-11-05-mate-1-12-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.12 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2015-06-11-mate-1-10-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.10 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.10 with GTK3 for Fedora 21 and 22</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2015-01-28-meet-mates-mastermind/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Meet MATE&#39;s Mastermind</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/mate-interview-with-linux-luddites/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE interview with Linux Luddites</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-09-29-mate-1-8-updated/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.8 updated</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-09-25-debian-and-ubuntu-repositories-removed/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Debian and Ubuntu package repositories removed from mate-desktop.org</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-05-10-mate-in-opensuse/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE in openSUSE</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-04-28-mate-desktop-gsoc-2014-projects/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE projects accepted for GSoC 2014</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-03-17-galculator-is-coming-to-mate/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">galculator is coming to MATE 1.10</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-03-11-mate-desktop-singing-the-bluez/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE Desktop singing the BlueZ</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-03-10-mate-desktop-gsoc-2014/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE is participating in GSoC 2014</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-03-04-mate-1-8-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.8 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-02-14-mate-translation-contributions-requested/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE translation contributions requested</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-02-13-mate-desktop-roadmap-reshuffle/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE Desktop Roadmap Reshuffle</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-02-07-stefano-presents-mate-at-fosdem/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Stefano presents MATE at FOSDEM 2014</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-02-05-mate-desktop-mythbusting/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE Desktop Mythbusting</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-01-30-mate-desktop-live-cd/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE desktop Live CD</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2014-01-16-mate-officially-in-arch-linux/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE is officially available in Arch Linux</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-11-25-support-linux-voice/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Support Linux Voice!</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-11-16-mate-1.6-packages-for-arch-linux/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.6 packages for Arch Linux</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-11-08-debian-mate-packaging-team/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Debian MATE Packaging Team</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-11-08-mate-at-opensuse-summit/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE at openSUSE Summit</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/website-redesign/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Website re-design</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-08-10-mate-package-repository-for-opensuse/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">New repositories for openSUSE</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-07-21-stefano-presents-at-opensuse-conference/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Stefano presents at openSUSE conference</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-04-02-mate-1-6-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.6 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-03-26-new-themes/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">New themes</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-03-20-mate-and-ltsp/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE and LTSP</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-03-12-mate-university/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE University</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2013-01-20-changes-to-mate-notification-daemon/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Changes to mate-notification-daemon</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-12-27-thank-you-first-colo/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Thank you First Colo!</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-11-10-mate-package-repository-for-fedora/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE package repository for Fedora</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE package repository for Ubuntu Quantal</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-07-30-mate-1-4-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.4 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-04-16-mate-1-2-released/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.2 released</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2012-01-18-reporting-bugs/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Reporting Bugs</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2011-12-24-new-wiki-and-new-distributions-supported/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">New wiki and other info</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/blog/2011-12-05-introducing-mate-desktop/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Introducing MATE Desktop</span>
+    </a>
+  </div>
+              
             </li></ul>
       </div></li>
               <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
@@ -723,6 +1215,69 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
             role="menuitem"
             class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
           >繁體中文</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/he/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >עברית</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pl/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Polski</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pt/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Português</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pt_br/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Português (Brasil)</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/ru/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Русский</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/sr/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Srpski</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/uk/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Українська</a>
         </li>
       </ul>
   </div><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
@@ -1035,7 +1590,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 </ul>
 <p>Els diferents components que integres l&rsquo;entorn d&rsquo;escriptori MATE 1.24 es poden baixar des del següent enllaç:</p>
 <ul>
-<li><a href="https://pub.mate-desktop.org/releases/1.24/"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.24/</a></li>
+<li>&lt; <a href="https://pub.mate-desktop.org/releases/1.24/%3e"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.24/></a></li>
 </ul>
 <h2>Más detalles<span class="hx:absolute hx:-mt-20" id="más-detalles"></span>
     <a href="#m%c3%a1s-detalles" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Aquí hi ha més detalls dels canvis més interessants.</p>
@@ -1058,7 +1613,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/atril/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/atril/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/></a></p>
 <h3>caja<span class="hx:absolute hx:-mt-20" id="caja"></span>
     <a href="#caja" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1090,13 +1645,13 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/caja/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/></a></p>
 <h3>caja-dropbox<span class="hx:absolute hx:-mt-20" id="caja-dropbox"></span>
     <a href="#caja-dropbox" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Use CAJA_EXTENSION_DIR_SYS to save and show system caja extension dir</li>
 <li>Show full path of caja-extension-dir</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/></a></p>
 <h3>caja-extensions<span class="hx:absolute hx:-mt-20" id="caja-extensions"></span>
     <a href="#caja-extensions" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>caja-wallpaper-extension: Fix memory leak</li>
@@ -1108,7 +1663,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/caja-extensions/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/caja-extensions/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/></a></p>
 <h3>engrampa<span class="hx:absolute hx:-mt-20" id="engrampa"></span>
     <a href="#engrampa" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1132,7 +1687,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista completa de canvis: <a href="https://github.com/mate-desktop/engrampa/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
+<p>Llista completa de canvis: &lt; <a href="https://github.com/mate-desktop/engrampa/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/></a></p>
 <h3>eom<span class="hx:absolute hx:-mt-20" id="eom"></span>
     <a href="#eom" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Add eom-thumbnailer for webp files</li>
@@ -1148,7 +1703,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/eom/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/eom/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/></a></p>
 <h3>libmatekbd<span class="hx:absolute hx:-mt-20" id="libmatekbd"></span>
     <a href="#libmatekbd" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1156,14 +1711,14 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/libmatekbd/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/libmatekbd/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/></a></p>
 <h3>libmatemixer<span class="hx:absolute hx:-mt-20" id="libmatemixer"></span>
     <a href="#libmatemixer" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/libmatemixer/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/libmatemixer/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/></a></p>
 <h3>libmateweather<span class="hx:absolute hx:-mt-20" id="libmateweather"></span>
     <a href="#libmateweather" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Locations: Add Lleida–Alguaire Airport weather station</li>
@@ -1172,7 +1727,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/libmateweather/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/libmateweather/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/></a></p>
 <h3>marco<span class="hx:absolute hx:-mt-20" id="marco"></span>
     <a href="#marco" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>theme: Fix window control hidpi rendering for all themes.</li>
@@ -1193,7 +1748,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/marco/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/marco/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/></a></p>
 <h3>mate-applets<span class="hx:absolute hx:-mt-20" id="mate-applets"></span>
     <a href="#mate-applets" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1210,14 +1765,14 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-applets/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-applets/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/></a></p>
 <h3>mate-backgrounds<span class="hx:absolute hx:-mt-20" id="mate-backgrounds"></span>
     <a href="#mate-backgrounds" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Enable the support for the meson build system</li>
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/></a></p>
 <h3>mate-calc<span class="hx:absolute hx:-mt-20" id="mate-calc"></span>
     <a href="#mate-calc" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix scientific presentation of complex numbers</li>
@@ -1234,7 +1789,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-calc/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-calc/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/></a></p>
 <h3>mate-common<span class="hx:absolute hx:-mt-20" id="mate-common"></span>
     <a href="#mate-common" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Update MATE_CXX_WARNINGS macro</li>
@@ -1242,7 +1797,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>Check if AX_APPEND_FLAG and AX_CHECK_COMPILE_FLAG are available</li>
 <li>Update mate-compiler-flags macro</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-common/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-common/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/></a></p>
 <h3>mate-control-center<span class="hx:absolute hx:-mt-20" id="mate-control-center"></span>
     <a href="#mate-control-center" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Search system themes in system data dirs</li>
@@ -1269,7 +1824,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-control-center/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-control-center/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/></a></p>
 <h3>mate-desktop<span class="hx:absolute hx:-mt-20" id="mate-desktop"></span>
     <a href="#mate-desktop" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Drop mate_desktop_thumbnail_scale_down_pixbuf()</li>
@@ -1285,7 +1840,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-desktop/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-desktop/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/></a></p>
 <h3>mate-icon-theme<span class="hx:absolute hx:-mt-20" id="mate-icon-theme"></span>
     <a href="#mate-icon-theme" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Add status icons for mobile network connections</li>
@@ -1306,14 +1861,14 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/></a></p>
 <h3>mate-indicator-applet<span class="hx:absolute hx:-mt-20" id="mate-indicator-applet"></span>
     <a href="#mate-indicator-applet" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Resize indicator icons to fit panel</li>
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/></a></p>
 <h3>mate-media<span class="hx:absolute hx:-mt-20" id="mate-media"></span>
     <a href="#mate-media" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1326,14 +1881,14 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-media/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-media/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/></a></p>
 <h3>mate-menus<span class="hx:absolute hx:-mt-20" id="mate-menus"></span>
     <a href="#mate-menus" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Use datadir and libdir variables when installing gir files</li>
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-menus/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-menus/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/></a></p>
 <h3>mate-netbook<span class="hx:absolute hx:-mt-20" id="mate-netbook"></span>
     <a href="#mate-netbook" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1343,7 +1898,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-netbook/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-netbook/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/></a></p>
 <h3>mate-notification-daemon<span class="hx:absolute hx:-mt-20" id="mate-notification-daemon"></span>
     <a href="#mate-notification-daemon" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Use gresource for mate-notification-properties.ui</li>
@@ -1351,7 +1906,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/></a></p>
 <h3>mate-panel<span class="hx:absolute hx:-mt-20" id="mate-panel"></span>
     <a href="#mate-panel" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Avoid double a11y description on panel toplevels</li>
@@ -1377,7 +1932,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-panel/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-panel/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/></a></p>
 <h3>mate-polkit<span class="hx:absolute hx:-mt-20" id="mate-polkit"></span>
     <a href="#mate-polkit" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1385,7 +1940,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-polkit/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-polkit/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/></a></p>
 <h3>mate-power-manager<span class="hx:absolute hx:-mt-20" id="mate-power-manager"></span>
     <a href="#mate-power-manager" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>icons: Add higher resolution icons</li>
@@ -1398,7 +1953,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/></a></p>
 <h3>mate-screensaver<span class="hx:absolute hx:-mt-20" id="mate-screensaver"></span>
     <a href="#mate-screensaver" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1408,13 +1963,13 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>Add ELOGIND support</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/></a></p>
 <h3>mate-sensors-applet<span class="hx:absolute hx:-mt-20" id="mate-sensors-applet"></span>
     <a href="#mate-sensors-applet" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/></a></p>
 <h3>mate-session-manager<span class="hx:absolute hx:-mt-20" id="mate-session-manager"></span>
     <a href="#mate-session-manager" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1432,7 +1987,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/></a></p>
 <h3>mate-settings-daemon<span class="hx:absolute hx:-mt-20" id="mate-settings-daemon"></span>
     <a href="#mate-settings-daemon" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Require DBUS 1.10.0 or newer</li>
@@ -1450,7 +2005,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/></a></p>
 <h3>mate-system-monitor<span class="hx:absolute hx:-mt-20" id="mate-system-monitor"></span>
     <a href="#mate-system-monitor" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1468,7 +2023,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/></a></p>
 <h3>mate-terminal<span class="hx:absolute hx:-mt-20" id="mate-terminal"></span>
     <a href="#mate-terminal" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1481,7 +2036,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-terminal/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-terminal/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/></a></p>
 <h3>mate-user-guide<span class="hx:absolute hx:-mt-20" id="mate-user-guide"></span>
     <a href="#mate-user-guide" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Update reporting-bugs section</li>
@@ -1491,7 +2046,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>Upgrade the manual to docbook 5.0</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/></a></p>
 <h3>mate-user-share<span class="hx:absolute hx:-mt-20" id="mate-user-share"></span>
     <a href="#mate-user-share" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1499,7 +2054,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-user-share/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-user-share/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/></a></p>
 <h3>mate-utils<span class="hx:absolute hx:-mt-20" id="mate-utils"></span>
     <a href="#mate-utils" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1515,7 +2070,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mate-utils/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mate-utils/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/></a></p>
 <h3>mozo<span class="hx:absolute hx:-mt-20" id="mozo"></span>
     <a href="#mozo" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Add Undo and Redo buttons</li>
@@ -1526,7 +2081,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/mozo/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/mozo/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/></a></p>
 <h3>pluma<span class="hx:absolute hx:-mt-20" id="pluma"></span>
     <a href="#pluma" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC</li>
@@ -1544,7 +2099,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/pluma/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/pluma/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/></a></p>
 <h3>python-caja<span class="hx:absolute hx:-mt-20" id="python-caja"></span>
     <a href="#python-caja" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
 <li>Ready for using gcc 10</li>
@@ -1553,7 +2108,7 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
 <li>i18n: Migrate from intltools to gettext</li>
 <li>g10n: Update the translations</li>
 </ul>
-<p>Llista de tots els canvis: <a href="https://github.com/mate-desktop/python-caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+<p>Llista de tots els canvis: &lt; <a href="https://github.com/mate-desktop/python-caja/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/></a></p>
 
         </div>
     <div class="hx:mt-12 hx:mb-8 hx:block hx:text-xs hx:text-gray-500 hx:ltr:text-right hx:rtl:text-left hx:dark:text-gray-400">
@@ -1663,6 +2218,69 @@ Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitza
             role="menuitem"
             class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
           >繁體中文</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/he/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >עברית</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pl/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Polski</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pt/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Português</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/pt_br/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Português (Brasil)</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/ru/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Русский</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/sr/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Srpski</a>
+        </li>
+      
+        
+        <li role="none" class="hx:flex hx:flex-col">
+          <a
+            href="/uk/"
+            role="menuitem"
+            class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
+          >Українська</a>
         </li>
       </ul>
   </div><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">

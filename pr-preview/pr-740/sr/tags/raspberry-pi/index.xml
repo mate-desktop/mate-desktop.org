@@ -1,0 +1,113 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Raspberry Pi</title>
+    <link>https://mate-desktop.org/sr/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 16 Jan 2014 22:22:22 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Мејт је званично доступан у Арч Линуксу</title>
+      <link>https://mate-desktop.org/sr/blog/2014-01-16-mate-officially-in-arch-linux/</link>
+      <pubDate>Thu, 16 Jan 2014 22:22:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-01-16-mate-officially-in-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Мејт је коначно нашао свој пут до куће.&lt;/p&gt;
+&lt;p&gt;Као што неки од вас можда знају, Мејт је створио &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+корисник, Перберос. Помало је иронично да се Мејт никада до сада
+није појавио у званичном спремишту Арч Линукс пакета. Тако је,
+Мејт је коначно доступан у ризници „[community]“ Арч Линукс
+пакета!&lt;/p&gt;
+&lt;p&gt;Можете да сазнате све што вам је потребно о инсталацији Мејта
+на Арч Линуксу са следећих вики страница:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Такође је вредно напоменути да ће сада застарели незванични пакет Мејт
+ризнице бити уклоњен када се синхронизују сва огледала Арч Линукса.
+Стога напред и освежите „/etc/pacman.conf“ и уклоните ризницу пакета
+„[mate]“.&lt;/p&gt;
+&lt;p&gt;Још једна предност уласка Мејта у званичну ризницу Арч Линукс пакета
+је та да ће Мејт сада такође бити представљен у ризници &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс АРМ&lt;/a&gt;
+пакета. Коначно могу да повучем своје „Raspberry Pi“ (armv6h) и Cubox Pro
+(armv7h) &lt;em&gt;„сервере“&lt;/em&gt; изградње. Нисам сигуран колико ће времена требати
+да се сви Мејтови пакети појаве у ризници Арч Линукс АРМ пакета, али сам
+већ видео да су неки пакети изграђени.&lt;/p&gt;
+&lt;p&gt;Мејт ради врло лепо на Raspberry Pi моделу B са 512MB RAM-а, тако
+да ако имате Pi и слободну SD картицу, дајте му крила. Ускоро ћу
+написати објаву на блогу о томе како да инсталирате Арч Линукс и
+Мејт на Raspberry Pi-ју са неким корисним поставкама учинковитости.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Пакети Мејта 1.6 за Арч Линукс</title>
+      <link>https://mate-desktop.org/sr/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link>
+      <pubDate>Sat, 16 Nov 2013 00:36:43 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Пакети Мејта 1.6 су били доступни за &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+већ неко време. Стога чему објава на блогу?&lt;/p&gt;
+&lt;p&gt;У неколико последњих месеци пакети Мејта 1.6 за Арч Линукс су поправљени,
+очишћени и побољшани. Ово је претпреглед онога на чему смо радили:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Све Арч Линуксу специфичне грешке су исправљене.&lt;/li&gt;
+&lt;li&gt;Нове аутоматизоване скрипте изградње и кластер изградње.&lt;/li&gt;
+&lt;li&gt;Пуна подршка за следеће платформе:
+&lt;ul&gt;
+&lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;armv7h&lt;/li&gt;
+&lt;li&gt;i686&lt;/li&gt;
+&lt;li&gt;x86_64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Запаковано је 9 додатних програма/програмчића од стране Мејтове заједнице.&lt;/li&gt;
+&lt;li&gt;Избор „Pulse Audio“ или „GStreamer“ позадинаца.&lt;/li&gt;
+&lt;li&gt;Изабране су неке &lt;code&gt;systemd&lt;/code&gt; и &lt;code&gt;logind&lt;/code&gt; функције из Мејта 1.7.&lt;/li&gt;
+&lt;li&gt;Изабране су неке &lt;code&gt;upower&lt;/code&gt; функције из Мејта 1.7.&lt;/li&gt;
+&lt;li&gt;Изабране су разне исправке грешака из Мејта 1.7.&lt;/li&gt;
+&lt;li&gt;Изградње пакета Мејта 1.6 су сада самостално усглашене са „AUR“-ом.&lt;/li&gt;
+&lt;li&gt;Ризница пакета Арч Линукса за Мејт је сада потписана.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Све што треба да знате о инсталирању Мејта 1.6 на Арч Линуксу можете
+сазнати на следећим вики страницама:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Нарочито желим да се захвалим:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Волфгангу Улбриху&lt;/a&gt; за рад са екипом
+развоја Федоре на налажењу &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; и &lt;code&gt;upower&lt;/code&gt; исправки
+које су веома значајне за Арч Линукс и такође за допринос великом
+броју програма из света заједнице.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сандеру Свирсу&lt;/a&gt; и &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефану Карапетсасу&lt;/a&gt;
+што су ми пожелели добродошлицу у екипу Мејта и што су ми помогли на IRC-у.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Сада када су пакети Мејта 1.6 у добром стању започећу процес стављања
+Мејта у званичне ризнице Арч Линукса. Можете помоћи око тога тако што
+ћете гласати за Мејтове пакете у AUR-у.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

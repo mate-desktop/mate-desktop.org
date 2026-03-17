@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – Gentoo</title>
+    <link>https://mate-desktop.org/ja/tags/gentoo/</link>
+    <description>Recent content in Gentoo on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 24 Dec 2011 21:58:49 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/gentoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>新しい Wiki サイトやその他のお知らせ</title>
+      <link>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;私たちは最近、[GitHub]のWiki( &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) から、&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;
+&lt;p&gt;まだ気付いていない方は、&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt; で問題を報告することができます。現時点では、バグ報告に関して利用できるのはこれだけですが、バグ追跡ツールを開発中です。
+できあがったときには、ここでお知らせします。&lt;/p&gt;
+&lt;p&gt;私たちは Mate フォーラムを将来設置する計画も持っていますが、それは未だ非常に初期の段階にあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;、&lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;、&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; は tridex のリポジトリを使って私たちのパッケージ 1.1.x 開発ブランチにアクセスできます。詳細については、Wiki の&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ダウンロードページ&lt;/a&gt; をご覧ください。&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; はまた、そのリポジトリに 1.0.x リリースパッケージを持っています。もし誰かがまだ Amanas の PPA を使っているのなら、それはもはやサポートされていません。残りの 1.1.x リリースは tridex のリポジトリでホストされます。今後のリリース (例: 1.2.0) はここでホストされます。&lt;/p&gt;
+&lt;p&gt;私たちは、&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; 向けのパーケージ化が始まったことを誇りに思います。より多くの情報が得られたら、それを私たちの Wiki に追加して発表します。&lt;/p&gt;
+&lt;p&gt;最後に、私たちは何人かの個人に&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;私たちのIRCチャンネル&lt;/a&gt; に参加してもらって、&lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; では MATE 用がビルドされるかについて尋ねました。そういうことなので、私たちはこれらをセットアップしてくださる方を探しています。&lt;/p&gt;
+&lt;p&gt;素敵な休暇をお過ごしください。Mate チームより。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

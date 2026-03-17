@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – Themes</title>
+    <link>https://mate-desktop.org/ja/tags/themes/</link>
+    <description>Recent content in Themes on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 26 Mar 2013 16:53:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>新しいテーマ</title>
+      <link>https://mate-desktop.org/ja/blog/2013-03-26-new-themes/</link>
+      <pubDate>Tue, 26 Mar 2013 16:53:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2013-03-26-new-themes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
+&lt;p&gt;Menta は、次の新リリースの標準テーマになる予定です。それは、素敵な GTK2/3 のテーマ (Mint-Z Improved が基本。もはやメンテナンスされていませんが、MATE 用にカスタマイズされ、GTK3.6 にアップデート済み)と、緑色のフォルダを持つ mate-icon-theme の子テーマで構成されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Menta テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;他にも2つの新しいテーマがあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ブラック MATE&lt;/strong&gt;: 黒色が基調のテーマで、緑色はありません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;グリーン GreenLaguna&lt;/strong&gt;: 緑色を基調にした素敵なテーマです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wolfgang Ulbrich さんと Marcel Dijkstra さんの素晴らしい仕事に感謝します。&lt;/p&gt;
+&lt;h3&gt;ブラック MATE テーマ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ブラック-mate-テーマ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%96%e3%83%a9%e3%83%83%e3%82%af-mate-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;ブラック MATE テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;グリーン Laguna テーマ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;グリーン-laguna-テーマ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%b3-laguna-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;グリーン Laguna テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

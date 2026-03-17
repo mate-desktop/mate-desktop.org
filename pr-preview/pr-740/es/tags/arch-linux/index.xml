@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entorno de Escritorio MATE – Arch Linux</title>
+    <link>https://mate-desktop.org/es/tags/arch-linux/</link>
+    <description>Recent content in Arch Linux on Entorno de Escritorio MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 05 Dec 2011 12:00:30 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/es/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Presentación del Escritorio MATE</title>
+      <link>https://mate-desktop.org/es/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/es/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;¡Bienvenidos al Entorno de Escritorio MATE!&lt;/p&gt;
+&lt;p&gt;Gnome 2 fue el escritorio de Linux más popular, pero ya no está disponible&amp;hellip; MATE
+está aquí para proporcionarte el mismo escritorio &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Inicialmente, Perberos hizo una bifurcación de Gnome 2 y la llamó proyecto MATE. Usuarios y
+desarrolladores han tenido éxito de ejecutar MATE en &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+y debido a la demanda popular, Perberos facilitó la compilación de MATE bajo
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; y &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+se unieron luego al proyecto y lo empaquetaron para Debian y &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;.
+El escritorio MATE apareció en Linux Mint 12 y ahora está ganando impulso rápidamente.&lt;/p&gt;
+&lt;p&gt;Nuestra máxima prioridad es mejorar MATE y que esté a la par, en términos de características
+y estabilidad con Gnome 2.32. Portaremos temas, applets y aplicaciones que
+fueron desarrollados para Gnome 2, y ayudaremos a los desarrolladores a portar sus aplicaciones a este
+nuevo escritorio.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

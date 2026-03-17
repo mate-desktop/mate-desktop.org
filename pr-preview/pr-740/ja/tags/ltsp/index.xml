@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – LTSP</title>
+    <link>https://mate-desktop.org/ja/tags/ltsp/</link>
+    <description>Recent content in LTSP on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 20 Mar 2013 11:30:13 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/ltsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE と LTSP</title>
+      <link>https://mate-desktop.org/ja/blog/2013-03-20-mate-and-ltsp/</link>
+      <pubDate>Wed, 20 Mar 2013 11:30:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2013-03-20-mate-and-ltsp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;世界中には、シンクライアントを介して GNU/Linux デスクトップにアクセスする人がたくさんいます。また、最も長く稼働しているシンクライアントプロジェクトの 1 つに、&lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt; プロジェクトがあります。MATE デスクトップは、シンクライアントでのすばらしいデスクトップ体験を提供します。高速で安定しており、効率的です。ユーザーが慣れ親しんでいる従来のパラダイムを使った GNU/Linux デスクトップを探している図書館、学校、企業は、MATE がUnity/Gnome 3 デスクトップへの乗り換えに代わる、優れた選択肢であることに気付くでしょう。LTSP と MATE の両方に携わる開発者として、私は両方の開発についての短い&lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ビデオ&lt;/a&gt;を作成しました。&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/pnL47bbFN68&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

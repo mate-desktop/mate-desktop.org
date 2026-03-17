@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Blogs</title>
+    <link>https://mate-desktop.org/ru/blog/</link>
+    <description>Recent content in Blogs on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Tue, 16 Oct 2012 21:52:18 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ru/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE package repository for Ubuntu Quantal</title>
+      <link>https://mate-desktop.org/ru/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link>
+      <pubDate>Tue, 16 Oct 2012 21:52:18 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ru/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Репозиторий пакетов &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt; для Ubuntu 12.10 Quantal Quetzal
+теперь доступен для нашего релиза 1.4. Как обычно, следуйте &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этим инструкциям&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Если вы обновляетесь с более старого релиза, пожалуйста проверьте, что
+вы удалили старую версию и старые репозитории, добавив новые, иначе у вас возникнут проблемы.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Introducing MATE Desktop</title>
+      <link>https://mate-desktop.org/ru/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ru/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Добро пожаловать в среду рабочего стола MATE!&lt;/p&gt;
+&lt;p&gt;Gnome 2 был самым популярным рабочим столом Linux, но он больше не доступен &amp;hellip; MATE
+здесь, чтобы предоставить вам тот же рабочий стол &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Изначально Perberos создат ответвление от GNOME 2 и назвал его &amp;ldquo;МАТЕ&amp;rdquo;. Пользователи
+и разработчики успешно запустили МАТЕ на &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+и по многочисленным просьбам Perberos упростил компиляцию МАТЕ для
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Затем, &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+вступили в проект и пакетировали его для Debian и &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;.
+Рабочий стол МАТЕ был представлен в Linux Mint 12 и сейчас стремительно набирает обороты.&lt;/p&gt;
+&lt;p&gt;Наша главная задача — это улучшать МАТЕ и сделать его равным с точки
+зрения использования и устойчивой работы с Gnome 2.32. Мы будем переносить темы,
+апплеты и приложения, созданные для Gnome 2, и помогать разработчикам переносить
+их приложения на этот новый рабочий стол.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Новая вики и другая информация</title>
+      <link>https://mate-desktop.org/ru/blog/2011-12-24-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B2%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D1%8B-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ru/blog/2011-12-24-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B2%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D1%8B-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Недавно мы перешли с вики на &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; на собственную доступно на &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt;. Пожалуйста ссылаться на эту вики с этого момента. Естественно, каждый может внести свой вклад.&lt;/p&gt;
+&lt;p&gt;Для тех из вас, кто еще не в курсе, вы можете [сообщить о проблемах на github] ( &lt;a href=&#34;https://github.com/mate-desktop/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/)&lt;/a&gt;. На данный момент это это все, что у нас есть с точки зрения сообщений об ошибках, но у нас есть система отслеживания ошибок в работе. Мы сообщим об этом здесь, когда он будет готов.&lt;/p&gt;
+&lt;p&gt;У нас также есть планы на будущее для форума Mate, но он находится на очень ранней стадии.&lt;/p&gt;
+&lt;p&gt;Для тех из вас, кто использует [Debian] ( &lt;a href=&#34;https://www.debian.org/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.debian.org/)&lt;/a&gt;, [Ubuntu] ( &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ubuntu.com&lt;/a&gt;), и &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;, вы можете получить доступ к ветке разработки 1.1.x наши пакеты, используя репозиторий tridex. Посетите [страницу загрузки] ( &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/download.md&lt;/a&gt;) на вики для получения дополнительной информации. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; также имеет Пакеты выпуска 1.0.x в их репозитории. Если кто-то все еще использует PPA Amanas, он больше не поддерживается. Остальные наши выпуски 1.1.x будут размещены на тридексе. репозитории. Будущие выпуски (например, 1.2.0) будут размещаться здесь.&lt;/p&gt;
+&lt;p&gt;Мы с гордостью сообщаем, что упаковка для &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; началась. Как только у нас будет больше информации, мы добавим ее в нашу вики и сделаем объявление.&lt;/p&gt;
+&lt;p&gt;Наконец, несколько человек присоединились к [нашему IRC-каналу] ( &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://web.libera.chat/?#mate&lt;/a&gt;) и спросите о сборках &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; для MATE. С учетом сказанного, мы ищем людей, которые готовы настроить их.&lt;/p&gt;
+&lt;p&gt;С праздником от команды Mate.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

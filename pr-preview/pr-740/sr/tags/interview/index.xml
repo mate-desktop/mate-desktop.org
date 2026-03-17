@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Interview</title>
+    <link>https://mate-desktop.org/sr/tags/interview/</link>
+    <description>Recent content in Interview on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Mon, 13 Oct 2014 18:55:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Мејтов интервју са Линукс Лудистима</title>
+      <link>https://mate-desktop.org/sr/blog/mate-interview-with-linux-luddites/</link>
+      <pubDate>Mon, 13 Oct 2014 18:55:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/mate-interview-with-linux-luddites/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://linuxluddites.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти&lt;/a&gt; су били врло љубазни да направе интервју
+са мном прошле недеље. Разговарали смо о пореклу &lt;a href=&#34;https://mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Мејтове радне површи&lt;/a&gt;,
+њеном будућем правцу, како је настао &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Убунту Мејт&lt;/a&gt; и
+куда се креће.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти 26. епизода&lt;/a&gt;
+је објављена рано данс и ја вам предлажем да одете на веб сајт Линукс Лудиста
+и да је одслушате.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти 26. епизода&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ако до сада нисте слушали Линукс Лудисте, требало би да проверите њихов
+последњи каталог. Био је то један од мојих омиљених ФЛОСС подкастова
+неколико месеци који спаја добру расправу и даје увид у корисне рецензије
+дистрибуције и прве утиске.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

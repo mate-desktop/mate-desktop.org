@@ -46,6 +46,41 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="he"
+                href="https://mate-desktop.org/he/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://mate-desktop.org/pl/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://mate-desktop.org/pt/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://mate-desktop.org/pt_br/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mate-desktop.org/ru/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://mate-desktop.org/uk/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="bg"
                 href="https://mate-desktop.org/bg/blog/"
                 />
@@ -132,6 +167,41 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="he"
+                href="https://mate-desktop.org/he/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://mate-desktop.org/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://mate-desktop.org/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://mate-desktop.org/pt_br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mate-desktop.org/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://mate-desktop.org/uk/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="bg"
                 href="https://mate-desktop.org/bg/"
                 />
@@ -177,6 +247,11 @@
                 rel="alternate"
                 hreflang="zh-TW"
                 href="https://mate-desktop.org/zh-tw/tags/releases/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/tags/releases/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -228,8 +303,105 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="he"
+                href="https://mate-desktop.org/he/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://mate-desktop.org/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://mate-desktop.org/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://mate-desktop.org/pt_br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mate-desktop.org/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://mate-desktop.org/uk/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="bg"
                 href="https://mate-desktop.org/bg/tags/"
+                />
+  </url><url>
+    <loc>https://mate-desktop.org/bg/blog/20111205introducing-mate-desktop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mate-desktop.org/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mate-desktop.org/de/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://mate-desktop.org/es/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mate-desktop.org/it/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mate-desktop.org/ja/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://mate-desktop.org/pl/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://mate-desktop.org/pt/blog/2011-12-05-introduzindo-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://mate-desktop.org/pt_br/blog/20111205introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mate-desktop.org/ru/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/blog/2011-12-05-introducing-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://mate-desktop.org/uk/blog/2011-12-05-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%94%D0%BC%D0%BE-mate-desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="https://mate-desktop.org/bg/blog/20111205introducing-mate-desktop/"
                 />
   </url><url>
     <loc>https://mate-desktop.org/bg/categories/</loc>
@@ -272,6 +444,41 @@
                 rel="alternate"
                 hreflang="zh-TW"
                 href="https://mate-desktop.org/zh-tw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="he"
+                href="https://mate-desktop.org/he/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://mate-desktop.org/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://mate-desktop.org/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://mate-desktop.org/pt_br/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mate-desktop.org/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sr"
+                href="https://mate-desktop.org/sr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="https://mate-desktop.org/uk/categories/"
                 />
     <xhtml:link
                 rel="alternate"

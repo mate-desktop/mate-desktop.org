@@ -1,0 +1,114 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entorno de Escritorio MATE – OpenSUSE</title>
+    <link>https://mate-desktop.org/es/tags/opensuse/</link>
+    <description>Recent content in OpenSUSE on Entorno de Escritorio MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 10 May 2014 10:03:06 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/es/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE en openSUSE</title>
+      <link>https://mate-desktop.org/es/blog/2014-05-10-mate-in-opensuse/</link>
+      <pubDate>Sat, 10 May 2014 10:03:06 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/es/blog/2014-05-10-mate-in-opensuse/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;El equipo MATE de openSUSE esta orgulloso de anunciar la disponibilidad de MATE 1.8
+para openSUSE. Los patrones no estan ya disponibles, y no lo estarán en el futuro
+debido a la inclusión oficial de MATE en openSUSE.
+No podemos respaldar openSUSE 12.2, los requerimientos de MATE no estan
+provistos en las versiones correctas en ella.
+Hemos cambiado el esquema de los repositorios, para evitar que la gente
+tenga que cambiar sus repositorios para cada actualizacion. Ahora, solo
+hay un lugar, X11:MATE:Current.&lt;/p&gt;
+&lt;p&gt;Para instalarlo, por favor reemplace o agregue nuestro repositorio:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Proyectos MATE aceptados para el GSoC 2014</title>
+      <link>https://mate-desktop.org/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link>
+      <pubDate>Mon, 28 Apr 2014 06:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Despues de varias semanas de revisar la aplicación y selección para la edición
+2014 del Google Summer Of Code (GSoC) ha terminado. 4,420 estudiantes han aceptado
+y el proyecto Escritorio MATE es uno de los 190 proyectos Open Source que estarán
+trabajando con los estudiantes este año.&lt;/p&gt;
+&lt;p&gt;En nuestro segundo año como organización mentora de GSoC, el equipo MATE recibió
+4 propuestas de estudiantes hemos ubicado 3 slots para proyectos estudiantiles.&lt;/p&gt;
+&lt;p&gt;Estoy encantado de presentar nuestros estudiantes GSoC para el 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avishkar Gupta estará trabajando en agregar capacidades de rendering ePub
+a Atril, el visor de documentos para el escritorio MATE.&lt;/li&gt;
+&lt;li&gt;Michael Ratajsky estara trabajando en agregar soporte para GStreamer 1.0 al
+entorno de escritorio MATE en orden de reemplazar la dependencia en la desacreditada
+libreria GStreamer 0.10.&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij estará trabajando en mejorar las extensiones Caja
+para que puedan integrarse durante el tiempo de ejecución y tambien crear
+una interfaz de usuario único para la configuracion de las extensiones Caja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por favor unanse a mi en la bienvenida a estos nuevos contribuyentes al equipo MATE
+y desearles éxito en sus respectivos proyectos para este veráno.&lt;/p&gt;
+&lt;p&gt;En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimiento y
+gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; quienes son nuestros organizadores
+de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
+para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
+2014. Hicieron un trabajo fantástico al ayudar a asegurar estas ubicaciones de GSoC para el
+equipo de MATE que proporcionará recursos de desarrollo muy necesarios para el proyecto.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Nueva wiki y otras informaciones</title>
+      <link>https://mate-desktop.org/es/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/es/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Recientemente hemos cambiado de una wiki en [GitHub] ( &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) a una propia
+disponible en [wiki.mate-desktop.org] ( &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;/a&gt;. Por favor
+haga referencia a esta wiki de ahora en adelante. Naturalmente, cualquiera puede contribuir.&lt;/p&gt;
+&lt;p&gt;Para aquellos de ustedes que aún no lo saben, pueden
+[informar problemas en github] ( &lt;a href=&#34;https://github.com/mate-desktop/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/)&lt;/a&gt;. Por el momento, esto
+es todo lo que tenemos en términos de informes de errores, pero tenemos un rastreador de errores en proceso.
+Lo anunciaremos aquí cuando esté listo.&lt;/p&gt;
+&lt;p&gt;También tenemos planes futuros para un foro de Mate, pero eso se encuentra en una etapa muy temprana.&lt;/p&gt;
+&lt;p&gt;Para aquellos de ustedes que usan [Debian] ( &lt;a href=&#34;https://www.debian.org/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.debian.org/)&lt;/a&gt;, [Ubuntu] ( &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ubuntu.com&lt;/a&gt;),
+y [Linux Mint] ( &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;), puede acceder a la rama de
+desarrollo 1.1.x de nuestros paquetes usando el repositorio tridex. Para obtener más información, consulte [la página de descarga] ( &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/download.md&lt;/a&gt;)
+en la wiki. [Linux Mint] ( &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;) también tiene nuestros
+paquetes de la versión 1.0.x en su repositorio. Si alguien todavía usa el PPA
+de Amanas, ya no es compatible. El resto de nuestras versiones 1.1.x se alojarán en los repositorios tridex. Las versiones futuras (por ejemplo, 1.2.0) se alojarán aquí.&lt;/p&gt;
+&lt;p&gt;Estamos orgullosos de anunciar que ha comenzado el empaquetado para [openSUSE] ( &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;/a&gt;).
+Una vez que tengamos más información la agregaremos a nuestra wiki y haremos un anuncio.&lt;/p&gt;
+&lt;p&gt;Por último, varias personas se han unido a [nuestro canal de IRC] ( &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://web.libera.chat/?#mate&lt;/a&gt;)
+y preguntan acerca de los ebuilds de [Gentoo] ( &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gentoo.org&lt;/a&gt;) para MATE. Con eso dicho,
+buscamos personas que estén dispuestas a configurarlos.&lt;/p&gt;
+&lt;p&gt;El equipo de Mate les desea felices vacaciones.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

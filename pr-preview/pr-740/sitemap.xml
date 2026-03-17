@@ -64,4 +64,49 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>https://mate-desktop.org/he/sitemap.xml</loc>
+    
+      <lastmod>2015-01-28T22:17:32+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/pl/sitemap.xml</loc>
+    
+      <lastmod>2012-10-16T21:52:18+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/pt/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/pt_br/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/ru/sitemap.xml</loc>
+    
+      <lastmod>2012-10-16T21:52:18+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/sr/sitemap.xml</loc>
+    
+      <lastmod>2016-12-22T01:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mate-desktop.org/uk/sitemap.xml</loc>
+    
+      <lastmod>2012-10-16T21:52:18+00:00</lastmod>
+    
+  </sitemap>
+  
 </sitemapindex>

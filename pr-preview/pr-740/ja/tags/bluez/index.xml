@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – BlueZ</title>
+    <link>https://mate-desktop.org/ja/tags/bluez/</link>
+    <description>Recent content in BlueZ on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 11 Mar 2014 07:45:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/bluez/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE デスクトップは BlueZ を歌います</title>
+      <link>https://mate-desktop.org/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</link>
+      <pubDate>Tue, 11 Mar 2014 07:45:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE チームは、&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman プロジェクト&lt;/a&gt;と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。&lt;/p&gt;
+&lt;h2&gt;なぜ mate-bluetooth を捨てたのですか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜ-mate-bluetooth-を捨てたのですか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c-mate-bluetooth-%e3%82%92%e6%8d%a8%e3%81%a6%e3%81%9f%e3%81%ae%e3%81%a7%e3%81%99%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; は BlueZ 4.x をサポートしていますが、BlueZ 4.x は開発終了であって、多くのディストリビューションがそれぞれのパッケージリポジトリでBlueZ 4.x を BlueZ 5.x に置き換えたか、置き換えようとしています。&lt;code&gt;mate-bluetooth&lt;/code&gt; をBlueZ 5.x に移行するのは大変な作業であり、また、Blueman で利用可能な範囲の諸機能を提供しません。&lt;/p&gt;
+&lt;h2&gt;なぜブルーマンなのですか？開発中止なのでは？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;なぜブルーマンなのですか開発中止なのでは&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%81%aa%e3%81%9c%e3%83%96%e3%83%ab%e3%83%bc%e3%83%9e%e3%83%b3%e3%81%aa%e3%81%ae%e3%81%a7%e3%81%99%e3%81%8b%e9%96%8b%e7%99%ba%e4%b8%ad%e6%ad%a2%e3%81%aa%e3%81%ae%e3%81%a7%e3%81%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;当初の Bluemanプ ロジェクトは停滞しましたが、&lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt; が開発を再開し、Blueman の BlueZ 5.x への移植を開始しました。その一方で、BlueZ 5.x をサポートするために Blueman をアップデートする取り組みもあり、私たちはその方が MATE にずっと優れた Bluetooth インターフェースを提供すると思っています。&lt;/p&gt;
+&lt;h2&gt;Blueman のアップデートはいつ完了しますか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blueman-のアップデートはいつ完了しますか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#blueman-%e3%81%ae%e3%82%a2%e3%83%83%e3%83%97%e3%83%87%e3%83%bc%e3%83%88%e3%81%af%e3%81%84%e3%81%a4%e5%ae%8c%e4%ba%86%e3%81%97%e3%81%be%e3%81%99%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;MATE1.8 リリースのお知らせ&lt;/a&gt;ではすでに &lt;code&gt;mate-bluetooth&lt;/code&gt; が Blueman に置き換えられたとしていましたが、さらに詳しい人は、Blueman の新しいバージョンがまだリリースされていないことも気付いたでしょう。大変申し訳ありません。&lt;/p&gt;
+&lt;p&gt;間違っていたのは確かですが、私たちは Blueman を BlueZ5.x と GObject introspection へ移植するため積極的に貢献しています。私たちは主にバグ修正リリースとして意図されている MATE 1.8.1 のリリースに間に合うように準備したいと思っています。&lt;/p&gt;
+&lt;h2&gt;もっと早く出来ないのですか？&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;もっと早く出来ないのですか&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%82%e3%81%a3%e3%81%a8%e6%97%a9%e3%81%8f%e5%87%ba%e6%9d%a5%e3%81%aa%e3%81%84%e3%81%ae%e3%81%a7%e3%81%99%e3%81%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;はい。BlueZ 4.x/5.x、dbus、PyGObject、PyGTK に詳しい方は、&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman GitHub repository&lt;/a&gt; を利用して貢献していただくようお願いします。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

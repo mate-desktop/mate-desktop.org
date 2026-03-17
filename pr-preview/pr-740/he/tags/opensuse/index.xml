@@ -1,0 +1,81 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – OpenSUSE</title>
+    <link>https://mate-desktop.org/he/tags/opensuse/</link>
+    <description>Recent content in OpenSUSE on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>he</language>
+    <lastBuildDate>Sat, 10 May 2014 10:03:06 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/he/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE in openSUSE</title>
+      <link>https://mate-desktop.org/he/blog/2014-05-10-mate-in-opensuse/</link>
+      <pubDate>Sat, 10 May 2014 10:03:06 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/he/blog/2014-05-10-mate-in-opensuse/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
+for openSUSE. The patterns are not available anymore, and won&amp;rsquo;t be in
+the future due to official inclusion of MATE in openSUSE.
+We can&amp;rsquo;t support openSUSE 12.2 anymore, MATE requirements are not
+provided in the right versions in that one.
+We have changed our schema of repositories, to avoid people having to
+change their repositories for each update. Now there is
+just one place, X11:MATE:Current.&lt;/p&gt;
+&lt;p&gt;To install it, please replace or add our repository:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE at openSUSE Summit</title>
+      <link>https://mate-desktop.org/he/blog/2013-11-08-mate-at-opensuse-summit/</link>
+      <pubDate>Fri, 08 Nov 2013 01:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/he/blog/2013-11-08-mate-at-opensuse-summit/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
+media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
+at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
+on Sunday, November 17 at 10:15.&lt;/p&gt;
+&lt;p&gt;The talk will be available at &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stefano presents at openSUSE conference</title>
+      <link>https://mate-desktop.org/he/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link>
+      <pubDate>Sun, 21 Jul 2013 14:46:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/he/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid>
+      <description>
+        
+        
+        &lt;p&gt;On July 20th 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; presented his
+talk on MATE at &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
+&lt;p&gt;The talk introduces MATE to those who haven&amp;rsquo;t heard of it, explains the reasons for
+creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
+and describes the features and changes added after the fork.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/H-2WSt5cbR4&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

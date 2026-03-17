@@ -1,0 +1,43 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente Desktop MATE – I18n</title>
+    <link>https://mate-desktop.org/it/tags/i18n/</link>
+    <description>Recent content in I18n on Ambiente Desktop MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Fri, 14 Feb 2014 12:51:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/it/tags/i18n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Richiesta di collaborazione per la traduzione di MATE</title>
+      <link>https://mate-desktop.org/it/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Mostrate l&amp;rsquo;amore per il progetto MATE questo giorno di San Valentino, inondateci di traduzioni!&lt;/p&gt;
+&lt;p&gt;I traduttori sono gli eroi non celebrati del team sviluppo di MATE e ancora una volta gli chiediamo di migliorare il progetto. MATE 1.7 è già nella fase finale di test e QA e presto sarà preparato MATE 1.8 per il rilascio finale.&lt;/p&gt;
+&lt;p&gt;Vi chiediamo pertanto di controllare lo stato della traduzione
+a cui collaborate su Transifex e che le aggiorniate al più presto.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se non siete già membri del team di traduzione, ma vorreste aiutare, &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;registratevi per avere un account gratuito su Transifex&lt;/a&gt;
+così da iniziare a contribuire a MATE; lo apprezzeremmo moltissimo!&lt;/p&gt;
+&lt;p&gt;Al momento ci sono 6 lingue tradotte al 100%, quindi vediamo quante altre
+possono raggiungere questa percentuale prima del rilascio di MATE 1.8.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

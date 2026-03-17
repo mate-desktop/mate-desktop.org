@@ -1,0 +1,828 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente Desktop MATE – News</title>
+    <link>https://mate-desktop.org/it/tags/news/</link>
+    <description>Recent content in News on Ambiente Desktop MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Wed, 28 Jan 2015 22:17:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/it/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Incontrate la mente di MATE</title>
+      <link>https://mate-desktop.org/it/blog/2015-01-28-meet-mates-mastermind/</link>
+      <pubDate>Wed, 28 Jan 2015 22:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2015-01-28-meet-mates-mastermind/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all&amp;rsquo;Episodio 347 del &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux
+Action Show&lt;/a&gt; per
+parlare un po&amp;rsquo; del Desktop MATE, da dove ha avuto origine e dove è diretto.
+L&amp;rsquo;intervista con me è inserita qui sotto.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34; https://www.youtube.com/embed/OwW9jaVKjSw?start=1945&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.10 nel tempo
+che mi è stato concesso quindi vi consiglio di dare uno sguardo alla  &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Roadmap di MATE&lt;/a&gt;
+per una visione generale. Se doveste avere ulteriori domande, o magari volete
+contribuire al progetto, siamo ansiosi di chattare con
+voi sul &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;canale #mate di IRC&lt;/a&gt; o
+recensire le vostre &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests su GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di
+videocast e podcast settimanali principalmente orientati su FLOSS. Date un&amp;rsquo;occhiata,
+potreste trovare qualcosa che vi interessa.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Repository di pacchetti Debian e Ubuntu rimossi da mate-desktop.org</title>
+      <link>https://mate-desktop.org/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link>
+      <pubDate>Thu, 25 Sep 2014 11:34:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Grazie agli sforzi dei  &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;manutentori dei pacchetti di MATE per Debian&lt;/a&gt;
+MATE 1.8.1 è dispoinibile in Debian Jessie (testing) ed anche
+in &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; per Wheezy&lt;/p&gt;
+&lt;p&gt;Come conseguenza di MATE 1.8.1 che è entrato nelle repository di Debian testing
+all&amp;rsquo;inizio di quest&amp;rsquo;anno, MATE 1.8.1 è anche disponibile nell&amp;rsquo;archivio ufficiale
+di  Ubuntu 14.10 Utopic Unicorn. Il Team &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt;
+ha recentemente creato un &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPA MATE 1.8.1 per Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
+su richiesta di &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
+ed anche un &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPA MATE 1.8.1 per Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se volete i pacchetti MATE per Debian o Ubuntu i repository dei pacchetti elencati in precedenza sono i repository ufficiali da usare.&lt;/p&gt;
+&lt;p&gt;Abbiamo spostato i repository dei pacchetti presenti su mate-desktop.org
+perché alcuni di essi non erano firmati ed altri non erano stati manutenuti da molti
+mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati su mate-desktop.org sono stati rimossi.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Il progetto MATE è stato accettato per GSoC 2014</title>
+      <link>https://mate-desktop.org/it/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link>
+      <pubDate>Mon, 28 Apr 2014 06:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Dopo diverse settimane trascorse a rivedere le applicazioni e il periodo di selezionamento, il
+Google Summer of Code (GSoC) 2014 si è concluso. 4.420 studenti hanno proposto un totale di
+6313 progetti per quest&amp;rsquo;estate. Di quelli, 1.307 studenti sono stati accolti
+e il progetto Desktop MATE è uno dei 190 progetti Open Source che
+quest&amp;rsquo;anno lavorerà con gli studenti.&lt;/p&gt;
+&lt;p&gt;Nel nostro secondo anno come organizzazione mentore GSoC, il team MATE ha ricevuto 4
+proposte di studenti e ci sono stati assegnati 3 slot per i progetti degli studenti.&lt;/p&gt;
+&lt;p&gt;Sono deliziato nel presentarvi i nostri studenti GSoC per il 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avishkar Gupta lavorerà per aggiungere le capacità per il rendering ePub ad
+Atril, il visualizzatore di documenti per il desktop MATE.&lt;/li&gt;
+&lt;li&gt;Michal Ratajsky lavorerà per aggiungere il supporto a GStreamer 1.0 nell&amp;rsquo;ambiente
+desktop MATE in modo da sostituire le dipendenze basate sulla libreria deprecata
+GStreamer 0.10&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij lavorerà per migliorare Caja extensions così che esse
+possano essere integrate durante l&amp;rsquo;esecuzione e creare inoltre una singola interfaccia utente per
+la configurazione di Caja extensions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
+nell&amp;rsquo;augurargli ogni successo per i loro progetti dell&amp;rsquo;estate.&lt;/p&gt;
+&lt;p&gt;A nome dell&amp;rsquo;intero team MATE vorrei estendere i ringraziamenti e
+la nostra gratitudine ad  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; che sono i nostri organizzatori GSoC perché
+2014. hanno fatto un lavoro fantastico nell&amp;rsquo;aiutare a garantire questi assegnamenti GSoC per
+il team MATE che fornirà molte risorse di sviluppo necessarie al progetto.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>galculator sta arrivando in MATE 1.10</title>
+      <link>https://mate-desktop.org/it/blog/2014-03-17-galculator-is-coming-to-mate/</link>
+      <pubDate>Mon, 17 Mar 2014 07:38:45 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-03-17-galculator-is-coming-to-mate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team Mate è orgoglioso di annunciare che stiamo collaborando con il
+team di &lt;a href=&#34;http://galculator.mnim.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;galculator&lt;/a&gt; e che galculator
+sostituirà &lt;code&gt;mate-calc&lt;/code&gt; in MATE 1.10.&lt;/p&gt;
+&lt;h2&gt;Cos&amp;rsquo;è galculator&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosè-galculator&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cos%c3%a8-galculator&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Dal sito web di galculator:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;galculator è una calcolatrice basata su GTK 2 / GTK 3 con notazione ordinaria/notazione polacca inversa (RPN), una modalità per l&amp;rsquo;inserimento di formule,
+diversi formati numerici (DEC, HEX, OCT, BIN) e diverse unità di
+misura degli angoli (DEG, RAD, GRAD). Supporta la precisione quadrupla dei numeri in virgola mobile e 112 bit per l&amp;rsquo;aritmetica binaria.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Le caratteristiche principali di galculator comprendono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modalità algebrica, RPN (notazione polacca inversa), Inserimento di Formule e modalità Carta&lt;/li&gt;
+&lt;li&gt;Basi di numerazione decimale, esadecimale, ottale e binaria&lt;/li&gt;
+&lt;li&gt;Supporto per il radiante, il grado e il grad&lt;/li&gt;
+&lt;li&gt;Modalità Base ed Scientifica&lt;/li&gt;
+&lt;li&gt;Costanti e funzioni definite dall&amp;rsquo;utente&lt;/li&gt;
+&lt;li&gt;Funzioni trigonometriche, potenza, quadrato, radice quadrata, logaritmo naturale e comune, funzioni inverse ed iperboliche&lt;/li&gt;
+&lt;li&gt;Aritmetica binaria a profondità di bit configurabile e gestione del segno&lt;/li&gt;
+&lt;li&gt;Aritmetica in virgola mobile a quadrupla precisione&lt;/li&gt;
+&lt;li&gt;112 bit di profondità per l&amp;rsquo;aritmetica binaria&lt;/li&gt;
+&lt;li&gt;Copia e incolla&lt;/li&gt;
+&lt;li&gt;Disponibile in oltre 20 lingue differenti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come MATE, galculator supporta GTK2 e GTK3 ed è attivamente
+manutenuto.&lt;/p&gt;
+&lt;h2&gt;Perché abbandonar mate-calc?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-abbandonar-mate-calc&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#perch%c3%a9-abbandonar-mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebbene &lt;code&gt;mate-calc&lt;/code&gt; sia funzionale, manca di molte caratteristiche richieste da una
+calcolatrice desktop moderna. Il team MATE è piccolo e dalle risorse limitate
+e dove possibile tentiamo di collaborare con progetti che
+aggiungano valore a MATE e riducano l&amp;rsquo;impegno di sviluppo sul team MATE.&lt;/p&gt;
+&lt;h2&gt;Cosa ne viene al team di galculator?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-ne-viene-al-team-di-galculator&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cosa-ne-viene-al-team-di-galculator&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;galculator rimarrà un progetto completamente indipendente ma speriamo che la sua
+inclusione in MATE incrementi il suo bacino di utenti, aumenti la conoscenza su galculator e attragga nuovi collaboratori al progetto. Per questo scopo il team MATE ospiterà le traduzioni di galculator come risorsa nel
+&lt;a href=&#34;https://www.transifex.com/organization/mate/dashboard/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;progetto MATE transifex&lt;/a&gt;. Speriamo che i  ~300 eroici traduttori MATE abbraccino galculator e
+si aggiungano alle  ~20 lingue che galculator al momento supporta.&lt;/p&gt;
+&lt;h2&gt;Sono uno sviluppatore di pacchetti. Cosa significa questo per me?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;sono-uno-sviluppatore-di-pacchetti-cosa-significa-questo-per-me&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sono-uno-sviluppatore-di-pacchetti-cosa-significa-questo-per-me&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Se siete manutentori di pacchetti iniziate col creare un pacchetto galculator
+per la vostra distribuzione, se questo non esistente ancora, e aggiungete
+galculator al vostri meta pacchetti MATE o gruppi di pacchetti.
+MATE 1.10 è ancora lontano, quindi avete tutto il tempo necessario.&lt;/p&gt;
+&lt;p&gt;Speriamo che capiate le nostre motivazioni e vediate i mutui vantaggi
+di questa collaborazione. Fateci sapere cosa ne pensate nei commenti.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE Desktop canta il BlueZ</title>
+      <link>https://mate-desktop.org/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</link>
+      <pubDate>Tue, 11 Mar 2014 07:45:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;progetto Blueman&lt;/a&gt; ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
+&lt;h2&gt;Perché abbandonare mate-bluetooth?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-abbandonare-mate-bluetooth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#perch%c3%a9-abbandonare-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo. Portare &lt;code&gt;mate-bluetooth&lt;/code&gt; a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in Blueman.&lt;/p&gt;
+&lt;h2&gt;Perché Blueman? Non è un progetto morto?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-blueman-non-è-un-progetto-morto&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#perch%c3%a9-blueman-non-%c3%a8-un-progetto-morto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebbene il progetto originale Blueman fosse stagnante, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt;
+ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per MATE.&lt;/p&gt;
+&lt;h2&gt;Quando sarà pronta la versione aggiornata di Blueman?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;quando-sarà-pronta-la-versione-aggiornata-di-blueman&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#quando-sar%c3%a0-pronta-la-versione-aggiornata-di-blueman&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Qualcuno di voi potrebbe aver notato che l&amp;rsquo;&lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;annuncio di rilascio di MATE 1.8&lt;/a&gt;
+menzionava già il fatto che &lt;code&gt;mate-bluetooth&lt;/code&gt; era stato sostituito con Blueman
+e gli osservatori ancora più attenti avranno notato che una versione nuova di Blueman
+non è ancora stata rilasciata. Si, abbiamo commesso un errore, scusateci.&lt;/p&gt;
+&lt;p&gt;Mentre riconosciamo di aver sbagliato, stiamo attivamente contribuendo nello sforzo di portare Blueman a BlueZ 5.x e all&amp;rsquo;introspezione di GObject. Speriamo di averlo pronto
+per la versione 1.8.1 che è intesa principalmente come una versione di bug fix.&lt;/p&gt;
+&lt;h2&gt;Non potete fare prima, cavolo?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;non-potete-fare-prima-cavolo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#non-potete-fare-prima-cavolo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato
+a contribuire attraverso il &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository Blueman GitHub&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE prende parte al GSoC 2014</title>
+      <link>https://mate-desktop.org/it/blog/2014-03-10-mate-desktop-gsoc-2014/</link>
+      <pubDate>Mon, 10 Mar 2014 13:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-03-10-mate-desktop-gsoc-2014/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team MATE è lieto di annunciare la sua partecipazione al
+&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt;. Lo facciamo
+in collaborazione con i nostri buoni amici di &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cos&amp;rsquo;è Google Summer of Code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosè-google-summer-of-code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cos%c3%a8-google-summer-of-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Google Summer of Code (comunemente chiamato GSoC) è un programma globale che
+offre compensi a studenti sviluppatori per scrivere codice per vari progetti software open source. GSoC collabora con molti gruppi open source, free software e entità correlate alla tecnologia, per identificare e finanziare progetti della durata di tre mesi.
+Fin dalla sua ideazione nel 2005, il progetto ha unito oltre
+7500 studenti partecipanti con successo da 97 nazioni e oltre 7000 mentori da oltre 100 paesi del mondo per produrre più di 50 milioni di linee di codice. Attraverso il Google Summer of Code, gli studenti candidati ammessi sono affiancati da uno o più mentori dei progetti partecipanti,
+ottenendo così visibilità negli scenari di sviluppo di software reale e l&amp;rsquo;opportunità di essere impiegati in aree correlate al loro percorso accademico.
+In cambio, i progetti partecipanti possono identificare e assumere nuovi sviluppatori. Ma soprattutto, viene creato e rilasciato un maggior quantitativo di codice sorgente ad uso e vantaggio di tutti.&lt;/p&gt;
+&lt;h2&gt;Per gli studenti&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;per-gli-studenti&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#per-gli-studenti&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Il periodo di iscrizione per gli studenti è aperto dal 10 Marzo al 21 Marzo 2014.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Per ricevere aiuto su come candidarsi vi rimandiamo alla lettura delle &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAQ di Google Summer of Code 2014&lt;/a&gt;. 
+Se siete studenti che vogliono contribuire a MATE attraverso la partecipazione openSUSE al GSoC
+consultate i seguenti collegamenti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee MATE al Google Summer of Code 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee openSUSE al Google Summer of Code 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participa al GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In breve le idee di MATE per il progetto GSoC 2014 sono:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Il formato ePub in Atril&lt;/li&gt;
+&lt;li&gt;Il supporto a GStreamer-1.0&lt;/li&gt;
+&lt;li&gt;Il sistema dei plugin in Caja&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Come sempre, l&amp;rsquo;importante è iniziare presto e interagire con i mentori e la
+comunità nel suo insieme. Scovare e correggere bug, inviare pull requests e lavorare su Proof
+of Concepts sono buoni modi per incominciare.&lt;/p&gt;
+&lt;p&gt;I mentori del GSoC 2014 per MATE sono Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; su IRC) e
+Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milgior modo per comunicare ed interagire con i mentori MATE è mediante:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;il canale #mate IRC su Libera Chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;La stanza chat Matrix #mate:libera.chat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE su GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Non vediamo l&amp;rsquo;ora di esaminare le vostre candidature!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Richiesta di collaborazione per la traduzione di MATE</title>
+      <link>https://mate-desktop.org/it/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Mostrate l&amp;rsquo;amore per il progetto MATE questo giorno di San Valentino, inondateci di traduzioni!&lt;/p&gt;
+&lt;p&gt;I traduttori sono gli eroi non celebrati del team sviluppo di MATE e ancora una volta gli chiediamo di migliorare il progetto. MATE 1.7 è già nella fase finale di test e QA e presto sarà preparato MATE 1.8 per il rilascio finale.&lt;/p&gt;
+&lt;p&gt;Vi chiediamo pertanto di controllare lo stato della traduzione
+a cui collaborate su Transifex e che le aggiorniate al più presto.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se non siete già membri del team di traduzione, ma vorreste aiutare, &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;registratevi per avere un account gratuito su Transifex&lt;/a&gt;
+così da iniziare a contribuire a MATE; lo apprezzeremmo moltissimo!&lt;/p&gt;
+&lt;p&gt;Al momento ci sono 6 lingue tradotte al 100%, quindi vediamo quante altre
+possono raggiungere questa percentuale prima del rilascio di MATE 1.8.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Rimescolamento della roadmap del Desktop MATE</title>
+      <link>https://mate-desktop.org/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</link>
+      <pubDate>Thu, 13 Feb 2014 06:43:12 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Qualche giorno fa &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; ha postato
+un annuncio sulla mailing list &lt;code&gt;mate-dev&lt;/code&gt; sottolineando la decisione di rivedere
+la pianificazione del Desktop MATE.&lt;/p&gt;
+&lt;p&gt;Essenzialmente il supporto GTK3 per MATE è stato rimandato alla versione MATE 1.10 perché
+c&amp;rsquo;è ancora parecchio lavoro da fare per renderlo veramente stabile. Quindi
+MATE 1.8 continuerà ad essere basato su GTK2, sebbene le applicazioni GTK3 si integrano bene
+così come accadeva in MATE 1.6. La roadmap aggiornata è disponibile sul nostro
+wiki:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Questa decisione è stata presa perché la versione in sviluppo corrente è stabile,
+incorpora molte nuove funzionalità, migliorie e bug fixes. Vogliamo che tutto il &lt;em&gt;&amp;ldquo;materiale buono&amp;rdquo;&lt;/em&gt; ™ giunga ai nostri utenti così che possano beneficiare dei
+progressi che abbiamo fatto prima.&lt;/p&gt;
+&lt;p&gt;Potete leggere il post originale e seguire i commenti qui sotto:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Split MATE 1.8 roadmap]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il feedback avuto finora su questa decisione è positivo.
+Cosa ne pensate?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stefano presenta MATE al FOSDEM 2014</title>
+      <link>https://mate-desktop.org/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</link>
+      <pubDate>Fri, 07 Feb 2014 14:16:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-02-07-stefano-presents-mate-at-fosdem/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il 1° febbraio 2014, &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; ha tenuto
+la sua presentazione su MATE al &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;La Presentazione introduce MATE a coloro che non ne hanno mai sentito parlare e spiega le Origini del Progetto. In primo luogo, le differenze tra
+tra MATE e gli altri ambienti desktop tradizionali basati su GTK.
+Stefano spiega poi come MATE si è evoluto da quando è stato derivato da GNOME2.
+Viene data una breve valutazione dei recenti miglioramenti, seguita da
+una panoramica della roadmap di MATE e degli altri Progetti che beneficiano
+di MATE, per esempio &lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;,
+&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt; e &lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/iwQ7iqNwRKs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE Desktop Mythbusting</title>
+      <link>https://mate-desktop.org/it/blog/2014-02-05-mate-desktop-mythbusting/</link>
+      <pubDate>Wed, 05 Feb 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-02-05-mate-desktop-mythbusting/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Sono stato piuttosto fortunato ad essere invitato all&amp;rsquo;Episodio podcast 26 del &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxun/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux
+Unplugged&lt;/a&gt; per
+parlare un po&amp;rsquo; del Desktop MATE, e dove è diretto.
+La Clip MATE Mythbusting è inserita qui sotto.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/sRNK9QnnvCo?start=603&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Non mi è stato possibile coprire tutti gli obbiettivi di sviluppo di MATE 1.8 nel tempo
+che mi è stato concesso quindi vi consiglio di dare uno sguardo alla &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Roadmap di MATE&lt;/a&gt;
+per una panoramica completa. Se doveste avere ulteriori domande, o magari
+volete contribuire al progetto, siamo ansiosi di chattare con
+voi sul &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;canale #mate di IRC&lt;/a&gt; o
+recensire le vostre &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests su GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;/a&gt; produce un certo numero di
+videocast e podcast settimanali principalmente orientati su FLOSS. Date un&amp;rsquo;occhiata,
+potreste trovare qualcosa che vi interessa.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Live CD del Desktop MATE</title>
+      <link>https://mate-desktop.org/it/blog/2014-01-30-mate-desktop-live-cd/</link>
+      <pubDate>Thu, 30 Jan 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-01-30-mate-desktop-live-cd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.&lt;/p&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;Update&lt;/strong&gt; Il LiveCD è stato aggiornato a MATE 1.8 il 10 Marzo 2014.&lt;/div&gt;
+&lt;p&gt;Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
+in modo non distruttivo. L&amp;rsquo;immagine può essere masterizzata su un DVD,
+montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come &lt;code&gt;dd&lt;/code&gt;. &lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; fate attenzione,  &lt;code&gt;unetbootin&lt;/code&gt; non è supportato. Potete scaricarlo dal link qui sotto:&lt;/p&gt;
+&lt;h3&gt;download via BitTorrent (raccomandato)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;download-via-bittorrent-raccomandato&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#download-via-bittorrent-raccomandato&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Se potete, per favore lasciate il client aperto
+dopo che è terminato il download, in modo da renderlo disponibile ad altri. &lt;em&gt;Si raccomanda un client capace di web-seed
+per velocità di download più elevate.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;download diretto HTTP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;download-diretto-http&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#download-diretto-http&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Oltre al link BitTorrent dato prima, il file iso Live CD può essere scaricato anche via HTTP. Per favore assicuratevi che il file scaricato corrisponda al
+checksum SHA1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Compatibilità&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;compatibilità&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#compatibilit%c3%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il Live CD è realizzato utilizzando &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; e MATE 1.8. Il Live CD è a 32 bit e dovrebbe quindi funzionare su ogni computer i686 o x86_64
+con almeno 512MB RAM. I driver xorg sono inclusi per Intel (&lt;code&gt;i915&lt;/code&gt;),
+AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) e nvidia (&lt;code&gt;nouveau&lt;/code&gt;) con fallback a VESA.
+I driver per Virtual Box e VMware sono anch&amp;rsquo;essi inclusi in modo che sia semplice anche la valutazione utilizzando queste soluzioni di virtualizzazione.&lt;/p&gt;
+&lt;p&gt;Sono supportati tutti i filesystem comuni, incluso &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;,
+e sono compresi alcuni strumenti per il recupero dei dati ed il backup. Se collegate il vostro
+dispositivo mobile, questo sarà molto probabilmente riconosciuto e sarete in grado di accedere
+ai dati in esso contenuti. È presente NetworkManager assieme a tutti i client VPN che esso
+supporta.&lt;/p&gt;
+&lt;h2&gt;Nomi utenti e password&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nomi-utenti-e-password&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nomi-utenti-e-password&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;IL CD Live del Desktop MATE ha i seguenti account preconfigurati.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - la password è &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - la password è &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;account &lt;code&gt;root&lt;/code&gt; è ovviamente &lt;code&gt;root&lt;/code&gt;. L&amp;rsquo;account &lt;code&gt;mate&lt;/code&gt; è un utente regolare
+che possiede pieni diritti &lt;code&gt;sudo&lt;/code&gt; senza password. Il Live CD eseguirà il login automatico
+utilizzando l&amp;rsquo;account &lt;code&gt;mate&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Applicazioni&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;applicazioni&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#applicazioni&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il live CD è pensato principalmente per mostrare il desktop MATE, tuttavia abbiamo
+incluso alcune applicazioni aggiuntive che non fanno parte del desktop MATE
+per rendere il Live CD più utile e piacevole.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   - Browser web autonomo da mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   - Un clone di Partition Magic, frontend per GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  - Uno strumento per le informazioni di sistema ed il benchmark.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;   - Client IRC configurato per auto-connettersi a &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;      - Lettore dello schermo per individui che sono ciechi o con limitazioni visive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      - Tastiera sullo schermo utile per individui con difficoltà motorie&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    - Client di messaggistica istantanea multi-protocollo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    - Media player con una GUI semplice, grande velocità e diverse funzionalità&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Creative Commons content&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;creative-commons-content&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creative-commons-content&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Abbiamo incluso i seguenti contenuti sotto la licenza Creative Commons.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        - Da leggere con Atril&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Modificare la lingua&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modificare-la-lingua&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#modificare-la-lingua&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Per impostazione predefinita, il Live CD è configurato per utilizzare il locale &lt;code&gt;en_US&lt;/code&gt;, ma se lo si desidera
+per attivare un&amp;rsquo;altra lingua ecco come fare. Nell&amp;rsquo;esempio che segue
+abiliteremo l&amp;rsquo;Italiano.&lt;/p&gt;
+&lt;p&gt;Modificate &lt;code&gt;/etc/locale.gen&lt;/code&gt; e decommentate la riga con la vostra localizzazione, in questo caso &lt;code&gt;it_IT.UTF-8 UTF-8&lt;/code&gt;
+quindi fate il rebuild delle localizzazioni.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Modificate &lt;code&gt;/etc/locale.conf&lt;/code&gt; e impostate &lt;code&gt;LANG=&lt;/code&gt; per esprimere la vostra localizzazione, in questo caso
+&lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt;In fine riavviate il display manager e sarete loggati nella sessione MATE che utilizza la vostra lingua preferita.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Linux Action Show&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;linux-action-show&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux-action-show&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il LiveCD del desktop MATE e MATE stesso sono stati presentati nel &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action
+Show&lt;/a&gt; nell&amp;rsquo;episodio &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;/a&gt; .
+Due clip sono riportate qui sotto, la prima è un rapido sguardo al LiveCD MATE Desktop
+e la seconda è una recensione di CuBox i4 su cui gira MATE.&lt;/p&gt;
+&lt;h3&gt;MATE Desktop LiveCD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop-livecd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-desktop-livecd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=608&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;CuBox i4 Pro Review&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cubox-i4-pro-review&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cubox-i4-pro-review&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=1925&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;Feedback&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;feedback&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#feedback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ci auguriamo che facciate un test con il Live CD e che vi piaccia la velocità e la semplicità
+del desktop MATE. Una volta che avrete provato il Live CD del Desktop MATE
+fateci sapere cosa ne pensate nei commenti o usate il Live CD per unirvi a noi
+nel &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;canale IRC #mate&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE è disponibile ufficialmente su Arch Linux</title>
+      <link>https://mate-desktop.org/it/blog/2014-01-16-mate-officially-in-arch-linux/</link>
+      <pubDate>Thu, 16 Jan 2014 22:22:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2014-01-16-mate-officially-in-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE ha finalmente trovato la strada di casa.&lt;/p&gt;
+&lt;p&gt;Come qualcuno di voi potrebbe sapere, MATE è stato creato da un utente&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;,
+Perberos. È piuttosto ironico il fatto che MATE non sia stato fornito nei repository ufficiali di Arch Linux fino ad oggi. Esatto,
+MATE è finalmente disponibile nel repository di pacchetti &lt;code&gt;[community]&lt;/code&gt; di Arch Linux!.&lt;/p&gt;
+&lt;p&gt;Potete trovare ogni informazione necessaria ad installare MATE
+su Arch Linux dalle pagine wiki seguenti:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vale la pena di notare che il repository di pacchetti non ufficiali di MATE sarà rimosso una volta che i mirror Arch Linux saranno sincronizzati.
+Pertanto andate ad aggiornare &lt;code&gt;/etc/pacman.conf&lt;/code&gt; e rimuovete il
+repository di pacchetti &lt;code&gt;[mate]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;altro vantaggio di mettere MATE nei repository dei pacchetti di Arch Linux ufficiali
+è che MATE sarà anche sui repository di pacchetti &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;/a&gt;.
+Posso quindi finalmente ritirare i build &lt;em&gt;&amp;ldquo;server&amp;rdquo;&lt;/em&gt; per Raspberry Pi (armv6h) e
+Cubox Pro (armv7h). Non sono sicuro di quanto ci vorrà
+perché tutti i pacchetti MATE siano presenti sul repository di pacchetti Arch Linux ARM, ma ho già visto che alcuni pacchetti sono stati costruiti.&lt;/p&gt;
+&lt;p&gt;MATE viene eseguito bene sul Modello B di Raspberry Pi con 512MB di RAM, quindi se avete una Pi e vi avanza una SDCARD, provatelo. Scriverò a breve
+un post sul blog su come installare Arch Linux e MATE sulla Raspberry Pi con alcuni utili tweak sulla performance.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pacchetti MATE 1.6 per Arch Linux</title>
+      <link>https://mate-desktop.org/it/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</link>
+      <pubDate>Sat, 16 Nov 2013 00:36:43 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I pacchetti MATE 1.6 sono stati disponibili per &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+già da un pezzo. Dunque perché il post sul blog?&lt;/p&gt;
+&lt;p&gt;Negli ultimi mesi i pacchetti MATE 1.6 per Arch Linux sono stati corretti, ripuliti e migliorati. Qui c&amp;rsquo;è una panoramica di ciò su cui abbiamo
+lavorato:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutti i bug specifici di Arch Linux sono stati risolti.&lt;/li&gt;
+&lt;li&gt;Nuovi script per il build automatizzato e il build cluster.&lt;/li&gt;
+&lt;li&gt;Completo supporto per le seguenti piattaforme:
+&lt;ul&gt;
+&lt;li&gt;armv6h &lt;em&gt;(Raspberry Pi)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;armv7h&lt;/li&gt;
+&lt;li&gt;i686&lt;/li&gt;
+&lt;li&gt;x86_64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pacchettizate 9 applicazioni/applet aggiuntive dalla collaborazione della comunità MATE.&lt;/li&gt;
+&lt;li&gt;Scelta dei beckend Pulse Audio e GStreamer.&lt;/li&gt;
+&lt;li&gt;Cherry ha introdotto alcune caratteristiche per &lt;code&gt;systemd&lt;/code&gt; e &lt;code&gt;logind&lt;/code&gt; da MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry ha introdotto alcune caratteristiche per &lt;code&gt;upower&lt;/code&gt; da MATE 1.7.&lt;/li&gt;
+&lt;li&gt;Cherry ha introdotto alcune correzioni di bug da MATE 1.7.&lt;/li&gt;
+&lt;li&gt;MATE 1.6 PGKBUILDs adesso è sincrinizzato in automatico con l&amp;rsquo;AUR.&lt;/li&gt;
+&lt;li&gt;Il repository di pacchetti di Arch Linux per MATE adesso è firmato.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;È possibile trovare tutte le informazioni necessarie èer installare MATE 1.6
+su Arch Linux dalla pagina wiki seguente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vorrei ringraziare in modo speciale:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;/a&gt; per aver lavorato con noi
+Il team sviluppo Fedora per aver cercato fix a &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; e &lt;code&gt;upower&lt;/code&gt;
+che risultano essere grandemente vantaggiosi per Arch Linux e anche per
+aver contribuito a un gran numero di applicazioni della comunità.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;/a&gt; e &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
+Per avermi dato il benvenuto nel Team MATE e avermi aiutato su IRC.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ora che i pacchetti di MATE 1.6 sono in buono stato, inizierò il processo
+di mettere MATE nei repository ufficiali di Arch Linux. Si può aiutare
+in questo votando per i pacchetti MATE su AUR.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Team di Pacchettizzazione MATE per Debian</title>
+      <link>https://mate-desktop.org/it/blog/2013-11-08-debian-mate-packaging-team/</link>
+      <pubDate>Fri, 08 Nov 2013 02:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-11-08-debian-mate-packaging-team/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Il Team MATE è molto felice di salutare il nuovo Team di Pacchettizzazione MATE per
+Debian, che sta &lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lavorando sodo&lt;/a&gt;
+per includere MATE nella prossima release di Debian.&lt;/p&gt;
+&lt;p&gt;I primi pacchetti sono già nei repository e ce ne sono molti altri
+in &lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ftp-master NEW queue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un ringraziamento speciale a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://users.physik.fu-berlin.de/~glaubitz/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;John Paul Adrian Glaubitz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sunweavers.net/blog/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mike Gabriel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Vangelis Mouhtsis]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://outflux.net/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kees Cook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se desiderate unirvi al team, per favore contattate i membri su IRC nel canale @ OFTC di
+&lt;a href=&#34;https://webchat.oftc.net/?channels=debian-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#debian-mate&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE al Summit openSUSE</title>
+      <link>https://mate-desktop.org/it/blog/2013-11-08-mate-at-opensuse-summit/</link>
+      <pubDate>Fri, 08 Nov 2013 01:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-11-08-mate-at-opensuse-summit/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Alexandros Vennos, ambasciatore openSUSE e membro del openSUSE MATE social
+media team, mostrerà &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
+al &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà ad Orlando, Florida,
+Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
+&lt;p&gt;La discussione sarà disponibile su &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;questa pagina&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Rinfrescato il look al sito web</title>
+      <link>https://mate-desktop.org/it/blog/website-redesign/</link>
+      <pubDate>Thu, 31 Oct 2013 12:15:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/website-redesign/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Abbiamo dato al sito web di MATE una rinfrescata e nel contempo è stato portato da &lt;a href=&#34;https://www.wordpress.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wordpress&lt;/a&gt; a &lt;a href=&#34;https://getnikola.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nikola&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lo scopo principale del ritocco è creare un sito semplice ed elegante
+che consenta di trovare velocemente le informazioni che si cercano.
+Accedere
+a molte delle risorse MATE adesso non dovrebbe richiedere più di due clic dalla
+pagina principale.&lt;/p&gt;
+&lt;p&gt;Un obbiettivo secondario è stato quello di migrare ad un sistema di gestione del contenuto con
+un flusso di lavoro a cui gli sviluppatori e i collaboratori sono più familiari
+e che inoltre faciliti il contributo della comunità più ampia. Questo
+è stato il principale motivo per cui siamo migrati su Nikola, che è un
+generatore di siti statico.&lt;/p&gt;
+&lt;p&gt;Chiunque può inviare un nuovo post sul blog, correzioni o traduzioni sul sito MATE creando un account gratuito su  &lt;a href=&#34;Markdown&#34;&gt;GitHub&lt;/a&gt;, derivando il
+&lt;a href=&#34;https://github.com/mate-desktop/mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository mate-desktop.org&lt;/a&gt;
+e &lt;a href=&#34;https://help.github.com/articles/creating-a-pull-request&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;creando una pull-request&lt;/a&gt;.
+Le pull-request relative a mate-desktop.org saranno revisionate dai nostri Webmaster, unite e pubblicate qui. Ci sono alcuni &lt;a href=&#34;https://getnikola.com/handbook.html#why-static&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;altri vantaggi nell&amp;rsquo;utilizzare un generatore di siti statico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sfortunatamente, abbiamo deciso di non portare i commenti dal vecchio
+sito web. Da questo momento in avanti ogni nuovo post sul blog sarà linkato
+ad un argomento nei [forum di MATE]. Stiamo
+facendo questo perché abbiamo già un [team dedicato di moderatori di forum]
+e non vogliamo sottrargli ulteriore tempo. che è già limitato, chiedendogli di moderare anche commenti blog su un provider di commenti da una 3° parte. Inoltre
+questo approccio
+porterà più lettori sui forum di MATE e si spera possa aiutare a far crescere e sviluppare la comunità. Ci auguriamo che capiate la nostra decisione.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Nuovi repository per openSUSE</title>
+      <link>https://mate-desktop.org/it/blog/2013-08-10-mate-package-repository-for-opensuse/</link>
+      <pubDate>Sat, 10 Aug 2013 09:58:21 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-08-10-mate-package-repository-for-opensuse/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Sulla strada per rendere MATE ufficialmente disponibile su &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
+i repository comunitari devono essere modificati in YaST. Perciò,
+andate su &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; e remuovete la repo &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
+e successivamente, fate clic sul link seguente in base alla
+versione della vostra distribuzione openSUSE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grazie!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stefano presenta alla conferenza openSUSE</title>
+      <link>https://mate-desktop.org/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</link>
+      <pubDate>Sun, 21 Jul 2013 14:46:13 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-07-21-stefano-presents-at-opensuse-conference/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il 20 Luglio 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; ha presentato la sua discussione
+su MATE alla Conferenza  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
+le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioniù GNOME Classic e GNOME Fallback,
+e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/H-2WSt5cbR4&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Nuovi temi</title>
+      <link>https://mate-desktop.org/it/blog/2013-03-26-new-themes/</link>
+      <pubDate>Tue, 26 Mar 2013 16:53:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-03-26-new-themes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team è orgoglioso di annunciare i nuovi temi per MATE 1.6.&lt;/p&gt;
+&lt;p&gt;Menta sarà il tema predefinito della nuova release in arrivo. Esso consiste di un grazioso tema GTK2/3
+(basato su Mint-Z migliorato, non più mantenuto, personalizzato per MATE e
+aggiornato a GTK3.6) e un tema figlio di mate-icon-theme con cartelle verdi.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Menta theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ci saranno inoltre due nuovi temi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BlackMATE&lt;/strong&gt;: Un tema basato sul nero, senza verde.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GreenLaguna&lt;/strong&gt;: Un grazioso tema basato sul colore verde.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vorremmo ringraziare  Wolfgang Ulbrich and Marcel Dijkstra per questo ottimo lavoro.&lt;/p&gt;
+&lt;h3&gt;Tema BlackMATE&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tema-blackmate&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tema-blackmate&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;BlackMATE theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Tema GreenLaguna&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tema-greenlaguna&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tema-greenlaguna&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;GreenLaguna theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE University</title>
+      <link>https://mate-desktop.org/it/blog/2013-03-12-mate-university/</link>
+      <pubDate>Tue, 12 Mar 2013 18:58:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-03-12-mate-university/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Siamo orgogliosi di di annunciare il nostro nuovo pacchetto su GitHub:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE University&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MATE University è orientato agli sviluppatori di ogni livello (inclusi i principianti)
+per imparare come sviluppare nuove applet del pannello, estensioni di Caja (file manager),
+plugin per Pluma (l&amp;rsquo;editor di testi) e per Eye of MATE (il visualizzatore di immagini), etc. per espandere
+la già poderosa esperienza sul Desktop MATE. Ci saranno codice sorgente semplice e ben commentato, makefile e suggerimenti da utilizzare come trampolino per la realizzazione di nuove applicazioni MATE.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Modifiche a mate-notification-daemon</title>
+      <link>https://mate-desktop.org/it/blog/2013-01-20-changes-to-mate-notification-daemon/</link>
+      <pubDate>Sun, 20 Jan 2013 19:07:12 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-01-20-changes-to-mate-notification-daemon/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; ha una nuova funzionalità in MATE 1.6 che consente
+agli utenti di scegliere su quale monitor si vuole mostrare le notifiche. Il
+comportamento attuale mostrale notifiche solo sul monitor correntemente attivo (cioè quello su cui si trova il puntatore del mouse). Il comportamento sarà per default quello che si è sempre avuto in precedenza, ma l&amp;rsquo;utente può cambiare le impostazioni modificando le chiavi &amp;ldquo;use-active-monitor&amp;rdquo;
+e &amp;ldquo;monitor-number&amp;rdquo; mediante &lt;code&gt;dconf-editor&lt;/code&gt; o eseguendo
+&lt;code&gt;mate-notification-properties&lt;/code&gt; e modificando le impostazioni da una Interfaccia Utente Grafica.&lt;/p&gt;
+&lt;p&gt;Qui sotto c&amp;rsquo;è uno screenshot di &lt;code&gt;mate-notification-properties&lt;/code&gt; impostato per mostrare le notifiche su un monitor attivo. Si noti che &amp;ldquo;Use Active Monitor&amp;rdquo; è selezionato, il che disabilita la combobox per selezionare un monitor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Qui sotto c&amp;rsquo;è uno screenshot di &lt;code&gt;mate-notification-properties&lt;/code&gt; impostato per mostrare le notifiche su uno specifico monitor. Si noti che &amp;ldquo;Use Active Monitor&amp;rdquo; &lt;strong&gt;non&lt;/strong&gt; è
+selezionato, il che abilita la combobox per selezionare un monitor da abilitare.
+Il numero del monitor è impostato a 2. Questo mostrerà le notifiche sul mio terzo monitor, perché la numerazione inizia da 0 invece che da 1..&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Grazie, First Colo!</title>
+      <link>https://mate-desktop.org/it/blog/2012-12-27-grazie-first-colo/</link>
+      <pubDate>Thu, 27 Dec 2012 17:06:02 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2012-12-27-grazie-first-colo/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt;, è gestore di un moderno data center in Germania, e
+ha pianificato di portare MATE Desktop sulle loro workstations d&amp;rsquo;ufficio. FirstColo
+ha gentilmente donato un nuovo server dedicato, per supportare MATE.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;intero team ringrazia Martin Verges ed il suo staff per questa grande notizia!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Rilasciato MATE 1.4</title>
+      <link>https://mate-desktop.org/it/blog/2012-07-30-mate-1-4-released/</link>
+      <pubDate>Mon, 30 Jul 2012 14:22:50 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2012-07-30-mate-1-4-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team è orgoglioso di annunciare il rilascio della versione di MATE 1.4.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Qui seguono i principali cambiamenti e miglioramenti di questo rilascio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerosi bug eliminati&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; e &lt;code&gt;libmatekeyring&lt;/code&gt; backends aggiornati ed integrati correttamente&lt;/li&gt;
+&lt;li&gt;Il pacchetto &lt;code&gt;caja-dropbox&lt;/code&gt; adesso è disponibile&lt;/li&gt;
+&lt;li&gt;Nuovi temi aggiunti a &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Rimosso &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;La condivisione dei file adesso è disponibile via Bluetooth&lt;/li&gt;
+&lt;li&gt;Aggiunta una opzione per impiegare il veloce alt-tab quando è attivo il compositing in &lt;code&gt;marco&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Disponibile da ora &lt;code&gt;mate-icon-theme-faenza&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Disponibile da ora &lt;code&gt;mate-character-map&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; adesso supporta il cambio di utente di GDM&lt;/li&gt;
+&lt;li&gt;Rimosso nyancat dalla finestra di dialogo mate-desktop informazioni&lt;/li&gt;
+&lt;li&gt;Creato un derivato di &lt;code&gt;libwnck&lt;/code&gt; chiamato &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Miglioramenti di Caja:
+&lt;ul&gt;
+&lt;li&gt;Ripristinato l&amp;rsquo;uso dei pulsanti per la barra delle posizioni basata sul testo&lt;/li&gt;
+&lt;li&gt;I segnalibri possono essere aperti dal pannello laterale posizioni mediante tasto invio o barra spaziatrice&lt;/li&gt;
+&lt;li&gt;Aggiunto un pulsante per visualizzare le differenze tra file nella finestra di dialogo file in conflitto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Rilasciato MATE 1.2</title>
+      <link>https://mate-desktop.org/it/blog/2012-04-16-mate-1-2-released/</link>
+      <pubDate>Mon, 16 Apr 2012 03:48:11 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2012-04-16-mate-1-2-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il Team è orgoglioso di annunciare il rilascio di &lt;strong&gt;MATE 1.2&lt;/strong&gt;. Questo rilascio è
+un grande passo in avanti rispetto le versioni di sviluppo 1.0 e 1.1. MATE è più stabile che mai ed include il supporto per molte più applicazioni, applet
+e backends.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Questi sono i principali cambiamenti le migliorie di questa versione:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Numerosi bug fix&lt;/li&gt;
+&lt;li&gt;Sono stati risolti tutti i conflitti con GNOME&lt;/li&gt;
+&lt;li&gt;Tutti i file di configurazione sono stati spostati in &lt;code&gt;~/.config/mate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;In Caja è stato inserita una funzione annulla/ripeti&lt;/li&gt;
+&lt;li&gt;Il comando mate-open di libmate adesso è più veloce ad aprire le applicazioni&lt;/li&gt;
+&lt;li&gt;Il demone MATE settings adesso supporta i backend PulseAudio e GStreamer.&lt;/li&gt;
+&lt;li&gt;Nuove applicazioni: &lt;code&gt;mozo&lt;/code&gt; (derivato di alacarte), &lt;code&gt;python-caja&lt;/code&gt;, &lt;code&gt;caja-gksu&lt;/code&gt;, &lt;code&gt;caja-image-converter&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Artwork
+&lt;ul&gt;
+&lt;li&gt;I temi MATE sono stati rinominati per evitare conflitti con GNOME&lt;/li&gt;
+&lt;li&gt;È stato aggiunto un nuovo sfondo MATE&lt;/li&gt;
+&lt;li&gt;MATE adesso possiede la sua icona personale&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

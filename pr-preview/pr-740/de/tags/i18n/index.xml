@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop-Umgebung – I18n</title>
+    <link>https://mate-desktop.org/de/tags/i18n/</link>
+    <description>Recent content in I18n on MATE Desktop-Umgebung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 14 Feb 2014 12:51:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/de/tags/i18n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Hilfe bei der Übersetzung von MATE erbeten</title>
+      <link>https://mate-desktop.org/de/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Zeigen Sie ihre Liebe für das MATE-Projekt an diesem Valentinstag. Überschütten Sie
+uns mit Übersetzungen.&lt;/p&gt;
+&lt;p&gt;Übersetzer sind die unbesungenen Helden des MATE-Entwicklungs-Teams,
+und wieder einmal wenden wir uns an sie, bei der Verbesserung des Projekts mitzuhelfen.
+MATE 1.7 befindet sich weitgehend im finalen Teststadium und in der Qualitätssicherung,
+und MATE 1.8 wird bald für das Release vorbereitet werden.&lt;/p&gt;
+&lt;p&gt;Daher bitten wir Sie, den Stand der MATE-Übersetzungen, zu denen Sie beitragen,
+auf Transifex zu überprüfen und sie baldmöglichst zu aktualisieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Falls Sie noch kein Mitglied des Übersetzer-Teams sind, aber gerne mithelfen möchten,
+dann &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;melden Sie sich kostenlos an bei Transifex&lt;/a&gt;,
+so dass Sie anfangen können, zu MATE beizusteuern. Wir würden es wirklich schätzen.&lt;/p&gt;
+&lt;p&gt;Es gibt momentan sechs Sprachen mit einer Abdeckung von 100%. Wir sind gespannt,
+wie viele weitere Sprachen eine vollständige Abdeckung vor dem Release von MATE 1.8 erreichen.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

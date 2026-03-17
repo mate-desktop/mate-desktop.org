@@ -1,0 +1,72 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – Ubuntu</title>
+    <link>https://mate-desktop.org/ja/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 25 Sep 2014 11:34:36 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Debian と Ubuntu のパッケージリポジトリが mate-desktop.org から削除されました</title>
+      <link>https://mate-desktop.org/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</link>
+      <pubDate>Thu, 25 Sep 2014 11:34:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian の MATE パッケージメンテナ&lt;/a&gt;の努力のおかげで、MATE 1.8.1 は Debian Jessie (テスト用)と [Debian backports](Wheezy用 &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://backports.debian.org&lt;/a&gt;) より利用できます。&lt;/p&gt;
+&lt;p&gt;MATE 1.8.1 が今年初めに Debian テスト版リポジトリに登場した結果、MATE 1.8.1 は Ubuntu 14.10 Utopic Unicorn の公式アーカイブにも入っています。&lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt; チームは最近、&lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu 技術部門&lt;/a&gt; の要請に応じて &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt; を作成し、また &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt; も作成しました。&lt;/p&gt;
+&lt;p&gt;もし Debian または Ubuntu 用の MATE パッケージが必要な場合、上記のパッケージリポジトリが使用すべき公式リポジトリになります。&lt;/p&gt;
+&lt;p&gt;mate-desktop.org でホストされているパッケージリポジトリを削除しました。これは、いくつかは署名されていなかったり、何ヶ月も管理されていなかったからです。したがって、現在のところ、mate-desktop.org でホストされている Debian と Ubuntu のパッケージリポジトリは削除されました。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Quantal 用の MATE パッケージリポジトリ</title>
+      <link>https://mate-desktop.org/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</link>
+      <pubDate>Tue, 16 Oct 2012 21:52:18 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Ubuntu 12.10 Quantal Quetzal 用の &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt; パッケージリポジトリが 1.4 リリースで利用可能になりました。いつもの通り、&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;次の手順&lt;/a&gt; に従ってください。&lt;/p&gt;
+&lt;p&gt;古いリリースからアップグレードする場合は、必ず古いリポジトリを削除して新しいリポジトリを追加してください。そうしないと問題が発生します。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>新しい Wiki サイトやその他のお知らせ</title>
+      <link>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</link>
+      <pubDate>Sat, 24 Dec 2011 21:58:49 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2011-12-24-new-wiki-and-new-distributions-supported/</guid>
+      <description>
+        
+        
+        &lt;p&gt;私たちは最近、[GitHub]のWiki( &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) から、&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;
+&lt;p&gt;まだ気付いていない方は、&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt; で問題を報告することができます。現時点では、バグ報告に関して利用できるのはこれだけですが、バグ追跡ツールを開発中です。
+できあがったときには、ここでお知らせします。&lt;/p&gt;
+&lt;p&gt;私たちは Mate フォーラムを将来設置する計画も持っていますが、それは未だ非常に初期の段階にあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;、&lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;、&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; は tridex のリポジトリを使って私たちのパッケージ 1.1.x 開発ブランチにアクセスできます。詳細については、Wiki の&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ダウンロードページ&lt;/a&gt; をご覧ください。&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; はまた、そのリポジトリに 1.0.x リリースパッケージを持っています。もし誰かがまだ Amanas の PPA を使っているのなら、それはもはやサポートされていません。残りの 1.1.x リリースは tridex のリポジトリでホストされます。今後のリリース (例: 1.2.0) はここでホストされます。&lt;/p&gt;
+&lt;p&gt;私たちは、&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; 向けのパーケージ化が始まったことを誇りに思います。より多くの情報が得られたら、それを私たちの Wiki に追加して発表します。&lt;/p&gt;
+&lt;p&gt;最後に、私たちは何人かの個人に&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;私たちのIRCチャンネル&lt;/a&gt; に参加してもらって、&lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; では MATE 用がビルドされるかについて尋ねました。そういうことなので、私たちはこれらをセットアップしてくださる方を探しています。&lt;/p&gt;
+&lt;p&gt;素敵な休暇をお過ごしください。Mate チームより。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

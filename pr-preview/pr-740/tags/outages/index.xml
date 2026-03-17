@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Outages</title>
+    <link>https://mate-desktop.org/tags/outages/</link>
+    <description>Recent content in Outages on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Dec 2016 01:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/tags/outages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Server Outage</title>
+      <link>https://mate-desktop.org/blog/2016-12-22-server-outage/</link>
+      <pubDate>Thu, 22 Dec 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2016-12-22-server-outage/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The server that runs this website went offline without notice yesterday.
+We don&amp;rsquo;t know why and we&amp;rsquo;ve had no contact from our server host. &lt;strong&gt;We do
+have complete backups, no data has been lost.&lt;/strong&gt; We&amp;rsquo;ve started to restore
+services and the outstanding service will be reinstated as time permits
+over the holiday period.&lt;/p&gt;
+&lt;p&gt;We will update this page as services come back online.&lt;/p&gt;
+&lt;h2&gt;What is the impact?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-the-impact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-the-impact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This services are currently down, listed in order of restore priority&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; - The mailing lists, which are rarely used.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; - The forums, which we started shutting down earlier in the year and are locked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What has been restored?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-has-been-restored&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-has-been-restored&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt;&amp;gt; - This website&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt;&amp;gt; - Where you can find the tarballs of MATE Desktop releases.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&gt;&lt;/a&gt; - The developer wiki.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt;&amp;gt; - This is a mirror of the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt;&amp;gt; - The MATE Desktop planet.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - Mail server for developers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;update&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#update&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;21st December&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21st-december&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21st-december&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bytemark.co.uk/r/ubuntu-mate/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bytemark&lt;/a&gt; offer to sponsor MATE Desktop hosting to help us overcome the server outage with our previous provider.&lt;/li&gt;
+&lt;li&gt;Restored &lt;code&gt;www.mate-desktop.org&lt;/code&gt; and &lt;code&gt;pub.mate-desktop.org&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;22nd December&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22nd-december&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22nd-december&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;wiki.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Restored &lt;code&gt;git.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;23nd December&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23nd-december&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23nd-december&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;planet.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2nd January&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2nd-january&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2nd-january&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Restored &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We apologise for any inconvenience this may have caused.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

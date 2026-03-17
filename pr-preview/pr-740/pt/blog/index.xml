@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Blogs</title>
+    <link>https://mate-desktop.org/pt/blog/</link>
+    <description>Recent content in Blogs on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+	  <atom:link href="https://mate-desktop.org/pt/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>https://mate-desktop.org/pt/blog/2011-12-05-introduzindo-mate-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/pt/blog/2011-12-05-introduzindo-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Bem-vindo ao Ambiente de Trabalho MATE!&lt;/p&gt;
+&lt;p&gt;O Gnome 2 era o ambiente de trabalho mais popular do Linux, mas já não está disponível&amp;hellip; MATE
+está aqui para lhe fornecer esse mesmo ambiente de trabalho &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Inicialmente, o Perberos bifurcou o Gnome 2 e chamou ao projeto MATE. Utilizadores e
+programadores têm corrido com sucesso o MATE no &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+e devido à procura popular, Perberos facilitou a compilação do MATE em
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; e &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+juntaram-se depois ao projeto e empacotaram-no para Debian e &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;.
+O ambiente de trabalho MATE foi apresentado no Linux Mint 12 e está agora rapidamente a ganhar força.&lt;/p&gt;
+&lt;p&gt;A nossa principal prioridade é melhorar o MATE e torná-lo igual, em termos de funcionalidades
+e estabilidade, com o Gnome 2.32. Iremos portar temas, applets e aplicações que
+foram desenvolvidos para o Gnome 2, e ajudar os programadores a portar as suas aplicações para este
+novo ambiente de trabalho.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

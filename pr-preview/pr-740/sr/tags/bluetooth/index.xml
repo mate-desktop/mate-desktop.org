@@ -1,0 +1,58 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Bluetooth</title>
+    <link>https://mate-desktop.org/sr/tags/bluetooth/</link>
+    <description>Recent content in Bluetooth on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Tue, 11 Mar 2014 07:45:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Мејтова радна површ потписује „BlueZ“</title>
+      <link>https://mate-desktop.org/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</link>
+      <pubDate>Tue, 11 Mar 2014 07:45:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-03-11-mate-desktop-singing-the-bluez/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Мејтова екипа је срећна да објави да сарађујемо са
+&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman“ пројектом&lt;/a&gt; и да помажемо
+ажурирање „Blueman“-а у „BlueZ“ 5.x.&lt;/p&gt;
+&lt;h2&gt;Зашто напустити „mate-bluetooth“?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;зашто-напустити-mate-bluetooth&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b7%d0%b0%d1%88%d1%82%d0%be-%d0%bd%d0%b0%d0%bf%d1%83%d1%81%d1%82%d0%b8%d1%82%d0%b8-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;„mate-bluetooth“ подржава „BlueZ“ 4.x који је прекинут и многе
+дистрибуције су, или ће, заменити „BlueZ“ 4.x са „BlueZ“ 5.x у својим
+одговарајућим ризницама пакета. Преношење „mate-bluetooth“ на
+„BlueZ“ 5.x је одрађено тако да представља много посла и не пружа
+низ функција доступних у „Blueman“-у.&lt;/p&gt;
+&lt;h2&gt;Зашто „Blueman“? Зар није мртав?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;зашто-blueman-зар-није-мртав&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b7%d0%b0%d1%88%d1%82%d0%be-blueman-%d0%b7%d0%b0%d1%80-%d0%bd%d0%b8%d1%98%d0%b5-%d0%bc%d1%80%d1%82%d0%b0%d0%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Док је оригинални „Blueman“ пројекат стагнирао, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Кристофер Шрам&lt;/a&gt;
+је поново покренуо развој и почео да преноси „Blueman“ на „BlueZ“ 5.x. Док
+такође постоји одређени напор у ажурирању „Blueman“-а како би подржао „BlueZ“ 5.x, осећамо да
+ће обезбедити далеко боље „Blueman“ сучеље за Мејт.&lt;/p&gt;
+&lt;h2&gt;Када ће ажурирани „Blueman“ бити спреман?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;када-ће-ажурирани-blueman-бити-спреман&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%ba%d0%b0%d0%b4%d0%b0-%d1%9b%d0%b5-%d0%b0%d0%b6%d1%83%d1%80%d0%b8%d1%80%d0%b0%d0%bd%d0%b8-blueman-%d0%b1%d0%b8%d1%82%d0%b8-%d1%81%d0%bf%d1%80%d0%b5%d0%bc%d0%b0%d0%bd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Пажљиви међу вама су можда приметили да је &lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;најава издања за Мејт 1.8&lt;/a&gt;
+већ поменула да је „mate-bluetooth“ замењен са „Blueman“-ом а да
+ће много пажљивији такође приметити да свеже издање „Blueman“-а
+још није издато. Да, некад и забрљамо нешто! Извините због тога.&lt;/p&gt;
+&lt;p&gt;Иако признајемо да смо шепртље, активно доприносимо напорима у
+преносу „Blueman“-а на „BlueZ“ 5.x и „GObject“. Надамо се да ћемо га
+на време припремити за Мејт 1.8.1 који је првенствено замишљен као
+издање са исправкама грешака.&lt;/p&gt;
+&lt;h2&gt;Може ли то мало брже, мајсторе?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;може-ли-то-мало-брже-мајсторе&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bc%d0%be%d0%b6%d0%b5-%d0%bb%d0%b8-%d1%82%d0%be-%d0%bc%d0%b0%d0%bb%d0%be-%d0%b1%d1%80%d0%b6%d0%b5-%d0%bc%d0%b0%d1%98%d1%81%d1%82%d0%be%d1%80%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Да. Свако ко је фамилијаран са „BlueZ“-ом 4.x/5.x, „dbus“-ом, „PyGObject“-ом и „PyGTK“ је охрабрен
+да допринесе путем ризнице &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman GitHub“&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

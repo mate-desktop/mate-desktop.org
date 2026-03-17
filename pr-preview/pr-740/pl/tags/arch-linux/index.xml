@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Arch Linux</title>
+    <link>https://mate-desktop.org/pl/tags/arch-linux/</link>
+    <description>Recent content in Arch Linux on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 05 Dec 2011 12:00:30 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/pl/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>https://mate-desktop.org/pl/blog/2011-12-05-introducing-mate-desktop/</link>
+      <pubDate>Mon, 05 Dec 2011 12:00:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/pl/blog/2011-12-05-introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Witamy w środowisku graficznym MATE!&lt;/p&gt;
+&lt;p&gt;Gnome 2 był najpopularniejszym pulpitem Linuksa, ale nie jest już dostępny&amp;hellip; MATE
+jest tutaj, aby zapewnić Ci ten sam pulpit &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos stworzył forka Gnome 2 i nazwał projekt MATE. Użytkownicy i
+programiści pomyślnie uruchomili MATE w &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+a ze względu na zyskiwanie popularności Perberos ułatwił kompilację MATE pod
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Następnie &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; i &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
+dołączyli do projektu i spakowali go dla Debiana i &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;.
+Pulpit MATE pojawił się w Linux Mint 12 a jego rozwój nabiera tempa.&lt;/p&gt;
+&lt;p&gt;Naszym najwyższym priorytetem jest ulepszenie MATE tak, aby był równie funkcjonalny
+i stabilny co Gnome 2.32. Przeniesiemy motywy, aplety i aplikacje, które
+zostały opracowane dla Gnome 2 oraz programistom w przenoszeniu ich aplikacji do
+nowego środowiska.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,126 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – LiveCD</title>
+    <link>https://mate-desktop.org/sr/tags/livecd/</link>
+    <description>Recent content in LiveCD on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 30 Jan 2014 00:17:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/livecd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Живи ЦД Мејтове радне површи</title>
+      <link>https://mate-desktop.org/sr/blog/2014-01-30-mate-desktop-live-cd/</link>
+      <pubDate>Thu, 30 Jan 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-01-30-mate-desktop-live-cd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Мејтова екипа је припремила Живи ЦД који се подиже у потпуном Мејтовом окружењу.&lt;/p&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;Ажурирање&lt;/strong&gt; – ЖивиЦД је ажуриран на Мејт 1.8 – 10. марта 2014.&lt;/div&gt;
+&lt;p&gt;Овај Живи ЦД је направљен тако да потенцијални нови корисници могу да
+процене Мејтову радну површ а да не наруше свој тренутни систем. Слика
+може бити нарезана на ДВД, прикачена као ИСО датотека, или директно
+записана на УСБ меморијском штапићу помоћу алата као што је &lt;code&gt;dd&lt;/code&gt;.
+&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти&lt;/a&gt; пазите, &lt;code&gt;unetbootin&lt;/code&gt;
+није подржан. Живи ЦД можете преузети са везе испод:&lt;/p&gt;
+&lt;h3&gt;Преузимање путем Бит Торента (препоручено)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;преузимање-путем-бит-торента-препоручено&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%b5%d1%83%d0%b7%d0%b8%d0%bc%d0%b0%d1%9a%d0%b5-%d0%bf%d1%83%d1%82%d0%b5%d0%bc-%d0%b1%d0%b8%d1%82-%d1%82%d0%be%d1%80%d0%b5%d0%bd%d1%82%d0%b0-%d0%bf%d1%80%d0%b5%d0%bf%d0%be%d1%80%d1%83%d1%87%d0%b5%d0%bd%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ако можете да потрошите бајтове, оставите програм отвореним након
+што се ваше преузимање заврши, да бисте га сејали према другима.
+&lt;em&gt;Програм са могућношћу веб-сејања се препоручује за највеће брзине
+преузимања.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Директно HTTP преузимање&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;директно-http-преузимање&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b4%d0%b8%d1%80%d0%b5%d0%ba%d1%82%d0%bd%d0%be-http-%d0%bf%d1%80%d0%b5%d1%83%d0%b7%d0%b8%d0%bc%d0%b0%d1%9a%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Као додатак Бит Торент вези изнад, „.iso“ Живог ЦД-а се може такође
+преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
+суми провере.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Сагласност&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;сагласност&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%81%d0%b0%d0%b3%d0%bb%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД је изграђен коришћењем &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукса&lt;/a&gt; и
+Мејта 1.8. Живи ЦД је 32-бита тако да треба да ради на свим i686 или x86_64
+рачунарима са најмање 512MB RAM-а. Xorg управљачки програми су укључени
+за Intel (&lt;code&gt;i915&lt;/code&gt;), AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) и nvidia (&lt;code&gt;nouveau&lt;/code&gt;) са пребацивањем на VESA.
+Управљачки програми за Virtual Box and VMware су такође укључени тако да је
+процењивање коришћењем ових решења виртуелизације врло једноставно.&lt;/p&gt;
+&lt;p&gt;Сви општи системи датотека, укључујући &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;, су подржани
+а укључени су и неки алати за повртак подтака и резерве. Ако прикључите ваш
+мобилни уређај највероватније да ће бити препознат и можете да приступите
+подацима на њему. Управник мреже је укључен са свим VPN клијентима које
+подржава.&lt;/p&gt;
+&lt;h2&gt;Корисничка имена и лозинке&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;корисничка-имена-и-лозинке&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%ba%d0%be%d1%80%d0%b8%d1%81%d0%bd%d0%b8%d1%87%d0%ba%d0%b0-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b0-%d0%b8-%d0%bb%d0%be%d0%b7%d0%b8%d0%bd%d0%ba%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД Мејтове радне површи има подешене следеће налоге.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - лозинка је &lt;code&gt;livecd&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Налог &lt;code&gt;root&lt;/code&gt; је наравно &lt;code&gt;root&lt;/code&gt;. Налог &lt;code&gt;mate&lt;/code&gt; је обичан корисник који
+има пуна &lt;code&gt;sudo&lt;/code&gt; овлашћења без лозинке. Живи ЦД ће се сам
+учитати користећи налог &lt;code&gt;mate&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Програми&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;програми&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД је првенствено осмишљен да прикаже Мејтову радну површ, међутим
+укључили смо и неке додатне програме који нису део Мејтове радне површи да
+бисмо Живи ЦД учинили мало кориснијим и пријатнијим.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   – Самосталан веб прегледник из „mozilla.org“&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   – Клон Partition Magic-а, челник за Гну Партед&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  – Алат за информације система и оцењивање&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;    - IRC клијент подешен да се сам повеже на &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;   – Тастатура на екрану корисна за појединце са моторичким потешкоћама&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      – Читач екрана за појединце који су слепи или оштећеног вида&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    – Вишепротоколни клијент брзих порука&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Садржај Заједничког стваралаштва&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;садржај-заједничког-стваралаштва&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%81%d0%b0%d0%b4%d1%80%d0%b6%d0%b0%d1%98-%d0%b7%d0%b0%d1%98%d0%b5%d0%b4%d0%bd%d0%b8%d1%87%d0%ba%d0%be%d0%b3-%d1%81%d1%82%d0%b2%d0%b0%d1%80%d0%b0%d0%bb%d0%b0%d1%88%d1%82%d0%b2%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Следећи садржај смо укључили под лиценцом Заједничког стварлаштва.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        – За читање у Атрилу&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Промена језика&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;промена-језика&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%bc%d0%b5%d0%bd%d0%b0-%d1%98%d0%b5%d0%b7%d0%b8%d0%ba%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Као основни језик за Живи ЦД је постављен &lt;code&gt;en_US&lt;/code&gt;, али ако желите
+да покренете други језик ево како то да урадите. У примеру испод,
+омогућићемо српски.&lt;/p&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.gen&lt;/code&gt; и поништите напомену за жељени језик, у овом случају &lt;code&gt;sr_RS.UTF-8 UTF-8&lt;/code&gt;
+и поново изградите језике.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Уредите &lt;code&gt;/etc/locale.conf&lt;/code&gt; и измените &lt;code&gt;LANG=&lt;/code&gt; да одрази ваш жељени језик, у овом
+случају &lt;code&gt;LANG=sr_RS.UTF-8&lt;/code&gt;. На крају поново покрените управника приказа и бићете
+пријављени назад у Мејтов сесију користећи ваш жељени језик.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Програм „Линукс у акцији“&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;програм-линукс-у-акцији&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc-%d0%bb%d0%b8%d0%bd%d1%83%d0%ba%d1%81-%d1%83-%d0%b0%d0%ba%d1%86%d0%b8%d1%98%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД Мејтове радне површи и сам Мејт су приказани у &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Програму „Линукс у акцији“&lt;/a&gt; у епизоди &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;/a&gt;.
+Два снимка су постављена испод, први је брзи преглед Живог ЦД-а Мејтове
+радне површи а други је преглед „CuBox-а i4“ на коме ради Мејт.&lt;/p&gt;
+&lt;h3&gt;Живи ЦД Мејтове радне површи&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;живи-цд-мејтове-радне-површи&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b6%d0%b8%d0%b2%d0%b8-%d1%86%d0%b4-%d0%bc%d0%b5%d1%98%d1%82%d0%be%d0%b2%d0%b5-%d1%80%d0%b0%d0%b4%d0%bd%d0%b5-%d0%bf%d0%be%d0%b2%d1%80%d1%88%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=608&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;Преглед „CuBox-а i4 Pro“&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;преглед-cubox-а-i4-pro&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%b5%d0%b3%d0%bb%d0%b5%d0%b4-cubox-%d0%b0-i4-pro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=1925&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;Повратни одговор&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;повратни-одговор&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d0%be%d0%b2%d1%80%d0%b0%d1%82%d0%bd%d0%b8-%d0%be%d0%b4%d0%b3%d0%be%d0%b2%d0%be%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Надамо се да ћете испробати Живи ЦД и да ћете уживати у брзини и једноставности
+коју пружа Мејтова радна површ. Након што испробате Живи ЦД Мејтове радне површи
+реците нам у коментарима шта мислите или користите Живи ЦД да нам се придружите&lt;br&gt;
+на &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IRC каналу – #mate&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

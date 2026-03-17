@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Linux Voice</title>
+    <link>https://mate-desktop.org/sr/tags/linux-voice/</link>
+    <description>Recent content in Linux Voice on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Mon, 25 Nov 2013 13:50:43 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/linux-voice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Подржите Глас Линукса!</title>
+      <link>https://mate-desktop.org/sr/blog/2013-11-25-support-linux-voice/</link>
+      <pubDate>Mon, 25 Nov 2013 13:50:43 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2013-11-25-support-linux-voice/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Мејтов тим вас охрабрује да пређете на &lt;a href=&#34;https://www.indiegogo.com/projects/linux-voice&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Глас Линукса на „indiegogo“&lt;/a&gt;
+и да сазнате зашто ви, као корисник и ентузијаст Отвореног кода, треба да подржите &lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Глас Линукса&lt;/a&gt;.
+Ево неколико разлога због којих подржавамо овај пројекат:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Формиран од већине уредничког тима иза часописа Линукс Формат.&lt;/li&gt;
+&lt;li&gt;50% добити од Гласа Линукса вратће се заједницама Слободног софтвера и Линукса.&lt;/li&gt;
+&lt;li&gt;Садржај Гласа Линукса биће објављен бесплатно након 9 месеци под &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„CC-BY-SA“&lt;/a&gt; лиценцом.&lt;/li&gt;
+&lt;li&gt;Један тим Гласа Линукса је заинтересован за покривање Мејта ако се њихов пројекат успешно финансира.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;a href=&#34; https://www.indiegogo.com/projects/linux-voice&#34;&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/Linux012.png&#34; alt=&#34;Linux Voice&#34; title=&#34;Linux Voice&#34; /&gt;&lt;br /&gt;Support Linux Voice!&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Можете такође да сазнате више о напретку кампање ако посетите веб сајт &lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Гласа Линукса&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.linuxvoice.com/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxvoice.com/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

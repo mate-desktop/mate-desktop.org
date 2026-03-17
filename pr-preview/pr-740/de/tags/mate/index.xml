@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop-Umgebung – MATE</title>
+    <link>https://mate-desktop.org/de/tags/mate/</link>
+    <description>Recent content in MATE on MATE Desktop-Umgebung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 13 Oct 2014 18:55:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/de/tags/mate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE-Interview von den Linux Luddites</title>
+      <link>https://mate-desktop.org/de/blog/mate-interview-with-linux-luddites/</link>
+      <pubDate>Mon, 13 Oct 2014 18:55:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/mate-interview-with-linux-luddites/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://linuxluddites.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; waren so freundlich, mich
+letzte Woche zu interviewen. Wir diskutierten die Ursprünge des &lt;a href=&#34;https://mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Desktops&lt;/a&gt;,
+seine zukünftige Ausrichtung, wie &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt; entstand und wohin es sich entwickelt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;
+wurde vorhin bereitgestellt, und ich empfehle Ihnen, bei der Linux-Luddites-Webseite
+vorbeizuschauen und den Beitrag anzuhören.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Falls Sie noch nie bei den Linux Luddites reingehört haben, sollten Sie
+sich deren Archiv zu Gemüte führen. Es ist bereits seit einigen Monaten
+eines meiner liebstes FLOSS-Podcasts, da es gute Diskussionen und Einblicke
+mit nützlichen Reviews und ersten Eindrücken von Distributionen verbindet.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

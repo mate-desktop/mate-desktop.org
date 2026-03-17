@@ -1,0 +1,95 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Fedora</title>
+    <link>https://mate-desktop.org/sr/tags/fedora/</link>
+    <description>Recent content in Fedora on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 11 Jun 2015 22:30:30 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title>
+      <link>https://mate-desktop.org/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link>
+      <pubDate>Thu, 11 Jun 2015 22:30:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3
+изградња доступна за тестирање на Федири 21 и 22. Ова Гтк3 изградња ради посао
+али има неке мање проблеме исцртавања, ваше повртане информације су нам потребне.&lt;/p&gt;
+&lt;h2&gt;Инсталација&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;инсталација&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b8%d0%bd%d1%81%d1%82%d0%b0%d0%bb%d0%b0%d1%86%d0%b8%d1%98%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Инсталирајте датотеку ризнице и извршите &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Федора 22&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;федора-22&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%84%d0%b5%d0%b4%d0%be%d1%80%d0%b0-22&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+$ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
+$ sudo yum update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Федора 21&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;федора-21&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%84%d0%b5%d0%b4%d0%be%d1%80%d0%b0-21&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+$ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
+$ sudo yum update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Или користите наредбу &lt;code&gt;dnf&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo dnf copr enable raveit65/Mate-GTK3
+$ sudo dnf update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Пријављивање проблема&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;пријављивање-проблема&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%b8%d1%98%d0%b0%d0%b2%d1%99%d0%b8%d0%b2%d0%b0%d1%9a%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Користите пратиоца грешака Мејтове радне површи на ГитХаб-у и укључите „Гтк3 и Федора“
+у теми.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Неке напомене:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Компиз ће радити само са &lt;code&gt;emerald&lt;/code&gt;-ом као украшивачем прозора.&lt;/li&gt;
+&lt;li&gt;Немојте мешати Гтк2 пакете из стабилне Федоре и Гтк3 пакете из горње
+ризнице.&lt;/li&gt;
+&lt;li&gt;Немојте користити следеће Мејтове програме са Гтк3 изградњом Мејта; нису прилагођени за Гтк3:
+&lt;ul&gt;
+&lt;li&gt;„mintMenu“ и „MATE Menu“&lt;/li&gt;
+&lt;li&gt;mate-applet-streamer&lt;/li&gt;
+&lt;li&gt;mate-applet-lockkeys&lt;/li&gt;
+&lt;li&gt;mate-applet-softupd&lt;/li&gt;
+&lt;li&gt;caja-terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Ризница пакета Мејта за Федору</title>
+      <link>https://mate-desktop.org/sr/blog/2012-11-10-mate-package-repository-for-fedora/</link>
+      <pubDate>Sat, 10 Nov 2012 20:51:28 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2012-11-10-mate-package-repository-for-fedora/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Сада упућујемо кориснике да користе званичну ризницу пакета за Федору.
+За упутства о коришћењу ове ризнице, погледајте &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md#Fedora&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;наш водич инсталације
+за Федору&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;За више информација о Мејтовом званичном укључењу у Федиру, погледајте следеће:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ако имате било какво питање у вези инсталације Мејта на Федори затражите
+помоћ на нашем &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate ИРЦ каналу&lt;/a&gt;
+или за општа питања о Мејту придружите нам се на &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate ИРЦ каналу&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

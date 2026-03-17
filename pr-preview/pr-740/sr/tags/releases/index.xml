@@ -1,0 +1,510 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Releases</title>
+    <link>https://mate-desktop.org/sr/tags/releases/</link>
+    <description>Recent content in Releases on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 05 Nov 2015 20:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Издат је Мејт 1.12</title>
+      <link>https://mate-desktop.org/sr/blog/2015-11-05-mate-1-12-released/</link>
+      <pubDate>Thu, 05 Nov 2015 20:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2015-11-05-mate-1-12-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;После 5 месеци развоја екипа Мејтове радне површи с поносом објављује
+издање 1.12 Мејтовр радне површи. Захваљујемо се свим доприносиоцима
+и корисницима Мејта.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Шта је ново у Мејту 1.12&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-ново-у-мејту-112&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%bd%d0%be%d0%b2%d0%be-%d1%83-%d0%bc%d0%b5%d1%98%d1%82%d1%83-112&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Главне измене у Мејту 1.12 су:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Исправке и побољшања за Гтк3 подршку у читавој Мејтовој радној површи укључујући Гтк 3.18 подршку.&lt;/li&gt;
+&lt;li&gt;Подршка додирне плоче је значајно побољшана и сада се одликује вишеструким додиром и природним премицањем.&lt;/li&gt;
+&lt;li&gt;Подршка више монитора је побољшана тако да поставке дисплеја користе називе излаза и прерађено корисничко сучеље вас пушта да поставите главни монитор.&lt;/li&gt;
+&lt;li&gt;Програмче за напајање сада приказује информације о моделу и продавцу тако да можете разликовати више уређаја на батеријама.&lt;/li&gt;
+&lt;li&gt;Побољшано управљање сесијом које сада укључује забрану чувара екрана током репродукције медија.
+&lt;ul&gt;
+&lt;li&gt;Мејт сада слуша називни простор &lt;code&gt;org.gnome.SessionManager&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Проширена „systemd“ подршка.&lt;/li&gt;
+&lt;li&gt;Исправљене су дуготрајне грешке и многe малe неправилности.
+&lt;ul&gt;
+&lt;li&gt;На пример, програмчићи панела више не мењају места приликом промене резолуције екрана.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Преводи су ажурирани и бројне компоненте сада преузимају ниске непосредно из &lt;code&gt;gschema&lt;/code&gt; (захтева „intltool“ 0.50.1).&lt;/li&gt;
+&lt;li&gt;Напуштена је подршка за &lt;code&gt;win32&lt;/code&gt; и &lt;code&gt;osx&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Многобројне компоненте Мејта 1.12 су доступне за преузимање на овој адреси:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.12/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.12/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Снимци екрана&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;снимци-екрана&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%81%d0%bd%d0%b8%d0%bc%d1%86%d0%b8-%d0%b5%d0%ba%d1%80%d0%b0%d0%bd%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mate-desktop.org/gallery/1.12/&#34;&gt;Снимци екрана Мејта 1.12&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Дневник измена&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;дневник-измена&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d0%b8%d0%ba-%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Следи детаљнији преглед онога што смо урадили.&lt;/p&gt;
+&lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Подршка за &lt;code&gt;lcov&lt;/code&gt; 1.12&lt;/li&gt;
+&lt;li&gt;Ажурирана је документација и примери&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Захтева &lt;code&gt;dconf&lt;/code&gt; 0.13.4 и &lt;code&gt;xrandr&lt;/code&gt; 1.3&lt;/li&gt;
+&lt;li&gt;Додат је &lt;code&gt;gsettings&lt;/code&gt; кључ за окидање премицања преклапања у Гтк+3&lt;/li&gt;
+&lt;li&gt;Додате су неке иконице да би се поправиле недостајуће иконице у Гтк+3 са произвољном темом иконица&lt;/li&gt;
+&lt;li&gt;Шема миша: укључено је опонашање средњег клика по основи&lt;/li&gt;
+&lt;li&gt;RR: примењена је недостајућа фнкција „mate_rr_output_get_possible_crtcs“&lt;/li&gt;
+&lt;li&gt;RR: поправљено је препознавање преносног рачнара према називу излаза&lt;/li&gt;
+&lt;li&gt;RR: приказује назив излаза као додатак називу дисплеја&lt;/li&gt;
+&lt;li&gt;Премештен је кориснички водич „docbook“ у одвојени пројекат&lt;/li&gt;
+&lt;li&gt;Одбачена је зависност од „yelp“-а (није потребан након премештања корисничког водича)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;libmatekbd&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekbd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#libmatekbd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је интроспекција Гобјекта&lt;/li&gt;
+&lt;li&gt;Прозорче за преглед/штампање распореда: уклоњено је безкорисно дугме „Помоћ“&lt;/li&gt;
+&lt;li&gt;Прозорче за преглед/штампање распореда: неке исправке корисничког сучеља&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;oss: Користи само бројач мењања за гласање на Линуксу, оштећено је на BSD-има&lt;/li&gt;
+&lt;li&gt;alsa: Поправљено је „FTBFS“ са старим издањима „ALSA“-е&lt;/li&gt;
+&lt;li&gt;alsa: Исправљено је ишчезавање&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ажурирана су места за временске зоне&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Не изграђује датотеку &lt;code&gt;pkgconfig&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Цаја&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;цаја&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%86%d0%b0%d1%98%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Повезивање са прозорчетом сервера: додата је подршка за „AFP“&lt;/li&gt;
+&lt;li&gt;Побоољшана је подршка за више монитора&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је подршка за указиваче Гтк3 програма.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Марко&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;марко&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bc%d0%b0%d1%80%d0%ba%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додато је постављање прозора ручно и показивачем&lt;/li&gt;
+&lt;li&gt;Користи „Alt-`“ за пребацивање између прозора истог програма&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је нова свеза тастера за одјављивање (празно по основи)&lt;/li&gt;
+&lt;li&gt;Поставке додирне табле: додата је подршка за природно премицање, кликови са 2 и 3 прста&lt;/li&gt;
+&lt;li&gt;Миш: користи &lt;code&gt;syndaemon -K&lt;/code&gt; да занемари „Ктрл+C“ и остале комбинације&lt;/li&gt;
+&lt;li&gt;Гтк+3: чини да „xrandr“ програмче фиоке подржава произвољне теме панела&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додаје подршку за опционалну луку, као што је Планк&lt;/li&gt;
+&lt;li&gt;Додата је подршка за нову &lt;code&gt;libsystemd&lt;/code&gt; као додатак постојећој &lt;code&gt;libsystemd-login&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Чека само 1 секунду највише приликом пријављивања/гашења&lt;/li&gt;
+&lt;li&gt;Укључује/искључује премицање преклапања Гтк+3 на почетку користећи  нови „gsettings“ кључ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Користи &lt;code&gt;pkg-config&lt;/code&gt; да провери за питоном (захтева „python 2.7“)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Захтева &lt;code&gt;xrandr&lt;/code&gt; 1.3&lt;/li&gt;
+&lt;li&gt;Додата је опција за укључивање/искључивање бројева седмица у календару&lt;/li&gt;
+&lt;li&gt;Исправљени су положаји закључаних програмчића приликом промене резолуције екрана&lt;/li&gt;
+&lt;li&gt;Гтк+3: додата је класа стила за програмчиће да би пратили &lt;code&gt;panel-menu-bar&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-themes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-themes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-themes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Све Гтк3 теме: клизач програмчета волумена/осветљености стила&lt;/li&gt;
+&lt;li&gt;Разна побољшања и дотеривања за све теме, нарочито за Гтк 3.18.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Исправљена је висина и видљивост тема у гтк3&lt;/li&gt;
+&lt;li&gt;Многобројне исправке тема&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Изглед: враћен је језичак сучеља&lt;/li&gt;
+&lt;li&gt;Приказ: додата је подршка за постављање главног монитора&lt;/li&gt;
+&lt;li&gt;Приказ: приказује називе излаза поред назива приказа&lt;/li&gt;
+&lt;li&gt;Свезе тастера: додата је свеза тастера за одјаву&lt;/li&gt;
+&lt;li&gt;Поставке додирне плоче: додата је опција за укључивање/искључивање додирне плоче&lt;/li&gt;
+&lt;li&gt;Поставке додирне плоче: додата је подршка за природно премицање, кликове са 2 и 3 прста&lt;/li&gt;
+&lt;li&gt;Побољшана је категоризација&lt;/li&gt;
+&lt;li&gt;Гтк+3: исправљено је приказивање слова у „Изгледу“ и „mate-font-viewer“-у&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-screensaver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screensaver&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-screensaver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је подршка за &lt;code&gt;libsystemd&lt;/code&gt; као додатак постојећој &lt;code&gt;libsystemd-login&lt;/code&gt; подршци.&lt;/li&gt;
+&lt;li&gt;Не претапа се у црно приликом закључавања екрана&lt;/li&gt;
+&lt;li&gt;Исправљен је рад са &lt;code&gt;systemd&lt;/code&gt; догађајем&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Велики број исправки на страницама упутства&lt;/li&gt;
+&lt;li&gt;Гтк+3: додате су класе стила за клизач и изборник за програмче јачине звука&lt;/li&gt;
+&lt;li&gt;Гтк+3: исправљен је недостатак иконица са призвољном темом иконица&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Захтева &lt;code&gt;xrandr&lt;/code&gt; 1.3&lt;/li&gt;
+&lt;li&gt;Приказје информације о продавцу/моделу за уређаје&lt;/li&gt;
+&lt;li&gt;Исправљено је дотеривање позадонског светла на „Macbook Pro“-у&lt;/li&gt;
+&lt;li&gt;Гтк+3: подржава произвољне теме&lt;/li&gt;
+&lt;li&gt;Гтк+3: исправљено је понашање програмчета осветљења&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Инфо система: додато је одговарајуће откривање за Линукс Минт и ЛМДЕ&lt;/li&gt;
+&lt;li&gt;Инфо система: пушта да дистрибуције дефинишу прилагођену бочну слику&lt;/li&gt;
+&lt;li&gt;Сућеље: додата је ивица бележници&lt;/li&gt;
+&lt;li&gt;Додата је подршка за &lt;code&gt;libsystemd&lt;/code&gt; поред постојеће &lt;code&gt;libsystemd-login&lt;/code&gt; подршке&lt;/li&gt;
+&lt;li&gt;Подршка за изградњу са C++11&lt;/li&gt;
+&lt;li&gt;Избачена је непотребна зависност од „mate-icon-theme“&lt;/li&gt;
+&lt;li&gt;Избачена је подршка за „C89“&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Атрил&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;атрил&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b0%d1%82%d1%80%d0%b8%d0%bb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Одбачена је подршка за &lt;code&gt;win32&lt;/code&gt;, &lt;code&gt;osx&lt;/code&gt; и &lt;code&gt;hildon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Избачена је непотребна &lt;code&gt;mate-icon-theme&lt;/code&gt; зависност&lt;/li&gt;
+&lt;li&gt;Избачено је уграђено „MathJax“ у корист коришћења издања које пакује дистрибција&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;smclient&lt;/code&gt; је учињен обавезним&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Неке исправке ниски&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Енгрампа&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;енгрампа&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b5%d0%bd%d0%b3%d1%80%d0%b0%d0%bc%d0%bf%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Исправљено је &lt;code&gt;ngettext&lt;/code&gt; коришћење у прозорчету напретка&lt;/li&gt;
+&lt;li&gt;Распакивање више архива у одвојене директоријуме сада стварно ради&lt;/li&gt;
+&lt;li&gt;Исправљена је провера преписивања када су датотеке за распакивање у фасцикли&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Око Мејта&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;око-мејта&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%be%d0%ba%d0%be-%d0%bc%d0%b5%d1%98%d1%82%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Разне исправке грешака.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Accessx-status, geyes: самостално обојавају позадину програмчета&lt;/li&gt;
+&lt;li&gt;Учесталост процесора: „cpupower“ је учињена основном библиотеком&lt;/li&gt;
+&lt;li&gt;Избачена је непотребна зависност од &lt;code&gt;mate-icon-theme&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Гтк+3: исправљен је недостатак иконица са произвољном темом иконица&lt;/li&gt;
+&lt;li&gt;Гтк+3: „cpufreq, charpick и drivemount“ подржавају произвољне теме панела&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Програмче бирача прозора: самостално обојава позадину&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-netspeed&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netspeed&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-netspeed&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Позадина програмчета се боји самостално&lt;/li&gt;
+&lt;li&gt;Додата су правила тишине&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је подршка за „nvidia“ терминал и сензоре хлађења (захтева „libxnvctrl“ &amp;gt;= 256.25)&lt;/li&gt;
+&lt;li&gt;Додат је прикључак &lt;code&gt;mbmon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Прикључак &lt;code&gt;udisks&lt;/code&gt; пропитује и тражи нову вредност&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Исправљена је опција „&amp;ndash;tab“ која је била оштећена у 1.10.0&lt;/li&gt;
+&lt;li&gt;Укључује тиха правила по основи&lt;/li&gt;
+&lt;li&gt;Избачена је подршка за &lt;code&gt;win32&lt;/code&gt; и &lt;code&gt;osx&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Избачена је непотребна зависност од &lt;code&gt;dbus-1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Избачена је подршка за „Apache“ 2.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је иконица програма за „mate-system-log“&lt;/li&gt;
+&lt;li&gt;Додата је временска ознака уместо назива прозора у називе датотека снимка екрана по основи&lt;/li&gt;
+&lt;li&gt;Позадина програмчета речника се самостално обојава&lt;/li&gt;
+&lt;li&gt;Исправке превода за &lt;code&gt;gsettings&lt;/code&gt; шеме&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Моцо&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;моцо&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bc%d0%be%d1%86%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Укључено је обавештење о покретању&lt;/li&gt;
+&lt;li&gt;Додата су тиха правила&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Плума&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;плума&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d0%bb%d1%83%d0%bc%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Додата је опција &lt;code&gt;--enable-tests&lt;/code&gt; за укључивање/искључивање покренутих тестова за време изградње&lt;/li&gt;
+&lt;li&gt;Додат је прикључак за уклањање пратећих размака приликом чувања&lt;/li&gt;
+&lt;li&gt;Враћено је исписивање активних прикључака у скрипти извештаја о грешкама&lt;/li&gt;
+&lt;li&gt;Избачена је подршка за &lt;code&gt;win32&lt;/code&gt; и &lt;code&gt;osx&lt;/code&gt; и за прикључак провере освежења (checkupdate)&lt;/li&gt;
+&lt;li&gt;Исписује назив Плуме великим почетним словом у насловима прозора и датотеци радне површи&lt;/li&gt;
+&lt;li&gt;Гтк3. исправљен је преглед пред штампу&lt;/li&gt;
+&lt;li&gt;Неке исправке напомена&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;caja-dropbox&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-dropbox&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#caja-dropbox&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Дотеран је основни директоријум проширења цаје&lt;/li&gt;
+&lt;li&gt;Укључује „autogen.sh“ у тар паковању&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Мејт 1.10 са Гтк3 за Федору 21 и 22</title>
+      <link>https://mate-desktop.org/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</link>
+      <pubDate>Thu, 11 Jun 2015 22:30:30 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Одржаваоци Мејтове радне површи за Федору са поносом објављују да је пробна Гтк3
+изградња доступна за тестирање на Федири 21 и 22. Ова Гтк3 изградња ради посао
+али има неке мање проблеме исцртавања, ваше повртане информације су нам потребне.&lt;/p&gt;
+&lt;h2&gt;Инсталација&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;инсталација&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b8%d0%bd%d1%81%d1%82%d0%b0%d0%bb%d0%b0%d1%86%d0%b8%d1%98%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Инсталирајте датотеку ризнице и извршите &lt;code&gt;yum update&lt;/code&gt;.&lt;/p&gt;
+&lt;h3&gt;Федора 22&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;федора-22&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%84%d0%b5%d0%b4%d0%be%d1%80%d0%b0-22&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-22/raveit65-Mate-GTK3-fedora-22.repo
+$ sudo cp raveit65-Mate-GTK3-fedora-22.repo /etc/yum.repos.d/
+$ sudo yum update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Федора 21&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;федора-21&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%84%d0%b5%d0%b4%d0%be%d1%80%d0%b0-21&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;$ wget https://copr.fedoraproject.org/coprs/raveit65/Mate-GTK3/repo/fedora-21/raveit65-Mate-GTK3-fedora-21.repo
+$ sudo cp raveit65-Mate-GTK3-fedora-21.repo /etc/yum.repos.d/
+$ sudo yum update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Или користите наредбу &lt;code&gt;dnf&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo dnf copr enable raveit65/Mate-GTK3
+$ sudo dnf update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Пријављивање проблема&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;пријављивање-проблема&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%b8%d1%98%d0%b0%d0%b2%d1%99%d0%b8%d0%b2%d0%b0%d1%9a%d0%b5-%d0%bf%d1%80%d0%be%d0%b1%d0%bb%d0%b5%d0%bc%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Користите пратиоца грешака Мејтове радне површи на ГитХаб-у и укључите „Гтк3 и Федора“
+у теми.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Неке напомене:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Компиз ће радити само са &lt;code&gt;emerald&lt;/code&gt;-ом као украшивачем прозора.&lt;/li&gt;
+&lt;li&gt;Немојте мешати Гтк2 пакете из стабилне Федоре и Гтк3 пакете из горње
+ризнице.&lt;/li&gt;
+&lt;li&gt;Немојте користити следеће Мејтове програме са Гтк3 изградњом Мејта; нису прилагођени за Гтк3:
+&lt;ul&gt;
+&lt;li&gt;„mintMenu“ и „MATE Menu“&lt;/li&gt;
+&lt;li&gt;mate-applet-streamer&lt;/li&gt;
+&lt;li&gt;mate-applet-lockkeys&lt;/li&gt;
+&lt;li&gt;mate-applet-softupd&lt;/li&gt;
+&lt;li&gt;caja-terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Ажурирани Мејт 1.8</title>
+      <link>https://mate-desktop.org/sr/blog/2014-09-29-mate-1-8-updated/</link>
+      <pubDate>Mon, 29 Sep 2014 21:39:36 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2014-09-29-mate-1-8-updated/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Сандер Свирс је објавио неколико ажурираних пакета за Мејт 1.8
+који садрже одређене исправке грешака и мања ажурирања. Неке
+дистрибуције су већ укључиле ове исправке, а остале ће то урадити
+у догледно време. Погледајте у наставку које су то промене:&lt;/p&gt;
+&lt;h2&gt;ареил 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ареил-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b0%d1%80%d0%b5%d0%b8%d0%bb-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљено је урушавање приликом клика на празно платно приликом учитавања&lt;/li&gt;
+&lt;li&gt;Решено је „FTBFS“ приликом изградње са преводиоцем „clang“&lt;/li&gt;
+&lt;li&gt;Додат је кључ кључне речи у „.desktop“ датотеку&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;caja 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#caja-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Поправљено је исцртавање текста на празној позадини&lt;/li&gt;
+&lt;li&gt;Ограничено је дубоко пребројавање (садржај и величина датотеке) на један систем датотека&lt;/li&gt;
+&lt;li&gt;Руковање брисањем кључа метаподатака&lt;/li&gt;
+&lt;li&gt;Ширење догађаја отпуштања дугмета приликом избацивања&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;engrampa 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#engrampa-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Поправљено отварање датотека у &lt;code&gt;.rar&lt;/code&gt; датотекама&lt;/li&gt;
+&lt;li&gt;Исправљене могуће грешке са неким лозинком заштићеним &lt;code&gt;.rar&lt;/code&gt; датотекама&lt;/li&gt;
+&lt;li&gt;Додат је кључ кључних речи „.desktop“ датотеци&lt;/li&gt;
+&lt;li&gt;Ажурирано је неколико страница упутства&lt;/li&gt;
+&lt;li&gt;Не поставља изабрани програм као основност система&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;eom 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#eom-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљени проблеми „цртица-као-знак-минуса“&lt;/li&gt;
+&lt;li&gt;Ажуриране су траке премицања када се приказу мења величина урежиму „нормална величина“&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;marco 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#marco-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљени су проблеми са увећаним Јава програмима&lt;/li&gt;
+&lt;li&gt;Додати су савети „_GTK_FRAME_EXTENTS“ за Гтк3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-applets 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-applets-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљено је кодирање датотеке&lt;/li&gt;
+&lt;li&gt;Додато је и ажурирано неколико страница упутства&lt;/li&gt;
+&lt;li&gt;Ажурирана је адрса „policykit“ продавца&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-control-center 1.8.3&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center-183&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-control-center-183&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљена је грешка у „togglekeys-enable“ (a11y)&lt;/li&gt;
+&lt;li&gt;Исправљен је неуспех сегментације са произвољним свезама тастера&lt;/li&gt;
+&lt;li&gt;Додата је подршка за „metacity-2“ теме у програмчету изгледа&lt;/li&gt;
+&lt;li&gt;Додато је неколико страница упутства&lt;/li&gt;
+&lt;li&gt;Додат је кључ кључне речи „.desktop“ датотекама&lt;/li&gt;
+&lt;li&gt;Ажуриран је назив „Marco WM“&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-netbook 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-netbook-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљен је неуспех сегментације приликом учитавања програмчића&lt;/li&gt;
+&lt;li&gt;Додата је страница упутства&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-panel 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-panel-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљен је приручни изборник „Додај на панел“ са више монитора&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-power-manager 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-power-manager-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљено је упозорење „ниво је 0“ ако „kbd“ позадинско светло није присутно&lt;/li&gt;
+&lt;li&gt;Додата је подршка за „upower-0.99“ АПИ&lt;/li&gt;
+&lt;li&gt;Додат је кључ кључне речи за „.desktop“ датотеку&lt;/li&gt;
+&lt;li&gt;Уклоњена је логика &lt;em&gt;„опозив батерије“&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-screen-saver 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screen-saver-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-screen-saver-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљен је неуспех сегментације у одсуству „XRANDR“-а&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-settings-daemon 1.8.2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon-182&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-settings-daemon-182&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Замењен је „googlemusicframe“ са „nuvolaplayer“-ом&lt;/li&gt;
+&lt;li&gt;Освежена је шема за коришћење окидања скрипте шкољке&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-system-tools 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-tools-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-system-tools-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљене су грешке „liboobs“ процеса у функцији повратног позива &lt;code&gt;mate-users-admin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Исправљен је могући неуспех сегментације при изласку за &lt;code&gt;mate-users-admin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-terminal 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-terminal-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Исправљено је отварање новог терминала у језичку&lt;/li&gt;
+&lt;li&gt;Додата је двотачка у „PATHCHARS_CLASS“ за откривање адресе&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;mate-utils 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-utils-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Додат је кључ кључне речи за „.desktop“ датотеку&lt;/li&gt;
+&lt;li&gt;Исправљено је неколико страница упутства&lt;/li&gt;
+&lt;li&gt;Исправљено је упозорење &lt;code&gt;gsearchtool&lt;/code&gt; безбедносног формата&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;python-caja 1.8.1&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;python-caja-181&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#python-caja-181&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Сада користи &lt;code&gt;pkg-config&lt;/code&gt; за откривање питона и променљивих&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Мејт 1.4 је објављен</title>
+      <link>https://mate-desktop.org/sr/blog/2012-07-30-mate-1-4-released/</link>
+      <pubDate>Mon, 30 Jul 2012 14:22:50 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2012-07-30-mate-1-4-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Екипа с поносом објављује издање Мејта 1.4.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Главне измене и побољшања у овом издању су:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Бројне исправке грешака&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-keyring&lt;/code&gt; и &lt;code&gt;libmatekeyring&lt;/code&gt; позадинци су освежени и сада исправно обједињени&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caja-dropbox&lt;/code&gt; пакет је сада доступан&lt;/li&gt;
+&lt;li&gt;Нове теме су додате у &lt;code&gt;mate-notification-daemon&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Уклоњен је &lt;code&gt;indicator-applet-session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Дељење датотека је сада доступно путем Блутута&lt;/li&gt;
+&lt;li&gt;Додата је опција за коришћење брзог „алт-табулирања“ када је слагање укључено у &lt;code&gt;marco&lt;/code&gt;-у&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-icon-theme-faenza&lt;/code&gt; је сада доступан&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-character-map&lt;/code&gt; је сада доступан&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate-screensaver&lt;/code&gt; сада подржава промену ГДМ корисника&lt;/li&gt;
+&lt;li&gt;Уклоњен је „nyancat“ из прозорчета о „mate-desktop“-у&lt;/li&gt;
+&lt;li&gt;Клонирана је &lt;code&gt;libwnck&lt;/code&gt; као &lt;code&gt;libmatewnck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Побољшања Цаје:
+&lt;ul&gt;
+&lt;li&gt;Враћено је дугме окидања за траке места засноване на тексту&lt;/li&gt;
+&lt;li&gt;Обележивачи се сада могу отворити у бочној површи места путем тастера уноса и размака&lt;/li&gt;
+&lt;li&gt;Додато је дугме за разлике између датотека у прозорчету сукоба датотека&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Мејт 1.2 је издат</title>
+      <link>https://mate-desktop.org/sr/blog/2012-04-16-mate-1-2-released/</link>
+      <pubDate>Mon, 16 Apr 2012 03:48:11 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2012-04-16-mate-1-2-released/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Екипа с поносом објављује издање &lt;strong&gt;Мејт 1.2&lt;/strong&gt;. Ово издање је велики
+корак напред од развојних издања 1.0 и 1.1. Мејт је још стабилнији
+него што је био и обухвата подршку за још много програма, програмчића
+и позадинаца.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ово су главне измене и побољшања у овом издању:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Бројне исправке грешака&lt;/li&gt;
+&lt;li&gt;Сви сукоби са Гномом су поправљени&lt;/li&gt;
+&lt;li&gt;Све датотеке подешавања су премештене у „~/.config/mate“&lt;/li&gt;
+&lt;li&gt;Функција поништи/поврати је додата у Цаји&lt;/li&gt;
+&lt;li&gt;Наредба „mate-open“ у „libmate“-у је сада бржа у отварању програма&lt;/li&gt;
+&lt;li&gt;Позадинац поставки Мејта сада подржава „PulseAudio“ и „GStreamer“ позадинце&lt;/li&gt;
+&lt;li&gt;Нови програми: „mozo“ (клон алакартеа), „python-caja“, „caja-gksu“, „caja-image-converter“&lt;/li&gt;
+&lt;li&gt;Уметност
+&lt;ul&gt;
+&lt;li&gt;Мејтове теме су преименоване да би се избегли сукоби са Гномом&lt;/li&gt;
+&lt;li&gt;Нова Мејтова позадина је додата&lt;/li&gt;
+&lt;li&gt;Мејт сада поседује своје сопствене иконице&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

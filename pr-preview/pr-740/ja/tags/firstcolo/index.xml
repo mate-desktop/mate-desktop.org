@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – FirstColo</title>
+    <link>https://mate-desktop.org/ja/tags/firstcolo/</link>
+    <description>Recent content in FirstColo on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 27 Dec 2012 17:06:02 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/firstcolo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>First Colo に感謝します！</title>
+      <link>https://mate-desktop.org/ja/blog/2012-12-27-thank-you-first-colo/</link>
+      <pubDate>Thu, 27 Dec 2012 17:06:02 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2012-12-27-thank-you-first-colo/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt; は、ドイツで最新のデータセンタを運営しており、企業内のワークステーションを MATE デスクトップへ移行する計画をしています。FirstColo より、MATE を支援する目的で新しい専用サーバを寄贈していただきました。&lt;/p&gt;
+&lt;p&gt;この素晴らしいニュースのことでは、チームのメンバー全員が Martin Verges さんとそのスタッフに感謝します！&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

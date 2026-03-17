@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Outages</title>
+    <link>https://mate-desktop.org/sr/tags/outages/</link>
+    <description>Recent content in Outages on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr</language>
+    <lastBuildDate>Thu, 22 Dec 2016 01:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/sr/tags/outages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Пад сервера</title>
+      <link>https://mate-desktop.org/sr/blog/2016-12-22-server-outage/</link>
+      <pubDate>Thu, 22 Dec 2016 01:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/sr/blog/2016-12-22-server-outage/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Сервер који покреће овај веб сајт јуче је био ван мреже без упозорења. Не знамо
+зашто и нисмо имали обавештење са домаћина нашег сервера. &lt;strong&gt;Имамо потпуне
+резервне примерке, и ниједан податак није изгубљен.&lt;/strong&gt; Почели смо са враћањем
+услуга а обустављена услуга биће враћена када време буде дозвољавало за време
+празника.&lt;/p&gt;
+&lt;p&gt;Ажурираћемо ову страницу како услуге буду биле поново доступне.&lt;/p&gt;
+&lt;h2&gt;Шта је последица овога?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-последица-овога&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%b8%d1%86%d0%b0-%d0%be%d0%b2%d0%be%d0%b3%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ове услуге тренутно нису доступне, наведене према приоритету враћања:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ml.mate-desktop.org&lt;/code&gt; – Дописне листе, које се не користе често.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;forums.mate-desktop.org&lt;/code&gt; – Форуми, које смо почели да гасимо раније у току године и који су закључани.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Шта је враћено?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-враћено&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%b2%d1%80%d0%b0%d1%9b%d0%b5%d0%bd%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt;&amp;gt; – Овај веб сајт&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt;&amp;gt; – Где можете наћи паковања издања Мејтове радне површи.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&gt;&lt;/a&gt; – Програмерски вики.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt;&amp;gt; – Ово је огледало &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ГитХаб-а Мејтове радне површи&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt;&amp;gt; – Планета Мејтове радне површи.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; – Сервер поште за програмере.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Освежење&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;освежење&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%be%d1%81%d0%b2%d0%b5%d0%b6%d0%b5%d1%9a%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;21. децембар&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-децембар&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-%d0%b4%d0%b5%d1%86%d0%b5%d0%bc%d0%b1%d0%b0%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bytemark.co.uk/r/ubuntu-mate/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bytemark&lt;/a&gt; нуди да спонзорише удомљавање Мејтове радне површи како би нам помогао да превазиђемо пад сервера са нашим претходним достављачем.&lt;/li&gt;
+&lt;li&gt;Враћени су &lt;code&gt;www.mate-desktop.org&lt;/code&gt; и &lt;code&gt;pub.mate-desktop.org&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;22. децембар&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-децембар&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-%d0%b4%d0%b5%d1%86%d0%b5%d0%bc%d0%b1%d0%b0%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Враћен је &lt;code&gt;wiki.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Враћен је &lt;code&gt;git.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;23. децембар&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-децембар&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-%d0%b4%d0%b5%d1%86%d0%b5%d0%bc%d0%b1%d0%b0%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Враћен је &lt;code&gt;planet.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. јануар&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-јануар&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%d1%98%d0%b0%d0%bd%d1%83%d0%b0%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Враћен је &lt;code&gt;mail.mate-desktop.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Извињавамо се због непријатности до којих је ово могло довести.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

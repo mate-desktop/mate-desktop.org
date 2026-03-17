@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – I18n</title>
+    <link>https://mate-desktop.org/tags/i18n/</link>
+    <description>Recent content in I18n on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Feb 2014 12:51:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/tags/i18n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE translation contributions requested</title>
+      <link>https://mate-desktop.org/blog/2014-02-14-mate-translation-contributions-requested/</link>
+      <pubDate>Fri, 14 Feb 2014 12:51:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/blog/2014-02-14-mate-translation-contributions-requested/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Show your love for the MATE project this Valentines Day, shower us with
+translations!&lt;/p&gt;
+&lt;p&gt;Translators are the unsung heroes of the MATE development team and once again we
+call upon them to help improve the project. MATE 1.7 is well into final testing
+and QA and soon MATE 1.8 will be prepared for release.&lt;/p&gt;
+&lt;p&gt;Therefore we request that you check the status of the MATE translations you
+contribute to at Transifex and update them ASAP.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are not yet a member of the translation team but would like to help then please
+&lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sign up for a free account at Transifex&lt;/a&gt;
+so you can start contributing to MATE, we&amp;rsquo;d really appreciate it!&lt;/p&gt;
+&lt;p&gt;There are currently 6 languages with 100% coverage, so lets see how many more
+can get 100% coverage before the MATE 1.8 release.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

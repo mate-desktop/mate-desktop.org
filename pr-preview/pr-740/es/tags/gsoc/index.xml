@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entorno de Escritorio MATE – GSoC</title>
+    <link>https://mate-desktop.org/es/tags/gsoc/</link>
+    <description>Recent content in GSoC on Entorno de Escritorio MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 28 Apr 2014 06:14:31 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/es/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Proyectos MATE aceptados para el GSoC 2014</title>
+      <link>https://mate-desktop.org/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</link>
+      <pubDate>Mon, 28 Apr 2014 06:14:31 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/es/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Despues de varias semanas de revisar la aplicación y selección para la edición
+2014 del Google Summer Of Code (GSoC) ha terminado. 4,420 estudiantes han aceptado
+y el proyecto Escritorio MATE es uno de los 190 proyectos Open Source que estarán
+trabajando con los estudiantes este año.&lt;/p&gt;
+&lt;p&gt;En nuestro segundo año como organización mentora de GSoC, el equipo MATE recibió
+4 propuestas de estudiantes hemos ubicado 3 slots para proyectos estudiantiles.&lt;/p&gt;
+&lt;p&gt;Estoy encantado de presentar nuestros estudiantes GSoC para el 2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avishkar Gupta estará trabajando en agregar capacidades de rendering ePub
+a Atril, el visor de documentos para el escritorio MATE.&lt;/li&gt;
+&lt;li&gt;Michael Ratajsky estara trabajando en agregar soporte para GStreamer 1.0 al
+entorno de escritorio MATE en orden de reemplazar la dependencia en la desacreditada
+libreria GStreamer 0.10.&lt;/li&gt;
+&lt;li&gt;Alexander van der Meij estará trabajando en mejorar las extensiones Caja
+para que puedan integrarse durante el tiempo de ejecución y tambien crear
+una interfaz de usuario único para la configuracion de las extensiones Caja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Por favor unanse a mi en la bienvenida a estos nuevos contribuyentes al equipo MATE
+y desearles éxito en sus respectivos proyectos para este veráno.&lt;/p&gt;
+&lt;p&gt;En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimiento y
+gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; quienes son nuestros organizadores
+de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
+para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
+2014. Hicieron un trabajo fantástico al ayudar a asegurar estas ubicaciones de GSoC para el
+equipo de MATE que proporcionará recursos de desarrollo muy necesarios para el proyecto.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

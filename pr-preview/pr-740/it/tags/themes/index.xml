@@ -1,0 +1,47 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ambiente Desktop MATE – Themes</title>
+    <link>https://mate-desktop.org/it/tags/themes/</link>
+    <description>Recent content in Themes on Ambiente Desktop MATE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Tue, 26 Mar 2013 16:53:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/it/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Nuovi temi</title>
+      <link>https://mate-desktop.org/it/blog/2013-03-26-new-themes/</link>
+      <pubDate>Tue, 26 Mar 2013 16:53:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/it/blog/2013-03-26-new-themes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Il team è orgoglioso di annunciare i nuovi temi per MATE 1.6.&lt;/p&gt;
+&lt;p&gt;Menta sarà il tema predefinito della nuova release in arrivo. Esso consiste di un grazioso tema GTK2/3
+(basato su Mint-Z migliorato, non più mantenuto, personalizzato per MATE e
+aggiornato a GTK3.6) e un tema figlio di mate-icon-theme con cartelle verdi.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Menta theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ci saranno inoltre due nuovi temi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BlackMATE&lt;/strong&gt;: Un tema basato sul nero, senza verde.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GreenLaguna&lt;/strong&gt;: Un grazioso tema basato sul colore verde.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vorremmo ringraziare  Wolfgang Ulbrich and Marcel Dijkstra per questo ottimo lavoro.&lt;/p&gt;
+&lt;h3&gt;Tema BlackMATE&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tema-blackmate&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tema-blackmate&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;BlackMATE theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Tema GreenLaguna&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tema-greenlaguna&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tema-greenlaguna&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;GreenLaguna theme&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

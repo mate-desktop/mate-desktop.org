@@ -1,0 +1,56 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop-Umgebung – Raspberry Pi</title>
+    <link>https://mate-desktop.org/de/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on MATE Desktop-Umgebung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 16 Jan 2014 22:22:22 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/de/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE offiziell in Arch Linux verfügbar</title>
+      <link>https://mate-desktop.org/de/blog/2014-01-16-mate-officially-in-arch-linux/</link>
+      <pubDate>Thu, 16 Jan 2014 22:22:22 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/de/blog/2014-01-16-mate-officially-in-arch-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE ist endlich zuhause angekommen.&lt;/p&gt;
+&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;/a&gt;-Nutzer
+erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
+in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde &amp;ndash; bis jetzt.
+Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/code&gt;-Paketrepositorien verfügbar!&lt;/p&gt;
+&lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
+auf den folgenden Wiki-Seiten:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
+MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
+synchronisiert wurden. Updaten Sie daher &lt;code&gt;/etc/pacman.conf&lt;/code&gt;,
+und entfernen Sie das &lt;code&gt;[mate]&lt;/code&gt;-Paket-Repositorium.&lt;/p&gt;
+&lt;p&gt;Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
+ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;/a&gt;-Repositorium
+erscheinen wird. Ich kann endlich meine Build-&lt;em&gt;&amp;ldquo;Server&amp;rdquo;&lt;/em&gt; für Raspberry Pi (armv6h) und
+Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
+wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber
+gesehen, dass einige Pakete bereits gebaut wurden.&lt;/p&gt;
+&lt;p&gt;MATE läuft ziemlich ordentlich auf dem Raspberry Pi Model B mit 512MB RAM.
+Falls Sie also einen &amp;ldquo;Pi&amp;rdquo; und eine SDCARD rumliegen haben, probieren Sie&amp;rsquo;s aus. Ich werde
+einen Blog-Beitrag schreiben, wie man Arch Linux und MATE auf dem Raspberry Pi
+mit einigen nützlichen Performance-Tricks installiert.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

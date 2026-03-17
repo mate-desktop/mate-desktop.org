@@ -1,0 +1,93 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE デスクトップ環境 – LiveCD</title>
+    <link>https://mate-desktop.org/ja/tags/livecd/</link>
+    <description>Recent content in LiveCD on MATE デスクトップ環境</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 30 Jan 2014 00:17:32 +0000</lastBuildDate>
+    
+	  <atom:link href="https://mate-desktop.org/ja/tags/livecd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>MATE デスクトップ Live CD</title>
+      <link>https://mate-desktop.org/ja/blog/2014-01-30-mate-desktop-live-cd/</link>
+      <pubDate>Thu, 30 Jan 2014 00:17:32 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/ja/blog/2014-01-30-mate-desktop-live-cd/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE チームは、完全な MATE デスクトップが起動可能な Live CD を作成しました。&lt;/p&gt;
+&lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;更新&lt;/strong&gt; LiveCD は2014年3月10日、MATE 1.8 へアップデートされました。&lt;/div&gt;
+&lt;p&gt;この Live CD は、将来的な新規ユーザーが MATE デスクトップをシステムに影響しない方法で評価するために作成されました。イメージは DVD に書き込んだり、ISO ファイルとしてマウントしたり、&lt;code&gt;dd&lt;/code&gt; のようなユーティリティを使って直接 USB メモリに書き込んだりすることができます。&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; では &lt;code&gt;unetbootin&lt;/code&gt; はサポートされていません。以下からダウンロードできます。&lt;/p&gt;
+&lt;h3&gt;BitTorrent よりダウンロード (推奨)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bittorrent-よりダウンロード-推奨&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#bittorrent-%e3%82%88%e3%82%8a%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89-%e6%8e%a8%e5%a5%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;バイト数に余裕がある場合は、ダウンロードが完了した後でクライアントを開いたままにしておいてください。そうすれば、他のユーザーにシードすることができます。&lt;em&gt;最も速いダウンロード速度を得るためには、ウェブシード対応のクライアントをお推めします。&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso.torrent]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;HTTP で直接ダウンロード&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;http-で直接ダウンロード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#http-%e3%81%a7%e7%9b%b4%e6%8e%a5%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;上記の BitTorrent リンクに加えて、Live CD.iso は HTTP 経由でもダウンロード可能です。ダウンロードしたファイルが SHA1 チェックサムと一致することを確認してください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;ul&gt;
+&lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;互換性&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;互換性&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%ba%92%e6%8f%9b%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Live CD は、&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; と MATE 1.8 を使用して作成されています。Live CD は 32 ビットであるため、512MB 以上の RAM 搭載の i686 または x86_64 コンピュータで動作します。Intel (&lt;code&gt;i915&lt;/code&gt;)、AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;)、nvidia (&lt;code&gt;nouveau&lt;/code&gt;) 用の Xorg ドライバが含まれており、VESA にフォールバックします。Virtual Box および VMware 用のドライバも含まれているので、これらの仮想化ソリューションを使用した評価は簡単です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt; を含むすべての一般的なファイルシステムがサポートされており、いくつかのデータリカバリおよびバックアップツールが含まれています。モバイルデバイスに接続すれば認識される可能性が高く、データにアクセスできるようになります。NetworkManager が、それに対応可能な VPN クライアントと共に含まれています。&lt;/p&gt;
+&lt;h2&gt;ユーザ名とパスワード&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ユーザ名とパスワード&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%a6%e3%83%bc%e3%82%b6%e5%90%8d%e3%81%a8%e3%83%91%e3%82%b9%e3%83%af%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ Live CD には、次のアカウントが設定されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;root&lt;/code&gt; - パスワードは &lt;code&gt;livecd&lt;/code&gt; です。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mate&lt;/code&gt; - パスワードは &lt;code&gt;livecd&lt;/code&gt; です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;root&lt;/code&gt; アカウントは当然 &lt;code&gt;root&lt;/code&gt; です。&lt;code&gt;mate&lt;/code&gt; アカウントは、完全なパスワードなしの &lt;code&gt;sudo&lt;/code&gt; 権限を持つ通常のユーザーです。Live CD は &lt;code&gt;mate&lt;/code&gt; アカウントを使って自動ログインします。&lt;/p&gt;
+&lt;h2&gt;アプリケーション&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;アプリケーション&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;LiveCD はおもに MATE デスクトップを紹介する目的で作成されましたが、LiveCD が少しでも役立ち、楽しめるものにしたかったので、MATE デスクトップに含まれないアプリケーションも追加しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   - mozilla.org が開発したスタンドアロンのウェブブラウザ&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   - Partition Magic のクローンで GNU Parted のフロントエンド&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  - システム情報およびベンチマークツール&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;   - &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt; に自動接続するように設定された IRC クライアント&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;      - 視覚障害者向けのスクリーンリーダー&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      - 操作障害者に有用な画面上のキーボード&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    - マルチプロトコルなインスタントメッセージクライアント&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    - 洗練された GUI を持ち、高速で豊富な機能を備えたメディアプレーヤー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;クリエイティブ・コモンズのコンテンツ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;クリエイティブコモンズのコンテンツ&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%82%af%e3%83%aa%e3%82%a8%e3%82%a4%e3%83%86%e3%82%a3%e3%83%96%e3%82%b3%e3%83%a2%e3%83%b3%e3%82%ba%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;次のとおり、クリエイティブコモン・ライセンスのコンテンツを含んでいます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        - Atrilと一緒に読む込まれます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;言語の変更&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;言語の変更&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%a8%80%e8%aa%9e%e3%81%ae%e5%a4%89%e6%9b%b4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;既定では、Live CD は &lt;code&gt;en_US&lt;/code&gt; ロケールを使用するように設定されていますが、ここで別の言語を有効にしたい場合には方法があります。次の例では、イタリア語が有効になります。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/etc/locale.gen&lt;/code&gt; を編集してロケールのコメントを外します。この場合、&lt;code&gt;it_IT.UTF-8UTF-8&lt;/code&gt; を編集してロケールを再設定してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo locale-gen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;/etc/locale.conf&lt;/code&gt; を編集し、&lt;code&gt;LANG=&lt;/code&gt; を変更してロケールを反映させます。この場合は &lt;code&gt;LANG=it_IT.UTF-8&lt;/code&gt; です。最後にディスプレイマネージャを再起動すると、希望の言語を使って MATE セッションにログインできます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Linux アクション表示機能&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;linux-アクション表示機能&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux-%e3%82%a2%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e8%a1%a8%e7%a4%ba%e6%a9%9f%e8%83%bd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ LiveCD と MATE レビューを &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;/a&gt; の &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action Show&lt;/a&gt; で紹介しました。下記に2つのクリップが埋め込まれています。最初はMATE デスクトップ LiveCD の概要であり、2番目は MATE が動作している CuBox i4 のレビューです。&lt;/p&gt;
+&lt;h3&gt;MATE デスクトップ LiveCD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-デスクトップ-livecd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#mate-%e3%83%87%e3%82%b9%e3%82%af%e3%83%88%e3%83%83%e3%83%97-livecd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=608&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3&gt;CuBox i4 Pro レビュー&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cubox-i4-pro-レビュー&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cubox-i4-pro-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/y4OpjoJiAGE?start=1925&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2&gt;フィードバック&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;フィードバック&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%89%e3%83%90%e3%83%83%e3%82%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Live CD を試用していただいて、MATE デスクトップの速さとシンプルさを実感してください。MATE デスクトップ Live CD を試されたら、感想をお聞かせいただくか、あるいは Live CD を使って &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt; に参加してみてください。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
