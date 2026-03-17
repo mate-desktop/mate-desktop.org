@@ -31,8 +31,8 @@
 розробники успішно запустили MATE на &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
 і на вимогу користувачів Perberos спростив компіляцію MATE для
 &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[Стефано Карапецас] ( &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/stefano-k&lt;/a&gt;) і [Клімент Лефевр] ( &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/clefebvre&lt;/a&gt;)
-Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] ( &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;).
+&lt;p&gt;[Стефано Карапецас] (&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/stefano-k&lt;/a&gt;) і [Клімент Лефевр] (&lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/clefebvre&lt;/a&gt;)
+Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;).
 Стільниця MATE була представлена в Linux Mint 12 і зараз швидко набирає обертів.&lt;/p&gt;
 &lt;p&gt;Нашим пріоритетом є покращення MATE, щоб він був на рівні, з точки зору функціональності
 та стабільності з Gnome 2.32. Ми перенесемо теми, аплети та програми, які

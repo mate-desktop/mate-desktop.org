@@ -24,13 +24,13 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Il Team MATE di openSUSE è orgoglioso di annunciare la disponibilità di MATE 1.8
 per openSUSE. I pattern non sono più disponibili, e non lo saranno in futuro per via dell&amp;rsquo;inclusione ufficiale di MATE in openSUSE.
 Non potremo più offrire supporto per openSUSE 12.2, poiché i requisiti di MATE non sono forniti nelle versioni corrette in quella distribuzione.
 Abbiamo modificato il nostro schema di repository, per evitare che la gente debba modificare le proprie repository ad ogni aggiornamento. Adesso c&amp;rsquo;è solo X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;Per installarlo, per favore sostituite o aggiungete la nostra repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -131,7 +131,7 @@ Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milgior modo
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, ambasciatore openSUSE e membro del openSUSE MATE social
 media team, mostrerà &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
 al &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà ad Orlando, Florida,
@@ -150,16 +150,16 @@ Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Sulla strada per rendere MATE ufficialmente disponibile su &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 i repository comunitari devono essere modificati in YaST. Perciò,
 andate su &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; e remuovete la repo &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
 e successivamente, fate clic sul link seguente in base alla
 versione della vostra distribuzione openSUSE:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grazie!&lt;/p&gt;
 

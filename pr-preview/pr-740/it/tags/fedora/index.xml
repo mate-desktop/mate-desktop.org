@@ -78,7 +78,7 @@ repo riportata più in alto.&lt;/li&gt;
         &lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I principali cambiamenti nella versione 1.6 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;il supporto a systemd e logind&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -251,7 +251,7 @@ Per le istruzioni sull&amp;rsquo;uso di questo repository consultare la &lt;a hr
 guida all&amp;rsquo;installazione relativa a Fedora&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Per avere maggiori informazioni sull&amp;rsquo;inclusione ufficiale di MATE in Fedora, si veda qui:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Se si hanno domande su come installare MATE in Fedora vi preghiamo di chiedere
 aiuto nel nostro &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canale IRC #fedora-mate&lt;/a&gt;

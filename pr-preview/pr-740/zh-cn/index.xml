@@ -68,7 +68,7 @@
 &lt;li&gt;整个面板及其核心小程序的各种可访问性改进。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;如果你的系统不支持&lt;a href=&#34;https://freedesktop.org/wiki/Software/systemd/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;systemd&lt;/a&gt;您可能有兴趣知道我们已经添加了对[elogind]的支持( &lt;a href=&#34;https://github.com/elogind/elogind&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/elogind/elogind&lt;/a&gt;)到&lt;strong&gt;伴侣屏幕保护程序&lt;/strong&gt;和&lt;strong&gt;伴侣会话&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;如果你的系统不支持&lt;a href=&#34;https://freedesktop.org/wiki/Software/systemd/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;systemd&lt;/a&gt;您可能有兴趣知道我们已经添加了对[elogind]的支持(&lt;a href=&#34;https://github.com/elogind/elogind&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/elogind/elogind&lt;/a&gt;)到&lt;strong&gt;伴侣屏幕保护程序&lt;/strong&gt;和&lt;strong&gt;伴侣会话&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;我们还添加了一个全新的&lt;strong&gt;MATE磁盘映像装入器&lt;/strong&gt;实用程序。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;菜单编辑器Mozo&lt;/strong&gt;现在支持撤消和重做操作。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Pluma&lt;/strong&gt; 插件现已完全切换到 Python 3。&lt;/li&gt;
@@ -77,7 +77,7 @@
 &lt;/ul&gt;
 &lt;p&gt;MATE Desktop 1.24 的组件可通过以下链接下载：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.24/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.24/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.24/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.24/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;更多细节&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;更多细节&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e6%9b%b4%e5%a4%9a%e7%bb%86%e8%8a%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这里有更多的细节&lt;/p&gt;
@@ -100,7 +100,7 @@
 &lt;li&gt;i18n:从intltools迁移到gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在完成更改日志&amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在完成更改日志&lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备好使用GCC10&lt;/li&gt;
@@ -132,13 +132,13 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;caja-dropbox&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-dropbox&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-dropbox&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;使用 CAJA_EXTENSION_DIR_SYS 保存并显示系统 caja 扩展目录&lt;/li&gt;
 &lt;li&gt;显示 caja-extension-dir 的完整路径&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;caja-wallpaper-extension：修复内存泄漏&lt;/li&gt;
@@ -150,7 +150,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备使用 gcc 10&lt;/li&gt;
@@ -174,7 +174,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;为 webp 文件添加 eom-thumbnailer&lt;/li&gt;
@@ -190,7 +190,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;libmatekbd&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekbd&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekbd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -198,14 +198,14 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Locations：添加 Lleida – Alguaire 机场气象站&lt;/li&gt;
@@ -214,7 +214,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;主题：修复所有主题的窗口控件 hidpi 渲染。&lt;/li&gt;
@@ -235,7 +235,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备使用 gcc 10&lt;/li&gt;
@@ -252,14 +252,14 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applet/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applet/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;伴侣背景&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;伴侣背景&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bc%b4%e4%be%a3%e8%83%8c%e6%99%af&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;启用对ninja构建系统的支持&lt;/li&gt;
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复复数的科学表示&lt;/li&gt;
@@ -276,7 +276,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;更新 MATE_CXX_WARNINGS 宏&lt;/li&gt;
@@ -284,7 +284,7 @@
 &lt;li&gt;检查 AX_APPEND_FLAG 和 AX_CHECK_COMPILE_FLAG 是否可用&lt;/li&gt;
 &lt;li&gt;更新 mate-compiler-flags 宏&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;在系统数据目录中搜索系统主题&lt;/li&gt;
@@ -311,7 +311,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Drop mate_desktop_thumbnail_scale_down_pixbuf()&lt;/li&gt;
@@ -327,7 +327,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;为移动网络连接添加状态图标&lt;/li&gt;
@@ -348,14 +348,14 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;配对指示器小程序&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;配对指示器小程序&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e9%85%8d%e5%af%b9%e6%8c%87%e7%a4%ba%e5%99%a8%e5%b0%8f%e7%a8%8b%e5%ba%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;调整指示器图标的大小以适合面板&lt;/li&gt;
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -368,14 +368,14 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;安装 gir 文件时使用 datadir 和 libdir 变量&lt;/li&gt;
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -385,7 +385,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;将 gresource 用于 mate-notification-properties.ui&lt;/li&gt;
@@ -393,7 +393,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;避免在面板顶层使用双 a11y 描述&lt;/li&gt;
@@ -419,7 +419,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -427,7 +427,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;图标：添加更高分辨率的图标&lt;/li&gt;
@@ -440,7 +440,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-screensaver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screensaver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screensaver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -450,13 +450,13 @@
 &lt;li&gt;添加 ELOGIND 支持&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -474,7 +474,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;需要 DBUS 1.10.0 或更新版本&lt;/li&gt;
@@ -492,7 +492,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -510,7 +510,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备使用 gcc 10&lt;/li&gt;
@@ -523,7 +523,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;更新报告错误部分&lt;/li&gt;
@@ -533,7 +533,7 @@
 &lt;li&gt;将手册升级到 docbook 5.0&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告&lt;/li&gt;
@@ -541,7 +541,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&gt;&lt;/a&gt; 完成变更日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt; 完成变更日志&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备使用 gcc 10&lt;/li&gt;
@@ -557,7 +557,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;添加撤消和重做按钮&lt;/li&gt;
@@ -568,7 +568,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;添加显示不可打印字符（空格/制表符/换行符）的功能&lt;/li&gt;
@@ -586,7 +586,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;python-caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;python-caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#python-caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;准备使用 gcc 10&lt;/li&gt;
@@ -595,7 +595,7 @@
 &lt;li&gt;i18n：从 intltools 迁移到 gettext&lt;/li&gt;
 &lt;li&gt;g10n：更新翻译&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;在 &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&gt;&lt;/a&gt; 完成更新日志&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt; 完成更新日志&lt;/p&gt;
 
       </description>
     </item>
@@ -646,7 +646,7 @@
 &lt;/ul&gt;
 &lt;p&gt;MATE Desktop 1.22 的组件可通过以下链接下载：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.22/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.22/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.22/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.22/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;变更日志&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;变更日志&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%8f%98%e6%9b%b4%e6%97%a5%e5%bf%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;以下是各个组件的详细更改记录。&lt;/p&gt;
@@ -2837,7 +2837,7 @@
 &lt;/ul&gt;
 &lt;p&gt;MATE Desktop 1.20 的大量组件现可通过如下链接下载：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.20/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.20/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.20/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.20/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;变更日志&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;变更日志&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%8f%98%e6%9b%b4%e6%97%a5%e5%bf%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如下是各个组件的详细更改记录。&lt;/p&gt;

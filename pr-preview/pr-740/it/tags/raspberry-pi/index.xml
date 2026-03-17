@@ -31,7 +31,7 @@ MATE è finalmente disponibile nel repository di pacchetti &lt;code&gt;[communit
 &lt;p&gt;Potete trovare ogni informazione necessaria ad installare MATE
 su Arch Linux dalle pagine wiki seguenti:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vale la pena di notare che il repository di pacchetti non ufficiali di MATE sarà rimosso una volta che i mirror Arch Linux saranno sincronizzati.
 Pertanto andate ad aggiornare &lt;code&gt;/etc/pacman.conf&lt;/code&gt; e rimuovete il
@@ -82,7 +82,7 @@ lavorato:&lt;/p&gt;
 &lt;p&gt;È possibile trovare tutte le informazioni necessarie èer installare MATE 1.6
 su Arch Linux dalla pagina wiki seguente:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vorrei ringraziare in modo speciale:&lt;/p&gt;
 &lt;ul&gt;
@@ -97,7 +97,7 @@ Per avermi dato il benvenuto nel Team MATE e avermi aiutato su IRC.&lt;/li&gt;
 di mettere MATE nei repository ufficiali di Arch Linux. Si può aiutare
 in questo votando per i pacchetti MATE su AUR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

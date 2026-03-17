@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won&amp;rsquo;t be in
 the future due to official inclusion of MATE in openSUSE.
@@ -34,7 +34,7 @@ We have changed our schema of repositories, to avoid people having to
 change their repositories for each update. Now there is
 just one place, X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;To install it, please replace or add our repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -48,7 +48,7 @@ just one place, X11:MATE:Current.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,

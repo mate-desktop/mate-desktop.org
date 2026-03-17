@@ -38,11 +38,11 @@
 &lt;/ul&gt;
 &lt;h2&gt;Шта је враћено?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-враћено&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%b2%d1%80%d0%b0%d1%9b%d0%b5%d0%bd%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt;&amp;gt; – Овај веб сајт&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt;&amp;gt; – Где можете наћи паковања издања Мејтове радне површи.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&gt;&lt;/a&gt; – Програмерски вики.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt;&amp;gt; – Ово је огледало &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ГитХаб-а Мејтове радне површи&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt;&amp;gt; – Планета Мејтове радне површи.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt; – Овај веб сајт&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt; – Где можете наћи паковања издања Мејтове радне површи.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&lt;/a&gt; – Програмерски вики.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt; – Ово је огледало &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ГитХаб-а Мејтове радне површи&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt; – Планета Мејтове радне површи.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; – Сервер поште за програмере.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Освежење&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;освежење&#34;&gt;&lt;/span&gt;
@@ -124,7 +124,7 @@
         &lt;p&gt;После 5 месеци развоја екипа Мејтове радне површи с поносом објављује
 издање 1.12 Мејтовр радне површи. Захваљујемо се свим доприносиоцима
 и корисницима Мејта.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Шта је ново у Мејту 1.12&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-ново-у-мејту-112&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%bd%d0%be%d0%b2%d0%be-%d1%83-%d0%bc%d0%b5%d1%98%d1%82%d1%83-112&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Главне измене у Мејту 1.12 су:&lt;/p&gt;
 &lt;ul&gt;
@@ -148,7 +148,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Многобројне компоненте Мејта 1.12 су доступне за преузимање на овој адреси:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.12/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.12/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.12/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.12/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Снимци екрана&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;снимци-екрана&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%81%d0%bd%d0%b8%d0%bc%d1%86%d0%b8-%d0%b5%d0%ba%d1%80%d0%b0%d0%bd%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -433,7 +433,7 @@ $ sudo dnf update
         
         
         &lt;p&gt;Имао сам срећу да ме позову у 347. епизоду [Линуксове акционе
-представе] ( &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jupiterbroadcasting.com/show/linuxactionshow/&lt;/a&gt;) да
+представе] (&lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jupiterbroadcasting.com/show/linuxactionshow/&lt;/a&gt;) да
 мало поразговарамо о Мејтовој радној површи, одакле је потекао и куда иде.
 Интервју са мном можете видети у наставку.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34; https://www.youtube.com/embed/OwW9jaVKjSw?start=1945&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -622,7 +622,7 @@ $ sudo dnf update
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Тим „openSUSE“ Мејт с поносом објављује доступност Мејта 1.8
 за „openSUSE“. Обрасци више нису доступни и неће бити доступни
 ни у будућности због званичног укључивања Мејта у „openSUSE“.
@@ -632,7 +632,7 @@ $ sudo dnf update
 да мењају своје ризнице за свако освежавање. Сада постоји
 само једно место, „X11:MATE:Current“.&lt;/p&gt;
 &lt;p&gt;Да га инсталирате, замените или додајте нашу ризницу:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -851,7 +851,7 @@ GStreamer-а 0.10.&lt;/li&gt;
 &lt;p&gt;Стога тражимо од вас да проверите стање Мејтових превода које сте
 урадили на Трансифексу и да их дорадите „ASAP“.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ако још увек нисте члан преводилачког тима али бисте желели да помогнете тада
 &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;направите слободан налог на Трансифексу&lt;/a&gt;
@@ -970,7 +970,7 @@ Unplugged“&lt;/a&gt; да кажем
 преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
 суми провере.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1065,7 +1065,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Можете да сазнате све што вам је потребно о инсталацији Мејта
 на Арч Линуксу са следећих вики страница:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Такође је вредно напоменути да ће сада застарели незванични пакет Мејт
 ризнице бити уклоњен када се синхронизују сва огледала Арч Линукса.
@@ -1103,10 +1103,10 @@ Linux Review&lt;/a&gt;.
 &lt;li&gt;Садржај Гласа Линукса биће објављен бесплатно након 9 месеци под &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„CC-BY-SA“&lt;/a&gt; лиценцом.&lt;/li&gt;
 &lt;li&gt;Један тим Гласа Линукса је заинтересован за покривање Мејта ако се њихов пројекат успешно финансира.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div align=&#34;center&#34;&gt;&lt;a href=&#34; https://www.indiegogo.com/projects/linux-voice&#34;&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/Linux012.png&#34; alt=&#34;Linux Voice&#34; title=&#34;Linux Voice&#34; /&gt;&lt;br /&gt;Support Linux Voice!&lt;/a&gt;&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;a href=&#34; https://www.indiegogo.com/projects/linux-voice&#34;&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/Linux012.png&#34; alt=&#34;Linux Voice&#34; title=&#34;Linux Voice&#34; /&gt;&lt;br /&gt;Support Linux Voice!&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Можете такође да сазнате више о напретку кампање ако посетите веб сајт &lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Гласа Линукса&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.linuxvoice.com/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxvoice.com/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxvoice.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -1147,7 +1147,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Све што треба да знате о инсталирању Мејта 1.6 на Арч Линуксу можете
 сазнати на следећим вики страницама:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Нарочито желим да се захвалим:&lt;/p&gt;
 &lt;ul&gt;
@@ -1162,7 +1162,7 @@ Linux Review&lt;/a&gt;.
 Мејта у званичне ризнице Арч Линукса. Можете помоћи око тога тако што
 ћете гласати за Мејтове пакете у AUR-у.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -1190,7 +1190,7 @@ Linux Review&lt;/a&gt;.
 &lt;li&gt;[Vangelis Mouhtsis-у]&lt;/li&gt;
 &lt;li&gt;[Kees Cook-у&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;]( &lt;a href=&#34;https://outflux.net/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://outflux.net/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;](&lt;a href=&#34;https://outflux.net/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://outflux.net/&lt;/a&gt;)&lt;/p&gt;
 
       </description>
     </item>
@@ -1204,7 +1204,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Александрос Венос, „openSUSE“ амбасадор и члан тима друштвених медија „openSUSE“
 Мејта, приказаће &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Мејт&lt;/a&gt;
 на &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Самиту 2013.&lt;/a&gt; у Орланду, на Флориди,
@@ -1264,16 +1264,16 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Да би Мејт постао званично доступан у &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 ризнице заједнице се морају изменити у „YaST“-у. Да то урадите, идите на
 „&lt;em&gt;YaST -&amp;gt; Софтвер -&amp;gt; Ризнице софтвера&lt;/em&gt;“ и уклоните „&lt;em&gt;X11:MATE:Factory&lt;/em&gt;“
 ризницу и затим, кликните на следеће везе у функцији вашег „openSUSE“
 издања:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Хвала вам!&lt;/p&gt;
 
@@ -1360,7 +1360,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;С поносом објављујемо наше најновије пакете на ГитХаб-у:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Мејтов Универзитет&lt;/a&gt;&lt;/li&gt;
@@ -1393,13 +1393,13 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Испод је снимак екрана &lt;code&gt;mate-notification-properties&lt;/code&gt; постављеног за приказивање
 обавештења на радном монитору. Приметите да је изабрано „Користи радни монитор“,
 што искључује падајући списак за бирање монитора.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Испод је снимак екрана &lt;code&gt;mate-notification-properties&lt;/code&gt; постављеног за приказивање
 обавештења на одређеном монитору. Приметите да „Користи радни монитор“ &lt;strong&gt;није&lt;/strong&gt;
 изабрано, што омогућава да се са падајућег списка изабере монитор који ће бити омогућен.
 Број монитора је постављен на 2. Тимео ће се приказивати на трећем монитору, јер
 бројање почиње од 0 уместо од 1.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -1413,7 +1413,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„FirstColo“&lt;/a&gt;, управља модерним центром података у Немачкој и
 планира да пређе на Мејтову радну површ на својим канцеларијским радним станицама. „FirstColo“
 је љубазно донирао нови наменски сервер као подршку Мејту.&lt;/p&gt;
@@ -1436,7 +1436,7 @@ Linux Review&lt;/a&gt;.
 за Федору&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;За више информација о Мејтовом званичном укључењу у Федиру, погледајте следеће:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ако имате било какво питање у вези инсталације Мејта на Федори затражите
 помоћ на нашем &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate ИРЦ каналу&lt;/a&gt;
@@ -1512,7 +1512,7 @@ Linux Review&lt;/a&gt;.
 корак напред од развојних издања 1.0 и 1.1. Мејт је још стабилнији
 него што је био и обухвата подршку за још много програма, програмчића
 и позадинаца.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Ово су главне измене и побољшања у овом издању:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Бројне исправке грешака&lt;/li&gt;
@@ -1544,7 +1544,7 @@ Linux Review&lt;/a&gt;.
         
         
         &lt;p&gt;Тренутно смо у процесу преласка на решавање свих наших проблема путем
-[пројекта мејтове-радне-површи на ГитХаб-у]( &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;/a&gt;
+[пројекта мејтове-радне-површи на ГитХаб-у](&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;/a&gt;
 уместо на Перберосовој страници. Разлог је једноставан: када Пербероса нема,
 нико од других програмера не може затворити купоне. Ово ствара мало нереда.&lt;/p&gt;
 &lt;p&gt;Сада, када идете да пријавите грешку, морате одабрати исправну ГитХаб ризницу
@@ -1604,7 +1604,7 @@ we are looking for people who are willing to set these up.&lt;/p&gt;
 &lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан&amp;hellip; Сада
 је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
-програмери су успешно покретали Мејт на [„Arch Linux“]-у( &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
+програмери су успешно покретали Мејт на [„Arch Linux“]-у(&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
 и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
 &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Дебианом&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;

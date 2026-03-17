@@ -33,7 +33,7 @@ repository!&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE
 on Arch Linux from the following wiki pages:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
 repository will be removed once all the Arch Linux mirrors are synced.
@@ -89,7 +89,7 @@ working on:&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE 1.6
 on Arch Linux from the following wiki page:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I&amp;rsquo;d like to say a special thank you to:&lt;/p&gt;
 &lt;ul&gt;
@@ -104,7 +104,7 @@ for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
 of getting MATE into the official Arch Linux repositories. You can help
 with that by voting for MATE packages in the AUR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

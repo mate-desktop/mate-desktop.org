@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -155,7 +155,7 @@
       <description>
         
         
-        &lt;p&gt;私たちは最近、[GitHub]のWiki( &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) から、&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;
+        &lt;p&gt;私たちは最近、[GitHub]のWiki(&lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) から、&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; で利用可能となった、私たち自身の Wiki へと切り替えました。これからは、この Wiki を参照してください。もちろん誰からの投稿でも歓迎します。&lt;/p&gt;
 &lt;p&gt;まだ気付いていない方は、&lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt; で問題を報告することができます。現時点では、バグ報告に関して利用できるのはこれだけですが、バグ追跡ツールを開発中です。
 できあがったときには、ここでお知らせします。&lt;/p&gt;
 &lt;p&gt;私たちは Mate フォーラムを将来設置する計画も持っていますが、それは未だ非常に初期の段階にあります。&lt;/p&gt;

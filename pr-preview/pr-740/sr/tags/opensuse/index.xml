@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Тим „openSUSE“ Мејт с поносом објављује доступност Мејта 1.8
 за „openSUSE“. Обрасци више нису доступни и неће бити доступни
 ни у будућности због званичног укључивања Мејта у „openSUSE“.
@@ -34,7 +34,7 @@
 да мењају своје ризнице за свако освежавање. Сада постоји
 само једно место, „X11:MATE:Current“.&lt;/p&gt;
 &lt;p&gt;Да га инсталирате, замените или додајте нашу ризницу:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -144,7 +144,7 @@ GStreamer-а 0.10.&lt;/li&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Александрос Венос, „openSUSE“ амбасадор и члан тима друштвених медија „openSUSE“
 Мејта, приказаће &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Мејт&lt;/a&gt;
 на &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Самиту 2013.&lt;/a&gt; у Орланду, на Флориди,
@@ -163,16 +163,16 @@ GStreamer-а 0.10.&lt;/li&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Да би Мејт постао званично доступан у &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 ризнице заједнице се морају изменити у „YaST“-у. Да то урадите, идите на
 „&lt;em&gt;YaST -&amp;gt; Софтвер -&amp;gt; Ризнице софтвера&lt;/em&gt;“ и уклоните „&lt;em&gt;X11:MATE:Factory&lt;/em&gt;“
 ризницу и затим, кликните на следеће везе у функцији вашег „openSUSE“
 издања:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; за OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; за OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Хвала вам!&lt;/p&gt;
 

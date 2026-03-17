@@ -285,7 +285,7 @@ and QA and soon MATE 1.8 will be prepared for release.&lt;/p&gt;
 &lt;p&gt;Therefore we request that you check the status of the MATE translations you
 contribute to at Transifex and update them ASAP.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you are not yet a member of the translation team but would like to help then please
 &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sign up for a free account at Transifex&lt;/a&gt;
@@ -408,7 +408,7 @@ recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
 downloaded via HTTP. Please ensure the downloaded file matches the SHA1
 checksum.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -504,7 +504,7 @@ repository!&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE
 on Arch Linux from the following wiki pages:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
 repository will be removed once all the Arch Linux mirrors are synced.
@@ -560,7 +560,7 @@ working on:&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE 1.6
 on Arch Linux from the following wiki page:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I&amp;rsquo;d like to say a special thank you to:&lt;/p&gt;
 &lt;ul&gt;
@@ -575,7 +575,7 @@ for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
 of getting MATE into the official Arch Linux repositories. You can help
 with that by voting for MATE packages in the AUR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -618,7 +618,7 @@ in &lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
@@ -678,16 +678,16 @@ develop the community. We hope you understand our decision.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;On the way to getting MATE officially available on &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 the community repositories have to be changed in YaST. For that,
 go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
 repo and next, click on the following links in function of your openSUSE
 version:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thank you!&lt;/p&gt;
 
@@ -751,7 +751,7 @@ job.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re proud to announce our newest package on GitHub:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE University&lt;/a&gt;&lt;/li&gt;
@@ -784,13 +784,13 @@ and &amp;ldquo;monitor-number&amp;rdquo; keys in via &lt;code&gt;dconf-editor&lt
 &lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
 to be displayed on an active monitor. Note that &amp;ldquo;Use Active Monitor&amp;rdquo; is selected,
 which disables the combobox for selecting a monitor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
 to be displayed on a specific monitor. Note that &amp;ldquo;Use Active Monitor&amp;rdquo; is &lt;strong&gt;not&lt;/strong&gt;
 selected, which enables the combobox for selecting the monitor to be enabled.
 The monitor number is set to 2. This will display on my third monitor, since
 counting starts at 0 instead of 1.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -804,7 +804,7 @@ counting starts at 0 instead of 1.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
 are planning to migrate to MATE Desktop on their office workstations. FirstColo have
 kindly donated a new dedicated server to support MATE.&lt;/p&gt;
@@ -863,7 +863,7 @@ kindly donated a new dedicated server to support MATE.&lt;/p&gt;
 huge step forward since the 1.0 and 1.1 development releases. MATE is more
 stable than ever and it includes support for many more applications, applets
 and backends.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Numerous bug fixes&lt;/li&gt;

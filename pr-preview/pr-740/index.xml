@@ -23,7 +23,7 @@
       <description>
         
         
-        &lt;h1&gt;MATE 1.28 Released&lt;/h1&gt;&lt;p&gt;It is release time once again. We worked hard to bring you the best desktop experience possible. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
+        &lt;p&gt;It is release time once again. We worked hard to bring you the best desktop experience possible. A big thank you to all contributors who helped to make this happen.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1-28.png&#34; alt=&#34;MATE About dialog&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;rsquo;s new in MATE 1.28&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-mate-128&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#whats-new-in-mate-128&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We are thrilled to announce the release of MATE Desktop 1.28, which brings a wealth of updates aimed at modernizing the codebase while ensuring stability and robustness. This release focuses on enhancing Wayland support, updating various applications, and fixing numerous bugs.&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.28 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.28/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.28/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.28/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.28/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;More details&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;more-details&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#more-details&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here are the gory details.&lt;/p&gt;
@@ -55,27 +55,27 @@
 &lt;li&gt;Replaced various deprecated methods with their modern counterparts.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Caja can now manage icons on a Wayland desktop, render the background, and change the background (Wayland support is a build option). Launch in Wayland sessions with &amp;ndash;force-desktop to show desktop icons.&lt;/li&gt;
 &lt;li&gt;Fixed some issues found by cppcheck.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-actions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some build warnings.&lt;/li&gt;
 &lt;li&gt;Fixed a memory leak.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-actions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-actions/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-actions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-actions/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-dropbox&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-dropbox&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-dropbox&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed a build warning.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Added the audio-video-properties plugin. This 2000+ lines of code change lets you view the exact properties of your media files directly in the file manager.&lt;/li&gt;
@@ -83,7 +83,7 @@
 &lt;li&gt;Some build and deprecation warning fixes.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Engrampa now supports the Meson build system.&lt;/li&gt;
@@ -92,30 +92,30 @@
 &lt;li&gt;Enhanced the codebase.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Eye of MATE now supports the Meson build system.&lt;/li&gt;
 &lt;li&gt;Fixed some build warnings.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatekbd&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekbd&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekbd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;We added a setting to raise windows on the alt+tab popup.&lt;/li&gt;
@@ -123,7 +123,7 @@
 &lt;li&gt;Some small fixes.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;A lot of Wayland specific commits:
@@ -138,24 +138,24 @@
 &lt;li&gt;Accessibility improvements.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-backgrounds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-backgrounds&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-backgrounds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed build warnings.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed a memory leak.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;As stable as always.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now works in Wayland sessions as well as X11.&lt;/li&gt;
@@ -164,7 +164,7 @@
 &lt;li&gt;The UI received small improvements.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;A few changes were necessary to support background handling under Wayland.&lt;/li&gt;
@@ -175,37 +175,37 @@
 &lt;li&gt;Fixed a lot of analyzer warnings.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-indicator-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-indicator-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-indicator-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Mouse middle-click is now supported.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now supports Wayland as a build-time option. Behavior is almost identical in X11 and Wayland.&lt;/li&gt;
 &lt;li&gt;Added Meson build system support.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some build warnings.&lt;/li&gt;
 &lt;li&gt;Added Meson build system support.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Some maintenance updates.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Some improvements on Wayland.&lt;/li&gt;
@@ -213,50 +213,50 @@
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;New for 1.28 is a working window list under Wayland, and the tray applet can now display indicators under wayland, notably network-manager-applet when it is launched with &amp;ndash;indicator. Traditional tray icons not displayed as they use Xembed which is not supported in wayland.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now with Meson support.&lt;/li&gt;
 &lt;li&gt;Prefer Ayatana AppIndicator when building.&lt;/li&gt;
 &lt;li&gt;Fixed a segfault on Wayland.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now with Meson support.&lt;/li&gt;
 &lt;li&gt;Replaced some deprecated functions.&lt;/li&gt;
 &lt;li&gt;Some Wayland compatibility changes.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-screensaver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screensaver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screensaver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed a lot of warnings.&lt;/li&gt;
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;li&gt;Added a prompt-driven authentication helper.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;The sensors applet can now be used in a Wayland session&amp;rsquo;s panel as well as under X11 if built in-process (as needed for Wayland).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;li&gt;Fixed a crash (double-free).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now uses GDBus instead of dbus-glib.&lt;/li&gt;
 &lt;li&gt;Fixed a memory leak.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Now with Meson support.&lt;/li&gt;
@@ -264,7 +264,7 @@
 &lt;li&gt;Improved user interface.&lt;/li&gt;
 &lt;li&gt;Fixed some user settings not being saved.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;New for 1.28 is a bugfix to allow launching X11 applications in a Wayland session via XWayland.&lt;/li&gt;
@@ -276,17 +276,17 @@
 &lt;li&gt;Feature: Double-click tab to set title.&lt;/li&gt;
 &lt;li&gt;Fixed some small bugs.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some typos.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Translations update.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;The dictionary panel applet can be used in a Wayland session&amp;rsquo;s panel as well as under X11 if built with Wayland support.&lt;/li&gt;
@@ -295,25 +295,25 @@
 &lt;li&gt;Some Wayland fixes.&lt;/li&gt;
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-wayland-session&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-wayland-session&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-wayland-session&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;An experimental Wayland session for MATE using Wayfire. First release version.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-wayland-session/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-wayland-session/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-wayland-session/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-wayland-session/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Some UI improvements.&lt;/li&gt;
 &lt;li&gt;Made the collection menu item removable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fixed some build warnings.&lt;/li&gt;
 &lt;li&gt;Fixed some memory leaks.&lt;/li&gt;
 &lt;li&gt;Fixed double activation of extensions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma-plugins&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma-plugins&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma-plugins&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;New quickhighlight plugin.&lt;/li&gt;
@@ -323,7 +323,7 @@
     &lt;a href=&#34;#python-caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Some code improvements.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -378,7 +378,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.26 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;More details&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;more-details&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#more-details&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here are the gory details.&lt;/p&gt;
@@ -395,7 +395,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;You can now add information of the creation time in the list columns&lt;/li&gt;
@@ -413,7 +413,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-actions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Makes its first appearance in this release&lt;/li&gt;
@@ -426,7 +426,7 @@
 &lt;li&gt;Add i18n support&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;gksu: do not run the command on a new thread&lt;/li&gt;
@@ -437,7 +437,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;rar 6.00: Fix listing archive content with encrypted file list&lt;/li&gt;
@@ -448,7 +448,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Upgrade ui files&lt;/li&gt;
@@ -458,19 +458,19 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatekbd&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekbd&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekbd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Reduce the font size of the key names on keyboard layout display&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;alsa: Add udev support&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Drop Berlin Tegel&lt;/li&gt;
@@ -478,7 +478,7 @@
 &lt;li&gt;Update cities in Thailand&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;window: Add support for _GNOME_WM_STRUT_AREA&lt;/li&gt;
@@ -494,7 +494,7 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;netspeed: Allow to select an interface which is down&lt;/li&gt;
@@ -510,13 +510,13 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-backgrounds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-backgrounds&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-backgrounds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;New &amp;lsquo;Something slowly gets clear&amp;rsquo; elephants wallpaper&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Port to GNU MPFR/MPC Library&lt;/li&gt;
@@ -533,12 +533,12 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;windows-applet: New Show window border in Alt-Tab and Allow top tiling (Window-Snapping) option&lt;/li&gt;
@@ -555,7 +555,7 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;a11y-keyboard: Add capslock-beep-enable gsetting&lt;/li&gt;
@@ -564,19 +564,19 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Remove the execution bit from some png files&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-indicator-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-indicator-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-indicator-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;applet-main: Replace GtkStock icon&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Replace mute/unmute checkmenuitem with imagemenuitem&lt;/li&gt;
@@ -584,21 +584,21 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add collection menu item&lt;/li&gt;
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-window: Replace GtkStock icons&lt;/li&gt;
 &lt;li&gt;mate-maximus-autostart.desktop: Remove the deprecated Encoding key&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add Do Not Disturb Applet&lt;/li&gt;
@@ -610,7 +610,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;workspace-switcher: Support xmonad WM&lt;/li&gt;
@@ -626,12 +626,12 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-power-preferences: Add option to enable keyboard dimming&lt;/li&gt;
@@ -645,7 +645,7 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-screensaver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screensaver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screensaver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Allow change of time and date formats on lock screen&lt;/li&gt;
@@ -655,7 +655,7 @@
 &lt;li&gt;Fix several memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Drop aticonfig plugin&lt;/li&gt;
@@ -663,7 +663,7 @@
 &lt;li&gt;libsensors-plugin: Port to GRegex&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Follow freedesktop guidelines to disable autorun using Hidden key&lt;/li&gt;
@@ -675,7 +675,7 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;xsettings: Improve Qt HiDPI environment settings&lt;/li&gt;
@@ -686,7 +686,7 @@
 &lt;li&gt;Fix two memory leaks&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add Wayland support&lt;/li&gt;
@@ -696,7 +696,7 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix desktop file validation warning&lt;/li&gt;
@@ -709,20 +709,20 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Remove the execution bit from some Italian figures&lt;/li&gt;
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use MATE_COMPILE_WARNINGS from mate-common&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-screenshot: Fix the order of the buttons at the bottom&lt;/li&gt;
@@ -733,14 +733,14 @@
 &lt;li&gt;build: Add option to disable Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Rewrite mozo.ui from scratch&lt;/li&gt;
 &lt;li&gt;Fix a strange behavior when editing the collection directory&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Port sort plugin to the new GtkSourceView api.&lt;/li&gt;
@@ -760,7 +760,7 @@
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma-plugins&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma-plugins&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma-plugins&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Makes its first appearance in this release&lt;/li&gt;
@@ -782,7 +782,7 @@
 &lt;li&gt;Fix memory leak reported by scan-build&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -850,7 +850,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.24 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.24/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.24/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.24/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.24/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;More details&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;more-details&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#more-details&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here are more gory details.&lt;/p&gt;
@@ -873,7 +873,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -905,13 +905,13 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-dropbox&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-dropbox&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-dropbox&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use CAJA_EXTENSION_DIR_SYS to save and show system caja extension dir&lt;/li&gt;
 &lt;li&gt;Show full path of caja-extension-dir&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;caja-wallpaper-extension: Fix memory leak&lt;/li&gt;
@@ -923,7 +923,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -947,7 +947,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add eom-thumbnailer for webp files&lt;/li&gt;
@@ -963,7 +963,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatekbd&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekbd&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekbd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -971,14 +971,14 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Locations: Add Lleida–Alguaire Airport weather station&lt;/li&gt;
@@ -987,7 +987,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;theme: Fix window control hidpi rendering for all themes.&lt;/li&gt;
@@ -1008,7 +1008,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -1025,14 +1025,14 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-backgrounds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-backgrounds&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-backgrounds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Enable the support for the meson build system&lt;/li&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix scientific presentation of complex numbers&lt;/li&gt;
@@ -1049,7 +1049,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Update MATE_CXX_WARNINGS macro&lt;/li&gt;
@@ -1057,7 +1057,7 @@
 &lt;li&gt;Check if AX_APPEND_FLAG and AX_CHECK_COMPILE_FLAG are available&lt;/li&gt;
 &lt;li&gt;Update mate-compiler-flags macro&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Search system themes in system data dirs&lt;/li&gt;
@@ -1084,7 +1084,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Drop mate_desktop_thumbnail_scale_down_pixbuf()&lt;/li&gt;
@@ -1100,7 +1100,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add status icons for mobile network connections&lt;/li&gt;
@@ -1121,14 +1121,14 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-indicator-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-indicator-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-indicator-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Resize indicator icons to fit panel&lt;/li&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1141,14 +1141,14 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use datadir and libdir variables when installing gir files&lt;/li&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1158,7 +1158,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Use gresource for mate-notification-properties.ui&lt;/li&gt;
@@ -1166,7 +1166,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Avoid double a11y description on panel toplevels&lt;/li&gt;
@@ -1192,7 +1192,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1200,7 +1200,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;icons: Add higher resolution icons&lt;/li&gt;
@@ -1213,7 +1213,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-screensaver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screensaver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screensaver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1223,13 +1223,13 @@
 &lt;li&gt;Add ELOGIND support&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1247,7 +1247,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Require DBUS 1.10.0 or newer&lt;/li&gt;
@@ -1265,7 +1265,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1283,7 +1283,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -1296,7 +1296,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Update reporting-bugs section&lt;/li&gt;
@@ -1306,7 +1306,7 @@
 &lt;li&gt;Upgrade the manual to docbook 5.0&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC&lt;/li&gt;
@@ -1314,7 +1314,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -1330,7 +1330,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add Undo and Redo buttons&lt;/li&gt;
@@ -1341,7 +1341,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Add the ability to show the non-printable characters (spaces/tabs/newlines)&lt;/li&gt;
@@ -1359,7 +1359,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;python-caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;python-caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#python-caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ready for using gcc 10&lt;/li&gt;
@@ -1368,7 +1368,7 @@
 &lt;li&gt;i18n: Migrate from intltools to gettext&lt;/li&gt;
 &lt;li&gt;g10n: Update the translations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Complete changelog at &amp;lt; &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Complete changelog at &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -1419,7 +1419,7 @@
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.22 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.22/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.22/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.22/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.22/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;changelog&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#changelog&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here are all the gory details.&lt;/p&gt;
@@ -3612,7 +3612,7 @@ we&amp;rsquo;ve fixed hundreds of bugs. Squished &amp;rsquo;em dead!&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.20 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.20/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.20/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.20/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.20/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;changelog&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#changelog&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here are all the gory details.&lt;/p&gt;
@@ -4798,7 +4798,7 @@ Desktop 1.16 still relied on.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.18 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.18/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.18/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.18/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.18/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;changelog&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#changelog&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here is a more detailed break down of what changed.&lt;/p&gt;
@@ -5236,11 +5236,11 @@ over the holiday period.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2&gt;What has been restored?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-has-been-restored&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-has-been-restored&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt;&amp;gt; - This website&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt;&amp;gt; - Where you can find the tarballs of MATE Desktop releases.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&gt;&lt;/a&gt; - The developer wiki.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt;&amp;gt; - This is a mirror of the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt;&amp;gt; - The MATE Desktop planet.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.mate-desktop.org&lt;/a&gt; - This website&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org&lt;/a&gt; - Where you can find the tarballs of MATE Desktop releases.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md&lt;/a&gt; - The developer wiki.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git.mate-desktop.org&lt;/a&gt; - This is a mirror of the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://planet.mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://planet.mate-desktop.org&lt;/a&gt; - The MATE Desktop planet.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;mail.mate-desktop.org&lt;/code&gt; - Mail server for developers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Update&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;update&#34;&gt;&lt;/span&gt;
@@ -5279,7 +5279,7 @@ over the holiday period.&lt;/p&gt;
         &lt;p&gt;After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We&amp;rsquo;d like to thank every
 MATE contributor for their help making this release possible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;rsquo;s new in MATE 1.16&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-mate-116&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#whats-new-in-mate-116&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The release is focused on improving GTK3+ compatibility, migrating
 components to newer libraries, fixing bugs and code hygiene. The
@@ -5319,7 +5319,7 @@ headline changes in MATE Desktop 1.16 are:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE Desktop 1.16 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.16/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.16/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.16/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.16/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Changelog&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;changelog&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#changelog&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Here is a more detailed break down of what has changed.&lt;/p&gt;
@@ -5664,7 +5664,7 @@ can potentially reactivate the forums.&lt;/p&gt;
         &lt;p&gt;After 5 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.14. We&amp;rsquo;d like to thank every
 MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;rsquo;s new in MATE 1.14&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-mate-114&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#whats-new-in-mate-114&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The headline changes in MATE 1.14 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -5683,7 +5683,7 @@ MATE contributor and user.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE 1.14 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.14/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.14/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.14/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.14/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Screenshots&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;screenshots&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#screenshots&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -5964,7 +5964,7 @@ from current GTK+ theme as is)&lt;/li&gt;
         &lt;p&gt;After 5 months of development the MATE Desktop team are proud to announce the
 release of MATE Desktop 1.12. We&amp;rsquo;d like to thank every MATE contributor and
 user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;rsquo;s new in MATE 1.12&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-mate-112&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#whats-new-in-mate-112&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The headline changes in MATE 1.12 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -5988,7 +5988,7 @@ user.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE 1.12 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.12/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.12/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.12/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.12/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Screenshots&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;screenshots&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#screenshots&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -6222,7 +6222,7 @@ user.&lt;/p&gt;
         &lt;p&gt;After 15 months of development the MATE Desktop team are proud to announce
 the release of MATE Desktop 1.10. We would like to thank every MATE contributor
 and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;rsquo;s new in MATE 1.10&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-mate-110&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#whats-new-in-mate-110&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The headline changes in MATE 1.10 are:&lt;/p&gt;
 &lt;ul&gt;
@@ -6245,7 +6245,7 @@ in the PulseAudio, ALSA and OSS sound systems.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The various components of MATE 1.10 are available for download here:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://pub.mate-desktop.org/releases/1.10/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.10/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.10/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.10/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Screenshots&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;screenshots&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#screenshots&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -6794,7 +6794,7 @@ repositories hosted on mate-desktop.org have been removed.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won&amp;rsquo;t be in
 the future due to official inclusion of MATE in openSUSE.
@@ -6804,7 +6804,7 @@ We have changed our schema of repositories, to avoid people having to
 change their repositories for each update. Now there is
 just one place, X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;To install it, please replace or add our repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -7018,7 +7018,7 @@ interact with the MATE mentors is via:&lt;/p&gt;
         
         &lt;p&gt;The team is proud to announce the release of MATE Desktop 1.8. We would like to
 thank every MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The main changes in 1.8 are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -7185,7 +7185,7 @@ and QA and soon MATE 1.8 will be prepared for release.&lt;/p&gt;
 &lt;p&gt;Therefore we request that you check the status of the MATE translations you
 contribute to at Transifex and update them ASAP.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you are not yet a member of the translation team but would like to help then please
 &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sign up for a free account at Transifex&lt;/a&gt;
@@ -7308,7 +7308,7 @@ recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
 downloaded via HTTP. Please ensure the downloaded file matches the SHA1
 checksum.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -7404,7 +7404,7 @@ repository!&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE
 on Arch Linux from the following wiki pages:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is also worth noting that the now obsolete unofficial MATE package
 repository will be removed once all the Arch Linux mirrors are synced.
@@ -7442,10 +7442,10 @@ Here are some of the reasons we are endorsing this project:&lt;/p&gt;
 &lt;li&gt;Linux Voice content will be published for free after 9 months under &lt;a href=&#34;https://creativecommons.org/licenses/by-sa/3.0/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC-BY-SA&lt;/a&gt; license.&lt;/li&gt;
 &lt;li&gt;One of the Linux Voice team is interested in covering MATE if their project is successfully funded.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div align=&#34;center&#34;&gt;&lt;a href=&#34; https://www.indiegogo.com/projects/linux-voice&#34;&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/Linux012.png&#34; alt=&#34;Linux Voice&#34; title=&#34;Linux Voice&#34; /&gt;&lt;br /&gt;Support Linux Voice!&lt;/a&gt;&lt;/div&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;a href=&#34; https://www.indiegogo.com/projects/linux-voice&#34;&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/Linux012.png&#34; alt=&#34;Linux Voice&#34; title=&#34;Linux Voice&#34; /&gt;&lt;br /&gt;Support Linux Voice!&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You can also find out more about how the campaign is progressing by visiting the &lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Voice&lt;/a&gt; website.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.linuxvoice.com/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxvoice.com/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linuxvoice.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxvoice.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -7487,7 +7487,7 @@ working on:&lt;/p&gt;
 &lt;p&gt;You can find out everything you need to know about installing MATE 1.6
 on Arch Linux from the following wiki page:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I&amp;rsquo;d like to say a special thank you to:&lt;/p&gt;
 &lt;ul&gt;
@@ -7502,7 +7502,7 @@ for welcoming me to the MATE Team and helping me out on IRC.&lt;/li&gt;
 of getting MATE into the official Arch Linux repositories. You can help
 with that by voting for MATE packages in the AUR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -7545,7 +7545,7 @@ in &lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/assets/img/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
@@ -7605,16 +7605,16 @@ develop the community. We hope you understand our decision.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;On the way to getting MATE officially available on &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 the community repositories have to be changed in YaST. For that,
 go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
 repo and next, click on the following links in function of your openSUSE
 version:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&gt;&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thank you!&lt;/p&gt;
 
@@ -7654,7 +7654,7 @@ a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
 every MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Main changes in 1.6 are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd &amp;amp; logind support&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -7875,7 +7875,7 @@ on some of the developments in both.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re proud to announce our newest package on GitHub:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE University&lt;/a&gt;&lt;/li&gt;
@@ -7908,13 +7908,13 @@ and &amp;ldquo;monitor-number&amp;rdquo; keys in via &lt;code&gt;dconf-editor&lt
 &lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
 to be displayed on an active monitor. Note that &amp;ldquo;Use Active Monitor&amp;rdquo; is selected,
 which disables the combobox for selecting a monitor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is a screenshot of &lt;code&gt;mate-notification-properties&lt;/code&gt; set for notifications
 to be displayed on a specific monitor. Note that &amp;ldquo;Use Active Monitor&amp;rdquo; is &lt;strong&gt;not&lt;/strong&gt;
 selected, which enables the combobox for selecting the monitor to be enabled.
 The monitor number is set to 2. This will display on my third monitor, since
 counting starts at 0 instead of 1.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -7928,7 +7928,7 @@ counting starts at 0 instead of 1.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
 are planning to migrate to MATE Desktop on their office workstations. FirstColo have
 kindly donated a new dedicated server to support MATE.&lt;/p&gt;
@@ -7951,7 +7951,7 @@ For instructions on using this repository please consult &lt;a href=&#34;https:/
 guide for Fedora&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more information about MATE&amp;rsquo;s official inclusion in Fedora, see the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
 for help in our &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate IRC channel&lt;/a&gt;
@@ -8027,7 +8027,7 @@ repositories and add the new ones, otherwise you will encounter problems.&lt;/p&
 huge step forward since the 1.0 and 1.1 development releases. MATE is more
 stable than ever and it includes support for many more applications, applets
 and backends.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Here are the main changes and improvements in this release:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Numerous bug fixes&lt;/li&gt;

@@ -29,7 +29,7 @@ a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
 every MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/assets/img/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Main changes in 1.6 are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd &amp;amp; logind support&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

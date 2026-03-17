@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;Нещодавно ми перейшли з вікі &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; на нашу власну вікі
-доступну на [wiki.mate-desktop.org] ( &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;/a&gt;. Будь ласка
+доступну на [wiki.mate-desktop.org] (&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;/a&gt;. Будь ласка
 відтепер посилайтеся на цю вікі. Звичайно, будь-хто може долучитися до її наповнення.&lt;/p&gt;
 &lt;p&gt;Для тих, хто ще не знає, ви можете
 &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;повідомити про проблеми на github&lt;/a&gt;. На цей час
@@ -38,7 +38,7 @@
 на вікі для подальшої інформації. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; також має наші
 пакунки випуску 1.0.x у своєму репозиторії. Якщо хтось досі використовує PPA Amanas,
 він більше не підтримується. Решта наших випусків 1.1.x будуть розміщені у tridex сховищі. Майбутні випуски (наприклад, 1.2.0) будуть розміщені тут.&lt;/p&gt;
-&lt;p&gt;Ми з гордістю повідомляємо про початок пакування для [openSUSE] ( &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;/a&gt;).
+&lt;p&gt;Ми з гордістю повідомляємо про початок пакування для [openSUSE] (&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;/a&gt;).
 Як тільки ми отримаємо більше інформації, ми додамо її до своєї вікі та зробимо оголошення.&lt;/p&gt;
 &lt;p&gt;Нарешті, кілька людей приєдналися до &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;нашого IRC-каналу&lt;/a&gt;
 і запитали про &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; ebuild для MATE. Зважаючи на це,

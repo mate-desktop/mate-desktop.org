@@ -45,7 +45,7 @@
 преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
 суми провере.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -140,7 +140,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Можете да сазнате све што вам је потребно о инсталацији Мејта
 на Арч Линуксу са следећих вики страница:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Такође је вредно напоменути да ће сада застарели незванични пакет Мејт
 ризнице бити уклоњен када се синхронизују сва огледала Арч Линукса.
@@ -195,7 +195,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Све што треба да знате о инсталирању Мејта 1.6 на Арч Линуксу можете
 сазнати на следећим вики страницама:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Нарочито желим да се захвалим:&lt;/p&gt;
 &lt;ul&gt;
@@ -210,7 +210,7 @@ Linux Review&lt;/a&gt;.
 Мејта у званичне ризнице Арч Линукса. Можете помоћи око тога тако што
 ћете гласати за Мејтове пакете у AUR-у.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;K=flexiondotorg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -229,7 +229,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан&amp;hellip; Сада
 је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
-програмери су успешно покретали Мејт на [„Arch Linux“]-у( &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
+програмери су успешно покретали Мејт на [„Arch Linux“]-у(&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
 и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
 &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Дебианом&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;

@@ -35,7 +35,7 @@
 &lt;h3&gt;HTTP で直接ダウンロード&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;http-で直接ダウンロード&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#http-%e3%81%a7%e7%9b%b4%e6%8e%a5%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;上記の BitTorrent リンクに加えて、Live CD.iso は HTTP 経由でもダウンロード可能です。ダウンロードしたファイルが SHA1 チェックサムと一致することを確認してください。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;

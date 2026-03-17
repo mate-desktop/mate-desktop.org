@@ -86,7 +86,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 私たちは、Waylandでは Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR/MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取ることや貢献を開始することを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。">
   <meta itemprop="datePublished" content="2021-08-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2021-08-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="998">
+  <meta itemprop="wordCount" content="960">
   <meta itemprop="keywords" content="Releases">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MATE 1.26 を公開しました">
@@ -1572,7 +1572,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 </ul>
 <p>MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。</p>
 <ul>
-<li>&lt; <a href="https://pub.mate-desktop.org/releases/1.26/%3e"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.26/></a></li>
+<li><a href="https://pub.mate-desktop.org/releases/1.26/"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.26/</a></li>
 </ul>
 <h2>詳細情報<span class="hx:absolute hx:-mt-20" id="詳細情報"></span>
     <a href="#%e8%a9%b3%e7%b4%b0%e6%83%85%e5%a0%b1" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h2><p>詳細は以下のとおりです。</p>
@@ -1589,7 +1589,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/atril/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/atril/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/</a></p>
 <h3>Caja ファイルマネージャ<span class="hx:absolute hx:-mt-20" id="caja-ファイルマネージャ"></span>
     <a href="#caja-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>作成時刻の情報をリストの列に追加できるようになりました。</li>
@@ -1607,7 +1607,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: &lt; <a href="https://github.com/mate-desktop/caja/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/></a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/</a></p>
 <h3>caja-actions<span class="hx:absolute hx:-mt-20" id="caja-actions"></span>
     <a href="#caja-actions" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>今回のリリースで初登場です。</li>
@@ -1620,7 +1620,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>i18n のサポートを追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: &lt; <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/></a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
 <h3>caja-extensions<span class="hx:absolute hx:-mt-20" id="caja-extensions"></span>
     <a href="#caja-extensions" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>gksu: 新しいスレッドでコマンドを実行しません</li>
@@ -1631,7 +1631,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: &lt; <a href="https://github.com/mate-desktop/caja-extensions/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/></a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-extensions/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
 <h3>Engrampa 書庫マネージャ<span class="hx:absolute hx:-mt-20" id="engrampa-書庫マネージャ"></span>
     <a href="#engrampa-%e6%9b%b8%e5%ba%ab%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>rar 6.00: アーカイブファイルの内容リストを暗号化ファイルリストに修正</li>
@@ -1642,7 +1642,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次にあります：&lt; <a href="https://github.com/mate-desktop/engrampa/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/></a></p>
+<p>完全な変更点は次にあります：<a href="https://github.com/mate-desktop/engrampa/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
 <h3>eom 画像ビューア<span class="hx:absolute hx:-mt-20" id="eom-画像ビューア"></span>
     <a href="#eom-%e7%94%bb%e5%83%8f%e3%83%93%e3%83%a5%e3%83%bc%e3%82%a2" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ui ファイルのアップグレード</li>
@@ -1652,19 +1652,19 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は、&lt; <a href="https://github.com/mate-desktop/eom/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/></a> に掲載しています。</p>
+<p>完全な変更点は、<a href="https://github.com/mate-desktop/eom/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/</a> に掲載しています。</p>
 <h3>libmatekbd<span class="hx:absolute hx:-mt-20" id="libmatekbd"></span>
     <a href="#libmatekbd" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>キーボードレイアウト表示のキー名のフォントサイズを小さくしました。</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/libmatekbd/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatekbd/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
 <h3>libmatemixer<span class="hx:absolute hx:-mt-20" id="libmatemixer"></span>
     <a href="#libmatemixer" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>alsa: udev サポートの追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/libmatemixer/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatemixer/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
 <h3>libmateweather お天気 MATE<span class="hx:absolute hx:-mt-20" id="libmateweather-お天気-mate"></span>
     <a href="#libmateweather-%e3%81%8a%e5%a4%a9%e6%b0%97-mate" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ベルリン・テーゲル空港を外しました。</li>
@@ -1672,7 +1672,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>タイの都市を更新</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです &lt; <a href="https://github.com/mate-desktop/libmateweather/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/></a></p>
+<p>完全な変更点は次のとおりです <a href="https://github.com/mate-desktop/libmateweather/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
 <h3>Marco ウィンドウマネージャ<span class="hx:absolute hx:-mt-20" id="marco-ウィンドウマネージャ"></span>
     <a href="#marco-%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>window: _GNOME_WM_STRUT_AREA のサポートを追加</li>
@@ -1688,7 +1688,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/marco/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/marco/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/</a></p>
 <h3>mate-applets MATE アプレット<span class="hx:absolute hx:-mt-20" id="mate-applets-mate-アプレット"></span>
     <a href="#mate-applets-mate-%e3%82%a2%e3%83%97%e3%83%ac%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>netspeed: ダウンしているインターフェイスを選択できます。</li>
@@ -1704,13 +1704,13 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります： &lt; <a href="https://github.com/mate-desktop/mate-applets/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/></a></p>
+<p>完全な changelog は次にあります： <a href="https://github.com/mate-desktop/mate-applets/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
 <h3>mate-backgrounds 背景<span class="hx:absolute hx:-mt-20" id="mate-backgrounds-背景"></span>
     <a href="#mate-backgrounds-%e8%83%8c%e6%99%af" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>新しい &lsquo;Something slowly gets clear&rsquo; というゾウの壁紙</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
 <h3>mate-calc 電卓<span class="hx:absolute hx:-mt-20" id="mate-calc-電卓"></span>
     <a href="#mate-calc-%e9%9b%bb%e5%8d%93" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>GNU MPFR/MPC ライブラリへ移植</li>
@@ -1727,12 +1727,12 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-calc/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-calc/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
 <h3>mate-common<span class="hx:absolute hx:-mt-20" id="mate-common"></span>
     <a href="#mate-common" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-common/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-common/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
 <h3>mate-control-center コントロールセンタ<span class="hx:absolute hx:-mt-20" id="mate-control-center-コントロールセンタ"></span>
     <a href="#mate-control-center-%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab%e3%82%bb%e3%83%b3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>windows-applet: 新しく、Alt-Tab でウィンドウの境界表示と、トップタイリング（ウィンドウスナップ）許可のオプションを追加</li>
@@ -1749,7 +1749,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-control-center/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-control-center/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
 <h3>mate-desktop<span class="hx:absolute hx:-mt-20" id="mate-desktop"></span>
     <a href="#mate-desktop" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>a11y-keyboard: capslock-beep-enable gsetting の追加</li>
@@ -1758,19 +1758,19 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-desktop/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-desktop/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
 <h3>mate-icon-theme<span class="hx:absolute hx:-mt-20" id="mate-icon-theme"></span>
     <a href="#mate-icon-theme" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>一部の png ファイルから実行ビットを削除します。</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
 <h3>mate-indicator-applet<span class="hx:absolute hx:-mt-20" id="mate-indicator-applet"></span>
     <a href="#mate-indicator-applet" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>applet-main: GtkStock アイコンの置き換え</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
 <h3>mate-media<span class="hx:absolute hx:-mt-20" id="mate-media"></span>
     <a href="#mate-media" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ミュート/ミュート解除の checkmenuitem を imagemenuitem へ置き換え</li>
@@ -1778,21 +1778,21 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-media/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-media/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
 <h3>mate-menus MATE メニュー<span class="hx:absolute hx:-mt-20" id="mate-menus-mate-メニュー"></span>
     <a href="#mate-menus-mate-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>コレクション・メニューの追加</li>
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-menus/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-menus/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
 <h3>mate-netbook MATE ネットブック<span class="hx:absolute hx:-mt-20" id="mate-netbook-mate-ネットブック"></span>
     <a href="#mate-netbook-mate-%e3%83%8d%e3%83%83%e3%83%88%e3%83%96%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-window: GtkStock アイコンの置き換え</li>
 <li>mate-maximus-autostart.desktop: 非推奨のエンコード・キーを削除</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-netbook/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-netbook/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
 <h3>MATE 通知デーモン<span class="hx:absolute hx:-mt-20" id="mate-通知デーモン"></span>
     <a href="#mate-%e9%80%9a%e7%9f%a5%e3%83%87%e3%83%bc%e3%83%a2%e3%83%b3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>Do Not Disturb アプレットの追加</li>
@@ -1804,7 +1804,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: at &lt; <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/></a></p>
+<p>完全な changelog は次にあります: at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
 <h3>mate-panel MATE パネル<span class="hx:absolute hx:-mt-20" id="mate-panel-mate-パネル"></span>
     <a href="#mate-panel-mate-%e3%83%91%e3%83%8d%e3%83%ab" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>workspace-switcher: xmonad WM をサポート</li>
@@ -1820,12 +1820,12 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-panel/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-panel/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
 <h3>mate-polkit<span class="hx:absolute hx:-mt-20" id="mate-polkit"></span>
     <a href="#mate-polkit" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-polkit/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-polkit/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
 <h3>mate-power-manager MATE 電源管理<span class="hx:absolute hx:-mt-20" id="mate-power-manager-mate-電源管理"></span>
     <a href="#mate-power-manager-mate-%e9%9b%bb%e6%ba%90%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-power-preferences: キーボードの調光を有効にするオプションの追加</li>
@@ -1839,7 +1839,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
 <h3>mate-screensaver スクリーンセーバ<span class="hx:absolute hx:-mt-20" id="mate-screensaver-スクリーンセーバ"></span>
     <a href="#mate-screensaver-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%bb%e3%83%bc%e3%83%90" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ロック画面で日時の書式を変更できるようにしました。</li>
@@ -1849,7 +1849,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
 <h3>mate-sensors-applet センサーアプレット<span class="hx:absolute hx:-mt-20" id="mate-sensors-applet-センサーアプレット"></span>
     <a href="#mate-sensors-applet-%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%a2%e3%83%97%e3%83%ac%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>aticonfig プラグインの削除</li>
@@ -1857,7 +1857,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>libsensors-plugin: GRegex へ移植</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
 <h3>MATE セッションマネージャ<span class="hx:absolute hx:-mt-20" id="mate-セッションマネージャ"></span>
     <a href="#mate-%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>freedesktop のガイドラインに従って、隠しキーを使用した自動実行を無効にします。</li>
@@ -1869,7 +1869,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
 <h3>mate-settings-daemon<span class="hx:absolute hx:-mt-20" id="mate-settings-daemon"></span>
     <a href="#mate-settings-daemon" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>xsettings: Qt HiDPI 環境設定の改善</li>
@@ -1880,7 +1880,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>2 個のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
 <h3>MATE システムモニタ<span class="hx:absolute hx:-mt-20" id="mate-システムモニタ"></span>
     <a href="#mate-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%83%a2%e3%83%8b%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>Wayland のサポート追加</li>
@@ -1890,7 +1890,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
 <h3>MATE 端末<span class="hx:absolute hx:-mt-20" id="mate-端末"></span>
     <a href="#mate-%e7%ab%af%e6%9c%ab" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>デスクトップファイルの検証警告を修正</li>
@@ -1903,20 +1903,20 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-terminal/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-terminal/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
 <h3>MATE ユーザーガイド<span class="hx:absolute hx:-mt-20" id="mate-ユーザーガイド"></span>
     <a href="#mate-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>一部のイタリア数字から実行ビットを削除</li>
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
 <h3>MATE ユーザー共有<span class="hx:absolute hx:-mt-20" id="mate-ユーザー共有"></span>
     <a href="#mate-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-common の MATE_COMPILE_WARNINGS を使用</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-user-share/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-share/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
 <h3>mate-utils<span class="hx:absolute hx:-mt-20" id="mate-utils"></span>
     <a href="#mate-utils" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-screenshot: 下部にあるボタンの順序を修正</li>
@@ -1927,14 +1927,14 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/mate-utils/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-utils/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
 <h3>Mozo メニューエディタ<span class="hx:absolute hx:-mt-20" id="mozo-メニューエディタ"></span>
     <a href="#mozo-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mozo.ui を最初から書き直し</li>
 <li>collection ディレクトリを編集する際の奇妙な動作を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/mozo/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/mozo/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/</a></p>
 <h3>Pluma テキストエディタ<span class="hx:absolute hx:-mt-20" id="pluma-テキストエディタ"></span>
     <a href="#pluma-%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>sort プラグインを新しい GtkSourceView api へ移植</li>
@@ -1954,7 +1954,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: &lt; <a href="https://github.com/mate-desktop/pluma/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/></a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/pluma/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/</a></p>
 <h3>Pluma プラグイン<span class="hx:absolute hx:-mt-20" id="pluma-プラグイン"></span>
     <a href="#pluma-%e3%83%97%e3%83%a9%e3%82%b0%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>今回のリリースで初登場です。</li>
@@ -1976,7 +1976,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>scan-build によって報告されたメモリリークの修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: &lt; <a href="https://github.com/mate-desktop/python-caja/commits/master/%3e"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/></a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/python-caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
 
         </div>
     <div class="hx:mt-12 hx:mb-8 hx:block hx:text-xs hx:text-gray-500 hx:ltr:text-right hx:rtl:text-left hx:dark:text-gray-400">

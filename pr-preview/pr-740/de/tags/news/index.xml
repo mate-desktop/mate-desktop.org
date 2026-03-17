@@ -204,7 +204,7 @@ zum Nutzen und Wohle aller.&lt;/p&gt;
 &lt;h2&gt;Für Studenten&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;für-studenten&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#f%c3%bcr-studenten&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
-( &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/open-source/gsoc/faq)&lt;/a&gt;.
+(&lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/open-source/gsoc/faq)&lt;/a&gt;.
 Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme
 beitragen wollen, sollten Sie das folgende lesen:&lt;/p&gt;
 &lt;ul&gt;
@@ -252,7 +252,7 @@ und MATE 1.8 wird bald für das Release vorbereitet werden.&lt;/p&gt;
 &lt;p&gt;Daher bitten wir Sie, den Stand der MATE-Übersetzungen, zu denen Sie beitragen,
 auf Transifex zu überprüfen und sie baldmöglichst zu aktualisieren.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Falls Sie noch kein Mitglied des Übersetzer-Teams sind, aber gerne mithelfen möchten,
 dann &lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;melden Sie sich kostenlos an bei Transifex&lt;/a&gt;,
@@ -373,7 +373,7 @@ recommended for fastest download speeds.&lt;/em&gt;&lt;/p&gt;
 über HTTP heruntergeladen werden. Bitte vergewissern Sie sich, dass die heruntergeladene
 Datei zu der SHA1-Checksum passt.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;[matelivecd-14.069.1449.iso] [ ~964MB ]
+&lt;li&gt;[matelivecd-14.069.1449.iso] [~964MB ]
 &lt;ul&gt;
 &lt;li&gt;SHA1: &lt;code&gt;12b529d17d1ecef39d9b0e1122fb5271e0534c0a&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -469,7 +469,7 @@ Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/
 &lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
 auf den folgenden Wiki-Seiten:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt; &lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE%3e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
 MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
