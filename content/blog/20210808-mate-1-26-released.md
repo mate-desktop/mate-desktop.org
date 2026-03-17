@@ -17,7 +17,7 @@ The theme for this release has been adding new functionality to the MATE Desktop
 
 The headline changes in MATE Desktop 1.26 are:
 
-* We added [Wayland](https://wayland.freedesktop.org/) support for Atril, System Monitor, Pluma, Terminal and other components of the Desktop. Furthermore Calculator and Terminal can now be built with [Meson](https://mesonbuild.com/).
+* We added [Wayland]( https://wayland.freedesktop.org/) support for Atril, System Monitor, Pluma, Terminal and other components of the Desktop. Furthermore Calculator and Terminal can now be built with [Meson]( https://mesonbuild.com/).
 * **Pluma** was subject to massive improvements.
     * There is a **new mini map** which gives you instant overview over the content.
     * The **new grid background pattern** turns Pluma into a writing pad.
@@ -28,8 +28,8 @@ The headline changes in MATE Desktop 1.26 are:
 * The **Control Center** features an improved Windows preferences dialog with more options. In the Display dialog we added an option for display scaling.
 * Notifications became even more useful as they gained support for hyperlinks. And we finally **added a Do not Disturb applet**.
 * Speaking of applets, the Window List applet has a new option to disable mouse scrolling. The optional window thumbnails are now **crisp and clear as they are rendered as cairo surfaces**.
-* The Netspeed applet shows more information by default and gained [netlink](https://www.man7.org/linux/man-pages/man7/netlink.7.html) support.
-* The **Calculator** was ported to the [GNU MPFR](https://www.mpfr.org/)/[MPC](http://www.multiprecision.org/mpc) library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).
+* The Netspeed applet shows more information by default and gained [netlink]( https://www.man7.org/linux/man-pages/man7/netlink.7.html) support.
+* The **Calculator** was ported to the [GNU MPFR]( https://www.mpfr.org/)/[MPC]( http://www.multiprecision.org/mpc) library which means more precision, faster computation and additional functions (e.g. Riemann zeta function, Gauss error function).
     * We finally **added a history to show recent computations**.
     * Calculator is now resizeable when the history is activated.
     * Vastly improved integer factorization speed.
@@ -38,15 +38,15 @@ The headline changes in MATE Desktop 1.26 are:
 * Scrolling through large documents in **Atril** is a lot faster now since a slow linear search has been replaced by a binary tree search. The document viewer's **memory footprint got even smaller** as a EvWebView is now only created if needed.
 * The window manager **Marco** now restores minimized windows to its original position more reliable.
 * **Engrampa** got support for Electronic Publication (EPUB) and ARC archives. In addition it can now open encrypted RAR archives.
-* The **Power Manager** has a new option to enable keyboard dimming and has been ported to [libsecret](https://wiki.gnome.org/Projects/Libsecret).
+* The **Power Manager** has a new option to enable keyboard dimming and has been ported to [libsecret]( https://wiki.gnome.org/Projects/Libsecret).
 * Most About dialogs have been updated with nicer descriptions. Because small things matter `:-)`.
 * We fixed a lot of bugs, some memory leaks and modernised the codebase of almost all of the Desktop components.
-* There is a new [Wiki](https://wiki.mate-desktop.org/) which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to [contact us](https://wiki.mate-desktop.org/introduction/contributing/) or [start contributing](https://wiki.mate-desktop.org/introduction/contributing/).
+* There is a new [Wiki]( https://wiki.mate-desktop.org/) which makes it easier for new contributors to join our project. We urgently need motivated people so do not hesitate to [contact us]( https://wiki.mate-desktop.org/introduction/contributing/) or [start contributing]( https://wiki.mate-desktop.org/introduction/contributing/).
 * Translations are updated. Thank you to our team of translators!
 
 The various components of MATE Desktop 1.26 are available for download here:
 
-  * <https://pub.mate-desktop.org/releases/1.26/>
+  * < https://pub.mate-desktop.org/releases/1.26/>
 
 
 ## More details
@@ -65,7 +65,7 @@ Here are the gory details.
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/atril/commits/master/>
 
 ### caja
 * You can now add information of the creation time in the list columns
@@ -83,7 +83,7 @@ Complete changelog at <https://github.com/mate-desktop/atril/commits/master/>
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/caja/commits/master/>
 
 ### caja-actions
 * Makes its first appearance in this release
@@ -95,7 +95,7 @@ Complete changelog at <https://github.com/mate-desktop/caja/commits/master/>
 * Add i18n support
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/caja-dropbox/commits/master/>
 
 ### caja-extensions
 * gksu: do not run the command on a new thread
@@ -106,7 +106,7 @@ Complete changelog at <https://github.com/mate-desktop/caja-dropbox/commits/mast
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/caja-extensions/commits/master/>
 
 ### engrampa
 * rar 6.00: Fix listing archive content with encrypted file list
@@ -117,7 +117,7 @@ Complete changelog at <https://github.com/mate-desktop/caja-extensions/commits/m
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/engrampa/commits/master/>
 
 ### eom
 * Upgrade ui files
@@ -127,19 +127,19 @@ Complete changelog at <https://github.com/mate-desktop/engrampa/commits/master/>
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/eom/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/eom/commits/master/>
 
 ### libmatekbd
 * Reduce the font size of the key names on keyboard layout display
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmatekbd/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/libmatekbd/commits/master/>
 
 ### libmatemixer
 * alsa: Add udev support
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmatemixer/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/libmatemixer/commits/master/>
 
 ### libmateweather
 * Drop Berlin Tegel
@@ -147,7 +147,7 @@ Complete changelog at <https://github.com/mate-desktop/libmatemixer/commits/mast
 * Update cities in Thailand
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/libmateweather/commits/master/>
 
 ### marco
 * window: Add support for _GNOME_WM_STRUT_AREA
@@ -163,7 +163,7 @@ Complete changelog at <https://github.com/mate-desktop/libmateweather/commits/ma
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets
 * netspeed: Allow to select an interface which is down
@@ -179,13 +179,13 @@ Complete changelog at <https://github.com/mate-desktop/marco/commits/master/>
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-applets/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-applets/commits/master/>
 
 ### mate-backgrounds
 * New 'Something slowly gets clear' elephants wallpaper
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
 
 ### mate-calc
 * Port to GNU MPFR/MPC Library
@@ -202,12 +202,12 @@ Complete changelog at <https://github.com/mate-desktop/mate-backgrounds/commits/
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-calc/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-calc/commits/master/>
 
 ### mate-common
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-common/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-common/commits/master/>
 
 ### mate-control-center
 * windows-applet: New Show window border in Alt-Tab and Allow top tiling (Window-Snapping) option
@@ -224,7 +224,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-common/commits/maste
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-control-center/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-control-center/commits/master/>
 
 ### mate-desktop
 * a11y-keyboard: Add capslock-beep-enable gsetting
@@ -233,19 +233,19 @@ Complete changelog at <https://github.com/mate-desktop/mate-control-center/commi
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-desktop/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-desktop/commits/master/>
 
 ### mate-icon-theme
 * Remove the execution bit from some png files
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
 
 ### mate-indicator-applet
 * applet-main: Replace GtkStock icon
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
 
 ### mate-media
 * Replace mute/unmute checkmenuitem with imagemenuitem
@@ -253,21 +253,21 @@ Complete changelog at <https://github.com/mate-desktop/mate-indicator-applet/com
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-media/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-media/commits/master/>
 
 ### mate-menus
 * Add collection menu item
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-menus/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-menus/commits/master/>
 
 ### mate-netbook
 * mate-window: Replace GtkStock icons
 * mate-maximus-autostart.desktop: Remove the deprecated Encoding key
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-netbook/commits/master/>
 
 ### mate-notification-daemon
 * Add Do Not Disturb Applet
@@ -279,7 +279,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-netbook/commits/mast
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
 
 ### mate-panel
 * workspace-switcher: Support xmonad WM
@@ -295,12 +295,12 @@ Complete changelog at <https://github.com/mate-desktop/mate-notification-daemon/
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-panel/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-panel/commits/master/>
 
 ### mate-polkit
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-polkit/commits/master/>
 
 ### mate-power-manager
 * mate-power-preferences: Add option to enable keyboard dimming
@@ -314,7 +314,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-polkit/commits/maste
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-power-manager/commits/master/>
 
 ### mate-screensaver
 * Allow change of time and date formats on lock screen
@@ -324,7 +324,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-power-manager/commit
 * Fix several memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-screensaver/commits/master/>
 
 ### mate-sensors-applet
 * Drop aticonfig plugin
@@ -332,7 +332,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-screensaver/commits/
 * libsensors-plugin: Port to GRegex
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
 
 ### mate-session-manager
 * Follow freedesktop guidelines to disable autorun using Hidden key
@@ -344,7 +344,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-sensors-applet/commi
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-session-manager/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-session-manager/commits/master/>
 
 ### mate-settings-daemon
 * xsettings: Improve Qt HiDPI environment settings
@@ -355,7 +355,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-session-manager/comm
 * Fix two memory leaks
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
 
 ### mate-system-monitor
 * Add Wayland support
@@ -365,7 +365,7 @@ Complete changelog at <https://github.com/mate-desktop/mate-settings-daemon/comm
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
 
 ### mate-terminal
 * Fix desktop file validation warning
@@ -378,20 +378,20 @@ Complete changelog at <https://github.com/mate-desktop/mate-system-monitor/commi
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-terminal/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-terminal/commits/master/>
 
 ### mate-user-guide
 * Remove the execution bit from some Italian figures
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-user-guide/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-user-guide/commits/master/>
 
 ### mate-user-share
 * Use MATE_COMPILE_WARNINGS from mate-common
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-user-share/commits/master/>
 
 ### mate-utils
 * mate-screenshot: Fix the order of the buttons at the bottom
@@ -402,14 +402,14 @@ Complete changelog at <https://github.com/mate-desktop/mate-user-share/commits/m
 * build: Add option to disable Native Language Support (NLS) (`--disable-nls`)
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mate-utils/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mate-utils/commits/master/>
 
 ### mozo
 * Rewrite mozo.ui from scratch
 * Fix a strange behavior when editing the collection directory
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/mozo/commits/master/>
 
 ### pluma
 * Port sort plugin to the new GtkSourceView api.
@@ -429,7 +429,7 @@ Complete changelog at <https://github.com/mate-desktop/mozo/commits/master/>
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/pluma/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/pluma/commits/master/>
 
 ### pluma-plugins
 * Makes its first appearance in this release
@@ -447,4 +447,4 @@ Complete changelog at <https://github.com/mate-desktop/pluma/commits/master/>
 * Fix memory leak reported by scan-build
 * g10n: Update the translations
 
-Complete changelog at <https://github.com/mate-desktop/python-caja/commits/master/>
+Complete changelog at < https://github.com/mate-desktop/python-caja/commits/master/>

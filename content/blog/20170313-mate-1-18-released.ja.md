@@ -23,7 +23,7 @@ MATE デスクトップ 1.18 の主な変更項目は次のとおりです。
   * **マウスとタッチパッドの `libinput` サポートを追加しました。**
     * 利き手 (左利き/右利き) と動作加速度/しきい値を個別に設定します。
   * **操作支援サポート (特に視覚障害者向け) が大幅に改善されました。**
-     * [Hypra.fr](https://hypra.fr/-Home-17-.html?lang=en) にいる私たちの友人の貢献に感謝します！
+     * [Hypra.fr]( https://hypra.fr/-Home-17-.html?lang=en) にいる私たちの友人の貢献に感謝します！
   * **Caja に複数の新機能が追加されました** それは以下のとおりです。
       * コピーキューとコピーの一時停止が追加されました。
       * ファイルをゴミ箱に移動する前に確認します。
@@ -31,9 +31,9 @@ MATE デスクトップ 1.18 の主な変更項目は次のとおりです。
       * ドライブ取り出し時に安全に取り外し可能であることを通知します。
   * **画面ロック時には、ユーザーが選択した背景をロードできます。**システム定義のデフォルトに替えて使用します。
   * MATEパネルには、次のとおり複数の改善を加えました。
-    * **追加の起動オプションに対して、[デスクトップアクション](https://specifications.freedesktop.org/desktop-entry-spec/latest/) のサポートを追加しました**。
+    * **追加の起動オプションに対して、[デスクトップアクション]( https://specifications.freedesktop.org/desktop-entry-spec/latest/) のサポートを追加しました**。
     * StatusNotifier のサポートを追加。
-    * **[Menulibre](https://smdavis.us/projects/menulibre/) メニューエディタのサポートが追加されました**。もしこれがインストールされている場合は、Mozo よりも優先されます。
+    * **[Menulibre]( https://smdavis.us/projects/menulibre/) メニューエディタのサポートが追加されました**。もしこれがインストールされている場合は、Mozo よりも優先されます。
   * 書庫マネージャ Engrampa には以下の改善が含まれています。
     * サポートされる形式一覧に `ear` と `war` を追加しました。
     * 正しい日付が表示されているかどうか、rar/unrar のバージョンをチェック
@@ -51,7 +51,7 @@ MATE デスクトップ 1.18 の主な変更項目は次のとおりです。
 
 MATE デスクトップ 1.18 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * <https://pub.mate-desktop.org/releases/1.18/>
+  * < https://pub.mate-desktop.org/releases/1.18/>
 
 ## Changelog 変更点
 

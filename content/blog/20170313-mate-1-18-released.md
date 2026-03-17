@@ -28,7 +28,7 @@ The headline changes in MATE Desktop 1.18 are:
   * **Added `libinput` support for mouse and touchpad.**
     * Separate settings for handedness (left/right-handed) and motion acceleration/threshold.
   * **Much improved accessibility support (particularly for visually impaired users).**
-     * Many thanks to our friends at [Hypra.fr](https://hypra.fr/-Home-17-.html?lang=en) for their contribution!
+     * Many thanks to our friends at [Hypra.fr]( https://hypra.fr/-Home-17-.html?lang=en) for their contribution!
   * **Caja adds several new features** including:
       * Added a copy queue and copy pausing.
       * Asking confirmation before moving files to the Trash.
@@ -36,9 +36,9 @@ The headline changes in MATE Desktop 1.18 are:
       * Notification when ejected drives are safe to unplug.
   * **Lock screen will load the users selected background** instead of the system defined default.
   * MATE Panel gets several improvements, including:
-    * **Added [desktop actions](https://specifications.freedesktop.org/desktop-entry-spec/latest/) support for additional launch options**.
+    * **Added [desktop actions]( https://specifications.freedesktop.org/desktop-entry-spec/latest/) support for additional launch options**.
     * Added StatusNotifier support.
-    * **Added support for [Menulibre](https://smdavis.us/projects/menulibre/) menu editor**, if installed it is preferred over Mozo.
+    * **Added support for [Menulibre]( https://smdavis.us/projects/menulibre/) menu editor**, if installed it is preferred over Mozo.
   * Engrampa, the archive manager, includes a number of improvements:
     * Added `ear` and `war` to the supported types list.
     * Check the rar/unrar version if the correct date is shown.
@@ -56,7 +56,7 @@ The headline changes in MATE Desktop 1.18 are:
 
 The various components of MATE Desktop 1.18 are available for download here:
 
-  * <https://pub.mate-desktop.org/releases/1.18/>
+  * < https://pub.mate-desktop.org/releases/1.18/>
 
 ## Changelog
 

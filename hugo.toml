@@ -63,6 +63,41 @@ summaryLength = 50
     languageCode = 'zh-TW'
     weight = 9
     title = 'MATE 桌面環境'
+  [languages.he]
+    languageName = 'עברית'
+    languageCode = 'he'
+    weight = 10
+    title = 'MATE Desktop Environment'
+  [languages.pl]
+    languageName = 'Polski'
+    languageCode = 'pl'
+    weight = 11
+    title = 'MATE Desktop Environment'
+  [languages.pt]
+    languageName = 'Português'
+    languageCode = 'pt'
+    weight = 12
+    title = 'MATE Desktop Environment'
+  [languages.pt_br]
+    languageName = 'Português (Brasil)'
+    languageCode = 'pt-BR'
+    weight = 13
+    title = 'MATE Desktop Environment'
+  [languages.ru]
+    languageName = 'Русский'
+    languageCode = 'ru'
+    weight = 14
+    title = 'MATE Desktop Environment'
+  [languages.sr]
+    languageName = 'Srpski'
+    languageCode = 'sr'
+    weight = 15
+    title = 'MATE Desktop Environment'
+  [languages.uk]
+    languageName = 'Українська'
+    languageCode = 'uk'
+    weight = 16
+    title = 'MATE Desktop Environment'
 
 [params]
   description = 'MATE Desktop Environment - A continuation of GNOME 2'

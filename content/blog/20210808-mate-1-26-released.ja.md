@@ -16,7 +16,7 @@ slug: 2021-08-08-mate-1-26-released
 
 MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 
-* 私たちは、[Wayland](https://wayland.freedesktop.org/)では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は [Meson](https://mesonbuild.com/) でビルドできるようになりました。
+* 私たちは、[Wayland]( https://wayland.freedesktop.org/)では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は [Meson]( https://mesonbuild.com/) でビルドできるようになりました。
 * **Pluma** は大幅に改善されました。
     * コンテンツの概要を即時に確認できる**新しいミニマップ**があります。
     * **新しいグリッド背景パターン**によって、Pluma が手書きパッドへと変わります。
@@ -27,8 +27,8 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 * **コントロールセンタ**では、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。
 * 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、**「Do not Disturb」アプレット**が追加されました。
 * アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは **cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました**。
-* ネットスピード・アプレットはデフォルトで詳細情報を表示し、[netlink](https://www.man7.org/linux/man-pages/man7/netlink.7.html) をサポートします。
-* **電卓**は [GNU MPFR](https://www.mpfr.org/)/[MPC](http://www.multiprecision.org/mpc) ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
+* ネットスピード・アプレットはデフォルトで詳細情報を表示し、[netlink]( https://www.man7.org/linux/man-pages/man7/netlink.7.html) をサポートします。
+* **電卓**は [GNU MPFR]( https://www.mpfr.org/)/[MPC]( http://www.multiprecision.org/mpc) ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
     * 私たちはついに**最近の計算を示す履歴を追加しました**。
     * 履歴がアクティブな時、電卓のサイズを変更できるようになりました。
     * 整数の因数分解速度が大幅に向上しました。
@@ -37,15 +37,15 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 * **Atril** では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアの**メモリフットプリントはさらに小さくなりました**。
 * ウィンドウマネージャ **Marco** は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。
 * **Engrampa** は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。
-* **電源管理**にはキーボードの調光を有効にする新しいオプションがあります。これは [libsecret](https://wiki.gnome.org/Projects/Libsecret) へ移植されています。
+* **電源管理**にはキーボードの調光を有効にする新しいオプションがあります。これは [libsecret]( https://wiki.gnome.org/Projects/Libsecret) へ移植されています。
 * 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 `:-)` です。
 * 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。
-* 新しい [Wiki](https://wiki.mate-desktop.org/) が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、[連絡を取る](https://wiki.mate-desktop.org/introduction/contributing/)ことや[貢献を開始する](https://wiki.mate-desktop.org/introduction/contributing/)ことを遠慮せずにお願いします。
+* 新しい [Wiki]( https://wiki.mate-desktop.org/) が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、[連絡を取る]( https://wiki.mate-desktop.org/introduction/contributing/)ことや[貢献を開始する]( https://wiki.mate-desktop.org/introduction/contributing/)ことを遠慮せずにお願いします。
 * 翻訳が更新されました。翻訳チームのみなさんに感謝します！
 
 MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * <https://pub.mate-desktop.org/releases/1.26/>
+  * < https://pub.mate-desktop.org/releases/1.26/>
 
 
 ## 詳細情報
@@ -64,7 +64,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/atril/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/atril/commits/master/>
 
 ### Caja ファイルマネージャ
 * 作成時刻の情報をリストの列に追加できるようになりました。
@@ -82,7 +82,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja/commits/master/>
 
 ### caja-actions
 * 今回のリリースで初登場です。
@@ -94,7 +94,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * i18n のサポートを追加
 * g10n: 翻訳の更新
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja-dropbox/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja-dropbox/commits/master/>
 
 ### caja-extensions
 * gksu: 新しいスレッドでコマンドを実行しません
@@ -105,7 +105,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja-extensions/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja-extensions/commits/master/>
 
 ### Engrampa 書庫マネージャ
 * rar 6.00: アーカイブファイルの内容リストを暗号化ファイルリストに修正
@@ -116,7 +116,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な変更点は次にあります：<https://github.com/mate-desktop/engrampa/commits/master/>
+完全な変更点は次にあります：< https://github.com/mate-desktop/engrampa/commits/master/>
 
 ### eom 画像ビューア
 * ui ファイルのアップグレード
@@ -126,19 +126,19 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な変更点は、<https://github.com/mate-desktop/eom/commits/master/> に掲載しています。
+完全な変更点は、< https://github.com/mate-desktop/eom/commits/master/> に掲載しています。
 
 ### libmatekbd
 * キーボードレイアウト表示のキー名のフォントサイズを小さくしました。
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/libmatekbd/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/libmatekbd/commits/master/>
 
 ### libmatemixer
 * alsa: udev サポートの追加
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/libmatemixer/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/libmatemixer/commits/master/>
 
 ### libmateweather お天気 MATE
 * ベルリン・テーゲル空港を外しました。
@@ -146,7 +146,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * タイの都市を更新
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmateweather/commits/master/>
+完全な変更点は次のとおりです < https://github.com/mate-desktop/libmateweather/commits/master/>
 
 ### Marco ウィンドウマネージャ
 * window: _GNOME_WM_STRUT_AREA のサポートを追加
@@ -162,7 +162,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/marco/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets MATE アプレット
 * netspeed: ダウンしているインターフェイスを選択できます。
@@ -178,13 +178,13 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります： <https://github.com/mate-desktop/mate-applets/commits/master/>
+完全な changelog は次にあります： < https://github.com/mate-desktop/mate-applets/commits/master/>
 
 ### mate-backgrounds 背景
 * 新しい 'Something slowly gets clear' というゾウの壁紙
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
 
 ### mate-calc 電卓
 * GNU MPFR/MPC ライブラリへ移植
@@ -201,12 +201,12 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-calc/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-calc/commits/master/>
 
 ### mate-common
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-common/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-common/commits/master/>
 
 ### mate-control-center コントロールセンタ
 * windows-applet: 新しく、Alt-Tab でウィンドウの境界表示と、トップタイリング（ウィンドウスナップ）許可のオプションを追加
@@ -223,7 +223,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-control-center/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-control-center/commits/master/>
 
 ### mate-desktop
 * a11y-keyboard: capslock-beep-enable gsetting の追加
@@ -232,19 +232,19 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-desktop/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-desktop/commits/master/>
 
 ### mate-icon-theme
 * 一部の png ファイルから実行ビットを削除します。
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
 
 ### mate-indicator-applet
 * applet-main: GtkStock アイコンの置き換え
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
 
 ### mate-media
 * ミュート/ミュート解除の checkmenuitem を imagemenuitem へ置き換え
@@ -252,21 +252,21 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-media/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-media/commits/master/>
 
 ### mate-menus MATE メニュー
 * コレクション・メニューの追加
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-menus/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-menus/commits/master/>
 
 ### mate-netbook MATE ネットブック
 * mate-window: GtkStock アイコンの置き換え
 * mate-maximus-autostart.desktop: 非推奨のエンコード・キーを削除
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-netbook/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-netbook/commits/master/>
 
 ### MATE 通知デーモン
 * Do Not Disturb アプレットの追加
@@ -278,7 +278,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+完全な changelog は次にあります: at < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
 
 ### mate-panel MATE パネル
 * workspace-switcher: xmonad WM をサポート
@@ -294,12 +294,12 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-panel/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-panel/commits/master/>
 
 ### mate-polkit
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-polkit/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-polkit/commits/master/>
 
 ### mate-power-manager MATE 電源管理
 * mate-power-preferences: キーボードの調光を有効にするオプションの追加
@@ -313,7 +313,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-power-manager/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-power-manager/commits/master/>
 
 ### mate-screensaver スクリーンセーバ
 * ロック画面で日時の書式を変更できるようにしました。
@@ -323,7 +323,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 複数のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-screensaver/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-screensaver/commits/master/>
 
 ### mate-sensors-applet センサーアプレット
 * aticonfig プラグインの削除
@@ -331,7 +331,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * libsensors-plugin: GRegex へ移植
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
 
 ### MATE セッションマネージャ
 * freedesktop のガイドラインに従って、隠しキーを使用した自動実行を無効にします。
@@ -343,7 +343,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-session-manager/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-session-manager/commits/master/>
 
 ### mate-settings-daemon
 * xsettings: Qt HiDPI 環境設定の改善
@@ -354,7 +354,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * 2 個のメモリリークを修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
 
 ### MATE システムモニタ
 * Wayland のサポート追加
@@ -364,7 +364,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
 
 ### MATE 端末
 * デスクトップファイルの検証警告を修正
@@ -377,20 +377,20 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-terminal/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-terminal/commits/master/>
 
 ### MATE ユーザーガイド
 * 一部のイタリア数字から実行ビットを削除
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-user-guide/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-user-guide/commits/master/>
 
 ### MATE ユーザー共有
 * mate-common の MATE_COMPILE_WARNINGS を使用
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-user-share/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-user-share/commits/master/>
 
 ### mate-utils
 * mate-screenshot: 下部にあるボタンの順序を修正
@@ -401,14 +401,14 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * build: ネイティブ言語サポート (NLS) を無効にするオプション (`--disable-nls`) を追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-utils/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-utils/commits/master/>
 
 ### Mozo メニューエディタ
 * mozo.ui を最初から書き直し
 * collection ディレクトリを編集する際の奇妙な動作を修正
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/mozo/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/mozo/commits/master/>
 
 ### Pluma テキストエディタ
 * sort プラグインを新しい GtkSourceView api へ移植
@@ -428,7 +428,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/pluma/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/pluma/commits/master/>
 
 ### Pluma プラグイン
 * 今回のリリースで初登場です。
@@ -446,4 +446,4 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 * scan-build によって報告されたメモリリークの修正
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/python-caja/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/python-caja/commits/master/>

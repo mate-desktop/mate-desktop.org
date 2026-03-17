@@ -16,7 +16,7 @@ slug: 2020-02-10-mate-1-24-released
 
 * ユーザーがセッションを開始すると、MATE デスクトップ環境は以前よりも使いやすくなりました。アプリケーションの起動を非表示にしたいですか？ 今では、起動時に表示するアプリケーションが設定できるようになりました。
 * **Engrampa**は現在、複数の形式を追加でサポートするほか、一部の形式ではパスワードとユニコード文字のサポートが改善されています。
-* **Eye of MATE** は現在、[Wayland](https://wayland.freedesktop.org/) をサポートしていて、埋め込みカラープロファイルもサポートしています。
+* **Eye of MATE** は現在、[Wayland]( https://wayland.freedesktop.org/) をサポートしていて、埋め込みカラープロファイルもサポートしています。
     * サムネイルの生成は、いくつかの箇所で修正されています。
     * Webp ファイルのサポートが追加されました。
 * 標準のウィンドウマネージャ **marco** には、次のように多くの変更があります。
@@ -37,12 +37,12 @@ slug: 2020-02-10-mate-1-24-released
 * アイコンについて言えば、私たち自身のテーマ上でのネットワークマネージャアプレットアイコンは完全に再設計され、HiDPI ディスプレイで利用可能となりました。
 * 忙しい時やプレゼンテーションをしている時、映画を見ている時に邪魔をされたくないタイプの人は、**通知デーモン**が Do-Not-Disturb モードをサポートするようになったことを知って喜ぶでしょう。
 * **MATE パネル**にはいくつかのバグがあって、以前はレイアウトを変更するとクラッシュしていましたが、今では修正されました！
-    * [Wayland](https://wayland.freedesktop.org/) との互換性が大幅に向上しました。
+    * [Wayland]( https://wayland.freedesktop.org/) との互換性が大幅に向上しました。
     * ステータスアイコン (**通知領域**または**システムトレイ**とも呼びます) は、HiDPI 表示をサポートします。
     * **おさかな君ワンダ**が変身したので、今あなたはおさかな君を HiDPI の壮観さの中で楽しむことができます。
     * **ウィンドウリスト**アプレットは、カーソルを上に置いた時、ウィンドウのサムネイルを表示するようになりました。
     * パネルと主要なアプレット全体で、さまざまな支援技術の改善が行われました。
-* ご使用のシステムが [systemd](https://freedesktop.org/wiki/Software/systemd/) をサポートしていない場合、[elogind](https://github.com/elogind/elogind) のサポートが **MATEスクリーンセーバー**と **MATEセッション**の両方に追加されたことに関心があると思います。
+* ご使用のシステムが [systemd]( https://freedesktop.org/wiki/Software/systemd/) をサポートしていない場合、[elogind]( https://github.com/elogind/elogind) のサポートが **MATEスクリーンセーバー**と **MATEセッション**の両方に追加されたことに関心があると思います。
 * さらに、全く新しい **MATE ディスクイメージ・マウンタ**というユーティリティも追加されました。
 * メニューエディタの **Mozo** は、「元に戻す」と「やり直し」操作をサポートするようになりました。
 * **Pluma** プラグインは完全に Python 3 へ移行しました。
@@ -53,7 +53,7 @@ slug: 2020-02-10-mate-1-24-released
 
 MATE デスクトップ 1.24 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * <https://pub.mate-desktop.org/releases/1.24/>
+  * < https://pub.mate-desktop.org/releases/1.24/>
 
 ## 詳細情報
 
@@ -77,7 +77,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な変更点はこちら: <https://github.com/mate-desktop/atril/commits/master/>
+完全な変更点はこちら: < https://github.com/mate-desktop/atril/commits/master/>
 
 ### Caja ファイルマネージャ
 * gcc10 が使用可能に
@@ -109,13 +109,13 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja/commits/master/>
 
 ### Caja-dropbox
 * CAJA_EXTENSION_DIR_SYS を使用して、Caja 拡張ディレクトリを保存および表示
 * caja-extension-dir の絶対パスを表示
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja-dropbox/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja-dropbox/commits/master/>
 
 ### Caja 拡張機能
 * caja-wallpaper-extension: メモリリークの修正
@@ -127,7 +127,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は次の changelog にあります: <https://github.com/mate-desktop/caja-extensions/commits/master/>
+完全な変更点は次の changelog にあります: < https://github.com/mate-desktop/caja-extensions/commits/master/>
 
 ### Engrampa 書庫マネージャ
 * gcc 10 の使用が可能に
@@ -151,7 +151,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は次にあります：<https://github.com/mate-desktop/engrampa/commits/master/>
+完全な変更点は次にあります：< https://github.com/mate-desktop/engrampa/commits/master/>
 
 ### eom
 * webp ファイル用の eom-thumbnailer を追加
@@ -167,7 +167,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は、<https://github.com/mate-desktop/eom/commits/master/> に掲載しています。
+完全な変更点は、< https://github.com/mate-desktop/eom/commits/master/> に掲載しています。
 
 ### libmatekbd
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析、非推奨警告の修正
@@ -175,14 +175,14 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmatekbd/commits/master/>
+完全な変更点は次のとおりです < https://github.com/mate-desktop/libmatekbd/commits/master/>
 
 ### libmatemixer
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析、非推奨警告の修正
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmatemixer/commits/master/>
+完全な変更点は次のとおりです < https://github.com/mate-desktop/libmatemixer/commits/master/>
 
 ### お天気 MATE
 * 場所: Lleida–Alguaire Airport weather station を追加
@@ -191,7 +191,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/libmateweather/commits/master/>
+完全な変更点は次のとおりです < https://github.com/mate-desktop/libmateweather/commits/master/>
 
 ### marco
 * テーマ: 全テーマのウィンドウ制御の非表示レンダリングを修正
@@ -212,7 +212,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです <https://github.com/mate-desktop/marco/commits/master/>
+完全な変更点は次のとおりです < https://github.com/mate-desktop/marco/commits/master/>
 
 ### mate-applets
 * gcc10 を使用する準備が整っています
@@ -229,14 +229,14 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります： <https://github.com/mate-desktop/mate-applets/commits/master/>
+完全な changelog は次にあります： < https://github.com/mate-desktop/mate-applets/commits/master/>
 
 ### mate-backgrounds
 * meson ビルドシステムのサポートを有効化
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
 
 ### mate-calc
 
@@ -254,7 +254,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-calc/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-calc/commits/master/>
 
 ### mate-common
 * MATE_CXX_WARNINGS マクロの更新
@@ -262,7 +262,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * AX_APPEND_FLAG および AX_CHECK_COMPILE_FLAG が使用可能かをチェック
 * mate-compiler-flags マクロの更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-common/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-common/commits/master/>
 
 ### mate-control-center
 * システムデータディレクトリ内でシステムのテーマを検索
@@ -289,7 +289,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-control-center/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-control-center/commits/master/>
 
 ### mate-desktop
 * mate_desktop_thumbnail_scale_down_pixbuf() の削除
@@ -305,7 +305,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-desktop/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-desktop/commits/master/>
 
 ### mate-icon-theme
 * モバイルネットワーク接続のステータスアイコンを追加
@@ -326,14 +326,14 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
 
 ### mate-indicator-applet
 * インジケータアイコンのサイズをパネルに合わせて変更
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
 
 ### mate-media
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -346,14 +346,14 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-media/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-media/commits/master/>
 
 ### mate-menus
 * gir ファイルのインストール時に datadir 変数と libdir 変数を使用
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-menus/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-menus/commits/master/>
 
 ### mate-netbook
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -363,7 +363,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-netbook/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-netbook/commits/master/>
 
 ### mate-notification-daemon
 * mate-notification-properties.ui に gresource を使用
@@ -371,7 +371,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: at <https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+完全な changelog は次にあります: at < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
 
 ### mate-panel
 * パネルのトップレベルでの a11y の重複説明を回避
@@ -397,7 +397,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-panel/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-panel/commits/master/>
 
 ### mate-polkit
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -405,7 +405,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-polkit/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-polkit/commits/master/>
 
 ### mate-power-manager
 * icons: 高解像度のアイコンを追加
@@ -418,7 +418,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext への移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-power-manager/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-power-manager/commits/master/>
 
 ### mate-screensaver
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -428,13 +428,13 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * ELOGIND サポートの追加
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-screensaver/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-screensaver/commits/master/>
 
 ### mate-sensors-applet
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
 
 ### mate-session-manager
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -452,7 +452,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-session-manager/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-session-manager/commits/master/>
 
 ### mate-settings-daemon
 * DBUS 1.10.0 以降が必要
@@ -470,7 +470,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
 
 ### mate-system-monitor
 
@@ -489,7 +489,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
 
 ### mate-terminal
 * gcc 10 の使用が可能に
@@ -502,7 +502,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-terminal/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-terminal/commits/master/>
 
 ### mate-user-guide
 * reporting-bugs セクションの更新
@@ -512,7 +512,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * マニュアルを docbook 5.0 へアップグレード
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-user-guide/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-user-guide/commits/master/>
 
 ### mate-user-share
 * Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正
@@ -520,7 +520,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-user-share/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-user-share/commits/master/>
 
 ### mate-utils
 * gcc 10 の使用が可能に
@@ -536,7 +536,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/mate-utils/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/mate-utils/commits/master/>
 
 ### mozo
 * 元に戻す ボタンと やり直し ボタンを追加
@@ -547,7 +547,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/mozo/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/mozo/commits/master/>
 
 ### pluma
 * 印刷できない文字 (スペース/タブ/改行) を表示する機能を追加
@@ -565,7 +565,7 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な変更点は次のとおりです: <https://github.com/mate-desktop/pluma/commits/master/>
+完全な変更点は次のとおりです: < https://github.com/mate-desktop/pluma/commits/master/>
 
 ### python-caja
 * gcc 10 の使用が可能に
@@ -574,4 +574,4 @@ MATE デスクトップ 1.24 の各種コンポーネントは、次の場所か
 * i18n: intltools から gettext へ移行
 * g10n: 翻訳の更新
 
-完全な changelog は次にあります: <https://github.com/mate-desktop/python-caja/commits/master/>
+完全な changelog は次にあります: < https://github.com/mate-desktop/python-caja/commits/master/>
