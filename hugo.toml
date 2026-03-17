@@ -102,6 +102,7 @@ summaryLength = 50
 [params]
   description = 'MATE Desktop Environment - A continuation of GNOME 2'
   displayUpdatedDate = true
+  displayUpdatedAuthor = true
   dateFormat = 'January 2, 2006'
 
   [params.search]
