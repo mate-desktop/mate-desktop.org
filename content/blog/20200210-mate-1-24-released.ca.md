@@ -16,7 +16,7 @@ Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afeg
 
 * Ho hem tornat a fer, l’entorn d’escriptori MATE és més fàcil d’utilitzar, des de què l’usuari inicia la sessió. Voleu amagar l’inici d’aplicacions? Ara podeu definir quines aplicacions es mostraran a l’inici.
 * **Engrampa** ara és compatible amb alguns formats d'arxius nous, i també és compatible amb contrasenyes i caràcters Unicode amb alguns tipus d'arxius.
-* **Eye of MATE** ara funciona a [Wayland]( https://wayland.freedesktop.org/) i hem afegit compatibilitat per als perfils de colors incrustats.
+* **Eye of MATE** ara funciona a [Wayland](https://wayland.freedesktop.org/) i hem afegit compatibilitat per als perfils de colors incrustats.
     * La generació de les imatges de les miniatures ha estat modificada i corregida des de l'aplicació
     * Hem afegit compatibilitat per a WebP.
 * El nostre de gestor de finestres **Marco**, incorpora molts canvis:
@@ -37,12 +37,12 @@ Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afeg
 * Parlant de les icones, hem redissenyat als nostres temes les icones de la miniaplicació **NetworkManager** i ara es poden veure correctament en pantalles HiDPI.
 * Si sou dels qui li agrada que no us molestin quan esteu ocupats o bé esteu fent una presentació o bé esteu mirant una pel·lícula, estareu encantats de saber que el **dimoni de notificacions** ara incorpora el mode no molestar.
 * El **Tauler de MATE** tenia diversos errors que provocaven accidents heretats en fer canvis al disseny. Els hem solucionat!
-    * El suport per a [Wayland]( https://wayland.freedesktop.org/) ha millorat força.
+    * El suport per a [Wayland](https://wayland.freedesktop.org/) ha millorat força.
     * Les icones d'estat (també conegut com a **àrea de notificacions** o **safata del sistema**) funcionen correctament en pantalles HiDPI.
     * El **peix Wanda** ha sofert un canvi d'imatge i ara el podeu veure en alta resolució.
     * La miniaplicació de la **llista de finestres** ara mostra miniatures de les finestres en passar-hi el cursor per damunt.
     * Millores d’accessibilitat en tot el tauler i en les seves miniaplicacions principals.
-* Si el vostre sistema no li agrada [systemd]( https://freedesktop.org/wiki/Software/systemd/), potser us interessa saber que hem afegit suport per a [elogind]( https://github.com/elogind/elogind) tant per a l'**estalvi de pantalla** com per al gestor de **sessions**.
+* Si el vostre sistema no li agrada [systemd](https://freedesktop.org/wiki/Software/systemd/), potser us interessa saber que hem afegit suport per a [elogind](https://github.com/elogind/elogind) tant per a l'**estalvi de pantalla** com per al gestor de **sessions**.
 * Hem afegit una eina nova, el **Muntador d'imatge de discs de MATE**
 * **Mozo**, l'editor de menús, ara us permet desfer i refer els canvis.
 * Ara tots els connectors de **Pluma** estan escrits amb Python 3.
@@ -53,7 +53,7 @@ Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afeg
 
 Els diferents components que integres l'entorn d'escriptori MATE 1.24 es poden baixar des del següent enllaç:
 
-  * < https://pub.mate-desktop.org/releases/1.24/>
+  * [https://pub.mate-desktop.org/releases/1.24/](https://pub.mate-desktop.org/releases/1.24/)
 
 ## Más detalles
 
@@ -77,7 +77,7 @@ Aquí hi ha més detalls dels canvis més interessants.
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/atril/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/atril/commits/master/](https://github.com/mate-desktop/atril/commits/master/)
 
 ### caja
 * Ready for using gcc 10
@@ -109,13 +109,13 @@ Llista de tots els canvis: < https://github.com/mate-desktop/atril/commits/maste
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/caja/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/caja/commits/master/](https://github.com/mate-desktop/caja/commits/master/)
 
 ### caja-dropbox
 * Use CAJA_EXTENSION_DIR_SYS to save and show system caja extension dir
 * Show full path of caja-extension-dir
 
-Llista de tots els canvis: < https://github.com/mate-desktop/caja-dropbox/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/caja-dropbox/commits/master/](https://github.com/mate-desktop/caja-dropbox/commits/master/)
 
 ### caja-extensions
 * caja-wallpaper-extension: Fix memory leak
@@ -127,7 +127,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/caja-dropbox/commit
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/caja-extensions/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/caja-extensions/commits/master/](https://github.com/mate-desktop/caja-extensions/commits/master/)
 
 ### engrampa
 * Ready for using gcc 10
@@ -151,7 +151,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/caja-extensions/com
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista completa de canvis: < https://github.com/mate-desktop/engrampa/commits/master/>
+Llista completa de canvis: [https://github.com/mate-desktop/engrampa/commits/master/](https://github.com/mate-desktop/engrampa/commits/master/)
 
 ### eom
 * Add eom-thumbnailer for webp files
@@ -167,7 +167,7 @@ Llista completa de canvis: < https://github.com/mate-desktop/engrampa/commits/ma
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/eom/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/eom/commits/master/](https://github.com/mate-desktop/eom/commits/master/)
 
 ### libmatekbd
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -175,14 +175,14 @@ Llista de tots els canvis: < https://github.com/mate-desktop/eom/commits/master/
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/libmatekbd/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/libmatekbd/commits/master/](https://github.com/mate-desktop/libmatekbd/commits/master/)
 
 ### libmatemixer
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/libmatemixer/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/libmatemixer/commits/master/](https://github.com/mate-desktop/libmatemixer/commits/master/)
 
 ### libmateweather
 * Locations: Add Lleida–Alguaire Airport weather station
@@ -191,7 +191,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/libmatemixer/commit
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/libmateweather/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/libmateweather/commits/master/](https://github.com/mate-desktop/libmateweather/commits/master/)
 
 ### marco
 * theme: Fix window control hidpi rendering for all themes.
@@ -212,7 +212,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/libmateweather/comm
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/marco/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/marco/commits/master/](https://github.com/mate-desktop/marco/commits/master/)
 
 ### mate-applets
 * Ready for using gcc 10
@@ -229,14 +229,14 @@ Llista de tots els canvis: < https://github.com/mate-desktop/marco/commits/maste
 * i18n: Migrate from intltools to gettext
 * g10n: Update translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-applets/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-applets/commits/master/](https://github.com/mate-desktop/mate-applets/commits/master/)
 
 ### mate-backgrounds
 * Enable the support for the meson build system
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-backgrounds/commits/master/](https://github.com/mate-desktop/mate-backgrounds/commits/master/)
 
 ### mate-calc
 
@@ -254,7 +254,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-backgrounds/co
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-calc/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-calc/commits/master/](https://github.com/mate-desktop/mate-calc/commits/master/)
 
 ### mate-common
 * Update MATE_CXX_WARNINGS macro
@@ -262,7 +262,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-calc/commits/m
 * Check if AX_APPEND_FLAG and AX_CHECK_COMPILE_FLAG are available
 * Update mate-compiler-flags macro
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-common/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-common/commits/master/](https://github.com/mate-desktop/mate-common/commits/master/)
 
 ### mate-control-center
 * Search system themes in system data dirs
@@ -289,7 +289,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-common/commits
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-control-center/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-control-center/commits/master/](https://github.com/mate-desktop/mate-control-center/commits/master/)
 
 ### mate-desktop
 * Drop mate_desktop_thumbnail_scale_down_pixbuf()
@@ -305,7 +305,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-control-center
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-desktop/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-desktop/commits/master/](https://github.com/mate-desktop/mate-desktop/commits/master/)
 
 ### mate-icon-theme
 * Add status icons for mobile network connections
@@ -326,14 +326,14 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-desktop/commit
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-icon-theme/commits/master/](https://github.com/mate-desktop/mate-icon-theme/commits/master/)
 
 ### mate-indicator-applet
 * Resize indicator icons to fit panel
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-indicator-applet/commits/master/](https://github.com/mate-desktop/mate-indicator-applet/commits/master/)
 
 ### mate-media
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -346,14 +346,14 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-indicator-appl
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-media/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-media/commits/master/](https://github.com/mate-desktop/mate-media/commits/master/)
 
 ### mate-menus
 * Use datadir and libdir variables when installing gir files
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-menus/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-menus/commits/master/](https://github.com/mate-desktop/mate-menus/commits/master/)
 
 ### mate-netbook
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -363,7 +363,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-menus/commits/
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-netbook/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-netbook/commits/master/](https://github.com/mate-desktop/mate-netbook/commits/master/)
 
 ### mate-notification-daemon
 * Use gresource for mate-notification-properties.ui
@@ -371,7 +371,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-netbook/commit
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-notification-daemon/commits/master/](https://github.com/mate-desktop/mate-notification-daemon/commits/master/)
 
 ### mate-panel
 * Avoid double a11y description on panel toplevels
@@ -397,7 +397,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-notification-d
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-panel/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-panel/commits/master/](https://github.com/mate-desktop/mate-panel/commits/master/)
 
 ### mate-polkit
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -405,7 +405,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-panel/commits/
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-polkit/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-polkit/commits/master/](https://github.com/mate-desktop/mate-polkit/commits/master/)
 
 ### mate-power-manager
 * icons: Add higher resolution icons
@@ -418,7 +418,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-polkit/commits
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-power-manager/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-power-manager/commits/master/](https://github.com/mate-desktop/mate-power-manager/commits/master/)
 
 ### mate-screensaver
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -428,13 +428,13 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-power-manager/
 * Add ELOGIND support
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-screensaver/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-screensaver/commits/master/](https://github.com/mate-desktop/mate-screensaver/commits/master/)
 
 ### mate-sensors-applet
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-sensors-applet/commits/master/](https://github.com/mate-desktop/mate-sensors-applet/commits/master/)
 
 ### mate-session-manager
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -452,7 +452,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-sensors-applet
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-session-manager/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-session-manager/commits/master/](https://github.com/mate-desktop/mate-session-manager/commits/master/)
 
 ### mate-settings-daemon
 * Require DBUS 1.10.0 or newer
@@ -470,7 +470,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-session-manage
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-settings-daemon/commits/master/](https://github.com/mate-desktop/mate-settings-daemon/commits/master/)
 
 ### mate-system-monitor
 
@@ -489,7 +489,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-settings-daemo
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-system-monitor/commits/master/](https://github.com/mate-desktop/mate-system-monitor/commits/master/)
 
 ### mate-terminal
 * Ready for using gcc 10
@@ -502,7 +502,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-system-monitor
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-terminal/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-terminal/commits/master/](https://github.com/mate-desktop/mate-terminal/commits/master/)
 
 ### mate-user-guide
 * Update reporting-bugs section
@@ -512,7 +512,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-terminal/commi
 * Upgrade the manual to docbook 5.0
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-user-guide/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-user-guide/commits/master/](https://github.com/mate-desktop/mate-user-guide/commits/master/)
 
 ### mate-user-share
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -520,7 +520,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-user-guide/com
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-user-share/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-user-share/commits/master/](https://github.com/mate-desktop/mate-user-share/commits/master/)
 
 ### mate-utils
 * Ready for using gcc 10
@@ -536,7 +536,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-user-share/com
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mate-utils/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mate-utils/commits/master/](https://github.com/mate-desktop/mate-utils/commits/master/)
 
 ### mozo
 * Add Undo and Redo buttons
@@ -547,7 +547,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mate-utils/commits/
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/mozo/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/mozo/commits/master/](https://github.com/mate-desktop/mozo/commits/master/)
 
 ### pluma
 * Fix several code analysis, deprecation warnings reported by Clang Static Analyzer, Cppcheck and GCC
@@ -565,7 +565,7 @@ Llista de tots els canvis: < https://github.com/mate-desktop/mozo/commits/master
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/pluma/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/pluma/commits/master/](https://github.com/mate-desktop/pluma/commits/master/)
 
 ### python-caja
 * Ready for using gcc 10
@@ -574,4 +574,4 @@ Llista de tots els canvis: < https://github.com/mate-desktop/pluma/commits/maste
 * i18n: Migrate from intltools to gettext
 * g10n: Update the translations
 
-Llista de tots els canvis: < https://github.com/mate-desktop/python-caja/commits/master/>
+Llista de tots els canvis: [https://github.com/mate-desktop/python-caja/commits/master/](https://github.com/mate-desktop/python-caja/commits/master/)

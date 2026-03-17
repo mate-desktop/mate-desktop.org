@@ -11,9 +11,9 @@ author = "Martin Wimpress"
 
 そのため、みなさんが Transifex で貢献した MATE 翻訳の状況を確認していただき、なるべく早く更新されるようお願いします。
 
-  * < https://www.transifex.com/projects/p/MATE/>
+  * [https://www.transifex.com/projects/p/MATE/](https://www.transifex.com/projects/p/MATE/)
 
-もしあなたが未だ翻訳チームのメンバーでなくて、これから支援したいと思う場合は、[Transifexで無料アカウントを登録]( https://www.transifex.com/signup/contributor/)して、MATE への貢献を開始していただくようお願いします！
+もしあなたが未だ翻訳チームのメンバーでなくて、これから支援したいと思う場合は、[Transifexで無料アカウントを登録](https://www.transifex.com/signup/contributor/)して、MATE への貢献を開始していただくようお願いします！
 
 現在、100%翻訳済み言語が 6 つあるので、MATE 1.8 がリリースされる前に、どれだけ多くの言語が 100%の翻訳率になるか楽しみです。
 

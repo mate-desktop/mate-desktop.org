@@ -7,12 +7,12 @@ author = "Steve Zesch"
 +++
 We are now directing users to use the official Fedora package repository now.
 For instructions on using this repository please consult [our installation
-guide for Fedora]( https://wiki.mate-desktop.org/#!pages/download.md#Fedora).
+guide for Fedora](https://wiki.mate-desktop.org/#!pages/download.md#Fedora).
 
 For more information about MATE's official inclusion in Fedora, see the following:
 
-  * < https://fedoraproject.org/wiki/Features/MATE-Desktop>
+  * [https://fedoraproject.org/wiki/Features/MATE-Desktop](https://fedoraproject.org/wiki/Features/MATE-Desktop)
 
 If you have any questions regarding installing MATE on Fedora then please ask
-for help in our [#fedora-mate IRC channel]( https://web.libera.chat/?#fedora-mate)
-or for general MATE questions join us in [#mate IRC channel]( https://web.libera.chat/?#mate).
+for help in our [#fedora-mate IRC channel](https://web.libera.chat/?#fedora-mate)
+or for general MATE questions join us in [#mate IRC channel](https://web.libera.chat/?#mate).

@@ -8,21 +8,21 @@ MATE ships with a complete set of applications covering everyday computing needs
 ## Core Applications
 
 {{< cards >}}
-  {{< card image="/img/applications/caja-window.png" title="Caja" subtitle="The official MATE file manager." link="caja" >}}
-  {{< card image="/img/applications/pluma-window.png" title="Pluma" subtitle="Lightweight text editor with syntax highlighting." link="pluma" >}}
-  {{< card image="/img/applications/atril-window.png" title="Atril" subtitle="Document viewer for PDF, PostScript, DjVu, and more." link="atril" >}}
-  {{< card image="/img/applications/eom-window.png" title="Eye of MATE" subtitle="Simple image viewer with slideshow and zoom." link="eom" >}}
-  {{< card image="/img/applications/engrampa-window.png" title="Engrampa" subtitle="Archive manager for ZIP, TAR, 7Z, RAR, and more." link="engrampa" >}}
-  {{< card image="/img/applications/mate-terminal-window.png" title="MATE Terminal" subtitle="Terminal emulator with tabs and customizable profiles." link="mate-terminal" >}}
-  {{< card image="/img/applications/mate-system-monitor-window.png" title="System Monitor" subtitle="Process viewer with live CPU and memory graphs." link="mate-system-monitor" >}}
-  {{< card image="/img/applications/mate-calc-window.png" title="Calculator" subtitle="Calculator with basic, scientific, financial, and programmer modes." link="mate-calc" >}}
+  {{< card image="/images/applications/caja-window.png" title="Caja" subtitle="The official MATE file manager." link="caja" >}}
+  {{< card image="/images/applications/pluma-window.png" title="Pluma" subtitle="Lightweight text editor with syntax highlighting." link="pluma" >}}
+  {{< card image="/images/applications/atril-window.png" title="Atril" subtitle="Document viewer for PDF, PostScript, DjVu, and more." link="atril" >}}
+  {{< card image="/images/applications/eom-window.png" title="Eye of MATE" subtitle="Simple image viewer with slideshow and zoom." link="eom" >}}
+  {{< card image="/images/applications/engrampa-window.png" title="Engrampa" subtitle="Archive manager for ZIP, TAR, 7Z, RAR, and more." link="engrampa" >}}
+  {{< card image="/images/applications/mate-terminal-window.png" title="MATE Terminal" subtitle="Terminal emulator with tabs and customizable profiles." link="mate-terminal" >}}
+  {{< card image="/images/applications/mate-system-monitor-window.png" title="System Monitor" subtitle="Process viewer with live CPU and memory graphs." link="mate-system-monitor" >}}
+  {{< card image="/images/applications/mate-calc-window.png" title="Calculator" subtitle="Calculator with basic, scientific, financial, and programmer modes." link="mate-calc" >}}
 {{< /cards >}}
 
 ## Settings & Tools
 
 {{< cards >}}
-  {{< card image="/img/applications/mate-control-center-window.png" title="Control Center" subtitle="Central hub for all desktop settings." link="mate-control-center" >}}
-  {{< card image="/img/applications/mozo-window.png" title="Mozo" subtitle="Graphical editor for the application menu." link="mozo" >}}
+  {{< card image="/images/applications/mate-control-center-window.png" title="Control Center" subtitle="Central hub for all desktop settings." link="mate-control-center" >}}
+  {{< card image="/images/applications/mozo-window.png" title="Mozo" subtitle="Graphical editor for the application menu." link="mozo" >}}
 {{< /cards >}}
 
 ## Panel Applets

@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 +++
 6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。
 
-![about](/assets/img/blog/about-mate-1.16.png)
+![about](/images/blog/about-mate-1.16.png)
 
 ## MATE 1.16 での主な変更点:
 
@@ -38,7 +38,7 @@ author = "Martin Wimpress"
 
 MATE デスクトップ 1.16 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * < https://pub.mate-desktop.org/releases/1.16/>
+  * [https://pub.mate-desktop.org/releases/1.16/](https://pub.mate-desktop.org/releases/1.16/)
 
 ## Changelog 変更点
 

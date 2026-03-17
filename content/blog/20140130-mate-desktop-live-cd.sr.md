@@ -13,7 +13,7 @@ author = "Martin Wimpress"
 процене Мејтову радну површ а да не наруше свој тренутни систем. Слика
 може бити нарезана на ДВД, прикачена као ИСО датотека, или директно
 записана на УСБ меморијском штапићу помоћу алата као што је `dd`.
-[Линукс Лудисти]( https://luddites.latenightlinux.com/) пазите, `unetbootin`
+[Линукс Лудисти](https://luddites.latenightlinux.com/) пазите, `unetbootin`
 није подржан. Живи ЦД можете преузети са везе испод:
 
 ### Преузимање путем Бит Торента (препоручено)
@@ -31,19 +31,19 @@ author = "Martin Wimpress"
 преузети путем HTTP-а. Уверите се да преузета датотека  одговара SHA1
 суми провере.
 
-  * [matelivecd-14.069.1449.iso] [ ~964MB ]
+  * [matelivecd-14.069.1449.iso] [~964MB ]
     * SHA1: `12b529d17d1ecef39d9b0e1122fb5271e0534c0a`
 
 ## Сагласност
 
-Живи ЦД је изграђен коришћењем [Арч Линукса]( https://www.archlinux.org) и 
+Живи ЦД је изграђен коришћењем [Арч Линукса](https://www.archlinux.org) и 
 Мејта 1.8. Живи ЦД је 32-бита тако да треба да ради на свим i686 или x86_64 
 рачунарима са најмање 512MB RAM-а. Xorg управљачки програми су укључени 
 за Intel (`i915`), AMD/ATI (`radeon`) и nvidia (`nouveau`) са пребацивањем на VESA. 
 Управљачки програми за Virtual Box and VMware су такође укључени тако да је 
 процењивање коришћењем ових решења виртуелизације врло једноставно.
 
-Сви општи системи датотека, укључујући [ZFS]( http://open-zfs.org), су подржани 
+Сви општи системи датотека, укључујући [ZFS](http://open-zfs.org), су подржани 
 а укључени су и неки алати за повртак подтака и резерве. Ако прикључите ваш 
 мобилни уређај највероватније да ће бити препознат и можете да приступите 
 подацима на њему. Управник мреже је укључен са свим VPN клијентима које 
@@ -66,20 +66,20 @@ author = "Martin Wimpress"
 укључили смо и неке додатне програме који нису део Мејтове радне површи да 
 бисмо Живи ЦД учинили мало кориснијим и пријатнијим.
 
-  * [Firefox]( https://www.mozilla.org/firefox/)   – Самосталан веб прегледник из „mozilla.org“
-  * [GParted]( https://gparted.sourceforge.io/)   – Клон Partition Magic-а, челник за Гну Партед
-  * [HardInfo]( https://www.berlios.de/software/hardinfo/)  – Алат за информације система и оцењивање
-  * [HexChat]( https://hexchat.github.io/)    - IRC клијент подешен да се сам повеже на [#mate@libera]( https://web.libera.chat/?#mate)
-  * [Onboard]( https://www.gnome.org/projects/orca)   – Тастатура на екрану корисна за појединце са моторичким потешкоћама
-  * [Orca]( https://www.gnome.org/projects/orca)      – Читач екрана за појединце који су слепи или оштећеног вида
-  * [Pidgin]( https://pidgin.im/)    – Вишепротоколни клијент брзих порука
-  * [Xnoise]( http://www.xnoise-media-player.com/)    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција
+  * [Firefox](https://www.mozilla.org/firefox/)   – Самосталан веб прегледник из „mozilla.org“
+  * [GParted](https://gparted.sourceforge.io/)   – Клон Partition Magic-а, челник за Гну Партед
+  * [HardInfo](https://www.berlios.de/software/hardinfo/)  – Алат за информације система и оцењивање
+  * [HexChat](https://hexchat.github.io/)    - IRC клијент подешен да се сам повеже на [#mate@libera](https://web.libera.chat/?#mate)
+  * [Onboard](https://www.gnome.org/projects/orca)   – Тастатура на екрану корисна за појединце са моторичким потешкоћама
+  * [Orca](https://www.gnome.org/projects/orca)      – Читач екрана за појединце који су слепи или оштећеног вида
+  * [Pidgin](https://pidgin.im/)    – Вишепротоколни клијент брзих порука
+  * [Xnoise](http://www.xnoise-media-player.com/)    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција
 
 ## Садржај Заједничког стваралаштва
 
 Следећи садржај смо укључили под лиценцом Заједничког стварлаштва.
 
-  * [Think Python]( https://www.greenteapress.com/thinkpython/)                        – За читање у Атрилу
+  * [Think Python](https://www.greenteapress.com/thinkpython/)                        – За читање у Атрилу
 
 ## Промена језика
 
@@ -100,8 +100,8 @@ author = "Martin Wimpress"
 
 ## Програм „Линукс у акцији“ 
 
-Живи ЦД Мејтове радне површи и сам Мејт су приказани у [Програму „Линукс у акцији“]( https://www.jupiterbroadcasting.com/show/linuxactionshow/) у епизоди [CuBox 
-Linux Review]( https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/). 
+Живи ЦД Мејтове радне површи и сам Мејт су приказани у [Програму „Линукс у акцији“](https://www.jupiterbroadcasting.com/show/linuxactionshow/) у епизоди [CuBox 
+Linux Review](https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/). 
 Два снимка су постављена испод, први је брзи преглед Живог ЦД-а Мејтове 
 радне површи а други је преглед „CuBox-а i4“ на коме ради Мејт.
 
@@ -118,5 +118,5 @@ Linux Review]( https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-
 Надамо се да ћете испробати Живи ЦД и да ћете уживати у брзини и једноставности
 коју пружа Мејтова радна површ. Након што испробате Живи ЦД Мејтове радне површи
 реците нам у коментарима шта мислите или користите Живи ЦД да нам се придружите  
-на [IRC каналу – #mate]( https://webchat.freenode.net/?channels=#mate).
+на [IRC каналу – #mate](https://webchat.freenode.net/?channels=#mate).
 

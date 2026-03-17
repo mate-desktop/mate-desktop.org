@@ -7,7 +7,7 @@ tags = ["News"]
 author = "Martin Wimpress"
 +++
 We have given the MATE website a make-over and also migrated from
-[Wordpress]( https://www.wordpress.org) to [Nikola]( https://getnikola.com)
+[Wordpress](https://www.wordpress.org) to [Nikola](https://getnikola.com)
 in the process.
 
 The main objective of the re-design is to create simple, elegant site
@@ -23,11 +23,11 @@ generator.
 
 Anyone can submit a new blog post, corrections or translations to the MATE
 website by creating a free account on [GitHub](Markdown), forking the 
-[mate-desktop.org repository]( https://github.com/mate-desktop/mate-desktop.org)
-and [creating a pull-request]( https://help.github.com/articles/creating-a-pull-request).
+[mate-desktop.org repository](https://github.com/mate-desktop/mate-desktop.org)
+and [creating a pull-request](https://help.github.com/articles/creating-a-pull-request).
 Pull-requests for mate-desktop.org will be reviewed by our Webmasters,
 merged and published here. The are some
-[other benefits of using a static site generator]( https://getnikola.com/handbook.html#why-static).
+[other benefits of using a static site generator](https://getnikola.com/handbook.html#why-static).
 
 Unfortunately, we have decided not to migrate comments from the old
 website. From this point forward each new blog post will be linked to 

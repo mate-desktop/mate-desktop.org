@@ -12,7 +12,7 @@ many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
 every MATE contributor and user.
 
-![about](/assets/img/blog/about-mate-1.6.png)
+![about](/images/blog/about-mate-1.6.png)
 
 Main changes in 1.6 are:
 
@@ -106,14 +106,14 @@ Main changes in 1.6 are:
 We asked people from distributions that ship MATE what they think about our
 Desktop Environment.
 
-**George Vlahavas**, [Salix]( https://www.salixos.org/) founder and project leader:
+**George Vlahavas**, [Salix](https://www.salixos.org/) founder and project leader:
 
 > We believe MATE is a perfect match for Salix. MATE provides us with a familiar
 desktop environment that is powerful, solid and fast. Also, the MATE team are
 very friendly and a pleasure to work with and this means a lot to us. Thanks for
 giving us the choice of sticking with our favourite desktop guys
 
-**Clement Lefebvre**, [Linux Mint]( https://www.linuxmint.com/) founder and project leader:
+**Clement Lefebvre**, [Linux Mint](https://www.linuxmint.com/) founder and project leader:
 
 > It's extremely important to us that people are happy with their computer. When that
 environment we all loved and worked hard to improve since 2006 was
@@ -127,13 +127,13 @@ in the promotion and backing of MATE and we continue to help with its
 development. We're very pleased with MATE, it's exactly what we wanted, it
 started where GNOME left off and with each new iteration it keeps getting better.
 
-**Joost Ruis**, strategy consultant of [Sabayon]( https://www.sabayon.org/): 
+**Joost Ruis**, strategy consultant of [Sabayon](https://www.sabayon.org/): 
 
 > We don't like how upstream forced changes to users and want our users to have
 the option to decide what to use. With MATE in our repositories we are certain
 our users can always choose what works best for them.
 
-**Dan Mashal**, MATE maintainer in [Fedora]( https://fedoraproject.org/): 
+**Dan Mashal**, MATE maintainer in [Fedora](https://fedoraproject.org/): 
 
 > Ever since the release of Fedora 15 was released I was extremely unhappy and
 frustrated with my desktop experience until I discovered MATE. Now on Fedora I
@@ -149,7 +149,7 @@ With MATE 1.6 I can feel right back at home on my favorite Linux distribution
 and get back to work.
 
 We also asked for a comment from the
-[company who donated the server where we host MATE services](/blog/2012-12-27-thank-you-first-colo/). **Martin Verges**, CEO of [FirstColo GmbH]( https://www.first-colo.net/en/):
+[company who donated the server where we host MATE services](/blog/2012-12-27-thank-you-first-colo/). **Martin Verges**, CEO of [FirstColo GmbH](https://www.first-colo.net/en/):
 
 > We are really happy to use the MATE Desktop Environment. This way we can keep a clean and well
 working desktop without lots of useless and distracting stuff. Until the end

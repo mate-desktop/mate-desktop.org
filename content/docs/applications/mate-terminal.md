@@ -10,7 +10,7 @@ weight: 6
 
 MATE Terminal is the official terminal emulator for the MATE desktop. It provides access to a UNIX shell within the graphical environment, with support for multiple sessions, customizable appearance, and configurable key bindings.
 
-![MATE Terminal window](/img/applications/mate-terminal-window.png "MATE Terminal")
+![MATE Terminal window](/images/applications/mate-terminal-window.png "MATE Terminal")
 
 ## Features
 

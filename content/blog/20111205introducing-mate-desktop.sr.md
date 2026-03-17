@@ -11,12 +11,12 @@ author = "Clement Lefebvre"
 је ту Мејт који вам обезбеђује исту ту радну површ `☻`
 
 Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
-програмери су успешно покретали Мејт на [„Arch Linux“]-у( https://www.archlinux.org)
+програмери су успешно покретали Мејт на [„Arch Linux“]-у(https://www.archlinux.org)
 и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
-[Дебианом]( https://www.debian.org).
+[Дебианом](https://www.debian.org).
 
-[Stefano Karapetsas]( https://github.com/stefano-k) и [Clement Lefebvre]( https://github.com/clefebvre)
-су затим приступили пројекту и запакивали су га за Дебиан и [Линукс Минт]( https://www.linuxmint.com).
+[Stefano Karapetsas](https://github.com/stefano-k) и [Clement Lefebvre](https://github.com/clefebvre)
+су затим приступили пројекту и запакивали су га за Дебиан и [Линукс Минт](https://www.linuxmint.com).
 Мејтова радна површ је представљена у Линукс Минту 12 и сада брзо узима маха.
 
 Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика

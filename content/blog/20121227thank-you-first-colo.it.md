@@ -5,9 +5,9 @@ slug = "2012-12-27-grazie-first-colo"
 tags = ["News", "FirstColo"]
 author = "Stefano Karapetsas"
 +++
-![FirstColo](/assets/img/blog/first-color.gif)
+![FirstColo](/images/blog/first-color.gif)
 
-[FirstColo]( https://www.first-colo.net/en/), è gestore di un moderno data center in Germania, e
+[FirstColo](https://www.first-colo.net/en/), è gestore di un moderno data center in Germania, e
 ha pianificato di portare MATE Desktop sulle loro workstations d'ufficio. FirstColo 
 ha gentilmente donato un nuovo server dedicato, per supportare MATE.
 

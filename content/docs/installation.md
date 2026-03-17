@@ -16,7 +16,7 @@ These distributions ship MATE as the default desktop environment:
   {{< card link="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/" title="Debian" icon="external-link" subtitle="MATE available as a desktop option" >}}
 {{< /cards >}}
 
-{{< tabs items="Ubuntu/Debian,Fedora,Arch Linux,openSUSE" >}}
+{{< tabs name="Ubuntu/Debian,Fedora,Arch Linux,openSUSE" >}}
 
 {{< tab >}}
 ```bash

@@ -12,7 +12,7 @@ The MATE Control Center is the central place to configure your desktop. It provi
 
 Open it from **System → Control Center** in the panel menu.
 
-![Control Center window](/img/applications/mate-control-center-window.png "MATE Control Center")
+![Control Center window](/images/applications/mate-control-center-window.png "MATE Control Center")
 
 ## Categories
 

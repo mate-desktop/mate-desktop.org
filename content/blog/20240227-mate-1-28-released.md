@@ -7,7 +7,6 @@ authors:
 slug: 2024-02-27-mate-1-28-released
 description: "MATE Desktop 1.28 brings enhanced Wayland support, modernized codebase, and numerous improvements to Atril, Caja, Marco, and other components."
 ---
-# MATE 1.28 Released
 
 It is release time once again. We worked hard to bring you the best desktop experience possible. A big thank you to all contributors who helped to make this happen.
 
@@ -34,80 +33,80 @@ The headline changes in MATE Desktop 1.28 are:
 
 The various components of MATE Desktop 1.28 are available for download here:
 
-  * < https://pub.mate-desktop.org/releases/1.28/>
+  * [https://pub.mate-desktop.org/releases/1.28/](https://pub.mate-desktop.org/releases/1.28/)
 
 ## More details
 
 Here are the gory details.
 
 ### atril
-* For comics, we now use the [libarchive]( https://libarchive.org/) library to unpack documents.
-* Atril now supports the newest version 4.2.1 of [webkitgtk]( https://webkitgtk.org/reference/webkit2gtk/stable/).
-* Did you know that Atril can display [epub]( https://www.w3.org/publishing/epub3/) documents? This feature is now documented.
+* For comics, we now use the [libarchive](https://libarchive.org/) library to unpack documents.
+* Atril now supports the newest version 4.2.1 of [webkitgtk](https://webkitgtk.org/reference/webkit2gtk/stable/).
+* Did you know that Atril can display [epub](https://www.w3.org/publishing/epub3/) documents? This feature is now documented.
 * Replaced various deprecated methods with their modern counterparts.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/atril/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/atril/commits/master/](https://github.com/mate-desktop/atril/commits/master/)
 
 ### caja
 * Caja can now manage icons on a Wayland desktop, render the background, and change the background (Wayland support is a build option). Launch in Wayland sessions with --force-desktop to show desktop icons.
 * Fixed some issues found by cppcheck.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/caja/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/caja/commits/master/](https://github.com/mate-desktop/caja/commits/master/)
 
 ### caja-actions
 * Fixed some build warnings.
 * Fixed a memory leak.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/caja-actions/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/caja-actions/commits/master/](https://github.com/mate-desktop/caja-actions/commits/master/)
 
 ### caja-dropbox
 * Fixed a build warning.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/caja-dropbox/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/caja-dropbox/commits/master/](https://github.com/mate-desktop/caja-dropbox/commits/master/)
 
 ### caja-extensions
 * Added the audio-video-properties plugin. This 2000+ lines of code change lets you view the exact properties of your media files directly in the file manager.
-* For the sendto extension, we now require [gupnp]( https://gnome.pages.gitlab.gnome.org/gupnp/docs/) version 1.6.
+* For the sendto extension, we now require [gupnp](https://gnome.pages.gitlab.gnome.org/gupnp/docs/) version 1.6.
 * Some build and deprecation warning fixes.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/caja-extensions/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/caja-extensions/commits/master/](https://github.com/mate-desktop/caja-extensions/commits/master/)
 
 ### engrampa
 * Engrampa now supports the Meson build system.
-* Uses [unar]( https://github.com/MacPaw/XADMaster) instead of cpio for CPIO archives.
-* We now support [unrar-free]( https://packages.debian.org/bookworm/unrar-free).
+* Uses [unar](https://github.com/MacPaw/XADMaster) instead of cpio for CPIO archives.
+* We now support [unrar-free](https://packages.debian.org/bookworm/unrar-free).
 * Enhanced the codebase.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/engrampa/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/engrampa/commits/master/](https://github.com/mate-desktop/engrampa/commits/master/)
 
 ### eom
 * Eye of MATE now supports the Meson build system.
 * Fixed some build warnings.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/eom/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/eom/commits/master/](https://github.com/mate-desktop/eom/commits/master/)
 
 ### libmatekbd
 * Fixed some memory leaks.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/libmatekbd/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/libmatekbd/commits/master/](https://github.com/mate-desktop/libmatekbd/commits/master/)
 
 ### libmatemixer
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/libmatemixer/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/libmatemixer/commits/master/](https://github.com/mate-desktop/libmatemixer/commits/master/)
 
 ### libmateweather
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/libmateweather/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/libmateweather/commits/master/](https://github.com/mate-desktop/libmateweather/commits/master/)
 
 ### marco
 * We added a setting to raise windows on the alt+tab popup.
@@ -115,7 +114,7 @@ Complete changelog at < https://github.com/mate-desktop/libmateweather/commits/m
 * Some small fixes.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/marco/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/marco/commits/master/](https://github.com/mate-desktop/marco/commits/master/)
 
 ### mate-applets
 * A lot of Wayland specific commits:
@@ -127,24 +126,24 @@ Complete changelog at < https://github.com/mate-desktop/marco/commits/master/>
 * Accessibility improvements.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-applets/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-applets/commits/master/](https://github.com/mate-desktop/mate-applets/commits/master/)
 
 ### mate-backgrounds
 * Fixed build warnings.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-backgrounds/commits/master/](https://github.com/mate-desktop/mate-backgrounds/commits/master/)
 
 ### mate-calc
 * Fixed a memory leak.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-calc/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-calc/commits/master/](https://github.com/mate-desktop/mate-calc/commits/master/)
 
 ### mate-common
 * As stable as always.
 
-Complete changelog at < https://github.com/mate-desktop/mate-common/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-common/commits/master/](https://github.com/mate-desktop/mate-common/commits/master/)
 
 ### mate-control-center
 * Now works in Wayland sessions as well as X11.
@@ -153,7 +152,7 @@ Complete changelog at < https://github.com/mate-desktop/mate-common/commits/mast
 * The UI received small improvements.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-control-center/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-control-center/commits/master/](https://github.com/mate-desktop/mate-control-center/commits/master/)
 
 ### mate-desktop
 * A few changes were necessary to support background handling under Wayland.
@@ -164,37 +163,37 @@ Complete changelog at < https://github.com/mate-desktop/mate-control-center/comm
 * Fixed a lot of analyzer warnings.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-desktop/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-desktop/commits/master/](https://github.com/mate-desktop/mate-desktop/commits/master/)
 
 ### mate-icon-theme
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-icon-theme/commits/master/](https://github.com/mate-desktop/mate-icon-theme/commits/master/)
 
 ### mate-indicator-applet
 * Mouse middle-click is now supported.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-indicator-applet/commits/master/](https://github.com/mate-desktop/mate-indicator-applet/commits/master/)
 
 ### mate-media
 * Now supports Wayland as a build-time option. Behavior is almost identical in X11 and Wayland.
 * Added Meson build system support.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-media/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-media/commits/master/](https://github.com/mate-desktop/mate-media/commits/master/)
 
 ### mate-menus
 * Fixed some build warnings.
 * Added Meson build system support.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-menus/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-menus/commits/master/](https://github.com/mate-desktop/mate-menus/commits/master/)
 
 ### mate-netbook
 * Some maintenance updates.
 
-Complete changelog at < https://github.com/mate-desktop/mate-netbook/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-netbook/commits/master/](https://github.com/mate-desktop/mate-netbook/commits/master/)
 
 ### mate-notification-daemon
 * Some improvements on Wayland.
@@ -202,50 +201,50 @@ Complete changelog at < https://github.com/mate-desktop/mate-netbook/commits/mas
 * Fixed some memory leaks.
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-notification-daemon/commits/master/](https://github.com/mate-desktop/mate-notification-daemon/commits/master/)
 
 ### mate-panel
 * New for 1.28 is a working window list under Wayland, and the tray applet can now display indicators under wayland, notably network-manager-applet when it is launched with --indicator. Traditional tray icons not displayed as they use Xembed which is not supported in wayland.
 
-Complete changelog at < https://github.com/mate-desktop/mate-panel/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-panel/commits/master/](https://github.com/mate-desktop/mate-panel/commits/master/)
 
 ### mate-polkit
 * Now with Meson support.
 * Prefer Ayatana AppIndicator when building.
 * Fixed a segfault on Wayland.
 
-Complete changelog at < https://github.com/mate-desktop/mate-polkit/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-polkit/commits/master/](https://github.com/mate-desktop/mate-polkit/commits/master/)
 
 ### mate-power-manager
 * Now with Meson support.
 * Replaced some deprecated functions.
 * Some Wayland compatibility changes.
 
-Complete changelog at < https://github.com/mate-desktop/mate-power-manager/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-power-manager/commits/master/](https://github.com/mate-desktop/mate-power-manager/commits/master/)
 
 ### mate-screensaver
 * Fixed a lot of warnings.
 * Fixed some memory leaks.
 * Added a prompt-driven authentication helper.
 
-Complete changelog at < https://github.com/mate-desktop/mate-screensaver/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-screensaver/commits/master/](https://github.com/mate-desktop/mate-screensaver/commits/master/)
 
 ### mate-sensors-applet
 * The sensors applet can now be used in a Wayland session's panel as well as under X11 if built in-process (as needed for Wayland).
 
-Complete changelog at < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-sensors-applet/commits/master/](https://github.com/mate-desktop/mate-sensors-applet/commits/master/)
 
 ### mate-session-manager
 * Fixed some memory leaks.
 * Fixed a crash (double-free).
 
-Complete changelog at < https://github.com/mate-desktop/mate-session-manager/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-session-manager/commits/master/](https://github.com/mate-desktop/mate-session-manager/commits/master/)
 
 ### mate-settings-daemon
 * Now uses GDBus instead of dbus-glib.
 * Fixed a memory leak.
 
-Complete changelog at < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-settings-daemon/commits/master/](https://github.com/mate-desktop/mate-settings-daemon/commits/master/)
 
 ### mate-system-monitor
 * Now with Meson support.
@@ -253,7 +252,7 @@ Complete changelog at < https://github.com/mate-desktop/mate-settings-daemon/com
 * Improved user interface.
 * Fixed some user settings not being saved.
 
-Complete changelog at < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-system-monitor/commits/master/](https://github.com/mate-desktop/mate-system-monitor/commits/master/)
 
 ### mate-terminal
 * New for 1.28 is a bugfix to allow launching X11 applications in a Wayland session via XWayland.
@@ -265,17 +264,17 @@ Complete changelog at < https://github.com/mate-desktop/mate-system-monitor/comm
 * Feature: Double-click tab to set title.
 * Fixed some small bugs.
 
-Complete changelog at < https://github.com/mate-desktop/mate-terminal/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-terminal/commits/master/](https://github.com/mate-desktop/mate-terminal/commits/master/)
 
 ### mate-user-guide
 * Fixed some typos.
 
-Complete changelog at < https://github.com/mate-desktop/mate-user-guide/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-user-guide/commits/master/](https://github.com/mate-desktop/mate-user-guide/commits/master/)
 
 ### mate-user-share
 * Translations update.
 
-Complete changelog at < https://github.com/mate-desktop/mate-user-share/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-user-share/commits/master/](https://github.com/mate-desktop/mate-user-share/commits/master/)
 
 ### mate-utils
 * The dictionary panel applet can be used in a Wayland session's panel as well as under X11 if built with Wayland support.
@@ -284,25 +283,25 @@ Complete changelog at < https://github.com/mate-desktop/mate-user-share/commits/
 * Some Wayland fixes.
 * Fixed some memory leaks.
 
-Complete changelog at < https://github.com/mate-desktop/mate-utils/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-utils/commits/master/](https://github.com/mate-desktop/mate-utils/commits/master/)
 
 ### mate-wayland-session
 * An experimental Wayland session for MATE using Wayfire. First release version.
 
-Complete changelog at < https://github.com/mate-desktop/mate-wayland-session/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mate-wayland-session/commits/master/](https://github.com/mate-desktop/mate-wayland-session/commits/master/)
 
 ### mozo
 * Some UI improvements.
 * Made the collection menu item removable.
 
-Complete changelog at < https://github.com/mate-desktop/mozo/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/mozo/commits/master/](https://github.com/mate-desktop/mozo/commits/master/)
 
 ### pluma
 * Fixed some build warnings.
 * Fixed some memory leaks.
 * Fixed double activation of extensions.
 
-Complete changelog at < https://github.com/mate-desktop/pluma/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/pluma/commits/master/](https://github.com/mate-desktop/pluma/commits/master/)
 
 ### pluma-plugins
 * New quickhighlight plugin.
@@ -311,4 +310,4 @@ Complete changelog at < https://github.com/mate-desktop/pluma/commits/master/>
 ### python-caja
 * Some code improvements.
 
-Complete changelog at < https://github.com/mate-desktop/python-caja/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/python-caja/commits/master/](https://github.com/mate-desktop/python-caja/commits/master/)

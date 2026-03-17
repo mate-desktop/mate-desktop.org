@@ -11,12 +11,12 @@ Gnome 2 був найпопулярнішою стільницею Linux, але
 Тут, щоб надати вам ту саму стільницю `:)`
 
 Perberos спочатку форкнув Gnome 2 і назвав проєкт MATE. Користувачі та
-розробники успішно запустили MATE на [Arch Linux]( https://www.archlinux.org)
+розробники успішно запустили MATE на [Arch Linux](https://www.archlinux.org)
 і на вимогу користувачів Perberos спростив компіляцію MATE для
-[Debian]( https://www.debian.org).
+[Debian](https://www.debian.org).
 
-[Стефано Карапецас] ( https://github.com/stefano-k) і [Клімент Лефевр] ( https://github.com/clefebvre) 
-Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] ( https://www.linuxmint.com).
+[Стефано Карапецас] (https://github.com/stefano-k) і [Клімент Лефевр] (https://github.com/clefebvre) 
+Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (https://www.linuxmint.com).
 Стільниця MATE була представлена в Linux Mint 12 і зараз швидко набирає обертів.
 
 Нашим пріоритетом є покращення MATE, щоб він був на рівні, з точки зору функціональності

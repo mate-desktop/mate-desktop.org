@@ -8,7 +8,7 @@ author = "Martin Wimpress"
 Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.16. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nell'aver reso possibile questo rilascio.
 
-![about](/assets/img/blog/about-mate-1.16.png)
+![about](/images/blog/about-mate-1.16.png)
 
 ## Cosa c'è di nuovo in MATE 1.16
 
@@ -40,7 +40,7 @@ I principali cambiamenti di MATE Desktop 1.16 sono:
 
 I vari componenti di MATE 1.16 sono disponibili per il download a questo indirizzo:
 
-  * < https://pub.mate-desktop.org/releases/1.16/>
+  * [https://pub.mate-desktop.org/releases/1.16/](https://pub.mate-desktop.org/releases/1.16/)
 
 ## Changelog
 

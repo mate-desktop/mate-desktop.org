@@ -6,7 +6,7 @@ tags = ["Blueman", "BlueZ", "Bluetooth", "News"]
 author = "Martin Wimpress"
 description = "MATE Desktop collaborates with Blueman project."
 +++
-MATE チームは、[Blueman プロジェクト]( https://github.com/blueman-project/blueman)と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。
+MATE チームは、[Blueman プロジェクト](https://github.com/blueman-project/blueman)と協力し、Blueman を BlueZ 5.x へとアップデートする支援が出来ることを公表できてうれしく思います。
 
 ## なぜ mate-bluetooth を捨てたのですか？
 
@@ -14,7 +14,7 @@ MATE チームは、[Blueman プロジェクト]( https://github.com/blueman-pro
 
 ## なぜブルーマンなのですか？開発中止なのでは？
 
-当初の Bluemanプ ロジェクトは停滞しましたが、[Christopher Schramm]( https://github.com/cschramm) が開発を再開し、Blueman の BlueZ 5.x への移植を開始しました。その一方で、BlueZ 5.x をサポートするために Blueman をアップデートする取り組みもあり、私たちはその方が MATE にずっと優れた Bluetooth インターフェースを提供すると思っています。
+当初の Bluemanプ ロジェクトは停滞しましたが、[Christopher Schramm](https://github.com/cschramm) が開発を再開し、Blueman の BlueZ 5.x への移植を開始しました。その一方で、BlueZ 5.x をサポートするために Blueman をアップデートする取り組みもあり、私たちはその方が MATE にずっと優れた Bluetooth インターフェースを提供すると思っています。
 
 ## Blueman のアップデートはいつ完了しますか？
 
@@ -24,4 +24,4 @@ MATE チームは、[Blueman プロジェクト]( https://github.com/blueman-pro
 
 ## もっと早く出来ないのですか？
 
-はい。BlueZ 4.x/5.x、dbus、PyGObject、PyGTK に詳しい方は、[Blueman GitHub repository]( https://github.com/blueman-project/blueman) を利用して貢献していただくようお願いします。
+はい。BlueZ 4.x/5.x、dbus、PyGObject、PyGTK に詳しい方は、[Blueman GitHub repository](https://github.com/blueman-project/blueman) を利用して貢献していただくようお願いします。

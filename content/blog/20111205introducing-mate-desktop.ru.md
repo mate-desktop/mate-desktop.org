@@ -11,12 +11,12 @@ Gnome 2 был самым популярным рабочим столом Linux
 здесь, чтобы предоставить вам тот же рабочий стол `:)` 
 
 Изначально Perberos создат ответвление от GNOME 2 и назвал его "МАТЕ". Пользователи
-и разработчики успешно запустили МАТЕ на [Arch Linux]( https://www.archlinux.org)
+и разработчики успешно запустили МАТЕ на [Arch Linux](https://www.archlinux.org)
 и по многочисленным просьбам Perberos упростил компиляцию МАТЕ для
-[Debian]( https://www.debian.org).
+[Debian](https://www.debian.org).
 
-Затем, [Stefano Karapetsas]( https://github.com/stefano-k) и [Clement Lefebvre]( https://github.com/clefebvre)
-вступили в проект и пакетировали его для Debian и [Linux Mint]( https://www.linuxmint.com).
+Затем, [Stefano Karapetsas](https://github.com/stefano-k) и [Clement Lefebvre](https://github.com/clefebvre)
+вступили в проект и пакетировали его для Debian и [Linux Mint](https://www.linuxmint.com).
 Рабочий стол МАТЕ был представлен в Linux Mint 12 и сейчас стремительно набирает обороты.
 
 Наша главная задача — это улучшать МАТЕ и сделать его равным с точки

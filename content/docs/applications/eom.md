@@ -10,7 +10,7 @@ weight: 4
 
 Eye of MATE (eom) is the official image viewer for the MATE desktop. It is designed to be fast and lightweight while handling large images efficiently. It uses the gdk-pixbuf library and can display a wide range of image formats. Basic editing operations such as rotation and flipping are also supported.
 
-![Eye of MATE window](/img/applications/eom-window.png "Eye of MATE image viewer")
+![Eye of MATE window](/images/applications/eom-window.png "Eye of MATE image viewer")
 
 ## Supported Formats
 

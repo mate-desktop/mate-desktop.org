@@ -18,7 +18,7 @@ Below is a screenshot of `mate-notification-properties` set for notifications
 to be displayed on an active monitor. Note that "Use Active Monitor" is selected,
 which disables the combobox for selecting a monitor.
 
-![active](/assets/img/blog/active-300x235.png)
+![active](/images/blog/active-300x235.png)
 
 Below is a screenshot of `mate-notification-properties` set for notifications
 to be displayed on a specific monitor. Note that "Use Active Monitor" is **not**
@@ -26,5 +26,5 @@ selected, which enables the combobox for selecting the monitor to be enabled.
 The monitor number is set to 2. This will display on my third monitor, since
 counting starts at 0 instead of 1.
 
-![monitor](/assets/img/blog/monitor-300x235.png)
+![monitor](/images/blog/monitor-300x235.png)
 

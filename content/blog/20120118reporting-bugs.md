@@ -6,7 +6,7 @@ description = "We are currently in the process of switching to handling all our 
 author = "Steve Zesch"
 +++
 We are currently in the process of switching to handling all our issues via
-the [mate-desktop project on GitHub]( https://github.com/mate-desktop) instead
+the [mate-desktop project on GitHub](https://github.com/mate-desktop) instead
 of Perberos' page. The reason is simple: when Perberos is away none of the
 other developers can close tickets. This creates a bit of a mess.
 

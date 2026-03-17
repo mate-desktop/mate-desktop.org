@@ -30,6 +30,6 @@ Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel t
 nell'augurargli ogni successo per i loro progetti dell'estate.
 
 A nome dell'intero team MATE vorrei estendere i ringraziamenti e
-la nostra gratitudine ad  [openSUSE]( https://www.opensuse.org) che sono i nostri organizzatori GSoC perché
+la nostra gratitudine ad  [openSUSE](https://www.opensuse.org) che sono i nostri organizzatori GSoC perché
 2014. hanno fatto un lavoro fantastico nell'aiutare a garantire questi assegnamenti GSoC per
 il team MATE che fornirà molte risorse di sviluppo necessarie al progetto.

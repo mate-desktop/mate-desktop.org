@@ -7,12 +7,12 @@ O Gnome 2 era o ambiente de trabalho mais popular do Linux, mas já não está d
 está aqui para lhe fornecer esse mesmo ambiente de trabalho `:)`
 
 Inicialmente, o Perberos bifurcou o Gnome 2 e chamou ao projeto MATE. Utilizadores e
-programadores têm corrido com sucesso o MATE no [Arch Linux]( https://www.archlinux.org)
+programadores têm corrido com sucesso o MATE no [Arch Linux](https://www.archlinux.org)
 e devido à procura popular, Perberos facilitou a compilação do MATE em
-[Debian]( https://www.debian.org).
+[Debian](https://www.debian.org).
 
-[Stefano Karapetsas]( https://github.com/stefano-k) e [Clement Lefebvre]( https://github.com/clefebvre)
-juntaram-se depois ao projeto e empacotaram-no para Debian e [Linux Mint]( https://www.linuxmint.com).
+[Stefano Karapetsas](https://github.com/stefano-k) e [Clement Lefebvre](https://github.com/clefebvre)
+juntaram-se depois ao projeto e empacotaram-no para Debian e [Linux Mint](https://www.linuxmint.com).
 O ambiente de trabalho MATE foi apresentado no Linux Mint 12 e está agora rapidamente a ganhar força.
 
 A nossa principal prioridade é melhorar o MATE e torná-lo igual, em termos de funcionalidades

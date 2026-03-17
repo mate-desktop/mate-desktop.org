@@ -5,11 +5,11 @@ slug = "2014-02-13-mate-desktop-roadmap-reshuffle"
 tags = ["News"]
 author = "Martin Wimpress"
 +++
-数日前、[Stefano Karapetsas]( https://github.com/stefano-k) さんは `mate-dev` メーリングリストに、MATE デスクトップのロードマップを変更するという決定の概要を発表しました。
+数日前、[Stefano Karapetsas](https://github.com/stefano-k) さんは `mate-dev` メーリングリストに、MATE デスクトップのロードマップを変更するという決定の概要を発表しました。
 
 基本的に、MATE に対する GTK3 のサポートは、MATE 1.10 へ先送りされました。なぜなら、MATE 1.8 を本当に安定させるためには、まだやるべきことがたくさん残っているからです。したがって、MATE 1.6 は引き続き GTK2 をベースにしていますが、GTK3 アプリケーションは MATE 1.6 の場合と同じようにうまく統合されています。アップデートされたロードマップは私たちの Wiki サイトで公開しています。
 
-  * [MATE ロードマップ]( https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * [MATE ロードマップ](https://wiki.mate-desktop.org/#!pages/roadmap.md)
 
 この決定を行った理由は、MATE の現在の開発バージョンが安定していて、多くの新機能、改善、バグ修正が盛り込まれているからです。私たちは、これまでの進展から早く利益を得るためにも、ユーザーに対して*"良いもの"*を提供したいと考えています。
 

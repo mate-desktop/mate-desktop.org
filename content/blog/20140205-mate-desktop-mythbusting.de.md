@@ -6,7 +6,7 @@ tags = ["News"]
 author = "Martin Wimpress"
 +++
 Ich geriet in die glückliche Situation, zu der Episode 26 des 
-[Linux-Unplugged]( https://www.jupiterbroadcasting.com/show/linuxun/)-Podcasts
+[Linux-Unplugged](https://www.jupiterbroadcasting.com/show/linuxun/)-Podcasts
 eingeladen zu werden, um dort ein wenig über den MATE-Desktop, und wohin er sich
 entwickelt, zu sprechen. Das MATE-Mythbusting-Video finded sich unten eingebettet.
 
@@ -14,8 +14,8 @@ entwickelt, zu sprechen. Das MATE-Mythbusting-Video finded sich unten eingebette
 
 Es gelang mir nicht, alle Entwicklungs-Ziele für MATE 1.8 in der verfügbaren
 Zeit abzudecken. Deshalb empfehle ich, für eine vollständige Übersicht die
-[MATE-Roadmap]( https://wiki.mate-desktop.org/#!pages/roadmap.md) anzuschauen.
+[MATE-Roadmap](https://wiki.mate-desktop.org/#!pages/roadmap.md) anzuschauen.
 
 Sollten Sie weitere Fragen haben, oder zu dem Projekt beitragen wollen,
-dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel]( https://web.libera.chat/?#mate)
-oder auf die Durchsicht Ihrer [Pull-Requests auf GitHub]( https://github.com/mate-desktop).
+dann freuen wir uns auf einen Chat mit Ihnen im [#mate IRC-Channel](https://web.libera.chat/?#mate)
+oder auf die Durchsicht Ihrer [Pull-Requests auf GitHub](https://github.com/mate-desktop).

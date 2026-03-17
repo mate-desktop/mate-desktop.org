@@ -10,7 +10,7 @@ weight: 1
 
 Caja is the official file manager for the MATE desktop environment. It lets you browse and manage files and directories, access network filesystems, and launch applications. Caja also manages the desktop — drawing the background and providing icons for drives, the trash, and desktop shortcuts.
 
-![Caja window](/img/applications/caja-window.png "Caja file manager")
+![Caja window](/images/applications/caja-window.png "Caja file manager")
 
 ## Features
 

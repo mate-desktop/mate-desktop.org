@@ -13,11 +13,11 @@ e "monitor-number" mediante `dconf-editor` o eseguendo
 
 Qui sotto c'è uno screenshot di `mate-notification-properties` impostato per mostrare le notifiche su un monitor attivo. Si noti che "Use Active Monitor" è selezionato, il che disabilita la combobox per selezionare un monitor.
 
-![active](/assets/img/blog/active-300x235.png)
+![active](/images/blog/active-300x235.png)
 
 Qui sotto c'è uno screenshot di `mate-notification-properties` impostato per mostrare le notifiche su uno specifico monitor. Si noti che "Use Active Monitor" **non** è
 selezionato, il che abilita la combobox per selezionare un monitor da abilitare.
 Il numero del monitor è impostato a 2. Questo mostrerà le notifiche sul mio terzo monitor, perché la numerazione inizia da 0 invece che da 1..
 
-![monitor](/assets/img/blog/monitor-300x235.png)
+![monitor](/images/blog/monitor-300x235.png)
 

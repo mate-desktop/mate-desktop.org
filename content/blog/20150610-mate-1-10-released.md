@@ -10,7 +10,7 @@ After 15 months of development the MATE Desktop team are proud to announce
 the release of MATE Desktop 1.10. We would like to thank every MATE contributor
 and user.
 
-![about](/assets/img/blog/about-mate-1.10.png)
+![about](/images/blog/about-mate-1.10.png)
 
 ## What's new in MATE 1.10
 
@@ -20,7 +20,7 @@ The headline changes in MATE 1.10 are:
     * GTK3 support is still considered *experimental*
     * Arch Linux and Fedora currently offer alternative GTK3 builds.
   * [GSoC 2014] Caja now has an extension manager so plugin can be enabled/disabled at run-time.
-  * [GSoC 2014] Atril now supports [ePub]( https://en.wikipedia.org/wiki/EPUB).
+  * [GSoC 2014] Atril now supports [ePub](https://en.wikipedia.org/wiki/EPUB).
   * [GSoC 2014] `libmatemixer`, an audio mixer library for MATE desktop, has been introduced.
     * Provides an abstract API allowing access to mixer functionality available
     in the PulseAudio, ALSA and OSS sound systems.
@@ -29,7 +29,7 @@ The headline changes in MATE 1.10 are:
 
 The various components of MATE 1.10 are available for download here:
 
-  * < https://pub.mate-desktop.org/releases/1.10/>
+  * [https://pub.mate-desktop.org/releases/1.10/](https://pub.mate-desktop.org/releases/1.10/)
 
 ## Screenshots
 

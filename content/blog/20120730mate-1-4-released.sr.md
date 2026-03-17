@@ -7,7 +7,7 @@ author = "Steve Zesch"
 +++
 Екипа с поносом објављује издање Мејта 1.4.
 
-![]( https://i.imgur.com/V5ab0.png)
+![](https://i.imgur.com/V5ab0.png)
 
 Главне измене и побољшања у овом издању су:
 

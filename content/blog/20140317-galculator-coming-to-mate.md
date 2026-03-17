@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 description = "galculator is replacing mate-calc in MATE 1.10"
 +++
 The MATE team is proud to announce that we are collaborating with the
-[galculator]( http://galculator.mnim.org/) team and that galculator
+[galculator](http://galculator.mnim.org/) team and that galculator
 will replace `mate-calc` in MATE 1.10.
 
 ## What is galculator?
@@ -51,7 +51,7 @@ galculator will remain an entirely independent project but we hope that its
 inclusion in MATE will grow the galculator user base, raise awareness about 
 galculator and attract new contributors to their project. To that end the 
 MATE team will host the galculator translations as a resource on the
-[MATE transifex project]( https://www.transifex.com/organization/mate/dashboard/MATE).
+[MATE transifex project](https://www.transifex.com/organization/mate/dashboard/MATE).
 We are hopeful that the ~300 heroic MATE translators will embrace galculator and
 add to the ~20 languages galculator currently supports.
 

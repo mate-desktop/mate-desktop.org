@@ -5,7 +5,7 @@ slug = "2014-05-10-mate-in-opensuse"
 tags = ["openSUSE"]
 author = "Benjamin Denisart"
 +++
-![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png)
+![openSUSE](/images/blog/mate-opensuse-black-150x150.png)
 
 El equipo MATE de openSUSE esta orgulloso de anunciar la disponibilidad de MATE 1.8
 para openSUSE. Los patrones no estan ya disponibles, y no lo estarán en el futuro
@@ -18,4 +18,4 @@ hay un lugar, X11:MATE:Current.
 
 Para instalarlo, por favor reemplace o agregue nuestro repositorio:
 
-[ https://download.opensuse.org/repositories/X11:/MATE:/Current/]( https://download.opensuse.org/repositories/X11:/MATE:/Current/)
+[https://download.opensuse.org/repositories/X11:/MATE:/Current/](https://download.opensuse.org/repositories/X11:/MATE:/Current/)

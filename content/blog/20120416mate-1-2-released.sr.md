@@ -10,7 +10,7 @@ author = "Stefano Karapetsas"
 него што је био и обухвата подршку за још много програма, програмчића
 и позадинаца.
 
-![MATE 1.2](/assets/img/blog/about-mate-1.2.png)
+![MATE 1.2](/images/blog/about-mate-1.2.png)
 
 Ово су главне измене и побољшања у овом издању:
 

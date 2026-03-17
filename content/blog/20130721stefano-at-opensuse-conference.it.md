@@ -5,8 +5,8 @@ slug = "2013-07-21-stefano-presents-at-opensuse-conference"
 tags = ["News", "openSUSE"]
 author = "Steve Zesch"
 +++
-Il 20 Luglio 2013 [Stefano Karapetsas]( https://github.com/stefano-k) ha presentato la sua discussione
-su MATE alla Conferenza  [openSUSE]( https://www.opensuse.org).
+Il 20 Luglio 2013 [Stefano Karapetsas](https://github.com/stefano-k) ha presentato la sua discussione
+su MATE alla Conferenza  [openSUSE](https://www.opensuse.org).
 
 La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
 le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioniù GNOME Classic e GNOME Fallback,

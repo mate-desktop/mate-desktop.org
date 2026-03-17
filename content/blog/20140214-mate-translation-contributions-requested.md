@@ -16,10 +16,10 @@ and QA and soon MATE 1.8 will be prepared for release.
 Therefore we request that you check the status of the MATE translations you
 contribute to at Transifex and update them ASAP.
 
-  * < https://www.transifex.com/projects/p/MATE/>
+  * [https://www.transifex.com/projects/p/MATE/](https://www.transifex.com/projects/p/MATE/)
 
 If you are not yet a member of the translation team but would like to help then please
-[sign up for a free account at Transifex]( https://www.transifex.com/signup/contributor/)
+[sign up for a free account at Transifex](https://www.transifex.com/signup/contributor/)
 so you can start contributing to MATE, we'd really appreciate it!
 
 There are currently 6 languages with 100% coverage, so lets see how many more

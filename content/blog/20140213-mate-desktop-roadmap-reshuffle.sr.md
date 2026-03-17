@@ -5,7 +5,7 @@ slug = "2014-02-13-mate-desktop-roadmap-reshuffle"
 tags = ["News"]
 author = "Martin Wimpress"
 +++
-Пре неколико дана [Stefano Karapetsas]( https://github.com/stefano-k) је поставио
+Пре неколико дана [Stefano Karapetsas](https://github.com/stefano-k) је поставио
 објаву на „mate-dev“ дописној листи у којој је изложио одлуку да реконструише
 план развоја Мејтове радне површи.
 
@@ -15,7 +15,7 @@ author = "Martin Wimpress"
 лепо као што је то било у Мејту 1.6. Ажурирани план развоја доступан је на
 нашем викију:
 
-  * [План развоја Мејта]( https://wiki.mate-desktop.org/#!pages/roadmap.md)
+  * [План развоја Мејта](https://wiki.mate-desktop.org/#!pages/roadmap.md)
 
 Ова одлука је донета јер је тренутно развојно издање Мејта стабилно,
 укључује многе нове функције, побољшања и исправке грешака. Желимо да

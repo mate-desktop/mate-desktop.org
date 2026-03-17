@@ -8,7 +8,7 @@ author = "Stefano Karapetsas"
 Il team è orgoglioso di annunciare il rilascio di MATE Desktop 1.8. Vorremmo 
 ringraziare ogni collaboratore ed ogni utente MATE.
 
-![about](/assets/img/blog/about-mate-1.8.png)
+![about](/images/blog/about-mate-1.8.png)
 
 I cambiamenti principali in 1.8 sono:
 
@@ -59,7 +59,7 @@ I cambiamenti principali in 1.8 sono:
   * Sostituiti `libmatekeyring` e `mate-keyring` con `libsecret` e `gnome-keyring`
   * Sostituito`libmatewnck` con `libwnck`
   * Sostituito `mucharmap` con `gucharmap`
-  * Sostituito `mate-bluetooth` con [blueman]( https://github.com/blueman-project/blueman)
+  * Sostituito `mate-bluetooth` con [blueman](https://github.com/blueman-project/blueman)
   * Unite tutte le estensioni di Caja in un solo pacchetto
   * Rimossa l'applet luci del modem, poiché l'applet netspeed offre una funzionalità simile
 
@@ -75,11 +75,11 @@ I cambiamenti principali in 1.8 sono:
 Come sempre, abbiamo chiesto agli utenti delle distribuzioni che offrono MATE cosa pensano del
 nostro Ambiente Desktop
 
-**Mike Gabriel**, [Debian]( https://www.debian.org/) sviluppatore e manutentore MATE:
+**Mike Gabriel**, [Debian](https://www.debian.org/) sviluppatore e manutentore MATE:
 
 > Prevedo che MATE sarà uno degli ambienti desktop più utilizzati in Debian Jessie (e successivi).
 
-**Tom Wijsman**, [Gentoo]( https://www.gentoo.org) sviluppatore e manutentore MATE:
+**Tom Wijsman**, [Gentoo](https://www.gentoo.org) sviluppatore e manutentore MATE:
 
 > Alcuni dei nostri utenti affermano di voler rimanere con GNOME 2; perché
 gli piacciono le cose come erano solite essere, eseguono vecchi hardware o vogliono
@@ -89,7 +89,7 @@ problemi di sicurezza; MATE riporta in auge una vecchia gloria con un team di sv
 La loro prosecuzione dello sviluppo di GNOME 2 risolve problemi evidenti, introduce funzionalità nuove
 ed utili e mantiene viva e vegeta la buona vecchia esperienza.
 
-**Willy Sudiarto Raharjo**, Co-sviuppatore del [Progetto MATE SlackBuilds]( https://mateslackbuilds.github.io/):
+**Willy Sudiarto Raharjo**, Co-sviuppatore del [Progetto MATE SlackBuilds](https://mateslackbuilds.github.io/):
 
 > MATE ha condiviso la stessa filosofia alla base di Slackware, come la semplicità,
 la stabilità, e i rilasci senza scadenza prefissata. Viene rilasciato quando è pronto
@@ -98,7 +98,7 @@ anche semplice da mantenere e da integrare su Slackware da quando Patrick
 Volkerding ha dato una solida base come substrato su cui MATE potrebbe colmare il bisogno di Ambienti Desktop basati su GNOME che Slackware non possiede più dal 2005. Aspetto con trepidazione le modifiche evolutive che gli sviluppatori MATE
 integreranno nella successiva major-release di MATE.
 
-**Chess Griffin**, Co-sviluppatorfe del [Progetto MATE SlackBuilds]( https://mateslackbuilds.github.io/):
+**Chess Griffin**, Co-sviluppatorfe del [Progetto MATE SlackBuilds](https://mateslackbuilds.github.io/):
 
 > MATE è un ottimo ambiente desktop per coloro che amano la vecchia esperienza GNOME 2. 
 Apprezzo molto tutto il duro lavoro che viene messo in MATE
@@ -108,7 +108,7 @@ dove opportuno. Lo sforzo di mantenere MATE agnostico in termini di sistema oper
 parte del progetto MATE SlackBuilds, che mira a portare il desktop MATE
 alla comunità Slackware Linux. Grazie a tutto il team di MATE!
 
-**Benjamin Denisart**, [openSUSE]( https://www.opensuse.org/) manutentore MATE:
+**Benjamin Denisart**, [openSUSE](https://www.opensuse.org/) manutentore MATE:
 
 > Il team openSUSE vuole ringraziare gli sviluppatori di MATE per i loro sforzi nel
 fornire questa nuova versione ed è orgoglioso di annunciare la disponibilità
@@ -116,7 +116,7 @@ di `gnome-main-menu`, che farà piacere agli utenti attratti da un desktop tradi
 facile da usare. È un piacere per noi lavorare con il team di MATE e vogliamo
 inviare loro le nostre congratulazioni.
 
-**Clement Lefebvre**, fondatore e capo progetto di [Linux Mint]( https://www.linuxmint.com/):
+**Clement Lefebvre**, fondatore e capo progetto di [Linux Mint](https://www.linuxmint.com/):
 
 > MATE porta con orgoglio i colori di GNOME 2 e continua da dove il progetto
 era stato lasciato. In molti modi e per molta gente MATE li fa sentire come a casa.
@@ -126,7 +126,7 @@ aspetta. È popolare tra i nostri utenti ed è il desktop su cui
 Linux Mint ha costruito la sua tecnologia ed identità dal 2006. Siamo molto orgogliosi
 e molto felici di supportare MATE e deliziati ad ogni nuovo rilascio.
 
-**Wolfgang Ulbrich**, manutentore MATE in [Fedora]( https://fedoraproject.org/): 
+**Wolfgang Ulbrich**, manutentore MATE in [Fedora](https://fedoraproject.org/): 
 
 > Durante i rilasci di Fedora 15/16 sono rimasto molto insoddisfatto delle soluzioni desktop
 proposte. Dopo 10 mesi di utilizzo di XFCE ho scoperto MATE e ho deciso
@@ -139,12 +139,12 @@ dopo abbiamo una soluzione desktop MATE 1.6 stabile e utilizzabile in Fedora 20.
 1.8 è attualmente in Fedora rawhide e sarà rilasciato con Fedora 21
 nell'estate del 2014.
 
-**Martin Wimpress**, manutentore MATE per [Arch Linux]( https://www.archlinux.org/):
+**Martin Wimpress**, manutentore MATE per [Arch Linux](https://www.archlinux.org/):
 
 > MATE è stato originariamente creato da un utente di Arch Linux e sono lieto che MATE sia
 adesso disponibile nei repository ufficiali dei pacchetti Arch Linux e Arch Linux ARM. MATE fornisce un'esperienza desktop completa, completamente integrata e reattiva
 tradizionale e fornisce un flusso di lavoro coerente sul mio [Raspberry Pi](www.raspberrypi.org),
-[CuBox Pro]( https://www.solid-run.com/cubox), laptop e desktop. Geniale!
+[CuBox Pro](https://www.solid-run.com/cubox), laptop e desktop. Geniale!
 
 <br/><br/>
 

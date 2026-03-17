@@ -10,7 +10,7 @@ weight: 5
 
 Engrampa is the official archive manager for the MATE desktop. It is a graphical front-end to command-line archiving tools such as tar, zip, and 7z, forked from File Roller. You can create new archives, add and remove files, inspect contents, and extract files — all without touching the terminal.
 
-![Engrampa window](/img/applications/engrampa-window.png "Engrampa archive manager")
+![Engrampa window](/images/applications/engrampa-window.png "Engrampa archive manager")
 
 ## Supported Formats
 

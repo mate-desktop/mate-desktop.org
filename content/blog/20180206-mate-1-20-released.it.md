@@ -23,11 +23,11 @@ I principali cambiamenti in MATE Desktop 1.20 sono:
   * **MATE Desktop 1.20 supporta gli schermi HiDPI con rilevamento e scalatura dinamici.**
     * Gli hint HiDPI per le applicazioni Qt sono anche portati sull'ambiente per migliorare l'integrazione tra i toolkit.
     * Alternando le modalità HiDPI si attiva il ridimensionamento e la scalatura dinamici. Non occorre eseguire il log out/in.
-  * **Marco adesso supporta [DRI3 and XPresent]( https://lwn.net/Articles/569701/)**, se questo è disponibile.
+  * **Marco adesso supporta [DRI3 and XPresent](https://lwn.net/Articles/569701/)**, se questo è disponibile.
      * I frame rate utilizzando Marco sono significativamente accresciuti.
   * Marco adesso supporta **l'affiancamento con trascinamento al quadrante**, i tasti cursore possono essere utilizzati per spostarsi nel selettore <kbd>Alt</kbd> + <kbd>Tab</kbd> e sono state aggiunte scorciatoie da tastiera per spostare le finestre su un altro monitor.
-  * È stato aggiunto il **supporto per i provider Global Menu** come [vala-panel-appmenu]( https://github.com/rilian-la-te/vala-panel-appmenu).
-  * MATE Panel ha molto migliorato il supporto per gli [elementi notificatori di stato (SNI)]( https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/)
+  * È stato aggiunto il **supporto per i provider Global Menu** come [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu).
+  * MATE Panel ha molto migliorato il supporto per gli [elementi notificatori di stato (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/)
   * **I Bookmark adesso supportano le posizioni GTK3+**.
   * Il Terminale di MATE adesso supporta le immagini di sfondo, aggiunge temi solarizzati e combinazioni di tasti per navigare tra le schede.
   * **Atril, il visualizzatore di documenti, ha subito una massiccia revisione** ed è migliorato in ogni singolo aspetto. Sì, in ogni modo. Migliore!
@@ -47,7 +47,7 @@ I principali cambiamenti in MATE Desktop 1.20 sono:
 
 I vari componenti di MATE 1.20 sono disponibili per il download a questo indirizzo:
 
-  * < https://pub.mate-desktop.org/releases/1.20/>
+  * [https://pub.mate-desktop.org/releases/1.20/](https://pub.mate-desktop.org/releases/1.20/)
 
 ## Changelog
 

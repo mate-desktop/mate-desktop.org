@@ -7,8 +7,8 @@ author = "Martin Wimpress"
 description = "MATE Desktop Google Summer of Code (GSoC) 2014 participation with openSUSE"
 +++
 The MATE team are very pleased to announce that we are participatiing in 
-[Google Summer of Code]( https://www.google-melange.com/archive/). We are doing this 
-in partnership with our good friends at [openSUSE]( https://www.opensuse.org)
+[Google Summer of Code](https://www.google-melange.com/archive/). We are doing this 
+in partnership with our good friends at [openSUSE](https://www.opensuse.org)
 
 ## About Google Summer of Code
 
@@ -32,13 +32,13 @@ the use and benefit of all.
 **The student application period is open from March 10th 2014 until March 21st 2014.**
 
 For assistance in how to apply please read the [Google Summer of Code 2014 
-FAQ]( https://developers.google.com/open-source/gsoc/faq). 
+FAQ](https://developers.google.com/open-source/gsoc/faq). 
 If you are a student who wants to contribute to MATE via the openSUSE GSoC 
 participation you'll what to check out the following:
 
-  * [MATE Google Summer of Code 2014 Ideas]( https://wiki.mate-desktop.org/pages/gsoc-2014)
-  * [openSUSE Google Summer of Code 2014 Ideas]( https://en.opensuse.org/openSUSE:GSOC_ideas)
-  * [openSUSE participates in GSoC 2014]( https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
+  * [MATE Google Summer of Code 2014 Ideas](https://wiki.mate-desktop.org/pages/gsoc-2014)
+  * [openSUSE Google Summer of Code 2014 Ideas](https://en.opensuse.org/openSUSE:GSOC_ideas)
+  * [openSUSE participates in GSoC 2014](https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
 
 In short the MATE GSoC project ideas for 2014 are:
 
@@ -54,8 +54,8 @@ The GSoC 2014 mentors for MATE are Stefano Karapetsas (`stefano-k` on IRC) and
 Martin Wimpress (`flexiondotorg` on IRC). The best way to communicate and 
 interact with the MATE mentors is via:
 
-  * [#mate IRC channel on Libera Chat]( https://web.libera.chat/?#mate)
-  * [#mate:libera.chat Matrix room]( https://matrix.to/#/#mate:libera.chat)
-  * [MATE on GitHub]( https://github.com/mate-desktop)
+  * [#mate IRC channel on Libera Chat](https://web.libera.chat/?#mate)
+  * [#mate:libera.chat Matrix room](https://matrix.to/#/#mate:libera.chat)
+  * [MATE on GitHub](https://github.com/mate-desktop)
 
 We look forward to reviewing your applications!

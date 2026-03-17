@@ -22,18 +22,18 @@ author = "Martin Wimpress"
 
 ## Шта је враћено?
 
-  * < https://www.mate-desktop.org> – Овај веб сајт
-  * < https://pub.mate-desktop.org> – Где можете наћи паковања издања Мејтове радне површи.
-  * < https://wiki.mate-desktop.org/#!index.md> – Програмерски вики.
-  * < https://git.mate-desktop.org> – Ово је огледало [ГитХаб-а Мејтове радне површи]( https://github.com/mate-desktop).
-  * < https://planet.mate-desktop.org> – Планета Мејтове радне површи.
+  * [https://www.mate-desktop.org](https://www.mate-desktop.org) – Овај веб сајт
+  * [https://pub.mate-desktop.org](https://pub.mate-desktop.org) – Где можете наћи паковања издања Мејтове радне површи.
+  * [https://wiki.mate-desktop.org/#!index.md](https://wiki.mate-desktop.org/#!index.md) – Програмерски вики.
+  * [https://git.mate-desktop.org](https://git.mate-desktop.org) – Ово је огледало [ГитХаб-а Мејтове радне површи](https://github.com/mate-desktop).
+  * [https://planet.mate-desktop.org](https://planet.mate-desktop.org) – Планета Мејтове радне површи.
   * `mail.mate-desktop.org` – Сервер поште за програмере.
 
 ## Освежење
 
 ### 21. децембар
 
-  * [Bytemark]( https://www.bytemark.co.uk/r/ubuntu-mate/) нуди да спонзорише удомљавање Мејтове радне површи како би нам помогао да превазиђемо пад сервера са нашим претходним достављачем.
+  * [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) нуди да спонзорише удомљавање Мејтове радне површи како би нам помогао да превазиђемо пад сервера са нашим претходним достављачем.
   * Враћени су `www.mate-desktop.org` и `pub.mate-desktop.org`
 
 ### 22. децембар

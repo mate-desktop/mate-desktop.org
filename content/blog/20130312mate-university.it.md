@@ -6,11 +6,11 @@ tags = ["News"]
 author = "Stefano Karapetsas"
 description = "Development"
 +++
-![c-file](/assets/img/blog/c-file.png)
+![c-file](/images/blog/c-file.png)
 
 Siamo orgogliosi di di annunciare il nostro nuovo pacchetto su GitHub:
 
-  * [MATE University]( https://github.com/mate-desktop/mate-university)
+  * [MATE University](https://github.com/mate-desktop/mate-university)
 
 MATE University è orientato agli sviluppatori di ogni livello (inclusi i principianti)
 per imparare come sviluppare nuove applet del pannello, estensioni di Caja (file manager),

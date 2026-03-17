@@ -7,6 +7,7 @@ authors:
 slug: 2018-02-07-mate-1-20-released
 description: "After 11 months of development the MATE Desktop team are pleased to announce the release of MATE Desktop 1.20 with HiDPI support, improved window manager, and hundreds of bug fixes."
 ---
+
 After 11 months of development the MATE Desktop team are pleased as punch to
 announce the release of MATE Desktop 1.20. We'd like to thank every MATE
 contributor for their help making this release possible.
@@ -25,11 +26,11 @@ The headline changes in MATE Desktop 1.20 are:
   * **MATE Desktop 1.20 supports HiDPI displays with dynamic detection and scaling.**
     * HiDPI hints for Qt applications are also pushed to the environment to improve cross toolkit integration.
     * Toggling HiDPI modes triggers dynamic resize and scale, no log out/in required.
-  * **Marco now supports [DRI3 and XPresent]( https://lwn.net/Articles/569701/)**, if available.
+  * **Marco now supports [DRI3 and XPresent](https://lwn.net/Articles/569701/)**, if available.
      * Frame rates in games are significantly increased when using Marco.
   * Marco now supports **drag to quadrant window tiling**, cursor keys can be used to navigate the <kbd>Alt</kbd> + <kbd>Tab</kbd> switcher and keyboard shortcuts to move windows to another monitor were added.
-  * **Support for Global Menu** providers such as [vala-panel-appmenu]( https://github.com/rilian-la-te/vala-panel-appmenu) has been added.
-  * MATE Panel has much improved [Status Notifier Items (SNI)]( https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) support.
+  * **Support for Global Menu** providers such as [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) has been added.
+  * MATE Panel has much improved [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) support.
   * **Bookmarks now support GTK3+ locations**.
   * MATE Terminal now supports background images, adds Solarized themes and keybindings to switch tabs.
   * **Atril, the document viewer, has had a massive overhaul** and is better in every single way. Yes, all ways. Better!
@@ -49,7 +50,7 @@ The headline changes in MATE Desktop 1.20 are:
 
 The various components of MATE Desktop 1.20 are available for download here:
 
-  * < https://pub.mate-desktop.org/releases/1.20/>
+  * [https://pub.mate-desktop.org/releases/1.20/](https://pub.mate-desktop.org/releases/1.20/)
 
 ## Changelog
 

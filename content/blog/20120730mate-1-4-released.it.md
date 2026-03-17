@@ -7,7 +7,7 @@ author = "Steve Zesch"
 +++
 Il team è orgoglioso di annunciare il rilascio della versione di MATE 1.4.
 
-![]( https://i.imgur.com/V5ab0.png)
+![](https://i.imgur.com/V5ab0.png)
 
 Qui seguono i principali cambiamenti e miglioramenti di questo rilascio:
 

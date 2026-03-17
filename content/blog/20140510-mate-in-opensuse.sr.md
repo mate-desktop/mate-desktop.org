@@ -5,7 +5,7 @@ slug = "2014-05-10-mate-in-opensuse"
 tags = ["openSUSE"]
 author = "Benjamin Denisart"
 +++
-![openSUSE](/assets/img/blog/mate-opensuse-black-150x150.png)
+![openSUSE](/images/blog/mate-opensuse-black-150x150.png)
 
 Тим „openSUSE“ Мејт с поносом објављује доступност Мејта 1.8
 за „openSUSE“. Обрасци више нису доступни и неће бити доступни
@@ -18,4 +18,4 @@ author = "Benjamin Denisart"
 
 Да га инсталирате, замените или додајте нашу ризницу:
 
-[ https://download.opensuse.org/repositories/X11:/MATE:/Current/]( https://download.opensuse.org/repositories/X11:/MATE:/Current/)
+[https://download.opensuse.org/repositories/X11:/MATE:/Current/](https://download.opensuse.org/repositories/X11:/MATE:/Current/)

@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 description = "galculator is replacing mate-calc in MATE 1.10"
 +++
 Мејтова екипа с поносом објављује да сарађујемо са екипом
-[галкулатора]( http://galculator.mnim.org/) и да ће галкулатор
+[галкулатора](http://galculator.mnim.org/) и да ће галкулатор
 заменити `mate-calc` у Мејту 1.10.
 
 ## Шта је галкулатор?
@@ -51,7 +51,7 @@ description = "galculator is replacing mate-calc in MATE 1.10"
 његово укључивање у Мејт повећати број његових корисника, повећати
 сазнање о постојању галкулатора и привући нове доприносиоце његовом пројекту.
 Због тога ће Мејтова екипа да удомљава преводе галкулатора као ресурс на
-[Мејтовом трансифекс пројекту]( https://www.transifex.com/organization/mate/dashboard/MATE).
+[Мејтовом трансифекс пројекту](https://www.transifex.com/organization/mate/dashboard/MATE).
 Надамо се да ће ~300 храбрих Мејтових преводилаца пригрлити галкулатор и
 додати његов превод у ~20 језика које тренутно подржава.
 

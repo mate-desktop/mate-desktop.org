@@ -6,11 +6,11 @@ tags = ["News"]
 author = "Stefano Karapetsas"
 description = "Developement"
 +++
-![c-file](/assets/img/blog/c-file.png)
+![c-file](/images/blog/c-file.png)
 
 С поносом објављујемо наше најновије пакете на ГитХаб-у:
 
-  * [Мејтов Универзитет]( https://github.com/mate-desktop/mate-university)
+  * [Мејтов Универзитет](https://github.com/mate-desktop/mate-university)
 
 Мејтов Универзитет је намењеним свим нивоима програмера (укључујући почетнике) да би
 научили како да развијају нове програмчиће панела, проширења Цаје (управника датотека),

@@ -5,7 +5,7 @@ slug = "2012-01-18-reporting-bugs"
 author = "Steve Zesch"
 +++
 Actualmente estamos en el proceso de cambiar para manejar todos nuestros problemas a través
-del [proyecto mate-desktop en GitHub] ( https://github.com/mate-desktop) en lugar
+del [proyecto mate-desktop en GitHub] (https://github.com/mate-desktop) en lugar
 de la página de Perberos. La razón es simple: cuando Perberos está ausente, ninguno de los
 otros desarrolladores pueden cerrar tickets. Esto crea un poco de lío. 
 

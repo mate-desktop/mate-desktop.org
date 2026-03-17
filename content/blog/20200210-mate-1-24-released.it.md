@@ -16,7 +16,7 @@ Questo rilascio contiene una gran quantità di nuove funzionalità, correzioni e
 
 * Lo abbiamo fatto ancora, l'utilizzo dell'ambiente desktop MATE è più semplice di prima, una volta che l'utente avvia la sessione. Volete nascondere l'avvio delle applicazioni? Adesso potete impostare quali applicazioni mostrare all'avvio.
 * **Engrampa** adesso ha il supporto per una manciata di formati aggiuntivi, assieme al supporto fisso per le password ed i caratteri unicode in alcuni di essi.
-* **Eye of MATE** adesso ha il supporto per [Wayland]( https://wayland.freedesktop.org/) e abbiamo aggiunto il supporto per i profili di colore integrati.
+* **Eye of MATE** adesso ha il supporto per [Wayland](https://wayland.freedesktop.org/) e abbiamo aggiunto il supporto per i profili di colore integrati.
     * La generazione delle miniature è stata rivista e corretta in diversi punti.
     * Aggiunto il supporto per i file webp.
 * Il nostro gestore delle finestre, **marco**, ha ricevuto una serie di modifiche:
@@ -37,12 +37,12 @@ Questo rilascio contiene una gran quantità di nuove funzionalità, correzioni e
 * Parlando di icone, quelle dell'applet network manager nei nostri temi sono state completamente ridisegnate e possono essere ammirate a pieno sui display HiDPI.
 * Se siete il tipo di persone a cui non piace essere disturbati quando siete occupati, o state effettuando una presentazione, o magari state guardando un film, sarete lieti di sapere che il **demone delle notifiche** adesso supporta una modalità Non-Disturbare.
 * Il **pannello di MATE** aveva diversi bug che causavano crash quando si cambiava la disposizione. Questi adesso sono stati corretti!
-    * Il supporto per la compatibilità a [Wayland]( https://wayland.freedesktop.org/) è stato considerevolmente migliorato. 
+    * Il supporto per la compatibilità a [Wayland](https://wayland.freedesktop.org/) è stato considerevolmente migliorato. 
     * Le icone di stato (note come **area di notifica**, o **system tray**) hanno il supporto per i display HiDPI.
     * **Wanda il Pesce** ha subito un rifacimento e adesso può essere apprezzata nella pienezza di HiDPI
     * L'applet **elenco delle finestre** adesso supporta le miniature delle finestre al passaggio del mouse.
     * Diversi miglioramenti all'accessibilità attraverso il pannello e le sue applet essenziali.
-* Se il vostro sistema non supporta [systemd]( https://freedesktop.org/wiki/Software/systemd/) potreste essere interessati nel sapere che abbiamo aggiunto il supporto per [elogind]( https://github.com/elogind/elogind)  sia a **MATE Screensaver** che a **MATE Session**.
+* Se il vostro sistema non supporta [systemd](https://freedesktop.org/wiki/Software/systemd/) potreste essere interessati nel sapere che abbiamo aggiunto il supporto per [elogind](https://github.com/elogind/elogind)  sia a **MATE Screensaver** che a **MATE Session**.
 * Abbiamo anche aggiunto una utility nuova di zecca: **MATE Disk Image Mounter**.
 * **Mozo**, l'editor di menù, adesso supporta le azioni Annulla e Ripeti.
 * I plugin di **Pluma** sono stati portati a Python 3.
@@ -53,7 +53,7 @@ Questo rilascio contiene una gran quantità di nuove funzionalità, correzioni e
 
 I vari componenti di MATE 1.24 sono disponibili per il download a questo indirizzo:
 
-  * < https://pub.mate-desktop.org/releases/1.24/>
+  * [https://pub.mate-desktop.org/releases/1.24/](https://pub.mate-desktop.org/releases/1.24/)
 
 ## Maggiori dettagli
 
@@ -77,7 +77,7 @@ Seguono maggiori truculenti dettagli.
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/atril/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/atril/commits/master/](https://github.com/mate-desktop/atril/commits/master/)
 
 ### caja
 * Pronto per l'utilizzo di gcc 10
@@ -109,13 +109,13 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/atril/
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/caja/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/caja/commits/master/](https://github.com/mate-desktop/caja/commits/master/)
 
 ### caja-dropbox
 * Utilizzata CAJA_EXTENSION_DIR_SYS per memorizzare e mostrare la directory di sistema delle estensioni caja
 * Mostrato il percorso completo di caja-extension-dir
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/caja-dropbox/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/caja-dropbox/commits/master/](https://github.com/mate-desktop/caja-dropbox/commits/master/)
 
 ### caja-extensions
 * caja-wallpaper-extension: corretto un memory leak
@@ -127,7 +127,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/caja-d
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/caja-extensions/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/caja-extensions/commits/master/](https://github.com/mate-desktop/caja-extensions/commits/master/)
 
 ### engrampa
 * Pronto per l'utilizzo di gcc 10
@@ -151,7 +151,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/caja-e
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/engrampa/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/engrampa/commits/master/](https://github.com/mate-desktop/engrampa/commits/master/)
 
 ### eom
 * Aggiunto eom-thumbnailer per i file webp
@@ -167,7 +167,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/engram
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/eom/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/eom/commits/master/](https://github.com/mate-desktop/eom/commits/master/)
 
 ### libmatekbd
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -175,14 +175,14 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/eom/co
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/libmatekbd/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/libmatekbd/commits/master/](https://github.com/mate-desktop/libmatekbd/commits/master/)
 
 ### libmatemixer
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/libmatemixer/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/libmatemixer/commits/master/](https://github.com/mate-desktop/libmatemixer/commits/master/)
 
 ### libmateweather
 * Locations: Aggiunta la stazione meteo di  Lleida–Alguaire Airport
@@ -191,7 +191,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/libmat
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/libmateweather/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/libmateweather/commits/master/](https://github.com/mate-desktop/libmateweather/commits/master/)
 
 ### marco
 * theme: Corretto il rendering hidpi del controllo della finestra per tutti i temi
@@ -212,7 +212,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/libmat
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/marco/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/marco/commits/master/](https://github.com/mate-desktop/marco/commits/master/)
 
 ### mate-applets
 * Pronto per l'utilizzo di gcc 10
@@ -229,14 +229,14 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/marco/
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-applets/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-applets/commits/master/](https://github.com/mate-desktop/mate-applets/commits/master/)
 
 ### mate-backgrounds
 * Abilitato il supporto per il sistema di compilazione meson
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-backgrounds/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-backgrounds/commits/master/](https://github.com/mate-desktop/mate-backgrounds/commits/master/)
 
 ### mate-calc
 
@@ -254,7 +254,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-b
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-calc/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-calc/commits/master/](https://github.com/mate-desktop/mate-calc/commits/master/)
 
 ### mate-common
 * Aggiornata la macro MATE_CXX_WARNINGS
@@ -262,7 +262,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-c
 * Verificato che if AX_APPEND_FLAG e AX_CHECK_COMPILE_FLAG siano disponibili
 * Aggiornata la macro mate-compiler-flags
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-common/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-common/commits/master/](https://github.com/mate-desktop/mate-common/commits/master/)
 
 ### mate-control-center
 * Ricerca dei temi di sistema nelle cartelle dei dati di sistema
@@ -289,7 +289,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-c
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-control-center/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-control-center/commits/master/](https://github.com/mate-desktop/mate-control-center/commits/master/)
 
 ### mate-desktop
 * Eliminata mate_desktop_thumbnail_scale_down_pixbuf()
@@ -305,7 +305,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-c
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-desktop/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-desktop/commits/master/](https://github.com/mate-desktop/mate-desktop/commits/master/)
 
 ### mate-icon-theme
 * Aggiunte le icone di stato per le connessioni di rete dei dispositivi mobili
@@ -326,14 +326,14 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-d
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-icon-theme/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-icon-theme/commits/master/](https://github.com/mate-desktop/mate-icon-theme/commits/master/)
 
 ### mate-indicator-applet
 * Ridimensionate le icone dell'indicatore per adattarsi al pannello
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-indicator-applet/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-indicator-applet/commits/master/](https://github.com/mate-desktop/mate-indicator-applet/commits/master/)
 
 ### mate-media
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -346,14 +346,14 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-i
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-media/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-media/commits/master/](https://github.com/mate-desktop/mate-media/commits/master/)
 
 ### mate-menus
 * Utilizzate datadir e libdir quando si installano i file gir
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-menus/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-menus/commits/master/](https://github.com/mate-desktop/mate-menus/commits/master/)
 
 ### mate-netbook
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -363,7 +363,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-m
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-netbook/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-netbook/commits/master/](https://github.com/mate-desktop/mate-netbook/commits/master/)
 
 ### mate-notification-daemon
 * Utilizzato gresource per mate-notification-properties.ui
@@ -371,7 +371,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-n
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-notification-daemon/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-notification-daemon/commits/master/](https://github.com/mate-desktop/mate-notification-daemon/commits/master/)
 
 ### mate-panel
 * Evitata la doppia descrizione a11y sui toplevel del pannello
@@ -397,7 +397,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-n
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-panel/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-panel/commits/master/](https://github.com/mate-desktop/mate-panel/commits/master/)
 
 ### mate-polkit
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -405,7 +405,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-p
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-polkit/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-polkit/commits/master/](https://github.com/mate-desktop/mate-polkit/commits/master/)
 
 ### mate-power-manager
 * icons: Aggiunte icone a risoluzione più alta
@@ -418,7 +418,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-p
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-power-manager/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-power-manager/commits/master/](https://github.com/mate-desktop/mate-power-manager/commits/master/)
 
 ### mate-screensaver
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -428,13 +428,13 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-p
 * Aggiunto il supporto ELOGIND
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-screensaver/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-screensaver/commits/master/](https://github.com/mate-desktop/mate-screensaver/commits/master/)
 
 ### mate-sensors-applet
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-sensors-applet/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-sensors-applet/commits/master/](https://github.com/mate-desktop/mate-sensors-applet/commits/master/)
 
 ### mate-session-manager
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -452,7 +452,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-s
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-session-manager/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-session-manager/commits/master/](https://github.com/mate-desktop/mate-session-manager/commits/master/)
 
 ### mate-settings-daemon
 * Richiesto DBUS 1.10.0 o successivo
@@ -470,7 +470,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-s
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-settings-daemon/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-settings-daemon/commits/master/](https://github.com/mate-desktop/mate-settings-daemon/commits/master/)
 
 ### mate-system-monitor
 
@@ -489,7 +489,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-s
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-system-monitor/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-system-monitor/commits/master/](https://github.com/mate-desktop/mate-system-monitor/commits/master/)
 
 ### mate-terminal
 * Pronto per l'utilizzo di gcc 10
@@ -502,7 +502,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-s
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-terminal/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-terminal/commits/master/](https://github.com/mate-desktop/mate-terminal/commits/master/)
 
 ### mate-user-guide
 * Aggiornata la sezione come riportare un malfunzionamento
@@ -512,7 +512,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-t
 * Aggiornato il manuale a docbook 5.0
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-user-guide/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-user-guide/commits/master/](https://github.com/mate-desktop/mate-user-guide/commits/master/)
 
 ### mate-user-share
 * Corrette diverse analisi del codice, i warning di deprecazione sono stati riportati da Clang Static Analyzer, Cppcheck e GCC
@@ -520,7 +520,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-u
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-user-share/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-user-share/commits/master/](https://github.com/mate-desktop/mate-user-share/commits/master/)
 
 ### mate-utils
 * Pronto per l'utilizzo di gcc 10
@@ -536,7 +536,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-u
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-utils/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mate-utils/commits/master/](https://github.com/mate-desktop/mate-utils/commits/master/)
 
 ### mozo
 * Aggiunti i pulsanti Annulla e Ripeti
@@ -547,7 +547,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mate-u
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/mozo/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/mozo/commits/master/](https://github.com/mate-desktop/mozo/commits/master/)
 
 ### pluma
 * Aggiunta la capacità di mostrare i caratteri non stampabili (spazio/tab/newline)
@@ -565,7 +565,7 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/mozo/c
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/pluma/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/pluma/commits/master/](https://github.com/mate-desktop/pluma/commits/master/)
 
 ### python-caja
 * Pronto per l'utilizzo di gcc 10
@@ -574,4 +574,4 @@ Il changelog completo è disponibile su < https://github.com/mate-desktop/pluma/
 * i18n: Migrazione da intltools a gettext
 * g10n: Aggiornate le traduzioni
 
-Il changelog completo è disponibile su < https://github.com/mate-desktop/python-caja/commits/master/>
+Il changelog completo è disponibile su [https://github.com/mate-desktop/python-caja/commits/master/](https://github.com/mate-desktop/python-caja/commits/master/)

@@ -11,12 +11,12 @@ Gnome 2 fue el escritorio de Linux más popular, pero ya no está disponible... 
 está aquí para proporcionarte el mismo escritorio `:)`
 
 Inicialmente, Perberos hizo una bifurcación de Gnome 2 y la llamó proyecto MATE. Usuarios y
-desarrolladores han tenido éxito de ejecutar MATE en [Arch Linux]( https://www.archlinux.org)
+desarrolladores han tenido éxito de ejecutar MATE en [Arch Linux](https://www.archlinux.org)
 y debido a la demanda popular, Perberos facilitó la compilación de MATE bajo
-[Debian]( https://www.debian.org).
+[Debian](https://www.debian.org).
 
-[Stefano Karapetsas]( https://github.com/stefano-k) y [Clement Lefebvre]( https://github.com/clefebvre)
-se unieron luego al proyecto y lo empaquetaron para Debian y [Linux Mint]( https://www.linuxmint.com).
+[Stefano Karapetsas](https://github.com/stefano-k) y [Clement Lefebvre](https://github.com/clefebvre)
+se unieron luego al proyecto y lo empaquetaron para Debian y [Linux Mint](https://www.linuxmint.com).
 El escritorio MATE apareció en Linux Mint 12 y ahora está ganando impulso rápidamente.
 
 Nuestra máxima prioridad es mejorar MATE y que esté a la par, en términos de características

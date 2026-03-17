@@ -6,7 +6,7 @@ tags = ["Blueman", "BlueZ", "Bluetooth", "News"]
 author = "Martin Wimpress"
 description = "MATE Desktop collaborates with Blueman project."
 +++
-I team di MATE sono deliziati di annunciare che stiamo collaborando col [progetto Blueman]( https://github.com/blueman-project/blueman) ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.
+I team di MATE sono deliziati di annunciare che stiamo collaborando col [progetto Blueman](https://github.com/blueman-project/blueman) ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.
 
 ## Perché abbandonare mate-bluetooth?
 
@@ -14,7 +14,7 @@ I team di MATE sono deliziati di annunciare che stiamo collaborando col [progett
 
 ## Perché Blueman? Non è un progetto morto?
 
-Sebbene il progetto originale Blueman fosse stagnante, [Christopher Schramm]( https://github.com/cschramm)
+Sebbene il progetto originale Blueman fosse stagnante, [Christopher Schramm](https://github.com/cschramm)
 ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per MATE.
 
 ## Quando sarà pronta la versione aggiornata di Blueman?
@@ -30,4 +30,4 @@ per la versione 1.8.1 che è intesa principalmente come una versione di bug fix.
 ## Non potete fare prima, cavolo?!
 
 Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato 
-a contribuire attraverso il [repository Blueman GitHub]( https://github.com/blueman-project/blueman).
+a contribuire attraverso il [repository Blueman GitHub](https://github.com/blueman-project/blueman).

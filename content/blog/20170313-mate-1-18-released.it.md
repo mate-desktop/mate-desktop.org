@@ -26,7 +26,7 @@ I principali cambiamenti in MATE Desktop 1.18 sono:
   * **Aggiunto il supporto `libinput` per mouse e touchpad.**
     * Separati i settaggi per la mano utilizzata sul mouse (sinistra/destra) e l'accelerazione/soglia del movimento.
   * **Migliorato di molto il supporto all'accessibilità (in modo particolare per gli utenti con difficoltà visive).**
-     * Molte grazie ai nostri amici di [Hypra.fr]( https://hypra.fr/-Home-17-.html?lang=en) per il loro contributo!
+     * Molte grazie ai nostri amici di [Hypra.fr](https://hypra.fr/-Home-17-.html?lang=en) per il loro contributo!
   * **Caja aggiunge numerose nuove funzionalità** includendo:
       * L'aggiunta di una coda di copia e la pausa di un processo di copia.
       * La richiesta di conferma prima di spostare i file nel Cestino.
@@ -34,9 +34,9 @@ I principali cambiamenti in MATE Desktop 1.18 sono:
       * La notifica di quando è sicuro rimuovere i dispositivi espulsi. 
   * **Il blocco dello schermo carica lo sfondo scelto dall'utente** invece di quello predefinito di sistema.
   * Il Pannello di MATE riceve diversi miglioramenti, che includono:
-    * **Aggiunto il supporto delle [azioni desktop]( https://specifications.freedesktop.org/desktop-entry-spec/latest/) per avere opzioni di lancio aggiuntive**.
+    * **Aggiunto il supporto delle [azioni desktop](https://specifications.freedesktop.org/desktop-entry-spec/latest/) per avere opzioni di lancio aggiuntive**.
     * Aggiunto il supporto dello StatusNotifier.
-    * **Aggiunto il supporto per l'editor di menù [Menulibre]( https://smdavis.us/projects/menulibre/)**, se viene installato,  questo è preferito a Mozo.
+    * **Aggiunto il supporto per l'editor di menù [Menulibre](https://smdavis.us/projects/menulibre/)**, se viene installato,  questo è preferito a Mozo.
   * Engrampa, il gestore degli archivi, include diversi miglioramenti:
     * Aggiunti `ear` e `war` all'elenco dei tipi supportati.
     * Ci si è assicurati della versione di rar/unrar se viene mostrata la data corretta.
@@ -54,7 +54,7 @@ I principali cambiamenti in MATE Desktop 1.18 sono:
 
 I vari componenti di MATE 1.18 sono disponibili per il download a questo indirizzo:
 
-  * < https://pub.mate-desktop.org/releases/1.18/>
+  * [https://pub.mate-desktop.org/releases/1.18/](https://pub.mate-desktop.org/releases/1.18/)
 
 ## Changelog
 

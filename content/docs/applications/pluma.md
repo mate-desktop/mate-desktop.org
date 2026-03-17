@@ -10,7 +10,7 @@ weight: 2
 
 Pluma is the official text editor for the MATE desktop. While designed to be simple and easy to use, it is a capable general-purpose editor suitable for programming, configuration editing, and writing. Its plugin system allows advanced features to be added on demand.
 
-![Pluma window](/img/applications/pluma-window.png "Pluma text editor")
+![Pluma window](/images/applications/pluma-window.png "Pluma text editor")
 
 ## Features
 

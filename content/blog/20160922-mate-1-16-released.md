@@ -10,7 +10,7 @@ After 6 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.16. We'd like to thank every
 MATE contributor for their help making this release possible.
 
-![about](/assets/img/blog/about-mate-1.16.png)
+![about](/images/blog/about-mate-1.16.png)
 
 ## What's new in MATE 1.16
 
@@ -43,7 +43,7 @@ headline changes in MATE Desktop 1.16 are:
 
 The various components of MATE Desktop 1.16 are available for download here:
 
-  * < https://pub.mate-desktop.org/releases/1.16/>
+  * [https://pub.mate-desktop.org/releases/1.16/](https://pub.mate-desktop.org/releases/1.16/)
 
 ## Changelog
 

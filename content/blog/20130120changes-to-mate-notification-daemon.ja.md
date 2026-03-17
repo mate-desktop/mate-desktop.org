@@ -9,9 +9,9 @@ author = "Steve Zesch"
 
 以下は、`mate-notification-properties` のスクリーンショットで、アクティブモニタに通知を表示する設定です。「アクティブモニターを使う」が選択されていることに注意してください。これによって、モニタを選択するためのコンボボックスが無効になります。
 
-![active](/assets/img/blog/active-300x235.png)
+![active](/images/blog/active-300x235.png)
 
 次のスクリーンショットは、特定のモニターに表示される通知に対して設定された `mate-notification-properties` です。「アクティブモニターを使う」が**選択されていない**ことに注意してください。これによって、有効にしたいモニターの選択用のコンボボックスが使用可能となります。図のモニター番号は 2 に設定されています。カウントは 1 からでなくて 0 から開始されるので、これで 3 番目のモニターに表示されます。
 
-![monitor](/assets/img/blog/monitor-300x235.png)
+![monitor](/images/blog/monitor-300x235.png)
 

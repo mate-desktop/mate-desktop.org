@@ -4,7 +4,7 @@ date = "2012-01-18T21:22:52Z"
 slug = "2012-01-18-reporting-bugs"
 author = "Steve Zesch"
 +++
-Momentan versuchen wir, alle Vorgänge zur Problembehandlung zum [MATE-Desktop-Projekt auf GitHub]( https://github.com/mate-desktop) zu verschieben,
+Momentan versuchen wir, alle Vorgänge zur Problembehandlung zum [MATE-Desktop-Projekt auf GitHub](https://github.com/mate-desktop) zu verschieben,
 weg von Perberos' Seite. Der Grund ist einfach: Sollte Perberos das Projekt verlassen, könnte keine
 anderen Entwickler Problemtickets schließen. So entsteht ein ziemliches Durcheinander.
 

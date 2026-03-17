@@ -21,18 +21,18 @@ Questi servizi sono attualmente inattivi, elencati in ordine di priorità di rip
 
 ## Cosa è stato ripristinato?
 
-  * < https://www.mate-desktop.org> - Questo sito web
-  * < https://pub.mate-desktop.org> - Dove è possibile trovare i tarball delle release di MATE Desktop.
-  * < https://wiki.mate-desktop.org/#!index.md> - Il wiki per gli sviluppatori.
-  * < https://git.mate-desktop.org> - Questo è un mirror di [GitHub del Desktop MATE]( https://github.com/mate-desktop).
-  * < https://planet.mate-desktop.org> - Il pianeta del Desktop MATE.
+  * [https://www.mate-desktop.org](https://www.mate-desktop.org) - Questo sito web
+  * [https://pub.mate-desktop.org](https://pub.mate-desktop.org) - Dove è possibile trovare i tarball delle release di MATE Desktop.
+  * [https://wiki.mate-desktop.org/#!index.md](https://wiki.mate-desktop.org/#!index.md) - Il wiki per gli sviluppatori.
+  * [https://git.mate-desktop.org](https://git.mate-desktop.org) - Questo è un mirror di [GitHub del Desktop MATE](https://github.com/mate-desktop).
+  * [https://planet.mate-desktop.org](https://planet.mate-desktop.org) - Il pianeta del Desktop MATE.
   * `mail.mate-desktop.org` - Server mail per gli sviluppatori.
 
 ## Aggiornamento
 
 ### 21 Dicembre
 
-  * [Bytemark]( https://www.bytemark.co.uk/r/ubuntu-mate/) si offre di sponsorizzare l'hosting del Desktop MATE per aiutarci a superare l'interruzione del server con il nostro precedente provider.
+  * [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) si offre di sponsorizzare l'hosting del Desktop MATE per aiutarci a superare l'interruzione del server con il nostro precedente provider.
   * Ripristinati  `www.mate-desktop.org` e `pub.mate-desktop.org`
 
 ### 22 Dicembre

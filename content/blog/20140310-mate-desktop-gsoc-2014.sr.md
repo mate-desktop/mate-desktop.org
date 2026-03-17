@@ -7,8 +7,8 @@ author = "Martin Wimpress"
 description = "MATE Desktop Google Summer of Code (GSoC) 2014 participation with openSUSE"
 +++
 Мејтова екипа са задовољством објављује да учествује на 
-[Гугловом лету програмирања]( https://www.google-melange.com/archive/). То радимо 
-у садејству са нашим добрим пријатељима на [openSUSE]( https://www.opensuse.org)
+[Гугловом лету програмирања](https://www.google-melange.com/archive/). То радимо 
+у садејству са нашим добрим пријатељима на [openSUSE](https://www.opensuse.org)
 
 ## О Гугловом лету програмирања
 
@@ -31,13 +31,13 @@ description = "MATE Desktop Google Summer of Code (GSoC) 2014 participation with
 **Период пријављивања студената је отворен од 10. марта 2014. до 21. марта 2014.**
 
 За испомоћ о томе како да се пријавите прочитајте [ЧПП Гугловог лета програмирања 
-2014]( https://developers.google.com/open-source/gsoc/faq). 
+2014](https://developers.google.com/open-source/gsoc/faq). 
 Ако сте студент који жели да допринесе Мејту путем „openSUSE GSoC“ 
 учествовања проверите следеће:
 
-  * [Мејтове идеје Гугловог лета програмирања 2014.]( https://wiki.mate-desktop.org/pages/gsoc-2014)
-  * [openSUSE идеје Гугловог лета програмирања 2014.]( https://en.opensuse.org/openSUSE:GSOC_ideas)
-  * [openSUSE учествује на GSoC-у 2014.]( https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
+  * [Мејтове идеје Гугловог лета програмирања 2014.](https://wiki.mate-desktop.org/pages/gsoc-2014)
+  * [openSUSE идеје Гугловог лета програмирања 2014.](https://en.opensuse.org/openSUSE:GSOC_ideas)
+  * [openSUSE учествује на GSoC-у 2014.](https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/)
 
 Идеје пројекта Мејта „GSoC“-а за 2014. укратко су:
 
@@ -53,8 +53,8 @@ description = "MATE Desktop Google Summer of Code (GSoC) 2014 participation with
 Мартин Вимпрес (`flexiondotorg` на IRC-у). Најбољи начин за комуницирање и 
 деловање са покровитељима Мејта је путем:
 
-  * [#mate IRC канала на Libera Chat-у]( https://web.libera.chat/?#mate)
-  * [#mate:libera.chat Матрикс причаонице]( https://matrix.to/#/#mate:libera.chat)
-  * [Мејта на ГитХаб-у]( https://github.com/mate-desktop)
+  * [#mate IRC канала на Libera Chat-у](https://web.libera.chat/?#mate)
+  * [#mate:libera.chat Матрикс причаонице](https://matrix.to/#/#mate:libera.chat)
+  * [Мејта на ГитХаб-у](https://github.com/mate-desktop)
 
 Радујемо се прегледу ваших пријава!

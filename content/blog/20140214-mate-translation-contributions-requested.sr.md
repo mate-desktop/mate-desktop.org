@@ -15,10 +15,10 @@ author = "Martin Wimpress"
 Стога тражимо од вас да проверите стање Мејтових превода које сте
 урадили на Трансифексу и да их дорадите „ASAP“.
 
-  * < https://www.transifex.com/projects/p/MATE/>
+  * [https://www.transifex.com/projects/p/MATE/](https://www.transifex.com/projects/p/MATE/)
 
 Ако још увек нисте члан преводилачког тима али бисте желели да помогнете тада
-[направите слободан налог на Трансифексу]( https://www.transifex.com/signup/contributor/)
+[направите слободан налог на Трансифексу](https://www.transifex.com/signup/contributor/)
 тако да можете почети да доприносите Мејту, бићемо вам веома захвални!
 
 Тренутно 6 језика има преведеност од 100%, зато хајде да видимо колико их још

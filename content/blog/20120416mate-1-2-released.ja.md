@@ -7,7 +7,7 @@ author = "Stefano Karapetsas"
 +++
 MATE チームは、**MATE 1.2** のリリースを公表できて誇りに思います。このリリースは、1.0 版および 1.1 開発版のリリース以来の大きな前進です。MATE はこれまで以上に安定しており、より多くのアプリケーション、アプレット、バックエンドをサポートします。
 
-![MATE 1.2](/assets/img/blog/about-mate-1.2.png)
+![MATE 1.2](/images/blog/about-mate-1.2.png)
 
 このリリースでの主な変更点と改善点は、次のとおりです。
 

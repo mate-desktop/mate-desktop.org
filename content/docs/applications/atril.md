@@ -10,7 +10,7 @@ weight: 3
 
 Atril is the official document viewer for the MATE desktop. It supports a wide range of document formats and is suitable for both everyday reading and presentations.
 
-![Atril window](/img/applications/atril-window.png "Atril document viewer")
+![Atril window](/images/applications/atril-window.png "Atril document viewer")
 
 ## Supported Formats
 

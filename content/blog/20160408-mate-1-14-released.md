@@ -10,7 +10,7 @@ After 5 months of development the MATE Desktop team are proud to
 announce the release of MATE Desktop 1.14. We'd like to thank every
 MATE contributor and user.
 
-![about](/assets/img/blog/about-mate-1.14.png)
+![about](/images/blog/about-mate-1.14.png)
 
 ## What's new in MATE 1.14
 
@@ -31,7 +31,7 @@ The headline changes in MATE 1.14 are:
 
 The various components of MATE 1.14 are available for download here:
 
-  * < https://pub.mate-desktop.org/releases/1.14/>
+  * [https://pub.mate-desktop.org/releases/1.14/](https://pub.mate-desktop.org/releases/1.14/)
 
 ## Screenshots
 

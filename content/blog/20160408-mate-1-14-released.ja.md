@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 +++
 5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.14 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 
-![about](/assets/img/blog/about-mate-1.14.png)
+![about](/images/blog/about-mate-1.14.png)
 
 ## MATE 1.14 で新しくなったこと
 
@@ -28,7 +28,7 @@ MATE デスクトップ 1.14 の主な変更点は次のとおりです。
 
 MATE 1.14 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * < https://pub.mate-desktop.org/releases/1.14/>
+  * [https://pub.mate-desktop.org/releases/1.14/](https://pub.mate-desktop.org/releases/1.14/)
 
 ## スクリーンショット
 

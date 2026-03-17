@@ -10,7 +10,7 @@ weight: 7
 
 MATE System Monitor gives you a live view of what is happening on your system. You can inspect running processes, monitor hardware resource usage, and check disk utilization — all from a single window.
 
-![System Monitor window](/img/applications/mate-system-monitor-window.png "MATE System Monitor")
+![System Monitor window](/images/applications/mate-system-monitor-window.png "MATE System Monitor")
 
 ## Tabs
 

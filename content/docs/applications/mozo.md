@@ -12,7 +12,7 @@ Mozo is the official menu editor for the MATE desktop. It provides a graphical i
 
 Open it from **System → Preferences → Main Menu** or by right-clicking the Applications menu and choosing **Edit Menus**.
 
-![Mozo window](/img/applications/mozo-window.png "Mozo menu editor")
+![Mozo window](/images/applications/mozo-window.png "Mozo menu editor")
 
 ## Features
 

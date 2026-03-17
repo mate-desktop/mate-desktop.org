@@ -19,11 +19,11 @@ MATE デスクトップ 1.20 の主な変更点は次のとおりです。
   * **MATE デスクトップ 1.20 は、動的な検出とスケーリングによる HiDPI ディスプレイをサポートします。**
     * Qt アプリケーションのための HiDPI ヒントも、クロスツールキット統合を改善するために環境へプッシュされます。
     * HiDPI モードを切り替えると、動的なサイズ変更とスケールが生じるので、ログアウトやログインは必要ありません。
-  * **Marco は現在、もし利用可能であれば [DRI3 と XPresent]( https://lwn.net/Articles/569701/)** をサポートします。
+  * **Marco は現在、もし利用可能であれば [DRI3 と XPresent](https://lwn.net/Articles/569701/)** をサポートします。
      * Marco 使用中のゲームのフレームレートが大幅に向上しています。
   * Marcoは、**quadrant ドラッグウィンドウのタイリング**をサポートするようになりました。カーソルキーを使用して <kbd>Alt</kbd> + <kbd>Tab</kbd> スイッチャが操作可能になり、キーボードショートカットを使用してウィンドウを別のモニタへ移動できるようになりました。
-  * **グローバルメニューのサポート** [vala-panel-appmenu]( https://github.com/rilian-la-te/vala-panel-appmenu) などのプロバイダが追加されました。
-  * MATE パネルは [Status Notifier Items (SNI)]( https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) のサポートを大幅に改善しました。
+  * **グローバルメニューのサポート** [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) などのプロバイダが追加されました。
+  * MATE パネルは [Status Notifier Items (SNI)](https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/) のサポートを大幅に改善しました。
   * **ブックマークが GTK3+ ロケーションをサポートするようになりました**。
   * MATE 端末は、背景画像をサポートし、Solarized テーマとキーバインディングを切り替えタブに追加しました。
   * **文書ビューアの Atril は、大規模なオーバーホールを受けた**ので、あらゆる点で改善されています。すべてが良くなりました。
@@ -43,7 +43,7 @@ MATE デスクトップ 1.20 の主な変更点は次のとおりです。
 
 MATE デスクトップ 1.20 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * < https://pub.mate-desktop.org/releases/1.20/>
+  * [https://pub.mate-desktop.org/releases/1.20/](https://pub.mate-desktop.org/releases/1.20/)
 
 ## Changelog 変更点
 
@@ -1103,7 +1103,7 @@ MATE デスクトップ 1.20 の各種コンポーネントは、次の場所か
   * pluma-document.c: ビルド時の警告を修正
   * pluma-window: GtkRecentData を割り当てる代わりにスタックさせる
   * WidthOfScreen と HeightOfScreen の実装
-  * バックリファレンスによる正規表現置換を修正 ( 例: `"\0"` )
+  * バックリファレンスによる正規表現置換を修正 (例: `"\0"` )
   * pluma-view.c: 同じジョブを実行するために、2つのの静的変数の代わりに1つの静的変数を使用
   * 同じワークスペースのウィンドウで Pluma が開いていることを確認する
   * Pluma が、[右 + 中クリック] <kbd>ctrl</kbd> + <kbd>+</kbd> / <kbd>ctrl</kbd> + テンキーの <kbd>-</kbd> を押すと、予期せずにタブが閉じる問題を修正

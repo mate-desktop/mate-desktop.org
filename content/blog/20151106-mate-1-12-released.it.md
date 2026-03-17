@@ -8,7 +8,7 @@ author = "Martin Wimpress"
 Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.
 
-![about](/assets/img/blog/about-mate-1.12.png)
+![about](/images/blog/about-mate-1.12.png)
 
 ## Cosa c'è di nuovo in MATE 1.12
 
@@ -28,7 +28,7 @@ I principali cambiamenti in MATE 1.12 sono:
 
 I vari componenti di MATE 1.12 sono disponibili per il download a questo indirizzo:
 
-  * < https://pub.mate-desktop.org/releases/1.12/>
+  * [https://pub.mate-desktop.org/releases/1.12/](https://pub.mate-desktop.org/releases/1.12/)
 
 ## Screenshots
 

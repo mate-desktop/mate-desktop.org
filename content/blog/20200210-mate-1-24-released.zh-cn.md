@@ -16,7 +16,7 @@ slug: 2020-02-10-mate-1-24-released
 
 * 我们再次这样做，一旦用户启动会话，MATE桌面环境将比以前更易于使用。 您要隐藏应用程序吗？ 现在，您可以设置要在启动时显示的应用程序。
 * **Engrampa** 现在支持一些其它格式，并且其中一些密码和Unicode字符支持得到了修复。
-* **MATE之眼** 现在支持[Wayland]( https://wayland.freedesktop.org/)，并且增加了对嵌入式颜色配置文件的支持。
+* **MATE之眼** 现在支持[Wayland](https://wayland.freedesktop.org/)，并且增加了对嵌入式颜色配置文件的支持。
     *     * 缩略图生成器已在多处进行了修复。
     *     * 添加了对 webp 文件的支持。
 * 窗口管理器 **marco** 进行了很多更改：
@@ -42,7 +42,7 @@ slug: 2020-02-10-mate-1-24-released
     * **万达鱼**改头换面，现在你可以尽情享受她的荣耀了。
     * **万达鱼** 得到了一个改造，现在你可以享受她完全的 HiDPI 支持。
     * 整个面板及其核心小程序的各种可访问性改进。
-* 如果你的系统不支持[systemd]( https://freedesktop.org/wiki/Software/systemd/)您可能有兴趣知道我们已经添加了对[elogind]的支持( https://github.com/elogind/elogind)到**伴侣屏幕保护程序**和**伴侣会话**。
+* 如果你的系统不支持[systemd](https://freedesktop.org/wiki/Software/systemd/)您可能有兴趣知道我们已经添加了对[elogind]的支持(https://github.com/elogind/elogind)到**伴侣屏幕保护程序**和**伴侣会话**。
 * 我们还添加了一个全新的**MATE磁盘映像装入器**实用程序。
 * **菜单编辑器Mozo**现在支持撤消和重做操作。
 * **Pluma** 插件现已完全切换到 Python 3。
@@ -53,7 +53,7 @@ slug: 2020-02-10-mate-1-24-released
 
 MATE Desktop 1.24 的组件可通过以下链接下载：
 
-  * < https://pub.mate-desktop.org/releases/1.24/>
+  * [https://pub.mate-desktop.org/releases/1.24/](https://pub.mate-desktop.org/releases/1.24/)
 
 ## 更多细节
 
@@ -77,7 +77,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n:从intltools迁移到gettext
 * g10n：更新翻译
 
-在完成更改日志< https://github.com/mate-desktop/atril/commits/master/>
+在完成更改日志[https://github.com/mate-desktop/atril/commits/master/](https://github.com/mate-desktop/atril/commits/master/)
 
 ### caja
 * 准备好使用GCC10
@@ -109,13 +109,13 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/caja/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/caja/commits/master/](https://github.com/mate-desktop/caja/commits/master/) 完成更新日志
 
 ### caja-dropbox
 * 使用 CAJA_EXTENSION_DIR_SYS 保存并显示系统 caja 扩展目录
 * 显示 caja-extension-dir 的完整路径
 
-在 < https://github.com/mate-desktop/caja-dropbox/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/caja-dropbox/commits/master/](https://github.com/mate-desktop/caja-dropbox/commits/master/) 完成更新日志
 
 ### caja-extensions
 * caja-wallpaper-extension：修复内存泄漏
@@ -127,7 +127,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/caja-extensions/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/caja-extensions/commits/master/](https://github.com/mate-desktop/caja-extensions/commits/master/) 完成更新日志
 
 ### engrampa
 * 准备使用 gcc 10
@@ -151,7 +151,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/engrampa/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/engrampa/commits/master/](https://github.com/mate-desktop/engrampa/commits/master/) 完成更新日志
 
 ### eom
 * 为 webp 文件添加 eom-thumbnailer
@@ -167,7 +167,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/eom/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/eom/commits/master/](https://github.com/mate-desktop/eom/commits/master/) 完成更新日志
 
 ### libmatekbd
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -175,14 +175,14 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/libmatekbd/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/libmatekbd/commits/master/](https://github.com/mate-desktop/libmatekbd/commits/master/) 完成更新日志
 
 ### libmatemixer
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/libmatemixer/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/libmatemixer/commits/master/](https://github.com/mate-desktop/libmatemixer/commits/master/) 完成更新日志
 
 ### libmateweather
 * Locations：添加 Lleida – Alguaire 机场气象站
@@ -191,7 +191,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/libmateweather/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/libmateweather/commits/master/](https://github.com/mate-desktop/libmateweather/commits/master/) 完成更新日志
 
 ### marco
 * 主题：修复所有主题的窗口控件 hidpi 渲染。
@@ -212,7 +212,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/marco/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/marco/commits/master/](https://github.com/mate-desktop/marco/commits/master/) 完成更新日志
 
 ### mate-applets
 * 准备使用 gcc 10
@@ -229,14 +229,14 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-applet/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-applet/commits/master/](https://github.com/mate-desktop/mate-applet/commits/master/) 完成更新日志
 
 ### 伴侣背景
 * 启用对ninja构建系统的支持
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-backgrounds/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-backgrounds/commits/master/](https://github.com/mate-desktop/mate-backgrounds/commits/master/) 完成变更日志
 
 ### mate-calc
 
@@ -254,7 +254,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-calc/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-calc/commits/master/](https://github.com/mate-desktop/mate-calc/commits/master/) 完成更新日志
 
 ### mate-common
 * 更新 MATE_CXX_WARNINGS 宏
@@ -262,7 +262,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * 检查 AX_APPEND_FLAG 和 AX_CHECK_COMPILE_FLAG 是否可用
 * 更新 mate-compiler-flags 宏
 
-在 < https://github.com/mate-desktop/mate-common/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-common/commits/master/](https://github.com/mate-desktop/mate-common/commits/master/) 完成更新日志
 
 ### mate-control-center
 * 在系统数据目录中搜索系统主题
@@ -289,7 +289,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-control-center/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-control-center/commits/master/](https://github.com/mate-desktop/mate-control-center/commits/master/) 完成变更日志
 
 ### mate-desktop
 * Drop mate_desktop_thumbnail_scale_down_pixbuf()
@@ -305,7 +305,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-desktop/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-desktop/commits/master/](https://github.com/mate-desktop/mate-desktop/commits/master/) 完成更新日志
 
 ### mate-icon-theme
 * 为移动网络连接添加状态图标
@@ -326,14 +326,14 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-icon-theme/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-icon-theme/commits/master/](https://github.com/mate-desktop/mate-icon-theme/commits/master/) 完成更新日志
 
 ### 配对指示器小程序
 * 调整指示器图标的大小以适合面板
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-indicator-applet/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-indicator-applet/commits/master/](https://github.com/mate-desktop/mate-indicator-applet/commits/master/) 完成更新日志
 
 ### mate-media
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -346,14 +346,14 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-media/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-media/commits/master/](https://github.com/mate-desktop/mate-media/commits/master/) 完成更新日志
 
 ### mate-menus
 * 安装 gir 文件时使用 datadir 和 libdir 变量
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-menus/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-menus/commits/master/](https://github.com/mate-desktop/mate-menus/commits/master/) 完成更新日志
 
 ### mate-netbook
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -363,7 +363,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-netbook/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-netbook/commits/master/](https://github.com/mate-desktop/mate-netbook/commits/master/) 完成更新日志
 
 ### mate-notification-daemon
 * 将 gresource 用于 mate-notification-properties.ui
@@ -371,7 +371,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-notification-daemon/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-notification-daemon/commits/master/](https://github.com/mate-desktop/mate-notification-daemon/commits/master/) 完成更新日志
 
 ### mate-panel
 * 避免在面板顶层使用双 a11y 描述
@@ -397,7 +397,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-panel/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-panel/commits/master/](https://github.com/mate-desktop/mate-panel/commits/master/) 完成变更日志
 
 ### mate-polkit
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -405,7 +405,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-polkit/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-polkit/commits/master/](https://github.com/mate-desktop/mate-polkit/commits/master/) 完成更新日志
 
 ### mate-power-manager
 * 图标：添加更高分辨率的图标
@@ -418,7 +418,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-power-manager/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-power-manager/commits/master/](https://github.com/mate-desktop/mate-power-manager/commits/master/) 完成变更日志
 
 ### mate-screensaver
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -428,13 +428,13 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * 添加 ELOGIND 支持
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-screensaver/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-screensaver/commits/master/](https://github.com/mate-desktop/mate-screensaver/commits/master/) 完成更新日志
 
 ### mate-sensors-applet
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-sensors-applet/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-sensors-applet/commits/master/](https://github.com/mate-desktop/mate-sensors-applet/commits/master/) 完成更新日志
 
 ### mate-session-manager
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -452,7 +452,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-session-manager/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-session-manager/commits/master/](https://github.com/mate-desktop/mate-session-manager/commits/master/) 完成变更日志
 
 ### mate-settings-daemon
 * 需要 DBUS 1.10.0 或更新版本
@@ -470,7 +470,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-settings-daemon/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-settings-daemon/commits/master/](https://github.com/mate-desktop/mate-settings-daemon/commits/master/) 完成更新日志
 
 ### mate-system-monitor
 
@@ -489,7 +489,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-system-monitor/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-system-monitor/commits/master/](https://github.com/mate-desktop/mate-system-monitor/commits/master/) 完成变更日志
 
 ### mate-terminal
 * 准备使用 gcc 10
@@ -502,7 +502,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-terminal/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-terminal/commits/master/](https://github.com/mate-desktop/mate-terminal/commits/master/) 完成更新日志
 
 ### mate-user-guide
 * 更新报告错误部分
@@ -512,7 +512,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * 将手册升级到 docbook 5.0
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-user-guide/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-user-guide/commits/master/](https://github.com/mate-desktop/mate-user-guide/commits/master/) 完成变更日志
 
 ### mate-user-share
 * 修复了 Clang Static Analyzer、Cppcheck 和 GCC 报告的几个代码分析、弃用警告
@@ -520,7 +520,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-user-share/commits/master/> 完成变更日志
+在 [https://github.com/mate-desktop/mate-user-share/commits/master/](https://github.com/mate-desktop/mate-user-share/commits/master/) 完成变更日志
 
 ### mate-utils
 * 准备使用 gcc 10
@@ -536,7 +536,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mate-utils/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mate-utils/commits/master/](https://github.com/mate-desktop/mate-utils/commits/master/) 完成更新日志
 
 ### mozo
 * 添加撤消和重做按钮
@@ -547,7 +547,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/mozo/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/mozo/commits/master/](https://github.com/mate-desktop/mozo/commits/master/) 完成更新日志
 
 ### pluma
 * 添加显示不可打印字符（空格/制表符/换行符）的功能
@@ -565,7 +565,7 @@ MATE Desktop 1.24 的组件可通过以下链接下载：
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-Complete changelog at < https://github.com/mate-desktop/pluma/commits/master/>
+Complete changelog at [https://github.com/mate-desktop/pluma/commits/master/](https://github.com/mate-desktop/pluma/commits/master/)
 
 ### python-caja
 * 准备使用 gcc 10
@@ -574,4 +574,4 @@ Complete changelog at < https://github.com/mate-desktop/pluma/commits/master/>
 * i18n：从 intltools 迁移到 gettext
 * g10n：更新翻译
 
-在 < https://github.com/mate-desktop/python-caja/commits/master/> 完成更新日志
+在 [https://github.com/mate-desktop/python-caja/commits/master/](https://github.com/mate-desktop/python-caja/commits/master/) 完成更新日志

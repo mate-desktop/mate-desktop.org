@@ -18,18 +18,18 @@ author = "Martin Wimpress"
 
 ## 何が復旧したのですか？
 
-  * < https://www.mate-desktop.org> - 当ウェブサイト
-  * < https://pub.mate-desktop.org> - MATE デスクトップのリリースの tarball が置かれている場所。
-  * < https://wiki.mate-desktop.org/#!index.md> - 開発者向け Wiki サイト。
-  * < https://git.mate-desktop.org> - これは [MATE デスクトップ GitHub]( https://github.com/mate-desktop) のミラーです。
-  * < https://planet.mate-desktop.org> - MATE デスクトップ・プラネット。
+  * [https://www.mate-desktop.org](https://www.mate-desktop.org) - 当ウェブサイト
+  * [https://pub.mate-desktop.org](https://pub.mate-desktop.org) - MATE デスクトップのリリースの tarball が置かれている場所。
+  * [https://wiki.mate-desktop.org/#!index.md](https://wiki.mate-desktop.org/#!index.md) - 開発者向け Wiki サイト。
+  * [https://git.mate-desktop.org](https://git.mate-desktop.org) - これは [MATE デスクトップ GitHub](https://github.com/mate-desktop) のミラーです。
+  * [https://planet.mate-desktop.org](https://planet.mate-desktop.org) - MATE デスクトップ・プラネット。
   * `mail.mate-desktop.org` - 開発者用メールサーバ。
 
 ## 更新
 
 ### 12月21日
 
-  * [Bytemark]( https://www.bytemark.co.uk/r/ubuntu-mate/) が MATE デスクトップのホストスポンサーになるとの申出を受けたので、以前のプロバイダによるサーバ停止から復旧するのに役立ちました。
+  * [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) が MATE デスクトップのホストスポンサーになるとの申出を受けたので、以前のプロバイダによるサーバ停止から復旧するのに役立ちました。
   * `www.mate-desktop.org` と `pub.mate-desktop.org` が復旧。
 
 ### 12月22日

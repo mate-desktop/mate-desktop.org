@@ -23,18 +23,18 @@ This services are currently down, listed in order of restore priority
 
 ## What has been restored?
 
-  * < https://www.mate-desktop.org> - This website
-  * < https://pub.mate-desktop.org> - Where you can find the tarballs of MATE Desktop releases.
-  * < https://wiki.mate-desktop.org/#!index.md> - The developer wiki.
-  * < https://git.mate-desktop.org> - This is a mirror of the [MATE Desktop GitHub]( https://github.com/mate-desktop).
-  * < https://planet.mate-desktop.org> - The MATE Desktop planet.
+  * [https://www.mate-desktop.org](https://www.mate-desktop.org) - This website
+  * [https://pub.mate-desktop.org](https://pub.mate-desktop.org) - Where you can find the tarballs of MATE Desktop releases.
+  * [https://wiki.mate-desktop.org/#!index.md](https://wiki.mate-desktop.org/#!index.md) - The developer wiki.
+  * [https://git.mate-desktop.org](https://git.mate-desktop.org) - This is a mirror of the [MATE Desktop GitHub](https://github.com/mate-desktop).
+  * [https://planet.mate-desktop.org](https://planet.mate-desktop.org) - The MATE Desktop planet.
   * `mail.mate-desktop.org` - Mail server for developers.
 
 ## Update
 
 ### 21st December
 
-  * [Bytemark]( https://www.bytemark.co.uk/r/ubuntu-mate/) offer to sponsor MATE Desktop hosting to help us overcome the server outage with our previous provider.
+  * [Bytemark](https://www.bytemark.co.uk/r/ubuntu-mate/) offer to sponsor MATE Desktop hosting to help us overcome the server outage with our previous provider.
   * Restored `www.mate-desktop.org` and `pub.mate-desktop.org`
 
 ### 22nd December

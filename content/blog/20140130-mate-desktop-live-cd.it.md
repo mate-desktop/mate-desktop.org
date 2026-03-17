@@ -11,7 +11,7 @@ Il team MATE ha realizzato un live CD che avvia un desktop MATE completo.
 
 Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
 in modo non distruttivo. L'immagine può essere masterizzata su un DVD,
-montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come `dd`. [Linux Luddites]( https://luddites.latenightlinux.com/) fate attenzione,  `unetbootin` non è supportato. Potete scaricarlo dal link qui sotto:
+montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come `dd`. [Linux Luddites](https://luddites.latenightlinux.com/) fate attenzione,  `unetbootin` non è supportato. Potete scaricarlo dal link qui sotto:
 
 ### download via BitTorrent (raccomandato)
 
@@ -26,17 +26,17 @@ per velocità di download più elevate.*
 Oltre al link BitTorrent dato prima, il file iso Live CD può essere scaricato anche via HTTP. Per favore assicuratevi che il file scaricato corrisponda al
 checksum SHA1.
 
-  * [matelivecd-14.069.1449.iso] [ ~964MB ]
+  * [matelivecd-14.069.1449.iso] [~964MB ]
     * SHA1: `12b529d17d1ecef39d9b0e1122fb5271e0534c0a`
 
 ## Compatibilità
 
-Il Live CD è realizzato utilizzando [Arch Linux]( https://www.archlinux.org) e MATE 1.8. Il Live CD è a 32 bit e dovrebbe quindi funzionare su ogni computer i686 o x86_64
+Il Live CD è realizzato utilizzando [Arch Linux](https://www.archlinux.org) e MATE 1.8. Il Live CD è a 32 bit e dovrebbe quindi funzionare su ogni computer i686 o x86_64
 con almeno 512MB RAM. I driver xorg sono inclusi per Intel (`i915`),
 AMD/ATI (`radeon`) e nvidia (`nouveau`) con fallback a VESA.
 I driver per Virtual Box e VMware sono anch'essi inclusi in modo che sia semplice anche la valutazione utilizzando queste soluzioni di virtualizzazione.
 
-Sono supportati tutti i filesystem comuni, incluso [ZFS]( http://open-zfs.org),
+Sono supportati tutti i filesystem comuni, incluso [ZFS](http://open-zfs.org),
 e sono compresi alcuni strumenti per il recupero dei dati ed il backup. Se collegate il vostro
 dispositivo mobile, questo sarà molto probabilmente riconosciuto e sarete in grado di accedere
 ai dati in esso contenuti. È presente NetworkManager assieme a tutti i client VPN che esso
@@ -59,20 +59,20 @@ Il live CD è pensato principalmente per mostrare il desktop MATE, tuttavia abbi
 incluso alcune applicazioni aggiuntive che non fanno parte del desktop MATE
 per rendere il Live CD più utile e piacevole.
 
-  * [Firefox]( https://www.mozilla.org/firefox/)   - Browser web autonomo da mozilla.org
-  * [GParted]( https://gparted.sourceforge.io/)   - Un clone di Partition Magic, frontend per GNU Parted
-  * [HardInfo]( https://www.berlios.de/software/hardinfo/)  - Uno strumento per le informazioni di sistema ed il benchmark. 
-  * [HexChat]( https://hexchat.github.io/)   - Client IRC configurato per auto-connettersi a [#mate@libera]( https://web.libera.chat/?#mate)
-  * [Onboard]( https://www.gnome.org/projects/orca)      - Lettore dello schermo per individui che sono ciechi o con limitazioni visive
-  * [Orca]( https://www.gnome.org/projects/orca)      - Tastiera sullo schermo utile per individui con difficoltà motorie
-  * [Pidgin]( https://pidgin.im/)    - Client di messaggistica istantanea multi-protocollo
-  * [Xnoise]( http://www.xnoise-media-player.com/)    - Media player con una GUI semplice, grande velocità e diverse funzionalità
+  * [Firefox](https://www.mozilla.org/firefox/)   - Browser web autonomo da mozilla.org
+  * [GParted](https://gparted.sourceforge.io/)   - Un clone di Partition Magic, frontend per GNU Parted
+  * [HardInfo](https://www.berlios.de/software/hardinfo/)  - Uno strumento per le informazioni di sistema ed il benchmark. 
+  * [HexChat](https://hexchat.github.io/)   - Client IRC configurato per auto-connettersi a [#mate@libera](https://web.libera.chat/?#mate)
+  * [Onboard](https://www.gnome.org/projects/orca)      - Lettore dello schermo per individui che sono ciechi o con limitazioni visive
+  * [Orca](https://www.gnome.org/projects/orca)      - Tastiera sullo schermo utile per individui con difficoltà motorie
+  * [Pidgin](https://pidgin.im/)    - Client di messaggistica istantanea multi-protocollo
+  * [Xnoise](http://www.xnoise-media-player.com/)    - Media player con una GUI semplice, grande velocità e diverse funzionalità
 
 ## Creative Commons content
 
 Abbiamo incluso i seguenti contenuti sotto la licenza Creative Commons.
 
-  * [Think Python]( https://www.greenteapress.com/thinkpython/)                        - Da leggere con Atril
+  * [Think Python](https://www.greenteapress.com/thinkpython/)                        - Da leggere con Atril
 
 ## Modificare la lingua
 
@@ -93,8 +93,8 @@ Modificate `/etc/locale.conf` e impostate `LANG=` per esprimere la vostra locali
 ## Linux Action Show
 
 Il LiveCD del desktop MATE e MATE stesso sono stati presentati nel [Linux Action 
-Show]( https://www.jupiterbroadcasting.com/show/linuxactionshow/) nell'episodio [CuBox 
-Linux Review]( https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/) .
+Show](https://www.jupiterbroadcasting.com/show/linuxactionshow/) nell'episodio [CuBox 
+Linux Review](https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/) .
 Due clip sono riportate qui sotto, la prima è un rapido sguardo al LiveCD MATE Desktop
 e la seconda è una recensione di CuBox i4 su cui gira MATE.
 
@@ -111,5 +111,5 @@ e la seconda è una recensione di CuBox i4 su cui gira MATE.
 Ci auguriamo che facciate un test con il Live CD e che vi piaccia la velocità e la semplicità 
 del desktop MATE. Una volta che avrete provato il Live CD del Desktop MATE
 fateci sapere cosa ne pensate nei commenti o usate il Live CD per unirvi a noi 
-nel [canale IRC #mate]( https://webchat.freenode.net/?channels=#mate).
+nel [canale IRC #mate](https://webchat.freenode.net/?channels=#mate).
 

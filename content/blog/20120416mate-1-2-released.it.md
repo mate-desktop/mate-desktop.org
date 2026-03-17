@@ -9,7 +9,7 @@ Il Team è orgoglioso di annunciare il rilascio di **MATE 1.2**. Questo rilascio
 un grande passo in avanti rispetto le versioni di sviluppo 1.0 e 1.1. MATE è più stabile che mai ed include il supporto per molte più applicazioni, applet
 e backends.
 
-![MATE 1.2](/assets/img/blog/about-mate-1.2.png)
+![MATE 1.2](/images/blog/about-mate-1.2.png)
 
 Questi sono i principali cambiamenti le migliorie di questa versione:
 

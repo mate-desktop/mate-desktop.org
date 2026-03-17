@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 description = "MATE Desktop collaborates with Blueman project."
 +++
 Мејтова екипа је срећна да објави да сарађујемо са
-[„Blueman“ пројектом]( https://github.com/blueman-project/blueman) и да помажемо
+[„Blueman“ пројектом](https://github.com/blueman-project/blueman) и да помажемо
 ажурирање „Blueman“-а у „BlueZ“ 5.x.
 
 ## Зашто напустити „mate-bluetooth“?
@@ -20,7 +20,7 @@ description = "MATE Desktop collaborates with Blueman project."
 
 ## Зашто „Blueman“? Зар није мртав?
 
-Док је оригинални „Blueman“ пројекат стагнирао, [Кристофер Шрам]( https://github.com/cschramm)
+Док је оригинални „Blueman“ пројекат стагнирао, [Кристофер Шрам](https://github.com/cschramm)
 је поново покренуо развој и почео да преноси „Blueman“ на „BlueZ“ 5.x. Док
 такође постоји одређени напор у ажурирању „Blueman“-а како би подржао „BlueZ“ 5.x, осећамо да
 ће обезбедити далеко боље „Blueman“ сучеље за Мејт.
@@ -40,4 +40,4 @@ description = "MATE Desktop collaborates with Blueman project."
 ## Може ли то мало брже, мајсторе?!
 
 Да. Свако ко је фамилијаран са „BlueZ“-ом 4.x/5.x, „dbus“-ом, „PyGObject“-ом и „PyGTK“ је охрабрен
-да допринесе путем ризнице [„Blueman GitHub“]( https://github.com/blueman-project/blueman).
+да допринесе путем ризнице [„Blueman GitHub“](https://github.com/blueman-project/blueman).

@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 +++
 5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 
-![about](/assets/img/blog/about-mate-1.12.png)
+![about](/images/blog/about-mate-1.12.png)
 
 ## MATE 1.12 で新しくなったこと
 
@@ -27,7 +27,7 @@ MATE デスクトップ 1.12 の主な変更点は次のとおりです。
 
 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * < https://pub.mate-desktop.org/releases/1.12/>
+  * [https://pub.mate-desktop.org/releases/1.12/](https://pub.mate-desktop.org/releases/1.12/)
 
 ## スクリーンショット
 

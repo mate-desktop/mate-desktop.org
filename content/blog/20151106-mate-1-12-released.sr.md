@@ -9,7 +9,7 @@ author = "Martin Wimpress"
 издање 1.12 Мејтовр радне површи. Захваљујемо се свим доприносиоцима
 и корисницима Мејта.
 
-![about](/assets/img/blog/about-mate-1.12.png)
+![about](/images/blog/about-mate-1.12.png)
 
 ## Шта је ново у Мејту 1.12
 
@@ -29,7 +29,7 @@ author = "Martin Wimpress"
 
 Многобројне компоненте Мејта 1.12 су доступне за преузимање на овој адреси:
 
-  * < https://pub.mate-desktop.org/releases/1.12/>
+  * [https://pub.mate-desktop.org/releases/1.12/](https://pub.mate-desktop.org/releases/1.12/)
 
 ## Снимци екрана
 

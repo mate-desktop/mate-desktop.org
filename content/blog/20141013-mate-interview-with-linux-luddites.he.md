@@ -5,16 +5,16 @@ slug = "mate-interview-with-linux-luddites"
 tags = ["MATE", "Ubuntu MATE", "Linux Luddites", "interview"]
 author = "Martin Wimpress"
 +++
-[Linux Luddites]( https://linuxluddites.com) were kind enough to interview
-me last week. We discussed the origins of [MATE Desktop]( https://mate-desktop.org),
-it's future direction, how [Ubuntu MATE]( https://ubuntu-mate.org) came to
+[Linux Luddites](https://linuxluddites.com) were kind enough to interview
+me last week. We discussed the origins of [MATE Desktop](https://mate-desktop.org),
+it's future direction, how [Ubuntu MATE](https://ubuntu-mate.org) came to
 be and where it is headed.
 
-[Linux Luddites Episode #26]( https://linuxluddites.com/shows/episode-26)
+[Linux Luddites Episode #26](https://linuxluddites.com/shows/episode-26)
 was published earlier today and I suggest you head over to the Linux Luddites
 website and give it a listen.
 
-  * [Linux Luddites Episode #26]( https://linuxluddites.com/shows/episode-26)
+  * [Linux Luddites Episode #26](https://linuxluddites.com/shows/episode-26)
 
 If you've not listened to the Linux Luddites before then you should checkout
 their back catalog. It has been one of my favourite FLOSS podcasts for some

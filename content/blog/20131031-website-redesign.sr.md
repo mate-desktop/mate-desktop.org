@@ -6,7 +6,7 @@ tags = ["News"]
 author = "Martin Wimpress"
 +++
 Одрадили смо преуређивање Мејтовог веб сајта и такође прешли са
-[Вордпреса]( https://www.wordpress.org) на [Николу]( https://getnikola.com)
+[Вордпреса](https://www.wordpress.org) на [Николу](https://getnikola.com)
 у поступку.
 
 Главни циљ редизајна је стварање једноставне, елегантне странице
@@ -22,11 +22,11 @@ author = "Martin Wimpress"
 
 Било ко може послати нову објаву на блогу, исправке или преводе на Мејтов
 веб сајт прављењем бесплатног налога на [ГитХаб]-у (Markdown), израчвати
-[ризницу „mate-desktop.org“-а]( https://github.com/mate-desktop/mate-desktop.org)
-и [направити захтев за повлачење]( https://help.github.com/articles/creating-a-pull-request).
+[ризницу „mate-desktop.org“-а](https://github.com/mate-desktop/mate-desktop.org)
+и [направити захтев за повлачење](https://help.github.com/articles/creating-a-pull-request).
 Захтеве за повлачење за „mate-desktop.org“ прегледаће наши Вебмајстори,
 спојиће их и објавити овде. Има још неких
-[других предности коришћења статичког творбеника веб сајта]( https://getnikola.com/handbook.html#why-static).
+[других предности коришћења статичког творбеника веб сајта](https://getnikola.com/handbook.html#why-static).
 
 Нажалост, одлучили смо да не пренесемо коментаре са старог веб сајта.
  Од овог тренутка на даље сваки нови пост на блогу биће повезан са

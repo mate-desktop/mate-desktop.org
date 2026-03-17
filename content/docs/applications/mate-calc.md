@@ -10,7 +10,7 @@ weight: 8
 
 MATE Calculator is the official calculator for the MATE desktop. It is designed to be usable entirely with the keyboard or the mouse, with a visual layout similar to a physical hand-held calculator.
 
-![Calculator window](/img/applications/mate-calc-window.png "MATE Calculator")
+![Calculator window](/images/applications/mate-calc-window.png "MATE Calculator")
 
 ## Modes
 

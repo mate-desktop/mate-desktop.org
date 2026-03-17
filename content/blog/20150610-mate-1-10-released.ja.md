@@ -7,7 +7,7 @@ author = "Martin Wimpress"
 +++
 15ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.10 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 
-![about](/assets/img/blog/about-mate-1.10.png)
+![about](/images/blog/about-mate-1.10.png)
 
 ## MATE 1.10 で新しくなったこと
 
@@ -17,7 +17,7 @@ MATE デスクトップ 1.10 の主な変更点は次のとおりです。
     * GTK3 のサポートは依然として *試験的* とされています。
     * Arch Linux と Fedora は現在、代替で GTK3 ビルドを提供しています。
   * [GSoC 2014] Cajaには拡張マネージャがあるので、実行時にプラグインを有効/無効にできます。
-  * [GSoC 2014] Atril は現在、[ePub]( https://en.wikipedia.org/wiki/EPUB) をサポートしています。
+  * [GSoC 2014] Atril は現在、[ePub](https://en.wikipedia.org/wiki/EPUB) をサポートしています。
   * [GSoC 2014] MATE デスクトップ用オーディオミキサー・ライブラリ `libmatemixer` が導入されました。
     * ミキサー機能へのアクセスを可能にする抽象的 API を提供
     PulseAudio では ALSA と OSS サウンドシステムを使用します。
@@ -26,7 +26,7 @@ MATE デスクトップ 1.10 の主な変更点は次のとおりです。
 
 MATE 1.10 の各種コンポーネントは、次の場所からダウンロードできます。
 
-  * < https://pub.mate-desktop.org/releases/1.10/>
+  * [https://pub.mate-desktop.org/releases/1.10/](https://pub.mate-desktop.org/releases/1.10/)
 
 ## スクリーンショット
 

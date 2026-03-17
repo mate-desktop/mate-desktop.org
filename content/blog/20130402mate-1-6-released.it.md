@@ -9,7 +9,7 @@ Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.
 
-![about](/assets/img/blog/about-mate-1.6.png)
+![about](/images/blog/about-mate-1.6.png)
 
 I principali cambiamenti nella versione 1.6 sono:
 
@@ -103,14 +103,14 @@ I principali cambiamenti nella versione 1.6 sono:
 Abbiamo chiesto agli utenti delle distribuzioni che offrono MATE cosa pensano del
 nostro Ambiente Desktop
 
-**George Vlahavas**, fondatore e capo progetto di [Salix]( https://www.salixos.org/):
+**George Vlahavas**, fondatore e capo progetto di [Salix](https://www.salixos.org/):
 
 > Crediamo che MATE sia un abbinamento perfetto per Salix. MATE ci fornisce un ambiente desktop familiare
 che è potente, solido e veloce. Inoltre, il team di MATE è
 molto amichevole ed è piacevole lavorarci assieme e questo significa molto per noi. Grazie ragazzi, per
 averci dato la scelta di rimanere con il nostro desktop preferito
 
-**Clement Lefebvre**, fondatore e capo progetto di [Linux Mint]( https://www.linuxmint.com/):
+**Clement Lefebvre**, fondatore e capo progetto di [Linux Mint](https://www.linuxmint.com/):
 
 > È estremamente importante per noi che le persone siano felici con il loro computer. Quando quell'ambiente
 che tutti abbiamo amato e lavorato duramente per migliorare dal 2006 è stato
@@ -124,13 +124,13 @@ nella promozione e nel sostegno di MATE e continuiamo ad aiutare il suo
 sviluppo. Siamo molto soddisfatti di MATE, è esattamente quello che volevamo,
 ha iniziato da dove GNOME aveva lasciato e con ogni nuovo ciclo continua a migliorare.
 
-**Joos Ruis**, Consulente di strategia di  [Sabayon]( https://www.sabayon.org/):
+**Joos Ruis**, Consulente di strategia di  [Sabayon](https://www.sabayon.org/):
 
 > Non ci piace come l'upstream abbia forzato i cambiamenti agli utenti e vogliamo che i nostri utenti abbiano
 l'opzione di decidere cosa usare. Con MATE nei nostri repository siamo certi
 che i nostri utenti possano sempre scegliere ciò che funziona meglio per loro.
 
-**Dan Mashal**, Manutentore MATE in [Fedora]( https://fedoraproject.org/): 
+**Dan Mashal**, Manutentore MATE in [Fedora](https://fedoraproject.org/): 
 
 > Da quando è stata rilasciata Fedora 15 sono stato estremamente infelice e
 frustrato con la mia esperienza desktop fino a quando ho scoperto MATE. Ora su Fedora
@@ -145,7 +145,7 @@ Con MATE 1.6 posso sentirmi a casa sulla mia distribuzione Linux preferita
 e tornare a lavorare.
 
 Abbiamo anche chiesto un commento dalla
-[compagnia che ha donato il server dove ospitiamo i servizi MATE](/blog/2012-12-27-thank-you-first-colo/). **Martin Verges**, CEO di [FirstColo GmbH]( https://www.first-colo.net/en/):
+[compagnia che ha donato il server dove ospitiamo i servizi MATE](/blog/2012-12-27-thank-you-first-colo/). **Martin Verges**, CEO di [FirstColo GmbH](https://www.first-colo.net/en/):
 
 > Siamo davvero felici di usare l'ambiente desktop MATE. In questo modo possiamo mantenere un desktop pulito
 e ben funzionante senza un sacco di roba inutile che distrae. Fino alla fine del
