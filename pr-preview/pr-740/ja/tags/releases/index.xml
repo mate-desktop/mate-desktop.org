@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.ja.png&#34; alt=&#34;MATE About dialog&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.ja.png&#34; alt=&#34;MATE About dialog&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.26 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-126-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-126-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.26 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -484,7 +484,7 @@
         
         
         &lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE ダイアログ情報&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE ダイアログ情報&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;MATE 1.24 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-124-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-124-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースには、多くの新機能、バグ修正、一般的な改善が含まれています。最も重要なハイライトは次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -1070,7 +1070,7 @@
         
         
         &lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.20 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-120-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-120-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースの課題は、廃止されたコードを置き換え、コードベースの大部分を近代化することによって、MATE デスクトップを安定させることでした。また、ウィンドウマネージャ (Marco) を改善し、HiDPI のサポートを追加しました。その過程で、何百もの不具合を修正しました。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.20 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -2241,7 +2241,7 @@
         
         
         &lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.18 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-118-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-118-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースは、MATE デスクトップ 1.16 が今だに依存している、一部の非推奨コンポーネントを置き換えるために、GTK3+ への移行を完成し新技術を採用することに焦点を当てています。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.18 の主な変更項目は次のとおりです。&lt;/p&gt;
@@ -2724,7 +2724,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.16 での主な変更点:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-116-での主な変更点&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-116-%e3%81%a7%e3%81%ae%e4%b8%bb%e3%81%aa%e5%a4%89%e6%9b%b4%e7%82%b9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;今回のリリースでは、GTK3+ の互換性の向上、新しいライブラリへのコンポーネントの移行、バグの修正、コードのクリーン化に重点が置かれています。MATE デスクトップ 1.16 の主要項目の変更点は次の通りです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3060,7 +3060,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.14 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.14 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-114-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-114-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.14 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3357,7 +3357,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.12 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-112-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-112-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.12 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3613,7 +3613,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;15ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.10 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.10 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-110-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-110-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.10 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -4096,7 +4096,7 @@ $ sudo dnf update
         
         
         &lt;p&gt;私たちチームは、MATE デスクトップ 1.8 のリリースを公表できてうれしく思います。MATE の貢献者やユーザーのみなさんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;情報&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;情報&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.8 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4210,7 +4210,7 @@ $ sudo dnf update
         
         
         &lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4341,7 +4341,7 @@ $ sudo dnf update
         
         
         &lt;p&gt;MATE チームは MATE 1.4 のリリースが発表できて誇りに思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;このリリースでの主な変更点と改善点は、次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;多数の不具合を修正&lt;/li&gt;
@@ -4378,7 +4378,7 @@ $ sudo dnf update
         
         
         &lt;p&gt;MATE チームは、&lt;strong&gt;MATE 1.2&lt;/strong&gt; のリリースを公表できて誇りに思います。このリリースは、1.0 版および 1.1 開発版のリリース以来の大きな前進です。MATE はこれまで以上に安定しており、より多くのアプリケーション、アプレット、バックエンドをサポートします。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;このリリースでの主な変更点と改善点は、次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;多数のバグ修正&lt;/li&gt;

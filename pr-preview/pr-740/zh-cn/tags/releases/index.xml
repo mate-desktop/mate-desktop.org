@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.24。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.zh_cn.png&#34; alt=&#34;MATE 关于对话框&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.zh_cn.png&#34; alt=&#34;MATE 关于对话框&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;MATE 1.24 的新特性&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-124-的新特性&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-124-%e7%9a%84%e6%96%b0%e7%89%b9%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;此版本包含许多新功能，Bug 修复和常规改进。 一些最重要的亮点包括：&lt;/p&gt;
 &lt;ul&gt;
@@ -611,7 +611,7 @@
         
         
         &lt;p&gt;经过大约一年的开发，MATE Desktop 团队终于发布了 MATE 1.22。非常感谢帮助实现这一目标的所有贡献者。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.zh_cn.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.zh_cn.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.22 的新特性&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-122-的新特性&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-122-%e7%9a%84%e6%96%b0%e7%89%b9%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;此版本包含大量关键错误修复和漏洞改进。一些重要的亮点包括：&lt;/p&gt;
 &lt;ul&gt;
@@ -2789,7 +2789,7 @@
         
         &lt;p&gt;经过将近 11 个月的开发，MATE Desktop 团队很高兴能在此发布 MATE Desktop 1.20。
 我们非常感激每一个 MATE 贡献者为这个版本付出的辛勤劳动。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.zh_CN.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.zh_CN.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.20 的新特性&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-120-的新特性&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-120-%e7%9a%84%e6%96%b0%e7%89%b9%e6%80%a7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;本次更新的主要任务在于通过现代化老旧代码来提高 MATE Desktop 的稳定性。与此同时
 我们还改进了 MATE 的窗口管理器 (Marco) 并添加了 HiDPI 支持。除此之外，我们还

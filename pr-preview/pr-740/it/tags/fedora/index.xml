@@ -78,7 +78,7 @@ repo riportata più in alto.&lt;/li&gt;
         &lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I principali cambiamenti nella versione 1.6 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;il supporto a systemd e logind&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

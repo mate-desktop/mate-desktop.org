@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.ja.png&#34; alt=&#34;MATE About dialog&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.ja.png&#34; alt=&#34;MATE About dialog&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.26 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-126-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-126-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.26 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -484,7 +484,7 @@
         
         
         &lt;p&gt;約 1 年の開発期間を経て、MATE デスクトップチームはついに MATE 1.24 をリリースしました。このリリース実現のために協力していただいたすべての貢献者に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE ダイアログ情報&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE ダイアログ情報&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;MATE 1.24 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-124-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-124-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースには、多くの新機能、バグ修正、一般的な改善が含まれています。最も重要なハイライトは次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -1070,7 +1070,7 @@
         
         
         &lt;p&gt;11 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.20 のリリースを公表しました。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.20 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-120-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-120-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースの課題は、廃止されたコードを置き換え、コードベースの大部分を近代化することによって、MATE デスクトップを安定させることでした。また、ウィンドウマネージャ (Marco) を改善し、HiDPI のサポートを追加しました。その過程で、何百もの不具合を修正しました。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.20 の主な変更点は次のとおりです。&lt;/p&gt;
@@ -2241,7 +2241,7 @@
         
         
         &lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.18 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.18 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-118-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-118-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースは、MATE デスクトップ 1.16 が今だに依存している、一部の非推奨コンポーネントを置き換えるために、GTK3+ への移行を完成し新技術を採用することに焦点を当てています。&lt;/p&gt;
 &lt;p&gt;MATE デスクトップ 1.18 の主な変更項目は次のとおりです。&lt;/p&gt;
@@ -2774,7 +2774,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;6 ヶ月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.16 のリリースを公表できたことをうれしく思います。このリリースを可能にしていただいた全ての MATE 貢献者の方々に感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.16 での主な変更点:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-116-での主な変更点&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-116-%e3%81%a7%e3%81%ae%e4%b8%bb%e3%81%aa%e5%a4%89%e6%9b%b4%e7%82%b9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;今回のリリースでは、GTK3+ の互換性の向上、新しいライブラリへのコンポーネントの移行、バグの修正、コードのクリーン化に重点が置かれています。MATE デスクトップ 1.16 の主要項目の変更点は次の通りです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3147,7 +3147,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.14 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.14 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-114-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-114-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.14 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3444,7 +3444,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.12 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-112-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-112-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.12 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -3700,7 +3700,7 @@ windows&lt;/li&gt;
         
         
         &lt;p&gt;15ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.10 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;MATE 1.10 で新しくなったこと&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-110-で新しくなったこと&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-110-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE デスクトップ 1.10 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
@@ -4235,7 +4235,7 @@ $ sudo dnf update
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;OpenSUSE MATE チームは、OpenSUSE 用の MATE 1.8 の提供が公表できたことに誇りを持っています。OpenSUSE には MATE が正式に含まれているため、従来のパターンは今後利用できなくなります。OpenSUSE 12.2 はサポートできなくなりましたが、MATE 要件が適切なバージョンで提供されていません。私たちはリポジトリのスキーマを変更して、更新ごとでリポジトリを変更する必要がないようにしました。今では、X11:MATE:Current という場所が1つだけあります。&lt;/p&gt;
 &lt;p&gt;インストールするには、リポジトリを置き換えるか追加してください。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
@@ -4385,7 +4385,7 @@ MATE デスクトップの文書ビューアである Atril に追加しよう�
         
         
         &lt;p&gt;私たちチームは、MATE デスクトップ 1.8 のリリースを公表できてうれしく思います。MATE の貢献者やユーザーのみなさんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;情報&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;情報&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.8 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (ファイルマネージャ)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4748,7 +4748,7 @@ Arch Linux にとって非常に有益な各種修正。
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;MATE チームは、新しくできた Debian MATE パッケージ化チームが MATE を次のDebian リリースに組み込もうと&lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;大変努力&lt;/a&gt;されているのに感謝しています。&lt;/p&gt;
 &lt;p&gt;最初のパッケージはすでにリポジトリにあり、その他は &lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ftp-master NEW queue&lt;/a&gt; に多数あります。&lt;/p&gt;
 &lt;p&gt;次の方々に感謝します。&lt;/p&gt;
@@ -4772,7 +4772,7 @@ Arch Linux にとって非常に有益な各種修正。
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;OpenSUSE の代表で、OpenSUSE MATE ソーシャルメディアチームのメンバーでもある Alexandros Vennos 氏は、11月17日 日曜日 10:15 にフロリダ州オーランドで開催される &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenSUSE サミット 2013&lt;/a&gt;で、&lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenSUSE MATE&lt;/a&gt; を講演します。&lt;/p&gt;
 &lt;p&gt;講演の模様は&lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このページ&lt;/a&gt;に掲載しています。&lt;/p&gt;
 
@@ -4806,7 +4806,7 @@ Arch Linux にとって非常に有益な各種修正。
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; で MATE を正式に利用できるようにするには、コミュニティリポジトリを YaST で変更する必要があります。そのためには、&lt;em&gt;YaST-&amp;gt;Software-&amp;gt;Software Repositories&lt;/em&gt; へ移動して &lt;em&gt;X11:MATE:Factory&lt;/em&gt; repo を削除し、次に openSUSE バージョン上の機能で次のリンクをクリックしてください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
@@ -4844,7 +4844,7 @@ Arch Linux にとって非常に有益な各種修正。
         
         
         &lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -4976,7 +4976,7 @@ Arch Linux にとって非常に有益な各種修正。
         
         &lt;p&gt;MATE チームは MATE 1.6 向けに新しい各種テーマを公開できてうれしく思います。&lt;/p&gt;
 &lt;p&gt;Menta は、次の新リリースの標準テーマになる予定です。それは、素敵な GTK2/3 のテーマ (Mint-Z Improved が基本。もはやメンテナンスされていませんが、MATE 用にカスタマイズされ、GTK3.6 にアップデート済み)と、緑色のフォルダを持つ mate-icon-theme の子テーマで構成されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Menta テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Menta テーマ&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;他にも2つの新しいテーマがあります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ブラック MATE&lt;/strong&gt;: 黒色が基調のテーマで、緑色はありません。&lt;/li&gt;
@@ -4984,9 +4984,9 @@ Arch Linux にとって非常に有益な各種修正。
 &lt;/ul&gt;
 &lt;p&gt;Wolfgang Ulbrich さんと Marcel Dijkstra さんの素晴らしい仕事に感謝します。&lt;/p&gt;
 &lt;h3&gt;ブラック MATE テーマ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ブラック-mate-テーマ&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%83%96%e3%83%a9%e3%83%83%e3%82%af-mate-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;ブラック MATE テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#%e3%83%96%e3%83%a9%e3%83%83%e3%82%af-mate-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;ブラック MATE テーマ&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;グリーン Laguna テーマ&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;グリーン-laguna-テーマ&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%b3-laguna-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;グリーン Laguna テーマ&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%b3-laguna-%e3%83%86%e3%83%bc%e3%83%9e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;このセクションへのパーマリンク&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;グリーン Laguna テーマ&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -5015,7 +5015,7 @@ Arch Linux にとって非常に有益な各種修正。
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;私たちは最新パッケージを GitHub で発表できてうれしく思います。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 大学&lt;/a&gt;&lt;/li&gt;
@@ -5036,9 +5036,9 @@ Arch Linux にとって非常に有益な各種修正。
         
         &lt;p&gt;&lt;code&gt;mate-notification-daemon&lt;/code&gt; は MATE 1.6 の新機能で、ユーザーはどのモニターに通知を表示するか選択可能になりました。現在の動作では、現在アクティブな(ポインタがある)モニターにのみ通知が表示されます。動作のデフォルトは以前と同じですが、ユーザーは &lt;code&gt;dconf-editor&lt;/code&gt; で &amp;ldquo;use-active-monitor&amp;rdquo; キーと &amp;ldquo;monitor-number&amp;rdquo; キーを変更して設定を変更したり、&lt;code&gt;mate-notification-properties&lt;/code&gt; を実行して GUI で設定を編集することができます。&lt;/p&gt;
 &lt;p&gt;以下は、&lt;code&gt;mate-notification-properties&lt;/code&gt; のスクリーンショットで、アクティブモニタに通知を表示する設定です。「アクティブモニターを使う」が選択されていることに注意してください。これによって、モニタを選択するためのコンボボックスが無効になります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;次のスクリーンショットは、特定のモニターに表示される通知に対して設定された &lt;code&gt;mate-notification-properties&lt;/code&gt; です。「アクティブモニターを使う」が&lt;strong&gt;選択されていない&lt;/strong&gt;ことに注意してください。これによって、有効にしたいモニターの選択用のコンボボックスが使用可能となります。図のモニター番号は 2 に設定されています。カウントは 1 からでなくて 0 から開始されるので、これで 3 番目のモニターに表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -5052,7 +5052,7 @@ Arch Linux にとって非常に有益な各種修正。
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt; は、ドイツで最新のデータセンタを運営しており、企業内のワークステーションを MATE デスクトップへ移行する計画をしています。FirstColo より、MATE を支援する目的で新しい専用サーバを寄贈していただきました。&lt;/p&gt;
 &lt;p&gt;この素晴らしいニュースのことでは、チームのメンバー全員が Martin Verges さんとそのスタッフに感謝します！&lt;/p&gt;
 
@@ -5103,7 +5103,7 @@ Arch Linux にとって非常に有益な各種修正。
         
         
         &lt;p&gt;MATE チームは MATE 1.4 のリリースが発表できて誇りに思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;このリリースでの主な変更点と改善点は、次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;多数の不具合を修正&lt;/li&gt;
@@ -5140,7 +5140,7 @@ Arch Linux にとって非常に有益な各種修正。
         
         
         &lt;p&gt;MATE チームは、&lt;strong&gt;MATE 1.2&lt;/strong&gt; のリリースを公表できて誇りに思います。このリリースは、1.0 版および 1.1 開発版のリリース以来の大きな前進です。MATE はこれまで以上に安定しており、より多くのアプリケーション、アプレット、バックエンドをサポートします。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;このリリースでの主な変更点と改善点は、次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;多数のバグ修正&lt;/li&gt;

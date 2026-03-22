@@ -11,9 +11,7 @@
 <title>MATE 1.12 をリリースしました – MATE デスクトップ環境</title>
   <meta name="description" content="5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 MATE 1.12 で新しくなったこと MATE デスクトップ 1.12 の主な変更点は次のとおりです。
-GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。
-https://pub.mate-desktop.org/releases/1.12/ スクリーンショット MATE 1.12 スクリーンショット Changelog 変更点 変更点の詳細は以下のとおりです。
-mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-desktop dconf 0.13.4 と xrandr 1.3 が必要です。 GTK&#43;3 でオーバレイスクロールを切り替える gsettings キーを追加 いくつかのアイコンを追加することで、カスタムアイコンテーマ使用の GTK&#43;3 で欠落していたアイコンを修正 マウススキーマ: 中クリックによるエミュレーションを標準で有効に RR: 欠落している mate_rr_output_get_possible_crtcs 関数を実装 RR: 出力名によるラップトップ ID の修正 RR: 表示名に加えて出力名も表示 docbook ユーザーガイドを別のプロジェクトへ移動 yelp への依存関係を削除 (ユーザガイドの移行後は不要) libmatekbd GObject イントロスペクションを追加 レイアウトビュー/印刷ダイアログ: 不要なヘルプボタンを削除 レイアウトビュー/印刷ダイアログ: いくつかの UI を修正 libmatemixer oss: Linux のポーリングには modify counter だけを使用してください。BSD では壊れています。 alsa: 古いバージョンの ALSA で FTBFS を修正 alsa: フェードの修正 libmateweather お天気アプリ タイムゾーンの場所の更新 mate-icon-theme pkgconfig ファイルを生成しない Caja サーバへ接続 ダイアログ: AFP のサポートを追加 マルチモニタのサポートを向上 mate-polkit GTK3 アプリケーション・インディケータのサポートを追加します。 Marco マニュアルの追加およびポインタによるウィンドウ配置の追加 同一アプリケーション内のウィンドウを切り替えに Alt-` を使用 mate-settings-daemon ログアウト用の新しいキーバインディングを追加 (デフォルトは空です) タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 マウス: Ctrl&#43;C や他のコンボを無視するには syndaemon-K を使用 GTK&#43;3: xrandr トレイアプレットがカスタムパネルテーマをサポート mate-session-manager Plank など、ドックのオプションサポートを追加 既存の libsystemd-login に加えて、新規の libsystemd のサポートを追加 ログアウト/シャットダウン時には最大 1 秒間だけ待機 新しい gsettings キーを使用して、開始時に GTK&#43;3 オーバーレイスクロールのオン/オフを切り替え mate-menus pkg-config を使用して python をチェック (python 2.7 が必要) mate-panel xrandr 1.3 以降が必要 カレンダーの週番号を有効/無効にするオプションを追加 画面解像度の変更時にロックされたアプレットの位置を修正 GTK&#43;3: アプレットが panel-menu-bar に従うようにスタイルクラスを追加 mate-themes GTK3 の全テーマ: 音量/輝度アプレットスライダをデザイン すべてのテーマ、特に GTK 3.18 関連のさまざまな改善を行ってより洗練に mate-notification-daemon gtk3 におけるテーマの高さと可視性を修正 複数のテーマの修正 mate-control-center 外観: インタフェースタブを復元 ディスプレイ: プライマリモニタ設定のためのサポートを追加 ディスプレイ: ディスプレイ名に加えて出力名を表示 キーバインディング: ログアウト用のキーバインディングを追加 タッチパッドの設定: タッチパッドを有効/無効にするオプションを追加 タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 カテゴリ化の向上 GTK&#43;3: 外観および MATE フォントビューアでのフォントレンダリングを修正 mate-screensaver 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 画面をロックする時ブラックにフェードしない systemd のイベント処理を修正 mate-media man ページ内の複数の修正 GTK&#43;3: 音量アプレットのスライダおよびメニューにスタイルクラスを追加 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 mate-power-manager xrandr 1.3 以降が必要 デバイスのベンダー/モデル情報を表示 Mac Book Pro のバックライト調整を修正 GTK&#43;3: カスタムテーマのサポート GTK&#43;3: 明るさの調整アプレットの動作を修正 mate-system-monitor SysInfo: Linux Mint および LMDE の適切な検出機能を追加 SysInfo: ディストリビューションでカスタム側のイメージを定義可能に Interface: ノートブックに境界を追加 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 C&#43;&#43;11 でのビルドをサポート mate-icon-theme に対する不要な依存関係を削除 C89 のサポートを廃止 Atril win32、osx、hildon のサポートを廃止 mate-icon-theme の不要な依存関係を削除 配布パッケージのバージョンを使用する場合、埋め込み MathJax を削除 smclient を必須に caja-extensions 複数の文字列を修正 Engrampa 進行ダイアログで ngettext の使用を修正 複数の書庫を別々のディレクトリへ展開する機能を実際 展開するファイルがフォルダ内にある場合に、上書きチェックを修正 Eye of MATE さまざまなバグ修正。 mate-applets Accessx-status, geyes: アプレットの背景を自動的に描画 Cpufreq: cpupower をデフォルトライブラリに mate-icon-theme に対する不要な依存関係を削除 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 GTK&#43;3: cpufreq、charpick および drivemount がカスタムパネルテーマをサポート mate-netbook Window Picker アプレット: 背景を自動的に描画 mate-netspeed アプレットの背景を自動的に描画 サイレント・ルールの追加 mate-sensors-applet nvidia サーマルセンサーとクーラーセンサーのサポートを追加 (libxnvctrl &gt;= 256.25 以上必要) mbmon プラグインの追加 udisks プラグインに新しい値をポーリングさせる mate-terminal 1.10.0 から壊れていた –tab タブオプションを修正 デフォルトでサイレント・ルールを有効に win32、osx のサポートを廃止 mate-user-share dbus-1 の不要な依存関係を削除 Apache 2.0 のサポートを廃止 mate-utils アプリケーションのアイコンを mate-system-log へ追加 スクリーンショットのファイル名に、ウィンドウ名の代わりにタイムスタンプを標準で追加 辞書アプレットの背景を自動的に描画 gsettings スキーマの翻訳修正 Mozo 起動時の通知を有効化 サイレント・ルールの追加 Pluma ビルド中のテストの実行を有効/無効にする --enable-tests オプションを追加 保存時に末尾のスペースを削除するプラグインを追加 バグレポートのスクリプトリストにあるアクティブなプラグインを復活 win32、osx および checkupdate プラグインのサポートを削除 ウィンドウタイトルとデスクトップファイルの Pluma を大文字に GTK3. 印刷プレビューの修正 一部の注釈の修正 caja-dropbox caja extensions の既定ディレクトリを修正 tarball に autogen.sh を含める " /><link rel="canonical" href="https://mate-desktop.org/ja/blog/2015-11-05-mate-1-12-released/" itemprop="url" />
+GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。" /><link rel="canonical" href="https://mate-desktop.org/ja/blog/2015-11-05-mate-1-12-released/" itemprop="url" />
 
 <meta property="og:title" content="MATE 1.12 をリリースしました">
 <meta
@@ -44,225 +42,6 @@ systemd サポートを拡張しました。
 win32 と osx のサポートを止めました。
 
 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。
-
-https://pub.mate-desktop.org/releases/1.12/
-
-スクリーンショット
-    
-MATE 1.12 スクリーンショット
-
-Changelog 変更点
-    変更点の詳細は以下のとおりです。
-mate-common
-    
-lcov 1.12 をサポート
-関連文書と実例を更新
-
-mate-desktop
-    
-dconf 0.13.4 と xrandr 1.3 が必要です。
-GTK&#43;3 でオーバレイスクロールを切り替える gsettings キーを追加
-いくつかのアイコンを追加することで、カスタムアイコンテーマ使用の GTK&#43;3 で欠落していたアイコンを修正
-マウススキーマ: 中クリックによるエミュレーションを標準で有効に
-RR: 欠落している mate_rr_output_get_possible_crtcs 関数を実装
-RR: 出力名によるラップトップ ID の修正
-RR: 表示名に加えて出力名も表示
-docbook ユーザーガイドを別のプロジェクトへ移動
-yelp への依存関係を削除 (ユーザガイドの移行後は不要)
-
-libmatekbd
-    
-GObject イントロスペクションを追加
-レイアウトビュー/印刷ダイアログ: 不要なヘルプボタンを削除
-レイアウトビュー/印刷ダイアログ: いくつかの UI を修正
-
-libmatemixer
-    
-oss: Linux のポーリングには modify counter だけを使用してください。BSD では壊れています。
-alsa: 古いバージョンの ALSA で FTBFS を修正
-alsa: フェードの修正
-
-libmateweather お天気アプリ
-    
-タイムゾーンの場所の更新
-
-mate-icon-theme
-    
-pkgconfig ファイルを生成しない
-
-Caja
-    
-サーバへ接続 ダイアログ: AFP のサポートを追加
-マルチモニタのサポートを向上
-
-mate-polkit
-    
-GTK3 アプリケーション・インディケータのサポートを追加します。
-
-Marco
-    
-マニュアルの追加およびポインタによるウィンドウ配置の追加
-同一アプリケーション内のウィンドウを切り替えに Alt-` を使用
-
-mate-settings-daemon
-    
-ログアウト用の新しいキーバインディングを追加 (デフォルトは空です)
-タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加
-マウス: Ctrl&#43;C や他のコンボを無視するには syndaemon-K を使用
-GTK&#43;3: xrandr トレイアプレットがカスタムパネルテーマをサポート
-
-mate-session-manager
-    
-Plank など、ドックのオプションサポートを追加
-既存の libsystemd-login に加えて、新規の libsystemd のサポートを追加
-ログアウト/シャットダウン時には最大 1 秒間だけ待機
-新しい gsettings キーを使用して、開始時に GTK&#43;3 オーバーレイスクロールのオン/オフを切り替え
-
-mate-menus
-    
-pkg-config を使用して python をチェック (python 2.7 が必要)
-
-mate-panel
-    
-xrandr 1.3 以降が必要
-カレンダーの週番号を有効/無効にするオプションを追加
-画面解像度の変更時にロックされたアプレットの位置を修正
-GTK&#43;3: アプレットが panel-menu-bar に従うようにスタイルクラスを追加
-
-mate-themes
-    
-GTK3 の全テーマ: 音量/輝度アプレットスライダをデザイン
-すべてのテーマ、特に GTK 3.18 関連のさまざまな改善を行ってより洗練に
-
-mate-notification-daemon
-    
-gtk3 におけるテーマの高さと可視性を修正
-複数のテーマの修正
-
-mate-control-center
-    
-外観: インタフェースタブを復元
-ディスプレイ: プライマリモニタ設定のためのサポートを追加
-ディスプレイ: ディスプレイ名に加えて出力名を表示
-キーバインディング: ログアウト用のキーバインディングを追加
-タッチパッドの設定: タッチパッドを有効/無効にするオプションを追加
-タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加
-カテゴリ化の向上
-GTK&#43;3: 外観および MATE フォントビューアでのフォントレンダリングを修正
-
-mate-screensaver
-    
-既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加
-画面をロックする時ブラックにフェードしない
-systemd のイベント処理を修正
-
-mate-media
-    
-man ページ内の複数の修正
-GTK&#43;3: 音量アプレットのスライダおよびメニューにスタイルクラスを追加
-GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正
-
-mate-power-manager
-    
-xrandr 1.3 以降が必要
-デバイスのベンダー/モデル情報を表示
-Mac Book Pro のバックライト調整を修正
-GTK&#43;3: カスタムテーマのサポート
-GTK&#43;3: 明るさの調整アプレットの動作を修正
-
-mate-system-monitor
-    
-SysInfo: Linux Mint および LMDE の適切な検出機能を追加
-SysInfo: ディストリビューションでカスタム側のイメージを定義可能に
-Interface: ノートブックに境界を追加
-既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加
-C&#43;&#43;11 でのビルドをサポート
-mate-icon-theme に対する不要な依存関係を削除
-C89 のサポートを廃止
-
-Atril
-    
-win32、osx、hildon のサポートを廃止
-mate-icon-theme の不要な依存関係を削除
-配布パッケージのバージョンを使用する場合、埋め込み MathJax を削除
-smclient を必須に
-
-caja-extensions
-    
-複数の文字列を修正
-
-Engrampa
-    
-進行ダイアログで ngettext の使用を修正
-複数の書庫を別々のディレクトリへ展開する機能を実際
-展開するファイルがフォルダ内にある場合に、上書きチェックを修正
-
-Eye of MATE
-    
-さまざまなバグ修正。
-
-mate-applets
-    
-Accessx-status, geyes: アプレットの背景を自動的に描画
-Cpufreq: cpupower をデフォルトライブラリに
-mate-icon-theme に対する不要な依存関係を削除
-GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正
-GTK&#43;3: cpufreq、charpick および drivemount がカスタムパネルテーマをサポート
-
-mate-netbook
-    
-Window Picker アプレット: 背景を自動的に描画
-
-mate-netspeed
-    
-アプレットの背景を自動的に描画
-サイレント・ルールの追加
-
-mate-sensors-applet
-    
-nvidia サーマルセンサーとクーラーセンサーのサポートを追加 (libxnvctrl &gt;= 256.25 以上必要)
-mbmon プラグインの追加
-udisks プラグインに新しい値をポーリングさせる
-
-mate-terminal
-    
-1.10.0 から壊れていた &ndash;tab タブオプションを修正
-デフォルトでサイレント・ルールを有効に
-win32、osx のサポートを廃止
-
-mate-user-share
-    
-dbus-1 の不要な依存関係を削除
-Apache 2.0 のサポートを廃止
-
-mate-utils
-    
-アプリケーションのアイコンを mate-system-log へ追加
-スクリーンショットのファイル名に、ウィンドウ名の代わりにタイムスタンプを標準で追加
-辞書アプレットの背景を自動的に描画
-gsettings スキーマの翻訳修正
-
-Mozo
-    
-起動時の通知を有効化
-サイレント・ルールの追加
-
-Pluma
-    
-ビルド中のテストの実行を有効/無効にする --enable-tests オプションを追加
-保存時に末尾のスペースを削除するプラグインを追加
-バグレポートのスクリプトリストにあるアクティブなプラグインを復活
-win32、osx および checkupdate プラグインのサポートを削除
-ウィンドウタイトルとデスクトップファイルの Pluma を大文字に
-GTK3. 印刷プレビューの修正
-一部の注釈の修正
-
-caja-dropbox
-    
-caja extensions の既定ディレクトリを修正
-tarball に autogen.sh を含める
-
-
     
   ">
 <meta
@@ -279,27 +58,23 @@ tarball に autogen.sh を含める
 
 <meta
   property="article:modified_time"
-  content="2015-11-05T20:00:00+00:00">
+  content="2026-03-22T10:19:17+00:00">
 
 
 
   <meta itemprop="name" content="MATE 1.12 をリリースしました">
   <meta itemprop="description" content="5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 MATE 1.12 で新しくなったこと MATE デスクトップ 1.12 の主な変更点は次のとおりです。
-GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。
-https://pub.mate-desktop.org/releases/1.12/ スクリーンショット MATE 1.12 スクリーンショット Changelog 変更点 変更点の詳細は以下のとおりです。
-mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-desktop dconf 0.13.4 と xrandr 1.3 が必要です。 GTK&#43;3 でオーバレイスクロールを切り替える gsettings キーを追加 いくつかのアイコンを追加することで、カスタムアイコンテーマ使用の GTK&#43;3 で欠落していたアイコンを修正 マウススキーマ: 中クリックによるエミュレーションを標準で有効に RR: 欠落している mate_rr_output_get_possible_crtcs 関数を実装 RR: 出力名によるラップトップ ID の修正 RR: 表示名に加えて出力名も表示 docbook ユーザーガイドを別のプロジェクトへ移動 yelp への依存関係を削除 (ユーザガイドの移行後は不要) libmatekbd GObject イントロスペクションを追加 レイアウトビュー/印刷ダイアログ: 不要なヘルプボタンを削除 レイアウトビュー/印刷ダイアログ: いくつかの UI を修正 libmatemixer oss: Linux のポーリングには modify counter だけを使用してください。BSD では壊れています。 alsa: 古いバージョンの ALSA で FTBFS を修正 alsa: フェードの修正 libmateweather お天気アプリ タイムゾーンの場所の更新 mate-icon-theme pkgconfig ファイルを生成しない Caja サーバへ接続 ダイアログ: AFP のサポートを追加 マルチモニタのサポートを向上 mate-polkit GTK3 アプリケーション・インディケータのサポートを追加します。 Marco マニュアルの追加およびポインタによるウィンドウ配置の追加 同一アプリケーション内のウィンドウを切り替えに Alt-` を使用 mate-settings-daemon ログアウト用の新しいキーバインディングを追加 (デフォルトは空です) タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 マウス: Ctrl&#43;C や他のコンボを無視するには syndaemon-K を使用 GTK&#43;3: xrandr トレイアプレットがカスタムパネルテーマをサポート mate-session-manager Plank など、ドックのオプションサポートを追加 既存の libsystemd-login に加えて、新規の libsystemd のサポートを追加 ログアウト/シャットダウン時には最大 1 秒間だけ待機 新しい gsettings キーを使用して、開始時に GTK&#43;3 オーバーレイスクロールのオン/オフを切り替え mate-menus pkg-config を使用して python をチェック (python 2.7 が必要) mate-panel xrandr 1.3 以降が必要 カレンダーの週番号を有効/無効にするオプションを追加 画面解像度の変更時にロックされたアプレットの位置を修正 GTK&#43;3: アプレットが panel-menu-bar に従うようにスタイルクラスを追加 mate-themes GTK3 の全テーマ: 音量/輝度アプレットスライダをデザイン すべてのテーマ、特に GTK 3.18 関連のさまざまな改善を行ってより洗練に mate-notification-daemon gtk3 におけるテーマの高さと可視性を修正 複数のテーマの修正 mate-control-center 外観: インタフェースタブを復元 ディスプレイ: プライマリモニタ設定のためのサポートを追加 ディスプレイ: ディスプレイ名に加えて出力名を表示 キーバインディング: ログアウト用のキーバインディングを追加 タッチパッドの設定: タッチパッドを有効/無効にするオプションを追加 タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 カテゴリ化の向上 GTK&#43;3: 外観および MATE フォントビューアでのフォントレンダリングを修正 mate-screensaver 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 画面をロックする時ブラックにフェードしない systemd のイベント処理を修正 mate-media man ページ内の複数の修正 GTK&#43;3: 音量アプレットのスライダおよびメニューにスタイルクラスを追加 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 mate-power-manager xrandr 1.3 以降が必要 デバイスのベンダー/モデル情報を表示 Mac Book Pro のバックライト調整を修正 GTK&#43;3: カスタムテーマのサポート GTK&#43;3: 明るさの調整アプレットの動作を修正 mate-system-monitor SysInfo: Linux Mint および LMDE の適切な検出機能を追加 SysInfo: ディストリビューションでカスタム側のイメージを定義可能に Interface: ノートブックに境界を追加 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 C&#43;&#43;11 でのビルドをサポート mate-icon-theme に対する不要な依存関係を削除 C89 のサポートを廃止 Atril win32、osx、hildon のサポートを廃止 mate-icon-theme の不要な依存関係を削除 配布パッケージのバージョンを使用する場合、埋め込み MathJax を削除 smclient を必須に caja-extensions 複数の文字列を修正 Engrampa 進行ダイアログで ngettext の使用を修正 複数の書庫を別々のディレクトリへ展開する機能を実際 展開するファイルがフォルダ内にある場合に、上書きチェックを修正 Eye of MATE さまざまなバグ修正。 mate-applets Accessx-status, geyes: アプレットの背景を自動的に描画 Cpufreq: cpupower をデフォルトライブラリに mate-icon-theme に対する不要な依存関係を削除 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 GTK&#43;3: cpufreq、charpick および drivemount がカスタムパネルテーマをサポート mate-netbook Window Picker アプレット: 背景を自動的に描画 mate-netspeed アプレットの背景を自動的に描画 サイレント・ルールの追加 mate-sensors-applet nvidia サーマルセンサーとクーラーセンサーのサポートを追加 (libxnvctrl &gt;= 256.25 以上必要) mbmon プラグインの追加 udisks プラグインに新しい値をポーリングさせる mate-terminal 1.10.0 から壊れていた –tab タブオプションを修正 デフォルトでサイレント・ルールを有効に win32、osx のサポートを廃止 mate-user-share dbus-1 の不要な依存関係を削除 Apache 2.0 のサポートを廃止 mate-utils アプリケーションのアイコンを mate-system-log へ追加 スクリーンショットのファイル名に、ウィンドウ名の代わりにタイムスタンプを標準で追加 辞書アプレットの背景を自動的に描画 gsettings スキーマの翻訳修正 Mozo 起動時の通知を有効化 サイレント・ルールの追加 Pluma ビルド中のテストの実行を有効/無効にする --enable-tests オプションを追加 保存時に末尾のスペースを削除するプラグインを追加 バグレポートのスクリプトリストにあるアクティブなプラグインを復活 win32、osx および checkupdate プラグインのサポートを削除 ウィンドウタイトルとデスクトップファイルの Pluma を大文字に GTK3. 印刷プレビューの修正 一部の注釈の修正 caja-dropbox caja extensions の既定ディレクトリを修正 tarball に autogen.sh を含める">
+GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。">
   <meta itemprop="datePublished" content="2015-11-05T20:00:00+00:00">
-  <meta itemprop="dateModified" content="2015-11-05T20:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-03-22T10:19:17+00:00">
   <meta itemprop="wordCount" content="376">
   <meta itemprop="keywords" content="Releases">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MATE 1.12 をリリースしました">
   <meta name="twitter:description" content="5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。
 MATE 1.12 で新しくなったこと MATE デスクトップ 1.12 の主な変更点は次のとおりです。
-GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。
-https://pub.mate-desktop.org/releases/1.12/ スクリーンショット MATE 1.12 スクリーンショット Changelog 変更点 変更点の詳細は以下のとおりです。
-mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-desktop dconf 0.13.4 と xrandr 1.3 が必要です。 GTK&#43;3 でオーバレイスクロールを切り替える gsettings キーを追加 いくつかのアイコンを追加することで、カスタムアイコンテーマ使用の GTK&#43;3 で欠落していたアイコンを修正 マウススキーマ: 中クリックによるエミュレーションを標準で有効に RR: 欠落している mate_rr_output_get_possible_crtcs 関数を実装 RR: 出力名によるラップトップ ID の修正 RR: 表示名に加えて出力名も表示 docbook ユーザーガイドを別のプロジェクトへ移動 yelp への依存関係を削除 (ユーザガイドの移行後は不要) libmatekbd GObject イントロスペクションを追加 レイアウトビュー/印刷ダイアログ: 不要なヘルプボタンを削除 レイアウトビュー/印刷ダイアログ: いくつかの UI を修正 libmatemixer oss: Linux のポーリングには modify counter だけを使用してください。BSD では壊れています。 alsa: 古いバージョンの ALSA で FTBFS を修正 alsa: フェードの修正 libmateweather お天気アプリ タイムゾーンの場所の更新 mate-icon-theme pkgconfig ファイルを生成しない Caja サーバへ接続 ダイアログ: AFP のサポートを追加 マルチモニタのサポートを向上 mate-polkit GTK3 アプリケーション・インディケータのサポートを追加します。 Marco マニュアルの追加およびポインタによるウィンドウ配置の追加 同一アプリケーション内のウィンドウを切り替えに Alt-` を使用 mate-settings-daemon ログアウト用の新しいキーバインディングを追加 (デフォルトは空です) タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 マウス: Ctrl&#43;C や他のコンボを無視するには syndaemon-K を使用 GTK&#43;3: xrandr トレイアプレットがカスタムパネルテーマをサポート mate-session-manager Plank など、ドックのオプションサポートを追加 既存の libsystemd-login に加えて、新規の libsystemd のサポートを追加 ログアウト/シャットダウン時には最大 1 秒間だけ待機 新しい gsettings キーを使用して、開始時に GTK&#43;3 オーバーレイスクロールのオン/オフを切り替え mate-menus pkg-config を使用して python をチェック (python 2.7 が必要) mate-panel xrandr 1.3 以降が必要 カレンダーの週番号を有効/無効にするオプションを追加 画面解像度の変更時にロックされたアプレットの位置を修正 GTK&#43;3: アプレットが panel-menu-bar に従うようにスタイルクラスを追加 mate-themes GTK3 の全テーマ: 音量/輝度アプレットスライダをデザイン すべてのテーマ、特に GTK 3.18 関連のさまざまな改善を行ってより洗練に mate-notification-daemon gtk3 におけるテーマの高さと可視性を修正 複数のテーマの修正 mate-control-center 外観: インタフェースタブを復元 ディスプレイ: プライマリモニタ設定のためのサポートを追加 ディスプレイ: ディスプレイ名に加えて出力名を表示 キーバインディング: ログアウト用のキーバインディングを追加 タッチパッドの設定: タッチパッドを有効/無効にするオプションを追加 タッチパッドの設定: 自然なスクロール、2 本指および 3 本指クリックのサポートを追加 カテゴリ化の向上 GTK&#43;3: 外観および MATE フォントビューアでのフォントレンダリングを修正 mate-screensaver 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 画面をロックする時ブラックにフェードしない systemd のイベント処理を修正 mate-media man ページ内の複数の修正 GTK&#43;3: 音量アプレットのスライダおよびメニューにスタイルクラスを追加 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 mate-power-manager xrandr 1.3 以降が必要 デバイスのベンダー/モデル情報を表示 Mac Book Pro のバックライト調整を修正 GTK&#43;3: カスタムテーマのサポート GTK&#43;3: 明るさの調整アプレットの動作を修正 mate-system-monitor SysInfo: Linux Mint および LMDE の適切な検出機能を追加 SysInfo: ディストリビューションでカスタム側のイメージを定義可能に Interface: ノートブックに境界を追加 既存の libsystemd-login サポートに加えて、libsystemd のサポートを追加 C&#43;&#43;11 でのビルドをサポート mate-icon-theme に対する不要な依存関係を削除 C89 のサポートを廃止 Atril win32、osx、hildon のサポートを廃止 mate-icon-theme の不要な依存関係を削除 配布パッケージのバージョンを使用する場合、埋め込み MathJax を削除 smclient を必須に caja-extensions 複数の文字列を修正 Engrampa 進行ダイアログで ngettext の使用を修正 複数の書庫を別々のディレクトリへ展開する機能を実際 展開するファイルがフォルダ内にある場合に、上書きチェックを修正 Eye of MATE さまざまなバグ修正。 mate-applets Accessx-status, geyes: アプレットの背景を自動的に描画 Cpufreq: cpupower をデフォルトライブラリに mate-icon-theme に対する不要な依存関係を削除 GTK&#43;3: カスタムアイコンテーマ使用で欠落していたアイコンを修正 GTK&#43;3: cpufreq、charpick および drivemount がカスタムパネルテーマをサポート mate-netbook Window Picker アプレット: 背景を自動的に描画 mate-netspeed アプレットの背景を自動的に描画 サイレント・ルールの追加 mate-sensors-applet nvidia サーマルセンサーとクーラーセンサーのサポートを追加 (libxnvctrl &gt;= 256.25 以上必要) mbmon プラグインの追加 udisks プラグインに新しい値をポーリングさせる mate-terminal 1.10.0 から壊れていた –tab タブオプションを修正 デフォルトでサイレント・ルールを有効に win32、osx のサポートを廃止 mate-user-share dbus-1 の不要な依存関係を削除 Apache 2.0 のサポートを廃止 mate-utils アプリケーションのアイコンを mate-system-log へ追加 スクリーンショットのファイル名に、ウィンドウ名の代わりにタイムスタンプを標準で追加 辞書アプレットの背景を自動的に描画 gsettings スキーマの翻訳修正 Mozo 起動時の通知を有効化 サイレント・ルールの追加 Pluma ビルド中のテストの実行を有効/無効にする --enable-tests オプションを追加 保存時に末尾のスペースを削除するプラグインを追加 バグレポートのスクリプトリストにあるアクティブなプラグインを復活 win32、osx および checkupdate プラグインのサポートを削除 ウィンドウタイトルとデスクトップファイルの Pluma を大文字に GTK3. 印刷プレビューの修正 一部の注釈の修正 caja-dropbox caja extensions の既定ディレクトリを修正 tarball に autogen.sh を含める">
+GTK 3.18 サポートを含む、MATE デスクトップ全体の GTK3 サポートの修正と改善。 タッチパッドのサポートが大幅に向上し、マルチタッチとナチュラルスクロール機能が追加されました。 マルチモニタのサポートが改善され、ディスプレイの設定に出力名が使用されるようになり、改訂された UI ではプライマリモニタが設定できます。 電源管理アプレットにモデルとベンダーの情報が表示されるようになったので、複数のバッテリ駆動デバイスを区別できます。 セッション管理が改善され、メディアの再生中にスクリーンセーバーの使用を抑制します。 MATE は org.gnome.SessionManager namespace に従うようになりました。 systemd サポートを拡張しました。 長らく存在していた不具合と、多数の使い勝手の悪さが修正されました。 たとえば、画面解像度を変更しても、パネルアプレットの順序は変更されません。 翻訳が更新され、多くのコンポーネントが gschema から直接文字列を取得するようになりました (intltool 0.50.1 が必要)。 win32 と osx のサポートを止めました。 MATE 1.12 の各種コンポーネントは、次の場所からダウンロードできます。">
 
     <link rel="preload" href="/css/compiled/main.min.ba25a2ce29fb3c9b47488aa427b82f7cbbbeae7f94a789244957b85a29f5f14a.css" as="style" integrity="sha256-uiWizin7PJtHSIqkJ7gvfLu&#43;rn&#43;Up4kkSVe4Win18Uo=" />
     <link href="/css/compiled/main.min.ba25a2ce29fb3c9b47488aa427b82f7cbbbeae7f94a789244957b85a29f5f14a.css" rel="stylesheet" integrity="sha256-uiWizin7PJtHSIqkJ7gvfLu&#43;rn&#43;Up4kkSVe4Win18Uo=" />
@@ -460,10 +235,23 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
         <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">User Documentation</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/getting-started/"
+      href="/docs/user/getting-started/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
@@ -475,7 +263,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/installation/"
+      href="/docs/user/installation/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Installation</span>
@@ -487,7 +275,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/configuration/"
+      href="/docs/user/configuration/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Configuration</span>
@@ -499,7 +287,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/"
+      href="/docs/user/applications/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Applications</span>
@@ -512,7 +300,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/caja/"
+      href="/docs/user/applications/caja/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Caja</span>
@@ -524,7 +312,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/pluma/"
+      href="/docs/user/applications/pluma/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Pluma</span>
@@ -536,7 +324,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/atril/"
+      href="/docs/user/applications/atril/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Atril</span>
@@ -548,7 +336,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/eom/"
+      href="/docs/user/applications/eom/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Eye of MATE</span>
@@ -560,7 +348,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/engrampa/"
+      href="/docs/user/applications/engrampa/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Engrampa</span>
@@ -572,7 +360,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/mate-terminal/"
+      href="/docs/user/applications/mate-terminal/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">MATE Terminal</span>
@@ -584,7 +372,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/mate-system-monitor/"
+      href="/docs/user/applications/mate-system-monitor/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">System Monitor</span>
@@ -596,7 +384,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/mate-calc/"
+      href="/docs/user/applications/mate-calc/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Calculator</span>
@@ -608,7 +396,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/mate-control-center/"
+      href="/docs/user/applications/mate-control-center/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Control Center</span>
@@ -620,7 +408,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/applications/mozo/"
+      href="/docs/user/applications/mozo/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Mozo</span>
@@ -634,7 +422,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/troubleshooting/"
+      href="/docs/user/troubleshooting/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">Troubleshooting</span>
@@ -646,13 +434,90 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/faq/"
+      href="/docs/user/faq/"
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">FAQ</span>
     </a>
   </div>
               
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Developer Documentation</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/getting-started/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/first-contribution/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Your First Contribution</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/building/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Building from Source</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/artwork/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Artwork &amp; Themes</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/translation/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Translation</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
             </li></ul>
       </div></li>
               <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
@@ -1717,7 +1582,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
         <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2"><span class="hx:mr-1">11月 5, 2015</span></div>
         <div class="content">
           <p>5ヶか月の開発期間を経て、MATE デスクトップチームは MATE デスクトップ 1.12 のリリースを公表できたことをうれしく思います。すべての MATE 貢献者とユーザーに感謝します。</p>
-<p><img src="/images/blog/about-mate-1.12.png" alt="about"  loading="lazy" /></p>
+<p><img src="/images/blog/about-mate-1.12.png" alt="about"  data-zoomable loading="lazy" /></p>
 <h2>MATE 1.12 で新しくなったこと<span class="hx:absolute hx:-mt-20" id="mate-112-で新しくなったこと"></span>
     <a href="#mate-112-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h2><p>MATE デスクトップ 1.12 の主な変更点は次のとおりです。</p>
 <ul>
@@ -1962,7 +1827,7 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
 
         </div>
     <div class="hx:mt-12 hx:mb-8 hx:block hx:text-xs hx:text-gray-500 hx:ltr:text-right hx:rtl:text-left hx:dark:text-gray-400">
-      最終更新日 <time datetime="2015-11-05T20:00:00.000Z">11月 5, 2015</time></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+      最終更新日 <time datetime="2026-03-22T10:19:17.000Z">3月 22, 2026</time> • mbkma</div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
         href="/ja/blog/2015-06-11-mate-1-10-released/"
         title="MATE 1.10 リリース"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
@@ -2209,6 +2074,41 @@ mate-common lcov 1.12 をサポート 関連文書と実例を更新 mate-deskto
     </div></footer>
     
     <script defer src="/js/main.min.46d42cab19f63e2c332130a096ae912d026e944005d389cd8008de0c043f542d.js" integrity="sha256-RtQsqxn2PiwzITCglq6RLQJulEAF04nNgAjeDAQ/VC0="></script>
-<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script><script defer src="/ja.search.min.943b4bad5bc1de262d585448f273edbc94e47f2f446e1cee4ce80cb1aa62c048.js" integrity="sha256-lDtLrVvB3iYtWFRI8nPtvJTkfy9EbhzuTOgMsapiwEg="></script>
+<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script><script defer src="/ja.search.min.943b4bad5bc1de262d585448f273edbc94e47f2f446e1cee4ce80cb1aa62c048.js" integrity="sha256-lDtLrVvB3iYtWFRI8nPtvJTkfy9EbhzuTOgMsapiwEg="></script><script defer src="/js/medium-zoom.min.6603320c02180d81b16dca4971f52763035ebc6ff18bd38729a47ff062be8d67.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK&#43;jWc=" crossorigin="anonymous"></script><script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!window.mediumZoom) {
+      return;
+    }
+
+    const getOverlay = () => {
+      return document.documentElement.classList.contains("dark")
+        ? "rgba(17, 17, 17, 0.98)"
+        : "rgba(255, 255, 255, 0.98)";
+    };
+
+    const zoom = window.mediumZoom("[data-zoomable]", {
+      background: getOverlay(),
+    });
+
+    const style = document.createElement("style");
+    style.textContent = `
+      .medium-zoom-overlay {
+        z-index: 1000;
+      }
+      .medium-zoom-image--opened {
+        z-index: 1001;
+      }
+    `;
+    document.head.appendChild(style);
+
+    new MutationObserver(() => {
+      zoom.update({ background: getOverlay() });
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+  });
+</script>
+
   </body>
 </html>

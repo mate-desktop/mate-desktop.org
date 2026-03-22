@@ -1,0 +1,712 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Applications</title>
+    <link>https://mate-desktop.org/docs/user/applications/</link>
+    <description>Recent content in Applications on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="https://mate-desktop.org/docs/user/applications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Caja</title>
+      <link>https://mate-desktop.org/docs/user/applications/caja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/caja/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/system-file-manager.png&#34; alt=&#34;Caja icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/caja&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/caja/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Caja is the official file manager for the MATE desktop environment. It lets you browse and manage files and directories, access network filesystems, and launch applications. Caja also manages the desktop — drawing the background and providing icons for drives, the trash, and desktop shortcuts.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/caja-window.png&#34; title=&#34;Caja file manager&#34; alt=&#34;Caja window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Caja file manager&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spatial and browser modes&lt;/strong&gt; — choose between opening each folder in its own window or navigating within a single browser-style window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tabbed browsing&lt;/strong&gt; — open multiple locations in a single window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customizable sidebar&lt;/strong&gt; — bookmarks, tree view, notes, and emblems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File previews&lt;/strong&gt; — thumbnail images, text file snippets, and audio previews in the sidebar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network support&lt;/strong&gt; — connect to FTP, SFTP, SMB/Windows shares, and WebDAV locations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensions&lt;/strong&gt; — additional functionality through plugins (e.g. caja-extensions, caja-dropbox)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Keyboard Shortcuts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;keyboard-shortcuts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#keyboard-shortcuts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Action&lt;/th&gt;
+          &lt;th&gt;Shortcut&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New window&lt;/td&gt;
+          &lt;td&gt;Ctrl+N&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+T&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Close tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+W&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Go up&lt;/td&gt;
+          &lt;td&gt;Alt+Up&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Go home&lt;/td&gt;
+          &lt;td&gt;Alt+Home&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Show hidden files&lt;/td&gt;
+          &lt;td&gt;Ctrl+H&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Open location bar&lt;/td&gt;
+          &lt;td&gt;Ctrl+L&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Search&lt;/td&gt;
+          &lt;td&gt;Ctrl+F&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rename&lt;/td&gt;
+          &lt;td&gt;F2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Properties&lt;/td&gt;
+          &lt;td&gt;Alt+Enter&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Pluma</title>
+      <link>https://mate-desktop.org/docs/user/applications/pluma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/pluma/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-text-editor.png&#34; alt=&#34;Pluma icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/pluma&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/pluma/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pluma is the official text editor for the MATE desktop. While designed to be simple and easy to use, it is a capable general-purpose editor suitable for programming, configuration editing, and writing. Its plugin system allows advanced features to be added on demand.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/pluma-window.png&#34; title=&#34;Pluma text editor&#34; alt=&#34;Pluma window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Pluma text editor&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Syntax highlighting&lt;/strong&gt; — for dozens of programming and markup languages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple documents&lt;/strong&gt; — open files as tabs in a single window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search and replace&lt;/strong&gt; — with full regular expression (PCRE) support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-indentation&lt;/strong&gt; — keeps indentation level when pressing Enter&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bracket matching&lt;/strong&gt; — highlights matching parentheses and braces&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Line numbers&lt;/strong&gt; — toggle in the gutter&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current line highlight&lt;/strong&gt; — visually marks the active line&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Text wrapping&lt;/strong&gt; — configurable soft and hard wrap modes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin system&lt;/strong&gt; — extend with spell check, snippets, file browser, terminal, and more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Keyboard Shortcuts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;keyboard-shortcuts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#keyboard-shortcuts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Action&lt;/th&gt;
+          &lt;th&gt;Shortcut&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New file&lt;/td&gt;
+          &lt;td&gt;Ctrl+N&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Open file&lt;/td&gt;
+          &lt;td&gt;Ctrl+O&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Save&lt;/td&gt;
+          &lt;td&gt;Ctrl+S&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Save as&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+S&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Find&lt;/td&gt;
+          &lt;td&gt;Ctrl+F&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Find and replace&lt;/td&gt;
+          &lt;td&gt;Ctrl+H&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Go to line&lt;/td&gt;
+          &lt;td&gt;Ctrl+I&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+T&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Close tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+W&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Comment/uncomment&lt;/td&gt;
+          &lt;td&gt;Ctrl+M / Ctrl+Shift+M&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Atril</title>
+      <link>https://mate-desktop.org/docs/user/applications/atril/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/atril/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/atril/master/data/icons/scalable/apps/atril.svg&#34; alt=&#34;Atril icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/atril&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/atril/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Atril is the official document viewer for the MATE desktop. It supports a wide range of document formats and is suitable for both everyday reading and presentations.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/atril-window.png&#34; title=&#34;Atril document viewer&#34; alt=&#34;Atril window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Atril document viewer&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supported-formats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Format&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PDF&lt;/td&gt;
+          &lt;td&gt;Portable Document Format&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PostScript / EPS&lt;/td&gt;
+          &lt;td&gt;PS and Encapsulated PostScript&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DjVu&lt;/td&gt;
+          &lt;td&gt;Scanned document format&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DVI&lt;/td&gt;
+          &lt;td&gt;TeX output format&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;XPS&lt;/td&gt;
+          &lt;td&gt;XML Paper Specification&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TIFF&lt;/td&gt;
+          &lt;td&gt;Multi-page TIFF images&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CBR / CBZ&lt;/td&gt;
+          &lt;td&gt;Comic book archives&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Continuous and dual-page view&lt;/strong&gt; — read documents in single, dual, or continuous scroll mode&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentation mode&lt;/strong&gt; — fullscreen slideshow for PDF presentations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thumbnails sidebar&lt;/strong&gt; — quickly jump to any page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bookmarks&lt;/strong&gt; — save positions within a document&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Text search&lt;/strong&gt; — find text across the entire document&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy to clipboard&lt;/strong&gt; — select and copy text from supported documents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hyperlink navigation&lt;/strong&gt; — clickable links within documents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Printing&lt;/strong&gt; — print to any configured printer&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Eye of MATE</title>
+      <link>https://mate-desktop.org/docs/user/applications/eom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/eom/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/eom/master/data/icons/scalable/apps/eom.svg&#34; alt=&#34;Eye of MATE icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/eom&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/eom/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Eye of MATE (eom) is the official image viewer for the MATE desktop. It is designed to be fast and lightweight while handling large images efficiently. It uses the gdk-pixbuf library and can display a wide range of image formats. Basic editing operations such as rotation and flipping are also supported.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/eom-window.png&#34; title=&#34;Eye of MATE image viewer&#34; alt=&#34;Eye of MATE window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Eye of MATE image viewer&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supported-formats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;JPEG, PNG, GIF, BMP, TIFF, ICO&lt;/li&gt;
+&lt;li&gt;SVG (with librsvg)&lt;/li&gt;
+&lt;li&gt;WebP, AVIF (depending on gdk-pixbuf loaders installed)&lt;/li&gt;
+&lt;li&gt;Many additional formats via plugins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Slideshow&lt;/strong&gt; — automatically advance through images in a folder&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full-screen mode&lt;/strong&gt; — view images without distractions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom and pan&lt;/strong&gt; — smooth zoom from fit-to-window to 1:1 and beyond&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rotation and flip&lt;/strong&gt; — rotate 90°/180°/270° and flip horizontally or vertically&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EXIF metadata&lt;/strong&gt; — view camera settings, GPS coordinates, and other metadata embedded in JPEG files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Image collection panel&lt;/strong&gt; — thumbnail strip for navigating images in a folder&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin system&lt;/strong&gt; — extend with features such as map view, fullscreen background, and more&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Engrampa</title>
+      <link>https://mate-desktop.org/docs/user/applications/engrampa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/engrampa/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/engrampa/master/data/icons/scalable/apps/engrampa.svg&#34; alt=&#34;Engrampa icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/engrampa&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/engrampa/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Engrampa is the official archive manager for the MATE desktop. It is a graphical front-end to command-line archiving tools such as tar, zip, and 7z, forked from File Roller. You can create new archives, add and remove files, inspect contents, and extract files — all without touching the terminal.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/engrampa-window.png&#34; title=&#34;Engrampa archive manager&#34; alt=&#34;Engrampa window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Engrampa archive manager&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supported-formats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Format&lt;/th&gt;
+          &lt;th&gt;Create&lt;/th&gt;
+          &lt;th&gt;Extract&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ZIP&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TAR, TAR.GZ, TAR.BZ2, TAR.XZ&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;7Z&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RAR&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ISO&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;JAR&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CAB&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;AR / DEB&lt;/td&gt;
+          &lt;td&gt;—&lt;/td&gt;
+          &lt;td&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Create and modify archives with drag-and-drop support&lt;/li&gt;
+&lt;li&gt;View archive contents before extracting&lt;/li&gt;
+&lt;li&gt;Open individual files inside an archive without extracting the whole thing&lt;/li&gt;
+&lt;li&gt;Password-protect ZIP and 7Z archives&lt;/li&gt;
+&lt;li&gt;Extract to a chosen folder or directly to the current directory&lt;/li&gt;
+&lt;li&gt;Caja integration — right-click files to compress or extract&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MATE Terminal</title>
+      <link>https://mate-desktop.org/docs/user/applications/mate-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/mate-terminal/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-terminal.png&#34; alt=&#34;MATE Terminal icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-terminal&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MATE Terminal is the official terminal emulator for the MATE desktop. It provides access to a UNIX shell within the graphical environment, with support for multiple sessions, customizable appearance, and configurable key bindings.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-terminal-window.png&#34; title=&#34;MATE Terminal&#34; alt=&#34;MATE Terminal window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;MATE Terminal&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiple tabs and windows&lt;/strong&gt; — run several shell sessions side by side&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profiles&lt;/strong&gt; — save different configurations (colors, fonts, shell, working directory) as named profiles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Color schemes&lt;/strong&gt; — built-in palettes plus full custom foreground/background color support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transparent background&lt;/strong&gt; — configurable background transparency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clickable URLs&lt;/strong&gt; — open links directly from the terminal output&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom key bindings&lt;/strong&gt; — remap any terminal shortcut&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Encoding support&lt;/strong&gt; — switch character encoding per-session&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bell control&lt;/strong&gt; — visual or audible bell, or silence it entirely&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Keyboard Shortcuts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;keyboard-shortcuts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#keyboard-shortcuts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Action&lt;/th&gt;
+          &lt;th&gt;Shortcut&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+T&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;New window&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+N&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Close tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+W&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Next tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+Page Down&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Previous tab&lt;/td&gt;
+          &lt;td&gt;Ctrl+Page Up&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Copy&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+C&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Paste&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+V&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Find&lt;/td&gt;
+          &lt;td&gt;Ctrl+Shift+F&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Zoom in&lt;/td&gt;
+          &lt;td&gt;Ctrl++&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Zoom out&lt;/td&gt;
+          &lt;td&gt;Ctrl+-&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Reset zoom&lt;/td&gt;
+          &lt;td&gt;Ctrl+0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Full screen&lt;/td&gt;
+          &lt;td&gt;F11&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>System Monitor</title>
+      <link>https://mate-desktop.org/docs/user/applications/mate-system-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/mate-system-monitor/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-system-monitor.png&#34; alt=&#34;System Monitor icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MATE System Monitor gives you a live view of what is happening on your system. You can inspect running processes, monitor hardware resource usage, and check disk utilization — all from a single window.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-system-monitor-window.png&#34; title=&#34;MATE System Monitor&#34; alt=&#34;System Monitor window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;MATE System Monitor&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Tabs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tabs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tabs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Processes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;processes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#processes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Lists all running processes with their PID, user, CPU usage, memory usage, and command. You can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Send signals to processes (including SIGKILL to force-quit)&lt;/li&gt;
+&lt;li&gt;View the full memory map of a process&lt;/li&gt;
+&lt;li&gt;Filter by process name&lt;/li&gt;
+&lt;li&gt;Show all processes or only your own&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Displays scrolling graphs for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPU&lt;/strong&gt; — per-core or combined usage over time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory and swap&lt;/strong&gt; — current usage and history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network&lt;/strong&gt; — received and sent bytes per second&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;File Systems&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;file-systems&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#file-systems&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Lists mounted filesystems with device, type, mountpoint, total size, free space, and usage percentage.&lt;/p&gt;
+&lt;h3&gt;System&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;system&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#system&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Shows basic system information: hostname, kernel version, MATE version, installed memory, and CPU model.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Calculator</title>
+      <link>https://mate-desktop.org/docs/user/applications/mate-calc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/mate-calc/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-calculator.png&#34; alt=&#34;Calculator icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-calc&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/mate-calc/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MATE Calculator is the official calculator for the MATE desktop. It is designed to be usable entirely with the keyboard or the mouse, with a visual layout similar to a physical hand-held calculator.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-calc-window.png&#34; title=&#34;MATE Calculator&#34; alt=&#34;Calculator window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;MATE Calculator&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Modes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Mode&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Basic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Everyday arithmetic: addition, subtraction, multiplication, division&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Advanced&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Trigonometry, logarithms, factorials, modulo, and more&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Financial&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Compound interest, present/future value, and loan calculations&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Bitwise operations, hex/octal/binary input and display&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Switch between modes at any time without losing your current calculation&lt;/li&gt;
+&lt;li&gt;Full keyboard input — type expressions naturally&lt;/li&gt;
+&lt;li&gt;History of previous calculations&lt;/li&gt;
+&lt;li&gt;Support for brackets and operator precedence&lt;/li&gt;
+&lt;li&gt;Copy result to clipboard with Ctrl+C&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Control Center</title>
+      <link>https://mate-desktop.org/docs/user/applications/mate-control-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/mate-control-center/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/preferences-desktop.png&#34; alt=&#34;Control Center icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-control-center&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The MATE Control Center is the central place to configure your desktop. It provides a unified launcher for all system and personal preference panels, grouped by category.&lt;/p&gt;
+&lt;p&gt;Open it from &lt;strong&gt;System → Control Center&lt;/strong&gt; in the panel menu.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-control-center-window.png&#34; title=&#34;MATE Control Center&#34; alt=&#34;Control Center window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;MATE Control Center&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Categories&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;categories&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#categories&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Personal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;personal&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#personal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;About Me&lt;/strong&gt; — user name, contact info, and profile photo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preferred Applications&lt;/strong&gt; — default browser, email client, and terminal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Startup Applications&lt;/strong&gt; — programs that launch automatically at login&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Look and Feel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;look-and-feel&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#look-and-feel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Appearance&lt;/strong&gt; — GTK theme, window borders, icons, and fonts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Screensaver&lt;/strong&gt; — idle time, screensaver selection, and lock settings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt; — window behavior, focus mode, and compositing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Hardware&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;hardware&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#hardware&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Displays&lt;/strong&gt; — monitor resolution, orientation, and multi-monitor layout&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keyboard&lt;/strong&gt; — layout, repeat rate, and accessibility settings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mouse&lt;/strong&gt; — pointer speed, button configuration, and touchpad options&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sound&lt;/strong&gt; — volume levels and sound theme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power Management&lt;/strong&gt; — battery, display sleep, and suspend settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Administration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;administration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#administration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time and Date&lt;/strong&gt; — system clock and timezone&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Users and Groups&lt;/strong&gt; — manage local user accounts&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Mozo</title>
+      <link>https://mate-desktop.org/docs/user/applications/mozo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/mozo/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mozo/master/data/icons/hicolor_apps_48x48_mozo.png&#34; alt=&#34;Mozo icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mozo&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
+  &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+Source Code&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mate-desktop/mozo/issues&#34; title=&#34;Bug Tracker&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
+  &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Bug Tracker&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mozo is the official menu editor for the MATE desktop. It provides a graphical interface for customizing the application menu, following the &lt;a href=&#34;https://specifications.freedesktop.org/menu-spec/latest/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freedesktop.org menu specification&lt;/a&gt;. It is a fork of Alacarte.&lt;/p&gt;
+&lt;p&gt;Open it from &lt;strong&gt;System → Preferences → Main Menu&lt;/strong&gt; or by right-clicking the Applications menu and choosing &lt;strong&gt;Edit Menus&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mozo-window.png&#34; title=&#34;Mozo menu editor&#34; alt=&#34;Mozo window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Mozo menu editor&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Show and hide entries&lt;/strong&gt; — toggle the visibility of any application without deleting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add new items&lt;/strong&gt; — create launchers for applications, links, or scripts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit existing entries&lt;/strong&gt; — change name, icon, command, and description&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reorder items&lt;/strong&gt; — drag entries within a menu to rearrange them&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create submenus&lt;/strong&gt; — add new categories and nest them within existing ones&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Undo and redo&lt;/strong&gt; — revert accidental changes&lt;/li&gt;
+&lt;li&gt;Changes are stored in the user&amp;rsquo;s &lt;code&gt;~/.local/share/applications&lt;/code&gt; and &lt;code&gt;~/.config/menus&lt;/code&gt; directories and do not affect system-wide menu files&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;El equipo MATE de openSUSE esta orgulloso de anunciar la disponibilidad de MATE 1.8
 para openSUSE. Los patrones no estan ya disponibles, y no lo estarán en el futuro
 debido a la inclusión oficial de MATE en openSUSE.

@@ -124,7 +124,7 @@
         &lt;p&gt;После 5 месеци развоја екипа Мејтове радне површи с поносом објављује
 издање 1.12 Мејтовр радне површи. Захваљујемо се свим доприносиоцима
 и корисницима Мејта.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Шта је ново у Мејту 1.12&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;шта-је-ново-у-мејту-112&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%88%d1%82%d0%b0-%d1%98%d0%b5-%d0%bd%d0%be%d0%b2%d0%be-%d1%83-%d0%bc%d0%b5%d1%98%d1%82%d1%83-112&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Главне измене у Мејту 1.12 су:&lt;/p&gt;
 &lt;ul&gt;
@@ -622,7 +622,7 @@ $ sudo dnf update
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Тим „openSUSE“ Мејт с поносом објављује доступност Мејта 1.8
 за „openSUSE“. Обрасци више нису доступни и неће бити доступни
 ни у будућности због званичног укључивања Мејта у „openSUSE“.
@@ -1177,7 +1177,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Мејтова екипа је врло срећна што може поздравити нову екипу паковања
 Дебиан Мејта, која је &lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;напорно радила&lt;/a&gt;
 да би Мејт био укључен у следеће издање Дебиана.&lt;/p&gt;
@@ -1204,7 +1204,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Самит&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Александрос Венос, „openSUSE“ амбасадор и члан тима друштвених медија „openSUSE“
 Мејта, приказаће &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Мејт&lt;/a&gt;
 на &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„openSUSE“ Самиту 2013.&lt;/a&gt; у Орланду, на Флориди,
@@ -1264,7 +1264,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Да би Мејт постао званично доступан у &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 ризнице заједнице се морају изменити у „YaST“-у. Да то урадите, идите на
 „&lt;em&gt;YaST -&amp;gt; Софтвер -&amp;gt; Ризнице софтвера&lt;/em&gt;“ и уклоните „&lt;em&gt;X11:MATE:Factory&lt;/em&gt;“
@@ -1312,7 +1312,7 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Мента ће бити основна тема за долазеће ново издање. Састоји се од фине Гтк2/3
 теме (засноване на „Mint-Z Improved“-у, која се више не одржава, прилагођене Мејту
 и ажуриране за Гтк3.6) и проистекле теме из „mate-icon-theme“ са зеленим фасциклама.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Тема Нана&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-menta.png&#34; alt=&#34;Тема Нана&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Ту ће такође бити још две нове теме:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Црни Мејт&lt;/strong&gt;: Тема са црном основом, без зеленила.&lt;/li&gt;
@@ -1321,9 +1321,9 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Желимо да се захвалимо Волфгангу Улбриху и Марселу Дијкстра за овај сјајан
 посао.&lt;/p&gt;
 &lt;h3&gt;BlackMATE theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;blackmate-theme&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#blackmate-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;Тема Црни Мејт&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#blackmate-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-blackmate.png&#34; alt=&#34;Тема Црни Мејт&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;GreenLaguna theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;greenlaguna-theme&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#greenlaguna-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;Тема Зекена лагуна&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#greenlaguna-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/gallery/themes/1.6/theme-greenlaguna.png&#34; alt=&#34;Тема Зекена лагуна&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -1360,7 +1360,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;С поносом објављујемо наше најновије пакете на ГитХаб-у:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Мејтов Универзитет&lt;/a&gt;&lt;/li&gt;
@@ -1393,13 +1393,13 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Испод је снимак екрана &lt;code&gt;mate-notification-properties&lt;/code&gt; постављеног за приказивање
 обавештења на радном монитору. Приметите да је изабрано „Користи радни монитор“,
 што искључује падајући списак за бирање монитора.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/active-300x235.png&#34; alt=&#34;active&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Испод је снимак екрана &lt;code&gt;mate-notification-properties&lt;/code&gt; постављеног за приказивање
 обавештења на одређеном монитору. Приметите да „Користи радни монитор“ &lt;strong&gt;није&lt;/strong&gt;
 изабрано, што омогућава да се са падајућег списка изабере монитор који ће бити омогућен.
 Број монитора је постављен на 2. Тимео ће се приказивати на трећем монитору, јер
 бројање почиње од 0 уместо од 1.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/monitor-300x235.png&#34; alt=&#34;monitor&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -1413,7 +1413,7 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„FirstColo“&lt;/a&gt;, управља модерним центром података у Немачкој и
 планира да пређе на Мејтову радну површ на својим канцеларијским радним станицама. „FirstColo“
 је љубазно донирао нови наменски сервер као подршку Мејту.&lt;/p&gt;
@@ -1472,7 +1472,7 @@ Linux Review&lt;/a&gt;.
         
         
         &lt;p&gt;Екипа с поносом објављује издање Мејта 1.4.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Главне измене и побољшања у овом издању су:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Бројне исправке грешака&lt;/li&gt;
@@ -1512,7 +1512,7 @@ Linux Review&lt;/a&gt;.
 корак напред од развојних издања 1.0 и 1.1. Мејт је још стабилнији
 него што је био и обухвата подршку за још много програма, програмчића
 и позадинаца.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Ово су главне измене и побољшања у овом издању:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Бројне исправке грешака&lt;/li&gt;

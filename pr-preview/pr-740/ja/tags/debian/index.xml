@@ -41,7 +41,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;MATE チームは、新しくできた Debian MATE パッケージ化チームが MATE を次のDebian リリースに組み込もうと&lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;大変努力&lt;/a&gt;されているのに感謝しています。&lt;/p&gt;
 &lt;p&gt;最初のパッケージはすでにリポジトリにあり、その他は &lt;a href=&#34;https://ftp-master.debian.org/new.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ftp-master NEW queue&lt;/a&gt; に多数あります。&lt;/p&gt;
 &lt;p&gt;次の方々に感謝します。&lt;/p&gt;

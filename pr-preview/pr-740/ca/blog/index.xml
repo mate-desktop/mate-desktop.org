@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;Després d&amp;rsquo;un any de treball, l&amp;rsquo;equip de MATE ha llançat l&amp;rsquo;entorn d&amp;rsquo;escriptori MATE 1.24. Un milió de gràcies a tots els col·laboradors que han ajudat a fer-ho possible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.ca.png&#34; alt=&#34;Quant a MATE&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.ca.png&#34; alt=&#34;Quant a MATE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;Novetats de MATE 1.24&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;novetats-de-mate-124&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#novetats-de-mate-124&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Aquesta versió incorpora algunes coses noves, soluciona alguns problemes i afegeix moltes millores en general. Alguns dels exemples més visibles són:&lt;/p&gt;
 &lt;ul&gt;
@@ -611,7 +611,7 @@
         
         
         &lt;p&gt;Després de gairebé un any de desenvolupament, l’equip de MATE Desktop ha llançat MATE 1.22. Un fort agraïment a tots els col·laboradors que han ajudat a fer que això sigui possible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.ca.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.ca.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Novetats a MATE 1.22&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;novetats-a-mate-122&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#novetats-a-mate-122&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Aquest llançament conté correccions d’errors crítics i millores adjacents. Alguns dels aspectes més destacats són:&lt;/p&gt;
 &lt;ul&gt;

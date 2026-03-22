@@ -24,7 +24,7 @@
         
         
         &lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.24. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.es.png&#34; alt=&#34;Acerca de MATE&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.es.png&#34; alt=&#34;Acerca de MATE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;¿Qué hay de nuevo en MATE 1.24?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;qué-hay-de-nuevo-en-mate-124&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#qu%c3%a9-hay-de-nuevo-en-mate-124&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Enlace permanente a esta sección&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;En esta versión tenemos cosas nuevas, solucionamos varios problemas y hemos hechos muchas mejoras en general. Algunos de los ejemplos más visibles son:&lt;/p&gt;
 &lt;ul&gt;
@@ -611,7 +611,7 @@ También hemos arreglado soporte para contraseñas y caracteres en Unicode en al
         
         
         &lt;p&gt;Después de un año de trabajo, el equipo del Entorno de Escritorio MATE ha lanzado MATE 1.22. Un millón de gracias a todos los colaboradores que ayudaron a hacer esto posible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;¿Qué hay de nuevo en MATE 1.22?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;qué-hay-de-nuevo-en-mate-122&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#qu%c3%a9-hay-de-nuevo-en-mate-122&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Enlace permanente a esta sección&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Esta versión contiene muchas mejoras y soluciona muchos problemas. Algunos de los ejemplos más visibles son:&lt;/p&gt;
 &lt;ul&gt;
@@ -2921,7 +2921,7 @@ follow in due course. See below for the changes:&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;El equipo MATE de openSUSE esta orgulloso de anunciar la disponibilidad de MATE 1.8
 para openSUSE. Los patrones no estan ya disponibles, y no lo estarán en el futuro
 debido a la inclusión oficial de MATE en openSUSE.

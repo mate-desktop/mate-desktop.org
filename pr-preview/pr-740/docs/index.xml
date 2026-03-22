@@ -16,14 +16,14 @@
     
     <item>
       <title>Caja</title>
-      <link>https://mate-desktop.org/docs/applications/caja/</link>
+      <link>https://mate-desktop.org/docs/user/applications/caja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/caja/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/caja/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/system-file-manager.png&#34; alt=&#34;Caja icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/system-file-manager.png&#34; alt=&#34;Caja icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/caja&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -35,7 +35,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Caja is the official file manager for the MATE desktop environment. It lets you browse and manage files and directories, access network filesystems, and launch applications. Caja also manages the desktop — drawing the background and providing icons for drives, the trash, and desktop shortcuts.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/caja-window.png&#34; title=&#34;Caja file manager&#34; alt=&#34;Caja window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/caja-window.png&#34; title=&#34;Caja file manager&#34; alt=&#34;Caja window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Caja file manager&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
@@ -104,10 +104,43 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Getting Started</title>
-      <link>https://mate-desktop.org/docs/getting-started/</link>
+      <link>https://mate-desktop.org/docs/developer/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/getting-started/</guid>
+      <guid>https://mate-desktop.org/docs/developer/getting-started/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE is mostly written in C, with some components in Python or C++. If you are new to C, working through the &lt;em&gt;Introduction&lt;/em&gt;, &lt;em&gt;Beginning C&lt;/em&gt;, and &lt;em&gt;Intermediate C&lt;/em&gt; chapters of the &lt;a href=&#34;https://en.wikibooks.org/wiki/C_Programming&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C Wikibook&lt;/a&gt; is a solid starting point.&lt;/p&gt;
+&lt;p&gt;You will need a text editor (Pluma, Kate, or VSCodium work well) and a terminal. A full IDE such as &lt;a href=&#34;https://vscodium.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt;, &lt;a href=&#34;https://www.eclipse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eclipse&lt;/a&gt;, or &lt;a href=&#34;https://www.codeblocks.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code::Blocks&lt;/a&gt; is also fine.&lt;/p&gt;
+&lt;h2&gt;Build system: Make&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build-system-make&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#build-system-make&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE packages contain dozens of source files, language files, desktop files, and more. A Makefile describes how to compile the whole thing correctly and efficiently — only recompiling files that changed.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Makefile tutorial: &lt;a href=&#34;https://cs.colby.edu/maxwell/courses/tutorials/maketutor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cs.colby.edu/maxwell/courses/tutorials/maketutor/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Version control: Git&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;version-control-git&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#version-control-git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;All MATE source code is managed with &lt;a href=&#34;https://git-scm.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. You will use it to track your changes, create branches, and share your work.&lt;/p&gt;
+&lt;p&gt;Useful references:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/gittutorial&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gittutorial&lt;/a&gt; — a short introduction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/giteveryday&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;giteveryday&lt;/a&gt; — a practical minimum command set&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://training.github.com/downloads/github-git-cheat-sheet/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Git cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Repository hosting: GitHub&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;repository-hosting-github&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#repository-hosting-github&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE&amp;rsquo;s repositories live at &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/mate-desktop&lt;/a&gt;. You will need a free GitHub account to submit pull requests.&lt;/p&gt;
+&lt;p&gt;Reference: &lt;a href=&#34;https://docs.github.com/en/github/collaborating-with-pull-requests&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Docs — Collaborating with pull requests&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Development environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;development-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#development-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you want a safe sandbox separate from your main system, run MATE development inside a virtual machine. &lt;a href=&#34;https://help.gnome.org/users/gnome-boxes/stable/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNOME Boxes&lt;/a&gt; and &lt;a href=&#34;https://virtualbox.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VirtualBox&lt;/a&gt; are two popular options — install a distribution of your choice inside the VM and do all your MATE builds there.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://mate-desktop.org/docs/user/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/getting-started/</guid>
       <description>
         
         
@@ -144,9 +177,9 @@ Source Code&lt;/div&gt;
 &lt;p&gt;Marco is a fork of Metacity (GNOME 2&amp;rsquo;s window manager) and is designed to be lightweight and stable. It can be replaced with a third-party compositing window manager if desired.&lt;/p&gt;
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../installation&#34;&gt;Installation&lt;/a&gt; - Install MATE on your system&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../configuration&#34;&gt;Configuration&lt;/a&gt; - Customize your MATE desktop&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../applications&#34;&gt;Applications&lt;/a&gt; - Learn about MATE applications&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;installation&#34;&gt;Installation&lt;/a&gt; - Install MATE on your system&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;configuration&#34;&gt;Configuration&lt;/a&gt; - Customize your MATE desktop&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;applications&#34;&gt;Applications&lt;/a&gt; - Learn about MATE applications&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -154,10 +187,10 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Installation</title>
-      <link>https://mate-desktop.org/docs/installation/</link>
+      <link>https://mate-desktop.org/docs/user/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/installation/</guid>
+      <guid>https://mate-desktop.org/docs/user/installation/</guid>
       <description>
         
         
@@ -184,17 +217,12 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;
 
 
-
-
-
-
-
-
-
-
-
+  
+  
+  
+  
 &lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
-  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Tab 0&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Tab 1&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-2&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-2&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Tab 2&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-3&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-3&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Tab 3&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Ubuntu/Debian&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Fedora&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-2&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-2&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Arch Linux&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-3&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-3&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;openSUSE&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -278,14 +306,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Pluma</title>
-      <link>https://mate-desktop.org/docs/applications/pluma/</link>
+      <link>https://mate-desktop.org/docs/user/applications/pluma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/pluma/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/pluma/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-text-editor.png&#34; alt=&#34;Pluma icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-text-editor.png&#34; alt=&#34;Pluma icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/pluma&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -297,7 +325,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Pluma is the official text editor for the MATE desktop. While designed to be simple and easy to use, it is a capable general-purpose editor suitable for programming, configuration editing, and writing. Its plugin system allows advanced features to be added on demand.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/pluma-window.png&#34; title=&#34;Pluma text editor&#34; alt=&#34;Pluma window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/pluma-window.png&#34; title=&#34;Pluma text editor&#34; alt=&#34;Pluma window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Pluma text editor&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
@@ -368,15 +396,97 @@ Source Code&lt;/div&gt;
     </item>
     
     <item>
-      <title>Atril</title>
-      <link>https://mate-desktop.org/docs/applications/atril/</link>
+      <title>Your First Contribution</title>
+      <link>https://mate-desktop.org/docs/developer/first-contribution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/atril/</guid>
+      <guid>https://mate-desktop.org/docs/developer/first-contribution/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/atril/master/data/icons/scalable/apps/atril.svg&#34; alt=&#34;Atril icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;Follow these steps to open your first pull request against a MATE repository.&lt;/p&gt;
+&lt;h2&gt;1. Fork the repository&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-fork-the-repository&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-fork-the-repository&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Go to the GitHub page of the MATE package you want to work on and click the &lt;strong&gt;Fork&lt;/strong&gt; button. This creates your own copy of the repository under your GitHub account.&lt;/p&gt;
+&lt;h2&gt;2. Clone your fork&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-clone-your-fork&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-clone-your-fork&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;3. Create a branch&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-create-a-branch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-create-a-branch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Always work on a dedicated branch, not directly on &lt;code&gt;master&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b my-fix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;4. Make and test your changes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-make-and-test-your-changes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-make-and-test-your-changes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Edit the source files, then &lt;a href=&#34;../building&#34;&gt;build and install&lt;/a&gt; the package to verify your changes work.&lt;/p&gt;
+&lt;h2&gt;5. Commit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-commit&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-commit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add modified-file.c
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Short description of the change&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Write a commit message that explains &lt;em&gt;what&lt;/em&gt; changed and &lt;em&gt;why&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;6. Push and open a pull request&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-push-and-open-a-pull-request&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-push-and-open-a-pull-request&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin my-fix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then go to your fork on GitHub. You will see a &lt;strong&gt;Compare &amp;amp; pull request&lt;/strong&gt; banner — click it and submit the PR. A maintainer will review it and may ask for changes.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Atril</title>
+      <link>https://mate-desktop.org/docs/user/applications/atril/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/atril/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/atril/master/data/icons/scalable/apps/atril.svg&#34; alt=&#34;Atril icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/atril&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -388,7 +498,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Atril is the official document viewer for the MATE desktop. It supports a wide range of document formats and is suitable for both everyday reading and presentations.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/atril-window.png&#34; title=&#34;Atril document viewer&#34; alt=&#34;Atril window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/atril-window.png&#34; title=&#34;Atril document viewer&#34; alt=&#34;Atril window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Atril document viewer&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
@@ -446,11 +556,117 @@ Source Code&lt;/div&gt;
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>https://mate-desktop.org/docs/configuration/</link>
+      <title>Building from Source</title>
+      <link>https://mate-desktop.org/docs/developer/building/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/configuration/</guid>
+      <guid>https://mate-desktop.org/docs/developer/building/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Most MATE packages must be installed (not just compiled) to work correctly, because the installation step copies desktop files, schemas, icons, and libraries to the expected system locations.&lt;/p&gt;
+&lt;h2&gt;Install build dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-build-dependencies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install-build-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+  
+  
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Debian/Ubuntu/Linux Mint&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Fedora&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt build-dep &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf builddep &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;Build&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#build&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule update --init --recursive   &lt;span class=&#34;c1&#34;&gt;# initialise Git submodules&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./autogen.sh --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/usr                &lt;span class=&#34;c1&#34;&gt;# configure the build&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make                                      &lt;span class=&#34;c1&#34;&gt;# compile&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Install&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;This installs directly into your system prefix (&lt;code&gt;/usr&lt;/code&gt;) and will overwrite the packaged version of the component. Doing this inside a &lt;a href=&#34;../getting-started#development-environment&#34;&gt;virtual machine&lt;/a&gt; is strongly recommended.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo make install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Uninstall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;uninstall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#uninstall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo make uninstall&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://mate-desktop.org/docs/user/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/configuration/</guid>
       <description>
         
         
@@ -527,15 +743,43 @@ Source Code&lt;/div&gt;
     </item>
     
     <item>
-      <title>Eye of MATE</title>
-      <link>https://mate-desktop.org/docs/applications/eom/</link>
+      <title>Artwork &amp; Themes</title>
+      <link>https://mate-desktop.org/docs/developer/artwork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/eom/</guid>
+      <guid>https://mate-desktop.org/docs/developer/artwork/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/eom/master/data/icons/scalable/apps/eom.svg&#34; alt=&#34;Eye of MATE icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;You can contribute to MATE without writing any code by creating wallpapers and GTK themes.&lt;/p&gt;
+&lt;h2&gt;Wallpapers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wallpapers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wallpapers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Good wallpapers are calm and unobtrusive — many people look at their desktop for hours at a time. MATE-branded imagery is always welcome.&lt;/p&gt;
+&lt;p&gt;Useful open-source tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gimp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIMP&lt;/a&gt; — raster image editor (photos, compositing)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://inkscape.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inkscape&lt;/a&gt; — vector image editor (crisp at any resolution)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Submit finished wallpapers to the &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-backgrounds&lt;/a&gt; repository.&lt;/p&gt;
+&lt;h2&gt;GTK Themes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gtk-themes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gtk-themes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE uses the &lt;a href=&#34;https://docs.gtk.org/gtk3/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GTK 3&lt;/a&gt; toolkit. When designing a theme, the GNOME Human Interface Guidelines 2.2.1 remain a useful reference for MATE&amp;rsquo;s visual conventions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mbkma.github.io/gnome-2-hig-book/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNOME HIG 2.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Submit new themes or improvements to the &lt;a href=&#34;https://github.com/mate-desktop/mate-themes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-themes&lt;/a&gt; repository.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Eye of MATE</title>
+      <link>https://mate-desktop.org/docs/user/applications/eom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/applications/eom/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/eom/master/data/icons/scalable/apps/eom.svg&#34; alt=&#34;Eye of MATE icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/eom&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -547,7 +791,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Eye of MATE (eom) is the official image viewer for the MATE desktop. It is designed to be fast and lightweight while handling large images efficiently. It uses the gdk-pixbuf library and can display a wide range of image formats. Basic editing operations such as rotation and flipping are also supported.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/eom-window.png&#34; title=&#34;Eye of MATE image viewer&#34; alt=&#34;Eye of MATE window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/eom-window.png&#34; title=&#34;Eye of MATE image viewer&#34; alt=&#34;Eye of MATE window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Eye of MATE image viewer&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
@@ -573,14 +817,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Engrampa</title>
-      <link>https://mate-desktop.org/docs/applications/engrampa/</link>
+      <link>https://mate-desktop.org/docs/user/applications/engrampa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/engrampa/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/engrampa/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/engrampa/master/data/icons/scalable/apps/engrampa.svg&#34; alt=&#34;Engrampa icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/engrampa/master/data/icons/scalable/apps/engrampa.svg&#34; alt=&#34;Engrampa icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/engrampa&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -592,7 +836,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Engrampa is the official archive manager for the MATE desktop. It is a graphical front-end to command-line archiving tools such as tar, zip, and 7z, forked from File Roller. You can create new archives, add and remove files, inspect contents, and extract files — all without touching the terminal.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/engrampa-window.png&#34; title=&#34;Engrampa archive manager&#34; alt=&#34;Engrampa window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/engrampa-window.png&#34; title=&#34;Engrampa archive manager&#34; alt=&#34;Engrampa window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Engrampa archive manager&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Supported Formats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supported-formats&#34;&gt;&lt;/span&gt;
@@ -661,11 +905,34 @@ Source Code&lt;/div&gt;
     </item>
     
     <item>
-      <title>Troubleshooting</title>
-      <link>https://mate-desktop.org/docs/troubleshooting/</link>
+      <title>Translation</title>
+      <link>https://mate-desktop.org/docs/developer/translation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/troubleshooting/</guid>
+      <guid>https://mate-desktop.org/docs/developer/translation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Translating MATE into your language is one of the easiest ways to contribute — no programming knowledge required.&lt;/p&gt;
+&lt;p&gt;MATE uses &lt;a href=&#34;https://www.transifex.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transifex&lt;/a&gt; to manage translations. All application strings, desktop file metadata, and help content are available there.&lt;/p&gt;
+&lt;h2&gt;How to get started&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-to-get-started&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-get-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Create a free account at &lt;a href=&#34;https://www.transifex.com/signup/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;transifex.com/signup&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Open the &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE project page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Find your language team and click &lt;strong&gt;Join team&lt;/strong&gt;. If your language does not exist yet, you can request it.&lt;/li&gt;
+&lt;li&gt;Pick a resource to translate and start suggesting strings.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Translations are pulled into the repositories periodically before each release.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://mate-desktop.org/docs/user/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/user/troubleshooting/</guid>
       <description>
         
         
@@ -939,10 +1206,10 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>FAQ</title>
-      <link>https://mate-desktop.org/docs/faq/</link>
+      <link>https://mate-desktop.org/docs/user/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/faq/</guid>
+      <guid>https://mate-desktop.org/docs/user/faq/</guid>
       <description>
         
         
@@ -1040,14 +1307,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>MATE Terminal</title>
-      <link>https://mate-desktop.org/docs/applications/mate-terminal/</link>
+      <link>https://mate-desktop.org/docs/user/applications/mate-terminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/mate-terminal/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/mate-terminal/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-terminal.png&#34; alt=&#34;MATE Terminal icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-terminal.png&#34; alt=&#34;MATE Terminal icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-terminal&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -1059,7 +1326,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;MATE Terminal is the official terminal emulator for the MATE desktop. It provides access to a UNIX shell within the graphical environment, with support for multiple sessions, customizable appearance, and configurable key bindings.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-terminal-window.png&#34; title=&#34;MATE Terminal&#34; alt=&#34;MATE Terminal window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-terminal-window.png&#34; title=&#34;MATE Terminal&#34; alt=&#34;MATE Terminal window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;MATE Terminal&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
@@ -1138,14 +1405,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>System Monitor</title>
-      <link>https://mate-desktop.org/docs/applications/mate-system-monitor/</link>
+      <link>https://mate-desktop.org/docs/user/applications/mate-system-monitor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/mate-system-monitor/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/mate-system-monitor/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-system-monitor.png&#34; alt=&#34;System Monitor icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/utilities-system-monitor.png&#34; alt=&#34;System Monitor icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -1157,7 +1424,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;MATE System Monitor gives you a live view of what is happening on your system. You can inspect running processes, monitor hardware resource usage, and check disk utilization — all from a single window.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-system-monitor-window.png&#34; title=&#34;MATE System Monitor&#34; alt=&#34;System Monitor window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-system-monitor-window.png&#34; title=&#34;MATE System Monitor&#34; alt=&#34;System Monitor window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;MATE System Monitor&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Tabs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tabs&#34;&gt;&lt;/span&gt;
@@ -1186,14 +1453,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Calculator</title>
-      <link>https://mate-desktop.org/docs/applications/mate-calc/</link>
+      <link>https://mate-desktop.org/docs/user/applications/mate-calc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/mate-calc/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/mate-calc/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-calculator.png&#34; alt=&#34;Calculator icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/accessories-calculator.png&#34; alt=&#34;Calculator icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-calc&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -1205,7 +1472,7 @@ Source Code&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;MATE Calculator is the official calculator for the MATE desktop. It is designed to be usable entirely with the keyboard or the mouse, with a visual layout similar to a physical hand-held calculator.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-calc-window.png&#34; title=&#34;MATE Calculator&#34; alt=&#34;Calculator window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-calc-window.png&#34; title=&#34;MATE Calculator&#34; alt=&#34;Calculator window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;MATE Calculator&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Modes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modes&#34;&gt;&lt;/span&gt;
@@ -1249,14 +1516,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Control Center</title>
-      <link>https://mate-desktop.org/docs/applications/mate-control-center/</link>
+      <link>https://mate-desktop.org/docs/user/applications/mate-control-center/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/mate-control-center/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/mate-control-center/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/preferences-desktop.png&#34; alt=&#34;Control Center icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mate-icon-theme/master/mate/48x48/apps/preferences-desktop.png&#34; alt=&#34;Control Center icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-control-center&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -1269,7 +1536,7 @@ Source Code&lt;/div&gt;
 &lt;p&gt;The MATE Control Center is the central place to configure your desktop. It provides a unified launcher for all system and personal preference panels, grouped by category.&lt;/p&gt;
 &lt;p&gt;Open it from &lt;strong&gt;System → Control Center&lt;/strong&gt; in the panel menu.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-control-center-window.png&#34; title=&#34;MATE Control Center&#34; alt=&#34;Control Center window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mate-control-center-window.png&#34; title=&#34;MATE Control Center&#34; alt=&#34;Control Center window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;MATE Control Center&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Categories&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;categories&#34;&gt;&lt;/span&gt;
@@ -1304,14 +1571,14 @@ Source Code&lt;/div&gt;
     
     <item>
       <title>Mozo</title>
-      <link>https://mate-desktop.org/docs/applications/mozo/</link>
+      <link>https://mate-desktop.org/docs/user/applications/mozo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.org/docs/applications/mozo/</guid>
+      <guid>https://mate-desktop.org/docs/user/applications/mozo/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mozo/master/data/icons/hicolor_apps_48x48_mozo.png&#34; alt=&#34;Mozo icon&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mate-desktop/mozo/master/data/icons/hicolor_apps_48x48_mozo.png&#34; alt=&#34;Mozo icon&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mate-desktop/mozo&#34; title=&#34;Source Code&#34; target=&#34;_blank&#34; class=&#34;not-prose hx:inline-flex hx:align-middle hx:no-underline hover:hx:no-underline&#34;&gt;&lt;div class=&#34;hextra-badge &#34;&gt;
   &lt;div class=&#34;hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700&#34;&gt;&lt;svg height=12 fill=&#34;currentColor&#34; viewBox=&#34;3 3 18 18&#34;&gt;
   &lt;path d=&#34;M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z&#34;&gt;&lt;/path&gt;
@@ -1324,7 +1591,7 @@ Source Code&lt;/div&gt;
 &lt;p&gt;Mozo is the official menu editor for the MATE desktop. It provides a graphical interface for customizing the application menu, following the &lt;a href=&#34;https://specifications.freedesktop.org/menu-spec/latest/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freedesktop.org menu specification&lt;/a&gt;. It is a fork of Alacarte.&lt;/p&gt;
 &lt;p&gt;Open it from &lt;strong&gt;System → Preferences → Main Menu&lt;/strong&gt; or by right-clicking the Applications menu and choosing &lt;strong&gt;Edit Menus&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;https://mate-desktop.org/images/applications/mozo-window.png&#34; title=&#34;Mozo menu editor&#34; alt=&#34;Mozo window&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://mate-desktop.org/images/applications/mozo-window.png&#34; title=&#34;Mozo menu editor&#34; alt=&#34;Mozo window&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Mozo menu editor&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Features&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;

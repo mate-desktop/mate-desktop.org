@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;Questo rilascio potrebbe aver impiegato un po&amp;rsquo; più tempo del solito ma adesso, dopo 18 mesi di sviluppo, siamo veramente lieti di rilasciare MATE 1.26. Un grosso grazie a tutti i collaboratori che hanno aiutato a renderlo possibile.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.png&#34; alt=&#34;MATE About dialog&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.png&#34; alt=&#34;MATE About dialog&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.26&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-126&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-126&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;La chiave di questo rilascio è stata quella di aggiungere nuove funzionalità al Desktop MATE e nel contempo mantenere l&amp;rsquo;aspetto che noi tutti conosciamo ed amiamo. Nonostante tutte le funzionalità aggiunte siano certamente eccitanti, non abbiamo dimenticato di correggere tonnellate di bug, modernizzando il codice base ed ottimizzando le prestazioni.&lt;/p&gt;
 &lt;p&gt;I principali cambiamenti in MATE Desktop 1.26 sono:&lt;/p&gt;
@@ -484,7 +484,7 @@
         
         
         &lt;p&gt;Dopo circa un anno di sviluppo il Team di MATE Desktop ha finalmente rilasciato MATE 1.24. Un grosso ringraziamento a tutti i collaboratori che hanno aiutato a renderlo possibile.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE About dialog&#34;  loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.24.png&#34; alt=&#34;MATE About dialog&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;{ width=50% }&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.24&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-124&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-124&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Questo rilascio contiene una gran quantità di nuove funzionalità, correzioni e miglioramenti generali. Alcuni dei più evidenti cambiamenti includono:&lt;/p&gt;
 &lt;ul&gt;
@@ -1070,7 +1070,7 @@
         
         
         &lt;p&gt;Dopo circa un anno di sviluppo il Team di MATE Desktop ha finalmente rilasciato MATE 1.22. Un grosso ringraziamento a tutti i collaboratori che hanno aiutato a renderlo possibile.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.22.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.22&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-122&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-122&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Questo rilascio contiene una gran quantità di correzioni critiche e migliorie nascoste. Alcuni dei più evidenti cambiamenti includono:&lt;/p&gt;
 &lt;ul&gt;
@@ -3248,7 +3248,7 @@
         
         &lt;p&gt;Dopo 11 mesi di sviluppo il team di MATE Desktop è soddisfatto di annunciare
 il rilascio di MATE Desktop 1.20. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nel rendere possibile questo rilascio.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.20.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.20&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-120&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-120&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il tema di questo rilascio è stato stabilizzare il Desktop MATE sostituendo
 il codice deprecato e modernizzando ampie sezioni del codice base. Abbiamo anche
@@ -4423,7 +4423,7 @@ da non preoccupare con una notifica&lt;/li&gt;
         
         &lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.18. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nel rendere possibile questo rilascio.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.18.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.18&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-118&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-118&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Questo rilascio è focalizzato a completare la migrazione a GTK3+ e
 ad adottare nuove tecnologie per sostituire alcuni dei componenti deprecati
@@ -4909,7 +4909,7 @@ sotto la colonna dei numeri di linea&lt;/li&gt;
         
         &lt;p&gt;Dopo 6 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.16. Vorremmo ringraziare ogni collaboratore MATE per il suo aiuto nell&amp;rsquo;aver reso possibile questo rilascio.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.16.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.16&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-116&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-116&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Questa release è centrata sul miglioramento della compatibilità GTK3+, sulla migrazione dei componenti alle librerie più nuove, eliminando bug e migliorando il codice.
 I principali cambiamenti di MATE Desktop 1.16 sono:&lt;/p&gt;
@@ -5247,7 +5247,7 @@ I principali cambiamenti di MATE Desktop 1.16 sono:&lt;/p&gt;
         
         &lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.14. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.14.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.14&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-114&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-114&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I principali cambiamenti in MATE 1.14 sono:&lt;/p&gt;
 &lt;ul&gt;
@@ -5545,7 +5545,7 @@ dal tema corrente GTK+ così come è)&lt;/li&gt;
         
         &lt;p&gt;Dopo 5 mesi di sviluppo il team di MATE Desktop è orgoglioso di annunciare
 il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.12.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.12&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-112&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-112&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I principali cambiamenti in MATE 1.12 sono:&lt;/p&gt;
 &lt;ul&gt;
@@ -5802,7 +5802,7 @@ il rilascio di MATE Desktop 1.12. Vorremmo ringraziare ogni collaboratore ed ogn
         
         &lt;p&gt;Dopo 15 mesi di sviluppo i team MATE Desktop sono orgogliosi di annunciare
 il rilascio di MATE Desktop 1.10. Vorremmo ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.10.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Cosa c&amp;rsquo;è di nuovo in MATE 1.10&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosa-cè-di-nuovo-in-mate-110&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cosa-c%c3%a8-di-nuovo-in-mate-110&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I principali cambiamenti in MATE 1.10 sono:&lt;/p&gt;
 &lt;ul&gt;
@@ -6292,7 +6292,7 @@ a tempo debito. Si veda più oltre i cambiamenti apportati:&lt;/p&gt;
         
         &lt;p&gt;Il team è orgoglioso di annunciare il rilascio di MATE Desktop 1.8. Vorremmo
 ringraziare ogni collaboratore ed ogni utente MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I cambiamenti principali in 1.8 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (file manager)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -6449,7 +6449,7 @@ contribuzioni da 57 persone, e più di 291 traduttori.&lt;/p&gt;
         &lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I principali cambiamenti nella versione 1.6 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;il supporto a systemd e logind&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -6618,7 +6618,7 @@ contribuzioni da 39 persone, e più di 150 traduttori.&lt;/p&gt;
         
         
         &lt;p&gt;Il team è orgoglioso di annunciare il rilascio della versione di MATE 1.4.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/V5ab0.png&#34; alt=&#34;&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Qui seguono i principali cambiamenti e miglioramenti di questo rilascio:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Numerosi bug eliminati&lt;/li&gt;
@@ -6657,7 +6657,7 @@ contribuzioni da 39 persone, e più di 150 traduttori.&lt;/p&gt;
         &lt;p&gt;Il Team è orgoglioso di annunciare il rilascio di &lt;strong&gt;MATE 1.2&lt;/strong&gt;. Questo rilascio è
 un grande passo in avanti rispetto le versioni di sviluppo 1.0 e 1.1. MATE è più stabile che mai ed include il supporto per molte più applicazioni, applet
 e backends.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.2.png&#34; alt=&#34;MATE 1.2&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Questi sono i principali cambiamenti le migliorie di questa versione:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Numerosi bug fix&lt;/li&gt;

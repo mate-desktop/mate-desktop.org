@@ -1,0 +1,290 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Developer Documentation</title>
+    <link>https://mate-desktop.org/docs/developer/</link>
+    <description>Recent content in Developer Documentation on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="https://mate-desktop.org/docs/developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://mate-desktop.org/docs/developer/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/developer/getting-started/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE is mostly written in C, with some components in Python or C++. If you are new to C, working through the &lt;em&gt;Introduction&lt;/em&gt;, &lt;em&gt;Beginning C&lt;/em&gt;, and &lt;em&gt;Intermediate C&lt;/em&gt; chapters of the &lt;a href=&#34;https://en.wikibooks.org/wiki/C_Programming&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C Wikibook&lt;/a&gt; is a solid starting point.&lt;/p&gt;
+&lt;p&gt;You will need a text editor (Pluma, Kate, or VSCodium work well) and a terminal. A full IDE such as &lt;a href=&#34;https://vscodium.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSCodium&lt;/a&gt;, &lt;a href=&#34;https://www.eclipse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eclipse&lt;/a&gt;, or &lt;a href=&#34;https://www.codeblocks.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code::Blocks&lt;/a&gt; is also fine.&lt;/p&gt;
+&lt;h2&gt;Build system: Make&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build-system-make&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#build-system-make&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE packages contain dozens of source files, language files, desktop files, and more. A Makefile describes how to compile the whole thing correctly and efficiently — only recompiling files that changed.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Makefile tutorial: &lt;a href=&#34;https://cs.colby.edu/maxwell/courses/tutorials/maketutor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cs.colby.edu/maxwell/courses/tutorials/maketutor/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Version control: Git&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;version-control-git&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#version-control-git&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;All MATE source code is managed with &lt;a href=&#34;https://git-scm.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;. You will use it to track your changes, create branches, and share your work.&lt;/p&gt;
+&lt;p&gt;Useful references:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/gittutorial&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gittutorial&lt;/a&gt; — a short introduction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/docs/giteveryday&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;giteveryday&lt;/a&gt; — a practical minimum command set&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://training.github.com/downloads/github-git-cheat-sheet/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Git cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Repository hosting: GitHub&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;repository-hosting-github&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#repository-hosting-github&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE&amp;rsquo;s repositories live at &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/mate-desktop&lt;/a&gt;. You will need a free GitHub account to submit pull requests.&lt;/p&gt;
+&lt;p&gt;Reference: &lt;a href=&#34;https://docs.github.com/en/github/collaborating-with-pull-requests&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Docs — Collaborating with pull requests&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Development environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;development-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#development-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you want a safe sandbox separate from your main system, run MATE development inside a virtual machine. &lt;a href=&#34;https://help.gnome.org/users/gnome-boxes/stable/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNOME Boxes&lt;/a&gt; and &lt;a href=&#34;https://virtualbox.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VirtualBox&lt;/a&gt; are two popular options — install a distribution of your choice inside the VM and do all your MATE builds there.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Your First Contribution</title>
+      <link>https://mate-desktop.org/docs/developer/first-contribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/developer/first-contribution/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Follow these steps to open your first pull request against a MATE repository.&lt;/p&gt;
+&lt;h2&gt;1. Fork the repository&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-fork-the-repository&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-fork-the-repository&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Go to the GitHub page of the MATE package you want to work on and click the &lt;strong&gt;Fork&lt;/strong&gt; button. This creates your own copy of the repository under your GitHub account.&lt;/p&gt;
+&lt;h2&gt;2. Clone your fork&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-clone-your-fork&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-clone-your-fork&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;3. Create a branch&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-create-a-branch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-create-a-branch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Always work on a dedicated branch, not directly on &lt;code&gt;master&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b my-fix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;4. Make and test your changes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-make-and-test-your-changes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-make-and-test-your-changes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Edit the source files, then &lt;a href=&#34;../building&#34;&gt;build and install&lt;/a&gt; the package to verify your changes work.&lt;/p&gt;
+&lt;h2&gt;5. Commit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-commit&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-commit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add modified-file.c
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Short description of the change&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Write a commit message that explains &lt;em&gt;what&lt;/em&gt; changed and &lt;em&gt;why&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;6. Push and open a pull request&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-push-and-open-a-pull-request&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-push-and-open-a-pull-request&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin my-fix&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then go to your fork on GitHub. You will see a &lt;strong&gt;Compare &amp;amp; pull request&lt;/strong&gt; banner — click it and submit the PR. A maintainer will review it and may ask for changes.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Building from Source</title>
+      <link>https://mate-desktop.org/docs/developer/building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/developer/building/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Most MATE packages must be installed (not just compiled) to work correctly, because the installation step copies desktop files, schemas, icons, and libraries to the expected system locations.&lt;/p&gt;
+&lt;h2&gt;Install build dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-build-dependencies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install-build-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+  
+  
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Debian/Ubuntu/Linux Mint&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;svg height=1em class=&#34;hx:inline-block hx:shrink-0&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01&#34;/&gt;&lt;/svg&gt;&lt;span&gt;Fedora&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt build-dep &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf builddep &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;Build&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#build&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule update --init --recursive   &lt;span class=&#34;c1&#34;&gt;# initialise Git submodules&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./autogen.sh --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/usr                &lt;span class=&#34;c1&#34;&gt;# configure the build&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make                                      &lt;span class=&#34;c1&#34;&gt;# compile&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Install&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#install&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;This installs directly into your system prefix (&lt;code&gt;/usr&lt;/code&gt;) and will overwrite the packaged version of the component. Doing this inside a &lt;a href=&#34;../getting-started#development-environment&#34;&gt;virtual machine&lt;/a&gt; is strongly recommended.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo make install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Uninstall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;uninstall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#uninstall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo make uninstall&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Artwork &amp; Themes</title>
+      <link>https://mate-desktop.org/docs/developer/artwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/developer/artwork/</guid>
+      <description>
+        
+        
+        &lt;p&gt;You can contribute to MATE without writing any code by creating wallpapers and GTK themes.&lt;/p&gt;
+&lt;h2&gt;Wallpapers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wallpapers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wallpapers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Good wallpapers are calm and unobtrusive — many people look at their desktop for hours at a time. MATE-branded imagery is always welcome.&lt;/p&gt;
+&lt;p&gt;Useful open-source tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gimp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GIMP&lt;/a&gt; — raster image editor (photos, compositing)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://inkscape.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inkscape&lt;/a&gt; — vector image editor (crisp at any resolution)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Submit finished wallpapers to the &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-backgrounds&lt;/a&gt; repository.&lt;/p&gt;
+&lt;h2&gt;GTK Themes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gtk-themes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gtk-themes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE uses the &lt;a href=&#34;https://docs.gtk.org/gtk3/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GTK 3&lt;/a&gt; toolkit. When designing a theme, the GNOME Human Interface Guidelines 2.2.1 remain a useful reference for MATE&amp;rsquo;s visual conventions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mbkma.github.io/gnome-2-hig-book/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNOME HIG 2.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Submit new themes or improvements to the &lt;a href=&#34;https://github.com/mate-desktop/mate-themes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-themes&lt;/a&gt; repository.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Translation</title>
+      <link>https://mate-desktop.org/docs/developer/translation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/developer/translation/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Translating MATE into your language is one of the easiest ways to contribute — no programming knowledge required.&lt;/p&gt;
+&lt;p&gt;MATE uses &lt;a href=&#34;https://www.transifex.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transifex&lt;/a&gt; to manage translations. All application strings, desktop file metadata, and help content are available there.&lt;/p&gt;
+&lt;h2&gt;How to get started&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-to-get-started&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-get-started&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Create a free account at &lt;a href=&#34;https://www.transifex.com/signup/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;transifex.com/signup&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Open the &lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE project page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Find your language team and click &lt;strong&gt;Join team&lt;/strong&gt;. If your language does not exist yet, you can request it.&lt;/li&gt;
+&lt;li&gt;Pick a resource to translate and start suggesting strings.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Translations are pulled into the repositories periodically before each release.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

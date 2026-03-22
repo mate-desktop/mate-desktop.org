@@ -50,7 +50,7 @@ mesi. Pertanto, da adesso, i repository dei pacchetti Debian ed Ubuntu situati s
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://www.debian.org/logos/openlogo-nd-100.png&#34; alt=&#34;Debian&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Il Team MATE è molto felice di salutare il nuovo Team di Pacchettizzazione MATE per
 Debian, che sta &lt;a href=&#34;https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=708385#31&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lavorando sodo&lt;/a&gt;
 per includere MATE nella prossima release di Debian.&lt;/p&gt;

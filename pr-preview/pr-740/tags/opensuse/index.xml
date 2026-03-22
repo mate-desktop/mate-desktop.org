@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won&amp;rsquo;t be in
 the future due to official inclusion of MATE in openSUSE.
@@ -145,7 +145,7 @@ interact with the MATE mentors is via:&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
 media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
 at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
@@ -164,7 +164,7 @@ on Sunday, November 17 at 10:15.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;On the way to getting MATE officially available on &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
 the community repositories have to be changed in YaST. For that,
 go to &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; and remove the &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
