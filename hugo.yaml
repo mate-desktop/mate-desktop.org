@@ -1,0 +1,190 @@
+baseURL: 'https://mate-desktop.org/'
+title: 'MATE Desktop Environment'
+
+enableRobotsTXT: true
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: false
+
+# Parse Git commit
+enableGitInfo: true
+
+module:
+  imports:
+    - path: 'github.com/imfing/hextra'
+
+# Summary length for blog previews (2-3 sentences)
+summaryLength: 50
+
+outputs:
+  home: ['html', 'rss']
+  page: ['html']
+  section: ['html', 'rss']
+
+languages:
+  en:
+    languageName: 'English'
+    languageCode: 'en'
+    weight: 1
+    title: 'MATE Desktop Environment'
+  de:
+    languageName: 'Deutsch'
+    languageCode: 'de'
+    weight: 2
+    title: 'MATE Desktop-Umgebung'
+  es:
+    languageName: 'Español'
+    languageCode: 'es'
+    weight: 3
+    title: 'Entorno de Escritorio MATE'
+  it:
+    languageName: 'Italiano'
+    languageCode: 'it'
+    weight: 4
+    title: 'Ambiente Desktop MATE'
+  ja:
+    languageName: '日本語'
+    languageCode: 'ja'
+    weight: 5
+    title: 'MATE デスクトップ環境'
+  bg:
+    languageName: 'Български'
+    languageCode: 'bg'
+    weight: 6
+    title: 'MATE Desktop Environment'
+  ca:
+    languageName: 'Català'
+    languageCode: 'ca'
+    weight: 7
+    title: "Entorn d'escriptori MATE"
+  zh-cn:
+    languageName: '简体中文'
+    languageCode: 'zh-CN'
+    weight: 8
+    title: 'MATE 桌面环境'
+  zh-tw:
+    languageName: '繁體中文'
+    languageCode: 'zh-TW'
+    weight: 9
+    title: 'MATE 桌面環境'
+  he:
+    languageName: 'עברית'
+    languageCode: 'he'
+    weight: 10
+    title: 'MATE Desktop Environment'
+  pl:
+    languageName: 'Polski'
+    languageCode: 'pl'
+    weight: 11
+    title: 'MATE Desktop Environment'
+  pt:
+    languageName: 'Português'
+    languageCode: 'pt'
+    weight: 12
+    title: 'MATE Desktop Environment'
+  pt_br:
+    languageName: 'Português (Brasil)'
+    languageCode: 'pt-BR'
+    weight: 13
+    title: 'MATE Desktop Environment'
+  ru:
+    languageName: 'Русский'
+    languageCode: 'ru'
+    weight: 14
+    title: 'MATE Desktop Environment'
+  sr:
+    languageName: 'Srpski'
+    languageCode: 'sr'
+    weight: 15
+    title: 'MATE Desktop Environment'
+  uk:
+    languageName: 'Українська'
+    languageCode: 'uk'
+    weight: 16
+    title: 'MATE Desktop Environment'
+
+params:
+  description: 'MATE Desktop Environment - A continuation of GNOME 2'
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Display the author of the last modification
+  displayUpdatedAuthor: true
+
+  imageZoom:
+    enable: true
+
+  search:
+    enable: true
+    type: 'flexsearch'
+    flexsearch:
+      index: 'content'
+      tokenize: 'forward'
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: "images/mate.png"
+      width: 40
+      height: 40
+
+  page:
+    width: 'normal'
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  editURL:
+    enable: false
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: 'date'
+      sortOrder: 'desc'
+
+menu:
+  main:
+    - identifier: 'download'
+      name: 'Download'
+      pageRef: '/download'
+      weight: 1
+    - identifier: 'documentation'
+      name: 'Documentation'
+      pageRef: '/docs'
+      weight: 2
+    - identifier: 'blog'
+      name: 'Blog'
+      pageRef: '/blog'
+      weight: 3
+    - identifier: 'about'
+      name: 'About'
+      pageRef: '/about'
+      weight: 4
+    - identifier: 'community'
+      name: 'Community'
+      pageRef: '/community'
+      weight: 5
+    - identifier: 'releases'
+      name: 'Releases'
+      pageRef: '/releases'
+      weight: 6
+    - identifier: 'search'
+      name: 'Search'
+      weight: 7
+      params:
+        type: 'search'
+    - identifier: 'github'
+      name: 'GitHub'
+      url: 'https://github.com/mate-desktop'
+      weight: 8
+      params:
+        icon: 'github'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

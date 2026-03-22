@@ -16,9 +16,8 @@ These distributions ship MATE as the default desktop environment:
   {{< card link="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/" title="Debian" icon="external-link" subtitle="MATE available as a desktop option" >}}
 {{< /cards >}}
 
-{{< tabs name="Ubuntu/Debian,Fedora,Arch Linux,openSUSE" >}}
-
-{{< tab >}}
+{{< tabs >}}
+  {{< tab name="Ubuntu/Debian" icon="server" >}}
 ```bash
 sudo apt install mate-desktop-environment
 ```
@@ -28,26 +27,22 @@ For the full experience with all recommended packages:
 ```bash
 sudo apt install mate-desktop-environment-extras
 ```
-{{< /tab >}}
-
-{{< tab >}}
+  {{< /tab >}}
+  {{< tab name="Fedora" icon="server" >}}
 ```bash
 sudo dnf groupinstall "MATE Desktop"
 ```
-{{< /tab >}}
-
-{{< tab >}}
+  {{< /tab >}}
+  {{< tab name="Arch Linux" icon="server" >}}
 ```bash
 sudo pacman -S mate mate-extra
 ```
-{{< /tab >}}
-
-{{< tab >}}
+  {{< /tab >}}
+  {{< tab name="openSUSE" icon="server" >}}
 ```bash
 sudo zypper install -t pattern mate
 ```
-{{< /tab >}}
-
+  {{< /tab >}}
 {{< /tabs >}}
 
 ## Post-Installation

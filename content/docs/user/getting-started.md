@@ -44,6 +44,6 @@ Marco is a fork of Metacity (GNOME 2's window manager) and is designed to be lig
 
 ## Next Steps
 
-- [Installation](../installation) - Install MATE on your system
-- [Configuration](../configuration) - Customize your MATE desktop
-- [Applications](../applications) - Learn about MATE applications
+- [Installation](installation) - Install MATE on your system
+- [Configuration](configuration) - Customize your MATE desktop
+- [Applications](applications) - Learn about MATE applications

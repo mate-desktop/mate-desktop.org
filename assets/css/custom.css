@@ -13,6 +13,8 @@
   --primary-lightness: 55%;
 }
 
+/* The following is only a hack to have the Read More Links in the blog also themed in the root color */
+
 :root {
   --blog-link-color: hsl(var(--primary-hue), var(--primary-saturation), var(--primary-lightness));
   --blog-link-hover-color: hsl(var(--primary-hue), var(--primary-saturation), calc(var(--primary-lightness) - 8%));
@@ -29,3 +31,5 @@ main#content > div.hx\:mb-10 a[aria-label^="Read more"] {
 main#content > div.hx\:mb-10 a[aria-label^="Read more"]:hover {
   color: var(--blog-link-hover-color);
 }
+
+/* Until here */
