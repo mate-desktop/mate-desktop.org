@@ -1,0 +1,8 @@
+{{- $count := .Get 0 | default 5 -}}
+{{- $posts := where .Site.RegularPages "Section" "blog" -}}
+{{- $posts = $posts | first $count -}}
+<ul>
+{{- range $posts }}
+  <li><time>{{ .Date.Format "2006-01-02" }}</time> — <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{- end }}
+</ul>

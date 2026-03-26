@@ -1,0 +1,316 @@
+{{/* project-dashboard.html
+     Data source: data/member_dashboard.yaml
+*/}}
+
+{{- $org := "mate-desktop" -}}
+{{- $repos := hugo.Data.member_dashboard.repos | default (slice) -}}
+
+<style>
+#mate-project-dashboard table { width:100%; border-collapse:collapse; font-size:0.85rem; }
+#mate-project-dashboard thead tr { border-bottom:2px solid var(--tw-prose-hr,#e5e7eb); }
+#mate-project-dashboard tbody tr { border-bottom:1px solid var(--tw-prose-hr,#e5e7eb); transition:background 0.1s; }
+#mate-project-dashboard tbody tr:hover { background:rgba(0,0,0,0.03); }
+#mate-project-dashboard th, #mate-project-dashboard td { padding:0.45rem 0.6rem; vertical-align:middle; }
+#mate-project-dashboard th { font-weight:600; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.04em; color:#6b7280; }
+#mate-project-dashboard th[data-col] { cursor:pointer; user-select:none; white-space:nowrap; }
+#mate-project-dashboard .mph-sort-arrow { color:#9ca3af; font-size:0.72em; margin-left:0.25rem; }
+#mate-project-dashboard .mph-search { width:100%; max-width:380px; padding:0.45rem 0.6rem; border:1px solid #d1d5db; border-radius:0.45rem; font-size:0.85rem; }
+#mate-project-dashboard .mph-muted { color:#9ca3af; }
+</style>
+
+<div id="mate-project-dashboard">
+  <div style="margin:0.7rem 0 0.9rem;">
+    <input id="mph-search" class="mph-search" type="search" placeholder="Filter repositories..." aria-label="Filter repositories">
+  </div>
+
+  <div style="overflow-x:auto;">
+    <table id="mph-table">
+      <thead>
+        <tr>
+          <th data-col="name" data-label="Repository" data-type="text" title="Sort alphabetically">Repository</th>
+          <th data-col="ci" data-label="CI" data-type="ci" style="min-width:110px;" title="Sort by CI status">CI</th>
+          <th data-col="release" data-label="Latest Release" data-type="version" style="min-width:120px;" title="Sort by latest release tag">Latest Release</th>
+          <th data-col="issues" data-label="Open Issues" data-type="number" style="min-width:95px;" title="Sort by open issue count">Open Issues</th>
+          <th data-col="stars" data-label="Stars" data-type="number" style="min-width:75px;" title="Sort by star count">Stars</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $repos }}
+        <tr data-repo="{{ . | lower }}">
+          <td style="white-space:nowrap;font-weight:500;">
+            <a href="https://github.com/{{ $org }}/{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
+          </td>
+          <td style="text-align:center;">
+            <a href="https://github.com/{{ $org }}/{{ . }}/actions/workflows/builds.yml" target="_blank" rel="noopener">
+              <img
+                src="https://img.shields.io/github/actions/workflow/status/{{ $org }}/{{ . }}/builds.yml?label=ci"
+                data-sort-kind="ci"
+                alt="CI status for {{ . }}"
+                style="max-height:20px;vertical-align:middle;"
+                onerror="this.replaceWith(document.createTextNode('—'))"
+              >
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/{{ $org }}/{{ . }}/releases" target="_blank" rel="noopener">
+              <img
+                src="https://img.shields.io/github/v/release/{{ $org }}/{{ . }}?sort=semver&label=release"
+                data-sort-kind="version"
+                alt="Latest release for {{ . }}"
+                style="max-height:20px;vertical-align:middle;"
+                onerror="this.replaceWith(document.createTextNode('—'))"
+              >
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/{{ $org }}/{{ . }}/issues" target="_blank" rel="noopener">
+              <img
+                src="https://img.shields.io/github/issues/{{ $org }}/{{ . }}?label=issues"
+                data-sort-kind="number"
+                alt="Open issues for {{ . }}"
+                style="max-height:20px;vertical-align:middle;"
+                onerror="this.replaceWith(document.createTextNode('—'))"
+              >
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/{{ $org }}/{{ . }}/stargazers" target="_blank" rel="noopener">
+              <img
+                src="https://img.shields.io/github/stars/{{ $org }}/{{ . }}?style=flat&label=stars"
+                data-sort-kind="number"
+                alt="Stars for {{ . }}"
+                style="max-height:20px;vertical-align:middle;"
+                onerror="this.replaceWith(document.createTextNode('—'))"
+              >
+            </a>
+          </td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var table = document.getElementById('mph-table');
+  var search = document.getElementById('mph-search');
+  if (!table) return;
+
+  var sortCol = '';
+  var sortDir = 1;
+
+  function updateSortIndicators() {
+    var headers = Array.prototype.slice.call(table.querySelectorAll('thead th[data-col]'));
+    headers.forEach(function (th) {
+      var col = th.getAttribute('data-col');
+      var label = th.getAttribute('data-label') || (th.textContent || '').trim();
+      var arrow = '';
+      if (col === sortCol) {
+        arrow = sortDir === 1 ? '▲' : '▼';
+      }
+      th.innerHTML = label + (arrow ? '<span class="mph-sort-arrow" aria-hidden="true">' + arrow + '</span>' : '');
+    });
+  }
+
+  function parseCompactNumber(value) {
+    if (!value) return null;
+    var v = String(value).trim().toLowerCase().replace(/,/g, '');
+    var m = v.match(/^([0-9]+(?:\.[0-9]+)?)([kmb])?$/);
+    if (!m) {
+      var raw = parseFloat(v);
+      return Number.isFinite(raw) ? raw : null;
+    }
+    var base = parseFloat(m[1]);
+    var suffix = m[2] || '';
+    if (suffix === 'k') return base * 1e3;
+    if (suffix === 'm') return base * 1e6;
+    if (suffix === 'b') return base * 1e9;
+    return base;
+  }
+
+  function parseVersionParts(value) {
+    if (!value) return [];
+    var clean = String(value).trim().replace(/^v/i, '').split(/[-+]/)[0];
+    return clean.split('.').map(function (p) {
+      var n = parseInt(p, 10);
+      return Number.isFinite(n) ? n : 0;
+    });
+  }
+
+  function compareVersions(a, b) {
+    var ap = parseVersionParts(a);
+    var bp = parseVersionParts(b);
+    var maxLen = Math.max(ap.length, bp.length);
+    for (var i = 0; i < maxLen; i++) {
+      var av = ap[i] || 0;
+      var bv = bp[i] || 0;
+      if (av < bv) return -1;
+      if (av > bv) return 1;
+    }
+    return 0;
+  }
+
+  function ciRank(value) {
+    var v = String(value || '').toLowerCase();
+    if (v.indexOf('passing') !== -1 || v.indexOf('success') !== -1) return 4;
+    if (v.indexOf('neutral') !== -1 || v.indexOf('skipped') !== -1) return 3;
+    if (v.indexOf('queued') !== -1 || v.indexOf('pending') !== -1 || v.indexOf('in progress') !== -1) return 2;
+    if (v.indexOf('failing') !== -1 || v.indexOf('failed') !== -1 || v.indexOf('error') !== -1) return 1;
+    return 0;
+  }
+
+  function getSortValue(cell, type) {
+    if (!cell) return '';
+    var key = cell.getAttribute('data-sort-key');
+    if (key !== null && key !== '') return key;
+    var text = (cell.textContent || '').trim();
+    if (type === 'number') {
+      var n = parseCompactNumber(text);
+      return n === null ? -1 : n;
+    }
+    return text.toLowerCase();
+  }
+
+  function extractBadgeValue(svgText, kind) {
+    if (!svgText) return null;
+
+    if (kind === 'ci' || kind === 'version') {
+      var labelMatch = svgText.match(/aria-label="[^"]*:\s*([^"]+)"/i);
+      if (!labelMatch) labelMatch = svgText.match(/<title>[^:]+:\s*([^<]+)<\/title>/i);
+      return labelMatch ? labelMatch[1].trim() : null;
+    }
+
+    if (kind === 'number') {
+      var textMatches = Array.from(svgText.matchAll(/<text[^>]*>([^<]+)<\/text>/gi));
+      for (var i = textMatches.length - 1; i >= 0; i--) {
+        var candidate = textMatches[i][1].trim();
+        var parsed = parseCompactNumber(candidate);
+        if (parsed !== null) return String(parsed);
+      }
+
+      var ariaMatch = svgText.match(/aria-label="[^"]*:\s*([0-9][0-9.,kmb ]*)/i);
+      if (ariaMatch) {
+        var parsedAria = parseCompactNumber(ariaMatch[1].trim());
+        return parsedAria !== null ? String(parsedAria) : null;
+      }
+    }
+
+    return null;
+  }
+
+  function loadSortKeysFromBadges() {
+    var imgs = Array.prototype.slice.call(table.querySelectorAll('tbody img[data-sort-kind]'));
+    imgs.forEach(function (img) {
+      var cell = img.closest('td');
+      var kind = img.getAttribute('data-sort-kind');
+      if (!cell || !kind || !img.src) return;
+
+      fetch(img.src)
+        .then(function (resp) {
+          if (!resp.ok) throw new Error(String(resp.status));
+          return resp.text();
+        })
+        .then(function (svgText) {
+          var value = extractBadgeValue(svgText, kind);
+          if (value !== null) {
+            cell.setAttribute('data-sort-key', value);
+          }
+        })
+        .catch(function () {
+          cell.setAttribute('data-sort-key', '');
+        });
+    });
+  }
+
+  function getText(row, idx) {
+    var cell = row.children[idx];
+    if (!cell) return '';
+    return (cell.textContent || '').trim().toLowerCase();
+  }
+
+  function sortTableBy(colName) {
+    var head = table.tHead;
+    var body = table.tBodies[0];
+    if (!head || !body) return;
+
+    var headers = Array.prototype.slice.call(head.rows[0].cells);
+    var header = headers.find(function (h) {
+      return h.getAttribute('data-col') === colName;
+    });
+    var idx = headers.indexOf(header);
+    if (idx < 0) return;
+
+    var type = header.getAttribute('data-type') || 'text';
+    var compareDir;
+
+    sortDir = (sortCol === colName) ? -sortDir : -1;
+    sortCol = colName;
+    compareDir = colName === 'name' ? -sortDir : sortDir;
+    updateSortIndicators();
+
+    var rows = Array.prototype.slice.call(body.rows);
+    rows.sort(function (a, b) {
+      var ac = a.children[idx];
+      var bc = b.children[idx];
+
+      if (type === 'number') {
+        var an = parseFloat(getSortValue(ac, 'number'));
+        var bn = parseFloat(getSortValue(bc, 'number'));
+        if (an < bn) return -compareDir;
+        if (an > bn) return compareDir;
+        return 0;
+      }
+
+      if (type === 'version') {
+        var avv = getSortValue(ac, 'text');
+        var bvv = getSortValue(bc, 'text');
+        return compareDir * compareVersions(avv, bvv);
+      }
+
+      if (type === 'ci') {
+        var avr = ciRank(getSortValue(ac, 'text'));
+        var bvr = ciRank(getSortValue(bc, 'text'));
+        if (avr < bvr) return -compareDir;
+        if (avr > bvr) return compareDir;
+        return 0;
+      }
+
+      var av = getText(a, idx);
+      var bv = getText(b, idx);
+      if (av < bv) return -compareDir;
+      if (av > bv) return compareDir;
+      return 0;
+    });
+
+    rows.forEach(function (r) { body.appendChild(r); });
+  }
+
+  function filterRows() {
+    if (!search) return;
+    var q = search.value.trim().toLowerCase();
+    var body = table.tBodies[0];
+    if (!body) return;
+
+    Array.prototype.forEach.call(body.rows, function (row) {
+      var repo = row.getAttribute('data-repo') || '';
+      row.style.display = (!q || repo.indexOf(q) !== -1) ? '' : 'none';
+    });
+  }
+
+  table.tHead.addEventListener('click', function (e) {
+    var th = e.target.closest('th[data-col]');
+    if (!th) return;
+    sortTableBy(th.getAttribute('data-col'));
+  });
+
+  if (search) {
+    search.addEventListener('input', filterRows);
+  }
+
+  sortTableBy('name');
+  loadSortKeysFromBadges();
+}());
+</script>

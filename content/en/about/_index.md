@@ -1,0 +1,32 @@
+---
+title: About MATE
+---
+
+## The MATE Desktop Environment
+
+MATE is a fork of GNOME 2. It provides an intuitive and attractive desktop environment using traditional metaphors for Linux and other Unix-like operating systems.
+
+The name "MATE" comes from the South American plant *yerba mate* and the drink made from it.
+
+## History
+
+MATE was started in 2011 as a response to the reception of GNOME 3, which abandoned the traditional desktop metaphor. MATE continues the GNOME 2 desktop experience, providing a classic, familiar interface for users who prefer the traditional desktop paradigm.
+
+The project began when Perberos, an Arch Linux user, started the fork. Since then, MATE has grown into a mature, stable desktop environment used by hundreds of thousands of people worldwide.
+
+## Philosophy
+
+- **Tradition** - We believe the traditional desktop metaphor works well and should be preserved
+- **Stability** - A reliable desktop that doesn't change for the sake of change
+- **Accessibility** - Everyone should be able to use their computer effectively
+- **Customization** - Users should control their desktop, not the other way around
+- **Performance** - Efficient use of system resources without sacrificing features
+
+## Support the Project
+
+MATE is free software developed by volunteers. If you find MATE useful, please consider supporting the project:
+
+- Spread the word about MATE
+- Help new users in the community
+- Contribute code or translations
+- Write about MATE on your blog

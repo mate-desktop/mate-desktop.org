@@ -1,0 +1,9 @@
+components:
+  - name: Website UI Strings
+    slug: website-ui
+    file_format: hugo
+    filemask: i18n/*.yaml
+    template: i18n/en.yaml
+    new_base: i18n/en.yaml
+    edit_template: false
+    language_regex: ^(?P<language>[^/.]+)$
