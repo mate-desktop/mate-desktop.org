@@ -24,24 +24,46 @@
       <description>
         
         
-        &lt;p&gt;Recientemente hemos cambiado de una wiki en [GitHub] (&lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;/a&gt;) a una propia
-disponible en [wiki.mate-desktop.org] (&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;/a&gt;. Por favor
+        &lt;p&gt;Recientemente hemos cambiado de una wiki en [GitHub] (&lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;) a una propia
+disponible en [wiki.mate-desktop.org] (&lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!index.md)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Por favor
 haga referencia a esta wiki de ahora en adelante. Naturalmente, cualquiera puede contribuir.&lt;/p&gt;
 &lt;p&gt;Para aquellos de ustedes que aún no lo saben, pueden
-[informar problemas en github] (&lt;a href=&#34;https://github.com/mate-desktop/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/)&lt;/a&gt;. Por el momento, esto
+[informar problemas en github] (&lt;a href=&#34;https://github.com/mate-desktop/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Por el momento, esto
 es todo lo que tenemos en términos de informes de errores, pero tenemos un rastreador de errores en proceso.
 Lo anunciaremos aquí cuando esté listo.&lt;/p&gt;
 &lt;p&gt;También tenemos planes futuros para un foro de Mate, pero eso se encuentra en una etapa muy temprana.&lt;/p&gt;
-&lt;p&gt;Para aquellos de ustedes que usan [Debian] (&lt;a href=&#34;https://www.debian.org/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.debian.org/)&lt;/a&gt;, [Ubuntu] (&lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ubuntu.com&lt;/a&gt;),
-y [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;), puede acceder a la rama de
-desarrollo 1.1.x de nuestros paquetes usando el repositorio tridex. Para obtener más información, consulte [la página de descarga] (&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/download.md&lt;/a&gt;)
-en la wiki. [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;) también tiene nuestros
+&lt;p&gt;Para aquellos de ustedes que usan [Debian] (&lt;a href=&#34;https://www.debian.org/%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.debian.org/)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, [Ubuntu] (&lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ubuntu.com&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;),
+y [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;), puede acceder a la rama de
+desarrollo 1.1.x de nuestros paquetes usando el repositorio tridex. Para obtener más información, consulte [la página de descarga] (&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/download.md&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)
+en la wiki. [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;) también tiene nuestros
 paquetes de la versión 1.0.x en su repositorio. Si alguien todavía usa el PPA
 de Amanas, ya no es compatible. El resto de nuestras versiones 1.1.x se alojarán en los repositorios tridex. Las versiones futuras (por ejemplo, 1.2.0) se alojarán aquí.&lt;/p&gt;
-&lt;p&gt;Estamos orgullosos de anunciar que ha comenzado el empaquetado para [openSUSE] (&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;/a&gt;).
+&lt;p&gt;Estamos orgullosos de anunciar que ha comenzado el empaquetado para [openSUSE] (&lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.opensuse.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;).
 Una vez que tengamos más información la agregaremos a nuestra wiki y haremos un anuncio.&lt;/p&gt;
-&lt;p&gt;Por último, varias personas se han unido a [nuestro canal de IRC] (&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://web.libera.chat/?#mate&lt;/a&gt;)
-y preguntan acerca de los ebuilds de [Gentoo] (&lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gentoo.org&lt;/a&gt;) para MATE. Con eso dicho,
+&lt;p&gt;Por último, varias personas se han unido a [nuestro canal de IRC] (&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://web.libera.chat/?#mate&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)
+y preguntan acerca de los ebuilds de [Gentoo] (&lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gentoo.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;) para MATE. Con eso dicho,
 buscamos personas que estén dispuestas a configurarlos.&lt;/p&gt;
 &lt;p&gt;El equipo de Mate les desea felices vacaciones.&lt;/p&gt;
 

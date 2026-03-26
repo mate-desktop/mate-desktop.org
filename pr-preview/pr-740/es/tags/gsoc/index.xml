@@ -44,7 +44,9 @@ una interfaz de usuario único para la configuracion de las extensiones Caja.&lt
 &lt;p&gt;Por favor unanse a mi en la bienvenida a estos nuevos contribuyentes al equipo MATE
 y desearles éxito en sus respectivos proyectos para este veráno.&lt;/p&gt;
 &lt;p&gt;En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimiento y
-gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; quienes son nuestros organizadores
+gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; quienes son nuestros organizadores
 de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
 para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
 2014. Hicieron un trabajo fantástico al ayudar a asegurar estas ubicaciones de GSoC para el

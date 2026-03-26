@@ -44,7 +44,9 @@ una interfaz de usuario único para la configuracion de las extensiones Caja.&lt
 &lt;p&gt;Por favor unanse a mi en la bienvenida a estos nuevos contribuyentes al equipo MATE
 y desearles éxito en sus respectivos proyectos para este veráno.&lt;/p&gt;
 &lt;p&gt;En nombre de todo el equipo MATE, quisiera también extender nuestro agradecimiento y
-gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; quienes son nuestros organizadores
+gratitud a &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; quienes son nuestros organizadores
 de GSoC para 2014. Hicieron un trabajo fantástico ayudandonos a asegurar estas plazas
 para el equipo MATE que proveerá muchos recursos necesarios para el proyecto.
 2014. Hicieron un trabajo fantástico al ayudar a asegurar estas ubicaciones de GSoC para el
@@ -69,10 +71,14 @@ y QA y pronto MATE 1.8 estará preparado para su lanzamiento.&lt;/p&gt;
 &lt;p&gt;Por lo tanto, le solicitamos que verifique el estado de las traducciones MATE a las que
 contribuye en Transifex y actualícelas lo antes posible.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.transifex.com/projects/p/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.transifex.com/projects/p/MATE/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Si aún no es miembro del equipo de traducción pero le gustaría ayudar, por favor
-&lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sregístrese para obtener una cuenta gratuita en Transifex&lt;/a&gt;
+&lt;a href=&#34;https://www.transifex.com/signup/contributor/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sregístrese para obtener una cuenta gratuita en Transifex&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 para que puedas empezar a contribuir a MATE, ¡te lo agradeceríamos mucho!&lt;/p&gt;
 &lt;p&gt;Actualmente hay 6 idiomas con una cobertura del 100%, así que veamos cuántos más
 puede obtener una cobertura del 100% antes del lanzamiento de MATE 1.8.&lt;/p&gt;

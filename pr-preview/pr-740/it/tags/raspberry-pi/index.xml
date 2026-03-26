@@ -25,19 +25,25 @@
         
         
         &lt;p&gt;MATE ha finalmente trovato la strada di casa.&lt;/p&gt;
-&lt;p&gt;Come qualcuno di voi potrebbe sapere, MATE è stato creato da un utente&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;,
+&lt;p&gt;Come qualcuno di voi potrebbe sapere, MATE è stato creato da un utente&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
 Perberos. È piuttosto ironico il fatto che MATE non sia stato fornito nei repository ufficiali di Arch Linux fino ad oggi. Esatto,
 MATE è finalmente disponibile nel repository di pacchetti &lt;code&gt;[community]&lt;/code&gt; di Arch Linux!.&lt;/p&gt;
 &lt;p&gt;Potete trovare ogni informazione necessaria ad installare MATE
 su Arch Linux dalle pagine wiki seguenti:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vale la pena di notare che il repository di pacchetti non ufficiali di MATE sarà rimosso una volta che i mirror Arch Linux saranno sincronizzati.
 Pertanto andate ad aggiornare &lt;code&gt;/etc/pacman.conf&lt;/code&gt; e rimuovete il
 repository di pacchetti &lt;code&gt;[mate]&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;L&amp;rsquo;altro vantaggio di mettere MATE nei repository dei pacchetti di Arch Linux ufficiali
-è che MATE sarà anche sui repository di pacchetti &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;/a&gt;.
+è che MATE sarà anche sui repository di pacchetti &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.
 Posso quindi finalmente ritirare i build &lt;em&gt;&amp;ldquo;server&amp;rdquo;&lt;/em&gt; per Raspberry Pi (armv6h) e
 Cubox Pro (armv7h). Non sono sicuro di quanto ci vorrà
 perché tutti i pacchetti MATE siano presenti sul repository di pacchetti Arch Linux ARM, ma ho già visto che alcuni pacchetti sono stati costruiti.&lt;/p&gt;
@@ -56,7 +62,9 @@ un post sul blog su come installare Arch Linux e MATE sulla Raspberry Pi con alc
       <description>
         
         
-        &lt;p&gt;I pacchetti MATE 1.6 sono stati disponibili per &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+        &lt;p&gt;I pacchetti MATE 1.6 sono stati disponibili per &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 già da un pezzo. Dunque perché il post sul blog?&lt;/p&gt;
 &lt;p&gt;Negli ultimi mesi i pacchetti MATE 1.6 per Arch Linux sono stati corretti, ripuliti e migliorati. Qui c&amp;rsquo;è una panoramica di ciò su cui abbiamo
 lavorato:&lt;/p&gt;
@@ -82,22 +90,32 @@ lavorato:&lt;/p&gt;
 &lt;p&gt;È possibile trovare tutte le informazioni necessarie èer installare MATE 1.6
 su Arch Linux dalla pagina wiki seguente:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vorrei ringraziare in modo speciale:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;/a&gt; per aver lavorato con noi
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; per aver lavorato con noi
 Il team sviluppo Fedora per aver cercato fix a &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; e &lt;code&gt;upower&lt;/code&gt;
 che risultano essere grandemente vantaggiosi per Arch Linux e anche per
 aver contribuito a un gran numero di applicazioni della comunità.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;/a&gt; e &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; e &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 Per avermi dato il benvenuto nel Team MATE e avermi aiutato su IRC.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ora che i pacchetti di MATE 1.6 sono in buono stato, inizierò il processo
 di mettere MATE nei repository ufficiali di Arch Linux. Si può aiutare
 in questo votando per i pacchetti MATE su AUR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

@@ -46,7 +46,9 @@ ein gemeinsames User Interface für die Konfiguration der Caja-Extensions erstel
 &lt;p&gt;Heißen wir diese neuen Mitwirkenden gemeinsam willkommen im MATE-Team, und
 wünschen wir ihnen größtmöglichen Erfolg bei ihren jeweiligen Projekten im Sommer.&lt;/p&gt;
 &lt;p&gt;Im Namen des gesamten MATE-Teams möchte ich ferner meinen Dank und meine Wertschätzung
-aussprechen gegenüber &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;, unsere GSoC-Organisatoren
+aussprechen gegenüber &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, unsere GSoC-Organisatoren
 für 2014. Sie haben fantastische Arbeit dabei geleistet, das MATE-Team bei
 der Sicherung dieser GSoC-Platzierungen zu unterstützen, welche dringend benötigte
 Entwicklungstätigkeiten in das Projekt einfließen lassen werden.&lt;/p&gt;
@@ -64,8 +66,12 @@ Entwicklungstätigkeiten in das Projekt einfließen lassen werden.&lt;/p&gt;
         
         
         &lt;p&gt;Das MATE-Team freut sich sehr, die Teilnahme am
-&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt; bekanntzugeben.
-Dies geschieht in Partnerschaft mit unseren guten Freunden von &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; bekanntzugeben.
+Dies geschieht in Partnerschaft mit unseren guten Freunden von &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Über Google Summer of Code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;über-google-summer-of-code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%c3%bcber-google-summer-of-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Google Summer of Code (meist &amp;ldquo;GSoC&amp;rdquo; genannt) ist ein weltweites Programm,
 das studierenden Entwicklern Stipendien anbietet, um Programmcode für verschiedene
@@ -84,13 +90,21 @@ zum Nutzen und Wohle aller.&lt;/p&gt;
 &lt;h2&gt;Für Studenten&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;für-studenten&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#f%c3%bcr-studenten&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Der Bewerbungszeitraum für Studenten läuft vom 10. März 2014 bis zum 21. März 2014.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Für weitere Informationen zur Bewerbung lesen Sie bitte die [Google Summer of Code 2014-FAQ]
-(&lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/open-source/gsoc/faq)&lt;/a&gt;.
+(&lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/open-source/gsoc/faq)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.
 Wenn Sie ein Student oder eine Studentin sind und zu MATE über die openSUSE-GSoC-Teilnahme
 beitragen wollen, sollten Sie das folgende lesen:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Google Summer of Code 2014 Ideas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participates in GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Google Summer of Code 2014 Ideas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Google Summer of Code 2014 Ideas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participates in GSoC 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Zusammengefasst lauten die MATE-Projektideen für GSoC 2014:&lt;/p&gt;
 &lt;ul&gt;
@@ -105,9 +119,15 @@ die Arbeit an Machbarkeitsstudien (Proof of Concepts) bieten sich für den Anfan
 und Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; auf IRC). Der beste Weg,
 mit den MATE-Mentoren in Kontakt zu treten ist:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC-Channel auf Libera Chat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate:libera.chat Matrix-Room&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE auf GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC-Channel auf Libera Chat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate:libera.chat Matrix-Room&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE auf GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Wir freuen uns auf eure Bewerbungen!&lt;/p&gt;
 

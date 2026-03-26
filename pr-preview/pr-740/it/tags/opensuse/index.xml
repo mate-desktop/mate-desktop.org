@@ -24,13 +24,15 @@
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Il Team MATE di openSUSE è orgoglioso di annunciare la disponibilità di MATE 1.8
 per openSUSE. I pattern non sono più disponibili, e non lo saranno in futuro per via dell&amp;rsquo;inclusione ufficiale di MATE in openSUSE.
 Non potremo più offrire supporto per openSUSE 12.2, poiché i requisiti di MATE non sono forniti nelle versioni corrette in quella distribuzione.
 Abbiamo modificato il nostro schema di repository, per evitare che la gente debba modificare le proprie repository ad ogni aggiornamento. Adesso c&amp;rsquo;è solo X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;Per installarlo, per favore sostituite o aggiungete la nostra repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -65,7 +67,9 @@ la configurazione di Caja extensions.&lt;/li&gt;
 &lt;p&gt;Vi prego di unirvi a me nel dare il benvenuto a questi nuovi collaboratori nel team MATE e
 nell&amp;rsquo;augurargli ogni successo per i loro progetti dell&amp;rsquo;estate.&lt;/p&gt;
 &lt;p&gt;A nome dell&amp;rsquo;intero team MATE vorrei estendere i ringraziamenti e
-la nostra gratitudine ad  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; che sono i nostri organizzatori GSoC perché
+la nostra gratitudine ad  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; che sono i nostri organizzatori GSoC perché
 2014. hanno fatto un lavoro fantastico nell&amp;rsquo;aiutare a garantire questi assegnamenti GSoC per
 il team MATE che fornirà molte risorse di sviluppo necessarie al progetto.&lt;/p&gt;
 
@@ -82,8 +86,12 @@ il team MATE che fornirà molte risorse di sviluppo necessarie al progetto.&lt;/
         
         
         &lt;p&gt;Il team MATE è lieto di annunciare la sua partecipazione al
-&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt;. Lo facciamo
-in collaborazione con i nostri buoni amici di &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.google-melange.com/archive/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Lo facciamo
+in collaborazione con i nostri buoni amici di &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Cos&amp;rsquo;è Google Summer of Code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosè-google-summer-of-code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cos%c3%a8-google-summer-of-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Google Summer of Code (comunemente chiamato GSoC) è un programma globale che
 offre compensi a studenti sviluppatori per scrivere codice per vari progetti software open source. GSoC collabora con molti gruppi open source, free software e entità correlate alla tecnologia, per identificare e finanziare progetti della durata di tre mesi.
@@ -93,13 +101,21 @@ ottenendo così visibilità negli scenari di sviluppo di software reale e l&amp;
 In cambio, i progetti partecipanti possono identificare e assumere nuovi sviluppatori. Ma soprattutto, viene creato e rilasciato un maggior quantitativo di codice sorgente ad uso e vantaggio di tutti.&lt;/p&gt;
 &lt;h2&gt;Per gli studenti&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;per-gli-studenti&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#per-gli-studenti&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Il periodo di iscrizione per gli studenti è aperto dal 10 Marzo al 21 Marzo 2014.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Per ricevere aiuto su come candidarsi vi rimandiamo alla lettura delle &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAQ di Google Summer of Code 2014&lt;/a&gt;. 
+&lt;p&gt;Per ricevere aiuto su come candidarsi vi rimandiamo alla lettura delle &lt;a href=&#34;https://developers.google.com/open-source/gsoc/faq&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FAQ di Google Summer of Code 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. 
 Se siete studenti che vogliono contribuire a MATE attraverso la partecipazione openSUSE al GSoC
 consultate i seguenti collegamenti:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee MATE al Google Summer of Code 2014&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee openSUSE al Google Summer of Code 2014&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participa al GSoC 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/pages/gsoc-2014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee MATE al Google Summer of Code 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.opensuse.org/openSUSE:GSOC_ideas&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Idee openSUSE al Google Summer of Code 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.opensuse.org/2014/03/04/opensuse-participates-in-gsoc-2014/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE participa al GSoC 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In breve le idee di MATE per il progetto GSoC 2014 sono:&lt;/p&gt;
 &lt;ul&gt;
@@ -113,9 +129,15 @@ of Concepts sono buoni modi per incominciare.&lt;/p&gt;
 &lt;p&gt;I mentori del GSoC 2014 per MATE sono Stefano Karapetsas (&lt;code&gt;stefano-k&lt;/code&gt; su IRC) e
 Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milgior modo per comunicare ed interagire con i mentori MATE è mediante:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;il canale #mate IRC su Libera Chat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;La stanza chat Matrix #mate:libera.chat&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE su GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;il canale #mate IRC su Libera Chat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matrix.to/#/#mate:libera.chat&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;La stanza chat Matrix #mate:libera.chat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE su GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Non vediamo l&amp;rsquo;ora di esaminare le vostre candidature!&lt;/p&gt;
 
@@ -131,12 +153,18 @@ Martin Wimpress (&lt;code&gt;flexiondotorg&lt;/code&gt; su IRC). Il milgior modo
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, ambasciatore openSUSE e membro del openSUSE MATE social
-media team, mostrerà &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
-al &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summit OpenSUSE 2013&lt;/a&gt; che si terrà ad Orlando, Florida,
+media team, mostrerà &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+al &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summit OpenSUSE 2013&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; che si terrà ad Orlando, Florida,
 Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
-&lt;p&gt;La discussione sarà disponibile su &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;questa pagina&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La discussione sarà disponibile su &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;questa pagina&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -150,16 +178,24 @@ Domenica, 17 Novembre alle 10:15.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Sulla strada per rendere MATE ufficialmente disponibile su &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;,
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Sulla strada per rendere MATE ufficialmente disponibile su &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
 i repository comunitari devono essere modificati in YaST. Perciò,
 andate su &lt;em&gt;YaST -&amp;gt; Software -&amp;gt; Software Repositories&lt;/em&gt; e remuovete la repo &lt;em&gt;X11:MATE:Factory&lt;/em&gt;
 e successivamente, fate clic sul link seguente in base alla
 versione della vostra distribuzione openSUSE:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for OpenSUSE 12.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for OpenSUSE 12.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/STABLE:/1.6/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for OpenSUSE Tumbleweed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grazie!&lt;/p&gt;
 
@@ -175,8 +211,12 @@ versione della vostra distribuzione openSUSE:&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Il 20 Luglio 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; ha presentato la sua discussione
-su MATE alla Conferenza  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;Il 20 Luglio 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; ha presentato la sua discussione
+su MATE alla Conferenza  &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;La discussione introduce MATE a coloro che non ne hanno mai sentito parlare, spiega
 le ragioni che hanno portato a creare MATE, spiega le differenze con le sessioniù GNOME Classic e GNOME Fallback,
 e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.&lt;/p&gt;
@@ -194,21 +234,43 @@ e descrive le caratteristiche e i cambiamenti aggiunti dopo la derivazione.&lt;/
       <description>
         
         
-        &lt;p&gt;Siamo passati di recente da un wiki su &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; ad uno nostro disponibile da  &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;Siamo passati di recente da un wiki su &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; ad uno nostro disponibile da  &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;per favore fate riferimento a questo wiki da ora in poi. Naturalmente chiunque è benvenuto a contribuire.&lt;/p&gt;
-&lt;p&gt;Per quelli di voi che non lo sanno ancora, potete &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;riportare problemi su github&lt;/a&gt;. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
+&lt;p&gt;Per quelli di voi che non lo sanno ancora, potete &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;riportare problemi su github&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Al momento, questo è tutto quello di cui disponiamo per segnalazioni di malfunzionamenti, ma stiamo lavorando ad un sistema di tracciamento dei bug.
 Lo annunceremo qui quando sarà pronto.&lt;/p&gt;
 &lt;p&gt;Abbiamo anche progetti futuri per un forum di MATE, ma questo è ancora ad uno stadio ancora molto iniziale.&lt;/p&gt;
-&lt;p&gt;Per quelli di voi che utilizzano &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;,
-e &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;, è possibile accedere al ramo di sviluppo 1.1.x dei
-nostri pacchetti utilizzando il repository tridex. Visitate la  &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pagina di download&lt;/a&gt;
-sul wiki per maggiori informazioni. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; ha anche i nostri
+&lt;p&gt;Per quelli di voi che utilizzano &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
+e &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, è possibile accedere al ramo di sviluppo 1.1.x dei
+nostri pacchetti utilizzando il repository tridex. Visitate la  &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pagina di download&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+sul wiki per maggiori informazioni. &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; ha anche i nostri
 pacchetti del rilascio 1.0.x nei loro repository. Se qualcuno sta ancora utilizzando il PPA di Amanas, questo non è più supportato. Il resto dei nostri rilasci 1.1.x saranno ospitati sui repository tridex.
 I rilasci futuri (es. 1.2.0) saranno ospitati qui.&lt;/p&gt;
-&lt;p&gt;Siamo orgogliosi di annunciare che la pacchettizzazione per &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; è iniziata.
+&lt;p&gt;Siamo orgogliosi di annunciare che la pacchettizzazione per &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; è iniziata.
 Quando avremo più informazioni le riporteremo sul nostro wiki e faremo un annuncio.&lt;/p&gt;
-&lt;p&gt;Infine, abbiamo avuto diversi individui che si sono uniti al &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nostro canale IRC&lt;/a&gt;
-che ci hanno chiesto di edibuild  &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; per MATE. Detto questo,
+&lt;p&gt;Infine, abbiamo avuto diversi individui che si sono uniti al &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nostro canale IRC&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+che ci hanno chiesto di edibuild  &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; per MATE. Detto questo,
 cerchiamo persone che siano disposte ad organizzarli.&lt;/p&gt;
 &lt;p&gt;Buone Vacanze dal Team MATE.&lt;/p&gt;
 

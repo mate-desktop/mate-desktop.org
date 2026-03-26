@@ -24,17 +24,27 @@
         
         
         &lt;p&gt;I was fortunate enough to be invited on to Episode 347 of the &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux
-Action Show&lt;/a&gt; to
+Action Show&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; to
 talk a little about MATE Desktop, where it came from and where it is headed.
 The interview with me is embedded below.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34; https://www.youtube.com/embed/OwW9jaVKjSw?start=1945&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;I wasn&amp;rsquo;t able to cover all the development objectives of MATE 1.10 in the time
-available so I recommend you take a look at the &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Roadmap&lt;/a&gt;
+available so I recommend you take a look at the &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Roadmap&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 for a complete overview. If you should have any additional questions, or would
 like to contribute to the project, then we look forward to chatting with
-you in the &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of
+you in the &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; or
+reviewing your &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests on GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; produce a number of
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you
 may find something that interests you.&lt;/p&gt;
 
@@ -50,15 +60,25 @@ may find something that interests you.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;a href=&#34;https://linuxluddites.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; were kind enough to interview
-me last week. We discussed the origins of &lt;a href=&#34;https://mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop&lt;/a&gt;,
-it&amp;rsquo;s future direction, how &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt; came to
+        &lt;p&gt;&lt;a href=&#34;https://linuxluddites.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; were kind enough to interview
+me last week. We discussed the origins of &lt;a href=&#34;https://mate-desktop.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
+it&amp;rsquo;s future direction, how &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; came to
 be and where it is headed.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 was published earlier today and I suggest you head over to the Linux Luddites
 website and give it a listen.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linuxluddites.com/shows/episode-26&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites Episode #26&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you&amp;rsquo;ve not listened to the Linux Luddites before then you should checkout
 their back catalog. It has been one of my favourite FLOSS podcasts for some
@@ -77,15 +97,27 @@ and first impressions.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Thanks to the efforts of the &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE package maintainers for Debian&lt;/a&gt;
+        &lt;p&gt;Thanks to the efforts of the &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE package maintainers for Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
-&lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
+&lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
 earlier this year, MATE 1.8.1 is also in the official archive
-for Ubuntu 14.10 Utopic Unicorn. The &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt;
-team have recently created a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
-at the request of the &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
-and also a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
+for Ubuntu 14.10 Utopic Unicorn. The &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+team have recently created a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+at the request of the &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+and also a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you require MATE packages for Debian or Ubuntu then the package
 repositories above are the official repositories to use.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ve removed the package repositories hosted on mate-desktop.org
@@ -105,7 +137,7 @@ repositories hosted on mate-desktop.org have been removed.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The openSUSE MATE team is proud to announce the availability of MATE 1.8
 for openSUSE. The patterns are not available anymore, and won&amp;rsquo;t be in
 the future due to official inclusion of MATE in openSUSE.
@@ -115,7 +147,9 @@ We have changed our schema of repositories, to avoid people having to
 change their repositories for each update. Now there is
 just one place, X11:MATE:Current.&lt;/p&gt;
 &lt;p&gt;To install it, please replace or add our repository:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.opensuse.org/repositories/X11:/MATE:/Current/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://download.opensuse.org/repositories/X11:/MATE:/Current/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -129,16 +163,26 @@ just one place, X11:MATE:Current.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;Am 1. Februar 2014 hielt &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt;
-seine Präsentation über MATE auf der &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;/a&gt;!&lt;/p&gt;
+        &lt;p&gt;Am 1. Februar 2014 hielt &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+seine Präsentation über MATE auf der &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;Die Präsentation macht MATE denjenigen bekannt, welche davon noch nicht gehört
 haben, und erläutert den Ursprung des Projekts. Zunächst werden die Unterschiede
 zwischen MATE und anderen herkömmlichen GTK-basierenden Desktop-Umgebungen erörtert.
 Danach erklärt Stefano, wie MATE sich entwickelt hat, seit es von GNOME2 geforkt wurde.
 Eine kurze Auswertung der jüngeren Verbesserungen findet statt, gefolgt von
 einer Übersicht über der MATE-Roadmap und anderen Projekten, die
-von MATE profitieren, z.B. &lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;,
-&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt; und &lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt;.&lt;/p&gt;
+von MATE profitieren, z.B. &lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
+&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; und &lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/iwQ7iqNwRKs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
       </description>
@@ -154,17 +198,27 @@ von MATE profitieren, z.B. &lt;a href=&#34;https://sonar-project.org&#34;target=
         
         
         &lt;p&gt;I was fortunate enough to be invited on to Episode 26 of the &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxun/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux
-Unplugged&lt;/a&gt; podcast to talk a
+Unplugged&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; podcast to talk a
 little about MATE Desktop and where it is headed. The MATE Mythbusting clip is
 embedded below.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/sRNK9QnnvCo?start=603&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;I wasn&amp;rsquo;t able to cover all the development objectives of MATE 1.8 in the time
-available so I recommend you take a look at the &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Roadmap&lt;/a&gt;
+available so I recommend you take a look at the &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/roadmap.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Roadmap&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 for a complete overview. If you should have any additional questions, or would
 like to contribute to the the project, then we look for to chatting with you
-in the &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt; or
-reviewing your &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;/a&gt; produce a number of
+in the &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; or
+reviewing your &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pull-requests on GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jupiterbroadcasting.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupiter Broadcasting&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; produce a number of
 weekly videocasts and podcasts mostly oriented around FLOSS. Take a look, you
 may find something that interests you.&lt;/p&gt;
 
@@ -180,12 +234,18 @@ may find something that interests you.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  data-zoomable loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/mate-opensuse-black-150x150.png&#34; alt=&#34;openSUSE&#34;  loading=&#34;lazy&#34; /&gt; &lt;img src=&#34;https://mate-desktop.org/images/blog/opensuse-summit.png&#34; alt=&#34;Summit&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alexandros Vennos, openSUSE ambassador and member of openSUSE MATE social
-media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;/a&gt;
-at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;/a&gt; in Orlando, Florida,
+media team, will show &lt;a href=&#34;https://en.opensuse.org/Portal:MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+at &lt;a href=&#34;https://summit.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE Summit 2013&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; in Orlando, Florida,
 on Sunday, November 17 at 10:15.&lt;/p&gt;
-&lt;p&gt;The talk will be available at &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The talk will be available at &lt;a href=&#34;https://conference.opensuse.org/osem/conference/summit13/proposal/150&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this page&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -199,8 +259,12 @@ on Sunday, November 17 at 10:15.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;On July 20th 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; presented his
-talk on MATE at &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; Conference!&lt;/p&gt;
+        &lt;p&gt;On July 20th 2013 &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; presented his
+talk on MATE at &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; Conference!&lt;/p&gt;
 &lt;p&gt;The talk introduces MATE to those who haven&amp;rsquo;t heard of it, explains the reasons for
 creating MATE, explains the difference with GNOME Classic and GNOME Fallback sessions,
 and describes the features and changes added after the fork.&lt;/p&gt;
@@ -220,12 +284,16 @@ and describes the features and changes added after the fork.&lt;/p&gt;
         
         &lt;p&gt;There are a lot of people in the world who get access to their GNU/Linux
 desktops via thin clients, and one of the longest running thin client projects
-out there is the &lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt; project. The MATE desktop offers a
+out there is the &lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; project. The MATE desktop offers a
 fantastic desktop experience on thin clients; fast, stable, and efficient.
 Libraries, schools, and businesses looking for a GNU/Linux desktop using
 traditional paradigms their users are used to will find MATE a excellent
 alternative to going to a Unity/Gnome 3 desktop. As both an LTSP and MATE
-developer, I put together a short &lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;
+developer, I put together a short &lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 on some of the developments in both.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/pnL47bbFN68&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -241,10 +309,12 @@ on some of the developments in both.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/c-file.png&#34; alt=&#34;c-file&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re proud to announce our newest package on GitHub:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop/mate-university&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE University&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MATE University is targeted at all levels of developers (including beginners)
 to learn how to develop new panel applets, Caja (file manager) extensions,
@@ -264,8 +334,10 @@ commented code, makefiles and tips to use as springboard for new MATE applicatio
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;/a&gt;, operate a modern data center in Germany, and
+        &lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/first-color.gif&#34; alt=&#34;FirstColo&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, operate a modern data center in Germany, and
 are planning to migrate to MATE Desktop on their office workstations. FirstColo have
 kindly donated a new dedicated server to support MATE.&lt;/p&gt;
 &lt;p&gt;All the team would like to thank Martin Verges and his staff for this great news!&lt;/p&gt;
@@ -284,14 +356,22 @@ kindly donated a new dedicated server to support MATE.&lt;/p&gt;
         
         &lt;p&gt;We are now directing users to use the official Fedora package repository now.
 For instructions on using this repository please consult &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md#Fedora&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our installation
-guide for Fedora&lt;/a&gt;.&lt;/p&gt;
+guide for Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more information about MATE&amp;rsquo;s official inclusion in Fedora, see the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
-for help in our &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;
+for help in our &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+or for general MATE questions join us in &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -305,8 +385,12 @@ or for general MATE questions join us in &lt;a href=&#34;https://web.libera.chat
       <description>
         
         
-        &lt;p&gt;An &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
-is now available for our 1.4 release. As usual, follow &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;An &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
+is now available for our 1.4 release. As usual, follow &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these instructions&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re upgrading from an older release please make sure that you remove the old
 repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;
 
@@ -323,7 +407,9 @@ repositories and add the new ones, otherwise you will encounter problems.&lt;/p&
         
         
         &lt;p&gt;We are currently in the process of switching to handling all our issues via
-the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-desktop project on GitHub&lt;/a&gt; instead
+the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-desktop project on GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; instead
 of Perberos&amp;rsquo; page. The reason is simple: when Perberos is away none of the
 other developers can close tickets. This creates a bit of a mess.&lt;/p&gt;
 &lt;p&gt;Now, when you go to report a bug you must chose the correct GitHub repository

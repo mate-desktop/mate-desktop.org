@@ -28,11 +28,21 @@
 &lt;p&gt;Gnome 2 був найпопулярнішою стільницею Linux, але він вже недоступний &amp;hellip; MATE
 Тут, щоб надати вам ту саму стільницю &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Perberos спочатку форкнув Gnome 2 і назвав проєкт MATE. Користувачі та
-розробники успішно запустили MATE на &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;
+розробники успішно запустили MATE на &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 і на вимогу користувачів Perberos спростив компіляцію MATE для
-&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[Стефано Карапецас] (&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/stefano-k&lt;/a&gt;) і [Клімент Лефевр] (&lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/clefebvre&lt;/a&gt;)
-Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;/a&gt;).
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[Стефано Карапецас] (&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/stefano-k&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;) і [Клімент Лефевр] (&lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/clefebvre&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)
+Потім приєдналися до проєкту та створили пакунки для Debian і [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;).
 Стільниця MATE була представлена в Linux Mint 12 і зараз швидко набирає обертів.&lt;/p&gt;
 &lt;p&gt;Нашим пріоритетом є покращення MATE, щоб він був на рівні, з точки зору функціональності
 та стабільності з Gnome 2.32. Ми перенесемо теми, аплети та програми, які

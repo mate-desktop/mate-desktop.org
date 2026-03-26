@@ -26,12 +26,16 @@
         
         &lt;p&gt;Много је људи на свету који приступају својим Гну/Линукс радним површима
 преко тананих клијената и један од најдуже радних тананих клијената
-јесте пројекат &lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt;. Мејтова радна површ нуди
+јесте пројекат &lt;a href=&#34;https://ltsp.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Мејтова радна површ нуди
 фантастично радно искуство на тананим клијентима; брзину, стабилност и ефикасност.
 Библиотеке, школе и предузећа која траже Гну/Линукс радну површ која користи
 традиционалне парадигме на које су њихови корисници навикли, сматраће Мејт одличном
 заменом преласком на Јунити/Гном 3 радну површ. И као ЛТСП и као Мејт
-програмер, саставио сам кратак &lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;видео&lt;/a&gt;
+програмер, саставио сам кратак &lt;a href=&#34;https://www.youtube.com/watch?v=pnL47bbFN68&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;видео&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 о развоју и у једном и у другом.&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;//www.youtube.com/embed/pnL47bbFN68&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 

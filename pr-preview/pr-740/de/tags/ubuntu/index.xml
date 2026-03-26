@@ -24,13 +24,25 @@
       <description>
         
         
-        &lt;p&gt;Dank der Arbeit der &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Paketverwalter für Debian&lt;/a&gt;
-ist MATE 1.8.1 in Debian Jessie (Testing) und in &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; für Wheezy verfügbar.&lt;/p&gt;
+        &lt;p&gt;Dank der Arbeit der &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-Paketverwalter für Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+ist MATE 1.8.1 in Debian Jessie (Testing) und in &lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; für Wheezy verfügbar.&lt;/p&gt;
 &lt;p&gt;Als Folge der Aufnahme von MATE 1.8.1 in die Repositorien von Debian Testing in diesem Jahr
 findet sich MATE 1.8.1 auch in dem offiziellen Archiv von Ubuntu 14.10 Utopic Unicorn.
-Das &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu-MATE-Team&lt;/a&gt; hat kürzlich einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
-erstellt, der Aufforderung des &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
-folgend. Weiterhin erstellte das Team einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 12.04 Precise Pangolin&lt;/a&gt;.&lt;/p&gt;
+Das &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu-MATE-Team&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; hat kürzlich einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 14.04 Trusty Tahr&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+erstellt, der Aufforderung des &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+folgend. Weiterhin erstellte das Team einen &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA für Ubuntu 12.04 Precise Pangolin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Wenn Sie die MATE-Pakete für Debian oder Ubuntu benötigen, dann sind die obenstehenden Paket-Repositorien die offiziellen Quellen.&lt;/p&gt;
 &lt;p&gt;Wir haben die auf mate-desktop.org gehosteten Paket-Repositorien entfernt,
 da einige unsigniert waren und andere seit Monaten nicht gepflegt wurden.
@@ -48,24 +60,46 @@ Daher werden die Debian- und Ubuntu-Paket-Repositorien nun nicht länger auf mat
       <description>
         
         
-        &lt;p&gt;Kürzlich sind wir von einem Wiki auf &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; zu unserem eigenen gewechselt,
-das unter &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;/a&gt; erreichbar ist. Bitte
+        &lt;p&gt;Kürzlich sind wir von einem Wiki auf &lt;a href=&#34;https://github.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; zu unserem eigenen gewechselt,
+das unter &lt;a href=&#34;https://wiki.mate-desktop.org/#!index.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki.mate-desktop.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; erreichbar ist. Bitte
 beziehe dich ab jetzt auf dieses Wiki. Natürlich ist jeder willkommen, etwas beizutragen.&lt;/p&gt;
 &lt;p&gt;Für diejenigen, die es noch nicht wussten: Es ist
-möglich, &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probleme auf GitHub&lt;/a&gt; zu melden. Momentan ist
+möglich, &lt;a href=&#34;https://github.com/mate-desktop/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probleme auf GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; zu melden. Momentan ist
 das die einzige Möglichkeit, Fehler zu melden, allerdings arbeiten wir an einem Bugtracker.
 Wir werden diesen hier ankündigen, wenn er fertig ist.&lt;/p&gt;
 &lt;p&gt;Außerdem planen wir für die Zukunft ein Mate-Forum, dieses ist aber in einer sehr frühen Phase.&lt;/p&gt;
-&lt;p&gt;Alle &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt;-, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt;-
-und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;-Nutzerinnen und -Nutzer können jetzt über das Tridex-Repository
-auf den 1.1.x-Entwicklungs-Paketzweig zugreifen. Weitere Informationen finden sich auf der &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download-Seite&lt;/a&gt;
-des Wikis. In den &lt;a href=&#34;https://linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; befinden sich auch die Pakete der 1.0.x-Veröffentlichungsserie. Amanas PPA wird, falls dieses noch
+&lt;p&gt;Alle &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-, &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-
+und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Nutzerinnen und -Nutzer können jetzt über das Tridex-Repository
+auf den 1.1.x-Entwicklungs-Paketzweig zugreifen. Weitere Informationen finden sich auf der &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Download-Seite&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+des Wikis. In den &lt;a href=&#34;https://linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; befinden sich auch die Pakete der 1.0.x-Veröffentlichungsserie. Amanas PPA wird, falls dieses noch
 jemand nutzen sollte, nicht länger unterstützt. Die restlichen unserer 1.1.x-Veröffentlichungen wird in den Tridex-
 Repositories gehostet werden. Zukünftige Veröffentlichungen (zum Beispiel 1.2.0) werden hier gehostet werden.&lt;/p&gt;
-&lt;p&gt;Stolz können wir verkünden, dass die Paketierung für &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; begonnen hat.
+&lt;p&gt;Stolz können wir verkünden, dass die Paketierung für &lt;a href=&#34;https://www.opensuse.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; begonnen hat.
 Sobald neue Informationen vorliegen, werden wir diese zu unserem Wiki hinzufügen und eine Nachricht veröffentlichen.&lt;/p&gt;
-&lt;p&gt;Zu guter Letzt sind eine Leute &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unserem IRC-Kanal&lt;/a&gt; beigetreten
-und haben nach &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt;-Ebuilds für MATE gefragt. Diesbezüglich
+&lt;p&gt;Zu guter Letzt sind eine Leute &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unserem IRC-Kanal&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; beigetreten
+und haben nach &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Ebuilds für MATE gefragt. Diesbezüglich
 suchen wir nach Leuten, die sich bereit erklären könnten, diese aufzusetzen.&lt;/p&gt;
 &lt;p&gt;Fröhliche Feiertage wünscht das Mate-Team.&lt;/p&gt;
 

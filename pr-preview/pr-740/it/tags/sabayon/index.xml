@@ -27,7 +27,7 @@
         &lt;p&gt;Il team MATE è orgoglioso di annunciare il rilascio di MATE Desktop 1.6. Questa release è un enorme passo in avanti rispetto alla versione 1.4. In questo rilascio, abbiamo sostituito molti pacchetti e librerie deprecate con nuove tecnologie disponibili in
 GLib. Abbiamo aggiunto anche un gran numero di nuove funzionalità a MATE. Vorremmo ringraziare
 ciascun collaboratore e utente di MATE.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I principali cambiamenti nella versione 1.6 sono:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;il supporto a systemd e logind&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -121,14 +121,18 @@ Tutte le altre impostazioni saranno portate se avete installato MateConf 1.4.&lt
 &lt;/ul&gt;
 &lt;p&gt;Abbiamo chiesto agli utenti delle distribuzioni che offrono MATE cosa pensano del
 nostro Ambiente Desktop&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, fondatore e capo progetto di &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, fondatore e capo progetto di &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Crediamo che MATE sia un abbinamento perfetto per Salix. MATE ci fornisce un ambiente desktop familiare
 che è potente, solido e veloce. Inoltre, il team di MATE è
 molto amichevole ed è piacevole lavorarci assieme e questo significa molto per noi. Grazie ragazzi, per
 averci dato la scelta di rimanere con il nostro desktop preferito&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, fondatore e capo progetto di &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, fondatore e capo progetto di &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;È estremamente importante per noi che le persone siano felici con il loro computer. Quando quell&amp;rsquo;ambiente
 che tutti abbiamo amato e lavorato duramente per migliorare dal 2006 è stato
@@ -142,13 +146,17 @@ nella promozione e nel sostegno di MATE e continuiamo ad aiutare il suo
 sviluppo. Siamo molto soddisfatti di MATE, è esattamente quello che volevamo,
 ha iniziato da dove GNOME aveva lasciato e con ogni nuovo ciclo continua a migliorare.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Joos Ruis&lt;/strong&gt;, Consulente di strategia di  &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Joos Ruis&lt;/strong&gt;, Consulente di strategia di  &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Non ci piace come l&amp;rsquo;upstream abbia forzato i cambiamenti agli utenti e vogliamo che i nostri utenti abbiano
 l&amp;rsquo;opzione di decidere cosa usare. Con MATE nei nostri repository siamo certi
 che i nostri utenti possano sempre scegliere ciò che funziona meglio per loro.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, Manutentore MATE in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, Manutentore MATE in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Da quando è stata rilasciata Fedora 15 sono stato estremamente infelice e
 frustrato con la mia esperienza desktop fino a quando ho scoperto MATE. Ora su Fedora
@@ -163,7 +171,9 @@ Con MATE 1.6 posso sentirmi a casa sulla mia distribuzione Linux preferita
 e tornare a lavorare.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Abbiamo anche chiesto un commento dalla
-&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;compagnia che ha donato il server dove ospitiamo i servizi MATE&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO di &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;/a&gt;:&lt;/p&gt;
+&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;compagnia che ha donato il server dove ospitiamo i servizi MATE&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO di &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Siamo davvero felici di usare l&amp;rsquo;ambiente desktop MATE. In questo modo possiamo mantenere un desktop pulito
 e ben funzionante senza un sacco di roba inutile che distrae. Fino alla fine del

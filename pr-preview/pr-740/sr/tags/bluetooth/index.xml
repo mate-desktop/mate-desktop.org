@@ -25,7 +25,9 @@
         
         
         &lt;p&gt;Мејтова екипа је срећна да објави да сарађујемо са
-&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman“ пројектом&lt;/a&gt; и да помажемо
+&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman“ пројектом&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; и да помажемо
 ажурирање „Blueman“-а у „BlueZ“ 5.x.&lt;/p&gt;
 &lt;h2&gt;Зашто напустити „mate-bluetooth“?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;зашто-напустити-mate-bluetooth&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%b7%d0%b0%d1%88%d1%82%d0%be-%d0%bd%d0%b0%d0%bf%d1%83%d1%81%d1%82%d0%b8%d1%82%d0%b8-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;„mate-bluetooth“ подржава „BlueZ“ 4.x који је прекинут и многе
@@ -34,7 +36,9 @@
 „BlueZ“ 5.x је одрађено тако да представља много посла и не пружа
 низ функција доступних у „Blueman“-у.&lt;/p&gt;
 &lt;h2&gt;Зашто „Blueman“? Зар није мртав?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;зашто-blueman-зар-није-мртав&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%d0%b7%d0%b0%d1%88%d1%82%d0%be-blueman-%d0%b7%d0%b0%d1%80-%d0%bd%d0%b8%d1%98%d0%b5-%d0%bc%d1%80%d1%82%d0%b0%d0%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Док је оригинални „Blueman“ пројекат стагнирао, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Кристофер Шрам&lt;/a&gt;
+    &lt;a href=&#34;#%d0%b7%d0%b0%d1%88%d1%82%d0%be-blueman-%d0%b7%d0%b0%d1%80-%d0%bd%d0%b8%d1%98%d0%b5-%d0%bc%d1%80%d1%82%d0%b0%d0%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Док је оригинални „Blueman“ пројекат стагнирао, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Кристофер Шрам&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 је поново покренуо развој и почео да преноси „Blueman“ на „BlueZ“ 5.x. Док
 такође постоји одређени напор у ажурирању „Blueman“-а како би подржао „BlueZ“ 5.x, осећамо да
 ће обезбедити далеко боље „Blueman“ сучеље за Мејт.&lt;/p&gt;
@@ -49,7 +53,9 @@
 издање са исправкама грешака.&lt;/p&gt;
 &lt;h2&gt;Може ли то мало брже, мајсторе?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;може-ли-то-мало-брже-мајсторе&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%bc%d0%be%d0%b6%d0%b5-%d0%bb%d0%b8-%d1%82%d0%be-%d0%bc%d0%b0%d0%bb%d0%be-%d0%b1%d1%80%d0%b6%d0%b5-%d0%bc%d0%b0%d1%98%d1%81%d1%82%d0%be%d1%80%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Да. Свако ко је фамилијаран са „BlueZ“-ом 4.x/5.x, „dbus“-ом, „PyGObject“-ом и „PyGTK“ је охрабрен
-да допринесе путем ризнице &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman GitHub“&lt;/a&gt;.&lt;/p&gt;
+да допринесе путем ризнице &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;„Blueman GitHub“&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

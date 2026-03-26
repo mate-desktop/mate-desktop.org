@@ -28,7 +28,9 @@
 &lt;div class=&#34;alert alert-info&#34;&gt;&lt;strong&gt;Update&lt;/strong&gt; Il LiveCD è stato aggiornato a MATE 1.8 il 10 Marzo 2014.&lt;/div&gt;
 &lt;p&gt;Questo Live CD è stato creato in modo che i potenziali nuovi utenti possano provare il desktop MATE
 in modo non distruttivo. L&amp;rsquo;immagine può essere masterizzata su un DVD,
-montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come &lt;code&gt;dd&lt;/code&gt;. &lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; fate attenzione,  &lt;code&gt;unetbootin&lt;/code&gt; non è supportato. Potete scaricarlo dal link qui sotto:&lt;/p&gt;
+montata come file ISO, o scritta direttamente su una penna USB utilizzando una utility come &lt;code&gt;dd&lt;/code&gt;. &lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; fate attenzione,  &lt;code&gt;unetbootin&lt;/code&gt; non è supportato. Potete scaricarlo dal link qui sotto:&lt;/p&gt;
 &lt;h3&gt;download via BitTorrent (raccomandato)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;download-via-bittorrent-raccomandato&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#download-via-bittorrent-raccomandato&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Se potete, per favore lasciate il client aperto
 dopo che è terminato il download, in modo da renderlo disponibile ad altri. &lt;em&gt;Si raccomanda un client capace di web-seed
@@ -47,11 +49,15 @@ checksum SHA1.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Compatibilità&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;compatibilità&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#compatibilit%c3%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il Live CD è realizzato utilizzando &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; e MATE 1.8. Il Live CD è a 32 bit e dovrebbe quindi funzionare su ogni computer i686 o x86_64
+    &lt;a href=&#34;#compatibilit%c3%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il Live CD è realizzato utilizzando &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; e MATE 1.8. Il Live CD è a 32 bit e dovrebbe quindi funzionare su ogni computer i686 o x86_64
 con almeno 512MB RAM. I driver xorg sono inclusi per Intel (&lt;code&gt;i915&lt;/code&gt;),
 AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) e nvidia (&lt;code&gt;nouveau&lt;/code&gt;) con fallback a VESA.
 I driver per Virtual Box e VMware sono anch&amp;rsquo;essi inclusi in modo che sia semplice anche la valutazione utilizzando queste soluzioni di virtualizzazione.&lt;/p&gt;
-&lt;p&gt;Sono supportati tutti i filesystem comuni, incluso &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;,
+&lt;p&gt;Sono supportati tutti i filesystem comuni, incluso &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,
 e sono compresi alcuni strumenti per il recupero dei dati ed il backup. Se collegate il vostro
 dispositivo mobile, questo sarà molto probabilmente riconosciuto e sarete in grado di accedere
 ai dati in esso contenuti. È presente NetworkManager assieme a tutti i client VPN che esso
@@ -70,19 +76,39 @@ utilizzando l&amp;rsquo;account &lt;code&gt;mate&lt;/code&gt;.&lt;/p&gt;
 incluso alcune applicazioni aggiuntive che non fanno parte del desktop MATE
 per rendere il Live CD più utile e piacevole.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   - Browser web autonomo da mozilla.org&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   - Un clone di Partition Magic, frontend per GNU Parted&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  - Uno strumento per le informazioni di sistema ed il benchmark.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;   - Client IRC configurato per auto-connettersi a &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;      - Lettore dello schermo per individui che sono ciechi o con limitazioni visive&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      - Tastiera sullo schermo utile per individui con difficoltà motorie&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    - Client di messaggistica istantanea multi-protocollo&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    - Media player con una GUI semplice, grande velocità e diverse funzionalità&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   - Browser web autonomo da mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   - Un clone di Partition Magic, frontend per GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;  - Uno strumento per le informazioni di sistema ed il benchmark.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   - Client IRC configurato per auto-connettersi a &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;      - Lettore dello schermo per individui che sono ciechi o con limitazioni visive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;      - Tastiera sullo schermo utile per individui con difficoltà motorie&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;    - Client di messaggistica istantanea multi-protocollo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;    - Media player con una GUI semplice, grande velocità e diverse funzionalità&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Creative Commons content&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;creative-commons-content&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#creative-commons-content&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Abbiamo incluso i seguenti contenuti sotto la licenza Creative Commons.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        - Da leggere con Atril&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;                        - Da leggere con Atril&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Modificare la lingua&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modificare-la-lingua&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#modificare-la-lingua&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Per impostazione predefinita, il Live CD è configurato per utilizzare il locale &lt;code&gt;en_US&lt;/code&gt;, ma se lo si desidera
@@ -98,8 +124,12 @@ quindi fate il rebuild delle localizzazioni.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Linux Action Show&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;linux-action-show&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#linux-action-show&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Il LiveCD del desktop MATE e MATE stesso sono stati presentati nel &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action
-Show&lt;/a&gt; nell&amp;rsquo;episodio &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
-Linux Review&lt;/a&gt; .
+Show&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; nell&amp;rsquo;episodio &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; .
 Due clip sono riportate qui sotto, la prima è un rapido sguardo al LiveCD MATE Desktop
 e la seconda è una recensione di CuBox i4 su cui gira MATE.&lt;/p&gt;
 &lt;h3&gt;MATE Desktop LiveCD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop-livecd&#34;&gt;&lt;/span&gt;
@@ -110,7 +140,9 @@ e la seconda è una recensione di CuBox i4 su cui gira MATE.&lt;/p&gt;
     &lt;a href=&#34;#feedback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ci auguriamo che facciate un test con il Live CD e che vi piaccia la velocità e la semplicità
 del desktop MATE. Una volta che avrete provato il Live CD del Desktop MATE
 fateci sapere cosa ne pensate nei commenti o usate il Live CD per unirvi a noi
-nel &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;canale IRC #mate&lt;/a&gt;.&lt;/p&gt;
+nel &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;canale IRC #mate&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

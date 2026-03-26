@@ -24,11 +24,15 @@
       <description>
         
         
-        &lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;progetto Blueman&lt;/a&gt; ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
+        &lt;p&gt;I team di MATE sono deliziati di annunciare che stiamo collaborando col &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;progetto Blueman&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; ed aiutandoli ad aggiornare Blueman a BlueZ 5.x.&lt;/p&gt;
 &lt;h2&gt;Perché abbandonare mate-bluetooth?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-abbandonare-mate-bluetooth&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#perch%c3%a9-abbandonare-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supporta BlueZ 4.x che è stato abbandonato e molte distribuzioni nei loro repository di pacchetti, hanno rimpiazzato BlueZ 4.x con BlueZ 5.x., , o sono sul punto di farlo. Portare &lt;code&gt;mate-bluetooth&lt;/code&gt; a BlueZ 5.x si stava delineando un grandissimo lavoro e non avrebbe comunque offerto la ricchezza di caratteristiche disponibili in Blueman.&lt;/p&gt;
 &lt;h2&gt;Perché Blueman? Non è un progetto morto?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;perché-blueman-non-è-un-progetto-morto&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#perch%c3%a9-blueman-non-%c3%a8-un-progetto-morto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebbene il progetto originale Blueman fosse stagnante, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt;
+    &lt;a href=&#34;#perch%c3%a9-blueman-non-%c3%a8-un-progetto-morto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sebbene il progetto originale Blueman fosse stagnante, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 ha riacceso lo sviluppo ed ha iniziato a migrare Blueman a BlueZ 5.x. Nonostante occorra del lavoro per aggiornare Blueman nel supportare BlueZ 5.x, ci sentiamo che esso potrà fornire una  migliore interfaccia Bluetooth per MATE.&lt;/p&gt;
 &lt;h2&gt;Quando sarà pronta la versione aggiornata di Blueman?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;quando-sarà-pronta-la-versione-aggiornata-di-blueman&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#quando-sar%c3%a0-pronta-la-versione-aggiornata-di-blueman&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Qualcuno di voi potrebbe aver notato che l&amp;rsquo;&lt;a href=&#34;https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/&#34;&gt;annuncio di rilascio di MATE 1.8&lt;/a&gt;
@@ -39,7 +43,9 @@ non è ancora stata rilasciata. Si, abbiamo commesso un errore, scusateci.&lt;/p
 per la versione 1.8.1 che è intesa principalmente come una versione di bug fix.&lt;/p&gt;
 &lt;h2&gt;Non potete fare prima, cavolo?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;non-potete-fare-prima-cavolo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#non-potete-fare-prima-cavolo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Link permanente a questa sezione&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sì. Chiunque di voi che sia pratico di BlueZ 4.x/5.x, dbus, PyGObject e PyGTK è incoraggiato
-a contribuire attraverso il &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository Blueman GitHub&lt;/a&gt;.&lt;/p&gt;
+a contribuire attraverso il &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository Blueman GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

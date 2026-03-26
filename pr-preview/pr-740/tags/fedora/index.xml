@@ -47,7 +47,9 @@ $ sudo dnf update
     &lt;a href=&#34;#reporting-issues&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Please use the MATE Desktop issue tracker on GitHub and include &amp;lsquo;GTK3 and Fedora&amp;rsquo;
 in subject.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Some notes:&lt;/p&gt;
 &lt;ul&gt;
@@ -82,7 +84,7 @@ a giant step forward from the 1.4 release. In this release, we have replaced
 many deprecated packages and libraries with new technologies available in
 GLib. We have also added a lot of new features to MATE. We would like to thank
 every MATE contributor and user.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Main changes in 1.6 are:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd &amp;amp; logind support&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -176,14 +178,18 @@ All other settings will be migrated if you have MateConf 1.4 installed.&lt;/li&g
 &lt;/ul&gt;
 &lt;p&gt;We asked people from distributions that ship MATE what they think about our
 Desktop Environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; founder and project leader:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;We believe MATE is a perfect match for Salix. MATE provides us with a familiar
 desktop environment that is powerful, solid and fast. Also, the MATE team are
 very friendly and a pleasure to work with and this means a lot to us. Thanks for
 giving us the choice of sticking with our favourite desktop guys&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; founder and project leader:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; founder and project leader:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;It&amp;rsquo;s extremely important to us that people are happy with their computer. When that
 environment we all loved and worked hard to improve since 2006 was
@@ -197,13 +203,17 @@ in the promotion and backing of MATE and we continue to help with its
 development. We&amp;rsquo;re very pleased with MATE, it&amp;rsquo;s exactly what we wanted, it
 started where GNOME left off and with each new iteration it keeps getting better.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, strategy consultant of &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, strategy consultant of &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;We don&amp;rsquo;t like how upstream forced changes to users and want our users to have
 the option to decide what to use. With MATE in our repositories we are certain
 our users can always choose what works best for them.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, MATE maintainer in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, MATE maintainer in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Ever since the release of Fedora 15 was released I was extremely unhappy and
 frustrated with my desktop experience until I discovered MATE. Now on Fedora I
@@ -219,7 +229,9 @@ With MATE 1.6 I can feel right back at home on my favorite Linux distribution
 and get back to work.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We also asked for a comment from the
-&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;company who donated the server where we host MATE services&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO of &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;/a&gt;:&lt;/p&gt;
+&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;company who donated the server where we host MATE services&lt;/a&gt;. &lt;strong&gt;Martin Verges&lt;/strong&gt;, CEO of &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;We are really happy to use the MATE Desktop Environment. This way we can keep a clean and well
 working desktop without lots of useless and distracting stuff. Until the end
@@ -253,14 +265,22 @@ contributions by 39 people, and more than 150 translators.&lt;/p&gt;
         
         &lt;p&gt;We are now directing users to use the official Fedora package repository now.
 For instructions on using this repository please consult &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md#Fedora&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our installation
-guide for Fedora&lt;/a&gt;.&lt;/p&gt;
+guide for Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more information about MATE&amp;rsquo;s official inclusion in Fedora, see the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/Features/MATE-Desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fedoraproject.org/wiki/Features/MATE-Desktop&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you have any questions regarding installing MATE on Fedora then please ask
-for help in our &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate IRC channel&lt;/a&gt;
-or for general MATE questions join us in &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;
+for help in our &lt;a href=&#34;https://web.libera.chat/?#fedora-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#fedora-mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+or for general MATE questions join us in &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

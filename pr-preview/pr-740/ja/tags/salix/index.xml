@@ -25,7 +25,7 @@
         
         
         &lt;p&gt;当チームは、MATE デスクトップ 1.6 のリリースを公表できてうれしく思います。このリリースは 1.4 リリースからのとても大きな前進です。このリリースでは、多くの非推奨なパッケージやライブラリを、GLib で利用可能な新しい技術に置き換えました。また、MATE に多くの新機能を追加しました。MATE 貢献者とユーザーの皆さんに感謝します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.6.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;1.6 の主な変更点は次のとおりです。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;systemd と logind のサポート&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -118,23 +118,33 @@
 &lt;li&gt;多数の翻訳の追加と改善&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MATE を配布しているディストリビューションの人々に、MATE デスクトップ環境についてどのように考えているかを尋ねました。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;George Vlahavas&lt;/strong&gt;, &lt;a href=&#34;https://www.salixos.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Salix&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;私たちは MATE が Salix にぴったりだと信じています。MATE は、パワフル、堅牢かつ高速で、使い慣れたデスクトップ環境を提供してくれます。また、MATE チームはとてもフレンドリーで、一緒に仕事ができてとても楽しいです。これは私たちにとって大きな意味があります。お気に入りのデスクトップの人たちと一緒に仕事をする選択肢を与えてくれてありがとう。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; 創設者・プロジェクトリーダー:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;私たちにとって、人々がコンピュータに満足していることは非常に重要です。私たち全員が愛し、2006年以来改善しようと努力してきた環境が廃止されたとき、私たちはそれを手放して、人々に何か新しいものや何か別のものへの移行を依頼することに満足しませんでした。私たちは、私たちのユーザーが彼らの望むようにコンピュータを使い続けることができるようにするために本当に努力しました。そして私たちは、その環境をサポートし、それをさらに発展させるために率先して取り組んできた、同じような考えを持つ人々のチームに出会いました。Mint と MATE は密接に連携しており、チーム間の関係は素晴らしいものです。Mint は MATE の促進と支援において重要な役割を果たし、私たちはその開発を引き続き支援しています。私たちは MATE に非常に満足しています。それは GNOME が中断したところから始まり、新しく繰り返すことで改善され続けます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;/a&gt; 戦略コンサルタント:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Joost Ruis&lt;/strong&gt;, &lt;a href=&#34;https://www.sabayon.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sabayon&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; 戦略コンサルタント:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;私たちは、アップストリームがユーザーに変更を強制する方法が気に入らないので、ユーザーが何を使用するかを選択できるようにしたいと思っています。私たちのリポジトリに MATE を使用することで、私たちのユーザーは、各自にとって最適なものをいつでも選択できるようになります。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt; の MATE メンテナ:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dan Mashal&lt;/strong&gt;, &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; の MATE メンテナ:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Fedora 15 がリリースされて以来、私は MATE を見つけるまで、デスクトップ体験に非常に不満を抱いていました。今、Fedora では、これが穏当で安定していて、速くて、そして最も重要なことは、これが使い易いデスクトップです。MATE チームが Fedora の新しいリリースで作業するために compiz にパッチを当てる努力をしたおかげで、私の Fedora 14 (Fedora の最高のリリースと言われている) 体験を、ウィンドウ、デスクトップキューブ、アニメーション、そして 3D 効果で取り戻すことができました。私自身を含む多くのユーザーにとって、これまでどれほど大きな損失だったかを強調できないくらいです。今、MATE を使えば、次の Gnome リリースで何が崩壊するのか、また彼らがどれほどおかしなデザインのアイデアを施そうとするかも心配する必要がありませんし、Fedora のリリースごとにデスクトップのインターフェースを再学習する必要もありません。MATE 1.6 を使えば、自宅でお気に入りの Linux ディストリビューションを使って仕事に戻ることができます。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;私たちはまた、&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; からもコメントをいただきました。以下は &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
+&lt;p&gt;私たちはまた、&lt;a href=&#34;https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/&#34;&gt;MATE サービスのホスト用サーバを寄付された企業&lt;/a&gt; からもコメントをいただきました。以下は &lt;a href=&#34;https://www.first-colo.net/en/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FirstColo GmbH&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; の CEO &lt;strong&gt;Martin Verges&lt;/strong&gt; 氏からです。&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;私たちは MATE デスクトップ環境を使うことができて本当に幸せです。このようにすれば、無駄で邪魔なものをたくさん使わずに、きれいでよく機能するデスクトップを維持することができます。2012年末まで、私たちの会社全体が Ubuntu で作業していましたが、Unity デスクトップや他の多くの「エンドユーザー機能」を使って、私たちの生活を楽にしてくれる新しいデスクトップや自由なソフトウェアを探していました。Debian 7 Wheezy 上の MATE デスクトップで、私たちは何年も前からの、知っている通りに動作し、よく機能する高性能なデスクトップを見つけました。私たちは MATE チームが私たちの伝統的な Linux デスクトップを維持し、新しい機能を追加して新生活をもたらしてくれることを願っていますが、同時に優れたワークフローが手元にあることを願っています。これまでのところ、彼らは素晴らしい仕事をしてきましたし、Debianメンテナ等が近いうちに MATE デスクトップをミラーに追加してくれることを願っています (そしてもちろん、他の多くの人々も MATE を使うことでしょう！)。&lt;/p&gt;
 &lt;/blockquote&gt;

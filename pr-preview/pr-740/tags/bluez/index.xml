@@ -25,7 +25,9 @@
         
         
         &lt;p&gt;The MATE team are delighted to announce that we are collaborating with the
-&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman project&lt;/a&gt; and helping to
+&lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman project&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; and helping to
 update Blueman to BlueZ 5.x.&lt;/p&gt;
 &lt;h2&gt;Why ditch mate-bluetooth?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-ditch-mate-bluetooth&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#why-ditch-mate-bluetooth&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;code&gt;mate-bluetooth&lt;/code&gt; supports BlueZ 4.x which has been discontinued and many
@@ -34,7 +36,9 @@ respective package repositories. Migrating &lt;code&gt;mate-bluetooth&lt;/code&g
 shaping up to be a lot of work and doesn&amp;rsquo;t provide the range of features
 available in Blueman.&lt;/p&gt;
 &lt;h2&gt;Why Blueman? Isn&amp;rsquo;t it dead?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-blueman-isnt-it-dead&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#why-blueman-isnt-it-dead&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;While the original Blueman project has stagnated, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;/a&gt;
+    &lt;a href=&#34;#why-blueman-isnt-it-dead&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;While the original Blueman project has stagnated, &lt;a href=&#34;https://github.com/cschramm&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Schramm&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 has reignited the development and started porting Blueman to BlueZ 5.x. While
 there is also some effort in updating Blueman to support BlueZ 5.x we feel it
 will provide a far better Bluetooth interface for MATE.&lt;/p&gt;
@@ -49,7 +53,9 @@ ready in time for MATE 1.8.1 which is primarily intended as a bug fix
 release.&lt;/p&gt;
 &lt;h2&gt;Can&amp;rsquo;t you do it faster, damn it?!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cant-you-do-it-faster-damn-it&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cant-you-do-it-faster-damn-it&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Yes. Anyone familiar with BlueZ 4.x/5.x, dbus, PyGObject and PyGTK is encouraged
-to contribute via the &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman GitHub repository&lt;/a&gt;.&lt;/p&gt;
+to contribute via the &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blueman GitHub repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

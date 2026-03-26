@@ -24,15 +24,27 @@
       <description>
         
         
-        &lt;p&gt;Thanks to the efforts of the &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE package maintainers for Debian&lt;/a&gt;
+        &lt;p&gt;Thanks to the efforts of the &lt;a href=&#34;https://salsa.debian.org/groups/debian-mate-team/-/group_members&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE package maintainers for Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 MATE 1.8.1 is available in Debian Jessie (testing) and also
-&lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;/a&gt; for Wheezy.&lt;/p&gt;
+&lt;a href=&#34;https://backports.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian backports&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for Wheezy.&lt;/p&gt;
 &lt;p&gt;As a result of MATE 1.8.1 hitting the Debian testing repositories
 earlier this year, MATE 1.8.1 is also in the official archive
-for Ubuntu 14.10 Utopic Unicorn. The &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;/a&gt;
-team have recently created a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;/a&gt;
-at the request of the &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;/a&gt;
-and also a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;/a&gt;&lt;/p&gt;
+for Ubuntu 14.10 Utopic Unicorn. The &lt;a href=&#34;https://ubuntu-mate.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+team have recently created a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/trusty-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 14.04 Trusty Tahr&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+at the request of the &lt;a href=&#34;https://lists.ubuntu.com/archives/technical-board/2014-July/001981.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu Technical Board&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+and also a &lt;a href=&#34;https://launchpad.net/~ubuntu-mate-dev/&amp;#43;archive/ubuntu/precise-mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE 1.8.1 PPA for Ubuntu 12.04 Precise Pangolin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you require MATE packages for Debian or Ubuntu then the package
 repositories above are the official repositories to use.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ve removed the package repositories hosted on mate-desktop.org
@@ -52,8 +64,12 @@ repositories hosted on mate-desktop.org have been removed.&lt;/p&gt;
       <description>
         
         
-        &lt;p&gt;An &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
-is now available for our 1.4 release. As usual, follow &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;An &lt;a href=&#34;https://www.ubuntu.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; package repository for Ubuntu 12.10 Quantal Quetzal
+is now available for our 1.4 release. As usual, follow &lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/download.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these instructions&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re upgrading from an older release please make sure that you remove the old
 repositories and add the new ones, otherwise you will encounter problems.&lt;/p&gt;
 

@@ -25,7 +25,9 @@
         
         
         &lt;p&gt;Мејт је коначно нашао свој пут до куће.&lt;/p&gt;
-&lt;p&gt;Као што неки од вас можда знају, Мејт је створио &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+&lt;p&gt;Као што неки од вас можда знају, Мејт је створио &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 корисник, Перберос. Помало је иронично да се Мејт никада до сада
 није појавио у званичном спремишту Арч Линукс пакета. Тако је,
 Мејт је коначно доступан у ризници „[community]“ Арч Линукс
@@ -33,14 +35,18 @@
 &lt;p&gt;Можете да сазнате све што вам је потребно о инсталацији Мејта
 на Арч Линуксу са следећих вики страница:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Такође је вредно напоменути да ће сада застарели незванични пакет Мејт
 ризнице бити уклоњен када се синхронизују сва огледала Арч Линукса.
 Стога напред и освежите „/etc/pacman.conf“ и уклоните ризницу пакета
 „[mate]“.&lt;/p&gt;
 &lt;p&gt;Још једна предност уласка Мејта у званичну ризницу Арч Линукс пакета
-је та да ће Мејт сада такође бити представљен у ризници &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс АРМ&lt;/a&gt;
+је та да ће Мејт сада такође бити представљен у ризници &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс АРМ&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 пакета. Коначно могу да повучем своје „Raspberry Pi“ (armv6h) и Cubox Pro
 (armv7h) &lt;em&gt;„сервере“&lt;/em&gt; изградње. Нисам сигуран колико ће времена требати
 да се сви Мејтови пакети појаве у ризници Арч Линукс АРМ пакета, али сам
@@ -62,7 +68,9 @@
       <description>
         
         
-        &lt;p&gt;Пакети Мејта 1.6 су били доступни за &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+        &lt;p&gt;Пакети Мејта 1.6 су били доступни за &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 већ неко време. Стога чему објава на блогу?&lt;/p&gt;
 &lt;p&gt;У неколико последњих месеци пакети Мејта 1.6 за Арч Линукс су поправљени,
 очишћени и побољшани. Ово је претпреглед онога на чему смо радили:&lt;/p&gt;
@@ -88,22 +96,32 @@
 &lt;p&gt;Све што треба да знате о инсталирању Мејта 1.6 на Арч Линуксу можете
 сазнати на следећим вики страницама:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Нарочито желим да се захвалим:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Волфгангу Улбриху&lt;/a&gt; за рад са екипом
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Волфгангу Улбриху&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; за рад са екипом
 развоја Федоре на налажењу &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; и &lt;code&gt;upower&lt;/code&gt; исправки
 које су веома значајне за Арч Линукс и такође за допринос великом
 броју програма из света заједнице.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сандеру Свирсу&lt;/a&gt; и &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефану Карапетсасу&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сандеру Свирсу&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; и &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефану Карапетсасу&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 што су ми пожелели добродошлицу у екипу Мејта и што су ми помогли на IRC-у.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Сада када су пакети Мејта 1.6 у добром стању започећу процес стављања
 Мејта у званичне ризнице Арч Линукса. Можете помоћи око тога тако што
 ћете гласати за Мејтове пакете у AUR-у.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

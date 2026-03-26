@@ -3,82 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mate-desktop.org/docs/user/applications/caja/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/developer/getting-started/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/getting-started/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/artist/wallpapers/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/developer/dev-environment/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/artist/gtk-themes/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/installation/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/pluma/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
-  </url><url>
-    <loc>https://mate-desktop.org/docs/developer/first-contribution/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/atril/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/developer/building/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/configuration/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/artist/icon-themes/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
-    <loc>https://mate-desktop.org/docs/developer/artwork/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <loc>https://mate-desktop.org/docs/developer/c-and-gobject/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/eom/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/engrampa/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
-    <loc>https://mate-desktop.org/docs/developer/translation/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <loc>https://mate-desktop.org/docs/developer/gtk-development/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/troubleshooting/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/faq/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/mate-terminal/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/developer/first-contribution/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/developer/debugging/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/mate-system-monitor/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/mate-calc/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/mate-control-center/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/user/applications/mozo/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/docs/developer/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/artist/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
+  </url><url>
+    <loc>https://mate-desktop.org/docs/translator/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/blog/2024-02-27-mate-1-28-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/tags/releases/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -131,7 +152,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -190,7 +211,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
-                href="https://mate-desktop.org/pt_br/tags/"
+                href="https://mate-desktop.org/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -214,7 +235,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2021-08-08-mate-1-26-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -237,7 +258,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2020-02-10-mate-1-24-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -270,7 +291,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2019-03-18-mate-1-22-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -308,7 +329,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2018-02-07-mate-1-20-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -331,7 +352,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2017-03-13-mate-1-18-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -349,7 +370,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/outages/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -372,7 +393,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2016-12-22-server-outage/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -395,7 +416,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2016-09-21-mate-1-16-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -413,7 +434,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/forums/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -436,7 +457,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/mate/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -474,7 +495,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2016-07-28-mate-forums-are-closing/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -497,7 +518,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/private/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -520,7 +541,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2016-04-08-mate-1-14-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -538,7 +559,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2015-11-05-mate-1-12-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -561,7 +582,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2015-06-11-mate-1-10-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -579,7 +600,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/fedora/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -607,7 +628,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2015-06-11-mate-1-10-with-gtk3-for-fedora-21-22/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -630,7 +651,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2015-01-28-meet-mates-mastermind/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -658,7 +679,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/news/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -696,7 +717,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/interview/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -729,7 +750,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/linux-luddites/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -767,7 +788,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/mate-interview-with-linux-luddites/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -805,7 +826,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/ubuntu-mate/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -843,7 +864,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-09-29-mate-1-8-updated/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -876,7 +897,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/debian/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -929,7 +950,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-09-25-debian-and-ubuntu-repositories-removed/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -962,7 +983,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/ubuntu/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1015,7 +1036,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-05-10-mate-in-opensuse/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1053,7 +1074,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/opensuse/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1096,7 +1117,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/gsoc/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1129,7 +1150,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-04-28-mate-desktop-gsoc-2014-projects/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1162,7 +1183,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-03-17-galculator-is-coming-to-mate/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1190,7 +1211,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/blueman/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1218,7 +1239,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/bluetooth/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1246,7 +1267,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/bluez/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1274,7 +1295,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-03-11-mate-desktop-singing-the-bluez/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1302,7 +1323,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-03-10-mate-desktop-gsoc-2014/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1330,7 +1351,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-03-04-mate-1-8-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1353,7 +1374,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/i18n/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1386,7 +1407,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-02-14-mate-translation-contributions-requested/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1419,7 +1440,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-02-13-mate-desktop-roadmap-reshuffle/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1447,7 +1468,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/fosdem/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1480,7 +1501,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-02-07-stefano-presents-mate-at-fosdem/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1513,7 +1534,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-02-05-mate-desktop-mythbusting/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1546,7 +1567,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/arch-linux/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1594,7 +1615,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/livecd/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1622,7 +1643,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-01-30-mate-desktop-live-cd/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1650,7 +1671,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2014-01-16-mate-officially-in-arch-linux/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1678,7 +1699,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/raspberry-pi/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1706,7 +1727,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/linux-voice/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1729,7 +1750,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-11-25-support-linux-voice/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1752,7 +1773,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-11-16-mate-1.6-packages-for-arch-linux/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1775,7 +1796,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-11-08-debian-mate-packaging-team/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1798,7 +1819,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-11-08-mate-at-opensuse-summit/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1826,7 +1847,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/website-redesign/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1849,7 +1870,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-08-10-mate-package-repository-for-opensuse/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1872,7 +1893,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-07-21-stefano-presents-at-opensuse-conference/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1900,7 +1921,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/linux-mint/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -1948,7 +1969,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-04-02-mate-1-6-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1966,7 +1987,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/sabayon/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -1984,7 +2005,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/salix/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2002,7 +2023,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-03-26-new-themes/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2025,7 +2046,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/themes/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2048,7 +2069,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/ltsp/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2076,7 +2097,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-03-20-mate-and-ltsp/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2104,7 +2125,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-03-12-mate-university/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2132,7 +2153,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2013-01-20-changes-to-mate-notification-daemon/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2155,7 +2176,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/firstcolo/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2183,7 +2204,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-12-27-thank-you-first-colo/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2211,7 +2232,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-11-10-mate-package-repository-for-fedora/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2239,7 +2260,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-10-16-mate-package-repository-for-ubuntu-quantal/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2282,7 +2303,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-07-30-mate-1-4-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2305,7 +2326,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-04-16-mate-1-2-released/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -2328,7 +2349,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2012-01-18-reporting-bugs/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2366,7 +2387,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/tags/gentoo/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2404,7 +2425,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2011-12-24-new-wiki-and-new-distributions-supported/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2447,7 +2468,7 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/blog/2011-12-05-introducing-mate-desktop/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2486,7 +2507,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
-                href="https://mate-desktop.org/pt_br/blog/20111205introducing-mate-desktop/"
+                href="https://mate-desktop.org/pt-br/blog/20111205introducing-mate-desktop/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2510,10 +2531,10 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/about/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/blog/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2572,7 +2593,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
-                href="https://mate-desktop.org/pt_br/blog/"
+                href="https://mate-desktop.org/pt-br/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2654,7 +2675,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
-                href="https://mate-desktop.org/pt_br/categories/"
+                href="https://mate-desktop.org/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2678,16 +2699,16 @@
                 />
   </url><url>
     <loc>https://mate-desktop.org/community/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/download/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
-    <loc>https://mate-desktop.org/releases/1/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <loc>https://mate-desktop.org/download/1/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url><url>
     <loc>https://mate-desktop.org/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -2746,7 +2767,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
-                href="https://mate-desktop.org/pt_br/"
+                href="https://mate-desktop.org/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2769,7 +2790,7 @@
                 href="https://mate-desktop.org/"
                 />
   </url><url>
-    <loc>https://mate-desktop.org/releases/</loc>
-    <lastmod>2026-03-22T10:19:17+00:00</lastmod>
+    <loc>https://mate-desktop.org/team/</loc>
+    <lastmod>2026-03-26T19:57:46+00:00</lastmod>
   </url>
 </urlset>

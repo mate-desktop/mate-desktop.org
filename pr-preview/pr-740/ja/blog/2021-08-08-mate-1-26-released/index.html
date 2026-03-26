@@ -12,7 +12,7 @@
   <meta name="description" content="今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。
 MATE 1.26 で新しくなったこと 今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。
 MATE デスクトップ 1.26 の主な変更点は次のとおりです。
-私たちは、Waylandでは Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR/MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取ることや貢献を開始することを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。" /><link rel="canonical" href="https://mate-desktop.org/ja/blog/2021-08-08-mate-1-26-released/" itemprop="url" />
+私たちは、Wayland では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR /MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取る ことや貢献を開始する ことを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。" /><link rel="canonical" href="https://mate-desktop.org/ja/blog/2021-08-08-mate-1-26-released/" itemprop="url" />
 
 <meta property="og:title" content="MATE 1.26 を公開しました">
 <meta
@@ -25,7 +25,11 @@ MATE 1.26 で新しくなったこと
     今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。
 MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 
-私たちは、Waylandでは Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。
+私たちは、Wayland
+ 
+では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson
+ 
+ でビルドできるようになりました。
 Pluma は大幅に改善されました。
 
 コンテンツの概要を即時に確認できる新しいミニマップがあります。
@@ -39,8 +43,14 @@ Pluma は大幅に改善されました。
 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。
 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。
 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。
-ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。
-電卓は GNU MPFR/MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
+ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink
+ 
+ をサポートします。
+電卓は GNU MPFR
+ 
+/MPC
+ 
+ ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
 
 私たちはついに最近の計算を示す履歴を追加しました。
 履歴がアクティブな時、電卓のサイズを変更できるようになりました。
@@ -52,10 +62,18 @@ Pluma は大幅に改善されました。
 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。
 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。
 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。
-電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。
+電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret
+ 
+ へ移植されています。
 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。
 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。
-新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取ることや貢献を開始することを遠慮せずにお願いします。
+新しい Wiki
+ 
+ が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取る
+ 
+ことや貢献を開始する
+ 
+ことを遠慮せずにお願いします。
 翻訳が更新されました。翻訳チームのみなさんに感謝します！
 
 MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。
@@ -66,7 +84,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
   content="
     article
   ">
-<meta property="og:url" content="https://mate-desktop.org/ja/blog/2021-08-08-mate-1-26-released/"><meta property="article:section" content="blog">
+<meta property="og:url" content="https://mate-desktop.org/ja/blog/2021-08-08-mate-1-26-released/"><meta property="og:image" content="https://mate-desktop.org/images/mate.png"><meta property="article:section" content="blog">
 
 <meta
   property="article:published_time"
@@ -75,7 +93,7 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
 
 <meta
   property="article:modified_time"
-  content="2026-03-22T10:19:17+00:00">
+  content="2026-03-26T19:57:46+00:00">
 
 
 
@@ -83,17 +101,19 @@ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所か
   <meta itemprop="description" content="今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。
 MATE 1.26 で新しくなったこと 今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。
 MATE デスクトップ 1.26 の主な変更点は次のとおりです。
-私たちは、Waylandでは Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR/MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取ることや貢献を開始することを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。">
+私たちは、Wayland では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR /MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取る ことや貢献を開始する ことを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。">
   <meta itemprop="datePublished" content="2021-08-10T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-03-22T10:19:17+00:00">
-  <meta itemprop="wordCount" content="960">
+  <meta itemprop="dateModified" content="2026-03-26T19:57:46+00:00">
+  <meta itemprop="wordCount" content="964">
+  <meta itemprop="image" content="https://mate-desktop.org/images/mate.png">
   <meta itemprop="keywords" content="Releases">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mate-desktop.org/images/mate.png">
   <meta name="twitter:title" content="MATE 1.26 を公開しました">
   <meta name="twitter:description" content="今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。
 MATE 1.26 で新しくなったこと 今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。
 MATE デスクトップ 1.26 の主な変更点は次のとおりです。
-私たちは、Waylandでは Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR/MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取ることや貢献を開始することを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。">
+私たちは、Wayland では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は Meson でビルドできるようになりました。 Pluma は大幅に改善されました。 コンテンツの概要を即時に確認できる新しいミニマップがあります。 新しいグリッド背景パターンによって、Pluma が手書きパッドへと変わります。 検索プラグインは「元に戻す操作」をサポートするようになりました。 行番号の表示/非表示のショートカット Ctrl &#43; Y を追加しました。 設定ダイアログは、すべての新機能に追いつくために再設計が必要でした。 新しいPluma プラグインと共に、テキストエディタは ブラケット補完、Comment/Uncommentコード、ビルトイン端末、および単語補完をサポートする機能豊富な IDE にすることができます。 コントロールセンタでは、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。 通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、「Do not Disturb」アプレットが追加されました。 アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました。 ネットスピード・アプレットはデフォルトで詳細情報を表示し、netlink をサポートします。 電卓は GNU MPFR /MPC ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。 私たちはついに最近の計算を示す履歴を追加しました。 履歴がアクティブな時、電卓のサイズを変更できるようになりました。 整数の因数分解速度が大幅に向上しました。 モジュール式演算評価が大幅に高速化（モジュール式指数機能）。 ファイルマネージャ Caja では、新しいブックマークサイドバーを選択できます。Caja は、コンテキストメニューでドライブの初期化をサポートします。コンテキストメニューから起動して任意のプログラムが追加可能な、Caja Actions 拡張機能がデスクトップの一部になりました。 Atril では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアのメモリフットプリントはさらに小さくなりました。 ウィンドウマネージャ Marco は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。 Engrampa は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。 電源管理にはキーボードの調光を有効にする新しいオプションがあります。これは libsecret へ移植されています。 多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 :-) です。 私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。 新しい Wiki が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、連絡を取る ことや貢献を開始する ことを遠慮せずにお願いします。 翻訳が更新されました。翻訳チームのみなさんに感謝します！ MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。">
 
     <link rel="preload" href="/css/compiled/main.min.ba25a2ce29fb3c9b47488aa427b82f7cbbbeae7f94a789244957b85a29f5f14a.css" as="style" integrity="sha256-uiWizin7PJtHSIqkJ7gvfLu&#43;rn&#43;Up4kkSVe4Win18Uo=" />
     <link href="/css/compiled/main.min.ba25a2ce29fb3c9b47488aa427b82f7cbbbeae7f94a789244957b85a29f5f14a.css" rel="stylesheet" integrity="sha256-uiWizin7PJtHSIqkJ7gvfLu&#43;rn&#43;Up4kkSVe4Win18Uo=" />
@@ -130,22 +150,16 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 ><span class="hx:text-center">ダウンロード</span>
 </a><a
   title=""
-  href="/ja/docs"
-  
-  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
-><span class="hx:text-center">ドキュメント</span>
-</a><a
-  title=""
   href="/ja/blog"
   
   class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:font-medium"
 ><span class="hx:text-center">ブログ</span>
 </a><a
   title=""
-  href="/ja/about"
+  href="/ja/docs"
   
   class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
-><span class="hx:text-center">概要</span>
+><span class="hx:text-center">ドキュメント</span>
 </a><a
   title=""
   href="/ja/community"
@@ -154,10 +168,16 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 ><span class="hx:text-center">コミュニティ</span>
 </a><a
   title=""
-  href="/ja/releases"
+  href="/ja/team"
   
   class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
-><span class="hx:text-center">Releases</span>
+><span class="hx:text-center">Team</span>
+</a><a
+  title=""
+  href="/ja/about"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">概要</span>
 </a><div class="hextra-search-wrapper hx:relative hx:md:w-64">
   <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
     <input
@@ -231,7 +251,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
       
               <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
       href="/download/"
@@ -239,304 +259,20 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
     >
       <span class="hx:min-w-0 [word-break:break-word]">ダウンロード</span>
     </a>
-  </div></li>
-              <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">ドキュメント</span>
-    </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
         <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">User Documentation</span>
-    </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div>
-              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/getting-started/"
+      href="/download/1/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
+      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.24</span>
     </a>
   </div>
               
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/installation/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Installation</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/configuration/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Configuration</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Applications</span>
-    </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div>
-              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/caja/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Caja</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/pluma/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Pluma</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/atril/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Atril</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/eom/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Eye of MATE</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/engrampa/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Engrampa</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/mate-terminal/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">MATE Terminal</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/mate-system-monitor/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">System Monitor</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/mate-calc/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Calculator</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/mate-control-center/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Control Center</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/applications/mozo/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Mozo</span>
-    </a>
-  </div>
-              
-            </li></ul>
-      </div>
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/troubleshooting/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Troubleshooting</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/user/faq/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">FAQ</span>
-    </a>
-  </div>
-              
-            </li></ul>
-      </div>
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Developer Documentation</span>
-    </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div>
-              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/getting-started/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/first-contribution/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Your First Contribution</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/building/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Building from Source</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/artwork/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Artwork &amp; Themes</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/developer/translation/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Translation</span>
-    </a>
-  </div>
-              
-            </li></ul>
-      </div>
             </li></ul>
       </div></li>
               <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
@@ -1143,15 +879,390 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
       </div></li>
               <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">ドキュメント</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">User Documentation</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/about/"
+      href="/docs/user/getting-started/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">概要</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
     </a>
-  </div></li>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/installation/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Installation</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/configuration/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Configuration</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Applications</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/caja/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Caja</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/pluma/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Pluma</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/atril/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Atril</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/eom/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Eye of MATE</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/engrampa/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Engrampa</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/mate-terminal/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">MATE Terminal</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/mate-system-monitor/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">System Monitor</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/mate-calc/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Calculator</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/mate-control-center/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Control Center</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/applications/mozo/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Mozo</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/troubleshooting/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Troubleshooting</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/user/faq/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">FAQ</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Developer Documentation</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/getting-started/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Getting Started</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/dev-environment/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Development Environment</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/building/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Building from Source</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/c-and-gobject/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">C, GLib &amp; GObject</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/gtk-development/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">GTK Development</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/first-contribution/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Your First Contribution</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/developer/debugging/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Debugging</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/artist/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Artist Documentation</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/artist/wallpapers/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Wallpapers</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/artist/gtk-themes/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">GTK Themes</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/artist/icon-themes/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Icon Themes</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/translator/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Translator Documentation</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div></li>
               <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
@@ -1165,30 +1276,26 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
   </div></li>
               <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/releases/"
+      href="/team/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Releases</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Team</span>
     </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="セクションの切り替え" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+  </div></li>
+              <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
         hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/releases/1/"
+      href="/about/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">MATE 1.24</span>
+      <span class="hx:min-w-0 [word-break:break-word]">概要</span>
     </a>
-  </div>
-              
-            </li></ul>
-      </div></li>
+  </div></li>
     </ul>
 
     <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div></div>
@@ -1324,7 +1431,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
         
         <li role="none" class="hx:flex hx:flex-col">
           <a
-            href="/pt_br/"
+            href="/pt-br/"
             role="menuitem"
             class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
           >Português (Brasil)</a>
@@ -1622,12 +1729,16 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
                 </a></div>
         <div class="content">
           <p>今回のリリースには通常よりも少し時間がかかったかもしれませんが、18ヶ月の開発期間を経て、MATE 1.26 がリリースできたことをうれしく思います。このリリース実現するために協力していただいたすべての貢献者のみなさんに感謝します。</p>
-<p><img src="/images/blog/about-mate-1.26.ja.png" alt="MATE About dialog"  data-zoomable loading="lazy" /></p>
+<p><img src="/images/blog/about-mate-1.26.ja.png" alt="MATE About dialog"  loading="lazy" /></p>
 <h2>MATE 1.26 で新しくなったこと<span class="hx:absolute hx:-mt-20" id="mate-126-で新しくなったこと"></span>
     <a href="#mate-126-%e3%81%a7%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h2><p>今回のリリースの課題は、MATE デスクトップに新しい機能を追加すると同時に、私たち全員が知っていて愛している、ルック＆フィールを維持することでした。追加されたすべての機能は確かに非常にエキサイティングですが、私たちは多数のバグ修正、コードベースの最新化、パフォーマンスの最適化を行うことを忘れませんでした。</p>
 <p>MATE デスクトップ 1.26 の主な変更点は次のとおりです。</p>
 <ul>
-<li>私たちは、<a href="https://wayland.freedesktop.org/"target="_blank" rel="noopener">Wayland</a>では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は <a href="https://mesonbuild.com/"target="_blank" rel="noopener">Meson</a> でビルドできるようになりました。</li>
+<li>私たちは、<a href="https://wayland.freedesktop.org/"target="_blank" rel="noopener">Wayland<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>では Atril、システムモニタ、Pluma、端末、その他デスクトップのコンポーネントをサポートしています。さらに、電卓と端末は <a href="https://mesonbuild.com/"target="_blank" rel="noopener">Meson<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> でビルドできるようになりました。</li>
 <li><strong>Pluma</strong> は大幅に改善されました。
 <ul>
 <li>コンテンツの概要を即時に確認できる<strong>新しいミニマップ</strong>があります。</li>
@@ -1641,8 +1752,14 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li><strong>コントロールセンタ</strong>では、ウィンドウの設定ダイアログが改善され、オプションが追加されています。表示ダイアログに表示スケーリングのオプションが追加されました。</li>
 <li>通知はハイパーリンクに対応するようになったので、一層便利になりました。そしてついに、<strong>「Do not Disturb」アプレット</strong>が追加されました。</li>
 <li>アプレットについていえば、ウィンドウリストのアプレットにはマウススクロールを無効にする新しいオプションがあります。オプションのウィンドウサムネイルは <strong>cairo サーフェスとしてレンダリングされるので、鮮明でクリアになりました</strong>。</li>
-<li>ネットスピード・アプレットはデフォルトで詳細情報を表示し、<a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html"target="_blank" rel="noopener">netlink</a> をサポートします。</li>
-<li><strong>電卓</strong>は <a href="https://www.mpfr.org/"target="_blank" rel="noopener">GNU MPFR</a>/<a href="http://www.multiprecision.org/mpc"target="_blank" rel="noopener">MPC</a> ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
+<li>ネットスピード・アプレットはデフォルトで詳細情報を表示し、<a href="https://www.man7.org/linux/man-pages/man7/netlink.7.html"target="_blank" rel="noopener">netlink<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> をサポートします。</li>
+<li><strong>電卓</strong>は <a href="https://www.mpfr.org/"target="_blank" rel="noopener">GNU MPFR<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>/<a href="http://www.multiprecision.org/mpc"target="_blank" rel="noopener">MPC<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> ライブラリに移植されました。これはより正確でより高速な計算と関数の追加 (例えばリーマンゼータ関数、ガウス誤差関数) を意味します。
 <ul>
 <li>私たちはついに<strong>最近の計算を示す履歴を追加しました</strong>。</li>
 <li>履歴がアクティブな時、電卓のサイズを変更できるようになりました。</li>
@@ -1654,15 +1771,25 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li><strong>Atril</strong> では、遅いリニア検索がバイナリツリー検索に置き換えられたので、サイズの大きな文書をスクロールする速度が大幅に向上しました。必要な場合にのみ EvWebView が作成されるようになったので、文書ビューアの<strong>メモリフットプリントはさらに小さくなりました</strong>。</li>
 <li>ウィンドウマネージャ <strong>Marco</strong> は、最小化されたウィンドウを元の位置へより確実に復元するようになりました。</li>
 <li><strong>Engrampa</strong> は電子書籍 (EPUB) と ARC アーカイブをサポートするようになりました。さらに、暗号化された RAR アーカイブを開くことができるようになりました。</li>
-<li><strong>電源管理</strong>にはキーボードの調光を有効にする新しいオプションがあります。これは <a href="https://wiki.gnome.org/Projects/Libsecret"target="_blank" rel="noopener">libsecret</a> へ移植されています。</li>
+<li><strong>電源管理</strong>にはキーボードの調光を有効にする新しいオプションがあります。これは <a href="https://wiki.gnome.org/Projects/Libsecret"target="_blank" rel="noopener">libsecret<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> へ移植されています。</li>
 <li>多くの About という概要ダイアログは、より適切な記述へと更新されました。なぜなら、小さな事も重要 <code>:-)</code> です。</li>
 <li>私たちは多数の不具合や一部のメモリリークを修正し、ほぼ全部のデスクトップコンポーネントのコードベースを最新にしました。</li>
-<li>新しい <a href="https://wiki.mate-desktop.org/"target="_blank" rel="noopener">Wiki</a> が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、<a href="https://wiki.mate-desktop.org/introduction/contributing/"target="_blank" rel="noopener">連絡を取る</a>ことや<a href="https://wiki.mate-desktop.org/introduction/contributing/"target="_blank" rel="noopener">貢献を開始する</a>ことを遠慮せずにお願いします。</li>
+<li>新しい <a href="https://wiki.mate-desktop.org/"target="_blank" rel="noopener">Wiki<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> が出来たので、新規の貢献者がプロジェクトに非常に参加しやすくなりました。やる気のある方が至急必要なので、<a href="https://wiki.mate-desktop.org/introduction/contributing/"target="_blank" rel="noopener">連絡を取る<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>ことや<a href="https://wiki.mate-desktop.org/introduction/contributing/"target="_blank" rel="noopener">貢献を開始する<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>ことを遠慮せずにお願いします。</li>
 <li>翻訳が更新されました。翻訳チームのみなさんに感謝します！</li>
 </ul>
 <p>MATE デスクトップ 1.26 の各種コンポーネントは、次の場所からダウンロードできます。</p>
 <ul>
-<li><a href="https://pub.mate-desktop.org/releases/1.26/"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.26/</a></li>
+<li><a href="https://pub.mate-desktop.org/releases/1.26/"target="_blank" rel="noopener">https://pub.mate-desktop.org/releases/1.26/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></li>
 </ul>
 <h2>詳細情報<span class="hx:absolute hx:-mt-20" id="詳細情報"></span>
     <a href="#%e8%a9%b3%e7%b4%b0%e6%83%85%e5%a0%b1" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h2><p>詳細は以下のとおりです。</p>
@@ -1679,7 +1806,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/atril/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/atril/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/atril/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Caja ファイルマネージャ<span class="hx:absolute hx:-mt-20" id="caja-ファイルマネージャ"></span>
     <a href="#caja-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>作成時刻の情報をリストの列に追加できるようになりました。</li>
@@ -1697,7 +1826,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/</a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>caja-actions<span class="hx:absolute hx:-mt-20" id="caja-actions"></span>
     <a href="#caja-actions" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>今回のリリースで初登場です。</li>
@@ -1710,7 +1841,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>i18n のサポートを追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/</a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-dropbox/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-dropbox/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>caja-extensions<span class="hx:absolute hx:-mt-20" id="caja-extensions"></span>
     <a href="#caja-extensions" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>gksu: 新しいスレッドでコマンドを実行しません</li>
@@ -1721,7 +1854,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-extensions/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/</a></p>
+<p>完全な変更点は次の changelog にあります: <a href="https://github.com/mate-desktop/caja-extensions/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/caja-extensions/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Engrampa 書庫マネージャ<span class="hx:absolute hx:-mt-20" id="engrampa-書庫マネージャ"></span>
     <a href="#engrampa-%e6%9b%b8%e5%ba%ab%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>rar 6.00: アーカイブファイルの内容リストを暗号化ファイルリストに修正</li>
@@ -1732,7 +1867,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次にあります：<a href="https://github.com/mate-desktop/engrampa/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/</a></p>
+<p>完全な変更点は次にあります：<a href="https://github.com/mate-desktop/engrampa/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/engrampa/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>eom 画像ビューア<span class="hx:absolute hx:-mt-20" id="eom-画像ビューア"></span>
     <a href="#eom-%e7%94%bb%e5%83%8f%e3%83%93%e3%83%a5%e3%83%bc%e3%82%a2" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ui ファイルのアップグレード</li>
@@ -1742,19 +1879,25 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は、<a href="https://github.com/mate-desktop/eom/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/</a> に掲載しています。</p>
+<p>完全な変更点は、<a href="https://github.com/mate-desktop/eom/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/eom/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a> に掲載しています。</p>
 <h3>libmatekbd<span class="hx:absolute hx:-mt-20" id="libmatekbd"></span>
     <a href="#libmatekbd" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>キーボードレイアウト表示のキー名のフォントサイズを小さくしました。</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatekbd/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatekbd/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatekbd/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>libmatemixer<span class="hx:absolute hx:-mt-20" id="libmatemixer"></span>
     <a href="#libmatemixer" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>alsa: udev サポートの追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatemixer/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/libmatemixer/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmatemixer/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>libmateweather お天気 MATE<span class="hx:absolute hx:-mt-20" id="libmateweather-お天気-mate"></span>
     <a href="#libmateweather-%e3%81%8a%e5%a4%a9%e6%b0%97-mate" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ベルリン・テーゲル空港を外しました。</li>
@@ -1762,7 +1905,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>タイの都市を更新</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです <a href="https://github.com/mate-desktop/libmateweather/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/</a></p>
+<p>完全な変更点は次のとおりです <a href="https://github.com/mate-desktop/libmateweather/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/libmateweather/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Marco ウィンドウマネージャ<span class="hx:absolute hx:-mt-20" id="marco-ウィンドウマネージャ"></span>
     <a href="#marco-%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>window: _GNOME_WM_STRUT_AREA のサポートを追加</li>
@@ -1778,7 +1923,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/marco/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/marco/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/marco/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-applets MATE アプレット<span class="hx:absolute hx:-mt-20" id="mate-applets-mate-アプレット"></span>
     <a href="#mate-applets-mate-%e3%82%a2%e3%83%97%e3%83%ac%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>netspeed: ダウンしているインターフェイスを選択できます。</li>
@@ -1794,13 +1941,17 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります： <a href="https://github.com/mate-desktop/mate-applets/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/</a></p>
+<p>完全な changelog は次にあります： <a href="https://github.com/mate-desktop/mate-applets/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-applets/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-backgrounds 背景<span class="hx:absolute hx:-mt-20" id="mate-backgrounds-背景"></span>
     <a href="#mate-backgrounds-%e8%83%8c%e6%99%af" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>新しい &lsquo;Something slowly gets clear&rsquo; というゾウの壁紙</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-backgrounds/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-backgrounds/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-calc 電卓<span class="hx:absolute hx:-mt-20" id="mate-calc-電卓"></span>
     <a href="#mate-calc-%e9%9b%bb%e5%8d%93" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>GNU MPFR/MPC ライブラリへ移植</li>
@@ -1817,12 +1968,16 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-calc/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-calc/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-calc/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-common<span class="hx:absolute hx:-mt-20" id="mate-common"></span>
     <a href="#mate-common" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-common/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-common/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-common/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-control-center コントロールセンタ<span class="hx:absolute hx:-mt-20" id="mate-control-center-コントロールセンタ"></span>
     <a href="#mate-control-center-%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab%e3%82%bb%e3%83%b3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>windows-applet: 新しく、Alt-Tab でウィンドウの境界表示と、トップタイリング（ウィンドウスナップ）許可のオプションを追加</li>
@@ -1839,7 +1994,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-control-center/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-control-center/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-control-center/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-desktop<span class="hx:absolute hx:-mt-20" id="mate-desktop"></span>
     <a href="#mate-desktop" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>a11y-keyboard: capslock-beep-enable gsetting の追加</li>
@@ -1848,19 +2005,25 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-desktop/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-desktop/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-desktop/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-icon-theme<span class="hx:absolute hx:-mt-20" id="mate-icon-theme"></span>
     <a href="#mate-icon-theme" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>一部の png ファイルから実行ビットを削除します。</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-icon-theme/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-icon-theme/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-indicator-applet<span class="hx:absolute hx:-mt-20" id="mate-indicator-applet"></span>
     <a href="#mate-indicator-applet" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>applet-main: GtkStock アイコンの置き換え</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-indicator-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-indicator-applet/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-media<span class="hx:absolute hx:-mt-20" id="mate-media"></span>
     <a href="#mate-media" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ミュート/ミュート解除の checkmenuitem を imagemenuitem へ置き換え</li>
@@ -1868,21 +2031,27 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer、Cppcheck、および GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-media/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-media/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-media/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-menus MATE メニュー<span class="hx:absolute hx:-mt-20" id="mate-menus-mate-メニュー"></span>
     <a href="#mate-menus-mate-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>コレクション・メニューの追加</li>
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-menus/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-menus/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-menus/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-netbook MATE ネットブック<span class="hx:absolute hx:-mt-20" id="mate-netbook-mate-ネットブック"></span>
     <a href="#mate-netbook-mate-%e3%83%8d%e3%83%83%e3%83%88%e3%83%96%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-window: GtkStock アイコンの置き換え</li>
 <li>mate-maximus-autostart.desktop: 非推奨のエンコード・キーを削除</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-netbook/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-netbook/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-netbook/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE 通知デーモン<span class="hx:absolute hx:-mt-20" id="mate-通知デーモン"></span>
     <a href="#mate-%e9%80%9a%e7%9f%a5%e3%83%87%e3%83%bc%e3%83%a2%e3%83%b3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>Do Not Disturb アプレットの追加</li>
@@ -1894,7 +2063,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/</a></p>
+<p>完全な changelog は次にあります: at <a href="https://github.com/mate-desktop/mate-notification-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-notification-daemon/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-panel MATE パネル<span class="hx:absolute hx:-mt-20" id="mate-panel-mate-パネル"></span>
     <a href="#mate-panel-mate-%e3%83%91%e3%83%8d%e3%83%ab" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>workspace-switcher: xmonad WM をサポート</li>
@@ -1910,12 +2081,16 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-panel/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-panel/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-panel/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-polkit<span class="hx:absolute hx:-mt-20" id="mate-polkit"></span>
     <a href="#mate-polkit" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-polkit/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-polkit/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-polkit/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-power-manager MATE 電源管理<span class="hx:absolute hx:-mt-20" id="mate-power-manager-mate-電源管理"></span>
     <a href="#mate-power-manager-mate-%e9%9b%bb%e6%ba%90%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-power-preferences: キーボードの調光を有効にするオプションの追加</li>
@@ -1929,7 +2104,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-power-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-power-manager/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-screensaver スクリーンセーバ<span class="hx:absolute hx:-mt-20" id="mate-screensaver-スクリーンセーバ"></span>
     <a href="#mate-screensaver-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%bb%e3%83%bc%e3%83%90" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>ロック画面で日時の書式を変更できるようにしました。</li>
@@ -1939,7 +2116,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>複数のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-screensaver/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-screensaver/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-sensors-applet センサーアプレット<span class="hx:absolute hx:-mt-20" id="mate-sensors-applet-センサーアプレット"></span>
     <a href="#mate-sensors-applet-%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%a2%e3%83%97%e3%83%ac%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>aticonfig プラグインの削除</li>
@@ -1947,7 +2126,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>libsensors-plugin: GRegex へ移植</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-sensors-applet/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-sensors-applet/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE セッションマネージャ<span class="hx:absolute hx:-mt-20" id="mate-セッションマネージャ"></span>
     <a href="#mate-%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9e%e3%83%8d%e3%83%bc%e3%82%b8%e3%83%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>freedesktop のガイドラインに従って、隠しキーを使用した自動実行を無効にします。</li>
@@ -1959,7 +2140,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-session-manager/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-session-manager/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-settings-daemon<span class="hx:absolute hx:-mt-20" id="mate-settings-daemon"></span>
     <a href="#mate-settings-daemon" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>xsettings: Qt HiDPI 環境設定の改善</li>
@@ -1970,7 +2153,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>2 個のメモリリークを修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-settings-daemon/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-settings-daemon/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE システムモニタ<span class="hx:absolute hx:-mt-20" id="mate-システムモニタ"></span>
     <a href="#mate-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%83%a2%e3%83%8b%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>Wayland のサポート追加</li>
@@ -1980,7 +2165,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-system-monitor/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-system-monitor/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE 端末<span class="hx:absolute hx:-mt-20" id="mate-端末"></span>
     <a href="#mate-%e7%ab%af%e6%9c%ab" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>デスクトップファイルの検証警告を修正</li>
@@ -1993,20 +2180,26 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-terminal/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-terminal/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-terminal/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE ユーザーガイド<span class="hx:absolute hx:-mt-20" id="mate-ユーザーガイド"></span>
     <a href="#mate-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>一部のイタリア数字から実行ビットを削除</li>
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-guide/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-guide/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>MATE ユーザー共有<span class="hx:absolute hx:-mt-20" id="mate-ユーザー共有"></span>
     <a href="#mate-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-common の MATE_COMPILE_WARNINGS を使用</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-share/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-user-share/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-user-share/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>mate-utils<span class="hx:absolute hx:-mt-20" id="mate-utils"></span>
     <a href="#mate-utils" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mate-screenshot: 下部にあるボタンの順序を修正</li>
@@ -2017,14 +2210,18 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>build: ネイティブ言語サポート (NLS) を無効にするオプション (<code>--disable-nls</code>) を追加</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-utils/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/mate-utils/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mate-utils/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Mozo メニューエディタ<span class="hx:absolute hx:-mt-20" id="mozo-メニューエディタ"></span>
     <a href="#mozo-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>mozo.ui を最初から書き直し</li>
 <li>collection ディレクトリを編集する際の奇妙な動作を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/mozo/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/mozo/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/mozo/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Pluma テキストエディタ<span class="hx:absolute hx:-mt-20" id="pluma-テキストエディタ"></span>
     <a href="#pluma-%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>sort プラグインを新しい GtkSourceView api へ移植</li>
@@ -2044,7 +2241,9 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>Clang Static Analyzer や Cppcheck、GCC によって報告されたコード解析や非推奨警告を修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/pluma/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/</a></p>
+<p>完全な変更点は次のとおりです: <a href="https://github.com/mate-desktop/pluma/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/pluma/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 <h3>Pluma プラグイン<span class="hx:absolute hx:-mt-20" id="pluma-プラグイン"></span>
     <a href="#pluma-%e3%83%97%e3%83%a9%e3%82%b0%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"></a></h3><ul>
 <li>今回のリリースで初登場です。</li>
@@ -2066,11 +2265,13 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
 <li>scan-build によって報告されたメモリリークの修正</li>
 <li>g10n: 翻訳の更新</li>
 </ul>
-<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/python-caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/</a></p>
+<p>完全な changelog は次にあります: <a href="https://github.com/mate-desktop/python-caja/commits/master/"target="_blank" rel="noopener">https://github.com/mate-desktop/python-caja/commits/master/<svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></p>
 
         </div>
     <div class="hx:mt-12 hx:mb-8 hx:block hx:text-xs hx:text-gray-500 hx:ltr:text-right hx:rtl:text-left hx:dark:text-gray-400">
-      最終更新日 <time datetime="2026-03-22T10:19:17.000Z">3月 22, 2026</time> • mbkma</div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+      最終更新日 <time datetime="2026-03-26T19:57:46.000Z">3月 26, 2026</time> • mbkma</div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
         href="/ja/blog/2020-02-10-mate-1-24-released/"
         title="MATE 1.24 を公開しました"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
@@ -2208,7 +2409,7 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
         
         <li role="none" class="hx:flex hx:flex-col">
           <a
-            href="/pt_br/"
+            href="/pt-br/"
             role="menuitem"
             class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9"
           >Português (Brasil)</a>
@@ -2313,41 +2514,6 @@ MATE デスクトップ 1.26 の主な変更点は次のとおりです。
     </div></footer>
     
     <script defer src="/js/main.min.46d42cab19f63e2c332130a096ae912d026e944005d389cd8008de0c043f542d.js" integrity="sha256-RtQsqxn2PiwzITCglq6RLQJulEAF04nNgAjeDAQ/VC0="></script>
-<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script><script defer src="/ja.search.min.943b4bad5bc1de262d585448f273edbc94e47f2f446e1cee4ce80cb1aa62c048.js" integrity="sha256-lDtLrVvB3iYtWFRI8nPtvJTkfy9EbhzuTOgMsapiwEg="></script><script defer src="/js/medium-zoom.min.6603320c02180d81b16dca4971f52763035ebc6ff18bd38729a47ff062be8d67.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK&#43;jWc=" crossorigin="anonymous"></script><script>
-  document.addEventListener("DOMContentLoaded", () => {
-    if (!window.mediumZoom) {
-      return;
-    }
-
-    const getOverlay = () => {
-      return document.documentElement.classList.contains("dark")
-        ? "rgba(17, 17, 17, 0.98)"
-        : "rgba(255, 255, 255, 0.98)";
-    };
-
-    const zoom = window.mediumZoom("[data-zoomable]", {
-      background: getOverlay(),
-    });
-
-    const style = document.createElement("style");
-    style.textContent = `
-      .medium-zoom-overlay {
-        z-index: 1000;
-      }
-      .medium-zoom-image--opened {
-        z-index: 1001;
-      }
-    `;
-    document.head.appendChild(style);
-
-    new MutationObserver(() => {
-      zoom.update({ background: getOverlay() });
-    }).observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    });
-  });
-</script>
-
+<script defer src="/js/flexsearch.433e941a8a573ebb9931fc16fc75266ab6b93f569ac2fb4f3dc66882e0416f4c.js" integrity="sha256-Qz6UGopXPruZMfwW/HUmara5P1aawvtPPcZoguBBb0w=" crossorigin="anonymous"></script><script defer src="/ja.search.min.943b4bad5bc1de262d585448f273edbc94e47f2f446e1cee4ce80cb1aa62c048.js" integrity="sha256-lDtLrVvB3iYtWFRI8nPtvJTkfy9EbhzuTOgMsapiwEg="></script>
   </body>
 </html>

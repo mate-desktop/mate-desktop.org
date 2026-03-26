@@ -30,7 +30,9 @@
 ausprobieren können, ohne Änderungen an Ihrem System vornehmen zu müssen.
 Das Image kann auf eine DVD gebrannt, als ISO eingehangen oder
 direkt auf einen USB-Stick mittels eines Utilitys wie &lt;code&gt;dd&lt;/code&gt; geschrieben werden.
-&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;/a&gt; aufgepasst: &lt;code&gt;unetbootin&lt;/code&gt; wird nicht unterstützt.
+&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Luddites&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; aufgepasst: &lt;code&gt;unetbootin&lt;/code&gt; wird nicht unterstützt.
 Sie können es wie folgt herunterladen:&lt;/p&gt;
 &lt;h3&gt;BitTorrent-Download (empfohlen)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bittorrent-download-empfohlen&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#bittorrent-download-empfohlen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Wenn Sie die zusätzlichen Bytes verschmerzen können, lassen Sie bitte den Client geöffnet,
@@ -51,13 +53,17 @@ Datei zu der SHA1-Checksum passt.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Kompatibilität&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kompatibilität&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#kompatibilit%c3%a4t&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Live-CD wurde mit &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; und MATE 1.8 gebaut.
+    &lt;a href=&#34;#kompatibilit%c3%a4t&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Live-CD wurde mit &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; und MATE 1.8 gebaut.
 Die Live-CD ist 32-Bit und sollte daher auf jedem i686- oder x86_64-Rechner mit
 mindestens 512MB RAM laufen. X.Org-Treiber sind enthalten für Intel (&lt;code&gt;i915&lt;/code&gt;),
 AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) und nvidia (&lt;code&gt;nouveau&lt;/code&gt;) mit einer Ausweichlösung mittels VESA.
 Treiber für Virtual Box und VMware sind ebenso enthalten, damit das Ausprobieren
 auf diesen Virtualisierungs-Lösungen einfach ist.&lt;/p&gt;
-&lt;p&gt;Alle gängigen Dateisysteme, inclusive &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;, werden
+&lt;p&gt;Alle gängigen Dateisysteme, inclusive &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, werden
 unterstützt, und einige Tools zur Datenrettung und zum Backup sind auch dabei.
 Wenn Sie Ihr mobiles Endgerät anstecken, wird es mit großer Wahrscheinlichkeit erkannt,
 und Sie werden in der Lage sein, auf die sich darauf befindlichen Daten zuzugreifen.
@@ -76,19 +82,39 @@ Die Live-CD loggt automatisch mit dem &lt;code&gt;mate&lt;/code&gt;-Account ein.
 aber wir haben einige zusätzliche nicht zum MATE-Desktop gehörenden Anwendungen aufgenommen,
 um die Live-CD ein wenig nützlicher und unterhaltsamer zu machen.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt; - Stand-Alone Web-Browser von mozilla.org&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt; - Ein Klon von Partition Magic, Front-End für GNU Parted&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt; - Ein System-Informations- und Benchmark-Tool&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt; - IRC-Client, konfiguriert für die automatischen Verbindung zu &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt; - Screen-Reader für blinde bzw. sehbeinträchtigte Personen&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt; - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt; - Multi-Protokoll Instant-Messaging Client&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt; - Medien-Player mit einer schicken GUI, hoher Geschwindigkeit und vielen Features&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Stand-Alone Web-Browser von mozilla.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Ein Klon von Partition Magic, Front-End für GNU Parted&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Ein System-Informations- und Benchmark-Tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - IRC-Client, konfiguriert für die automatischen Verbindung zu &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Screen-Reader für blinde bzw. sehbeinträchtigte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - On-Screen-Keyboard, nützlich für motorisch eingeschränkte Personen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Multi-Protokoll Instant-Messaging Client&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Medien-Player mit einer schicken GUI, hoher Geschwindigkeit und vielen Features&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Creative-Commons-Inhalte&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;creative-commons-inhalte&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#creative-commons-inhalte&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wir haben die folgenden Inhalte, lizensiert unter Creative-Commons, hinzugepackt:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt; - Zum Lesen mit Atril&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Zum Lesen mit Atril&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Die Sprache ändern&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;die-sprache-ändern&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#die-sprache-%c3%a4ndern&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Standardmäßig ist bei der Live-CD das &lt;code&gt;en_US&lt;/code&gt;- Gebietsschema eingestellt, aber falls
@@ -106,8 +132,12 @@ in Ihre MATE-Session, die nun Ihre bevorzugte Sprache verwendet:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Vorstellung in der Linux-Action-Show&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vorstellung-in-der-linux-action-show&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#vorstellung-in-der-linux-action-show&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die MATE-Desktop-Live-CD und MATE selbst haben wir
-auf der &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action Show&lt;/a&gt; vorgestellt
-in der &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox-Linux-Review&lt;/a&gt;-Episode.
+auf der &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Action Show&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; vorgestellt
+in der &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox-Linux-Review&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Episode.
 Zwei Videos sind unten eingebettet. Das erste bietet einen kurzen Einblick in die MATE-Desktop-Live-CD,
 das zweite eine Besprechung der CuBox i4, auf der MATE läuft.&lt;/p&gt;
 &lt;h3&gt;MATE-Desktop Live-CD&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop-live-cd&#34;&gt;&lt;/span&gt;
@@ -118,7 +148,9 @@ das zweite eine Besprechung der CuBox i4, auf der MATE läuft.&lt;/p&gt;
     &lt;a href=&#34;#r%c3%bcckmeldung&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wir hoffen, Sie lassen sich auf eine Testfahrt mit der Live-CD ein und mögen die Geschwindigkeit und Einfachheit,
 die der MATE-Desktop bietet. Sobald Sie zurück sind,
 lassen Sie uns wissen, was Sie darüber denken. Benutzen Sie dazu bitte die Kommentarfunktion oder treffen Sie uns im
-&lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate IRC channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -133,21 +165,27 @@ lassen Sie uns wissen, was Sie darüber denken. Benutzen Sie dazu bitte die Komm
         
         
         &lt;p&gt;MATE ist endlich zuhause angekommen.&lt;/p&gt;
-&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;/a&gt;-Nutzer
+&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Nutzer
 erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
 in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde &amp;ndash; bis jetzt.
 Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/code&gt;-Paketrepositorien verfügbar!&lt;/p&gt;
 &lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
 auf den folgenden Wiki-Seiten:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
 MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
 synchronisiert wurden. Updaten Sie daher &lt;code&gt;/etc/pacman.conf&lt;/code&gt;,
 und entfernen Sie das &lt;code&gt;[mate]&lt;/code&gt;-Paket-Repositorium.&lt;/p&gt;
 &lt;p&gt;Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
-ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;/a&gt;-Repositorium
+ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Repositorium
 erscheinen wird. Ich kann endlich meine Build-&lt;em&gt;&amp;ldquo;Server&amp;rdquo;&lt;/em&gt; für Raspberry Pi (armv6h) und
 Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
 wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber
@@ -172,10 +210,20 @@ mit einigen nützlichen Performance-Tricks installiert.&lt;/p&gt;
         &lt;p&gt;Willkommen bei der MATE Desktop-Umgebung!&lt;/p&gt;
 &lt;p&gt;Gnome 2 war die populärste Linux-Desktop-Umgebung, die aber nicht mehr verfügbar ist&amp;hellip; MATE
 möchte den gleichen Desktop anbieten &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Ursprünglich hat Perberos Gnome 2 geforkt und das Projekt MATE genannt. Nutzerinnen und Nutzer sowie Entwicklerinnen und Entwickler haben MATE erfolgreich auf &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; eingesetzt,
-wegen hoher Nachfrage hat es Perberos außerdem erleichtert, MATE unter &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt; zu kompilieren.&lt;/p&gt;
-&lt;p&gt;Dann sind &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; und &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
-dem Projekt beigetreten und haben es für Debian und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt; paketiert.
+&lt;p&gt;Ursprünglich hat Perberos Gnome 2 geforkt und das Projekt MATE genannt. Nutzerinnen und Nutzer sowie Entwicklerinnen und Entwickler haben MATE erfolgreich auf &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; eingesetzt,
+wegen hoher Nachfrage hat es Perberos außerdem erleichtert, MATE unter &lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; zu kompilieren.&lt;/p&gt;
+&lt;p&gt;Dann sind &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; und &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+dem Projekt beigetreten und haben es für Debian und &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; paketiert.
 Der MATE-Desktop wurde in Linux Mint 12 eingesetzt und steigert sein Momentum gerade rapide.&lt;/p&gt;
 &lt;p&gt;Höchste Priorität hat es für uns, MATE zu verbessern und es in Sachen Funktionen
 und Stabilität auf den Stand von Gnome 2.32 zu bringen. Wir werden Themen, Applets und Anwendungen, die

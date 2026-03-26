@@ -25,13 +25,19 @@
         
         
         &lt;p&gt;MATE はようやく我が家に落ち着きました。&lt;/p&gt;
-&lt;p&gt;皆さんの中には、MATEが &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; のユーザー、Perberos さんによって作成されたことをご存知の方がいるかもしれません。MATE がこれまで正式な Arch Linux のパッケージリポジトリに収録されていなかったというのは、皮肉なことです。この通り、MATE はついに Arch Linux の &lt;code&gt;[community]&lt;/code&gt; パッケージリポジトリで利用可能になりました！&lt;/p&gt;
+&lt;p&gt;皆さんの中には、MATEが &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; のユーザー、Perberos さんによって作成されたことをご存知の方がいるかもしれません。MATE がこれまで正式な Arch Linux のパッケージリポジトリに収録されていなかったというのは、皮肉なことです。この通り、MATE はついに Arch Linux の &lt;code&gt;[community]&lt;/code&gt; パッケージリポジトリで利用可能になりました！&lt;/p&gt;
 &lt;p&gt;Arch Linux に MATE をインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;すべての Arch Linux ミラーが同期されると、現在は廃止となった非公式な MATE パッケージリポジトリが削除されることに注意してください。そのため、&lt;code&gt;/etc/pacman.conf&lt;/code&gt; を更新し、&lt;code&gt;[mate]&lt;/code&gt; パッケージリポジトリを削除してください。&lt;/p&gt;
-&lt;p&gt;MATE を正式な Arch Linux パッケージリポジトリに入れるもう 1 つの利点は、MATE が &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;/a&gt; パッケージリポジトリでも機能するようになることです。私はついに Raspberry Pi (armv6h) と Cubox Pro (armv7h) のビルド*&amp;ldquo;サーバ&amp;rdquo;*を引退させることができます。すべての MATE パッケージが Arch Linux ARM パッケージリポジトリに現れるまでにどの位の時間がかかるのかは分かりませんが、すでにいくつかのパッケージがビルドされているのを確認しています。&lt;/p&gt;
+&lt;p&gt;MATE を正式な Arch Linux パッケージリポジトリに入れるもう 1 つの利点は、MATE が &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux ARM&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; パッケージリポジトリでも機能するようになることです。私はついに Raspberry Pi (armv6h) と Cubox Pro (armv7h) のビルド*&amp;ldquo;サーバ&amp;rdquo;*を引退させることができます。すべての MATE パッケージが Arch Linux ARM パッケージリポジトリに現れるまでにどの位の時間がかかるのかは分かりませんが、すでにいくつかのパッケージがビルドされているのを確認しています。&lt;/p&gt;
 &lt;p&gt;MATE は 512MB の RAM を搭載した Raspberry Pi Model B で非常にうまく動作するので、もし Pi と予備の SDCARD があれば試してみてください。Arch Linux とMATE を Raspberry Pi にインストールする方法について、私はブログ記事を書くつもりです。近いうちに、パフォーマンス改善に役立つことも書きます。&lt;/p&gt;
 
       </description>
@@ -46,7 +52,9 @@
       <description>
         
         
-        &lt;p&gt;MATE1.6 パッケージは &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt; ではかなり前から提供されています。ではどうしてこのブログに投稿したのかといば &amp;hellip;&lt;/p&gt;
+        &lt;p&gt;MATE1.6 パッケージは &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; ではかなり前から提供されています。ではどうしてこのブログに投稿したのかといば &amp;hellip;&lt;/p&gt;
 &lt;p&gt;ここ数ヶ月の間に、Arch Linux 用の MATE 1.6 パッケージが修正され、整理され、拡張されました。私たちがこれまで取り組んできたことの概要は以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Arch Linux にあった特有なバグがすべて修正されました。&lt;/li&gt;
@@ -69,20 +77,30 @@
 &lt;/ul&gt;
 &lt;p&gt;MATE 1.6 を Arch Linux にインストールするのに必要な情報は、次の Wiki ページですべて知ることができます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;次の方々に対して特にお礼を申し上げます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;/a&gt; さん
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wolfgang Ulbrich&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; さん
 Fedora 開発チームと協力しての &lt;code&gt;systemd&lt;/code&gt;、&lt;code&gt;logind&lt;/code&gt;、&lt;code&gt;upower&lt;/code&gt; の取り組み。
 Arch Linux にとって非常に有益な各種修正。
 さらにまた、多数のコミュニティー・アプリケーションの貢献。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;/a&gt; さんと &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; さん
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sander Sweers&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; さんと &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; さん
 私を MATE チームに迎え入れてくださり、IRC で助けていただいたこと。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MATE 1.6 パッケージが良好な状態になったので、MATE を Arch Linux の公式リポジトリに入れるプロセスを開始します。AUR で MATE パッケージに投票することで支援することが可能です。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

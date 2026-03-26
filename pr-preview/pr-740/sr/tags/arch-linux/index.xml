@@ -30,7 +30,9 @@
 процене Мејтову радну површ а да не наруше свој тренутни систем. Слика
 може бити нарезана на ДВД, прикачена као ИСО датотека, или директно
 записана на УСБ меморијском штапићу помоћу алата као што је &lt;code&gt;dd&lt;/code&gt;.
-&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти&lt;/a&gt; пазите, &lt;code&gt;unetbootin&lt;/code&gt;
+&lt;a href=&#34;https://luddites.latenightlinux.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Лудисти&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; пазите, &lt;code&gt;unetbootin&lt;/code&gt;
 није подржан. Живи ЦД можете преузети са везе испод:&lt;/p&gt;
 &lt;h3&gt;Преузимање путем Бит Торента (препоручено)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;преузимање-путем-бит-торента-препоручено&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%bf%d1%80%d0%b5%d1%83%d0%b7%d0%b8%d0%bc%d0%b0%d1%9a%d0%b5-%d0%bf%d1%83%d1%82%d0%b5%d0%bc-%d0%b1%d0%b8%d1%82-%d1%82%d0%be%d1%80%d0%b5%d0%bd%d1%82%d0%b0-%d0%bf%d1%80%d0%b5%d0%bf%d0%be%d1%80%d1%83%d1%87%d0%b5%d0%bd%d0%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ако можете да потрошите бајтове, оставите програм отвореним након
@@ -52,13 +54,17 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Сагласност&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;сагласност&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%d1%81%d0%b0%d0%b3%d0%bb%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД је изграђен коришћењем &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукса&lt;/a&gt; и
+    &lt;a href=&#34;#%d1%81%d0%b0%d0%b3%d0%bb%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД је изграђен коришћењем &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукса&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; и
 Мејта 1.8. Живи ЦД је 32-бита тако да треба да ради на свим i686 или x86_64
 рачунарима са најмање 512MB RAM-а. Xorg управљачки програми су укључени
 за Intel (&lt;code&gt;i915&lt;/code&gt;), AMD/ATI (&lt;code&gt;radeon&lt;/code&gt;) и nvidia (&lt;code&gt;nouveau&lt;/code&gt;) са пребацивањем на VESA.
 Управљачки програми за Virtual Box and VMware су такође укључени тако да је
 процењивање коришћењем ових решења виртуелизације врло једноставно.&lt;/p&gt;
-&lt;p&gt;Сви општи системи датотека, укључујући &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;/a&gt;, су подржани
+&lt;p&gt;Сви општи системи датотека, укључујући &lt;a href=&#34;http://open-zfs.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZFS&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, су подржани
 а укључени су и неки алати за повртак подтака и резерве. Ако прикључите ваш
 мобилни уређај највероватније да ће бити препознат и можете да приступите
 подацима на њему. Управник мреже је укључен са свим VPN клијентима које
@@ -77,19 +83,39 @@
 укључили смо и неке додатне програме који нису део Мејтове радне површи да
 бисмо Живи ЦД учинили мало кориснијим и пријатнијим.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt;   – Самосталан веб прегледник из „mozilla.org“&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;/a&gt;   – Клон Partition Magic-а, челник за Гну Партед&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;/a&gt;  – Алат за информације система и оцењивање&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;/a&gt;    - IRC клијент подешен да се сам повеже на &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;/a&gt;   – Тастатура на екрану корисна за појединце са моторичким потешкоћама&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;/a&gt;      – Читач екрана за појединце који су слепи или оштећеног вида&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;/a&gt;    – Вишепротоколни клијент брзих порука&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;/a&gt;    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mozilla.org/firefox/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   – Самосталан веб прегледник из „mozilla.org“&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gparted.sourceforge.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GParted&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   – Клон Partition Magic-а, челник за Гну Партед&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.berlios.de/software/hardinfo/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HardInfo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;  – Алат за информације система и оцењивање&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hexchat.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HexChat&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;    - IRC клијент подешен да се сам повеже на &lt;a href=&#34;https://web.libera.chat/?#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#mate@libera&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Onboard&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;   – Тастатура на екрану корисна за појединце са моторичким потешкоћама&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnome.org/projects/orca&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Orca&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;      – Читач екрана за појединце који су слепи или оштећеног вида&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pidgin.im/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pidgin&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;    – Вишепротоколни клијент брзих порука&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.xnoise-media-player.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xnoise&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;    – Медијски пуштач са једноставним графичким счељем, великом брзином и много функција&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Садржај Заједничког стваралаштва&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;садржај-заједничког-стваралаштва&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%81%d0%b0%d0%b4%d1%80%d0%b6%d0%b0%d1%98-%d0%b7%d0%b0%d1%98%d0%b5%d0%b4%d0%bd%d0%b8%d1%87%d0%ba%d0%be%d0%b3-%d1%81%d1%82%d0%b2%d0%b0%d1%80%d0%b0%d0%bb%d0%b0%d1%88%d1%82%d0%b2%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Следећи садржај смо укључили под лиценцом Заједничког стварлаштва.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;/a&gt;                        – За читање у Атрилу&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.greenteapress.com/thinkpython/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Think Python&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;                        – За читање у Атрилу&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Промена језика&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;промена-језика&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%bc%d0%b5%d0%bd%d0%b0-%d1%98%d0%b5%d0%b7%d0%b8%d0%ba%d0%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Као основни језик за Живи ЦД је постављен &lt;code&gt;en_US&lt;/code&gt;, али ако желите
@@ -105,8 +131,12 @@
 &lt;pre&gt;&lt;code&gt;sudo systemctl restart lightdm
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Програм „Линукс у акцији“&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;програм-линукс-у-акцији&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc-%d0%bb%d0%b8%d0%bd%d1%83%d0%ba%d1%81-%d1%83-%d0%b0%d0%ba%d1%86%d0%b8%d1%98%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД Мејтове радне површи и сам Мејт су приказани у &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Програму „Линукс у акцији“&lt;/a&gt; у епизоди &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
-Linux Review&lt;/a&gt;.
+    &lt;a href=&#34;#%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc-%d0%bb%d0%b8%d0%bd%d1%83%d0%ba%d1%81-%d1%83-%d0%b0%d0%ba%d1%86%d0%b8%d1%98%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Живи ЦД Мејтове радне површи и сам Мејт су приказани у &lt;a href=&#34;https://www.jupiterbroadcasting.com/show/linuxactionshow/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Програму „Линукс у акцији“&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; у епизоди &lt;a href=&#34;https://www.jupiterbroadcasting.com/50842/cubox-linux-review-las-s30e08/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox
+Linux Review&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.
 Два снимка су постављена испод, први је брзи преглед Живог ЦД-а Мејтове
 радне површи а други је преглед „CuBox-а i4“ на коме ради Мејт.&lt;/p&gt;
 &lt;h3&gt;Живи ЦД Мејтове радне површи&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;живи-цд-мејтове-радне-површи&#34;&gt;&lt;/span&gt;
@@ -117,7 +147,9 @@ Linux Review&lt;/a&gt;.
     &lt;a href=&#34;#%d0%bf%d0%be%d0%b2%d1%80%d0%b0%d1%82%d0%bd%d0%b8-%d0%be%d0%b4%d0%b3%d0%be%d0%b2%d0%be%d1%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Надамо се да ћете испробати Живи ЦД и да ћете уживати у брзини и једноставности
 коју пружа Мејтова радна површ. Након што испробате Живи ЦД Мејтове радне површи
 реците нам у коментарима шта мислите или користите Живи ЦД да нам се придружите&lt;br&gt;
-на &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IRC каналу – #mate&lt;/a&gt;.&lt;/p&gt;
+на &lt;a href=&#34;https://webchat.freenode.net/?channels=#mate&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IRC каналу – #mate&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -132,7 +164,9 @@ Linux Review&lt;/a&gt;.
         
         
         &lt;p&gt;Мејт је коначно нашао свој пут до куће.&lt;/p&gt;
-&lt;p&gt;Као што неки од вас можда знају, Мејт је створио &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+&lt;p&gt;Као што неки од вас можда знају, Мејт је створио &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 корисник, Перберос. Помало је иронично да се Мејт никада до сада
 није појавио у званичном спремишту Арч Линукс пакета. Тако је,
 Мејт је коначно доступан у ризници „[community]“ Арч Линукс
@@ -140,14 +174,18 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Можете да сазнате све што вам је потребно о инсталацији Мејта
 на Арч Линуксу са следећих вики страница:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Такође је вредно напоменути да ће сада застарели незванични пакет Мејт
 ризнице бити уклоњен када се синхронизују сва огледала Арч Линукса.
 Стога напред и освежите „/etc/pacman.conf“ и уклоните ризницу пакета
 „[mate]“.&lt;/p&gt;
 &lt;p&gt;Још једна предност уласка Мејта у званичну ризницу Арч Линукс пакета
-је та да ће Мејт сада такође бити представљен у ризници &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс АРМ&lt;/a&gt;
+је та да ће Мејт сада такође бити представљен у ризници &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс АРМ&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 пакета. Коначно могу да повучем своје „Raspberry Pi“ (armv6h) и Cubox Pro
 (armv7h) &lt;em&gt;„сервере“&lt;/em&gt; изградње. Нисам сигуран колико ће времена требати
 да се сви Мејтови пакети појаве у ризници Арч Линукс АРМ пакета, али сам
@@ -169,7 +207,9 @@ Linux Review&lt;/a&gt;.
       <description>
         
         
-        &lt;p&gt;Пакети Мејта 1.6 су били доступни за &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;/a&gt;
+        &lt;p&gt;Пакети Мејта 1.6 су били доступни за &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Арч Линукс&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 већ неко време. Стога чему објава на блогу?&lt;/p&gt;
 &lt;p&gt;У неколико последњих месеци пакети Мејта 1.6 за Арч Линукс су поправљени,
 очишћени и побољшани. Ово је претпреглед онога на чему смо радили:&lt;/p&gt;
@@ -195,22 +235,32 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Све што треба да знате о инсталирању Мејта 1.6 на Арч Линуксу можете
 сазнати на следећим вики страницама:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.mate-desktop.org/#!pages/./archlinux_custom_repo.md&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Нарочито желим да се захвалим:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Волфгангу Улбриху&lt;/a&gt; за рад са екипом
+&lt;li&gt;&lt;a href=&#34;https://github.com/raveit65&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Волфгангу Улбриху&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; за рад са екипом
 развоја Федоре на налажењу &lt;code&gt;systemd&lt;/code&gt;, &lt;code&gt;logind&lt;/code&gt; и &lt;code&gt;upower&lt;/code&gt; исправки
 које су веома значајне за Арч Линукс и такође за допринос великом
 броју програма из света заједнице.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сандеру Свирсу&lt;/a&gt; и &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефану Карапетсасу&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/infirit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сандеру Свирсу&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; и &lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Стефану Карапетсасу&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
 што су ми пожелели добродошлицу у екипу Мејта и што су ми помогли на IRC-у.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Сада када су пакети Мејта 1.6 у добром стању започећу процес стављања
 Мејта у званичне ризнице Арч Линукса. Можете помоћи око тога тако што
 ћете гласати за Мејтове пакете у AUR-у.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aur.archlinux.org/packages/?SeB=m&amp;amp;K=flexiondotorg&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -229,11 +279,21 @@ Linux Review&lt;/a&gt;.
 &lt;p&gt;Гном 2 је био најпопуларнија Линукс радна површ али сада више није доступан&amp;hellip; Сада
 је ту Мејт који вам обезбеђује исту ту радну површ &lt;code&gt;☻&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Перберос је први исцепио Гном 2 и назвао пројекат Мејт. Корисници и
-програмери су успешно покретали Мејт на [„Arch Linux“]-у(&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;/a&gt;)
+програмери су успешно покретали Мејт на [„Arch Linux“]-у(&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)
 и због популарних захтева Перберос је учинио лакшим Мејтово превођење под
-&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Дебианом&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;/a&gt;
-су затим приступили пројекту и запакивали су га за Дебиан и &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Минт&lt;/a&gt;.
+&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Дебианом&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; и &lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clement Lefebvre&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;
+су затим приступили пројекту и запакивали су га за Дебиан и &lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Линукс Минт&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.
 Мејтова радна површ је представљена у Линукс Минту 12 и сада брзо узима маха.&lt;/p&gt;
 &lt;p&gt;Наш главни приоритет је побољшање Мејта и да постане раван у погледу карактеристика
 и стабилност, са Гномом 2.32. Пребацићемо теме, програмчиће и програме који

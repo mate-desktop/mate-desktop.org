@@ -1,0 +1,60 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Blogs</title>
+    <link>https://mate-desktop.org/pt-br/blog/</link>
+    <description>Recent content in Blogs on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    
+	  <atom:link href="https://mate-desktop.org/pt-br/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>https://mate-desktop.org/pt-br/blog/20111205introducing-mate-desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/pt-br/blog/20111205introducing-mate-desktop/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&amp;lt;! -
+.. link:
+.. description:
+.. tags: Arch Linux, Debian, Linux Mint
+.. date: 2011-12-05 12:00:30
+.. título: Apresentando o MATE Desktop
+.. slug: 2011-12-05-introducing-mate-desktop
+.. autor: Clement Lefebvre
+-&amp;gt;&lt;/p&gt;
+&lt;p&gt;Bem-vindo a Área de Trabalho do MATE!&lt;/p&gt;
+&lt;p&gt;Gnome 2 era o desktop Linux mais popular, mas não está mais disponível &amp;hellip; MATE está aqui para fornecer a mesma área de trabalho para você &lt;code&gt;:)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Perberos inicialmente bifurcou o Gnome 2 e chamou o projeto de MATE. Usuários e os desenvolvedores executaram com sucesso o MATE no [Arch Linux] (&lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.archlinux.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)e devido à demanda popular, Perberos tornou mais fácil para o MATE compilar sob[Debian] (&lt;a href=&#34;https://www.debian.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.debian.org&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;[Stefano Karapetsas] (&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/stefano-k&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;) e [Clement Lefebvre] (&lt;a href=&#34;https://github.com/clefebvre&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/clefebvre&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;)
+então juntou-se ao projeto e empacotou-o para Debian e [Linux Mint] (&lt;a href=&#34;https://www.linuxmint.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linuxmint.com&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;).
+O desktop MATE foi apresentado no Linux Mint 12 e agora está ganhando impulso rapidamente.&lt;/p&gt;
+&lt;p&gt;Nossa principal prioridade é melhorar o MATE e para que ele esteja no mesmo nível, em termos de recursos
+e estabilidade, com Gnome 2.32. Vamos transportar temas, miniaplicativos e aplicativos que
+foram desenvolvidos para o Gnome 2 e ajudam os desenvolvedores a portar seus aplicativos para este
+nova área de trabalho.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

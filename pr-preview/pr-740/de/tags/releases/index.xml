@@ -25,12 +25,16 @@
         
         
         &lt;p&gt;Diese Veröffentlichung mag vielleicht etwas länger als gewöhnlich auf sich warten lassen haben, aber jetzt nach 18 Monaten Entwicklung sind wir sehr erfreut, MATE 1.26 freigeben zu können. Vielen Dank an alle Beitragenden, die bei der Realisierung geholfen haben.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.png&#34; alt=&#34;Über MATE-Dialog&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.26.png&#34; alt=&#34;Über MATE-Dialog&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Was ist neu in MATE 1.26&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;was-ist-neu-in-mate-126&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#was-ist-neu-in-mate-126&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Die Thematik dieser Veröffentlichung war es, neue Funktionen zum MATE Desktop hinzuzufügen und zugleich das Aussehen und die Handhabung, welche wir alle kennen und lieben beizubehalten. Während all die neuen Funktionen sicher ziemlich aufregend sind, haben wir auch das Beheben einer Menge von Fehlern, die Modernisierung der Codebasis und die Optimierung der Leistung nicht vergessen.&lt;/p&gt;
 &lt;p&gt;Die bedeutsamsten Veränderungen in MATE 1.26 sind:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Wir haben die Unterstützung von &lt;a href=&#34;https://wayland.freedesktop.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wayland&lt;/a&gt; zu Atril, Systemmonitor, Pluma, Terminal und anderen Komponenten des Desktops hinzugefügt. Desweiteren können Taschenrechner und Terminal jetzt auch mit &lt;a href=&#34;https://mesonbuild.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meson&lt;/a&gt; gebaut werden.&lt;/li&gt;
+&lt;li&gt;Wir haben die Unterstützung von &lt;a href=&#34;https://wayland.freedesktop.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wayland&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; zu Atril, Systemmonitor, Pluma, Terminal und anderen Komponenten des Desktops hinzugefügt. Desweiteren können Taschenrechner und Terminal jetzt auch mit &lt;a href=&#34;https://mesonbuild.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meson&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; gebaut werden.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Pluma&lt;/strong&gt; wurde massiv verbessert.
 &lt;ul&gt;
 &lt;li&gt;Eine &lt;strong&gt;neue Miniatur-Karte&lt;/strong&gt; ermöglicht einen sofortigen Überblick über den Inhalt&lt;/li&gt;
@@ -44,8 +48,14 @@
 &lt;li&gt;Das &lt;strong&gt;Kontrollzentrum&lt;/strong&gt; beinhaltet einen verbesserten Einstellungsdialog für Fenster mit mehr Optionen. Im Bildschirm-Dialog haben wir eine Möglichkeit für Display-Skalierung hinzugefügt.&lt;/li&gt;
 &lt;li&gt;Die Benachrichtigungen wurden noch nützlicher, da sie jetzt auch Hyperlinks unterstützen. Außerdem haben wir endlich ein &lt;strong&gt;Nicht-Stören-Applet&lt;/strong&gt; hinzugefügt.&lt;/li&gt;
 &lt;li&gt;Apropos Applets, das Fensterlisten-Applet hat eine neue Option um Maus-Scrolling zu deaktivieren. Die optionalen Fenster-Vorschaubilder sind jetzt &lt;strong&gt;kristallklar, da sie über Cairo-Oberflächen gerendert werden&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Das Applet zur Überwachung der Netzwerkgeschwindigkeit zeigt standardmäßig mehr Informationen und erhielt Unterstützung für &lt;a href=&#34;https://www.man7.org/linux/man-pages/man7/netlink.7.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;netlink&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Der &lt;strong&gt;Taschenrechner&lt;/strong&gt; wurde zur &lt;a href=&#34;https://www.mpfr.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU MPFR&lt;/a&gt;-/&lt;a href=&#34;http://www.multiprecision.org/mpc&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MPC&lt;/a&gt;-Bibliothek portiert, was sich in präziserer und schnellerer Berechnung und zusätzlichen Funktionen (z.B. Riemann-zeta-Funktion, Gauss-Fehler-Funktion) niederschlägt.
+&lt;li&gt;Das Applet zur Überwachung der Netzwerkgeschwindigkeit zeigt standardmäßig mehr Informationen und erhielt Unterstützung für &lt;a href=&#34;https://www.man7.org/linux/man-pages/man7/netlink.7.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;netlink&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Der &lt;strong&gt;Taschenrechner&lt;/strong&gt; wurde zur &lt;a href=&#34;https://www.mpfr.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU MPFR&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-/&lt;a href=&#34;http://www.multiprecision.org/mpc&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MPC&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Bibliothek portiert, was sich in präziserer und schnellerer Berechnung und zusätzlichen Funktionen (z.B. Riemann-zeta-Funktion, Gauss-Fehler-Funktion) niederschlägt.
 &lt;ul&gt;
 &lt;li&gt;Wir haben endlich eine &lt;strong&gt;Funktion zum Anzeigen kürzlicher Berechnungen hinzugefügt&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Die Größe des Taschenrechners kann jetzt angepasst werden, wenn die Chronik aktiviert ist.&lt;/li&gt;
@@ -57,15 +67,25 @@
 &lt;li&gt;Das Scrollen durch große Dokumente in &lt;strong&gt;Atril&lt;/strong&gt; ist jetzt um einiges schneller, da eine langsame lineare Suche durch eine binary-tree-Suche ersetzt wurde. Der &lt;strong&gt;Ressourcenverbrauch des Dokumentenbetrachters wurde noch geringer&lt;/strong&gt;, da eine EvWebView jetzt nur noch wenn nötig erstellt wird.&lt;/li&gt;
 &lt;li&gt;Die Fensterverwaltung &lt;strong&gt;Marco&lt;/strong&gt; stellt Fenster jetzt zuverlässiger an ihrer originalen Position her.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Engrampa&lt;/strong&gt; erhielt Unterstützung für Electronic Publication (EPUB)- und ARC-Archive. Außerdem können jetzt RAR-verschlüsselte Archive geöffnet werden.&lt;/li&gt;
-&lt;li&gt;Die &lt;strong&gt;Energieverwaltung&lt;/strong&gt; hat eine neue Option zur Freischaltung des Dimmens der Tastatur und wurde zu &lt;a href=&#34;https://wiki.gnome.org/Projects/Libsecret&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;libsecret&lt;/a&gt; portiert.&lt;/li&gt;
+&lt;li&gt;Die &lt;strong&gt;Energieverwaltung&lt;/strong&gt; hat eine neue Option zur Freischaltung des Dimmens der Tastatur und wurde zu &lt;a href=&#34;https://wiki.gnome.org/Projects/Libsecret&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;libsecret&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; portiert.&lt;/li&gt;
 &lt;li&gt;Die meisten Über-Dialoge wurde mit besseren Beschreibungen aktualisiert. Weil auch Kleinigkeiten zählen &lt;code&gt;:-)&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Wir haben eine Reihe von Fehlern und memory-leaks behoben sowie die Codebasis von fast allen Bestandteilen des Desktops modernisiert.&lt;/li&gt;
-&lt;li&gt;Über ein neues &lt;a href=&#34;https://wiki.mate-desktop.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wiki&lt;/a&gt; wird neuen Beitragenden der Einstieg in das Projekt erleichtert. Wir brauchen dringend motivierte Leute, zögere also nicht uns zu &lt;a href=&#34;https://wiki.mate-desktop.org/introduction/contributing/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kontaktieren&lt;/a&gt; oder &lt;a href=&#34;https://wiki.mate-desktop.org/introduction/contributing/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;anzufangen beizutragen&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Über ein neues &lt;a href=&#34;https://wiki.mate-desktop.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wiki&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; wird neuen Beitragenden der Einstieg in das Projekt erleichtert. Wir brauchen dringend motivierte Leute, zögere also nicht uns zu &lt;a href=&#34;https://wiki.mate-desktop.org/introduction/contributing/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kontaktieren&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; oder &lt;a href=&#34;https://wiki.mate-desktop.org/introduction/contributing/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;anzufangen beizutragen&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Die Übersetzungen sind aktualisiert worden. Danke an unser Übersetzungsteam.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Die verschiedenen Komponenten des MATE Desktops 1.26 können hier heruntergeladen werden:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pub.mate-desktop.org/releases/1.26/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pub.mate-desktop.org/releases/1.26/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Nähere Informationen&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nähere-informationen&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#n%c3%a4here-informationen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hier sind die blutigen Details.&lt;/p&gt;
@@ -82,7 +102,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/atril/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/atril/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Informationen zur Erstellungszeit können jetzt in Listenspalten hinzugefügt werden&lt;/li&gt;
@@ -100,7 +122,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-actions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Taucht zum ersten mal in dieser Veröffentlichung auf&lt;/li&gt;
@@ -113,7 +137,9 @@
 &lt;li&gt;i18n-Unterstützung hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-dropbox/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-dropbox/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;caja-extensions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;caja-extensions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#caja-extensions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;gksu: Befehl nicht in einem neuen Thread ausführen&lt;/li&gt;
@@ -124,7 +150,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/caja-extensions/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/caja-extensions/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;engrampa&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;engrampa&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#engrampa&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;rar 6.00: Auflistung von Archiv-Inhalten mit verschlüsselter Dateiliste repariert&lt;/li&gt;
@@ -135,7 +163,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/engrampa/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/engrampa/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;eom&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;eom&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#eom&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;UI-Dateien aktualisiert&lt;/li&gt;
@@ -145,19 +175,25 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/eom/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/eom/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatekdb&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatekdb&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatekdb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Schriftgröße von Tastennamen in der Tastatur-Layout-Anzeige verringert&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatekbd/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatekbd/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmatemixer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmatemixer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmatemixer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;alsa: udev-Unterstützung hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmatemixer/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmatemixer/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;libmateweather&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;libmateweather&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#libmateweather&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Berlin Tegel entfernt&lt;/li&gt;
@@ -165,7 +201,9 @@
 &lt;li&gt;Städte in Thailand aktualisiert&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/libmateweather/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/libmateweather/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;marco&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;marco&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#marco&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;window: Unterstützung für _GNOME_WM_STRUT_AREA hinzugefügt&lt;/li&gt;
@@ -181,7 +219,9 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/marco/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/marco/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-applets&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-applets&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-applets&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;netspeed: ausgesetzte Netzwerke können jetzt ausgewählt werden&lt;/li&gt;
@@ -197,13 +237,17 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-applets/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-applets/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-backgrounds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-backgrounds&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-backgrounds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Neues &amp;lsquo;Something slowly gets clear&amp;rsquo; elephants-Hintergrundbild&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-backgrounds/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-backgrounds/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-calc&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-calc&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-calc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Portierung zur GNU MPFR/MPC-Bibliothek&lt;/li&gt;
@@ -220,12 +264,16 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-calc/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-calc/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-common&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-common&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-common&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-common/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-common/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-control-center&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-control-center&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-control-center&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;windows-applet: Fensterumrisse werden jetzt in der Alt-Tab-Ansicht angezeigt. Außerdem können Fenster optional nach oben geteilt werden (Window-Snapping)&lt;/li&gt;
@@ -242,7 +290,9 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-control-center/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-control-center/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-desktop&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-desktop&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;a11y-keyboard: capslock-beep-enable gsetting hinzugefügt&lt;/li&gt;
@@ -251,19 +301,25 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-desktop/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-desktop/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-icon-theme&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-icon-theme&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-icon-theme&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Entfernung des execution-bit von einigen png-Dateien&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-icon-theme/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-icon-theme/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-indicator-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-indicator-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-indicator-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;applet-main: GtkStock-Symbol ersetzt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-indicator-applet/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-media&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-media&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-media&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Ersetzung des stumm/nicht stumm-checkmenuitem mit imagemenuitem&lt;/li&gt;
@@ -271,21 +327,27 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-media/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-media/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-menus&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-menus&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-menus&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Sammlung-Menüeintrag hinzugefügt&lt;/li&gt;
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-menus/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-menus/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-netbook&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-netbook&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-netbook&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-window: GtkStock-Symbol ersetzt&lt;/li&gt;
 &lt;li&gt;mate-maximus-autostart.desktop: Entfernung der veralteten Encoding-Taste&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-netbook/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-netbook/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-notification-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-notification-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-notification-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Nicht-Stören-Applet hinzugefügt&lt;/li&gt;
@@ -297,7 +359,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-notification-daemon/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-panel&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-panel&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-panel&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;workspace-switcher: Untersützung für den xmonad-Fenstermanager&lt;/li&gt;
@@ -313,12 +377,16 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-panel/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-panel/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-polkit&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-polkit&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-polkit&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-polkit/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-polkit/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-power-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-power-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-power-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-power-preferences: Option zum Freischalten des Dimmens der Tastatur&lt;/li&gt;
@@ -332,7 +400,9 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-power-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-power-manager/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-screen-saver&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-screen-saver&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-screen-saver&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Wechsel der Formate von Zeit und Datum beim Sperren erlaubt&lt;/li&gt;
@@ -342,7 +412,9 @@
 &lt;li&gt;Einige memory-leaks wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-screensaver/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-screensaver/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-sensors-applet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-sensors-applet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-sensors-applet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;aticonfig-Plugin wurde in der Entwicklung fallen gelassen&lt;/li&gt;
@@ -350,7 +422,9 @@
 &lt;li&gt;libsensors-plugin: Portierung zu GRegex&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-sensors-applet/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-session-manager&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-session-manager&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-session-manager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Befolgen der freedesktop-Standards zur Abschaltung von autorun über die Hidden-Taste&lt;/li&gt;
@@ -362,7 +436,9 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-session-manager/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-session-manager/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-settings-daemon&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-settings-daemon&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-settings-daemon&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;xsettings: Verbesserung der Qt-HiDPI-Umgebungseinstellungen&lt;/li&gt;
@@ -373,7 +449,9 @@
 &lt;li&gt;Zwei memory-leaks behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-settings-daemon/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-system-monitor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-system-monitor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-system-monitor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Wayland-Unterstützung hinzugefügt&lt;/li&gt;
@@ -383,7 +461,9 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-system-monitor/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-system-monitor/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-terminal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-terminal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-terminal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Desktop-file-Validierungswarnung repariert&lt;/li&gt;
@@ -396,20 +476,26 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-terminal/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-terminal/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-guide&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-guide&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-guide&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Entfernung des execution-bit von einigen italienischen Schaubildern&lt;/li&gt;
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-guide/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-guide/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-user-share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-user-share&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-user-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Nutzung von MATE_COMPILE_WARNINGS aus mate-common&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-user-share/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-user-share/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mate-utils&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mate-utils&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mate-utils&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mate-screenshot: Reihenfolge der unteren Knöpfe rapariert&lt;/li&gt;
@@ -420,14 +506,18 @@
 &lt;li&gt;build: Option zum Abschalten von Native Language Support (NLS) (&lt;code&gt;--disable-nls&lt;/code&gt;) hinzugefügt&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mate-utils/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mate-utils/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;mozo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mozo&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#mozo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;mozo.ui von Grund auf neu geschrieben&lt;/li&gt;
 &lt;li&gt;Seltsames Verhalten beim Editieren des Sammlungsverzeichnisses behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/mozo/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/mozo/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Portierung des Anordnungs-Plugins zur neuen GtkSourceView-API.&lt;/li&gt;
@@ -447,7 +537,9 @@
 &lt;li&gt;Einige code-analysis-Warnungen vor veralteten Versionen, die Clang Static Analyzer, Cppcheck und GCC gemeldet haben, wurden behoben&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/pluma/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/pluma/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;pluma-plugins&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pluma-plugins&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pluma-plugins&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink für diesen Abschnitt&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Taucht zum ersten mal in dieser Veröffentlichung auf&lt;/li&gt;
@@ -469,7 +561,9 @@
 &lt;li&gt;Memory-leak behoben, der von scan-build gemeldet wurde&lt;/li&gt;
 &lt;li&gt;g10n: Aktualisierte Übersetzungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vollständiger Changelog unter &lt;a href=&#34;https://github.com/mate-desktop/python-caja/commits/master/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/mate-desktop/python-caja/commits/master/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -593,7 +687,7 @@ Die Änderungen finden Sie untenstehend:&lt;/p&gt;
         
         &lt;p&gt;Es erfüllt das Team mit Stolz, das Release des MATE-Desktops 1.8 bekanntzugeben.
 Wir möchten jedem Mitwirkenden und jedem MATE-Nutzer danken.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  data-zoomable loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mate-desktop.org/images/blog/about-mate-1.8.png&#34; alt=&#34;about&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Die wesentlichen Änderungen in 1.8 sind:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Caja (Datei-Manager)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -642,7 +736,9 @@ Wir möchten jedem Mitwirkenden und jedem MATE-Nutzer danken.&lt;/p&gt;
 &lt;li&gt;Ersetzen von &lt;code&gt;libmatekeyring&lt;/code&gt; und &lt;code&gt;mate-keyring&lt;/code&gt; durch &lt;code&gt;libsecret&lt;/code&gt; und &lt;code&gt;gnome-keyring&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Ersetzen von &lt;code&gt;libmatewnck&lt;/code&gt; durch &lt;code&gt;libwnck&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Ersetzen von &lt;code&gt;mucharmap&lt;/code&gt; durch &lt;code&gt;gucharmap&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Ersetzen von &lt;code&gt;mate-bluetooth&lt;/code&gt; durch &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blueman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ersetzen von &lt;code&gt;mate-bluetooth&lt;/code&gt; durch &lt;a href=&#34;https://github.com/blueman-project/blueman&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blueman&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mergen aller Caja-Extensions in ein einzelnes Paket&lt;/li&gt;
 &lt;li&gt;Entfernen des ModemLights-Applet, da das Netspeed-Applet eine ähnliche Funktionalität bietet&lt;/li&gt;
 &lt;/ul&gt;
@@ -656,11 +752,15 @@ Wir möchten jedem Mitwirkenden und jedem MATE-Nutzer danken.&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;Wie gewöhlich fragten wir Mitarbeiter von Distributionen, die MATE anbieten,
 was sie von unserer Desktop-Umgebung halten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Mike Gabriel&lt;/strong&gt;, &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mike Gabriel&lt;/strong&gt;, &lt;a href=&#34;https://www.debian.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Debian&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;I forsee MATE being one of the most used desktop environments in Debian Jessie (and beyond).&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Tom Wijsman&lt;/strong&gt;, &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tom Wijsman&lt;/strong&gt;, &lt;a href=&#34;https://www.gentoo.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gentoo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; Entwickler und MATE-Maintainer:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Some of our users express that they want to stay with GNOME 2; because they
 like how things used to be, they run older hardware or they want a more
@@ -670,7 +770,9 @@ security issues; MATE brings back all the glory with an active development team.
 Their continuation of GNOME 2&amp;rsquo;s development fixes outstanding issues, brings new
 and useful features and keeps the good old experience alive and kicking.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Willy Sudiarto Raharjo&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;MATE shared the same basic philosophies of Slackware, such as simplicity,
 stability, and no fixed release schedule. It will be released when it&amp;rsquo;s ready
@@ -683,7 +785,9 @@ fill the need of GNOME-based Desktop Environment which Slackware lack of since&l
 &lt;li&gt;I&amp;rsquo;m looking forward for the evolutionary changes that MATE developers
 will integrate for the next major release of MATE.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chess Griffin&lt;/strong&gt;, Co-Entwickler des &lt;a href=&#34;https://mateslackbuilds.github.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE-SlackBuilds-Projekts&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;MATE is a great desktop environment for those who like the old GNOME 2
 experience.  I greatly appreciate all the hard work that is put into MATE
@@ -693,7 +797,9 @@ operating system or distribution is also to be applauded.  I enjoy being a
 part of the MATE SlackBuilds project, which aims to bring the MATE desktop
 to the Slackware Linux community.  Thanks to the entire MATE team!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Benjamin Denisart&lt;/strong&gt;, &lt;a href=&#34;https://www.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;/a&gt; MATE-Maintainer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Benjamin Denisart&lt;/strong&gt;, &lt;a href=&#34;https://www.opensuse.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;openSUSE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; MATE-Maintainer:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;The openSUSE team wants to thank the MATE developers for their efforts in
 providing this new version and is proud to announce the availability
@@ -701,7 +807,9 @@ of &lt;code&gt;gnome-main-menu&lt;/code&gt;, which will please users attracted b
 easy to use desktop. It&amp;rsquo;s a pleasure for us to work with the MATE team and we
 want to send them our congratulations.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;/a&gt;-Gründer und Projektleiter:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clement Lefebvre&lt;/strong&gt;, &lt;a href=&#34;https://www.linuxmint.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux Mint&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Gründer und Projektleiter:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;MATE proudly carries the colors of GNOME 2 and continues where the project
 left off. In many ways and for many people MATE just feels like home.
@@ -711,7 +819,9 @@ expect it. It&amp;rsquo;s popular with our users and it&amp;rsquo;s the desktop 
 Linux Mint built its technology and identity since 2006. We&amp;rsquo;re very proud
 and very happy to support MATE and delighted with each and every new release.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, MATE-Maintainer in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wolfgang Ulbrich&lt;/strong&gt;, MATE-Maintainer in &lt;a href=&#34;https://fedoraproject.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fedora&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;During the Fedora 15/16 releases I was very dissatisfied with the desktop
 solutions on offer. After 10 months of using XFCE I discovered MATE and decided
@@ -724,13 +834,17 @@ later we have a stable and usable MATE 1.6 desktop solution in Fedora 20. MATE
 1.8 is currently in Fedora rawhide and will be released with Fedora 21 in the
 summer of 2014.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;, MATE-Maintainer für &lt;a href=&#34;https://www.archlinux.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Martin Wimpress&lt;/strong&gt;, MATE-Maintainer für &lt;a href=&#34;https://www.archlinux.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;MATE was originally created by an Arch Linux user and I am delighted that MATE
 is now available in the official Arch Linux and Arch Linux ARM package
 repositories. MATE provides a complete, fully integrated, responsive traditional
 desktop experience and consistent work flow on my &lt;a href=&#34;www.raspberrypi.org&#34;&gt;Raspberry Pi&lt;/a&gt;,
-&lt;a href=&#34;https://www.solid-run.com/cubox&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox Pro&lt;/a&gt;, laptop and desktop. Brilliant!&lt;/p&gt;
+&lt;a href=&#34;https://www.solid-run.com/cubox&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CuBox Pro&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, laptop and desktop. Brilliant!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;MATE 1.8 ist das Resultat von elf Monaten intensiver Entwicklungsarbeit und enhält 1845

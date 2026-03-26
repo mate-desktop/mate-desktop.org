@@ -25,21 +25,27 @@
         
         
         &lt;p&gt;MATE ist endlich zuhause angekommen.&lt;/p&gt;
-&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;/a&gt;-Nutzer
+&lt;p&gt;Wie manche von Ihnen wohl wissen, wurde MATE von einem &lt;a href=&#34;https://www.archlinux.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Nutzer
 erstellt, Perberos. Es entbehrt daher nicht einer gewissen Ironie, dass MATE
 in den offiziellen Arch-Linux-Paketrepositorien nie angeboten wurde &amp;ndash; bis jetzt.
 Richtig gelesen, MATE ist endlich in den Arch-Linux-&lt;code&gt;[community]&lt;/code&gt;-Paketrepositorien verfügbar!&lt;/p&gt;
 &lt;p&gt;Sie erfahren alles, was Sie über die Installation von MATE auf Arch Linux wissen müssen,
 auf den folgenden Wiki-Seiten:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/MATE&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wiki.archlinux.org/index.php/MATE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Es sollte auch nicht unerwähnt bleiben, dass das nun überflüssige
 MATE-Repositorium entfernt werden wird, sobald alle Arch-Linux-Mirror
 synchronisiert wurden. Updaten Sie daher &lt;code&gt;/etc/pacman.conf&lt;/code&gt;,
 und entfernen Sie das &lt;code&gt;[mate]&lt;/code&gt;-Paket-Repositorium.&lt;/p&gt;
 &lt;p&gt;Ein weiterer Vorteil der Aufnahme MATEs in das offizielle Arch-Linux-Paketrepositorium
-ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;/a&gt;-Repositorium
+ist, dass MATE nun auch im &lt;a href=&#34;https://archlinuxarm.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arch-Linux-ARM&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;-Repositorium
 erscheinen wird. Ich kann endlich meine Build-&lt;em&gt;&amp;ldquo;Server&amp;rdquo;&lt;/em&gt; für Raspberry Pi (armv6h) und
 Cubox Pro (armv7h) in den Ruhestand schicken. Ich bin nicht sicher, wie lange es dauern
 wird, bis alle MATE-Pakete im Arch-Linux-ARM-Paketrepositorium erscheinen werden, habe aber

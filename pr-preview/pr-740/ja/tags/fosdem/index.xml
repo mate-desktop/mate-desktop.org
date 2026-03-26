@@ -24,8 +24,18 @@
       <description>
         
         
-        &lt;p&gt;2014日2月1日、&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;/a&gt; さんは &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;/a&gt; でMATE に関する講演を行いました！&lt;/p&gt;
-&lt;p&gt;この講演では、MATE のことを知らない人々に紹介し、プロジェクトの起源を説明します。MATE と他の従来の GTK ベースのデスクトップとの違いを取り上げた後、Stefano さんは GNOME 2 から分岐して以来、MATE がどのように進化してきたかを説明します。最近の改善点を簡単に紹介するとともに、MATE のロードマップや、&lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;/a&gt;、&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt;、&lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;/a&gt; といった MATE の成果を受けたプロジェクトの概要を紹介します。&lt;/p&gt;
+        &lt;p&gt;2014日2月1日、&lt;a href=&#34;https://github.com/stefano-k&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stefano Karapetsas&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; さんは &lt;a href=&#34;https://fosdem.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FOSDEM 2014&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; でMATE に関する講演を行いました！&lt;/p&gt;
+&lt;p&gt;この講演では、MATE のことを知らない人々に紹介し、プロジェクトの起源を説明します。MATE と他の従来の GTK ベースのデスクトップとの違いを取り上げた後、Stefano さんは GNOME 2 から分岐して以来、MATE がどのように進化してきたかを説明します。最近の改善点を簡単に紹介するとともに、MATE のロードマップや、&lt;a href=&#34;https://sonar-project.org&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sonar&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href=&#34;https://www.raspberrypi.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href=&#34;http://www.ltsp.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LTSP&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; といった MATE の成果を受けたプロジェクトの概要を紹介します。&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;480&#34; src=&#34;//www.youtube.com/embed/iwQ7iqNwRKs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
       </description>

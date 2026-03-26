@@ -178,7 +178,9 @@
 &lt;h2&gt;Post-Installation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;post-installation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#post-installation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After installation, log out of your current session and select MATE from your display manager&amp;rsquo;s session selector before logging back in.&lt;/p&gt;
 &lt;h2&gt;Building from Source&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;building-from-source&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#building-from-source&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For development or if packages aren&amp;rsquo;t available for your distribution, you can build MATE from source. Visit the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE GitHub organization&lt;/a&gt; for source code and build instructions.&lt;/p&gt;
+    &lt;a href=&#34;#building-from-source&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For development or if packages aren&amp;rsquo;t available for your distribution, you can build MATE from source. Visit the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE GitHub organization&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for source code and build instructions.&lt;/p&gt;
 
       </description>
     </item>
@@ -808,14 +810,20 @@
     &lt;a href=&#34;#contributing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;How can I contribute to MATE?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-can-i-contribute-to-mate&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#how-can-i-contribute-to-mate&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Many ways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: Submit patches on &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Translations&lt;/strong&gt;: Help translate via &lt;a href=&#34;https://www.transifex.com/mate/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transifex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: Submit patches on &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Translations&lt;/strong&gt;: Help translate via &lt;a href=&#34;https://www.transifex.com/mate/MATE/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transifex&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Try pre-release versions and report bugs&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: Improve wiki and help files&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Support&lt;/strong&gt;: Help users in forums and chat&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Where do I report bugs?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;where-do-i-report-bugs&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#where-do-i-report-bugs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Report bugs on the relevant GitHub repository under the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-desktop organization&lt;/a&gt;. Include:&lt;/p&gt;
+    &lt;a href=&#34;#where-do-i-report-bugs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Report bugs on the relevant GitHub repository under the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-desktop organization&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. Include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Distribution and version&lt;/li&gt;
 &lt;li&gt;MATE version&lt;/li&gt;
