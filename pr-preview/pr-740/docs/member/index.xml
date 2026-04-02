@@ -1,0 +1,718 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Member Resources</title>
+    <link>https://mate-desktop.org/docs/member/</link>
+    <description>Recent content in Member Resources on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="https://mate-desktop.org/docs/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Project Dashboard</title>
+      <link>https://mate-desktop.org/docs/member/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/member/dashboard/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Live overview of every public repository in the &lt;a href=&#34;https://github.com/mate-desktop&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mate-desktop&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; GitHub organisation.&lt;/p&gt;
+
+
+&lt;style&gt;
+#mate-project-dashboard table { width:100%; border-collapse:collapse; font-size:0.85rem; }
+#mate-project-dashboard thead tr { border-bottom:2px solid var(--tw-prose-hr,#e5e7eb); }
+#mate-project-dashboard tbody tr { border-bottom:1px solid var(--tw-prose-hr,#e5e7eb); transition:background 0.1s; }
+#mate-project-dashboard tbody tr:hover { background:rgba(0,0,0,0.03); }
+#mate-project-dashboard th, #mate-project-dashboard td { padding:0.45rem 0.6rem; vertical-align:middle; }
+#mate-project-dashboard th { font-weight:600; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.04em; color:#6b7280; }
+#mate-project-dashboard th[data-col] { cursor:pointer; user-select:none; white-space:nowrap; }
+#mate-project-dashboard th[data-col]:hover { color:inherit; }
+&lt;/style&gt;
+
+&lt;div id=&#34;mate-project-dashboard&#34;&gt;
+  &lt;div id=&#34;mph-auth&#34; style=&#34;margin-bottom:1rem;padding:0.7rem 1rem;border:1px solid var(--tw-prose-hr,#e5e7eb);border-radius:0.5rem;font-size:0.83rem;line-height:1.7;&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;mph-stats&#34; style=&#34;display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:0.75rem;margin:1.25rem 0;&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;mph-progress-wrap&#34; style=&#34;margin-bottom:0.75rem;transition:opacity 0.5s;&#34;&gt;
+    &lt;div style=&#34;display:flex;align-items:center;gap:0.6rem;&#34;&gt;
+      &lt;div style=&#34;flex:1;height:4px;background:#e5e7eb;border-radius:9999px;overflow:hidden;&#34;&gt;
+        &lt;div id=&#34;mph-progress-bar&#34; style=&#34;height:100%;width:0%;background:#2563eb;transition:width 0.3s;border-radius:9999px;&#34;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;span id=&#34;mph-progress-label&#34; style=&#34;font-size:0.75rem;color:#6b7280;white-space:nowrap;&#34;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;mph-table-wrap&#34; style=&#34;overflow-x:auto;&#34;&gt;
+    &lt;p style=&#34;color:#6b7280;font-size:0.85rem;&#34;&gt;Loading…&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p style=&#34;font-size:0.72rem;color:#9ca3af;margin-top:0.75rem;&#34;&gt;
+    Live data from &lt;a href=&#34;https://github.com/mate-desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub API&lt;/a&gt;
+    and &lt;a href=&#34;https://repology.org/projects/?maintainer=&amp;category=&amp;inrepo=&amp;notinrepo=&amp;repos=&amp;families=&amp;sets=&amp;search=mate-&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repology&lt;/a&gt;.
+    Refreshed on every page load.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function () {
+  &#39;use strict&#39;;
+
+  var ORG         = &#39;mate-desktop&#39;;
+  var API_GH      = &#39;https://api.github.com&#39;;
+  var API_REPOLOGY = &#39;https://repology.org/api/v1/project&#39;;
+  var STORAGE_KEY = &#39;mph_github_token&#39;;
+
+   
+  var allRepos     = [];
+  var releaseData  = {};   
+  var prCounts     = {};   
+  var unrelCommits = {};   
+  var repologyData = {};   
+  var sortCol = &#39;name&#39;, sortDir = 1;
+  var totalOps = 0, doneOps = 0;
+
+   
+  function hasToken() { return !!localStorage.getItem(STORAGE_KEY); }
+
+  function makeHeaders() {
+    var h = { &#39;Accept&#39;: &#39;application/vnd.github+json&#39;, &#39;X-GitHub-Api-Version&#39;: &#39;2022-11-28&#39; };
+    var tok = localStorage.getItem(STORAGE_KEY);
+    if (tok) h[&#39;Authorization&#39;] = &#39;Bearer &#39; + tok;
+    return h;
+  }
+
+  function nextPageUrl(r) {
+    var m = (r.headers.get(&#39;Link&#39;) || &#39;&#39;).match(/&lt;([^&gt;]+)&gt;;\s*rel=&#34;next&#34;/);
+    return m ? m[1] : null;
+  }
+
+  function fetchAllPages(url, acc) {
+    acc = acc || [];
+    return fetch(url, { headers: makeHeaders() }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      var next = nextPageUrl(r);
+      return r.json().then(function (d) {
+        var combined = acc.concat(d);
+        return next ? fetchAllPages(next, combined) : combined;
+      });
+    });
+  }
+
+   
+  function parsePrCount(resp, items) {
+    var m = (resp.headers.get(&#39;Link&#39;) || &#39;&#39;).match(/[?&amp;]page=(\d+)&gt;;\s*rel=&#34;last&#34;/);
+    return m ? parseInt(m[1], 10) : items.length;
+  }
+
+   
+  function tick() {
+    doneOps++;
+    var pct = totalOps &gt; 0 ? Math.min(Math.round(doneOps / totalOps * 100), 100) : 0;
+    var bar   = document.getElementById(&#39;mph-progress-bar&#39;);
+    var label = document.getElementById(&#39;mph-progress-label&#39;);
+    if (bar)   bar.style.width = pct + &#39;%&#39;;
+    if (label) label.textContent = doneOps &lt; totalOps ? (doneOps + &#39; / &#39; + totalOps + &#39; loaded&#39;) : &#39;Done&#39;;
+    if (doneOps &gt;= totalOps) {
+      var wrap = document.getElementById(&#39;mph-progress-wrap&#39;);
+      setTimeout(function () { if (wrap) wrap.style.opacity = &#39;0&#39;; }, 700);
+    }
+  }
+
+   
+  function daysSince(iso) {
+    if (!iso) return null;
+    return Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+  }
+
+  function daysLabel(d) {
+    if (d === null) return &#39;—&#39;;
+    if (d &lt; 1)   return &#39;today&#39;;
+    if (d &lt; 2)   return &#39;1 day ago&#39;;
+    if (d &lt; 30)  return d + &#39; days ago&#39;;
+    if (d &lt; 365) return Math.floor(d / 30) + &#39; mo ago&#39;;
+    return (d / 365).toFixed(1) + &#39; yr ago&#39;;
+  }
+
+  function daysColor(d) {
+    if (d === null) return &#39;#9ca3af&#39;;
+    if (d &lt; 180)   return &#39;#16a34a&#39;;
+    if (d &lt; 365)   return &#39;#ca8a04&#39;;
+    return &#39;#dc2626&#39;;
+  }
+
+   
+  function pill(text, color, title) {
+    return &#39;&lt;span title=&#34;&#39; + (title || &#39;&#39;).replace(/&#34;/g, &#39;&amp;quot;&#39;) + &#39;&#34; style=&#34;&#39;
+      + &#39;display:inline-block;padding:0.1em 0.55em;border-radius:9999px;font-size:0.75rem;&#39;
+      + &#39;font-weight:600;line-height:1.5;white-space:nowrap;&#39;
+      + &#39;background:&#39; + color + &#39;1a;color:&#39; + color + &#39;;border:1px solid &#39; + color + &#39;44;&#34;&gt;&#39;
+      + text + &#39;&lt;/span&gt;&#39;;
+  }
+
+  function dimText(t) {
+    return &#39;&lt;span style=&#34;color:#9ca3af;&#34;&gt;&#39; + t + &#39;&lt;/span&gt;&#39;;
+  }
+
+  function loadingDot() {
+    return &#39;&lt;span style=&#34;color:#9ca3af;font-size:0.75rem;&#34;&gt;…&lt;/span&gt;&#39;;
+  }
+
+  function authGated(title) {
+    return &#39;&lt;span title=&#34;&#39; + title + &#39;&#34; style=&#34;color:#d1d5db;cursor:help;font-size:0.75rem;&#34;&gt;—&lt;/span&gt;&#39;;
+  }
+
+   
+  function commitsCell(name) {
+    if (!hasToken()) return authGated(&#39;Add a GitHub token to load unreleased commit counts&#39;);
+    var v = unrelCommits[name];
+    if (v === undefined) return loadingDot();
+    if (v === null)      return dimText(&#39;—&#39;);
+    if (v === 0)         return pill(&#39;✓ 0&#39;, &#39;#16a34a&#39;, &#39;0 commits since last release&#39;);
+    var color = v &lt; 10 ? &#39;#ca8a04&#39; : &#39;#dc2626&#39;;
+    return pill(&#39;+&#39; + v, color, v + &#39; commits since last release&#39;);
+  }
+
+   
+  function prCell(name) {
+    if (!hasToken()) return authGated(&#39;Add a GitHub token to load open PR counts&#39;);
+    var v = prCounts[name];
+    if (v === undefined) return loadingDot();
+    if (v === 0)         return dimText(&#39;0&#39;);
+    var color = v &lt; 5 ? &#39;#ca8a04&#39; : &#39;#dc2626&#39;;
+    var href = &#39;https://github.com/&#39; + ORG + &#39;/&#39; + name + &#39;/pulls&#39;;
+    return &#39;&lt;a href=&#34;&#39; + href + &#39;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;text-decoration:none;&#34;&gt;&#39;
+      + pill(v + &#39; PR&#39; + (v !== 1 ? &#39;s&#39; : &#39;&#39;), color, v + &#39; open pull requests&#39;)
+      + &#39;&lt;/a&gt;&#39;;
+  }
+
+   
+  var DISTROS = [
+    { key: &#39;arch&#39;,   label: &#39;Arch&#39;, pattern: /^arch$/ },
+    { key: &#39;debian&#39;, label: &#39;Deb&#39;,  pattern: /^debian_\d+$/ },
+    { key: &#39;fedora&#39;, label: &#39;Fed&#39;,  pattern: /^fedora_\d+$/ },
+    { key: &#39;ubuntu&#39;, label: &#39;Ubu&#39;,  pattern: /^ubuntu_\d+_04$/ },
+  ];
+  var REP_COLOR = { newest:&#39;#16a34a&#39;, devel:&#39;#2563eb&#39;, outdated:&#39;#dc2626&#39;,
+                    rolling:&#39;#9333ea&#39;, legacy:&#39;#6b7280&#39;, default:&#39;#9ca3af&#39; };
+
+  function repCell(name) {
+    var data = repologyData[name];
+    if (data === undefined) return loadingDot();
+    if (!data || data.length === 0) return dimText(&#39;—&#39;);
+
+    return DISTROS.map(function (d) {
+      var matches = data.filter(function (e) { return d.pattern.test(e.repo); });
+      if (!matches.length) return &#39;&#39;;
+      var best = matches.find(function (e) { return e.status === &#39;newest&#39;; }) || matches[0];
+      var color = REP_COLOR[best.status] || REP_COLOR.default;
+      return pill(d.label, color, d.key + &#39;: &#39; + best.version + &#39; (&#39; + best.status + &#39;)&#39;);
+    }).filter(Boolean).join(&#39; &#39;);
+  }
+
+   
+  function statCard(value, label, color) {
+    return &#39;&lt;div style=&#34;padding:0.85rem 0.6rem;border:1px solid var(--tw-prose-hr,#e5e7eb);&#39;
+      + &#39;border-radius:0.5rem;text-align:center;&#34;&gt;&#39;
+      + &#39;&lt;div style=&#34;font-size:1.6rem;font-weight:700;color:&#39; + (color || &#39;inherit&#39;) + &#39;;&#34;&gt;&#39; + value + &#39;&lt;/div&gt;&#39;
+      + &#39;&lt;div style=&#34;font-size:0.75rem;color:#6b7280;margin-top:0.1rem;&#34;&gt;&#39; + label + &#39;&lt;/div&gt;&#39;
+      + &#39;&lt;/div&gt;&#39;;
+  }
+
+  function updateStats() {
+    var stars  = allRepos.reduce(function (s, r) { return s + r.stargazers_count; }, 0);
+    var forks  = allRepos.reduce(function (s, r) { return s + r.forks_count; }, 0);
+    var issues = allRepos.reduce(function (s, r) { return s + r.open_issues_count; }, 0);
+    var prs    = Object.keys(prCounts).reduce(function (s, k) { return s + prCounts[k]; }, 0);
+    var el = document.getElementById(&#39;mph-stats&#39;);
+    if (!el) return;
+    el.innerHTML =
+      statCard(allRepos.length, &#39;Repositories&#39;)
+      + statCard(stars.toLocaleString(),  &#39;Stars&#39;,       &#39;#ca8a04&#39;)
+      + statCard(forks.toLocaleString(),  &#39;Forks&#39;)
+      + statCard(issues.toLocaleString(), &#39;Open Issues&#39;, &#39;#dc2626&#39;)
+      + (hasToken() ? statCard(prs.toLocaleString(), &#39;Open PRs&#39;, &#39;#7c3aed&#39;) : &#39;&#39;);
+  }
+
+   
+  var renderPending = false;
+  function scheduleRender() {
+    if (renderPending) return;
+    renderPending = true;
+    setTimeout(function () { renderPending = false; renderTable(); }, 60);
+  }
+
+  function thSort(col, label, title) {
+    var arrow = sortCol !== col
+      ? &#39; &lt;span style=&#34;color:#d1d5db;font-size:0.65em;&#34;&gt;⇕&lt;/span&gt;&#39;
+      : (sortDir === 1
+          ? &#39; &lt;span style=&#34;font-size:0.65em;opacity:0.6;&#34;&gt;▲&lt;/span&gt;&#39;
+          : &#39; &lt;span style=&#34;font-size:0.65em;opacity:0.6;&#34;&gt;▼&lt;/span&gt;&#39;);
+    return &#39;&lt;th data-col=&#34;&#39; + col + &#39;&#34; title=&#34;&#39; + (title || &#39;&#39;) + &#39;&#34;&gt;&#39; + label + arrow + &#39;&lt;/th&gt;&#39;;
+  }
+
+  function sortedRepos() {
+    return allRepos.slice().sort(function (a, b) {
+      var va, vb, numA, numB;
+      switch (sortCol) {
+        case &#39;release&#39;:
+          va = (releaseData[a.name] ? releaseData[a.name].tag : &#39;&#39;).toLowerCase();
+          vb = (releaseData[b.name] ? releaseData[b.name].tag : &#39;&#39;).toLowerCase();
+          break;
+        case &#39;days&#39;:
+          numA = releaseData[a.name] ? daysSince(releaseData[a.name].published_at) : 999999;
+          numB = releaseData[b.name] ? daysSince(releaseData[b.name].published_at) : 999999;
+          return sortDir * (numA - numB);
+        case &#39;commits&#39;:
+          numA = unrelCommits[a.name] != null ? unrelCommits[a.name] : -1;
+          numB = unrelCommits[b.name] != null ? unrelCommits[b.name] : -1;
+          return sortDir * (numA - numB);
+        case &#39;prs&#39;:
+          numA = prCounts[a.name] != null ? prCounts[a.name] : -1;
+          numB = prCounts[b.name] != null ? prCounts[b.name] : -1;
+          return sortDir * (numA - numB);
+        default:
+          va = a.name.toLowerCase();
+          vb = b.name.toLowerCase();
+      }
+      if (va &lt; vb) return -sortDir;
+      if (va &gt; vb) return sortDir;
+      return 0;
+    });
+  }
+
+  function renderTable() {
+    var rows = sortedRepos().map(function (repo) {
+      var n        = repo.name;
+      var badge    = &#39;https://github.com/&#39; + ORG + &#39;/&#39; + n + &#39;/actions/workflows/builds.yml/badge.svg&#39;;
+      var badgeUrl = &#39;https://github.com/&#39; + ORG + &#39;/&#39; + n + &#39;/actions/workflows/builds.yml&#39;;
+
+      var relHtml = releaseData[n]
+        ? &#39;&lt;a href=&#34;&#39; + releaseData[n].url + &#39;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; &#39;
+          + &#39;style=&#34;font-weight:500;&#34;&gt;&#39; + releaseData[n].tag + &#39;&lt;/a&gt;&#39;
+        : loadingDot();
+
+      var days = releaseData[n] ? daysSince(releaseData[n].published_at) : null;
+      var daysHtml = days !== null
+        ? &#39;&lt;span style=&#34;color:&#39; + daysColor(days) + &#39;;&#34;&gt;&#39; + daysLabel(days) + &#39;&lt;/span&gt;&#39;
+        : (releaseData[n] === null ? dimText(&#39;—&#39;) : loadingDot());
+
+      return &#39;&lt;tr&gt;&#39;
+        + &#39;&lt;td style=&#34;white-space:nowrap;font-weight:500;&#34;&gt;&#39;
+        +   &#39;&lt;a href=&#34;&#39; + repo.html_url + &#39;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#39; + n + &#39;&lt;/a&gt;&#39;
+        + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;text-align:center;min-width:80px;&#34;&gt;&#39;
+        +   &#39;&lt;a href=&#34;&#39; + badgeUrl + &#39;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#39;
+        +     &#39;&lt;img src=&#34;&#39; + badge + &#39;&#34; alt=&#34;CI&#34; style=&#34;max-height:20px;vertical-align:middle;&#34; &#39;
+        +     &#39;onerror=&#34;this.closest(\&#39;td\&#39;).innerHTML=\&#39;&lt;span style=&amp;quot;color:#9ca3af;&amp;quot;&gt;—&lt;/span&gt;\&#39;&#34;&gt;&#39;
+        +   &#39;&lt;/a&gt;&#39;
+        + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;white-space:nowrap;&#34;&gt;&#39; + relHtml + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;white-space:nowrap;&#34;&gt;&#39; + daysHtml + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;text-align:center;&#34;&gt;&#39;  + commitsCell(n) + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;text-align:center;&#34;&gt;&#39;  + prCell(n) + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;td style=&#34;white-space:nowrap;&#34;&gt;&#39; + repCell(n) + &#39;&lt;/td&gt;&#39;
+        + &#39;&lt;/tr&gt;&#39;;
+    }).join(&#39;&#39;);
+
+    var wrap = document.getElementById(&#39;mph-table-wrap&#39;);
+    if (!wrap) return;
+    wrap.innerHTML =
+      &#39;&lt;table&gt;&#39;
+      + &#39;&lt;thead&gt;&lt;tr&gt;&#39;
+      + thSort(&#39;name&#39;,    &#39;Repository&#39;,  &#39;Sort alphabetically&#39;)
+      + &#39;&lt;th&gt;CI&lt;/th&gt;&#39;
+      + thSort(&#39;release&#39;, &#39;Release&#39;,     &#39;Sort by version tag&#39;)
+      + thSort(&#39;days&#39;,    &#39;Released&#39;,    &#39;Sort by release date&#39;)
+      + thSort(&#39;commits&#39;, &#39;Unreleased&#39;,  &#39;Commits since last release (requires token)&#39;)
+      + thSort(&#39;prs&#39;,     &#39;Open&amp;nbsp;PRs&#39;, &#39;Sort by open PRs (requires token)&#39;)
+      + &#39;&lt;th&gt;Packaging&lt;/th&gt;&#39;
+      + &#39;&lt;/tr&gt;&lt;/thead&gt;&#39;
+      + &#39;&lt;tbody&gt;&#39; + rows + &#39;&lt;/tbody&gt;&#39;
+      + &#39;&lt;/table&gt;&#39;;
+  }
+
+   
+  function renderAuthBar() {
+    var el = document.getElementById(&#39;mph-auth&#39;);
+    if (!el) return;
+    if (hasToken()) {
+      el.innerHTML =
+        &#39;&lt;span style=&#34;color:#15803d;font-weight:600;&#34;&gt;🔒 Authenticated&lt;/span&gt;&#39;
+        + &#39; — GitHub token active, 5,000 req/h.&#39;
+        + &#39; &amp;nbsp;&lt;a href=&#34;#&#34; id=&#34;mph-clear-token&#34; style=&#34;color:#dc2626;font-size:0.8rem;&#34;&gt;Remove token&lt;/a&gt;&#39;;
+      document.getElementById(&#39;mph-clear-token&#39;).addEventListener(&#39;click&#39;, function (e) {
+        e.preventDefault();
+        localStorage.removeItem(STORAGE_KEY);
+        location.reload();
+      });
+    } else {
+      el.innerHTML =
+        &#39;&lt;span style=&#34;color:#b45309;font-weight:600;&#34;&gt;⚠ Not authenticated&lt;/span&gt;&#39;
+        + &#39; — rate-limited to 60 req/h; unreleased commit and PR counts unavailable.&lt;br&gt;&#39;
+        + &#39;&lt;a href=&#34;https://github.com/settings/tokens/new?description=mate-desktop+dashboard&amp;scopes=&#34; &#39;
+        + &#39;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Create a read-only PAT&lt;/a&gt; (no scopes needed) and paste it here: &#39;
+        + &#39;&lt;input id=&#34;mph-tok-input&#34; type=&#34;password&#34; placeholder=&#34;ghp_…&#34; &#39;
+        + &#39;style=&#34;font-size:0.83rem;padding:0.15rem 0.45rem;border:1px solid #d1d5db;&#39;
+        + &#39;border-radius:0.3rem;width:190px;margin:0 0.3rem;&#34;&gt;&#39;
+        + &#39;&lt;button id=&#34;mph-tok-save&#34; &#39;
+        + &#39;style=&#34;font-size:0.83rem;padding:0.15rem 0.6rem;border:1px solid #d1d5db;&#39;
+        + &#39;border-radius:0.3rem;cursor:pointer;&#34;&gt;Save&lt;/button&gt;&#39;;
+      document.getElementById(&#39;mph-tok-save&#39;).addEventListener(&#39;click&#39;, function () {
+        var val = document.getElementById(&#39;mph-tok-input&#39;).value.trim();
+        if (val) { localStorage.setItem(STORAGE_KEY, val); location.reload(); }
+      });
+      document.getElementById(&#39;mph-tok-input&#39;).addEventListener(&#39;keydown&#39;, function (e) {
+        if (e.key === &#39;Enter&#39;) document.getElementById(&#39;mph-tok-save&#39;).click();
+      });
+    }
+  }
+
+   
+  function setupSortDelegation() {
+    var wrap = document.getElementById(&#39;mph-table-wrap&#39;);
+    if (!wrap) return;
+    wrap.addEventListener(&#39;click&#39;, function (e) {
+      var th = e.target.closest(&#39;th[data-col]&#39;);
+      if (!th) return;
+      var col = th.getAttribute(&#39;data-col&#39;);
+      sortDir = (sortCol === col) ? -sortDir : 1;
+      sortCol = col;
+      renderTable();
+    });
+  }
+
+   
+  function run() {
+    renderAuthBar();
+    setupSortDelegation();
+
+    fetchAllPages(API_GH + &#39;/orgs/&#39; + ORG + &#39;/repos?per_page=100&amp;type=public&#39;)
+      .then(function (repos) {
+        allRepos = repos;
+
+         
+        totalOps = repos.length            
+          + repos.length                   
+          + (hasToken() ? repos.length * 2 : 0);  
+        doneOps = 0;
+
+        updateStats();
+        renderTable();
+
+         
+        var relPromises = repos.map(function (r) {
+          return fetch(API_GH + &#39;/repos/&#39; + ORG + &#39;/&#39; + r.name + &#39;/releases/latest&#39;,
+                       { headers: makeHeaders() })
+            .then(function (resp) {
+              tick();
+              if (!resp.ok) { releaseData[r.name] = null; scheduleRender(); return null; }
+              return resp.json().then(function (rel) {
+                releaseData[r.name] = { tag: rel.tag_name, url: rel.html_url, published_at: rel.published_at };
+                scheduleRender();
+                return { name: r.name, tag: rel.tag_name };
+              });
+            })
+            .catch(function () { tick(); releaseData[r.name] = null; scheduleRender(); return null; });
+        });
+
+         
+        if (hasToken()) {
+          repos.forEach(function (r) {
+            fetch(API_GH + &#39;/repos/&#39; + ORG + &#39;/&#39; + r.name + &#39;/pulls?state=open&amp;per_page=1&#39;,
+                  { headers: makeHeaders() })
+              .then(function (resp) {
+                tick();
+                if (!resp.ok) { prCounts[r.name] = 0; scheduleRender(); updateStats(); return; }
+                return resp.json().then(function (items) {
+                  prCounts[r.name] = parsePrCount(resp, items);
+                  scheduleRender();
+                  updateStats();
+                });
+              })
+              .catch(function () { tick(); prCounts[r.name] = 0; scheduleRender(); });
+          });
+        }
+
+         
+        if (hasToken()) {
+          Promise.all(relPromises).then(function (results) {
+            results.forEach(function (res) {
+              if (!res || !res.tag) { tick(); unrelCommits[res &amp;&amp; res.name] = null; scheduleRender(); return; }
+              fetch(API_GH + &#39;/repos/&#39; + ORG + &#39;/&#39; + res.name + &#39;/compare/&#39; + encodeURIComponent(res.tag) + &#39;...HEAD&#39;,
+                    { headers: makeHeaders() })
+                .then(function (resp) {
+                  tick();
+                  if (!resp.ok) { unrelCommits[res.name] = null; scheduleRender(); return; }
+                  return resp.json().then(function (data) {
+                    unrelCommits[res.name] = data.ahead_by || 0;
+                    scheduleRender();
+                  });
+                })
+                .catch(function () { tick(); unrelCommits[res.name] = null; scheduleRender(); });
+            });
+          });
+        }
+
+         
+        repos.forEach(function (r) {
+          fetch(API_REPOLOGY + &#39;/&#39; + encodeURIComponent(r.name))
+            .then(function (resp) {
+              tick();
+              if (!resp.ok) { repologyData[r.name] = null; scheduleRender(); return; }
+              return resp.json().then(function (data) {
+                repologyData[r.name] = Array.isArray(data) ? data : null;
+                scheduleRender();
+              });
+            })
+            .catch(function () { tick(); repologyData[r.name] = null; scheduleRender(); });
+        });
+      })
+      .catch(function (err) {
+        var wrap = document.getElementById(&#39;mph-table-wrap&#39;);
+        if (wrap) wrap.innerHTML =
+          &#39;&lt;p style=&#34;color:#6b7280;font-size:0.85rem;&#34;&gt;Could not load project data&#39;
+          + (err &amp;&amp; err.message ? &#39; (&#39; + err.message + &#39;)&#39; : &#39;&#39;) + &#39;. &#39;
+          + (hasToken()
+              ? &#39;Check that your token is valid.&#39;
+              : &#39;Rate limit reached — add a token above or try again later.&#39;)
+          + &#39;&lt;/p&gt;&#39;;
+      });
+  }
+
+  if (document.readyState === &#39;loading&#39;) {
+    document.addEventListener(&#39;DOMContentLoaded&#39;, run);
+  } else {
+    run();
+  }
+}());
+&lt;/script&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Releasing a New Version</title>
+      <link>https://mate-desktop.org/docs/member/releasing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/member/releasing/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This guide covers cutting a release for any single MATE component (e.g. &lt;code&gt;atril&lt;/code&gt;, &lt;code&gt;caja&lt;/code&gt;, &lt;code&gt;mate-panel&lt;/code&gt;). A MATE release cycle typically bumps all components at once; run through this checklist for each repository.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;strong&gt;Do not release unilaterally.&lt;/strong&gt; All releases must go through a pull request so other MATE members can review the version bump and &lt;code&gt;NEWS&lt;/code&gt; entry before the tag is pushed. Open a PR, wait for at least one approval, then merge and tag. Pushing a tag directly to &lt;code&gt;master&lt;/code&gt; without team agreement is not acceptable.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Commit access to the repository on GitHub.&lt;/li&gt;
+&lt;li&gt;A local clone of the repository on the &lt;code&gt;master&lt;/code&gt; branch (or the release branch if one exists), fully up to date.&lt;/li&gt;
+&lt;li&gt;The repository builds cleanly and all tests pass.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull --ff-only
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -j&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;nproc&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make -j&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;nproc&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; check&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;1. Decide the version number&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-decide-the-version-number&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-decide-the-version-number&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE follows a &lt;code&gt;MAJOR.MINOR.MICRO&lt;/code&gt; scheme:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Segment&lt;/th&gt;
+          &lt;th&gt;When it changes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;MAJOR&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Significant architectural changes (rare)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;MINOR&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;New feature cycle (e.g. 1.28 → 1.30)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;MICRO&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Bug-fix / maintenance release (e.g. 1.28.0 → 1.28.1)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Even &lt;code&gt;MINOR&lt;/code&gt; numbers (1.28, 1.30 …) are stable releases; odd numbers (1.27, 1.29 …) are development snapshots.&lt;/p&gt;
+&lt;h2&gt;2. Update the version in the build files&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-update-the-version-in-the-build-files&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-update-the-version-in-the-build-files&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+  
+  
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Autotools&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Meson&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;p&gt;Open &lt;code&gt;configure.ac&lt;/code&gt; and change the version in the &lt;code&gt;AC_INIT&lt;/code&gt; line:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;-AC_INIT([atril], [1.28.1], [https://github.com/mate-desktop/atril/issues])
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+AC_INIT([atril], [1.28.2], [https://github.com/mate-desktop/atril/issues])
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;p&gt;Open &lt;code&gt;meson.build&lt;/code&gt; and change the &lt;code&gt;version:&lt;/code&gt; field in the top-level &lt;code&gt;project()&lt;/code&gt; call:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;-project(&amp;#39;atril&amp;#39;, [&amp;#39;c&amp;#39;, &amp;#39;cpp&amp;#39;], version: &amp;#39;1.28.1&amp;#39;, ...)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+project(&amp;#39;atril&amp;#39;, [&amp;#39;c&amp;#39;, &amp;#39;cpp&amp;#39;], version: &amp;#39;1.28.2&amp;#39;, ...)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;3. Update the &lt;code&gt;NEWS&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-update-the-news-file&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-update-the-news-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Add a new section at the top of &lt;code&gt;NEWS&lt;/code&gt; for the release. Follow the existing format used in the file. Mention:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed bugs (reference GitHub issue numbers where possible).&lt;/li&gt;
+&lt;li&gt;New features (minor releases only).&lt;/li&gt;
+&lt;li&gt;Translation updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;### atril 1.28.2
+
+  * Fix crash when saving a signed PDF (gh#123)
+  * Several translation updates&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;4. Commit the version bump&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-commit-the-version-bump&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-commit-the-version-bump&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Push the branch and open a pull request against &lt;code&gt;master&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b release/1.28.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add configure.ac NEWS        &lt;span class=&#34;c1&#34;&gt;# adjust for meson.build if needed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Release 1.28.2&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin release/1.28.2&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Do &lt;strong&gt;not&lt;/strong&gt; squash this commit with anything else — it should stand alone so the tag points to a clean, identifiable state.&lt;/p&gt;
+&lt;p&gt;Then open the PR on GitHub (the push output will print a direct URL). In the PR description include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The highlights from your &lt;code&gt;NEWS&lt;/code&gt; entry.&lt;/li&gt;
+&lt;li&gt;A note on what changed since the previous release (link to the compare URL: &lt;code&gt;https://github.com/mate-desktop/&amp;lt;repo&amp;gt;/compare/v1.28.1...release/1.28.2&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Wait for &lt;strong&gt;at least one approval&lt;/strong&gt; from another MATE member before merging.&lt;/p&gt;
+&lt;h2&gt;5. Merge and tag the release&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-merge-and-tag-the-release&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-merge-and-tag-the-release&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once the PR is approved and merged, pull the updated &lt;code&gt;master&lt;/code&gt; and create an annotated tag. The tag &lt;strong&gt;must&lt;/strong&gt; start with &lt;code&gt;v&lt;/code&gt; — this is what triggers the release workflow.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull --ff-only
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git tag -a &lt;span class=&#34;s2&#34;&gt;&amp;#34;v1.28.2&amp;#34;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Release 1.28.2&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Double-check the tag name before pushing. Correcting a pushed tag requires deleting it on GitHub and re-running the release workflow.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;6. Push the tag — this triggers the automated release&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-push-the-tag--this-triggers-the-automated-release&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-push-the-tag--this-triggers-the-automated-release&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin &lt;span class=&#34;s2&#34;&gt;&amp;#34;v1.28.2&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Pushing a &lt;code&gt;v*.*.*&lt;/code&gt; tag starts the &lt;strong&gt;Release Version&lt;/strong&gt; workflow, which:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Installs build dependencies.&lt;/li&gt;
+&lt;li&gt;Builds the source and runs &lt;code&gt;make distcheck&lt;/code&gt; to produce a &lt;code&gt;.tar.xz&lt;/code&gt; tarball.&lt;/li&gt;
+&lt;li&gt;Creates a GitHub release named after the tag, attaches the tarball, and auto-generates release notes from merged pull requests and commits since the previous tag.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Monitor the workflow run under &lt;strong&gt;Actions&lt;/strong&gt; in the repository. If it fails, fix the problem, delete the tag locally and from GitHub, then re-tag after the fix.&lt;/p&gt;
+&lt;h2&gt;7. Announce the release&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-announce-the-release&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-announce-the-release&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Post on the &lt;a href=&#34;https://mate-desktop.org/blog/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATE Desktop blog&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for minor (feature) releases.&lt;/li&gt;
+&lt;li&gt;For micro (bug-fix) releases a short note on the &lt;a href=&#34;https://mate-desktop.org/community/&#34;&gt;community channels&lt;/a&gt; is sufficient.&lt;/li&gt;
+&lt;li&gt;Update the &lt;a href=&#34;https://mate-desktop.org/download/&#34;&gt;download page&lt;/a&gt; if the stable version number changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
