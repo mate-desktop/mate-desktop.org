@@ -1,0 +1,116 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATE Desktop Environment – Compliance</title>
+    <link>https://mate-desktop.org/docs/member/compliance/</link>
+    <description>Recent content in Compliance on MATE Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="https://mate-desktop.org/docs/member/compliance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Licensing and Attribution</title>
+      <link>https://mate-desktop.org/docs/member/compliance/licensing-and-attribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/member/compliance/licensing-and-attribution/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This checklist helps maintainers keep MATE releases compliant with license obligations across all repositories.&lt;/p&gt;
+&lt;h2&gt;Why this matters&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-this-matters&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-this-matters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;MATE is a multi-repository, volunteer-driven project. License mistakes in one component can affect downstream distributions and users, so we handle licensing as a shared responsibility.&lt;/p&gt;
+&lt;h2&gt;Checklist for merge requests and releases&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;checklist-for-merge-requests-and-releases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#checklist-for-merge-requests-and-releases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Verify new files include the correct license header used by that repository.&lt;/li&gt;
+&lt;li&gt;Verify copied or imported code keeps upstream copyright and license notices.&lt;/li&gt;
+&lt;li&gt;Confirm third-party code additions include a clear source reference in commit messages or PR notes.&lt;/li&gt;
+&lt;li&gt;Ensure bundled assets (icons, images, themes, docs) have redistribution rights compatible with the repository license.&lt;/li&gt;
+&lt;li&gt;Update any license manifest files used by the project (for example &lt;code&gt;COPYING&lt;/code&gt;, &lt;code&gt;LICENSE&lt;/code&gt;, or equivalent notice files).&lt;/li&gt;
+&lt;li&gt;If license compatibility is unclear, pause merge and ask for maintainer review in the PR.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Third-party dependency expectations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;third-party-dependency-expectations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#third-party-dependency-expectations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Prefer dependencies already packaged by major distributions.&lt;/li&gt;
+&lt;li&gt;Prefer licenses compatible with GPL/LGPL project components.&lt;/li&gt;
+&lt;li&gt;Avoid dependencies with unclear ownership, unclear terms, or non-commercial restrictions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Minimum PR note for external code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;minimum-pr-note-for-external-code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#minimum-pr-note-for-external-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When a PR adds external code, include this in the description:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Source: &amp;lt;upstream URL&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;License: &amp;lt;license name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Changes made: &amp;lt;short summary&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Attribution retained: yes/no&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Disagreement handling&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;disagreement-handling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#disagreement-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If maintainers disagree on licensing risk, do not merge immediately. Ask for at least one more maintainer review and document the final decision in the PR thread.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Consensus and Change Control</title>
+      <link>https://mate-desktop.org/docs/member/compliance/consensus-and-change-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mate-desktop.org/docs/member/compliance/consensus-and-change-control/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MATE is maintained by volunteers across time zones without a single project lead. This page defines a practical decision process so important changes stay transparent and reviewable.&lt;/p&gt;
+&lt;h2&gt;When consensus is required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;when-consensus-is-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#when-consensus-is-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use consensus review (not unilateral merge) for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Release version bumps and release tags&lt;/li&gt;
+&lt;li&gt;ABI/API changes that affect downstreams&lt;/li&gt;
+&lt;li&gt;Dependency additions or removals&lt;/li&gt;
+&lt;li&gt;Build system migrations and CI policy changes&lt;/li&gt;
+&lt;li&gt;Governance, moderation, or policy documentation changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Baseline decision rule&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;baseline-decision-rule&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#baseline-decision-rule&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Open a PR with clear rationale and impact.&lt;/li&gt;
+&lt;li&gt;Request review from active maintainers in affected repositories.&lt;/li&gt;
+&lt;li&gt;Wait for at least one approval for routine changes, or two approvals for high-impact changes.&lt;/li&gt;
+&lt;li&gt;If concerns remain unresolved, do not merge.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;How to resolve disagreement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-to-resolve-disagreement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-to-resolve-disagreement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Summarize options in the PR thread.&lt;/li&gt;
+&lt;li&gt;Prefer the option with lowest risk to users and packagers.&lt;/li&gt;
+&lt;li&gt;If no agreement emerges, defer to a maintenance release cycle and revisit with more testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Emergency exceptions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;emergency-exceptions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#emergency-exceptions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Urgent security fixes may be merged faster, but must still be announced to maintainers with follow-up review after merge.&lt;/p&gt;
+&lt;h2&gt;Documentation requirement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;documentation-requirement&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#documentation-requirement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For impactful decisions, leave a concise final comment in the PR describing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What was decided&lt;/li&gt;
+&lt;li&gt;Why&lt;/li&gt;
+&lt;li&gt;Any follow-up work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This gives future maintainers an auditable project history.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
