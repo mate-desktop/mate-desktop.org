@@ -26,9 +26,10 @@
   * [Форуми корисника Дебиана](http://forums.debian.net/)
   * [Форум Федоре](https://fedoraforum.org/)
   * [Форуми расправе о Џентуу](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Форуми Линукс Минта](https://forums.linuxmint.com/)
-  * [Форуми Убунту Мејта](https://ubuntu-mate.community)
   * [„subreddit“ Мејтове радне површи](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## Друштвене мреже
 
