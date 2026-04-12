@@ -26,9 +26,10 @@ Jeśli nie przepadasz za listami, zajrzyj na fora naszych użytkowników:
   * [Debian User Forums](http://forums.debian.net/)
   * [Fedora Forum](https://fedoraforum.org/)
   * [Gentoo Discussion Forums](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Linux Mint Forums](https://forums.linuxmint.com/)
   * [subreddit MATE Desktop](https://www.reddit.com/r/MATEDesktop)
-  * [Ubuntu MATE Forums](https://ubuntu-mate.community)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## Sieci społecznościowe
 

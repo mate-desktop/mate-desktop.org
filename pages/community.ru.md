@@ -26,9 +26,10 @@
   * [Форумы пользователей Debian](http://forums.debian.net/)
   * [Форум пользователей Fedora](https://fedoraforum.org/)
   * [Форумы для обсуждений Gentoo](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Форумы Linux Mint](https://forums.linuxmint.com/)
-  * [Форумы Ubuntu MATE](https://ubuntu-mate.community)
   * [MATE на Reddit](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## Социальные сети
 

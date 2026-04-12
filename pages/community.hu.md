@@ -26,9 +26,10 @@ Ha nem szereti az e-mailt, megértjük. Jöjjön és csatlakozzon a közösségi
   * [Debian felhasználói fórum](http://forums.debian.net/)
   * [Fedora fórum](https://fedoraforum.org/)
   * [Gentoo fórum](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Linux Mint fórum](https://forums.linuxmint.com/)
-  * [Ubuntu MATE fórum](https://ubuntu-mate.community)
   * [MATE asztali környezet subreddit](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## Közösségi média
 

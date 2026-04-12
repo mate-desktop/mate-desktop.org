@@ -26,9 +26,10 @@ fòrums de la comunitat.
   * [Fòrums d'usuaris de Debian](http://forums.debian.net/)
   * [Fòrums de Fedora](https://fedoraforum.org/)
   * [Fòrums de Gentoo](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Fòrums de Linux Mint](https://forums.linuxmint.com/)
-  * [Fòrums d'Ubuntu MATE](https://ubuntu-mate.community)
   * [Subreddit de l'escriptori MATE](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## Xarxes socials
 

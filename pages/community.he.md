@@ -25,8 +25,9 @@
   * [פורום פדורה](https://fedoraforum.org/)
   * [הפורומים לדיונים של Gentoo](https://forums.gentoo.org/)
   * [הפורומים של לינוקס מינט](https://forums.linuxmint.com/)
-  * [הפורומים של MATE](https://ubuntu-mate.community)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [subreddit על שולחן העבודה MATE](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## רשתות חברתיות
 

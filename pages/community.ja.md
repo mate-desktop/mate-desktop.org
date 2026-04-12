@@ -23,9 +23,10 @@ MATE コミュニティと連携するには、さまざまな方法がありま
   * [Debian ユーザフォーラム](http://forums.debian.net/)
   * [Fedora フォーラム](https://fedoraforum.org/)
   * [Gentoo ディスカッション・フォーラム](https://forums.gentoo.org/)
+  * [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop/47)
   * [Linux Mint フォーラム](https://forums.linuxmint.com/)
-  * [Ubuntu MATE フォーラム](https://ubuntu-mate.community)
   * [MATE デスクトップ subreddit](https://www.reddit.com/r/MATEDesktop)
+  * [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/191)
 
 ## ソーシャルメディア
 
