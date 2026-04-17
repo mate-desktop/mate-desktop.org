@@ -27,11 +27,12 @@ Join us on Matrix at [#mate-desktop-environment:matrix.org](https://matrix.to/#/
 
 ## Forums
 
-Many distributions have dedicated MATE support forums:
+MATE support and discussions can be found in these forums:
 
-- [Ubuntu MATE Community](https://ubuntu-mate.community/)
+- [LinuxCommunity.io](https://linuxcommunity.io/c/mate-desktop)
 - [Linux Mint Forums](https://forums.linuxmint.com/viewforum.php?f=206)
 - [FreeBSD](https://forums.freebsd.org/tags/mate-desktop/)
+- [Ubuntu Discourse](https://discourse.ubuntu.com/c/flavors/ubuntu-mate/)
 
 ## Events
 
