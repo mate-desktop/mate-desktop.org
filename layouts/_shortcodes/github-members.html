@@ -1,0 +1,22 @@
+{{- $org := .Get 0 | default "mate-desktop" -}}
+{{- $url := printf "https://api.github.com/orgs/%s/members?per_page=100" $org -}}
+{{- $opts := dict "headers" (dict "Accept" "application/vnd.github+json" "X-GitHub-Api-Version" "2022-11-28") -}}
+{{- with try (resources.GetRemote $url $opts) -}}
+  {{- with .Err -}}
+    <p class="text-sm text-gray-500">Could not load team data.</p>
+  {{- else -}}
+    {{- $members := .Value | transform.Unmarshal -}}
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1.5rem;margin:1.5rem 0;">
+      {{- range $members -}}
+      <a href="{{ .html_url }}" target="_blank" rel="noopener"
+         style="display:flex;flex-direction:column;align-items:center;gap:0.5rem;text-decoration:none;color:inherit;">
+        <img src="{{ .avatar_url }}&s=96" alt="{{ .login }}"
+             width="80" height="80"
+             style="border-radius:50%;border:2px solid var(--tw-prose-hr,#e5e7eb);">
+        <span style="font-size:0.8rem;font-weight:500;text-align:center;word-break:break-all;">{{ .login }}</span>
+      </a>
+      {{- end -}}
+    </div>
+    <p style="font-size:0.8rem;color:#6b7280;">{{ len $members }} public members · <a href="https://github.com/orgs/{{ $org }}/people" target="_blank" rel="noopener">View on GitHub</a></p>
+  {{- end -}}
+{{- end -}}

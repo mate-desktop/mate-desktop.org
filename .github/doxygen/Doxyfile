@@ -1,0 +1,168 @@
+# ============================================================
+# Project
+# ============================================================
+
+PROJECT_NAME           = "MATE Desktop Environment"
+PROJECT_BRIEF          = "The continuation of GNOME 2. An intuitive and attractive desktop for Linux and Unix-like operating systems."
+PROJECT_LOGO           =
+
+OUTPUT_DIRECTORY       = static/docs/api
+CREATE_SUBDIRS         = NO
+
+# ============================================================
+# Input
+# ============================================================
+
+# Paths are relative to the working directory (repo root) when doxygen is invoked.
+# In CI, MATE source repos are cloned to ../mate-src/.
+
+INPUT = \
+  ../mate-src/atril ../mate-src/caja ../mate-src/caja-actions \
+  ../mate-src/caja-dropbox ../mate-src/caja-extensions \
+  ../mate-src/engrampa ../mate-src/eom ../mate-src/libmatekbd \
+  ../mate-src/libmatemixer ../mate-src/libmateui ../mate-src/libmateweather \
+  ../mate-src/marco ../mate-src/mate-applets ../mate-src/mate-backgrounds \
+  ../mate-src/mate-calc ../mate-src/mate-common \
+  ../mate-src/mate-control-center ../mate-src/mate-desktop \
+  ../mate-src/mate-dev-scripts ../mate-src/mate-icon-theme \
+  ../mate-src/mate-indicator-applet ../mate-src/mate-media \
+  ../mate-src/mate-menus ../mate-src/mate-netbook \
+  ../mate-src/mate-notification-daemon ../mate-src/mate-panel \
+  ../mate-src/mate-polkit ../mate-src/mate-power-manager \
+  ../mate-src/mate-screensaver ../mate-src/mate-sensors-applet \
+  ../mate-src/mate-session-manager ../mate-src/mate-settings-daemon \
+  ../mate-src/mate-system-monitor ../mate-src/mate-terminal \
+  ../mate-src/mate-themes ../mate-src/mate-user-guide \
+  ../mate-src/mate-user-share ../mate-src/mate-utils \
+  ../mate-src/mate-wayland-session ../mate-src/mozo \
+  ../mate-src/pluma ../mate-src/pluma-plugins ../mate-src/python-caja
+
+
+RECURSIVE              = YES
+
+FILE_PATTERNS          = *.c *.h *.cpp *.hh *.md
+
+# ============================================================
+# Excludes (IMPORTANT)
+# ============================================================
+
+EXCLUDE_PATTERNS = \
+  */build/* */builddir/* */_build/* */cmake-build-* \
+  */.git/* */.meson/* */subprojects/* */.cache/*
+
+EXCLUDE_SYMLINKS       = YES
+
+# ============================================================
+# Path handling
+# ============================================================
+
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = .
+
+# ============================================================
+# Extraction rules (public API focused)
+# ============================================================
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = NO
+EXTRACT_PRIVATE        = NO
+EXTRACT_LOCAL_CLASSES  = NO
+
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+# ============================================================
+# GTK / GLib / GObject compatibility
+# ============================================================
+
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = YES
+
+PREDEFINED = \
+  G_BEGIN_DECLS= \
+  G_END_DECLS= \
+  G_GNUC_CONST= \
+  G_GNUC_PURE= \
+  G_GNUC_PRINTF(fmt,arg)= \
+  G_GNUC_NULL_TERMINATED= \
+  G_DECLARE_FINAL_TYPE(...) \
+  G_DECLARE_DERIVABLE_TYPE(...) \
+  G_DECLARE_INTERFACE(...) \
+  G_DEFINE_AUTOPTR_CLEANUP_FUNC(Type,Func)=
+
+EXTENSION_MAPPING      = h=C
+
+# ============================================================
+# Source browsing
+# ============================================================
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+REFERENCES_RELATION    = YES
+REFERENCED_BY_RELATION = YES
+
+# ============================================================
+# HTML output
+# ============================================================
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+
+GENERATE_TREEVIEW      = YES
+
+DISABLE_INDEX          = NO
+SEARCHENGINE           = YES
+
+# ============================================================
+# Navigation cleanliness
+# ============================================================
+
+SHOW_FILES             = YES
+SHOW_NAMESPACES        = NO
+
+GENERATE_TESTLIST      = NO
+GENERATE_BUGLIST       = NO
+GENERATE_TODOLIST      = NO
+GENERATE_DEPRECATEDLIST = YES
+
+# ============================================================
+# Main page
+# ============================================================
+
+USE_MDFILE_AS_MAINPAGE =
+
+# ============================================================
+# Graphviz / diagrams
+# ============================================================
+
+HAVE_DOT               = YES
+
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+
+# ============================================================
+# Warnings & robustness
+# ============================================================
+
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+
+QUIET                  = NO
+WARNINGS               = YES
+
+# ============================================================
+# Disable unused outputs
+# ============================================================
+
+GENERATE_LATEX         = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+GENERATE_DOCSET        = NO

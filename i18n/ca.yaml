@@ -1,0 +1,11 @@
+# Menu items
+download: Baixa
+documentation: Documentació
+blog: Blog
+about: Quant a
+community: Comunitat
+
+# Theme strings
+readMore: "Llegeix més →"
+copyright: "© 2025 Equip de MATE Desktop."
+poweredBy: "Desenvolupat amb Hugo & Hextra"

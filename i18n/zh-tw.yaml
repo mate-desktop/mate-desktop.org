@@ -1,0 +1,11 @@
+# Menu items
+download: 下載
+documentation: 文件
+blog: 部落格
+about: 關於
+community: 社群
+
+# Theme strings
+readMore: "閱讀更多 →"
+copyright: "© 2025 MATE 桌面團隊"
+poweredBy: "由 Hugo 和 Hextra 提供支持"

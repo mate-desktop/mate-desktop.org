@@ -1,0 +1,11 @@
+# Menu items
+download: Herunterladen
+documentation: Dokumentation
+blog: Blog
+about: Über uns
+community: Community
+
+# Theme strings
+readMore: "Weiterlesen →"
+copyright: "© 2025 MATE Desktop Team."
+poweredBy: "Unterstützt von Hugo & Hextra"
