@@ -111,7 +111,15 @@
       if (col === sortCol) {
         arrow = sortDir === 1 ? '▲' : '▼';
       }
-      th.innerHTML = label + (arrow ? '<span class="mph-sort-arrow" aria-hidden="true">' + arrow + '</span>' : '');
+      while (th.firstChild) th.removeChild(th.firstChild);
+      th.appendChild(document.createTextNode(label));
+      if (arrow) {
+        var arrowSpan = document.createElement('span');
+        arrowSpan.className = 'mph-sort-arrow';
+        arrowSpan.setAttribute('aria-hidden', 'true');
+        arrowSpan.textContent = arrow;
+        th.appendChild(arrowSpan);
+      }
     });
   }
 
