@@ -23,98 +23,98 @@ outputs:
 languages:
   en:
     contentDir: content/en
-    languageName: 'English'
-    languageCode: 'en'
+    label: 'English'
+    locale: 'en'
     weight: 1
     title: 'MATE Desktop Environment'
   de:
     contentDir: content/de
-    languageName: 'Deutsch'
-    languageCode: 'de'
+    label: 'Deutsch'
+    locale: 'de'
     weight: 2
     title: 'MATE Desktop-Umgebung'
   es:
     contentDir: content/es
-    languageName: 'Español'
-    languageCode: 'es'
+    label: 'Español'
+    locale: 'es'
     weight: 3
     title: 'Entorno de Escritorio MATE'
   it:
     contentDir: content/it
-    languageName: 'Italiano'
-    languageCode: 'it'
+    label: 'Italiano'
+    locale: 'it'
     weight: 4
     title: 'Ambiente Desktop MATE'
   ja:
     contentDir: content/ja
-    languageName: '日本語'
-    languageCode: 'ja'
+    label: '日本語'
+    locale: 'ja'
     weight: 5
     title: 'MATE デスクトップ環境'
   bg:
     contentDir: content/bg
-    languageName: 'Български'
-    languageCode: 'bg'
+    label: 'Български'
+    locale: 'bg'
     weight: 6
     title: 'MATE Desktop Environment'
   ca:
     contentDir: content/ca
-    languageName: 'Català'
-    languageCode: 'ca'
+    label: 'Català'
+    locale: 'ca'
     weight: 7
     title: "Entorn d'escriptori MATE"
   zh-cn:
     contentDir: content/zh-cn
-    languageName: '简体中文'
-    languageCode: 'zh-CN'
+    label: '简体中文'
+    locale: 'zh-CN'
     weight: 8
     title: 'MATE 桌面环境'
   zh-tw:
     contentDir: content/zh-tw
-    languageName: '繁體中文'
-    languageCode: 'zh-TW'
+    label: '繁體中文'
+    locale: 'zh-TW'
     weight: 9
     title: 'MATE 桌面環境'
   he:
     contentDir: content/he
-    languageName: 'עברית'
-    languageCode: 'he'
+    label: 'עברית'
+    locale: 'he'
     weight: 10
     title: 'MATE Desktop Environment'
   pl:
     contentDir: content/pl
-    languageName: 'Polski'
-    languageCode: 'pl'
+    label: 'Polski'
+    locale: 'pl'
     weight: 11
     title: 'MATE Desktop Environment'
   pt:
     contentDir: content/pt
-    languageName: 'Português'
-    languageCode: 'pt'
+    label: 'Português'
+    locale: 'pt'
     weight: 12
     title: 'MATE Desktop Environment'
   pt-br:
     contentDir: content/pt-br
-    languageName: 'Português (Brasil)'
-    languageCode: 'pt-BR'
+    label: 'Português (Brasil)'
+    locale: 'pt-BR'
     weight: 13
     title: 'MATE Desktop Environment'
   ru:
     contentDir: content/ru
-    languageName: 'Русский'
-    languageCode: 'ru'
+    label: 'Русский'
+    locale: 'ru'
     weight: 14
     title: 'MATE Desktop Environment'
   sr:
     contentDir: content/sr
-    languageName: 'Srpski'
-    languageCode: 'sr'
+    label: 'Srpski'
+    locale: 'sr'
     weight: 15
     title: 'MATE Desktop Environment'
   uk:
     contentDir: content/uk
-    languageName: 'Українська'
-    languageCode: 'uk'
+    label: 'Українська'
+    locale: 'uk'
     weight: 16
     title: 'MATE Desktop Environment'
 
