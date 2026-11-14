@@ -99,7 +99,7 @@ GNOME 3+ adopted a very different interface paradigm (GNOME Shell). MATE preserv
 
 Many ways:
 - **Code**: Submit patches on [GitHub](https://github.com/mate-desktop)
-- **Translations**: Help translate via [Transifex](https://www.transifex.com/mate/MATE/)
+- **Translations**: Help translate via [Weblate](https://translate.fedoraproject.org/projects/mate-desktop/)
 - **Testing**: Try pre-release versions and report bugs
 - **Documentation**: Improve wiki and help files
 - **Support**: Help users in forums and chat

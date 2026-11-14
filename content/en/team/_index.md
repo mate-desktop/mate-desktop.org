@@ -12,6 +12,6 @@ MATE welcomes new contributors. Whether you want to write code, improve document
 
 {{< cards >}}
   {{< card link="/docs/developer/first-contribution" title="First Contribution" icon="pencil" >}}
-  {{< card link="/docs/developer/translation" title="Translation" icon="translate" >}}
+  {{< card link="/docs/translator" title="Translation" icon="translate" >}}
   {{< card link="/community" title="Community" icon="chat" >}}
 {{< /cards >}}
