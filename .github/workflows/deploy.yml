@@ -9,6 +9,9 @@ on:
     branches:
       - master
       - main
+  schedule:
+    # Nightly: pick up new commits in all MATE repositories (API reference + ecosystem graph)
+    - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,22 +25,100 @@ defaults:
   run:
     shell: bash
 
+env:
+  HUGO_VERSION: 0.169.0
+  DOXYGEN_AWESOME_VERSION: v2.3.4
+  MATE_SRC: ${{ github.workspace }}/.cache/mate-src
+  GIR_PREFIX: ${{ github.workspace }}/.cache/gir-prefix
+
 jobs:
+  # Builds the introspectable MATE libraries from git and renders their
+  # GObject API reference with gi-docgen. Cached on the libraries' commits,
+  # so it only re-runs when one of them changed.
+  library-docs:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Clone MATE repositories
+        run: python3 scripts/api/mateapi.py --src "$MATE_SRC" clone
+
+      - name: Compute cache key from library commits
+        id: key
+        run: |
+          key=$(for r in mate-desktop mate-menus libmatekbd libmateweather mate-panel caja eom pluma atril; do
+                  git -C "$MATE_SRC/$r" rev-parse HEAD; done | sha256sum | cut -c1-16)
+          echo "key=libdocs-${key}-${{ hashFiles('scripts/api/mateapi.py') }}" >> "$GITHUB_OUTPUT"
+
+      - name: Restore library docs
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: static/docs/api/lib
+          key: ${{ steps.key.outputs.key }}
+
+      - name: Install build dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          sudo sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/ubuntu.sources
+          sudo apt-get update -qq
+          sudo apt-get build-dep -y -qq mate-desktop mate-menus libmatekbd libmateweather mate-panel caja eom pluma atril
+          sudo apt-get install -y -qq gi-docgen gobject-introspection libgirepository1.0-dev meson ninja-build \
+            autoconf-archive yelp-tools gtk-doc-tools
+          # mate-common provides the autotools macros the libraries need
+          (cd "$MATE_SRC/mate-common" && ./autogen.sh --prefix="$GIR_PREFIX" && make install)
+
+      - name: Build libraries and generate library reference
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" graph
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" gir --prefix "$GIR_PREFIX"
+
+      - name: Upload library reference
+        uses: actions/upload-artifact@v4
+        with:
+          name: library-docs
+          path: static/docs/api/lib
+          if-no-files-found: warn
+          retention-days: 3
+
   hugo-build:
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.169.0
+    runs-on: ubuntu-24.04
+    needs: library-docs
     steps:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
+      - name: Install Doxygen and Graphviz
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq doxygen graphviz
+
       - name: Checkout
         uses: actions/checkout@v6
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Clone MATE repositories
+        run: |
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" clone
+          git clone -q --depth 1 --branch "$DOXYGEN_AWESOME_VERSION" \
+            https://github.com/jothepro/doxygen-awesome-css.git .cache/doxygen-awesome-css
+
+      - name: Download library reference
+        uses: actions/download-artifact@v4
+        with:
+          name: library-docs
+          path: static/docs/api/lib
+        continue-on-error: true
+
+      - name: Generate ecosystem graph and source reference
+        run: |
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" graph
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" doxygen
+          python3 scripts/api/mateapi.py --src "$MATE_SRC" finalize
 
       - name: Setup Pages
         if: github.event_name != 'pull_request'

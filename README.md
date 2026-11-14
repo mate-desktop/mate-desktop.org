@@ -59,6 +59,34 @@ git add go.mod go.sum
 git commit -m "Update Hugo modules"
 ```
 
+### API Reference and Ecosystem Graph
+
+`/docs/api/` shows an interactive dependency graph of all MATE packages and
+links to their API reference. Everything is generated from the MATE
+repositories by `scripts/api/mateapi.py` and is never committed: CI rebuilds it
+on every push and nightly (see `.github/workflows/deploy.yml`).
+
+The package list, categories and descriptions live in `scripts/api/packages.toml`;
+dependencies, versions, pkg-config modules and GIR namespaces are detected
+automatically.
+
+To generate it locally (requires `doxygen` and `graphviz`; `gi-docgen` plus the MATE build
+dependencies for the library reference):
+
+```bash
+python3 scripts/api/mateapi.py clone      # shallow clones into .cache/mate-src
+python3 scripts/api/mateapi.py graph      # data/ecosystem.json
+python3 scripts/api/mateapi.py doxygen    # static/docs/api/src/<package>/
+python3 scripts/api/mateapi.py gir        # optional: static/docs/api/lib/<Namespace>/
+python3 scripts/api/mateapi.py finalize   # link the generated docs into the graph
+hugo server
+```
+
+For the themed Doxygen output, clone
+[doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) into
+`.cache/doxygen-awesome-css`. Without any generated data the page still builds
+and shows a notice instead of the graph.
+
 ## Multilingual Support
 
 The site supports multiple languages:
