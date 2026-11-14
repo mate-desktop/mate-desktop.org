@@ -185,7 +185,24 @@ html.dark #mate-eco {
     var catLabel = {}; data.categories.forEach(function (c) { catLabel[c.id] = c.label; });
 
     function css(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
-    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]; }); }
+    // All dynamic content is built as DOM nodes with textContent; nothing from
+    // the data is ever parsed as HTML.
+    function el(tag, props, children) {
+      var e = document.createElement(tag);
+      Object.keys(props || {}).forEach(function (k) {
+        var v = props[k];
+        if (v == null || v === false) return;
+        if (k === 'text') e.textContent = v;
+        else if (k === 'href') e.setAttribute('href', safeUrl(v));
+        else e.setAttribute(k, v);
+      });
+      (children || []).forEach(function (c) { if (c != null) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c); });
+      return e;
+    }
+    function safeUrl(u) { u = String(u); return /^(https:\/\/|\/(?!\/))/.test(u) ? u : '#'; }
+    function dot(color) { var d = el('span', { 'class': 'eco-dot' }); d.style.background = color; return d; }
+    function catColor(id) { return /^[a-z-]+$/.test(id) ? 'var(--eco-' + id + ')' : 'var(--eco-muted)'; }
+    function fill(target, nodes) { target.replaceChildren.apply(target, nodes.filter(function (n) { return n != null; })); }
 
     // ---- elements
     var els = [];
@@ -373,7 +390,7 @@ html.dark #mate-eco {
       var count = c.id === 'external' ? data.external.length : data.packages.filter(function (p) { return p.category === c.id; }).length;
       var b = document.createElement('button');
       b.type = 'button'; b.className = 'eco-chip'; b.setAttribute('aria-pressed', 'true');
-      b.innerHTML = '<span class="eco-dot" style="background:var(--eco-' + c.id + ')"></span>' + esc(c.label) + ' <span class="eco-muted">' + count + '</span>';
+      fill(b, [dot(catColor(c.id)), document.createTextNode(c.label + ' '), el('span', { 'class': 'eco-muted', text: String(count) })]);
       b.addEventListener('click', function () {
         if (c.id === 'external') { opt.external.checked = !opt.external.checked; opt.external.dispatchEvent(new Event('change')); return; }
         hiddenCats[c.id] = !hiddenCats[c.id];
@@ -399,7 +416,7 @@ html.dark #mate-eco {
     // ---- selection & highlighting
     var current = null;
     var panel = document.getElementById('eco-panel');
-    var defaultPanel = panel.innerHTML;
+    var defaultPanel = Array.prototype.map.call(panel.childNodes, function (n) { return n.cloneNode(true); });
 
     function visibleEdges(col) { return col.filter(function (e) { return e.style('display') !== 'none'; }); }
     function closure(node, dir) {
@@ -414,11 +431,28 @@ html.dark #mate-eco {
       return { nodes: seen, edges: edges };
     }
 
-    function tagList(items, cls) {
-      if (!items.length) return '<p class="eco-muted">None</p>';
-      return '<div class="eco-tags">' + items.map(function (i) {
-        return '<button type="button" class="eco-tag ' + (i.optional ? 'eco-opt ' : '') + (cls || '') + '" data-goto="' + esc(i.name) + '" title="' + esc(i.title || (i.optional ? 'optional' : '')) + '">' + esc(i.name) + '</button>';
-      }).join('') + '</div>';
+    function tagList(items) {
+      if (!items.length) return el('p', { 'class': 'eco-muted', text: 'None' });
+      return el('div', { 'class': 'eco-tags' }, items.map(function (i) {
+        return el('button', { type: 'button', 'class': 'eco-tag' + (i.optional ? ' eco-opt' : ''), 'data-goto': i.name,
+          title: i.title || (i.optional ? 'optional' : null), text: i.name });
+      }));
+    }
+    function staticTags(items) {
+      return el('div', { 'class': 'eco-tags' }, items.map(function (i) {
+        return el('span', { 'class': 'eco-tag eco-static' + (i.optional ? ' eco-opt' : ''), title: i.title },
+          [i.code ? el('code', { 'class': 'eco-code', text: i.text }) : i.text]);
+      }));
+    }
+    function docLink(href, title, rest, small) {
+      return el('a', { 'class': 'eco-doclink', href: href, rel: /^https:/.test(href) ? 'noopener' : null },
+        [el('strong', { text: title }), rest || null, el('small', { text: small })]);
+    }
+    function heading(text, color, count) {
+      return el('h4', null, [text + ' ', color ? (function () { var s = el('span', { text: '●' }); s.style.color = color; return s; })() : null, count ? ' ' + count : null]);
+    }
+    function clearButton() {
+      return el('p', { style: 'margin-top:1rem' }, [el('button', { type: 'button', 'class': 'eco-btn', id: 'eco-clear', text: 'Clear selection' })]);
     }
 
     // Counts come from the data, not from what is currently visible.
@@ -435,41 +469,41 @@ html.dark #mate-eco {
 
     function renderPanel(p) {
       var down = reach(p.name, 'down'), up = reach(p.name, 'up');
-      var h = '<h3>' + esc(p.name) + '</h3>';
-      h += '<p class="eco-muted"><span class="eco-dot" style="background:var(--eco-' + p.category + ')"></span> ' + esc(catLabel[p.category]) + (p.version ? ' · ' + esc(p.version) : '') + (p.languages.length ? ' · ' + esc(p.languages.join(', ')) : '') + '</p>';
-      h += '<p>' + esc(p.description) + '</p>';
-
-      h += '<h4>Documentation</h4><div class="eco-docs">';
-      p.docs.library.forEach(function (l) { h += '<a class="eco-doclink" href="' + esc(l.url) + '"><strong>' + esc(l.namespace) + '</strong> library API<small>gi-docgen · classes, signals, properties</small></a>'; });
-      if (p.docs.source) h += '<a class="eco-doclink" href="' + esc(p.docs.source) + '"><strong>Source reference</strong><small>Doxygen · files, structs, functions</small></a>';
-      h += '<a class="eco-doclink" href="' + esc(p.repo) + '" rel="noopener"><strong>GitHub</strong><small>' + (p.commit ? 'documented at ' + esc(p.commit.slice(0, 10)) + (p.commit_date ? ' · ' + esc(p.commit_date.slice(0, 10)) : '') : 'repository') + '</small></a>';
-      h += '</div>';
-
-      if (p.provides.pkgconfig.length || p.provides.gir.length) {
-        h += '<h4>Provides</h4><div class="eco-tags">';
-        p.provides.pkgconfig.forEach(function (x) { h += '<span class="eco-tag eco-static" title="pkg-config module"><code class="eco-code">' + esc(x) + '.pc</code></span>'; });
-        p.provides.gir.forEach(function (x) { h += '<span class="eco-tag eco-static" title="GObject-Introspection namespace"><code class="eco-code">' + esc(x) + '</code></span>'; });
-        h += '</div>';
-      }
-      h += '<h4>Depends on <span style="color:var(--eco-down)">●</span> ' + p.deps.length + ' direct' + (down > p.deps.length ? ', ' + down + ' in total' : '') + '</h4>';
-      h += tagList(p.deps.map(function (d) { return { name: d.target, optional: d.optional, title: d.kinds.join(', ') + (d.via.length ? ': ' + d.via.join(', ') : '') + (d.optional ? ' (optional)' : '') }; }));
-      h += '<h4>Used by <span style="color:var(--eco-up)">●</span> ' + p.usedBy.length + ' direct' + (up > p.usedBy.length ? ', ' + up + ' in total' : '') + '</h4>';
-      h += tagList(p.usedBy.map(function (u) { return { name: u.name, optional: u.optional, title: u.kinds.join(', ') }; }));
-      if (p.external.length) {
-        h += '<h4>External dependencies</h4><div class="eco-tags">';
-        p.external.forEach(function (x) { h += '<span class="eco-tag eco-static' + (x.optional ? ' eco-opt' : '') + '" title="' + esc(x.modules.join(', ')) + (x.optional ? ' (optional)' : '') + '">' + esc(x.name) + '</span>'; });
-        h += '</div>';
-      }
-      h += '<p style="margin-top:1rem"><button type="button" class="eco-btn" id="eco-clear">Clear selection</button></p>';
-      panel.innerHTML = h;
+      var meta = [catLabel[p.category], p.version, p.languages.join(', ')].filter(Boolean).join(' · ');
+      var docs = p.docs.library.map(function (l) { return docLink(l.url, l.namespace, ' library API', 'gi-docgen · classes, signals, properties'); });
+      if (p.docs.source) docs.push(docLink(p.docs.source, 'Source reference', null, 'Doxygen · files, structs, functions'));
+      docs.push(docLink(p.repo, 'GitHub', null, p.commit ? 'documented at ' + p.commit.slice(0, 10) + (p.commit_date ? ' · ' + p.commit_date.slice(0, 10) : '') : 'repository'));
+      var provides = p.provides.pkgconfig.map(function (x) { return { text: x + '.pc', code: true, title: 'pkg-config module' }; })
+        .concat(p.provides.gir.map(function (x) { return { text: x, code: true, title: 'GObject-Introspection namespace' }; }));
+      fill(panel, [
+        el('h3', { text: p.name }),
+        el('p', { 'class': 'eco-muted' }, [dot(catColor(p.category)), ' ' + meta]),
+        el('p', { text: p.description }),
+        el('h4', { text: 'Documentation' }),
+        el('div', { 'class': 'eco-docs' }, docs),
+        provides.length ? el('h4', { text: 'Provides' }) : null,
+        provides.length ? staticTags(provides) : null,
+        heading('Depends on', 'var(--eco-down)', p.deps.length + ' direct' + (down > p.deps.length ? ', ' + down + ' in total' : '')),
+        tagList(p.deps.map(function (d) { return { name: d.target, optional: d.optional, title: d.kinds.join(', ') + (d.via.length ? ': ' + d.via.join(', ') : '') + (d.optional ? ' (optional)' : '') }; })),
+        heading('Used by', 'var(--eco-up)', p.usedBy.length + ' direct' + (up > p.usedBy.length ? ', ' + up + ' in total' : '')),
+        tagList(p.usedBy.map(function (u) { return { name: u.name, optional: u.optional, title: u.kinds.join(', ') }; })),
+        p.external.length ? el('h4', { text: 'External dependencies' }) : null,
+        p.external.length ? staticTags(p.external.map(function (x) { return { text: x.name, optional: x.optional, title: x.modules.join(', ') + (x.optional ? ' (optional)' : '') }; })) : null,
+        clearButton()
+      ]);
     }
 
     function renderExternal(n) {
       var x = data.external.filter(function (y) { return 'ext:' + y.name === n.id(); })[0];
-      panel.innerHTML = '<h3>' + esc(x.name) + '</h3><p class="eco-muted">External dependency</p>' +
-        '<h4>pkg-config modules</h4><div class="eco-tags">' + x.modules.map(function (m) { return '<span class="eco-tag eco-static"><code class="eco-code">' + esc(m) + '</code></span>'; }).join('') + '</div>' +
-        '<h4>Used by ' + x.used_by.length + '</h4>' + tagList(x.used_by.map(function (u) { return { name: u }; })) +
-        '<p style="margin-top:1rem"><button type="button" class="eco-btn" id="eco-clear">Clear selection</button></p>';
+      fill(panel, [
+        el('h3', { text: x.name }),
+        el('p', { 'class': 'eco-muted', text: 'External dependency' }),
+        el('h4', { text: 'pkg-config modules' }),
+        staticTags(x.modules.map(function (m) { return { text: m, code: true }; })),
+        heading('Used by', null, String(x.used_by.length)),
+        tagList(x.used_by.map(function (u) { return { name: u }; })),
+        clearButton()
+      ]);
     }
 
     function select(id, center) {
@@ -498,7 +532,7 @@ html.dark #mate-eco {
     function clear() {
       current = null;
       cy.elements().removeClass('sel up down faded match');
-      panel.innerHTML = defaultPanel; renderLibDocs();
+      fill(panel, defaultPanel.map(function (n) { return n.cloneNode(true); })); renderLibDocs();
       try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
     }
 
@@ -541,11 +575,11 @@ html.dark #mate-eco {
     function renderLibDocs() {
       var box = document.getElementById('eco-libdocs');
       if (!box) return;
-      var libs = [];
-      data.packages.forEach(function (p) { p.docs.library.forEach(function (l) { libs.push({ p: p, l: l }); }); });
-      box.innerHTML = libs.length ? libs.map(function (x) {
-        return '<a class="eco-doclink" href="' + esc(x.l.url) + '"><strong>' + esc(x.l.namespace) + '</strong><small>' + esc(x.p.name) + ' · ' + esc(x.p.description) + '</small></a>';
-      }).join('') : '<p class="eco-muted">Library reference is generated in CI. Source references for every C package are listed in the table below.</p>';
+      var links = [];
+      data.packages.forEach(function (p) {
+        p.docs.library.forEach(function (l) { links.push(docLink(l.url, l.namespace, null, p.name + ' · ' + p.description)); });
+      });
+      fill(box, links.length ? links : [el('p', { 'class': 'eco-muted', text: 'Library reference is generated in CI. Source references for every C package are listed in the table below.' })]);
     }
     renderLibDocs();
 
