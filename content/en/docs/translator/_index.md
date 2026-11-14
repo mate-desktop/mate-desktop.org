@@ -15,27 +15,29 @@ _("Open Terminal")
 
 These strings are extracted into `.pot` template files during the build. Translators work on per-language `.po` files derived from those templates. Compiled `.mo` files are installed with the package and loaded at runtime based on the user's locale.
 
-MATE uses [Transifex](https://www.transifex.com) to manage this workflow — you do not need to handle `.po` files or Git directly.
+MATE uses [Weblate](https://translate.fedoraproject.org/projects/mate-desktop/) to manage this workflow — you do not need to handle `.po` files or Git directly.
 
-## Getting started on Transifex
+## Getting started on Weblate
+
+MATE translations are hosted on the [Fedora Weblate instance](https://translate.fedoraproject.org/), which syncs completed translations back to the MATE repositories on GitHub.
 
 {{% steps %}}
 
 ### Create an account
 
-Sign up for free at [transifex.com/signup](https://www.transifex.com/signup/).
+Sign up for a free [Fedora Account](https://accounts.fedoraproject.org/) and use it to log in to [translate.fedoraproject.org](https://translate.fedoraproject.org/).
 
 ### Open the MATE project
 
-Go to the [MATE project on Transifex](https://www.transifex.com/projects/p/MATE/).
+Go to the [MATE project on Weblate](https://translate.fedoraproject.org/projects/mate-desktop/). Each MATE package (e.g. `caja`, `pluma`, `mate-panel`) is a separate component.
 
-### Join your language team
+### Pick your language
 
-Find your language in the list and click **Join team**. If your language does not exist yet, you can request it to be added.
+Open a component and select your language. If your language is not listed yet, use **Start new translation** to add it.
 
 ### Start translating
 
-Pick a resource — start with a smaller one like `mate-calc` or `mate-utils` to get familiar with the workflow. Click a string, type the translation, and save.
+Start with a smaller component like `mate-calc` or `mate-utils` to get familiar with the workflow. Use the **Translate** view to step through untranslated strings, type the translation, and save. Weblate shows suggestions, glossary terms and checks for common mistakes as you go.
 
 {{% /steps %}}
 
@@ -66,7 +68,7 @@ msgfmt --check po/de.po
 msgfmt -o po/de.mo po/de.po
 ```
 
-Open a pull request with the updated `.po` file against the relevant package repository if you want to contribute outside of Transifex.
+You can download the `.po` file for any component and language from Weblate (**Files → Download translation**), edit it locally, and upload it back (**Files → Upload translation**). Please submit translations through Weblate rather than opening pull requests with `.po` changes, since Weblate commits to the repositories automatically and direct edits can conflict with it.
 
 ## Testing your translation
 
@@ -83,4 +85,4 @@ Check that:
 
 ## Becoming a language team coordinator
 
-If your language has no active coordinator, you can volunteer to maintain it. Coordinators review suggestions from other contributors and approve translations before they are merged. Contact the MATE team via the [Community](/community) page if you are interested.
+If your language has no active coordinator, you can volunteer to maintain it. Coordinators review suggestions from other contributors on Weblate and keep terminology consistent across components. Contact the MATE team via the [Community](/community) page if you are interested.

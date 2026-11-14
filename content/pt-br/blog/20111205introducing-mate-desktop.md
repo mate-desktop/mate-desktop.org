@@ -1,13 +1,10 @@
-<! -
-.. link:
-.. description:
-.. tags: Arch Linux, Debian, Linux Mint
-.. date: 2011-12-05 12:00:30
-.. título: Apresentando o MATE Desktop
-.. slug: 2011-12-05-introducing-mate-desktop
-.. autor: Clement Lefebvre
-->
-
++++
+title = "Apresentando o MATE Desktop"
+date = "2011-12-05T12:00:30Z"
+slug = "2011-12-05-introducing-mate-desktop"
+tags = ["Arch Linux", "Debian", "Linux Mint"]
+author = "Clement Lefebvre"
++++
 Bem-vindo a Área de Trabalho do MATE!
 
 Gnome 2 era o desktop Linux mais popular, mas não está mais disponível ... MATE está aqui para fornecer a mesma área de trabalho para você `:)`

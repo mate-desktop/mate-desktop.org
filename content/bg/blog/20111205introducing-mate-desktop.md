@@ -1,4 +1,9 @@
 +++
+title = "Introducing MATE Desktop"
+date = "2011-12-05T12:00:30Z"
+slug = "2011-12-05-introducing-mate-desktop"
+tags = ["Arch Linux", "Debian", "Linux Mint"]
+author = "Clement Lefebvre"
 +++
 Добре дошли в настолната среда MATE!
 

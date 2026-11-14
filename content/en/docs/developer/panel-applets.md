@@ -135,6 +135,7 @@ my_applet_factory (MatePanelApplet *applet,
 MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (
     "MyAppletFactory",
     PANEL_TYPE_APPLET,
+    "MyApplet",
     my_applet_factory,
     NULL
 )
