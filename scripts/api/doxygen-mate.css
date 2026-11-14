@@ -1,0 +1,54 @@
+/* MATE accent colours on top of doxygen-awesome-css (matches assets/css/custom.css) */
+html {
+  --primary-color: #789245;
+  --primary-dark-color: #5e7335;
+  --primary-light-color: #9cba5e;
+  --side-nav-fixed-width: 300px;
+  --top-height: 175px; /* room for the MATE links row under the project brief */
+}
+html.dark-mode {
+  --primary-color: #9cba5e;
+  --primary-dark-color: #b5cf80;
+  --primary-light-color: #5e7335;
+}
+
+/* Links under the project name in the sidebar */
+.mate-api-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+.mate-api-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--page-secondary-foreground-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.mate-api-links a:hover { color: var(--primary-color); text-decoration: none; }
+.mate-api-gh span { font-family: var(--font-family-monospace); font-size: 0.75rem; }
+
+.mate-gh-icon { flex: none; vertical-align: middle; }
+
+/* "View source" button next to file titles */
+div.header div.title { display: inline-block; }
+a.mate-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 1rem;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--separator-color);
+  border-radius: var(--border-radius-medium);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--page-foreground-color);
+  background: var(--page-background-color);
+  vertical-align: middle;
+  text-decoration: none;
+}
+a.mate-source-link:hover { border-color: var(--primary-color); color: var(--primary-color); text-decoration: none; }

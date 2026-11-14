@@ -1,0 +1,72 @@
+# MATE packages shown on /docs/api/ (ecosystem graph + API reference).
+#
+# Dependencies, versions, provided libraries and GObject-Introspection
+# namespaces are detected automatically from each repository
+# (configure.ac, meson.build, *.pc.in, .gitmodules, Python sources).
+# Only the category and a short description are maintained here.
+
+[categories]
+libraries    = { label = "Libraries",            order = 1 }
+core         = { label = "Core desktop",         order = 2 }
+applications = { label = "Applications",         order = 3 }
+applets      = { label = "Panel applets",        order = 4 }
+extensions   = { label = "Extensions & plugins", order = 5 }
+artwork      = { label = "Artwork & docs",       order = 6 }
+build        = { label = "Build tooling",        order = 7 }
+
+[packages]
+# Libraries
+mate-desktop          = { category = "libraries",    description = "Library with common API for various MATE modules" }
+mate-menus            = { category = "libraries",    description = "Implementation of the freedesktop.org desktop menu specification" }
+libmatekbd            = { category = "libraries",    description = "Keyboard management library" }
+libmatemixer          = { category = "libraries",    description = "Mixer library for MATE" }
+libmateweather        = { category = "libraries",    description = "Library to access weather information from online services" }
+mate-submodules       = { category = "libraries",    description = "Shared code embedded into other MATE packages as a git submodule" }
+
+# Core desktop
+caja                  = { category = "core",         description = "File manager and desktop icons" }
+marco                 = { category = "core",         description = "Window manager" }
+mate-panel            = { category = "core",         description = "Panel, menus and the panel applet library" }
+mate-session-manager  = { category = "core",         description = "Session manager" }
+mate-settings-daemon  = { category = "core",         description = "Daemon applying desktop settings" }
+mate-control-center   = { category = "core",         description = "Utilities to configure the MATE desktop" }
+mate-notification-daemon = { category = "core",      description = "Daemon displaying passive pop-up notifications" }
+mate-polkit           = { category = "core",         description = "PolicyKit authentication agent" }
+mate-screensaver      = { category = "core",         description = "Screen saver and locker" }
+mate-power-manager    = { category = "core",         description = "Power management" }
+mate-media            = { category = "core",         description = "Volume control and sound settings" }
+mate-wayland-session  = { category = "core",         description = "Session files for running MATE on Wayland" }
+
+# Applications
+atril                 = { category = "applications", description = "Document viewer" }
+engrampa              = { category = "applications", description = "Archive manager" }
+eom                   = { category = "applications", description = "Image viewer (Eye of MATE)" }
+pluma                 = { category = "applications", description = "Text editor" }
+mate-terminal         = { category = "applications", description = "Terminal emulator" }
+mate-calc             = { category = "applications", description = "Calculator" }
+mate-system-monitor   = { category = "applications", description = "Process viewer and system resource monitor" }
+mate-utils            = { category = "applications", description = "Screenshot tool, search tool, dictionary, disk usage analyzer, log viewer" }
+mate-user-share       = { category = "applications", description = "Share files over the network (WebDAV / Bluetooth)" }
+mozo                  = { category = "applications", description = "Menu editor" }
+
+# Panel applets
+mate-applets          = { category = "applets",      description = "Collection of applets for the MATE panel" }
+mate-indicator-applet = { category = "applets",      description = "Panel applet for application indicators" }
+mate-sensors-applet   = { category = "applets",      description = "Displays hardware sensor readings in the panel" }
+mate-netbook          = { category = "applets",      description = "Window title applet and maximus for small screens" }
+
+# Extensions & plugins
+caja-extensions       = { category = "extensions",   description = "Set of extensions for Caja" }
+caja-actions          = { category = "extensions",   description = "Configurable custom actions for Caja" }
+caja-dropbox          = { category = "extensions",   description = "Dropbox integration for Caja" }
+python-caja           = { category = "extensions",   description = "Python bindings for Caja extensions" }
+pluma-plugins         = { category = "extensions",   description = "Additional plugins for Pluma" }
+
+# Artwork & docs
+mate-themes           = { category = "artwork",      description = "Official GTK and window manager themes" }
+mate-icon-theme       = { category = "artwork",      description = "Default icon theme" }
+mate-backgrounds      = { category = "artwork",      description = "Default desktop backgrounds" }
+mate-user-guide       = { category = "artwork",      description = "MATE Desktop User Guide" }
+
+# Build tooling
+mate-common           = { category = "build",        description = "Common autotools macros and scripts for MATE" }
