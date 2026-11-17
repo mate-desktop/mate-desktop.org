@@ -53,7 +53,7 @@ jobs:
 
       - name: Restore library docs
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: static/docs/api/lib
           key: ${{ steps.key.outputs.key }}
