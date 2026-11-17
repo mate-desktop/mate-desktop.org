@@ -108,7 +108,7 @@ jobs:
             https://github.com/jothepro/doxygen-awesome-css.git .cache/doxygen-awesome-css
 
       - name: Download library reference
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: library-docs
           path: static/docs/api/lib
