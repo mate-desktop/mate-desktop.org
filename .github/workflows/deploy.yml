@@ -49,7 +49,7 @@ jobs:
         run: |
           key=$(for r in mate-desktop mate-menus libmatekbd libmateweather mate-panel caja eom pluma atril; do
                   git -C "$MATE_SRC/$r" rev-parse HEAD; done | sha256sum | cut -c1-16)
-          echo "key=libdocs-${key}-${{ hashFiles('scripts/api/mateapi.py') }}" >> "$GITHUB_OUTPUT"
+          echo "key=libdocs-${key}-${{ hashFiles('scripts/api/mateapi.py', '.github/workflows/deploy.yml') }}" >> "$GITHUB_OUTPUT"
 
       - name: Restore library docs
         id: cache
@@ -64,7 +64,7 @@ jobs:
           sudo sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/ubuntu.sources
           sudo apt-get update -qq
           sudo apt-get build-dep -y -qq mate-desktop mate-menus libmatekbd libmateweather mate-panel caja eom pluma atril
-          sudo apt-get install -y -qq gi-docgen gobject-introspection libgirepository1.0-dev meson ninja-build \
+          sudo apt-get install -y -qq gi-docgen gobject-introspection libgirepository1.0-dev meson ninja-build desktop-file-utils gtk-update-icon-cache \
             autoconf-archive yelp-tools gtk-doc-tools
           # mate-common provides the autotools macros the libraries need
           (cd "$MATE_SRC/mate-common" && ./autogen.sh --prefix="$GIR_PREFIX" && make install)
