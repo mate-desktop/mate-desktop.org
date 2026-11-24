@@ -1,9 +1,17 @@
+{{- /* Public members of a GitHub organisation, fetched at build time.
+     Set HUGO_GITHUB_TOKEN (CI passes the workflow token) to avoid the
+     60 requests/hour limit for anonymous API calls, which shared CI
+     runners exhaust easily. */ -}}
 {{- $org := .Get 0 | default "mate-desktop" -}}
-{{- $url := printf "https://api.github.com/orgs/%s/members?per_page=100" $org -}}
-{{- $opts := dict "headers" (dict "Accept" "application/vnd.github+json" "X-GitHub-Api-Version" "2022-11-28") -}}
-{{- with try (resources.GetRemote $url $opts) -}}
+{{- $url := printf "https://api.github.com/orgs/%s/public_members?per_page=100" $org -}}
+{{- $headers := dict "Accept" "application/vnd.github+json" "X-GitHub-Api-Version" "2022-11-28" -}}
+{{- with getenv "HUGO_GITHUB_TOKEN" -}}
+  {{- $headers = merge $headers (dict "Authorization" (printf "Bearer %s" .)) -}}
+{{- end -}}
+{{- with try (resources.GetRemote $url (dict "headers" $headers)) -}}
   {{- with .Err -}}
-    <p class="text-sm text-gray-500">Could not load team data.</p>
+    {{- warnf "github-members: could not fetch members of %s: %s" $org . -}}
+    <p class="text-sm text-gray-500">Could not load team data. See the <a href="https://github.com/orgs/{{ $org }}/people" target="_blank" rel="noopener">{{ $org }} members on GitHub</a>.</p>
   {{- else -}}
     {{- $members := .Value | transform.Unmarshal -}}
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1.5rem;margin:1.5rem 0;">
