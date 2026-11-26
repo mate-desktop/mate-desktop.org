@@ -1,7 +1,7 @@
 components:
   - name: Website UI Strings
     slug: website-ui
-    file_format: hugo
+    file_format: yaml
     filemask: i18n/*.yaml
     template: i18n/en.yaml
     new_base: i18n/en.yaml
