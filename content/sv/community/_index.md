@@ -19,7 +19,7 @@ Du kan ställa frågor och diskutera MATE på bland annat:
 
 ## Evenemang
 
-MATE-teamet deltar i Linuxkonferenser och andra evenemang. Håll utkik på [nyhetssidan](/blog) efter meddelanden.
+MATE-teamet deltar i Linuxkonferenser och andra evenemang. Håll utkik på [nyhetssidan](/sv/blog/) efter meddelanden.
 
 ## Uppförandekod
 
@@ -27,6 +27,6 @@ MATE-gemenskapen vill vara välkomnande och inkluderande. Behandla andra med res
 
 ## Få hjälp
 
-1. Läs [dokumentationen](/docs).
+1. Läs [dokumentationen](/sv/docs/).
 2. Sök bland befintliga ärenden på [GitHub](https://github.com/mate-desktop).
 3. Fråga i Matrix eller i ett distributionsforum.
