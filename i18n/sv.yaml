@@ -1,0 +1,11 @@
+# Menu items
+download: Ladda ned
+documentation: Dokumentation
+blog: Nyheter
+about: Om MATE
+community: Gemenskap
+
+# Theme strings
+readMore: "Läs mer →"
+copyright: "© 2026 MATE Desktop Team."
+poweredBy: "Drivs med Hugo och Hextra"
