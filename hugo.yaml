@@ -117,6 +117,12 @@ languages:
     locale: 'uk'
     weight: 16
     title: 'MATE Desktop Environment'
+  sv:
+    contentDir: content/sv
+    label: 'Svenska'
+    locale: 'sv'
+    weight: 17
+    title: 'MATE-skrivbordsmiljön'
 
 params:
   description: 'MATE Desktop Environment - A continuation of GNOME 2'

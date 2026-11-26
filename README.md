@@ -99,8 +99,17 @@ The site supports multiple languages:
 - Català
 - 简体中文
 - 繁體中文
+- עברית
+- Polski
+- Português
+- Português (Brasil)
+- Русский
+- Srpski
+- Українська
+- Svenska
 
-Translations are managed via filename suffixes (e.g., `_index.de.md` for German).
+The language configuration and localized pages are in `hugo.yaml` and `content/<language-code>/`.
+Theme and interface strings live in `i18n/*.yaml`; `.weblate.yml` defines the Weblate component.
 
 ## License
 
