@@ -16,4 +16,4 @@ Den fullständiga dokumentationen finns för närvarande på engelska:
 
 ## Bidra
 
-MATE är fri programvara. Alla förbättringar är välkomna, oavsett om det gäller kod, bilder, dokumentation eller översättningar. Se [källkoden på GitHub](https://github.com/mate-desktop) och delta i [gemenskapen](/community).
+MATE är fri programvara. Alla förbättringar är välkomna, oavsett om det gäller kod, bilder, dokumentation eller översättningar. Se [källkoden på GitHub](https://github.com/mate-desktop) och delta i [gemenskapen](/sv/community/).
