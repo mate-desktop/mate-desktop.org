@@ -13,5 +13,5 @@ MATE välkomnar nya bidragsgivare. Du kan skriva kod, förbättra dokumentatione
 {{< cards >}}
   {{< card link="https://mate-desktop.org/docs/developer/first-contribution/" title="Ditt första bidrag (engelska)" icon="pencil" >}}
   {{< card link="https://mate-desktop.org/docs/translator/" title="Översättning (engelska)" icon="translate" >}}
-  {{< card link="/community" title="Gemenskap" icon="chat" >}}
+  {{< card link="/sv/community/" title="Gemenskap" icon="chat" >}}
 {{< /cards >}}
