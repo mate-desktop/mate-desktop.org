@@ -24,9 +24,9 @@ layout: hextra-home
 MATE bygger vidare på GNOME 2:s klassiska skrivbordsupplevelse. Paneler, menyer och fönsterhantering ger en välbekant arbetsmiljö som är lätt att anpassa.
 
 {{< cards >}}
-  {{< card link="/about" title="Läs mer om MATE" icon="newspaper" >}}
-  {{< card link="/download" title="Hämta MATE" icon="download" >}}
-  {{< card link="/community" title="Träffa gemenskapen" icon="chat" >}}
+  {{< card link="/sv/about/" title="Läs mer om MATE" icon="newspaper" >}}
+  {{< card link="/sv/download/" title="Hämta MATE" icon="download" >}}
+  {{< card link="/sv/community/" title="Träffa gemenskapen" icon="chat" >}}
 {{< /cards >}}
 
 ## Funktioner
@@ -67,6 +67,6 @@ MATE Terminal ger tillgång till ett Unix-skal och kan visa flera terminalflikar
 
 ## Nyheter
 
-Besök [nyhetssidan](/blog) för de senaste inläggen. Svensk översättning av äldre nyheter publiceras när den finns tillgänglig.
+Besök [nyhetssidan](/sv/blog/) för de senaste inläggen. Svensk översättning av äldre nyheter publiceras när den finns tillgänglig.
 
 </div>
