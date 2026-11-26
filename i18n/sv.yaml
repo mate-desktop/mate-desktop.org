@@ -1,11 +1,54 @@
-# Menu items
-download: Ladda ned
-documentation: Dokumentation
-blog: Nyheter
-about: Om MATE
-community: Gemenskap
+# Accessibility labels (screen reader only)
+closeBanner: "Stäng bannern"
+imageGallery: "Bildgalleri"
+menu: "Meny"
+mermaidDiagram: "Mermaid-diagram"
+nextImage: "Nästa bild"
+pdfViewer: "PDF-visare"
+permalinkLabel: "Permalänk till det här avsnittet"
+playbackTime: "Uppspelningstid"
+previousImage: "Föregående bild"
+searchResults: "Sökresultat"
+skipToContent: "Hoppa till innehållet"
+tableOfContents: "Innehållsförteckning"
+terminalRecording: "Terminalinspelning"
+togglePageContextMenu: "Visa eller dölj sidans snabbmeny"
+toggleSection: "Visa eller dölj avsnitt"
 
-# Theme strings
-readMore: "Läs mer →"
+# Accessibility live-region/status text
+resultsFound: "%d resultat hittades"
+
+# User-facing UI text
+archives: "Arkiv"
+backToTop: "Tillbaka till toppen"
+changeLanguage: "Byt språk"
+changeTheme: "Byt tema"
+copy: "Kopiera"
+copied: "Kopierat!"
+copyAsMarkdown: "Kopiera som Markdown"
+copyPage: "Kopiera sidan"
+copyCode: "Kopiera koden"
 copyright: "© 2026 MATE Desktop Team."
+dark: "Mörkt"
+documentation: "Dokumentation"
+download: "Ladda ned"
+editThisPage: "Redigera sidan på GitHub →"
+lastUpdated: "Senast uppdaterad"
+light: "Ljust"
+more: "Mer"
+next: "Nästa"
+noResultsFound: "Inga resultat hittades."
+onThisPage: "På den här sidan"
 poweredBy: "Drivs med Hugo och Hextra"
+previous: "Föregående"
+readMore: "Läs mer →"
+searchPlaceholder: "Sök..."
+system: "System"
+tags: "Taggar"
+viewAsMarkdown: "Visa som Markdown"
+
+# Website navigation
+about: "Om MATE"
+blog: "Nyheter"
+community: "Gemenskap"
+team: "Team"
